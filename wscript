@@ -11,12 +11,12 @@ TESTRESULTSDIR = 'results/tests'
 STANDARDS = 'standards'
 
 # set the font name, version, licensing and description
-APPNAME="Lateef"
+APPNAME="LateefGR"
 VERSION="1.200"
 COPYRIGHT="Copyright (c) 2004-2016, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 
-DESC_NAME = "Lateef"
+DESC_NAME = "LateefGR"
 DESC_SHORT = "Unicode Arabic font for southern Asia"
 DESC_LONG = """
 Lateef is an extended Arabic script font designed by SIL International.
@@ -31,7 +31,7 @@ used for building, testing and releasing.
 
 DEBPKG = 'fonts-sil-lateef'
 
-font(target = 'results/Lateef-Regular.ttf',
+font(target = process('LateefGR-Regular.ttf', name('LateefGR')),
 	source = 'source/LateefReg.ttf',
 	graphite = gdl('Lateef-Regular.gdl',
 		master = 'source/master.gdl',
