@@ -1,4 +1,4 @@
-Copyright (c) 1994-2008, SIL International (http://www.sil.org/).
+Copyright (c) 1994-2016, SIL International (http://www.sil.org/).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1,
 with Reserved Font Names "Lateef" and "SIL".

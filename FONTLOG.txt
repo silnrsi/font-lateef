@@ -20,18 +20,21 @@ simplified style is often preferred for clarity, especially in non-Arabic
 languages, but may be considered unattractive in more traditional and 
 literate communities.
 
-One font from this typeface family is included in this release:
+One font from this typeface family is included:
 
-     * Lateef Regular
+     * LateefGR Regular
 
 This release supports virtually all of the Unicode 5.0 Arabic character 
 repertoire (excluding the Arabic Presentation Forms blocks, which are not 
-recommended for normal use). Font smarts are implemented using OpenType 
+recommended for normal use). Font smarts are implemented using Graphite 
 technology.
 
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
+
+2016-03-23 (SIL NRSI team) LateefGR Version 1.200
+- First commit to GitHub for Graphite development work
 
 2008-11-06 (SIL NRSI team) Lateef Version 1.001
 - Re-released under OFL

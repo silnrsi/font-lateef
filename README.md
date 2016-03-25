@@ -1,30 +1,29 @@
-Lateef Font
-==========
+# Lateef Graphite Font
 
 Lateef is an extended Arabic script font designed by SIL International for
-modern Unicode-based systems. It supports virtually all of the
-Unicode 4.1 Arabic character repertoire (excluding the Arabic Presentation Forms
-blocks, which are not recommended for normal use). Lateef is currently available
-in Regular weight only.
+modern Unicode-based systems.
 
-Lateef is named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and
-poet. It is intended to be an appropriate style for use in Sindhi and other
-languages of the southern Asia.
+Named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and
+poet, this font is intended to be an appropriate style for use in
+Sindhi and other languages of the southern Asia.
 
-Lateef provides a “simplified” rendering of Arabic script, using basic
-connecting glyphs but not including a wide variety of additional ligatures or
-contextual alternates (only the required lam-alef ligatures). This simplified
-style is often preferred for clarity, especially in non-Arabic languages, but
-may be considered unattractive in more traditional and literate communities.
+## Project status
 
-Lateef is released under the SIL Open Font License.
-Lateef is a trademark of SIL International.
-	
-See the OFL and OFL-FAQ for details of the SIL Open Font License.
-See the FONTLOG for information on this and previous releases.
+This is an **unreleased development** effort currently focused on the following goals:
+
+- Implement shaping behavior consistent with
+[Lateef 1.001](http://www.sil.org/resources/software_fonts/lateef) but using [SIL Graphite](https://graphite.sil.org) technology rather than OpenType.
+- Build the font using [SMITH](https://github.com/silnrsi/smith) toolchain.
+
+See the FONTLOG.txt for information on this and previous releases.
+
+## License
+
+Lateef is licensed under the SIL Open Font License. See OFL.txt and OFL-FAQ.txt for details.
+
+## See also
 
 For further information about this font, including Unicode ranges
-supported, Graphite and OpenType font features and how to use them, 
-and licensing, please see the documentation on the website 
-(http://scripts.sil.org/Lateef) or in the documentation 
+supported, Graphite and OpenType font features and how to use them,
+and licensing, please see the documentation on [the website]((http://www.sil.org/resources/software_fonts/lateef) or in the documentation
 subfolder of this font package.
