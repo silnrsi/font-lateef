@@ -1,0 +1,1573 @@
+Name	Order	USV	Dir	shapeOrder	Fonts	base	above	below	center	ring	through	aboveLeft	MirrorGlyph	UnicodeVer	old name / commet	bcp47tags	OTLang	Feat
+.notdef	0			0	*													
+.null	1			1	*													
+CR	2			2	*													
+space	3	0020		3	*													
+tab	4			4	*													
+exclam	5	0021		5	*													
+exclam.arab	6			6	L													
+quotedbl	7	0022		7	*													
+numbersign	8	0023		8	*													
+dollar	9	0024		9	*													
+percent	10	0025		10	*													
+ampersand	11	0026		11	*													
+quotesingle	12	0027		12	*													
+parenleft	13	0028		13	*								parenright					
+parenright	14	0029		14	*								parenleft					
+parenleft.arab	15			15	L								parenright.arab					
+parenright.arab	16			16	L								parenleft.arab					
+asterisk	17	002A		17	*													
+asterisk.arab	18			18	L													
+plus	19	002B		19	*													
+comma	20	002C		20	*													
+hyphenminus	21	002D		21	*													
+period	22	002E		22	*													
+period.test	23			23	*													
+slash	24	002F		24	*													
+zero	25	0030		25	*													
+one	26	0031		26	*													
+two	27	0032		27	*													
+three	28	0033		28	*													
+four	29	0034		29	*													
+five	30	0035		30	*													
+six	31	0036		31	*													
+seven	32	0037		32	*													
+eight	33	0038		33	*													
+nine	34	0039		34	*													
+colon	35	003A		35	*													
+colon.arab	36			36	L													
+semicolon	37	003B		37	*													
+less	38	003C		38	*													
+equal	39	003D		39	*													
+greater	40	003E		40	*													
+question	41	003F		41	*													
+at	42	0040		42	*													
+A	43	0041		43	*													
+B	44	0042		44	*													
+C	45	0043		45	*													
+D	46	0044		46	*													
+E	47	0045		47	*													
+F	48	0046		48	*													
+G	49	0047		49	*													
+H	50	0048		50	*													
+I	51	0049		51	*													
+J	52	004A		52	*													
+K	53	004B		53	*													
+L	54	004C		54	*													
+M	55	004D		55	*													
+N	56	004E		56	*													
+O	57	004F		57	*													
+P	58	0050		58	*													
+Q	59	0051		59	*													
+R	60	0052		60	*													
+S	61	0053		61	*													
+T	62	0054		62	*													
+U	63	0055		63	*													
+V	64	0056		64	*													
+W	65	0057		65	*													
+X	66	0058		66	*													
+Y	67	0059		67	*													
+Z	68	005A		68	*													
+bracketleft	69	005B		69	*								bracketright					
+backslash	70	005C		70	*													
+bracketright	71	005D		71	*								bracketleft					
+asciicircum	72	005E		72	*													
+underscore	73	005F		73	*													
+grave	74	0060		74	*													
+a	75	0061		75	*													
+b	76	0062		76	*													
+c	77	0063		77	*													
+d	78	0064		78	*													
+e	79	0065		79	*													
+f	80	0066		80	*													
+g	81	0067		81	*													
+h	82	0068		82	*													
+i	83	0069		83	*													
+j	84	006A		84	*													
+k	85	006B		85	*													
+l	86	006C		86	*													
+m	87	006D		87	*													
+n	88	006E		88	*													
+o	89	006F		89	*													
+p	90	0070		90	*													
+q	91	0071		91	*													
+r	92	0072		92	*													
+s	93	0073		93	*													
+t	94	0074		94	*													
+u	95	0075		95	*													
+v	96	0076		96	*													
+w	97	0077		97	*													
+x	98	0078		98	*													
+y	99	0079		99	*													
+z	100	007A		100	*													
+braceleft	101	007B		101	*								braceright					
+bar	102	007C		102	*													
+braceright	103	007D		103	*								braceleft					
+asciitilde	104	007E		104	*													
+Euro	105	20AC		105	*													
+quotesinglbase	106	201A		106	*													
+florin	107	0192		107	*													
+quotedblbase	108	201E		108	*													
+ellipsis	109	2026		109	*													
+dagger	110	2020		110	*													
+daggerdbl	111	2021		111	*													
+circumflex	112	02C6		112	*													
+perthousand	113	2030		113	*													
+Scaron	114	0160		114	*	S	caron											
+guilsinglleft	115	2039		115	*								guilsinglright					
+OE	116	0152		116	*													
+Zcaron	117	017D		117	*	Z	caron											
+caron	118	02C7		118	*													
+ring	119	02DA		119	*													
+quoteleft	120	2018		120	*													
+quoteright	121	2019		121	*													
+quotedblleft	122	201C		122	*													
+quotedblright	123	201D		123	*													
+quoteleft.arab	124			124	L													
+quoteright.arab	125			125	L													
+quotedblleft.arab	126			126	L													
+quotedblright.arab	127			127	L													
+bullet	128	2022		128	*													
+endash	129	2013		129	*													
+emdash	130	2014		130	*													
+tilde	131	02DC		131	*													
+trademark	132	2122		132	*													
+scaron	133	0161		133	*	s	caron											
+guilsinglright	134	203A		134	*								guilsinglleft					
+oe	135	0153		135	*													
+zcaron	136	017E		136	*	z	caron											
+Ydieresis	137	0178		137	*	Y	dieresis											
+nobreakspace	138	00A0		138	*													
+exclamdown	139	00A1		139	*													
+cent	140	00A2		140	*													
+sterling	141	00A3		141	*													
+currency	142	00A4		142	*													
+yen	143	00A5		143	*													
+brokenbar	144	00A6		144	*													
+section	145	00A7		145	*													
+dieresis	146	00A8		146	*													
+copyright	147	00A9		147	*													
+ordfeminine	148	00AA		148	*													
+guillemotleft	149	00AB		149	*								guillemotright					
+logicalnot	150	00AC		150	*													
+sfthyphen	151	00AD		151	*													
+registered	152	00AE		152	*													
+overscore	153	00AF		153	*													
+modMacron	154	02C9		154	*													
+degree	155	00B0		155	*													
+plusminus	156	00B1		156	*													
+twosuperior	157	00B2		157	*													
+threesuperior	158	00B3		158	*													
+acute	159	00B4		159	*													
+micro	160	00B5		160	*													
+paragraph	161	00B6		161	*													
+periodcentered	162	00B7		162	*													
+bulletOperator	163	2219		163	*													
+cedilla	164	00B8		164	*													
+onesuperior	165	00B9		165	*													
+ordmasculine	166	00BA		166	*													
+guillemotright	167	00BB		167	*								guillemotleft					
+onequarter	168	00BC		168	*													
+onehalf	169	00BD		169	*													
+threequarters	170	00BE		170	*													
+questiondown	171	00BF		171	*													
+Agrave	172	00C0		172	*	A	grave											
+Aacute	173	00C1		173	*	A	acute											
+Acircumflex	174	00C2		174	*	A	circumflex											
+Atilde	175	00C3		175	*	A	tilde											
+Adieresis	176	00C4		176	*	A	dieresis											
+Aring	177	00C5		177	*	A	ring											
+AE	178	00C6		178	*													
+Ccedilla	179	00C7		179	*	C		cedilla										
+Egrave	180	00C8		180	*	E	grave											
+Eacute	181	00C9		181	*	E	acute											
+Ecircumflex	182	00CA		182	*	E	circumflex											
+Edieresis	183	00CB		183	*	E	dieresis											
+Igrave	184	00CC		184	*	I	grave											
+Iacute	185	00CD		185	*	I	acute											
+Icircumflex	186	00CE		186	*	I	circumflex											
+Idieresis	187	00CF		187	*	I	dieresis											
+Eth	188	00D0		188	*													
+Ntilde	189	00D1		189	*	N	tilde											
+Ograve	190	00D2		190	*	O	grave											
+Oacute	191	00D3		191	*	O	acute											
+Ocircumflex	192	00D4		192	*	O	circumflex											
+Otilde	193	00D5		193	*	O	tilde											
+Odieresis	194	00D6		194	*	O	dieresis											
+multiply	195	00D7		195	*													
+Oslash	196	00D8		196	*													
+Ugrave	197	00D9		197	*	U	grave											
+Uacute	198	00DA		198	*	U	acute											
+Ucircumflex	199	00DB		199	*	U	circumflex											
+Udieresis	200	00DC		200	*	U	dieresis											
+Yacute	201	00DD		201	*	Y	acute											
+Thorn	202	00DE		202	*													
+germandbls	203	00DF		203	*													
+agrave	204	00E0		204	*	a	grave											
+aacute	205	00E1		205	*	a	acute											
+acircumflex	206	00E2		206	*	a	circumflex											
+atilde	207	00E3		207	*	a	tilde											
+adieresis	208	00E4		208	*	a	dieresis											
+aring	209	00E5		209	*	a	ring											
+ae	210	00E6		210	*													
+ccedilla	211	00E7		211	*	c		cedilla										
+egrave	212	00E8		212	*	e	grave											
+eacute	213	00E9		213	*	e	acute											
+ecircumflex	214	00EA		214	*	e	circumflex											
+edieresis	215	00EB		215	*	e	dieresis											
+igrave	216	00EC		216	*	dotlessi	grave											
+iacute	217	00ED		217	*	dotlessi	acute											
+icircumflex	218	00EE		218	*	dotlessi	circumflex											
+idieresis	219	00EF		219	*	dotlessi	dieresis											
+eth	220	00F0		220	*													
+ntilde	221	00F1		221	*	n	tilde											
+ograve	222	00F2		222	*	o	grave											
+oacute	223	00F3		223	*	o	acute											
+ocircumflex	224	00F4		224	*	o	circumflex											
+otilde	225	00F5		225	*	o	tilde											
+odieresis	226	00F6		226	*	o	dieresis											
+divide	227	00F7		227	*													
+oslash	228	00F8		228	*													
+ugrave	229	00F9		229	*	u	grave											
+uacute	230	00FA		230	*	u	acute											
+ucircumflex	231	00FB		231	*	u	circumflex											
+udieresis	232	00FC		232	*	u	dieresis											
+yacute	233	00FD		233	*	y	acute											
+thorn	234	00FE		234	*													
+ydieresis	235	00FF		235	*	y	dieresis											
+dotlessi	236	0131		236	*													
+enQuad	237	2000		237	*													
+emQuad	238	2001		238	*													
+enSpace	239	2002		239	*													
+emSpace	240	2003		240	*													
+threePerEmSpace	241	2004		241	*													
+fourPerEmSpace	242	2005		242	*													
+sixPerEmSpace	243	2006		243	*													
+figureSpace	244	2007		244	*													
+punctuationSpace	245	2008		245	*													
+thinSpace	246	2009		246	*													
+hairSpace	247	200A		247	*													
+zerospace	248	200B		248	*													
+zeronojoin	249	200C		249	*													invs
+zerojoin	250	200D		250	*													invs
+leftToRightMark	251	200E		251	*													invs
+rightToLeftMark	252	200F		252	*													invs
+hyphen	253	2010		253	*													
+noBreakHyphen	254	2011		254	*													
+figureDash	255	2012		255	*									JIRA ABS-3				
+horizontalBar	256	2015		256	*									JIRA ABS-3				
+hyphenationPoint	257	2027		257	*									JIRA ABS-3				
+lineSeparator	258	2028		258	*													
+paragraphSeparator	259	2029		259	*													
+leftToRightEmbedding	260	202A		260	*													invs
+rightToLeftEmbedding	261	202B		261	*													invs
+popDirectionalFormatting	262	202C		262	*													invs
+leftToRightOverride	263	202D		263	*													invs
+rightToLeftOverride	264	202E		264	*													invs
+narrowNoBreakSpace	265	202F		265	*									JIRA ABS-3				
+wordJoiner	266	2060		266	*													
+inhibitArabicFormShaping	267	206C		267	*													
+activateArabicFormShaping	268	206D		268	*													
+leftToRightIsolate	269	2066		269	*									6.3				invs
+rightToLeftIsolate	270	2067		270	*									6.3				invs
+firstStrongIsolate	271	2068		271	*									6.3				invs
+popDirectionalIsolate	272	2069		272	*									6.3				invs
+minus	273	2212		273	*													
+circledash	274	25CC		274	*													
+FontBslnSideBrngMrkrLft	275	F130		275	*													
+FontBslnSideBrngMrkrRt	276	F131		276	*													
+zeroWidthNoBreakSpace	277	FEFF		277	*													
+absAlefMaddaAbove	278	0622	AL	279	SHLM	absAlef	_madda											
+absAlefMaddaAbove.small	279		AL	280	SH	absAlef	_madda.small											cv60=1
+absAlefHamzaAbove	280	0623	AL	281	SHLM	absAlef	_hamza											
+absAlefHamzaAbove.warsh	281		AL	282	H	absAlef	_hamza								in Warsh these touch			"cv02=1,2"
+absAlefHamzaBelow	282	0625	AL	283	SHLM	absAlef		_hamza										
+absAlefHamzaBelow.warsh	283		AL	284	H	absAlef		_hamza							in Warsh these touch			"cv02=1,2"
+absAlef	284	0627	AL	278	*													
+absAlefWavyHamzaAbove	285	0672	AL	285	SL	absAlef	_wavyHamza											
+absAlefWavyHamzaBelow	286	0673	AL	286	SL	absAlef		_wavyHamza										
+absHighHamzaAlef	287	0675	AL	287	SL	absAlef	_highHamza											
+absAlefWasla	288	0671	AL	288	SHL	absAlef	_wasla											
+absAlefDigitTwoAbove	289	0773	AL	289	S	absAlef						_two		5.1				
+absAlefDigitThreeAbove	290	0774	AL	290	S	absAlef						_three		5.1				
+absAlefFatha	291		AL	291	H	absAlef	absFatha											
+absAlefFatha.warsh	292		AL	292	H	absAlef	absFatha								in Warsh these touch			cv02=2
+absAlefKasra	293		AL	293	H	absAlef	absKasra											
+absAlefKasra.warsh	294		AL	294	H	absAlef	absKasra								in Warsh these touch			cv02=2
+absWawHamzaAbove	295	0624	AL	309	SHLM	absWaw	_hamza											
+absWaw	296	0648	AL	308	*													
+absHighHamzaWaw	297	0676	AL	310	SL	absWaw	_highHamza											
+absUHamzaAbove	298	0677	AL	311	SL	absWaw	_hamzaDamma											
+absUHamzaAbove.filled	299		AL	312	S	absWaw	_hamzaDamma.filled											cv50=1
+absWawRing	300	06C4	AL	313	SL	absWaw				_ring								
+absKirghizOe	301	06C5	AL	314	SL	absWaw					_bar							
+absOe	302	06C6	AL	315	SHLM	absWaw	_smallV											
+absU	303	06C7	AL	316	SL	absWaw	_damma											
+absU.filled	304		AL	317	S	absWaw	_damma.filled											cv50=1
+absYu	305	06C8	AL	318	SHLM	absWaw	_vline											
+absKirghizYu	306	06C9	AL	319	SHLM	absWaw	_hat											
+absWawTwoDotsAbove	307	06CA	AL	320	SHL	absWaw	_dot2h											
+absVe	308	06CB	AL	321	SHL	absWaw	_dot3u											
+absWawDotAbove	309	06CF	AL	322	SHL	absWaw	_dot1											
+absWawDigitTwoAbove	310	0778	AL	323	S	absWaw	_two							5.1				
+absWawDigitThreeAbove	311	0779	AL	324	S	absWaw	_three							5.1				
+# absWawDotBelow	312		AL	1516	-	absWaw		_dot1										
+absWawDotWithin	313	08AB	AL	325	S	absWaw			_dot1					6.1				
+absDal	314	062F	AL	346	*													
+absThal	315	0630	AL	347	SHLM	absDal	_dot1											
+absDdal	316	0688	AL	348	SL	absDal	_tah											
+absDalRing	317	0689	AL	349	SHLM	absDal				_ring								
+absDalDotBelow	318	068A	AL	350	SHL	absDal		_dot1										
+absDalDotBelowSmallTah	319	068B	AL	351	SHLM	absDal	_tah	_dot1										
+absDahal	320	068C	AL	352	SHL	absDal	_dot2h											
+absDdahal	321	068D	AL	353	SHL	absDal		_dot2h										
+absDul	322	068E	AL	354	SHL	absDal	_dot3u											
+absDalThreeDotsAboveDownwards	323	068F	AL	355	SHLM	absDal	_dot3d											
+absDalFourDotsAbove	324	0690	AL	356	SL	absDal	_dot4											
+absDalHat	325	06EE	AL	357	SHL	absDal	_hat											
+absDalTwoVertBelowSmallTah	326	0759	AL	358	SL	absDal	_tah	_dot2v										
+absDalInvSmallVBelow	327	075A	AL	359	SHL	absDal		_invSmallV										
+absDalThreeDotsBelow	328	08AE	AL	360	SH	absDal		_dot3d						7.0				
+absDal.sen	329		AL	361	S										Senegal variant from Mark			cv12=1
+absThal.sen	330		AL	362	S	absDal.sen	_dot1								Senegal variant from Mark			cv12=1
+absDdal.sen	331		AL	363	S	absDal.sen	_tah								Senegal variant from Mark			cv12=1
+absDalRing.sen	332		AL	364	S	absDal.sen				_ring					Senegal variant from Mark			cv12=1
+absDalDotBelow.sen	333		AL	365	S	absDal.sen		_dot1							Senegal variant from Mark			cv12=1
+absDalDotBelowSmallTah.sen	334		AL	366	S	absDal.sen	_tah	_dot1							Senegal variant from Mark			cv12=1
+absDahal.sen	335		AL	367	S	absDal.sen	_dot2h								Senegal variant from Mark			cv12=1
+absDdahal.sen	336		AL	368	S	absDal.sen		_dot2h							Senegal variant from Mark			cv12=1
+absDul.sen	337		AL	369	S	absDal.sen	_dot3u								Senegal variant from Mark			cv12=1
+absDalThreeDotsAboveDownwards.sen	338		AL	370	S	absDal.sen	_dot3d								Senegal variant from Mark			cv12=1
+absDalFourDotsAbove.sen	339		AL	371	S	absDal.sen	_dot4								Senegal variant from Mark			cv12=1
+absDalHat.sen	340		AL	372	S	absDal.sen	_hat								Senegal variant from Mark			cv12=1
+absDalTwoVertBelowSmallTah.sen	341		AL	373	S	absDal.sen	_tah	_dot2v							Senegal variant from Mark			cv12=1
+absDalInvSmallVBelow.sen	342		AL	374	S	absDal.sen		_invSmallV							Senegal variant from Mark			cv12=1
+absDalThreeDotsBelow.sen	343		al	375	S	absDal.sen		_dot3d						7.0	Senegal variant from Mark			cv12=1
+absReh	344	0631	AL	391	*													
+absZain	345	0632	AL	392	SHLM	absReh	_dot1											
+absRreh	346	0691	AL	393	SL	absReh	_tah											
+absRehSmallNoonAbove	347	08B9	AL	394	S	absReh	_noon							pending				
+absRehSmallV	348	0692	AL	395	SHL	absReh	_smallV											
+absRehRing	349	0693	AL	396	SL	absReh				_ring								
+absRehDotBelow	350	0694	AL	397	SHL	absReh		_dot1										
+absRehSmallVBelow	351	0695	AL	398	SHL	absReh		_smallV										
+absRehDotBelowDotAbove	352	0696	AL	399	SL	absReh		_dot1	_dot1									
+absRehTwoDotsAbove	353	0697	AL	400	SHL	absReh	_dot2h											
+absJeh	354	0698	AL	401	SHLM	absReh	_dot3u											cv90
+absRehFourDotsAbove	355	0699	AL	402	SL	absReh	_dot4											
+absRehTwoVertAbove	356	076B	AL	403	SHL	absReh	_dot2v											
+absRehHamzaAbove	357	076C	AL	404	SL	absReh	_hamza											
+absRehSmallTahTwoDots	358	0771	AL	405	SL	absReh	_dot2h_tah							5.1				
+# absJehRetro2	359		AL	1517	-	absReh	_dot3u_tah											
+absZainHat	360	08B2	AL	406	SHLM	absReh	_dot1_hat							pending	absJeh.dotHat			# cv90=1
+absRehHat	361	06EF	AL	407	SHL	absReh	_hat											
+absRehBar	362	075B	AL	408	SHL	absReh					_bar							
+absRehLoop	363	08AA	AL	427	S									6.1				
+absYehTail	364	06CD	AL	473	SL										moved			
+absStraightWaw	365	08B1	AL	344	S									7.0				
+absYehBarree	366	06D2	AL	429	SHLM													
+absYehBarreeHamzaAbove	367	06D3	AL	430	SL	absYehBarree	_hamza											
+absYehBarreeDigitTwoAbove	368	077A	AL	431	S	absYehBarree	_two							5.1				
+absYehBarreeDigitThreeAbove	369	077B	AL	432	S	absYehBarree	_three							5.1				
+absYehHamzaAbove	370	0626	AL	438	SHLM	absYeh.noDots	_hamza											
+absYeh	371	064A	AL	439	SHLM	absYeh.noDots		_dot2h										
+absYeh.noDots	372		AL	437	*													
+absHighHamzaYeh	373	0678	AL	440	SL	absYeh.noDots	_highHamza											
+absFarsiYeh	374	06CC	AL	441	SHLM	absYeh.noDots												
+absFarsiYehDigitTwoAbove	375	0775	AL	442	S	absYeh.noDots	_two							5.1				
+absFarsiYehDigitThreeAbove	376	0776	AL	443	S	absYeh.noDots	_three							5.1				
+absFarsiYehInvertedV	377	063D	AL	444	SHL	absYeh.noDots	_hat							5.1				
+absFarsiYehTwoDotsAbove	378	063E	AL	445	SH	absYeh.noDots	_dot2h							5.1				
+absFarsiYehThreeDotsAbove	379	063F	AL	446	SH	absYeh.noDots	_dot3u							5.1				
+absYehSmallV	380	06CE	AL	447	SHL	absYeh.noDots	_smallV											
+absE	381	06D0	AL	448	SHLM	absYeh.noDots		_dot2v										
+absYehThreeDotsBelow	382	06D1	AL	449	SHLM	absYeh.noDots		_dot3d										
+absFarsiYehDigitFourBelow	383	0777	AL	450	S	absYeh.noDots		_four						5.1				
+absAlefMaksura	384	0649	AL	451	SHLM	absYeh.noDots												
+absKashmiriYeh	385	0620	AL	475	S	absYeh.noDots				_ring				6.0				
+absYehTwoDotsBelowHamzaAbove	386	08A8	AL	452	SHM	absYeh.noDots	_hamza	_dot2h						6.1				
+absYehTwoDotsBelowNoonAbove	387	08BA	AL	453	SHM	absYeh.noDots	_noon	_dot2h						pending				
+absYehTwoDotsBelowDotAbove	388	08A9	AL	454	SHM	absYeh.noDots	_dot1	_dot2h						6.1				
+absBehNoDots	389	066E	AL	477	*													
+absBeh	390	0628	AL	478	SHLM	absBehNoDots		_dot1										
+absTeh	391	062A	AL	479	SHLM	absBehNoDots	_dot2h											
+absTheh	392	062B	AL	480	SHLM	absBehNoDots	_dot3u											
+absTteh	393	0679	AL	481	SL	absBehNoDots	_tah											
+absTteheh	394	067A	AL	482	SHL	absBehNoDots	_dot2v											
+absBeeh	395	067B	AL	483	SHLM	absBehNoDots		_dot2v										
+absTehRing	396	067C	AL	484	SL	absBehNoDots	_dot2h			_ring								
+absTehThreeDotsAboveDownwards	397	067D	AL	485	SHL	absBehNoDots	_dot3d											
+absPeh	398	067E	AL	486	SHLM	absBehNoDots		_dot3d										
+absPehSmallMeemAbove	399	08B7	AL	487	S	absBehNoDots	_meem	_dot3d						pending				
+absTeheh	400	067F	AL	488	SL	absBehNoDots	_dot4											
+absBeheh	401	0680	AL	489	SL	absBehNoDots		_dot4										
+absBehThreeDotsHorizBelow	402	0750	AL	490	SHL	absBehNoDots		_dot3h										
+absBehThreeDotsAboveDotBelow	403	0751	AL	491	SHL	absBehNoDots	_dot3u	_dot1										
+absBehThreeDotsUpwardBelow	404	0752	AL	492	HM	absBehNoDots		_dot3u										
+absBehThreeDotsUpBelow	404.1	0752	AL	492	SL	absBehNoDots		_dot3u										
+absBehTwoDotsAboveThreeDotsUpwardBelow	405	0753	AL	493	H	absBehNoDots	_dot2h	_dot3u										
+absBehTwoDotsAboveThreeDotsUpBelow	405.1	0753	AL	493	SL	absBehNoDots	_dot2h	_dot3u										
+absBehDotAboveTwoDotsBelow	406	0754	AL	494	SHL	absBehNoDots	_dot1	_dot2h										
+absBehInvSmallVBelow	407	0755	AL	495	SHLM	absBehNoDots		_invSmallV										
+absBehSmallVAbove	408	0756	AL	496	SHLM	absBehNoDots	_smallV											
+absBehSmallVBelow	409	08A0	AL	497	SHM	absBehNoDots		_smallV						6.1				
+absBehHamzaAbove	410	08A1	AL	498	SHM	absBehNoDots	_hamza	_dot1						7.0				
+absBehSmallMeemAbove	411	08B6	AL	499	SHM	absBehNoDots	_meem	_dot1						pending				
+absJeem	412	062C	AL	523	SHLM	absHah			_dot1									
+absHah	413	062D	AL	524	*													
+absKhah	414	062E	AL	525	SHLM	absHah	_dot1											
+absHahHamzaAbove	415	0681	AL	526	SL	absHah	_hamza											
+absHahTwoDotsVerticalAbove	416	0682	AL	527	SHL	absHah	_dot2v											
+absNyeh	417	0683	AL	528	SHLM	absHah			_dot2h									
+absDyeh	418	0684	AL	529	SHL	absHah			_dot2v									
+absHahThreeDotsAbove	419	0685	AL	530	SHL	absHah	_dot3u											
+absTcheh	420	0686	AL	531	SHLM	absHah			_dot3d									
+absTcheheh	421	0687	AL	532	SL	absHah			_dot4									
+absTchehDotAbove	422	06BF	AL	533	SHL	absHah	_dot1		_dot3d									
+# absTchehRetro1	423		AL	1518	-	absHah	_tah		_dot3d									
+absHahSmallTahTwoDots	424	076F	AL	534	SL	absHah			_dot2h_tah					5.1				
+absHahSmallTahBelow	425	076E	AL	535	SL	absHah			_tah					5.1				
+# absJeemRetro2	426		AL	1519	-	absHah	_tah		_dot1									
+absHahSmallTahAbove	427	0772	AL	536	SL	absHah	_tah							5.1				
+absHahTwoDotsAbove	428	0757	AL	537	SHL	absHah	_dot2h											
+absHahThreeDotsUpwardBelow	429	0758	AL	538	H	absHah			_dot3u									
+absHahThreeDotsUpBelow	429.1	0758	AL	538	SL	absHah			_dot3u									
+absHahDigitFourBelow	430	077C	AL	539	S	absHah			_four					5.1				
+absJeemTwoDotsAbove	431	08A2	AL	540	SHM	absHah	_dot2h		_dot1					6.1				
+absSeen	432	0633	AL	607	*													
+absSheen	433	0634	AL	608	SHLM	absSeen	_dot3u											
+absSeenDotBelowDotAbove	434	069A	AL	609	SHL	absSeen	_dot1	_dot1										
+absSeenThreeDotsBelow	435	069B	AL	610	SHL	absSeen		_dot3d										
+absSeenThreeDotsBelowThreeDotsAbove	436	069C	AL	611	SHL	absSeen	_dot3u	_dot3d										
+absSheenDotBelow	437	06FA	AL	612	SHL	absSeen	_dot3u	_dot1										
+# absSheenRetro1	438		AL	1520	-	absSeen	_dot3u_tah											
+absSeenSmallTahTwoDots	439	0770	AL	613	SL	absSeen	_dot2h_tah							5.1				
+absSeenFourDotsAbove	440	075C	AL	614	SL	absSeen	_dot4											
+absSeenTwoVertAbove	441	076D	AL	615	SHL	absSeen	_dot2v											
+absSeenDigitFourAbove	442	077D	AL	616	S	absSeen	_four							5.1				
+absSeenInvertedV	443	077E	AL	617	SH	absSeen	_hat							5.1				
+absSad	444	0635	AL	651	*													
+absSad.half	445		AL	657	H													cv20=1
+absDad	446	0636	AL	652	SHLM	absSad	_dot1											
+absDad.half	447		AL	658	H	absSad.half	_dot1											cv20=1
+absSadTwoDotsBelow	448	069D	AL	653	SHL	absSad		_dot2h										
+absSadTwoDotsBelow.half	449		AL	659	H	absSad.half		_dot2h										cv20=1
+absSadThreeDotsAbove	450	069E	AL	654	SHL	absSad	_dot3u											
+absSadThreeDotsAbove.half	451		AL	660	H	absSad.half	_dot3u											cv20=1
+absDadDotBelow	452	06FB	AL	655	SHL	absSad	_dot1	_dot1										
+absDadDotBelow.half	453		AL	661	H	absSad.half	_dot1	_dot1										cv20=1
+absSadThreeDotsBelow	454	08AF	AL	656	SH	absSad		_dot3d						7.0				
+absSadThreeDotsBelow.half	455		AL	662	H	absSad.half		_dot3d										cv20=1
+absTah	456	0637	AL	687	*													
+absZah	457	0638	AL	688	SHLM	absTah	_dot1											
+absTahThreeDotsAbove	458	069F	AL	689	SHLM	absTah	_dot3u											
+absTahTwoDotsAbove	459	08A3	AL	690	SHM	absTah	_dot2h							6.1				
+absAin	460	0639	AL	703	*													
+absGhain	461	063A	AL	704	SHLM	absAin	_dot1											
+absAinThreeDotsAbove	462	06A0	AL	705	SHL	absAin	_dot3u											
+absAinThreeDotsBelow	463	08B3	AL	706	S	absAin		_dot3d						pending				
+absGhainDotBelow	464	06FC	AL	707	SHL	absAin	_dot1	_dot1										
+absAinTwoDotsAbove	465	075D	AL	708	SHLM	absAin	_dot2h											
+absAinThreeDotsDownAbove	466	075E	AL	709	SHL	absAin	_dot3d											
+absAinTwoDotsVertAbove	467	075F	AL	710	SHL	absAin	_dot2v											
+absFeh	468	0641	AL	737	SHLM	absDotlessFeh	_dot1											
+absDotlessFeh	469	06A1	AL	735	*													
+absAfricanFeh	470	08BB	AL	736	SHM	absDotlessFeh								pending				
+absFehDotMovedBelow	471	06A2	AL	738	SHLM	absDotlessFeh		_dot1										
+absFehDotBelow	472	06A3	AL	739	SHL	absDotlessFeh	_dot1	_dot1										
+absVeh	473	06A4	AL	740	SHLM	absDotlessFeh	_dot3u											
+absFehThreeDotsBelow	474	06A5	AL	741	SHL	absDotlessFeh		_dot3d										
+absPeheh	475	06A6	AL	742	SL	absDotlessFeh	_dot4											
+absFehTwoDotsBelow	476	0760	AL	743	SHLM	absDotlessFeh		_dot2h										
+absFehThreeDotsUpwardBelow	477	0761	AL	744	H	absDotlessFeh		_dot3u										
+absFehThreeDotsUpBelow	477.1	0761	AL	744	SL	absDotlessFeh		_dot3u										
+absFehDotBelowThreeDotsAbove	478	08A4	AL	745	SH	absDotlessFeh	_dot3u	_dot1						6.1				
+absRohingyaYeh	479	08AC	AL	1002	S									6.1	absFehNoTailTwoDotsBelow			
+absQafNoDots	480	066F	AL	794	*													
+absAfricanQaf	481	08BC	AL	795	SHM	absQafNoDots								pending				
+absQaf	482	0642	AL	796	SHLM	absQafNoDots	_dot2h											
+absQafDotAbove	483	06A7	AL	797	SHLM	absQafNoDots	_dot1											
+absQafThreeDotsAbove	484	06A8	AL	798	SHL	absQafNoDots	_dot3u											
+absQafDotBelow	485	08A5	AL	799	SH	absQafNoDots	_dot2h	_dot1						6.1				
+absKaf	486	0643	AL	806	*													
+absKafDotAbove	487	06AC	AL	807	SHL	absKaf	_dot1											
+absKafDotBelow	488	08B4	AL	808	S	absKaf		_dot1						pending				
+absNg	489	06AD	AL	809	SHL	absKaf	_dot3u											
+absKafTwoDotsAbove	490	077F	AL	810	SH	absKaf	_dot2h							5.1				
+absKafThreeDotsBelow	491	06AE	AL	811	SHL	absKaf		_dot3d										
+absKeheh	492	06A9	AL	818	*													
+absKafRing	493	06AB	AL	819	SL	absKeheh				_ring								
+absGaf	494	06AF	AL	820	SHLM	absKeheh	_gafBarShort											
+absGafRing	495	06B0	AL	821	SL	absKeheh	_gafBarShort			_ring								
+absNgoeh	496	06B1	AL	822	SL	absKeheh	_gafBarShort_dot2h											
+absGafTwoDotsBelow	497	06B2	AL	823	SL	absKeheh	_gafBarShort	_dot2h										
+absGueh	498	06B3	AL	824	SL	absKeheh	_gafBarShort	_dot2v										
+absGafThreeDotsAbove	499	06B4	AL	825	SL	absKeheh	_gafBarShort_dot3u											
+absKehehDotAbove	500	0762	AL	826	SHL	absKeheh	_dot1											
+absKehehThreeDotsAbove	501	0763	AL	827	SHL	absKeheh	_dot3u											
+absKehehThreeDotsUpwardBelow	502	0764	AL	828	H	absKeheh		_dot3u										
+absKehehThreeDotsUpBelow	502.1	0764	AL	828	SL	absKeheh		_dot3u										
+absKehehTwoDotsAbove	503	063B	AL	829	SH	absKeheh	_dot2h							5.1				
+absKehehThreeDotsBelow	504	063C	AL	830	SH	absKeheh		_dot3d						5.1				
+absGafInvertedStroke	505	08B0	AL	831	S	absKeheh			_gafBarCenter					7.0				
+absSwashKaf	506	06AA	AL	886	*													
+absLam	507	0644	AL	890	*													
+absLamSmallV	508	06B5	AL	891	SHL	absLam	_smallV											
+absLamDotAbove	509	06B6	AL	892	SHL	absLam	_dot1											
+absLamThreeDotsAbove	510	06B7	AL	893	SHL	absLam	_dot3u											
+absLamThreeDotsBelow	511	06B8	AL	894	SHL	absLam		_dot3d										
+# absLamRetro	512		AL	1521	-	absLam	_tah											
+absLamBar	513	076A	AL	895	SHL	absLam					_bar							
+absLamDoubleBar	514	08A6	AL	896	SH	absLam					_bar2			6.1				
+absMeem	515	0645	AL	918	*													
+absMeem.sindhi	516		AL	934	SHL										Sindhi	sd	SND	cv44=1
+absMeemDotAbove	517	0765	AL	919	SHL	absMeem	_dot1											
+absMeemDotAbove.sindhi	518		AL	937	SHL	absMeem.sindhi	_dot1								Sindhi	sd	SND	cv44=1
+absMeemDotBelow	519	0766	AL	920	SHL	absMeem		_dot1										
+absMeemDotBelow.sindhi	520		AL	938	SHL	absMeem.sindhi		_dot1							Sindhi	sd	SND	cv44=1
+absMeemThreeDotsAbove	521	08A7	AL	921	SH	absMeem	_dot3u							6.1				
+absMeemThreeDotsAbove.sindhi	522		AL	935	SH	absMeem.sindhi	_dot3u								Sindhi	sd	SND	cv44=1
+absNoon	523	0646	AL	945	SHLM	absNoonGhunna	_dot1											
+absNoonDotBelow	524	06B9	AL	946	SHL	absNoonGhunna	_dot1	_dot1										
+absNoonGhunna	525	06BA	AL	943	SHLM													
+absAfricanNoon	526	08BD	AL	944	SHM	absNoonGhunna								pending				
+absRnoon	527	06BB	AL	947	SL	absNoonGhunna	_tah											
+absNoonRing	528	06BC	AL	948	SL	absNoonGhunna	_dot1			_ring								
+absNoonThreeDotsAbove	529	06BD	AL	949	SHL	absNoonGhunna	_dot3u											
+absNoonTwoDotsBelow	530	0767	AL	950	SHLM	absNoonGhunna	_dot1	_dot2h										
+absNoonRetro	531	0768	AL	951	SL	absNoonGhunna	_dot1_tah											
+absNoonSmallV	532	0769	AL	952	SHL	absNoonGhunna	_dot1_smallV											
+absHehDoachashmee	533	06BE	AL	982	SL													
+absHehHat	534	06FF	AL	984	SL	absHehDoachashmee	_hat											
+absHeh	535	0647	AL	964	SHLM	absAe												
+absHeh.knotted	536		AL	983	SL	absHehDoachashmee									"Kurdish, Sindhi"	"sd,ku"	"SND,KUR"	"cv48=1,3"
+absAe	537	06D5	AL	963	SHLM													
+absTehMarbuta	538	0629	AL	966	SHLM	absAe	_dot2h											
+absHehYehAbove	539	06C0	AL	967	SHL	absAe	_hamza											
+absHehGoal	540	06C1	AL	965	SL	absAe												
+absHehGoalHamzaAbove	541	06C2	AL	968	SL	absAe	_hamza											
+absTehMarbutaGoal	542	06C3	AL	969	SL	absAe	_dot2h											
+absHamza	543	0621	AL	1000	*													
+absSignSindhiAmpersand	544	06FD	AL	1001	SL	absHamza		_lines										
+absSignSindhiPostpositionMen	545	06FE	AL	936	SL	absMeem.sindhi		_lines										
+absTatweel	546	0640	AL	1112	*													
+# absLamAlef	547		AL	#VALUE!	-													
+# absLamSmallVAlef	548		AL	#VALUE!	-	absLamAlef	_smallV											
+# absLamDotAboveAlef	549		AL	#VALUE!	-	absLamAlef	_dot1											
+# absLamThreeDotsAboveAlef	550		AL	#VALUE!	-	absLamAlef	_dot3u											
+# absLamThreeDotsBelowAlef	551		AL	#VALUE!	-	absLamAlef		_dot3d										
+# absLamRetroAlef	552		AL	#VALUE!	-	absLamAlef	_tah											
+# absLamBarAlef	553		AL	#VALUE!	-	absLamAlef					_bar							
+absAlefMaddaAboveFin	554		AL	296	SHLM	absAlefFin	_madda											
+absAlefMaddaAboveFin.small	555		AL	297	SH	absAlefFin	_madda.small											cv60=1
+absAlefHamzaAboveFin	556		AL	298	SHLM	absAlefFin	_hamza											
+absAlefHamzaAboveFin.warsh	557		AL	299	H	absAlefFin	_hamza								in Warsh these touch			"cv02=1,2"
+absAlefHamzaBelowFin	558		AL	300	SHLM	absAlefFin		_hamza										
+absAlefHamzaBelowFin.warsh	559		AL	301	H	absAlefFin		_hamza							in Warsh these touch			"cv02=1,2"
+absAlefFin	560		AL	295	*													
+absAlefWavyHamzaAboveFin	561		AL	302	SL	absAlefFin	_wavyHamza											
+absAlefWavyHamzaBelowFin	562		AL	303	SL	absAlefFin		_wavyHamza										
+absHighHamzaAlefFin	563		AL	304	SL	absAlefFin	_highHamza											
+absAlefWaslaFin	564		AL	305	SHL	absAlefFin	_wasla											
+absAlefDigitTwoAboveFin	565		AL	306	S	absAlefFin						_two		5.1				
+absAlefDigitThreeAboveFin	566		AL	307	S	absAlefFin						_three		5.1				
+absWawHamzaAboveFin	567		AL	327	SHLM	absWawFin	_hamza											
+absWawFin	568		AL	326	*													
+absHighHamzaWawFin	569		AL	328	SL	absWawFin	_highHamza											
+absUHamzaAboveFin	570		AL	329	SL	absWawFin	_hamzaDamma											
+absUHamzaAboveFin.filled	571		AL	330	S	absWawFin	_hamzaDamma.filled											
+absWawRingFin	572		AL	331	SL	absWawFin				_ring								
+absKirghizOeFin	573		AL	332	SL	absWawFin					_bar							
+absOeFin	574		AL	333	SHLM	absWawFin	_smallV											
+absUFin	575		AL	334	SL	absWawFin	_damma											
+absUFin.filled	576		AL	335	S	absWawFin	_damma.filled											
+absYuFin	577		AL	336	SHLM	absWawFin	_vline											
+absKirghizYuFin	578		AL	337	SHLM	absWawFin	_hat											
+absWawTwoDotsAboveFin	579		AL	338	SHL	absWawFin	_dot2h											
+absVeFin	580		AL	339	SHL	absWawFin	_dot3u											
+absWawDotAboveFin	581		AL	340	SHL	absWawFin	_dot1											
+absWawDigitTwoAboveFin	582		AL	341	S	absWawFin	_two							5.1				
+absWawDigitThreeAboveFin	583		AL	342	S	absWawFin	_three							5.1				
+# absWawDotBelowFin	584		AL	1522	-	absWawFin		_dot1										
+absWawDotWithinFin	585		AL	343	S	absWawFin			_dot1					6.1				
+absDalFin	586		AL	376	*													
+absThalFin	587		AL	377	SHLM	absDalFin	_dot1											
+absDdalFin	588		AL	378	SL	absDalFin	_tah											
+absDalRingFin	589		AL	379	SHLM	absDalFin				_ring								
+absDalDotBelowFin	590		AL	380	SHL	absDalFin		_dot1										
+absDalDotBelowSmallTahFin	591		AL	381	SHLM	absDalFin	_tah	_dot1										
+absDahalFin	592		AL	382	SHL	absDalFin	_dot2h											
+absDdahalFin	593		AL	383	SHL	absDalFin		_dot2h										
+absDulFin	594		AL	384	SHL	absDalFin	_dot3u											
+absDalThreeDotsAboveDownwardsFin	595		AL	385	SHLM	absDalFin	_dot3d											
+absDalFourDotsAboveFin	596		AL	386	SL	absDalFin	_dot4											
+absDalHatFin	597		AL	387	SHL	absDalFin	_hat											
+absDalTwoVertBelowSmallTahFin	598		AL	388	SL	absDalFin	_tah	_dot2v										
+absDalInvSmallVBelowFin	599		AL	389	SHL	absDalFin		_invSmallV										
+absDalThreeDotsBelowFin	600		AL	390	SH	absDalFin		_dot3d						7.0				
+absRehFin	601		AL	409	*													
+absZainFin	602		AL	410	SHLM	absRehFin	_dot1											
+absRrehFin	603		AL	411	SL	absRehFin	_tah											
+absRehSmallNoonAboveFin	604		AL	412	S	absRehFin	_noon							pending				
+absRehSmallVFin	605		AL	413	SHL	absRehFin	_smallV											
+absRehRingFin	606		AL	414	SL	absRehFin				_ring								
+absRehDotBelowFin	607		AL	415	SHL	absRehFin		_dot1										
+absRehSmallVBelowFin	608		AL	416	SHL	absRehFin		_smallV										
+absRehDotBelowDotAboveFin	609		AL	417	SL	absRehFin		_dot1	_dot1									
+absRehTwoDotsAboveFin	610		AL	418	SHL	absRehFin	_dot2h											
+absJehFin	611		AL	419	SHLM	absRehFin	_dot3u											
+absRehFourDotsAboveFin	612		AL	420	SL	absRehFin	_dot4											
+absRehTwoVertAboveFin	613		AL	421	SHL	absRehFin	_dot2v											
+absRehHamzaAboveFin	614		AL	422	SL	absRehFin	_hamza											
+absRehSmallTahTwoDotsFin	615		AL	423	SL	absRehFin	_dot2h_tah							5.1				
+# absJehRetro2Fin	616		AL	1523	-	absRehFin	_dot3u_tah											
+absZainHatFin	617		AL	424	SHLM	absRehFin	_dot1_hat							pending	absJehFin.dotHat			
+absRehHatFin	618		AL	425	SHL	absRehFin	_hat											
+absRehBarFin	619		AL	426	SHL	absRehFin					_bar							
+absRehLoopFin	620		AL	428	S									6.1				
+absYehTailFin	621		AL	474	SL										moved			
+absStraightWawFin	622		AL	345	S									7.0				
+absYehBarreeFin	623		AL	433	SHL													
+absYehBarreeHamzaAboveFin	624		AL	434	SL	absYehBarreeFin	_hamza											
+absYehBarreeDigitTwoAboveFin	625		AL	435	S	absYehBarreeFin	_two							5.1				
+absYehBarreeDigitThreeAboveFin	626		AL	436	S	absYehBarreeFin	_three							5.1				
+absYehHamzaAboveFin	627		AL	456	SHLM	absYehFin.noDots	_hamza											
+absYehFin	628		AL	457	SHLM	absYehFin.noDots		_dot2h										
+absYehFin.noDots	629		AL	455	*													
+absHighHamzaYehFin	630		AL	458	SL	absYehFin.noDots	_highHamza											
+absFarsiYehFin	631		AL	459	SHLM	absYehFin.noDots												
+absFarsiYehDigitTwoAboveFin	632		AL	460	S	absYehFin.noDots	_two							5.1				
+absFarsiYehDigitThreeAboveFin	633		AL	461	S	absYehFin.noDots	_three							5.1				
+absFarsiYehInvertedVFin	634		AL	462	SHL	absYehFin.noDots	_hat							5.1				
+absFarsiYehTwoDotsAboveFin	635		AL	463	SH	absYehFin.noDots	_dot2h							5.1				
+absFarsiYehThreeDotsAboveFin	636		AL	464	SH	absYehFin.noDots	_dot3u							5.1				
+absYehSmallVFin	637		AL	465	SHL	absYehFin.noDots	_smallV											
+absEFin	638		AL	466	SHLM	absYehFin.noDots		_dot2v										
+absYehThreeDotsBelowFin	639		AL	467	SHLM	absYehFin.noDots		_dot3d										
+absFarsiYehDigitFourBelowFin	640		AL	468	S	absYehFin.noDots		_four						5.1				
+absAlefMaksuraFin	641		AL	469	SHLM	absYehFin.noDots												
+absKashmiriYehFin	642		AL	476	S	absYehFin.noDots				_ring				6.0				
+absYehTwoDotsBelowHamzaAboveFin	643		AL	470	SHM	absYehFin.noDots	_hamza	_dot2h						6.1				
+absYehTwoDotsBelowNoonAboveFin	644		AL	471	SHM	absYehFin.noDots	_noon	_dot2h						pending				
+absYehTwoDotsBelowDotAboveFin	645		AL	472	SHM	absYehFin.noDots	_dot1	_dot2h						6.1				
+absBehNoDotsFin	646		AL	500	*													
+absBehFin	647		AL	501	SHLM	absBehNoDotsFin		_dot1										
+absTehFin	648		AL	502	SHLM	absBehNoDotsFin	_dot2h											
+absThehFin	649		AL	503	SHLM	absBehNoDotsFin	_dot3u											
+absTtehFin	650		AL	504	SL	absBehNoDotsFin	_tah											
+absTtehehFin	651		AL	505	SHL	absBehNoDotsFin	_dot2v											
+absBeehFin	652		AL	506	SHLM	absBehNoDotsFin		_dot2v										
+absTehRingFin	653		AL	507	SL	absBehNoDotsFin	_dot2h			_ring								
+absTehThreeDotsAboveDownwardsFin	654		AL	508	SHL	absBehNoDotsFin	_dot3d											
+absPehFin	655		AL	509	SHLM	absBehNoDotsFin		_dot3d										
+absPehSmallMeemAboveFin	656		AL	510	S	absBehNoDotsFin	_meem	_dot3d						pending				
+absTehehFin	657		AL	511	SL	absBehNoDotsFin	_dot4											
+absBehehFin	658		AL	512	SL	absBehNoDotsFin		_dot4										
+absBehThreeDotsHorizBelowFin	659		AL	513	SHL	absBehNoDotsFin		_dot3h										
+absBehThreeDotsAboveDotBelowFin	660		AL	514	SHL	absBehNoDotsFin	_dot3u	_dot1										
+absBehThreeDotsUpwardBelowFin	661		AL	515	HM	absBehNoDotsFin		_dot3u										
+absBehThreeDotsUpBelowFin	661.1		AL	515	SL	absBehNoDotsFin		_dot3u										
+absBehTwoDotsAboveThreeDotsUpwardBelowFin	662		AL	516	H	absBehNoDotsFin	_dot2h	_dot3u										
+absBehTwoDotsAboveThreeDotsUpBelowFin	662.1		AL	516	SL	absBehNoDotsFin	_dot2h	_dot3u										
+absBehDotAboveTwoDotsBelowFin	663		AL	517	SHL	absBehNoDotsFin	_dot1	_dot2h										
+absBehInvSmallVBelowFin	664		AL	518	SHLM	absBehNoDotsFin		_invSmallV										
+absBehSmallVAboveFin	665		AL	519	SHLM	absBehNoDotsFin	_smallV											
+absBehSmallVBelowFin	666		AL	520	SHM	absBehNoDotsFin		_smallV						6.1				
+absBehHamzaAboveFin	667		AL	521	SHM	absBehNoDotsFin	_hamza	_dot1						7.0				
+absBehSmallMeemAboveFin	668		AL	522	SHM	absBehNoDotsFin	_meem	_dot1						pending				
+absJeemFin	669		AL	541	SHLM	absHahFin			_dot1									
+absHahFin	670		AL	542	*													
+absKhahFin	671		AL	543	SHLM	absHahFin	_dot1											
+absHahHamzaAboveFin	672		AL	544	SL	absHahFin	_hamza											
+absHahTwoDotsVerticalAboveFin	673		AL	545	SHL	absHahFin	_dot2v											
+absNyehFin	674		AL	546	SHLM	absHahFin			_dot2h									
+absDyehFin	675		AL	547	SHL	absHahFin			_dot2v									
+absHahThreeDotsAboveFin	676		AL	548	SHL	absHahFin	_dot3u											
+absTchehFin	677		AL	549	SHLM	absHahFin			_dot3d									
+absTchehehFin	678		AL	550	SL	absHahFin			_dot4									
+absTchehDotAboveFin	679		AL	551	SHL	absHahFin	_dot1		_dot3d									
+# absTchehRetro1Fin	680		AL	1524	-	absHahFin	_tah		_dot3d									
+absHahSmallTahTwoDotsFin	681		AL	552	SL	absHahFin			_dot2h_tah					5.1				
+absHahSmallTahBelowFin	682		AL	553	SL	absHahFin			_tah					5.1				
+# absJeemRetro2Fin	683		AL	1525	-	absHahFin	_tah		_dot1									
+absHahSmallTahAboveFin	684		AL	554	SL	absHahFin	_tah							5.1				
+absHahTwoDotsAboveFin	685		AL	555	SHL	absHahFin	_dot2h											
+absHahThreeDotsUpwardBelowFin	686		AL	556	H	absHahFin			_dot3u									
+absHahThreeDotsUpBelowFin	686.1		AL	556	SL	absHahFin			_dot3u									
+absHahDigitFourBelowFin	687		AL	557	S	absHahFin			_four					5.1				
+absJeemTwoDotsAboveFin	688		AL	558	SHM	absHahFin	_dot2h		_dot1					6.1				
+absSeenFin	689		AL	618	*													
+absSheenFin	690		AL	619	SHLM	absSeenFin	_dot3u											
+absSeenDotBelowDotAboveFin	691		AL	620	SHL	absSeenFin	_dot1	_dot1										
+absSeenThreeDotsBelowFin	692		AL	621	SHL	absSeenFin		_dot3d										
+absSeenThreeDotsBelowThreeDotsAboveFin	693		AL	622	SHL	absSeenFin	_dot3u	_dot3d										
+absSheenDotBelowFin	694		AL	623	SHL	absSeenFin	_dot3u	_dot1										
+# absSheenRetro1Fin	695		AL	1526	-	absSeenFin	_dot3u_tah											
+absSeenSmallTahTwoDotsFin	696		AL	624	SL	absSeenFin	_dot2h_tah							5.1				
+absSeenFourDotsAboveFin	697		AL	625	SL	absSeenFin	_dot4											
+absSeenTwoVertAboveFin	698		AL	626	SHL	absSeenFin	_dot2v											
+absSeenDigitFourAboveFin	699		AL	627	S	absSeenFin	_four							5.1				
+absSeenInvertedVFin	700		AL	628	SH	absSeenFin	_hat							5.1				
+absSadFin	701		AL	663	*													
+absSadFin.half	702		AL	669	H													cv20=1
+absDadFin	703		AL	664	SHLM	absSadFin	_dot1											
+absDadFin.half	704		AL	670	H	absSadFin.half	_dot1											cv20=1
+absSadTwoDotsBelowFin	705		AL	665	SHL	absSadFin		_dot2h										
+absSadTwoDotsBelowFin.half	706		AL	671	H	absSadFin.half		_dot2h										cv20=1
+absSadThreeDotsAboveFin	707		AL	666	SHL	absSadFin	_dot3u											
+absSadThreeDotsAboveFin.half	708		AL	672	H	absSadFin.half	_dot3u											cv20=1
+absDadDotBelowFin	709		AL	667	SHL	absSadFin	_dot1	_dot1										
+absDadDotBelowFin.half	710		AL	673	H	absSadFin.half	_dot1	_dot1										cv20=1
+absSadThreeDotsBelowFin	711		AL	668	SH	absSadFin		_dot3d						7.0				
+absSadThreeDotsBelowFin.half	712		AL	674	H	absSadFin.half		_dot3d										cv20=1
+absTahFin	713		AL	691	*													
+absZahFin	714		AL	692	SHLM	absTahFin	_dot1											
+absTahThreeDotsAboveFin	715		AL	693	SHLM	absTahFin	_dot3u											
+absTahTwoDotsAboveFin	716		AL	694	SHM	absTahFin	_dot2h							6.1				
+absAinFin	717		AL	711	*													
+absGhainFin	718		AL	712	SHLM	absAinFin	_dot1											
+absAinThreeDotsAboveFin	719		AL	713	SHL	absAinFin	_dot3u											
+absAinThreeDotsBelowFin	720		AL	714	S	absAinFin		_dot3d						pending				
+absGhainDotBelowFin	721		AL	715	SHL	absAinFin	_dot1	_dot1										
+absAinTwoDotsAboveFin	722		AL	716	SHLM	absAinFin	_dot2h											
+absAinThreeDotsDownAboveFin	723		AL	717	SHL	absAinFin	_dot3d											
+absAinTwoDotsVertAboveFin	724		AL	718	SHL	absAinFin	_dot2v											
+absFehFin	725		AL	748	SHLM	absDotlessFehFin	_dot1											
+absDotlessFehFin	726		AL	746	*													
+absAfricanFehFin	727		AL	747	SHM	absDotlessFehFin								pending				
+absFehDotMovedBelowFin	728		AL	749	SHLM	absDotlessFehFin		_dot1										
+absFehDotBelowFin	729		AL	750	SHL	absDotlessFehFin	_dot1	_dot1										
+absVehFin	730		AL	751	SHLM	absDotlessFehFin	_dot3u											
+absFehThreeDotsBelowFin	731		AL	752	SHL	absDotlessFehFin		_dot3d										
+absPehehFin	732		AL	753	SL	absDotlessFehFin	_dot4											
+absFehTwoDotsBelowFin	733		AL	754	SHLM	absDotlessFehFin		_dot2h										
+absFehThreeDotsUpwardBelowFin	734		AL	755	H	absDotlessFehFin		_dot3u										
+absFehThreeDotsUpBelowFin	734.1		AL	755	SL	absDotlessFehFin		_dot3u										
+absFehDotBelowThreeDotsAboveFin	735		AL	756	SH	absDotlessFehFin	_dot3u	_dot1						6.1				
+absRohingyaYehFin	736		AL	1003	S									6.1	absFehNoTailTwoDotsBelowFin			
+absQafNoDotsFin	737		AL	800	*													
+absAfricanQafFin	738		AL	801	SHM	absQafNoDotsFin								pending				
+absQafFin	739		AL	802	SHLM	absQafNoDotsFin	_dot2h											
+absQafDotAboveFin	740		AL	803	SHLM	absQafNoDotsFin	_dot1											
+absQafThreeDotsAboveFin	741		AL	804	SHL	absQafNoDotsFin	_dot3u											
+absQafDotBelowFin	742		AL	805	SH	absQafNoDotsFin	_dot2h	_dot1						6.1				
+absKafFin	743		AL	812	*													
+absKafDotAboveFin	744		AL	813	SHL	absKafFin	_dot1											
+absKafDotBelowFin	745		AL	814	S	absKafFin		_dot1						pending				
+absNgFin	746		AL	815	SHL	absKafFin	_dot3u											
+absKafTwoDotsAboveFin	747		AL	816	SH	absKafFin	_dot2h							5.1				
+absKafThreeDotsBelowFin	748		AL	817	SHL	absKafFin		_dot3d										
+absKehehFin	749		AL	832	*													
+absKafRingFin	750		AL	833	SL	absKehehFin				_ring								
+absGafFin	751		AL	834	SHLM	absKehehFin	_gafBar											
+absGafRingFin	752		AL	835	SL	absKehehFin	_gafBar			_ring								
+absNgoehFin	753		AL	836	SL	absKehehFin	_gafBar_dot2h											
+absGafTwoDotsBelowFin	754		AL	837	SL	absKehehFin	_gafBar	_dot2h										
+absGuehFin	755		AL	838	SL	absKehehFin	_gafBar	_dot2v										
+absGafThreeDotsAboveFin	756		AL	839	SL	absKehehFin	_gafBar_dot3u											
+absKehehDotAboveFin	757		AL	840	SHL	absKehehFin	_dot1											
+absKehehThreeDotsAboveFin	758		AL	841	SHL	absKehehFin	_dot3u											
+absKehehThreeDotsUpwardBelowFin	759		AL	842	H	absKehehFin		_dot3u										
+absKehehThreeDotsUpBelowFin	759.1		AL	842	SL	absKehehFin		_dot3u										
+absKehehTwoDotsAboveFin	760		AL	843	SH	absKehehFin	_dot2h							5.1				
+absKehehThreeDotsBelowFin	761		AL	844	SH	absKehehFin		_dot3d						5.1				
+absGafInvertedStrokeFin	762		AL	845	S	absKehehFin			_gafBarCenter					7.0				
+absSwashKafFin	763		AL	887	*													
+absLamFin	764		AL	897	*													
+absLamSmallVFin	765		AL	898	SHL	absLamFin	_smallV											
+absLamDotAboveFin	766		AL	899	SHL	absLamFin	_dot1											
+absLamThreeDotsAboveFin	767		AL	900	SHL	absLamFin	_dot3u											
+absLamThreeDotsBelowFin	768		AL	901	SHL	absLamFin		_dot3d										
+# absLamRetroFin	769		AL	1527	-	absLamFin	_tah											
+absLamBarFin	770		AL	902	SHL	absLamFin					_bar							
+absLamDoubleBarFin	771		AL	903	SH	absLamFin					_bar2			6.1				
+absMeemFin	772		AL	922	*													
+absMeemFin.sindhi	773		AL	939	SHL										Sindhi			
+absMeemDotAboveFin	774		AL	923	SHL	absMeemFin	_dot1											
+absMeemDotAboveFin.sindhi	775		AL	940	SHL	absMeemFin.sindhi	_dot1								Sindhi			
+absMeemDotBelowFin	776		AL	924	SHL	absMeemFin		_dot1										
+absMeemDotBelowFin.sindhi	777		AL	941	SHL	absMeemFin.sindhi		_dot1							Sindhi			
+absMeemThreeDotsAboveFin	778		AL	925	SH	absMeemFin	_dot3u							6.1				
+absMeemThreeDotsAboveFin.sindhi	779		AL	942	SH	absMeemFin.sindhi	_dot3u								Sindhi			
+absNoonFin	780		AL	955	SHLM	absNoonGhunnaFin	_dot1											
+absNoonDotBelowFin	781		AL	956	SHL	absNoonGhunnaFin	_dot1	_dot1										
+absNoonGhunnaFin	782		AL	953	SHLM													
+absAfricanNoonFin	783		AL	954	SHM	absNoonGhunnaFin								pending				
+absRnoonFin	784		AL	957	SL	absNoonGhunnaFin	_tah											
+absNoonRingFin	785		AL	958	SL	absNoonGhunnaFin	_dot1			_ring								
+absNoonThreeDotsAboveFin	786		AL	959	SHL	absNoonGhunnaFin	_dot3u											
+absNoonTwoDotsBelowFin	787		AL	960	SHLM	absNoonGhunnaFin	_dot1	_dot2h										
+absNoonRetroFin	788		AL	961	SL	absNoonGhunnaFin	_dot1_tah											
+absNoonSmallVFin	789		AL	962	SHL	absNoonGhunnaFin	_dot1_smallV											
+absHehDoachashmeeFin	790		AL	992	SL													
+absHehHatFin	791		AL	986	SL	absHehFin.knottedHigh	_hat											
+absHehFin	792		AL	971	SHLM	absAeFin												
+absHehFin.knottedFlat	793		AL	993	L	absHehDoachashmeeFin									unused?			
+absHehFin.knottedHigh	794		AL	985	SL										"Kurdish, Sindhi"			"cv48=1,3"
+absHehFin.hooked	795		AL	975	SL	absHehGoalFin									Urdu			cv48=2
+absAeFin	796		AL	970	SHLM													
+absTehMarbutaFin	797		AL	972	SHL	absAeFin	_dot2h											
+absHehYehAboveFin	798		AL	973	SHL	absAeFin	_hamza											
+absHehGoalFin	799		AL	974	SL													
+absHehGoalHamzaAboveFin	800		AL	976	SL	absHehGoalFin	_hamza											
+absTehMarbutaGoalFin	801		AL	977	SL	absHehGoalFin	_dot2h											
+# absLamAlefFin	802		AL	#VALUE!	-													
+# absLamSmallVAlefFin	803		AL	#VALUE!	-	absLamAlefFin	_smallV											
+# absLamDotAboveAlefFin	804		AL	#VALUE!	-	absLamAlefFin	_dot1											
+# absLamThreeDotsAboveAlefFin	805		AL	#VALUE!	-	absLamAlefFin	_dot3u											
+# absLamThreeDotsBelowAlefFin	806		AL	#VALUE!	-	absLamAlefFin		_dot3d										
+# absLamRetroAlefFin	807		AL	#VALUE!	-	absLamAlefFin	_tah											
+# absLamBarAlefFin	808		AL	#VALUE!	-	absLamAlefFin					_bar							
+absYehBarreeDigitTwoAboveMed	809		AL	1071	S	absBehNoDotsMed	_two	_dot2h						5.1				
+absYehBarreeDigitThreeAboveMed	810		AL	1072	S	absBehNoDotsMed	_three	_dot2h						5.1				
+absYehHamzaAboveMed	811		AL	1073	SHLM	absBehNoDotsMed	_hamza											
+absYehMed	812		AL	1074	SHLM	absBehNoDotsMed		_dot2h										
+absYehMed.noDots	813		AL	1059	SHLM	absBehNoDotsMed												
+absHighHamzaYehMed	814		AL	1075	SL	absBehNoDotsMed	_highHamza											
+absFarsiYehMed	815		AL	1076	SHLM	absBehNoDotsMed		_dot2h										
+absFarsiYehDigitTwoAboveMed	816		AL	1077	S	absBehNoDotsMed	_two	_dot2h						5.1				
+absFarsiYehDigitThreeAboveMed	817		AL	1078	S	absBehNoDotsMed	_three	_dot2h						5.1				
+absFarsiYehInvertedVMed	818		AL	1079	SHL	absBehNoDotsMed	_hat	_dot2h						5.1				
+absFarsiYehTwoDotsAboveMed	819		AL	1080	SH	absBehNoDotsMed	_dot2h	_dot2h						5.1				
+absFarsiYehThreeDotsAboveMed	820		AL	1081	SH	absBehNoDotsMed	_dot3u	_dot2h						5.1				
+absYehSmallVMed	821		AL	1082	SHL	absBehNoDotsMed	_smallV	_dot2h										
+absEMed	822		AL	1083	SHLM	absBehNoDotsMed		_dot2v										
+absYehThreeDotsBelowMed	823		AL	1084	SHLM	absBehNoDotsMed		_dot3d										
+absFarsiYehDigitFourBelowMed	824		AL	1085	S	absBehNoDotsMed		_four						5.1				
+absAlefMaksuraMed	825		AL	1060	SHLM	absBehNoDotsMed												
+absKashmiriYehMed	826		AL	1086	S	absBehNoDotsMed				_ring				6.0				
+absYehTwoDotsBelowHamzaAboveMed	827		AL	1087	SHM	absBehNoDotsMed	_hamza	_dot2h						6.1				
+absYehTwoDotsBelowNoonAboveMed	828		AL	1088	SHM	absBehNoDotsMed	_noon	_dot2h						pending				
+absYehTwoDotsBelowDotAboveMed	829		AL	1089	SHM	absBehNoDotsMed	_dot1	_dot2h						6.1				
+absBehNoDotsMed	830		AL	1058	*													
+absBehMed	831		AL	1090	SHLM	absBehNoDotsMed		_dot1										
+absTehMed	832		AL	1091	SHLM	absBehNoDotsMed	_dot2h											
+absThehMed	833		AL	1092	SHLM	absBehNoDotsMed	_dot3u											
+absTtehMed	834		AL	1093	SL	absBehNoDotsMed	_tah											
+absTtehehMed	835		AL	1094	SHL	absBehNoDotsMed	_dot2v											
+absBeehMed	836		AL	1095	SHLM	absBehNoDotsMed		_dot2v										
+absTehRingMed	837		AL	1096	SL	absBehNoDotsMed	_dot2h			_ring								
+absTehThreeDotsAboveDownwardsMed	838		AL	1097	SHL	absBehNoDotsMed	_dot3d											
+absPehMed	839		AL	1098	SHLM	absBehNoDotsMed		_dot3d										
+absPehSmallMeemAboveMed	840		AL	1099	S	absBehNoDotsMed	_meem	_dot3d						pending				
+absTehehMed	841		AL	1100	SL	absBehNoDotsMed	_dot4											
+absBehehMed	842		AL	1101	SL	absBehNoDotsMed		_dot4										
+absBehThreeDotsHorizBelowMed	843		AL	1102	SHL	absBehNoDotsMed		_dot3h										
+absBehThreeDotsAboveDotBelowMed	844		AL	1103	SHL	absBehNoDotsMed	_dot3u	_dot1										
+absBehThreeDotsUpwardBelowMed	845		AL	1104	HM	absBehNoDotsMed		_dot3u										
+absBehThreeDotsUpBelowMed	845.1		AL	1104	SL	absBehNoDotsMed		_dot3u										
+absBehTwoDotsAboveThreeDotsUpwardBelowMed	846		AL	1105	H	absBehNoDotsMed	_dot2h	_dot3u										
+absBehTwoDotsAboveThreeDotsUpBelowMed	846.1		AL	1105	SL	absBehNoDotsMed	_dot2h	_dot3u										
+absBehDotAboveTwoDotsBelowMed	847		AL	1106	SHL	absBehNoDotsMed	_dot1	_dot2h										
+absBehInvSmallVBelowMed	848		AL	1107	SHLM	absBehNoDotsMed		_invSmallV										
+absBehSmallVAboveMed	849		AL	1108	SHLM	absBehNoDotsMed	_smallV											
+absBehSmallVBelowMed	850		AL	1109	SHM	absBehNoDotsMed		_smallV						6.1				
+absBehHamzaAboveMed	851		AL	1110	SHM	absBehNoDotsMed	_hamza	_dot1						7.0				
+absBehSmallMeemAboveMed	852		AL	1111	SHM	absBehNoDotsMed	_meem	_dot1						pending				
+absJeemMed	853		AL	578	SHLM	absHahMed		_dot1										
+absJeemMed.hand	854		AL	595	H	absHahMed.hand		_dot1										cv08=1
+absHahMed	855		AL	577	*													
+absHahMed.hand	856		AL	596	H													cv08=1
+absKhahMed	857		AL	579	SHLM	absHahMed	_dot1											
+absKhahMed.hand	858		AL	597	H	absHahMed.hand	_dot1											cv08=1
+absHahHamzaAboveMed	859		AL	580	SL	absHahMed	_hamza											
+absHahTwoDotsVerticalAboveMed	860		AL	581	SHL	absHahMed	_dot2v											
+absHahTwoDotsVerticalAboveMed.hand	861		AL	598	H	absHahMed.hand	_dot2v											cv08=1
+absNyehMed	862		AL	582	SHLM	absHahMed		_dot2h										
+absNyehMed.hand	863		AL	599	H	absHahMed.hand		_dot2h										cv08=1
+absDyehMed	864		AL	583	SHL	absHahMed		_dot2v										
+absDyehMed.hand	865		AL	600	H	absHahMed.hand		_dot2v										cv08=1
+absHahThreeDotsAboveMed	866		AL	584	SHL	absHahMed	_dot3u											
+absHahThreeDotsAboveMed.hand	867		AL	601	H	absHahMed.hand	_dot3u											cv08=1
+absTchehMed	868		AL	585	SHLM	absHahMed		_dot3d										
+absTchehMed.hand	869		AL	602	H	absHahMed.hand		_dot3d										cv08=1
+absTchehehMed	870		AL	586	SL	absHahMed		_dot4										
+absTchehDotAboveMed	871		AL	587	SHL	absHahMed	_dot1	_dot3d										
+absTchehDotAboveMed.hand	872		AL	603	H	absHahMed.hand	_dot1	_dot3d										cv08=1
+# absTchehRetro1Med	873		AL	1528	-	absHahMed	_tah	_dot3d										
+absHahSmallTahTwoDotsMed	874		AL	588	SL	absHahMed		_dot2h_tah						5.1				
+absHahSmallTahBelowMed	875		AL	589	SL	absHahMed		_tah						5.1				
+# absJeemRetro2Med	876		AL	1529	-	absHahMed	_tah	_dot1										
+absHahSmallTahAboveMed	877		AL	590	SL	absHahMed	_tah							5.1				
+absHahTwoDotsAboveMed	878		AL	591	SHL	absHahMed	_dot2h											
+absHahTwoDotsAboveMed.hand	879		AL	604	H	absHahMed.hand	_dot2h											cv08=1
+absHahThreeDotsUpwardBelowMed	880		AL	592	H	absHahMed		_dot3u										
+absHahThreeDotsUpBelowMed	880.1		AL	592	SL	absHahMed		_dot3u										
+absHahThreeDotsUpwardBelowMed.hand	881		AL	605	H	absHahMed.hand		_dot3u										cv08=1
+absHahDigitFourBelowMed	882		AL	593	S	absHahMed		_four						5.1				
+absJeemTwoDotsAboveMed	883		AL	594	SHM	absHahMed	_dot2h	_dot1						6.1				
+absJeemTwoDotsAboveMed.hand	884		AL	606	H	absHahMed.hand	_dot2h	_dot1						6.1				cv08=1
+absSeenMed	885		AL	640	*													
+absSheenMed	886		AL	641	SHLM	absSeenMed	_dot3u											
+absSeenDotBelowDotAboveMed	887		AL	642	SHL	absSeenMed	_dot1	_dot1										
+absSeenThreeDotsBelowMed	888		AL	643	SHL	absSeenMed		_dot3d										
+absSeenThreeDotsBelowThreeDotsAboveMed	889		AL	644	SHL	absSeenMed	_dot3u	_dot3d										
+absSheenDotBelowMed	890		AL	645	SHL	absSeenMed	_dot3u	_dot1										
+# absSheenRetro1Med	891		AL	1530	-	absSeenMed	_dot3u_tah											
+absSeenSmallTahTwoDotsMed	892		AL	646	SL	absSeenMed	_dot2h_tah							5.1				
+absSeenFourDotsAboveMed	893		AL	647	SL	absSeenMed	_dot4											
+absSeenTwoVertAboveMed	894		AL	648	SHL	absSeenMed	_dot2v											
+absSeenDigitFourAboveMed	895		AL	649	S	absSeenMed	_four							5.1				
+absSeenInvertedVMed	896		AL	650	SH	absSeenMed	_hat							5.1				
+absSadMed	897		AL	681	*													
+absDadMed	898		AL	682	SHLM	absSadMed	_dot1											
+absSadTwoDotsBelowMed	899		AL	683	SHL	absSadMed		_dot2h										
+absSadThreeDotsAboveMed	900		AL	684	SHL	absSadMed	_dot3u											
+absDadDotBelowMed	901		AL	685	SHL	absSadMed	_dot1	_dot1										
+absSadThreeDotsBelowMed	902		AL	686	SH	absSadMed		_dot3d						7.0				
+absTahMed	903		AL	699	*													
+absZahMed	904		AL	700	SHLM	absTahMed	_dot1											
+absTahThreeDotsAboveMed	905		AL	701	SHLM	absTahMed	_dot3u											
+absTahTwoDotsAboveMed	906		AL	702	SHM	absTahMed	_dot2h							6.1				
+absAinMed	907		AL	727	*													
+absGhainMed	908		AL	728	SHLM	absAinMed	_dot1											
+absAinThreeDotsAboveMed	909		AL	729	SHL	absAinMed	_dot3u											
+absAinThreeDotsBelowMed	910		AL	730	S	absAinMed		_dot3d						pending				
+absGhainDotBelowMed	911		AL	731	SHL	absAinMed	_dot1	_dot1										
+absAinTwoDotsAboveMed	912		AL	732	SHLM	absAinMed	_dot2h											
+absAinThreeDotsDownAboveMed	913		AL	733	SHL	absAinMed	_dot3d											
+absAinTwoDotsVertAboveMed	914		AL	734	SHL	absAinMed	_dot2v											
+absFehMed	915		AL	777	SHLM	absDotlessFehMed	_dot1											
+absDotlessFehMed	916		AL	776	*													
+absAfricanFehMed	917		AL	779	SHM	absDotlessFehMed		_dot1						pending				
+absFehDotMovedBelowMed	918		AL	778	SHLM	absDotlessFehMed		_dot1										
+absFehDotBelowMed	919		AL	780	SHL	absDotlessFehMed	_dot1	_dot1										
+absVehMed	920		AL	781	SHLM	absDotlessFehMed	_dot3u											
+absFehThreeDotsBelowMed	921		AL	782	SHL	absDotlessFehMed		_dot3d										
+absPehehMed	922		AL	783	SL	absDotlessFehMed	_dot4											
+absFehTwoDotsBelowMed	923		AL	784	SHLM	absDotlessFehMed		_dot2h										
+absFehThreeDotsUpwardBelowMed	924		AL	785	H	absDotlessFehMed		_dot3u										
+absFehThreeDotsUpBelowMed	924.1		AL	785	SL	absDotlessFehMed		_dot3u										
+absFehDotBelowThreeDotsAboveMed	925		AL	786	SH	absDotlessFehMed	_dot3u	_dot1						6.1				
+# absRohingyaYehMed	926		AL	787	-	absDotlessFehMed		_dot2h						not needed	absFehNoTailTwoDotsBelowMed			
+absQafNoDotsMed	927		AL	788	*	absDotlessFehMed												
+absAfricanQafMed	928		AL	791	SHM	absDotlessFehMed	_dot1							pending				
+absQafMed	929		AL	789	SHLM	absDotlessFehMed	_dot2h											
+absQafDotAboveMed	930		AL	790	SHLM	absDotlessFehMed	_dot1											
+absQafThreeDotsAboveMed	931		AL	792	SHL	absDotlessFehMed	_dot3u											
+absQafDotBelowMed	932		AL	793	SH	absDotlessFehMed	_dot2h	_dot1						6.1				
+absKafMed	933		AL	866	*													
+absKafDotAboveMed	934		AL	867	SHL	absKafMed	_dot1											
+absKafDotBelowMed	935		AL	868	S	absKafMed		_dot1						pending				
+absNgMed	936		AL	869	SHL	absKafMed	_dot3u											
+absKafTwoDotsAboveMed	937		AL	870	SH	absKafMed	_dot2h							5.1				
+absKafThreeDotsBelowMed	938		AL	871	SHL	absKafMed		_dot3d										
+absKehehMed	939		AL	872	*	absKafMed												
+absKafRingMed	940		AL	873	SL	absKafMed				_ring								
+absGafMed	941		AL	874	SHLM	absKafMed	_gafBar											
+absGafRingMed	942		AL	875	SL	absKafMed	_gafBar			_ring								
+absNgoehMed	943		AL	876	SL	absKafMed	_gafBar_dot2h											
+absGafTwoDotsBelowMed	944		AL	877	SL	absKafMed	_gafBar	_dot2h										
+absGuehMed	945		AL	878	SL	absKafMed	_gafBar	_dot2v										
+absGafThreeDotsAboveMed	946		AL	879	SL	absKafMed	_gafBar_dot3u											
+absKehehDotAboveMed	947		AL	880	SHL	absKafMed	_dot1											
+absKehehThreeDotsAboveMed	948		AL	881	SHL	absKafMed	_dot3u											
+absKehehThreeDotsUpwardBelowMed	949		AL	882	H	absKafMed		_dot3u										
+absKehehThreeDotsUpBelowMed	949.1		AL	882	SL	absKafMed		_dot3u										
+absKehehTwoDotsAboveMed	950		AL	883	SH	absKafMed	_dot2h							5.1				
+absKehehThreeDotsBelowMed	951		AL	884	SH	absKafMed		_dot3d						5.1				
+absGafInvertedStrokeMed	952		AL	885	S	absKafMed			_gafBarCenter					7.0				
+absSwashKafMed	953		AL	889	*													
+absLamMed	954		AL	911	*													
+absLamSmallVMed	955		AL	912	SHL	absLamMed	_smallV											
+absLamDotAboveMed	956		AL	913	SHL	absLamMed	_dot1											
+absLamThreeDotsAboveMed	957		AL	914	SHL	absLamMed	_dot3u											
+absLamThreeDotsBelowMed	958		AL	915	SHL	absLamMed		_dot3d										
+# absLamRetroMed	959		AL	1531	-	absLamMed	_tah											
+absLamBarMed	960		AL	916	SHL	absLamMed					_bar							
+absLamDoubleBarMed	961		AL	917	SH	absLamMed					_bar2			6.1				
+absMeemMed	962		AL	930	*													
+absMeemDotAboveMed	963		AL	931	SHL	absMeemMed	_dot1											
+absMeemDotBelowMed	964		AL	932	SHL	absMeemMed		_dot1										
+absMeemThreeDotsAboveMed	965		AL	933	SH	absMeemMed	_dot3u							6.1				
+absNoonMed	966		AL	1061	SHLM	absBehNoDotsMed	_dot1											
+absNoonDotBelowMed	967		AL	1063	SHL	absBehNoDotsMed	_dot1	_dot1										
+absNoonGhunnaMed	968		AL	1064	SHLM	absBehNoDotsMed												
+absAfricanNoonMed	969		AL	1062	SHM	absBehNoDotsMed	_dot1							pending				
+absRnoonMed	970		AL	1065	SL	absBehNoDotsMed	_tah											
+absNoonRingMed	971		AL	1066	SL	absBehNoDotsMed	_dot1			_ring								
+absNoonThreeDotsAboveMed	972		AL	1067	SHL	absBehNoDotsMed		_dot3d										
+absNoonTwoDotsBelowMed	973		AL	1068	SHLM	absBehNoDotsMed	_dot1	_dot2h										
+absNoonRetroMed	974		AL	1069	SL	absBehNoDotsMed	_dot1_tah											
+absNoonSmallVMed	975		AL	1070	SHL	absBehNoDotsMed	_dot1_smallV											
+absHehDoachashmeeMed	976		AL	989	SHLM													
+absHehHatMed	977		AL	987	SL	absHehMed.knottedHigh	_hat											
+absHehMed	978		AL	990	SHLM	absHehDoachashmeeMed												
+absHehMed.hooked	979		AL	995	SL	absHehGoalMed									Urdu			cv48=2
+absHehMed.knottedHigh	980		AL	988	SL										Sindhi			"cv48=1,3"
+# absHehYehAboveMed	981		AL	991	-	absHehMed	_hamza								unneeded -- char is R-linking			
+absHehGoalMed	982		AL	994	SL													
+absHehGoalHamzaAboveMed	983		AL	996	SL	absHehGoalMed	_hamza											
+absYehBarreeDigitTwoAboveIni	984		AL	1017	S	absBehNoDotsIni	_two	_dot2h						5.1				
+absYehBarreeDigitThreeAboveIni	985		AL	1018	S	absBehNoDotsIni	_three	_dot2h						5.1				
+absYehHamzaAboveIni	986		AL	1019	SHLM	absBehNoDotsIni	_hamza											
+absYehIni	987		AL	1020	SHLM	absBehNoDotsIni		_dot2h										
+absYehIni.noDots	988		AL	1005	SHLM	absBehNoDotsIni												
+absHighHamzaYehIni	989		AL	1021	SL	absBehNoDotsIni	_highHamza											
+absFarsiYehIni	990		AL	1022	SHLM	absBehNoDotsIni		_dot2h										
+absFarsiYehDigitTwoAboveIni	991		AL	1023	S	absBehNoDotsIni	_two	_dot2h						5.1				
+absFarsiYehDigitThreeAboveIni	992		AL	1024	S	absBehNoDotsIni	_three	_dot2h						5.1				
+absFarsiYehInvertedVIni	993		AL	1025	SHL	absBehNoDotsIni	_hat	_dot2h						5.1				
+absFarsiYehTwoDotsAboveIni	994		AL	1026	SH	absBehNoDotsIni	_dot2h	_dot2h						5.1				
+absFarsiYehThreeDotsAboveIni	995		AL	1027	SH	absBehNoDotsIni	_dot3u	_dot2h						5.1				
+absYehSmallVIni	996		AL	1028	SHL	absBehNoDotsIni	_smallV	_dot2h										
+absEIni	997		AL	1029	SHLM	absBehNoDotsIni		_dot2v										
+absYehThreeDotsBelowIni	998		AL	1030	SHLM	absBehNoDotsIni		_dot3d										
+absFarsiYehDigitFourBelowIni	999		AL	1031	S	absBehNoDotsIni		_four						5.1				
+absAlefMaksuraIni	1000		AL	1006	SHLM	absBehNoDotsIni												
+absKashmiriYehIni	1001		AL	1032	S	absBehNoDotsIni				_ring				6.0				
+absYehTwoDotsBelowHamzaAboveIni	1002		AL	1033	SHM	absBehNoDotsIni	_hamza	_dot2h						6.1				
+absYehTwoDotsBelowNoonAboveIni	1003		AL	1034	SHM	absBehNoDotsIni	_noon	_dot2h						pending				
+absYehTwoDotsBelowDotAboveIni	1004		AL	1035	SHM	absBehNoDotsIni	_dot1	_dot2h						6.1				
+absBehNoDotsIni	1005		AL	1004	*													
+absBehIni	1006		AL	1036	SHLM	absBehNoDotsIni		_dot1										
+absTehIni	1007		AL	1037	SHLM	absBehNoDotsIni	_dot2h											
+absThehIni	1008		AL	1038	SHLM	absBehNoDotsIni	_dot3u											
+absTtehIni	1009		AL	1039	SL	absBehNoDotsIni	_tah											
+absTtehehIni	1010		AL	1040	SHL	absBehNoDotsIni	_dot2v											
+absBeehIni	1011		AL	1041	SHLM	absBehNoDotsIni		_dot2v										
+absTehRingIni	1012		AL	1042	SL	absBehNoDotsIni	_dot2h			_ring								
+absTehThreeDotsAboveDownwardsIni	1013		AL	1043	SHL	absBehNoDotsIni	_dot3d											
+absPehIni	1014		AL	1044	SHLM	absBehNoDotsIni		_dot3d										
+absPehSmallMeemAboveIni	1015		AL	1045	S	absBehNoDotsIni	_meem	_dot3d						pending				
+absTehehIni	1016		AL	1046	SL	absBehNoDotsIni	_dot4											
+absBehehIni	1017		AL	1047	SL	absBehNoDotsIni		_dot4										
+absBehThreeDotsHorizBelowIni	1018		AL	1048	SHL	absBehNoDotsIni		_dot3h										
+absBehThreeDotsAboveDotBelowIni	1019		AL	1049	SHL	absBehNoDotsIni	_dot3u	_dot1										
+absBehThreeDotsUpwardBelowIni	1020		AL	1050	HM	absBehNoDotsIni		_dot3u										
+absBehThreeDotsUpBelowIni	1020.1		AL	1050	SL	absBehNoDotsIni		_dot3u										
+absBehTwoDotsAboveThreeDotsUpwardBelowIni	1021		AL	1051	H	absBehNoDotsIni	_dot2h	_dot3u										
+absBehTwoDotsAboveThreeDotsUpBelowIni	1021.1		AL	1051	SL	absBehNoDotsIni	_dot2h	_dot3u										
+absBehDotAboveTwoDotsBelowIni	1022		AL	1052	SHL	absBehNoDotsIni	_dot1	_dot2h										
+absBehInvSmallVBelowIni	1023		AL	1053	SHLM	absBehNoDotsIni		_invSmallV										
+absBehSmallVAboveIni	1024		AL	1054	SHLM	absBehNoDotsIni	_smallV											
+absBehSmallVBelowIni	1025		AL	1055	SHM	absBehNoDotsIni		_smallV						6.1				
+absBehHamzaAboveIni	1026		AL	1056	SHM	absBehNoDotsIni	_hamza	_dot1						7.0				
+absBehSmallMeemAboveIni	1027		AL	1057	SHM	absBehNoDotsIni	_meem	_dot1						pending				
+absJeemIni	1028		AL	560	SHLM	absHahIni		_dot1										
+absHahIni	1029		AL	559	*													
+absKhahIni	1030		AL	561	SHLM	absHahIni	_dot1											
+absHahHamzaAboveIni	1031		AL	562	SL	absHahIni	_hamza											
+absHahTwoDotsVerticalAboveIni	1032		AL	563	SHL	absHahIni	_dot2v											
+absNyehIni	1033		AL	564	SHLM	absHahIni		_dot2h										
+absDyehIni	1034		AL	565	SHL	absHahIni		_dot2v										
+absHahThreeDotsAboveIni	1035		AL	566	SHL	absHahIni	_dot3u											
+absTchehIni	1036		AL	567	SHLM	absHahIni		_dot3d										
+absTchehehIni	1037		AL	568	SL	absHahIni		_dot4										
+absTchehDotAboveIni	1038		AL	569	SHL	absHahIni	_dot1	_dot3d										
+# absTchehRetro1Ini	1039		AL	1532	-	absHahIni	_tah	_dot3d										
+absHahSmallTahTwoDotsIni	1040		AL	570	SL	absHahIni		_dot2h_tah						5.1				
+absHahSmallTahBelowIni	1041		AL	571	SL	absHahIni		_tah						5.1				
+# absJeemRetro2Ini	1042		AL	1533	-	absHahIni	_tah	_dot1										
+absHahSmallTahAboveIni	1043		AL	572	SL	absHahIni	_tah							5.1				
+absHahTwoDotsAboveIni	1044		AL	573	SHL	absHahIni	_dot2h											
+absHahThreeDotsUpwardBelowIni	1045		AL	574	H	absHahIni		_dot3u										
+absHahThreeDotsUpBelowIni	1045.1		AL	574	SL	absHahIni		_dot3u										
+absHahDigitFourBelowIni	1046		AL	575	S	absHahIni		_four						5.1				
+absJeemTwoDotsAboveIni	1047		AL	576	SHM	absHahIni	_dot2h	_dot1						6.1				
+absSeenIni	1048		AL	629	*													
+absSheenIni	1049		AL	630	SHLM	absSeenIni	_dot3u											
+absSeenDotBelowDotAboveIni	1050		AL	631	SHL	absSeenIni	_dot1	_dot1										
+absSeenThreeDotsBelowIni	1051		AL	632	SHL	absSeenIni		_dot3d										
+absSeenThreeDotsBelowThreeDotsAboveIni	1052		AL	633	SHL	absSeenIni	_dot3u	_dot3d										
+absSheenDotBelowIni	1053		AL	634	SHL	absSeenIni	_dot3u	_dot1										
+# absSheenRetro1Ini	1054		AL	1534	-	absSeenIni	_dot3u_tah											
+absSeenSmallTahTwoDotsIni	1055		AL	635	SL	absSeenIni	_dot2h_tah							5.1				
+absSeenFourDotsAboveIni	1056		AL	636	SL	absSeenIni	_dot4											
+absSeenTwoVertAboveIni	1057		AL	637	SHL	absSeenIni	_dot2v											
+absSeenDigitFourAboveIni	1058		AL	638	S	absSeenIni	_four							5.1				
+absSeenInvertedVIni	1059		AL	639	SH	absSeenIni	_hat							5.1				
+absSadIni	1060		AL	675	*													
+absDadIni	1061		AL	676	SHLM	absSadIni	_dot1											
+absSadTwoDotsBelowIni	1062		AL	677	SHL	absSadIni		_dot2h										
+absSadThreeDotsAboveIni	1063		AL	678	SHL	absSadIni	_dot3u											
+absDadDotBelowIni	1064		AL	679	SHL	absSadIni	_dot1	_dot1										
+absSadThreeDotsBelowIni	1065		AL	680	SH	absSadIni		_dot3d						7.0				
+absTahIni	1066		AL	695	*													
+absZahIni	1067		AL	696	SHLM	absTahIni	_dot1											
+absTahThreeDotsAboveIni	1068		AL	697	SHLM	absTahIni	_dot3u											
+absTahTwoDotsAboveIni	1069		AL	698	SHM	absTahIni	_dot2h							6.1				
+absAinIni	1070		AL	719	*													
+absGhainIni	1071		AL	720	SHLM	absAinIni	_dot1											
+absAinThreeDotsAboveIni	1072		AL	721	SHL	absAinIni	_dot3u											
+absAinThreeDotsBelowIni	1073		AL	722	S	absAinIni		_dot3d						pending				
+absGhainDotBelowIni	1074		AL	723	SHL	absAinIni	_dot1	_dot1										
+absAinTwoDotsAboveIni	1075		AL	724	SHLM	absAinIni	_dot2h											
+absAinThreeDotsDownAboveIni	1076		AL	725	SHL	absAinIni	_dot3d											
+absAinTwoDotsVertAboveIni	1077		AL	726	SHL	absAinIni	_dot2v											
+absFehIni	1078		AL	758	SHLM	absDotlessFehIni	_dot1											
+absDotlessFehIni	1079		AL	757	*													
+absAfricanFehIni	1080		AL	760	SHM	absDotlessFehIni		_dot1						pending				
+absFehDotMovedBelowIni	1081		AL	759	SHLM	absDotlessFehIni		_dot1										
+absFehDotBelowIni	1082		AL	761	SHL	absDotlessFehIni	_dot1	_dot1										
+absVehIni	1083		AL	762	SHLM	absDotlessFehIni	_dot3u											
+absFehThreeDotsBelowIni	1084		AL	763	SHL	absDotlessFehIni		_dot3d										
+absPehehIni	1085		AL	764	SL	absDotlessFehIni	_dot4											
+absFehTwoDotsBelowIni	1086		AL	765	SHLM	absDotlessFehIni		_dot2h										
+absFehThreeDotsUpwardBelowIni	1087		AL	766	H	absDotlessFehIni		_dot3u										
+absFehThreeDotsUpBelowIni	1087.1		AL	766	SL	absDotlessFehIni		_dot3u										
+absFehDotBelowThreeDotsAboveIni	1088		AL	767	SH	absDotlessFehIni	_dot3u	_dot1						6.1				
+# absRohingyaYehIni	1089		AL	768	-									not needed	absFehNoTailTwoDotsBelowIni			
+absQafNoDotsIni	1090		AL	769	*	absDotlessFehIni												
+absAfricanQafIni	1091		AL	772	SHM	absDotlessFehIni	_dot1							pending				
+absQafIni	1092		AL	770	SHLM	absDotlessFehIni	_dot2h											
+absQafDotAboveIni	1093		AL	771	SHLM	absDotlessFehIni	_dot1											
+absQafThreeDotsAboveIni	1094		AL	773	SHL	absDotlessFehIni	_dot3u											
+absQafDotBelowIni	1095		AL	774	SH	absDotlessFehIni	_dot2h	_dot1						6.1				
+absKafIni	1096		AL	846	*													
+absKafDotAboveIni	1097		AL	847	SHL	absKafIni	_dot1											
+absKafDotBelowIni	1098		AL	848	S	absKafIni		_dot1						pending				
+absNgIni	1099		AL	849	SHL	absKafIni	_dot3u											
+absKafTwoDotsAboveIni	1100		AL	850	SH	absKafIni	_dot2h							5.1				
+absKafThreeDotsBelowIni	1101		AL	851	SHL	absKafIni		_dot3d										
+absKehehIni	1102		AL	852	*	absKafIni												
+absKafRingIni	1103		AL	853	SL	absKafIni				_ring								
+absGafIni	1104		AL	854	SHLM	absKafIni	_gafBarShort											
+absGafRingIni	1105		AL	855	SL	absKafIni	_gafBarShort			_ring								
+absNgoehIni	1106		AL	856	SL	absKafIni	_gafBarShort_dot2h											
+absGafTwoDotsBelowIni	1107		AL	857	SL	absKafIni	_gafBarShort	_dot2h										
+absGuehIni	1108		AL	858	SL	absKafIni	_gafBarShort	_dot2v										
+absGafThreeDotsAboveIni	1109		AL	859	SL	absKafIni	_gafBarShort_dot3u											
+absKehehDotAboveIni	1110		AL	860	SHL	absKafIni	_dot1											
+absKehehThreeDotsAboveIni	1111		AL	861	SHL	absKafIni	_dot3u											
+absKehehThreeDotsUpwardBelowIni	1112		AL	862	H	absKafIni		_dot3u										
+absKehehThreeDotsUpBelowIni	1112.1		AL	862	SL	absKafIni		_dot3u										
+absKehehTwoDotsAboveIni	1113		AL	863	SH	absKafIni	_dot2h							5.1				
+absKehehThreeDotsBelowIni	1114		AL	864	SH	absKafIni		_dot3d						5.1				
+absGafInvertedStrokeIni	1115		AL	865	S	absKafIni			_gafBarCenter					7.0				
+absSwashKafIni	1116		AL	888	*													
+absLamIni	1117		AL	904	*													
+absLamSmallVIni	1118		AL	905	SHL	absLamIni	_smallV											
+absLamDotAboveIni	1119		AL	906	SHL	absLamIni	_dot1											
+absLamThreeDotsAboveIni	1120		AL	907	SHL	absLamIni	_dot3u											
+absLamThreeDotsBelowIni	1121		AL	908	SHL	absLamIni		_dot3d										
+# absLamRetroIni	1122		AL	1535	-	absLamIni	_tah											
+absLamBarIni	1123		AL	909	SHL	absLamIni					_bar							
+absLamDoubleBarIni	1124		AL	910	SH	absLamIni					_bar2			6.1				
+absMeemIni	1125		AL	926	*													
+absMeemDotAboveIni	1126		AL	927	SHL	absMeemIni	_dot1											
+absMeemDotBelowIni	1127		AL	928	SHL	absMeemIni		_dot1										
+absMeemThreeDotsAboveIni	1128		AL	929	SH	absMeemIni	_dot3u							6.1				
+absNoonIni	1129		AL	1007	SHLM	absBehNoDotsIni	_dot1											
+absNoonDotBelowIni	1130		AL	1009	SHL	absBehNoDotsIni	_dot1	_dot1										
+absNoonGhunnaIni	1131		AL	1010	SHLM	absBehNoDotsIni												
+absAfricanNoonIni	1132		AL	1008	SHM	absBehNoDotsIni	_dot1							pending				
+absRnoonIni	1133		AL	1011	SL	absBehNoDotsIni	_tah											
+absNoonRingIni	1134		AL	1012	SL	absBehNoDotsIni	_dot1			_ring								
+absNoonThreeDotsAboveIni	1135		AL	1013	SHL	absBehNoDotsIni		_dot3d										
+absNoonTwoDotsBelowIni	1136		AL	1014	SHLM	absBehNoDotsIni	_dot1	_dot2h										
+absNoonRetroIni	1137		AL	1015	SL	absBehNoDotsIni	_dot1_tah											
+absNoonSmallVIni	1138		AL	1016	SHL	absBehNoDotsIni	_dot1_smallV											
+absHehDoachashmeeIni	1139		AL	978	SHLM													
+absHehHatIni	1140		AL	979	SL	absHehDoachashmeeIni	_hat											
+absHehIni	1141		AL	980	SHLM	absHehDoachashmeeIni												
+absHehIni.hooked	1142		AL	998	SL	absHehGoalIni									Urdu			
+# absHehYehAboveIni	1143		AL	981	-	absHehDoachashmeeIni	_hamza								unneeded -- char is R-linking			
+absHehGoalIni	1144		AL	997	SL													
+absHehGoalHamzaAboveIni	1145		AL	999	SL	absHehGoalIni	_hamza											
+absHighHamza	1146	0674	AL	1153	SHLM													
+absSmallWaw	1147	06E5	AL	1154	SHLM													
+absSmallYeh	1148	06E6	AL	1155	SHL													
+absLowAlef	1149	08AD	AL	1156	S									7.0				
+absFathatan	1150	064B	NSM	1157	*													
+absDammatan	1151	064C	NSM	1158	*													
+absDammatan.sixNine	1152		NSM	1159	SHL										Sindhi			cv72=1
+absKasratan	1153	064D	NSM	1160	*													
+absKasratan.lowered	1154		NSM	1161	SHM										Exact same glyph as absKasratan -- needed for OT logic			
+absFatha	1155	064E	NSM	1162	*													
+absDamma	1156	064F	NSM	1163	*													
+absDamma.short	1157		NSM	1164	SH													cv70=1
+absDamma.filled	1158		NSM	1165	S													cv70=2
+absKasra	1159	0650	NSM	1166	*													
+absKasra.lowered	1160		NSM	1167	SHM										Exact same glyph as absKasra -- needed for OT logic			
+absShadda	1161	0651	NSM	1168	*													
+absSukun	1162	0652	NSM	1169	*													
+absSukun.downOpen	1163		NSM	1170	SHL													cv78=1
+absSukun.leftOpen	1164		NSM	1171	SHL	absShortVowelMark												cv78=2
+absMaddahAbove	1165	0653	NSM	1172	*													
+absMaddahAbove.small	1166		NSM	1173	SH													cv60=1
+absHamzaAbove	1167	0654	NSM	1174	SHLM													
+absHamzaBelow	1168	0655	NSM	1175	SHLM													
+absSubscriptAlef	1169	0656	NSM	1176	SHL													
+absUltaPesh	1170	0657	NSM	1177	*													
+absUltaPesh.open	1171		NSM	1178	S													cv74=1
+absNoonGhunnaMark	1172	0658	NSM	1179	SHL													
+absZwarakay	1173	0659	NSM	1180	SL													
+absVowelSmallV	1174	065A	NSM	1181	SHLM													
+absVowelInvSmallV	1175	065B	NSM	1182	SHLM													
+absVowelDotBelow	1176	065C	NSM	1183	SHLM													
+absReversedDamma	1177	065D	NSM	1184	SHL													
+absTurnedDammaBelow	1178	08E3	NSM	1185	S									pending				
+absFathaTwoDots	1179	065E	NSM	1186	SHL													
+absWavyHamzaBelow	1180	065F	NSM	1187	S									6.0				
+absSuperscriptAlef	1181	0670	NSM	1188	SHLM													
+# absSuperscriptAlef.left	1182		NSM	1189	-										unused?			
+absSuperscriptAlef.large	1183		NSM	1190	SHL													cv76=1
+absCurlyFatha	1184	08E4	NSM	1191	S									6.1				
+absCurlyFathatan	1185	08E7	NSM	1192	S									6.1				
+absCurlyDamma	1186	08E5	NSM	1193	S									6.1				
+absCurlyDammatan	1187	08E8	NSM	1194	S									6.1				
+absCurlyKasra	1188	08E6	NSM	1195	S									6.1				
+absCurlyKasratan	1189	08E9	NSM	1196	S									6.1				
+absTone1DotAbove	1190	08EA	NSM	1197	SH									6.1				
+absTone2DotsAbove	1191	08EB	NSM	1198	SH									6.1				
+absToneLoopAbove	1192	08EC	NSM	1199	SH									6.1				
+absTone1DotBelow	1193	08ED	NSM	1200	SH									6.1				
+absTone2DotsBelow	1194	08EE	NSM	1201	SH									6.1				
+absToneLoopBelow	1195	08EF	NSM	1202	SH									6.1				
+absFathaRing	1196	08F4	NSM	1203	SHM									6.1				
+absFathaDotAbove	1197	08F5	NSM	1204	SHM									6.1				
+absKasraDotBelow	1198	08F6	NSM	1205	SHM									6.1				
+absLeftArrowheadAbove	1199	08F7	NSM	1206	SHM									6.1				
+absRightArrowheadAbove	1200	08F8	NSM	1207	SHM									6.1				
+absLeftArrowheadBelow	1201	08F9	NSM	1208	SHM									6.1				
+absRightArrowheadBelow	1202	08FA	NSM	1209	SHM									6.1				
+absDoubleRightArrowheadAbove	1203	08FB	NSM	1210	SHM									6.1				
+absDoubleRightArrowheadAboveDot	1204	08FC	NSM	1211	SHM									6.1				
+absRightArrowheadAboveDot	1205	08FD	NSM	1212	SHM									6.1				
+absDammaDot	1206	08FE	NSM	1213	S									6.1				
+absSmallHighSadLamAlefMaksura	1207	06D6	NSM	1214	SHL													
+absSmallHighQafLamAlefMaksura	1208	06D7	NSM	1215	SHL													
+absSmallHighMeemInitialForm	1209	06D8	NSM	1216	SHL													
+absSmallHighLamAlef	1210	06D9	NSM	1217	SHL													
+absSmallHighJeem	1211	06DA	NSM	1218	SHL													
+absSmallHighThreeDots	1212	06DB	NSM	1219	SHL													
+absSmallHighSeen	1213	06DC	NSM	1220	SHL													
+absSmallHighRoundedZero	1214	06DF	NSM	1221	SHL													
+absSmallHighUprightRectangularZero	1215	06E0	NSM	1222	SHL													
+absSmallHighDotlessHeadOfKhah	1216	06E1	NSM	1223	SL													cv92
+absSmallHighMeemIsolatedForm	1217	06E2	NSM	1224	SHL													
+absSmallLowSeen	1218	06E3	NSM	1225	SHL													
+absSmallHighMadda	1219	06E4	NSM	1226	SHL													
+absSmallHighYeh	1220	06E7	NSM	1227	SHL													
+absSmallHighNoon	1221	06E8	NSM	1228	SHLM													
+absEmptyCentreLowStop	1222	06EA	NSM	1229	*													
+absEmptyCentreHighStop	1223	06EB	NSM	1230	*													
+absRoundedHighStopFilledCentre	1224	06EC	NSM	1231	SHL													
+absSmallLowMeem	1225	06ED	NSM	1232	SHL													
+absNumberSign	1226	0600	AN	1408	SHM									mod				
+absYearSign	1227	0601	AN	1417	SH									mod				
+absFootnoteSign	1228	0602	AN	1429	SHM									mod				
+absPageSign	1229	0603	AN	1435	SH									mod				
+absSamvatSign	1230	0604	AN	1447	SH									6.1				
+absNumberSignAbove	1231	0605	AN	1459	S									7.0				
+radical	1232	221A	ON	1280	S								radical.rtl					
+radical.rtl	1233		ON	1281	S								radical					
+absCubeRoot	1234	0606	ON	1282	S									5.1				
+absFourthRoot	1235	0607	ON	1283	S									5.1				
+absRay	1236	0608	AL	1284	S									5.1				
+absPerMilleSign	1237	0609	ET	1285	SH									5.1				
+absPerTenThousandSign	1238	060A	ET	1286	SH									5.1				
+absAfghaniSign	1239	060B	AL	775	S													
+absComma	1240	060C	CS	1287	*													
+absComma.downward	1241		CS	1288	*										unused?			cv84=1
+absDateSeparator	1242	060D	AL	1289	S													
+absVerseSign	1243	060E	ON	1290	S													
+absMisraSign	1244	060F	ON	1291	S													
+absSmallHighSadMark	1245	0610	NSM	1233	SHM													
+absSmallHighAinMark	1246	0611	NSM	1234	SHM													
+absSmallHighRehHahMark	1247	0612	NSM	1235	SHM													
+absSmallHighRehDadMark	1248	0613	NSM	1236	SHM													
+absNameMarker	1249	0614	NSM	1237	SHLM													
+absSmallHighTah	1250	0615	NSM	1238	S													
+absSmallHighAlefLamYeh	1251	0616	NSM	1239	S									5.1				
+absSmallHighZain	1252	0617	NSM	1240	S									5.1				
+absSmallFatha	1253	0618	NSM	1241	S									5.1				
+absSmallDamma	1254	0619	NSM	1242	SH									5.1				
+absSmallKasra	1255	061A	NSM	1243	S									5.1				
+absSemicolon	1256	061B	AL	1267	SHLM													
+absSemicolon.downward	1257		AL	1268	SHLM										unused?			cv84=1
+arabicLetterMark	1258	061C		1269	*									6.3				invs
+absTripleDotPunct	1259	061E	AL	1270	SHLM													
+absQuestionMark	1260	061F	AL	1271	*													
+absPercentSign	1261	066A	ET	1272	*													
+absDecimalSeparator	1262	066B	AN	1273	*													
+absThousandsSeparator	1263	066C	AN	1274	SHLM													
+absFivePointedStar	1264	066D	AL	1275	SHL													
+absFullStop	1265	06D4	AL	1276	*													
+absEndOfAyah	1266	06DD	AN	1387	*									mod				
+absEndOfAyah.alt	1267		AN	1393	SH									mod				cv80=1
+absEndOfAyah.altB	1268		AN	1399	SH									mod				cv80=2
+absStartOfRubElHizb	1269	06DE	NSM	1277	SL													
+absPlaceOfSajdah	1270	06E9	ON	1278	SL													
+ornateLeftParen	1271	FD3E		1279	*													
+ornateRightParen	1272	FD3F		1292	*													
+absLigatureAllah	1273	FDF2	AL	1293	*													
+absRialSign	1274	FDFC	AL	1294	SL													
+absZero	1275	0660	AN	1295	SHLM													
+absOne	1276	0661	AN	1296	SHLM													
+absTwo	1277	0662	AN	1297	SHLM													
+absThree	1278	0663	AN	1298	SHLM													
+absFour	1279	0664	AN	1299	SHLM													
+absFive	1280	0665	AN	1303	SHLM													
+absSix	1281	0666	AN	1304	SHLM													
+absSeven	1282	0667	AN	1305	SHLM													
+absEight	1283	0668	AN	1306	SHLM													
+absNine	1284	0669	AN	1307	SHLM													
+absEasternZero	1285	06F0	EN	1308	SL													
+absEasternOne	1286	06F1	EN	1309	SL													
+absEasternTwo	1287	06F2	EN	1310	SL													
+absEasternThree	1288	06F3	EN	1311	SL													
+absEasternFour	1289	06F4	EN	1312	SL													
+absEasternFour.urdu	1290		EN	1313	SL										Urdu	ur	URD	cv82=2
+absEasternFour.roh	1291		EN	1300	S	absFour									Rohingya	rhg		cv82=4
+absEasternFive	1292	06F5	EN	1314	SL													
+absEasternSix	1293	06F6	EN	1315	SL													
+absEasternSix.urdu	1294		EN	1316	SL										"Sindhi, Urdu, Rohingya"	"sd,ur,rhg"	"SND,URD"	"cv82=1,2,4"
+absEasternSeven	1295	06F7	EN	1317	SL													
+absEasternSeven.urdu	1296		EN	1318	SL										"Sindhi, Urdu, Rohingya"	"sd,ur,rhg"	"SND,URD"	"cv82=1,2,4"
+absEasternEight	1297	06F8	EN	1319	SL													
+absEasternNine	1298	06F9	EN	1320	SL													
+zeroMedium	1299		EN	1321	*													
+oneMedium	1300		EN	1322	*													
+twoMedium	1301		EN	1323	*													
+threeMedium	1302		EN	1324	*													
+fourMedium	1303		EN	1325	*													
+fiveMedium	1304		EN	1326	*													
+sixMedium	1305		EN	1327	*													
+sevenMedium	1306		EN	1328	*													
+eightMedium	1307		EN	1329	*													
+nineMedium	1308		EN	1330	*													
+absZeroMedium	1309		AN	1331	SHLM													
+absOneMedium	1310		AN	1332	SHLM													
+absTwoMedium	1311		AN	1333	SHLM													
+absThreeMedium	1312		AN	1334	SHLM													
+absFourMedium	1313		AN	1335	SHLM													
+absFiveMedium	1314		AN	1336	SHLM													
+absSixMedium	1315		AN	1337	SHLM													
+absSevenMedium	1316		AN	1338	SHLM													
+absEightMedium	1317		AN	1339	SHL													
+absNineMedium	1318		AN	1340	SHLM													
+absEasternZeroMedium	1319		EN	1341	SL													
+absEasternOneMedium	1320		EN	1342	SL													
+absEasternTwoMedium	1321		EN	1343	SL													
+absEasternThreeMedium	1322		EN	1344	SL													
+absEasternFourMedium	1323		EN	1345	SL													
+absEasternFourMedium.urdu	1324		EN	1346	SL										Urdu	ur	URD	
+absEasternFourMedium.roh	1325		EN	1301	S	absFourMedium									Rohingya	rhg		
+absEasternFiveMedium	1326		EN	1347	SL													
+absEasternSixMedium	1327		EN	1348	SL													
+absEasternSixMedium.urdu	1328		EN	1349	SL										"Sindhi, Urdu"	"sd,ur,rhg"	"SND,URD"	
+absEasternSevenMedium	1329		EN	1350	SL													
+absEasternSevenMedium.urdu	1330		EN	1351	SL										"Sindhi, Urdu"	"sd,ur,rhg"	"SND,URD"	
+absEasternEightMedium	1331		EN	1352	SL													
+absEasternNineMedium	1332		EN	1353	SL													
+zeroSmall	1333		EN	1354	*													
+oneSmall	1334		EN	1355	*													
+twoSmall	1335		EN	1356	*													
+threeSmall	1336		EN	1357	*													
+fourSmall	1337		EN	1358	*													
+fiveSmall	1338		EN	1359	*													
+sixSmall	1339		EN	1360	*													
+sevenSmall	1340		EN	1361	*													
+eightSmall	1341		EN	1362	*													
+nineSmall	1342		EN	1363	*													
+absZeroSmall	1343		AN	1364	SHLM													
+absOneSmall	1344		AN	1365	SHLM													
+absTwoSmall	1345		AN	1366	SHLM													
+absThreeSmall	1346		AN	1367	SHLM													
+absFourSmall	1347		AN	1368	SHLM													
+absFiveSmall	1348		AN	1369	SHLM													
+absSixSmall	1349		AN	1370	SHLM													
+absSevenSmall	1350		AN	1371	SHLM													
+absEightSmall	1351		AN	1372	SHL													
+absNineSmall	1352		AN	1373	SHLM													
+absEasternZeroSmall	1353		EN	1374	SL													
+absEasternOneSmall	1354		EN	1375	SL													
+absEasternTwoSmall	1355		EN	1376	SL													
+absEasternThreeSmall	1356		EN	1377	SL													
+absEasternFourSmall	1357		EN	1378	SL													
+absEasternFourSmall.urdu	1358		EN	1379	SL										Urdu	ur	URD	
+absEasternFourSmall.roh	1359		EN	1302	S	absFourSmall									Rohingya	rhg		
+absEasternFiveSmall	1360		EN	1380	SL													
+absEasternSixSmall	1361		EN	1381	SL													
+absEasternSixSmall.urdu	1362		EN	1382	SL										"Sindhi, Urdu"	"sd,ur,rhg"	"SND,URD"	
+absEasternSevenSmall	1363		EN	1383	SL													
+absEasternSevenSmall.urdu	1364		EN	1384	SL										"Sindhi, Urdu"	"sd,ur,rhg"	"SND,URD"	
+absEasternEightSmall	1365		EN	1385	SL													
+absEasternNineSmall	1366		EN	1386	SL													
+absEndOfAyah.2	1367		AN	1388	*										moved			
+absEndOfAyah.3	1368		AN	1389	*										moved			
+# absEndOfAyah.aat1	1369		AN	1390	-													
+# absEndOfAyah.aat2	1370		AN	1391	-													
+# absEndOfAyah.aat3	1371		AN	1392	-													
+absEndOfAyah.alt.2	1372		AN	1394	SH										moved			
+absEndOfAyah.alt.3	1373		AN	1395	SH										moved			
+# absEndOfAyah.alt.aat1	1374		AN	1396	-													
+# absEndOfAyah.alt.aat2	1375		AN	1397	-													
+# absEndOfAyah.alt.aat3	1376		AN	1398	-													
+absEndOfAyah.altB.2	1377		AN	1400	SH													
+absEndOfAyah.altB.3	1378		AN	1401	SH													
+# absEndOfAyah.altB.aat1	1379		AN	1402	-													
+# absEndOfAyah.altB.aat2	1380		AN	1403	-													
+# absEndOfAyah.altB.aat3	1381		AN	1404	-													
+# absEndOfAyah.sp1	1382		AN	1405	-													
+# absEndOfAyah.sp2	1383		AN	1406	-													
+# absEndOfAyah.sp3	1384		AN	1407	-													
+absNumberSign.2	1385		AN	1409	SHM										moved			
+absNumberSign.3	1386		AN	1410	SHM										moved			
+# absNumberSign.aat1	1387		AN	1411	-													
+# absNumberSign.aat2	1388		AN	1412	-													
+# absNumberSign.aat3	1389		AN	1413	-													
+# absNumberSign.sp1	1390		AN	1414	-													
+# absNumberSign.sp2	1391		AN	1415	-													
+# absNumberSign.sp3	1392		AN	1416	-													
+absYearSign.2	1393		AN	1418	SH										moved			
+absYearSign.3	1394		AN	1419	SH										moved			
+absYearSign.4	1395		AN	1420	SH										moved			
+# absYearSign.aat1	1396		AN	1421	-													
+# absYearSign.aat2	1397		AN	1422	-													
+# absYearSign.aat3	1398		AN	1423	-													
+# absYearSign.aat4	1399		AN	1424	-													
+# absYearSign.sp1	1400		AN	1425	-													
+# absYearSign.sp2	1401		AN	1426	-													
+# absYearSign.sp3	1402		AN	1427	-													
+# absYearSign.sp4	1403		AN	1428	-													
+absFootnoteSign.2	1404		AN	1430	SHM										moved			
+# absFootnoteSign.aat1	1405		AN	1431	-													
+# absFootnoteSign.aat2	1406		AN	1432	-													
+# absFootnoteSign.sp1	1407		AN	1433	-													
+# absFootnoteSign.sp2	1408		AN	1434	-													
+absPageSign.2	1409		AN	1436	SH										moved			
+absPageSign.3	1410		AN	1437	SH										moved			
+absPageSign.4	1411		AN	1438	SH													
+# absPageSign.aat1	1412		AN	1439	-													
+# absPageSign.aat2	1413		AN	1440	-													
+# absPageSign.aat3	1414		AN	1441	-													
+# absPageSign.aat4	1415		AN	1442	-													
+# absPageSign.sp1	1416		AN	1443	-													
+# absPageSign.sp2	1417		AN	1444	-													
+# absPageSign.sp3	1418		AN	1445	-													
+# absPageSign.sp4	1419		AN	1446	-													
+absSamvatSign.2	1420		AN	1448	SH									6.1				
+absSamvatSign.3	1421		AN	1449	SH									6.1				
+absSamvatSign.4	1422		AN	1450	SH									6.1				
+# absSamvatSign.aat1	1423		AN	1451	-									6.1				
+# absSamvatSign.aat2	1424		AN	1452	-									6.1				
+# absSamvatSign.aat3	1425		AN	1453	-									6.1				
+# absSamvatSign.aat4	1426		AN	1454	-									6.1				
+# absSamvatSign.sp1	1427		AN	1455	-									6.1				
+# absSamvatSign.sp2	1428		AN	1456	-									6.1				
+# absSamvatSign.sp3	1429		AN	1457	-									6.1				
+# absSamvatSign.sp4	1430		AN	1458	-									6.1				
+absNumberSignAbove.2	1431		AN	1460	S									7.0				
+absNumberSignAbove.3	1432		AN	1461	S									7.0				
+absNumberSignAbove.4	1433		AN	1462	S									7.0				
+# absNumberSignAbove.aat1	1434		AN	1463	-									7.0				
+# absNumberSignAbove.aat2	1435		AN	1464	-									7.0				
+# absNumberSignAbove.aat3	1436		AN	1465	-									7.0				
+# absNumberSignAbove.aat4	1437		AN	1466	-									7.0				
+# absNumberSignAbove.sp1	1438		AN	1467	-									7.0				
+# absNumberSignAbove.sp2	1439		AN	1468	-									7.0				
+# absNumberSignAbove.sp3	1440		AN	1469	-									7.0				
+# absNumberSignAbove.sp4	1441		AN	1470	-									7.0				
+absShaddaFathatan	1442		NSM	1244	SHLM													
+absShaddaDammatan	1443		NSM	1245	SHLM													
+absShaddaDammatan.sixNine	1444		NSM	1246	SH													cv72=1
+absShaddaKasratan	1445		NSM	1247	SHLM											"sd,ur"	"SND,URD"	cv62
+absShaddaFatha	1446		NSM	1248	SHLM													
+absShaddaDamma	1447		NSM	1249	SHLM													
+absShaddaDamma.short	1448		NSM	1250	SH													cv70=2
+absShaddaDamma.filled	1449		NSM	1251	S													cv70=1
+absShaddaKasra	1450		NSM	1252	SHLM											"sd,ur"	"SND,URD"	cv62
+absHamzaFatha	1451		NSM	1253	SHL													
+absHamzaDamma	1452		NSM	1254	SHL													
+absHamzaDamma.short	1453		NSM	1255	SH													cv70=2
+absHamzaDamma.filled	1454		NSM	1256	S													cv70=1
+absShaddaAlef	1455		NSM	1257	SHLM													
+absShortVowelMark	1456	08FF	NSM	1258	SHL									7.0	absSukun.leftOpen			# cv92=1
+absOpenFathatan	1457	08F0	NSM	1259	SH									6.1	absFathatanSeq			
+absOpenDammatan	1458	08F1	NSM	1260	SH									6.1	absDammatanSeq			
+absOpenKasratan	1459	08F2	NSM	1261	SH									6.1	absKasratanSeq			
+absSmallHighWaw	1460	08F3	NSM	1262	SH									6.1				
+absFathaMeem	1461		NSM	1263	SH													
+absDammaMeem	1462		NSM	1264	SH										unused -- but should we?			
+absKasraMeem	1463		NSM	1265	SH													
+absAutoKashida	1464		AL	1266	*										unused?			
+absLamIni.preAlef	1465		AL	1113	*													
+absLamSmallVIni.preAlef	1466		AL	1114	SHL	absLamIni.preAlef	_smallV											
+absLamDotAboveIni.preAlef	1467		AL	1115	SHL	absLamIni.preAlef	_dot1											
+absLamThreeDotsAboveIni.preAlef	1468		AL	1116	SHL	absLamIni.preAlef	_dot3u											
+absLamThreeDotsBelowIni.preAlef	1469		AL	1117	SHL	absLamIni.preAlef		_dot3d										
+# absLamRetroIni.preAlef	1470		AL	1536	-	absLamIni.preAlef	_tah											
+absLamBarIni.preAlef	1471		AL	1118	SHL	absLamIni.preAlef					_bar							
+absLamDoubleBarIni.preAlef	1472		AL	1119	SH	absLamIni.preAlef					_bar2			6.1				
+absLamHamzaIni.preAlef	1473		AL	1120	H	absLamIni.preAlef	_hamza											
+absLamHamzaIni.preAlef.warsh	1474		AL	1121	H	absLamIni.preAlef	_hamza								in Warsh these touch			"cv02=1,2"
+absAlefMaddaAboveFin.postLamIni	1475		AL	1123	SHLM	absAlefFin.postLamIni	_madda											
+absAlefMaddaAboveFin.postLamIni.small	1476		AL	1124	SH	absAlefFin.postLamIni	_madda.small											cv60=1
+absAlefHamzaAboveFin.postLamIni	1477		AL	1125	SHLM	absAlefFin.postLamIni	_hamza											
+# absAlefHamzaAboveFin.postLamIni.warsh	1478		AL	1126	-	absAlefFin.postLamIni	_hamza								can't find examples			"cv02=1,2"
+absAlefHamzaBelowFin.postLamIni	1479		AL	1127	SHLM	absAlefFin.postLamIni		_hamza										
+absAlefFin.postLamIni	1480		AL	1122	*													
+absAlefWavyHamzaAboveFin.postLamIni	1481		AL	1128	SL	absAlefFin.postLamIni	_wavyHamza											
+absAlefWavyHamzaBelowFin.postLamIni	1482		AL	1129	SL	absAlefFin.postLamIni		_wavyHamza										
+absHighHamzaAlefFin.postLamIni	1483		AL	1130	SL	absAlefFin.postLamIni	_highHamza											
+absAlefWaslaFin.postLamIni	1484		AL	1131	SHL	absAlefFin.postLamIni	_wasla											
+absAlefDigitTwoAboveFin.postLamIni	1485		AL	1132	S	absAlefFin.postLamIni						_two		5.1				
+absAlefDigitThreeAboveFin.postLamIni	1486		AL	1133	S	absAlefFin.postLamIni						_three		5.1				
+absLamMed.preAlef	1487		AL	1134	*													
+absLamSmallVMed.preAlef	1488		AL	1135	SHL	absLamMed.preAlef	_smallV											
+absLamDotAboveMed.preAlef	1489		AL	1136	SHL	absLamMed.preAlef	_dot1											
+absLamThreeDotsAboveMed.preAlef	1490		AL	1137	SHL	absLamMed.preAlef	_dot3u											
+absLamThreeDotsBelowMed.preAlef	1491		AL	1138	SHL	absLamMed.preAlef		_dot3d										
+# absLamRetroMed.preAlef	1492		AL	1537	-	absLamMed.preAlef	_tah											
+absLamBarMed.preAlef	1493		AL	1139	SHL	absLamMed.preAlef					_bar							
+absLamDoubleBarMed.preAlef	1494		AL	1140	SH	absLamMed.preAlef					_bar2			6.1				
+absAlefMaddaAboveFin.postLamMed	1495		AL	1142	SHLM	absAlefFin.postLamMed	_madda											
+absAlefMaddaAboveFin.postLamMed.small	1496		AL	1143	SH	absAlefFin.postLamMed	_madda.small											cv60=1
+absAlefHamzaAboveFin.postLamMed	1497		AL	1144	SHLM	absAlefFin.postLamMed	_hamza											
+# absAlefHamzaAboveFin.postLamMed.warsh	1498		AL	1145	-	absAlefFin.postLamMed	_hamza								can't find examples			"cv02=1,2"
+absAlefHamzaBelowFin.postLamMed	1499		AL	1146	SHLM	absAlefFin.postLamMed		_hamza										
+absAlefFin.postLamMed	1500		AL	1141	*													
+absAlefWavyHamzaAboveFin.postLamMed	1501		AL	1147	SL	absAlefFin.postLamMed	_wavyHamza											
+absAlefWavyHamzaBelowFin.postLamMed	1502		AL	1148	SL	absAlefFin.postLamMed		_wavyHamza										
+absHighHamzaAlefFin.postLamMed	1503		AL	1149	SL	absAlefFin.postLamMed	_highHamza											
+absAlefWaslaFin.postLamMed	1504		AL	1150	SHL	absAlefFin.postLamMed	_wasla											
+absAlefDigitTwoAboveFin.postLamMed	1505		AL	1151	S	absAlefFin.postLamMed						_two		5.1				
+absAlefDigitThreeAboveFin.postLamMed	1506		AL	1152	S	absAlefFin.postLamMed						_three		5.1				
+_bar	1507			1471	SHL													
+_bar2	1508			1472	SH													
+_damma	1509			1473	SHL													
+_damma.filled	1510			1474	S													
+_hamzaDamma	1511			1475	SHL													
+_hamzaDamma.filled	1512			1476	S													
+_hamza	1513			1477	SHLM													
+_highHamza	1514			1478	SHLM													
+_hat	1515			1479	SHL													
+_invSmallV	1516			1480	SHLM													
+_smallV	1517			1481	SHLM													
+_dot1	1518			1482	SHLM													
+_dot1_hat	1519			1483	SHLM													
+_dot1_smallV	1520			1484	SHL													
+_dot1_tah	1521			1485	SL													
+_dotCircular	1522			1486	S													
+_dot2h	1523			1487	SHLM													
+_dot2v	1524			1488	SHLM													
+_dot2h_tah	1525			1489	SL													
+_dot3d	1526			1490	SHLM													
+_dot3h	1527			1491	SHL													
+_dot3u	1528			1492	SHLM													
+_dot3u_tah	1529			1493	SL													
+_dot4	1530			1494	SL													
+_gafBar	1531			1495	SHLM													
+_gafBarShort	1532			1496	SHM													
+_gafBarShort_dot2h	1533			1497	SL													
+_gafBarShort_dot3u	1534			1498	SL													
+_gafBar_dot2h	1535			1499	SL													
+_gafBar_dot3u	1536			1500	SL													
+_gafBarCenter	1537			1501	S													
+_lines	1538			1502	SL													
+_madda	1539			1503	SHLM													
+_madda.small	1540			1504	SH													
+_ring	1541			1505	SHLM													
+_tah	1542			1506	SHLM													
+_meem	1543			1507	S													
+_noon	1544			1508	S													
+_two	1545			1509	S													
+_three	1546			1510	S													
+_four	1547			1511	S													
+_vline	1548			1512	SHLM													
+_wasla	1549			1513	SHL													
+_wavyHamza	1550			1514	SL													
+_wavyHamza.b	1551			1515	SL													
