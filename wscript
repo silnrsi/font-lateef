@@ -44,4 +44,4 @@ font(target = process('LateefGR-Regular.ttf', name('LateefGR')),
 	)
 
 def configure(ctx) :
-    ctx.env['MAKE_GDL'] = 'perl -I ../bin/perllib ../bin/make_gdl'
+    ctx.env['MAKE_GDL'] = 'perl -I ../tools/perllib ../tools/bin/make_gdl'
