@@ -110,11 +110,6 @@ if ($opts{'renameaps'})
 $f->{'vecs'} = {};
 
 $f->add_classfile($opts{'classfile'}, -p => $opts{'classprops'}) if ($opts{'classfile'});
-if (exists $f->{'WARNINGS'})
-{
-	warn $f->{'WARNINGS'};
-}
-
 $f->start_gdl($outfh);
 $f->make_classes(-ligatures => $opts{'ligatures'}, -ligtype => $comp, -ignoredAPs => $options{'omitaps'}, -notmark => $opts{'mark'});
 $f->out_gdl($outfh, -split_ligs => ($opts{'z'} & 1), -psnames => ($opts{'z'} & 4));
