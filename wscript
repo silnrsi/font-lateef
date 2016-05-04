@@ -31,17 +31,24 @@ used for building, testing and releasing.
 
 DEBPKG = 'fonts-sil-lateef'
 
+AP = 'source/LateefReg_tmp.xml'
+
 font(target = process('LateefGR-Regular.ttf', name('LateefGR')),
 	source = 'source/LateefReg.ttf',
 	graphite = gdl('Lateef-Regular.gdl',
 		master = 'source/master.gdl',
 		make_params = '--package "zork.pm" -o "_above _below _center _ring _through above below center ring through"  --classprops'),
-	ap = 'source/LateefReg_tmp.xml',
+	ap = AP,
 	classes = 'source/classes.xml',
 	version = VERSION,
 	license = ofl('Lateef','SIL'),
 	woff = woff(),
 	)
+
+AUTOGEN_TESTS = ['empty', 'allchars', 'diactest1']
+
+for testname in AUTOGEN_TESTS:
+	t = create(testname + '.xml', cmd('perl ${SRC[0]} -t ' + testname + ' -f l -r local(Lateef) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'results/LateefGR-Regular.ttf', AP]))
 
 def configure(ctx) :
     ctx.env['MAKE_GDL'] = 'perl -I ../tools/perllib ../tools/bin/make_gdl'

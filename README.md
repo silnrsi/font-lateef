@@ -17,6 +17,18 @@ This is an **unreleased development** effort currently focused on the following 
 
 See the FONTLOG.txt for information on this and previous releases.
 
+## About ftml tests
+
+After a successful build, the results folder will contain, along with the built ttf and woff fonts, a number of
+test files in an xml-based format called FTML. Examples are AllChars.xml, DiacTest1.xml. 
+There is, in the tools folder, an ftml.xsl file that can be used to view these ftml documents directly in Firefox (which supports
+Graphite rendering). 
+
+However, in order for Firefox to access the .xsl file, you need to relax its "strict URI" policy by going to about:config and
+setting [security.fileuri.strict_origin_policy](http://kb.mozillazine.org/Security.fileuri.strict_origin_policy) to false.
+
+Once you have this setting in effect, you can load the FTML documents directly into Firefox and see the built font rendered.
+
 ## License
 
 Lateef is licensed under the SIL Open Font License. See OFL.txt and OFL-FAQ.txt for details.
