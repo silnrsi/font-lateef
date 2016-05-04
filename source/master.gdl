@@ -124,7 +124,7 @@ endtable;
 
 table(substitution)
 
-pass(1)	// Encoding, decomposition, mirroring
+pass(1)	{ Direction = LEFT_TO_RIGHT } // Encoding, decomposition, mirroring
 
 /*  temporary
 	
