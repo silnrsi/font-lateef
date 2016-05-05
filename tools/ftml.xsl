@@ -107,25 +107,13 @@
 	</table>
 </xsl:template>
 
-<!-- 
-	Emit html lang and either css class or font-feature-settings for a test 
--->
-<xsl:template match="style" mode="getLang">
-	<xsl:if test="@lang">
-		<xsl:attribute name="lang">
-			<xsl:value-of select="@lang"/>
-		</xsl:attribute>
-	</xsl:if>
-	<xsl:if test="@feats">
-		<xsl:attribute name="class">.<xsl:value-of select="@name"/></xsl:attribute>
-	</xsl:if>
-</xsl:template>
 
 <!-- 
 	Process a single test record, emitting a table row
 -->
 <xsl:template match="test">
 	<xsl:variable name="currTest" select="."/>
+	<xsl:variable name="styleName" select="@stylename"/>
 <tr>
 	<xsl:if test="@background">
 		<xsl:attribute name="style">background-color: <xsl:value-of select="@background"/>;</xsl:attribute>
@@ -136,27 +124,32 @@
 		<xsl:value-of select="@label"/>
 	</td>
 
-<!-- emit one test data column for each fontsrc -->
-<xsl:for-each select="//fontsrc">
-	<td>
-		<xsl:attribute name="class">string <xsl:value-of select="$currTest/@stylename"/> font<xsl:number/></xsl:attribute>
-		<xsl:if test="$currTest/@rtl='True'">
-              <xsl:attribute name="dir">RTL</xsl:attribute>
-		</xsl:if>
+	<!-- emit one test data column for each fontsrc -->
+	<xsl:for-each select="//fontsrc">
+		<td>
+			<!-- calculate composite class identifier from features and font number -->
+			<xsl:attribute name="class">string<xsl:apply-templates select="/ftml/head/styles/style[@name=$styleName]" mode="getFeat"/> font<xsl:number/></xsl:attribute>
+			
+			<!-- add lang attribute if needed -->
+			<xsl:apply-templates select="/ftml/head/styles/style[@name=$styleName]" mode="getLang"/>
 
-		<!-- and finally the test data -->
-		<xsl:choose>
-			<!-- if the test has an <em> marker, the use a special template -->
-			<xsl:when test="$currTest/string[em]">
-				<xsl:apply-templates select="$currTest/string" mode="hasEM"/>
-			</xsl:when>
-			<xsl:otherwise>
-				<xsl:apply-templates select="$currTest/string"/>
-			</xsl:otherwise>
-		</xsl:choose>
-
-	</td>
-</xsl:for-each>
+			<!-- add direction if needed -->
+			<xsl:if test="$currTest/@rtl='True'">
+				<xsl:attribute name="dir">RTL</xsl:attribute>
+			</xsl:if>
+	
+			<!-- and finally the test data -->
+			<xsl:choose>
+				<!-- if the test has an <em> marker, the use a special template -->
+				<xsl:when test="$currTest/string[em]">
+					<xsl:apply-templates select="$currTest/string" mode="hasEM"/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:apply-templates select="$currTest/string"/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</td>
+	</xsl:for-each>
 
 	<!-- if *any* test has a comment, emit the comment column -->
 	<xsl:if test="/ftml/testgroup/test/comment">
@@ -165,6 +158,7 @@
 			<xsl:value-of select="comment"/>
 		</td>
 	</xsl:if>
+
 	<!-- similarly, if *any* test has a stylename, emit a column for it -->
 	<xsl:if test="/ftml/testgroup/test/@stylename">
 		<td class="stylename">
@@ -173,6 +167,24 @@
 		</td>
 	</xsl:if>
 </tr>
+</xsl:template>
+
+<!-- 
+	from a style, output stylename iff it has non-empty @feats
+-->
+<xsl:template match="style" mode="getFeat">
+	<xsl:if test="@feats" xml:space="preserve"> <xsl:value-of select="@name"/></xsl:if>
+</xsl:template>
+
+<!-- 
+	from a style, create lang attribute if it has one
+-->
+<xsl:template match="style" mode="getLang">
+	<xsl:if test="@lang">
+		<xsl:attribute name="lang">
+			<xsl:value-of select="@lang"/>
+		</xsl:attribute>
+	</xsl:if>
 </xsl:template>
 
 <!--  
