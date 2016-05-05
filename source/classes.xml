@@ -110,7 +110,7 @@
 	</class>
 
 	<class name='Invisible'>
-		zeroWidthJoiner zeroWidthNonJoiner leftToRightMark rightToLeftMark leftToRightEmbedding
+		zerojoin zeronojoin leftToRightMark rightToLeftMark leftToRightEmbedding
 		rightToLeftEmbedding popDirectionalFormatting leftToRightOverride rightToLeftOverride
 		leftToRightIsolate rightToLeftIsolate firstStrongIsolate popDirectionalIsolate arabicLetterMark
 	</class>
