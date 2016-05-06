@@ -7,9 +7,7 @@ Named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and
 poet, this font is intended to be an appropriate style for use in
 Sindhi and other languages of the southern Asia.
 
-## Project status ![](http://build.palaso.org/app/rest/builds/buildType:Fonts_Lateef/statusIcon)
-
-[Continuous integration status] (http://build.palaso.org/externalStatus.html?withCss=true&buildTypeId=Fonts_Lateef)  
+## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Lateef/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Lateef&guest=1)  
 
 This is an **unreleased development** effort currently focused on the following goals:
 
