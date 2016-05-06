@@ -45,7 +45,7 @@ font(target = process('LateefGR-Regular.ttf', name('LateefGR')),
 	woff = woff(),
 	)
 
-AUTOGEN_TESTS = ['empty', 'allchars', 'diactest1', 'mirrored', 'subtendingmarks' ]
+AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks' ]
 
 for testname in AUTOGEN_TESTS:
 	t = create(testname + '.xml', cmd('perl ${SRC[0]} -t ' + testname + ' -f l -r local(Lateef) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'results/LateefGR-Regular.ttf', AP]))
