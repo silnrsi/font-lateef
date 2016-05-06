@@ -322,8 +322,8 @@ else
 
 
 # find ABSGlyphList.txt -- in current directory or ABSGlyphList subdir of $0
-my $gl = "ABSGlyphList.txt";
-$gl = catfile(dirname($0), '..', 'ABSGlyphList', $gl) unless (-f $gl);
+my $gl = "absGlyphList.txt";
+$gl = catfile(dirname($0), '..', 'absGlyphList', $gl) unless (-f $gl);
 open (IN, $gl) || die "Can't open $gl";
 while (<IN>)
 {
