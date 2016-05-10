@@ -129,5 +129,90 @@
 		absWawHamzaAbove absYehHamzaAbove absHehYehAbove absHehGoalHamzaAbove absWawHamzaAboveFin absYehHamzaAboveFin absHehYehAboveFin absHehGoalHamzaAboveFin absYehHamzaAboveMed absHehGoalHamzaAboveMed absYehHamzaAboveIni absHehGoalHamzaAboveIni
 	</class>
 
+	<class name='DigitsAny'>
+		absZero absOne absTwo absThree absFour absFive absSix absSeven absEight absNine
+		absEasternZero absEasternOne absEasternTwo absEasternThree absEasternFour absEasternFour.urdu 
+			absEasternFour.roh absEasternFive absEasternSix absEasternSix.urdu absEasternSeven absEasternSeven.urdu absEasternEight absEasternNine
+		zero one two three four five six seven eight nine
+	</class>
+	
+	<class name='DigitsAnyMedium'>
+		absZeroMedium absOneMedium absTwoMedium absThreeMedium absFourMedium absFiveMedium absSixMedium absSevenMedium absEightMedium absNineMedium
+		absEasternZeroMedium absEasternOneMedium absEasternTwoMedium absEasternThreeMedium absEasternFourMedium absEasternFourMedium.urdu 
+			absEasternFourMedium.roh absEasternFiveMedium absEasternSixMedium absEasternSixMedium.urdu absEasternSevenMedium absEasternSevenMedium.urdu absEasternEightMedium absEasternNineMedium
+		zeroMedium oneMedium twoMedium threeMedium fourMedium fiveMedium sixMedium sevenMedium eightMedium nineMedium
+	</class>
+	
+	<class name='DigitsAnySmall'>
+		absZeroSmall absOneSmall absTwoSmall absThreeSmall absFourSmall absFiveSmall absSixSmall absSevenSmall absEightSmall absNineSmall
+		absEasternZeroSmall absEasternOneSmall absEasternTwoSmall absEasternThreeSmall absEasternFourSmall absEasternFourSmall.urdu 
+			absEasternFourSmall.roh absEasternFiveSmall absEasternSixSmall absEasternSixSmall.urdu absEasternSevenSmall absEasternSevenSmall.urdu absEasternEightSmall absEasternNineSmall
+		zeroSmall oneSmall twoSmall threeSmall fourSmall fiveSmall sixSmall sevenSmall eightSmall nineSmall
+	</class>
+
+	<!-- wish I could do this: class name='SignDigit'>
+		@DigitsAnyMedium @DigitsAnySmall
+	</class but I have to do this instead: -->
+	<class name='SignDigit'>
+		absZeroMedium absOneMedium absTwoMedium absThreeMedium absFourMedium absFiveMedium absSixMedium absSevenMedium absEightMedium absNineMedium
+		absEasternZeroMedium absEasternOneMedium absEasternTwoMedium absEasternThreeMedium absEasternFourMedium absEasternFourMedium.urdu 
+			absEasternFourMedium.roh absEasternFiveMedium absEasternSixMedium absEasternSixMedium.urdu absEasternSevenMedium absEasternSevenMedium.urdu absEasternEightMedium absEasternNineMedium
+		zeroMedium oneMedium twoMedium threeMedium fourMedium fiveMedium sixMedium sevenMedium eightMedium nineMedium
+		absZeroSmall absOneSmall absTwoSmall absThreeSmall absFourSmall absFiveSmall absSixSmall absSevenSmall absEightSmall absNineSmall
+		absEasternZeroSmall absEasternOneSmall absEasternTwoSmall absEasternThreeSmall absEasternFourSmall absEasternFourSmall.urdu 
+			absEasternFourSmall.roh absEasternFiveSmall absEasternSixSmall absEasternSixSmall.urdu absEasternSevenSmall absEasternSevenSmall.urdu absEasternEightSmall absEasternNineSmall
+		zeroSmall oneSmall twoSmall threeSmall fourSmall fiveSmall sixSmall sevenSmall eightSmall nineSmall
+	</class>
+
+	<class name='SignTakes4'>  <!-- medium -->
+		absYearSign absSamvatSign absNumberSignAbove absPageSign
+	</class>
+
+	<class name='SignTakes3Medium'>  <!-- medium -->
+		absYearSign absSamvatSign absNumberSignAbove absNumberSign absPageSign
+	</class>
+	
+	<class name='SignTakes3Small'>
+		absEndOfAyah absEndOfAyah.alt absEndOfAyah.altB
+	</class>
+
+	<class name='SignTakes2'>   <!-- medium -->
+		absYearSign absSamvatSign absNumberSignAbove absNumberSign absPageSign absEndOfAyah absEndOfAyah.alt absEndOfAyah.altB absFootnoteSign
+	</class>
+
+	<class name='SignTakes1'>   <!-- medium -->
+		absYearSign absSamvatSign absNumberSignAbove absNumberSign absPageSign absEndOfAyah absEndOfAyah.alt absEndOfAyah.altB absFootnoteSign
+	</class>
+	
+	<class name='Sign4'>
+		absYearSign.4 absSamvatSign.4 absNumberSignAbove.4 absPageSign.4
+	</class>
+	
+	<class name='Sign3Medium'>
+		absYearSign.3 absSamvatSign.3 absNumberSignAbove.3 absNumberSign.3 absPageSign.3
+	</class>
+	
+	<class name='Sign3Small'>
+		absEndOfAyah.3 absEndOfAyah.alt.3 absEndOfAyah.altB.3
+	</class>
+	
+	<!-- wish I could do this: class name='Sign3'>
+		@Sign3Medium @Sign3Small
+	</class but instead I have to do this: -->
+	<class name='Sign3'>
+		absYearSign.3 absSamvatSign.3 absNumberSignAbove.3 absNumberSign.3 absPageSign.3
+		absEndOfAyah.3 absEndOfAyah.alt.3 absEndOfAyah.altB.3
+	</class>
+
+	<class name='Sign2'>
+		absYearSign.2 absSamvatSign.2 absNumberSignAbove.2 absNumberSign.2 absPageSign.2 absEndOfAyah.2 absEndOfAyah.alt.2 absEndOfAyah.altB.2 absFootnoteSign.2
+	</class>
+
+	<class name='Sign1'>
+		absYearSign absSamvatSign absNumberSignAbove absNumberSign absPageSign absEndOfAyah absEndOfAyah.alt absEndOfAyah.altB absFootnoteSign
+	</class>
+
+
+
 
 </classes>

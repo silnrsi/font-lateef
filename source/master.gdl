@@ -203,13 +203,13 @@ pass(4)	// Contextual forms, lam-alef ligature, subtending marks
 //	cSignTakes3Medium cDigitsAny cDigitsAny cDigitsAny  >
 //		cSign3Medium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
 		
-//	cSignTakes3Small cDigitsAny cDigitsAny cDigitsAny  >
-//		cSign3Small cDigitsAnySmall cDigitsAnySmall cDigitsAnySmall;
+	cSignTakes3Small cDigitsAny cDigitsAny cDigitsAny  >
+		cSign3Small cDigitsAnySmall cDigitsAnySmall cDigitsAnySmall;
 		
-//	cSignTakes2 cDigitsAny cDigitsAny  >
-//		cSign2 cDigitsAnyMedium cDigitsAnyMedium;
+	cSignTakes2 cDigitsAny cDigitsAny  >
+		cSign2 cDigitsAnyMedium cDigitsAnyMedium;
 
-//	cSignTakes1 cDigitsAny  >  cSign1  cDigitsAnyMedium;
+	cSignTakes1 cDigitsAny  >  cSign1  cDigitsAnyMedium;
 
 
 endpass; // 4
@@ -298,7 +298,7 @@ pass(1)
 	calefDia {attach {to = @1; at = alefS; with = alefM}} / cTakesalefDia MARKSBELOW _;
 
 	cdiaADia {attach {to = @1; at = diaAS; with = diaAM}} / cTakesdiaADia MARKSBELOW _;
-	cdigitDia {attach {to = @1; at = digitS; with = digitM}} / cTakesdigitDia opt4(cnTakesdigitDia) _;
+	// cdigitDia {attach {to = @1; at = digitS; with = digitM}} / cTakesdigitDia opt4(cnTakesdigitDia) _;
 	cdiaBDia {attach {to = @1; at = diaBS; with = diaBM}} / cTakesdiaBDia opt4(cnTakesdiaBDia) _;	
 
 /***	
@@ -318,55 +318,55 @@ pass(1)
 	(cBaseAny cMark1Above_volt cMarkSuperscriptAlefs)=B  (cMarksAbove){attach {to=@B; at=diaA; with=diaA_}; }
 		/ _ ^ MARKSBELOW  _;
 
+***/
 
 	// Subtending marks
 	// NB: at this point digits should be in visual order, right to left,
 	// so we attach the left-most (logically first) to the sign, and proceed to the right.
 	
 	
-	cSignDigit=D4 { attach {to=@D3; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D3 { attach {to=@D2; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D2 { attach {to=@D1; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D1 { attach {to=@S;  at=digit; with=digit_ }; insert = true}
-	cSign4=S;
+//	cSignDigit=D4 { attach {to=@D3; at=digitS; with=digitM }; insert = true}
+//	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true}
+//	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
+//	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
+//	cSign4=S;
 
-	cSignDigit=D3 { attach {to=@D2; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D2 { attach {to=@D1; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D1 { attach {to=@S;  at=digit; with=digit_ }; insert = true}
+	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
+	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
 	cSign3=S;
 
-	cSignDigit=D2 { attach {to=@D1; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D1 { attach {to=@S;  at=digit; with=digit_ }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
+	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
 	cSign2=S;
 
-	cSignDigit { attach {to=@S;  at=digit; with=digit_ }; insert = true}
+	cSignDigit { attach {to=@S;  at=digitS; with=digitM }; insert = true}
 	cSign1=S;
+
 	
 	// However, there is a bug in some integrations (e.g., Firefox) 
 	// such that the glyps are still in logical order:
 	
-	cSign4=S
-	cSignDigit=D1 { attach {to=@S;  at=digit; with=digit_ }; insert = true}
-	cSignDigit=D2 { attach {to=@D1; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D3 { attach {to=@D2; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D4 { attach {to=@D3; at=digit; with=digit_ }; insert = true};
+//	cSign4=S
+//	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
+//	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
+//	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true}
+//	cSignDigit=D4 { attach {to=@D3; at=digitS; with=digitM }; insert = true};
 	
 	cSign3=S
-	cSignDigit=D1 { attach {to=@S;  at=digit; with=digit_ }; insert = true}
-	cSignDigit=D2 { attach {to=@D1; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D3 { attach {to=@D2; at=digit; with=digit_ }; insert = true};
+	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
+	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true};
 	
 
 	cSign2=S
-	cSignDigit=D1 { attach {to=@S;  at=digit; with=digit_ }; insert = true}
-	cSignDigit=D2 { attach {to=@D1; at=digit; with=digit_ }; insert = true};
+	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true};
 	
 
 	cSign1=S
-	cSignDigit { attach {to=@S;  at=digit; with=digit_ }; insert = true};
-	
-	
-***/
+	cSignDigit { attach {to=@S;  at=digitS; with=digitM }; insert = true};
+
 
 endpass; // 1
 
