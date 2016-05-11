@@ -13,6 +13,7 @@ text eol=lf
 *.gdl text
 *.gdh text
 *.vtp text
+*.cfg text
 *.htxt text
 *.srctext text 
 *.xdvtxt text
@@ -24,6 +25,7 @@ text eol=lf
 # Declare text files that will stay in LF (i.e. not expected to be used on Windows)
 *.sh eol=lf
 *.sfd text eol=lf
+wscript eol=lf
 
 # Declare all files that are truly binary and should not be modified.
 *.png binary

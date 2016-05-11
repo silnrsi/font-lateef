@@ -36,6 +36,7 @@ AP = 'source/LateefReg_tmp.xml'
 font(target = process('LateefGR-Regular.ttf', name('LateefGR')),
 	source = 'source/LateefReg.ttf',
 	graphite = gdl('Lateef-Regular.gdl',
+		params = '-D',
 		master = 'source/master.gdl',
 		make_params = '--package "zork.pm" -o "_above _below _center _ring _through above below center ring through"  --classprops'),
 	ap = AP,

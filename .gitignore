@@ -8,6 +8,12 @@
 results/**
 bin/**
 
+# gdl and graide
+$_temp.gdl
+gdlerr.txt
+graide_dbg_output.json
+graide_image*.png
+
 # general backup files
 *~
 *.swp
