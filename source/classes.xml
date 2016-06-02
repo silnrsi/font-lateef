@@ -96,6 +96,15 @@
 	</class>
 -->
 
+	<class name='AlefMark'>
+		absMaddahAbove absMaddahAbove.small absHamzaAbove absHamzaBelow
+	</class>
+	
+	<class name='AlefPlusMark'>
+		absAlefMaddaAbove absAlefMaddaAbove.small absAlefHamzaAbove absAlefHamzaBelow
+	</class>
+
+	
 	<class name='Heh'>
 		absHeh           absHehIni         absHehMed              absHehFin
 	</class>

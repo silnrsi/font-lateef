@@ -124,23 +124,44 @@ endtable;
 
 table(substitution)
 
-pass(1)	{ Direction = LEFT_TO_RIGHT } // Encoding, decomposition, mirroring
+pass(1)	{ Direction = LEFT_TO_RIGHT } // Encoding, [de-]composition, mirroring, subtending marks
 
-/*  temporary
+	// NB: This pass also includes cp1252 compositions
 	
-	// QUESTION: are there more things that need to be decomposed?
+	// NB: I think that even though this is an ABS decomposition, it can be done in a LTR pass because
+	//     the reverser will make sure the mark always follows the base:
 	cAlefPlusMark _ >  absAlef:1  cAlefMark$1:1 ;
+	// QUESTION: are there more things that need to be decomposed?
 		
-	if (graphite1mirror)
-		(cMirrorOpen cMirrorClose)  >  (cMirrorClose cMirrorOpen);
-	endif;
-*/
+//	if (graphite1mirror)	// No longer support Graphite 1 mirroring?
+//		(cMirrorOpen cMirrorClose)  >  (cMirrorClose cMirrorOpen);
+//	endif;
+
 	// The following is a debugging tool so you can find out whether the app is rendering with Graphite or not.
 	// The string "RenderingUnknown" will be rendered as "RenderingGraphite":
 
 	codepoint("U") codepoint("n") codepoint("k") codepoint("n") codepoint("o") codepoint("w") codepoint("n") _               > 
 	codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codepoint("i") codepoint("t") codepoint("e"):16  / 
 		codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
+
+	// Subtending marks
+	// This is in a LTR pass because their category (AN) and the digits that follow are collected into
+	// a LTR sequence by the bidi algorithm.
+	
+//	cSignTakes4 cDigitsAny cDigitsAny cDigitsAny cDigitsAny  >
+//		cSign4 cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
+
+//	cSignTakes3Medium cDigitsAny cDigitsAny cDigitsAny  >
+//		cSign3Medium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
+		
+	cSignTakes3Small cDigitsAny cDigitsAny cDigitsAny  >
+		cSign3Small cDigitsAnySmall cDigitsAnySmall cDigitsAnySmall;
+		
+	cSignTakes2 cDigitsAny cDigitsAny  >
+		cSign2 cDigitsAnyMedium cDigitsAnyMedium;
+
+	cSignTakes1 cDigitsAny  >  cSign1  cDigitsAnyMedium;
+
 
 endpass; // 1
 
@@ -163,8 +184,6 @@ pass(2)	// Reorder marks to "logical" order (this allows for canonical order inp
 
 endpass; // 2
 
-
-
 pass(3)	// ligature diacritics
 
 	if (shaddaKasra == std)
@@ -174,7 +193,7 @@ pass(3)	// ligature diacritics
 endpass; // 3
 
 
-pass(4)	// Contextual forms, lam-alef ligature, subtending marks
+pass(4)	// Contextual forms, lam-alef ligature
 
 	// Lam-alef
 	
@@ -193,24 +212,6 @@ pass(4)	// Contextual forms, lam-alef ligature, subtending marks
 	(cDualLinkIsol cDualLinkFina absTatweel g_zerojoin) (cDualLinkIsol cRightLinkIsol absTatweel g_zerojoin) > 
 		(cDualLinkInit cDualLinkMedi absTatweel g_zerojoin) (cDualLinkFina cRightLinkFina absTatweel g_zerojoin)
 		/ _  MARKS ^ _ ;
-
-
-	// Subtending marks
-	
-//	cSignTakes4 cDigitsAny cDigitsAny cDigitsAny cDigitsAny  >
-//		cSign4 cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
-
-//	cSignTakes3Medium cDigitsAny cDigitsAny cDigitsAny  >
-//		cSign3Medium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
-		
-	cSignTakes3Small cDigitsAny cDigitsAny cDigitsAny  >
-		cSign3Small cDigitsAnySmall cDigitsAnySmall cDigitsAnySmall;
-		
-	cSignTakes2 cDigitsAny cDigitsAny  >
-		cSign2 cDigitsAnyMedium cDigitsAnyMedium;
-
-	cSignTakes1 cDigitsAny  >  cSign1  cDigitsAnyMedium;
-
 
 endpass; // 4
 
