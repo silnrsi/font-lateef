@@ -48,15 +48,15 @@ GenTest [-h]  [-f fontID]  [-s]  [-t testname]  ttf_file [ap_file]
 
 =head1 DESCRIPTION
 
-Generates test files. The characters included in the test are determined
-by a number of factors including the font being tested (ttf_file) and,
-if supplied, the Attachment Point database (ap_file).
+Generates .ftml files for testing. The characters included in the test are 
+determined by a number of factors including the font being tested (ttf_file) 
+and, if supplied, the Attachment Point database (ap_file).
 
 If ap_file is not supplied, GenTest will use the GPOS table (if 
 available in the supplied ttf_file) to guess what base characters 
 have attachment points.
 
-Requires two auxillary text files
+Requires two auxillary text files:
 
 =over 4
 
@@ -69,7 +69,6 @@ following fields taken directly from UCD:
 
 For characters not yet added to Unicode, extra records can be added to this file as needed
 to generate appropriate test data.
-
 
 =item ABSGlyphList.txt
 
@@ -535,8 +534,8 @@ sub OpenOutputFile
 	$longTestName = "$testName test";
 	$longTestName .= " for $fontName{$fontID}[0]" if $fontID;
 	
-	open OUT, ">:utf8", "$testName.xml" or die "Cannot open '$testName.xml' for writing";
-	print "Generating test file '$testName.xml'...\n";
+	open OUT, ">:utf8", "$testName.ftml" or die "Cannot open '$testName.ftml' for writing";
+	print "Generating test file '$testName.ftml'...\n";
 
 
 
