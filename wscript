@@ -55,7 +55,7 @@ font(target = process('LateefGR-Regular.ttf', name('LateefGR')),
 AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks' ]
 
 for testname in AUTOGEN_TESTS:
-	t = create(testname + '.xml', cmd('perl ${SRC[0]} -t ' + testname + ' -f l -r local(Lateef) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'results/LateefGR-Regular.ttf', AP]))
+	t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -f l -r local(Scheherazade) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'results/LateefGR-Regular.ttf', AP]))
 
 def configure(ctx) :
     ctx.env['MAKE_GDL'] = 'perl -I ../tools/perllib ../tools/bin/make_gdl'
