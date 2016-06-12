@@ -236,6 +236,10 @@ pass(5)	// Features, special behaviors
 		cHeh  >  cHehUrdu;
 	endif;
 
+	if (dammatanAlt == sixNine)
+		cno_sixNine > csixNine;
+	endif;
+
 	if (sukunAlt == jasmDown)
 		cno_downOpen  >  cdownOpen;
 	endif;
