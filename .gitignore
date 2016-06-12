@@ -62,7 +62,7 @@ $RECYCLE.BIN/
 *.sfd-*
 
 # Opaque formats to keep out of git
-*.vfb
+#*.vfb
 *.fog
 *.vfc
 

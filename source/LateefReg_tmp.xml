@@ -1487,23 +1487,17 @@
 		<property name="mark" value="64"></property>
 	</glyph>
 	<glyph PSName="absFarsiYehInvertedV" GID="338" UID="U+063D">
-		<point type="below" mark="1">
-			<location y="-407" x="338"></location>
-		</point>
 		<point type="diaB" mark="1">
-			<location y="-462" x="200"></location>
+			<location y="-462" x="260"></location>
 		</point>
 		<point type="alef" mark="1">
-			<location y="539" x="335"></location>
-		</point>
-		<point type="above" mark="1">
-			<location y="654" x="478"></location>
+			<location y="980" x="340"></location>
 		</point>
 		<point type="diaA" mark="1">
-			<location y="700" x="478"></location>
+			<location y="1153" x="503"></location>
 		</point>
 		<compound PSName="absYeh.noDots" GID="335" bbox="50, -358, 966, 604"></compound>
-		<compound PSName="_hat" GID="1099" bbox="226, 642, 742, 982"></compound>
+		<compound PSName="_hat" GID="1099" bbox="279, 712, 795, 1052"></compound>
 		<property name="mark" value="128"></property>
 	</glyph>
 	<glyph PSName="absYehSmallV" GID="339" UID="U+06CE">
@@ -4132,23 +4126,17 @@
 		<property name="mark" value="64"></property>
 	</glyph>
 	<glyph PSName="absFarsiYehInvertedVFin" GID="526">
-		<point type="below" mark="1">
-			<location y="-524" x="431"></location>
-		</point>
 		<point type="diaB" mark="1">
 			<location y="-575" x="277"></location>
 		</point>
 		<point type="alef" mark="1">
-			<location y="329" x="375"></location>
-		</point>
-		<point type="above" mark="1">
-			<location y="236" x="556"></location>
+			<location y="561" x="366"></location>
 		</point>
 		<point type="diaA" mark="1">
-			<location y="510" x="471"></location>
+			<location y="711" x="528"></location>
 		</point>
 		<compound PSName="absYehFin.noDots" GID="523" bbox="38, -471, 1123, 180"></compound>
-		<compound PSName="_hat" GID="1099" bbox="304, 224, 820, 564"></compound>
+		<compound PSName="_hat" GID="1099" bbox="304, 295, 820, 635"></compound>
 		<property name="mark" value="128"></property>
 	</glyph>
 	<glyph PSName="absYehSmallVFin" GID="527">
@@ -6011,32 +5999,17 @@
 	</glyph>
 	<glyph PSName="absFarsiYehInvertedVMed" GID="657">
 		<point type="diaB" mark="1">
-			<location y="-200" x="150"></location>
+			<location y="-458" x="186"></location>
 		</point>
 		<point type="diaA" mark="1">
-			<location y="700" x="185"></location>
-		</point>
-		<point type="_above" mark="1">
-			<location y="-410" x="203"></location>
-		</point>
-		<point type="below" mark="1">
-			<location y="-50" x="203"></location>
-		</point>
-		<point type="_center" mark="1">
-			<location y="-230" x="203"></location>
-		</point>
-		<point type="above" mark="1">
-			<location y="386" x="212"></location>
+			<location y="885" x="184"></location>
 		</point>
 		<point type="alef" mark="1">
-			<location y="599" x="52"></location>
+			<location y="707" x="25"></location>
 		</point>
-		<point type="ring" mark="1">
-			<location y="117" x="205"></location>
-		</point>
-		<compound PSName="absBehNoDotsMed" GID="662" bbox="-87, 0, 523, 342"></compound>
-		<compound PSName="_hat" GID="1099" bbox="-40, 374, 476, 714"></compound>
+		<compound PSName="_hat" GID="1099" bbox="-40, 444, 476, 784"></compound>
 		<compound PSName="_dot2h" GID="1106" bbox="-9, -334, 415, -126"></compound>
+		<compound PSName="absBehNoDotsMed" GID="662" bbox="-87, 0, 523, 342"></compound>
 		<property name="mark" value="128"></property>
 	</glyph>
 	<glyph PSName="absYehSmallVMed" GID="658">
@@ -7665,28 +7638,13 @@
 	</glyph>
 	<glyph PSName="absFarsiYehInvertedVIni" GID="780">
 		<point type="diaB" mark="1">
-			<location y="-202" x="150"></location>
+			<location y="-437" x="182"></location>
 		</point>
 		<point type="diaA" mark="1">
-			<location y="700" x="105"></location>
-		</point>
-		<point type="_above" mark="1">
-			<location y="-410" x="199"></location>
-		</point>
-		<point type="below" mark="1">
-			<location y="-50" x="199"></location>
-		</point>
-		<point type="_center" mark="1">
-			<location y="-230" x="199"></location>
-		</point>
-		<point type="above" mark="1">
-			<location y="530" x="206"></location>
-		</point>
-		<point type="ring" mark="1">
-			<location y="81" x="187"></location>
+			<location y="1050" x="172"></location>
 		</point>
 		<compound PSName="absBehNoDotsIni" GID="785" bbox="-85, 0, 313, 481"></compound>
-		<compound PSName="_hat" GID="1099" bbox="-46, 518, 470, 858"></compound>
+		<compound PSName="_hat" GID="1099" bbox="-51, 588, 465, 928"></compound>
 		<compound PSName="_dot2h" GID="1106" bbox="-13, -334, 411, -126"></compound>
 		<property name="mark" value="128"></property>
 	</glyph>
