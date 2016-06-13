@@ -1,11 +1,6 @@
 #! /usr/bin/python
 # this is a smith configuration file
 
-# Obtain current git repo hash and append (M) if there are any uncommitted changes
-import subprocess
-GITHASH = subprocess.check_output(['git', 'rev-parse', '--short', 'HEAD']).strip()
-if subprocess.call(['git', 'diff-index', '--quiet',  'HEAD']) : GITHASH += ' (M)'
-
 # set the default output folders
 out="results"
 DOCDIR="documentation"
@@ -46,8 +41,7 @@ font(target = process('LateefGR-Regular.ttf', name('LateefGR')),
 		make_params = '--package "zork.pm" -o "_above _below _center _ring _through above below center ring through"  --classprops'),
 	ap = AP,
 	classes = 'source/classes.xml',
-	version = (VERSION , "alpha #" + GITHASH),
-#	version = (VERSION , "#" + GITHASH),
+	version = VERSION,
 	license = ofl('Lateef','SIL'),
 	woff = woff(),
 	)
