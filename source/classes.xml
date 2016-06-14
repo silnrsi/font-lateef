@@ -26,7 +26,7 @@
 		absLamFin absLamSmallVFin absLamDotAboveFin absLamThreeDotsAboveFin absLamThreeDotsBelowFin absLamBarFin absLamDoubleBarFin
 	</class>
 	<class name='LamIni'>
-		absLamIni absLamSmallVIni absLamDotAboveIni absLamThreeDotsAboveIni absLamThreeDotsBelowIni	absLamBarIni absLamDoubleBarIni
+		absLamIni absLamSmallVIni absLamDotAboveIni absLamThreeDotsAboveIni absLamThreeDotsBelowIni absLamBarIni absLamDoubleBarIni
 	</class>
 	<class name='LamIniBeforeAlef'>
 		absLamIni.preAlef absLamSmallVIni.preAlef absLamDotAboveIni.preAlef absLamThreeDotsAboveIni.preAlef absLamThreeDotsBelowIni.preAlef absLamBarIni.preAlef absLamDoubleBarIni.preAlef
@@ -103,7 +103,6 @@
 	<class name='AlefPlusMark'>
 		absAlefMaddaAbove absAlefMaddaAbove.small absAlefHamzaAbove absAlefHamzaBelow
 	</class>
-
 	
 	<class name='Heh'>
 		absHeh           absHehIni         absHehMed              absHehFin
@@ -222,6 +221,40 @@
 	</class>
 
 
+	<!-- The next three class must match for substitution: -->
+
+	<class name='EasternDigit'>
+		absEasternFour             absEasternSix             absEasternSeven
+		absEasternFourMedium       absEasternSixMedium       absEasternSevenMedium
+		absEasternFourSmall        absEasternSixSmall        absEasternSevenSmall
+	</class>
+		
+	<class name='EasternDigitUrdu'>
+		absEasternFour.urdu        absEasternSix.urdu        absEasternSeven.urdu
+		absEasternFourMedium.urdu  absEasternSixMedium.urdu  absEasternSevenMedium.urdu
+		absEasternFourSmall.urdu   absEasternSixSmall.urdu   absEasternSevenSmall.urdu
+	</class>
+
+	<class name='EasternDigitSindhi'>
+		absEasternFour             absEasternSix.urdu        absEasternSeven.urdu
+		absEasternFourMedium       absEasternSixMedium.urdu  absEasternSevenMedium.urdu
+		absEasternFourSmall        absEasternSixSmall.urdu   absEasternSevenSmall.urdu
+	</class>
+
+
+	<class name='TakesLargeDaggerAlef'>
+		absYehTail absYeh absFarsiYeh absE absYehThreeDotsBelow
+		absFarsiYehDigitFourBelow absAlefMaksura absSeen absSheen absSeenDotBelowDotAbove
+		absSeenThreeDotsBelow absSeenThreeDotsBelowThreeDotsAbove absSheenDotBelow absSeenSmallTahTwoDots
+		absSeenFourDotsAbove absSeenTwoVertAbove absSeenDigitFourAbove absSeenInvertedV absSad
+		absDad absSadTwoDotsBelow absSadThreeDotsAbove absDadDotBelow absSadThreeDotsBelow
+		absYehTailFin absYehFin absFarsiYehFin absEFin absYehThreeDotsBelowFin absFarsiYehDigitFourBelowFin
+		absAlefMaksuraFin absSeenFin absSheenFin absSeenDotBelowDotAboveFin absSeenThreeDotsBelowFin
+		absSeenThreeDotsBelowThreeDotsAboveFin absSheenDotBelowFin absSeenSmallTahTwoDotsFin
+		absSeenFourDotsAboveFin absSeenTwoVertAboveFin absSeenDigitFourAboveFin absSeenInvertedVFin
+		absSadFin absDadFin absSadTwoDotsBelowFin absSadThreeDotsAboveFin absDadDotBelowFin
+		absSadThreeDotsBelowFin
+	</class>
 
 
 </classes>

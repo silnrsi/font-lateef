@@ -240,6 +240,10 @@ pass(5)	// Features, special behaviors
 		cno_sixNine > csixNine;
 	endif;
 
+	// if (daggeralefAlt == large)
+		absSuperscriptAlef  >  absSuperscriptAlef_large  /  cTakesLargeDaggerAlef  _;
+	// endif;	
+
 	if (sukunAlt == jasmDown)
 		cno_downOpen  >  cdownOpen;
 	endif;
@@ -248,11 +252,11 @@ pass(5)	// Features, special behaviors
 	endif;
 	
 
-	//if (easternDigits == sindhi)
-	//	 cEasternDigit  >  cEasternDigitSindhi;  // digits are already Sindhi ?
-	// endif;
+	if (easternDigits == sindhi)
+		cEasternDigit  >  cEasternDigitSindhi;
+	endif;
 	if (easternDigits == urdu)
-		cno_urdu  >  curdu;
+		cEasternDigit  >  cEasternDigitUrdu;
 	endif;
 	//if (easternDigits == rohingya)
 	//	cEasternDigit  >  cEasternDigitRohingya;
