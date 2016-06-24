@@ -33,14 +33,14 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-2016-03-23 (SIL NRSI team) LateefGR Version 1.200
+2016-Mar-23 (SIL NRSI team) LateefGR Version 1.200
 - First commit to GitHub for Graphite development work
 
-2008-11-06 (SIL NRSI team) Lateef Version 1.001
+2008-Nov-06 (SIL NRSI team) Lateef Version 1.001
 - Re-released under OFL
 - no other changes from 1.0
 
-2005-06-03 (SIL NRSI team) Lateef Version 1.0
+2005-Jun-03 (SIL NRSI team) Lateef Version 1.0
 - First public version
 - Released under the SIL Freeware License
 
@@ -57,6 +57,5 @@ D: SIL designers and font engineers
 
 The Lateef project is maintained by SIL International.
 
-For more information please visit the Arabic Script fonts page on 
-SIL International's Computers and Writing Systems website:
-http://scripts.sil.org/ArabicFonts
+For more information please visit the Lateef font page on 
+SIL International's website: http://software.sil.org/lateef/
