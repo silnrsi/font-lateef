@@ -44,7 +44,7 @@ font(target = process('LateefGR-Regular.ttf', name('LateefGR')),
 	classes = 'source/classes.xml',
 	version = VERSION,
 	license = ofl('Lateef','SIL'),
-	woff = woff(),
+	woff = woff(params = '-v ' + VERSION + ' -m ../source/Lateef-WOFF-metadata.xml'),
 	)
 
 AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks', 'DaggerAlef' ]
