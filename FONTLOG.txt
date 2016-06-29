@@ -35,6 +35,11 @@ ChangeLog
 
 2016-Mar-23 (SIL NRSI team) LateefGR Version 1.200
 - First commit to GitHub for Graphite development work
+- Removed U+03BC
+- Added U+061C, U+063D, U+076E..U+0772, U+2012, U+2015, U+2027..U+2029,
+  U+202F, U+2066..U+2069
+- Added alternates for End of Ayah and changed default design (U+06DD)
+- Added Character Variants ...
 
 2008-Nov-06 (SIL NRSI team) Lateef Version 1.001
 - Re-released under OFL
