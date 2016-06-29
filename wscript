@@ -15,6 +15,7 @@ APPNAME="LateefGR"
 VERSION="1.200"
 COPYRIGHT="Copyright (c) 2004-2016, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
+README='README.md'
 
 DESC_NAME = "LateefGR"
 DESC_SHORT = "Unicode Arabic font for southern Asia"
