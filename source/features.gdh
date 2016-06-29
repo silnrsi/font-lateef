@@ -73,6 +73,21 @@ hehAlt {
     default = std;
 }
 
+UAlt {
+    id = "cv50";
+    name.1033 = string("Arabic U");
+    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        filled {
+            value = 1;
+            name.1033 = string("Filled");
+        }
+    }
+    default = std;
+}
 
 shaddaKasra {
     id = "cv62";
@@ -90,6 +105,21 @@ shaddaKasra {
     default = std;
 }
 
+dammaAlt {
+    id = "cv70";
+    name.1033 = string("Damma");
+    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        filled {
+            value = 1;
+            name.1033 = string("Filled");
+        }
+    }
+    default = std;
+}
 
 dammatanAlt {
     id = "cv72";	// was 2007;
@@ -128,6 +158,25 @@ sukunAlt {
     default = std;
 }
 
+endOfAyah {
+    id = "cv80";	// was 2008;
+    name.1033 = string("End of ayah");
+    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        circle {
+            value = 1;
+            name.1033 = string("Simplified A");
+        }
+        square {
+            value = 2;
+            name.1033 = string("Simplified B");
+        }
+    }
+    default = std;
+}
 
 easternDigits {
     id = "cv82";

@@ -1,5 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <classes>
+
+	<!-- 
+	===============================
+	linking form classes 
+	===============================
+	-->
+	
 	<class name='DualLinkFina'>
 		absYehHamzaAboveFin absYehFin absYehFin.noDots absHighHamzaYehFin absFarsiYehFin absYehSmallVFin absEFin absYehThreeDotsBelowFin absAlefMaksuraFin absBehNoDotsFin absBehFin absTehFin absThehFin absTtehFin absTtehehFin absBeehFin absTehRingFin absTehThreeDotsAboveDownwardsFin absPehFin absTehehFin absBehehFin absBehThreeDotsHorizBelowFin absBehThreeDotsAboveDotBelowFin absBehThreeDotsUpBelowFin absBehTwoDotsAboveThreeDotsUpBelowFin absBehDotAboveTwoDotsBelowFin absBehInvSmallVBelowFin absBehSmallVAboveFin absJeemFin absHahFin absKhahFin absHahHamzaAboveFin absHahTwoDotsVerticalAboveFin absNyehFin absDyehFin absHahThreeDotsAboveFin absTchehFin absTchehehFin absTchehDotAboveFin absTchehRetro1Fin absHahSmallTahTwoDotsFin absHahSmallTahBelowFin absJeemRetro2Fin absHahSmallTahAboveFin absHahTwoDotsAboveFin absHahThreeDotsUpBelowFin absSeenFin absSheenFin absSeenDotBelowDotAboveFin absSeenThreeDotsBelowFin absSeenThreeDotsBelowThreeDotsAboveFin absSheenDotBelowFin absSheenRetro1Fin absSeenSmallTahTwoDotsFin absSeenFourDotsAboveFin absSeenTwoVertAboveFin absSadFin absDadFin absSadTwoDotsBelowFin absSadThreeDotsAboveFin absDadDotBelowFin absTahFin absZahFin absTahThreeDotsAboveFin absAinFin absGhainFin absAinThreeDotsAboveFin absGhainDotBelowFin absAinTwoDotsAboveFin absAinThreeDotsDownAboveFin absAinTwoDotsVertAboveFin absFehFin absDotlessFehFin absFehDotMovedBelowFin absFehDotBelowFin absVehFin absFehThreeDotsBelowFin absPehehFin absFehTwoDotsBelowFin absFehThreeDotsUpBelowFin absQafNoDotsFin absQafFin absQafDotAboveFin absQafThreeDotsAboveFin absKafFin absKafDotAboveFin absNgFin absKafThreeDotsBelowFin absKehehFin absKafRingFin absGafFin absGafRingFin absNgoehFin absGafTwoDotsBelowFin absGuehFin absGafThreeDotsAboveFin absKehehDotAboveFin absKehehThreeDotsAboveFin absKehehThreeDotsUpBelowFin absSwashKafFin absLamFin absLamSmallVFin absLamDotAboveFin absLamThreeDotsAboveFin absLamThreeDotsBelowFin absLamRetroFin absLamBarFin absMeemFin absMeemDotAboveFin absMeemDotBelowFin absNoonFin absNoonDotBelowFin absNoonGhunnaFin absRnoonFin absNoonRingFin absNoonThreeDotsAboveFin absNoonTwoDotsBelowFin absNoonRetroFin absNoonSmallVFin absHehDoachashmeeFin absHehHatFin absHehFin absHehGoalFin absFarsiYehDigitFourBelowFin absFarsiYehDigitThreeAboveFin absFarsiYehDigitTwoAboveFin absFarsiYehInvertedVFin absFarsiYehThreeDotsAboveFin absFarsiYehTwoDotsAboveFin absHahDigitFourBelowFin absKafTwoDotsAboveFin absKehehThreeDotsBelowFin absKehehTwoDotsAboveFin absSeenDigitFourAboveFin absSeenInvertedVFin
 	</class>
@@ -50,7 +57,12 @@
 		absAlefMaddaAboveFin.postLamMed absAlefMaddaAboveFin.postLamMed.small absAlefHamzaAboveFin.postLamMed absAlefHamzaBelowFin.postLamMed absAlefFin.postLamMed absAlefWavyHamzaAboveFin.postLamMed absAlefWavyHamzaBelowFin.postLamMed absHighHamzaAlefFin.postLamMed absAlefWaslaFin.postLamMed absAlefDigitTwoAboveFin.postLamMed absAlefDigitThreeAboveFin.postLamMed
 	</class>
 
-
+	<!-- 
+	===============================
+	Mark classes 
+	===============================
+	-->
+	
 	<class name='MarkGroup1A'>
 		absShadda absHamzaAbove absNoonGhunnaMark
 	</class>
@@ -76,6 +88,11 @@
 		absTone1DotAbove absTone2DotsAbove absToneLoopAbove absSmallHighSadLamAlefMaksura absSmallHighQafLamAlefMaksura absSmallHighMeemInitialForm absSmallHighLamAlef absSmallHighJeem absSmallHighThreeDots absSmallHighSeen absSmallHighRoundedZero absSmallHighUprightRectangularZero absSmallHighMeemIsolatedForm absSmallHighMadda absSmallHighYeh absSmallHighNoon absEmptyCentreHighStop absRoundedHighStopFilledCentre absSmallHighSadMark absSmallHighAinMark absSmallHighRehHahMark absSmallHighRehDadMark absNameMarker absSmallHighTah absSmallHighAlefLamYeh absSmallHighZain absSmallHighWaw
 	</class>
 
+	<!-- 
+	===============================
+	composition / decomposition 
+	===============================
+	-->
 
 	<class name='ShaddaKasraLigatures'>
 		absShaddaKasratan absShaddaKasra
@@ -103,7 +120,95 @@
 	<class name='AlefPlusMark'>
 		absAlefMaddaAbove absAlefMaddaAbove.small absAlefHamzaAbove absAlefHamzaBelow
 	</class>
+
+
+	<class name='LowHamzaBase'>
+		absWaw absYeh absAe absHehGoal absWawFin absYehFin absAeFin absHehGoalFin absYehMed absHehGoalMed absYehIni absHehGoalIni
+	</class>
+	<class name='LowHamzaComposed'>
+		absWawHamzaAbove absYehHamzaAbove absHehYehAbove absHehGoalHamzaAbove absWawHamzaAboveFin absYehHamzaAboveFin absHehYehAboveFin absHehGoalHamzaAboveFin absYehHamzaAboveMed absHehGoalHamzaAboveMed absYehHamzaAboveIni absHehGoalHamzaAboveIni
+	</class>
+
+
+	<!--
+	===============================
+	classes needed for features
+	===============================
+	-->
+
+	<!-- The next three class must match for substitution: -->
 	
+	<class name='Damma'>
+		absDamma absShaddaDamma absHamzaDamma
+	</class>
+	
+	<class name='Damma_filled'>
+		absDamma.filled absShaddaDamma.filled absHamzaDamma.filled
+	</class>
+	
+	<class name='Damma_short'>
+		absDamma.short absShaddaDamma.short absHamzaDamma.short
+	</class>
+
+	<!-- The next three class must match for substitution: -->
+
+	<class name='DigitsAny'>
+		absZero absOne absTwo absThree absFour absFive absSix absSeven absEight absNine
+		absEasternZero absEasternOne absEasternTwo absEasternThree absEasternFour absEasternFour.urdu 
+			absEasternFour.roh absEasternFive absEasternSix absEasternSix.urdu absEasternSeven absEasternSeven.urdu absEasternEight absEasternNine
+		zero one two three four five six seven eight nine
+	</class>
+	
+	<class name='DigitsAnyMedium'>
+		absZeroMedium absOneMedium absTwoMedium absThreeMedium absFourMedium absFiveMedium absSixMedium absSevenMedium absEightMedium absNineMedium
+		absEasternZeroMedium absEasternOneMedium absEasternTwoMedium absEasternThreeMedium absEasternFourMedium absEasternFourMedium.urdu 
+			absEasternFourMedium.roh absEasternFiveMedium absEasternSixMedium absEasternSixMedium.urdu absEasternSevenMedium absEasternSevenMedium.urdu absEasternEightMedium absEasternNineMedium
+		zeroMedium oneMedium twoMedium threeMedium fourMedium fiveMedium sixMedium sevenMedium eightMedium nineMedium
+	</class>
+	
+	<class name='DigitsAnySmall'>
+		absZeroSmall absOneSmall absTwoSmall absThreeSmall absFourSmall absFiveSmall absSixSmall absSevenSmall absEightSmall absNineSmall
+		absEasternZeroSmall absEasternOneSmall absEasternTwoSmall absEasternThreeSmall absEasternFourSmall absEasternFourSmall.urdu 
+			absEasternFourSmall.roh absEasternFiveSmall absEasternSixSmall absEasternSixSmall.urdu absEasternSevenSmall absEasternSevenSmall.urdu absEasternEightSmall absEasternNineSmall
+		zeroSmall oneSmall twoSmall threeSmall fourSmall fiveSmall sixSmall sevenSmall eightSmall nineSmall
+	</class>
+
+	<!-- The next three class must match for substitution: -->
+
+	<class name='EasternDigit'>
+		absEasternFour             absEasternSix             absEasternSeven
+		absEasternFourMedium       absEasternSixMedium       absEasternSevenMedium
+		absEasternFourSmall        absEasternSixSmall        absEasternSevenSmall
+	</class>
+		
+	<class name='EasternDigitUrdu'>
+		absEasternFour.urdu        absEasternSix.urdu        absEasternSeven.urdu
+		absEasternFourMedium.urdu  absEasternSixMedium.urdu  absEasternSevenMedium.urdu
+		absEasternFourSmall.urdu   absEasternSixSmall.urdu   absEasternSevenSmall.urdu
+	</class>
+
+	<class name='EasternDigitSindhi'>
+		absEasternFour             absEasternSix.urdu        absEasternSeven.urdu
+		absEasternFourMedium       absEasternSixMedium.urdu  absEasternSevenMedium.urdu
+		absEasternFourSmall        absEasternSixSmall.urdu   absEasternSevenSmall.urdu
+	</class>
+
+	<!-- The next three class must match for substitution: -->
+
+	<class name='EndOfAyah'>
+		absEndOfAyah      absEndOfAyah.2      absEndOfAyah.3
+	</class>
+
+	<class name='EndOfAyahCircle'>
+		absEndOfAyah.alt  absEndOfAyah.alt.2  absEndOfAyah.alt.3
+	</class>
+
+	<class name='EndOfAyahSquare'>
+		absEndOfAyah.altB absEndOfAyah.altB.2 absEndOfAyah.altB.3
+	</class>
+
+	<!-- The next four class must match for substitution: -->
+
 	<class name='Heh'>
 		absHeh           absHehIni         absHehMed              absHehFin
 	</class>
@@ -130,33 +235,7 @@
 		absZainHat
 	</class>
 
-	<class name='LowHamzaBase'>
-		absWaw absYeh absAe absHehGoal absWawFin absYehFin absAeFin absHehGoalFin absYehMed absHehGoalMed absYehIni absHehGoalIni
-	</class>
-	<class name='LowHamzaComposed'>
-		absWawHamzaAbove absYehHamzaAbove absHehYehAbove absHehGoalHamzaAbove absWawHamzaAboveFin absYehHamzaAboveFin absHehYehAboveFin absHehGoalHamzaAboveFin absYehHamzaAboveMed absHehGoalHamzaAboveMed absYehHamzaAboveIni absHehGoalHamzaAboveIni
-	</class>
 
-	<class name='DigitsAny'>
-		absZero absOne absTwo absThree absFour absFive absSix absSeven absEight absNine
-		absEasternZero absEasternOne absEasternTwo absEasternThree absEasternFour absEasternFour.urdu 
-			absEasternFour.roh absEasternFive absEasternSix absEasternSix.urdu absEasternSeven absEasternSeven.urdu absEasternEight absEasternNine
-		zero one two three four five six seven eight nine
-	</class>
-	
-	<class name='DigitsAnyMedium'>
-		absZeroMedium absOneMedium absTwoMedium absThreeMedium absFourMedium absFiveMedium absSixMedium absSevenMedium absEightMedium absNineMedium
-		absEasternZeroMedium absEasternOneMedium absEasternTwoMedium absEasternThreeMedium absEasternFourMedium absEasternFourMedium.urdu 
-			absEasternFourMedium.roh absEasternFiveMedium absEasternSixMedium absEasternSixMedium.urdu absEasternSevenMedium absEasternSevenMedium.urdu absEasternEightMedium absEasternNineMedium
-		zeroMedium oneMedium twoMedium threeMedium fourMedium fiveMedium sixMedium sevenMedium eightMedium nineMedium
-	</class>
-	
-	<class name='DigitsAnySmall'>
-		absZeroSmall absOneSmall absTwoSmall absThreeSmall absFourSmall absFiveSmall absSixSmall absSevenSmall absEightSmall absNineSmall
-		absEasternZeroSmall absEasternOneSmall absEasternTwoSmall absEasternThreeSmall absEasternFourSmall absEasternFourSmall.urdu 
-			absEasternFourSmall.roh absEasternFiveSmall absEasternSixSmall absEasternSixSmall.urdu absEasternSevenSmall absEasternSevenSmall.urdu absEasternEightSmall absEasternNineSmall
-		zeroSmall oneSmall twoSmall threeSmall fourSmall fiveSmall sixSmall sevenSmall eightSmall nineSmall
-	</class>
 
 	<!-- wish I could do this: class name='SignDigit'>
 		@DigitsAnyMedium @DigitsAnySmall
@@ -221,27 +300,6 @@
 	</class>
 
 
-	<!-- The next three class must match for substitution: -->
-
-	<class name='EasternDigit'>
-		absEasternFour             absEasternSix             absEasternSeven
-		absEasternFourMedium       absEasternSixMedium       absEasternSevenMedium
-		absEasternFourSmall        absEasternSixSmall        absEasternSevenSmall
-	</class>
-		
-	<class name='EasternDigitUrdu'>
-		absEasternFour.urdu        absEasternSix.urdu        absEasternSeven.urdu
-		absEasternFourMedium.urdu  absEasternSixMedium.urdu  absEasternSevenMedium.urdu
-		absEasternFourSmall.urdu   absEasternSixSmall.urdu   absEasternSevenSmall.urdu
-	</class>
-
-	<class name='EasternDigitSindhi'>
-		absEasternFour             absEasternSix.urdu        absEasternSeven.urdu
-		absEasternFourMedium       absEasternSixMedium.urdu  absEasternSevenMedium.urdu
-		absEasternFourSmall        absEasternSixSmall.urdu   absEasternSevenSmall.urdu
-	</class>
-
-
 	<class name='TakesLargeDaggerAlef'>
 		absYehTail absYeh absFarsiYeh absE absYehThreeDotsBelow
 		absFarsiYehDigitFourBelow absAlefMaksura absSeen absSheen absSeenDotBelowDotAbove
@@ -256,5 +314,13 @@
 		absSadThreeDotsBelowFin
 	</class>
 
+
+	<class name='U'>
+		absUHamzaAbove absU absUHamzaAboveFin absUFin
+	</class>
+	
+	<class name='U_filled'>
+		absUHamzaAbove.filled absU.filled absUHamzaAboveFin.filled absUFin.filled
+	</class>
 
 </classes>

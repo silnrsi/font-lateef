@@ -39,7 +39,8 @@ font(target = process('LateefGR-Regular.ttf', name('LateefGR')),
 	graphite = gdl('Lateef-Regular.gdl',
 		params = '-D',
 		master = 'source/master.gdl',
-		make_params = '--package "zork.pm" -o "_above _below _center _ring _through above below center ring through"  --classprops'),
+		make_params = '--package "zork.pm" -o "_above _below _center _ring _through above below center ring through"  --classprops',
+		depends = ['source/cp1252.gdl', 'source/features.gdh']),
 	ap = AP,
 	classes = 'source/classes.xml',
 	version = VERSION,
@@ -50,7 +51,7 @@ font(target = process('LateefGR-Regular.ttf', name('LateefGR')),
 AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks', 'DaggerAlef' ]
 
 for testname in AUTOGEN_TESTS:
-	t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -f l -r local(Scheherazade) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'results/LateefGR-Regular.ttf', AP]))
+	t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -f l -r local(Scheherazade) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'results/LateefGR-Regular.ttf', AP, 'tools/absGlyphList/absGlyphList.txt']))
 
 def configure(ctx) :
     ctx.env['MAKE_GDL'] = 'perl -I ../tools/perllib ../tools/bin/make_gdl'

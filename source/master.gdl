@@ -236,6 +236,17 @@ pass(5)	// Features, special behaviors
 		cHeh  >  cHehUrdu;
 	endif;
 
+	if (UAlt == filled)
+		cU  >  cU_filled;
+	endif;
+
+	if (dammaAlt == filled)
+		cDamma > cDamma_filled;
+	endif;
+//	if (dammaAlt == short)
+//		cDamma > cDamma_short;
+//	endif;
+
 	if (dammatanAlt == sixNine)
 		cno_sixNine > csixNine;
 	endif;
@@ -249,6 +260,13 @@ pass(5)	// Features, special behaviors
 	endif;
 	if (sukunAlt == jasmLeft)
 		cno_leftOpen  >  cleftOpen;
+	endif;
+
+	if (endOfAyah == circle)
+		cEndOfAyah  >  cEndOfAyahCircle;
+	endif;
+	if (endOfAyah == square)
+		cEndOfAyah  >  cEndOfAyahSquare;
 	endif;
 	
 
