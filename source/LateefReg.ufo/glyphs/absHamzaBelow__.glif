@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absHamzaBelow" format="1">
+  <advance width="0"/>
+  <unicode hex="0655"/>
+  <outline>
+    <contour>
+      <point x="248" y="-169" type="curve"/>
+      <point x="270" y="-169"/>
+      <point x="293" y="-140"/>
+      <point x="293" y="-119" type="curve" smooth="yes"/>
+      <point x="293" y="-89"/>
+      <point x="254" y="-60"/>
+      <point x="225" y="-60" type="curve" smooth="yes"/>
+      <point x="184" y="-60"/>
+      <point x="20" y="-189"/>
+      <point x="20" y="-232" type="curve" smooth="yes"/>
+      <point x="20" y="-273"/>
+      <point x="63" y="-308"/>
+      <point x="63" y="-332" type="curve" smooth="yes"/>
+      <point x="63" y="-349"/>
+      <point x="8" y="-408"/>
+      <point x="-4" y="-425" type="curve"/>
+      <point x="14" y="-451" type="line"/>
+      <point x="84" y="-388"/>
+      <point x="186" y="-339"/>
+      <point x="279" y="-343" type="curve" smooth="yes"/>
+      <point x="317" y="-345" type="line"/>
+      <point x="367" y="-261" type="line"/>
+      <point x="203" y="-261" type="line" smooth="yes"/>
+      <point x="178" y="-261"/>
+      <point x="109" y="-248"/>
+      <point x="109" y="-216" type="curve" smooth="yes"/>
+      <point x="109" y="-187"/>
+      <point x="160" y="-152"/>
+      <point x="186" y="-152" type="curve" smooth="yes"/>
+      <point x="209" y="-152"/>
+      <point x="227" y="-169"/>
+    </contour>
+    <contour>
+      <point x="164" y="-49" type="move" name="_diaB"/>
+    </contour>
+    <contour>
+      <point x="164" y="-471" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

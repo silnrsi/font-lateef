@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absMeemDotBelow" format="1">
+  <advance width="557"/>
+  <unicode hex="0766"/>
+  <outline>
+    <component base="absMeem"/>
+    <component base="_dot1" xOffset="363" yOffset="-261"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.798</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

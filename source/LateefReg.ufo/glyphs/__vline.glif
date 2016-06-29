@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_vline" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="31" y="-94" type="line"/>
+      <point x="31" y="171" type="line"/>
+      <point x="-36" y="115" type="line"/>
+      <point x="-36" y="-149" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="238" type="move" name="_below"/>
+    </contour>
+    <contour>
+      <point x="0" y="-215" type="move" name="_above"/>
+    </contour>
+  </outline>
+</glyph>

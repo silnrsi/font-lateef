@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absMeemDotBelowFin.sindhi" format="1">
+  <advance width="1020"/>
+  <outline>
+    <component base="absMeemFin.sindhi"/>
+    <component base="_dot1" xOffset="636" yOffset="-273"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>1</real>
+    <real>0.995</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

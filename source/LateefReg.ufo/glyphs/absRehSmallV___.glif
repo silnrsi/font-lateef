@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absRehSmallV" format="1">
+  <advance width="590"/>
+  <unicode hex="0692"/>
+  <outline>
+    <component base="absReh"/>
+    <component base="_smallV" xOffset="376" yOffset="604"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.807</real>
+    <real>1</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

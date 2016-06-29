@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absSadTwoDotsBelowFin" format="1">
+  <advance width="1653"/>
+  <outline>
+    <component base="absSadFin"/>
+    <component base="_dot2h" xOffset="1099" yOffset="-230"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.807</real>
+    <real>1</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

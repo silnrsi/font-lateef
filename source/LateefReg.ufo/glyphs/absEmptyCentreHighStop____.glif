@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absEmptyCentreHighStop" format="1">
+  <advance width="0"/>
+  <unicode hex="06EB"/>
+  <outline>
+    <contour>
+      <point x="113" y="1100" type="line"/>
+      <point x="0" y="1212" type="line"/>
+      <point x="-113" y="1100" type="line"/>
+      <point x="0" y="987" type="line"/>
+    </contour>
+    <contour>
+      <point x="84" y="1100" type="line"/>
+      <point x="0" y="1016" type="line"/>
+      <point x="-84" y="1100" type="line"/>
+      <point x="0" y="1184" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="959" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="0" y="1232" type="move" name="diaA"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

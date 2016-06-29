@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absFarsiYehInvertedVMed" format="1">
+  <advance width="440"/>
+  <outline>
+    <component base="_hat" xOffset="212" yOffset="456"/>
+    <component base="_dot2h" xOffset="203" yOffset="-230"/>
+    <component base="absBehNoDotsMed"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>1</real>
+    <real>0.995</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

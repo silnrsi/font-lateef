@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absFehThreeDotsUpBelow" format="1">
+  <advance width="1220"/>
+  <unicode hex="0761"/>
+  <outline>
+    <component base="absDotlessFeh"/>
+    <component base="_dot3u" xOffset="966" yOffset="-311"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.807</real>
+    <real>1</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

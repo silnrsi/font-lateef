@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absSignSindhiAmpersand" format="1">
+  <advance width="609"/>
+  <unicode hex="06FD"/>
+  <outline>
+    <component base="absHamza"/>
+    <component base="_lines" xOffset="304"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.807</real>
+    <real>1</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

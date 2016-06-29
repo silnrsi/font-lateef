@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_lines" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-74" y="-328" type="line"/>
+      <point x="-74" y="-63" type="line"/>
+      <point x="-141" y="-119" type="line"/>
+      <point x="-141" y="-383" type="line"/>
+    </contour>
+    <contour>
+      <point x="141" y="-328" type="line"/>
+      <point x="141" y="-63" type="line"/>
+      <point x="74" y="-119" type="line"/>
+      <point x="74" y="-383" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="_below"/>
+    </contour>
+  </outline>
+</glyph>

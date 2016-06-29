@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absBehDotAboveTwoDotsBelow" format="1">
+  <advance width="1220"/>
+  <unicode hex="0754"/>
+  <outline>
+    <component base="absBehNoDots"/>
+    <component base="_dot1" xOffset="624" yOffset="581"/>
+    <component base="_dot2h" xOffset="612" yOffset="-248"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.807</real>
+    <real>1</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

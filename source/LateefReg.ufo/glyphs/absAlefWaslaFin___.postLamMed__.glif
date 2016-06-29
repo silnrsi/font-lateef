@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absAlefWaslaFin.postLamMed" format="1">
+  <advance width="550"/>
+  <outline>
+    <component base="absAlefFin.postLamMed"/>
+    <component base="_wasla" xOffset="128" yOffset="1150"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.6</real>
+    <real>1</real>
+    <real>0.995</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

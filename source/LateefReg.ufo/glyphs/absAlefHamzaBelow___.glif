@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absAlefHamzaBelow" format="1">
+  <advance width="362"/>
+  <unicode hex="0625"/>
+  <outline>
+    <component base="absAlef"/>
+    <component base="_hamza" xOffset="222" yOffset="-290"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.807</real>
+    <real>1</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

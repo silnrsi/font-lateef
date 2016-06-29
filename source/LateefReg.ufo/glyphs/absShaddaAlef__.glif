@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absShaddaAlef" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="201" y="1118" type="curve"/>
+      <point x="285" y="1118"/>
+      <point x="287" y="1241"/>
+      <point x="287" y="1303" type="curve" smooth="yes"/>
+      <point x="287" y="1325"/>
+      <point x="285" y="1348"/>
+      <point x="283" y="1370" type="curve"/>
+      <point x="248" y="1352" type="line"/>
+      <point x="250" y="1348"/>
+      <point x="252" y="1339"/>
+      <point x="252" y="1335" type="curve" smooth="yes"/>
+      <point x="252" y="1307"/>
+      <point x="236" y="1204"/>
+      <point x="197" y="1204" type="curve" smooth="yes"/>
+      <point x="168" y="1204"/>
+      <point x="152" y="1276"/>
+      <point x="150" y="1298" type="curve"/>
+      <point x="115" y="1280" type="line"/>
+      <point x="127" y="1251"/>
+      <point x="104" y="1141"/>
+      <point x="63" y="1141" type="curve" smooth="yes"/>
+      <point x="27" y="1141"/>
+      <point x="8" y="1194"/>
+      <point x="8" y="1225" type="curve"/>
+      <point x="10" y="1229" type="line"/>
+      <point x="-20" y="1212" type="line"/>
+      <point x="-18" y="1171"/>
+      <point x="-4" y="1049"/>
+      <point x="49" y="1049" type="curve" smooth="yes"/>
+      <point x="96" y="1049"/>
+      <point x="129" y="1102"/>
+      <point x="154" y="1133" type="curve"/>
+      <point x="172" y="1128"/>
+      <point x="180" y="1118"/>
+    </contour>
+    <contour>
+      <point x="76" y="1653" type="line"/>
+      <point x="76" y="1653"/>
+      <point x="76" y="1585"/>
+      <point x="86" y="1522" type="curve" smooth="yes"/>
+      <point x="102" y="1427"/>
+      <point x="100" y="1374"/>
+      <point x="100" y="1374" type="curve"/>
+      <point x="100" y="1374"/>
+      <point x="145" y="1374"/>
+      <point x="160" y="1485" type="curve" smooth="yes"/>
+      <point x="168" y="1542"/>
+      <point x="154" y="1618"/>
+      <point x="154" y="1649" type="curve" smooth="yes"/>
+      <point x="152" y="1741" type="line"/>
+    </contour>
+    <contour>
+      <point x="147" y="1051" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="147" y="1761" type="move" name="diaA"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>1</real>
+    <real>0.6</real>
+    <real>0.6</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>
