@@ -2,7 +2,7 @@
 
 use strict;
 
-use Getopt::Std;
+use Getopt::Long;
 use Pod::Usage;
 use XML::Parser::Expat;
 use Font::TTF::Scripts::AP;
@@ -12,21 +12,20 @@ use File::Spec::Functions;
 use HTML::Entities;
  
 use strict;
-use vars qw($opt_h $opt_f $opt_o $opt_r $opt_s $opt_t);
 
-getopts("hf:or:st:");
+our ($help, $family, $omitFeatures, @fonts, $silent, $test);
 
-if ($opt_h)
-{
-    pod2usage( -verbose => 2, -noperldoc => 1);
-    exit;
-}
+GetOptions (
+    'family=s'  => \$family,
+    'omit'      => \$omitFeatures,
+    'render=s'  => \@fonts,
+    'silent'    => \$silent,
+    'test=s'    => \$test,
+    'help|?'    => \$help) or pod2usage(2);
+    
+pod2usage( -verbose => 2, -noperldoc => 1) if $help;
 
-unless (@ARGV == 1 or @ARGV == 2)
-{
-    pod2usage(1);
-    exit;
-}
+pod2usage(-msg => "missing infile.ttf parameter\n", -verbose => 1) unless defined $ARGV[0];
 
 
 =head1 TITLE
@@ -35,16 +34,18 @@ absGenFTML - Generate ABS test data in FTML format
 
 =head1 SYNOPSIS
 
-GenTest [-h]  [-f fontID]  [-s]  [-t testname]  ttf_file [ap_file] 
+GenTest [-h]  [-f fontID]  [-s]  [-t testname] [-r fontsrc] ttf_file [ap_file] 
 
 =head1 OPTIONS
 
-    -h  output extended help message
-    -f  a letter representing font family (S = Scheherazade, etc)
-    -o  omit all feature permutations
-    -r  @fontface info for any additional fonts that should be included
-    -s  do not issue warnings during common setup code
-    -t  name of test to generate (or 'all')
+  --help    output extended help message
+  --family  a letter representing font family (S = Scheherazade, etc)
+  --omit    omit all feature permutations
+  --render  @fontface info for test font(s) that should be included
+  --silent  do not issue warnings during common setup code
+  --test    name of test to generate (or 'all')
+
+Single letter forms (e.g., -h) are permitted.
 
 =head1 DESCRIPTION
 
@@ -55,6 +56,12 @@ and, if supplied, the Attachment Point database (ap_file).
 If ap_file is not supplied, GenTest will use the GPOS table (if 
 available in the supplied ttf_file) to guess what base characters 
 have attachment points.
+
+If -r option is not provided, then a <fontsrc> element referring to ttf_file will be included
+in the FTML. If the -r option is provided, then it should be formatted as a local() or url()
+@font-face specification and it will be included in the <fontsrc> element instead of ttf_file.
+At present, multiple -r options are allowed, creating multiple <fontsrc> elements in the FTML,
+although this is not supported by the FTML specification.
 
 Requires two auxillary text files:
 
@@ -95,11 +102,11 @@ Tests currently defined:
 # referred to as "post" names while the SIL names from the absGlyphList will
 # be called, uh, silnames.
 
-$opt_t ||= 'all';	# Default to test we are currently designing, if any, or 'all'
-my $ttf_file = shift @ARGV;		# Actual font
-my $APDB_file = shift @ARGV;	# Attachment point database file from TTFBuilder
+$test ||= 'all';    # Default to test we are currently designing, if any, or 'all'
+my $ttf_file = shift @ARGV;     # Actual font
+my $APDB_file = shift @ARGV;    # Attachment point database file from TTFBuilder
 
-print "Building test '$opt_t'...\n";
+print "Building test '$test'...\n";
 
 # Count of warnings:
 my $WarnCount;
@@ -107,21 +114,21 @@ my $WarnCount;
 
 sub MyWarn
 {
-	$WarnCount++;
-	warn (@_) unless $opt_s;
+    $WarnCount++;
+    warn (@_) unless $silent;
 }
 
 sub KeyList
 {
-	# debugging tool: Concatinate list of keys of a hash passed by ref
-	my $h = shift;
-	return $h . " = " . join(',', keys %$h);
+    # debugging tool: Concatinate list of keys of a hash passed by ref
+    my $h = shift;
+    return $h . " = " . join(',', keys %$h);
 }
 
 sub Entity
 {
-	# Return FTML-encoded text for one or more a Unicode characters (USVs, as integer);
-	join('', map {sprintf('\u%04X', $_)} @_);
+    # Return FTML-encoded text for one or more a Unicode characters (USVs, as integer);
+    join('', map {sprintf('\u%04X', $_)} @_);
 }
 
 # Borrowed from List::MoreUtils
@@ -132,126 +139,126 @@ sub uniq (@) {
 
 # define sort order of joingroup
 my ($i, %shapesort);
-map { $shapesort{$_} = ++$i} (	
-	'AIN',
-	'ALEF',
-	'BEH',
-	'YEH',			# near BEH due to medial form
-	'FARSI YEH',
-	'NOON',	'AFRICAN NOON',		# Near YEH due to medial form
-	'NYA',
-	'SAD',			# Near NOON due to final form
-	'SEEN',
-	'YEH WITH TAIL',
-	'ROHINGYA YEH',
-	'YEH BARREE',
-	'BURUSHASKI YEH BARREE',
-	'DAL',
-	'FEH', 'AFRICAN FEH',
-	'GAF',
-	'KAF',
-	'HAH',
-	'HEH',
-	'HEH GOAL',
-	'TEH MARBUTA',
-	'TEH MARBUTA GOAL',
-	'KNOTTED HEH',
-	'LAM',
-	'MEEM',
-	'QAF', 'AFRICAN QAF',
-	'REH',
-	'SWASH KAF',
-	'TAH',
-	'WAW',
-	'STRAIGHT WAW',
-	);
-	
+map { $shapesort{$_} = ++$i} (  
+    'AIN',
+    'ALEF',
+    'BEH',
+    'YEH',          # near BEH due to medial form
+    'FARSI YEH',
+    'NOON', 'AFRICAN NOON',     # Near YEH due to medial form
+    'NYA',
+    'SAD',          # Near NOON due to final form
+    'SEEN',
+    'YEH WITH TAIL',
+    'ROHINGYA YEH',
+    'YEH BARREE',
+    'BURUSHASKI YEH BARREE',
+    'DAL',
+    'FEH', 'AFRICAN FEH',
+    'GAF',
+    'KAF',
+    'HAH',
+    'HEH',
+    'HEH GOAL',
+    'TEH MARBUTA',
+    'TEH MARBUTA GOAL',
+    'KNOTTED HEH',
+    'LAM',
+    'MEEM',
+    'QAF', 'AFRICAN QAF',
+    'REH',
+    'SWASH KAF',
+    'TAH',
+    'WAW',
+    'STRAIGHT WAW',
+    );
+    
 
-my ($f, $p, $cmap);	# font, post, cmap 
-my $gid;				# Glyph ID
-my $uid;				# Unicode ID (= decimal integer representign USV)
-my %uni2post;		# Map from uni to ABS-project post name
+my ($f, $p, $cmap); # font, post, cmap 
+my $gid;                # Glyph ID
+my $uid;                # Unicode ID (= decimal integer representign USV)
+my %uni2post;       # Map from uni to ABS-project post name
 
-my %charTakesDiac;	# Hash, indexed by uid, returns true if this char has AP for attaching diacritics
+my %charTakesDiac;  # Hash, indexed by uid, returns true if this char has AP for attaching diacritics
 
 if ($APDB_file)
 {
-	# Read in font and attachment point database. See Font::Scripts::AP for AP structure documentation
-	print "Reading font and attachment points...\n";
-	my $ap = Font::TTF::Scripts::AP->read_font($ttf_file, $APDB_file, { '-omittedAPs' => 'above,below,ring,through,center' }) || die "read_font('$ttf_file', '$APDB_file') failed";
-	if ($ap->{'cWARNINGS'})
-	{
-		warn ($ap->{'WARNINGS'}) unless $opt_s;
-		$WarnCount += $ap->{'cWARNINGS'};
-	}
-	
-	my $APglyph;	# references to AP glyph structs
-	
-	$f = $ap->{'font'};		# Font
-	# $p = $f->{'post'}->read;	# Postscript name table
-	$cmap = $ap->{'cmap'};	# MS cmap
-	
-	# Crosslink the AP database structures and font
-	print "Linking...\n";
-	# my ($gid, $psname, $usv, $uid);		# NB: $usv is hex ($uid is decimal)
-	for $gid (0 .. $#{$ap->{'glyphs'}})
-	{
-		$APglyph = $ap->{'glyphs'}[$gid];
-		next unless defined $APglyph;
-		# # Build a descriptive name for purposes of messages:
-		# $APglyph->{'name'} = "G:$gid" . 
-		#	(defined $APglyph->{'post'} ? ";PS:$APglyph->{'post'}" : '') . 
-		#	(defined $APglyph->{'uni'} ? ";" + join('|', map{sprintf('%04X', $_)} @{$APglyph->{'uni'}}) : ''); 
-		if (defined $APglyph->{'uni'})
-		{
-			# Is encoded. 
-			map {$uni2post{$_} = $APglyph->{'post'}} @{$APglyph->{'uni'}} if defined $APglyph->{'post'};
-			map {$charTakesDiac{$_} = 1}             @{$APglyph->{'uni'}} if exists $APglyph->{'points'}{'diaA'} or exists $APglyph->{'points'}{'diaB'};
-		}
-		
-		#	 Can I do any other checking here?
-	}
+    # Read in font and attachment point database. See Font::Scripts::AP for AP structure documentation
+    print "Reading font and attachment points...\n";
+    my $ap = Font::TTF::Scripts::AP->read_font($ttf_file, $APDB_file, { '-omittedAPs' => 'above,below,ring,through,center' }) || die "read_font('$ttf_file', '$APDB_file') failed";
+    if ($ap->{'cWARNINGS'})
+    {
+        warn ($ap->{'WARNINGS'}) unless $silent;
+        $WarnCount += $ap->{'cWARNINGS'};
+    }
+    
+    my $APglyph;    # references to AP glyph structs
+    
+    $f = $ap->{'font'};     # Font
+    # $p = $f->{'post'}->read;  # Postscript name table
+    $cmap = $ap->{'cmap'};  # MS cmap
+    
+    # Crosslink the AP database structures and font
+    print "Linking...\n";
+    # my ($gid, $psname, $usv, $uid);       # NB: $usv is hex ($uid is decimal)
+    for $gid (0 .. $#{$ap->{'glyphs'}})
+    {
+        $APglyph = $ap->{'glyphs'}[$gid];
+        next unless defined $APglyph;
+        # # Build a descriptive name for purposes of messages:
+        # $APglyph->{'name'} = "G:$gid" . 
+        #   (defined $APglyph->{'post'} ? ";PS:$APglyph->{'post'}" : '') . 
+        #   (defined $APglyph->{'uni'} ? ";" + join('|', map{sprintf('%04X', $_)} @{$APglyph->{'uni'}}) : ''); 
+        if (defined $APglyph->{'uni'})
+        {
+            # Is encoded. 
+            map {$uni2post{$_} = $APglyph->{'post'}} @{$APglyph->{'uni'}} if defined $APglyph->{'post'};
+            map {$charTakesDiac{$_} = 1}             @{$APglyph->{'uni'}} if exists $APglyph->{'points'}{'diaA'} or exists $APglyph->{'points'}{'diaB'};
+        }
+        
+        #    Can I do any other checking here?
+    }
 }
 else
 {
-	# Handle case where there is no AP datafile -- do best we can...
-	$f = Font::TTF::Font->open($ttf_file) || die "open('$ttf_file') failed";
-	$p = $f->{'post'}->read;	# Postscript name table
-	$cmap = $f->{'cmap'}->find_ms->{'val'} || die "Can't find Unicode table in font '$ttf_file'";
-	
-	my %glyphTakesDiac;
-	if ($f->{'GPOS'})
-	{
-		# Ok this is the hard way, but figure out what glyphs can take diacritics based on the compiled GPOS
-		foreach my $l (@{$f->{'GPOS'}->read->{'LOOKUP'}})
-		{
-			# Look in coverage tables for all Mark-to-Base, Mark-to-Ligature, and Mark-to-Mark lookups
-			next unless $l->{'TYPE'} >= 4 and $l->{'TYPE'} <= 6;
-			foreach my $sub (@{$l->{'SUB'}})
-			{
-				map {$glyphTakesDiac{$_} = 1} keys %{$sub->{'COVERAGE'}{'val'}};
-			}
-		}
-	}
-	
-	while (($uid, $gid) = each %{$cmap})
-	{
-		$uni2post{$uid} = $p->{'VAL'}[$gid] if defined $p->{'VAL'}[$gid];
-		$charTakesDiac{$uid} = 1 if $glyphTakesDiac{$gid};
-	}
+    # Handle case where there is no AP datafile -- do best we can...
+    $f = Font::TTF::Font->open($ttf_file) || die "open('$ttf_file') failed";
+    $p = $f->{'post'}->read;    # Postscript name table
+    $cmap = $f->{'cmap'}->find_ms->{'val'} || die "Can't find Unicode table in font '$ttf_file'";
+    
+    my %glyphTakesDiac;
+    if ($f->{'GPOS'})
+    {
+        # Ok this is the hard way, but figure out what glyphs can take diacritics based on the compiled GPOS
+        foreach my $l (@{$f->{'GPOS'}->read->{'LOOKUP'}})
+        {
+            # Look in coverage tables for all Mark-to-Base, Mark-to-Ligature, and Mark-to-Mark lookups
+            next unless $l->{'TYPE'} >= 4 and $l->{'TYPE'} <= 6;
+            foreach my $sub (@{$l->{'SUB'}})
+            {
+                map {$glyphTakesDiac{$_} = 1} keys %{$sub->{'COVERAGE'}{'val'}};
+            }
+        }
+    }
+    
+    while (($uid, $gid) = each %{$cmap})
+    {
+        $uni2post{$uid} = $p->{'VAL'}[$gid] if defined $p->{'VAL'}[$gid];
+        $charTakesDiac{$uid} = 1 if $glyphTakesDiac{$gid};
+    }
 }
 
 # Read Unicode character information
 # (Done this way rather than Unicode::UCD so as to support new chars easily)
 # While at it, build lists of unicode chars of interest in this font:
 
-my %UCD;		# Hash, indexed by USV (decimal), returning anonymous hash keyed by:
-#	'general'	# 	returns Unicode general category, e.g., Lo, Zs, etc
-#	'bidi'		#	returns Unicode bidi category, e.g., AL, MSN, BN, etc.
-#	'joining'	#	returns Unicode Arabic linking, e.g., D, R, U, etc.
-#				#   etc. (see UCDextract.txt)
-#   'uid'		#   USV as decimal integer
-#   'features'	#   hash keyed by features impacting this character. See ABSGlyphList (below).
+my %UCD;        # Hash, indexed by USV (decimal), returning anonymous hash keyed by:
+#   'general'   #   returns Unicode general category, e.g., Lo, Zs, etc
+#   'bidi'      #   returns Unicode bidi category, e.g., AL, MSN, BN, etc.
+#   'joining'   #   returns Unicode Arabic linking, e.g., D, R, U, etc.
+#               #   etc. (see UCDextract.txt)
+#   'uid'       #   USV as decimal integer
+#   'features'  #   hash keyed by features impacting this character. See ABSGlyphList (below).
 
 # find UCDextract.txt -- in current directory or same as $0
 my $ucd = "UCDextract.txt";
@@ -260,63 +267,63 @@ open (IN, $ucd) || die "Can't open $ucd";
 my @cols;
 while (<IN>)
 {
-	s/\s+$//o;  # OS-safe chomp
-	if (s/^#//)
-	{
-		# this line has our column headers:
-		$_ = lc($_);
-		@cols = split(';');
-	}
-	else
-	{
-		my $h = {};
-		@{$h}{@cols} = split(';');
-		$uid = hex($h->{'usv'} || die "Invalid USV in UCDExtract.txt at '$_'");
-		$UCD{$uid} = $h;
-	}
+    s/\s+$//o;  # OS-safe chomp
+    if (s/^#//)
+    {
+        # this line has our column headers:
+        $_ = lc($_);
+        @cols = split(';');
+    }
+    else
+    {
+        my $h = {};
+        @{$h}{@cols} = split(';');
+        $uid = hex($h->{'usv'} || die "Invalid USV in UCDExtract.txt at '$_'");
+        $UCD{$uid} = $h;
+    }
 }
 
 # Read ABSGlyphList to get feature info:
-my %features;	# Hash indexed by feature tag returning anonymous hash keyed by:
-#	'maxVal'	Maximum value of the feature
+my %features;   # Hash indexed by feature tag returning anonymous hash keyed by:
+#   'maxVal'    Maximum value of the feature
 #   'defaultVal' the default value of the feature (normally 0, but might not be for some features)
-#	'uids'		a hash whose keys are UIDs that are impacted by this feature
-#	'specials'	a hash whose keys are silBasenames (from %specials) affected by this feature.
-my %langs;		# Hash indexed by language tag, returning anonymous hash keyed by:
-#	'uids'		a hash whose keys are UIDs that are impacted by this lang
-#	'specials'	a hash whose keys are silBasenames (from %specials) affected by this lang.
-my %silname2uid;	# Hash mapping SIL basename to Unicode
-my %fontName = (	# hash of known font inventories, bcp47tags supported, default value overrides
-	s => ['Scheherazade', qr/^(?:ku|sd|rhg|ug|ur)$/o,	{ }			],
-	l => ['Lateef', 	  qr/^(?:ku|sd|rhg|ug|ur)$/o,	{ }			],
-	h => ['Harmattan',	  qr/^$/o,						{cv62 => 1}	],
-	n => ['Nastaliq',	  qr/^$/o,						{ }			],
-	);
+#   'uids'      a hash whose keys are UIDs that are impacted by this feature
+#   'specials'  a hash whose keys are silBasenames (from %specials) affected by this feature.
+my %langs;      # Hash indexed by language tag, returning anonymous hash keyed by:
+#   'uids'      a hash whose keys are UIDs that are impacted by this lang
+#   'specials'  a hash whose keys are silBasenames (from %specials) affected by this lang.
+my %silname2uid;    # Hash mapping SIL basename to Unicode
+my %fontName = (    # hash of known font inventories, bcp47tags supported, default value overrides
+    s => ['Scheherazade', qr/^(?:ku|sd|rhg|ug|ur)$/o,   { }         ],
+    l => ['Lateef',       qr/^(?:ku|sd|rhg|ug|ur)$/o,   { }         ],
+    h => ['Harmattan',    qr/^$/o,                      {cv62 => 1} ],
+    n => ['Nastaliq',     qr/^$/o,                      { }         ],
+    );
 
 # The following specials glyphs may be present in the font and this data is needed to generate appropriate tests:
 my %specials = (
-	'absShaddaKasra' => 	{'uids' => [0x0651, 0x0650]},
-	'absShaddaKasratan' =>	{'uids' => [0x0651, 0x064D]},
-	'absShaddaDamma' => 	{'uids' => [0x0651, 0x064F]},
-	'absShaddaDammatan' => 	{'uids' => [0x0651, 0x064C]},
-	'absHamzaDamma' =>		{'uids' => [0x0654, 0x064F]},
-	'absAlefFatha' => 		{'uids' => [0x0627, 0x064E]},
-	'absAlefKasra' => 		{'uids' => [0x0627, 0x0650]},
-	'absLamHamza' =>  		{'uids' => [0x0644, 0x0654, 0x0627], 'joining' => 'R'},   # for the .preAlef glyphs
-	);
+    'absShaddaKasra' =>     {'uids' => [0x0651, 0x0650]},
+    'absShaddaKasratan' =>  {'uids' => [0x0651, 0x064D]},
+    'absShaddaDamma' =>     {'uids' => [0x0651, 0x064F]},
+    'absShaddaDammatan' =>  {'uids' => [0x0651, 0x064C]},
+    'absHamzaDamma' =>      {'uids' => [0x0654, 0x064F]},
+    'absAlefFatha' =>       {'uids' => [0x0627, 0x064E]},
+    'absAlefKasra' =>       {'uids' => [0x0627, 0x0650]},
+    'absLamHamza' =>        {'uids' => [0x0644, 0x0654, 0x0627], 'joining' => 'R'},   # for the .preAlef glyphs
+    );
 
 my ($fontRE, $fontID);
 
-if ($opt_f)
+if ($family)
 {
-	# make font ID a single lowercase char:
-	$opt_f = lc(substr($opt_f, 0, 1));
-	die "Font unknown: -f $opt_f\n" unless exists $fontName{$opt_f};
-	$fontRE = qr/\*|$opt_f/oi;
+    # make font ID a single lowercase char:
+    $family = lc(substr($family, 0, 1));
+    die "Font unknown: -f $family\n" unless exists $fontName{$family};
+    $fontRE = qr/\*|$family/oi;
 }
 else
 {
-	$fontRE = qr/./o;
+    $fontRE = qr/./o;
 }
 
 
@@ -326,122 +333,122 @@ $gl = catfile(dirname($0), '..', 'absGlyphList', $gl) unless (-f $gl);
 open (IN, $gl) || die "Can't open $gl";
 while (<IN>)
 {
-	s/\s+$//o;  # OS-safe chomp
-	next if /^\s*(?:\#.*)$/;	# Skip comments and blank lines
-	if (/^Name\tOrder\t/)
-	{
-		# this line has our column headers:
-		s/Name\t/silname\t/;	# change first "name" to "silname" so we keep these distinct from post names.
-		$_ = lc($_);
-		@cols = split("\t");
-	}
-	else
-	{
-		my $h = {};
-		@{$h}{@cols} = split("\t");
-		next unless $h->{'fonts'} =~ $fontRE	# make sure this is in the relevant font
-			&& $h->{'silname'} !~ /^(?:CR|tab)$/	# and ths isn't one of the low unencoded glyphs
-			&& $h->{'silname'} =~ /^([^.]+?)(?:Ini|Med|Fin|Medium|Small)?(?:\..+)*$/;	# and the silname has a reasonable basename
-		my $silBasename = $1;	
-		# print STDERR "$h->{'silname'} \t==> $silBasename\n";
-		$uid = hex($h->{'usv'});		# might be empty string, resulting in uid=0
-		my $isEncoded;
-		if ($uid > 0)
-		{
-			# Keep a mapping of basename to uid:
-			$silname2uid{$silBasename} = $uid;
-			$isEncoded = 1;
-		}
-		else
-		{
-			$uid = $silname2uid{$silBasename};		# assumes encoded basename appears before contextual form
-			$isEncoded = 0;
-		}
-		
-		if ($h->{'feat'} =~ /^[^#]/)
-		{
-			if ($uid > 0 || defined $specials{$silBasename})
-			{
-				$h->{'feat'} =~ s/\s//og;	# strip any whitespace.
-				$h->{'feat'} = $1 if $h->{'feat'} =~ /^"(.*)"$/oi;	# strip quotes if present.
-				foreach (split(';', $h->{'feat'}))
-				{
-					my ($feat, @vals);
-					($feat, @vals) = (m/^(\w{2,4})(?:=(\d+)(?:,(\d+))*)?$/);		# matches things like 'cv23' or 'cv23=4' or 'cv23=2,3'
-					@vals = grep {defined} @vals;
-					if ($feat ne '' && !$opt_o)
-					{
-						if ($isEncoded)
-						{
-							# Remember the default value for this feature:
-							$features{$feat}{'defaultVal'} = $vals[0]+0;
-						}
-						for (@vals, 1)
-						{
-							$features{$feat}{'maxVal'} = $_ if $_ > $features{$feat}{'maxVal'};
-						}
-						if (defined $specials{$silBasename})
-						{
-							$specials{$silBasename}{'features'}{$feat} = 1;
-							$features{$feat}{'specials'}{$silBasename} = 1;
-						}
-						else
-						{
-							$UCD{$uid}{'features'}{$feat} = 1;
-							$features{$feat}{'uids'}{$uid} = 1;
-						}
-					}
-				}
-			}
-			else
-			{
-				warn "Untestable features for glyph $h->{'silname'}: no known USV\n";
-			}
+    s/\s+$//o;  # OS-safe chomp
+    next if /^\s*(?:\#.*)$/;    # Skip comments and blank lines
+    if (/^Name\tOrder\t/)
+    {
+        # this line has our column headers:
+        s/Name\t/silname\t/;    # change first "name" to "silname" so we keep these distinct from post names.
+        $_ = lc($_);
+        @cols = split("\t");
+    }
+    else
+    {
+        my $h = {};
+        @{$h}{@cols} = split("\t");
+        next unless $h->{'fonts'} =~ $fontRE    # make sure this is in the relevant font
+            && $h->{'silname'} !~ /^(?:CR|tab)$/    # and ths isn't one of the low unencoded glyphs
+            && $h->{'silname'} =~ /^([^.]+?)(?:Ini|Med|Fin|Medium|Small)?(?:\..+)*$/;   # and the silname has a reasonable basename
+        my $silBasename = $1;   
+        # print STDERR "$h->{'silname'} \t==> $silBasename\n";
+        $uid = hex($h->{'usv'});        # might be empty string, resulting in uid=0
+        my $isEncoded;
+        if ($uid > 0)
+        {
+            # Keep a mapping of basename to uid:
+            $silname2uid{$silBasename} = $uid;
+            $isEncoded = 1;
+        }
+        else
+        {
+            $uid = $silname2uid{$silBasename};      # assumes encoded basename appears before contextual form
+            $isEncoded = 0;
+        }
+        
+        if ($h->{'feat'} =~ /^[^#]/)
+        {
+            if ($uid > 0 || defined $specials{$silBasename})
+            {
+                $h->{'feat'} =~ s/\s//og;   # strip any whitespace.
+                $h->{'feat'} = $1 if $h->{'feat'} =~ /^"(.*)"$/oi;  # strip quotes if present.
+                foreach (split(';', $h->{'feat'}))
+                {
+                    my ($feat, @vals);
+                    ($feat, @vals) = (m/^(\w{2,4})(?:=(\d+)(?:,(\d+))*)?$/);        # matches things like 'cv23' or 'cv23=4' or 'cv23=2,3'
+                    @vals = grep {defined} @vals;
+                    if ($feat ne '' && !$omitFeatures)
+                    {
+                        if ($isEncoded)
+                        {
+                            # Remember the default value for this feature:
+                            $features{$feat}{'defaultVal'} = $vals[0]+0;
+                        }
+                        for (@vals, 1)
+                        {
+                            $features{$feat}{'maxVal'} = $_ if $_ > $features{$feat}{'maxVal'};
+                        }
+                        if (defined $specials{$silBasename})
+                        {
+                            $specials{$silBasename}{'features'}{$feat} = 1;
+                            $features{$feat}{'specials'}{$silBasename} = 1;
+                        }
+                        else
+                        {
+                            $UCD{$uid}{'features'}{$feat} = 1;
+                            $features{$feat}{'uids'}{$uid} = 1;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                warn "Untestable features for glyph $h->{'silname'}: no known USV\n";
+            }
 
-		}
-		if ($h->{'bcp47tags'} ne '')
-		{
-			if ($uid > 0 || defined $specials{$silBasename})
-			{
-				$h->{'bcp47tags'} =~ s/\s//og;	# strip any whitespace.
-				$h->{'bcp47tags'} = $1 if $h->{'bcp47tags'} =~ /^"(.*)"$/oi;	# strip quotes if present.
-				foreach my $tag (split(/,/,  $h->{'bcp47tags'}))
-				{
-					next if $fontID && $tag !~ $fontName{$fontID}[1];
-					if (defined $specials{$silBasename})
-					{
-						$specials{$silBasename}{'langs'}{$tag} = 1;
-						$langs{$tag}{'specials'}{$silBasename} = 1;
-					}
-					else
-					{
-						$UCD{$uid}{'langs'}{$tag} = 1;
-						$langs{$tag}{'uids'}{$uid} = 1;
-					}
-				}	
-			}
-			else
-			{
-				warn "Untestable langs for absglyph $h->{'silname'}: no known USV\n";
-			}
-		}
-	}
+        }
+        if ($h->{'bcp47tags'} ne '')
+        {
+            if ($uid > 0 || defined $specials{$silBasename})
+            {
+                $h->{'bcp47tags'} =~ s/\s//og;  # strip any whitespace.
+                $h->{'bcp47tags'} = $1 if $h->{'bcp47tags'} =~ /^"(.*)"$/oi;    # strip quotes if present.
+                foreach my $tag (split(/,/,  $h->{'bcp47tags'}))
+                {
+                    next if $fontID && $tag !~ $fontName{$fontID}[1];
+                    if (defined $specials{$silBasename})
+                    {
+                        $specials{$silBasename}{'langs'}{$tag} = 1;
+                        $langs{$tag}{'specials'}{$silBasename} = 1;
+                    }
+                    else
+                    {
+                        $UCD{$uid}{'langs'}{$tag} = 1;
+                        $langs{$tag}{'uids'}{$uid} = 1;
+                    }
+                }   
+            }
+            else
+            {
+                warn "Untestable langs for absglyph $h->{'silname'}: no known USV\n";
+            }
+        }
+    }
 }
 
 # Some of our fonts have different default values for features.
 # For example Harmattan has kasra low (cv62=1) as the default.
 # Update $features hash accordingly:
-if ($fontID && !$opt_o)
+if ($fontID && !$omitFeatures)
 {
-	my $defaultValOverrides = $fontName{$fontID}[2];
-	foreach my $feat (keys %{$defaultValOverrides})
-	{
-		$features{$feat}{'defaultVal'} = $defaultValOverrides->{$feat};
-	}
+    my $defaultValOverrides = $fontName{$fontID}[2];
+    foreach my $feat (keys %{$defaultValOverrides})
+    {
+        $features{$feat}{'defaultVal'} = $defaultValOverrides->{$feat};
+    }
 }
 
-warn "$WarnCount warnings during setup not displayed.\n" if $WarnCount and $opt_s;
-undef $opt_s;		# Turn on warnings from here on
+warn "$WarnCount warnings during setup not displayed.\n" if $WarnCount and $silent;
+undef $silent;      # Turn on warnings from here on
 
 
 
@@ -449,16 +456,16 @@ my %styles;
 
 sub cacheStyle
 {
-	my ($lang, $feats) = @_;
+    my ($lang, $feats) = @_;
 
-	my ($stylename) = $feats;
+    my ($stylename) = $feats;
 
-	$stylename =~ s/['"](\S+)["']\s+(\d+)/$1_$2/g;
-	$stylename =~ s/['"](\S+)["']/$1/g;
-	$stylename = "${lang}_$stylename" if $lang;
-	$styles{$stylename} = [$lang, $feats] if length($stylename) > 0;
+    $stylename =~ s/['"](\S+)["']\s+(\d+)/$1_$2/g;
+    $stylename =~ s/['"](\S+)["']/$1/g;
+    $stylename = "${lang}_$stylename" if $lang;
+    $styles{$stylename} = [$lang, $feats] if length($stylename) > 0;
 
-	return $stylename;
+    return $stylename;
 }
 
 
@@ -466,43 +473,43 @@ my ($lastUID, $curTestLabel, $curTestString, $curTestCharCount, $curFeatString, 
 
 sub CloseTestString
 {
-	my $comment = shift;
-	
-	if (length($curTestString))
-	{
-		my $stylename = cacheStyle($curLang, $curFeatString);
-		
-		print OUT "  <test label='$curTestLabel'";
-		print OUT " stylename='$stylename'" if $stylename;
-		printf OUT "><string>%s</string>", encode_entities($curTestString, '<&');
-		printf OUT "<comment>%s</comment>", encode_entities($comment, '<&') if length($comment);
-		print OUT "</test>\n";
+    my $comment = shift;
+    
+    if (length($curTestString))
+    {
+        my $stylename = cacheStyle($curLang, $curFeatString);
+        
+        print OUT "  <test label='$curTestLabel'";
+        print OUT " stylename='$stylename'" if $stylename;
+        printf OUT "><string>%s</string>", encode_entities($curTestString, '<&');
+        printf OUT "<comment>%s</comment>", encode_entities($comment, '<&') if length($comment);
+        print OUT "</test>\n";
 
-		undef $curTestString;
-		undef $curTestLabel;
-		undef $curTestCharCount;
-		undef $lastUID;
-	}
+        undef $curTestString;
+        undef $curTestLabel;
+        undef $curTestCharCount;
+        undef $lastUID;
+    }
 }
 
 # Add to current test string. args are:
 
 sub AddToTestString
 {
-	my ($uid, $s, $charcount, $label) = @_;
-	
-	# End previous string if getting too long [NOT PROPERLY IMPLEMENTED] or if gap of >1 in UID sequence:
-	CloseTestString if ((defined $lastUID) && ($uid > $lastUID+1)) or ($curTestCharCount + $charcount > 20);
-	$lastUID = $uid;
+    my ($uid, $s, $charcount, $label) = @_;
+    
+    # End previous string if getting too long [NOT PROPERLY IMPLEMENTED] or if gap of >1 in UID sequence:
+    CloseTestString if ((defined $lastUID) && ($uid > $lastUID+1)) or ($curTestCharCount + $charcount > 20);
+    $lastUID = $uid;
 
-	$curTestLabel = $label if defined $label;
-	$curTestLabel ||= sprintf("U+%04X", $uid);
+    $curTestLabel = $label if defined $label;
+    $curTestLabel ||= sprintf("U+%04X", $uid);
 
-	# Append to current string:	
-	return if length($s) == 0;
+    # Append to current string: 
+    return if length($s) == 0;
 
-	$curTestString .= (length($curTestString)>0 ? ' ' : '') . $s;
-	$curTestCharCount += $charcount;
+    $curTestString .= (length($curTestString)>0 ? ' ' : '') . $s;
+    $curTestCharCount += $charcount;
 }
 
 
@@ -510,18 +517,18 @@ my $curTestGroup;
 
 sub CloseTestGroup
 {
-	CloseTestString;
-	print OUT "  </testgroup>\n" if $curTestGroup;
-	undef $curTestGroup;
+    CloseTestString;
+    print OUT "  </testgroup>\n" if $curTestGroup;
+    undef $curTestGroup;
 }
 
 sub StartTestGroup
 {
-	my ($id) = shift;
-	return if $curTestGroup eq $id;
-	CloseTestGroup;
-	print OUT "  <testgroup label='$id'>\n";
-	$curTestGroup = $id;
+    my ($id) = shift;
+    return if $curTestGroup eq $id;
+    CloseTestGroup;
+    print OUT "  <testgroup label='$id'>\n";
+    $curTestGroup = $id;
 }
 
 
@@ -530,54 +537,56 @@ my ($longTestName);
 sub OpenOutputFile
 {
 
-	my $testName = shift;
-	$longTestName = "$testName test";
-	$longTestName .= " for $fontName{$fontID}[0]" if $fontID;
-	
-	open OUT, ">:utf8", "$testName.ftml" or die "Cannot open '$testName.ftml' for writing";
-	print "Generating test file '$testName.ftml'...\n";
+    my $testName = shift;
+    $longTestName = "$testName test";
+    $longTestName .= " for $fontName{$fontID}[0]" if $fontID;
+    
+    open OUT, ">:utf8", "$testName.ftml" or die "Cannot open '$testName.ftml' for writing";
+    print "Generating test file '$testName.ftml'...\n";
 
 
 
-	print OUT <<EOF;
+    print OUT <<EOF;
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
 <ftml version="1.0">
 EOF
-	StartTestGroup 'Rendering check';
-	AddToTestString undef, "RenderingUnknown", 0, "Check";
-	CloseTestString;
+    StartTestGroup 'Rendering check';
+    AddToTestString undef, "RenderingUnknown", 0, "Check";
+    CloseTestString;
 }
 
 sub CloseOutputFile
 {
-	CloseTestGroup;
-	print OUT <<EOF;
+    CloseTestGroup;
+    print OUT <<EOF;
 <head>
   <fontscale>300</fontscale>
 EOF
-	map {print OUT "  <fontsrc>$_</fontsrc>\n" } split (' ', $opt_r);
-	print OUT "  <fontsrc>url($ttf_file)</fontsrc>\n";
-	my @stylenames = sort keys(%styles);
-	if ($#stylenames)
-	{
-		print OUT "  <styles>\n";
-		foreach my $stylename (@stylenames)
-		{
-			print OUT "    <style name='$stylename'";
-			print OUT " feats='$styles{$stylename}[1]'" if $styles{$stylename}[1];
-			print OUT " lang='$styles{$stylename}[0]'" if $styles{$stylename}[0];
-			print OUT "/>\n";
-		}
-		print OUT "  </styles>\n";
-	}
+    if (scalar(@fonts))
+    {   map {print OUT "  <fontsrc>$_</fontsrc>\n" } @fonts; }
+    else
+    {   print OUT "  <fontsrc>url($ttf_file)</fontsrc>\n"; }
+    my @stylenames = sort keys(%styles);
+    if ($#stylenames)
+    {
+        print OUT "  <styles>\n";
+        foreach my $stylename (@stylenames)
+        {
+            print OUT "    <style name='$stylename'";
+            print OUT " feats='$styles{$stylename}[1]'" if $styles{$stylename}[1];
+            print OUT " lang='$styles{$stylename}[0]'" if $styles{$stylename}[0];
+            print OUT "/>\n";
+        }
+        print OUT "  </styles>\n";
+    }
 
-	print OUT <<EOF;
+    print OUT <<EOF;
   <title>$longTestName</title>
   </head>
 </ftml>
 EOF
-	close OUT;
+    close OUT;
 }
 
 
@@ -591,29 +600,29 @@ EOF
 
 sub PermuteFeatures
 {
-	my (@featTags);
-	if ($_[0] =~ /^\d+$/)
-	{
-		map { push (@featTags,  keys %{$UCD{$_}{'features'}}) if defined $UCD{$_}{'features'} } @_
-	}
-	else
-	{
-		@featTags =  @_;
-	}
-	@featTags =  uniq sort grep {exists $features{$_}} @featTags;
-	return ([]) unless scalar(@featTags);
-	
-	my @toPermute;
-	foreach my $feat (@featTags)
-	{
-		my $list = [ [undef,undef] ];	# First possible case is the feature is not specified
-		for (0 .. $features{$feat}{'maxVal'})
-		{ 
-			push @$list, [$feat,$_] unless $_ == $features{$feat}{'defaultVal'}; 
-		}
-		push @toPermute, $list;
-	}
-	return permute(@toPermute);
+    my (@featTags);
+    if ($_[0] =~ /^\d+$/)
+    {
+        map { push (@featTags,  keys %{$UCD{$_}{'features'}}) if defined $UCD{$_}{'features'} } @_
+    }
+    else
+    {
+        @featTags =  @_;
+    }
+    @featTags =  uniq sort grep {exists $features{$_}} @featTags;
+    return ([]) unless scalar(@featTags);
+    
+    my @toPermute;
+    foreach my $feat (@featTags)
+    {
+        my $list = [ [undef,undef] ];   # First possible case is the feature is not specified
+        for (0 .. $features{$feat}{'maxVal'})
+        { 
+            push @$list, [$feat,$_] unless $_ == $features{$feat}{'defaultVal'}; 
+        }
+        push @toPermute, $list;
+    }
+    return permute(@toPermute);
 }
 
 # Following obtained from http://www.perlmonks.org/?node_id=24270
@@ -630,39 +639,39 @@ sub permute {
 
 sub SetFeatures
 {
-	my @feats = @_;
+    my @feats = @_;
 
-	# Remove any null items from @feats:
-	@feats = grep {defined $_ && defined ($_->[0])} @feats;
-	
-	my $newFeatString = $#feats >=0 ? join(', ', map {"\"$_->[0]\"" . (defined ($_->[1]) ? " $_->[1]" : '')} @feats) : '';
-	CloseTestString if $newFeatString ne $curFeatString;
-	$curFeatString = $newFeatString;
+    # Remove any null items from @feats:
+    @feats = grep {defined $_ && defined ($_->[0])} @feats;
+    
+    my $newFeatString = $#feats >=0 ? join(', ', map {"\"$_->[0]\"" . (defined ($_->[1]) ? " $_->[1]" : '')} @feats) : '';
+    CloseTestString if $newFeatString ne $curFeatString;
+    $curFeatString = $newFeatString;
 }
 
 sub ClearFeatures
 {
-	if ($curFeatString ne '')
-	{
-		CloseTestString @_;
-		$curFeatString = '';
-	}
+    if ($curFeatString ne '')
+    {
+        CloseTestString @_;
+        $curFeatString = '';
+    }
 }
 
 sub SetLang
 {
-	my $lang = shift;
-	CloseTestString if $curLang ne $lang;
-	$curLang = $lang;
+    my $lang = shift;
+    CloseTestString if $curLang ne $lang;
+    $curLang = $lang;
 }
 
 sub ClearLang
 {
-	if ($curLang ne '')
-	{
-		CloseTestString @_;
-		$curLang = '';
-	}
+    if ($curLang ne '')
+    {
+        CloseTestString @_;
+        $curLang = '';
+    }
 }
 
 
@@ -680,51 +689,51 @@ my @aleflist = grep {exists $cmap->{$_}} (0x0627, 0x0622, 0x0623, 0x0625, 0x0671
 
 sub ABSCharData
 {
-	my $l;	# joining class
-	
-	my $uid = $_[0];
-	if ($_[-1] =~ /R|D/oi)
-	{
-		# special hack to override joining class
-		$l = pop;
-	}
-	else
-	{
-		$l = $UCD{$uid}{'joining'};
-	}
-	my $s = Entity(@_);
-	
-	if ($l =~ /D/io)
-	{
-		AddToTestString $uid, "$s $s$zwj $zwj$s$zwj $zwj$s $s$s$s";
-	}
-	elsif ($l =~ /R/io)
-	{
-		AddToTestString $uid, "$s $zwj$s";
-	}
-	elsif ($UCD{$uid}{'general'} =~ m/^Zs/o)
-	{
-		# Whitespace -- put beh around it:
-		AddToTestString $uid, Entity(0x0628) . $s . Entity(0x0628); 
-	}
-	elsif ($UCD{$uid}{'general'} =~ m/^M[ne]/o)
-	{
-		# is a diacritic -- output on suitable base character
-		AddToTestString $uid, $diacriticbase . $s; 
-	}
-	else
-	{
-		AddToTestString $uid, $s;
-	}
+    my $l;  # joining class
+    
+    my $uid = $_[0];
+    if ($_[-1] =~ /R|D/oi)
+    {
+        # special hack to override joining class
+        $l = pop;
+    }
+    else
+    {
+        $l = $UCD{$uid}{'joining'};
+    }
+    my $s = Entity(@_);
+    
+    if ($l =~ /D/io)
+    {
+        AddToTestString $uid, "$s $s$zwj $zwj$s$zwj $zwj$s $s$s$s";
+    }
+    elsif ($l =~ /R/io)
+    {
+        AddToTestString $uid, "$s $zwj$s";
+    }
+    elsif ($UCD{$uid}{'general'} =~ m/^Zs/o)
+    {
+        # Whitespace -- put beh around it:
+        AddToTestString $uid, Entity(0x0628) . $s . Entity(0x0628); 
+    }
+    elsif ($UCD{$uid}{'general'} =~ m/^M[ne]/o)
+    {
+        # is a diacritic -- output on suitable base character
+        AddToTestString $uid, $diacriticbase . $s; 
+    }
+    else
+    {
+        AddToTestString $uid, $s;
+    }
 }
 
 
 #=============================================================================
-#	END OF SETUP
+#   END OF SETUP
 #=============================================================================
 # everything above this point is common setup code used in any
 # of the test generation. What is below this point is code
-# to generate a specific test sequence, as identified by $opt_t.
+# to generate a specific test sequence, as identified by $test.
 #=============================================================================
 
 # Some useful lists of characters:
@@ -744,10 +753,10 @@ Generates just the RenderCheck
 
 =cut
 
-if ($opt_t =~ m/^empty$/oi)
+if ($test =~ m/^empty$/oi)
 {
-	OpenOutputFile 'Empty';
-	CloseOutputFile;
+    OpenOutputFile 'Empty';
+    CloseOutputFile;
 }
 
 =head2 Mirrored
@@ -756,21 +765,21 @@ Generates test file for mirrored characters
 
 =cut
 
-if ($opt_t =~ m/^Mirrored$/oi || $opt_t =~ m/^all$/oi)
+if ($test =~ m/^Mirrored$/oi || $test =~ m/^all$/oi)
 {
-	OpenOutputFile 'Mirrored'; 
-	StartTestGroup 'Mirrored';
-	
-	for $uid (sort {$a <=> $b} keys %{$cmap})
-	{
-		my $c = Entity($uid);
-		my $noMirror = $c =~ /x(2018|2019|201A|201B|201C|201D|201E|201F|301D|301E|301F);/oi;
-		next unless $UCD{$uid}{'mirror'} eq 'Y' or $noMirror;
-		AddToTestString $uid, "a $c b \\u0627 $c \\u0628";
-		CloseTestString $noMirror ? 'should NOT mirror' : '';
-	}
+    OpenOutputFile 'Mirrored'; 
+    StartTestGroup 'Mirrored';
+    
+    for $uid (sort {$a <=> $b} keys %{$cmap})
+    {
+        my $c = Entity($uid);
+        my $noMirror = $c =~ /x(2018|2019|201A|201B|201C|201D|201E|201F|301D|301E|301F);/oi;
+        next unless $UCD{$uid}{'mirror'} eq 'Y' or $noMirror;
+        AddToTestString $uid, "a $c b \\u0627 $c \\u0628";
+        CloseTestString $noMirror ? 'should NOT mirror' : '';
+    }
 
-	CloseOutputFile;
+    CloseOutputFile;
 
 }
 
@@ -780,45 +789,45 @@ Generates test files from "Lorna's Data.utf16le" or "Joan's Data.utf16le"
 
 =cut
 
-if ($opt_t =~ m/^(Lorna|Joan)sData$/oi)
+if ($test =~ m/^(Lorna|Joan)sData$/oi)
 {
-	my $src = $1;
+    my $src = $1;
 
-	OpenOutputFile "${src}sData";
-	StartTestGroup "${src}'s Data"; 
+    OpenOutputFile "${src}sData";
+    StartTestGroup "${src}'s Data"; 
 
-	# find Lorna's Data.txt -- in current directory or same as $0
-	my $ld = "${src}'s Data.utf16le";
-	$ld = catfile(dirname($0), $ld) unless (-f $ld);
-	open (IN, "<:encoding(UTF-16LE)", $ld) || die "Can't open $ld: $?";
-	my $lineno;
-	while (<IN>)
-	{
-		next unless $lineno++;	# skip header line
-		s/\s+$//o;  # OS-safe chomp
-		my ($text, $comment, $lang, $feat);
-		($text, $comment, $lang, $feat) = split("\t");
-		# next unless $text =~ /\p{Arabic}/;  Can't trust this
-		# next unless $text =~ /[\x{631}\x{632}\x{691}-\x{699}\x{6EF}\x{75B}\x{76B}\x{76C}\x{771}\x{8AA}\x{8B2}\x{624}\x{648}\x{676}\x{677}\x{6C4}-\x{6CB}\\x{6CF}\x{778}\x{779}\x{8AB}]\p{Mn}*\p{Lo}/oi;
-		my @feats = ($feat =~ /(cv\d\d)/g);
-		if ($feat eq '*')
-		{
-			foreach (split(//, $text))
-			{
-				my $usv = ord($_);
-				push @feats, keys(%{$UCD{$usv}{'features'}}) if defined $UCD{$usv}{'features'};
-			}
-			@feats = uniq sort @feats;
-		}
-		foreach my $featureCombination (PermuteFeatures(@feats))
-		{
-			SetFeatures @{$featureCombination};
-			AddToTestString undef, $text, 0, "Line $lineno";
-			CloseTestString $comment;
-		}
-	}
+    # find Lorna's Data.txt -- in current directory or same as $0
+    my $ld = "${src}'s Data.utf16le";
+    $ld = catfile(dirname($0), $ld) unless (-f $ld);
+    open (IN, "<:encoding(UTF-16LE)", $ld) || die "Can't open $ld: $?";
+    my $lineno;
+    while (<IN>)
+    {
+        next unless $lineno++;  # skip header line
+        s/\s+$//o;  # OS-safe chomp
+        my ($text, $comment, $lang, $feat);
+        ($text, $comment, $lang, $feat) = split("\t");
+        # next unless $text =~ /\p{Arabic}/;  Can't trust this
+        # next unless $text =~ /[\x{631}\x{632}\x{691}-\x{699}\x{6EF}\x{75B}\x{76B}\x{76C}\x{771}\x{8AA}\x{8B2}\x{624}\x{648}\x{676}\x{677}\x{6C4}-\x{6CB}\\x{6CF}\x{778}\x{779}\x{8AB}]\p{Mn}*\p{Lo}/oi;
+        my @feats = ($feat =~ /(cv\d\d)/g);
+        if ($feat eq '*')
+        {
+            foreach (split(//, $text))
+            {
+                my $usv = ord($_);
+                push @feats, keys(%{$UCD{$usv}{'features'}}) if defined $UCD{$usv}{'features'};
+            }
+            @feats = uniq sort @feats;
+        }
+        foreach my $featureCombination (PermuteFeatures(@feats))
+        {
+            SetFeatures @{$featureCombination};
+            AddToTestString undef, $text, 0, "Line $lineno";
+            CloseTestString $comment;
+        }
+    }
 
-	CloseOutputFile;
+    CloseOutputFile;
 
 }
 
@@ -830,55 +839,55 @@ and Extended Arabic-Indic digits are included.
 
 =cut
 
-if ($opt_t =~ m/^SubtendingMarks$/oi || $opt_t =~ m/^all$/oi)
+if ($test =~ m/^SubtendingMarks$/oi || $test =~ m/^all$/oi)
 {
-	OpenOutputFile 'SubtendingMarks';
-	StartTestGroup 'Subtending Marks';
+    OpenOutputFile 'SubtendingMarks';
+    StartTestGroup 'Subtending Marks';
 
-	for my $digitbase (grep {exists $cmap->{$_}} (0x0032, 0x0668, 0x06F8))
-	{
-		for (grep {exists $cmap->{$_->[0]}} ([0x600,3], [0x0601,4], [0x0602,2], [0x0603,4], [0x0604,4], [0x0605,4], [0x06DD,3]))
-		{			
-			my ($uid, $maxlgt) = @{$_};
-			my $c = Entity($uid);
-			
-			for my $EndOfAyahValue (0 .. 2)
-			{
-				my ($ayahFeature, $ayahValue);
-				($ayahFeature, $ayahValue) = ($EndOfAyahValue == 0) ? (undef, undef) : ('cv80', $EndOfAyahValue);
-				SetFeatures([$ayahFeature, $ayahValue]);
-				AddToTestString $uid, Entity(0x0628, $uid, 0x0645);
-				for (1 .. $maxlgt)
-				{
-					# my $digits = Entity(map {$_ - ord('0') + $digitbase } unpack('U*', $_));
-					AddToTestString $uid, $c . Entity($digitbase) x $_;
-				}
-				CloseTestString $uni2post{$uid};
-			
-				if ($digitbase >= 0x06F0)
-				{
-					foreach my $digitStyleValue (0 .. 4)
-					{
-						SetFeatures([$ayahFeature, $ayahValue], $digitStyleValue == 0 ? [undef, undef] : ['cv82', $digitStyleValue]);
-						AddToTestString $uid, Entity(0x0628, $uid, 0x06F4, 0x06F6, 0x06F7);
-						CloseTestString $uni2post{$uid};
-					}
-					if (exists $UCD{0x06F6}{'langs'})
-					{
-						foreach my $lang (sort keys %{$UCD{0x06F6}{'langs'}})
-						{
-							SetFeatures([$ayahFeature, $ayahValue]);
-							SetLang($lang);
-							AddToTestString $uid, Entity(0x0628, $uid, 0x06F4, 0x06F6, 0x06F7);
-							ClearLang $uni2post{$uid};
-						}
-					}
-				}
-				last unless $uid == 0x06dd;
-			}
-		}
-	}
-	CloseOutputFile;
+    for my $digitbase (grep {exists $cmap->{$_}} (0x0032, 0x0668, 0x06F8))
+    {
+        for (grep {exists $cmap->{$_->[0]}} ([0x600,3], [0x0601,4], [0x0602,2], [0x0603,4], [0x0604,4], [0x0605,4], [0x06DD,3]))
+        {           
+            my ($uid, $maxlgt) = @{$_};
+            my $c = Entity($uid);
+            
+            for my $EndOfAyahValue (0 .. 2)
+            {
+                my ($ayahFeature, $ayahValue);
+                ($ayahFeature, $ayahValue) = ($EndOfAyahValue == 0) ? (undef, undef) : ('cv80', $EndOfAyahValue);
+                SetFeatures([$ayahFeature, $ayahValue]);
+                AddToTestString $uid, Entity(0x0628, $uid, 0x0645);
+                for (1 .. $maxlgt)
+                {
+                    # my $digits = Entity(map {$_ - ord('0') + $digitbase } unpack('U*', $_));
+                    AddToTestString $uid, $c . Entity($digitbase) x $_;
+                }
+                CloseTestString $uni2post{$uid};
+            
+                if ($digitbase >= 0x06F0)
+                {
+                    foreach my $digitStyleValue (0 .. 4)
+                    {
+                        SetFeatures([$ayahFeature, $ayahValue], $digitStyleValue == 0 ? [undef, undef] : ['cv82', $digitStyleValue]);
+                        AddToTestString $uid, Entity(0x0628, $uid, 0x06F4, 0x06F6, 0x06F7);
+                        CloseTestString $uni2post{$uid};
+                    }
+                    if (exists $UCD{0x06F6}{'langs'})
+                    {
+                        foreach my $lang (sort keys %{$UCD{0x06F6}{'langs'}})
+                        {
+                            SetFeatures([$ayahFeature, $ayahValue]);
+                            SetLang($lang);
+                            AddToTestString $uid, Entity(0x0628, $uid, 0x06F4, 0x06F6, 0x06F7);
+                            ClearLang $uni2post{$uid};
+                        }
+                    }
+                }
+                last unless $uid == 0x06dd;
+            }
+        }
+    }
+    CloseOutputFile;
 }
 
 =head2 DiacTest1
@@ -889,161 +898,161 @@ Skips over characters from Latin script or from Arabic Presentation Forms blocks
 
 =cut
 
-if ($opt_t =~ m/^DiacTest1$/oi || $opt_t =~ m/^all$/oi)
+if ($test =~ m/^DiacTest1$/oi || $test =~ m/^all$/oi)
 {
-	
-	OpenOutputFile 'DiacTest1';
+    
+    OpenOutputFile 'DiacTest1';
 
-	# Be sure to include some from latest Unicode (currently 6.1):
-	my @repDiac = grep {exists $cmap->{$_}} (0x064E, 0x0650, 0x065E, 0x0670, 0x0616, 0x06E3, 0x08F0, 0x08F2);
-	my @repBase =  grep {exists $cmap->{$_}} (0x0627, 0x0628, 0x062B, 0x0647, 0x064A, 0x77F, 0x08AC);
-	
-	# Check representative diacritics on all base chars (general Lo or Lm)
+    # Be sure to include some from latest Unicode (currently 6.1):
+    my @repDiac = grep {exists $cmap->{$_}} (0x064E, 0x0650, 0x065E, 0x0670, 0x0616, 0x06E3, 0x08F0, 0x08F2);
+    my @repBase =  grep {exists $cmap->{$_}} (0x0627, 0x0628, 0x062B, 0x0647, 0x064A, 0x77F, 0x08AC);
+    
+    # Check representative diacritics on all base chars (general Lo or Lm)
 
-	StartTestGroup 'Representative diacritics on all bases that take diacritics';
-	
-	for $uid (sort {$a <=> $b} keys %{$cmap})
-	{
-		next if $uid < 32 or  sprintf("%c", $uid) =~ /\p{Latin}|\p{Blk=ArabicPFA}|\p{Blk=ArabicPFB}/;
+    StartTestGroup 'Representative diacritics on all bases that take diacritics';
+    
+    for $uid (sort {$a <=> $b} keys %{$cmap})
+    {
+        next if $uid < 32 or  sprintf("%c", $uid) =~ /\p{Latin}|\p{Blk=ArabicPFA}|\p{Blk=ArabicPFB}/;
 
-		# Ignore marks for this pass
-		next if $UCD{$uid}{'general'} =~ m/^M/;
-		
-		# Always process Lo and Lm, but others only if they have diaA or diaB
-		if ($UCD{$uid}{'general'} !~ m/^L[om]/)
-		{
-			next unless $charTakesDiac{$uid};
-		}
+        # Ignore marks for this pass
+        next if $UCD{$uid}{'general'} =~ m/^M/;
+        
+        # Always process Lo and Lm, but others only if they have diaA or diaB
+        if ($UCD{$uid}{'general'} !~ m/^L[om]/)
+        {
+            next unless $charTakesDiac{$uid};
+        }
 
-		my $c = Entity($uid);
+        my $c = Entity($uid);
 
-		foreach my $featureCombination (PermuteFeatures($uid))
-		{
-			SetFeatures @{$featureCombination};
-			for my $diac (@repDiac)
-			{
-				
-				ABSCharData $uid, $diac;
-	
-				if (1)
-				{
-					if ($diac != 0x0651)
-					{
-						# include shadda
-						ABSCharData $uid, $diac, 0x0651;
-						ABSCharData $uid, 0x0651, $diac;
-					}
-					if ($diac != 0x0654)
-					{
-						# include hamza
-						ABSCharData $uid, $diac, 0x0654;
-						ABSCharData $uid, 0x0654, $diac;
-					}
-				}
-			}
-			CloseTestString $uni2post{$uid};
-		}
-		ClearFeatures;
-	}
-	
-	# Check all diacritics (general Mn) on representative base chars 
-	
-	StartTestGroup 'All diacritics on representative bases';
-	
-	for $uid (sort { $a <=> $b } grep {$UCD{$_}{'general'} eq 'Mn'} keys %{$cmap}) 
-	{
-		my $c = Entity($uid);
-		foreach my $featureCombination (PermuteFeatures($uid))
-		{
-			SetFeatures @{$featureCombination};
-			my $base;
-			for $base (@repBase)
-			{
-				my $b = Entity($base);
-				AddToTestString $uid, $b . $c ;
-				if ($uid != 0x0651)
-				{
-					# include shadda, in either order
-					AddToTestString $uid, $b . $c . Entity(0x0651);
-					AddToTestString $uid, $b . Entity(0x0651) . $c;
-				}
-				if ($uid != 0x0670)
-				{
-					# include superscript alef, in either order
-					AddToTestString $uid, $b . $c . Entity(0x0670);
-					AddToTestString $uid, $b . Entity(0x0670) . $c;
-				}
-			}
-			CloseTestString $uni2post{$uid};
-		}
-		ClearFeatures;
-		
-		if (exists $UCD{$uid}{'langs'})
-		{
-			foreach my $lang (sort keys $UCD{$uid}{'langs'})
-			{
-				SetLang($lang);
-				for my $base (@repBase)
-				{
-					my $b = Entity($base);
-					AddToTestString $uid, $b . $c ;
-					if ($uid != 0x0651)
-					{
-						# include shadda, in either order
-						AddToTestString $uid, $b . $c . Entity(0x0651);
-						AddToTestString $uid, $b . Entity(0x0651) . $c;
-					}
-					if ($uid != 0x0670)
-					{
-						# include superscript alef, in either order
-						AddToTestString $uid, $b . $c . Entity(0x0670);
-						AddToTestString $uid, $b . Entity(0x0670) . $c;
-					}
-				}
-			}
-			ClearLang $uni2post{$uid}
-		}
-		
-	}
-	
-	# Special cases to test:
+        foreach my $featureCombination (PermuteFeatures($uid))
+        {
+            SetFeatures @{$featureCombination};
+            for my $diac (@repDiac)
+            {
+                
+                ABSCharData $uid, $diac;
+    
+                if (1)
+                {
+                    if ($diac != 0x0651)
+                    {
+                        # include shadda
+                        ABSCharData $uid, $diac, 0x0651;
+                        ABSCharData $uid, 0x0651, $diac;
+                    }
+                    if ($diac != 0x0654)
+                    {
+                        # include hamza
+                        ABSCharData $uid, $diac, 0x0654;
+                        ABSCharData $uid, 0x0654, $diac;
+                    }
+                }
+            }
+            CloseTestString $uni2post{$uid};
+        }
+        ClearFeatures;
+    }
+    
+    # Check all diacritics (general Mn) on representative base chars 
+    
+    StartTestGroup 'All diacritics on representative bases';
+    
+    for $uid (sort { $a <=> $b } grep {$UCD{$_}{'general'} eq 'Mn'} keys %{$cmap}) 
+    {
+        my $c = Entity($uid);
+        foreach my $featureCombination (PermuteFeatures($uid))
+        {
+            SetFeatures @{$featureCombination};
+            my $base;
+            for $base (@repBase)
+            {
+                my $b = Entity($base);
+                AddToTestString $uid, $b . $c ;
+                if ($uid != 0x0651)
+                {
+                    # include shadda, in either order
+                    AddToTestString $uid, $b . $c . Entity(0x0651);
+                    AddToTestString $uid, $b . Entity(0x0651) . $c;
+                }
+                if ($uid != 0x0670)
+                {
+                    # include superscript alef, in either order
+                    AddToTestString $uid, $b . $c . Entity(0x0670);
+                    AddToTestString $uid, $b . Entity(0x0670) . $c;
+                }
+            }
+            CloseTestString $uni2post{$uid};
+        }
+        ClearFeatures;
+        
+        if (exists $UCD{$uid}{'langs'})
+        {
+            foreach my $lang (sort keys $UCD{$uid}{'langs'})
+            {
+                SetLang($lang);
+                for my $base (@repBase)
+                {
+                    my $b = Entity($base);
+                    AddToTestString $uid, $b . $c ;
+                    if ($uid != 0x0651)
+                    {
+                        # include shadda, in either order
+                        AddToTestString $uid, $b . $c . Entity(0x0651);
+                        AddToTestString $uid, $b . Entity(0x0651) . $c;
+                    }
+                    if ($uid != 0x0670)
+                    {
+                        # include superscript alef, in either order
+                        AddToTestString $uid, $b . $c . Entity(0x0670);
+                        AddToTestString $uid, $b . Entity(0x0670) . $c;
+                    }
+                }
+            }
+            ClearLang $uni2post{$uid}
+        }
+        
+    }
+    
+    # Special cases to test:
 
-	StartTestGroup 'Special cases';
+    StartTestGroup 'Special cases';
 
-	ABSCharData 0x064A, 0x064E;		# Yeh + Fatha should keep dots
-	ABSCharData 0x064A, 0x0654;		# Yeh + Hamza should loose dots
-	CloseTestString $uni2post{0x064A};
+    ABSCharData 0x064A, 0x064E;     # Yeh + Fatha should keep dots
+    ABSCharData 0x064A, 0x0654;     # Yeh + Hamza should loose dots
+    CloseTestString $uni2post{0x064A};
 
-	# generate LamAlef ligatures:
+    # generate LamAlef ligatures:
 
-	StartTestGroup 'LamAlef ligatures';
-	my ($lam, $alef);
-	my $diaBelow = 0x064D;
-	my $diaAbove = 0x064B;
-	for $lam (@lamlist)
-	{
-		
-		for $alef (@aleflist)
-		{
-			foreach my $featureCombination (PermuteFeatures($alef))
-			{
-				SetFeatures @{$featureCombination};
-				my $c;
-				AddToTestString $lam, '', 0, sprintf("U+%04X+%04X", $lam, $alef);
-				$c = Entity($lam, $diaAbove, $alef, $diaAbove);
-				AddToTestString $lam, "$c $zwj$c";
-				$c = Entity($lam, $diaBelow, $alef           );
-				AddToTestString $lam, "$c $zwj$c";
-				$c = Entity($lam,            $alef, $diaBelow);
-				AddToTestString $lam, "$c $zwj$c";
-				$c = Entity($lam, $diaBelow, $alef, $diaBelow);
-				AddToTestString $lam, "$c $zwj$c";
-				CloseTestString "$uni2post{$lam}+$uni2post{$alef}";
-			}
-		}
-	}
+    StartTestGroup 'LamAlef ligatures';
+    my ($lam, $alef);
+    my $diaBelow = 0x064D;
+    my $diaAbove = 0x064B;
+    for $lam (@lamlist)
+    {
+        
+        for $alef (@aleflist)
+        {
+            foreach my $featureCombination (PermuteFeatures($alef))
+            {
+                SetFeatures @{$featureCombination};
+                my $c;
+                AddToTestString $lam, '', 0, sprintf("U+%04X+%04X", $lam, $alef);
+                $c = Entity($lam, $diaAbove, $alef, $diaAbove);
+                AddToTestString $lam, "$c $zwj$c";
+                $c = Entity($lam, $diaBelow, $alef           );
+                AddToTestString $lam, "$c $zwj$c";
+                $c = Entity($lam,            $alef, $diaBelow);
+                AddToTestString $lam, "$c $zwj$c";
+                $c = Entity($lam, $diaBelow, $alef, $diaBelow);
+                AddToTestString $lam, "$c $zwj$c";
+                CloseTestString "$uni2post{$lam}+$uni2post{$alef}";
+            }
+        }
+    }
 
-	CloseOutputFile;
+    CloseOutputFile;
 }
 
 
@@ -1057,54 +1066,54 @@ Similar to DiacTest2 but only superscriptAlef
 
 =cut
 
-if ($opt_t =~ m/^DiacTest2|DaggerAlef|all$/oi)
+if ($test =~ m/^DiacTest2|DaggerAlef|all$/oi)
 {
-	my @repDiac;
-	
-	if ($opt_t =~ m/^DaggerAlef$/oi)
-	{
-		OpenOutputFile 'DaggerAlef';
-		@repDiac = (0x0670);
-	}
-	else
-	{
-		OpenOutputFile 'DiacTest2';
-		# Be sure to include some from latest Unicode (currently 6.1):
-		@repDiac = grep {exists $cmap->{$_}} (0x064E, 0x0650, 0x0670, 0x0616, 0x065E, 0x06E3, 0x08E4, 0x08E6);
-	}
-	
-	# Check representative diacritics on base chars (general Lo or Lm) that have non-degenerate joingroup
+    my @repDiac;
+    
+    if ($test =~ m/^DaggerAlef$/oi)
+    {
+        OpenOutputFile 'DaggerAlef';
+        @repDiac = (0x0670);
+    }
+    else
+    {
+        OpenOutputFile 'DiacTest2';
+        # Be sure to include some from latest Unicode (currently 6.1):
+        @repDiac = grep {exists $cmap->{$_}} (0x064E, 0x0650, 0x0670, 0x0616, 0x065E, 0x06E3, 0x08E4, 0x08E6);
+    }
+    
+    # Check representative diacritics on base chars (general Lo or Lm) that have non-degenerate joingroup
 
-	StartTestGroup 'Representative diacritics on all base chars with non-degenerate joingroup';
+    StartTestGroup 'Representative diacritics on all base chars with non-degenerate joingroup';
 
-	for $uid (sort {$shapesort{$UCD{$a}{'joingroup'}} <=> $shapesort{$UCD{$b}{'joingroup'}} || $a <=> $b} grep {$UCD{$_}{'joingroup'} !~ /^(?:No_Joining_Group)?$/} keys %{$cmap})
-	{
-		# printf STDERR "processing %04x joingroup %s\n", $uid, $UCD{$uid}{'joingroup'};
-		
-		# Ignore marks for this pass
-		next if $UCD{$uid}{'general'} =~ m/^M/;
-		
-		# Always process Lo and Lm, but others only if they have diaA or diaB
-		if ($UCD{$uid}{'general'} !~ m/^L[om]/)
-		{
-			next unless $charTakesDiac{$uid};
-		}
+    for $uid (sort {$shapesort{$UCD{$a}{'joingroup'}} <=> $shapesort{$UCD{$b}{'joingroup'}} || $a <=> $b} grep {$UCD{$_}{'joingroup'} !~ /^(?:No_Joining_Group)?$/} keys %{$cmap})
+    {
+        # printf STDERR "processing %04x joingroup %s\n", $uid, $UCD{$uid}{'joingroup'};
+        
+        # Ignore marks for this pass
+        next if $UCD{$uid}{'general'} =~ m/^M/;
+        
+        # Always process Lo and Lm, but others only if they have diaA or diaB
+        if ($UCD{$uid}{'general'} !~ m/^L[om]/)
+        {
+            next unless $charTakesDiac{$uid};
+        }
 
-		my $c = Entity($uid);
+        my $c = Entity($uid);
 
-		for my $diac (@repDiac)
-		{
-			foreach my $featureCombination (PermuteFeatures($uid, $diac))
-			{
-				SetFeatures @{$featureCombination};
-				# ABSCharData $uid;
-				ABSCharData $uid, $diac;
-			}
-		}
-		CloseTestString $uni2post{$uid};
-	}
-	
-	CloseOutputFile;
+        for my $diac (@repDiac)
+        {
+            foreach my $featureCombination (PermuteFeatures($uid, $diac))
+            {
+                SetFeatures @{$featureCombination};
+                # ABSCharData $uid;
+                ABSCharData $uid, $diac;
+            }
+        }
+        CloseTestString $uni2post{$uid};
+    }
+    
+    CloseOutputFile;
 }
 
 =head2 DiacTest3
@@ -1113,34 +1122,34 @@ Generate all diacritics on 00A0 and 25CC (for pedagogical use)
 
 =cut
 
-if ($opt_t =~ m/^DiacTest3$/oi || $opt_t =~ m/^all$/oi)
+if ($test =~ m/^DiacTest3$/oi || $test =~ m/^all$/oi)
 {
-	
-	OpenOutputFile 'DiacTest3';
+    
+    OpenOutputFile 'DiacTest3';
 
-	# Be sure to include some from latest Unicode (currently 5.1):
-	my @repBase =  grep {exists $cmap->{$_}} (0x00A0, 0x25CC);
-	
-	# Check all diacritics (general Mn) on no-break space and dotted circle
+    # Be sure to include some from latest Unicode (currently 5.1):
+    my @repBase =  grep {exists $cmap->{$_}} (0x00A0, 0x25CC);
+    
+    # Check all diacritics (general Mn) on no-break space and dotted circle
 
-	StartTestGroup 'All diacritics on no-break space and dotted circle -- NOT SURE THIS IS RIGHT';
-	
-	for $uid (sort { $a <=> $b } grep {$UCD{$_}{'general'} eq 'Mn'} keys %{$cmap}) 
-	{
-		my $c = Entity($uid);
-#		foreach my $featureCombination (PermuteFeatures($uid))
-#		{
-#			SetFeatures @{$featureCombination};
-			for my $base (@repBase)
-			{
-				# AddToTestString $uid, sprintf (" \uf130\u%04X$c\uf131 ", $base); 
-				AddToTestString $uid, Entity($base) . $c; 
-			}
-			CloseTestString $UCD{$uid}{'age'};
-#		}
-	}
-	
-	CloseOutputFile;
+    StartTestGroup 'All diacritics on no-break space and dotted circle -- NOT SURE THIS IS RIGHT';
+    
+    for $uid (sort { $a <=> $b } grep {$UCD{$_}{'general'} eq 'Mn'} keys %{$cmap}) 
+    {
+        my $c = Entity($uid);
+#       foreach my $featureCombination (PermuteFeatures($uid))
+#       {
+#           SetFeatures @{$featureCombination};
+            for my $base (@repBase)
+            {
+                # AddToTestString $uid, sprintf (" \uf130\u%04X$c\uf131 ", $base); 
+                AddToTestString $uid, Entity($base) . $c; 
+            }
+            CloseTestString $UCD{$uid}{'age'};
+#       }
+    }
+    
+    CloseOutputFile;
 }
 
 
@@ -1154,147 +1163,147 @@ Characters that have BiDi mirroring are output both plain and with U+202B RIGHT-
 
 =cut
 
-if ($opt_t =~ m/^AllChars$/oi || $opt_t =~ m/^all$/oi)
+if ($test =~ m/^AllChars$/oi || $test =~ m/^all$/oi)
 {
-	OpenOutputFile 'AllChars';
-	
-	StartTestGroup 'All Characters (USV order)';
-	
-	# Generate all plain-text chars in font
-	for $uid (sort {$a <=> $b} keys %{$cmap})
-	{
-		next if $uid < 32;
-		my $c = Entity($uid);
-		foreach my $featureCombination (PermuteFeatures($uid))
-		{
-			SetFeatures @{$featureCombination};
-			if ($UCD{$uid}{'general'} =~ m/^M[ne]/o)
-			{
-				# is a diacritic -- output on suitable base character
-				AddToTestString $uid, "$diacriticbase$c"; 
-			}
-			elsif ($UCD{$uid}{'general'} =~ m/^Zs/o)
-			{
-				# Whitespace -- put baseline brackets around it:
-				AddToTestString $uid, "\\uf130${c}\\uf131"; 
-			}
-			elsif ($UCD{$uid}{'mirror'} eq 'Y')
-			{
-				# Mirrored
-			    CloseTestString;
-			    AddToTestString $uid, "$c \\u202A L2R: ${c} R2L: \\u202B${c}\\u202C\\u202C";
-			    CloseTestString $uni2post{$uid};
-			}
-			elsif ($UCD{$uid}{'bidi'} =~ /LRE|RLE|PDF/oi)
-			{
-				if ($uid == 0x202A)	# Emit one string containing LRE, RLE, PDF
-				{
-					CloseTestString;
-					AddToTestString $uid, "L to R E 1A \\u202B R to L E 2A \\u202A L to R E 3 \\u202C R to L E 2B \\u202C  L to R E 1B";
-					CloseTestString $uni2post{$uid};
-				}
-				next;
-			}
-			elsif ($UCD{$uid}{'bidi'} =~ /LRI|RLI|FSI|PDI/oi)
-			{
-				if ($uid == 0x2066)	# Emit one string containing LRI, RLI, FSI, PDI
-				{
-					CloseTestString;
-					AddToTestString $uid, "L to R I 1A \\u2067 R to L I 2A \\u2066 L to R I 3 \\u2069 R to L I 2B \\u2069  L to R I 1B \\u2068 F S I \\u2069 L to R I 1C";
-					CloseTestString $uni2post{$uid};
-				}
-				next;
-			}
-			elsif (length($UCD{$uid}{'joining'}) && $UCD{$uid}{'joining'} ne 'U')
-			{
-				# One of the other ABS chars of interest, but not a non-joining
-				CloseTestString;
-				ABSCharData $uid;
-				CloseTestString $uni2post{$uid};
-			}
-			else
-			{
-				AddToTestString $uid, $c;
-			}
-		}
-		ClearFeatures;
-		
-		if (exists $UCD{$uid}{'langs'})
-		{
-			foreach my $lang (sort keys $UCD{$uid}{'langs'})
-			{
-				SetLang($lang);
-				if ($UCD{$uid}{'general'} =~ m/^M[ne]/o)
-				{
-					# is a diacritic -- output on suitable base character
-					AddToTestString $uid, $diacriticbase . $c; 
-				}
-				elsif (length($UCD{$uid}{'joining'}) && $UCD{$uid}{'joining'} ne 'U')
-				{
-					# One of the other ABS chars of interest, but not a non-joining
-					ABSCharData $uid;
-				}
-				else
-				{
-					AddToTestString $uid, $c;
-				}
-				CloseTestString $uni2post{$uid};
-			}
-			ClearLang;
-		}
-	}
-	CloseTestString;
-	
-	
-	# generate specials if needed:
-	foreach my $silBasename (sort keys %specials)
-	{
-		my @data = grep {exists $cmap->{$_}} @{$specials{$silBasename}{'uids'}};  # make sure all uids exists in font
-		next unless scalar(@data) == scalar(@{$specials{$silBasename}{'uids'}});  
-		push @data, $specials{$silBasename}{'joining'} if defined $specials{$silBasename}{'joining'};
-		if (defined $specials{$silBasename}{'features'})
-		{
-			foreach my $featureCombination (PermuteFeatures(sort keys $specials{$silBasename}{'features'}))
-			{
-				SetFeatures @{$featureCombination};
-				ABSCharData @data;
-				CloseTestString $silBasename;
-			}
-		}
-		ClearFeatures;
-		
-		if (defined $specials{$silBasename}{'langs'})
-		{
-			foreach my $lang (sort keys $specials{$silBasename}{'langs'})
-			{
-				SetLang($lang);
-				ABSCharData @data;
-				CloseTestString $silBasename;
-			}
-			ClearLang;
-		}
-	}
-	
-	
-	# generate LamAlef ligatures:
-	my ($lam, $alef);
-	for $lam (@lamlist)
-	{
-		for $alef (@aleflist)
-		{
-			foreach my $featureCombination (PermuteFeatures($alef))
-			{
-				my $c = Entity($lam, $alef);
-				SetFeatures @{$featureCombination};
-				AddToTestString $lam, "$c $zwj$c", 0, sprintf("U+%04X+%04X", $lam, $alef);
-				#ABSCharData $lam, $alef;
-				CloseTestString "$uni2post{$lam}+$uni2post{$alef}";
-			}
-		}
-	}
+    OpenOutputFile 'AllChars';
+    
+    StartTestGroup 'All Characters (USV order)';
+    
+    # Generate all plain-text chars in font
+    for $uid (sort {$a <=> $b} keys %{$cmap})
+    {
+        next if $uid < 32;
+        my $c = Entity($uid);
+        foreach my $featureCombination (PermuteFeatures($uid))
+        {
+            SetFeatures @{$featureCombination};
+            if ($UCD{$uid}{'general'} =~ m/^M[ne]/o)
+            {
+                # is a diacritic -- output on suitable base character
+                AddToTestString $uid, "$diacriticbase$c"; 
+            }
+            elsif ($UCD{$uid}{'general'} =~ m/^Zs/o)
+            {
+                # Whitespace -- put baseline brackets around it:
+                AddToTestString $uid, "\\uf130${c}\\uf131"; 
+            }
+            elsif ($UCD{$uid}{'mirror'} eq 'Y')
+            {
+                # Mirrored
+                CloseTestString;
+                AddToTestString $uid, "$c \\u202A L2R: ${c} R2L: \\u202B${c}\\u202C\\u202C";
+                CloseTestString $uni2post{$uid};
+            }
+            elsif ($UCD{$uid}{'bidi'} =~ /LRE|RLE|PDF/oi)
+            {
+                if ($uid == 0x202A) # Emit one string containing LRE, RLE, PDF
+                {
+                    CloseTestString;
+                    AddToTestString $uid, "L to R E 1A \\u202B R to L E 2A \\u202A L to R E 3 \\u202C R to L E 2B \\u202C  L to R E 1B";
+                    CloseTestString $uni2post{$uid};
+                }
+                next;
+            }
+            elsif ($UCD{$uid}{'bidi'} =~ /LRI|RLI|FSI|PDI/oi)
+            {
+                if ($uid == 0x2066) # Emit one string containing LRI, RLI, FSI, PDI
+                {
+                    CloseTestString;
+                    AddToTestString $uid, "L to R I 1A \\u2067 R to L I 2A \\u2066 L to R I 3 \\u2069 R to L I 2B \\u2069  L to R I 1B \\u2068 F S I \\u2069 L to R I 1C";
+                    CloseTestString $uni2post{$uid};
+                }
+                next;
+            }
+            elsif (length($UCD{$uid}{'joining'}) && $UCD{$uid}{'joining'} ne 'U')
+            {
+                # One of the other ABS chars of interest, but not a non-joining
+                CloseTestString;
+                ABSCharData $uid;
+                CloseTestString $uni2post{$uid};
+            }
+            else
+            {
+                AddToTestString $uid, $c;
+            }
+        }
+        ClearFeatures;
+        
+        if (exists $UCD{$uid}{'langs'})
+        {
+            foreach my $lang (sort keys $UCD{$uid}{'langs'})
+            {
+                SetLang($lang);
+                if ($UCD{$uid}{'general'} =~ m/^M[ne]/o)
+                {
+                    # is a diacritic -- output on suitable base character
+                    AddToTestString $uid, $diacriticbase . $c; 
+                }
+                elsif (length($UCD{$uid}{'joining'}) && $UCD{$uid}{'joining'} ne 'U')
+                {
+                    # One of the other ABS chars of interest, but not a non-joining
+                    ABSCharData $uid;
+                }
+                else
+                {
+                    AddToTestString $uid, $c;
+                }
+                CloseTestString $uni2post{$uid};
+            }
+            ClearLang;
+        }
+    }
+    CloseTestString;
+    
+    
+    # generate specials if needed:
+    foreach my $silBasename (sort keys %specials)
+    {
+        my @data = grep {exists $cmap->{$_}} @{$specials{$silBasename}{'uids'}};  # make sure all uids exists in font
+        next unless scalar(@data) == scalar(@{$specials{$silBasename}{'uids'}});  
+        push @data, $specials{$silBasename}{'joining'} if defined $specials{$silBasename}{'joining'};
+        if (defined $specials{$silBasename}{'features'})
+        {
+            foreach my $featureCombination (PermuteFeatures(sort keys $specials{$silBasename}{'features'}))
+            {
+                SetFeatures @{$featureCombination};
+                ABSCharData @data;
+                CloseTestString $silBasename;
+            }
+        }
+        ClearFeatures;
+        
+        if (defined $specials{$silBasename}{'langs'})
+        {
+            foreach my $lang (sort keys $specials{$silBasename}{'langs'})
+            {
+                SetLang($lang);
+                ABSCharData @data;
+                CloseTestString $silBasename;
+            }
+            ClearLang;
+        }
+    }
+    
+    
+    # generate LamAlef ligatures:
+    my ($lam, $alef);
+    for $lam (@lamlist)
+    {
+        for $alef (@aleflist)
+        {
+            foreach my $featureCombination (PermuteFeatures($alef))
+            {
+                my $c = Entity($lam, $alef);
+                SetFeatures @{$featureCombination};
+                AddToTestString $lam, "$c $zwj$c", 0, sprintf("U+%04X+%04X", $lam, $alef);
+                #ABSCharData $lam, $alef;
+                CloseTestString "$uni2post{$lam}+$uni2post{$alef}";
+            }
+        }
+    }
   
 
-	CloseOutputFile;
+    CloseOutputFile;
 }
 
 =head2 AllChars2
@@ -1303,231 +1312,231 @@ Same as AllChars, but sorted by shape
 
 =cut
 
-if ($opt_t =~ m/^AllChars2$/oi || $opt_t =~ m/^all$/oi)
+if ($test =~ m/^AllChars2$/oi || $test =~ m/^all$/oi)
 {
-	OpenOutputFile 'AllChars2';
-	
-	# Generate all plain-text chars in font
-	for $uid (sort {$shapesort{$UCD{$a}{'joingroup'}} <=> $shapesort{$UCD{$b}{'joingroup'}} || $a <=> $b} keys %{$cmap})
-	{
-		next if $uid < 32 or  Entity($uid) =~ /\p{Latin}|\p{Blk=ArabicPFA}|\p{Blk=ArabicPFB}/;
-		my $c = Entity($uid);
-		foreach my $featureCombination (PermuteFeatures($uid))
-		{
-			SetFeatures @{$featureCombination};
-			if ($UCD{$uid}{'general'} =~ m/^M[ne]/o)
-			{
-				# is a diacritic -- output on suitable base character
-				AddToTestString $uid, $diacriticbase . $c; 
-			}
-			elsif ($UCD{$uid}{'general'} =~ m/^Zs/o)
-			{
-				# Whitespace -- put baseline brackets around it:
-				AddToTestString $uid, "\uf130${c}\uf131"; 
-			}
-			elsif ($UCD{$uid}{'mirror'} eq 'Y')
-			{
-				# Mirrored
-			    CloseTestString;
-			    AddToTestString $uid, "$c \\u202A L2R: ${c} R2L: \\u202B${c}\\u202C\\u202C";
-			    CloseTestString $uni2post{$uid};
-			}
-			elsif (length($UCD{$uid}{'joining'}) && $UCD{$uid}{'joining'} ne 'U')
-			{
-				# One of the other ABS chars of interest, but not a non-joining
-				CloseTestString;
-				ABSCharData $uid;
-				CloseTestString $uni2post{$uid};
-			}
-			else
-			{
-				AddToTestString $uid, $c;
-			}
-		}
-		ClearFeatures;
-		
-	}
-	CloseTestString;
-	
-	CloseOutputFile;
+    OpenOutputFile 'AllChars2';
+    
+    # Generate all plain-text chars in font
+    for $uid (sort {$shapesort{$UCD{$a}{'joingroup'}} <=> $shapesort{$UCD{$b}{'joingroup'}} || $a <=> $b} keys %{$cmap})
+    {
+        next if $uid < 32 or  Entity($uid) =~ /\p{Latin}|\p{Blk=ArabicPFA}|\p{Blk=ArabicPFB}/;
+        my $c = Entity($uid);
+        foreach my $featureCombination (PermuteFeatures($uid))
+        {
+            SetFeatures @{$featureCombination};
+            if ($UCD{$uid}{'general'} =~ m/^M[ne]/o)
+            {
+                # is a diacritic -- output on suitable base character
+                AddToTestString $uid, $diacriticbase . $c; 
+            }
+            elsif ($UCD{$uid}{'general'} =~ m/^Zs/o)
+            {
+                # Whitespace -- put baseline brackets around it:
+                AddToTestString $uid, "\uf130${c}\uf131"; 
+            }
+            elsif ($UCD{$uid}{'mirror'} eq 'Y')
+            {
+                # Mirrored
+                CloseTestString;
+                AddToTestString $uid, "$c \\u202A L2R: ${c} R2L: \\u202B${c}\\u202C\\u202C";
+                CloseTestString $uni2post{$uid};
+            }
+            elsif (length($UCD{$uid}{'joining'}) && $UCD{$uid}{'joining'} ne 'U')
+            {
+                # One of the other ABS chars of interest, but not a non-joining
+                CloseTestString;
+                ABSCharData $uid;
+                CloseTestString $uni2post{$uid};
+            }
+            else
+            {
+                AddToTestString $uid, $c;
+            }
+        }
+        ClearFeatures;
+        
+    }
+    CloseTestString;
+    
+    CloseOutputFile;
 }
 
-if ($opt_t =~ m/^Kern$/oi || $opt_t =~ m/^all$/oi)
+if ($test =~ m/^Kern$/oi || $test =~ m/^all$/oi)
 {
-	OpenOutputFile 'Kern';
-	my $enablePending = 1;
-	
-	# Started as reh-alef and waw-alef, but now realize reh should be kerned against a lot of things!
-	my @rehs = sort {$a cmp $b} grep { $UCD{$_}{'joingroup'} eq 'REH' && ($enablePending || ($UCD{$_}{'age'} ne 'pending'))} keys %{$cmap};
-	my @waws = sort {$a cmp $b} grep { $UCD{$_}{'joingroup'} eq 'WAW' && ($enablePending || ($UCD{$_}{'age'} ne 'pending'))} keys %{$cmap};
-	#my @preAlef = grep {exists $cmap->{$_}} (0x0631, 0x0691, 0x0692, 0x0696, 0x0697, 0x0698, 0x0699, 0x06EF, 0x076B, 0x076C, 0x0771, 0x08AA, 0x08B2, 0x0624, 0x0648, 0x0676, 0x0677, 0x06C4, 0x06C5, 0x06C7, 0x06C8, 0x06C9, 0x06CA, 0x06CB, 0x06CF, 0x0778, 0x0779, 0x08AB);
-	#my @Alef = grep {exists $cmap->{$_}} (0x0622, 0x0623, 0x0625, 0x0627, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774);
-	#my @Alef = grep {exists $cmap->{$_}} (0x0622, 0x0623, 0x0625, 0x0627, 0x0671, 0x0672, 0x0673, 0x0675);
-	
-	for my $uid2 (sort {$shapesort{$UCD{$a}{'joingroup'}} <=> $shapesort{$UCD{$b}{'joingroup'}} || $a <=> $b} 
-				grep {$UCD{$_}{'joining'} =~ m/[DR]/oi && ($enablePending || ($UCD{$_}{'age'} ne 'pending'))} keys %{$cmap})
-	{
-		for my $uid1 (@rehs)
-		{
-			foreach my $featureCombination (PermuteFeatures($uid2))
-			{
-				SetFeatures @{$featureCombination};
-				AddToTestString $uid2,      . Entity($uid1,         $uid2        ), 0, sprintf("U+%04X", $uid2);
-				AddToTestString $uid2, $zwj . Entity($uid1,         $uid2,       );
-				AddToTestString $uid2,      . Entity($uid1, 0x064B, $uid2, 0x064D);
-				AddToTestString $uid2, $zwj . Entity($uid1, 0x064B, $uid2, 0x064D);
-				if ($UCD{$uid2}{'joining'} eq 'D') {
-				AddToTestString $uid2,      . Entity($uid1,         $uid2, 0x06D5);
-				AddToTestString $uid2, $zwj . Entity($uid1,         $uid2, 0x06D5);
-				AddToTestString $uid2,      . Entity($uid1, 0x064B, $uid2, 0x064D, 0x06D5);
-				AddToTestString $uid2, $zwj . Entity($uid1, 0x064B, $uid2, 0x064D, 0x06D5);
-				} 
-			}
-			ClearFeatures $uni2post{$uid2};
-		}
-		CloseTestString $uni2post{$uid2};	
-	}
-	
-	CloseOutputFile;
+    OpenOutputFile 'Kern';
+    my $enablePending = 1;
+    
+    # Started as reh-alef and waw-alef, but now realize reh should be kerned against a lot of things!
+    my @rehs = sort {$a cmp $b} grep { $UCD{$_}{'joingroup'} eq 'REH' && ($enablePending || ($UCD{$_}{'age'} ne 'pending'))} keys %{$cmap};
+    my @waws = sort {$a cmp $b} grep { $UCD{$_}{'joingroup'} eq 'WAW' && ($enablePending || ($UCD{$_}{'age'} ne 'pending'))} keys %{$cmap};
+    #my @preAlef = grep {exists $cmap->{$_}} (0x0631, 0x0691, 0x0692, 0x0696, 0x0697, 0x0698, 0x0699, 0x06EF, 0x076B, 0x076C, 0x0771, 0x08AA, 0x08B2, 0x0624, 0x0648, 0x0676, 0x0677, 0x06C4, 0x06C5, 0x06C7, 0x06C8, 0x06C9, 0x06CA, 0x06CB, 0x06CF, 0x0778, 0x0779, 0x08AB);
+    #my @Alef = grep {exists $cmap->{$_}} (0x0622, 0x0623, 0x0625, 0x0627, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774);
+    #my @Alef = grep {exists $cmap->{$_}} (0x0622, 0x0623, 0x0625, 0x0627, 0x0671, 0x0672, 0x0673, 0x0675);
+    
+    for my $uid2 (sort {$shapesort{$UCD{$a}{'joingroup'}} <=> $shapesort{$UCD{$b}{'joingroup'}} || $a <=> $b} 
+                grep {$UCD{$_}{'joining'} =~ m/[DR]/oi && ($enablePending || ($UCD{$_}{'age'} ne 'pending'))} keys %{$cmap})
+    {
+        for my $uid1 (@rehs)
+        {
+            foreach my $featureCombination (PermuteFeatures($uid2))
+            {
+                SetFeatures @{$featureCombination};
+                AddToTestString $uid2,      . Entity($uid1,         $uid2        ), 0, sprintf("U+%04X", $uid2);
+                AddToTestString $uid2, $zwj . Entity($uid1,         $uid2,       );
+                AddToTestString $uid2,      . Entity($uid1, 0x064B, $uid2, 0x064D);
+                AddToTestString $uid2, $zwj . Entity($uid1, 0x064B, $uid2, 0x064D);
+                if ($UCD{$uid2}{'joining'} eq 'D') {
+                AddToTestString $uid2,      . Entity($uid1,         $uid2, 0x06D5);
+                AddToTestString $uid2, $zwj . Entity($uid1,         $uid2, 0x06D5);
+                AddToTestString $uid2,      . Entity($uid1, 0x064B, $uid2, 0x064D, 0x06D5);
+                AddToTestString $uid2, $zwj . Entity($uid1, 0x064B, $uid2, 0x064D, 0x06D5);
+                } 
+            }
+            ClearFeatures $uni2post{$uid2};
+        }
+        CloseTestString $uni2post{$uid2};   
+    }
+    
+    CloseOutputFile;
 
 }
 
-if ($opt_t =~ m/^AlefTooth$/oi || $opt_t =~ m/^all$/oi)
+if ($test =~ m/^AlefTooth$/oi || $test =~ m/^all$/oi)
 {
-	OpenOutputFile 'AlefTooth';
-	
-	foreach my $tooth (@Tooth, @lamlist)
-	{
-		foreach my $alef (0x0622)
-		{
-			AddToTestString $tooth, Entity(0x627, $tooth) . $zwj . " " . Entity($alef, 0x8F9, $tooth, 0x64B, 0x64D, $tooth, 0x64B, 0x64D) . $zwj, 0, sprintf("U+%04X+%04X", $alef, $tooth);
-		}
-		CloseTestString $uni2post{$tooth};
-	}
-	CloseOutputFile;
-}
-
-
-if ($opt_t =~ m/^ToothAin$/oi || $opt_t =~ m/^all$/oi)
-{
-	OpenOutputFile 'ToothAin';
-
-	AddToTestString 0, Entity(0x627, 0x0644, 0x0644, 0x0651, 0x064E, 0x064A, 0x065C, 0x0639, 0x064E), 0, "test";
-	CloseTestString "reported fail";
-		
-	foreach my $tooth (@Tooth)
-	{
-		AddToTestString $tooth, Entity($tooth, 0x065C, 0x639) . " $zwj" . Entity($tooth, 0x065C, 0x639) . ' ' . Entity($tooth, 0x065C, 0x6D2) . " $zwj" . Entity($tooth, 0x065C, 0x6D2) . ' ' 
-		                      . Entity($tooth, 0x064D, 0x639) . " $zwj" . Entity($tooth, 0x064D, 0x639) . ' ' . Entity($tooth, 0x064D, 0x6D2) . " $zwj" . Entity($tooth, 0x064D, 0x6D2);
-		CloseTestString $uni2post{$tooth};
-	}
-	
-	# Check all lower diacritics on representative teeth chars 
-	
-	my @repBase = grep {exists $cmap->{$_}} (0x0628, 0x0649);
-	my @TonesBelow = grep {exists $cmap->{$_}} (0x08ED, 0x08EE, 0x8EF);
-	my $repLowTone = $TonesBelow[0];
-	my @TonesAbove = grep {exists $cmap->{$_}} (0x08EA, 0x08EB, 0x8EC);
-	my $repHiTone = $TonesAbove[0];
-	for my $tooth (@repBase)
-	{
-		for my $mark (@MarksBelow) 
-		{
-			next if (0x08EA <= $mark && $mark <= 0x8EF);	#Skip tone marks
-			foreach my $featureCombination (PermuteFeatures($mark))
-			{
-				SetFeatures @{$featureCombination};
-				{
-					AddToTestString $mark, Entity($tooth, $mark, 0x639) . " $zwj" . Entity($tooth, $mark, 0x639) . ' ' . Entity($tooth, $mark, 0x6D2) . " $zwj" . Entity($tooth, $mark, 0x6D2);
-					# include shadda
-					AddToTestString $mark, Entity($tooth, $mark, 0x0651, 0x639) . " $zwj" . Entity($tooth, $mark, 0x0651, 0x639) . ' ' . Entity($tooth, $mark, 0x0651, 0x6D2) . " $zwj" . Entity($tooth, $mark, 0x0651, 0x6D2);
-					#include lowTone
-					AddToTestString $mark, Entity($tooth, $mark, $repLowTone, 0x639) . " $zwj" . Entity($tooth, $mark, $repLowTone, 0x639) . ' ' . Entity($tooth, $mark, $repLowTone, 0x6D2) . " $zwj" . Entity($tooth, $mark, $repLowTone, 0x6D2);
-					#include highTone
-					AddToTestString $mark, Entity($tooth, $mark, $repHiTone, 0x639) . " $zwj" . Entity($tooth, $mark, $repHiTone, 0x639) . ' ' . Entity($tooth, $mark, $repHiTone, 0x6D2) . " $zwj" . Entity($tooth, $mark, $repHiTone, 0x6D2);
-					
-					CloseTestString $uni2post{$mark};
-				}
-			}
-			ClearFeatures;
-		}
-	}
-
-	CloseOutputFile;
-}
-
-if ($opt_t =~ m/^KasraTail$/oi || $opt_t =~ m/^all$/oi)
-{
-	OpenOutputFile 'KasraTail';
-	
-	my @allTail = grep {exists $cmap->{$_}} (
-			0x06D2,0x06D3,0x077A,0x077B,0x0639,0x063A,0x06A0,0x06FC,0x075D,0x075E,0x075F,0x062C,
-			0x062D,0x062E,0x0681,0x0682,0x0683,0x0684,0x0685,0x0686,0x0687,0x06BF,0x0757,0x0758,
-			0x076E,0x076F,0x0772,0x077C,0x08A2);
-	
-	my @repTail = grep {exists $cmap->{$_}} (0x062D, 0x0639, 0x06D2);	# Hah, Ain, YehBarree
-	
-	my @repTooth = grep {exists $cmap->{$_}} (
-		0x066E,	# 0
-		0x0628,	# 1w, 1h
-		0x067B,	# 1w, 2h
-		0x0754,	# 2w, 1h
-		0x0680,	# 2w, 2h
-		0x0750,	# 3w, 1h
-		);
-
-	foreach my $tail (@repTail)
-	{
-		foreach my $mark (@MarksBelow)
-		{
-			foreach my $tooth (@repTooth)
-			{
-				AddToTestString $tail, Entity($tooth, $mark, $tail), 0, sprintf("U+%04X+%04X", $mark, $tail);
-				AddToTestString $tail, Entity(0x0628, $tooth, $mark, $tail);
-			}
-			CloseTestString;
-		}
-	}
-	
-	CloseOutputFile;
-}
-
-if ($opt_t =~ m/^YehBarree$/oi || $opt_t =~ m/^all$/oi)
-{
-	OpenOutputFile 'YehBarree';
-	
-	for $uid (sort {$shapesort{$UCD{$a}{'joingroup'}} <=> $shapesort{$UCD{$b}{'joingroup'}} || $a <=> $b} keys %{$cmap})
-	{
-		my $l = $UCD{$uid}{'joining'};	
-		next unless $l =~ /D/io;
-		foreach my $featureCombination (PermuteFeatures($uid))
-		{
-			SetFeatures @{$featureCombination};
-			
-			foreach my $diac (0x064D, 0x0650, 0x655, 0x656, 0x65C, 0x8F9, 0x08FA)
-			{
-				AddToTestString $uid, Entity($uid, $diac, 0x6D2) . " $zwj" . Entity($uid, $diac, 0x6D2) . " " , 0, sprintf("U+%04X", $uid) ;
-			}
-			CloseTestString $uni2post{$uid};
-		}
-		ClearFeatures;
-	}
-	CloseOutputFile;
+    OpenOutputFile 'AlefTooth';
+    
+    foreach my $tooth (@Tooth, @lamlist)
+    {
+        foreach my $alef (0x0622)
+        {
+            AddToTestString $tooth, Entity(0x627, $tooth) . $zwj . " " . Entity($alef, 0x8F9, $tooth, 0x64B, 0x64D, $tooth, 0x64B, 0x64D) . $zwj, 0, sprintf("U+%04X+%04X", $alef, $tooth);
+        }
+        CloseTestString $uni2post{$tooth};
+    }
+    CloseOutputFile;
 }
 
 
-if ($opt_t =~ m/^Diwiwi$/oi || $opt_t =~ m/^all$/oi)
+if ($test =~ m/^ToothAin$/oi || $test =~ m/^all$/oi)
 {
-	OpenOutputFile 'diwiwi';
-	
-	# Every rightlinking isolate:
-	for $uid (sort { $a <=> $b } grep {$UCD{$_}{'joining'} eq 'R'} keys %{$cmap})     
-	{
-		AddToTestString $uid, Entity($uid, 0x650, 0x648, 0x650, 0x648, 0x650) . ' ';
-		CloseTestString;
-	}
+    OpenOutputFile 'ToothAin';
 
-	CloseOutputFile;
+    AddToTestString 0, Entity(0x627, 0x0644, 0x0644, 0x0651, 0x064E, 0x064A, 0x065C, 0x0639, 0x064E), 0, "test";
+    CloseTestString "reported fail";
+        
+    foreach my $tooth (@Tooth)
+    {
+        AddToTestString $tooth, Entity($tooth, 0x065C, 0x639) . " $zwj" . Entity($tooth, 0x065C, 0x639) . ' ' . Entity($tooth, 0x065C, 0x6D2) . " $zwj" . Entity($tooth, 0x065C, 0x6D2) . ' ' 
+                              . Entity($tooth, 0x064D, 0x639) . " $zwj" . Entity($tooth, 0x064D, 0x639) . ' ' . Entity($tooth, 0x064D, 0x6D2) . " $zwj" . Entity($tooth, 0x064D, 0x6D2);
+        CloseTestString $uni2post{$tooth};
+    }
+    
+    # Check all lower diacritics on representative teeth chars 
+    
+    my @repBase = grep {exists $cmap->{$_}} (0x0628, 0x0649);
+    my @TonesBelow = grep {exists $cmap->{$_}} (0x08ED, 0x08EE, 0x8EF);
+    my $repLowTone = $TonesBelow[0];
+    my @TonesAbove = grep {exists $cmap->{$_}} (0x08EA, 0x08EB, 0x8EC);
+    my $repHiTone = $TonesAbove[0];
+    for my $tooth (@repBase)
+    {
+        for my $mark (@MarksBelow) 
+        {
+            next if (0x08EA <= $mark && $mark <= 0x8EF);    #Skip tone marks
+            foreach my $featureCombination (PermuteFeatures($mark))
+            {
+                SetFeatures @{$featureCombination};
+                {
+                    AddToTestString $mark, Entity($tooth, $mark, 0x639) . " $zwj" . Entity($tooth, $mark, 0x639) . ' ' . Entity($tooth, $mark, 0x6D2) . " $zwj" . Entity($tooth, $mark, 0x6D2);
+                    # include shadda
+                    AddToTestString $mark, Entity($tooth, $mark, 0x0651, 0x639) . " $zwj" . Entity($tooth, $mark, 0x0651, 0x639) . ' ' . Entity($tooth, $mark, 0x0651, 0x6D2) . " $zwj" . Entity($tooth, $mark, 0x0651, 0x6D2);
+                    #include lowTone
+                    AddToTestString $mark, Entity($tooth, $mark, $repLowTone, 0x639) . " $zwj" . Entity($tooth, $mark, $repLowTone, 0x639) . ' ' . Entity($tooth, $mark, $repLowTone, 0x6D2) . " $zwj" . Entity($tooth, $mark, $repLowTone, 0x6D2);
+                    #include highTone
+                    AddToTestString $mark, Entity($tooth, $mark, $repHiTone, 0x639) . " $zwj" . Entity($tooth, $mark, $repHiTone, 0x639) . ' ' . Entity($tooth, $mark, $repHiTone, 0x6D2) . " $zwj" . Entity($tooth, $mark, $repHiTone, 0x6D2);
+                    
+                    CloseTestString $uni2post{$mark};
+                }
+            }
+            ClearFeatures;
+        }
+    }
+
+    CloseOutputFile;
+}
+
+if ($test =~ m/^KasraTail$/oi || $test =~ m/^all$/oi)
+{
+    OpenOutputFile 'KasraTail';
+    
+    my @allTail = grep {exists $cmap->{$_}} (
+            0x06D2,0x06D3,0x077A,0x077B,0x0639,0x063A,0x06A0,0x06FC,0x075D,0x075E,0x075F,0x062C,
+            0x062D,0x062E,0x0681,0x0682,0x0683,0x0684,0x0685,0x0686,0x0687,0x06BF,0x0757,0x0758,
+            0x076E,0x076F,0x0772,0x077C,0x08A2);
+    
+    my @repTail = grep {exists $cmap->{$_}} (0x062D, 0x0639, 0x06D2);   # Hah, Ain, YehBarree
+    
+    my @repTooth = grep {exists $cmap->{$_}} (
+        0x066E, # 0
+        0x0628, # 1w, 1h
+        0x067B, # 1w, 2h
+        0x0754, # 2w, 1h
+        0x0680, # 2w, 2h
+        0x0750, # 3w, 1h
+        );
+
+    foreach my $tail (@repTail)
+    {
+        foreach my $mark (@MarksBelow)
+        {
+            foreach my $tooth (@repTooth)
+            {
+                AddToTestString $tail, Entity($tooth, $mark, $tail), 0, sprintf("U+%04X+%04X", $mark, $tail);
+                AddToTestString $tail, Entity(0x0628, $tooth, $mark, $tail);
+            }
+            CloseTestString;
+        }
+    }
+    
+    CloseOutputFile;
+}
+
+if ($test =~ m/^YehBarree$/oi || $test =~ m/^all$/oi)
+{
+    OpenOutputFile 'YehBarree';
+    
+    for $uid (sort {$shapesort{$UCD{$a}{'joingroup'}} <=> $shapesort{$UCD{$b}{'joingroup'}} || $a <=> $b} keys %{$cmap})
+    {
+        my $l = $UCD{$uid}{'joining'};  
+        next unless $l =~ /D/io;
+        foreach my $featureCombination (PermuteFeatures($uid))
+        {
+            SetFeatures @{$featureCombination};
+            
+            foreach my $diac (0x064D, 0x0650, 0x655, 0x656, 0x65C, 0x8F9, 0x08FA)
+            {
+                AddToTestString $uid, Entity($uid, $diac, 0x6D2) . " $zwj" . Entity($uid, $diac, 0x6D2) . " " , 0, sprintf("U+%04X", $uid) ;
+            }
+            CloseTestString $uni2post{$uid};
+        }
+        ClearFeatures;
+    }
+    CloseOutputFile;
+}
+
+
+if ($test =~ m/^Diwiwi$/oi || $test =~ m/^all$/oi)
+{
+    OpenOutputFile 'diwiwi';
+    
+    # Every rightlinking isolate:
+    for $uid (sort { $a <=> $b } grep {$UCD{$_}{'joining'} eq 'R'} keys %{$cmap})     
+    {
+        AddToTestString $uid, Entity($uid, 0x650, 0x648, 0x650, 0x648, 0x650) . ' ';
+        CloseTestString;
+    }
+
+    CloseOutputFile;
 }
 
 
@@ -1541,6 +1550,7 @@ Bob Hallissy L<http://scripts.sil.org/>.
 
 =head1 HISTORY
 
+ 2016-06-30 Changed to use long options
  2016-04-15 Code borrowed from private NRSI repository and modified to generate FTML (only)
  
 =head1 LICENSING
