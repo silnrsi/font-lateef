@@ -34,7 +34,7 @@ DEBPKG = 'fonts-sil-lateef'
 
 AP = 'source/LateefReg_tmp.xml'
 
-font(target = process('LateefGR-Regular.ttf', name('LateefGR')),
+font(target = process('LateefGR-Regular.ttf', cmd('perl ../tools/bin/abs_psfix ${DEP} ${TGT}'), name('LateefGR') ),
 	source = 'source/LateefReg.ttf',
 	graphite = gdl('Lateef-Regular.gdl',
 		params = '-D',
@@ -51,7 +51,7 @@ font(target = process('LateefGR-Regular.ttf', name('LateefGR')),
 AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks', 'DaggerAlef' ]
 
 for testname in AUTOGEN_TESTS:
-	t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -f l -r local(Scheherazade) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'results/LateefGR-Regular.ttf', AP, 'tools/absGlyphList/absGlyphList.txt']))
+	t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -f l -r local(Scheherazade) -r url(LateefGR-Regular.woff) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'source/LateefReg.ttf', AP, 'tools/absGlyphList/absGlyphList.txt']))
 
 def configure(ctx) :
     ctx.env['MAKE_GDL'] = 'perl -I ../tools/perllib ../tools/bin/make_gdl'
