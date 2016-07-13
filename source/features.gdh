@@ -254,11 +254,11 @@ headOfKhahHack {
 }
 
 
-graphite1mirror {
-	id = "gr1m";
-	name.1033 = string("Mirroring for Graphite 1");
-	default = false;
-}
+// graphite1mirror {	// No longer support Graphite 1 mirroring?
+// 	id = "gr1m";
+// 	name.1033 = string("Mirroring for Graphite 1");
+// 	default = false;
+// }
 
 
 invis {
