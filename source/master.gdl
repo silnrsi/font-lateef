@@ -321,31 +321,18 @@ pass(1)
 
 	// Note: the superscript-alef may have both the _alef and _diaA att pts; the ordering of these
 	// rules assumes the alef AP should be used if there are no intervening marks above.
-	// OLD: cHasAlefAP=B  cMarkSuperscriptAlefs {attach {to=@B; at=alef; with=alef_}; }  / _ ^ MARKSBELOW _ ;
-	calefDia {attach {to = @1; at = alefS; with = alefM}} / cTakesalefDia MARKSBELOW _;
+	// Sch rule: cHasAlefAP=B  cMarkSuperscriptAlefs {attach {to=@B; at=alef; with=alef_}; }  / _ ^ MARKSBELOW _ ;
+	// Lateef special considerations:  In the 1.x font, only the lam (and variants except for initial)
+	// were included in the superscript-alef attachment rule, even though other glyphs have an alef AP. 
+	// This may need further research and discussion: do we want the Graphite version to match the OT? 
+	// For now I am assuming so. Therefore, instead of:
+	//   calefDia {attach {to = @1; at = alefS; with = alefM}} / cTakesalefDia MARKSBELOW _;
+	// we'll use:
+	calefDia {attach {to = @1; at = alefS; with = alefM}} / 
+		( cLamIso cLamIni cLamIniBeforeAlef cLamMed cLamMedBeforeAlef cLamFin) MARKSBELOW _;
 
 	cdiaADia {attach {to = @1; at = diaAS; with = diaAM}} / cTakesdiaADia MARKSBELOW _;
-	// cdigitDia {attach {to = @1; at = digitS; with = digitM}} / cTakesdigitDia opt4(cnTakesdigitDia) _;
 	cdiaBDia {attach {to = @1; at = diaBS; with = diaBM}} / cTakesdiaBDia opt4(cnTakesdiaBDia) _;	
-
-/***	
-	// Special case: cozy up these diacritics a little, so they look more like the built-in ligatures:
-	absShadda=S
-		(absFatha absDamma absFathatan absDammatan)
-			{attach {to=@S; at=point(diaA.x,diaA.y-80m); with=diaA_}; }
-		/ _ ^ MARKSBELOW  _;
-
-	absHamzaAbove=H
-		(absFatha absDamma absFathatan absDammatan)
-			{attach {to=@H; at=point(diaA.x+40m,diaA.y-80m); with=diaA_}; }
-		/ _ ^ MARKSBELOW  _;
-		
-
-	// Normal case:
-	(cBaseAny cMark1Above_volt cMarkSuperscriptAlefs)=B  (cMarksAbove){attach {to=@B; at=diaA; with=diaA_}; }
-		/ _ ^ MARKSBELOW  _;
-
-***/
 
 	// Subtending marks
 	// NB: at this point digits should be in visual order, right to left,
