@@ -251,9 +251,9 @@ pass(5)	// Features, special behaviors
 		cno_sixNine > csixNine;
 	endif;
 
-	// if (daggeralefAlt == large)
+	if (daggeralefAlt != small)
 		absSuperscriptAlef  >  absSuperscriptAlef_large  /  cTakesLargeDaggerAlef  _;
-	// endif;	
+	endif;	
 
 	if (sukunAlt == jasmDown)
 		cno_downOpen  >  cdownOpen;

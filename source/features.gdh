@@ -137,6 +137,25 @@ dammatanAlt {
     default = std;
 }
 
+daggeralefAlt {
+    id = "cv76";
+    name.1033 = string("Superscript Alef");
+    settings {
+        std {
+            value = 0;
+            name.1033 = string("Default");
+        }
+        large {
+            value = 1;
+            name.1033 = string("Large");
+        }
+        small {
+            value = 2;
+            name.1033 = string("Small");
+        }
+    }
+    default = std;
+}
 
 sukunAlt {
     id = "cv78";	// was 2005;
