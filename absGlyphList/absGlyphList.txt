@@ -1206,7 +1206,7 @@ absFathaTwoDots	1179	065E	NSM	1186	SHL
 absWavyHamzaBelow	1180	065F	NSM	1187	S									6.0				
 absSuperscriptAlef	1181	0670	NSM	1188	SHLM													
 # absSuperscriptAlef.left	1182		NSM	1189	-										unused?			
-absSuperscriptAlef.large	1183		NSM	1190	SHL													cv76=1
+absSuperscriptAlef.large	1183		NSM	1190	SHL													cv76=2
 absCurlyFatha	1184	08E4	NSM	1191	S									6.1				
 absCurlyFathatan	1185	08E7	NSM	1192	S									6.1				
 absCurlyDamma	1186	08E5	NSM	1193	S									6.1				
