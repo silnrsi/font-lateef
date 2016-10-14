@@ -362,7 +362,7 @@ absRehSmallTahTwoDots	358	0771	AL	405	SL	absReh	_dot2h_tah							5.1
 absZainHat	360	08B2	AL	406	SHL	absReh	_dot1_hat							7.0	absJeh.dotHat			# cv90=1
 absRehHat	361	06EF	AL	407	SHL	absReh	_hat											
 absRehBar	362	075B	AL	408	SHL	absReh					_bar							
-absRehLoop	363	08AA	AL	427	S									6.1				
+absRehLoop	363	08AA	AL	427	SL									6.1				
 absYehTail	364	06CD	AL	473	SL										moved			
 absStraightWaw	365	08B1	AL	344	S									7.0				
 absYehBarree	366	06D2	AL	429	SHLM													
@@ -625,7 +625,7 @@ absRehSmallTahTwoDotsFin	615		AL	423	SL	absRehFin	_dot2h_tah							5.1
 absZainHatFin	617		AL	424	SHL	absRehFin	_dot1_hat							7.0	absJehFin.dotHat			
 absRehHatFin	618		AL	425	SHL	absRehFin	_hat											
 absRehBarFin	619		AL	426	SHL	absRehFin					_bar							
-absRehLoopFin	620		AL	428	S									6.1				
+absRehLoopFin	620		AL	428	SL									6.1				
 absYehTailFin	621		AL	474	SL										moved			
 absStraightWawFin	622		AL	345	S									7.0				
 absYehBarreeFin	623		AL	433	SHL													
