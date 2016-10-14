@@ -92,10 +92,6 @@ table(glyph)
 
 cMarkSuperscriptAlefs = ( cMarkGroup2A ) ;
 
-// cMark1Below_volt = ( cMarkGroup1B cMarkGroup2B ) ;
-//  cMark2Below_volt = ( cMarkGroup3B ) ;
-// cMark1Above_volt = ( cMarkGroup1A cMarkGroup2A cMarkGroup3A cMarkGroup4A ) ;
-// cMark2Above_volt = ( cMarkGroup5A ) ;
 
 cMarksAbove = (  cMarkGroup1A cMarkGroup2A cMarkGroup3A cMarkGroup4A cMarkGroup5A ) ;
 cMarksBelow = ( cMarkGroup1B cMarkGroup2B  cMarkGroup3B ) ;
@@ -396,7 +392,40 @@ pass(2)
 
 endpass; // 2
 
-***/
+
+
+pass(3)
+	// Kerning of reh-like and waw-like
+	
+	// tighten to following gaf-like unless reh/waw have a mark above
+	cRehKernGaf {advance.x -= 300m} / cRehWawTightenToGaf MARKSBELOW _ ;
+	
+	// loosen from following alef with something below it
+	(absAlefHamzaBelow absAlefWavyHamzaBelow) {advance.x += 130m} / cRehWawAll MARKS _ ;
+	cAlefIso {advance.x += 130m} / cRehWawAll MARKS _ MARKS cMarksBelow ;
+	
+	// loosen from following narrow initials with something below
+	cNarrowIni {advance.x += 90m} / cRehWawAll MARKS _ MARKS cMarksBelow ;
+	
+	// leave certain cases alone:
+	(cRehKernAlef cRehKernOther) / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cMarksBelow ;
+	cRehKernOtherMA / (cRehWawTighten cRehWawTightenMore) MARKS cMarksAbove MARKS _ MARKS cMarksAbove ;
+	 
+	// otherwise tighten against most things
+	(cRehKernAlef cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
+	(cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSABOVE _ ;
+
+	// tighter against Ain-like initials unless it has marks Below
+	// cAinLikeInit                     / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cMarksBelow ;
+	cAinLikeInit {advance.x -= 150m} / cRehWawTighten     MARKS _ ;
+	cAinLikeInit {advance.x -= 200m} / cRehWawTightenMore MARKS _ ;
+	
+	// tighter still for some reh/wah (nothing below) followed by Ain-like isolates
+	cAinLikeIsol {advance.x -= 200m} / cRehWawNothingBelow MARKSABOVE _ ;
+	
+endpass; // 3	
+
+***/ 
 
 endtable; // pos
 

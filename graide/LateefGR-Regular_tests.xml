@@ -6,7 +6,6 @@
     <fontsrc>url(..\results\LateefGraide.ttf)</fontsrc>
     <styles>
       <style feats="=0 cv44=0 cv48=0 cv62=0 cv72=0 cv78=0 cv82=0 cv84=0 cv90=0 cv92=0 gr1m=0 invs=0" name="fset1"/>
-      <style feats="=0 cv44=0 cv48=0 cv50=0 cv62=0 cv70=0 cv72=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 cv90=0 cv92=0 invs=0" name="fset2"/>
     </styles>
   </head>
   <testgroup label="main">
@@ -16,7 +15,7 @@
     <test class="fset1" label="EndOfAyah">
       <string>۝١٢٣</string>
     </test>
-    <test class="fset2" label="parenthesis">
+    <test class="fset1" label="parenthesis">
       <string>ab cd</string>
     </test>
   </testgroup>
