@@ -489,15 +489,13 @@
 	-->
 
 	<class name='AinLikeInit'>
-		absAinIni absGhainIni absAinThreeDotsAboveIni 
+		absAinIni absGhainIni absAinThreeDotsAboveIni <!-- absGhainDotBelowIni -->
 		absAinTwoDotsAboveIni absAinThreeDotsDownAboveIni absAinTwoDotsVertAboveIni
-		<!-- removed absGhainDotBelowIni -->
 	</class>
 
 	<class name='AinLikeIsol'>
-		absAin absGhain absAinThreeDotsAbove absAinTwoDotsAbove 
-		absAinThreeDotsDownAbove absAinTwoDotsVertAbove
-		<!-- removed absGhainDotBelow -->
+		absAin absGhain absAinThreeDotsAbove <!-- absGhainDotBelow -->
+		absAinTwoDotsAbove absAinThreeDotsDownAbove absAinTwoDotsVertAbove
 	</class>
 
 	<class name='NarrowIni'>
@@ -653,7 +651,7 @@
 	<class name='RehWawTighten'>
 		absWawHamzaAbove absUHamzaAbove absUHamzaAbove.filled absOe absU 
 		absU.filled absKirghizYu absWawTwoDotsAbove absVe absWawDigitTwoAbove absWawDigitThreeAbove 
-		absWawDotWithin absRreh absRehSmallNoonAbove absRehSmallV absRehDotBelowDotAbove 
+		absWawDotWithin absRreh absRehSmallNoonAbove absRehSmallV <!-- absRehDotBelowDotAbove -->
 		absRehTwoDotsAbove absJeh absRehFourDotsAbove absRehHamzaAbove absRehSmallTahTwoDots 
 		absZainHat absRehHat absWawHamzaAboveFin absUHamzaAboveFin absUHamzaAboveFin.filled 
 		absOeFin absUFin absUFin.filled absKirghizYuFin absWawTwoDotsAboveFin absVeFin absWawDigitTwoAboveFin 

@@ -392,6 +392,7 @@ pass(2)
 
 endpass; // 2
 
+***/ 
 
 
 pass(3)
@@ -425,7 +426,6 @@ pass(3)
 	
 endpass; // 3	
 
-***/ 
 
 endtable; // pos
 
