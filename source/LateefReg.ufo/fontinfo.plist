@@ -15,7 +15,7 @@
   <key>italicAngle</key>
   <integer>0</integer>
   <key>openTypeHeadCreated</key>
-  <string>2082/06/11 22:31:28</string>
+  <string>2082/06/11 23:31:28</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
@@ -28,7 +28,7 @@
   <key>openTypeNameDesigner</key>
   <string>SIL International</string>
   <key>openTypeNameDesignerURL</key>
-  <string>http://scripts.sil.org/</string>
+  <string>http://software.sil.org/lateef</string>
   <key>openTypeNameLicense</key>
   <string>Copyright (c) 1994-2016, SIL International (http://www.sil.org/).
 

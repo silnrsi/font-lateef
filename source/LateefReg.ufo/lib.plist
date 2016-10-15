@@ -427,10 +427,12 @@
     <string>absWaw</string>
     <string>absHighHamzaWaw</string>
     <string>absUHamzaAbove</string>
+    <string>absUHamzaAbove.filled</string>
     <string>absWawRing</string>
     <string>absKirghizOe</string>
     <string>absOe</string>
     <string>absU</string>
+    <string>absU.filled</string>
     <string>absYu</string>
     <string>absKirghizYu</string>
     <string>absWawTwoDotsAbove</string>
@@ -467,6 +469,7 @@
     <string>absZainHat</string>
     <string>absRehHat</string>
     <string>absRehBar</string>
+    <string>absRehLoop</string>
     <string>absYehTail</string>
     <string>absYehBarree</string>
     <string>absYehBarreeHamzaAbove</string>
@@ -615,10 +618,12 @@
     <string>absWawFin</string>
     <string>absHighHamzaWawFin</string>
     <string>absUHamzaAboveFin</string>
+    <string>absUHamzaAboveFin.filled</string>
     <string>absWawRingFin</string>
     <string>absKirghizOeFin</string>
     <string>absOeFin</string>
     <string>absUFin</string>
+    <string>absUFin.filled</string>
     <string>absYuFin</string>
     <string>absKirghizYuFin</string>
     <string>absWawTwoDotsAboveFin</string>
@@ -655,6 +660,7 @@
     <string>absZainHatFin</string>
     <string>absRehHatFin</string>
     <string>absRehBarFin</string>
+    <string>absRehLoopFin</string>
     <string>absYehTailFin</string>
     <string>absYehBarreeFin</string>
     <string>absYehBarreeHamzaAboveFin</string>
@@ -1043,6 +1049,7 @@
     <string>absKasratan</string>
     <string>absFatha</string>
     <string>absDamma</string>
+    <string>absDamma.filled</string>
     <string>absKasra</string>
     <string>absShadda</string>
     <string>absSukun</string>
@@ -1095,6 +1102,8 @@
     <string>absFivePointedStar</string>
     <string>absFullStop</string>
     <string>absEndOfAyah</string>
+    <string>absEndOfAyah.alt</string>
+    <string>absEndOfAyah.altB</string>
     <string>absStartOfRubElHizb</string>
     <string>absPlaceOfSajdah</string>
     <string>ornateLeftParen</string>
@@ -1192,14 +1201,20 @@
     <string>absEasternNineSmall</string>
     <string>absEndOfAyah.2</string>
     <string>absEndOfAyah.3</string>
+    <string>absEndOfAyah.alt.2</string>
+    <string>absEndOfAyah.alt.3</string>
+    <string>absEndOfAyah.altB.2</string>
+    <string>absEndOfAyah.altB.3</string>
     <string>absShaddaFathatan</string>
     <string>absShaddaDammatan</string>
     <string>absShaddaKasratan</string>
     <string>absShaddaFatha</string>
     <string>absShaddaDamma</string>
+    <string>absShaddaDamma.filled</string>
     <string>absShaddaKasra</string>
     <string>absHamzaFatha</string>
     <string>absHamzaDamma</string>
+    <string>absHamzaDamma.filled</string>
     <string>absShaddaAlef</string>
     <string>absShortVowelMark</string>
     <string>absAutoKashida</string>
@@ -1233,7 +1248,9 @@
     <string>absAlefWaslaFin.postLamMed</string>
     <string>_bar</string>
     <string>_damma</string>
+    <string>_damma.filled</string>
     <string>_hamzaDamma</string>
+    <string>_hamzaDamma.filled</string>
     <string>_hamza</string>
     <string>_highHamza</string>
     <string>_hat</string>
@@ -1265,21 +1282,6 @@
     <string>_wavyHamza</string>
     <string>_wavyHamza.b</string>
     <string>_hook</string>
-    <string>absDamma.filled</string>
-    <string>_damma.filled</string>
-    <string>_hamzaDamma.filled</string>
-    <string>absHamzaDamma.filled</string>
-    <string>absShaddaDamma.filled</string>
-    <string>absUHamzaAbove.filled</string>
-    <string>absU.filled</string>
-    <string>absUHamzaAboveFin.filled</string>
-    <string>absUFin.filled</string>
-    <string>absEndOfAyah.alt</string>
-    <string>absEndOfAyah.alt.2</string>
-    <string>absEndOfAyah.alt.3</string>
-    <string>absEndOfAyah.altB</string>
-    <string>absEndOfAyah.altB.2</string>
-    <string>absEndOfAyah.altB.3</string>
   </array>
 </dict>
 </plist>

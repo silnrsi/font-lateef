@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absZainFin" format="1">
-  <advance width="610"/>
+  <advance width="542"/>
   <outline>
     <component base="absRehFin"/>
-    <component base="_dot1" xOffset="418" yOffset="467"/>
+    <component base="_dot1" xOffset="350" yOffset="467"/>
   </outline>
   <lib>
   <dict>

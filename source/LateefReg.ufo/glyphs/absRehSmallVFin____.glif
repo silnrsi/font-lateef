@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absRehSmallVFin" format="1">
-  <advance width="610"/>
+  <advance width="542"/>
   <outline>
     <component base="absRehFin"/>
-    <component base="_smallV" xOffset="418" yOffset="455"/>
+    <component base="_smallV" xOffset="350" yOffset="455"/>
   </outline>
   <lib>
   <dict>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absRehBarFin" format="1">
-  <advance width="610"/>
+  <advance width="542"/>
   <outline>
     <component base="absRehFin"/>
-    <component base="_bar" xOffset="410" yOffset="-175"/>
+    <component base="_bar" xOffset="342" yOffset="-175"/>
   </outline>
   <lib>
   <dict>

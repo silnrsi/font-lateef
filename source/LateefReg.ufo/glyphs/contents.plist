@@ -582,6 +582,8 @@
   <string>absHighHamzaWaw___.glif</string>
   <key>absUHamzaAbove</key>
   <string>absUHamzaAbove___.glif</string>
+  <key>absUHamzaAbove.filled</key>
+  <string>absUHamzaAbove___.filled.glif</string>
   <key>absWawRing</key>
   <string>absWawRing__.glif</string>
   <key>absKirghizOe</key>
@@ -590,6 +592,8 @@
   <string>absOe_.glif</string>
   <key>absU</key>
   <string>absU_.glif</string>
+  <key>absU.filled</key>
+  <string>absU_.filled.glif</string>
   <key>absYu</key>
   <string>absYu_.glif</string>
   <key>absKirghizYu</key>
@@ -662,6 +666,8 @@
   <string>absRehHat__.glif</string>
   <key>absRehBar</key>
   <string>absRehBar__.glif</string>
+  <key>absRehLoop</key>
+  <string>absRehLoop__.glif</string>
   <key>absYehTail</key>
   <string>absYehTail__.glif</string>
   <key>absYehBarree</key>
@@ -958,6 +964,8 @@
   <string>absHighHamzaWawFin____.glif</string>
   <key>absUHamzaAboveFin</key>
   <string>absUHamzaAboveFin____.glif</string>
+  <key>absUHamzaAboveFin.filled</key>
+  <string>absUHamzaAboveFin____.filled.glif</string>
   <key>absWawRingFin</key>
   <string>absWawRingFin___.glif</string>
   <key>absKirghizOeFin</key>
@@ -966,6 +974,8 @@
   <string>absOeFin__.glif</string>
   <key>absUFin</key>
   <string>absUFin__.glif</string>
+  <key>absUFin.filled</key>
+  <string>absUFin__.filled.glif</string>
   <key>absYuFin</key>
   <string>absYuFin__.glif</string>
   <key>absKirghizYuFin</key>
@@ -1038,6 +1048,8 @@
   <string>absRehHatFin___.glif</string>
   <key>absRehBarFin</key>
   <string>absRehBarFin___.glif</string>
+  <key>absRehLoopFin</key>
+  <string>absRehLoopFin___.glif</string>
   <key>absYehTailFin</key>
   <string>absYehTailFin___.glif</string>
   <key>absYehBarreeFin</key>
@@ -1814,6 +1826,8 @@
   <string>absFatha_.glif</string>
   <key>absDamma</key>
   <string>absDamma_.glif</string>
+  <key>absDamma.filled</key>
+  <string>absDamma_.filled.glif</string>
   <key>absKasra</key>
   <string>absKasra_.glif</string>
   <key>absShadda</key>
@@ -1918,6 +1932,10 @@
   <string>absFullStop__.glif</string>
   <key>absEndOfAyah</key>
   <string>absEndOfAyah___.glif</string>
+  <key>absEndOfAyah.alt</key>
+  <string>absEndOfAyah___.alt.glif</string>
+  <key>absEndOfAyah.altB</key>
+  <string>absEndOfAyah___.altB_.glif</string>
   <key>absStartOfRubElHizb</key>
   <string>absStartOfRubElHizb_____.glif</string>
   <key>absPlaceOfSajdah</key>
@@ -2112,6 +2130,14 @@
   <string>absEndOfAyah___.2.glif</string>
   <key>absEndOfAyah.3</key>
   <string>absEndOfAyah___.3.glif</string>
+  <key>absEndOfAyah.alt.2</key>
+  <string>absEndOfAyah___.alt.2.glif</string>
+  <key>absEndOfAyah.alt.3</key>
+  <string>absEndOfAyah___.alt.3.glif</string>
+  <key>absEndOfAyah.altB.2</key>
+  <string>absEndOfAyah___.altB_.2.glif</string>
+  <key>absEndOfAyah.altB.3</key>
+  <string>absEndOfAyah___.altB_.3.glif</string>
   <key>absShaddaFathatan</key>
   <string>absShaddaFathatan__.glif</string>
   <key>absShaddaDammatan</key>
@@ -2122,12 +2148,16 @@
   <string>absShaddaFatha__.glif</string>
   <key>absShaddaDamma</key>
   <string>absShaddaDamma__.glif</string>
+  <key>absShaddaDamma.filled</key>
+  <string>absShaddaDamma__.filled.glif</string>
   <key>absShaddaKasra</key>
   <string>absShaddaKasra__.glif</string>
   <key>absHamzaFatha</key>
   <string>absHamzaFatha__.glif</string>
   <key>absHamzaDamma</key>
   <string>absHamzaDamma__.glif</string>
+  <key>absHamzaDamma.filled</key>
+  <string>absHamzaDamma__.filled.glif</string>
   <key>absShaddaAlef</key>
   <string>absShaddaAlef__.glif</string>
   <key>absShortVowelMark</key>
@@ -2194,8 +2224,12 @@
   <string>__bar.glif</string>
   <key>_damma</key>
   <string>__damma.glif</string>
+  <key>_damma.filled</key>
+  <string>__damma.filled.glif</string>
   <key>_hamzaDamma</key>
   <string>__hamzaDamma_.glif</string>
+  <key>_hamzaDamma.filled</key>
+  <string>__hamzaDamma_.filled.glif</string>
   <key>_hamza</key>
   <string>__hamza.glif</string>
   <key>_highHamza</key>
@@ -2258,35 +2292,5 @@
   <string>__wavyHamza_.b.glif</string>
   <key>_hook</key>
   <string>__hook.glif</string>
-  <key>absDamma.filled</key>
-  <string>absDamma_.filled.glif</string>
-  <key>_damma.filled</key>
-  <string>__damma.filled.glif</string>
-  <key>_hamzaDamma.filled</key>
-  <string>__hamzaDamma_.filled.glif</string>
-  <key>absHamzaDamma.filled</key>
-  <string>absHamzaDamma__.filled.glif</string>
-  <key>absShaddaDamma.filled</key>
-  <string>absShaddaDamma__.filled.glif</string>
-  <key>absUHamzaAbove.filled</key>
-  <string>absUHamzaAbove___.filled.glif</string>
-  <key>absU.filled</key>
-  <string>absU_.filled.glif</string>
-  <key>absUHamzaAboveFin.filled</key>
-  <string>absUHamzaAboveFin____.filled.glif</string>
-  <key>absUFin.filled</key>
-  <string>absUFin__.filled.glif</string>
-  <key>absEndOfAyah.alt</key>
-  <string>absEndOfAyah___.alt.glif</string>
-  <key>absEndOfAyah.alt.2</key>
-  <string>absEndOfAyah___.alt.2.glif</string>
-  <key>absEndOfAyah.alt.3</key>
-  <string>absEndOfAyah___.alt.3.glif</string>
-  <key>absEndOfAyah.altB</key>
-  <string>absEndOfAyah___.altB_.glif</string>
-  <key>absEndOfAyah.altB.2</key>
-  <string>absEndOfAyah___.altB_.2.glif</string>
-  <key>absEndOfAyah.altB.3</key>
-  <string>absEndOfAyah___.altB_.3.glif</string>
 </dict>
 </plist>
