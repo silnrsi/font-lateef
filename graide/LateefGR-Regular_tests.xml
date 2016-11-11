@@ -24,5 +24,33 @@
     <test class="fset2" label="Narrow initials" rtl="True">
       <string>زبە</string>
     </test>
+    <test label="Farsi Yeh" rtl="True">
+      <comment>This example from SK</comment>
+      <string>ری  بری ریا بریا</string>
+    </test>
+    <test class="fset2" label="Alef Maksura" rtl="True">
+      <string>رى  برى رىا برىا</string>
+    </test>
+    <test class="fset2" label="Yeh" rtl="True">
+      <string>ري  بري ريا بريا</string>
+    </test>
+    <test class="fset2" label="Peh" rtl="True">
+      <string>رپ برپ رپا برپا</string>
+    </test>
+    <test class="fset2" label="Beheh" rtl="True">
+      <string>رڀ برڀ رڀا برڀا</string>
+    </test>
+    <test class="fset2" label="Beh" rtl="True">
+      <string>رب برب ربا بربا</string>
+    </test>
+    <test class="fset2" label="Dal" rtl="True">
+      <string>رڊ برڊ</string>
+    </test>
+    <test class="fset2" label="ABS-508 (1)" rtl="True">
+      <string>ۯڽل ریل ڙڀل رلِز</string>
+    </test>
+    <test class="fset2" label="ABS-508 (2)" rtl="True">
+      <string>ۯتل رتل ڙتل رلز</string>
+    </test>
   </testgroup>
 </ftml>
