@@ -48,7 +48,7 @@ font(target = process('LateefGR-Regular.ttf', cmd('perl ../tools/bin/abs_psfix $
 	woff = woff(params = '-v ' + VERSION + ' -m ../source/Lateef-WOFF-metadata.xml'),
 	)
 
-AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks', 'DaggerAlef' ]
+AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks', 'DaggerAlef', 'Kern' ]
 
 for testname in AUTOGEN_TESTS:
 	t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -f l -r local(Scheherazade) -r local(Lateef) -r url(LateefGR-Regular.woff) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'source/LateefReg.ttf', AP, 'tools/absGlyphList/absGlyphList.txt']))
