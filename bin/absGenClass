@@ -1,0 +1,313 @@
+#! /usr/bin/perl 
+
+use strict;
+
+use Getopt::Long;
+use Pod::Usage;
+# use XML::Parser::Expat;
+# use Font::TTF::Scripts::AP;
+# use Font::TTF::OTTags qw( %iso639 );
+use File::Basename;
+use File::Spec::Functions;
+use HTML::Entities;
+ 
+use strict;
+
+our ($help, $family, $omitFeatures, @fonts, $silent, $test);
+
+GetOptions (
+    'family=s'  => \$family,
+    'omit'      => \$omitFeatures,
+    'render=s'  => \@fonts,
+    'silent'    => \$silent,
+    'test=s'    => \$test,
+    'help|?'    => \$help) or pod2usage(2);
+    
+pod2usage( -verbose => 2, -noperldoc => 1) if $help;
+
+pod2usage(-msg => "no parameters needed\n", -verbose => 1) if defined $ARGV[0];
+
+
+=head1 TITLE
+
+absGenClass - Generate classes based on ABS shapping
+
+=head1 SYNOPSIS
+
+absGenClass [-h]  [-f fontID]  [-s]  
+
+=head1 OPTIONS
+
+  --help    output extended help message
+  --family  a letter representing font family (S = Scheherazade, etc)
+  --silent  do not issue warnings during common setup code
+
+Single letter forms (e.g., -h) are permitted.
+
+=head1 DESCRIPTION
+
+Generates .xml class file for make_fea and friends. The characters included 
+are those in the indicated family.
+
+Requires two auxillary text files:
+
+=over 4
+
+=item UCDextract.txt
+
+Data excerpted from Unicode Data files (UCD) and put in CSV format, generally needing to contain the 
+following fields taken directly from UCD:
+
+  #USV,General,Class,Bidi,Decomposition,Mirror,Joining,Isolated,Final,Medial,Initial,Name,Joingroup,Age
+
+For characters not yet added to Unicode, extra records can be added to this file as needed
+to generate appropriate test data.
+
+=item ABSGlyphList.txt
+
+Another CSV-formatted file giving details about Arabic chars that should be present
+in fonts, and what font features impact their behavior. [TODO: Document this]
+
+=back
+
+Tests currently defined:
+
+=cut
+
+# Developer notes:
+#
+# This code is intended to independent on the actual glyph names in
+# the font so can be used on a production font after SIL glyph names are
+# replaced with AGL names, but of course the ap_file won't match then.
+# At this point the attachment point data isn't used for anything anyway.
+#
+# The absGlyphList, which drives some of the test generation, is, of course,
+# in terms of SIL names, so some datastructures and logic utilize these names.
+# 
+# To keep the names separate, the actual glyph names from the font will be 
+# referred to as "post" names while the SIL names from the absGlyphList will
+# be called, uh, silnames.
+
+# Count of warnings:
+my $WarnCount;
+
+sub MyWarn
+{
+    $WarnCount++;
+    warn (@_) unless $silent;
+}
+
+sub KeyList
+{
+    # debugging tool: Concatinate list of keys of a hash passed by ref
+    my $h = shift;
+    return $h . " = " . join(',', keys %$h);
+}
+
+
+# Borrowed from List::MoreUtils
+sub uniq (@) {
+    my %seen = ();
+    grep { not $seen{$_}++ } @_;
+}
+
+# define sort order of joingroup
+my ($i, %shapesort);
+map { $shapesort{$_} = ++$i} (  
+    'AIN',
+    'ALEF',
+    'BEH',
+    'YEH',          # near BEH due to medial form
+    'FARSI YEH',
+    'NOON', 'AFRICAN NOON',     # Near YEH due to medial form
+    'NYA',
+    'SAD',          # Near NOON due to final form
+    'SEEN',
+    'YEH WITH TAIL',
+    'ROHINGYA YEH',
+    'YEH BARREE',
+    'BURUSHASKI YEH BARREE',
+    'DAL',
+    'FEH', 'AFRICAN FEH',
+    'GAF',
+    'KAF',
+    'HAH',
+    'HEH',
+    'HEH GOAL',
+    'TEH MARBUTA',
+    'TEH MARBUTA GOAL',
+    'KNOTTED HEH',
+    'LAM',
+    'MEEM',
+    'QAF', 'AFRICAN QAF',
+    'REH',
+    'SWASH KAF',
+    'TAH',
+    'WAW',
+    'STRAIGHT WAW',
+    );
+    
+
+my $gid;                # Glyph ID
+my $uid;                # Unicode ID (= decimal integer representign USV)
+
+my %charTakesDiac;  # Hash, indexed by uid, returns true if this char has AP for attaching diacritics
+
+
+# Read Unicode character information
+# (Done this way rather than Unicode::UCD so as to support new chars easily)
+# While at it, build lists of unicode chars of interest in this font:
+
+my %UCD;        # Hash, indexed by USV (decimal), returning anonymous hash keyed by:
+#   'general'   #   returns Unicode general category, e.g., Lo, Zs, etc
+#   'bidi'      #   returns Unicode bidi category, e.g., AL, MSN, BN, etc.
+#   'joining'   #   returns Unicode Arabic linking, e.g., D, R, U, etc.
+#               #   etc. (see UCDextract.txt)
+#   'uid'       #   USV as decimal integer
+#   'features'  #   hash keyed by features impacting this character. See ABSGlyphList (below).
+
+# find UCDextract.txt -- in current directory or same as $0
+my $ucd = "UCDextract.txt";
+$ucd = catfile(dirname($0), '..', 'data', $ucd) unless (-f $ucd);
+open (IN, $ucd) || die "Can't open $ucd";
+my @cols;
+while (<IN>)
+{
+    s/\s+$//o;  # OS-safe chomp
+    if (s/^#//)
+    {
+        # this line has our column headers:
+        $_ = lc($_);
+        @cols = split(';');
+    }
+    else
+    {
+        my $h = {};
+        @{$h}{@cols} = split(';');
+        $uid = hex($h->{'usv'} || die "Invalid USV in UCDExtract.txt at '$_'");
+        $UCD{$uid} = $h;
+    }
+}
+
+# Read ABSGlyphList to get glyph info:
+my %silname2uid;    # Hash mapping SIL basename to Unicode
+my %fontName = (    # hash of known font inventories, bcp47tags supported, default value overrides
+    s => ['Scheherazade', qr/^(?:ku|sd|rhg|ug|ur)$/o,   { }         ],
+    l => ['Lateef',       qr/^(?:ku|sd|rhg|ug|ur)$/o,   { }         ],
+    h => ['Harmattan',    qr/^$/o,                      {cv62 => 1} ],
+    n => ['Nastaliq',     qr/^$/o,                      { }         ],
+    );
+
+# The following specials glyphs may be present in the font and this data is needed to generate appropriate tests:
+my %specials = (
+    'absShaddaKasra' =>     {'uids' => [0x0651, 0x0650]},
+    'absShaddaKasratan' =>  {'uids' => [0x0651, 0x064D]},
+    'absShaddaDamma' =>     {'uids' => [0x0651, 0x064F]},
+    'absShaddaDammatan' =>  {'uids' => [0x0651, 0x064C]},
+    'absHamzaDamma' =>      {'uids' => [0x0654, 0x064F]},
+    'absAlefFatha' =>       {'uids' => [0x0627, 0x064E]},
+    'absAlefKasra' =>       {'uids' => [0x0627, 0x0650]},
+    'absLamHamza' =>        {'uids' => [0x0644, 0x0654, 0x0627], 'joining' => 'R'},   # for the .preAlef glyphs
+    );
+
+my ($fontRE, $fontID);
+
+if ($family)
+{
+    # make font ID a single lowercase char:
+    $family = lc(substr($family, 0, 1));
+    die "Font unknown: -f $family\n" unless exists $fontName{$family};
+    $fontRE = qr/\*|$family/oi;
+}
+else
+{
+    $fontRE = qr/./o;
+}
+
+my %JoinClasses;
+
+
+# find ABSGlyphList.txt -- in current directory or ../data/ABSGlyphList subdir of $0
+my $gl = "absGlyphList.txt";
+$gl = catfile(dirname($0), '..', 'absGlyphList', $gl) unless (-f $gl);
+open (IN, $gl) || die "Can't open $gl";
+while (<IN>)
+{
+    s/\s+$//o;  # OS-safe chomp
+    next if /^\s*(?:\#.*)$/;    # Skip comments and blank lines
+    if (/^Name\tOrder\t/)
+    {
+        # this line has our column headers:
+        s/Name\t/silname\t/;    # change first "name" to "silname" so we keep these distinct from post names.
+        $_ = lc($_);
+        @cols = split("\t");
+    }
+    else
+    {
+        my $h = {};
+        @{$h}{@cols} = split("\t");
+        next unless $h->{'fonts'} =~ $fontRE    # make sure this is in the relevant font
+            && $h->{'silname'} !~ /^(?:CR|tab)$/    # and ths isn't one of the low unencoded glyphs
+            && $h->{'silname'} =~ /^([^.]+?)(?:Ini|Med|Fin|Medium|Small)?(?:\..+)*$/;   # and the silname has a reasonable basename
+        my $silBasename = $1;   
+        my $silModifier = $2;
+        my $silExtension = $3;
+        # print STDERR "$h->{'silname'} \t==> $silBasename\n";
+        $uid = hex($h->{'usv'});        # might be empty string, resulting in uid=0
+        my $isEncoded;
+        if ($uid > 0)
+        {
+        	warn ("Encoded char '$h->{'silname'} has modifier '$silModifier'") if $silModifier;
+        	my $joining = $UCD{$uid}{'joining'};
+        	next unless $joining;
+        	$JoinClasses{$joining} = [] unless defined $JoinClasses{$joining};
+            push $JoinClasses{$UCD{$uid}{'joining'}}, ["$silBasename$silModifier", $silExtension];	# Remember name and extension for later.
+        }
+    }
+}
+
+
+warn "$WarnCount warnings during setup not displayed.\n" if $WarnCount and $silent;
+undef $silent;      # Turn on warnings from here on
+
+
+foreach my $join (qw(Dual Right))
+{
+	my @list = sort {$a->[0] cmp $b->[$0]} @{$JoinClasses{substr($join,0,1)}};
+	foreach my $form (qw(Isol Fina Medi Init))
+	{
+		next if $join eq 'Right' && $form =~ /Medi|Init/;
+		my $class = "${join}Link${form}";
+		my $mod = $form eq 'Isol' ? '' : substr($form, 0, 3);
+		print "\t<class name='$class'>";
+		for (my $i = 0; $i <= $#list; $i++)
+		{
+			
+			print $i % 5 ? ' ' : "\n\t\t", $list[$i][0], $mod, $list[$i][1];
+		}
+		print "\n\t</class>\n\n";
+	}
+}
+	
+
+
+warn "$WarnCount total warnings issued.\n" if $WarnCount;
+
+
+=head1 AUTHOR
+
+Bob Hallissy L<http://scripts.sil.org/>.
+(see CONTRIBUTORS for other authors).
+
+=head1 HISTORY
+
+ 2016-10-12 Code borrowed from absGenFTML
+ 
+=head1 LICENSING
+
+Copyright (c) 2016, SIL International (http://www.sil.org)
+
+This script is released under the terms of the Artistic License 2.0.
+For details, see the full text of the license in the file LICENSE.
+
+=cut

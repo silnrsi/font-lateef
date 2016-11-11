@@ -128,7 +128,8 @@ sub KeyList
 sub Entity
 {
     # Return FTML-encoded text for one or more a Unicode characters (USVs, as integer);
-    join('', map {sprintf('\u%04X', $_)} @_);
+    # For convenience, things that don't look like numbers are passed through without change
+    join('', map {$_ =~ /^\d+/ ? sprintf('\u%04X', $_) : $_} @_);
 }
 
 # Borrowed from List::MoreUtils
@@ -1369,37 +1370,80 @@ if ($test =~ m/^Kern$/oi || $test =~ m/^all$/oi)
     # Started as reh-alef and waw-alef, but now realize reh should be kerned against a lot of things!
     my @rehs = sort {$a cmp $b} grep { $UCD{$_}{'joingroup'} eq 'REH' && ($enablePending || ($UCD{$_}{'age'} ne 'pending'))} keys %{$cmap};
     my @waws = sort {$a cmp $b} grep { $UCD{$_}{'joingroup'} eq 'WAW' && ($enablePending || ($UCD{$_}{'age'} ne 'pending'))} keys %{$cmap};
+    
+    
     #my @preAlef = grep {exists $cmap->{$_}} (0x0631, 0x0691, 0x0692, 0x0696, 0x0697, 0x0698, 0x0699, 0x06EF, 0x076B, 0x076C, 0x0771, 0x08AA, 0x08B2, 0x0624, 0x0648, 0x0676, 0x0677, 0x06C4, 0x06C5, 0x06C7, 0x06C8, 0x06C9, 0x06CA, 0x06CB, 0x06CF, 0x0778, 0x0779, 0x08AB);
     #my @Alef = grep {exists $cmap->{$_}} (0x0622, 0x0623, 0x0625, 0x0627, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774);
     #my @Alef = grep {exists $cmap->{$_}} (0x0622, 0x0623, 0x0625, 0x0627, 0x0671, 0x0672, 0x0673, 0x0675);
     
+    my $dbeh = 0x066E;  # dotless beh
+    my $alef = 0x0627;  # alef
+ 
+    StartTestGroup 'All the rehs';
+    
+    for my $uid (@rehs)
+    {
+    	AddToTestString $uid, Entity($zwj, $uid, $dbeh, $zwj), 0, sprintf("U+%04X", $uid);
+    	AddToTestString $uid, Entity(      $uid, $dbeh, $zwj);
+    	AddToTestString $uid, Entity($zwj, $uid, $dbeh);
+    	AddToTestString $uid, Entity(      $uid, $dbeh);
+    	CloseTestString $uni2post{$uid};
+    }
+
+    StartTestGroup 'All the waws';
+    
+    for my $uid (@waws)
+    {
+    	AddToTestString $uid, Entity($zwj, $uid, $dbeh, $zwj), 0, sprintf("U+%04X", $uid);
+    	AddToTestString $uid, Entity(      $uid, $dbeh, $zwj);
+    	AddToTestString $uid, Entity($zwj, $uid, $dbeh);
+    	AddToTestString $uid, Entity(      $uid, $dbeh);
+    	CloseTestString $uni2post{$uid};
+    }
+    
+	StartTestGroup 'All the others';
     for my $uid2 (sort {$shapesort{$UCD{$a}{'joingroup'}} <=> $shapesort{$UCD{$b}{'joingroup'}} || $a <=> $b} 
                 grep {$UCD{$_}{'joining'} =~ m/[DR]/oi && ($enablePending || ($UCD{$_}{'age'} ne 'pending'))} keys %{$cmap})
     {
-        for my $uid1 (@rehs)
+        for my $uid1  (0x0631, 0x0648) # (@rehs, @waws)
         {
             foreach my $featureCombination (PermuteFeatures($uid2))
             {
                 SetFeatures @{$featureCombination};
-                AddToTestString $uid2,      . Entity($uid1,         $uid2        ), 0, sprintf("U+%04X", $uid2);
-                AddToTestString $uid2, $zwj . Entity($uid1,         $uid2,       );
-                AddToTestString $uid2,      . Entity($uid1, 0x064B, $uid2, 0x064D);
-                AddToTestString $uid2, $zwj . Entity($uid1, 0x064B, $uid2, 0x064D);
                 if ($UCD{$uid2}{'joining'} eq 'D') {
-                AddToTestString $uid2,      . Entity($uid1,         $uid2, 0x06D5);
-                AddToTestString $uid2, $zwj . Entity($uid1,         $uid2, 0x06D5);
-                AddToTestString $uid2,      . Entity($uid1, 0x064B, $uid2, 0x064D, 0x06D5);
-                AddToTestString $uid2, $zwj . Entity($uid1, 0x064B, $uid2, 0x064D, 0x06D5);
+	                AddToTestString $uid2, Entity(      $uid1,         $uid2, $zwj);
+	                AddToTestString $uid2, Entity($zwj, $uid1,         $uid2, $zwj);
                 } 
+                AddToTestString $uid2, Entity(      $uid1,         $uid2        ), 0, sprintf("U+%04X,U+%04X", $uid1, $uid2);
+                AddToTestString $uid2, Entity($zwj, $uid1,         $uid2,       );
+                CloseTestString $uni2post{$uid1} . ' ' . $uni2post{$uid2};   
             }
-            ClearFeatures $uni2post{$uid2};
+            ClearFeatures $uni2post{$uid1} . ' ' . $uni2post{$uid2};   
         }
-        CloseTestString $uni2post{$uid2};   
     }
-    
-    CloseOutputFile;
 
-}
+	StartTestGroup 'All the others with diacs';
+    for my $uid2 (sort {$shapesort{$UCD{$a}{'joingroup'}} <=> $shapesort{$UCD{$b}{'joingroup'}} || $a <=> $b} 
+                grep {$UCD{$_}{'joining'} =~ m/[DR]/oi && ($enablePending || ($UCD{$_}{'age'} ne 'pending'))} keys %{$cmap})
+    {
+        for my $uid1 (0x0631, 0x0648) # (@rehs, @waws)
+        {
+            foreach my $featureCombination (PermuteFeatures($uid2))
+            {
+                SetFeatures @{$featureCombination};
+                if ($UCD{$uid2}{'joining'} eq 'D') {
+	                AddToTestString $uid2, Entity(      $uid1, 0x064B, $uid2, 0x064B,0x064D, $zwj);
+	                AddToTestString $uid2, Entity($zwj, $uid1, 0x064B, $uid2, 0x064B,0x064D, $zwj);
+                } 
+                AddToTestString $uid2, Entity(      $uid1, 0x064B, $uid2, 0x064B,0x064D), 0, sprintf("U+%04X,U+%04X", $uid1, $uid2);
+                AddToTestString $uid2, Entity($zwj, $uid1, 0x064B, $uid2, 0x064B,0x064D);
+                CloseTestString $uni2post{$uid1} . ' ' . $uni2post{$uid2};   
+            }
+            ClearFeatures $uni2post{$uid1} . ' ' . $uni2post{$uid2};
+        }
+    }
+    CloseOutputFile;
+}    
 
 if ($test =~ m/^AlefTooth$/oi || $test =~ m/^all$/oi)
 {
