@@ -313,7 +313,7 @@ pass(1)
 		/ ^ _ {alefAttached == false}  MARKS  _;
 	
 
-	// Marks above
+	// Marks 
 
 	// Note: the superscript-alef may have both the _alef and _diaA att pts; the ordering of these
 	// rules assumes the alef AP should be used if there are no intervening marks above.
@@ -380,41 +380,26 @@ pass(1)
 
 endpass; // 1
 
-/***
 pass(2)
 
-	// Marks below
-
-		
-	// Normal case:
-	(cBaseAny cMark1Below_volt)=B  cMarksBelow {attach {to=@B; at=diaB; with=diaB_}; }
-		/ _ ^ MARKSABOVE  _;
-
-endpass; // 2
-
-***/ 
-
-
-pass(3)
 	// Kerning of reh-like and waw-like
 	
+	// Loosen from certain narrow initials because of nuktas below
+	// NB: not sure if it is an optical illusion or what, but if I
+	// kern Reh & Waw the same distance, the Rehs seem to still touch.
+	// So I'm giving them an extra 50m
+	cKernRehWawLoosen     {advance.x += 200m } / cRehAll MARKS _ ;
+	cKernRehWawLoosen     {advance.x += 150m } / cWawAll MARKS _ ;
+	cKernRehWawLoosenMore {advance.x += 350m } / cRehAll MARKS _ ;
+	cKernRehWawLoosenMore {advance.x += 300m } / cWawAll MARKS _ ;
+
+	// loosen from following alef with mark below it; otherwise tighten it
+	cAlefIso {advance.x += 150m} / cRehWawAll MARKS _ MARKS cMarksBelow ;
+	// otherwise most can tighten to alef 
+	cRehKernAlef {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
+
 	// tighten to following gaf-like unless reh/waw have a mark above
-	cRehKernGaf {advance.x -= 300m} / cRehWawTightenToGaf MARKSBELOW _ ;
-	
-	// loosen from following alef with something below it
-	(absAlefHamzaBelow absAlefWavyHamzaBelow) {advance.x += 130m} / cRehWawAll MARKS _ ;
-	cAlefIso {advance.x += 130m} / cRehWawAll MARKS _ MARKS cMarksBelow ;
-	
-	// loosen from following narrow initials with something below
-	cNarrowIni {advance.x += 90m} / cRehWawAll MARKS _ MARKS cMarksBelow ;
-	
-	// leave certain cases alone:
-	(cRehKernAlef cRehKernOther) / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cMarksBelow ;
-	cRehKernOtherMA / (cRehWawTighten cRehWawTightenMore) MARKS cMarksAbove MARKS _ MARKS cMarksAbove ;
-	 
-	// otherwise tighten against most things
-	(cRehKernAlef cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
-	(cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSABOVE _ ;
+	cKernRehWawGaf {advance.x -= 200m} / cRehWawTightenToGaf MARKSBELOW _ ;
 
 	// tighter against Ain-like initials unless it has marks Below
 	// cAinLikeInit                     / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cMarksBelow ;
@@ -423,8 +408,24 @@ pass(3)
 	
 	// tighter still for some reh/wah (nothing below) followed by Ain-like isolates
 	cAinLikeIsol {advance.x -= 200m} / cRehWawNothingBelow MARKSABOVE _ ;
+
+	// loosen from following narrow glyphs with something below
+	cNarrowIni {advance.x += 120m} / cRehWawAll MARKS _ MARKS cMarksBelow ;
+
+	// NB: The following rules (and classes) haven't been reviewed and adjusted for Lateef
 	
-endpass; // 3	
+	// leave certain cases alone:
+	//cRehKernOther   / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cMarksBelow ;
+	//cRehKernOtherMA / (cRehWawTighten cRehWawTightenMore) MARKS cMarksAbove MARKS _ MARKS cMarksAbove ;
+ 
+	// otherwise tighten against most things
+	//(cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
+	//(cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSABOVE _ ;
+
+
+
+endpass; // 2	
+
 
 
 endtable; // pos

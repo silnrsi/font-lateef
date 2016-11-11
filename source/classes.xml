@@ -488,6 +488,21 @@
 	===============================
 	-->
 
+	<class name='KernRehWawLoosen'>
+		absAlefHamzaBelow absAlefWavyHamzaBelow 
+		absBehIni absBeehIni absPehIni absBehehIni absBehThreeDotsAboveDotBelowIni absBehThreeDotsUpBelowIni 
+		absBehTwoDotsAboveThreeDotsUpBelowIni absBehDotAboveTwoDotsBelowIni absBehDotAboveTwoDotsBelowIni absBehInvSmallVBelowIni 
+		absYehIni absEIni absYehThreeDotsBelowIni absFarsiYehInvertedVIni absFarsiYehIni absYehSmallVIni
+		absYehBarree absYehBarreeHamzaAbove
+		absNoonDotBelowIni absNoonTwoDotsBelowIni absNoonThreeDotsAboveIni 
+		absFehThreeDotsBelowIni absFehTwoDotsBelowIni 
+		absHehIni.hooked absHehGoalIni absHehGoalHamzaAboveIni 
+		absLamThreeDotsBelow absLamThreeDotsBelowIni absLamThreeDotsBelowIni.preAlef 
+	</class>
+	
+	<class name='KernRehWawLoosenMore'>
+		absBehThreeDotsHorizBelowIni 
+	</class>
 	<class name='AinLikeInit'>
 		absAinIni absGhainIni absAinThreeDotsAboveIni <!-- absGhainDotBelowIni -->
 		absAinTwoDotsAboveIni absAinThreeDotsDownAboveIni absAinTwoDotsVertAboveIni
@@ -499,23 +514,10 @@
 	</class>
 
 	<class name='NarrowIni'>
-		absYehBarreeDigitTwoAboveIni absYehBarreeDigitThreeAboveIni absYehHamzaAboveIni 
-		absYehIni absYehIni.noDots absHighHamzaYehIni absFarsiYehIni absFarsiYehDigitTwoAboveIni 
-		absFarsiYehDigitThreeAboveIni absFarsiYehInvertedVIni absFarsiYehTwoDotsAboveIni 
-		absFarsiYehThreeDotsAboveIni absYehSmallVIni absEIni absYehThreeDotsBelowIni absFarsiYehDigitFourBelowIni 
-		absAlefMaksuraIni absKashmiriYehIni absYehTwoDotsBelowHamzaAboveIni absYehTwoDotsBelowNoonAboveIni 
-		absYehTwoDotsBelowDotAboveIni absBehNoDotsIni absBehIni absTehIni absThehIni absTtehIni 
-		absTtehehIni absBeehIni absTehRingIni absTehThreeDotsAboveDownwardsIni absPehIni 
-		absPehSmallMeemAboveIni absTehehIni absBehehIni absBehThreeDotsHorizBelowIni absBehThreeDotsAboveDotBelowIni 
-		absBehThreeDotsUpBelowIni absBehTwoDotsAboveThreeDotsUpBelowIni absBehDotAboveTwoDotsBelowIni 
-		absBehInvSmallVBelowIni absBehSmallVAboveIni absBehSmallVBelowIni absBehHamzaAboveIni 
-		absBehSmallMeemAboveIni absDotlessFehIni absAfricanFehIni absFehDotMovedBelowIni 
-		absFehDotBelowIni absVehIni absFehThreeDotsBelowIni absPehehIni absFehTwoDotsBelowIni 
-		absFehThreeDotsUpBelowIni absFehDotBelowThreeDotsAboveIni absLamIni absLamSmallVIni 
-		absLamDotAboveIni absLamThreeDotsAboveIni absLamThreeDotsBelowIni absLamBarIni absLamDoubleBarIni 
-		absNoonIni absNoonDotBelowIni absNoonGhunnaIni absAfricanNoonIni absRnoonIni absNoonRingIni 
-		absNoonThreeDotsAboveIni absNoonTwoDotsBelowIni absNoonRetroIni absNoonSmallVIni 
-		absHehIni.hooked absHehGoalIni absHehGoalHamzaAboveIni
+		absTehIni absThehIni absBehNoDotsIni absTtehIni absTtehehIni absTehRingIni absTehThreeDotsAboveDownwardsIni
+		absTehehIni absBehSmallVAboveIni absYehHamzaAboveIni absAlefMaksuraIni absHighHamzaYehIni 
+		absNoonIni absNoonGhunnaIni absRnoonIni absNoonRetroIni absNoonSmallVIni 
+		absLamIni absLamSmallVIni absLamDotAboveIni absLamThreeDotsAboveIni absLamBarIni 
 	</class>
 
 	<class name='RehKernAlef'>
@@ -523,40 +525,38 @@
 		absAlefWavyHamzaAbove absHighHamzaAlef absAlefWasla absAlefDigitTwoAbove absAlefDigitThreeAbove
 	</class>
 
-	<class name='RehKernGaf'>
-		absKeheh absKafRing absGaf absGafRing absNgoeh absGafTwoDotsBelow 
+	<class name='KernRehWawGaf'>
+		absKeheh absKafRing absGaf absGafRing absNgoeh <!-- absGafTwoDotsBelow -->
 		absGueh absGafThreeDotsAbove absKehehDotAbove absKehehThreeDotsAbove absKehehThreeDotsUpBelow 
 		absKehehTwoDotsAbove absKehehThreeDotsBelow absGafInvertedStroke absKafIni absKafDotAboveIni 
 		absKafDotBelowIni absNgIni absKafTwoDotsAboveIni absKafThreeDotsBelowIni absKehehIni 
-		absKafRingIni absGafIni absGafRingIni absNgoehIni absGafTwoDotsBelowIni absGuehIni 
+		absKafRingIni absGafIni absGafRingIni absNgoehIni <!-- absGafTwoDotsBelowIni --> absGuehIni 
 		absGafThreeDotsAboveIni absKehehDotAboveIni absKehehThreeDotsAboveIni absKehehThreeDotsUpBelowIni 
 		absKehehTwoDotsAboveIni absKehehThreeDotsBelowIni absGafInvertedStrokeIni
 	</class>
 
 	<class name='RehKernOther'>
-		absDal absThal absDdal absDalRing absDalDotBelow absDalDotBelowSmallTah 
-		absDahal absDul absDalThreeDotsAboveDownwards absDalFourDotsAbove absDalHat absDal.sen 
-		absThal.sen absDdal.sen absDalRing.sen absDalDotBelow.sen absDalDotBelowSmallTah.sen 
-		absDahal.sen absDul.sen absDalThreeDotsAboveDownwards.sen absDalFourDotsAbove.sen 
-		absDalHat.sen absReh absZain absRreh absRehSmallV absRehRing absRehDotBelow absRehSmallVBelow 
-		absRehDotBelowDotAbove absRehTwoDotsAbove absJeh absRehFourDotsAbove absRehTwoVertAbove 
-		absRehHamzaAbove absRehSmallTahTwoDots absRehHat absRehBar absTah absZah absTahThreeDotsAbove 
+		absDal absThal absDdal <!-- absDalRing absDalDotBelow absDalDotBelowSmallTah --> 
+		absDahal absDul absDalThreeDotsAboveDownwards absDalFourDotsAbove absDalHat 
+		absDal.sen absThal.sen absDdal.sen <!-- absDalRing.sen absDalDotBelow.sen absDalDotBelowSmallTah.sen  -->
+		absDahal.sen absDul.sen absDalThreeDotsAboveDownwards.sen absDalFourDotsAbove.sen absDalHat.sen 
+		absTah absZah absTahThreeDotsAbove 
 		absTahTwoDotsAbove absLam absLamSmallV absLamDotAbove absLamThreeDotsAbove absLamBar 
 		absLamDoubleBar absMeem.sindhi absMeemDotAbove.sindhi absMeemDotBelow.sindhi absMeemThreeDotsAbove.sindhi 
 		absHehDoachashmee absHehHat absHeh.knotted absAe absTehMarbuta absHehYehAbove absHehGoal 
-		absHehGoalHamzaAbove absTehMarbutaGoal absYehHamzaAboveIni absYehIni absHighHamzaYehIni 
-		absFarsiYehIni absFarsiYehDigitTwoAboveIni absFarsiYehDigitThreeAboveIni absFarsiYehInvertedVIni 
-		absFarsiYehTwoDotsAboveIni absFarsiYehThreeDotsAboveIni absYehSmallVIni absAlefMaksuraIni 
-		absYehTwoDotsBelowHamzaAboveIni absYehTwoDotsBelowNoonAboveIni absYehTwoDotsBelowDotAboveIni 
-		absBehNoDotsIni absBehIni absTehIni absThehIni absTtehIni absTtehehIni absTehRingIni 
-		absTehThreeDotsAboveDownwardsIni absPehSmallMeemAboveIni absTehehIni absBehThreeDotsHorizBelowIni 
-		absBehThreeDotsAboveDotBelowIni absBehDotAboveTwoDotsBelowIni absBehSmallVAboveIni 
+		absHehGoalHamzaAbove absTehMarbutaGoal absYehHamzaAboveIni <!-- absYehIni --> absHighHamzaYehIni 
+		<!-- absFarsiYehIni absFarsiYehDigitTwoAboveIni absFarsiYehDigitThreeAboveIni absFarsiYehInvertedVIni 
+		absFarsiYehTwoDotsAboveIni absFarsiYehThreeDotsAboveIni absYehSmallVIni --> absAlefMaksuraIni 
+		<!-- absYehTwoDotsBelowHamzaAboveIni absYehTwoDotsBelowNoonAboveIni absYehTwoDotsBelowDotAboveIni -->
+		absBehNoDotsIni <!-- absBehIni --> absTehIni absThehIni absTtehIni absTtehehIni absTehRingIni 
+		absTehThreeDotsAboveDownwardsIni <!-- absPehSmallMeemAboveIni --> absTehehIni <!-- absBehThreeDotsHorizBelowIni -->
+		absBehThreeDotsAboveDotBelowIni <!-- absBehDotAboveTwoDotsBelowIni --> absBehSmallVAboveIni 
 		absBehHamzaAboveIni absBehSmallMeemAboveIni absTahIni absZahIni absTahThreeDotsAboveIni 
 		absTahTwoDotsAboveIni absFehIni absDotlessFehIni absVehIni absPehehIni absQafNoDotsIni 
 		absAfricanQafIni absQafIni absQafDotAboveIni absQafThreeDotsAboveIni absLamIni absLamSmallVIni 
 		absLamDotAboveIni absLamThreeDotsAboveIni absLamBarIni absLamDoubleBarIni absMeemIni 
-		absMeemDotAboveIni absMeemDotBelowIni absMeemThreeDotsAboveIni absNoonIni absNoonDotBelowIni 
-		absNoonGhunnaIni absAfricanNoonIni absRnoonIni absNoonTwoDotsBelowIni absNoonRetroIni 
+		absMeemDotAboveIni absMeemDotBelowIni absMeemThreeDotsAboveIni absNoonIni <!-- absNoonDotBelowIni -->
+		absNoonGhunnaIni absAfricanNoonIni absRnoonIni <!-- absNoonTwoDotsBelowIni --> absNoonRetroIni 
 		absNoonSmallVIni absHehDoachashmeeIni absHehHatIni absLamIni.preAlef absLamSmallVIni.preAlef 
 		absLamDotAboveIni.preAlef absLamThreeDotsAboveIni.preAlef absLamBarIni.preAlef absLamDoubleBarIni.preAlef
 	</class>
@@ -618,6 +618,25 @@
 		absHehIni
 	</class>
 
+	<class name='RehAll'>
+		absReh absZain absRreh absRehSmallNoonAbove absRehSmallV absRehRing absRehDotBelow absRehSmallVBelow 
+		absRehDotBelowDotAbove absRehTwoDotsAbove absJeh absRehFourDotsAbove absRehTwoVertAbove 
+		absRehHamzaAbove absRehSmallTahTwoDots absZainHat absRehHat absRehBar absRehLoop 
+		absRehFin absZainFin absRrehFin absRehSmallNoonAboveFin absRehSmallVFin 
+		absRehRingFin absRehDotBelowFin absRehSmallVBelowFin absRehDotBelowDotAboveFin absRehTwoDotsAboveFin 
+		absJehFin absRehFourDotsAboveFin absRehTwoVertAboveFin absRehHamzaAboveFin absRehSmallTahTwoDotsFin 
+		absZainHatFin absRehHatFin absRehBarFin absRehLoopFin
+	</class>
+	<class name='WawAll'>
+		absWawHamzaAbove absWaw absHighHamzaWaw absUHamzaAbove absUHamzaAbove.filled 
+		absWawRing absKirghizOe absOe absU absU.filled absYu absKirghizYu absWawTwoDotsAbove 
+		absVe absWawDotAbove absWawDigitTwoAbove absWawDigitThreeAbove absWawDotWithin 
+		absWawHamzaAboveFin absWawFin absHighHamzaWawFin absUHamzaAboveFin absUHamzaAboveFin.filled 
+		absWawRingFin absKirghizOeFin absOeFin absUFin absUFin.filled absYuFin absKirghizYuFin 
+		absWawTwoDotsAboveFin absVeFin absWawDotAboveFin absWawDigitTwoAboveFin absWawDigitThreeAboveFin 
+		absWawDotWithinFin 
+	</class>
+
 	<class name='RehWawAll'>
 		absWawHamzaAbove absWaw absHighHamzaWaw absUHamzaAbove absUHamzaAbove.filled 
 		absWawRing absKirghizOe absOe absU absU.filled absYu absKirghizYu absWawTwoDotsAbove 
@@ -653,11 +672,11 @@
 		absU.filled absKirghizYu absWawTwoDotsAbove absVe absWawDigitTwoAbove absWawDigitThreeAbove 
 		absWawDotWithin absRreh absRehSmallNoonAbove absRehSmallV <!-- absRehDotBelowDotAbove -->
 		absRehTwoDotsAbove absJeh absRehFourDotsAbove absRehHamzaAbove absRehSmallTahTwoDots 
-		absZainHat absRehHat absWawHamzaAboveFin absUHamzaAboveFin absUHamzaAboveFin.filled 
+		absZainHat <!-- absRehHat --> absWawHamzaAboveFin absUHamzaAboveFin absUHamzaAboveFin.filled 
 		absOeFin absUFin absUFin.filled absKirghizYuFin absWawTwoDotsAboveFin absVeFin absWawDigitTwoAboveFin 
 		absWawDigitThreeAboveFin absWawDotWithinFin absRrehFin absRehSmallNoonAboveFin absRehSmallVFin 
-		absRehDotBelowDotAboveFin absRehTwoDotsAboveFin absJehFin absRehFourDotsAboveFin 
-		absRehHamzaAboveFin absRehSmallTahTwoDotsFin absZainHatFin absRehHatFin
+		<!-- absRehDotBelowDotAboveFin --> absRehTwoDotsAboveFin absJehFin absRehFourDotsAboveFin 
+		absRehHamzaAboveFin absRehSmallTahTwoDotsFin absZainHatFin <!-- absRehHatFin -->
 		
 		absReh absZain absRehRing absRehDotBelow absRehSmallVBelow absRehTwoVertAbove absRehBar 
 		absRehLoop
@@ -672,14 +691,18 @@
 	</class>
 
 	<class name='RehWawTightenToGaf'>
-		absWaw absHighHamzaWaw absWawRing absKirghizOe absKirghizYu 
-		absWawTwoDotsAbove absWawDotAbove absWawDotWithin absReh absZain absRehSmallV absRehRing 
+		absWawHamzaAbove absWaw absHighHamzaWaw absWawRing absKirghizOe absOe absU absYu absKirghizYu 
+		absWawTwoDotsAbove absVe absWawDotAbove absWawDotWithin 
+		absReh absZain absRreh absRehSmallV absRehRing 
 		absRehDotBelow absRehSmallVBelow absRehDotBelowDotAbove absRehTwoDotsAbove absJeh 
-		absRehTwoVertAbove absRehHamzaAbove absRehHat absRehBar absRehLoop absWawFin absHighHamzaWawFin 
-		absWawRingFin absKirghizOeFin absKirghizYuFin absWawTwoDotsAboveFin absWawDotAboveFin 
-		absWawDotWithinFin absRehFin absZainFin absRehSmallVFin absRehRingFin absRehDotBelowFin 
+		absRehTwoVertAbove absRehHamzaAbove absRehHat absRehBar absRehLoop absZainHat 
+		absWawHamzaAboveFin absWawFin absHighHamzaWawFin 
+		absWawRingFin absKirghizOeFin absOeFin absUFin absYuFin absKirghizYuFin 
+		absWawTwoDotsAboveFin absVeFin absWawDotAboveFin 
+		absWawDotWithinFin 
+		absRehFin absZainFin absRreh Fin absRehSmallVFin absRehRingFin absRehDotBelowFin 
 		absRehSmallVBelowFin absRehDotBelowDotAboveFin absRehTwoDotsAboveFin absJehFin absRehFourDotsAboveFin 
-		absRehTwoVertAboveFin absRehHamzaAboveFin absRehHatFin absRehBarFin absRehLoopFin
+		absRehTwoVertAboveFin absRehHamzaAboveFin absRehHatFin absRehBarFin absRehLoopFin absZainHatFin 
 	</class>
-
+	
 </classes>
