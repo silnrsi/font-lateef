@@ -1383,22 +1383,31 @@ if ($test =~ m/^Kern$/oi || $test =~ m/^all$/oi)
     
     for my $uid (@rehs)
     {
-    	AddToTestString $uid, Entity($zwj, $uid, $dbeh, $zwj), 0, sprintf("U+%04X", $uid);
-    	AddToTestString $uid, Entity(      $uid, $dbeh, $zwj);
-    	AddToTestString $uid, Entity($zwj, $uid, $dbeh);
-    	AddToTestString $uid, Entity(      $uid, $dbeh);
-    	CloseTestString $uni2post{$uid};
+    	foreach my $featureCombination (PermuteFeatures($uid))
+        {
+            SetFeatures @{$featureCombination};AddToTestString $uid, Entity($zwj, $uid, $dbeh, $zwj), 0, sprintf("U+%04X", $uid);
+	    	AddToTestString $uid, Entity(      $uid, $dbeh, $zwj);
+	    	AddToTestString $uid, Entity($zwj, $uid, $dbeh);
+	    	AddToTestString $uid, Entity(      $uid, $dbeh);
+	    	CloseTestString $uni2post{$uid};
+	    }
+	    ClearFeatures;
+	    
     }
 
     StartTestGroup 'All the waws';
     
     for my $uid (@waws)
     {
-    	AddToTestString $uid, Entity($zwj, $uid, $dbeh, $zwj), 0, sprintf("U+%04X", $uid);
-    	AddToTestString $uid, Entity(      $uid, $dbeh, $zwj);
-    	AddToTestString $uid, Entity($zwj, $uid, $dbeh);
-    	AddToTestString $uid, Entity(      $uid, $dbeh);
-    	CloseTestString $uni2post{$uid};
+    	foreach my $featureCombination (PermuteFeatures($uid))
+        {
+	    	AddToTestString $uid, Entity($zwj, $uid, $dbeh, $zwj), 0, sprintf("U+%04X", $uid);
+	    	AddToTestString $uid, Entity(      $uid, $dbeh, $zwj);
+	    	AddToTestString $uid, Entity($zwj, $uid, $dbeh);
+	    	AddToTestString $uid, Entity(      $uid, $dbeh);
+	    	CloseTestString $uni2post{$uid};
+	    }
+	    ClearFeatures;
     }
     
 	StartTestGroup 'All the others';
