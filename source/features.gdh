@@ -205,10 +205,10 @@ easternDigits {
             value = 0;
             name.1033 = string("Standard");
         }
-        rohingya {
-            value = 4;
-            name.1033 = string("Rohingya-style");
-        }
+//        rohingya {
+//            value = 4;
+//            name.1033 = string("Rohingya-style");
+//        }
         sindhi {
             value = 1;
             name.1033 = string("Sindhi-style");
@@ -273,13 +273,6 @@ headOfKhahHack {
 }
 
 
-// graphite1mirror {	// No longer support Graphite 1 mirroring?
-// 	id = "gr1m";
-// 	name.1033 = string("Mirroring for Graphite 1");
-// 	default = false;
-// }
-
-
 invis {
     id = "invs";
     name.1033 = string("Show invisible characters");
@@ -318,14 +311,14 @@ kurdish {
     hehAlt = kurdish;
 };
 
-rohingya {
-    languages = (
-    	"rhg"	// Rohingya
-    );
-    easternDigits = rohingya;
-    shaddaKasra = sindhiUrdu;
-    dammatanAlt = sixNine;
-};
+//rohingya {
+//    languages = (
+//    	"rhg"	// Rohingya
+//    );
+//    easternDigits = rohingya;
+//    shaddaKasra = sindhiUrdu;
+//    dammatanAlt = sixNine;
+//};
 
 shina {
     languages = (

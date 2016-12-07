@@ -296,7 +296,7 @@ my %langs;      # Hash indexed by language tag, returning anonymous hash keyed b
 my %silname2uid;    # Hash mapping SIL basename to Unicode
 my %fontName = (    # hash of known font inventories, bcp47tags supported, default value overrides
     s => ['Scheherazade', qr/^(?:ku|sd|rhg|ug|ur)$/o,   { }         ],
-    l => ['Lateef',       qr/^(?:ku|sd|rhg|ug|ur)$/o,   { }         ],
+    l => ['Lateef',       qr/^(?:ku|sd|ug|ur)$/o,   { }         ],
     h => ['Harmattan',    qr/^$/o,                      {cv62 => 1} ],
     n => ['Nastaliq',     qr/^$/o,                      { }         ],
     );
