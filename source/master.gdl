@@ -92,7 +92,6 @@ table(glyph)
 
 cMarkSuperscriptAlefs = ( cMarkGroup2A ) ;
 
-
 cMarksAbove = (  cMarkGroup1A cMarkGroup2A cMarkGroup3A cMarkGroup4A cMarkGroup5A ) ;
 cMarksBelow = ( cMarkGroup1B cMarkGroup2B  cMarkGroup3B ) ;
 cMarksAny = ( cMarksAbove cMarksBelow ) ;
@@ -103,8 +102,6 @@ cMarkOrder3 = ( cMarkGroup4A ) ;							// maddah
 cMarkOrder4 = ( cMarkGroup5A cMarkGroup3B ) ;				// everything else last
 cMarkOrder234 = ( cMarkOrder2 cMarkOrder3 cMarkOrder4 );
 cMarkOrder34  = (             cMarkOrder3 cMarkOrder4 );
-
-
 
 
 endtable;
@@ -158,6 +155,8 @@ pass(1)	{ Direction = LEFT_TO_RIGHT } // Encoding, [de-]composition, mirroring, 
 
 	cSignTakes1 cDigitsAny  >  cSign1  cDigitsAnyMedium;
 
+	// Pick latin variants if appropriate:
+	carab > cno_arab  /  _ {directionality == 0};
 
 endpass; // 1
 
