@@ -34,7 +34,7 @@ DEBPKG = 'fonts-sil-lateef'
 
 AP = 'source/LateefReg_tmp.xml'
 
-font(target = process('LateefGR-Regular.ttf', cmd('perl ../tools/bin/abs_psfix ${DEP} ${TGT}'), name('LateefGR') ),
+font(target = process('LateefGR-Regular.ttf', cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', 'source/typetuner.xml'), cmd('perl ../tools/bin/abs_psfix ${DEP} ${TGT}'), name('LateefGR') ),
 	source = 'source/LateefReg.ttf',
 	graphite = gdl('Lateef-Regular.gdl',
 		params = '-D',
