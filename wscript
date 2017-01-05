@@ -46,6 +46,7 @@ font(target = process('LateefGR-Regular.ttf', cmd('${TYPETUNER} -o ${TGT} add ${
 	version = VERSION,
 	license = ofl('Lateef','SIL'),
 	woff = woff(params = '-v ' + VERSION + ' -m ../source/Lateef-WOFF-metadata.xml'),
+	typetuner = 'source/typetuner.xml',
 	)
 
 AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks', 'DaggerAlef', 'Kern' ]
