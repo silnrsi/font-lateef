@@ -398,7 +398,7 @@ pass(2)
 	cRehKernAlef {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
 
 	// tighten to following gaf-like unless reh/waw have a mark above
-	cKernRehWawGaf {advance.x -= 200m} / cRehWawTightenToGaf MARKSBELOW _ ;
+	cKernRehWawGaf {advance.x -= 150m} / cRehWawTightenToGaf MARKSBELOW _ ;
 
 	// tighter against Ain-like initials unless it has marks Below
 	// cAinLikeInit                     / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cMarksBelow ;
@@ -410,16 +410,12 @@ pass(2)
 
 	// loosen from following narrow glyphs with something below
 	cNarrowIni {advance.x += 120m} / cRehWawAll MARKS _ MARKS cMarksBelow ;
-
-	// NB: The following rules (and classes) haven't been reviewed and adjusted for Lateef
 	
 	// leave certain cases alone:
-	//cRehKernOther   / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cMarksBelow ;
-	//cRehKernOtherMA / (cRehWawTighten cRehWawTightenMore) MARKS cMarksAbove MARKS _ MARKS cMarksAbove ;
+	cRehKernOther   / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cMarksBelow ;
  
 	// otherwise tighten against most things
-	//(cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
-	//(cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSABOVE _ ;
+	(cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
 
 
 

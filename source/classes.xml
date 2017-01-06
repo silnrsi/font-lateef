@@ -536,86 +536,38 @@
 	</class>
 
 	<class name='RehKernOther'>
-		absDal absThal absDdal <!-- absDalRing absDalDotBelow absDalDotBelowSmallTah --> 
-		absDahal absDul absDalThreeDotsAboveDownwards absDalFourDotsAbove absDalHat 
-		absDal.sen absThal.sen absDdal.sen <!-- absDalRing.sen absDalDotBelow.sen absDalDotBelowSmallTah.sen  -->
-		absDahal.sen absDul.sen absDalThreeDotsAboveDownwards.sen absDalFourDotsAbove.sen absDalHat.sen 
-		absTah absZah absTahThreeDotsAbove 
-		absTahTwoDotsAbove absLam absLamSmallV absLamDotAbove absLamThreeDotsAbove absLamBar 
-		absLamDoubleBar absMeem.sindhi absMeemDotAbove.sindhi absMeemDotBelow.sindhi absMeemThreeDotsAbove.sindhi 
-		absHehDoachashmee absHehHat absHeh.knotted absAe absTehMarbuta absHehYehAbove absHehGoal 
-		absHehGoalHamzaAbove absTehMarbutaGoal absYehHamzaAboveIni <!-- absYehIni --> absHighHamzaYehIni 
-		<!-- absFarsiYehIni absFarsiYehDigitTwoAboveIni absFarsiYehDigitThreeAboveIni absFarsiYehInvertedVIni 
-		absFarsiYehTwoDotsAboveIni absFarsiYehThreeDotsAboveIni absYehSmallVIni --> absAlefMaksuraIni 
-		<!-- absYehTwoDotsBelowHamzaAboveIni absYehTwoDotsBelowNoonAboveIni absYehTwoDotsBelowDotAboveIni -->
-		absBehNoDotsIni <!-- absBehIni --> absTehIni absThehIni absTtehIni absTtehehIni absTehRingIni 
-		absTehThreeDotsAboveDownwardsIni <!-- absPehSmallMeemAboveIni --> absTehehIni <!-- absBehThreeDotsHorizBelowIni -->
-		absBehThreeDotsAboveDotBelowIni <!-- absBehDotAboveTwoDotsBelowIni --> absBehSmallVAboveIni 
-		absBehHamzaAboveIni absBehSmallMeemAboveIni absTahIni absZahIni absTahThreeDotsAboveIni 
-		absTahTwoDotsAboveIni absFehIni absDotlessFehIni absVehIni absPehehIni absQafNoDotsIni 
-		absAfricanQafIni absQafIni absQafDotAboveIni absQafThreeDotsAboveIni absLamIni absLamSmallVIni 
-		absLamDotAboveIni absLamThreeDotsAboveIni absLamBarIni absLamDoubleBarIni absMeemIni 
-		absMeemDotAboveIni absMeemDotBelowIni absMeemThreeDotsAboveIni absNoonIni <!-- absNoonDotBelowIni -->
-		absNoonGhunnaIni absAfricanNoonIni absRnoonIni <!-- absNoonTwoDotsBelowIni --> absNoonRetroIni 
-		absNoonSmallVIni absHehDoachashmeeIni absHehHatIni absLamIni.preAlef absLamSmallVIni.preAlef 
-		absLamDotAboveIni.preAlef absLamThreeDotsAboveIni.preAlef absLamBarIni.preAlef absLamDoubleBarIni.preAlef
-	</class>
-
-	<class name='RehKernOtherMA'>
-		absReh absZain absRreh absRehSmallV absRehRing absRehDotBelow 
-		absRehSmallVBelow absRehDotBelowDotAbove absRehTwoDotsAbove absJeh absRehFourDotsAbove 
-		absRehTwoVertAbove absRehHamzaAbove absRehSmallTahTwoDots absRehHat absRehBar absMeem 
-		absMeem.sindhi absMeemDotAbove absMeemDotAbove.sindhi absMeemDotBelow absMeemDotBelow.sindhi 
-		absMeemThreeDotsAbove absMeemThreeDotsAbove.sindhi absHehDoachashmee absHehHat absHeh 
-		absHeh.knotted absAe absTehMarbuta absHehYehAbove absHehGoal absHehGoalHamzaAbove 
-		absTehMarbutaGoal absYehBarreeDigitTwoAboveIni absYehBarreeDigitThreeAboveIni absYehHamzaAboveIni 
-		absYehIni absYehIni.noDots absHighHamzaYehIni absFarsiYehIni absFarsiYehDigitTwoAboveIni 
-		absFarsiYehDigitThreeAboveIni absFarsiYehInvertedVIni absFarsiYehTwoDotsAboveIni 
-		absFarsiYehThreeDotsAboveIni absYehSmallVIni absEIni absYehThreeDotsBelowIni absFarsiYehDigitFourBelowIni 
-		absAlefMaksuraIni absKashmiriYehIni absYehTwoDotsBelowHamzaAboveIni absYehTwoDotsBelowNoonAboveIni 
-		absYehTwoDotsBelowDotAboveIni absBehNoDotsIni absBehIni absTehIni absThehIni absTtehIni 
-		absTtehehIni absBeehIni absTehRingIni absTehThreeDotsAboveDownwardsIni absPehIni 
-		absPehSmallMeemAboveIni absTehehIni absBehehIni absBehThreeDotsHorizBelowIni absBehThreeDotsAboveDotBelowIni 
-		absBehThreeDotsUpBelowIni absBehTwoDotsAboveThreeDotsUpBelowIni absBehDotAboveTwoDotsBelowIni 
-		absBehInvSmallVBelowIni absBehSmallVAboveIni absBehSmallVBelowIni absBehHamzaAboveIni 
-		absBehSmallMeemAboveIni absFehIni absDotlessFehIni absAfricanFehIni absFehDotMovedBelowIni 
-		absFehDotBelowIni absVehIni absFehThreeDotsBelowIni absPehehIni absFehTwoDotsBelowIni 
-		absFehThreeDotsUpBelowIni absFehDotBelowThreeDotsAboveIni absQafNoDotsIni absAfricanQafIni 
-		absQafIni absQafDotAboveIni absQafThreeDotsAboveIni absQafDotBelowIni absMeemIni 
-		absMeemDotAboveIni absMeemDotBelowIni absMeemThreeDotsAboveIni absNoonIni absNoonDotBelowIni 
-		absNoonGhunnaIni absAfricanNoonIni absRnoonIni absNoonRingIni absNoonThreeDotsAboveIni 
-		absNoonTwoDotsBelowIni absNoonRetroIni absNoonSmallVIni absHehDoachashmeeIni absHehHatIni 
-		absHehIni absHehIni.hooked absHehGoalIni absHehGoalHamzaAboveIni
+		absTehIni absThehIni absBehNoDotsIni absTtehIni absTtehehIni absTehThreeDotsAboveDownwardsIni
+		absTehehIni absBehSmallVAboveIni absYehHamzaAboveIni absAlefMaksuraIni absHighHamzaYehIni
+		absNoonIni absNoonGhunnaIni absRnoonIni absNoonRetroIni absNoonSmallVIni absDal absDal.sen
+		absThal absThal.sen absDdal absDdal.sen absDahal absDahal.sen absDul absDul.sen
+		absDalThreeDotsAboveDownwards absDalThreeDotsAboveDownwards.sen absDalFourDotsAbove
+		absDalFourDotsAbove.sen absDalHat absDalHat.sen absHeh absHehIni absHeh.knotted
+		absHehIni.hooked absHehGoal absHehGoalHamzaAbove absTehMarbuta absHehYehAbove absAe
+		absTehMarbutaGoal absHehDoachashmee absHehDoachashmeeIni absHehHat absHehHatIni absLam
+		absLamIni absLamIni.preAlef absLamSmallV absLamSmallVIni absLamSmallVIni.preAlef
+		absLamDotAbove absLamDotAboveIni absLamDotAboveIni.preAlef absLamThreeDotsAbove
+		absLamThreeDotsAboveIni absLamThreeDotsAboveIni.preAlef absLamBar absLamBarIni
+		absLamBarIni.preAlef absMeemIni absMeem.sindhi absMeemDotAboveIni absMeemDotAbove.sindhi
+		absQafIni absQafNoDotsIni absQafDotAboveIni absQafThreeDotsAboveIni
 	</class>
 
 	<class name='RehKernOtherMB'>
-		absYehTail absYehBarree absYehBarreeHamzaAbove absYehBarreeDigitTwoAbove 
-		absYehBarreeDigitThreeAbove absYehHamzaAbove absYeh absHighHamzaYeh absFarsiYeh absFarsiYehDigitTwoAbove 
-		absFarsiYehDigitThreeAbove absFarsiYehInvertedV absFarsiYehTwoDotsAbove absFarsiYehThreeDotsAbove 
-		absYehSmallV absE absYehThreeDotsBelow absFarsiYehDigitFourBelow absAlefMaksura absKashmiriYeh 
-		absYehTwoDotsBelowHamzaAbove absYehTwoDotsBelowNoonAbove absYehTwoDotsBelowDotAbove 
-		absBehNoDots absBeh absTeh absTheh absTteh absTteheh absBeeh absTehRing absTehThreeDotsAboveDownwards 
-		absPeh absPehSmallMeemAbove absTeheh absBeheh absBehThreeDotsHorizBelow absBehThreeDotsAboveDotBelow 
-		absBehThreeDotsUpBelow absBehTwoDotsAboveThreeDotsUpBelow absBehDotAboveTwoDotsBelow 
-		absBehInvSmallVBelow absBehSmallVAbove absBehSmallVBelow absBehHamzaAbove absBehSmallMeemAbove 
-		absJeem absHah absKhah absHahHamzaAbove absHahTwoDotsVerticalAbove absNyeh absDyeh 
-		absHahThreeDotsAbove absTcheh absTcheheh absTchehDotAbove absHahSmallTahTwoDots absHahSmallTahBelow 
-		absHahSmallTahAbove absHahTwoDotsAbove absHahThreeDotsUpBelow absHahDigitFourBelow 
-		absJeemTwoDotsAbove absSeen absSheen absSeenSmallTahTwoDots absSeenFourDotsAbove 
-		absSeenTwoVertAbove absSeenDigitFourAbove absSeenInvertedV absSad absDad absSadTwoDotsBelow 
-		absSadThreeDotsAbove absDadDotBelow absSadThreeDotsBelow absFeh absDotlessFeh absAfricanFeh 
-		absVeh absPeheh absQafNoDots absAfricanQaf absQaf absQafDotAbove absQafThreeDotsAbove 
-		absKaf absKafDotAbove absKafDotBelow absNg absKafTwoDotsAbove absKafThreeDotsBelow 
-		absSwashKaf absMeem absMeemDotAbove absMeemDotBelow absMeemThreeDotsAbove absNoon 
-		absNoonDotBelow absNoonGhunna absAfricanNoon absRnoon absNoonRing absNoonThreeDotsAbove 
-		absNoonTwoDotsBelow absNoonRetro absNoonSmallV absHeh absJeemIni absHahIni absKhahIni 
-		absHahHamzaAboveIni absHahTwoDotsVerticalAboveIni absNyehIni absDyehIni absHahThreeDotsAboveIni 
-		absTchehIni absTchehehIni absTchehDotAboveIni absHahSmallTahTwoDotsIni absHahSmallTahBelowIni 
-		absHahSmallTahAboveIni absHahTwoDotsAboveIni absHahThreeDotsUpBelowIni absHahDigitFourBelowIni 
-		absJeemTwoDotsAboveIni absSeenIni absSheenIni absSeenSmallTahTwoDotsIni absSeenFourDotsAboveIni 
-		absSeenTwoVertAboveIni absSeenDigitFourAboveIni absSeenInvertedVIni absSadIni absDadIni 
-		absSadTwoDotsBelowIni absSadThreeDotsAboveIni absDadDotBelowIni absSadThreeDotsBelowIni 
-		absHehIni
+		absBeh absTeh absTheh absBehNoDots absTteh absTteheh absBeeh absTehRing
+		absTehThreeDotsAboveDownwards absPeh absTeheh absBeheh absBehThreeDotsHorizBelow
+		absBehThreeDotsAboveDotBelow absBehThreeDotsUpwardBelow
+		absBehTwoDotsAboveThreeDotsUpwardBelow absBehDotAboveTwoDotsBelow absBehInvSmallVBelow
+		absBehSmallVAbove absYehHamzaAbove absAlefMaksura absYeh absHighHamzaYeh absE
+		absYehThreeDotsBelow absFarsiYehInvertedV absFarsiYeh absYehSmallV absNoon absNoonDotBelow
+		absNoonGhunna absRnoon absNoonRing absNoonTwoDotsBelow absNoonRetro absNoonSmallV
+		absNoonThreeDotsAbove absSad absSadIni absDad absDadIni absSadTwoDotsBelow
+		absSadTwoDotsBelowIni absSadThreeDotsAbove absSadThreeDotsAboveIni absDadDotBelow
+		absDadDotBelowIni absSeen absSeenIni absSheen absSheenIni absSeenFourDotsAbove
+		absSeenFourDotsAboveIni absSeenTwoVertAbove absSeenTwoVertAboveIni absSeenSmallTahTwoDots
+		absSeenSmallTahTwoDotsIni absKaf absKafDotAbove absNg absHah absHahIni
+		absKhah absKhahIni absHahHamzaAbove absHahHamzaAboveIni absHahTwoDotsVerticalAbove
+		absHahTwoDotsVerticalAboveIni absHahThreeDotsAbove absHahThreeDotsAboveIni absHahTwoDotsAbove
+		absHahTwoDotsAboveIni absHahSmallTahAbove absHahSmallTahAboveIni absMeem absMeemDotAbove
+		absMeemDotBelow absSwashKaf absSwashKafIni
 	</class>
 
 	<class name='RehAll'>
