@@ -7,7 +7,7 @@ DOCDIR="documentation"
 OUTDIR="installers"
 ZIPDIR="releases"
 TESTDIR='tests'
-TESTRESULTSDIR = 'results/tests'
+TESTRESULTSDIR = 'tests'
 STANDARDS = 'standards'
 
 # set the font name, version, licensing and description
