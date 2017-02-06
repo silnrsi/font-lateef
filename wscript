@@ -13,7 +13,8 @@ STANDARDS = 'standards'
 # set the font name, version, licensing and description
 APPNAME="LateefGR"
 VERSION="1.200"
-COPYRIGHT="Copyright (c) 2004-2016, SIL International (http://www.sil.org)"
+TTF_VERSION=VERSION
+COPYRIGHT="Copyright (c) 2004-2017, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 README='README.md'
 
@@ -32,6 +33,9 @@ used for building, testing and releasing.
 
 DEBPKG = 'fonts-sil-lateef'
 
+devver = getversion()
+if devver != '' : VERSION += "-dev-"+devver
+
 AP = 'source/LateefReg_tmp.xml'
 
 font(target = process('LateefGR-Regular.ttf', cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', 'source/typetuner.xml'), cmd('perl ../tools/bin/abs_psfix ${DEP} ${TGT}'), name('LateefGR') ),
@@ -43,7 +47,7 @@ font(target = process('LateefGR-Regular.ttf', cmd('${TYPETUNER} -o ${TGT} add ${
 		depends = ['source/cp1252.gdl', 'source/features.gdh']),
 	ap = AP,
 	classes = 'source/classes.xml',
-	version = VERSION,
+	version = TTF_VERSION,
 	license = ofl('Lateef','SIL'),
 	woff = woff(params = '-v ' + VERSION + ' -m ../source/Lateef-WOFF-metadata.xml'),
 	typetuner = 'source/typetuner.xml',
