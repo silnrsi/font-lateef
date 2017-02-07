@@ -8,7 +8,7 @@ OUTDIR="installers"
 ZIPDIR="releases"
 TESTDIR='tests'
 TESTRESULTSDIR = 'tests'
-STANDARDS = 'standards'
+# STANDARDS = 'standards'
 
 # set the font name, version, licensing and description
 APPNAME="LateefGR"
@@ -35,6 +35,8 @@ DEBPKG = 'fonts-sil-lateef'
 
 devver = getversion()
 if devver != '' : VERSION += "-dev-"+devver
+
+ftmlTest('tools/ftml.xsl')
 
 AP = 'source/LateefReg_tmp.xml'
 
