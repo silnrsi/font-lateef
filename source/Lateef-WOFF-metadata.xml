@@ -3,7 +3,7 @@
 Lateef-WOFF-metadata.html
 Lateef v1.200
 This file is part of Lateef font family (http://software.sil.org/lateef/)
-and is Copyright (c) 1994 SIL International (http://www.sil.org/),
+and is Copyright (c) 1994-2017 SIL International (http://www.sil.org/),
 with Reserved Font Names "Lateef" and "SIL". This Font Software is licensed
 under the SIL Open Font License, Version 1.1. You should have received a copy
 of the license along with this Font Software. If this is not the case, go to
@@ -49,8 +49,21 @@ of the license along with this Font Software. If this is not the case, go to
       ----------
       (This should list both major and minor changes, most recent first.)
       
-      2016-Mar-23 (SIL NRSI team) LateefGR Version 1.200
-      - First commit to GitHub for Graphite development work
+      2017-Mar-17 (SIL NRSI team) LateefGR Version 1.200
+      - Removed U+03BC
+      - Added U+061C, U+063D, U+076E..U+0772, U+08AA, U+08B2, U+2012, U+2015, 
+        U+2027..U+2029, U+202F, U+2066..U+2069
+      - Added alternates for End of Ayah (U+06DD) and changed default design
+      - Design changes to U+0755, U+0756, U+075A
+      - Design changes to U+06AC and U+06AD
+      - Design changes to U+06DF..U+06E1 (to follow http://unicode.org/review/pr-73.html)
+      - U+06BA is now dotless in all positions
+      - U+00A0 advanced width changed to match U+0020
+      - Added Graphite language tags 
+      - Added Graphite features 
+      - Added Graphite Kerning for reh-like and waw-like characters 
+      - Linespacing is looser
+      - Does not include OpenType support
 
       2008-Nov-06 (SIL NRSI team) Lateef Version 1.001
       - Re-released under OFL
@@ -66,7 +79,7 @@ of the license along with this Font Software. If this is not the case, go to
     <license url="http://scripts.sil.org/OFL"
              id="org.sil.ofl.1.1">
         <text lang="en">
-			Copyright (c) 1994, SIL International (http://scripts.sil.org), 
+			Copyright (c) 1994-2017, SIL International (http://scripts.sil.org), 
       with Reserved Font Names 'Lateef' and 'SIL'.
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -163,6 +176,6 @@ of the license along with this Font Software. If this is not the case, go to
 		</text>
     </license>
     <copyright>
-        <text lang="en">Copyright (c) 1994, SIL International (http://www.sil.org/)</text>
+        <text lang="en">Copyright (c) 1994-2017, SIL International (http://www.sil.org/)</text>
     </copyright>
 </metadata>
