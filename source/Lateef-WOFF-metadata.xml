@@ -59,6 +59,7 @@ of the license along with this Font Software. If this is not the case, go to
       - Design changes to U+06DF..U+06E1 (to follow http://unicode.org/review/pr-73.html)
       - U+06BA is now dotless in all positions
       - U+00A0 advanced width changed to match U+0020
+      - Size of dagger alef (U+0670) is reduced above U+0678
       - Added Graphite language tags 
       - Added Graphite features 
       - Added Graphite Kerning for reh-like and waw-like characters 
