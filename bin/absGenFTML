@@ -990,7 +990,7 @@ if ($test =~ m/^DiacTest1$/oi || $test =~ m/^all$/oi)
         
         if (exists $UCD{$uid}{'langs'})
         {
-            foreach my $lang (sort keys $UCD{$uid}{'langs'})
+            foreach my $lang (sort keys %{$UCD{$uid}{'langs'}})
             {
                 SetLang($lang);
                 for my $base (@repBase)
@@ -1231,7 +1231,7 @@ if ($test =~ m/^AllChars$/oi || $test =~ m/^all$/oi)
         
         if (exists $UCD{$uid}{'langs'})
         {
-            foreach my $lang (sort keys $UCD{$uid}{'langs'})
+            foreach my $lang (sort keys %{$UCD{$uid}{'langs'}})
             {
                 SetLang($lang);
                 if ($UCD{$uid}{'general'} =~ m/^M[ne]/o)
@@ -1264,7 +1264,7 @@ if ($test =~ m/^AllChars$/oi || $test =~ m/^all$/oi)
         push @data, $specials{$silBasename}{'joining'} if defined $specials{$silBasename}{'joining'};
         if (defined $specials{$silBasename}{'features'})
         {
-            foreach my $featureCombination (PermuteFeatures(sort keys $specials{$silBasename}{'features'}))
+            foreach my $featureCombination (PermuteFeatures(sort keys %{$specials{$silBasename}{'features'}}))
             {
                 SetFeatures @{$featureCombination};
                 ABSCharData @data;
@@ -1275,7 +1275,7 @@ if ($test =~ m/^AllChars$/oi || $test =~ m/^all$/oi)
         
         if (defined $specials{$silBasename}{'langs'})
         {
-            foreach my $lang (sort keys $specials{$silBasename}{'langs'})
+            foreach my $lang (sort keys %{$specials{$silBasename}{'langs'}})
             {
                 SetLang($lang);
                 ABSCharData @data;
