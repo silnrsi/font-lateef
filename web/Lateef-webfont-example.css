@@ -1,0 +1,75 @@
+/*
+Lateef-webfont-example.css
+LateefGR v1.200
+17 Mar 2017
+This file is part of Lateef font family (http://software.sil.org/lateef)
+and is Copyright (c) 1994-2017 SIL International (http://www.sil.org/),
+with Reserved Font Names "Lateef" and "SIL". This Font Software is licensed
+under the SIL Open Font License, Version 1.1. You should have received a copy
+of the license along with this Font Software. If this is not the case, go to
+(http://scripts.sil.org/OFL) for all the details including a FAQ.
+*/
+
+/* use Lateef - Regular in .woff format */
+@font-face {
+  font-family: LateefRW;
+  src: url(LateefGR-Regular.woff);
+}
+
+
+/* set body to use Lateef in .woff format */
+body {
+  font-family: LateefRW, sans-serif; text-align: left;
+    /* fall back to sans serif so that it's really obvious if the fonts don't load */
+}
+
+h1 {
+  font-family: LateefRW, sans-serif; text-align: left; font-size: 230%;
+}
+h2 {
+  font-family: LateefRW, sans-serif; text-align: left;font-size: 220%;
+}
+.rtl {
+  font-family: LateefRW, sans-serif; font-size: 200%; direction: rtl; text-align: right;
+    /* fall back to sans serif so that it's really obvious if the fonts don't load */
+}	
+.rtlb {
+  font-family: LateefRW, sans-serif; font-size: 200%; direction: rtl; text-align: right;
+    /* fall back to sans serif so that it's really obvious if the fonts don't load */
+}	
+.cv440 {
+  font-family: LateefRW;
+  font-feature-settings: "cv44" 0;
+  -moz-font-feature-settings: "cv44" 0;
+  -webkit-font-feature-settings: "cv4" 0;
+  font-size: 200%; direction: rtl; text-align: right;
+}
+.cv441 {
+  font-family: LateefRW;
+  font-feature-settings: "cv44" 1;
+  -moz-font-feature-settings: "cv44" 1;
+  -webkit-font-feature-settings: "cv44" 1;
+  font-size: 200%; direction: rtl; text-align: right;
+}
+.cv800 {
+  font-family: LateefRW; 
+  font-feature-settings: "cv80" 0;
+  -moz-font-feature-settings: "cv80" 0;
+  -webkit-font-feature-settings: "cv80" 0;
+  font-size: 200%; direction: rtl; text-align: right;
+}
+.cv801 {
+  font-family: LateefRW; 
+  font-feature-settings: "cv80" 1;
+  -moz-font-feature-settings: "cv80" 1;
+  -webkit-font-feature-settings: "cv80" 1;
+  font-size: 200%; direction: rtl; text-align: right;
+}
+.cv441801 {
+  font-family: LateefRW; 
+  font-feature-settings: "cv44" 1, "cv80" 1; 
+  -moz-font-feature-settings: "cv44" 1, "cv80" 1;
+  -webkit-font-feature-settings: "cv44" 1, "cv80" 1;
+  font-size: 200%; direction: rtl; text-align: right;
+}
+	
