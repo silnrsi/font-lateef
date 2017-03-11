@@ -10,10 +10,11 @@ use Font::TTF::OTTags qw( %iso639 );
 use File::Basename;
 use File::Spec::Functions;
 use HTML::Entities;
+
  
 use strict;
 
-our ($help, $family, $omitFeatures, @fonts, $silent, $test);
+our ($help, $family, $omitFeatures, @fonts, $silent, $test, $xslfile);
 
 GetOptions (
     'family=s'  => \$family,
@@ -21,6 +22,7 @@ GetOptions (
     'render=s'  => \@fonts,
     'silent'    => \$silent,
     'test=s'    => \$test,
+    'xsl=s'     => \$xslfile,
     'help|?'    => \$help) or pod2usage(2);
     
 pod2usage( -verbose => 2, -noperldoc => 1) if $help;
@@ -42,6 +44,7 @@ GenTest [-h]  [-f fontID]  [-s]  [-t testname] [-r fontsrc] ttf_file [ap_file]
   --family  a letter representing font family (S = Scheherazade, etc)
   --omit    omit all feature permutations
   --render  @fontface info for test font(s) that should be included
+  --xsl     path to xsl file to render ftml in browser
   --silent  do not issue warnings during common setup code
   --test    name of test to generate (or 'all')
 
@@ -296,9 +299,10 @@ my %langs;      # Hash indexed by language tag, returning anonymous hash keyed b
 my %silname2uid;    # Hash mapping SIL basename to Unicode
 my %fontName = (    # hash of known font inventories, bcp47tags supported, default value overrides
     s => ['Scheherazade', qr/^(?:ku|sd|rhg|ug|ur)$/o,   { }         ],
-    l => ['Lateef',       qr/^(?:ku|sd|ug|ur)$/o,   { }         ],
+    l => ['Lateef',       qr/^(?:ku|sd|ug|ur)$/o,       { }         ],
     h => ['Harmattan',    qr/^$/o,                      {cv62 => 1} ],
     n => ['Nastaliq',     qr/^$/o,                      { }         ],
+    m => ['Magribi',      qr/^$/o,                      { }         ]
     );
 
 # The following specials glyphs may be present in the font and this data is needed to generate appropriate tests:
@@ -463,6 +467,7 @@ sub cacheStyle
 
     $stylename =~ s/['"](\S+)["']\s+(\d+)/$1_$2/g;
     $stylename =~ s/['"](\S+)["']/$1/g;
+    $stylename =~ s/, /_/g;
     $stylename = "${lang}_$stylename" if $lang;
     $styles{$stylename} = [$lang, $feats] if length($stylename) > 0;
 
@@ -546,11 +551,11 @@ sub OpenOutputFile
     print "Generating test file '$testName.ftml'...\n";
 
 
-
-    print OUT <<EOF;
+$xslfile = '../tools/ftml.xsl' unless defined $xslfile;
+    print OUT <<"EOF";
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
-<ftml version="1.0">
+<?xml-stylesheet type='text/xsl' href='$xslfile'?>
+<ftml version='1.0'>
 EOF
     StartTestGroup 'Rendering check';
     AddToTestString undef, "RenderingUnknown", 0, "Check";
@@ -847,45 +852,55 @@ if ($test =~ m/^SubtendingMarks$/oi || $test =~ m/^all$/oi)
 
     for my $digitbase (grep {exists $cmap->{$_}} (0x0032, 0x0668, 0x06F8))
     {
+        my $digitOne = ($digitbase & 0xFFF0) + 1;
         for (grep {exists $cmap->{$_->[0]}} ([0x600,3], [0x0601,4], [0x0602,2], [0x0603,4], [0x0604,4], [0x0605,4], [0x06DD,3]))
         {           
             my ($uid, $maxlgt) = @{$_};
             my $c = Entity($uid);
             
-            for my $EndOfAyahValue (0 .. 2)
+            if ($digitbase < 0x06F0)
             {
-                my ($ayahFeature, $ayahValue);
-                ($ayahFeature, $ayahValue) = ($EndOfAyahValue == 0) ? (undef, undef) : ('cv80', $EndOfAyahValue);
-                SetFeatures([$ayahFeature, $ayahValue]);
-                AddToTestString $uid, Entity(0x0628, $uid, 0x0645);
-                for (1 .. $maxlgt)
-                {
-                    # my $digits = Entity(map {$_ - ord('0') + $digitbase } unpack('U*', $_));
-                    AddToTestString $uid, $c . Entity($digitbase) x $_;
-                }
-                CloseTestString $uni2post{$uid};
-            
-                if ($digitbase >= 0x06F0)
-                {
-                    foreach my $digitStyleValue (0 .. 4)
-                    {
-                        SetFeatures([$ayahFeature, $ayahValue], $digitStyleValue == 0 ? [undef, undef] : ['cv82', $digitStyleValue]);
-                        AddToTestString $uid, Entity(0x0628, $uid, 0x06F4, 0x06F6, 0x06F7);
-                        CloseTestString $uni2post{$uid};
-                    }
-                    if (exists $UCD{0x06F6}{'langs'})
-                    {
-                        foreach my $lang (sort keys %{$UCD{0x06F6}{'langs'}})
-                        {
-                            SetFeatures([$ayahFeature, $ayahValue]);
-                            SetLang($lang);
-                            AddToTestString $uid, Entity(0x0628, $uid, 0x06F4, 0x06F6, 0x06F7);
-                            ClearLang $uni2post{$uid};
-                        }
-                    }
-                }
-                last unless $uid == 0x06dd;
+		        foreach my $featureCombination (PermuteFeatures($uid))
+		        {
+	                SetFeatures @{$featureCombination};            
+	                AddToTestString $uid, Entity(0x0628, $uid, 0x0645);
+	                for (1 .. $maxlgt)
+	                {
+	                    # my $digits = Entity(map {$_ - ord('0') + $digitbase } unpack('U*', $_));
+	                    AddToTestString $uid, $c . Entity($digitbase) x $_;
+	                }
+	                AddToTestString $uid, $c . Entity($digitOne, $digitOne+1);
+	                CloseTestString "$uni2post{$uid}+$uni2post{$digitbase}";
+	            }
             }
+            else
+            {
+		        foreach my $featureCombination (PermuteFeatures($uid, 0x06F7))
+		        {
+	                SetFeatures @{$featureCombination};            
+	                AddToTestString $uid, Entity(0x0628, $uid, 0x0645);
+	                for (1 .. $maxlgt)
+	                {
+	                    # my $digits = Entity(map {$_ - ord('0') + $digitbase } unpack('U*', $_));
+	                    AddToTestString $uid, $c . Entity($digitbase) x $_;
+	                }
+	                AddToTestString $uid, $c . Entity($digitOne, $digitOne+1);
+	                CloseTestString "$uni2post{$uid}+$uni2post{$digitbase}";
+	            	# print STDERR map{"$_->[0] -> $_->[1]; " } @{$featureCombination}; print STDERR "\n";
+	                AddToTestString $uid, Entity(0x0628, $uid, 0x06F4, 0x06F6, 0x06F7);
+	                CloseTestString $uni2post{$uid};
+	
+	                if (exists $UCD{0x06F6}{'langs'})
+	                {
+	                    foreach my $lang (sort keys %{$UCD{0x06F6}{'langs'}})
+	                    {
+	                        SetLang($lang);
+	                        AddToTestString $uid, Entity(0x0628, $uid, 0x06F4, 0x06F6, 0x06F7);
+	                        ClearLang $uni2post{$uid};
+	                    }
+	                }
+	            }
+	        }
         }
     }
     CloseOutputFile;
@@ -1143,7 +1158,7 @@ if ($test =~ m/^DiacTest3$/oi || $test =~ m/^all$/oi)
 #           SetFeatures @{$featureCombination};
             for my $base (@repBase)
             {
-                # AddToTestString $uid, sprintf (" \uf130\u%04X$c\uf131 ", $base); 
+                # AddToTestString $uid, sprintf (" \\uf130\\u%04X$c\\uf131 ", $base); 
                 AddToTestString $uid, Entity($base) . $c; 
             }
             CloseTestString $UCD{$uid}{'age'};
@@ -1320,7 +1335,7 @@ if ($test =~ m/^AllChars2$/oi || $test =~ m/^all$/oi)
     # Generate all plain-text chars in font
     for $uid (sort {$shapesort{$UCD{$a}{'joingroup'}} <=> $shapesort{$UCD{$b}{'joingroup'}} || $a <=> $b} keys %{$cmap})
     {
-        next if $uid < 32 or  Entity($uid) =~ /\p{Latin}|\p{Blk=ArabicPFA}|\p{Blk=ArabicPFB}/;
+        next if $uid < 32 or  chr($uid) =~ /\p{Latin}|\p{Blk=ArabicPFA}|\p{Blk=ArabicPFB}/;
         my $c = Entity($uid);
         foreach my $featureCombination (PermuteFeatures($uid))
         {
@@ -1333,7 +1348,7 @@ if ($test =~ m/^AllChars2$/oi || $test =~ m/^all$/oi)
             elsif ($UCD{$uid}{'general'} =~ m/^Zs/o)
             {
                 # Whitespace -- put baseline brackets around it:
-                AddToTestString $uid, "\uf130${c}\uf131"; 
+                AddToTestString $uid, "\\uf130${c}\\uf131"; 
             }
             elsif ($UCD{$uid}{'mirror'} eq 'Y')
             {
