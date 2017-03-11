@@ -405,7 +405,10 @@ pass(2)
 	cAinLikeInit {advance.x -= 150m} / cRehWawTighten     MARKS _ ;
 	cAinLikeInit {advance.x -= 200m} / cRehWawTightenMore MARKS _ ;
 	
-	// tighter still for some reh/wah (nothing below) followed by Ain-like isolates
+	// loosen from following Ain-like isloates when reh/wah have lower diacritic:
+	cAinLikeIsol {advance.x += 200m} / cRehWawAll MARKS cMarksBelow MARKS _ ;
+
+	// otherwise tighten some reh/wah (nothing below) to following Ain-like isolates
 	cAinLikeIsol {advance.x -= 200m} / cRehWawNothingBelow MARKSABOVE _ ;
 
 	// loosen from following narrow glyphs with something below
