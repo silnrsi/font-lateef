@@ -619,15 +619,15 @@
 	</class>
 
 	<class name='RehWawTighten'>
-		absWawHamzaAbove absUHamzaAbove absUHamzaAbove.filled absOe absU 
+		absWawHamzaAbove absOe absU 
 		absU.filled absKirghizYu absWawTwoDotsAbove absVe absWawDigitTwoAbove absWawDigitThreeAbove 
-		absWawDotWithin absRreh absRehSmallNoonAbove absRehSmallV <!-- absRehDotBelowDotAbove -->
-		absRehTwoDotsAbove absJeh absRehFourDotsAbove absRehHamzaAbove absRehSmallTahTwoDots 
-		absZainHat <!-- absRehHat --> absWawHamzaAboveFin absUHamzaAboveFin absUHamzaAboveFin.filled 
+		absWawDotWithin absRreh absRehSmallNoonAbove absRehSmallV 
+		absRehTwoDotsAbove absJeh  absRehHamzaAbove absRehSmallTahTwoDots 
+		absZainHat  absWawHamzaAboveFin 
 		absOeFin absUFin absUFin.filled absKirghizYuFin absWawTwoDotsAboveFin absVeFin absWawDigitTwoAboveFin 
 		absWawDigitThreeAboveFin absWawDotWithinFin absRrehFin absRehSmallNoonAboveFin absRehSmallVFin 
-		<!-- absRehDotBelowDotAboveFin --> absRehTwoDotsAboveFin absJehFin absRehFourDotsAboveFin 
-		absRehHamzaAboveFin absRehSmallTahTwoDotsFin absZainHatFin <!-- absRehHatFin -->
+		 absRehTwoDotsAboveFin absJehFin  
+		absRehHamzaAboveFin absRehSmallTahTwoDotsFin absZainHatFin 
 		
 		absReh absZain absRehRing absRehDotBelow absRehSmallVBelow absRehTwoVertAbove absRehBar 
 		absRehLoop

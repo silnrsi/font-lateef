@@ -392,7 +392,7 @@ pass(2)
 	cKernRehWawLoosenMore {advance.x += 350m } / cRehAll MARKS _ ;
 	cKernRehWawLoosenMore {advance.x += 300m } / cWawAll MARKS _ ;
 
-	// loosen from following alef with mark below it; otherwise tighten it
+	// loosen from following alef with mark below it
 	cAlefIso {advance.x += 150m} / cRehWawAll MARKS _ MARKS cMarksBelow ;
 	// otherwise most can tighten to alef 
 	cRehKernAlef {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
@@ -400,10 +400,11 @@ pass(2)
 	// tighten to following gaf-like unless reh/waw have a mark above
 	cKernRehWawGaf {advance.x -= 150m} / cRehWawTightenToGaf MARKSBELOW _ ;
 
-	// tighter against Ain-like initials unless it has marks Below
+	// tighter against Ain-like initials
+	// (for other fonts we don't do this if the Ain has marks Below, but Lateef design is different.)
 	// cAinLikeInit                     / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cMarksBelow ;
 	cAinLikeInit {advance.x -= 150m} / cRehWawTighten     MARKS _ ;
-	cAinLikeInit {advance.x -= 200m} / cRehWawTightenMore MARKS _ ;
+	cAinLikeInit {advance.x -= 150m} / cRehWawTightenMore MARKS _ ;
 	
 	// loosen from following Ain-like isloates when reh/wah have lower diacritic:
 	cAinLikeIsol {advance.x += 200m} / cRehWawAll MARKS cMarksBelow MARKS _ ;
@@ -416,6 +417,7 @@ pass(2)
 	
 	// leave certain cases alone:
 	cRehKernOther   / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cMarksBelow ;
+	(cRehKernOther cRehKernOtherMB)  / (absJehFin  absRehHamzaAboveFin absRehSmallTahTwoDots absRehSmallTahTwoDotsFin absZainHatFin) MARKS _ ;
  
 	// otherwise tighten against most things
 	(cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
