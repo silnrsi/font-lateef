@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1022</integer>
   <key>copyright</key>
-  <string>Copyright (c) 1994-2016 SIL International.</string>
+  <string>Copyright (c) 1994-2017 SIL International.</string>
   <key>descender</key>
   <integer>-1488</integer>
   <key>familyName</key>
@@ -15,7 +15,7 @@
   <key>italicAngle</key>
   <integer>0</integer>
   <key>openTypeHeadCreated</key>
-  <string>2082/06/11 18:31:28</string>
+  <string>2083/03/03 21:43:07</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
@@ -30,7 +30,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>http://software.sil.org/lateef</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 1994-2016, SIL International (http://www.sil.org/).
+  <string>Copyright (c) 1994-2017, SIL International (http://www.sil.org/).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1, with Reserved Font Names &quot;Scheherazade&quot; and &quot;SIL&quot;. This license is copied below, and is also available with an FAQ at: http://scripts.sil.org/OFL
 
@@ -83,9 +83,9 @@ THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, E
   <key>openTypeNameSampleText</key>
   <string></string>
   <key>openTypeNameUniqueID</key>
-  <string>SILInternational: Lateef: 2016</string>
+  <string>SILInternational: Lateef: 2017</string>
   <key>openTypeNameVersion</key>
-  <string>Version 0.005 2005</string>
+  <string>Version 1.200</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -215,11 +215,11 @@ THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, E
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>
-  <integer>0</integer>
+  <integer>1</integer>
   <key>versionMinor</key>
-  <integer>5</integer>
+  <integer>200</integer>
   <key>year</key>
-  <integer>2016</integer>
+  <integer>2017</integer>
   <key>xHeight</key>
   <integer>690</integer>
   <key>macintoshFONDName</key>
