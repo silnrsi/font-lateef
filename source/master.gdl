@@ -414,11 +414,11 @@ pass(2)
 
 	// loosen from following narrow glyphs with something below
 	cNarrowIni {advance.x += 120m} / cRehWawAll MARKS _ MARKS cMarksBelow ;
-	
+
 	// leave certain cases alone:
 	cRehKernOther   / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cMarksBelow ;
 	(cRehKernOther cRehKernOtherMB)  / (absJehFin  absRehHamzaAboveFin absRehSmallTahTwoDots absRehSmallTahTwoDotsFin absZainHatFin) MARKS _ ;
- 
+
 	// otherwise tighten against most things
 	(cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
 
