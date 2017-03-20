@@ -1,4 +1,3 @@
-﻿FONTLOG 
 Lateef font
 =================
 
@@ -52,12 +51,16 @@ name. For example a TypeTuner-produced font may be named
 with other tools would not be allowed to use the "Lateef" and "SIL" 
 Reserved Font Names and would have to be named something like "Nations Naskh".
 
-
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-2017-Mar-17 (SIL NRSI team) LateefGR Version 1.200
+%ISODATE% (SIL TypeTuner) Tuned version of LateefGR Version 1.200
+- Tuned and delivered by SIL TypeTuner 
+(http://scripts.sil.org/ttw/fonts2go.cgi).
+- See included xml file for details of feature changes.
+
+2017-Mar-23 (SIL NRSI team) LateefGR Version 1.200
 - Removed U+03BC
 - Added U+061C, U+063D, U+076E..U+0772, U+08AA, U+08B2, U+2012, U+2015, 
   U+2027..U+2029, U+202F, U+2066..U+2069
