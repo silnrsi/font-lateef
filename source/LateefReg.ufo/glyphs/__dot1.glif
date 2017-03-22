@@ -3,9 +3,9 @@
   <advance width="0"/>
   <outline>
     <contour>
+      <point x="0" y="104" type="line"/>
+      <point x="-104" y="0" type="line"/>
       <point x="0" y="-104" type="line"/>
-      <point x="-104" y="0" type="line" name="av01"/>
-      <point x="0" y="104" type="line" name="ah01"/>
       <point x="104" y="0" type="line"/>
     </contour>
     <contour>
@@ -18,15 +18,4 @@
       <point x="0" y="0" type="move" name="_center"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignh" point="ah01" align="center"/>
-    <ttc code="alignv" point="av01" align="center"/>
-  </ttProgram>
-  </data>
-  </dict>
-  </lib>
 </glyph>
