@@ -16,7 +16,6 @@ VERSION="1.200"
 TTF_VERSION=VERSION
 COPYRIGHT="Copyright (c) 2004-2017, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
-README='README.md'
 
 DESC_NAME = "LateefGR"
 DESC_SHORT = "Unicode Arabic font for southern Asia"
@@ -51,7 +50,7 @@ font(target = process('LateefGR-Regular.ttf', cmd('${TYPETUNER} -o ${TGT} add ${
 	classes = 'source/classes.xml',
 	version = TTF_VERSION,
 	license = ofl('Lateef','SIL'),
-	woff = woff(params = '-v ' + VERSION + ' -m ../source/Lateef-WOFF-metadata.xml'),
+	woff = woff('web/LateefGR-Regular.woff', params = '-v ' + VERSION + ' -m ../source/Lateef-WOFF-metadata.xml'),
 	typetuner = 'source/typetuner.xml',
 	)
 
