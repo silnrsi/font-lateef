@@ -1625,7 +1625,7 @@ Bob Hallissy L<http://scripts.sil.org/>.
 
 Copyright (c) 2016, SIL International (http://www.sil.org)
 
-This script is released under the terms of the Artistic License 2.0.
+This script is released under the terms of the MIT License.
 For details, see the full text of the license in the file LICENSE.
 
 =cut
