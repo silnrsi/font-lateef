@@ -30,7 +30,7 @@ Font sources are published in the repository and a smith open workflow is
 used for building, testing and releasing.
 """
 
-DEBPKG = 'fonts-sil-lateef'
+DEBPKG = 'fonts-sil-lateefgr'
 
 devver = getversion()
 if devver != '' : VERSION += "-dev-"+devver
