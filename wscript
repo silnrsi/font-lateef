@@ -13,6 +13,8 @@ TESTRESULTSDIR = 'tests'
 # set the font name, version, licensing and description
 APPNAME="LateefGR"
 VERSION="1.200"
+BUILDVERSION="1.200"
+
 TTF_VERSION=VERSION
 COPYRIGHT="Copyright (c) 2004-2017, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
@@ -31,9 +33,6 @@ used for building, testing and releasing.
 """
 
 DEBPKG = 'fonts-sil-lateefgr'
-
-devver = getversion()
-if devver != '' : VERSION += "-dev-"+devver
 
 ftmlTest('tools/ftml.xsl')
 
