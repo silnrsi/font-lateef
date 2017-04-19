@@ -1,0 +1,106 @@
+%!TEX TS-program = xetex
+%&encoding=UTF-8 Unicode
+%\\XeTeX_input_normalization=1
+%\XeTeXinterwordspaceshaping=2
+\TeXXeTstate=1
+
+
+\vsize=9.5in
+\nopagenumbers
+
+\parindent=0pt
+\def\testFont#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par\meem\par\heh\par\arbU\par\kasra\par\damma\par\dammatan\par\daggeralef\par\sukun\par\endayah\par\eastern\par\comma\par\jeh\par\khah\par}
+
+\def\testComb#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par\hehk\par\hedo\par\sukn\par\wdsp\par\shrt\par\agca\par\snuq\par\bariyeh\par}
+
+\baselineskip=20pt
+
+\def\meem{\beginR م ممم ݥ ݥݥݥ ݦ ݦݦݦ  \endR} % cv44
+\def\heh{\beginR ه ههه \endR} % cv48
+\def\arbU{\beginR ٷ ۇ \endR} % cv50
+\def\kasra{\beginR بِّ ◌ِّ بٍّ ◌ٍّ \endR} % cv62
+\def\damma{\beginR بُ ◌ُ  \endR} % cv70
+\def\dammatan{\beginR بٌ ◌ٌ  \endR} % cv72
+\def\daggeralef{\beginR  ىٰ ىٰىٰىٰ يٰ يٰيٰيٰ   \endR} % cv76
+\def\sukun{\beginR بْ ◌ْ  \endR} % cv78
+\def\endayah{\beginR ۝۱۷۵ \endR} % cv80
+\def\eastern{\beginR ۴۶۷ \endR} % cv82
+\def\comma{\beginR ، ؛ \endR} % cv84
+\def\jeh{\beginR ژ \endR} % cv90
+\def\khah{\beginR بۡ ◌ۡ \endR} % cv92
+
+\def\hehk{b \beginR بہب بۂب \endR}
+\def\hedo{b \beginR ھا \endR}
+\def\sukn{b \beginR بْ \endR}
+\def\wdsp{b \beginR    کیوں جو انسانی حقوق کنوں \endR}
+\def\shrt{b \beginR دیکھتی  کنسلٹنٹس  نگھنے  تکمیلَ \endR}
+\def\agca{b \beginR ڋتاجوایں  یقین  ازادیاںَ \endR}
+\def\snuq{b \beginR ݜۻڜڃغ \endR}
+\def\bariyeh{b \beginR لیجۓ \endR\beginL Y H \endL\beginR پیجۓ \endR\beginL Y\endL}
+
+\bigskip
+
+
+\testFont{LateefGR/GR:
+       Meem=Standard;
+       Heh=Standard;
+       Arabic U=Standard;
+       Shadda+kasra placement=Raised;
+       Damma=Standard;
+       Dammatan=Standard;
+       Sukun=Closed;
+       Superscript Alef=Default;
+       Eastern digits=Standard;
+       Comma=Upward;
+       Jeh hack=Standard;
+       Dotless head of khah hack=Standard;
+       End of ayah=Standard}
+
+\bigskip
+
+\testFont{LateefGR/GR:
+       Meem=Sindhi-style;
+       Heh=Sindhi-style;
+       Arabic U=Filled;
+       Shadda+kasra placement=Lowered;
+       Damma=Filled;
+       Dammatan=Six-nine;
+       Sukun=Open down;
+       Superscript Alef=Small;
+       Eastern digits=Sindhi-style;
+       Comma=Downward;
+       Jeh hack=Dot Hat;
+       Dotless head of khah hack=Jazm;
+       End of ayah=Simplified A}
+
+
+\bigskip
+
+\testFont{LateefGR/GR:
+       Heh=Kurdish-style;
+       Sukun=Open left;
+       Superscript Alef=Large;
+       Eastern digits=Urdu-style;
+       End of ayah=Simplified B}
+
+
+\bigskip
+
+\testFont{LateefGR/GR:
+       Heh=Urdu-style}
+
+
+\bigskip
+
+\testComb{LateefGR/GR:
+       Meem=Sindhi-style}
+
+
+\bigskip
+
+\bye
+
