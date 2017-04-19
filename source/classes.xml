@@ -406,20 +406,8 @@ of the license along with this Font Software. If this is not the case, go to
 		absZainHat
 	</class>
 
-
-
-	<!-- wish I could do this: class name='SignDigit'>
-		@DigitsAnyMedium @DigitsAnySmall
-	</class but I have to do this instead: -->
 	<class name='SignDigit'>
-		absZeroMedium absOneMedium absTwoMedium absThreeMedium absFourMedium absFiveMedium absSixMedium absSevenMedium absEightMedium absNineMedium
-		absEasternZeroMedium absEasternOneMedium absEasternTwoMedium absEasternThreeMedium absEasternFourMedium absEasternFourMedium.urdu 
-			absEasternFourMedium.roh absEasternFiveMedium absEasternSixMedium absEasternSixMedium.urdu absEasternSevenMedium absEasternSevenMedium.urdu absEasternEightMedium absEasternNineMedium
-		zeroMedium oneMedium twoMedium threeMedium fourMedium fiveMedium sixMedium sevenMedium eightMedium nineMedium
-		absZeroSmall absOneSmall absTwoSmall absThreeSmall absFourSmall absFiveSmall absSixSmall absSevenSmall absEightSmall absNineSmall
-		absEasternZeroSmall absEasternOneSmall absEasternTwoSmall absEasternThreeSmall absEasternFourSmall absEasternFourSmall.urdu 
-			absEasternFourSmall.roh absEasternFiveSmall absEasternSixSmall absEasternSixSmall.urdu absEasternSevenSmall absEasternSevenSmall.urdu absEasternEightSmall absEasternNineSmall
-		zeroSmall oneSmall twoSmall threeSmall fourSmall fiveSmall sixSmall sevenSmall eightSmall nineSmall
+		@DigitsAnyMedium @DigitsAnySmall
 	</class>
 
 	<class name='SignTakes4'>  <!-- medium -->
