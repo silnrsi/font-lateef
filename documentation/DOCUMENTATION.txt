@@ -14,3 +14,10 @@ Graphite features.
 
 The Lateef-features.odt file illustrates the use of OpenType and 
 Graphite features (source file for the pdf).
+
+The Lateef-typesample.pdf file gives a sample of all the characters in 
+the font.
+
+The Lateef-typesample.odt file gives a sample of all the characters in 
+the font (source file for the pdf).
+
