@@ -75,3 +75,4 @@ The Lateef project is maintained by SIL International.
 
 For more information please visit the Lateef font page on 
 SIL International's website: http://software.sil.org/lateef/
+

@@ -102,3 +102,4 @@ For more information please visit the Lateef page on SIL International's
 Computers and Writing systems website: http://software.sil.org/lateef
 
 Support through the website: http://software.sil.org/lateef/support
+
