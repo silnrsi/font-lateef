@@ -6,6 +6,7 @@
 .waf-*
 .lock-*
 results/**
+buildlinux2/**
 bin/**
 
 # gdl and graide
@@ -33,11 +34,18 @@ dbg_*.txt
 .AppleDouble
 .LSOverride
 Icon?
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 # Windows
 Thumbs.db
-ehthumbs.db
 Desktop.ini
+$RECYCLE.BIN/
+Thumbs.db
+ehthumbs.db
 *.lnk
 
 
@@ -47,6 +55,7 @@ current.fpr
 # Editors
 *.bak
 *.vfbak
+*.~tt
 
 # Shares
 .AppleDB
@@ -62,15 +71,16 @@ $RECYCLE.BIN/
 *.sfd-*
 
 # Opaque formats to keep out of git
-#*.vfb
 *.fog
 *.vfc
 
 # generated releases
 *.zip
 *.tar.gz
-*.tar.xz
 *.tar.bz2
+*.tar.xz
+*.tgz
+*.tgx
 
 # installers
 *.exe
@@ -81,8 +91,10 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
-# VM stuff 
+# VM helpers
 .vagrant/
+.docker/
+*.log
 
 # Other
 .sass-cache/
@@ -92,3 +104,4 @@ $RECYCLE.BIN/
 *.py[co]
 *$py.class
 __pycache__/
+
