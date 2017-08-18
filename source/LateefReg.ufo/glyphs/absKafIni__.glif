@@ -46,13 +46,13 @@
       <point x="137" y="-50" type="move" name="below"/>
     </contour>
     <contour>
-      <point x="405" y="922" type="move" name="ring"/>
-    </contour>
-    <contour>
       <point x="150" y="1049" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="150" y="-200" type="move" name="diaB"/>
+    </contour>
+    <contour>
+      <point x="405" y="922" type="move" name="ring"/>
     </contour>
   </outline>
 </glyph>

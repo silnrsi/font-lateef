@@ -2,6 +2,5 @@
 <glyph name="fourPerEmSpace" format="1">
   <advance width="512"/>
   <unicode hex="2005"/>
-  <outline>
-  </outline>
+  <outline/>
 </glyph>

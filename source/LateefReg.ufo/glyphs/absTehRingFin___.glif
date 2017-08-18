@@ -5,16 +5,14 @@
     <component base="absBehNoDotsFin"/>
     <component base="_dot2h" xOffset="587" yOffset="523"/>
     <component base="_ring" xOffset="550" yOffset="-117"/>
+    <contour>
+      <point x="272" y="698" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="544" y="773" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="176" y="-263" type="move" name="diaB"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.807</real>
-    <real>1</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

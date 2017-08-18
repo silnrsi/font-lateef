@@ -50,13 +50,13 @@
       <point x="440" y="0" type="curve" smooth="yes"/>
     </contour>
     <contour>
+      <point x="268" y="841" type="move" name="alef"/>
+    </contour>
+    <contour>
       <point x="464" y="988" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="310" y="-202" type="move" name="diaB"/>
-    </contour>
-    <contour>
-      <point x="268" y="841" type="move" name="alef"/>
     </contour>
   </outline>
 </glyph>

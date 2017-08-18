@@ -4,16 +4,11 @@
   <outline>
     <component base="absWaw"/>
     <component base="_hamzaDamma.filled" xOffset="414" yOffset="667"/>
+    <contour>
+      <point x="211" y="954" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="142" y="-425" type="move" name="diaB"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>1</real>
-    <real>0.6</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

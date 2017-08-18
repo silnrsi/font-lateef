@@ -2,6 +2,5 @@
 <glyph name="emQuad" format="1">
   <advance width="2048"/>
   <unicode hex="2001"/>
-  <outline>
-  </outline>
+  <outline/>
 </glyph>

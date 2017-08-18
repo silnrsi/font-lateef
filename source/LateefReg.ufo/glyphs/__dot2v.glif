@@ -3,16 +3,16 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="0" y="-212" type="line" name="ah01"/>
-      <point x="-104" y="-105" type="line" name="av01"/>
-      <point x="0" y="-1" type="line"/>
       <point x="104" y="-105" type="line"/>
+      <point x="0" y="-1" type="line"/>
+      <point x="-104" y="-105" type="line" name="av01"/>
+      <point x="0" y="-212" type="line" name="ah01"/>
     </contour>
     <contour>
-      <point x="0" y="1" type="line"/>
-      <point x="-104" y="105" type="line" name="sv01"/>
-      <point x="0" y="212" type="line" name="ah02"/>
       <point x="104" y="105" type="line"/>
+      <point x="0" y="212" type="line" name="ah02"/>
+      <point x="-104" y="105" type="line" name="sv01"/>
+      <point x="0" y="1" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-286" type="move" name="_above"/>
@@ -25,16 +25,16 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignh" point="ah01" align="center"/>
-    <ttc code="alignh" point="ah02" align="center"/>
-    <ttc code="alignv" point="av01" align="center"/>
-    <ttc code="singlev" point1="av01" point2="sv01" round="true"/>
-  </ttProgram>
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="center" code="alignh" point="ah01"/>
+          <ttc align="center" code="alignh" point="ah02"/>
+          <ttc align="center" code="alignv" point="av01"/>
+          <ttc code="singlev" point1="av01" point2="sv01" round="true"/>
+        </ttProgram>
+      </data>
+    </dict>
   </lib>
 </glyph>

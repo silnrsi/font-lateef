@@ -4,16 +4,17 @@
   <outline>
     <component base="absLamIni.preAlef"/>
     <component base="_dot1" xOffset="195" yOffset="1344"/>
+    <contour>
+      <point x="-13" y="814" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="161" y="1600" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="125" y="-300" type="move" name="diaB"/>
+    </contour>
+    <contour>
+      <point x="-2" y="0" type="move" name="exit"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.6</real>
-    <real>1</real>
-    <real>0.995</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

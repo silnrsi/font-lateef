@@ -64,6 +64,9 @@
       <point x="436" y="561" type="move" name="above"/>
     </contour>
     <contour>
+      <point x="174" y="698" type="move" name="alef"/>
+    </contour>
+    <contour>
       <point x="424" y="-212" type="move" name="center"/>
     </contour>
     <contour>
@@ -71,9 +74,6 @@
     </contour>
     <contour>
       <point x="202" y="-802" type="move" name="diaB"/>
-    </contour>
-    <contour>
-      <point x="174" y="698" type="move" name="alef"/>
     </contour>
   </outline>
 </glyph>

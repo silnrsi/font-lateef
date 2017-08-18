@@ -4,16 +4,14 @@
   <outline>
     <component base="absLamMed"/>
     <component base="_dot3d" xOffset="193" yOffset="-298"/>
+    <contour>
+      <point x="0" y="802" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="178" y="1168" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="150" y="-559" type="move" name="diaB"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.807</real>
-    <real>1</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

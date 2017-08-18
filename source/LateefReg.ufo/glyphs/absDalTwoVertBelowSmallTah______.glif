@@ -6,16 +6,14 @@
     <component base="absDal"/>
     <component base="_tah" xOffset="291" yOffset="856"/>
     <component base="_dot2v" xOffset="291" yOffset="-375"/>
+    <contour>
+      <point x="95" y="1019" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="284" y="1300" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="240" y="-660" type="move" name="diaB"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.807</real>
-    <real>1</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

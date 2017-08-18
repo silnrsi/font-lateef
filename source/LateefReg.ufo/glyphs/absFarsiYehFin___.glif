@@ -3,16 +3,14 @@
   <advance width="1036"/>
   <outline>
     <component base="absYehFin.noDots"/>
+    <contour>
+      <point x="375" y="329" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="471" y="510" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="277" y="-575" type="move" name="diaB"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.807</real>
-    <real>1</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

@@ -4,51 +4,54 @@
 <dict>
   <key>com.fontlab.v2.tth</key>
   <dict>
-    <key>zones</key>
-    <dict>
-      <key>b: 0</key>
-      <dict>
-        <key>position</key>
-        <integer>0</integer>
-        <key>width</key>
-        <integer>23</integer>
-        <key>top</key>
-        <false/>
-      </dict>
-      <key>b: 1</key>
-      <dict>
-        <key>position</key>
-        <integer>-330</integer>
-        <key>width</key>
-        <integer>4</integer>
-        <key>top</key>
-        <false/>
-      </dict>
-      <key>t: 0</key>
-      <dict>
-        <key>position</key>
-        <integer>690</integer>
-        <key>width</key>
-        <integer>21</integer>
-        <key>top</key>
-        <true/>
-      </dict>
-      <key>t: 1</key>
-      <dict>
-        <key>position</key>
-        <integer>1020</integer>
-        <key>width</key>
-        <integer>24</integer>
-        <key>top</key>
-        <true/>
-      </dict>
-    </dict>
     <key>stems</key>
     <dict>
+      <key>X: 17</key>
+      <dict>
+        <key>horizontal</key>
+        <false/>
+        <key>round</key>
+        <dict>
+          <key>0</key>
+          <integer>1</integer>
+          <key>148</key>
+          <integer>3</integer>
+          <key>206</key>
+          <integer>4</integer>
+          <key>265</key>
+          <integer>5</integer>
+          <key>324</key>
+          <integer>6</integer>
+          <key>89</key>
+          <integer>2</integer>
+        </dict>
+        <key>width</key>
+        <integer>35</integer>
+      </dict>
+      <key>X: 26</key>
+      <dict>
+        <key>horizontal</key>
+        <false/>
+        <key>round</key>
+        <dict>
+          <key>0</key>
+          <integer>1</integer>
+          <key>135</key>
+          <integer>4</integer>
+          <key>174</key>
+          <integer>5</integer>
+          <key>212</key>
+          <integer>6</integer>
+          <key>58</key>
+          <integer>2</integer>
+          <key>97</key>
+          <integer>3</integer>
+        </dict>
+        <key>width</key>
+        <integer>53</integer>
+      </dict>
       <key>Y: 58</key>
       <dict>
-        <key>width</key>
-        <integer>119</integer>
         <key>horizontal</key>
         <true/>
         <key>round</key>
@@ -66,11 +69,11 @@
           <key>95</key>
           <integer>6</integer>
         </dict>
+        <key>width</key>
+        <integer>119</integer>
       </dict>
       <key>Y: 69</key>
       <dict>
-        <key>width</key>
-        <integer>141</integer>
         <key>horizontal</key>
         <true/>
         <key>round</key>
@@ -88,50 +91,47 @@
           <key>80</key>
           <integer>6</integer>
         </dict>
-      </dict>
-      <key>X: 17</key>
-      <dict>
         <key>width</key>
-        <integer>35</integer>
-        <key>horizontal</key>
-        <false/>
-        <key>round</key>
-        <dict>
-          <key>0</key>
-          <integer>1</integer>
-          <key>89</key>
-          <integer>2</integer>
-          <key>148</key>
-          <integer>3</integer>
-          <key>206</key>
-          <integer>4</integer>
-          <key>265</key>
-          <integer>5</integer>
-          <key>324</key>
-          <integer>6</integer>
-        </dict>
+        <integer>141</integer>
       </dict>
-      <key>X: 26</key>
+    </dict>
+    <key>zones</key>
+    <dict>
+      <key>b: 0</key>
       <dict>
-        <key>width</key>
-        <integer>53</integer>
-        <key>horizontal</key>
+        <key>position</key>
+        <integer>0</integer>
+        <key>top</key>
         <false/>
-        <key>round</key>
-        <dict>
-          <key>0</key>
-          <integer>1</integer>
-          <key>58</key>
-          <integer>2</integer>
-          <key>97</key>
-          <integer>3</integer>
-          <key>135</key>
-          <integer>4</integer>
-          <key>174</key>
-          <integer>5</integer>
-          <key>212</key>
-          <integer>6</integer>
-        </dict>
+        <key>width</key>
+        <integer>23</integer>
+      </dict>
+      <key>b: 1</key>
+      <dict>
+        <key>position</key>
+        <integer>-330</integer>
+        <key>top</key>
+        <false/>
+        <key>width</key>
+        <integer>4</integer>
+      </dict>
+      <key>t: 0</key>
+      <dict>
+        <key>position</key>
+        <integer>690</integer>
+        <key>top</key>
+        <true/>
+        <key>width</key>
+        <integer>21</integer>
+      </dict>
+      <key>t: 1</key>
+      <dict>
+        <key>position</key>
+        <integer>1020</integer>
+        <key>top</key>
+        <true/>
+        <key>width</key>
+        <integer>24</integer>
       </dict>
     </dict>
   </dict>

@@ -65,13 +65,13 @@
       <point x="1292" y="189"/>
     </contour>
     <contour>
+      <point x="279" y="846" type="move" name="alef"/>
+    </contour>
+    <contour>
       <point x="502" y="988" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="300" y="-202" type="move" name="diaB"/>
-    </contour>
-    <contour>
-      <point x="279" y="846" type="move" name="alef"/>
     </contour>
   </outline>
 </glyph>

@@ -2,6 +2,5 @@
 <glyph name="enSpace" format="1">
   <advance width="1024"/>
   <unicode hex="2002"/>
-  <outline>
-  </outline>
+  <outline/>
 </glyph>

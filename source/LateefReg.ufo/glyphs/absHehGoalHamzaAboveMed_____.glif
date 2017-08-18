@@ -4,5 +4,14 @@
   <outline>
     <component base="absHehGoalMed"/>
     <component base="_hamza" xOffset="513" yOffset="724"/>
+    <contour>
+      <point x="156" y="842" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="429" y="1020" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="227" y="-867" type="move" name="diaB"/>
+    </contour>
   </outline>
 </glyph>

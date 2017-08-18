@@ -2,6 +2,5 @@
 <glyph name="punctuationSpace" format="1">
   <advance width="641"/>
   <unicode hex="2008"/>
-  <outline>
-  </outline>
+  <outline/>
 </glyph>

@@ -4,7 +4,7 @@
   <unicode hex="08AA"/>
   <outline>
     <contour>
-      <point x="439" y="-148" type="curve" name="hr00"/>
+      <point x="439" y="-148" type="curve"/>
       <point x="501" y="-27"/>
       <point x="521" y="64"/>
       <point x="521" y="150" type="curve" smooth="yes"/>
@@ -49,27 +49,13 @@
       <point x="362" y="-274"/>
     </contour>
     <contour>
+      <point x="136" y="698" type="move" name="alef"/>
+    </contour>
+    <contour>
       <point x="294" y="697" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="236" y="-530" type="move" name="diaB"/>
     </contour>
-    <contour>
-      <point x="136" y="698" type="move" name="alef"/>
-    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-378" width="-21" />
-      <hstem pos="-340" width="-20" />
-      <hstem pos="344" width="-20" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

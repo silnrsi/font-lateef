@@ -4,16 +4,11 @@
   <outline>
     <component base="absAlefFin"/>
     <component base="_hamza" xOffset="312" yOffset="-292"/>
+    <contour>
+      <point x="227" y="1207" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="251" y="-526" type="move" name="diaB"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.807</real>
-    <real>1</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

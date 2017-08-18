@@ -4,5 +4,11 @@
   <outline>
     <component base="absHehGoalIni"/>
     <component base="_hamza" xOffset="201" yOffset="719"/>
+    <contour>
+      <point x="149" y="1033" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="170" y="-563" type="move" name="diaB"/>
+    </contour>
   </outline>
 </glyph>

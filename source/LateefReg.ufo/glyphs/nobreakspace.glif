@@ -3,5 +3,11 @@
   <advance width="465"/>
   <unicode hex="00A0"/>
   <outline>
+    <contour>
+      <point x="321" y="1060" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="321" y="-49" type="move" name="diaB"/>
+    </contour>
   </outline>
 </glyph>

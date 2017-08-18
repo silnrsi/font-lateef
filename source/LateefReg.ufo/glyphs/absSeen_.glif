@@ -36,9 +36,9 @@
       <point x="1098" y="345"/>
       <point x="1099" y="368"/>
       <point x="1088" y="368" type="curve" smooth="yes"/>
-      <point x="1085" y="368"/>
-      <point x="1082" y="366"/>
-      <point x="1080" y="362" type="qcurve"/>
+      <point x="1084" y="368"/>
+      <point x="1083" y="367"/>
+      <point x="1080" y="362" type="curve"/>
       <point x="1076" y="350"/>
       <point x="1067" y="323"/>
       <point x="1058" y="307" type="curve" smooth="yes"/>
@@ -84,6 +84,9 @@
       <point x="957" y="459" type="move" name="above"/>
     </contour>
     <contour>
+      <point x="280" y="464" type="move" name="alef"/>
+    </contour>
+    <contour>
       <point x="1026" y="-64" type="move" name="below"/>
     </contour>
     <contour>
@@ -91,9 +94,6 @@
     </contour>
     <contour>
       <point x="168" y="-514" type="move" name="diaB"/>
-    </contour>
-    <contour>
-      <point x="280" y="464" type="move" name="alef"/>
     </contour>
   </outline>
 </glyph>

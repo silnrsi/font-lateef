@@ -3,47 +3,47 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="105" y="0" type="line" name="sh02"/>
-      <point x="1" y="104" type="line"/>
-      <point x="105" y="211" type="line"/>
       <point x="212" y="104" type="line" name="sv01"/>
+      <point x="105" y="211" type="line"/>
+      <point x="1" y="104" type="line"/>
+      <point x="105" y="0" type="line" name="sh02"/>
     </contour>
     <contour>
-      <point x="-105" y="0" type="line" name="sh01"/>
-      <point x="-212" y="104" type="line" name="sv02"/>
-      <point x="-105" y="211" type="line"/>
       <point x="-1" y="104" type="line"/>
+      <point x="-105" y="211" type="line"/>
+      <point x="-212" y="104" type="line" name="sv02"/>
+      <point x="-105" y="0" type="line" name="sh01"/>
     </contour>
     <contour>
-      <point x="0" y="-211" type="line"/>
-      <point x="-104" y="-104" type="line"/>
-      <point x="0" y="0" type="line" name="ah01"/>
       <point x="104" y="-104" type="line" name="av01"/>
-    </contour>
-    <contour>
-      <point x="0" y="286" type="move" name="_below"/>
+      <point x="0" y="0" type="line" name="ah01"/>
+      <point x="-104" y="-104" type="line"/>
+      <point x="0" y="-211" type="line"/>
     </contour>
     <contour>
       <point x="0" y="-286" type="move" name="_above"/>
+    </contour>
+    <contour>
+      <point x="0" y="286" type="move" name="_below"/>
     </contour>
     <contour>
       <point x="0" y="0" type="move" name="_center"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignh" point="ah01" align="center"/>
-    <ttc code="singleh" point1="ah01" point2="sh01" stem="X: 26"/>
-    <ttc code="singleh" point1="ah01" point2="sh02" stem="X: 26"/>
-    <ttc code="alignv" point="av01" align="center"/>
-    <ttc code="singlev" point1="av01" point2="ah01"/>
-    <ttc code="singlev" point1="ah01" point2="sv01" align="center"/>
-    <ttc code="singlev" point1="sv01" point2="sv02"/>
-  </ttProgram>
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="center" code="alignh" point="ah01"/>
+          <ttc code="singleh" point1="ah01" point2="sh01" stem="X: 26"/>
+          <ttc code="singleh" point1="ah01" point2="sh02" stem="X: 26"/>
+          <ttc align="center" code="alignv" point="av01"/>
+          <ttc code="singlev" point1="av01" point2="ah01"/>
+          <ttc align="center" code="singlev" point1="ah01" point2="sv01"/>
+          <ttc code="singlev" point1="sv01" point2="sv02"/>
+        </ttProgram>
+      </data>
+    </dict>
   </lib>
 </glyph>

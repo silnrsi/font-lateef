@@ -39,10 +39,10 @@
       <point x="180" y="1449"/>
     </contour>
     <contour>
-      <point x="274" y="1414" type="line"/>
-      <point x="274" y="1349" type="line"/>
-      <point x="-29" y="1187" type="line"/>
       <point x="-29" y="1257" type="line"/>
+      <point x="-29" y="1187" type="line"/>
+      <point x="274" y="1349" type="line"/>
+      <point x="274" y="1414" type="line"/>
     </contour>
     <contour>
       <point x="276" y="1276" type="line"/>
@@ -57,15 +57,4 @@
       <point x="144" y="1721" type="move" name="diaA"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>1</real>
-    <real>0.6</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

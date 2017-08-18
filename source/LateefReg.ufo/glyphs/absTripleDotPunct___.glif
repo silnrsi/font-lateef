@@ -4,37 +4,37 @@
   <unicode hex="061E"/>
   <outline>
     <contour>
-      <point x="310" y="260" type="line" name="ah01"/>
-      <point x="206" y="364" type="line" name="sv01"/>
-      <point x="310" y="471" type="line"/>
       <point x="414" y="364" type="line"/>
+      <point x="310" y="471" type="line"/>
+      <point x="206" y="364" type="line" name="sv01"/>
+      <point x="310" y="260" type="line" name="ah01"/>
     </contour>
     <contour>
-      <point x="166" y="-1" type="line"/>
-      <point x="59" y="106" type="line" name="av01"/>
-      <point x="166" y="210" type="line" name="sh01"/>
       <point x="270" y="106" type="line"/>
+      <point x="166" y="210" type="line" name="sh01"/>
+      <point x="59" y="106" type="line" name="av01"/>
+      <point x="166" y="-1" type="line"/>
     </contour>
     <contour>
-      <point x="454" y="-1" type="line"/>
-      <point x="350" y="106" type="line"/>
-      <point x="454" y="210" type="line" name="sh02"/>
       <point x="561" y="106" type="line" name="sv02"/>
+      <point x="454" y="210" type="line" name="sh02"/>
+      <point x="350" y="106" type="line"/>
+      <point x="454" y="-1" type="line"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.fontlab.ttprogram</key>
-  <data>
-  <ttProgram>
-    <ttc code="alignh" point="ah01" align="center"/>
-    <ttc code="singleh" point1="ah01" point2="sh01" stem="X: 26"/>
-    <ttc code="singleh" point1="ah01" point2="sh02" stem="X: 26"/>
-    <ttc code="alignv" point="av01" align="center"/>
-    <ttc code="singlev" point1="av01" point2="sv01" round="true"/>
-    <ttc code="singlev" point1="av01" point2="sv02"/>
-  </ttProgram>
-  </data>
-  </dict>
+    <dict>
+      <key>com.fontlab.ttprogram</key>
+      <data>
+        <ttProgram>
+          <ttc align="center" code="alignh" point="ah01"/>
+          <ttc code="singleh" point1="ah01" point2="sh01" stem="X: 26"/>
+          <ttc code="singleh" point1="ah01" point2="sh02" stem="X: 26"/>
+          <ttc align="center" code="alignv" point="av01"/>
+          <ttc code="singlev" point1="av01" point2="sv01" round="true"/>
+          <ttc code="singlev" point1="av01" point2="sv02"/>
+        </ttProgram>
+      </data>
+    </dict>
   </lib>
 </glyph>

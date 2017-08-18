@@ -4,16 +4,11 @@
   <outline>
     <component base="_hamza" xOffset="200" yOffset="822"/>
     <component base="_damma.filled" xOffset="186" yOffset="1162"/>
+    <contour>
+      <point x="178" y="625" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="176" y="1461" type="move" name="diaA"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>1</real>
-    <real>0.6</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

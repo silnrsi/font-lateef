@@ -22,24 +22,13 @@
       <point x="399" y="905" type="line"/>
     </contour>
     <contour>
-      <point x="363" y="925" type="move" name="diaA"/>
-    </contour>
-    <contour>
       <point x="363" y="233" type="move" name="_alef"/>
     </contour>
     <contour>
       <point x="363" y="233" type="move" name="_diaA"/>
     </contour>
+    <contour>
+      <point x="363" y="925" type="move" name="diaA"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>1</real>
-    <real>0.6</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

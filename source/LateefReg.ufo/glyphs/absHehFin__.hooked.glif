@@ -3,16 +3,14 @@
   <advance width="762"/>
   <outline>
     <component base="absHehGoalFin"/>
+    <contour>
+      <point x="246" y="543" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="402" y="700" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="235" y="-251" type="move" name="diaB"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.807</real>
-    <real>1</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

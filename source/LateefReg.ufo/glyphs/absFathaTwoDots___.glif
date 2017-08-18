@@ -44,15 +44,4 @@
       <point x="176" y="1327" type="move" name="diaA"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>1</real>
-    <real>0.6</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

@@ -32,10 +32,10 @@
       <point x="350" y="287" type="move" name="above"/>
     </contour>
     <contour>
-      <point x="418" y="-312" type="move" name="below"/>
+      <point x="106" y="684" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="343" y="-224" type="move" name="ring"/>
+      <point x="418" y="-312" type="move" name="below"/>
     </contour>
     <contour>
       <point x="124" y="54" type="move" name="center"/>
@@ -47,10 +47,10 @@
       <point x="175" y="-490" type="move" name="diaB"/>
     </contour>
     <contour>
-      <point x="342" y="-145" type="move" name="through"/>
+      <point x="343" y="-224" type="move" name="ring"/>
     </contour>
     <contour>
-      <point x="106" y="684" type="move" name="alef"/>
+      <point x="342" y="-145" type="move" name="through"/>
     </contour>
   </outline>
 </glyph>

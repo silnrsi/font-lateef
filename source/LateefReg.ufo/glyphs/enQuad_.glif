@@ -2,6 +2,5 @@
 <glyph name="enQuad" format="1">
   <advance width="1024"/>
   <unicode hex="2000"/>
-  <outline>
-  </outline>
+  <outline/>
 </glyph>

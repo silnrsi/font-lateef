@@ -49,10 +49,10 @@
       <point x="385" y="187" type="move" name="above"/>
     </contour>
     <contour>
-      <point x="348" y="-461" type="move" name="below"/>
+      <point x="231" y="402" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="367" y="-343" type="move" name="ring"/>
+      <point x="348" y="-461" type="move" name="below"/>
     </contour>
     <contour>
       <point x="338" y="624" type="move" name="diaA"/>
@@ -61,7 +61,7 @@
       <point x="232" y="-502" type="move" name="diaB"/>
     </contour>
     <contour>
-      <point x="231" y="402" type="move" name="alef"/>
+      <point x="367" y="-343" type="move" name="ring"/>
     </contour>
   </outline>
 </glyph>

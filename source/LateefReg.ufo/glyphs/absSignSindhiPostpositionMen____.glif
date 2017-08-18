@@ -5,16 +5,11 @@
   <outline>
     <component base="absMeem.sindhi"/>
     <component base="_lines" xOffset="637"/>
+    <contour>
+      <point x="486" y="733" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="150" y="-251" type="move" name="diaB"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.807</real>
-    <real>1</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>

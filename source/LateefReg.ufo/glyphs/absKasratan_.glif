@@ -4,16 +4,16 @@
   <unicode hex="064D"/>
   <outline>
     <contour>
-      <point x="231" y="-543" type="line"/>
-      <point x="231" y="-609" type="line"/>
-      <point x="-72" y="-770" type="line"/>
       <point x="-72" y="-703" type="line"/>
+      <point x="-72" y="-770" type="line"/>
+      <point x="231" y="-609" type="line"/>
+      <point x="231" y="-543" type="line"/>
     </contour>
     <contour>
-      <point x="231" y="-404" type="line"/>
-      <point x="231" y="-469" type="line"/>
-      <point x="-72" y="-631" type="line"/>
       <point x="-72" y="-561" type="line"/>
+      <point x="-72" y="-631" type="line"/>
+      <point x="231" y="-469" type="line"/>
+      <point x="231" y="-404" type="line"/>
     </contour>
     <contour>
       <point x="75" y="-403" type="move" name="_diaB"/>
@@ -22,15 +22,4 @@
       <point x="75" y="-790" type="move" name="diaB"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>1</real>
-    <real>0.6</real>
-    <real>0.6</real>
-    <real>1</real>
-  </array>
-  </dict>
-  </lib>
 </glyph>
