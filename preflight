@@ -1,0 +1,13 @@
+#!/bin/sh
+# Script for calling multiple routines on a project, typically prior to committing to a repository.
+
+# For now, just normalize Regular
+psfnormalize source/Lateef-Regular.ufo
+
+# Eventually we'll get to using the following: 
+
+# sync metadata to other UFOs and normalize again
+# psfsyncmeta source/*Regular.ufo --normalize
+
+# [re-]build woff metadata file
+# psfmakewoffmetadata -n Lateef -i org.sil.fonts source/*-Regular.ufo
