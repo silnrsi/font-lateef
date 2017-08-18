@@ -26,8 +26,6 @@
   <string>B_.glif</string>
   <key>C</key>
   <string>C_.glif</string>
-  <key>CR</key>
-  <string>CR__.glif</string>
   <key>Ccedilla</key>
   <string>Ccedilla_.glif</string>
   <key>D</key>
@@ -2064,6 +2062,8 @@
   <string>noBreakHyphen__.glif</string>
   <key>nobreakspace</key>
   <string>nobreakspace.glif</string>
+  <key>nonmarkingreturn</key>
+  <string>nonmarkingreturn.glif</string>
   <key>ntilde</key>
   <string>ntilde.glif</string>
   <key>numbersign</key>
