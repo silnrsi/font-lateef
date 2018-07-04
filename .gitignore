@@ -23,7 +23,7 @@ dbg_*.txt
 *(Autosaved)*
 
 
-# OS X
+# macOS
 *.DS_STORE
 *__MACOSX
 .Spotlight-V100
@@ -70,9 +70,10 @@ $RECYCLE.BIN/
 # Fontforge temporary backups
 *.sfd-*
 
-# Opaque formats to keep out of git
+# Proprietary formats to keep out of git
 *.fog
 *.vfc
+*.glyphs
 
 # generated releases
 *.zip
