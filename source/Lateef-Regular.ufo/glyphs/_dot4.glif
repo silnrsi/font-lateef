@@ -36,21 +36,4 @@
       <point x="0" y="0" type="move" name="_center"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.ttprogram</key>
-      <data>
-        <ttProgram>
-          <ttc align="center" code="alignh" point="ah01"/>
-          <ttc code="singleh" point1="ah01" point2="sh01" round="true"/>
-          <ttc code="singleh" point1="ah01" point2="sh02"/>
-          <ttc code="singleh" point1="sh01" point2="sh03"/>
-          <ttc align="center" code="alignv" point="av01"/>
-          <ttc code="singlev" point1="av01" point2="sv01" round="true"/>
-          <ttc code="singlev" point1="sv01" point2="sv02"/>
-          <ttc code="singlev" point1="av01" point2="sv03"/>
-        </ttProgram>
-      </data>
-    </dict>
-  </lib>
 </glyph>

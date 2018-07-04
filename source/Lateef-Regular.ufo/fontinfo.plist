@@ -12,14 +12,12 @@
   <integer>-1488</integer>
   <key>familyName</key>
   <string>Lateef</string>
-  <key>italicAngle</key>
-  <integer>0</integer>
   <key>macintoshFONDFamilyID</key>
   <integer>18106</integer>
   <key>macintoshFONDName</key>
   <string>Lateef</string>
   <key>openTypeHeadCreated</key>
-  <string>2083/03/03 21:43:07</string>
+  <string>2018/06/28 16:34:05</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
@@ -83,6 +81,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
   <string>http://www.sil.org/</string>
+  <key>openTypeNamePreferredFamilyName</key>
+  <string>Lateef</string>
+  <key>openTypeNamePreferredSubfamilyName</key>
+  <string>Regular</string>
   <key>openTypeNameSampleText</key>
   <string/>
   <key>openTypeNameUniqueID</key>
@@ -198,13 +200,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>53</integer>
   </array>
   <key>postscriptUnderlinePosition</key>
-  <real>-59.5</real>
+  <integer>-59</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>9</integer>
   <key>postscriptUniqueID</key>
   <integer>4956588</integer>
-  <key>postscriptWeightName</key>
-  <string>Regular</string>
   <key>styleMapFamilyName</key>
   <string>Lateef</string>
   <key>styleMapStyleName</key>

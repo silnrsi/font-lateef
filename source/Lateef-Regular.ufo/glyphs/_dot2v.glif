@@ -24,17 +24,4 @@
       <point x="0" y="0" type="move" name="_center"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontlab.ttprogram</key>
-      <data>
-        <ttProgram>
-          <ttc align="center" code="alignh" point="ah01"/>
-          <ttc align="center" code="alignh" point="ah02"/>
-          <ttc align="center" code="alignv" point="av01"/>
-          <ttc code="singlev" point1="av01" point2="sv01" round="true"/>
-        </ttProgram>
-      </data>
-    </dict>
-  </lib>
 </glyph>
