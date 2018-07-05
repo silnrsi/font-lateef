@@ -1,0 +1,12 @@
+#!/bin/sh
+# Sample script for calling multiple routines on a project, typically prior to committing to a repository.
+# Place this in root of a project, adjust the font path, then set it to be executable by typing:
+# chmod +x preflight
+
+# This section contains commands that run every time
+echo
+echo "Converting Glyphs to UFO3..."
+psfglyphs2ufo source/Lateef-Regular.glyphs source
+
+# Continue with normal preflight
+./preflight
