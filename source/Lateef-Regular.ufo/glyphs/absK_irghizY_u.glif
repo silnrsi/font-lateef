@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absKirghizYu" format="1">
+<glyph name="absKirghizYu" format="2">
   <advance width="612"/>
   <unicode hex="06C9"/>
+  <anchor x="91" y="825" name="alef"/>
+  <anchor x="313" y="923" name="diaA"/>
+  <anchor x="142" y="-425" name="diaB"/>
   <outline>
     <component base="absWaw"/>
     <component base="_hat" xOffset="396" yOffset="494"/>
-    <contour>
-      <point x="91" y="825" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="313" y="923" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="142" y="-425" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

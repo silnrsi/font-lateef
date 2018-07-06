@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absGhainDotBelowMed" format="1">
+<glyph name="absGhainDotBelowMed" format="2">
   <advance width="709"/>
+  <anchor x="312" y="948" name="diaA"/>
+  <anchor x="231" y="-344" name="diaB"/>
   <outline>
     <component base="absAinMed"/>
     <component base="_dot1" xOffset="361" yOffset="766"/>
     <component base="_dot1" xOffset="374" yOffset="-180"/>
-    <contour>
-      <point x="312" y="948" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="231" y="-344" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absYehBarreeHamzaAboveFin" format="1">
+<glyph name="absYehBarreeHamzaAboveFin" format="2">
   <advance width="1113"/>
+  <anchor x="615" y="701" name="diaA"/>
+  <anchor x="340" y="-640" name="diaB"/>
   <outline>
     <component base="absYehBarreeFin"/>
     <component base="_hamza" xOffset="631" yOffset="448"/>
-    <contour>
-      <point x="615" y="701" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="340" y="-640" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

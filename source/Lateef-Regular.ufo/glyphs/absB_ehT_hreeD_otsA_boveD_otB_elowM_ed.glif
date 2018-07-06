@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absBehThreeDotsAboveDotBelowMed" format="1">
+<glyph name="absBehThreeDotsAboveDotBelowMed" format="2">
   <advance width="440"/>
+  <anchor x="48" y="897" name="alef"/>
+  <anchor x="158" y="980" name="diaA"/>
+  <anchor x="154" y="-417" name="diaB"/>
   <outline>
     <component base="absBehNoDotsMed"/>
     <component base="_dot3u" xOffset="212" yOffset="672"/>
     <component base="_dot1" xOffset="203" yOffset="-230"/>
-    <contour>
-      <point x="48" y="897" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="158" y="980" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="154" y="-417" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

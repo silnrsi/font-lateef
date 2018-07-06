@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absFehIni" format="1">
+<glyph name="absFehIni" format="2">
   <advance width="487"/>
+  <anchor x="178" y="1065" name="diaA"/>
+  <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="absDotlessFehIni"/>
     <component base="_dot1" xOffset="256" yOffset="878"/>
-    <contour>
-      <point x="178" y="1065" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="202" y="-202" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

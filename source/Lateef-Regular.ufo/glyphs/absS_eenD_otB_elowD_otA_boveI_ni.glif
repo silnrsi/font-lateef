@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absSeenDotBelowDotAboveIni" format="1">
+<glyph name="absSeenDotBelowDotAboveIni" format="2">
   <advance width="850"/>
+  <anchor x="125" y="595" name="alef"/>
+  <anchor x="353" y="758" name="diaA"/>
+  <anchor x="251" y="-352" name="diaB"/>
   <outline>
     <component base="absSeenIni"/>
     <component base="_dot1" xOffset="486" yOffset="604"/>
     <component base="_dot1" xOffset="480" yOffset="-217"/>
-    <contour>
-      <point x="125" y="595" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="353" y="758" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="251" y="-352" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

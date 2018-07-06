@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absLamSmallVIni.preAlef" format="1">
+<glyph name="absLamSmallVIni.preAlef" format="2">
   <advance width="346"/>
+  <anchor x="-13" y="814" name="alef"/>
+  <anchor x="183" y="1569" name="diaA"/>
+  <anchor x="125" y="-300" name="diaB"/>
+  <anchor x="-2" y="0" name="exit"/>
   <outline>
     <component base="absLamIni.preAlef"/>
     <component base="_smallV" xOffset="195" yOffset="1332"/>
-    <contour>
-      <point x="-13" y="814" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="183" y="1569" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="125" y="-300" type="move" name="diaB"/>
-    </contour>
-    <contour>
-      <point x="-2" y="0" type="move" name="exit"/>
-    </contour>
   </outline>
 </glyph>

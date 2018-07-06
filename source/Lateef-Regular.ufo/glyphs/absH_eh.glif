@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absHeh" format="1">
+<glyph name="absHeh" format="2">
   <advance width="471"/>
   <unicode hex="0647"/>
+  <anchor x="177" y="830" name="diaA"/>
+  <anchor x="177" y="-202" name="diaB"/>
   <outline>
     <component base="absAe"/>
-    <contour>
-      <point x="177" y="830" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="177" y="-202" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

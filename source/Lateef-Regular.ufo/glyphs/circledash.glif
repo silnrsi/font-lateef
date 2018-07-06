@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circledash" format="1">
+<glyph name="circledash" format="2">
   <advance width="1024"/>
   <unicode hex="25CC"/>
+  <anchor x="512" y="1060" name="diaA"/>
+  <anchor x="512" y="-49" name="diaB"/>
   <outline>
     <contour>
       <point x="836" y="803" type="curve"/>
@@ -226,12 +228,6 @@
       <point x="221" y="188" type="curve" smooth="yes"/>
       <point x="238" y="188"/>
       <point x="252" y="203"/>
-    </contour>
-    <contour>
-      <point x="512" y="1060" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="512" y="-49" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

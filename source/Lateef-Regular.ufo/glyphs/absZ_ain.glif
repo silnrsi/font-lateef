@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absZain" format="1">
+<glyph name="absZain" format="2">
   <advance width="590"/>
   <unicode hex="0632"/>
+  <anchor x="114" y="730" name="alef"/>
+  <anchor x="280" y="830" name="diaA"/>
+  <anchor x="167" y="-474" name="diaB"/>
   <outline>
     <component base="absReh"/>
     <component base="_dot1" xOffset="376" yOffset="616"/>
-    <contour>
-      <point x="114" y="730" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="280" y="830" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="167" y="-474" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

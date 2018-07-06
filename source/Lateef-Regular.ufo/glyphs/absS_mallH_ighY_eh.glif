@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absSmallHighYeh" format="1">
+<glyph name="absSmallHighYeh" format="2">
   <advance width="0"/>
   <unicode hex="06E7"/>
+  <anchor x="3" y="996" name="_diaA"/>
+  <anchor x="3" y="1493" name="diaA"/>
   <outline>
     <contour>
       <point x="381" y="1087" type="curve"/>
@@ -52,12 +54,6 @@
       <point x="223" y="1036" type="curve" smooth="yes"/>
       <point x="317" y="1053"/>
       <point x="381" y="1083"/>
-    </contour>
-    <contour>
-      <point x="3" y="996" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="3" y="1493" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

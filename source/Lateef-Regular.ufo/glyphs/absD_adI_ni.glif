@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absDadIni" format="1">
+<glyph name="absDadIni" format="2">
   <advance width="1168"/>
+  <anchor x="125" y="595" name="alef"/>
+  <anchor x="482" y="834" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
   <outline>
     <component base="absSadIni"/>
     <component base="_dot1" xOffset="548" yOffset="641"/>
-    <contour>
-      <point x="125" y="595" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="482" y="834" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="300" y="-202" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

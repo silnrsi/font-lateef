@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absDahalFin" format="1">
+<glyph name="absDahalFin" format="2">
   <advance width="739"/>
+  <anchor x="182" y="1178" name="alef"/>
+  <anchor x="417" y="1267" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
   <outline>
     <component base="absDalFin"/>
     <component base="_dot2h" xOffset="474" yOffset="1003"/>
-    <contour>
-      <point x="182" y="1178" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="417" y="1267" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="300" y="-202" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

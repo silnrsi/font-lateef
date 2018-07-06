@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absNoonDotBelowIni" format="1">
+<glyph name="absNoonDotBelowIni" format="2">
   <advance width="338"/>
+  <anchor x="134" y="923" name="diaA"/>
+  <anchor x="150" y="-405" name="diaB"/>
   <outline>
     <component base="absBehNoDotsIni"/>
     <component base="_dot1" xOffset="206" yOffset="710"/>
     <component base="_dot1" xOffset="199" yOffset="-230"/>
-    <contour>
-      <point x="134" y="923" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="150" y="-405" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

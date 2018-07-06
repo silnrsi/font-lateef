@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absAlefMaksuraIni" format="1">
+<glyph name="absAlefMaksuraIni" format="2">
   <advance width="338"/>
+  <anchor x="105" y="700" name="diaA"/>
+  <anchor x="150" y="-202" name="diaB"/>
   <outline>
     <component base="absBehNoDotsIni"/>
-    <contour>
-      <point x="105" y="700" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="150" y="-202" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

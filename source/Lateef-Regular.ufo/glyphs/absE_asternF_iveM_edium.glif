@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absEasternFiveMedium" format="1">
+<glyph name="absEasternFiveMedium" format="2">
   <advance width="704"/>
+  <anchor x="0" y="0" name="_digit"/>
+  <anchor x="704" y="0" name="digit"/>
   <outline>
     <contour>
       <point x="379" y="758" type="curve"/>
@@ -44,12 +46,6 @@
       <point x="268" y="221" type="curve" smooth="yes"/>
       <point x="229" y="221"/>
       <point x="195" y="246"/>
-    </contour>
-    <contour>
-      <point x="0" y="0" type="move" name="_digit"/>
-    </contour>
-    <contour>
-      <point x="704" y="0" type="move" name="digit"/>
     </contour>
   </outline>
 </glyph>

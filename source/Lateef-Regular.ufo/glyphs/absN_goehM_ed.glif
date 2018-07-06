@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absNgoehMed" format="1">
+<glyph name="absNgoehMed" format="2">
   <advance width="932"/>
+  <anchor x="53" y="1377" name="diaA"/>
+  <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="absKafMed"/>
     <component base="_gafBar_dot2h" xOffset="-42" yOffset="841"/>
-    <contour>
-      <point x="53" y="1377" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="150" y="-200" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

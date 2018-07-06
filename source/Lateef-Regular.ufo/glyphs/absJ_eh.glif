@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absJeh" format="1">
+<glyph name="absJeh" format="2">
   <advance width="590"/>
   <unicode hex="0698"/>
+  <anchor x="114" y="936" name="alef"/>
+  <anchor x="272" y="1020" name="diaA"/>
+  <anchor x="167" y="-474" name="diaB"/>
   <outline>
     <component base="absReh"/>
     <component base="_dot3u" xOffset="376" yOffset="722"/>
-    <contour>
-      <point x="114" y="936" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="272" y="1020" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="167" y="-474" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absShaddaDamma" format="1">
+<glyph name="absShaddaDamma" format="2">
   <advance width="0"/>
+  <anchor x="155" y="1051" name="_diaA"/>
+  <anchor x="155" y="1730" name="diaA"/>
   <outline>
     <contour>
       <point x="201" y="1118" type="curve" smooth="yes"/>
@@ -87,12 +89,6 @@
       <point x="181" y="1523" type="curve"/>
       <point x="162" y="1535"/>
       <point x="136" y="1559"/>
-    </contour>
-    <contour>
-      <point x="155" y="1051" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="155" y="1730" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

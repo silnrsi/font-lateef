@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absHehHatMed" format="1">
+<glyph name="absHehHatMed" format="2">
   <advance width="811"/>
+  <anchor x="117" y="1013" name="alef"/>
+  <anchor x="298" y="1126" name="diaA"/>
+  <anchor x="229" y="-298" name="diaB"/>
   <outline>
     <component base="_hat" xOffset="349" yOffset="686"/>
     <component base="absHehMed.knottedHigh"/>
-    <contour>
-      <point x="117" y="1013" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="298" y="1126" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="229" y="-298" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

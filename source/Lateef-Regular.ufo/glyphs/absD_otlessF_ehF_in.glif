@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absDotlessFehFin" format="1">
+<glyph name="absDotlessFehFin" format="2">
   <advance width="1272"/>
+  <anchor x="1053" y="667" name="above"/>
+  <anchor x="246" y="698" name="alef"/>
+  <anchor x="904" y="-44" name="below"/>
+  <anchor x="669" y="700" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
   <outline>
     <contour>
       <point x="1313" y="0" type="line"/>
@@ -63,21 +68,6 @@
       <point x="1030" y="426" type="curve" smooth="yes"/>
       <point x="1077" y="426"/>
       <point x="1108" y="375"/>
-    </contour>
-    <contour>
-      <point x="1053" y="667" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="246" y="698" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="904" y="-44" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="669" y="700" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="300" y="-202" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absSmallHighThreeDots" format="1">
+<glyph name="absSmallHighThreeDots" format="2">
   <advance width="0"/>
   <unicode hex="06DB"/>
+  <anchor x="0" y="999" name="_diaA"/>
+  <anchor x="0" y="1214" name="diaA"/>
   <outline>
     <contour>
       <point x="27" y="1161" type="curve"/>
@@ -48,12 +50,6 @@
       <point x="43" y="1024" type="curve" smooth="yes"/>
       <point x="49" y="1024"/>
       <point x="78" y="1067"/>
-    </contour>
-    <contour>
-      <point x="0" y="999" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="0" y="1214" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absGhainMed" format="1">
+<glyph name="absGhainMed" format="2">
   <advance width="709"/>
+  <anchor x="313" y="920" name="diaA"/>
+  <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="absAinMed"/>
     <component base="_dot1" xOffset="361" yOffset="766"/>
-    <contour>
-      <point x="313" y="920" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="202" y="-202" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

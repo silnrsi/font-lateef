@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absDammatan.sixNine" format="1">
+<glyph name="absDammatan.sixNine" format="2">
   <advance width="0"/>
+  <anchor x="187" y="1048" name="_diaA"/>
+  <anchor x="187" y="1699" name="diaA"/>
   <outline>
     <contour>
       <point x="331" y="1213" type="line"/>
@@ -95,12 +97,6 @@
       <point x="-37" y="1430" type="curve"/>
       <point x="-18" y="1418"/>
       <point x="8" y="1394"/>
-    </contour>
-    <contour>
-      <point x="187" y="1048" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="187" y="1699" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

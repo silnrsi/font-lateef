@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absAinThreeDotsAbove" format="1">
+<glyph name="absAinThreeDotsAbove" format="2">
   <advance width="800"/>
   <unicode hex="06A0"/>
+  <anchor x="184" y="1243" name="diaA"/>
+  <anchor x="273" y="-830" name="diaB"/>
   <outline>
     <component base="absAin"/>
     <component base="_dot3u" xOffset="237" yOffset="958"/>
-    <contour>
-      <point x="184" y="1243" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="273" y="-830" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absShortVowelMark" format="1">
+<glyph name="absShortVowelMark" format="2">
   <advance width="0"/>
   <unicode hex="08FF"/>
+  <anchor x="107" y="973" name="_diaA"/>
+  <anchor x="107" y="1286" name="diaA"/>
   <outline>
     <contour>
       <point x="18" y="1194" type="line"/>
@@ -18,12 +20,6 @@
       <point x="238" y="1247"/>
       <point x="127" y="1255"/>
       <point x="45" y="1266" type="curve"/>
-    </contour>
-    <contour>
-      <point x="107" y="973" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="107" y="1286" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

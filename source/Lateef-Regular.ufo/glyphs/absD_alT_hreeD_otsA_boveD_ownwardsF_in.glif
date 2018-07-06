@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absDalThreeDotsAboveDownwardsFin" format="1">
+<glyph name="absDalThreeDotsAboveDownwardsFin" format="2">
   <advance width="739"/>
+  <anchor x="174" y="1376" name="alef"/>
+  <anchor x="417" y="1446" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
   <outline>
     <component base="absDalFin"/>
     <component base="_dot3d" xOffset="474" yOffset="1109"/>
-    <contour>
-      <point x="174" y="1376" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="417" y="1446" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="300" y="-202" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absSignSindhiAmpersand" format="1">
+<glyph name="absSignSindhiAmpersand" format="2">
   <advance width="609"/>
   <unicode hex="06FD"/>
+  <anchor x="310" y="620" name="diaA"/>
+  <anchor x="289" y="-510" name="diaB"/>
   <outline>
     <component base="absHamza"/>
     <component base="_lines" xOffset="304"/>
-    <contour>
-      <point x="310" y="620" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="289" y="-510" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

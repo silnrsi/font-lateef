@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absQafNoDotsMed" format="1">
+<glyph name="absQafNoDotsMed" format="2">
   <advance width="563"/>
+  <anchor x="239" y="769" name="diaA"/>
+  <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="absDotlessFehMed"/>
-    <contour>
-      <point x="239" y="769" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="202" y="-202" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absBehInvSmallVBelowMed" format="1">
+<glyph name="absBehInvSmallVBelowMed" format="2">
   <advance width="440"/>
+  <anchor x="52" y="599" name="alef"/>
+  <anchor x="185" y="700" name="diaA"/>
+  <anchor x="170" y="-454" name="diaB"/>
   <outline>
     <component base="absBehNoDotsMed"/>
     <component base="_invSmallV" xOffset="203" yOffset="-278"/>
-    <contour>
-      <point x="52" y="599" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="185" y="700" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="170" y="-454" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

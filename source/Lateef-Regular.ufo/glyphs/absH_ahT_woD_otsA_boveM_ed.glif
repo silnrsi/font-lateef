@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absHahTwoDotsAboveMed" format="1">
+<glyph name="absHahTwoDotsAboveMed" format="2">
   <advance width="952"/>
+  <anchor x="161" y="937" name="alef"/>
+  <anchor x="340" y="1004" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
   <outline>
     <component base="absHahMed"/>
     <component base="_dot2h" xOffset="411" yOffset="753"/>
-    <contour>
-      <point x="161" y="937" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="340" y="1004" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="300" y="-202" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

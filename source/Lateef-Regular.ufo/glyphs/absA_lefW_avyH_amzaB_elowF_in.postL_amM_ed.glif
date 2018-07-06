@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absAlefWavyHamzaBelowFin.postLamMed" format="1">
+<glyph name="absAlefWavyHamzaBelowFin.postLamMed" format="2">
   <advance width="550"/>
+  <anchor x="150" y="1000" name="diaA"/>
+  <anchor x="356" y="-719" name="diaB"/>
+  <anchor x="550" y="-100" name="entry"/>
   <outline>
     <component base="absAlefFin.postLamMed"/>
     <component base="_wavyHamza" xOffset="382" yOffset="-526"/>
-    <contour>
-      <point x="150" y="1000" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="356" y="-719" type="move" name="diaB"/>
-    </contour>
-    <contour>
-      <point x="550" y="-100" type="move" name="entry"/>
-    </contour>
   </outline>
 </glyph>

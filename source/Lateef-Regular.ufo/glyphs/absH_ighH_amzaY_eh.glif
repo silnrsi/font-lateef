@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absHighHamzaYeh" format="1">
+<glyph name="absHighHamzaYeh" format="2">
   <advance width="1016"/>
   <unicode hex="0678"/>
+  <anchor x="264" y="543" name="alef"/>
+  <anchor x="478" y="1197" name="diaA"/>
+  <anchor x="200" y="-462" name="diaB"/>
   <outline>
     <component base="_highHamza" xOffset="496" yOffset="827"/>
     <component base="absYeh.noDots"/>
-    <contour>
-      <point x="264" y="543" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="478" y="1197" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="200" y="-462" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

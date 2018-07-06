@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="_hamza" format="1">
+<glyph name="_hamza" format="2">
   <advance width="0"/>
+  <anchor x="-16" y="-212" name="_above"/>
+  <anchor x="-27" y="240" name="_below"/>
   <outline>
     <contour>
       <point x="45" y="92" type="curve" smooth="yes"/>
@@ -34,12 +36,6 @@
       <point x="-16" y="109" type="curve" smooth="yes"/>
       <point x="8" y="109"/>
       <point x="25" y="92"/>
-    </contour>
-    <contour>
-      <point x="-16" y="-212" type="move" name="_above"/>
-    </contour>
-    <contour>
-      <point x="-27" y="240" type="move" name="_below"/>
     </contour>
   </outline>
 </glyph>

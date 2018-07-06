@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absKaf" format="1">
+<glyph name="absKaf" format="2">
   <advance width="1014"/>
   <unicode hex="0643"/>
+  <anchor x="880" y="1166" name="above"/>
+  <anchor x="242" y="773" name="alef"/>
+  <anchor x="729" y="-56" name="below"/>
+  <anchor x="521" y="1174" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
   <outline>
     <contour>
       <point x="49" y="218" type="curve" smooth="yes"/>
@@ -76,21 +81,6 @@
       <point x="483" y="403" type="curve" smooth="yes"/>
       <point x="594" y="403"/>
       <point x="689" y="497"/>
-    </contour>
-    <contour>
-      <point x="880" y="1166" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="242" y="773" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="729" y="-56" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="521" y="1174" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="300" y="-202" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absNoonTwoDotsBelowFin" format="1">
+<glyph name="absNoonTwoDotsBelowFin" format="2">
   <advance width="907"/>
+  <anchor x="182" y="532" name="alef"/>
+  <anchor x="338" y="692" name="diaA"/>
+  <anchor x="293" y="-802" name="diaB"/>
   <outline>
     <component base="absNoonGhunnaFin"/>
     <component base="_dot1" xOffset="385" yOffset="367"/>
     <component base="_dot2h" xOffset="348" yOffset="-641"/>
-    <contour>
-      <point x="182" y="532" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="338" y="692" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="293" y="-802" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

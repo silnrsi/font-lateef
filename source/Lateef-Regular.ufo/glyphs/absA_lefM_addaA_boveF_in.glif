@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absAlefMaddaAboveFin" format="1">
+<glyph name="absAlefMaddaAboveFin" format="2">
   <advance width="467"/>
+  <anchor x="190" y="1462" name="diaA"/>
+  <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="absAlefFin"/>
     <component base="_madda" xOffset="228" yOffset="1234"/>
-    <contour>
-      <point x="190" y="1462" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="202" y="-202" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absSeenFourDotsAboveFin" format="1">
+<glyph name="absSeenFourDotsAboveFin" format="2">
   <advance width="1463"/>
+  <anchor x="287" y="436" name="alef"/>
+  <anchor x="771" y="958" name="diaA"/>
+  <anchor x="235" y="-522" name="diaB"/>
   <outline>
     <component base="absSeenFin"/>
     <component base="_dot4" xOffset="1024" yOffset="697"/>
-    <contour>
-      <point x="287" y="436" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="771" y="958" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="235" y="-522" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

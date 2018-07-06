@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absTchehMed" format="1">
+<glyph name="absTchehMed" format="2">
   <advance width="952"/>
+  <anchor x="165" y="720" name="alef"/>
+  <anchor x="340" y="725" name="diaA"/>
+  <anchor x="332" y="-530" name="diaB"/>
   <outline>
     <component base="absHahMed"/>
     <component base="_dot3d" xOffset="443" yOffset="-274"/>
-    <contour>
-      <point x="165" y="720" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="340" y="725" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="332" y="-530" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

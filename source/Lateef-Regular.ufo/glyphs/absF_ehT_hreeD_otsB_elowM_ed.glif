@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absFehThreeDotsBelowMed" format="1">
+<glyph name="absFehThreeDotsBelowMed" format="2">
   <advance width="563"/>
+  <anchor x="239" y="769" name="diaA"/>
+  <anchor x="202" y="-587" name="diaB"/>
   <outline>
     <component base="absDotlessFehMed"/>
     <component base="_dot3d" xOffset="249" yOffset="-292"/>
-    <contour>
-      <point x="239" y="769" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="202" y="-587" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

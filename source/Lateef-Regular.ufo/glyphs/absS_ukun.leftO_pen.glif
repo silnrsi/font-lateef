@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absSukun.leftOpen" format="1">
+<glyph name="absSukun.leftOpen" format="2">
   <advance width="0"/>
+  <anchor x="107" y="973" name="_diaA"/>
+  <anchor x="107" y="1286" name="diaA"/>
   <outline>
     <component base="absShortVowelMark"/>
-    <contour>
-      <point x="107" y="973" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="107" y="1286" type="move" name="diaA"/>
-    </contour>
   </outline>
 </glyph>

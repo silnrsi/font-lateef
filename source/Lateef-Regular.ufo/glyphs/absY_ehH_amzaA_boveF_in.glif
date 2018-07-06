@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absYehHamzaAboveFin" format="1">
+<glyph name="absYehHamzaAboveFin" format="2">
   <advance width="1036"/>
+  <anchor x="292" y="603" name="alef"/>
+  <anchor x="556" y="701" name="diaA"/>
+  <anchor x="277" y="-575" name="diaB"/>
   <outline>
     <component base="_hamza" xOffset="572" yOffset="448"/>
     <component base="absYehFin.noDots"/>
-    <contour>
-      <point x="292" y="603" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="556" y="701" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="277" y="-575" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

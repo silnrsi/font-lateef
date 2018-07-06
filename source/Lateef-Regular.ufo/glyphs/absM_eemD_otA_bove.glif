@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absMeemDotAbove" format="1">
+<glyph name="absMeemDotAbove" format="2">
   <advance width="557"/>
   <unicode hex="0765"/>
+  <anchor x="139" y="809" name="alef"/>
+  <anchor x="297" y="901" name="diaA"/>
+  <anchor x="109" y="-719" name="diaB"/>
   <outline>
     <component base="absMeem"/>
     <component base="_dot1" xOffset="317" yOffset="638"/>
-    <contour>
-      <point x="139" y="809" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="297" y="901" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="109" y="-719" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

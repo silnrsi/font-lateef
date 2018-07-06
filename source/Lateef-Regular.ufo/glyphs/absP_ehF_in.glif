@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absPehFin" format="1">
+<glyph name="absPehFin" format="2">
   <advance width="1183"/>
+  <anchor x="272" y="698" name="alef"/>
+  <anchor x="544" y="701" name="diaA"/>
+  <anchor x="216" y="-575" name="diaB"/>
   <outline>
     <component base="absBehNoDotsFin"/>
     <component base="_dot3d" xOffset="506" yOffset="-373"/>
-    <contour>
-      <point x="272" y="698" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="544" y="701" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="216" y="-575" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

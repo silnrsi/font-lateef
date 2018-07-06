@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absRehTwoDotsAbove" format="1">
+<glyph name="absRehTwoDotsAbove" format="2">
   <advance width="590"/>
   <unicode hex="0697"/>
+  <anchor x="126" y="793" name="alef"/>
+  <anchor x="300" y="850" name="diaA"/>
+  <anchor x="167" y="-474" name="diaB"/>
   <outline>
     <component base="absReh"/>
     <component base="_dot2h" xOffset="376" yOffset="616"/>
-    <contour>
-      <point x="126" y="793" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="300" y="850" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="167" y="-474" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

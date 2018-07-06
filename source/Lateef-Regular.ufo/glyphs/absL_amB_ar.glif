@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absLamBar" format="1">
+<glyph name="absLamBar" format="2">
   <advance width="701"/>
   <unicode hex="076A"/>
+  <anchor x="308" y="975" name="alef"/>
+  <anchor x="351" y="1422" name="diaA"/>
+  <anchor x="221" y="-202" name="diaB"/>
   <outline>
     <component base="absLam"/>
     <component base="_bar" xOffset="574" yOffset="730"/>
-    <contour>
-      <point x="308" y="975" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="351" y="1422" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="221" y="-202" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absLamIni.preAlef" format="1">
+<glyph name="absLamIni.preAlef" format="2">
   <advance width="346"/>
+  <anchor x="195" y="1164" name="above"/>
+  <anchor x="-13" y="814" name="alef"/>
+  <anchor x="123" y="-202" name="below"/>
+  <anchor x="84" y="1170" name="diaA"/>
+  <anchor x="125" y="-300" name="diaB"/>
+  <anchor x="-2" y="0" name="exit"/>
+  <anchor x="216" y="648" name="through"/>
   <outline>
     <contour>
       <point x="-8" y="-44" type="curve" smooth="yes"/>
@@ -40,27 +47,6 @@
       <point x="174" y="410" type="curve" smooth="yes"/>
       <point x="174" y="212"/>
       <point x="117" y="16"/>
-    </contour>
-    <contour>
-      <point x="195" y="1164" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="-13" y="814" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="123" y="-202" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="84" y="1170" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="125" y="-300" type="move" name="diaB"/>
-    </contour>
-    <contour>
-      <point x="-2" y="0" type="move" name="exit"/>
-    </contour>
-    <contour>
-      <point x="216" y="648" type="move" name="through"/>
     </contour>
   </outline>
 </glyph>

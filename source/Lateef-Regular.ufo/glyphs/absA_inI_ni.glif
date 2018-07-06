@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absAinIni" format="1">
+<glyph name="absAinIni" format="2">
   <advance width="748"/>
+  <anchor x="361" y="679" name="above"/>
+  <anchor x="361" y="-44" name="below"/>
+  <anchor x="312" y="838" name="diaA"/>
+  <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <contour>
       <point x="-40" y="180" type="line"/>
@@ -37,18 +41,6 @@
       <point x="176" y="272"/>
       <point x="186" y="223"/>
       <point x="207" y="180" type="curve"/>
-    </contour>
-    <contour>
-      <point x="361" y="679" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="361" y="-44" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="312" y="838" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="202" y="-202" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absRehRingFin" format="1">
+<glyph name="absRehRingFin" format="2">
   <advance width="542"/>
+  <anchor x="106" y="678" name="alef"/>
+  <anchor x="325" y="684" name="diaA"/>
+  <anchor x="191" y="-624" name="diaB"/>
   <outline>
     <component base="absRehFin"/>
     <component base="_ring" xOffset="345" yOffset="-375"/>
-    <contour>
-      <point x="106" y="678" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="325" y="684" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="191" y="-624" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

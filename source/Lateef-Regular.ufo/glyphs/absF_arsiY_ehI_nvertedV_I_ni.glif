@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absFarsiYehInvertedVIni" format="1">
+<glyph name="absFarsiYehInvertedVIni" format="2">
   <advance width="338"/>
+  <anchor x="172" y="1050" name="diaA"/>
+  <anchor x="182" y="-437" name="diaB"/>
   <outline>
     <component base="absBehNoDotsIni"/>
     <component base="_hat" xOffset="201" yOffset="600"/>
     <component base="_dot2h" xOffset="199" yOffset="-230"/>
-    <contour>
-      <point x="172" y="1050" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="182" y="-437" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absKehehDotAboveIni" format="1">
+<glyph name="absKehehDotAboveIni" format="2">
   <advance width="633"/>
+  <anchor x="121" y="1223" name="diaA"/>
+  <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="absKafIni"/>
     <component base="_dot1" xOffset="75" yOffset="1028"/>
-    <contour>
-      <point x="121" y="1223" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="150" y="-200" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

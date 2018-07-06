@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absYehTail" format="1">
+<glyph name="absYehTail" format="2">
   <advance width="1148"/>
   <unicode hex="06CD"/>
+  <anchor x="428" y="535" name="alef"/>
+  <anchor x="552" y="700" name="diaA"/>
+  <anchor x="300" y="-462" name="diaB"/>
   <outline>
     <contour>
       <point x="1035" y="389" type="curve"/>
@@ -70,15 +73,6 @@
       <point x="988" y="432" type="curve" smooth="yes"/>
       <point x="1009" y="432"/>
       <point x="1027" y="403"/>
-    </contour>
-    <contour>
-      <point x="428" y="535" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="552" y="700" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="300" y="-462" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

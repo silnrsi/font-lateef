@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absDamma.filled" format="1">
+<glyph name="absDamma.filled" format="2">
   <advance width="0"/>
+  <anchor x="187" y="1048" name="_diaA"/>
+  <anchor x="187" y="1492" name="diaA"/>
   <outline>
     <component base="_damma.filled" xOffset="230" yOffset="1211"/>
-    <contour>
-      <point x="187" y="1048" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="187" y="1492" type="move" name="diaA"/>
-    </contour>
   </outline>
 </glyph>

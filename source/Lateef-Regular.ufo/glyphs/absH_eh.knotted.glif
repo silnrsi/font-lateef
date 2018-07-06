@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absHeh.knotted" format="1">
+<glyph name="absHeh.knotted" format="2">
   <advance width="850"/>
+  <anchor x="246" y="753" name="alef"/>
+  <anchor x="413" y="891" name="diaA"/>
+  <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="absHehDoachashmee"/>
-    <contour>
-      <point x="246" y="753" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="413" y="891" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="150" y="-200" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absEndOfAyah.alt" format="1">
+<glyph name="absEndOfAyah.alt" format="2">
   <advance width="1844"/>
+  <anchor x="570" y="0" name="digit"/>
   <outline>
     <contour>
       <point x="1742" y="467" type="curve"/>
@@ -29,9 +30,6 @@
       <point x="922" y="1266" type="curve" smooth="yes"/>
       <point x="1363" y="1266"/>
       <point x="1720" y="908"/>
-    </contour>
-    <contour>
-      <point x="570" y="0" type="move" name="digit"/>
     </contour>
   </outline>
 </glyph>

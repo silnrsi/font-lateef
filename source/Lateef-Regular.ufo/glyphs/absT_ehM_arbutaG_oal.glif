@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absTehMarbutaGoal" format="1">
+<glyph name="absTehMarbutaGoal" format="2">
   <advance width="471"/>
   <unicode hex="06C3"/>
+  <anchor x="144" y="1122" name="diaA"/>
+  <anchor x="177" y="-202" name="diaB"/>
   <outline>
     <component base="absAe"/>
     <component base="_dot2h" xOffset="200" yOffset="868"/>
-    <contour>
-      <point x="144" y="1122" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="177" y="-202" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absSuperscriptAlef.large" format="1">
+<glyph name="absSuperscriptAlef.large" format="2">
   <advance width="0"/>
+  <anchor x="363" y="233" name="_alef"/>
+  <anchor x="363" y="233" name="_diaA"/>
+  <anchor x="363" y="925" name="diaA"/>
   <outline>
     <contour>
       <point x="317" y="788" type="line"/>
@@ -20,15 +23,6 @@
       <point x="400" y="681"/>
       <point x="399" y="723" type="curve" smooth="yes"/>
       <point x="399" y="905" type="line"/>
-    </contour>
-    <contour>
-      <point x="363" y="233" type="move" name="_alef"/>
-    </contour>
-    <contour>
-      <point x="363" y="233" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="363" y="925" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

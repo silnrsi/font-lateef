@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absHehMed.knottedHigh" format="1">
+<glyph name="absHehMed.knottedHigh" format="2">
   <advance width="811"/>
+  <anchor x="342" y="708" name="above"/>
+  <anchor x="141" y="712" name="alef"/>
+  <anchor x="310" y="-298" name="below"/>
+  <anchor x="253" y="756" name="diaA"/>
+  <anchor x="229" y="-298" name="diaB"/>
   <outline>
     <contour>
       <point x="637" y="63" type="curve"/>
@@ -88,21 +93,6 @@
       <point x="428" y="344" type="line" smooth="yes"/>
       <point x="459" y="344"/>
       <point x="573" y="182"/>
-    </contour>
-    <contour>
-      <point x="342" y="708" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="141" y="712" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="310" y="-298" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="253" y="756" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="229" y="-298" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

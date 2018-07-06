@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absUHamzaAbove.filled" format="1">
+<glyph name="absUHamzaAbove.filled" format="2">
   <advance width="612"/>
+  <anchor x="211" y="954" name="diaA"/>
+  <anchor x="142" y="-425" name="diaB"/>
   <outline>
     <component base="absWaw"/>
     <component base="_hamzaDamma.filled" xOffset="414" yOffset="667"/>
-    <contour>
-      <point x="211" y="954" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="142" y="-425" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

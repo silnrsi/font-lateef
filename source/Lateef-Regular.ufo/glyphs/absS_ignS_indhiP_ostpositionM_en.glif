@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absSignSindhiPostpositionMen" format="1">
+<glyph name="absSignSindhiPostpositionMen" format="2">
   <advance width="912"/>
   <unicode hex="06FE"/>
+  <anchor x="486" y="733" name="diaA"/>
+  <anchor x="150" y="-251" name="diaB"/>
   <outline>
     <component base="absMeem.sindhi"/>
     <component base="_lines" xOffset="637"/>
-    <contour>
-      <point x="486" y="733" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="150" y="-251" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

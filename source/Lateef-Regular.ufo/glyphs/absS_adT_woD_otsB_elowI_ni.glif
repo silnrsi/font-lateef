@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absSadTwoDotsBelowIni" format="1">
+<glyph name="absSadTwoDotsBelowIni" format="2">
   <advance width="1168"/>
+  <anchor x="125" y="595" name="alef"/>
+  <anchor x="519" y="700" name="diaA"/>
+  <anchor x="300" y="-409" name="diaB"/>
   <outline>
     <component base="absSadIni"/>
     <component base="_dot2h" xOffset="548" yOffset="-255"/>
-    <contour>
-      <point x="125" y="595" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="519" y="700" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="300" y="-409" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

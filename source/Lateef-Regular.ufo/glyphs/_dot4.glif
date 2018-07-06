@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="_dot4" format="1">
+<glyph name="_dot4" format="2">
   <advance width="0"/>
+  <anchor x="0" y="-286" name="_above"/>
+  <anchor x="0" y="286" name="_below"/>
+  <anchor x="0" y="0" name="_center"/>
   <outline>
     <contour>
       <point x="212" y="-105" type="line" name="sv03"/>
@@ -25,15 +28,6 @@
       <point x="-105" y="212" type="line" name="ah01"/>
       <point x="-212" y="105" type="line" name="sv01"/>
       <point x="-105" y="1" type="line"/>
-    </contour>
-    <contour>
-      <point x="0" y="-286" type="move" name="_above"/>
-    </contour>
-    <contour>
-      <point x="0" y="286" type="move" name="_below"/>
-    </contour>
-    <contour>
-      <point x="0" y="0" type="move" name="_center"/>
     </contour>
   </outline>
 </glyph>

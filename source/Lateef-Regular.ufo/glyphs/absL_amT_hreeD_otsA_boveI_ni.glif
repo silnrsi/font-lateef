@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absLamThreeDotsAboveIni" format="1">
+<glyph name="absLamThreeDotsAboveIni" format="2">
   <advance width="338"/>
+  <anchor x="0" y="499" name="alef"/>
+  <anchor x="107" y="1706" name="diaA"/>
+  <anchor x="150" y="-202" name="diaB"/>
   <outline>
     <component base="absLamIni"/>
     <component base="_dot3u" xOffset="175" yOffset="1445"/>
-    <contour>
-      <point x="0" y="499" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="107" y="1706" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="150" y="-202" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

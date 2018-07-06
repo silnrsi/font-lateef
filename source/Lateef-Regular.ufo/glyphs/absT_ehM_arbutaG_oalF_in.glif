@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absTehMarbutaGoalFin" format="1">
+<glyph name="absTehMarbutaGoalFin" format="2">
   <advance width="762"/>
+  <anchor x="186" y="736" name="alef"/>
+  <anchor x="349" y="794" name="diaA"/>
+  <anchor x="235" y="-251" name="diaB"/>
   <outline>
     <component base="absHehGoalFin"/>
     <component base="_dot2h" xOffset="402" yOffset="570"/>
-    <contour>
-      <point x="186" y="736" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="349" y="794" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="235" y="-251" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

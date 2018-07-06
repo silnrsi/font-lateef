@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absNoonDotBelow" format="1">
+<glyph name="absNoonDotBelow" format="2">
   <advance width="749"/>
   <unicode hex="06B9"/>
+  <anchor x="172" y="710" name="alef"/>
+  <anchor x="276" y="769" name="diaA"/>
+  <anchor x="231" y="-697" name="diaB"/>
   <outline>
     <component base="absNoonGhunna"/>
     <component base="_dot1" xOffset="329" yOffset="522"/>
     <component base="_dot1" xOffset="374" yOffset="-537"/>
-    <contour>
-      <point x="172" y="710" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="276" y="769" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="231" y="-697" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

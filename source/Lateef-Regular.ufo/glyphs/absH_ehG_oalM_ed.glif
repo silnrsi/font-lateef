@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absHehGoalMed" format="1">
+<glyph name="absHehGoalMed" format="2">
   <advance width="877"/>
+  <anchor x="149" y="637" name="alef"/>
+  <anchor x="428" y="700" name="diaA"/>
+  <anchor x="227" y="-867" name="diaB"/>
   <outline>
     <contour>
       <point x="861" y="180" type="line"/>
@@ -66,15 +69,6 @@
       <point x="289" y="-457"/>
       <point x="338" y="-381"/>
       <point x="379" y="-346" type="curve"/>
-    </contour>
-    <contour>
-      <point x="149" y="637" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="428" y="700" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="227" y="-867" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

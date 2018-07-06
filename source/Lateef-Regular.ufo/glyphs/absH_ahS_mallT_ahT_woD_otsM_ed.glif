@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absHahSmallTahTwoDotsMed" format="1">
+<glyph name="absHahSmallTahTwoDotsMed" format="2">
   <advance width="952"/>
+  <anchor x="165" y="720" name="alef"/>
+  <anchor x="340" y="725" name="diaA"/>
+  <anchor x="381" y="-798" name="diaB"/>
   <outline>
     <component base="absHahMed"/>
     <component base="_dot2h_tah" xOffset="443" yOffset="-624"/>
-    <contour>
-      <point x="165" y="720" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="340" y="725" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="381" y="-798" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>
