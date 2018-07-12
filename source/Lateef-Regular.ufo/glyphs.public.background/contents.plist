@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>absAe</key>
+  <string>absA_e.glif</string>
+  <key>absAin</key>
+  <string>absA_in.glif</string>
+  <key>absAinFin</key>
+  <string>absA_inF_in.glif</string>
+  <key>absDalFin</key>
+  <string>absD_alF_in.glif</string>
+  <key>absDotlessFeh</key>
+  <string>absD_otlessF_eh.glif</string>
+  <key>absDotlessFehFin</key>
+  <string>absD_otlessF_ehF_in.glif</string>
+  <key>absHahFin</key>
+  <string>absH_ahF_in.glif</string>
+  <key>absHamza</key>
+  <string>absH_amza.glif</string>
+  <key>absHehDoachashmee</key>
+  <string>absH_ehD_oachashmee.glif</string>
+  <key>absKaf</key>
+  <string>absK_af.glif</string>
+  <key>absLam</key>
+  <string>absL_am.glif</string>
+  <key>absMeem.sindhi</key>
+  <string>absM_eem.sindhi.glif</string>
+  <key>absQafNoDots</key>
+  <string>absQ_afN_oD_ots.glif</string>
+  <key>absRehFin</key>
+  <string>absR_ehF_in.glif</string>
+  <key>absRehLoopFin</key>
+  <string>absR_ehL_oopF_in.glif</string>
+  <key>absSad</key>
+  <string>absS_ad.glif</string>
+  <key>absSadFin</key>
+  <string>absS_adF_in.glif</string>
+  <key>absTah</key>
+  <string>absT_ah.glif</string>
+  <key>absTahFin</key>
+  <string>absT_ahF_in.glif</string>
+  <key>absWaw</key>
+  <string>absW_aw.glif</string>
+</dict>
+</plist>
