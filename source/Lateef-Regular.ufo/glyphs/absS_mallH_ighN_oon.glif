@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absSmallHighNoon" format="2">
-  <advance width="0"/>
   <unicode hex="06E8"/>
   <anchor x="0" y="987" name="_diaA"/>
   <anchor x="0" y="1503" name="diaA"/>

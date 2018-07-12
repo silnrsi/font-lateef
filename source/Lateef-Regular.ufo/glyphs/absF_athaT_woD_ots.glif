@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absFathaTwoDots" format="2">
-  <advance width="0"/>
   <unicode hex="065E"/>
   <anchor x="176" y="1048" name="_diaA"/>
   <anchor x="176" y="1327" name="diaA"/>

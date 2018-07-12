@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absSuperscriptAlef" format="2">
-  <advance width="0"/>
   <unicode hex="0670"/>
   <anchor x="109" y="676" name="_alef"/>
   <anchor x="109" y="676" name="_diaA"/>

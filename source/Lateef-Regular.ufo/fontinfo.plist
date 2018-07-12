@@ -17,7 +17,7 @@
   <key>macintoshFONDName</key>
   <string>Lateef</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/07/06 17:23:08</string>
+  <string>2018/07/12 15:01:48</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
@@ -161,12 +161,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>2742</integer>
   <key>openTypeOS2WinDescent</key>
   <integer>1488</integer>
-  <key>postscriptBlueFuzz</key>
-  <integer>1</integer>
-  <key>postscriptBlueScale</key>
-  <real>0.363636</real>
-  <key>postscriptBlueShift</key>
-  <integer>7</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-23</integer>
@@ -204,7 +198,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>postscriptUnderlineThickness</key>
   <integer>9</integer>
   <key>postscriptUniqueID</key>
-  <integer>4956588</integer>
+  <integer>8</integer>
   <key>styleMapFamilyName</key>
   <string>Lateef</string>
   <key>styleMapStyleName</key>

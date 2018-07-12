@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dot2h_tah" format="2">
-  <advance width="0"/>
   <anchor x="0" y="-180" name="_above"/>
   <anchor x="0" y="636" name="_below"/>
   <anchor x="0" y="188" name="_center"/>

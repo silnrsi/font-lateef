@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absVowelDotBelow" format="2">
-  <advance width="0"/>
   <unicode hex="065C"/>
   <anchor x="0" y="-2" name="_diaB"/>
   <anchor x="0" y="-361" name="diaB"/>

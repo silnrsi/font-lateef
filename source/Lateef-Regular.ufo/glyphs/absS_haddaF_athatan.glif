@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absShaddaFathatan" format="2">
-  <advance width="0"/>
   <anchor x="147" y="1045" name="_diaA"/>
   <anchor x="147" y="1674" name="diaA"/>
   <outline>

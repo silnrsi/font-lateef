@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absEmptyCentreLowStop" format="2">
-  <advance width="0"/>
   <unicode hex="06EA"/>
   <anchor x="0" y="-213" name="_diaB"/>
   <anchor x="0" y="-485" name="diaB"/>

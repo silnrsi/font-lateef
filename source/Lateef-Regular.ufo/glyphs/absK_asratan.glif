@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absKasratan" format="2">
-  <advance width="0"/>
   <unicode hex="064D"/>
   <anchor x="75" y="-403" name="_diaB"/>
   <anchor x="75" y="-790" name="diaB"/>
