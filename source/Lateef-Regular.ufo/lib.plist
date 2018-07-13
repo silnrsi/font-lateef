@@ -135,14 +135,6 @@
       </dict>
     </dict>
   </dict>
-  <key>com.schriftgestaltung.DisplayStrings</key>
-  <array>
-    <string>/absMeemFin.sindhi</string>
-    <string>/absHehFin.knottedHigh</string>
-    <string>/absMeemFin</string>
-    <string>/absTah/absTahFin</string>
-    <string>/absMeemFin.sindhi</string>
-  </array>
   <key>com.schriftgestaltung.TTFStems</key>
   <array>
     <dict>

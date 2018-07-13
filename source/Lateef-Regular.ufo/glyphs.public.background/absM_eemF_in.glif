@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absMeemFin" format="2">
   <advance width="625"/>
-  <anchor x="392" y="401" name="above"/>
-  <anchor x="185" y="532" name="alef"/>
-  <anchor x="402" y="-170" name="below"/>
-  <anchor x="377" y="535" name="diaA"/>
-  <anchor x="130" y="-636" name="diaB"/>
   <outline>
     <contour>
       <point x="648" y="0" type="line" smooth="yes"/>
@@ -20,12 +15,11 @@
       <point x="422" y="224"/>
       <point x="398" y="329" type="curve"/>
       <point x="383" y="334" type="line"/>
-      <point x="338" y="328"/>
-      <point x="280" y="259"/>
-      <point x="283" y="209" type="curve"/>
-      <point x="289" y="215" type="line"/>
-      <point x="244" y="243"/>
-      <point x="169" y="226"/>
+      <point x="366" y="323"/>
+      <point x="322" y="278"/>
+      <point x="306" y="233" type="curve"/>
+      <point x="241" y="233"/>
+      <point x="166" y="221"/>
       <point x="90" y="104" type="curve" smooth="yes"/>
       <point x="57" y="53"/>
       <point x="48" y="10"/>
@@ -37,28 +31,18 @@
       <point x="124" y="-322"/>
       <point x="111" y="-99"/>
       <point x="111" y="23" type="curve"/>
-      <point x="141" y="71"/>
-      <point x="212" y="105"/>
-      <point x="257" y="85" type="curve"/>
-      <point x="246" y="101" type="line"/>
-      <point x="264" y="-19"/>
-      <point x="322" y="-104"/>
+      <point x="139" y="68"/>
+      <point x="182" y="82"/>
+      <point x="248" y="88" type="curve"/>
+      <point x="268" y="-25"/>
+      <point x="325" y="-104"/>
       <point x="412" y="-104" type="curve" smooth="yes"/>
-      <point x="437" y="-104"/>
-      <point x="464" y="-50"/>
-      <point x="461" y="84" type="curve"/>
-      <point x="452" y="76" type="line"/>
-      <point x="496" y="9"/>
-      <point x="547" y="0"/>
+      <point x="436" y="-104"/>
+      <point x="461" y="-56"/>
+      <point x="461" y="63" type="curve"/>
+      <point x="503" y="8"/>
+      <point x="549" y="0"/>
       <point x="582" y="0" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>5</integer>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

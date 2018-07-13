@@ -4,28 +4,44 @@
 <dict>
   <key>absAe</key>
   <string>absA_e.glif</string>
+  <key>absAeFin</key>
+  <string>absA_eF_in.glif</string>
   <key>absAin</key>
   <string>absA_in.glif</string>
   <key>absAinFin</key>
   <string>absA_inF_in.glif</string>
+  <key>absAinMed</key>
+  <string>absA_inM_ed.glif</string>
   <key>absDalFin</key>
   <string>absD_alF_in.glif</string>
   <key>absDotlessFeh</key>
   <string>absD_otlessF_eh.glif</string>
   <key>absDotlessFehFin</key>
   <string>absD_otlessF_ehF_in.glif</string>
+  <key>absDotlessFehMed</key>
+  <string>absD_otlessF_ehM_ed.glif</string>
   <key>absHahFin</key>
   <string>absH_ahF_in.glif</string>
+  <key>absHahMed</key>
+  <string>absH_ahM_ed.glif</string>
   <key>absHamza</key>
   <string>absH_amza.glif</string>
   <key>absHehDoachashmee</key>
   <string>absH_ehD_oachashmee.glif</string>
   <key>absHehDoachashmeeFin</key>
   <string>absH_ehD_oachashmeeF_in.glif</string>
+  <key>absHehDoachashmeeMed</key>
+  <string>absH_ehD_oachashmeeM_ed.glif</string>
+  <key>absHehFin.knottedHigh</key>
+  <string>absH_ehF_in.knottedH_igh.glif</string>
+  <key>absHehMed.knottedHigh</key>
+  <string>absH_ehM_ed.knottedH_igh.glif</string>
   <key>absKaf</key>
   <string>absK_af.glif</string>
   <key>absKafFin</key>
   <string>absK_afF_in.glif</string>
+  <key>absKafMed</key>
+  <string>absK_afM_ed.glif</string>
   <key>absKehehFin</key>
   <string>absK_ehehF_in.glif</string>
   <key>absLam</key>
@@ -34,6 +50,10 @@
   <string>absL_amF_in.glif</string>
   <key>absMeem.sindhi</key>
   <string>absM_eem.sindhi.glif</string>
+  <key>absMeemFin</key>
+  <string>absM_eemF_in.glif</string>
+  <key>absMeemMed</key>
+  <string>absM_eemM_ed.glif</string>
   <key>absQafNoDots</key>
   <string>absQ_afN_oD_ots.glif</string>
   <key>absRehFin</key>
@@ -44,12 +64,18 @@
   <string>absS_ad.glif</string>
   <key>absSadFin</key>
   <string>absS_adF_in.glif</string>
+  <key>absSadMed</key>
+  <string>absS_adM_ed.glif</string>
   <key>absSwashKafFin</key>
   <string>absS_washK_afF_in.glif</string>
+  <key>absSwashKafMed</key>
+  <string>absS_washK_afM_ed.glif</string>
   <key>absTah</key>
   <string>absT_ah.glif</string>
   <key>absTahFin</key>
   <string>absT_ahF_in.glif</string>
+  <key>absTahMed</key>
+  <string>absT_ahM_ed.glif</string>
   <key>absWaw</key>
   <string>absW_aw.glif</string>
 </dict>
