@@ -135,6 +135,8 @@
       </dict>
     </dict>
   </dict>
+  <key>com.schriftgestaltung.EditView Line Height</key>
+  <integer>1875</integer>
   <key>com.schriftgestaltung.TTFStems</key>
   <array>
     <dict>
@@ -224,7 +226,7 @@
   <key>com.schriftgestaltung.widthValue</key>
   <integer>100</integer>
   <key>org.sil.glyphsappversion</key>
-  <string>1141</string>
+  <string>1134</string>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
