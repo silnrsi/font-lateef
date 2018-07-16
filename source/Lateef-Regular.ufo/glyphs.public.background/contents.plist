@@ -2,6 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>_damma</key>
+  <string>_damma.glif</string>
+  <key>_dot1_tah</key>
+  <string>_dot1_tah.glif</string>
+  <key>_dot2h_tah</key>
+  <string>_dot2h_tah.glif</string>
+  <key>_dot3u_tah</key>
+  <string>_dot3u_tah.glif</string>
+  <key>_hamzaDamma</key>
+  <string>_hamzaD_amma.glif</string>
+  <key>_tah</key>
+  <string>_tah.glif</string>
   <key>absAe</key>
   <string>absA_e.glif</string>
   <key>absAeFin</key>
@@ -14,22 +26,40 @@
   <string>absA_inM_ed.glif</string>
   <key>absDalFin</key>
   <string>absD_alF_in.glif</string>
+  <key>absDamma</key>
+  <string>absD_amma.glif</string>
+  <key>absDammatan</key>
+  <string>absD_ammatan.glif</string>
+  <key>absDammatan.sixNine</key>
+  <string>absD_ammatan.sixN_ine.glif</string>
   <key>absDotlessFeh</key>
   <string>absD_otlessF_eh.glif</string>
   <key>absDotlessFehFin</key>
   <string>absD_otlessF_ehF_in.glif</string>
+  <key>absDotlessFehIni</key>
+  <string>absD_otlessF_ehI_ni.glif</string>
   <key>absDotlessFehMed</key>
   <string>absD_otlessF_ehM_ed.glif</string>
+  <key>absEasternNine</key>
+  <string>absE_asternN_ine.glif</string>
+  <key>absEasternNineMedium</key>
+  <string>absE_asternN_ineM_edium.glif</string>
+  <key>absEasternNineSmall</key>
+  <string>absE_asternN_ineS_mall.glif</string>
   <key>absHahFin</key>
   <string>absH_ahF_in.glif</string>
   <key>absHahMed</key>
   <string>absH_ahM_ed.glif</string>
   <key>absHamza</key>
   <string>absH_amza.glif</string>
+  <key>absHamzaDamma</key>
+  <string>absH_amzaD_amma.glif</string>
   <key>absHehDoachashmee</key>
   <string>absH_ehD_oachashmee.glif</string>
   <key>absHehDoachashmeeFin</key>
   <string>absH_ehD_oachashmeeF_in.glif</string>
+  <key>absHehDoachashmeeIni</key>
+  <string>absH_ehD_oachashmeeI_ni.glif</string>
   <key>absHehDoachashmeeMed</key>
   <string>absH_ehD_oachashmeeM_ed.glif</string>
   <key>absHehFin.knottedHigh</key>
@@ -48,24 +78,50 @@
   <string>absL_am.glif</string>
   <key>absLamFin</key>
   <string>absL_amF_in.glif</string>
+  <key>absLigatureAllah</key>
+  <string>absL_igatureA_llah.glif</string>
   <key>absMeem.sindhi</key>
   <string>absM_eem.sindhi.glif</string>
   <key>absMeemFin</key>
   <string>absM_eemF_in.glif</string>
+  <key>absMeemIni</key>
+  <string>absM_eemI_ni.glif</string>
   <key>absMeemMed</key>
   <string>absM_eemM_ed.glif</string>
+  <key>absNine</key>
+  <string>absN_ine.glif</string>
+  <key>absNineSmall</key>
+  <string>absN_ineS_mall.glif</string>
   <key>absQafNoDots</key>
   <string>absQ_afN_oD_ots.glif</string>
+  <key>absQafNoDotsFin</key>
+  <string>absQ_afN_oD_otsF_in.glif</string>
   <key>absRehFin</key>
   <string>absR_ehF_in.glif</string>
   <key>absRehLoopFin</key>
   <string>absR_ehL_oopF_in.glif</string>
+  <key>absReversedDamma</key>
+  <string>absR_eversedD_amma.glif</string>
+  <key>absRialSign</key>
+  <string>absR_ialS_ign.glif</string>
   <key>absSad</key>
   <string>absS_ad.glif</string>
   <key>absSadFin</key>
   <string>absS_adF_in.glif</string>
+  <key>absSadIni</key>
+  <string>absS_adI_ni.glif</string>
   <key>absSadMed</key>
   <string>absS_adM_ed.glif</string>
+  <key>absShaddaDamma</key>
+  <string>absS_haddaD_amma.glif</string>
+  <key>absShaddaDammatan</key>
+  <string>absS_haddaD_ammatan.glif</string>
+  <key>absSmallHighLamAlef</key>
+  <string>absS_mallH_ighL_amA_lef.glif</string>
+  <key>absSmallHighQafLamAlefMaksura</key>
+  <string>absS_mallH_ighQ_afL_amA_lefM_aksura.glif</string>
+  <key>absSmallHighSadLamAlefMaksura</key>
+  <string>absS_mallH_ighS_adL_amA_lefM_aksura.glif</string>
   <key>absSwashKafFin</key>
   <string>absS_washK_afF_in.glif</string>
   <key>absSwashKafMed</key>
@@ -74,6 +130,8 @@
   <string>absT_ah.glif</string>
   <key>absTahFin</key>
   <string>absT_ahF_in.glif</string>
+  <key>absTahIni</key>
+  <string>absT_ahI_ni.glif</string>
   <key>absTahMed</key>
   <string>absT_ahM_ed.glif</string>
   <key>absWaw</key>

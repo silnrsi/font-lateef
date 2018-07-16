@@ -4,60 +4,14 @@
   <anchor x="187" y="1048" name="_diaA"/>
   <anchor x="187" y="1492" name="diaA"/>
   <outline>
-    <contour>
-      <point x="37" y="1163" type="line"/>
-      <point x="98" y="1200" type="line"/>
-      <point x="123" y="1174"/>
-      <point x="140" y="1156"/>
-      <point x="180" y="1126" type="curve" smooth="yes"/>
-      <point x="225" y="1092"/>
-      <point x="307" y="1051"/>
-      <point x="307" y="1051" type="curve"/>
-      <point x="334" y="1098" type="line"/>
-      <point x="334" y="1098"/>
-      <point x="264" y="1137"/>
-      <point x="232" y="1159" type="curve" smooth="yes"/>
-      <point x="197" y="1184"/>
-      <point x="144" y="1235"/>
-      <point x="144" y="1235" type="curve"/>
-      <point x="144" y="1235"/>
-      <point x="205" y="1284"/>
-      <point x="211" y="1311" type="curve" smooth="yes"/>
-      <point x="213" y="1321"/>
-      <point x="214" y="1330"/>
-      <point x="214" y="1339" type="curve" smooth="yes"/>
-      <point x="214" y="1435"/>
-      <point x="116" y="1472"/>
-      <point x="79" y="1472" type="curve" smooth="yes"/>
-      <point x="33" y="1472"/>
-      <point x="0" y="1443"/>
-      <point x="0" y="1399" type="curve" smooth="yes"/>
-      <point x="0" y="1330"/>
-      <point x="45" y="1268"/>
-      <point x="61" y="1252" type="curve"/>
-      <point x="2" y="1214" type="line"/>
-    </contour>
-    <contour>
-      <point x="152" y="1345" type="curve" smooth="yes"/>
-      <point x="152" y="1320"/>
-      <point x="126" y="1296"/>
-      <point x="107" y="1284" type="curve"/>
-      <point x="82" y="1305"/>
-      <point x="66" y="1338"/>
-      <point x="66" y="1372" type="curve" smooth="yes"/>
-      <point x="66" y="1398"/>
-      <point x="82" y="1413"/>
-      <point x="100" y="1413" type="curve" smooth="yes"/>
-      <point x="115" y="1413"/>
-      <point x="152" y="1393"/>
-    </contour>
+    <component base="absDamma" xScale="-1" xOffset="333"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>0</integer>
+      <integer>5</integer>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>
