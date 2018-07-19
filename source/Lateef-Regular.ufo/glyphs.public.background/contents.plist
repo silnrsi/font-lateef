@@ -118,10 +118,20 @@
   <string>absS_haddaD_ammatan.glif</string>
   <key>absSmallHighLamAlef</key>
   <string>absS_mallH_ighL_amA_lef.glif</string>
+  <key>absSmallHighMeemInitialForm</key>
+  <string>absS_mallH_ighM_eemI_nitialF_orm.glif</string>
   <key>absSmallHighQafLamAlefMaksura</key>
   <string>absS_mallH_ighQ_afL_amA_lefM_aksura.glif</string>
   <key>absSmallHighSadLamAlefMaksura</key>
   <string>absS_mallH_ighS_adL_amA_lefM_aksura.glif</string>
+  <key>absSmallHighSeen</key>
+  <string>absS_mallH_ighS_een.glif</string>
+  <key>absSmallLowSeen</key>
+  <string>absS_mallL_owS_een.glif</string>
+  <key>absSmallWaw</key>
+  <string>absS_mallW_aw.glif</string>
+  <key>absStartOfRubElHizb</key>
+  <string>absS_tartO_fR_ubE_lH_izb.glif</string>
   <key>absSwashKafFin</key>
   <string>absS_washK_afF_in.glif</string>
   <key>absSwashKafMed</key>
@@ -136,5 +146,11 @@
   <string>absT_ahM_ed.glif</string>
   <key>absWaw</key>
   <string>absW_aw.glif</string>
+  <key>absWawFin</key>
+  <string>absW_awF_in.glif</string>
+  <key>absYehBarree</key>
+  <string>absY_ehB_arree.glif</string>
+  <key>absYehTail</key>
+  <string>absY_ehT_ail.glif</string>
 </dict>
 </plist>

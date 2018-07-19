@@ -11,10 +11,22 @@
       <point x="0" y="-465" type="line"/>
     </contour>
     <contour>
-      <point x="84" y="-352" type="line"/>
-      <point x="0" y="-436" type="line"/>
-      <point x="-84" y="-352" type="line"/>
-      <point x="0" y="-268" type="line"/>
+      <point x="95" y="-341" type="line"/>
+      <point x="-11" y="-447" type="line"/>
+      <point x="11" y="-447" type="line"/>
+      <point x="-95" y="-341" type="line"/>
+      <point x="-95" y="-363" type="line"/>
+      <point x="11" y="-257" type="line"/>
+      <point x="-11" y="-257" type="line"/>
+      <point x="95" y="-363" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
