@@ -30,6 +30,8 @@ Lateef is currently available in Regular weight only.
 Font sources are published in the repository and a smith open workflow is
 used for building, testing and releasing.
 """
+# set up the sile tests (using fontproof)
+testCommand('sile', cmd='${SILE} --debug versions -o "${TGT}" "${SRC[0].abspath()}" -f "${SRC[1]}"', extracmds=['sile'], shapers=0, supports=['.sil'], ext='.pdf')
 
 DEBPKG = 'fonts-sil-lateefgr'
 
