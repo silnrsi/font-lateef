@@ -50,6 +50,7 @@ font(target = process('LateefGR-Regular.ttf', cmd('${TYPETUNER} -o ${TGT} add ${
 	classes = 'source/classes.xml',
 	version = TTF_VERSION,
 	license = ofl('Lateef','SIL'),
+	fret = fret(params='-r -oi'),
 	woff = woff('web/LateefGR-Regular.woff', params = '-v ' + VERSION + ' -m ../source/Lateef-WOFF-metadata.xml'),
 	typetuner = 'source/typetuner.xml',
 	)
