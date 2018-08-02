@@ -4,17 +4,15 @@
   <anchor x="226" y="1053" name="_diaA"/>
   <anchor x="226" y="1437" name="diaA"/>
   <outline>
-    <contour>
-      <point x="59" y="1118" type="line"/>
-      <point x="59" y="1051" type="line"/>
-      <point x="362" y="1212" type="line"/>
-      <point x="362" y="1278" type="line"/>
-    </contour>
-    <contour>
-      <point x="59" y="1260" type="line"/>
-      <point x="59" y="1190" type="line"/>
-      <point x="362" y="1352" type="line"/>
-      <point x="362" y="1417" type="line"/>
-    </contour>
+    <component base="absFatha" xOffset="40" yOffset="140"/>
+    <component base="absFatha" xOffset="40"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

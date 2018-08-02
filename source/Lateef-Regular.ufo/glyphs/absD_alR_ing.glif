@@ -7,6 +7,14 @@
   <anchor x="203" y="-397" name="diaB"/>
   <outline>
     <component base="absDal"/>
-    <component base="_ring" xOffset="278" yOffset="-112"/>
+    <component base="_ring" xOffset="278" yOffset="-115"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

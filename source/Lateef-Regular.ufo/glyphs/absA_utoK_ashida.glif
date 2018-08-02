@@ -5,10 +5,18 @@
   <anchor x="114" y="-200" name="diaB"/>
   <outline>
     <contour>
-      <point x="-27" y="186" type="line"/>
-      <point x="-27" y="0" type="line"/>
-      <point x="256" y="0" type="line"/>
-      <point x="256" y="186" type="line"/>
+      <point x="-20" y="186" type="line"/>
+      <point x="-20" y="0" type="line"/>
+      <point x="276" y="0" type="line"/>
+      <point x="276" y="186" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

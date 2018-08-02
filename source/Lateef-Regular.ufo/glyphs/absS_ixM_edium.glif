@@ -4,32 +4,14 @@
   <anchor x="0" y="0" name="_digit"/>
   <anchor x="704" y="0" name="digit"/>
   <outline>
-    <contour>
-      <point x="102" y="830" type="curve"/>
-      <point x="91" y="813"/>
-      <point x="72" y="579"/>
-      <point x="190" y="560" type="curve" smooth="yes"/>
-      <point x="296" y="542"/>
-      <point x="378" y="578"/>
-      <point x="378" y="578" type="curve"/>
-      <point x="378" y="576"/>
-      <point x="397" y="395"/>
-      <point x="421" y="302" type="curve" smooth="yes"/>
-      <point x="472" y="114"/>
-      <point x="488" y="107"/>
-      <point x="555" y="0" type="curve"/>
-      <point x="606" y="203" type="line"/>
-      <point x="606" y="203"/>
-      <point x="546" y="269"/>
-      <point x="517" y="352" type="curve"/>
-      <point x="464" y="525"/>
-      <point x="446" y="786"/>
-      <point x="446" y="786" type="curve"/>
-      <point x="446" y="786"/>
-      <point x="235" y="717"/>
-      <point x="160" y="762" type="curve" smooth="yes"/>
-      <point x="133" y="779"/>
-      <point x="102" y="830"/>
-    </contour>
+    <component base="absSix" xScale="0.8" yScale="0.8"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

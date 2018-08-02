@@ -4,18 +4,16 @@
   <anchor x="0" y="636" name="_below"/>
   <anchor x="0" y="188" name="_center"/>
   <outline>
-    <contour>
-      <point x="-1" y="0" type="line"/>
-      <point x="-105" y="104" type="line"/>
-      <point x="-212" y="0" type="line"/>
-      <point x="-105" y="-104" type="line"/>
-    </contour>
-    <contour>
-      <point x="212" y="0" type="line"/>
-      <point x="105" y="104" type="line"/>
-      <point x="1" y="0" type="line"/>
-      <point x="105" y="-104" type="line"/>
-    </contour>
     <component base="absTah" xScale="0.37" yScale="0.37" xOffset="-199" yOffset="165"/>
+    <component base="_dot1" xOffset="-104"/>
+    <component base="_dot1" xOffset="104"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

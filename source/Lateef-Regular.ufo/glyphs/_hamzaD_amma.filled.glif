@@ -3,59 +3,15 @@
   <anchor x="-18" y="-173" name="_above"/>
   <anchor x="-27" y="240" name="_below"/>
   <outline>
-    <contour>
-      <point x="220" y="111" type="curve" smooth="yes"/>
-      <point x="243" y="111"/>
-      <point x="265" y="141"/>
-      <point x="265" y="162" type="curve" smooth="yes"/>
-      <point x="265" y="190"/>
-      <point x="226" y="222"/>
-      <point x="198" y="222" type="curve" smooth="yes"/>
-      <point x="157" y="222"/>
-      <point x="-7" y="92"/>
-      <point x="-7" y="48" type="curve" smooth="yes"/>
-      <point x="-7" y="9"/>
-      <point x="38" y="-29"/>
-      <point x="38" y="-53" type="curve" smooth="yes"/>
-      <point x="38" y="-69"/>
-      <point x="-21" y="-126"/>
-      <point x="-32" y="-145" type="curve"/>
-      <point x="-13" y="-171" type="line"/>
-      <point x="56" y="-107"/>
-      <point x="159" y="-60"/>
-      <point x="253" y="-63" type="curve"/>
-      <point x="290" y="-63" type="line"/>
-      <point x="339" y="19" type="line"/>
-      <point x="175" y="19" type="line" smooth="yes"/>
-      <point x="150" y="19"/>
-      <point x="81" y="31"/>
-      <point x="81" y="64" type="curve" smooth="yes"/>
-      <point x="81" y="93"/>
-      <point x="132" y="128"/>
-      <point x="159" y="128" type="curve" smooth="yes"/>
-      <point x="183" y="128"/>
-      <point x="200" y="111"/>
-    </contour>
-    <contour>
-      <point x="-149" y="223" type="curve" smooth="yes"/>
-      <point x="-178" y="223"/>
-      <point x="-235" y="199"/>
-      <point x="-235" y="148" type="curve" smooth="yes"/>
-      <point x="-235" y="104"/>
-      <point x="-198" y="76"/>
-      <point x="-163" y="76" type="curve" smooth="yes"/>
-      <point x="-155" y="76"/>
-      <point x="-141" y="77"/>
-      <point x="-135" y="80" type="curve"/>
-      <point x="-135" y="-10"/>
-      <point x="-163" y="-50"/>
-      <point x="-234" y="-100" type="curve"/>
-      <point x="-222" y="-122" type="line"/>
-      <point x="-166" y="-99"/>
-      <point x="-66" y="-23"/>
-      <point x="-66" y="118" type="curve" smooth="yes"/>
-      <point x="-66" y="174"/>
-      <point x="-87" y="223"/>
-    </contour>
+    <component base="_hamza" xOffset="177" yOffset="21"/>
+    <component base="_damma.filled" xOffset="-140"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

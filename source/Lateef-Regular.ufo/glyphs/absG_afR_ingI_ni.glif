@@ -6,6 +6,14 @@
   <outline>
     <component base="absKafIni"/>
     <component base="_gafBar" xOffset="-23" yOffset="848"/>
-    <component base="_ring" xOffset="407" yOffset="771"/>
+    <component base="_ring" xOffset="406" yOffset="777"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

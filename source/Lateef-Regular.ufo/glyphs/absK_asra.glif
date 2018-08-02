@@ -4,11 +4,14 @@
   <anchor x="66" y="-406" name="_diaB"/>
   <anchor x="66" y="-651" name="diaB"/>
   <outline>
-    <contour>
-      <point x="233" y="-403" type="line"/>
-      <point x="-72" y="-561" type="line"/>
-      <point x="-72" y="-631" type="line"/>
-      <point x="233" y="-471" type="line"/>
-    </contour>
+    <component base="absFatha" xOffset="-90" yOffset="-1682"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>5</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
