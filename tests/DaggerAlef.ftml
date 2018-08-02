@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
+<ftml version='1.0'>
+  <testgroup label='Rendering check'>
+  <test label='Check'><string>RenderingUnknown</string></test>
+  </testgroup>
+  <testgroup label='Representative diacritics on all base chars with non-degenerate joingroup'>
+  <test label='U+0639'><string>\u0639\u0670 \u0639\u0670\u200D \u200D\u0639\u0670\u200D \u200D\u0639\u0670 \u0639\u0670\u0639\u0670\u0639\u0670</string></test>
+  <test label='U+0639' stylename='cv76_1'><string>\u0639\u0670 \u0639\u0670\u200D \u200D\u0639\u0670\u200D \u200D\u0639\u0670 \u0639\u0670\u0639\u0670\u0639\u0670</string></test>
+  <test label='U+0639' stylename='cv76_2'><string>\u0639\u0670 \u0639\u0670\u200D \u200D\u0639\u0670\u200D \u200D\u0639\u0670 \u0639\u0670\u0639\u0670\u0639\u0670</string><comment>absAin</comment></test>
+  <test label='U+063A'><string>\u063A\u0670 \u063A\u0670\u200D \u200D\u063A\u0670\u200D \u200D\u063A\u0670 \u063A\u0670\u063A\u0670\u063A\u0670</string></test>
+  <test label='U+063A' stylename='cv76_1'><string>\u063A\u0670 \u063A\u0670\u200D \u200D\u063A\u0670\u200D \u200D\u063A\u0670 \u063A\u0670\u063A\u0670\u063A\u0670</string></test>
+  <test label='U+063A' stylename='cv76_2'><string>\u063A\u0670 \u063A\u0670\u200D \u200D\u063A\u0670\u200D \u200D\u063A\u0670 \u063A\u0670\u063A\u0670\u063A\u0670</string><comment>absGhain</comment></test>
+  <test label='U+06A0'><string>\u06A0\u0670 \u06A0\u0670\u200D \u200D\u06A0\u0670\u200D \u200D\u06A0\u0670 \u06A0\u0670\u06A0\u0670\u06A0\u0670</string></test>
+  <test label='U+06A0' stylename='cv76_1'><string>\u06A0\u0670 \u06A0\u0670\u200D \u200D\u06A0\u0670\u200D \u200D\u06A0\u0670 \u06A0\u0670\u06A0\u0670\u06A0\u0670</string></test>
+  <test label='U+06A0' stylename='cv76_2'><string>\u06A0\u0670 \u06A0\u0670\u200D \u200D\u06A0\u0670\u200D \u200D\u06A0\u0670 \u06A0\u0670\u06A0\u0670\u06A0\u0670</string><comment>absAinThreeDotsAbove</comment></test>
+  <test label='U+06FC'><string>\u06FC\u0670 \u06FC\u0670\u200D \u200D\u06FC\u0670\u200D \u200D\u06FC\u0670 \u06FC\u0670\u06FC\u0670\u06FC\u0670</string></test>
+  <test label='U+06FC' stylename='cv76_1'><string>\u06FC\u0670 \u06FC\u0670\u200D \u200D\u06FC\u0670\u200D \u200D\u06FC\u0670 \u06FC\u0670\u06FC\u0670\u06FC\u0670</string></test>
+  <test label='U+06FC' stylename='cv76_2'><string>\u06FC\u0670 \u06FC\u0670\u200D \u200D\u06FC\u0670\u200D \u200D\u06FC\u0670 \u06FC\u0670\u06FC\u0670\u06FC\u0670</string><comment>absGhainDotBelow</comment></test>
+  <test label='U+075D'><string>\u075D\u0670 \u075D\u0670\u200D \u200D\u075D\u0670\u200D \u200D\u075D\u0670 \u075D\u0670\u075D\u0670\u075D\u0670</string></test>
+  <test label='U+075D' stylename='cv76_1'><string>\u075D\u0670 \u075D\u0670\u200D \u200D\u075D\u0670\u200D \u200D\u075D\u0670 \u075D\u0670\u075D\u0670\u075D\u0670</string></test>
+  <test label='U+075D' stylename='cv76_2'><string>\u075D\u0670 \u075D\u0670\u200D \u200D\u075D\u0670\u200D \u200D\u075D\u0670 \u075D\u0670\u075D\u0670\u075D\u0670</string><comment>absAinTwoDotsAbove</comment></test>
+  <test label='U+075E'><string>\u075E\u0670 \u075E\u0670\u200D \u200D\u075E\u0670\u200D \u200D\u075E\u0670 \u075E\u0670\u075E\u0670\u075E\u0670</string></test>
+  <test label='U+075E' stylename='cv76_1'><string>\u075E\u0670 \u075E\u0670\u200D \u200D\u075E\u0670\u200D \u200D\u075E\u0670 \u075E\u0670\u075E\u0670\u075E\u0670</string></test>
+  <test label='U+075E' stylename='cv76_2'><string>\u075E\u0670 \u075E\u0670\u200D \u200D\u075E\u0670\u200D \u200D\u075E\u0670 \u075E\u0670\u075E\u0670\u075E\u0670</string><comment>absAinThreeDotsDownAbove</comment></test>
+  <test label='U+075F'><string>\u075F\u0670 \u075F\u0670\u200D \u200D\u075F\u0670\u200D \u200D\u075F\u0670 \u075F\u0670\u075F\u0670\u075F\u0670</string></test>
+  <test label='U+075F' stylename='cv76_1'><string>\u075F\u0670 \u075F\u0670\u200D \u200D\u075F\u0670\u200D \u200D\u075F\u0670 \u075F\u0670\u075F\u0670\u075F\u0670</string></test>
+  <test label='U+075F' stylename='cv76_2'><string>\u075F\u0670 \u075F\u0670\u200D \u200D\u075F\u0670\u200D \u200D\u075F\u0670 \u075F\u0670\u075F\u0670\u075F\u0670</string><comment>absAinTwoDotsVertAbove</comment></test>
+  <test label='U+0622'><string>\u0622\u0670 \u200D\u0622\u0670</string></test>
+  <test label='U+0622' stylename='cv76_1'><string>\u0622\u0670 \u200D\u0622\u0670</string></test>
+  <test label='U+0622' stylename='cv76_2'><string>\u0622\u0670 \u200D\u0622\u0670</string><comment>absAlefMaddaAbove</comment></test>
+  <test label='U+0623'><string>\u0623\u0670 \u200D\u0623\u0670</string></test>
+  <test label='U+0623' stylename='cv76_1'><string>\u0623\u0670 \u200D\u0623\u0670</string></test>
+  <test label='U+0623' stylename='cv76_2'><string>\u0623\u0670 \u200D\u0623\u0670</string><comment>absAlefHamzaAbove</comment></test>
+  <test label='U+0625'><string>\u0625\u0670 \u200D\u0625\u0670</string></test>
+  <test label='U+0625' stylename='cv76_1'><string>\u0625\u0670 \u200D\u0625\u0670</string></test>
+  <test label='U+0625' stylename='cv76_2'><string>\u0625\u0670 \u200D\u0625\u0670</string><comment>absAlefHamzaBelow</comment></test>
+  <test label='U+0627'><string>\u0627\u0670 \u200D\u0627\u0670</string></test>
+  <test label='U+0627' stylename='cv76_1'><string>\u0627\u0670 \u200D\u0627\u0670</string></test>
+  <test label='U+0627' stylename='cv76_2'><string>\u0627\u0670 \u200D\u0627\u0670</string><comment>absAlef</comment></test>
+  <test label='U+0671'><string>\u0671\u0670 \u200D\u0671\u0670</string></test>
+  <test label='U+0671' stylename='cv76_1'><string>\u0671\u0670 \u200D\u0671\u0670</string></test>
+  <test label='U+0671' stylename='cv76_2'><string>\u0671\u0670 \u200D\u0671\u0670</string><comment>absAlefWasla</comment></test>
+  <test label='U+0672'><string>\u0672\u0670 \u200D\u0672\u0670</string></test>
+  <test label='U+0672' stylename='cv76_1'><string>\u0672\u0670 \u200D\u0672\u0670</string></test>
+  <test label='U+0672' stylename='cv76_2'><string>\u0672\u0670 \u200D\u0672\u0670</string><comment>absAlefWavyHamzaAbove</comment></test>
+  <test label='U+0673'><string>\u0673\u0670 \u200D\u0673\u0670</string></test>
+  <test label='U+0673' stylename='cv76_1'><string>\u0673\u0670 \u200D\u0673\u0670</string></test>
+  <test label='U+0673' stylename='cv76_2'><string>\u0673\u0670 \u200D\u0673\u0670</string><comment>absAlefWavyHamzaBelow</comment></test>
+  <test label='U+0675'><string>\u0675\u0670 \u200D\u0675\u0670</string></test>
+  <test label='U+0675' stylename='cv76_1'><string>\u0675\u0670 \u200D\u0675\u0670</string></test>
+  <test label='U+0675' stylename='cv76_2'><string>\u0675\u0670 \u200D\u0675\u0670</string><comment>absHighHamzaAlef</comment></test>
+  <test label='U+0628'><string>\u0628\u0670 \u0628\u0670\u200D \u200D\u0628\u0670\u200D \u200D\u0628\u0670 \u0628\u0670\u0628\u0670\u0628\u0670</string></test>
+  <test label='U+0628' stylename='cv76_1'><string>\u0628\u0670 \u0628\u0670\u200D \u200D\u0628\u0670\u200D \u200D\u0628\u0670 \u0628\u0670\u0628\u0670\u0628\u0670</string></test>
+  <test label='U+0628' stylename='cv76_2'><string>\u0628\u0670 \u0628\u0670\u200D \u200D\u0628\u0670\u200D \u200D\u0628\u0670 \u0628\u0670\u0628\u0670\u0628\u0670</string><comment>absBeh</comment></test>
+  <test label='U+062A'><string>\u062A\u0670 \u062A\u0670\u200D \u200D\u062A\u0670\u200D \u200D\u062A\u0670 \u062A\u0670\u062A\u0670\u062A\u0670</string></test>
+  <test label='U+062A' stylename='cv76_1'><string>\u062A\u0670 \u062A\u0670\u200D \u200D\u062A\u0670\u200D \u200D\u062A\u0670 \u062A\u0670\u062A\u0670\u062A\u0670</string></test>
+  <test label='U+062A' stylename='cv76_2'><string>\u062A\u0670 \u062A\u0670\u200D \u200D\u062A\u0670\u200D \u200D\u062A\u0670 \u062A\u0670\u062A\u0670\u062A\u0670</string><comment>absTeh</comment></test>
+  <test label='U+062B'><string>\u062B\u0670 \u062B\u0670\u200D \u200D\u062B\u0670\u200D \u200D\u062B\u0670 \u062B\u0670\u062B\u0670\u062B\u0670</string></test>
+  <test label='U+062B' stylename='cv76_1'><string>\u062B\u0670 \u062B\u0670\u200D \u200D\u062B\u0670\u200D \u200D\u062B\u0670 \u062B\u0670\u062B\u0670\u062B\u0670</string></test>
+  <test label='U+062B' stylename='cv76_2'><string>\u062B\u0670 \u062B\u0670\u200D \u200D\u062B\u0670\u200D \u200D\u062B\u0670 \u062B\u0670\u062B\u0670\u062B\u0670</string><comment>absTheh</comment></test>
+  <test label='U+066E'><string>\u066E\u0670 \u066E\u0670\u200D \u200D\u066E\u0670\u200D \u200D\u066E\u0670 \u066E\u0670\u066E\u0670\u066E\u0670</string></test>
+  <test label='U+066E' stylename='cv76_1'><string>\u066E\u0670 \u066E\u0670\u200D \u200D\u066E\u0670\u200D \u200D\u066E\u0670 \u066E\u0670\u066E\u0670\u066E\u0670</string></test>
+  <test label='U+066E' stylename='cv76_2'><string>\u066E\u0670 \u066E\u0670\u200D \u200D\u066E\u0670\u200D \u200D\u066E\u0670 \u066E\u0670\u066E\u0670\u066E\u0670</string><comment>absBehNoDots</comment></test>
+  <test label='U+0679'><string>\u0679\u0670 \u0679\u0670\u200D \u200D\u0679\u0670\u200D \u200D\u0679\u0670 \u0679\u0670\u0679\u0670\u0679\u0670</string></test>
+  <test label='U+0679' stylename='cv76_1'><string>\u0679\u0670 \u0679\u0670\u200D \u200D\u0679\u0670\u200D \u200D\u0679\u0670 \u0679\u0670\u0679\u0670\u0679\u0670</string></test>
+  <test label='U+0679' stylename='cv76_2'><string>\u0679\u0670 \u0679\u0670\u200D \u200D\u0679\u0670\u200D \u200D\u0679\u0670 \u0679\u0670\u0679\u0670\u0679\u0670</string><comment>absTteh</comment></test>
+  <test label='U+067A'><string>\u067A\u0670 \u067A\u0670\u200D \u200D\u067A\u0670\u200D \u200D\u067A\u0670 \u067A\u0670\u067A\u0670\u067A\u0670</string></test>
+  <test label='U+067A' stylename='cv76_1'><string>\u067A\u0670 \u067A\u0670\u200D \u200D\u067A\u0670\u200D \u200D\u067A\u0670 \u067A\u0670\u067A\u0670\u067A\u0670</string></test>
+  <test label='U+067A' stylename='cv76_2'><string>\u067A\u0670 \u067A\u0670\u200D \u200D\u067A\u0670\u200D \u200D\u067A\u0670 \u067A\u0670\u067A\u0670\u067A\u0670</string><comment>absTteheh</comment></test>
+  <test label='U+067B'><string>\u067B\u0670 \u067B\u0670\u200D \u200D\u067B\u0670\u200D \u200D\u067B\u0670 \u067B\u0670\u067B\u0670\u067B\u0670</string></test>
+  <test label='U+067B' stylename='cv76_1'><string>\u067B\u0670 \u067B\u0670\u200D \u200D\u067B\u0670\u200D \u200D\u067B\u0670 \u067B\u0670\u067B\u0670\u067B\u0670</string></test>
+  <test label='U+067B' stylename='cv76_2'><string>\u067B\u0670 \u067B\u0670\u200D \u200D\u067B\u0670\u200D \u200D\u067B\u0670 \u067B\u0670\u067B\u0670\u067B\u0670</string><comment>absBeeh</comment></test>
+  <test label='U+067C'><string>\u067C\u0670 \u067C\u0670\u200D \u200D\u067C\u0670\u200D \u200D\u067C\u0670 \u067C\u0670\u067C\u0670\u067C\u0670</string></test>
+  <test label='U+067C' stylename='cv76_1'><string>\u067C\u0670 \u067C\u0670\u200D \u200D\u067C\u0670\u200D \u200D\u067C\u0670 \u067C\u0670\u067C\u0670\u067C\u0670</string></test>
+  <test label='U+067C' stylename='cv76_2'><string>\u067C\u0670 \u067C\u0670\u200D \u200D\u067C\u0670\u200D \u200D\u067C\u0670 \u067C\u0670\u067C\u0670\u067C\u0670</string><comment>absTehRing</comment></test>
+  <test label='U+067D'><string>\u067D\u0670 \u067D\u0670\u200D \u200D\u067D\u0670\u200D \u200D\u067D\u0670 \u067D\u0670\u067D\u0670\u067D\u0670</string></test>
+  <test label='U+067D' stylename='cv76_1'><string>\u067D\u0670 \u067D\u0670\u200D \u200D\u067D\u0670\u200D \u200D\u067D\u0670 \u067D\u0670\u067D\u0670\u067D\u0670</string></test>
+  <test label='U+067D' stylename='cv76_2'><string>\u067D\u0670 \u067D\u0670\u200D \u200D\u067D\u0670\u200D \u200D\u067D\u0670 \u067D\u0670\u067D\u0670\u067D\u0670</string><comment>absTehThreeDotsAboveDownwards</comment></test>
+  <test label='U+067E'><string>\u067E\u0670 \u067E\u0670\u200D \u200D\u067E\u0670\u200D \u200D\u067E\u0670 \u067E\u0670\u067E\u0670\u067E\u0670</string></test>
+  <test label='U+067E' stylename='cv76_1'><string>\u067E\u0670 \u067E\u0670\u200D \u200D\u067E\u0670\u200D \u200D\u067E\u0670 \u067E\u0670\u067E\u0670\u067E\u0670</string></test>
+  <test label='U+067E' stylename='cv76_2'><string>\u067E\u0670 \u067E\u0670\u200D \u200D\u067E\u0670\u200D \u200D\u067E\u0670 \u067E\u0670\u067E\u0670\u067E\u0670</string><comment>absPeh</comment></test>
+  <test label='U+067F'><string>\u067F\u0670 \u067F\u0670\u200D \u200D\u067F\u0670\u200D \u200D\u067F\u0670 \u067F\u0670\u067F\u0670\u067F\u0670</string></test>
+  <test label='U+067F' stylename='cv76_1'><string>\u067F\u0670 \u067F\u0670\u200D \u200D\u067F\u0670\u200D \u200D\u067F\u0670 \u067F\u0670\u067F\u0670\u067F\u0670</string></test>
+  <test label='U+067F' stylename='cv76_2'><string>\u067F\u0670 \u067F\u0670\u200D \u200D\u067F\u0670\u200D \u200D\u067F\u0670 \u067F\u0670\u067F\u0670\u067F\u0670</string><comment>absTeheh</comment></test>
+  <test label='U+0680'><string>\u0680\u0670 \u0680\u0670\u200D \u200D\u0680\u0670\u200D \u200D\u0680\u0670 \u0680\u0670\u0680\u0670\u0680\u0670</string></test>
+  <test label='U+0680' stylename='cv76_1'><string>\u0680\u0670 \u0680\u0670\u200D \u200D\u0680\u0670\u200D \u200D\u0680\u0670 \u0680\u0670\u0680\u0670\u0680\u0670</string></test>
+  <test label='U+0680' stylename='cv76_2'><string>\u0680\u0670 \u0680\u0670\u200D \u200D\u0680\u0670\u200D \u200D\u0680\u0670 \u0680\u0670\u0680\u0670\u0680\u0670</string><comment>absBeheh</comment></test>
+  <test label='U+0750'><string>\u0750\u0670 \u0750\u0670\u200D \u200D\u0750\u0670\u200D \u200D\u0750\u0670 \u0750\u0670\u0750\u0670\u0750\u0670</string></test>
+  <test label='U+0750' stylename='cv76_1'><string>\u0750\u0670 \u0750\u0670\u200D \u200D\u0750\u0670\u200D \u200D\u0750\u0670 \u0750\u0670\u0750\u0670\u0750\u0670</string></test>
+  <test label='U+0750' stylename='cv76_2'><string>\u0750\u0670 \u0750\u0670\u200D \u200D\u0750\u0670\u200D \u200D\u0750\u0670 \u0750\u0670\u0750\u0670\u0750\u0670</string><comment>absBehThreeDotsHorizBelow</comment></test>
+  <test label='U+0751'><string>\u0751\u0670 \u0751\u0670\u200D \u200D\u0751\u0670\u200D \u200D\u0751\u0670 \u0751\u0670\u0751\u0670\u0751\u0670</string></test>
+  <test label='U+0751' stylename='cv76_1'><string>\u0751\u0670 \u0751\u0670\u200D \u200D\u0751\u0670\u200D \u200D\u0751\u0670 \u0751\u0670\u0751\u0670\u0751\u0670</string></test>
+  <test label='U+0751' stylename='cv76_2'><string>\u0751\u0670 \u0751\u0670\u200D \u200D\u0751\u0670\u200D \u200D\u0751\u0670 \u0751\u0670\u0751\u0670\u0751\u0670</string><comment>absBehThreeDotsAboveDotBelow</comment></test>
+  <test label='U+0752'><string>\u0752\u0670 \u0752\u0670\u200D \u200D\u0752\u0670\u200D \u200D\u0752\u0670 \u0752\u0670\u0752\u0670\u0752\u0670</string></test>
+  <test label='U+0752' stylename='cv76_1'><string>\u0752\u0670 \u0752\u0670\u200D \u200D\u0752\u0670\u200D \u200D\u0752\u0670 \u0752\u0670\u0752\u0670\u0752\u0670</string></test>
+  <test label='U+0752' stylename='cv76_2'><string>\u0752\u0670 \u0752\u0670\u200D \u200D\u0752\u0670\u200D \u200D\u0752\u0670 \u0752\u0670\u0752\u0670\u0752\u0670</string><comment>absBehThreeDotsUpBelow</comment></test>
+  <test label='U+0753'><string>\u0753\u0670 \u0753\u0670\u200D \u200D\u0753\u0670\u200D \u200D\u0753\u0670 \u0753\u0670\u0753\u0670\u0753\u0670</string></test>
+  <test label='U+0753' stylename='cv76_1'><string>\u0753\u0670 \u0753\u0670\u200D \u200D\u0753\u0670\u200D \u200D\u0753\u0670 \u0753\u0670\u0753\u0670\u0753\u0670</string></test>
+  <test label='U+0753' stylename='cv76_2'><string>\u0753\u0670 \u0753\u0670\u200D \u200D\u0753\u0670\u200D \u200D\u0753\u0670 \u0753\u0670\u0753\u0670\u0753\u0670</string><comment>absBehTwoDotsAboveThreeDotsUpBelow</comment></test>
+  <test label='U+0754'><string>\u0754\u0670 \u0754\u0670\u200D \u200D\u0754\u0670\u200D \u200D\u0754\u0670 \u0754\u0670\u0754\u0670\u0754\u0670</string></test>
+  <test label='U+0754' stylename='cv76_1'><string>\u0754\u0670 \u0754\u0670\u200D \u200D\u0754\u0670\u200D \u200D\u0754\u0670 \u0754\u0670\u0754\u0670\u0754\u0670</string></test>
+  <test label='U+0754' stylename='cv76_2'><string>\u0754\u0670 \u0754\u0670\u200D \u200D\u0754\u0670\u200D \u200D\u0754\u0670 \u0754\u0670\u0754\u0670\u0754\u0670</string><comment>absBehDotAboveTwoDotsBelow</comment></test>
+  <test label='U+0755'><string>\u0755\u0670 \u0755\u0670\u200D \u200D\u0755\u0670\u200D \u200D\u0755\u0670 \u0755\u0670\u0755\u0670\u0755\u0670</string></test>
+  <test label='U+0755' stylename='cv76_1'><string>\u0755\u0670 \u0755\u0670\u200D \u200D\u0755\u0670\u200D \u200D\u0755\u0670 \u0755\u0670\u0755\u0670\u0755\u0670</string></test>
+  <test label='U+0755' stylename='cv76_2'><string>\u0755\u0670 \u0755\u0670\u200D \u200D\u0755\u0670\u200D \u200D\u0755\u0670 \u0755\u0670\u0755\u0670\u0755\u0670</string><comment>absBehInvSmallVBelow</comment></test>
+  <test label='U+0756'><string>\u0756\u0670 \u0756\u0670\u200D \u200D\u0756\u0670\u200D \u200D\u0756\u0670 \u0756\u0670\u0756\u0670\u0756\u0670</string></test>
+  <test label='U+0756' stylename='cv76_1'><string>\u0756\u0670 \u0756\u0670\u200D \u200D\u0756\u0670\u200D \u200D\u0756\u0670 \u0756\u0670\u0756\u0670\u0756\u0670</string></test>
+  <test label='U+0756' stylename='cv76_2'><string>\u0756\u0670 \u0756\u0670\u200D \u200D\u0756\u0670\u200D \u200D\u0756\u0670 \u0756\u0670\u0756\u0670\u0756\u0670</string><comment>absBehSmallVAbove</comment></test>
+  <test label='U+0626'><string>\u0626\u0670 \u0626\u0670\u200D \u200D\u0626\u0670\u200D \u200D\u0626\u0670 \u0626\u0670\u0626\u0670\u0626\u0670</string></test>
+  <test label='U+0626' stylename='cv76_1'><string>\u0626\u0670 \u0626\u0670\u200D \u200D\u0626\u0670\u200D \u200D\u0626\u0670 \u0626\u0670\u0626\u0670\u0626\u0670</string></test>
+  <test label='U+0626' stylename='cv76_2'><string>\u0626\u0670 \u0626\u0670\u200D \u200D\u0626\u0670\u200D \u200D\u0626\u0670 \u0626\u0670\u0626\u0670\u0626\u0670</string><comment>absYehHamzaAbove</comment></test>
+  <test label='U+0649'><string>\u0649\u0670 \u0649\u0670\u200D \u200D\u0649\u0670\u200D \u200D\u0649\u0670 \u0649\u0670\u0649\u0670\u0649\u0670</string></test>
+  <test label='U+0649' stylename='cv76_1'><string>\u0649\u0670 \u0649\u0670\u200D \u200D\u0649\u0670\u200D \u200D\u0649\u0670 \u0649\u0670\u0649\u0670\u0649\u0670</string></test>
+  <test label='U+0649' stylename='cv76_2'><string>\u0649\u0670 \u0649\u0670\u200D \u200D\u0649\u0670\u200D \u200D\u0649\u0670 \u0649\u0670\u0649\u0670\u0649\u0670</string><comment>absAlefMaksura</comment></test>
+  <test label='U+064A'><string>\u064A\u0670 \u064A\u0670\u200D \u200D\u064A\u0670\u200D \u200D\u064A\u0670 \u064A\u0670\u064A\u0670\u064A\u0670</string></test>
+  <test label='U+064A' stylename='cv76_1'><string>\u064A\u0670 \u064A\u0670\u200D \u200D\u064A\u0670\u200D \u200D\u064A\u0670 \u064A\u0670\u064A\u0670\u064A\u0670</string></test>
+  <test label='U+064A' stylename='cv76_2'><string>\u064A\u0670 \u064A\u0670\u200D \u200D\u064A\u0670\u200D \u200D\u064A\u0670 \u064A\u0670\u064A\u0670\u064A\u0670</string><comment>absYeh</comment></test>
+  <test label='U+0678'><string>\u0678\u0670 \u0678\u0670\u200D \u200D\u0678\u0670\u200D \u200D\u0678\u0670 \u0678\u0670\u0678\u0670\u0678\u0670</string></test>
+  <test label='U+0678' stylename='cv76_1'><string>\u0678\u0670 \u0678\u0670\u200D \u200D\u0678\u0670\u200D \u200D\u0678\u0670 \u0678\u0670\u0678\u0670\u0678\u0670</string></test>
+  <test label='U+0678' stylename='cv76_2'><string>\u0678\u0670 \u0678\u0670\u200D \u200D\u0678\u0670\u200D \u200D\u0678\u0670 \u0678\u0670\u0678\u0670\u0678\u0670</string><comment>absHighHamzaYeh</comment></test>
+  <test label='U+06D0'><string>\u06D0\u0670 \u06D0\u0670\u200D \u200D\u06D0\u0670\u200D \u200D\u06D0\u0670 \u06D0\u0670\u06D0\u0670\u06D0\u0670</string></test>
+  <test label='U+06D0' stylename='cv76_1'><string>\u06D0\u0670 \u06D0\u0670\u200D \u200D\u06D0\u0670\u200D \u200D\u06D0\u0670 \u06D0\u0670\u06D0\u0670\u06D0\u0670</string></test>
+  <test label='U+06D0' stylename='cv76_2'><string>\u06D0\u0670 \u06D0\u0670\u200D \u200D\u06D0\u0670\u200D \u200D\u06D0\u0670 \u06D0\u0670\u06D0\u0670\u06D0\u0670</string><comment>absE</comment></test>
+  <test label='U+06D1'><string>\u06D1\u0670 \u06D1\u0670\u200D \u200D\u06D1\u0670\u200D \u200D\u06D1\u0670 \u06D1\u0670\u06D1\u0670\u06D1\u0670</string></test>
+  <test label='U+06D1' stylename='cv76_1'><string>\u06D1\u0670 \u06D1\u0670\u200D \u200D\u06D1\u0670\u200D \u200D\u06D1\u0670 \u06D1\u0670\u06D1\u0670\u06D1\u0670</string></test>
+  <test label='U+06D1' stylename='cv76_2'><string>\u06D1\u0670 \u06D1\u0670\u200D \u200D\u06D1\u0670\u200D \u200D\u06D1\u0670 \u06D1\u0670\u06D1\u0670\u06D1\u0670</string><comment>absYehThreeDotsBelow</comment></test>
+  <test label='U+063D'><string>\u063D\u0670 \u063D\u0670\u200D \u200D\u063D\u0670\u200D \u200D\u063D\u0670 \u063D\u0670\u063D\u0670\u063D\u0670</string></test>
+  <test label='U+063D' stylename='cv76_1'><string>\u063D\u0670 \u063D\u0670\u200D \u200D\u063D\u0670\u200D \u200D\u063D\u0670 \u063D\u0670\u063D\u0670\u063D\u0670</string></test>
+  <test label='U+063D' stylename='cv76_2'><string>\u063D\u0670 \u063D\u0670\u200D \u200D\u063D\u0670\u200D \u200D\u063D\u0670 \u063D\u0670\u063D\u0670\u063D\u0670</string><comment>absFarsiYehInvertedV</comment></test>
+  <test label='U+06CC'><string>\u06CC\u0670 \u06CC\u0670\u200D \u200D\u06CC\u0670\u200D \u200D\u06CC\u0670 \u06CC\u0670\u06CC\u0670\u06CC\u0670</string></test>
+  <test label='U+06CC' stylename='cv76_1'><string>\u06CC\u0670 \u06CC\u0670\u200D \u200D\u06CC\u0670\u200D \u200D\u06CC\u0670 \u06CC\u0670\u06CC\u0670\u06CC\u0670</string></test>
+  <test label='U+06CC' stylename='cv76_2'><string>\u06CC\u0670 \u06CC\u0670\u200D \u200D\u06CC\u0670\u200D \u200D\u06CC\u0670 \u06CC\u0670\u06CC\u0670\u06CC\u0670</string><comment>absFarsiYeh</comment></test>
+  <test label='U+06CE'><string>\u06CE\u0670 \u06CE\u0670\u200D \u200D\u06CE\u0670\u200D \u200D\u06CE\u0670 \u06CE\u0670\u06CE\u0670\u06CE\u0670</string></test>
+  <test label='U+06CE' stylename='cv76_1'><string>\u06CE\u0670 \u06CE\u0670\u200D \u200D\u06CE\u0670\u200D \u200D\u06CE\u0670 \u06CE\u0670\u06CE\u0670\u06CE\u0670</string></test>
+  <test label='U+06CE' stylename='cv76_2'><string>\u06CE\u0670 \u06CE\u0670\u200D \u200D\u06CE\u0670\u200D \u200D\u06CE\u0670 \u06CE\u0670\u06CE\u0670\u06CE\u0670</string><comment>absYehSmallV</comment></test>
+  <test label='U+0646'><string>\u0646\u0670 \u0646\u0670\u200D \u200D\u0646\u0670\u200D \u200D\u0646\u0670 \u0646\u0670\u0646\u0670\u0646\u0670</string></test>
+  <test label='U+0646' stylename='cv76_1'><string>\u0646\u0670 \u0646\u0670\u200D \u200D\u0646\u0670\u200D \u200D\u0646\u0670 \u0646\u0670\u0646\u0670\u0646\u0670</string></test>
+  <test label='U+0646' stylename='cv76_2'><string>\u0646\u0670 \u0646\u0670\u200D \u200D\u0646\u0670\u200D \u200D\u0646\u0670 \u0646\u0670\u0646\u0670\u0646\u0670</string><comment>absNoon</comment></test>
+  <test label='U+06B9'><string>\u06B9\u0670 \u06B9\u0670\u200D \u200D\u06B9\u0670\u200D \u200D\u06B9\u0670 \u06B9\u0670\u06B9\u0670\u06B9\u0670</string></test>
+  <test label='U+06B9' stylename='cv76_1'><string>\u06B9\u0670 \u06B9\u0670\u200D \u200D\u06B9\u0670\u200D \u200D\u06B9\u0670 \u06B9\u0670\u06B9\u0670\u06B9\u0670</string></test>
+  <test label='U+06B9' stylename='cv76_2'><string>\u06B9\u0670 \u06B9\u0670\u200D \u200D\u06B9\u0670\u200D \u200D\u06B9\u0670 \u06B9\u0670\u06B9\u0670\u06B9\u0670</string><comment>absNoonDotBelow</comment></test>
+  <test label='U+06BA'><string>\u06BA\u0670 \u06BA\u0670\u200D \u200D\u06BA\u0670\u200D \u200D\u06BA\u0670 \u06BA\u0670\u06BA\u0670\u06BA\u0670</string></test>
+  <test label='U+06BA' stylename='cv76_1'><string>\u06BA\u0670 \u06BA\u0670\u200D \u200D\u06BA\u0670\u200D \u200D\u06BA\u0670 \u06BA\u0670\u06BA\u0670\u06BA\u0670</string></test>
+  <test label='U+06BA' stylename='cv76_2'><string>\u06BA\u0670 \u06BA\u0670\u200D \u200D\u06BA\u0670\u200D \u200D\u06BA\u0670 \u06BA\u0670\u06BA\u0670\u06BA\u0670</string><comment>absNoonGhunna</comment></test>
+  <test label='U+06BB'><string>\u06BB\u0670 \u06BB\u0670\u200D \u200D\u06BB\u0670\u200D \u200D\u06BB\u0670 \u06BB\u0670\u06BB\u0670\u06BB\u0670</string></test>
+  <test label='U+06BB' stylename='cv76_1'><string>\u06BB\u0670 \u06BB\u0670\u200D \u200D\u06BB\u0670\u200D \u200D\u06BB\u0670 \u06BB\u0670\u06BB\u0670\u06BB\u0670</string></test>
+  <test label='U+06BB' stylename='cv76_2'><string>\u06BB\u0670 \u06BB\u0670\u200D \u200D\u06BB\u0670\u200D \u200D\u06BB\u0670 \u06BB\u0670\u06BB\u0670\u06BB\u0670</string><comment>absRnoon</comment></test>
+  <test label='U+06BC'><string>\u06BC\u0670 \u06BC\u0670\u200D \u200D\u06BC\u0670\u200D \u200D\u06BC\u0670 \u06BC\u0670\u06BC\u0670\u06BC\u0670</string></test>
+  <test label='U+06BC' stylename='cv76_1'><string>\u06BC\u0670 \u06BC\u0670\u200D \u200D\u06BC\u0670\u200D \u200D\u06BC\u0670 \u06BC\u0670\u06BC\u0670\u06BC\u0670</string></test>
+  <test label='U+06BC' stylename='cv76_2'><string>\u06BC\u0670 \u06BC\u0670\u200D \u200D\u06BC\u0670\u200D \u200D\u06BC\u0670 \u06BC\u0670\u06BC\u0670\u06BC\u0670</string><comment>absNoonRing</comment></test>
+  <test label='U+0767'><string>\u0767\u0670 \u0767\u0670\u200D \u200D\u0767\u0670\u200D \u200D\u0767\u0670 \u0767\u0670\u0767\u0670\u0767\u0670</string></test>
+  <test label='U+0767' stylename='cv76_1'><string>\u0767\u0670 \u0767\u0670\u200D \u200D\u0767\u0670\u200D \u200D\u0767\u0670 \u0767\u0670\u0767\u0670\u0767\u0670</string></test>
+  <test label='U+0767' stylename='cv76_2'><string>\u0767\u0670 \u0767\u0670\u200D \u200D\u0767\u0670\u200D \u200D\u0767\u0670 \u0767\u0670\u0767\u0670\u0767\u0670</string><comment>absNoonTwoDotsBelow</comment></test>
+  <test label='U+0768'><string>\u0768\u0670 \u0768\u0670\u200D \u200D\u0768\u0670\u200D \u200D\u0768\u0670 \u0768\u0670\u0768\u0670\u0768\u0670</string></test>
+  <test label='U+0768' stylename='cv76_1'><string>\u0768\u0670 \u0768\u0670\u200D \u200D\u0768\u0670\u200D \u200D\u0768\u0670 \u0768\u0670\u0768\u0670\u0768\u0670</string></test>
+  <test label='U+0768' stylename='cv76_2'><string>\u0768\u0670 \u0768\u0670\u200D \u200D\u0768\u0670\u200D \u200D\u0768\u0670 \u0768\u0670\u0768\u0670\u0768\u0670</string><comment>absNoonRetro</comment></test>
+  <test label='U+0769'><string>\u0769\u0670 \u0769\u0670\u200D \u200D\u0769\u0670\u200D \u200D\u0769\u0670 \u0769\u0670\u0769\u0670\u0769\u0670</string></test>
+  <test label='U+0769' stylename='cv76_1'><string>\u0769\u0670 \u0769\u0670\u200D \u200D\u0769\u0670\u200D \u200D\u0769\u0670 \u0769\u0670\u0769\u0670\u0769\u0670</string></test>
+  <test label='U+0769' stylename='cv76_2'><string>\u0769\u0670 \u0769\u0670\u200D \u200D\u0769\u0670\u200D \u200D\u0769\u0670 \u0769\u0670\u0769\u0670\u0769\u0670</string><comment>absNoonSmallV</comment></test>
+  <test label='U+06BD'><string>\u06BD\u0670 \u06BD\u0670\u200D \u200D\u06BD\u0670\u200D \u200D\u06BD\u0670 \u06BD\u0670\u06BD\u0670\u06BD\u0670</string></test>
+  <test label='U+06BD' stylename='cv76_1'><string>\u06BD\u0670 \u06BD\u0670\u200D \u200D\u06BD\u0670\u200D \u200D\u06BD\u0670 \u06BD\u0670\u06BD\u0670\u06BD\u0670</string></test>
+  <test label='U+06BD' stylename='cv76_2'><string>\u06BD\u0670 \u06BD\u0670\u200D \u200D\u06BD\u0670\u200D \u200D\u06BD\u0670 \u06BD\u0670\u06BD\u0670\u06BD\u0670</string><comment>absNoonThreeDotsAbove</comment></test>
+  <test label='U+0635'><string>\u0635\u0670 \u0635\u0670\u200D \u200D\u0635\u0670\u200D \u200D\u0635\u0670 \u0635\u0670\u0635\u0670\u0635\u0670</string></test>
+  <test label='U+0635' stylename='cv76_1'><string>\u0635\u0670 \u0635\u0670\u200D \u200D\u0635\u0670\u200D \u200D\u0635\u0670 \u0635\u0670\u0635\u0670\u0635\u0670</string></test>
+  <test label='U+0635' stylename='cv76_2'><string>\u0635\u0670 \u0635\u0670\u200D \u200D\u0635\u0670\u200D \u200D\u0635\u0670 \u0635\u0670\u0635\u0670\u0635\u0670</string><comment>absSad</comment></test>
+  <test label='U+0636'><string>\u0636\u0670 \u0636\u0670\u200D \u200D\u0636\u0670\u200D \u200D\u0636\u0670 \u0636\u0670\u0636\u0670\u0636\u0670</string></test>
+  <test label='U+0636' stylename='cv76_1'><string>\u0636\u0670 \u0636\u0670\u200D \u200D\u0636\u0670\u200D \u200D\u0636\u0670 \u0636\u0670\u0636\u0670\u0636\u0670</string></test>
+  <test label='U+0636' stylename='cv76_2'><string>\u0636\u0670 \u0636\u0670\u200D \u200D\u0636\u0670\u200D \u200D\u0636\u0670 \u0636\u0670\u0636\u0670\u0636\u0670</string><comment>absDad</comment></test>
+  <test label='U+069D'><string>\u069D\u0670 \u069D\u0670\u200D \u200D\u069D\u0670\u200D \u200D\u069D\u0670 \u069D\u0670\u069D\u0670\u069D\u0670</string></test>
+  <test label='U+069D' stylename='cv76_1'><string>\u069D\u0670 \u069D\u0670\u200D \u200D\u069D\u0670\u200D \u200D\u069D\u0670 \u069D\u0670\u069D\u0670\u069D\u0670</string></test>
+  <test label='U+069D' stylename='cv76_2'><string>\u069D\u0670 \u069D\u0670\u200D \u200D\u069D\u0670\u200D \u200D\u069D\u0670 \u069D\u0670\u069D\u0670\u069D\u0670</string><comment>absSadTwoDotsBelow</comment></test>
+  <test label='U+069E'><string>\u069E\u0670 \u069E\u0670\u200D \u200D\u069E\u0670\u200D \u200D\u069E\u0670 \u069E\u0670\u069E\u0670\u069E\u0670</string></test>
+  <test label='U+069E' stylename='cv76_1'><string>\u069E\u0670 \u069E\u0670\u200D \u200D\u069E\u0670\u200D \u200D\u069E\u0670 \u069E\u0670\u069E\u0670\u069E\u0670</string></test>
+  <test label='U+069E' stylename='cv76_2'><string>\u069E\u0670 \u069E\u0670\u200D \u200D\u069E\u0670\u200D \u200D\u069E\u0670 \u069E\u0670\u069E\u0670\u069E\u0670</string><comment>absSadThreeDotsAbove</comment></test>
+  <test label='U+06FB'><string>\u06FB\u0670 \u06FB\u0670\u200D \u200D\u06FB\u0670\u200D \u200D\u06FB\u0670 \u06FB\u0670\u06FB\u0670\u06FB\u0670</string></test>
+  <test label='U+06FB' stylename='cv76_1'><string>\u06FB\u0670 \u06FB\u0670\u200D \u200D\u06FB\u0670\u200D \u200D\u06FB\u0670 \u06FB\u0670\u06FB\u0670\u06FB\u0670</string></test>
+  <test label='U+06FB' stylename='cv76_2'><string>\u06FB\u0670 \u06FB\u0670\u200D \u200D\u06FB\u0670\u200D \u200D\u06FB\u0670 \u06FB\u0670\u06FB\u0670\u06FB\u0670</string><comment>absDadDotBelow</comment></test>
+  <test label='U+0633'><string>\u0633\u0670 \u0633\u0670\u200D \u200D\u0633\u0670\u200D \u200D\u0633\u0670 \u0633\u0670\u0633\u0670\u0633\u0670</string></test>
+  <test label='U+0633' stylename='cv76_1'><string>\u0633\u0670 \u0633\u0670\u200D \u200D\u0633\u0670\u200D \u200D\u0633\u0670 \u0633\u0670\u0633\u0670\u0633\u0670</string></test>
+  <test label='U+0633' stylename='cv76_2'><string>\u0633\u0670 \u0633\u0670\u200D \u200D\u0633\u0670\u200D \u200D\u0633\u0670 \u0633\u0670\u0633\u0670\u0633\u0670</string><comment>absSeen</comment></test>
+  <test label='U+0634'><string>\u0634\u0670 \u0634\u0670\u200D \u200D\u0634\u0670\u200D \u200D\u0634\u0670 \u0634\u0670\u0634\u0670\u0634\u0670</string></test>
+  <test label='U+0634' stylename='cv76_1'><string>\u0634\u0670 \u0634\u0670\u200D \u200D\u0634\u0670\u200D \u200D\u0634\u0670 \u0634\u0670\u0634\u0670\u0634\u0670</string></test>
+  <test label='U+0634' stylename='cv76_2'><string>\u0634\u0670 \u0634\u0670\u200D \u200D\u0634\u0670\u200D \u200D\u0634\u0670 \u0634\u0670\u0634\u0670\u0634\u0670</string><comment>absSheen</comment></test>
+  <test label='U+069A'><string>\u069A\u0670 \u069A\u0670\u200D \u200D\u069A\u0670\u200D \u200D\u069A\u0670 \u069A\u0670\u069A\u0670\u069A\u0670</string></test>
+  <test label='U+069A' stylename='cv76_1'><string>\u069A\u0670 \u069A\u0670\u200D \u200D\u069A\u0670\u200D \u200D\u069A\u0670 \u069A\u0670\u069A\u0670\u069A\u0670</string></test>
+  <test label='U+069A' stylename='cv76_2'><string>\u069A\u0670 \u069A\u0670\u200D \u200D\u069A\u0670\u200D \u200D\u069A\u0670 \u069A\u0670\u069A\u0670\u069A\u0670</string><comment>absSeenDotBelowDotAbove</comment></test>
+  <test label='U+069B'><string>\u069B\u0670 \u069B\u0670\u200D \u200D\u069B\u0670\u200D \u200D\u069B\u0670 \u069B\u0670\u069B\u0670\u069B\u0670</string></test>
+  <test label='U+069B' stylename='cv76_1'><string>\u069B\u0670 \u069B\u0670\u200D \u200D\u069B\u0670\u200D \u200D\u069B\u0670 \u069B\u0670\u069B\u0670\u069B\u0670</string></test>
+  <test label='U+069B' stylename='cv76_2'><string>\u069B\u0670 \u069B\u0670\u200D \u200D\u069B\u0670\u200D \u200D\u069B\u0670 \u069B\u0670\u069B\u0670\u069B\u0670</string><comment>absSeenThreeDotsBelow</comment></test>
+  <test label='U+069C'><string>\u069C\u0670 \u069C\u0670\u200D \u200D\u069C\u0670\u200D \u200D\u069C\u0670 \u069C\u0670\u069C\u0670\u069C\u0670</string></test>
+  <test label='U+069C' stylename='cv76_1'><string>\u069C\u0670 \u069C\u0670\u200D \u200D\u069C\u0670\u200D \u200D\u069C\u0670 \u069C\u0670\u069C\u0670\u069C\u0670</string></test>
+  <test label='U+069C' stylename='cv76_2'><string>\u069C\u0670 \u069C\u0670\u200D \u200D\u069C\u0670\u200D \u200D\u069C\u0670 \u069C\u0670\u069C\u0670\u069C\u0670</string><comment>absSeenThreeDotsBelowThreeDotsAbove</comment></test>
+  <test label='U+06FA'><string>\u06FA\u0670 \u06FA\u0670\u200D \u200D\u06FA\u0670\u200D \u200D\u06FA\u0670 \u06FA\u0670\u06FA\u0670\u06FA\u0670</string></test>
+  <test label='U+06FA' stylename='cv76_1'><string>\u06FA\u0670 \u06FA\u0670\u200D \u200D\u06FA\u0670\u200D \u200D\u06FA\u0670 \u06FA\u0670\u06FA\u0670\u06FA\u0670</string></test>
+  <test label='U+06FA' stylename='cv76_2'><string>\u06FA\u0670 \u06FA\u0670\u200D \u200D\u06FA\u0670\u200D \u200D\u06FA\u0670 \u06FA\u0670\u06FA\u0670\u06FA\u0670</string><comment>absSheenDotBelow</comment></test>
+  <test label='U+075C'><string>\u075C\u0670 \u075C\u0670\u200D \u200D\u075C\u0670\u200D \u200D\u075C\u0670 \u075C\u0670\u075C\u0670\u075C\u0670</string></test>
+  <test label='U+075C' stylename='cv76_1'><string>\u075C\u0670 \u075C\u0670\u200D \u200D\u075C\u0670\u200D \u200D\u075C\u0670 \u075C\u0670\u075C\u0670\u075C\u0670</string></test>
+  <test label='U+075C' stylename='cv76_2'><string>\u075C\u0670 \u075C\u0670\u200D \u200D\u075C\u0670\u200D \u200D\u075C\u0670 \u075C\u0670\u075C\u0670\u075C\u0670</string><comment>absSeenFourDotsAbove</comment></test>
+  <test label='U+076D'><string>\u076D\u0670 \u076D\u0670\u200D \u200D\u076D\u0670\u200D \u200D\u076D\u0670 \u076D\u0670\u076D\u0670\u076D\u0670</string></test>
+  <test label='U+076D' stylename='cv76_1'><string>\u076D\u0670 \u076D\u0670\u200D \u200D\u076D\u0670\u200D \u200D\u076D\u0670 \u076D\u0670\u076D\u0670\u076D\u0670</string></test>
+  <test label='U+076D' stylename='cv76_2'><string>\u076D\u0670 \u076D\u0670\u200D \u200D\u076D\u0670\u200D \u200D\u076D\u0670 \u076D\u0670\u076D\u0670\u076D\u0670</string><comment>absSeenTwoVertAbove</comment></test>
+  <test label='U+0770'><string>\u0770\u0670 \u0770\u0670\u200D \u200D\u0770\u0670\u200D \u200D\u0770\u0670 \u0770\u0670\u0770\u0670\u0770\u0670</string></test>
+  <test label='U+0770' stylename='cv76_1'><string>\u0770\u0670 \u0770\u0670\u200D \u200D\u0770\u0670\u200D \u200D\u0770\u0670 \u0770\u0670\u0770\u0670\u0770\u0670</string></test>
+  <test label='U+0770' stylename='cv76_2'><string>\u0770\u0670 \u0770\u0670\u200D \u200D\u0770\u0670\u200D \u200D\u0770\u0670 \u0770\u0670\u0770\u0670\u0770\u0670</string><comment>absSeenSmallTahTwoDots</comment></test>
+  <test label='U+06CD'><string>\u06CD\u0670 \u200D\u06CD\u0670</string></test>
+  <test label='U+06CD' stylename='cv76_1'><string>\u06CD\u0670 \u200D\u06CD\u0670</string></test>
+  <test label='U+06CD' stylename='cv76_2'><string>\u06CD\u0670 \u200D\u06CD\u0670</string><comment>absYehTail</comment></test>
+  <test label='U+06D2'><string>\u06D2\u0670 \u200D\u06D2\u0670</string></test>
+  <test label='U+06D2' stylename='cv76_1'><string>\u06D2\u0670 \u200D\u06D2\u0670</string></test>
+  <test label='U+06D2' stylename='cv76_2'><string>\u06D2\u0670 \u200D\u06D2\u0670</string><comment>absYehBarree</comment></test>
+  <test label='U+06D3'><string>\u06D3\u0670 \u200D\u06D3\u0670</string></test>
+  <test label='U+06D3' stylename='cv76_1'><string>\u06D3\u0670 \u200D\u06D3\u0670</string></test>
+  <test label='U+06D3' stylename='cv76_2'><string>\u06D3\u0670 \u200D\u06D3\u0670</string><comment>absYehBarreeHamzaAbove</comment></test>
+  <test label='U+062F'><string>\u062F\u0670 \u200D\u062F\u0670</string></test>
+  <test label='U+062F' stylename='cv76_1'><string>\u062F\u0670 \u200D\u062F\u0670</string></test>
+  <test label='U+062F' stylename='cv76_2'><string>\u062F\u0670 \u200D\u062F\u0670</string><comment>absDal</comment></test>
+  <test label='U+0630'><string>\u0630\u0670 \u200D\u0630\u0670</string></test>
+  <test label='U+0630' stylename='cv76_1'><string>\u0630\u0670 \u200D\u0630\u0670</string></test>
+  <test label='U+0630' stylename='cv76_2'><string>\u0630\u0670 \u200D\u0630\u0670</string><comment>absThal</comment></test>
+  <test label='U+0688'><string>\u0688\u0670 \u200D\u0688\u0670</string></test>
+  <test label='U+0688' stylename='cv76_1'><string>\u0688\u0670 \u200D\u0688\u0670</string></test>
+  <test label='U+0688' stylename='cv76_2'><string>\u0688\u0670 \u200D\u0688\u0670</string><comment>absDdal</comment></test>
+  <test label='U+0689'><string>\u0689\u0670 \u200D\u0689\u0670</string></test>
+  <test label='U+0689' stylename='cv76_1'><string>\u0689\u0670 \u200D\u0689\u0670</string></test>
+  <test label='U+0689' stylename='cv76_2'><string>\u0689\u0670 \u200D\u0689\u0670</string><comment>absDalRing</comment></test>
+  <test label='U+068A'><string>\u068A\u0670 \u200D\u068A\u0670</string></test>
+  <test label='U+068A' stylename='cv76_1'><string>\u068A\u0670 \u200D\u068A\u0670</string></test>
+  <test label='U+068A' stylename='cv76_2'><string>\u068A\u0670 \u200D\u068A\u0670</string><comment>absDalDotBelow</comment></test>
+  <test label='U+068B'><string>\u068B\u0670 \u200D\u068B\u0670</string></test>
+  <test label='U+068B' stylename='cv76_1'><string>\u068B\u0670 \u200D\u068B\u0670</string></test>
+  <test label='U+068B' stylename='cv76_2'><string>\u068B\u0670 \u200D\u068B\u0670</string><comment>absDalDotBelowSmallTah</comment></test>
+  <test label='U+068C'><string>\u068C\u0670 \u200D\u068C\u0670</string></test>
+  <test label='U+068C' stylename='cv76_1'><string>\u068C\u0670 \u200D\u068C\u0670</string></test>
+  <test label='U+068C' stylename='cv76_2'><string>\u068C\u0670 \u200D\u068C\u0670</string><comment>absDahal</comment></test>
+  <test label='U+068D'><string>\u068D\u0670 \u200D\u068D\u0670</string></test>
+  <test label='U+068D' stylename='cv76_1'><string>\u068D\u0670 \u200D\u068D\u0670</string></test>
+  <test label='U+068D' stylename='cv76_2'><string>\u068D\u0670 \u200D\u068D\u0670</string><comment>absDdahal</comment></test>
+  <test label='U+068E'><string>\u068E\u0670 \u200D\u068E\u0670</string></test>
+  <test label='U+068E' stylename='cv76_1'><string>\u068E\u0670 \u200D\u068E\u0670</string></test>
+  <test label='U+068E' stylename='cv76_2'><string>\u068E\u0670 \u200D\u068E\u0670</string><comment>absDul</comment></test>
+  <test label='U+068F'><string>\u068F\u0670 \u200D\u068F\u0670</string></test>
+  <test label='U+068F' stylename='cv76_1'><string>\u068F\u0670 \u200D\u068F\u0670</string></test>
+  <test label='U+068F' stylename='cv76_2'><string>\u068F\u0670 \u200D\u068F\u0670</string><comment>absDalThreeDotsAboveDownwards</comment></test>
+  <test label='U+0690'><string>\u0690\u0670 \u200D\u0690\u0670</string></test>
+  <test label='U+0690' stylename='cv76_1'><string>\u0690\u0670 \u200D\u0690\u0670</string></test>
+  <test label='U+0690' stylename='cv76_2'><string>\u0690\u0670 \u200D\u0690\u0670</string><comment>absDalFourDotsAbove</comment></test>
+  <test label='U+06EE'><string>\u06EE\u0670 \u200D\u06EE\u0670</string></test>
+  <test label='U+06EE' stylename='cv76_1'><string>\u06EE\u0670 \u200D\u06EE\u0670</string></test>
+  <test label='U+06EE' stylename='cv76_2'><string>\u06EE\u0670 \u200D\u06EE\u0670</string><comment>absDalHat</comment></test>
+  <test label='U+0759'><string>\u0759\u0670 \u200D\u0759\u0670</string></test>
+  <test label='U+0759' stylename='cv76_1'><string>\u0759\u0670 \u200D\u0759\u0670</string></test>
+  <test label='U+0759' stylename='cv76_2'><string>\u0759\u0670 \u200D\u0759\u0670</string><comment>absDalTwoVertBelowSmallTah</comment></test>
+  <test label='U+075A'><string>\u075A\u0670 \u200D\u075A\u0670</string></test>
+  <test label='U+075A' stylename='cv76_1'><string>\u075A\u0670 \u200D\u075A\u0670</string></test>
+  <test label='U+075A' stylename='cv76_2'><string>\u075A\u0670 \u200D\u075A\u0670</string><comment>absDalInvSmallVBelow</comment></test>
+  <test label='U+0641'><string>\u0641\u0670 \u0641\u0670\u200D \u200D\u0641\u0670\u200D \u200D\u0641\u0670 \u0641\u0670\u0641\u0670\u0641\u0670</string></test>
+  <test label='U+0641' stylename='cv76_1'><string>\u0641\u0670 \u0641\u0670\u200D \u200D\u0641\u0670\u200D \u200D\u0641\u0670 \u0641\u0670\u0641\u0670\u0641\u0670</string></test>
+  <test label='U+0641' stylename='cv76_2'><string>\u0641\u0670 \u0641\u0670\u200D \u200D\u0641\u0670\u200D \u200D\u0641\u0670 \u0641\u0670\u0641\u0670\u0641\u0670</string><comment>absFeh</comment></test>
+  <test label='U+06A1'><string>\u06A1\u0670 \u06A1\u0670\u200D \u200D\u06A1\u0670\u200D \u200D\u06A1\u0670 \u06A1\u0670\u06A1\u0670\u06A1\u0670</string></test>
+  <test label='U+06A1' stylename='cv76_1'><string>\u06A1\u0670 \u06A1\u0670\u200D \u200D\u06A1\u0670\u200D \u200D\u06A1\u0670 \u06A1\u0670\u06A1\u0670\u06A1\u0670</string></test>
+  <test label='U+06A1' stylename='cv76_2'><string>\u06A1\u0670 \u06A1\u0670\u200D \u200D\u06A1\u0670\u200D \u200D\u06A1\u0670 \u06A1\u0670\u06A1\u0670\u06A1\u0670</string><comment>absDotlessFeh</comment></test>
+  <test label='U+06A2'><string>\u06A2\u0670 \u06A2\u0670\u200D \u200D\u06A2\u0670\u200D \u200D\u06A2\u0670 \u06A2\u0670\u06A2\u0670\u06A2\u0670</string></test>
+  <test label='U+06A2' stylename='cv76_1'><string>\u06A2\u0670 \u06A2\u0670\u200D \u200D\u06A2\u0670\u200D \u200D\u06A2\u0670 \u06A2\u0670\u06A2\u0670\u06A2\u0670</string></test>
+  <test label='U+06A2' stylename='cv76_2'><string>\u06A2\u0670 \u06A2\u0670\u200D \u200D\u06A2\u0670\u200D \u200D\u06A2\u0670 \u06A2\u0670\u06A2\u0670\u06A2\u0670</string><comment>absFehDotMovedBelow</comment></test>
+  <test label='U+06A3'><string>\u06A3\u0670 \u06A3\u0670\u200D \u200D\u06A3\u0670\u200D \u200D\u06A3\u0670 \u06A3\u0670\u06A3\u0670\u06A3\u0670</string></test>
+  <test label='U+06A3' stylename='cv76_1'><string>\u06A3\u0670 \u06A3\u0670\u200D \u200D\u06A3\u0670\u200D \u200D\u06A3\u0670 \u06A3\u0670\u06A3\u0670\u06A3\u0670</string></test>
+  <test label='U+06A3' stylename='cv76_2'><string>\u06A3\u0670 \u06A3\u0670\u200D \u200D\u06A3\u0670\u200D \u200D\u06A3\u0670 \u06A3\u0670\u06A3\u0670\u06A3\u0670</string><comment>absFehDotBelow</comment></test>
+  <test label='U+06A4'><string>\u06A4\u0670 \u06A4\u0670\u200D \u200D\u06A4\u0670\u200D \u200D\u06A4\u0670 \u06A4\u0670\u06A4\u0670\u06A4\u0670</string></test>
+  <test label='U+06A4' stylename='cv76_1'><string>\u06A4\u0670 \u06A4\u0670\u200D \u200D\u06A4\u0670\u200D \u200D\u06A4\u0670 \u06A4\u0670\u06A4\u0670\u06A4\u0670</string></test>
+  <test label='U+06A4' stylename='cv76_2'><string>\u06A4\u0670 \u06A4\u0670\u200D \u200D\u06A4\u0670\u200D \u200D\u06A4\u0670 \u06A4\u0670\u06A4\u0670\u06A4\u0670</string><comment>absVeh</comment></test>
+  <test label='U+06A5'><string>\u06A5\u0670 \u06A5\u0670\u200D \u200D\u06A5\u0670\u200D \u200D\u06A5\u0670 \u06A5\u0670\u06A5\u0670\u06A5\u0670</string></test>
+  <test label='U+06A5' stylename='cv76_1'><string>\u06A5\u0670 \u06A5\u0670\u200D \u200D\u06A5\u0670\u200D \u200D\u06A5\u0670 \u06A5\u0670\u06A5\u0670\u06A5\u0670</string></test>
+  <test label='U+06A5' stylename='cv76_2'><string>\u06A5\u0670 \u06A5\u0670\u200D \u200D\u06A5\u0670\u200D \u200D\u06A5\u0670 \u06A5\u0670\u06A5\u0670\u06A5\u0670</string><comment>absFehThreeDotsBelow</comment></test>
+  <test label='U+06A6'><string>\u06A6\u0670 \u06A6\u0670\u200D \u200D\u06A6\u0670\u200D \u200D\u06A6\u0670 \u06A6\u0670\u06A6\u0670\u06A6\u0670</string></test>
+  <test label='U+06A6' stylename='cv76_1'><string>\u06A6\u0670 \u06A6\u0670\u200D \u200D\u06A6\u0670\u200D \u200D\u06A6\u0670 \u06A6\u0670\u06A6\u0670\u06A6\u0670</string></test>
+  <test label='U+06A6' stylename='cv76_2'><string>\u06A6\u0670 \u06A6\u0670\u200D \u200D\u06A6\u0670\u200D \u200D\u06A6\u0670 \u06A6\u0670\u06A6\u0670\u06A6\u0670</string><comment>absPeheh</comment></test>
+  <test label='U+0760'><string>\u0760\u0670 \u0760\u0670\u200D \u200D\u0760\u0670\u200D \u200D\u0760\u0670 \u0760\u0670\u0760\u0670\u0760\u0670</string></test>
+  <test label='U+0760' stylename='cv76_1'><string>\u0760\u0670 \u0760\u0670\u200D \u200D\u0760\u0670\u200D \u200D\u0760\u0670 \u0760\u0670\u0760\u0670\u0760\u0670</string></test>
+  <test label='U+0760' stylename='cv76_2'><string>\u0760\u0670 \u0760\u0670\u200D \u200D\u0760\u0670\u200D \u200D\u0760\u0670 \u0760\u0670\u0760\u0670\u0760\u0670</string><comment>absFehTwoDotsBelow</comment></test>
+  <test label='U+0761'><string>\u0761\u0670 \u0761\u0670\u200D \u200D\u0761\u0670\u200D \u200D\u0761\u0670 \u0761\u0670\u0761\u0670\u0761\u0670</string></test>
+  <test label='U+0761' stylename='cv76_1'><string>\u0761\u0670 \u0761\u0670\u200D \u200D\u0761\u0670\u200D \u200D\u0761\u0670 \u0761\u0670\u0761\u0670\u0761\u0670</string></test>
+  <test label='U+0761' stylename='cv76_2'><string>\u0761\u0670 \u0761\u0670\u200D \u200D\u0761\u0670\u200D \u200D\u0761\u0670 \u0761\u0670\u0761\u0670\u0761\u0670</string><comment>absFehThreeDotsUpBelow</comment></test>
+  <test label='U+06A9'><string>\u06A9\u0670 \u06A9\u0670\u200D \u200D\u06A9\u0670\u200D \u200D\u06A9\u0670 \u06A9\u0670\u06A9\u0670\u06A9\u0670</string></test>
+  <test label='U+06A9' stylename='cv76_1'><string>\u06A9\u0670 \u06A9\u0670\u200D \u200D\u06A9\u0670\u200D \u200D\u06A9\u0670 \u06A9\u0670\u06A9\u0670\u06A9\u0670</string></test>
+  <test label='U+06A9' stylename='cv76_2'><string>\u06A9\u0670 \u06A9\u0670\u200D \u200D\u06A9\u0670\u200D \u200D\u06A9\u0670 \u06A9\u0670\u06A9\u0670\u06A9\u0670</string><comment>absKeheh</comment></test>
+  <test label='U+06AB'><string>\u06AB\u0670 \u06AB\u0670\u200D \u200D\u06AB\u0670\u200D \u200D\u06AB\u0670 \u06AB\u0670\u06AB\u0670\u06AB\u0670</string></test>
+  <test label='U+06AB' stylename='cv76_1'><string>\u06AB\u0670 \u06AB\u0670\u200D \u200D\u06AB\u0670\u200D \u200D\u06AB\u0670 \u06AB\u0670\u06AB\u0670\u06AB\u0670</string></test>
+  <test label='U+06AB' stylename='cv76_2'><string>\u06AB\u0670 \u06AB\u0670\u200D \u200D\u06AB\u0670\u200D \u200D\u06AB\u0670 \u06AB\u0670\u06AB\u0670\u06AB\u0670</string><comment>absKafRing</comment></test>
+  <test label='U+06AF'><string>\u06AF\u0670 \u06AF\u0670\u200D \u200D\u06AF\u0670\u200D \u200D\u06AF\u0670 \u06AF\u0670\u06AF\u0670\u06AF\u0670</string></test>
+  <test label='U+06AF' stylename='cv76_1'><string>\u06AF\u0670 \u06AF\u0670\u200D \u200D\u06AF\u0670\u200D \u200D\u06AF\u0670 \u06AF\u0670\u06AF\u0670\u06AF\u0670</string></test>
+  <test label='U+06AF' stylename='cv76_2'><string>\u06AF\u0670 \u06AF\u0670\u200D \u200D\u06AF\u0670\u200D \u200D\u06AF\u0670 \u06AF\u0670\u06AF\u0670\u06AF\u0670</string><comment>absGaf</comment></test>
+  <test label='U+06B0'><string>\u06B0\u0670 \u06B0\u0670\u200D \u200D\u06B0\u0670\u200D \u200D\u06B0\u0670 \u06B0\u0670\u06B0\u0670\u06B0\u0670</string></test>
+  <test label='U+06B0' stylename='cv76_1'><string>\u06B0\u0670 \u06B0\u0670\u200D \u200D\u06B0\u0670\u200D \u200D\u06B0\u0670 \u06B0\u0670\u06B0\u0670\u06B0\u0670</string></test>
+  <test label='U+06B0' stylename='cv76_2'><string>\u06B0\u0670 \u06B0\u0670\u200D \u200D\u06B0\u0670\u200D \u200D\u06B0\u0670 \u06B0\u0670\u06B0\u0670\u06B0\u0670</string><comment>absGafRing</comment></test>
+  <test label='U+06B1'><string>\u06B1\u0670 \u06B1\u0670\u200D \u200D\u06B1\u0670\u200D \u200D\u06B1\u0670 \u06B1\u0670\u06B1\u0670\u06B1\u0670</string></test>
+  <test label='U+06B1' stylename='cv76_1'><string>\u06B1\u0670 \u06B1\u0670\u200D \u200D\u06B1\u0670\u200D \u200D\u06B1\u0670 \u06B1\u0670\u06B1\u0670\u06B1\u0670</string></test>
+  <test label='U+06B1' stylename='cv76_2'><string>\u06B1\u0670 \u06B1\u0670\u200D \u200D\u06B1\u0670\u200D \u200D\u06B1\u0670 \u06B1\u0670\u06B1\u0670\u06B1\u0670</string><comment>absNgoeh</comment></test>
+  <test label='U+06B2'><string>\u06B2\u0670 \u06B2\u0670\u200D \u200D\u06B2\u0670\u200D \u200D\u06B2\u0670 \u06B2\u0670\u06B2\u0670\u06B2\u0670</string></test>
+  <test label='U+06B2' stylename='cv76_1'><string>\u06B2\u0670 \u06B2\u0670\u200D \u200D\u06B2\u0670\u200D \u200D\u06B2\u0670 \u06B2\u0670\u06B2\u0670\u06B2\u0670</string></test>
+  <test label='U+06B2' stylename='cv76_2'><string>\u06B2\u0670 \u06B2\u0670\u200D \u200D\u06B2\u0670\u200D \u200D\u06B2\u0670 \u06B2\u0670\u06B2\u0670\u06B2\u0670</string><comment>absGafTwoDotsBelow</comment></test>
+  <test label='U+06B3'><string>\u06B3\u0670 \u06B3\u0670\u200D \u200D\u06B3\u0670\u200D \u200D\u06B3\u0670 \u06B3\u0670\u06B3\u0670\u06B3\u0670</string></test>
+  <test label='U+06B3' stylename='cv76_1'><string>\u06B3\u0670 \u06B3\u0670\u200D \u200D\u06B3\u0670\u200D \u200D\u06B3\u0670 \u06B3\u0670\u06B3\u0670\u06B3\u0670</string></test>
+  <test label='U+06B3' stylename='cv76_2'><string>\u06B3\u0670 \u06B3\u0670\u200D \u200D\u06B3\u0670\u200D \u200D\u06B3\u0670 \u06B3\u0670\u06B3\u0670\u06B3\u0670</string><comment>absGueh</comment></test>
+  <test label='U+06B4'><string>\u06B4\u0670 \u06B4\u0670\u200D \u200D\u06B4\u0670\u200D \u200D\u06B4\u0670 \u06B4\u0670\u06B4\u0670\u06B4\u0670</string></test>
+  <test label='U+06B4' stylename='cv76_1'><string>\u06B4\u0670 \u06B4\u0670\u200D \u200D\u06B4\u0670\u200D \u200D\u06B4\u0670 \u06B4\u0670\u06B4\u0670\u06B4\u0670</string></test>
+  <test label='U+06B4' stylename='cv76_2'><string>\u06B4\u0670 \u06B4\u0670\u200D \u200D\u06B4\u0670\u200D \u200D\u06B4\u0670 \u06B4\u0670\u06B4\u0670\u06B4\u0670</string><comment>absGafThreeDotsAbove</comment></test>
+  <test label='U+0762'><string>\u0762\u0670 \u0762\u0670\u200D \u200D\u0762\u0670\u200D \u200D\u0762\u0670 \u0762\u0670\u0762\u0670\u0762\u0670</string></test>
+  <test label='U+0762' stylename='cv76_1'><string>\u0762\u0670 \u0762\u0670\u200D \u200D\u0762\u0670\u200D \u200D\u0762\u0670 \u0762\u0670\u0762\u0670\u0762\u0670</string></test>
+  <test label='U+0762' stylename='cv76_2'><string>\u0762\u0670 \u0762\u0670\u200D \u200D\u0762\u0670\u200D \u200D\u0762\u0670 \u0762\u0670\u0762\u0670\u0762\u0670</string><comment>absKehehDotAbove</comment></test>
+  <test label='U+0763'><string>\u0763\u0670 \u0763\u0670\u200D \u200D\u0763\u0670\u200D \u200D\u0763\u0670 \u0763\u0670\u0763\u0670\u0763\u0670</string></test>
+  <test label='U+0763' stylename='cv76_1'><string>\u0763\u0670 \u0763\u0670\u200D \u200D\u0763\u0670\u200D \u200D\u0763\u0670 \u0763\u0670\u0763\u0670\u0763\u0670</string></test>
+  <test label='U+0763' stylename='cv76_2'><string>\u0763\u0670 \u0763\u0670\u200D \u200D\u0763\u0670\u200D \u200D\u0763\u0670 \u0763\u0670\u0763\u0670\u0763\u0670</string><comment>absKehehThreeDotsAbove</comment></test>
+  <test label='U+0764'><string>\u0764\u0670 \u0764\u0670\u200D \u200D\u0764\u0670\u200D \u200D\u0764\u0670 \u0764\u0670\u0764\u0670\u0764\u0670</string></test>
+  <test label='U+0764' stylename='cv76_1'><string>\u0764\u0670 \u0764\u0670\u200D \u200D\u0764\u0670\u200D \u200D\u0764\u0670 \u0764\u0670\u0764\u0670\u0764\u0670</string></test>
+  <test label='U+0764' stylename='cv76_2'><string>\u0764\u0670 \u0764\u0670\u200D \u200D\u0764\u0670\u200D \u200D\u0764\u0670 \u0764\u0670\u0764\u0670\u0764\u0670</string><comment>absKehehThreeDotsUpBelow</comment></test>
+  <test label='U+0643'><string>\u0643\u0670 \u0643\u0670\u200D \u200D\u0643\u0670\u200D \u200D\u0643\u0670 \u0643\u0670\u0643\u0670\u0643\u0670</string></test>
+  <test label='U+0643' stylename='cv76_1'><string>\u0643\u0670 \u0643\u0670\u200D \u200D\u0643\u0670\u200D \u200D\u0643\u0670 \u0643\u0670\u0643\u0670\u0643\u0670</string></test>
+  <test label='U+0643' stylename='cv76_2'><string>\u0643\u0670 \u0643\u0670\u200D \u200D\u0643\u0670\u200D \u200D\u0643\u0670 \u0643\u0670\u0643\u0670\u0643\u0670</string><comment>absKaf</comment></test>
+  <test label='U+06AC'><string>\u06AC\u0670 \u06AC\u0670\u200D \u200D\u06AC\u0670\u200D \u200D\u06AC\u0670 \u06AC\u0670\u06AC\u0670\u06AC\u0670</string></test>
+  <test label='U+06AC' stylename='cv76_1'><string>\u06AC\u0670 \u06AC\u0670\u200D \u200D\u06AC\u0670\u200D \u200D\u06AC\u0670 \u06AC\u0670\u06AC\u0670\u06AC\u0670</string></test>
+  <test label='U+06AC' stylename='cv76_2'><string>\u06AC\u0670 \u06AC\u0670\u200D \u200D\u06AC\u0670\u200D \u200D\u06AC\u0670 \u06AC\u0670\u06AC\u0670\u06AC\u0670</string><comment>absKafDotAbove</comment></test>
+  <test label='U+06AD'><string>\u06AD\u0670 \u06AD\u0670\u200D \u200D\u06AD\u0670\u200D \u200D\u06AD\u0670 \u06AD\u0670\u06AD\u0670\u06AD\u0670</string></test>
+  <test label='U+06AD' stylename='cv76_1'><string>\u06AD\u0670 \u06AD\u0670\u200D \u200D\u06AD\u0670\u200D \u200D\u06AD\u0670 \u06AD\u0670\u06AD\u0670\u06AD\u0670</string></test>
+  <test label='U+06AD' stylename='cv76_2'><string>\u06AD\u0670 \u06AD\u0670\u200D \u200D\u06AD\u0670\u200D \u200D\u06AD\u0670 \u06AD\u0670\u06AD\u0670\u06AD\u0670</string><comment>absNg</comment></test>
+  <test label='U+06AE'><string>\u06AE\u0670 \u06AE\u0670\u200D \u200D\u06AE\u0670\u200D \u200D\u06AE\u0670 \u06AE\u0670\u06AE\u0670\u06AE\u0670</string></test>
+  <test label='U+06AE' stylename='cv76_1'><string>\u06AE\u0670 \u06AE\u0670\u200D \u200D\u06AE\u0670\u200D \u200D\u06AE\u0670 \u06AE\u0670\u06AE\u0670\u06AE\u0670</string></test>
+  <test label='U+06AE' stylename='cv76_2'><string>\u06AE\u0670 \u06AE\u0670\u200D \u200D\u06AE\u0670\u200D \u200D\u06AE\u0670 \u06AE\u0670\u06AE\u0670\u06AE\u0670</string><comment>absKafThreeDotsBelow</comment></test>
+  <test label='U+062C'><string>\u062C\u0670 \u062C\u0670\u200D \u200D\u062C\u0670\u200D \u200D\u062C\u0670 \u062C\u0670\u062C\u0670\u062C\u0670</string></test>
+  <test label='U+062C' stylename='cv76_1'><string>\u062C\u0670 \u062C\u0670\u200D \u200D\u062C\u0670\u200D \u200D\u062C\u0670 \u062C\u0670\u062C\u0670\u062C\u0670</string></test>
+  <test label='U+062C' stylename='cv76_2'><string>\u062C\u0670 \u062C\u0670\u200D \u200D\u062C\u0670\u200D \u200D\u062C\u0670 \u062C\u0670\u062C\u0670\u062C\u0670</string><comment>absJeem</comment></test>
+  <test label='U+062D'><string>\u062D\u0670 \u062D\u0670\u200D \u200D\u062D\u0670\u200D \u200D\u062D\u0670 \u062D\u0670\u062D\u0670\u062D\u0670</string></test>
+  <test label='U+062D' stylename='cv76_1'><string>\u062D\u0670 \u062D\u0670\u200D \u200D\u062D\u0670\u200D \u200D\u062D\u0670 \u062D\u0670\u062D\u0670\u062D\u0670</string></test>
+  <test label='U+062D' stylename='cv76_2'><string>\u062D\u0670 \u062D\u0670\u200D \u200D\u062D\u0670\u200D \u200D\u062D\u0670 \u062D\u0670\u062D\u0670\u062D\u0670</string><comment>absHah</comment></test>
+  <test label='U+062E'><string>\u062E\u0670 \u062E\u0670\u200D \u200D\u062E\u0670\u200D \u200D\u062E\u0670 \u062E\u0670\u062E\u0670\u062E\u0670</string></test>
+  <test label='U+062E' stylename='cv76_1'><string>\u062E\u0670 \u062E\u0670\u200D \u200D\u062E\u0670\u200D \u200D\u062E\u0670 \u062E\u0670\u062E\u0670\u062E\u0670</string></test>
+  <test label='U+062E' stylename='cv76_2'><string>\u062E\u0670 \u062E\u0670\u200D \u200D\u062E\u0670\u200D \u200D\u062E\u0670 \u062E\u0670\u062E\u0670\u062E\u0670</string><comment>absKhah</comment></test>
+  <test label='U+0681'><string>\u0681\u0670 \u0681\u0670\u200D \u200D\u0681\u0670\u200D \u200D\u0681\u0670 \u0681\u0670\u0681\u0670\u0681\u0670</string></test>
+  <test label='U+0681' stylename='cv76_1'><string>\u0681\u0670 \u0681\u0670\u200D \u200D\u0681\u0670\u200D \u200D\u0681\u0670 \u0681\u0670\u0681\u0670\u0681\u0670</string></test>
+  <test label='U+0681' stylename='cv76_2'><string>\u0681\u0670 \u0681\u0670\u200D \u200D\u0681\u0670\u200D \u200D\u0681\u0670 \u0681\u0670\u0681\u0670\u0681\u0670</string><comment>absHahHamzaAbove</comment></test>
+  <test label='U+0682'><string>\u0682\u0670 \u0682\u0670\u200D \u200D\u0682\u0670\u200D \u200D\u0682\u0670 \u0682\u0670\u0682\u0670\u0682\u0670</string></test>
+  <test label='U+0682' stylename='cv76_1'><string>\u0682\u0670 \u0682\u0670\u200D \u200D\u0682\u0670\u200D \u200D\u0682\u0670 \u0682\u0670\u0682\u0670\u0682\u0670</string></test>
+  <test label='U+0682' stylename='cv76_2'><string>\u0682\u0670 \u0682\u0670\u200D \u200D\u0682\u0670\u200D \u200D\u0682\u0670 \u0682\u0670\u0682\u0670\u0682\u0670</string><comment>absHahTwoDotsVerticalAbove</comment></test>
+  <test label='U+0683'><string>\u0683\u0670 \u0683\u0670\u200D \u200D\u0683\u0670\u200D \u200D\u0683\u0670 \u0683\u0670\u0683\u0670\u0683\u0670</string></test>
+  <test label='U+0683' stylename='cv76_1'><string>\u0683\u0670 \u0683\u0670\u200D \u200D\u0683\u0670\u200D \u200D\u0683\u0670 \u0683\u0670\u0683\u0670\u0683\u0670</string></test>
+  <test label='U+0683' stylename='cv76_2'><string>\u0683\u0670 \u0683\u0670\u200D \u200D\u0683\u0670\u200D \u200D\u0683\u0670 \u0683\u0670\u0683\u0670\u0683\u0670</string><comment>absNyeh</comment></test>
+  <test label='U+0684'><string>\u0684\u0670 \u0684\u0670\u200D \u200D\u0684\u0670\u200D \u200D\u0684\u0670 \u0684\u0670\u0684\u0670\u0684\u0670</string></test>
+  <test label='U+0684' stylename='cv76_1'><string>\u0684\u0670 \u0684\u0670\u200D \u200D\u0684\u0670\u200D \u200D\u0684\u0670 \u0684\u0670\u0684\u0670\u0684\u0670</string></test>
+  <test label='U+0684' stylename='cv76_2'><string>\u0684\u0670 \u0684\u0670\u200D \u200D\u0684\u0670\u200D \u200D\u0684\u0670 \u0684\u0670\u0684\u0670\u0684\u0670</string><comment>absDyeh</comment></test>
+  <test label='U+0685'><string>\u0685\u0670 \u0685\u0670\u200D \u200D\u0685\u0670\u200D \u200D\u0685\u0670 \u0685\u0670\u0685\u0670\u0685\u0670</string></test>
+  <test label='U+0685' stylename='cv76_1'><string>\u0685\u0670 \u0685\u0670\u200D \u200D\u0685\u0670\u200D \u200D\u0685\u0670 \u0685\u0670\u0685\u0670\u0685\u0670</string></test>
+  <test label='U+0685' stylename='cv76_2'><string>\u0685\u0670 \u0685\u0670\u200D \u200D\u0685\u0670\u200D \u200D\u0685\u0670 \u0685\u0670\u0685\u0670\u0685\u0670</string><comment>absHahThreeDotsAbove</comment></test>
+  <test label='U+0686'><string>\u0686\u0670 \u0686\u0670\u200D \u200D\u0686\u0670\u200D \u200D\u0686\u0670 \u0686\u0670\u0686\u0670\u0686\u0670</string></test>
+  <test label='U+0686' stylename='cv76_1'><string>\u0686\u0670 \u0686\u0670\u200D \u200D\u0686\u0670\u200D \u200D\u0686\u0670 \u0686\u0670\u0686\u0670\u0686\u0670</string></test>
+  <test label='U+0686' stylename='cv76_2'><string>\u0686\u0670 \u0686\u0670\u200D \u200D\u0686\u0670\u200D \u200D\u0686\u0670 \u0686\u0670\u0686\u0670\u0686\u0670</string><comment>absTcheh</comment></test>
+  <test label='U+0687'><string>\u0687\u0670 \u0687\u0670\u200D \u200D\u0687\u0670\u200D \u200D\u0687\u0670 \u0687\u0670\u0687\u0670\u0687\u0670</string></test>
+  <test label='U+0687' stylename='cv76_1'><string>\u0687\u0670 \u0687\u0670\u200D \u200D\u0687\u0670\u200D \u200D\u0687\u0670 \u0687\u0670\u0687\u0670\u0687\u0670</string></test>
+  <test label='U+0687' stylename='cv76_2'><string>\u0687\u0670 \u0687\u0670\u200D \u200D\u0687\u0670\u200D \u200D\u0687\u0670 \u0687\u0670\u0687\u0670\u0687\u0670</string><comment>absTcheheh</comment></test>
+  <test label='U+06BF'><string>\u06BF\u0670 \u06BF\u0670\u200D \u200D\u06BF\u0670\u200D \u200D\u06BF\u0670 \u06BF\u0670\u06BF\u0670\u06BF\u0670</string></test>
+  <test label='U+06BF' stylename='cv76_1'><string>\u06BF\u0670 \u06BF\u0670\u200D \u200D\u06BF\u0670\u200D \u200D\u06BF\u0670 \u06BF\u0670\u06BF\u0670\u06BF\u0670</string></test>
+  <test label='U+06BF' stylename='cv76_2'><string>\u06BF\u0670 \u06BF\u0670\u200D \u200D\u06BF\u0670\u200D \u200D\u06BF\u0670 \u06BF\u0670\u06BF\u0670\u06BF\u0670</string><comment>absTchehDotAbove</comment></test>
+  <test label='U+0757'><string>\u0757\u0670 \u0757\u0670\u200D \u200D\u0757\u0670\u200D \u200D\u0757\u0670 \u0757\u0670\u0757\u0670\u0757\u0670</string></test>
+  <test label='U+0757' stylename='cv76_1'><string>\u0757\u0670 \u0757\u0670\u200D \u200D\u0757\u0670\u200D \u200D\u0757\u0670 \u0757\u0670\u0757\u0670\u0757\u0670</string></test>
+  <test label='U+0757' stylename='cv76_2'><string>\u0757\u0670 \u0757\u0670\u200D \u200D\u0757\u0670\u200D \u200D\u0757\u0670 \u0757\u0670\u0757\u0670\u0757\u0670</string><comment>absHahTwoDotsAbove</comment></test>
+  <test label='U+0758'><string>\u0758\u0670 \u0758\u0670\u200D \u200D\u0758\u0670\u200D \u200D\u0758\u0670 \u0758\u0670\u0758\u0670\u0758\u0670</string></test>
+  <test label='U+0758' stylename='cv76_1'><string>\u0758\u0670 \u0758\u0670\u200D \u200D\u0758\u0670\u200D \u200D\u0758\u0670 \u0758\u0670\u0758\u0670\u0758\u0670</string></test>
+  <test label='U+0758' stylename='cv76_2'><string>\u0758\u0670 \u0758\u0670\u200D \u200D\u0758\u0670\u200D \u200D\u0758\u0670 \u0758\u0670\u0758\u0670\u0758\u0670</string><comment>absHahThreeDotsUpBelow</comment></test>
+  <test label='U+076E'><string>\u076E\u0670 \u076E\u0670\u200D \u200D\u076E\u0670\u200D \u200D\u076E\u0670 \u076E\u0670\u076E\u0670\u076E\u0670</string></test>
+  <test label='U+076E' stylename='cv76_1'><string>\u076E\u0670 \u076E\u0670\u200D \u200D\u076E\u0670\u200D \u200D\u076E\u0670 \u076E\u0670\u076E\u0670\u076E\u0670</string></test>
+  <test label='U+076E' stylename='cv76_2'><string>\u076E\u0670 \u076E\u0670\u200D \u200D\u076E\u0670\u200D \u200D\u076E\u0670 \u076E\u0670\u076E\u0670\u076E\u0670</string><comment>absHahSmallTahBelow</comment></test>
+  <test label='U+076F'><string>\u076F\u0670 \u076F\u0670\u200D \u200D\u076F\u0670\u200D \u200D\u076F\u0670 \u076F\u0670\u076F\u0670\u076F\u0670</string></test>
+  <test label='U+076F' stylename='cv76_1'><string>\u076F\u0670 \u076F\u0670\u200D \u200D\u076F\u0670\u200D \u200D\u076F\u0670 \u076F\u0670\u076F\u0670\u076F\u0670</string></test>
+  <test label='U+076F' stylename='cv76_2'><string>\u076F\u0670 \u076F\u0670\u200D \u200D\u076F\u0670\u200D \u200D\u076F\u0670 \u076F\u0670\u076F\u0670\u076F\u0670</string><comment>absHahSmallTahTwoDots</comment></test>
+  <test label='U+0772'><string>\u0772\u0670 \u0772\u0670\u200D \u200D\u0772\u0670\u200D \u200D\u0772\u0670 \u0772\u0670\u0772\u0670\u0772\u0670</string></test>
+  <test label='U+0772' stylename='cv76_1'><string>\u0772\u0670 \u0772\u0670\u200D \u200D\u0772\u0670\u200D \u200D\u0772\u0670 \u0772\u0670\u0772\u0670\u0772\u0670</string></test>
+  <test label='U+0772' stylename='cv76_2'><string>\u0772\u0670 \u0772\u0670\u200D \u200D\u0772\u0670\u200D \u200D\u0772\u0670 \u0772\u0670\u0772\u0670\u0772\u0670</string><comment>absHahSmallTahAbove</comment></test>
+  <test label='U+0647'><string>\u0647\u0670 \u0647\u0670\u200D \u200D\u0647\u0670\u200D \u200D\u0647\u0670 \u0647\u0670\u0647\u0670\u0647\u0670</string></test>
+  <test label='U+0647' stylename='cv76_1'><string>\u0647\u0670 \u0647\u0670\u200D \u200D\u0647\u0670\u200D \u200D\u0647\u0670 \u0647\u0670\u0647\u0670\u0647\u0670</string></test>
+  <test label='U+0647' stylename='cv76_2'><string>\u0647\u0670 \u0647\u0670\u200D \u200D\u0647\u0670\u200D \u200D\u0647\u0670 \u0647\u0670\u0647\u0670\u0647\u0670</string></test>
+  <test label='U+0647' stylename='cv48_1'><string>\u0647\u0670 \u0647\u0670\u200D \u200D\u0647\u0670\u200D \u200D\u0647\u0670 \u0647\u0670\u0647\u0670\u0647\u0670</string></test>
+  <test label='U+0647' stylename='cv48_1_cv76_1'><string>\u0647\u0670 \u0647\u0670\u200D \u200D\u0647\u0670\u200D \u200D\u0647\u0670 \u0647\u0670\u0647\u0670\u0647\u0670</string></test>
+  <test label='U+0647' stylename='cv48_1_cv76_2'><string>\u0647\u0670 \u0647\u0670\u200D \u200D\u0647\u0670\u200D \u200D\u0647\u0670 \u0647\u0670\u0647\u0670\u0647\u0670</string></test>
+  <test label='U+0647' stylename='cv48_2'><string>\u0647\u0670 \u0647\u0670\u200D \u200D\u0647\u0670\u200D \u200D\u0647\u0670 \u0647\u0670\u0647\u0670\u0647\u0670</string></test>
+  <test label='U+0647' stylename='cv48_2_cv76_1'><string>\u0647\u0670 \u0647\u0670\u200D \u200D\u0647\u0670\u200D \u200D\u0647\u0670 \u0647\u0670\u0647\u0670\u0647\u0670</string></test>
+  <test label='U+0647' stylename='cv48_2_cv76_2'><string>\u0647\u0670 \u0647\u0670\u200D \u200D\u0647\u0670\u200D \u200D\u0647\u0670 \u0647\u0670\u0647\u0670\u0647\u0670</string></test>
+  <test label='U+0647' stylename='cv48_3'><string>\u0647\u0670 \u0647\u0670\u200D \u200D\u0647\u0670\u200D \u200D\u0647\u0670 \u0647\u0670\u0647\u0670\u0647\u0670</string></test>
+  <test label='U+0647' stylename='cv48_3_cv76_1'><string>\u0647\u0670 \u0647\u0670\u200D \u200D\u0647\u0670\u200D \u200D\u0647\u0670 \u0647\u0670\u0647\u0670\u0647\u0670</string></test>
+  <test label='U+0647' stylename='cv48_3_cv76_2'><string>\u0647\u0670 \u0647\u0670\u200D \u200D\u0647\u0670\u200D \u200D\u0647\u0670 \u0647\u0670\u0647\u0670\u0647\u0670</string><comment>absHeh</comment></test>
+  <test label='U+06C1'><string>\u06C1\u0670 \u06C1\u0670\u200D \u200D\u06C1\u0670\u200D \u200D\u06C1\u0670 \u06C1\u0670\u06C1\u0670\u06C1\u0670</string></test>
+  <test label='U+06C1' stylename='cv76_1'><string>\u06C1\u0670 \u06C1\u0670\u200D \u200D\u06C1\u0670\u200D \u200D\u06C1\u0670 \u06C1\u0670\u06C1\u0670\u06C1\u0670</string></test>
+  <test label='U+06C1' stylename='cv76_2'><string>\u06C1\u0670 \u06C1\u0670\u200D \u200D\u06C1\u0670\u200D \u200D\u06C1\u0670 \u06C1\u0670\u06C1\u0670\u06C1\u0670</string><comment>absHehGoal</comment></test>
+  <test label='U+06C2'><string>\u06C2\u0670 \u06C2\u0670\u200D \u200D\u06C2\u0670\u200D \u200D\u06C2\u0670 \u06C2\u0670\u06C2\u0670\u06C2\u0670</string></test>
+  <test label='U+06C2' stylename='cv76_1'><string>\u06C2\u0670 \u06C2\u0670\u200D \u200D\u06C2\u0670\u200D \u200D\u06C2\u0670 \u06C2\u0670\u06C2\u0670\u06C2\u0670</string></test>
+  <test label='U+06C2' stylename='cv76_2'><string>\u06C2\u0670 \u06C2\u0670\u200D \u200D\u06C2\u0670\u200D \u200D\u06C2\u0670 \u06C2\u0670\u06C2\u0670\u06C2\u0670</string><comment>absHehGoalHamzaAbove</comment></test>
+  <test label='U+0629'><string>\u0629\u0670 \u200D\u0629\u0670</string></test>
+  <test label='U+0629' stylename='cv76_1'><string>\u0629\u0670 \u200D\u0629\u0670</string></test>
+  <test label='U+0629' stylename='cv76_2'><string>\u0629\u0670 \u200D\u0629\u0670</string><comment>absTehMarbuta</comment></test>
+  <test label='U+06C0'><string>\u06C0\u0670 \u200D\u06C0\u0670</string></test>
+  <test label='U+06C0' stylename='cv76_1'><string>\u06C0\u0670 \u200D\u06C0\u0670</string></test>
+  <test label='U+06C0' stylename='cv76_2'><string>\u06C0\u0670 \u200D\u06C0\u0670</string><comment>absHehYehAbove</comment></test>
+  <test label='U+06D5'><string>\u06D5\u0670 \u200D\u06D5\u0670</string></test>
+  <test label='U+06D5' stylename='cv76_1'><string>\u06D5\u0670 \u200D\u06D5\u0670</string></test>
+  <test label='U+06D5' stylename='cv76_2'><string>\u06D5\u0670 \u200D\u06D5\u0670</string><comment>absAe</comment></test>
+  <test label='U+06C3'><string>\u06C3\u0670 \u200D\u06C3\u0670</string></test>
+  <test label='U+06C3' stylename='cv76_1'><string>\u06C3\u0670 \u200D\u06C3\u0670</string></test>
+  <test label='U+06C3' stylename='cv76_2'><string>\u06C3\u0670 \u200D\u06C3\u0670</string><comment>absTehMarbutaGoal</comment></test>
+  <test label='U+06BE'><string>\u06BE\u0670 \u06BE\u0670\u200D \u200D\u06BE\u0670\u200D \u200D\u06BE\u0670 \u06BE\u0670\u06BE\u0670\u06BE\u0670</string></test>
+  <test label='U+06BE' stylename='cv76_1'><string>\u06BE\u0670 \u06BE\u0670\u200D \u200D\u06BE\u0670\u200D \u200D\u06BE\u0670 \u06BE\u0670\u06BE\u0670\u06BE\u0670</string></test>
+  <test label='U+06BE' stylename='cv76_2'><string>\u06BE\u0670 \u06BE\u0670\u200D \u200D\u06BE\u0670\u200D \u200D\u06BE\u0670 \u06BE\u0670\u06BE\u0670\u06BE\u0670</string><comment>absHehDoachashmee</comment></test>
+  <test label='U+06FF'><string>\u06FF\u0670 \u06FF\u0670\u200D \u200D\u06FF\u0670\u200D \u200D\u06FF\u0670 \u06FF\u0670\u06FF\u0670\u06FF\u0670</string></test>
+  <test label='U+06FF' stylename='cv76_1'><string>\u06FF\u0670 \u06FF\u0670\u200D \u200D\u06FF\u0670\u200D \u200D\u06FF\u0670 \u06FF\u0670\u06FF\u0670\u06FF\u0670</string></test>
+  <test label='U+06FF' stylename='cv76_2'><string>\u06FF\u0670 \u06FF\u0670\u200D \u200D\u06FF\u0670\u200D \u200D\u06FF\u0670 \u06FF\u0670\u06FF\u0670\u06FF\u0670</string><comment>absHehHat</comment></test>
+  <test label='U+0644'><string>\u0644\u0670 \u0644\u0670\u200D \u200D\u0644\u0670\u200D \u200D\u0644\u0670 \u0644\u0670\u0644\u0670\u0644\u0670</string></test>
+  <test label='U+0644' stylename='cv76_1'><string>\u0644\u0670 \u0644\u0670\u200D \u200D\u0644\u0670\u200D \u200D\u0644\u0670 \u0644\u0670\u0644\u0670\u0644\u0670</string></test>
+  <test label='U+0644' stylename='cv76_2'><string>\u0644\u0670 \u0644\u0670\u200D \u200D\u0644\u0670\u200D \u200D\u0644\u0670 \u0644\u0670\u0644\u0670\u0644\u0670</string><comment>absLam</comment></test>
+  <test label='U+06B5'><string>\u06B5\u0670 \u06B5\u0670\u200D \u200D\u06B5\u0670\u200D \u200D\u06B5\u0670 \u06B5\u0670\u06B5\u0670\u06B5\u0670</string></test>
+  <test label='U+06B5' stylename='cv76_1'><string>\u06B5\u0670 \u06B5\u0670\u200D \u200D\u06B5\u0670\u200D \u200D\u06B5\u0670 \u06B5\u0670\u06B5\u0670\u06B5\u0670</string></test>
+  <test label='U+06B5' stylename='cv76_2'><string>\u06B5\u0670 \u06B5\u0670\u200D \u200D\u06B5\u0670\u200D \u200D\u06B5\u0670 \u06B5\u0670\u06B5\u0670\u06B5\u0670</string><comment>absLamSmallV</comment></test>
+  <test label='U+06B6'><string>\u06B6\u0670 \u06B6\u0670\u200D \u200D\u06B6\u0670\u200D \u200D\u06B6\u0670 \u06B6\u0670\u06B6\u0670\u06B6\u0670</string></test>
+  <test label='U+06B6' stylename='cv76_1'><string>\u06B6\u0670 \u06B6\u0670\u200D \u200D\u06B6\u0670\u200D \u200D\u06B6\u0670 \u06B6\u0670\u06B6\u0670\u06B6\u0670</string></test>
+  <test label='U+06B6' stylename='cv76_2'><string>\u06B6\u0670 \u06B6\u0670\u200D \u200D\u06B6\u0670\u200D \u200D\u06B6\u0670 \u06B6\u0670\u06B6\u0670\u06B6\u0670</string><comment>absLamDotAbove</comment></test>
+  <test label='U+06B7'><string>\u06B7\u0670 \u06B7\u0670\u200D \u200D\u06B7\u0670\u200D \u200D\u06B7\u0670 \u06B7\u0670\u06B7\u0670\u06B7\u0670</string></test>
+  <test label='U+06B7' stylename='cv76_1'><string>\u06B7\u0670 \u06B7\u0670\u200D \u200D\u06B7\u0670\u200D \u200D\u06B7\u0670 \u06B7\u0670\u06B7\u0670\u06B7\u0670</string></test>
+  <test label='U+06B7' stylename='cv76_2'><string>\u06B7\u0670 \u06B7\u0670\u200D \u200D\u06B7\u0670\u200D \u200D\u06B7\u0670 \u06B7\u0670\u06B7\u0670\u06B7\u0670</string><comment>absLamThreeDotsAbove</comment></test>
+  <test label='U+06B8'><string>\u06B8\u0670 \u06B8\u0670\u200D \u200D\u06B8\u0670\u200D \u200D\u06B8\u0670 \u06B8\u0670\u06B8\u0670\u06B8\u0670</string></test>
+  <test label='U+06B8' stylename='cv76_1'><string>\u06B8\u0670 \u06B8\u0670\u200D \u200D\u06B8\u0670\u200D \u200D\u06B8\u0670 \u06B8\u0670\u06B8\u0670\u06B8\u0670</string></test>
+  <test label='U+06B8' stylename='cv76_2'><string>\u06B8\u0670 \u06B8\u0670\u200D \u200D\u06B8\u0670\u200D \u200D\u06B8\u0670 \u06B8\u0670\u06B8\u0670\u06B8\u0670</string><comment>absLamThreeDotsBelow</comment></test>
+  <test label='U+076A'><string>\u076A\u0670 \u076A\u0670\u200D \u200D\u076A\u0670\u200D \u200D\u076A\u0670 \u076A\u0670\u076A\u0670\u076A\u0670</string></test>
+  <test label='U+076A' stylename='cv76_1'><string>\u076A\u0670 \u076A\u0670\u200D \u200D\u076A\u0670\u200D \u200D\u076A\u0670 \u076A\u0670\u076A\u0670\u076A\u0670</string></test>
+  <test label='U+076A' stylename='cv76_2'><string>\u076A\u0670 \u076A\u0670\u200D \u200D\u076A\u0670\u200D \u200D\u076A\u0670 \u076A\u0670\u076A\u0670\u076A\u0670</string><comment>absLamBar</comment></test>
+  <test label='U+0645'><string>\u0645\u0670 \u0645\u0670\u200D \u200D\u0645\u0670\u200D \u200D\u0645\u0670 \u0645\u0670\u0645\u0670\u0645\u0670</string></test>
+  <test label='U+0645' stylename='cv76_1'><string>\u0645\u0670 \u0645\u0670\u200D \u200D\u0645\u0670\u200D \u200D\u0645\u0670 \u0645\u0670\u0645\u0670\u0645\u0670</string></test>
+  <test label='U+0645' stylename='cv76_2'><string>\u0645\u0670 \u0645\u0670\u200D \u200D\u0645\u0670\u200D \u200D\u0645\u0670 \u0645\u0670\u0645\u0670\u0645\u0670</string></test>
+  <test label='U+0645' stylename='cv44_1'><string>\u0645\u0670 \u0645\u0670\u200D \u200D\u0645\u0670\u200D \u200D\u0645\u0670 \u0645\u0670\u0645\u0670\u0645\u0670</string></test>
+  <test label='U+0645' stylename='cv44_1_cv76_1'><string>\u0645\u0670 \u0645\u0670\u200D \u200D\u0645\u0670\u200D \u200D\u0645\u0670 \u0645\u0670\u0645\u0670\u0645\u0670</string></test>
+  <test label='U+0645' stylename='cv44_1_cv76_2'><string>\u0645\u0670 \u0645\u0670\u200D \u200D\u0645\u0670\u200D \u200D\u0645\u0670 \u0645\u0670\u0645\u0670\u0645\u0670</string><comment>absMeem</comment></test>
+  <test label='U+0765'><string>\u0765\u0670 \u0765\u0670\u200D \u200D\u0765\u0670\u200D \u200D\u0765\u0670 \u0765\u0670\u0765\u0670\u0765\u0670</string></test>
+  <test label='U+0765' stylename='cv76_1'><string>\u0765\u0670 \u0765\u0670\u200D \u200D\u0765\u0670\u200D \u200D\u0765\u0670 \u0765\u0670\u0765\u0670\u0765\u0670</string></test>
+  <test label='U+0765' stylename='cv76_2'><string>\u0765\u0670 \u0765\u0670\u200D \u200D\u0765\u0670\u200D \u200D\u0765\u0670 \u0765\u0670\u0765\u0670\u0765\u0670</string></test>
+  <test label='U+0765' stylename='cv44_1'><string>\u0765\u0670 \u0765\u0670\u200D \u200D\u0765\u0670\u200D \u200D\u0765\u0670 \u0765\u0670\u0765\u0670\u0765\u0670</string></test>
+  <test label='U+0765' stylename='cv44_1_cv76_1'><string>\u0765\u0670 \u0765\u0670\u200D \u200D\u0765\u0670\u200D \u200D\u0765\u0670 \u0765\u0670\u0765\u0670\u0765\u0670</string></test>
+  <test label='U+0765' stylename='cv44_1_cv76_2'><string>\u0765\u0670 \u0765\u0670\u200D \u200D\u0765\u0670\u200D \u200D\u0765\u0670 \u0765\u0670\u0765\u0670\u0765\u0670</string><comment>absMeemDotAbove</comment></test>
+  <test label='U+0766'><string>\u0766\u0670 \u0766\u0670\u200D \u200D\u0766\u0670\u200D \u200D\u0766\u0670 \u0766\u0670\u0766\u0670\u0766\u0670</string></test>
+  <test label='U+0766' stylename='cv76_1'><string>\u0766\u0670 \u0766\u0670\u200D \u200D\u0766\u0670\u200D \u200D\u0766\u0670 \u0766\u0670\u0766\u0670\u0766\u0670</string></test>
+  <test label='U+0766' stylename='cv76_2'><string>\u0766\u0670 \u0766\u0670\u200D \u200D\u0766\u0670\u200D \u200D\u0766\u0670 \u0766\u0670\u0766\u0670\u0766\u0670</string></test>
+  <test label='U+0766' stylename='cv44_1'><string>\u0766\u0670 \u0766\u0670\u200D \u200D\u0766\u0670\u200D \u200D\u0766\u0670 \u0766\u0670\u0766\u0670\u0766\u0670</string></test>
+  <test label='U+0766' stylename='cv44_1_cv76_1'><string>\u0766\u0670 \u0766\u0670\u200D \u200D\u0766\u0670\u200D \u200D\u0766\u0670 \u0766\u0670\u0766\u0670\u0766\u0670</string></test>
+  <test label='U+0766' stylename='cv44_1_cv76_2'><string>\u0766\u0670 \u0766\u0670\u200D \u200D\u0766\u0670\u200D \u200D\u0766\u0670 \u0766\u0670\u0766\u0670\u0766\u0670</string><comment>absMeemDotBelow</comment></test>
+  <test label='U+0642'><string>\u0642\u0670 \u0642\u0670\u200D \u200D\u0642\u0670\u200D \u200D\u0642\u0670 \u0642\u0670\u0642\u0670\u0642\u0670</string></test>
+  <test label='U+0642' stylename='cv76_1'><string>\u0642\u0670 \u0642\u0670\u200D \u200D\u0642\u0670\u200D \u200D\u0642\u0670 \u0642\u0670\u0642\u0670\u0642\u0670</string></test>
+  <test label='U+0642' stylename='cv76_2'><string>\u0642\u0670 \u0642\u0670\u200D \u200D\u0642\u0670\u200D \u200D\u0642\u0670 \u0642\u0670\u0642\u0670\u0642\u0670</string><comment>absQaf</comment></test>
+  <test label='U+066F'><string>\u066F\u0670 \u066F\u0670\u200D \u200D\u066F\u0670\u200D \u200D\u066F\u0670 \u066F\u0670\u066F\u0670\u066F\u0670</string></test>
+  <test label='U+066F' stylename='cv76_1'><string>\u066F\u0670 \u066F\u0670\u200D \u200D\u066F\u0670\u200D \u200D\u066F\u0670 \u066F\u0670\u066F\u0670\u066F\u0670</string></test>
+  <test label='U+066F' stylename='cv76_2'><string>\u066F\u0670 \u066F\u0670\u200D \u200D\u066F\u0670\u200D \u200D\u066F\u0670 \u066F\u0670\u066F\u0670\u066F\u0670</string><comment>absQafNoDots</comment></test>
+  <test label='U+06A7'><string>\u06A7\u0670 \u06A7\u0670\u200D \u200D\u06A7\u0670\u200D \u200D\u06A7\u0670 \u06A7\u0670\u06A7\u0670\u06A7\u0670</string></test>
+  <test label='U+06A7' stylename='cv76_1'><string>\u06A7\u0670 \u06A7\u0670\u200D \u200D\u06A7\u0670\u200D \u200D\u06A7\u0670 \u06A7\u0670\u06A7\u0670\u06A7\u0670</string></test>
+  <test label='U+06A7' stylename='cv76_2'><string>\u06A7\u0670 \u06A7\u0670\u200D \u200D\u06A7\u0670\u200D \u200D\u06A7\u0670 \u06A7\u0670\u06A7\u0670\u06A7\u0670</string><comment>absQafDotAbove</comment></test>
+  <test label='U+06A8'><string>\u06A8\u0670 \u06A8\u0670\u200D \u200D\u06A8\u0670\u200D \u200D\u06A8\u0670 \u06A8\u0670\u06A8\u0670\u06A8\u0670</string></test>
+  <test label='U+06A8' stylename='cv76_1'><string>\u06A8\u0670 \u06A8\u0670\u200D \u200D\u06A8\u0670\u200D \u200D\u06A8\u0670 \u06A8\u0670\u06A8\u0670\u06A8\u0670</string></test>
+  <test label='U+06A8' stylename='cv76_2'><string>\u06A8\u0670 \u06A8\u0670\u200D \u200D\u06A8\u0670\u200D \u200D\u06A8\u0670 \u06A8\u0670\u06A8\u0670\u06A8\u0670</string><comment>absQafThreeDotsAbove</comment></test>
+  <test label='U+0631'><string>\u0631\u0670 \u200D\u0631\u0670</string></test>
+  <test label='U+0631' stylename='cv76_1'><string>\u0631\u0670 \u200D\u0631\u0670</string></test>
+  <test label='U+0631' stylename='cv76_2'><string>\u0631\u0670 \u200D\u0631\u0670</string><comment>absReh</comment></test>
+  <test label='U+0632'><string>\u0632\u0670 \u200D\u0632\u0670</string></test>
+  <test label='U+0632' stylename='cv76_1'><string>\u0632\u0670 \u200D\u0632\u0670</string></test>
+  <test label='U+0632' stylename='cv76_2'><string>\u0632\u0670 \u200D\u0632\u0670</string><comment>absZain</comment></test>
+  <test label='U+0691'><string>\u0691\u0670 \u200D\u0691\u0670</string></test>
+  <test label='U+0691' stylename='cv76_1'><string>\u0691\u0670 \u200D\u0691\u0670</string></test>
+  <test label='U+0691' stylename='cv76_2'><string>\u0691\u0670 \u200D\u0691\u0670</string><comment>absRreh</comment></test>
+  <test label='U+0692'><string>\u0692\u0670 \u200D\u0692\u0670</string></test>
+  <test label='U+0692' stylename='cv76_1'><string>\u0692\u0670 \u200D\u0692\u0670</string></test>
+  <test label='U+0692' stylename='cv76_2'><string>\u0692\u0670 \u200D\u0692\u0670</string><comment>absRehSmallV</comment></test>
+  <test label='U+0693'><string>\u0693\u0670 \u200D\u0693\u0670</string></test>
+  <test label='U+0693' stylename='cv76_1'><string>\u0693\u0670 \u200D\u0693\u0670</string></test>
+  <test label='U+0693' stylename='cv76_2'><string>\u0693\u0670 \u200D\u0693\u0670</string><comment>absRehRing</comment></test>
+  <test label='U+0694'><string>\u0694\u0670 \u200D\u0694\u0670</string></test>
+  <test label='U+0694' stylename='cv76_1'><string>\u0694\u0670 \u200D\u0694\u0670</string></test>
+  <test label='U+0694' stylename='cv76_2'><string>\u0694\u0670 \u200D\u0694\u0670</string><comment>absRehDotBelow</comment></test>
+  <test label='U+0695'><string>\u0695\u0670 \u200D\u0695\u0670</string></test>
+  <test label='U+0695' stylename='cv76_1'><string>\u0695\u0670 \u200D\u0695\u0670</string></test>
+  <test label='U+0695' stylename='cv76_2'><string>\u0695\u0670 \u200D\u0695\u0670</string><comment>absRehSmallVBelow</comment></test>
+  <test label='U+0696'><string>\u0696\u0670 \u200D\u0696\u0670</string></test>
+  <test label='U+0696' stylename='cv76_1'><string>\u0696\u0670 \u200D\u0696\u0670</string></test>
+  <test label='U+0696' stylename='cv76_2'><string>\u0696\u0670 \u200D\u0696\u0670</string><comment>absRehDotBelowDotAbove</comment></test>
+  <test label='U+0697'><string>\u0697\u0670 \u200D\u0697\u0670</string></test>
+  <test label='U+0697' stylename='cv76_1'><string>\u0697\u0670 \u200D\u0697\u0670</string></test>
+  <test label='U+0697' stylename='cv76_2'><string>\u0697\u0670 \u200D\u0697\u0670</string><comment>absRehTwoDotsAbove</comment></test>
+  <test label='U+0698'><string>\u0698\u0670 \u200D\u0698\u0670</string></test>
+  <test label='U+0698' stylename='cv90_1'><string>\u0698\u0670 \u200D\u0698\u0670</string></test>
+  <test label='U+0698' stylename='cv76_1'><string>\u0698\u0670 \u200D\u0698\u0670</string></test>
+  <test label='U+0698' stylename='cv76_1_cv90_1'><string>\u0698\u0670 \u200D\u0698\u0670</string></test>
+  <test label='U+0698' stylename='cv76_2'><string>\u0698\u0670 \u200D\u0698\u0670</string></test>
+  <test label='U+0698' stylename='cv76_2_cv90_1'><string>\u0698\u0670 \u200D\u0698\u0670</string><comment>absJeh</comment></test>
+  <test label='U+0699'><string>\u0699\u0670 \u200D\u0699\u0670</string></test>
+  <test label='U+0699' stylename='cv76_1'><string>\u0699\u0670 \u200D\u0699\u0670</string></test>
+  <test label='U+0699' stylename='cv76_2'><string>\u0699\u0670 \u200D\u0699\u0670</string><comment>absRehFourDotsAbove</comment></test>
+  <test label='U+06EF'><string>\u06EF\u0670 \u200D\u06EF\u0670</string></test>
+  <test label='U+06EF' stylename='cv76_1'><string>\u06EF\u0670 \u200D\u06EF\u0670</string></test>
+  <test label='U+06EF' stylename='cv76_2'><string>\u06EF\u0670 \u200D\u06EF\u0670</string><comment>absRehHat</comment></test>
+  <test label='U+075B'><string>\u075B\u0670 \u200D\u075B\u0670</string></test>
+  <test label='U+075B' stylename='cv76_1'><string>\u075B\u0670 \u200D\u075B\u0670</string></test>
+  <test label='U+075B' stylename='cv76_2'><string>\u075B\u0670 \u200D\u075B\u0670</string><comment>absRehBar</comment></test>
+  <test label='U+076B'><string>\u076B\u0670 \u200D\u076B\u0670</string></test>
+  <test label='U+076B' stylename='cv76_1'><string>\u076B\u0670 \u200D\u076B\u0670</string></test>
+  <test label='U+076B' stylename='cv76_2'><string>\u076B\u0670 \u200D\u076B\u0670</string><comment>absRehTwoVertAbove</comment></test>
+  <test label='U+076C'><string>\u076C\u0670 \u200D\u076C\u0670</string></test>
+  <test label='U+076C' stylename='cv76_1'><string>\u076C\u0670 \u200D\u076C\u0670</string></test>
+  <test label='U+076C' stylename='cv76_2'><string>\u076C\u0670 \u200D\u076C\u0670</string><comment>absRehHamzaAbove</comment></test>
+  <test label='U+0771'><string>\u0771\u0670 \u200D\u0771\u0670</string></test>
+  <test label='U+0771' stylename='cv76_1'><string>\u0771\u0670 \u200D\u0771\u0670</string></test>
+  <test label='U+0771' stylename='cv76_2'><string>\u0771\u0670 \u200D\u0771\u0670</string><comment>absRehSmallTahTwoDots</comment></test>
+  <test label='U+08AA'><string>\u08AA\u0670 \u200D\u08AA\u0670</string></test>
+  <test label='U+08AA' stylename='cv76_1'><string>\u08AA\u0670 \u200D\u08AA\u0670</string></test>
+  <test label='U+08AA' stylename='cv76_2'><string>\u08AA\u0670 \u200D\u08AA\u0670</string><comment>absRehLoop</comment></test>
+  <test label='U+08B2'><string>\u08B2\u0670 \u200D\u08B2\u0670</string></test>
+  <test label='U+08B2' stylename='cv76_1'><string>\u08B2\u0670 \u200D\u08B2\u0670</string></test>
+  <test label='U+08B2' stylename='cv76_2'><string>\u08B2\u0670 \u200D\u08B2\u0670</string><comment>absZainHat</comment></test>
+  <test label='U+06AA'><string>\u06AA\u0670 \u06AA\u0670\u200D \u200D\u06AA\u0670\u200D \u200D\u06AA\u0670 \u06AA\u0670\u06AA\u0670\u06AA\u0670</string></test>
+  <test label='U+06AA' stylename='cv76_1'><string>\u06AA\u0670 \u06AA\u0670\u200D \u200D\u06AA\u0670\u200D \u200D\u06AA\u0670 \u06AA\u0670\u06AA\u0670\u06AA\u0670</string></test>
+  <test label='U+06AA' stylename='cv76_2'><string>\u06AA\u0670 \u06AA\u0670\u200D \u200D\u06AA\u0670\u200D \u200D\u06AA\u0670 \u06AA\u0670\u06AA\u0670\u06AA\u0670</string><comment>absSwashKaf</comment></test>
+  <test label='U+0637'><string>\u0637\u0670 \u0637\u0670\u200D \u200D\u0637\u0670\u200D \u200D\u0637\u0670 \u0637\u0670\u0637\u0670\u0637\u0670</string></test>
+  <test label='U+0637' stylename='cv76_1'><string>\u0637\u0670 \u0637\u0670\u200D \u200D\u0637\u0670\u200D \u200D\u0637\u0670 \u0637\u0670\u0637\u0670\u0637\u0670</string></test>
+  <test label='U+0637' stylename='cv76_2'><string>\u0637\u0670 \u0637\u0670\u200D \u200D\u0637\u0670\u200D \u200D\u0637\u0670 \u0637\u0670\u0637\u0670\u0637\u0670</string><comment>absTah</comment></test>
+  <test label='U+0638'><string>\u0638\u0670 \u0638\u0670\u200D \u200D\u0638\u0670\u200D \u200D\u0638\u0670 \u0638\u0670\u0638\u0670\u0638\u0670</string></test>
+  <test label='U+0638' stylename='cv76_1'><string>\u0638\u0670 \u0638\u0670\u200D \u200D\u0638\u0670\u200D \u200D\u0638\u0670 \u0638\u0670\u0638\u0670\u0638\u0670</string></test>
+  <test label='U+0638' stylename='cv76_2'><string>\u0638\u0670 \u0638\u0670\u200D \u200D\u0638\u0670\u200D \u200D\u0638\u0670 \u0638\u0670\u0638\u0670\u0638\u0670</string><comment>absZah</comment></test>
+  <test label='U+069F'><string>\u069F\u0670 \u069F\u0670\u200D \u200D\u069F\u0670\u200D \u200D\u069F\u0670 \u069F\u0670\u069F\u0670\u069F\u0670</string></test>
+  <test label='U+069F' stylename='cv76_1'><string>\u069F\u0670 \u069F\u0670\u200D \u200D\u069F\u0670\u200D \u200D\u069F\u0670 \u069F\u0670\u069F\u0670\u069F\u0670</string></test>
+  <test label='U+069F' stylename='cv76_2'><string>\u069F\u0670 \u069F\u0670\u200D \u200D\u069F\u0670\u200D \u200D\u069F\u0670 \u069F\u0670\u069F\u0670\u069F\u0670</string><comment>absTahThreeDotsAbove</comment></test>
+  <test label='U+0624'><string>\u0624\u0670 \u200D\u0624\u0670</string></test>
+  <test label='U+0624' stylename='cv76_1'><string>\u0624\u0670 \u200D\u0624\u0670</string></test>
+  <test label='U+0624' stylename='cv76_2'><string>\u0624\u0670 \u200D\u0624\u0670</string><comment>absWawHamzaAbove</comment></test>
+  <test label='U+0648'><string>\u0648\u0670 \u200D\u0648\u0670</string></test>
+  <test label='U+0648' stylename='cv76_1'><string>\u0648\u0670 \u200D\u0648\u0670</string></test>
+  <test label='U+0648' stylename='cv76_2'><string>\u0648\u0670 \u200D\u0648\u0670</string><comment>absWaw</comment></test>
+  <test label='U+0676'><string>\u0676\u0670 \u200D\u0676\u0670</string></test>
+  <test label='U+0676' stylename='cv76_1'><string>\u0676\u0670 \u200D\u0676\u0670</string></test>
+  <test label='U+0676' stylename='cv76_2'><string>\u0676\u0670 \u200D\u0676\u0670</string><comment>absHighHamzaWaw</comment></test>
+  <test label='U+0677'><string>\u0677\u0670 \u200D\u0677\u0670</string></test>
+  <test label='U+0677' stylename='cv76_1'><string>\u0677\u0670 \u200D\u0677\u0670</string></test>
+  <test label='U+0677' stylename='cv76_2'><string>\u0677\u0670 \u200D\u0677\u0670</string></test>
+  <test label='U+0677' stylename='cv50_1'><string>\u0677\u0670 \u200D\u0677\u0670</string></test>
+  <test label='U+0677' stylename='cv50_1_cv76_1'><string>\u0677\u0670 \u200D\u0677\u0670</string></test>
+  <test label='U+0677' stylename='cv50_1_cv76_2'><string>\u0677\u0670 \u200D\u0677\u0670</string><comment>absUHamzaAbove</comment></test>
+  <test label='U+06C4'><string>\u06C4\u0670 \u200D\u06C4\u0670</string></test>
+  <test label='U+06C4' stylename='cv76_1'><string>\u06C4\u0670 \u200D\u06C4\u0670</string></test>
+  <test label='U+06C4' stylename='cv76_2'><string>\u06C4\u0670 \u200D\u06C4\u0670</string><comment>absWawRing</comment></test>
+  <test label='U+06C5'><string>\u06C5\u0670 \u200D\u06C5\u0670</string></test>
+  <test label='U+06C5' stylename='cv76_1'><string>\u06C5\u0670 \u200D\u06C5\u0670</string></test>
+  <test label='U+06C5' stylename='cv76_2'><string>\u06C5\u0670 \u200D\u06C5\u0670</string><comment>absKirghizOe</comment></test>
+  <test label='U+06C6'><string>\u06C6\u0670 \u200D\u06C6\u0670</string></test>
+  <test label='U+06C6' stylename='cv76_1'><string>\u06C6\u0670 \u200D\u06C6\u0670</string></test>
+  <test label='U+06C6' stylename='cv76_2'><string>\u06C6\u0670 \u200D\u06C6\u0670</string><comment>absOe</comment></test>
+  <test label='U+06C7'><string>\u06C7\u0670 \u200D\u06C7\u0670</string></test>
+  <test label='U+06C7' stylename='cv76_1'><string>\u06C7\u0670 \u200D\u06C7\u0670</string></test>
+  <test label='U+06C7' stylename='cv76_2'><string>\u06C7\u0670 \u200D\u06C7\u0670</string></test>
+  <test label='U+06C7' stylename='cv50_1'><string>\u06C7\u0670 \u200D\u06C7\u0670</string></test>
+  <test label='U+06C7' stylename='cv50_1_cv76_1'><string>\u06C7\u0670 \u200D\u06C7\u0670</string></test>
+  <test label='U+06C7' stylename='cv50_1_cv76_2'><string>\u06C7\u0670 \u200D\u06C7\u0670</string><comment>absU</comment></test>
+  <test label='U+06C8'><string>\u06C8\u0670 \u200D\u06C8\u0670</string></test>
+  <test label='U+06C8' stylename='cv76_1'><string>\u06C8\u0670 \u200D\u06C8\u0670</string></test>
+  <test label='U+06C8' stylename='cv76_2'><string>\u06C8\u0670 \u200D\u06C8\u0670</string><comment>absYu</comment></test>
+  <test label='U+06C9'><string>\u06C9\u0670 \u200D\u06C9\u0670</string></test>
+  <test label='U+06C9' stylename='cv76_1'><string>\u06C9\u0670 \u200D\u06C9\u0670</string></test>
+  <test label='U+06C9' stylename='cv76_2'><string>\u06C9\u0670 \u200D\u06C9\u0670</string><comment>absKirghizYu</comment></test>
+  <test label='U+06CA'><string>\u06CA\u0670 \u200D\u06CA\u0670</string></test>
+  <test label='U+06CA' stylename='cv76_1'><string>\u06CA\u0670 \u200D\u06CA\u0670</string></test>
+  <test label='U+06CA' stylename='cv76_2'><string>\u06CA\u0670 \u200D\u06CA\u0670</string><comment>absWawTwoDotsAbove</comment></test>
+  <test label='U+06CB'><string>\u06CB\u0670 \u200D\u06CB\u0670</string></test>
+  <test label='U+06CB' stylename='cv76_1'><string>\u06CB\u0670 \u200D\u06CB\u0670</string></test>
+  <test label='U+06CB' stylename='cv76_2'><string>\u06CB\u0670 \u200D\u06CB\u0670</string><comment>absVe</comment></test>
+  <test label='U+06CF'><string>\u06CF\u0670 \u200D\u06CF\u0670</string></test>
+  <test label='U+06CF' stylename='cv76_1'><string>\u06CF\u0670 \u200D\u06CF\u0670</string></test>
+  <test label='U+06CF' stylename='cv76_2'><string>\u06CF\u0670 \u200D\u06CF\u0670</string><comment>absWawDotAbove</comment></test>
+  </testgroup>
+<head>
+  <fontscale>300</fontscale>
+  <fontsrc>local(Scheherazade)</fontsrc>
+  <fontsrc>local(Lateef)</fontsrc>
+  <fontsrc>url(../results/web/LateefGR-Regular.woff)</fontsrc>
+  <styles>
+    <style name='cv44_1' feats='"cv44" 1'/>
+    <style name='cv44_1_cv76_1' feats='"cv44" 1, "cv76" 1'/>
+    <style name='cv44_1_cv76_2' feats='"cv44" 1, "cv76" 2'/>
+    <style name='cv48_1' feats='"cv48" 1'/>
+    <style name='cv48_1_cv76_1' feats='"cv48" 1, "cv76" 1'/>
+    <style name='cv48_1_cv76_2' feats='"cv48" 1, "cv76" 2'/>
+    <style name='cv48_2' feats='"cv48" 2'/>
+    <style name='cv48_2_cv76_1' feats='"cv48" 2, "cv76" 1'/>
+    <style name='cv48_2_cv76_2' feats='"cv48" 2, "cv76" 2'/>
+    <style name='cv48_3' feats='"cv48" 3'/>
+    <style name='cv48_3_cv76_1' feats='"cv48" 3, "cv76" 1'/>
+    <style name='cv48_3_cv76_2' feats='"cv48" 3, "cv76" 2'/>
+    <style name='cv50_1' feats='"cv50" 1'/>
+    <style name='cv50_1_cv76_1' feats='"cv50" 1, "cv76" 1'/>
+    <style name='cv50_1_cv76_2' feats='"cv50" 1, "cv76" 2'/>
+    <style name='cv76_1' feats='"cv76" 1'/>
+    <style name='cv76_1_cv90_1' feats='"cv76" 1, "cv90" 1'/>
+    <style name='cv76_2' feats='"cv76" 2'/>
+    <style name='cv76_2_cv90_1' feats='"cv76" 2, "cv90" 1'/>
+    <style name='cv90_1' feats='"cv90" 1'/>
+  </styles>
+  <title>DaggerAlef test</title>
+  </head>
+</ftml>
