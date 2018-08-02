@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
+<ftml version='1.0'>
+  <testgroup label='Rendering check'>
+  <test label='Check'><string>RenderingUnknown</string></test>
+  </testgroup>
+  <testgroup label='Subtending Marks'>
+  <test label='U+06DD'><string>\u0628\u06DD\u0645 \u06DD\u0032 \u06DD\u0032\u0032 \u06DD\u0032\u0032\u0032 \u06DD\u0031\u0032</string><comment>absEndOfAyah+two</comment></test>
+  <test label='U+06DD' stylename='cv80_1'><string>\u0628\u06DD\u0645 \u06DD\u0032 \u06DD\u0032\u0032 \u06DD\u0032\u0032\u0032 \u06DD\u0031\u0032</string><comment>absEndOfAyah+two</comment></test>
+  <test label='U+06DD' stylename='cv80_2'><string>\u0628\u06DD\u0645 \u06DD\u0032 \u06DD\u0032\u0032 \u06DD\u0032\u0032\u0032 \u06DD\u0031\u0032</string><comment>absEndOfAyah+two</comment></test>
+  <test label='U+06DD'><string>\u0628\u06DD\u0645 \u06DD\u0668 \u06DD\u0668\u0668 \u06DD\u0668\u0668\u0668 \u06DD\u0661\u0662</string><comment>absEndOfAyah+absEight</comment></test>
+  <test label='U+06DD' stylename='cv80_1'><string>\u0628\u06DD\u0645 \u06DD\u0668 \u06DD\u0668\u0668 \u06DD\u0668\u0668\u0668 \u06DD\u0661\u0662</string><comment>absEndOfAyah+absEight</comment></test>
+  <test label='U+06DD' stylename='cv80_2'><string>\u0628\u06DD\u0645 \u06DD\u0668 \u06DD\u0668\u0668 \u06DD\u0668\u0668\u0668 \u06DD\u0661\u0662</string><comment>absEndOfAyah+absEight</comment></test>
+  <test label='U+06DD'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv82_1'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv82_2'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv82_3'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv82_4'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv80_1'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv80_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv80_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv80_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv80_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv80_1_cv82_1'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv80_1_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv80_1_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv80_1_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv80_1_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv80_1_cv82_2'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv80_1_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv80_1_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv80_1_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv80_1_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv80_1_cv82_3'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv80_1_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv80_1_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv80_1_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv80_1_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv80_1_cv82_4'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv80_1_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv80_1_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv80_1_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv80_1_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv80_2'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv80_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv80_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv80_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv80_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv80_2_cv82_1'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv80_2_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv80_2_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv80_2_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv80_2_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv80_2_cv82_2'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv80_2_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv80_2_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv80_2_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv80_2_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv80_2_cv82_3'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv80_2_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv80_2_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv80_2_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv80_2_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='cv80_2_cv82_4'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
+  <test label='U+06DD' stylename='cv80_2_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='rhg_cv80_2_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='sd_cv80_2_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  <test label='U+06DD' stylename='ur_cv80_2_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
+  </testgroup>
+<head>
+  <fontscale>300</fontscale>
+  <fontsrc>local(Scheherazade)</fontsrc>
+  <fontsrc>local(Lateef)</fontsrc>
+  <fontsrc>url(../results/web/LateefGR-Regular.woff)</fontsrc>
+  <styles>
+    <style name='cv80_1' feats='"cv80" 1'/>
+    <style name='cv80_1_cv82_1' feats='"cv80" 1, "cv82" 1'/>
+    <style name='cv80_1_cv82_2' feats='"cv80" 1, "cv82" 2'/>
+    <style name='cv80_1_cv82_3' feats='"cv80" 1, "cv82" 3'/>
+    <style name='cv80_1_cv82_4' feats='"cv80" 1, "cv82" 4'/>
+    <style name='cv80_2' feats='"cv80" 2'/>
+    <style name='cv80_2_cv82_1' feats='"cv80" 2, "cv82" 1'/>
+    <style name='cv80_2_cv82_2' feats='"cv80" 2, "cv82" 2'/>
+    <style name='cv80_2_cv82_3' feats='"cv80" 2, "cv82" 3'/>
+    <style name='cv80_2_cv82_4' feats='"cv80" 2, "cv82" 4'/>
+    <style name='cv82_1' feats='"cv82" 1'/>
+    <style name='cv82_2' feats='"cv82" 2'/>
+    <style name='cv82_3' feats='"cv82" 3'/>
+    <style name='cv82_4' feats='"cv82" 4'/>
+    <style name='rhg_' lang='rhg'/>
+    <style name='rhg_cv80_1' feats='"cv80" 1' lang='rhg'/>
+    <style name='rhg_cv80_1_cv82_1' feats='"cv80" 1, "cv82" 1' lang='rhg'/>
+    <style name='rhg_cv80_1_cv82_2' feats='"cv80" 1, "cv82" 2' lang='rhg'/>
+    <style name='rhg_cv80_1_cv82_3' feats='"cv80" 1, "cv82" 3' lang='rhg'/>
+    <style name='rhg_cv80_1_cv82_4' feats='"cv80" 1, "cv82" 4' lang='rhg'/>
+    <style name='rhg_cv80_2' feats='"cv80" 2' lang='rhg'/>
+    <style name='rhg_cv80_2_cv82_1' feats='"cv80" 2, "cv82" 1' lang='rhg'/>
+    <style name='rhg_cv80_2_cv82_2' feats='"cv80" 2, "cv82" 2' lang='rhg'/>
+    <style name='rhg_cv80_2_cv82_3' feats='"cv80" 2, "cv82" 3' lang='rhg'/>
+    <style name='rhg_cv80_2_cv82_4' feats='"cv80" 2, "cv82" 4' lang='rhg'/>
+    <style name='rhg_cv82_1' feats='"cv82" 1' lang='rhg'/>
+    <style name='rhg_cv82_2' feats='"cv82" 2' lang='rhg'/>
+    <style name='rhg_cv82_3' feats='"cv82" 3' lang='rhg'/>
+    <style name='rhg_cv82_4' feats='"cv82" 4' lang='rhg'/>
+    <style name='sd_' lang='sd'/>
+    <style name='sd_cv80_1' feats='"cv80" 1' lang='sd'/>
+    <style name='sd_cv80_1_cv82_1' feats='"cv80" 1, "cv82" 1' lang='sd'/>
+    <style name='sd_cv80_1_cv82_2' feats='"cv80" 1, "cv82" 2' lang='sd'/>
+    <style name='sd_cv80_1_cv82_3' feats='"cv80" 1, "cv82" 3' lang='sd'/>
+    <style name='sd_cv80_1_cv82_4' feats='"cv80" 1, "cv82" 4' lang='sd'/>
+    <style name='sd_cv80_2' feats='"cv80" 2' lang='sd'/>
+    <style name='sd_cv80_2_cv82_1' feats='"cv80" 2, "cv82" 1' lang='sd'/>
+    <style name='sd_cv80_2_cv82_2' feats='"cv80" 2, "cv82" 2' lang='sd'/>
+    <style name='sd_cv80_2_cv82_3' feats='"cv80" 2, "cv82" 3' lang='sd'/>
+    <style name='sd_cv80_2_cv82_4' feats='"cv80" 2, "cv82" 4' lang='sd'/>
+    <style name='sd_cv82_1' feats='"cv82" 1' lang='sd'/>
+    <style name='sd_cv82_2' feats='"cv82" 2' lang='sd'/>
+    <style name='sd_cv82_3' feats='"cv82" 3' lang='sd'/>
+    <style name='sd_cv82_4' feats='"cv82" 4' lang='sd'/>
+    <style name='ur_' lang='ur'/>
+    <style name='ur_cv80_1' feats='"cv80" 1' lang='ur'/>
+    <style name='ur_cv80_1_cv82_1' feats='"cv80" 1, "cv82" 1' lang='ur'/>
+    <style name='ur_cv80_1_cv82_2' feats='"cv80" 1, "cv82" 2' lang='ur'/>
+    <style name='ur_cv80_1_cv82_3' feats='"cv80" 1, "cv82" 3' lang='ur'/>
+    <style name='ur_cv80_1_cv82_4' feats='"cv80" 1, "cv82" 4' lang='ur'/>
+    <style name='ur_cv80_2' feats='"cv80" 2' lang='ur'/>
+    <style name='ur_cv80_2_cv82_1' feats='"cv80" 2, "cv82" 1' lang='ur'/>
+    <style name='ur_cv80_2_cv82_2' feats='"cv80" 2, "cv82" 2' lang='ur'/>
+    <style name='ur_cv80_2_cv82_3' feats='"cv80" 2, "cv82" 3' lang='ur'/>
+    <style name='ur_cv80_2_cv82_4' feats='"cv80" 2, "cv82" 4' lang='ur'/>
+    <style name='ur_cv82_1' feats='"cv82" 1' lang='ur'/>
+    <style name='ur_cv82_2' feats='"cv82" 2' lang='ur'/>
+    <style name='ur_cv82_3' feats='"cv82" 3' lang='ur'/>
+    <style name='ur_cv82_4' feats='"cv82" 4' lang='ur'/>
+  </styles>
+  <title>SubtendingMarks test</title>
+  </head>
+</ftml>
