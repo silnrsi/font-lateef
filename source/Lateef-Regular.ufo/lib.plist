@@ -135,6 +135,13 @@
       </dict>
     </dict>
   </dict>
+  <key>com.schriftgestaltung.DisplayStrings</key>
+  <array>
+    <string>/_tail</string>
+    <string>/absAinFin/absAinMed/absAinIni</string>
+    <string>/absSadIni</string>
+    <string>/absKafIni/absKafThreeDotsBelowIni</string>
+  </array>
   <key>com.schriftgestaltung.EditView Line Height</key>
   <integer>1875</integer>
   <key>com.schriftgestaltung.TTFStems</key>
@@ -226,7 +233,7 @@
   <key>com.schriftgestaltung.widthValue</key>
   <integer>100</integer>
   <key>org.sil.glyphsappversion</key>
-  <string>1134</string>
+  <string>1161</string>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>

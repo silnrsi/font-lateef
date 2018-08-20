@@ -8,12 +8,4 @@
     <component base="_dot1smallrotated10" xOffset="-43" yOffset="1057"/>
     <component base="_dot1smallrotated10" xOffset="39" yOffset="1067"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>5</integer>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

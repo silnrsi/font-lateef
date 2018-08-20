@@ -5,12 +5,4 @@
   <outline>
     <component base="_hamza" xScale="0.82" yScale="0.82" xOffset="203" yOffset="1181"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>5</integer>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

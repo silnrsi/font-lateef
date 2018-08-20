@@ -68,10 +68,18 @@
   <string>absA_in.glif</string>
   <key>absAinFin</key>
   <string>absA_inF_in.glif</string>
+  <key>absAinIni</key>
+  <string>absA_inI_ni.glif</string>
   <key>absAinMed</key>
   <string>absA_inM_ed.glif</string>
+  <key>absAlef</key>
+  <string>absA_lef.glif</string>
   <key>absAutoKashida</key>
   <string>absA_utoK_ashida.glif</string>
+  <key>absBehNoDots</key>
+  <string>absB_ehN_oD_ots.glif</string>
+  <key>absDal</key>
+  <string>absD_al.glif</string>
   <key>absDalFin</key>
   <string>absD_alF_in.glif</string>
   <key>absDamma</key>
@@ -174,6 +182,8 @@
   <string>absF_ourM_edium.glif</string>
   <key>absFourSmall</key>
   <string>absF_ourS_mall.glif</string>
+  <key>absHah</key>
+  <string>absH_ah.glif</string>
   <key>absHahFin</key>
   <string>absH_ahF_in.glif</string>
   <key>absHahMed</key>
@@ -244,6 +254,8 @@
   <string>absQ_afN_oD_ots.glif</string>
   <key>absQafNoDotsFin</key>
   <string>absQ_afN_oD_otsF_in.glif</string>
+  <key>absReh</key>
+  <string>absR_eh.glif</string>
   <key>absRehFin</key>
   <string>absR_ehF_in.glif</string>
   <key>absRehLoopFin</key>
@@ -260,6 +272,8 @@
   <string>absS_adI_ni.glif</string>
   <key>absSadMed</key>
   <string>absS_adM_ed.glif</string>
+  <key>absSeen</key>
+  <string>absS_een.glif</string>
   <key>absSeven</key>
   <string>absS_even.glif</string>
   <key>absSevenMedium</key>
@@ -344,10 +358,16 @@
   <string>absW_aw.glif</string>
   <key>absWawFin</key>
   <string>absW_awF_in.glif</string>
+  <key>absYeh.noDots</key>
+  <string>absY_eh.noD_ots.glif</string>
   <key>absYehBarree</key>
   <string>absY_ehB_arree.glif</string>
+  <key>absYehFin.noDots</key>
+  <string>absY_ehF_in.noD_ots.glif</string>
   <key>absYehTail</key>
   <string>absY_ehT_ail.glif</string>
+  <key>absYehTailFin</key>
+  <string>absY_ehT_ailF_in.glif</string>
   <key>absZeroMedium</key>
   <string>absZ_eroM_edium.glif</string>
   <key>absZeroSmall</key>
