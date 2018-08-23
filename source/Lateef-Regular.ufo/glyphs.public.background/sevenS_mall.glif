@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sevenSmall" format="2">
-  <advance width="470"/>
   <outline>
     <contour>
       <point x="432" y="758" type="line"/>

@@ -48,44 +48,4 @@
       <point x="1165" y="-291"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>116.09981</real>
-          <key>position</key>
-          <array>
-            <integer>257</integer>
-            <integer>3</integer>
-          </array>
-          <key>type</key>
-          <string>Arrow</string>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <real>110.25115</real>
-          <key>position</key>
-          <array>
-            <integer>444</integer>
-            <integer>74</integer>
-          </array>
-          <key>type</key>
-          <string>Arrow</string>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>287</integer>
-            <integer>71</integer>
-          </array>
-          <key>text</key>
-          <string>Add some contrast to this stroke</string>
-          <key>type</key>
-          <string>Text</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absRehLoopFin" format="2">
-  <advance width="539"/>
   <outline>
     <contour>
       <point x="2" y="-289" type="curve" smooth="yes"/>

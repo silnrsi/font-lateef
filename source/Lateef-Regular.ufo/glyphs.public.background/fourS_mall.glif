@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fourSmall" format="2">
-  <advance width="470"/>
   <outline>
     <contour>
       <point x="445" y="315" type="line"/>

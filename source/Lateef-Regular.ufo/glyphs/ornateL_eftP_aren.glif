@@ -547,24 +547,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>1</integer>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>896</integer>
-            <integer>714</integer>
-          </array>
-          <key>text</key>
-          <string>We need to restore the removed overlaps from this glyph</string>
-          <key>type</key>
-          <string>Text</string>
-        </dict>
-      </array>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.988,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>

@@ -17,7 +17,7 @@
   <key>macintoshFONDName</key>
   <string>Lateef</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/08/20 14:02:00</string>
+  <string>2018/08/22 16:58:09</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
@@ -114,8 +114,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>0</integer>
     <integer>3</integer>
   </array>
-  <key>openTypeOS2Selection</key>
-  <array/>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>1049</integer>
   <key>openTypeOS2StrikeoutSize</key>
@@ -215,7 +213,5 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>200</integer>
   <key>xHeight</key>
   <integer>690</integer>
-  <key>year</key>
-  <integer>2017</integer>
 </dict>
 </plist>

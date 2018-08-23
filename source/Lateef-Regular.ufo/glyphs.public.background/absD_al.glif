@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absDal" format="2">
-  <advance width="580"/>
   <outline>
     <contour>
       <point x="497" y="240" type="curve" smooth="yes"/>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absFiveMedium" format="2">
-  <advance width="704"/>
   <outline>
     <contour>
       <point x="310" y="710" type="curve"/>

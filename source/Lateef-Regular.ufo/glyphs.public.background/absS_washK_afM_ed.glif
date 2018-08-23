@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absSwashKafMed" format="2">
-  <advance width="1178"/>
   <outline>
     <contour>
       <point x="1067" y="219" type="curve" smooth="yes"/>
