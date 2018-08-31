@@ -9,19 +9,20 @@
   <outline>
     <contour>
       <point x="917" y="160" type="curve"/>
-      <point x="656" y="25" type="line"/>
-      <point x="704" y="8"/>
-      <point x="754" y="0"/>
-      <point x="832" y="0" type="curve"/>
-      <point x="1194" y="0" type="line"/>
-      <point x="1230" y="0"/>
-      <point x="1247" y="43"/>
-      <point x="1247" y="90" type="curve" smooth="yes"/>
-      <point x="1247" y="137"/>
-      <point x="1230" y="180"/>
-      <point x="1194" y="180" type="curve" smooth="yes"/>
-      <point x="1100" y="180"/>
-      <point x="1016" y="186"/>
+      <point x="716" y="45" type="line"/>
+      <point x="864" y="6"/>
+      <point x="1004" y="0"/>
+      <point x="1165" y="0" type="curve"/>
+      <point x="1170" y="0" type="line"/>
+      <point x="1206" y="0"/>
+      <point x="1223" y="43"/>
+      <point x="1223" y="90" type="curve" smooth="yes"/>
+      <point x="1223" y="137"/>
+      <point x="1206" y="180"/>
+      <point x="1170" y="180" type="curve"/>
+      <point x="1165" y="180" type="line"/>
+      <point x="1082" y="181"/>
+      <point x="1006" y="183"/>
     </contour>
     <component base="absTah"/>
   </outline>

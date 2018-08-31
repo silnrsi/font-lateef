@@ -9,10 +9,4 @@
     <component base="absYeh.noDots" xOffset="2"/>
     <component base="_tail"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.039,0.569,0.039,1</string>
-    </dict>
-  </lib>
 </glyph>

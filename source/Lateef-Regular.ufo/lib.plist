@@ -2,13 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>GSOffsetHorizontal</key>
+  <integer>0</integer>
+  <key>GSOffsetMakeStroke</key>
+  <integer>1</integer>
+  <key>GSOffsetVertical</key>
+  <integer>90</integer>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
   <string>1161</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <string/>
+  <array>
+    <string>/absAlef/absWaw/absDal/absReh/absRehLoop/absYehBarree/absYeh.noDots/absBehNoDots/absHah/absSeen/absSad/absTah/absAin/absDotlessFeh/absQafNoDots/absKaf/absKeheh/absSwashKaf/absLam/absMeem/absMeem.sindhi/absNoonGhunna/absHehDoachashmee/absAe/absHamza/absTatweel/absAlefFin/absWawFin/absDalFin/absRehFin/absRehLoopFin/absYehBarreeFin/absYehFin.noDots/absBehNoDotsFin/absHahFin/absSeenFin/absSadFin/absTahFin/absAinFin/absDotlessFehFin/absQafNoDotsFin/absKafFin/absKehehFin/absSwashKafFin/absLamFin/absMeemFin/absMeemFin.sindhi/absNoonGhunnaFin/absHehDoachashmeeFin/absHehFin.knottedHigh/absAeFin/absHehGoalFin/absBehNoDotsMed/absHahMed/absSeenMed/absSadMed/absTahMed/absAinMed/absDotlessFehMed/absKafMed/absSwashKafMed/absLamMed/absMeemMed/absHehDoachashmeeMed/absHehMed.knottedHigh/absHehGoalMed/absBehNoDotsIni/absHahIni/absSeenIni/absSadIni/absTahIni/absAinIni/absDotlessFehIni/absKafIni/absSwashKafIni/absLamIni/absMeemIni/absHehDoachashmeeIni/absHehGoalIni</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
+  <true/>
+  <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
@@ -2335,6 +2345,9 @@
     <string>_wavyHamza.b</string>
     <string>_hook</string>
     <string>nonmarkingreturn</string>
+    <string>_dot1smallrotated10</string>
+    <string>_tail</string>
+    <string>_strokeHead</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>

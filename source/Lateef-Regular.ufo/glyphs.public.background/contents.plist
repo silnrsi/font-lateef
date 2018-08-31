@@ -78,6 +78,8 @@
   <string>absA_utoK_ashida.glif</string>
   <key>absBehNoDots</key>
   <string>absB_ehN_oD_ots.glif</string>
+  <key>absBehNoDotsIni</key>
+  <string>absB_ehN_oD_otsI_ni.glif</string>
   <key>absDal</key>
   <string>absD_al.glif</string>
   <key>absDalFin</key>
@@ -208,6 +210,10 @@
   <string>absH_ehD_oachashmeeM_ed.glif</string>
   <key>absHehFin.knottedHigh</key>
   <string>absH_ehF_in.knottedH_igh.glif</string>
+  <key>absHehGoalIni</key>
+  <string>absH_ehG_oalI_ni.glif</string>
+  <key>absHehGoalMed</key>
+  <string>absH_ehG_oalM_ed.glif</string>
   <key>absHehMed.knottedHigh</key>
   <string>absH_ehM_ed.knottedH_igh.glif</string>
   <key>absHighHamza</key>
@@ -236,6 +242,8 @@
   <string>absM_eem.sindhi.glif</string>
   <key>absMeemFin</key>
   <string>absM_eemF_in.glif</string>
+  <key>absMeemFin.sindhi</key>
+  <string>absM_eemF_in.sindhi.glif</string>
   <key>absMeemIni</key>
   <string>absM_eemI_ni.glif</string>
   <key>absMeemMed</key>
@@ -246,6 +254,8 @@
   <string>absN_ineM_edium.glif</string>
   <key>absNineSmall</key>
   <string>absN_ineS_mall.glif</string>
+  <key>absNoonGhunnaFin</key>
+  <string>absN_oonG_hunnaF_in.glif</string>
   <key>absOneMedium</key>
   <string>absO_neM_edium.glif</string>
   <key>absOneSmall</key>
