@@ -132,6 +132,8 @@
   <string>Z_.glif</string>
   <key>Zcaron</key>
   <string>Z_caron.glif</string>
+  <key>_absSwashKaf</key>
+  <string>_absS_washK_af.glif</string>
   <key>_bar</key>
   <string>_bar.glif</string>
   <key>_damma</key>

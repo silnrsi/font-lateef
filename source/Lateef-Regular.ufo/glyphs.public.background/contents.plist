@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>_absSwashKaf</key>
+  <string>_absS_washK_af.glif</string>
   <key>_damma</key>
   <string>_damma.glif</string>
   <key>_dot1_hat</key>
@@ -80,6 +82,8 @@
   <string>absB_ehN_oD_ots.glif</string>
   <key>absBehNoDotsIni</key>
   <string>absB_ehN_oD_otsI_ni.glif</string>
+  <key>absBehNoDotsMed</key>
+  <string>absB_ehN_oD_otsM_ed.glif</string>
   <key>absDal</key>
   <string>absD_al.glif</string>
   <key>absDalFin</key>
@@ -210,6 +214,8 @@
   <string>absH_ehD_oachashmeeM_ed.glif</string>
   <key>absHehFin.knottedHigh</key>
   <string>absH_ehF_in.knottedH_igh.glif</string>
+  <key>absHehGoalFin</key>
+  <string>absH_ehG_oalF_in.glif</string>
   <key>absHehGoalIni</key>
   <string>absH_ehG_oalI_ni.glif</string>
   <key>absHehGoalMed</key>
@@ -236,6 +242,8 @@
   <string>absL_amF_in.glif</string>
   <key>absLamIni.preAlef</key>
   <string>absL_amI_ni.preA_lef.glif</string>
+  <key>absLamMed</key>
+  <string>absL_amM_ed.glif</string>
   <key>absLigatureAllah</key>
   <string>absL_igatureA_llah.glif</string>
   <key>absMeem.sindhi</key>
@@ -284,6 +292,8 @@
   <string>absS_adM_ed.glif</string>
   <key>absSeen</key>
   <string>absS_een.glif</string>
+  <key>absSeenMed</key>
+  <string>absS_eenM_ed.glif</string>
   <key>absSeven</key>
   <string>absS_even.glif</string>
   <key>absSevenMedium</key>
@@ -340,8 +350,12 @@
   <string>absS_tartO_fR_ubE_lH_izb.glif</string>
   <key>absSubscriptAlef</key>
   <string>absS_ubscriptA_lef.glif</string>
+  <key>absSwashKaf</key>
+  <string>absS_washK_af.glif</string>
   <key>absSwashKafFin</key>
   <string>absS_washK_afF_in.glif</string>
+  <key>absSwashKafIni</key>
+  <string>absS_washK_afI_ni.glif</string>
   <key>absSwashKafMed</key>
   <string>absS_washK_afM_ed.glif</string>
   <key>absTah</key>
