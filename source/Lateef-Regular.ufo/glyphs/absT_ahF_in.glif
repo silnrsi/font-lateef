@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absTahFin" format="2">
-  <advance width="1165"/>
+  <advance width="1114"/>
   <anchor x="829" y="586" name="above"/>
   <anchor x="198" y="841" name="alef"/>
   <anchor x="592" y="-50" name="below"/>
@@ -26,4 +26,10 @@
     </contour>
     <component base="absTah"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

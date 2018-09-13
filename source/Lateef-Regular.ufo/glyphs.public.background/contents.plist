@@ -192,6 +192,8 @@
   <string>absH_ah.glif</string>
   <key>absHahFin</key>
   <string>absH_ahF_in.glif</string>
+  <key>absHahIni</key>
+  <string>absH_ahI_ni.glif</string>
   <key>absHahMed</key>
   <string>absH_ahM_ed.glif</string>
   <key>absHamza</key>
@@ -228,6 +230,8 @@
   <string>absK_af.glif</string>
   <key>absKafFin</key>
   <string>absK_afF_in.glif</string>
+  <key>absKafIni</key>
+  <string>absK_afI_ni.glif</string>
   <key>absKafMed</key>
   <string>absK_afM_ed.glif</string>
   <key>absKasra</key>
@@ -240,6 +244,8 @@
   <string>absL_am.glif</string>
   <key>absLamFin</key>
   <string>absL_amF_in.glif</string>
+  <key>absLamIni</key>
+  <string>absL_amI_ni.glif</string>
   <key>absLamIni.preAlef</key>
   <string>absL_amI_ni.preA_lef.glif</string>
   <key>absLamMed</key>
@@ -276,6 +282,8 @@
   <string>absR_eh.glif</string>
   <key>absRehFin</key>
   <string>absR_ehF_in.glif</string>
+  <key>absRehLoop</key>
+  <string>absR_ehL_oop.glif</string>
   <key>absRehLoopFin</key>
   <string>absR_ehL_oopF_in.glif</string>
   <key>absReversedDamma</key>
