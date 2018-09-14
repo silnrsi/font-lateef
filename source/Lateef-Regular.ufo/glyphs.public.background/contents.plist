@@ -300,6 +300,10 @@
   <string>absS_adM_ed.glif</string>
   <key>absSeen</key>
   <string>absS_een.glif</string>
+  <key>absSeenFin</key>
+  <string>absS_eenF_in.glif</string>
+  <key>absSeenIni</key>
+  <string>absS_eenI_ni.glif</string>
   <key>absSeenMed</key>
   <string>absS_eenM_ed.glif</string>
   <key>absSeven</key>

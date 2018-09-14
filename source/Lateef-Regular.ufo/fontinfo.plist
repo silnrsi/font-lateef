@@ -12,12 +12,23 @@
   <integer>-1488</integer>
   <key>familyName</key>
   <string>Lateef</string>
+  <key>guidelines</key>
+  <array>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>x</key>
+      <integer>773</integer>
+      <key>y</key>
+      <integer>329</integer>
+    </dict>
+  </array>
   <key>macintoshFONDFamilyID</key>
   <integer>18106</integer>
   <key>macintoshFONDName</key>
   <string>Lateef</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/09/13 15:54:06</string>
+  <string>2018/09/14 14:24:58</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
