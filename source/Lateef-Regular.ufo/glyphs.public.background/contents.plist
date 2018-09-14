@@ -76,6 +76,8 @@
   <string>absA_inM_ed.glif</string>
   <key>absAlef</key>
   <string>absA_lef.glif</string>
+  <key>absAlefFin</key>
+  <string>absA_lefF_in.glif</string>
   <key>absAutoKashida</key>
   <string>absA_utoK_ashida.glif</string>
   <key>absBehNoDots</key>
