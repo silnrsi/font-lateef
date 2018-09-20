@@ -4,6 +4,8 @@
 <dict>
   <key>_absSwashKaf</key>
   <string>_absS_washK_af.glif</string>
+  <key>_bowl_seen</key>
+  <string>_bowl_seen.glif</string>
   <key>_damma</key>
   <string>_damma.glif</string>
   <key>_dot1_hat</key>
@@ -46,6 +48,8 @@
   <string>_hook.glif</string>
   <key>_invSmallV</key>
   <string>_invS_mallV_.glif</string>
+  <key>_kaf_s</key>
+  <string>_kaf_s.glif</string>
   <key>_lines</key>
   <string>_lines.glif</string>
   <key>_madda</key>
@@ -82,6 +86,8 @@
   <string>absA_utoK_ashida.glif</string>
   <key>absBehNoDots</key>
   <string>absB_ehN_oD_ots.glif</string>
+  <key>absBehNoDotsFin</key>
+  <string>absB_ehN_oD_otsF_in.glif</string>
   <key>absBehNoDotsIni</key>
   <string>absB_ehN_oD_otsI_ni.glif</string>
   <key>absBehNoDotsMed</key>
@@ -256,6 +262,8 @@
   <string>absL_amM_ed.glif</string>
   <key>absLigatureAllah</key>
   <string>absL_igatureA_llah.glif</string>
+  <key>absMeem</key>
+  <string>absM_eem.glif</string>
   <key>absMeem.sindhi</key>
   <string>absM_eem.sindhi.glif</string>
   <key>absMeemFin</key>
@@ -272,6 +280,8 @@
   <string>absN_ineM_edium.glif</string>
   <key>absNineSmall</key>
   <string>absN_ineS_mall.glif</string>
+  <key>absNoonGhunna</key>
+  <string>absN_oonG_hunna.glif</string>
   <key>absNoonGhunnaFin</key>
   <string>absN_oonG_hunnaF_in.glif</string>
   <key>absOneMedium</key>
@@ -402,6 +412,8 @@
   <string>absY_eh.noD_ots.glif</string>
   <key>absYehBarree</key>
   <string>absY_ehB_arree.glif</string>
+  <key>absYehBarreeFin</key>
+  <string>absY_ehB_arreeF_in.glif</string>
   <key>absYehFin.noDots</key>
   <string>absY_ehF_in.noD_ots.glif</string>
   <key>absYehTail</key>
