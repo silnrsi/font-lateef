@@ -18,9 +18,9 @@
       <key>angle</key>
       <integer>0</integer>
       <key>x</key>
-      <integer>1141</integer>
+      <integer>827</integer>
       <key>y</key>
-      <integer>655</integer>
+      <integer>574</integer>
     </dict>
   </array>
   <key>macintoshFONDFamilyID</key>
@@ -28,7 +28,7 @@
   <key>macintoshFONDName</key>
   <string>Lateef</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/09/27 15:52:24</string>
+  <string>2018/09/28 16:18:48</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
