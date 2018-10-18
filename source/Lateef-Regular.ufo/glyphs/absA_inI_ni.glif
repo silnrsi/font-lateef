@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absAinIni" format="2">
-  <advance width="748"/>
+  <advance width="763"/>
   <anchor x="361" y="679" name="above"/>
   <anchor x="361" y="-44" name="below"/>
   <anchor x="312" y="838" name="diaA"/>

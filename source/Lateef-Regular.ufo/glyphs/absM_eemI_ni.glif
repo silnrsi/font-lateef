@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absMeemIni" format="2">
-  <advance width="604"/>
+  <advance width="626"/>
   <anchor x="386" y="561" name="above"/>
   <anchor x="125" y="551" name="alef"/>
   <anchor x="355" y="0" name="below"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absSeenIni" format="2">
-  <advance width="850"/>
+  <advance width="849"/>
   <anchor x="486" y="424" name="above"/>
   <anchor x="125" y="595" name="alef"/>
   <anchor x="480" y="-37" name="below"/>
