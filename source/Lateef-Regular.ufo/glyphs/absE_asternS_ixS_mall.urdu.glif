@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="absEasternSixSmall.urdu" format="2">
   <advance width="470"/>
-  <anchor x="2" y="0" name="_digit"/>
-  <anchor x="472" y="0" name="digit"/>
+  <anchor x="2" y="0" name="digitL"/>
+  <anchor x="472" y="0" name="digitR"/>
   <outline>
     <component base="absSix" xScale="0.54" yScale="0.54" xOffset="-1" yOffset="145"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
