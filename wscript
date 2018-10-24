@@ -19,7 +19,7 @@ COPYRIGHT="Copyright (c) 2004-2017, SIL International (http://www.sil.org)"
 LICENSE='OFL.txt'
 
 DESC_NAME = "LateefGR"
-DESC_SHORT = "Unicode Arabic font for southern Asia"
+DESC_SHORT = "An Arabic script font for Sindhi and other languages of southern Asia"
 DESC_LONG = """
 Lateef is an extended Arabic script font designed by SIL International.
 
