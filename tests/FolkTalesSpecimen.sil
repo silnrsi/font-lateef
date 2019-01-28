@@ -1,0 +1,70 @@
+\begin[class=fontproof]{document}
+\script[src=packages/unichar]
+\script[src=packages/bidi]
+\script[src=packages/frametricks]
+\script[src=packages/linespacing]
+\script[src=packages/specimen]
+\set[parameter=current.parindent,value=0]
+\set[parameter=document.parindent,value=0]
+\set[parameter=linespacing.method,value=fixed]
+\set[parameter=linespacing.fixed.baselinedistance,value=1em]
+
+% uncomment as necessary: from the font installed in the font folder or directly from the results folder or the current folder
+% then run with sile file.sil --debug versions
+% \setTestFont[family=LateefGR,size=12pt,language=ar,script=Arab]
+% \setTestFont[filename=../results/LateefGR-Regular.ttf,size=12pt,language=ar,script=Arab]
+\setTestFont[filename=/Users/martinpk/Documents/Fonts/ABS/Lateef/fontproof/LateefGR-Regular.ttf,size=12pt,language=ar,script=Arab]
+% \setTestFont[filename=LateefGR-Regular.ttf,size=12pt,language=ar,script=Arab]
+
+\bigskip
+
+\thisframeRTL
+
+\section{Folk tales example}
+
+\proof[size="9,10,11,12,13,14",heading=Paragraphs]{شِنگ کھنی خسوس بُو
+
+یلے کسل کُن رُوم یُولی بادشاہ لہ فرُوفرا بُوفے چنگ سہ میدپی اِنسُوک۔ کھو سی مسجد یود سا اوت کلے تن٘ین، شارگو تارگو چوق لہ لقپہ زُون زیرین، چِگِنگ مِنے تن٘ین دُوکسے جق کُنِنگ نہ جق چِک کھو لہ بُوی سکیس لے کسل۔ دیرے دے فرُو لہ اوما چدپا نہ کھوے وزیر پو سی بادشاہ لہ جوا بیاس،  ”لے کسل یا نونو ن٘ا لہ خسوا شزدے بیاس نہ یری شزدے گویدپا۔“ 
+دو زیربا نہ بادشاہ سی وزیر پو لہ زیرس، ”ن٘ا لہ فوتپا نہ مید۔ امّہ چِہ بیک کھیان٘ی مہ زیرس نہ لیاخموپا۔ تا کھیان٘ی زیربا نہ اون٘ا کھیان٘ی کھیر ینگ“ زیرے دے فرُو وزیر پو لہ مِنس جُو۔ 
+دیکھہ نہ خُدا سی بادشاہ لہ ینگ بُوی چِک شزدے بیاس جُو۔ دو کوا نہ ایکھا یُولی بادشاہ لہ سہ بُوی میدپی اِنسُوک۔ کھو سی سہ دے بادشاہ پو لہ زیرس،  ”یری شزدے یری یا فرُو یان٘ی ن٘ا لہ شزدے بیوس۔“ دو زیربا نہ دے بادشاہ پو لیگی نونگسپا چن چی یودپی اِنسُوک۔ دو دے بادشاہ پو لہ مِنے تنگس۔
+}
+\break
+
+\thisframeRTL
+\proof[size="8,9,10,11,12,13,14,15,16,18,20,22,24,36,48",heading=Waterfall]{شِنگ کھنی خسو۔ س بُو یلے کسل کُن رُوم یُولی بادشاہ لہ فرُوفرا بُوفے چنگ سہ میدپی اِنسُوک۔}
+
+\bigskip
+
+\break
+
+\thisframeLTR
+\bigskip
+
+% Empty subsection to avoid the Repertoire heading getting tangled in the wrapped page heading
+\subsection{ }
+\subsection{Repertoire}
+\font[size=24pt]
+\repertoire
+\break
+
+%\bigskip
+%
+%\thisframeRTL
+%% to be adjusted for Arabic 
+%\proof[size="18,24,30,36",heading=Using a built-in text]{text_az}
+%\proof[size="18,24,30,36",heading=Using a built-in text]{text_09}
+%
+%\bigskip
+%
+%\thisframeRTL
+%% to be adjusted for Arabic 
+%\pattern[chars="i",reps="abcd",format="list",heading=Using a built-in frame]{text_pangram}
+%\pattern[chars="@,#",reps="abc,xy",heading=A default pattern]{oo@#oo}
+%\pattern[chars="@,#",reps="abc,xy",format="table",heading=A pattern with explicit table format]{oo@#oo}
+%\pattern[chars="@,#",reps="abc,xy",format="list",heading=A pattern with explicit list format]{oo@#oo}
+%\pattern[chars="@,#",reps="abc,xy",format="para",heading=A pattern with explicit para format]{oo@#oo}
+%
+%\bigskip
+
+
+\end{document}
