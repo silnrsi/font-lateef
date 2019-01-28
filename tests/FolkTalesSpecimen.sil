@@ -13,7 +13,7 @@
 % then run with sile file.sil --debug versions
 % \setTestFont[family=LateefGR,size=12pt,language=ar,script=Arab]
 % \setTestFont[filename=../results/LateefGR-Regular.ttf,size=12pt,language=ar,script=Arab]
-\setTestFont[filename=/Users/martinpk/Documents/Fonts/ABS/Lateef/fontproof/LateefGR-Regular.ttf,size=12pt,language=ar,script=Arab]
+\setTestFont[size=12pt,language=ar,script=Arab]
 % \setTestFont[filename=LateefGR-Regular.ttf,size=12pt,language=ar,script=Arab]
 
 \bigskip
