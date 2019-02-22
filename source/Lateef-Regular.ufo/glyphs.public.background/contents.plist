@@ -262,6 +262,8 @@
   <string>absL_amM_ed.glif</string>
   <key>absLigatureAllah</key>
   <string>absL_igatureA_llah.glif</string>
+  <key>absMaddahAbove</key>
+  <string>absM_addahA_bove.glif</string>
   <key>absMeem</key>
   <string>absM_eem.glif</string>
   <key>absMeem.sindhi</key>
@@ -404,6 +406,8 @@
   <string>absT_woS_mall.glif</string>
   <key>absVowelInvSmallV</key>
   <string>absV_owelI_nvS_mallV_.glif</string>
+  <key>absVowelSmallV</key>
+  <string>absV_owelS_mallV_.glif</string>
   <key>absWaw</key>
   <string>absW_aw.glif</string>
   <key>absWawFin</key>
