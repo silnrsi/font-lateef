@@ -13,6 +13,16 @@ Lateef is named after Shah Abdul Lateef Bhitai, the famous Sindhi
 mystic and poet. It is intended to be an appropriate style for use 
 in Sindhi and other languages of the South Asian region.
 
+This release supports virtually all of the Unicode 5.0 Arabic character 
+repertoire (excluding the Arabic Presentation Forms blocks, which are not 
+recommended for normal use). A few Arabic script characters that were added 
+to Unicode 5.1, 6.0, 6.1, and 7.0 have also been included. Font smarts are implemented using Graphite 
+technology.
+
+This font uses state-of-the-art OpenType and Graphite font technologies, 
+including variant glyphs for a number of characters for use in particular 
+contexts. 
+
 This font provides a simplified rendering of Arabic script, using basic 
 connecting glyphs but not including a wide variety of additional ligatures 
 or contextual alternates (only the required lam-alef ligatures). This 
@@ -22,12 +32,8 @@ literate communities.
 
 One font from this typeface family is included:
 
-     * LateefGR Regular
-
-This release supports virtually all of the Unicode 5.0 Arabic character 
-repertoire (excluding the Arabic Presentation Forms blocks, which are not 
-recommended for normal use). Font smarts are implemented using Graphite 
-technology.
+     * Lateef Regular
+     * Lateef Bold
 
 For detailed documentation see the contents of the 'documentation' folder.
 
@@ -68,8 +74,13 @@ be sure to add your name (N), email (E), web-address (W) and description
 
 N: Bob Hallissy, Jonathan Kew
 E: fonts@sil.org
-W: http://scripts.sil.org/
+W: http://software.sil.org/lateef/
 D: SIL designers and font engineers
+
+N: Peter Martin
+E: fonts@sil.org
+W: http://software.sil.org/lateef/
+D: SIL designer
 
 The Lateef project is maintained by SIL International.
 
