@@ -6,10 +6,4 @@
   <outline>
     <component base="absEight" xScale="0.8" yScale="0.8"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.039,0.569,0.039,1</string>
-    </dict>
-  </lib>
 </glyph>
