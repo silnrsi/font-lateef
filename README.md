@@ -37,6 +37,6 @@ Lateef is licensed under the SIL Open Font License. See OFL.txt and OFL-FAQ.txt 
 
 For further information about this font, including Unicode ranges
 supported, Graphite and OpenType font features and how to use them,
-and licensing, please see the documentation on [the website](http://www.sil.org/resources/software_fonts/lateef) or in the documentation
+and licensing, please see the documentation on [the website](https://software.sil.org/lateef/) or in the documentation
 subfolder of this font package.
 
