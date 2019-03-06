@@ -10,7 +10,12 @@
   <key>com.schriftgestaltung.appVersion</key>
   <string>1192</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <string/>
+  <array>
+    <string> /absLam/absLamFin/absLamMed/absLamIni</string>
+    <string>/absAlef/absWaw/absDal/absReh/absRehLoop/absYehBarree/absYeh.noDots/absBehNoDots/absHah/absSeen/absSad/absTah/absAin/absDotlessFeh/absQafNoDots/absKaf/absKeheh/absSwashKaf/absLam/absMeem/absMeem.sindhi/absHehDoachashmee/absAe/absHamza/absTatweel/absAlefFin/absWawFin/absDalFin/absRehFin/absRehLoopFin/absYehBarreeFin/absYehFin.noDots/absBehNoDotsFin/absHahFin/absSeenFin/absSadFin/absTahFin/absAinFin/absDotlessFehFin/absQafNoDotsFin/absKafFin/absKehehFin/absSwashKafFin/absLamFin/absMeemFin/absMeemFin.sindhi/absNoonGhunnaFin/absHehDoachashmeeFin/absHehFin.knottedHigh/absAeFin/absHehGoalFin/absBehNoDotsMed/absHahMed/absSeenMed/absSadMed/absTahMed/absAinMed/absDotlessFehMed/absKafMed/absSwashKafMed/absLamMed/absMeemMed/absHehDoachashmeeMed/absHehMed.knottedHigh/absHehGoalMed/absBehNoDotsIni/absHahIni/absSeenIni/absSadIni/absTahIni/absAinIni/absDotlessFehIni/absKafIni/absSwashKafIni/absLamIni/absMeemIni/absHehDoachashmeeIni</string>
+    <string>/absYeh.noDots</string>
+    <string>/absBehNoDots</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
