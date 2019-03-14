@@ -16,6 +16,8 @@
     <string>/absYeh.noDots</string>
     <string>/absOne/absTwo/absThree/absEasternFour</string>
     <string>/absAin</string>
+    <string>  /absZero/absOne/absTwo/absThree/absFour/absEasternFour/absEasternFour.urdu/absFive/absEasternFive/absSix/absEasternSix/absSeven/absEasternSeven.urdu/absEight/absNine   </string>
+    <string>/absEasternFour.urdu</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

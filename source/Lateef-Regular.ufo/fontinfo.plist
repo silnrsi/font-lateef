@@ -22,13 +22,21 @@
       <key>y</key>
       <integer>574</integer>
     </dict>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>x</key>
+      <integer>766</integer>
+      <key>y</key>
+      <integer>1093</integer>
+    </dict>
   </array>
   <key>macintoshFONDFamilyID</key>
   <integer>18106</integer>
   <key>macintoshFONDName</key>
   <string>Lateef</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/03/07 15:53:25</string>
+  <string>2019/03/14 17:05:57</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>

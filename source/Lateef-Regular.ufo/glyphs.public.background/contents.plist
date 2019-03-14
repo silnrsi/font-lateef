@@ -116,12 +116,16 @@
   <string>absE_asternE_ightM_edium.glif</string>
   <key>absEasternEightSmall</key>
   <string>absE_asternE_ightS_mall.glif</string>
+  <key>absEasternFive</key>
+  <string>absE_asternF_ive.glif</string>
   <key>absEasternFiveMedium</key>
   <string>absE_asternF_iveM_edium.glif</string>
   <key>absEasternFiveSmall</key>
   <string>absE_asternF_iveS_mall.glif</string>
   <key>absEasternFour</key>
   <string>absE_asternF_our.glif</string>
+  <key>absEasternFour.urdu</key>
+  <string>absE_asternF_our.urdu.glif</string>
   <key>absEasternFourMedium</key>
   <string>absE_asternF_ourM_edium.glif</string>
   <key>absEasternFourMedium.urdu</key>
@@ -144,6 +148,8 @@
   <string>absE_asternO_neS_mall.glif</string>
   <key>absEasternSeven</key>
   <string>absE_asternS_even.glif</string>
+  <key>absEasternSeven.urdu</key>
+  <string>absE_asternS_even.urdu.glif</string>
   <key>absEasternSevenMedium</key>
   <string>absE_asternS_evenM_edium.glif</string>
   <key>absEasternSevenMedium.urdu</key>
@@ -152,6 +158,8 @@
   <string>absE_asternS_evenS_mall.glif</string>
   <key>absEasternSevenSmall.urdu</key>
   <string>absE_asternS_evenS_mall.urdu.glif</string>
+  <key>absEasternSix</key>
+  <string>absE_asternS_ix.glif</string>
   <key>absEasternSix.urdu</key>
   <string>absE_asternS_ix.urdu.glif</string>
   <key>absEasternSixMedium</key>
@@ -190,10 +198,14 @@
   <string>absF_athaT_woD_ots.glif</string>
   <key>absFathatan</key>
   <string>absF_athatan.glif</string>
+  <key>absFive</key>
+  <string>absF_ive.glif</string>
   <key>absFiveMedium</key>
   <string>absF_iveM_edium.glif</string>
   <key>absFiveSmall</key>
   <string>absF_iveS_mall.glif</string>
+  <key>absFour</key>
+  <string>absF_our.glif</string>
   <key>absFourMedium</key>
   <string>absF_ourM_edium.glif</string>
   <key>absFourSmall</key>
@@ -288,6 +300,8 @@
   <string>absN_oonG_hunna.glif</string>
   <key>absNoonGhunnaFin</key>
   <string>absN_oonG_hunnaF_in.glif</string>
+  <key>absOne</key>
+  <string>absO_ne.glif</string>
   <key>absOneMedium</key>
   <string>absO_neM_edium.glif</string>
   <key>absOneSmall</key>
@@ -396,12 +410,16 @@
   <string>absT_ahI_ni.glif</string>
   <key>absTahMed</key>
   <string>absT_ahM_ed.glif</string>
+  <key>absThree</key>
+  <string>absT_hree.glif</string>
   <key>absThreeMedium</key>
   <string>absT_hreeM_edium.glif</string>
   <key>absThreeSmall</key>
   <string>absT_hreeS_mall.glif</string>
   <key>absTripleDotPunct</key>
   <string>absT_ripleD_otP_unct.glif</string>
+  <key>absTwo</key>
+  <string>absT_wo.glif</string>
   <key>absTwoMedium</key>
   <string>absT_woM_edium.glif</string>
   <key>absTwoSmall</key>
