@@ -11,13 +11,7 @@
   <string>1192</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string> /absLam/absLamFin/absLamMed/absLamIni</string>
-    <string>/absAlef/absWaw/absDal/absReh/absRehLoop/absYehBarree/absYeh.noDots/absBehNoDots/absHah/absSeen/absSad/absTah/absAin/absDotlessFeh/absQafNoDots/absKaf/absKeheh/absSwashKaf/absLam/absMeem/absMeem.sindhi/absHehDoachashmee/absAe/absHamza/absTatweel/absAlefFin/absWawFin/absDalFin/absRehFin/absRehLoopFin/absYehBarreeFin/absYehFin.noDots/absBehNoDotsFin/absHahFin/absSeenFin/absSadFin/absTahFin/absAinFin/absDotlessFehFin/absQafNoDotsFin/absKafFin/absKehehFin/absSwashKafFin/absLamFin/absMeemFin/absMeemFin.sindhi/absNoonGhunnaFin/absHehDoachashmeeFin/absHehFin.knottedHigh/absAeFin/absHehGoalFin/absBehNoDotsMed/absHahMed/absSeenMed/absSadMed/absTahMed/absAinMed/absDotlessFehMed/absKafMed/absSwashKafMed/absLamMed/absMeemMed/absHehDoachashmeeMed/absHehMed.knottedHigh/absHehGoalMed/absBehNoDotsIni/absHahIni/absSeenIni/absSadIni/absTahIni/absAinIni/absDotlessFehIni/absKafIni/absSwashKafIni/absLamIni/absMeemIni/absHehDoachashmeeIni</string>
-    <string>/absYeh.noDots</string>
-    <string>/absOne/absTwo/absThree/absEasternFour</string>
-    <string>/absAin</string>
-    <string>  /absZero/absOne/absTwo/absThree/absFour/absEasternFour/absEasternFour.urdu/absFive/absEasternFive/absSix/absEasternSix/absSeven/absEasternSeven.urdu/absEight/absNine   </string>
-    <string>/absEasternFour.urdu</string>
+    <string>/absAlef/absWaw/absDal/absReh/absRehLoop/absYehBarree/absYeh.noDots/absBehNoDots/absHah/absSeen/absSad/absTah/absAin/absDotlessFeh/absQafNoDots/absKaf/_kaf_left/absKeheh/absSwashKaf/absLam/absMeem/absMeem.sindhi/absHehDoachashmee/absAe/absHamza/absTatweel/absAlefFin/absWawFin/absDalFin/absRehFin/absRehLoopFin/absYehBarreeFin/absYehFin.noDots/absBehNoDotsFin/absHahFin/absSeenFin/absSadFin/absTahFin/absAinFin/absDotlessFehFin/absQafNoDotsFin/absKafFin/absKehehFin/absSwashKafFin/absLamFin/absMeemFin/absMeemFin.sindhi/absNoonGhunnaFin/absHehDoachashmeeFin/absHehFin.knottedHigh/absAeFin/absHehGoalFin/absBehNoDotsMed/absHahMed/absSeenMed/absSadMed/absTahMed/absAinMed/absDotlessFehMed/absKafMed/absSwashKafMed/absLamMed/absMeemMed/absHehDoachashmeeMed/absHehMed.knottedHigh/absHehGoalMed/absBehNoDotsIni/absHahIni/absSeenIni/absSadIni/absTahIni/absAinIni/absDotlessFehIni/absKafIni/absSwashKafIni/absLamIni/absMeemIni/absHehDoachashmeeIni</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
