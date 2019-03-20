@@ -31,12 +31,8 @@
       <integer>1093</integer>
     </dict>
   </array>
-  <key>macintoshFONDFamilyID</key>
-  <integer>18106</integer>
-  <key>macintoshFONDName</key>
-  <string>Lateef</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/03/15 17:40:31</string>
+  <string>2019/03/20 07:09:46</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
@@ -100,10 +96,14 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
   <string>http://www.sil.org/</string>
+  <key>openTypeNamePreferredFamilyName</key>
+  <string>Lateef</string>
+  <key>openTypeNamePreferredSubfamilyName</key>
+  <string>Regular</string>
   <key>openTypeNameSampleText</key>
   <string/>
   <key>openTypeNameUniqueID</key>
-  <string>SILInternational: Lateef: 2019</string>
+  <string>SIL International: Lateef Regular: 2019</string>
   <key>openTypeNameVersion</key>
   <string>Version 1.200</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -166,6 +166,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   </array>
   <key>openTypeOS2VendorID</key>
   <string>SIL</string>
+  <key>openTypeOS2WeightClass</key>
+  <integer>400</integer>
+  <key>openTypeOS2WidthClass</key>
+  <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
   <integer>2742</integer>
   <key>openTypeOS2WinDescent</key>
@@ -179,6 +183,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>1020</integer>
     <integer>1044</integer>
   </array>
+  <key>postscriptFontName</key>
+  <string>Lateef-Regular</string>
   <key>postscriptForceBold</key>
   <false/>
   <key>postscriptIsFixedPitch</key>

@@ -1,15 +1,31 @@
 #!/bin/sh
 # Script for calling multiple routines on a project, typically prior to committing to a repository.
 
-# For now, just normalize Regular
+#echo
+#echo "Updating glyph orders in Regular..."
+# setting both to the same order
+#psfsetglyphorder -q -p checkfix=none --header DesignerOrder,DesignerOrder --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/*-Regular.ufo
+
+#echo
+#echo "Updating production names in Regular..."
+#psfsetpsnames -q -p checkfix=none -i source/glyph_data.csv source/*-Regular.ufo
+
 echo
-echo "Normalizing the UFO..."
-psfnormalize source/Lateef-Regular.ufo
+echo "Fixing and normalizing the Regular UFO..."
+# Do this before meta sync so we minimize problems in the Bold
+psfnormalize -p checkfix=fix source/*-Regular.ufo
 
 # Eventually we'll get to using the following: 
 
-# sync metadata to other UFOs and normalize again
-# psfsyncmeta source/*Regular.ufo --normalize
+#echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
+#psfsyncmasters source/*-RB.designspace
 
-# [re-]build woff metadata file
-# psfmakewoffmetadata -n Lateef -i org.sil.fonts source/*-Regular.ufo
+#echo "Fixing and normalizing Bold UFO..."
+#psfnormalize -p checkfix=fix source/*-Bold.ufo
+
+#echo
+#echo "Updating woff metadata file..."
+#psfmakewoffmetadata -q -n Harmattan -i org.sil.fonts source/*-Regular.ufo
+
+echo
+echo "preflight completed!"
