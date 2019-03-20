@@ -1,0 +1,40 @@
+﻿sources/SOURCES.txt
+==================
+
+This file describes the source files included with the Lateef font 
+family. This information should be distributed along with the Lateef
+fonts and any derivative works.
+
+These files are part of Lateef font family (http://software.sil.org/lateef/) 
+and are Copyright (c) 1994-2019 SIL International (http://www.sil.org/),
+with Reserved Font Names "Lateef" and "SIL".
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+
+You should have received a copy of the license along with this Font Software.
+If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+details including an FAQ.
+
+Source files and folders included:
+
+graphite/
+    Graphite code: See the graphite/README.txt for details
+
+opentype/
+    OpenType code: See the opentype/README.txt for details
+
+typetuner/
+    TypeTuner code
+
+Lateef-*.ufo/
+    Font sources in Unified Font Object format
+
+lateef.designspace
+    DesignSpace document used to open the UFOs in GlyphsApp
+
+glyph_data.csv
+    Complete list of glyphs (and metadata regarding them) for the project
+
+classes.xml
+    Glyph classes used in by the Graphite and OpenType logic but which
+    cannot be algorithmically generated.

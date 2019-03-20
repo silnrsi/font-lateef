@@ -9,53 +9,64 @@ ZIPDIR="releases"
 TESTDIR='tests'
 TESTRESULTSDIR = 'tests'
 # STANDARDS = 'standards'
+generated = "generated/"
 
-# set the font name, version, licensing and description
-APPNAME="LateefGR"
-VERSION="1.220"
+# set package name
+APPNAME="Lateef"
+DEBPKG = 'fonts-sil-lateef'
 
-TTF_VERSION=VERSION
-COPYRIGHT="Copyright (c) 2004-2017, SIL International (http://www.sil.org)"
+# set the font family name
+FAMILY = APPNAME
+
+# set licensing info
+COPYRIGHT="Copyright (c) 2004-2019, SIL International (http://www.sil.org), with Reserved Font Names \"Harmattan\" and \"SIL\""
 LICENSE='OFL.txt'
 
-DESC_NAME = "LateefGR"
+DESC_NAME = "Lateef"
 DESC_SHORT = "An Arabic script font for Sindhi and other languages of southern Asia"
-DESC_LONG = """
-Lateef is an extended Arabic script font designed by SIL International.
 
-Lateef is named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and poet. 
-It is intended to be an appropriate style for use in Sindhi and other languages of the southern Asia:
+# Get version info from Regular UFO; must be first function call:
+getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 
-Lateef is currently available in Regular weight only.
-Font sources are published in the repository and a smith open workflow is
-used for building, testing and releasing.
-"""
+
 # set up the sile tests (using fontproof)
 testCommand('sile', cmd='${SILE} --debug versions -o "${TGT}" "${SRC[0].abspath()}" -f "${SRC[1]}"', extracmds=['sile'], shapers=0, supports=['.sil'], ext='.pdf')
 
-DEBPKG = 'fonts-sil-lateefgr'
 
 ftmlTest('tools/ftml.xsl')
 
-AP = 'source/LateefReg_tmp.xml'
+# APs to omit:
+omitaps = '--omitaps "_above _below _center _ring _through above below center ring through"'
 
-font(target = process('LateefGR-Regular.ttf', cmd('${TYPETUNER} -o ${TGT} add ${SRC} ${DEP}', 'source/typetuner.xml'), cmd('perl ../tools/bin/abs_psfix ${DEP} ${TGT}'), name('LateefGR') ),
-	source = 'source/LateefReg.ttf',
-	graphite = gdl('Lateef-Regular.gdl',
-		params = '-D',
-		master = 'source/master.gdl',
-		make_params = '--package "../tools/perllib/zork.pm" -o "_above _below _center _ring _through above below center ring through"  --classprops',
-		depends = ['source/cp1252.gdl', 'source/features.gdh']),
-	ap = AP,
-	classes = 'source/classes.xml',
-	version = TTF_VERSION,
-	license = ofl('Lateef','SIL'),
-	fret = fret(params='-r -oi'),
-	woff = woff('web/LateefGR-Regular.woff', params = '-v ' + VERSION + ' -m ../source/Lateef-WOFF-metadata.xml'),
-	typetuner = 'source/typetuner.xml',
-	)
+designspace('source/lateef.designspace',
+    shortcircuit = True,
+    # params = '-l ${DS:FILENAME_BASE}_createintance.log',
+    target = process('${DS:FILENAME_BASE}.ttf',
+        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
+        # cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
+    ),
+    classes = 'source/classes.xml',
+    version = VERSION,
+    license = ofl('Lateef','SIL'),
+    ap = generated + '${DS:FILENAME_BASE}.xml',
 
-AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks', 'DaggerAlef', 'Kern' ]
+    graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
+        master = 'source/graphite/master.gdl',
+        make_params = omitaps + ' --package "../tools/perllib/zork.pm" --classprops',
+        depends = ['source/graphite/cp1252.gdl', 'source/graphite/features.gdh'],
+        params = '-q -e ${DS:FILENAME_BASE}_gdlerr.txt',
+        ),
 
-for testname in AUTOGEN_TESTS:
-	t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -f l -r local(Scheherazade) -r local(Lateef) -r url(LateefGR-Regular.woff) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'source/LateefReg.ttf', AP, 'tools/absGlyphList/absGlyphList.txt']))
+#   opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
+#        master = 'source/opentype/master.feax',
+#        make_params = OMITAPS,
+#        params = '-m ' + generated + '${DS:FILENAME_BASE}.map',
+#        ),
+ 
+    fret = fret(params='-r -oi'),
+    woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
+#   typetuner = 'source/typetuner.xml',
+    )
+
+def configure(ctx):
+    ctx.find_program('psfchangettfglyphnames')
