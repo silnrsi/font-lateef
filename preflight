@@ -23,9 +23,9 @@ psfnormalize -p checkfix=fix source/*-Regular.ufo
 #echo "Fixing and normalizing Bold UFO..."
 #psfnormalize -p checkfix=fix source/*-Bold.ufo
 
-#echo
-#echo "Updating woff metadata file..."
-#psfmakewoffmetadata -q -n Harmattan -i org.sil.fonts source/*-Regular.ufo
+echo
+echo "Updating woff metadata file..."
+psfmakewoffmetadata -q -n Lateef -i org.sil.fonts source/*-Regular.ufo
 
 echo
 echo "preflight completed!"

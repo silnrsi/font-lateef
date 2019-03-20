@@ -217,7 +217,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>styleName</key>
   <string>Regular</string>
   <key>trademark</key>
-  <string/>
+  <string>"Lateef" and "SIL" are trademarks of SIL International</string>
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>
