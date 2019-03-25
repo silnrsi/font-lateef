@@ -1,14 +1,14 @@
 #!/bin/sh
 # Script for calling multiple routines on a project, typically prior to committing to a repository.
 
-#echo
-#echo "Updating glyph orders in Regular..."
+echo
+echo "Updating glyph orders in Regular..."
 # setting both to the same order
-#psfsetglyphorder -q -p checkfix=none --header DesignerOrder,DesignerOrder --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/*-Regular.ufo
+psfsetglyphorder -q -p checkfix=none --header DesignerOrder,DesignerOrder --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/*-Regular.ufo
 
-#echo
-#echo "Updating production names in Regular..."
-#psfsetpsnames -q -p checkfix=none -i source/glyph_data.csv source/*-Regular.ufo
+echo
+echo "Updating production names in Regular..."
+psfsetpsnames -q -p checkfix=none -i source/glyph_data.csv source/*-Regular.ufo
 
 echo
 echo "Fixing and normalizing the Regular UFO..."

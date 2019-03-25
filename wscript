@@ -52,7 +52,7 @@ designspace('source/lateef.designspace',
 
     graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
         master = 'source/graphite/master.gdl',
-        make_params = omitaps + ' --package "../tools/perllib/zork.pm" --classprops',
+        make_params = omitaps,
         depends = ['source/graphite/cp1252.gdl', 'source/graphite/features.gdh'],
         params = '-q -e ${DS:FILENAME_BASE}_gdlerr.txt',
         ),
