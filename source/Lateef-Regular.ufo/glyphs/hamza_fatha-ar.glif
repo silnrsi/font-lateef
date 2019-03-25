@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hamza_fatha-ar" format="2">
+  <anchor x="178" y="625" name="_diaA"/>
+  <anchor x="172" y="1251" name="diaA"/>
+  <outline>
+    <component base="_hamza" xOffset="203" yOffset="821"/>
+    <component base="fatha-ar" xOffset="-17" yOffset="-27"/>
+  </outline>
+</glyph>

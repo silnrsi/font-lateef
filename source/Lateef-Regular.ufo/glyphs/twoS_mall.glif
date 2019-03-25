@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="twoSmall" format="2">
-  <advance width="470"/>
-  <anchor x="9" y="0" name="_digit"/>
-  <anchor x="479" y="0" name="digit"/>
-  <outline>
-    <component base="two" xScale="0.61" yScale="0.61" xOffset="10" yOffset="150"/>
-  </outline>
-</glyph>

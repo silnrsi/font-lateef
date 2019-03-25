@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absHehIni.hooked" format="2">
-  <advance width="338"/>
-  <anchor x="162" y="697" name="diaA"/>
-  <anchor x="170" y="-563" name="diaB"/>
-  <outline>
-    <component base="absHehGoalIni"/>
-  </outline>
-</glyph>

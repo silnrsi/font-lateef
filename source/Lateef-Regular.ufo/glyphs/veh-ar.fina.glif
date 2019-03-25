@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="veh-ar.fina" format="2">
+  <advance width="1272"/>
+  <anchor x="246" y="698" name="alef"/>
+  <anchor x="668" y="1101" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
+  <outline>
+    <component base="fehDotless-ar.fina"/>
+    <component base="_dot3u" xOffset="1053" yOffset="953"/>
+  </outline>
+</glyph>

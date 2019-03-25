@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jeh-ar.fina" format="2">
+  <advance width="542"/>
+  <anchor x="99" y="797" name="alef"/>
+  <anchor x="280" y="871" name="diaA"/>
+  <anchor x="175" y="-490" name="diaB"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="_dot3u" xOffset="350" yOffset="573"/>
+  </outline>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sad-ar" format="2">
+  <advance width="1604"/>
+  <unicode hex="0635"/>
+  <anchor x="968" y="556" name="above"/>
+  <anchor x="288" y="464" name="alef"/>
+  <anchor x="1084" y="-87" name="below"/>
+  <anchor x="802" y="700" name="diaA"/>
+  <anchor x="176" y="-514" name="diaB"/>
+  <outline>
+    <contour>
+      <point x="694" y="211" type="curve"/>
+      <point x="734" y="1" type="line"/>
+      <point x="776" y="-9"/>
+      <point x="843" y="-15"/>
+      <point x="892" y="-15" type="curve" smooth="yes"/>
+      <point x="1191" y="-15"/>
+      <point x="1564" y="159"/>
+      <point x="1564" y="412" type="curve" smooth="yes"/>
+      <point x="1564" y="498"/>
+      <point x="1503" y="557"/>
+      <point x="1404" y="557" type="curve" smooth="yes"/>
+      <point x="1232" y="557"/>
+      <point x="936" y="278"/>
+      <point x="821" y="153" type="curve"/>
+      <point x="883" y="148" type="line"/>
+      <point x="1016" y="285"/>
+      <point x="1227" y="410"/>
+      <point x="1290" y="410" type="curve" smooth="yes"/>
+      <point x="1379" y="410"/>
+      <point x="1445" y="360"/>
+      <point x="1445" y="303" type="curve" smooth="yes"/>
+      <point x="1445" y="224"/>
+      <point x="1139" y="165"/>
+      <point x="921" y="165" type="curve" smooth="yes"/>
+      <point x="817" y="165"/>
+      <point x="750" y="184"/>
+    </contour>
+    <component base="_bowl_seen"/>
+  </outline>
+</glyph>

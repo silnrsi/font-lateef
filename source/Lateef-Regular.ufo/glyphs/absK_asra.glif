@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absKasra" format="2">
-  <unicode hex="0650"/>
-  <anchor x="66" y="-406" name="_diaB"/>
-  <anchor x="66" y="-651" name="diaB"/>
-  <outline>
-    <component base="absFatha" xOffset="-90" yOffset="-1682"/>
-  </outline>
-</glyph>

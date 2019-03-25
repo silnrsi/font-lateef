@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ng-ar.medi" format="2">
+  <advance width="932"/>
+  <anchor x="57" y="1434" name="diaA"/>
+  <anchor x="150" y="-200" name="diaB"/>
+  <outline>
+    <component base="kaf-ar.medi"/>
+    <component base="_dot3u" xOffset="56" yOffset="1127"/>
+  </outline>
+</glyph>

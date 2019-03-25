@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absShaddaKasratan" format="2">
-  <anchor x="144" y="1056" name="_diaA"/>
-  <anchor x="144" y="1721" name="diaA"/>
-  <outline>
-    <component base="absShadda" yOffset="330"/>
-    <component base="absFathatan" xOffset="-87" yOffset="-2"/>
-  </outline>
-</glyph>

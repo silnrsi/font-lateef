@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sukunround-ar" format="2">
+  <unicode hex="06DF"/>
+  <anchor x="150" y="1039" name="_diaA"/>
+  <anchor x="150" y="1421" name="diaA"/>
+  <outline>
+    <component base="sukun-ar"/>
+  </outline>
+</glyph>

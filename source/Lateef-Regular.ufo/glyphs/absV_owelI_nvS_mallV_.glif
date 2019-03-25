@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absVowelInvSmallV" format="2">
-  <unicode hex="065B"/>
-  <anchor x="210" y="987" name="_diaA"/>
-  <anchor x="210" y="1226" name="diaA"/>
-  <outline>
-    <component base="absVowelSmallV" xScale="-1" yScale="-1" xOffset="403" yOffset="2193"/>
-  </outline>
-</glyph>

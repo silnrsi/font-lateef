@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="fourSmall" format="2">
-  <advance width="470"/>
-  <anchor x="8" y="0" name="_digit"/>
-  <anchor x="478" y="0" name="digit"/>
-  <outline>
-    <component base="four" xScale="0.61" yScale="0.61" xOffset="9" yOffset="150"/>
-  </outline>
-</glyph>

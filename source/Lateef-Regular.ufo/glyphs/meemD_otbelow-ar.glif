@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="meemDotbelow-ar" format="2">
+  <advance width="557"/>
+  <unicode hex="0766"/>
+  <anchor x="147" y="563" name="alef"/>
+  <anchor x="273" y="619" name="diaA"/>
+  <anchor x="109" y="-719" name="diaB"/>
+  <outline>
+    <component base="meem-ar"/>
+    <component base="_dot1" xOffset="363" yOffset="-261"/>
+  </outline>
+</glyph>

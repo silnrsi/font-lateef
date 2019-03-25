@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rnoon-ar.medi" format="2">
+  <advance width="440"/>
+  <anchor x="52" y="700" name="alef"/>
+  <anchor x="185" y="958" name="diaA"/>
+  <anchor x="150" y="-200" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="_tah" xOffset="212" yOffset="547"/>
+  </outline>
+</glyph>

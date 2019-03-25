@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absSukun.leftOpen" format="2">
-  <anchor x="107" y="973" name="_diaA"/>
-  <anchor x="107" y="1286" name="diaA"/>
-  <outline>
-    <component base="absShortVowelMark"/>
-  </outline>
-</glyph>

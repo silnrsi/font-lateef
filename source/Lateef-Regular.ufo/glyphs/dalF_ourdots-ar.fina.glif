@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dalFourdots-ar.fina" format="2">
+  <advance width="739"/>
+  <anchor x="171" y="1364" name="alef"/>
+  <anchor x="433" y="1413" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
+  <outline>
+    <component base="dal-ar.fina"/>
+    <component base="_dot4" xOffset="474" yOffset="1109"/>
+  </outline>
+</glyph>

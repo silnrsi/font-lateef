@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonThreedotsabove-ar.fina" format="2">
+  <advance width="907"/>
+  <anchor x="179" y="696" name="alef"/>
+  <anchor x="330" y="769" name="diaA"/>
+  <anchor x="232" y="-502" name="diaB"/>
+  <outline>
+    <component base="noonghunna-ar.fina"/>
+    <component base="_dot3u" xOffset="385" yOffset="473"/>
+  </outline>
+</glyph>

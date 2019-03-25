@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seenThreedotsbelow-ar.medi" format="2">
+  <advance width="1032"/>
+  <anchor x="165" y="599" name="alef"/>
+  <anchor x="477" y="700" name="diaA"/>
+  <anchor x="150" y="-200" name="diaB"/>
+  <outline>
+    <component base="seen-ar.medi"/>
+    <component base="_dot3d" xOffset="586" yOffset="-348"/>
+  </outline>
+</glyph>

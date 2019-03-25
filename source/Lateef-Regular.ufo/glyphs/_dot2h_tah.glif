@@ -4,7 +4,7 @@
   <anchor x="0" y="636" name="_below"/>
   <anchor x="0" y="188" name="_center"/>
   <outline>
-    <component base="absTah" xScale="0.37" yScale="0.37" xOffset="-199" yOffset="165"/>
+    <component base="tah-ar" xScale="0.37" yScale="0.37" xOffset="-199" yOffset="165"/>
     <component base="_dot1" xOffset="-104"/>
     <component base="_dot1" xOffset="104"/>
   </outline>

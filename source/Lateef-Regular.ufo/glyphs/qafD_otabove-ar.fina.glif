@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafDotabove-ar.fina" format="2">
+  <advance width="889"/>
+  <anchor x="222" y="543" name="alef"/>
+  <anchor x="470" y="818" name="diaA"/>
+  <anchor x="202" y="-482" name="diaB"/>
+  <outline>
+    <component base="qafDotless-ar.fina"/>
+    <component base="_dot1" xOffset="629" yOffset="604"/>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threedotsabove-ar" format="2">
+  <unicode hex="06DB"/>
+  <anchor x="0" y="999" name="_diaA"/>
+  <anchor x="0" y="1214" name="diaA"/>
+  <outline>
+    <component base="_dot1smallrotated10" xOffset="-14" yOffset="1154"/>
+    <component base="_dot1smallrotated10" xOffset="-43" yOffset="1057"/>
+    <component base="_dot1smallrotated10" xOffset="39" yOffset="1067"/>
+  </outline>
+</glyph>

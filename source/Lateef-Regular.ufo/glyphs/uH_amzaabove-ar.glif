@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uHamzaabove-ar" format="2">
+  <advance width="612"/>
+  <unicode hex="0677"/>
+  <anchor x="211" y="954" name="diaA"/>
+  <anchor x="142" y="-425" name="diaB"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="_hamzaDamma" xOffset="414" yOffset="667"/>
+  </outline>
+</glyph>

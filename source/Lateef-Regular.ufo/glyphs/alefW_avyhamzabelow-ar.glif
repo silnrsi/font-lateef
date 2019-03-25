@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefWavyhamzabelow-ar" format="2">
+  <advance width="362"/>
+  <unicode hex="0673"/>
+  <anchor x="195" y="1176" name="diaA"/>
+  <anchor x="143" y="-498" name="diaB"/>
+  <outline>
+    <component base="alef-ar"/>
+    <component base="_wavyHamza" xOffset="229" yOffset="-276"/>
+  </outline>
+</glyph>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absReversedDamma" format="2">
-  <unicode hex="065D"/>
-  <anchor x="187" y="1048" name="_diaA"/>
-  <anchor x="187" y="1492" name="diaA"/>
-  <outline>
-    <component base="absDamma" xScale="-1" xOffset="333"/>
-  </outline>
-</glyph>

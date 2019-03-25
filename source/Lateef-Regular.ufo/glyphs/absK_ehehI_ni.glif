@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absKehehIni" format="2">
-  <advance width="633"/>
-  <anchor x="150" y="1049" name="diaA"/>
-  <anchor x="150" y="-200" name="diaB"/>
-  <outline>
-    <component base="absKafIni"/>
-  </outline>
-</glyph>

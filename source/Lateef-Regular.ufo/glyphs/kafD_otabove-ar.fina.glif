@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kafDotabove-ar.fina" format="2">
+  <advance width="1179"/>
+  <anchor x="337" y="1141" name="alef"/>
+  <anchor x="460" y="1219" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
+  <outline>
+    <component base="kaf-ar.fina"/>
+    <component base="_dot1" xOffset="512" yOffset="1033"/>
+  </outline>
+</glyph>

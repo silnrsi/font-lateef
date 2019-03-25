@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="highhamzaWaw-ar.fina" format="2">
+  <advance width="713"/>
+  <anchor x="171" y="686" name="alef"/>
+  <anchor x="401" y="907" name="diaA"/>
+  <anchor x="251" y="-462" name="diaB"/>
+  <outline>
+    <component base="waw-ar.fina"/>
+    <component base="_highHamza" xOffset="499" yOffset="587"/>
+  </outline>
+</glyph>

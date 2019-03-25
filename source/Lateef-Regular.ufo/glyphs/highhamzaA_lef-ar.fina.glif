@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="highhamzaAlef-ar.fina" format="2">
+  <advance width="467"/>
+  <anchor x="227" y="1624" name="diaA"/>
+  <anchor x="202" y="-202" name="diaB"/>
+  <outline>
+    <component base="alef-ar.fina"/>
+    <component base="_highHamza" xOffset="246" yOffset="1322"/>
+  </outline>
+</glyph>

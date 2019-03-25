@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absSmallHighSeen" format="2">
-  <unicode hex="06DC"/>
-  <anchor x="4" y="987" name="_diaA"/>
-  <anchor x="4" y="1460" name="diaA"/>
-  <outline>
-    <component base="absSeen" xScale="0.54" yScale="0.54" xOffset="-392" yOffset="1213"/>
-  </outline>
-</glyph>

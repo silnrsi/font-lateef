@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seenFourdotsabove-ar.init" format="2">
+  <advance width="850"/>
+  <anchor x="125" y="595" name="alef"/>
+  <anchor x="348" y="1016" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
+  <outline>
+    <component base="seen-ar.init"/>
+    <component base="_dot4" xOffset="486" yOffset="710"/>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ve-ar.fina" format="2">
+  <advance width="713"/>
+  <anchor x="171" y="809" name="alef"/>
+  <anchor x="417" y="1000" name="diaA"/>
+  <anchor x="251" y="-462" name="diaB"/>
+  <outline>
+    <component base="waw-ar.fina"/>
+    <component base="_dot3u" xOffset="481" yOffset="700"/>
+  </outline>
+</glyph>

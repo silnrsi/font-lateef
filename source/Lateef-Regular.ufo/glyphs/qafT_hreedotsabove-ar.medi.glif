@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafThreedotsabove-ar.medi" format="2">
+  <advance width="563"/>
+  <anchor x="235" y="1251" name="diaA"/>
+  <anchor x="202" y="-202" name="diaB"/>
+  <outline>
+    <component base="fehDotless-ar.medi"/>
+    <component base="_dot3u" xOffset="299" yOffset="953"/>
+  </outline>
+</glyph>

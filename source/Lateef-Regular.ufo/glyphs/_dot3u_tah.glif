@@ -3,7 +3,7 @@
   <anchor x="0" y="-286" name="_above"/>
   <anchor x="0" y="727" name="_below"/>
   <outline>
-    <component base="absTah" xScale="0.37" yScale="0.37" xOffset="-199" yOffset="287"/>
+    <component base="tah-ar" xScale="0.37" yScale="0.37" xOffset="-199" yOffset="287"/>
     <component base="_dot1" xScale="-1" yScale="-1" xOffset="104" yOffset="-104"/>
     <component base="_dot1" xScale="-1" yScale="-1" yOffset="104"/>
     <component base="_dot1" xScale="-1" yScale="-1" xOffset="-104" yOffset="-104"/>

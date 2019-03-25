@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gafThreedots-ar.fina" format="2">
+  <advance width="1577"/>
+  <anchor x="242" y="761" name="alef"/>
+  <anchor x="449" y="1409" name="diaA"/>
+  <anchor x="316" y="-202" name="diaB"/>
+  <outline>
+    <component base="keheh-ar.fina"/>
+    <component base="_gafBar_dot3u" xOffset="610" yOffset="835"/>
+  </outline>
+</glyph>

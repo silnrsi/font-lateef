@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absDammatan.sixNine" format="2">
-  <anchor x="187" y="1048" name="_diaA"/>
-  <anchor x="187" y="1699" name="diaA"/>
-  <outline>
-    <component base="absDamma"/>
-    <component base="absDamma" xScale="-1" yScale="-1" xOffset="190" yOffset="2715"/>
-  </outline>
-</glyph>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absSubscriptAlef" format="2">
-  <unicode hex="0656"/>
-  <anchor x="98" y="0" name="_diaB"/>
-  <anchor x="98" y="-469" name="diaB"/>
-  <outline>
-    <component base="absSuperscriptAlef" yOffset="-1111"/>
-  </outline>
-</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fathatan-ar" format="2">
+  <unicode hex="064B"/>
+  <anchor x="226" y="1053" name="_diaA"/>
+  <anchor x="226" y="1437" name="diaA"/>
+  <outline>
+    <component base="fatha-ar" xOffset="40" yOffset="140"/>
+    <component base="fatha-ar" xOffset="40"/>
+  </outline>
+</glyph>

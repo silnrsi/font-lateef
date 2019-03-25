@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ddal-ar.fina" format="2">
+  <advance width="739"/>
+  <anchor x="178" y="1134" name="alef"/>
+  <anchor x="435" y="1395" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
+  <outline>
+    <component base="dal-ar.fina"/>
+    <component base="_tah" xOffset="474" yOffset="984"/>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rehStroke-ar.fina" format="2">
+  <advance width="542"/>
+  <anchor x="106" y="678" name="alef"/>
+  <anchor x="325" y="684" name="diaA"/>
+  <anchor x="175" y="-490" name="diaB"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="_bar" xOffset="342" yOffset="-175"/>
+  </outline>
+</glyph>

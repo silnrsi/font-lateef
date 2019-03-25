@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamDotabove-ar" format="2">
+  <advance width="701"/>
+  <unicode hex="06B6"/>
+  <anchor x="293" y="975" name="alef"/>
+  <anchor x="468" y="1749" name="diaA"/>
+  <anchor x="221" y="-202" name="diaB"/>
+  <outline>
+    <component base="lam-ar"/>
+    <component base="_dot1" xOffset="531" yOffset="1593"/>
+  </outline>
+</glyph>

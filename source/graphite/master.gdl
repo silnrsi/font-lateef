@@ -7,7 +7,7 @@
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
-	This file is part of Lateef font family (http://scripts.sil.org/Lateef) 
+	This file is part of Lateef font family (http://scripts.sil.org/Lateef)
 	and is Copyright (c) 2004-2017 SIL International (http://www.sil.org/),
 	with Reserved Font Names "Lateef" and "SIL".
 
@@ -39,11 +39,11 @@ One of the complex issues is mark attachment. Problems stem from the following i
 
 2) Do we visually identify illogical mark sequences?
 	While the order of the marks on a given base is variable, certain marks should not occur
-	simultaneously. For example, no more than one vowel mark should occur. If two vowels occur on 
+	simultaneously. For example, no more than one vowel mark should occur. If two vowels occur on
 	the same base, we can visually identify this error by inserting a dotted circle between them
 	which will then act as a base for the second vowel.
-	But detecting this if we allow any order vowels (see 1) is a bit tricky. 
-	Decision: We want to provide this valuable feedback. 
+	But detecting this if we allow any order vowels (see 1) is a bit tricky.
+	Decision: We want to provide this valuable feedback.
 
 3) Exactly what marks are mutually exclusive? Seems clear that the vowels (e.g kasra, fatha, damma,
 	kasratan, fathatan, dammatan, sukun) are mutually exclusive with each other. For Arabic
@@ -51,7 +51,7 @@ One of the complex issues is mark attachment. Problems stem from the following i
 	other languages. I also don't know about the remaining (i.e., quranic) marks.
 	Decision: assume shadda, hamza a/b, maddah and mark noon ghunna are mutually exclusive, and vowel
 	marks are mutually exclusive.
-	
+
 4) However, maddah works differently from shadda and hamza
 	in that it is placed above the vowel rather than below. (For example, superscript alef + maddah)
 
@@ -61,7 +61,7 @@ order based on 4 classes:
 	cMark2 class contains the vowels
 	cMark3 class contains maddah
 	cMark4 class contains quranic marks and Rohingya tones
-	
+
 Only cMark2 and cMark4 can have duplicates. Except right now there are no outer attachment points for the
 quranic marks, so multiples don't work right.
 
@@ -79,7 +79,7 @@ quranic marks, so multiples don't work right.
 #include "cp1252.gdl"
 
 
-// Features 
+// Features
 #include "features.gdh"
 
 
@@ -97,7 +97,7 @@ cMarksAny = ( cMarksAbove cMarksBelow ) ;
 
 cMarkOrder1 = ( cMarkGroup1A cMarkGroup1B ) ;				// hamza & noon ghunna marks go first
 cMarkOrder2 = ( cMarkGroup2A cMarkGroup3A cMarkGroup2B ) ;	// vowels go next
-cMarkOrder3 = ( cMarkGroup4A ) ;							// maddah 
+cMarkOrder3 = ( cMarkGroup4A ) ;							// maddah
 cMarkOrder4 = ( cMarkGroup5A cMarkGroup3B ) ;				// everything else last
 cMarkOrder234 = ( cMarkOrder2 cMarkOrder3 cMarkOrder4 );
 cMarkOrder34  = (             cMarkOrder3 cMarkOrder4 );
@@ -119,12 +119,12 @@ table(substitution)
 pass(1)	{ Direction = LEFT_TO_RIGHT } // Encoding, [de-]composition, mirroring, subtending marks
 
 	// NB: This pass also includes cp1252 compositions
-	
+
 	// NB: I think that even though this is an ABS decomposition, it can be done in a LTR pass because
 	//     the reverser will make sure the mark always follows the base:
-	cAlefPlusMark _ >  absAlef:1  cAlefMark$1:1 ;
+	cAlefPlusMark _ >  g_alef_ar:1  cAlefMark$1:1 ;
 	// QUESTION: are there more things that need to be decomposed?
-		
+
 //	if (graphite1mirror)	// No longer support Graphite 1 mirroring?
 //		(cMirrorOpen cMirrorClose)  >  (cMirrorClose cMirrorOpen);
 //	endif;
@@ -132,23 +132,23 @@ pass(1)	{ Direction = LEFT_TO_RIGHT } // Encoding, [de-]composition, mirroring, 
 	// The following is a debugging tool so you can find out whether the app is rendering with Graphite or not.
 	// The string "RenderingUnknown" will be rendered as "RenderingGraphite":
 
-	codepoint("U") codepoint("n") codepoint("k") codepoint("n") codepoint("o") codepoint("w") codepoint("n") _               > 
-	codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codepoint("i") codepoint("t") codepoint("e"):16  / 
+	codepoint("U") codepoint("n") codepoint("k") codepoint("n") codepoint("o") codepoint("w") codepoint("n") _               >
+	codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codepoint("i") codepoint("t") codepoint("e"):16  /
 		codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
 
 	// Subtending marks
 	// This is in a LTR pass because their category (AN) and the digits that follow are collected into
 	// a LTR sequence by the bidi algorithm.
-	
+
 //	cSignTakes4 cDigitsAny cDigitsAny cDigitsAny cDigitsAny  >
 //		cSign4 cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
 
 //	cSignTakes3Medium cDigitsAny cDigitsAny cDigitsAny  >
 //		cSign3Medium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
-		
+
 	cSignTakes3Small cDigitsAny cDigitsAny cDigitsAny  >
 		cSign3Small cDigitsAnySmall cDigitsAnySmall cDigitsAnySmall;
-		
+
 	cSignTakes2 cDigitsAny cDigitsAny  >
 		cSign2 cDigitsAnyMedium cDigitsAnyMedium;
 
@@ -161,19 +161,19 @@ endpass; // 1
 
 
 pass(2)	// Reorder marks to "logical" order (this allows for canonical order input,
-	// as Unicode got the canonical order wrong!)	
-				
+	// as Unicode got the canonical order wrong!)
+
 	// NB: Only cMark2 (vowel marks) and cMark4 (quranic marks) can have multiples.
 	// The rules below allow for up to 3 vowel marks and up to 3 quranic marks,
 	// with a total of 4 marks.
-	
+
 	// We don't swap the glyphs, because that would mess up the original order,
 	// rather we delete and insert.
-	
+
 	_  cMarkOrder1  >  @e:e  _  / _  ^  cMarkOrder234 [ cMarkOrder234 cMarkOrder234? ]?  _=e;
 	_  cMarkOrder2  >  @e:e  _  / _  ^  cMarkOrder34  [ cMarkOrder34  cMarkOrder34?  ]?  _=e;
 	_  cMarkOrder3  >  @e:e  _  / _  ^  cMarkOrder4   [ cMarkOrder4   cMarkOrder4?   ]?  _=e;
-	
+
 	// Note: Jonathan says inserting circles is a bad idea for minority language support.
 
 endpass; // 2
@@ -181,7 +181,7 @@ endpass; // 2
 pass(3)	// ligature diacritics
 
 	if (shaddaKasra == std)
-		absShadda  cShaddaKasraMarks  >  _  cShaddaKasraLigatures:(1 2);
+		g_shadda_ar  cShaddaKasraMarks  >  _  cShaddaKasraLigatures:(1 2);
 	endif;
 
 endpass; // 3
@@ -190,10 +190,10 @@ endpass; // 3
 pass(4)	// Contextual forms, lam-alef ligature
 
 	// Lam-alef
-	
+
 	// Here is JK's elegant solution to contextual forms using a ligature glyph...
 /***
-	(absLam absLamFin)=L  absAlef=A  > 
+	(absLam absLamFin)=L  absAlef=A  >
 		(absLamAlef absLamAlefFin):(L A) {component {lam.ref = @L; alef.ref=@A } } gAlefPlaceholder
 		/ _  MARKS  _  MARKS ^;
 ***/
@@ -202,9 +202,9 @@ pass(4)	// Contextual forms, lam-alef ligature
 	cLamFin cAlefIso  >  cLamMedBeforeAlef {alefAttached = false}  cAlefFinAfterLamMed  / _ MARKS ^ _ ;
 
 	// All other contextual forms
-	
-	(cDualLinkIsol cDualLinkFina absTatweel g_zerojoin) (cDualLinkIsol cRightLinkIsol absTatweel g_zerojoin) > 
-		(cDualLinkInit cDualLinkMedi absTatweel g_zerojoin) (cDualLinkFina cRightLinkFina absTatweel g_zerojoin)
+
+	(cDualLinkIsol cDualLinkFina g_kashida_ar g_zerowidthjoiner) (cDualLinkIsol cRightLinkIsol g_kashida_ar g_zerowidthjoiner) >
+		(cDualLinkInit cDualLinkMedi g_kashida_ar g_zerowidthjoiner) (cDualLinkFina cRightLinkFina g_kashida_ar g_zerowidthjoiner)
 		/ _  MARKS ^ _ ;
 
 endpass; // 4
@@ -212,14 +212,14 @@ endpass; // 4
 
 pass(5)	// Features, special behaviors
 
-	cLowHamzaBase  absHamzaAbove  >  cLowHamzaComposed:(1 2)  _;
-	
+	cLowHamzaBase  g_hamzaabove_ar  >  cLowHamzaComposed:(1 2)  _;
+
 	// Features
 
 	if (meemAlt == sindhi)
 		cno_sindhi  >  csindhi;
 	endif;
-	
+
 	if (hehAlt == kurdish)
 		cHeh  >  cHehKurdish;
 	endif;
@@ -246,8 +246,8 @@ pass(5)	// Features, special behaviors
 	endif;
 
 	if (daggeralefAlt != small)
-		absSuperscriptAlef  >  absSuperscriptAlef_large  /  cTakesLargeDaggerAlef  _;
-	endif;	
+		g_alefabove_ar  >  g_alefabove_ar_large  /  cTakesLargeDaggerAlef  _;
+	endif;
 
 	if (sukunAlt == jasmDown)
 		cno_downOpen  >  cdownOpen;
@@ -262,7 +262,7 @@ pass(5)	// Features, special behaviors
 	if (endOfAyah == square)
 		cEndOfAyah  >  cEndOfAyahSquare;
 	endif;
-	
+
 
 	if (easternDigits == sindhi)
 		cEasternDigit  >  cEasternDigitSindhi;
@@ -273,25 +273,25 @@ pass(5)	// Features, special behaviors
 	//if (easternDigits == rohingya)
 	//	cEasternDigit  >  cEasternDigitRohingya;
 	//endif;
-	
+
 	if (commaAlt == down)
 		cno_downward  >  cdownward;
 	endif;
-	
+
 	if (jehHack == dotHat)
 		cJeh > cJeh_dotHat;
 	endif;
-	
+
 	if (headOfKhahHack == openLeft)
-		absSmallHighDotlessHeadOfKhah > absShortVowelMark;
+		g_hahabove_ar > g_marksidewaysnoonghunna_ar;
 	endif;
-	
+
 	if (!invis)
 		// Note that substitution changes the directionality to the defaults for the
 		// substituted glyph. :-( So be sure to fix it:
-		cInvisible > g_zerospace {directionality = @1.directionality};
-	endif; 
-	
+		cInvisible > g_zerowidthspace {directionality = @1.directionality};
+	endif;
+
 endpass; // 5
 
 endtable; // sub
@@ -309,30 +309,30 @@ pass(1)
 #define cHasEntry cTakesentryDia
 	cHasExit=L {alefAttached = true}  cHasEntry=A {attach {to=@L; at=exitS; with=entryS}; insert = true}
 		/ ^ _ {alefAttached == false}  MARKS  _;
-	
 
-	// Marks 
+
+	// Marks
 
 	// Note: the superscript-alef may have both the _alef and _diaA att pts; the ordering of these
 	// rules assumes the alef AP should be used if there are no intervening marks above.
 	// Sch rule: cHasAlefAP=B  cMarkSuperscriptAlefs {attach {to=@B; at=alef; with=alef_}; }  / _ ^ MARKSBELOW _ ;
 	// Lateef special considerations:  In the 1.x font, only the lam (and variants except for initial)
-	// were included in the superscript-alef attachment rule, even though other glyphs have an alef AP. 
-	// This may need further research and discussion: do we want the Graphite version to match the OT? 
+	// were included in the superscript-alef attachment rule, even though other glyphs have an alef AP.
+	// This may need further research and discussion: do we want the Graphite version to match the OT?
 	// For now I am assuming so. Therefore, instead of:
 	//   calefDia {attach {to = @1; at = alefS; with = alefM}} / cTakesalefDia MARKSBELOW _;
 	// we'll use:
-	calefDia {attach {to = @1; at = alefS; with = alefM}} / 
+	calefDia {attach {to = @1; at = alefS; with = alefM}} /
 		( cLamIso cLamIni cLamIniBeforeAlef cLamMed cLamMedBeforeAlef cLamFin) MARKSBELOW _;
 
 	cdiaADia {attach {to = @1; at = diaAS; with = diaAM}} / cTakesdiaADia MARKSBELOW _;
-	cdiaBDia {attach {to = @1; at = diaBS; with = diaBM}} / cTakesdiaBDia opt4(cnTakesdiaBDia) _;	
+	cdiaBDia {attach {to = @1; at = diaBS; with = diaBM}} / cTakesdiaBDia opt4(cnTakesdiaBDia) _;
 
 	// Subtending marks
 	// NB: at this point digits should be in visual order, right to left,
 	// so we attach the left-most (logically first) to the sign, and proceed to the right.
-	
-	
+
+
 //	cSignDigit=D4 { attach {to=@D3; at=digitS; with=digitM }; insert = true}
 //	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true}
 //	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
@@ -351,26 +351,26 @@ pass(1)
 	cSignDigit { attach {to=@S;  at=digitS; with=digitM }; insert = true}
 	cSign1=S;
 
-	
-	// However, there is a bug in some integrations (e.g., Firefox) 
+
+	// However, there is a bug in some integrations (e.g., Firefox)
 	// such that the glyps are still in logical order:
-	
+
 //	cSign4=S
 //	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
 //	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
 //	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true}
 //	cSignDigit=D4 { attach {to=@D3; at=digitS; with=digitM }; insert = true};
-	
+
 	cSign3=S
 	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
 	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
 	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true};
-	
+
 
 	cSign2=S
 	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
 	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true};
-	
+
 
 	cSign1=S
 	cSignDigit { attach {to=@S;  at=digitS; with=digitM }; insert = true};
@@ -381,7 +381,7 @@ endpass; // 1
 pass(2)
 
 	// Kerning of reh-like and waw-like
-	
+
 	// Loosen from certain narrow initials because of nuktas below
 	// NB: not sure if it is an optical illusion or what, but if I
 	// kern Reh & Waw the same distance, the Rehs seem to still touch.
@@ -393,7 +393,7 @@ pass(2)
 
 	// loosen from following alef with mark below it
 	cAlefIso {advance.x += 150m} / cRehWawAll MARKS _ MARKS cMarksBelow ;
-	// otherwise most can tighten to alef 
+	// otherwise most can tighten to alef
 	cRehKernAlef {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
 
 	// tighten to following gaf-like unless reh/waw have a mark above
@@ -404,7 +404,7 @@ pass(2)
 	// cAinLikeInit                     / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cMarksBelow ;
 	cAinLikeInit {advance.x -= 150m} / cRehWawTighten     MARKS _ ;
 	cAinLikeInit {advance.x -= 150m} / cRehWawTightenMore MARKS _ ;
-	
+
 	// loosen from following Ain-like isloates when reh/wah have lower diacritic:
 	cAinLikeIsol {advance.x += 200m} / cRehWawAll MARKS cMarksBelow MARKS _ ;
 
@@ -416,14 +416,14 @@ pass(2)
 
 	// leave certain cases alone:
 	cRehKernOther   / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cMarksBelow ;
-	(cRehKernOther cRehKernOtherMB)  / (absJehFin  absRehHamzaAboveFin absRehSmallTahTwoDots absRehSmallTahTwoDotsFin absZainHatFin) MARKS _ ;
+	(cRehKernOther cRehKernOtherMB)  / (g_jeh_ar_fina  g_reh_hamzaabove_ar_fina g_reh_twodotshorizontalabove_tahabove_ar g_reh_twodotshorizontalabove_tahabove_ar_fina g_zain_vinvertedabove_ar_fina) MARKS _ ;
 
 	// otherwise tighten against most things
 	(cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
 
 
 
-endpass; // 2	
+endpass; // 2
 
 
 

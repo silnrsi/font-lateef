@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absEasternOneSmall" format="2">
-  <advance width="470"/>
-  <anchor x="7" y="0" name="digitL"/>
-  <anchor x="477" y="0" name="digitR"/>
-  <outline>
-    <component base="absOne" xScale="0.54" yScale="0.54" xOffset="4" yOffset="147"/>
-  </outline>
-</glyph>

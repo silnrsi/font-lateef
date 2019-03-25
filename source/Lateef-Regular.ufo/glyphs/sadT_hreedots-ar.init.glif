@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sadThreedots-ar.init" format="2">
+  <advance width="1168"/>
+  <anchor x="125" y="595" name="alef"/>
+  <anchor x="478" y="1049" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
+  <outline>
+    <component base="sad-ar.init"/>
+    <component base="_dot3u" xOffset="548" yOffset="747"/>
+  </outline>
+</glyph>
