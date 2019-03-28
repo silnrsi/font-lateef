@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reh-ar.fina" format="2">
+  <anchor x="350" y="287" name="above"/>
   <outline>
     <contour>
       <point x="323" y="119" type="line"/>

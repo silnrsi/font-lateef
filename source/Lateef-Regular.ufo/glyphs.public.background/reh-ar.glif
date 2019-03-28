@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reh-ar" format="2">
+  <anchor x="364" y="-206" name="ring"/>
   <outline>
     <contour>
       <point x="-111" y="-256" type="curve"/>

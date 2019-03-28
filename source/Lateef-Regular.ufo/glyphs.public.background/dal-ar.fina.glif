@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dal-ar.fina" format="2">
+  <anchor x="369" y="823" name="above"/>
+  <anchor x="324" y="927" name="diaA"/>
   <outline>
     <contour>
       <point x="409" y="266" type="move"/>

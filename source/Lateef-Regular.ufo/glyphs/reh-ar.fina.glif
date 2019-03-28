@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reh-ar.fina" format="2">
   <advance width="542"/>
-  <anchor x="350" y="287" name="above"/>
+  <anchor x="308" y="334" name="above"/>
   <anchor x="106" y="684" name="alef"/>
   <anchor x="418" y="-312" name="below"/>
   <anchor x="124" y="54" name="center"/>
@@ -48,4 +48,10 @@
       <point x="583" y="180"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

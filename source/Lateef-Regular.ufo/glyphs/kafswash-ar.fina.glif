@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kafswash-ar.fina" format="2">
   <advance width="1403"/>
-  <anchor x="279" y="846" name="alef"/>
-  <anchor x="502" y="988" name="diaA"/>
-  <anchor x="300" y="-202" name="diaB"/>
+  <anchor x="268" y="841" name="alef"/>
+  <anchor x="464" y="988" name="diaA"/>
+  <anchor x="310" y="-202" name="diaB"/>
   <outline>
     <contour>
       <point x="1313" y="248" type="curve"/>
@@ -33,4 +33,10 @@
     </contour>
     <component base="_absSwashKaf" xOffset="258"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

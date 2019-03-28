@@ -21,7 +21,7 @@
       <point x="959" y="120"/>
       <point x="959" y="365" type="curve" smooth="yes"/>
       <point x="959" y="502"/>
-      <point x="943" y="690"/>
+      <point x="947" y="690"/>
     </contour>
     <component base="_kaf_s" xOffset="294" yOffset="413"/>
     <component base="_kaf_left"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafDotless-ar.fina" format="2">
   <advance width="909"/>
-  <anchor x="649" y="424" name="above"/>
+  <anchor x="661" y="539" name="above"/>
   <anchor x="242" y="543" name="alef"/>
   <anchor x="587" y="-393" name="below"/>
   <anchor x="491" y="700" name="diaA"/>
@@ -55,4 +55,10 @@
       <point x="767" y="223"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

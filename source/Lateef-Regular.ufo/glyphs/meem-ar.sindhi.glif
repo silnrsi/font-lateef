@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meem-ar.sindhi" format="2">
   <advance width="912"/>
-  <anchor x="678" y="580" name="above"/>
-  <anchor x="266" y="579" name="alef"/>
+  <anchor x="718" y="710" name="above"/>
+  <anchor x="306" y="709" name="alef"/>
   <anchor x="637" y="0" name="below"/>
-  <anchor x="498" y="777" name="diaA"/>
+  <anchor x="538" y="907" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <contour>
@@ -45,4 +45,10 @@
       <point x="502" y="76" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

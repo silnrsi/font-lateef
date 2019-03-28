@@ -11,7 +11,7 @@
   <string>1192</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/alef-ar/waw-ar/dal-ar/reh-ar/rehLoop-ar/yehbarree-ar/yeh-ar.noDots/behDotless-ar/hah-ar/seen-ar/sad-ar/tah-ar/ain-ar/fehDotless-ar/qafDotless-ar/kaf-ar/_kaf_left/keheh-ar/kafswash-ar/lam-ar/meem-ar/meem-ar.sindhi/hehDoachashmee-ar/ae-ar/hamza-ar/kashida-ar/alef-ar.fina/waw-ar.fina/dal-ar.fina/reh-ar.fina/rehLoop-ar.fina/yehbarree-ar.fina/yeh-ar.noDots.fina/behDotless-ar.fina/hah-ar.fina/seen-ar.fina/sad-ar.fina/tah-ar.fina/ain-ar.fina/fehDotless-ar.fina/qafDotless-ar.fina/kaf-ar.fina/keheh-ar.fina/kafswash-ar.fina/lam-ar.fina/meem-ar.fina/meem-ar.sindhi.fina/noonghunna-ar.fina/hehDoachashmee-ar.fina/heh-ar.knottedHigh.fina/ae-ar.fina/hehgoal-ar.fina/behDotless-ar.medi/hah-ar.medi/seen-ar.medi/sad-ar.medi/tah-ar.medi/ain-ar.medi/fehDotless-ar.medi/kaf-ar.medi/kafswash-ar.medi/lam-ar.medi/meem-ar.medi/hehDoachashmee-ar.medi/heh-ar.knottedHigh.medi/hehgoal-ar.medi/behDotless-ar.init/hah-ar.init/seen-ar.init/sad-ar.init/tah-ar.init/ain-ar.init/fehDotless-ar.init/kaf-ar.init/kafswash-ar.init/lam-ar.init/meem-ar.init/hehDoachashmee-ar.init</string>
+    <string>/question-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
