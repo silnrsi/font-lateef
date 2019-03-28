@@ -7,9 +7,9 @@
       <point x="705" y="1093" type="curve"/>
       <point x="690" y="1093" type="line"/>
       <point x="644" y="945"/>
-      <point x="561" y="884"/>
-      <point x="472" y="884" type="curve" smooth="yes"/>
-      <point x="421" y="884"/>
+      <point x="561" y="882"/>
+      <point x="472" y="882" type="curve" smooth="yes"/>
+      <point x="421" y="882"/>
       <point x="353" y="904"/>
       <point x="319" y="975" type="curve"/>
       <point x="368" y="737" type="line"/>
@@ -21,4 +21,10 @@
     </contour>
     <component base="one-ar" xOffset="-80"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

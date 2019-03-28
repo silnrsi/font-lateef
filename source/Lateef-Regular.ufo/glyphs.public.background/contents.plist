@@ -252,6 +252,8 @@
   <string>lam-ar.medi.glif</string>
   <key>lam-ar.preAlef.init</key>
   <string>lam-ar.preA_lef.init.glif</string>
+  <key>lam-ar.preAlef.medi</key>
+  <string>lam-ar.preA_lef.medi.glif</string>
   <key>lamAlefabove-ar</key>
   <string>lamA_lefabove-ar.glif</string>
   <key>madda-ar</key>
