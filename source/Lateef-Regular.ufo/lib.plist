@@ -20,7 +20,9 @@
   <key>com.schriftgestaltung.appVersion</key>
   <string>1192</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <string/>
+  <array>
+    <string>/waw-ar.fina/highhamzaWaw-ar.fina/uHamzaabove-ar.fina/uHamzaabove-ar.filled.fina/u-ar.fina/u-ar.filled.fina/wawring-ar.fina/wawTwodots-ar.fina/waw-ar.fina/wawDotabove-ar.fina/wawHamzaabove-ar.fina/kirghizoe-ar.fina/oe-ar.fina/yu-ar.fina/kirghizyu-ar.fina/ve-ar.fina</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
