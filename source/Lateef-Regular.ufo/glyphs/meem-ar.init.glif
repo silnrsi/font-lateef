@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meem-ar.init" format="2">
-  <advance width="626"/>
+  <advance width="615"/>
   <anchor x="386" y="561" name="above"/>
   <anchor x="125" y="551" name="alef"/>
   <anchor x="355" y="0" name="below"/>
@@ -45,4 +45,10 @@
       <point x="440" y="447"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

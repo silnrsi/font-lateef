@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dad-ar.init" format="2">
-  <advance width="1168"/>
+  <advance width="1173"/>
   <anchor x="125" y="595" name="alef"/>
   <anchor x="482" y="834" name="diaA"/>
   <anchor x="300" y="-202" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="sad-ar.init"/>
     <component base="_dot1" xOffset="548" yOffset="641"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -4,6 +4,16 @@
 <dict>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict>
+    <key>GSDimensionPlugin.Dimensions</key>
+    <dict>
+      <key>966fc37d-9513-46e4-b079-583728787036</key>
+      <dict>
+        <key>arBar</key>
+        <string>180</string>
+        <key>arRoundThin</key>
+        <string>40</string>
+      </dict>
+    </dict>
     <key>com.schriftgestaltung.Glyphs.groupsNotInFeature</key>
     <array/>
   </dict>

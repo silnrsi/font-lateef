@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zah-ar.init" format="2">
-  <advance width="788"/>
+  <advance width="805"/>
   <anchor x="0" y="832" name="alef"/>
   <anchor x="219" y="1235" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="tah-ar.init"/>
     <component base="_dot1" xOffset="542" yOffset="828"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
