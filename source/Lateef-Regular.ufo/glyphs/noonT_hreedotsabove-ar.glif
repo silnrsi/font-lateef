@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonThreedotsabove-ar" format="2">
-  <advance width="749"/>
+  <advance width="796"/>
   <unicode hex="06BD"/>
   <anchor x="160" y="876" name="alef"/>
   <anchor x="280" y="948" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="noonghunna-ar"/>
     <component base="_dot3u" xOffset="329" yOffset="628"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ve-ar" format="2">
-  <advance width="612"/>
+  <advance width="569"/>
   <unicode hex="06CB"/>
   <anchor x="79" y="888" name="alef"/>
   <anchor x="313" y="1057" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="waw-ar"/>
     <component base="_dot3u" xOffset="396" yOffset="780"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kirghizyu-ar" format="2">
-  <advance width="612"/>
+  <advance width="569"/>
   <unicode hex="06C9"/>
   <anchor x="91" y="825" name="alef"/>
   <anchor x="313" y="923" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="waw-ar"/>
     <component base="_hat" xOffset="396" yOffset="494"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

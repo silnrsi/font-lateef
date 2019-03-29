@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="highhamzaWaw-ar" format="2">
-  <advance width="612"/>
+  <advance width="569"/>
   <unicode hex="0676"/>
   <anchor x="95" y="694" name="alef"/>
   <anchor x="211" y="1037" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="waw-ar"/>
     <component base="_highHamza" xOffset="414" yOffset="667"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ghain-ar" format="2">
-  <advance width="800"/>
+  <advance width="782"/>
   <unicode hex="063A"/>
   <anchor x="188" y="1049" name="diaA"/>
   <anchor x="273" y="-830" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="ain-ar"/>
     <component base="_dot1" xOffset="237" yOffset="852"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

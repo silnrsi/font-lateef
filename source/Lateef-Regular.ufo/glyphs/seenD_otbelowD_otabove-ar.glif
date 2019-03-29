@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seenDotbelowDotabove-ar" format="2">
-  <advance width="1369"/>
+  <advance width="1367"/>
   <unicode hex="069A"/>
   <anchor x="280" y="464" name="alef"/>
   <anchor x="675" y="793" name="diaA"/>
@@ -10,4 +10,10 @@
     <component base="_dot1" xOffset="957" yOffset="639"/>
     <component base="_dot1" xOffset="1026" yOffset="-244"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

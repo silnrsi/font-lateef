@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gafTwodotsbelow-ar" format="2">
-  <advance width="1348"/>
+  <advance width="1228"/>
   <unicode hex="06B2"/>
   <anchor x="242" y="773" name="alef"/>
   <anchor x="535" y="1118" name="diaA"/>
@@ -10,4 +10,10 @@
     <component base="_gafBar" xOffset="644" yOffset="861"/>
     <component base="_dot2h" xOffset="826" yOffset="-230"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehVinvertedabove-ar" format="2">
-  <advance width="850"/>
+  <advance width="787"/>
   <unicode hex="06FF"/>
   <anchor x="242" y="1079" name="alef"/>
   <anchor x="413" y="1146" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="hehDoachashmee-ar"/>
     <component base="_hat" xOffset="481" yOffset="750"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
