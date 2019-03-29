@@ -236,6 +236,8 @@
   <string>ae-ar.glif</string>
   <key>ae-ar.fina</key>
   <string>ae-ar.fina.glif</string>
+  <key>afghani-ar</key>
+  <string>afghani-ar.glif</string>
   <key>agrave</key>
   <string>agrave.glif</string>
   <key>ain-ar</key>
@@ -278,6 +280,8 @@
   <string>ainT_wodotsverticalabove-ar.init.glif</string>
   <key>ainTwodotsverticalabove-ar.medi</key>
   <string>ainT_wodotsverticalabove-ar.medi.glif</string>
+  <key>ainabove-ar</key>
+  <string>ainabove-ar.glif</string>
   <key>alef-ar</key>
   <string>alef-ar.glif</string>
   <key>alef-ar.fina</key>
@@ -302,6 +306,8 @@
   <string>alefH_amzabelow-ar.postL_amI_ni.fina.glif</string>
   <key>alefHamzabelow-ar.postLamMed.fina</key>
   <string>alefH_amzabelow-ar.postL_amM_ed.fina.glif</string>
+  <key>alefLamYehabove-ar</key>
+  <string>alefL_amY_ehabove-ar.glif</string>
   <key>alefMadda-ar</key>
   <string>alefM_adda-ar.glif</string>
   <key>alefMadda-ar.fina</key>
@@ -318,6 +324,10 @@
   <string>alefM_aksura-ar.init.glif</string>
   <key>alefMaksura-ar.medi</key>
   <string>alefM_aksura-ar.medi.glif</string>
+  <key>alefThreeabove-ar</key>
+  <string>alefT_hreeabove-ar.glif</string>
+  <key>alefTwoabove-ar</key>
+  <string>alefT_woabove-ar.glif</string>
   <key>alefWasla-ar</key>
   <string>alefW_asla-ar.glif</string>
   <key>alefWasla-ar.fina</key>
@@ -566,10 +576,14 @@
   <string>dammainverted-ar.glif</string>
   <key>dammareversed-ar</key>
   <string>dammareversed-ar.glif</string>
+  <key>dammasmall-ar</key>
+  <string>dammasmall-ar.glif</string>
   <key>dammatan-ar</key>
   <string>dammatan-ar.glif</string>
   <key>dammatan-ar.sixNine</key>
   <string>dammatan-ar.sixN_ine.glif</string>
+  <key>dateseparator-ar</key>
+  <string>dateseparator-ar.glif</string>
   <key>ddahal-ar</key>
   <string>ddahal-ar.glif</string>
   <key>ddahal-ar.fina</key>
@@ -692,6 +706,8 @@
   <string>fatha-ar.glif</string>
   <key>fathaHorizont-ar</key>
   <string>fathaH_orizont-ar.glif</string>
+  <key>fathasmall-ar</key>
+  <string>fathasmall-ar.glif</string>
   <key>fathatan-ar</key>
   <string>fathatan-ar.glif</string>
   <key>fathatwodots-ar</key>
@@ -780,6 +796,8 @@
   <string>five.small.glif</string>
   <key>florin</key>
   <string>florin.glif</string>
+  <key>footnotemarker-ar</key>
+  <string>footnotemarker-ar.glif</string>
   <key>four</key>
   <string>four.glif</string>
   <key>four-ar</key>
@@ -890,6 +908,8 @@
   <string>hah-ar.init.glif</string>
   <key>hah-ar.medi</key>
   <string>hah-ar.medi.glif</string>
+  <key>hahFourbelow-ar</key>
+  <string>hahF_ourbelow-ar.glif</string>
   <key>hahHamzaabove-ar</key>
   <string>hahH_amzaabove-ar.glif</string>
   <key>hahHamzaabove-ar.fina</key>
@@ -1122,6 +1142,8 @@
   <string>kafT_hreedotsbelow-ar.init.glif</string>
   <key>kafThreedotsbelow-ar.medi</key>
   <string>kafT_hreedotsbelow-ar.medi.glif</string>
+  <key>kafTwodotshorizontalabove-ar</key>
+  <string>kafT_wodotshorizontalabove-ar.glif</string>
   <key>kafswash-ar</key>
   <string>kafswash-ar.glif</string>
   <key>kafswash-ar.fina</key>
@@ -1134,6 +1156,8 @@
   <string>kashida-ar.glif</string>
   <key>kasra-ar</key>
   <string>kasra-ar.glif</string>
+  <key>kasrasmall-ar</key>
+  <string>kasrasmall-ar.glif</string>
   <key>kasratan-ar</key>
   <string>kasratan-ar.glif</string>
   <key>keheh-ar</key>
@@ -1332,6 +1356,8 @@
   <string>micro.glif</string>
   <key>minus</key>
   <string>minus.glif</string>
+  <key>misraComma-ar</key>
+  <string>misraC_omma-ar.glif</string>
   <key>multiply</key>
   <string>multiply.glif</string>
   <key>n</key>
@@ -1448,6 +1474,12 @@
   <string>noonghunnaabove-ar.glif</string>
   <key>ntilde</key>
   <string>ntilde.glif</string>
+  <key>number-ar</key>
+  <string>number-ar.glif</string>
+  <key>number-ar.2</key>
+  <string>number-ar.2.glif</string>
+  <key>number-ar.3</key>
+  <string>number-ar.3.glif</string>
   <key>numbersign</key>
   <string>numbersign.glif</string>
   <key>nyeh-ar</key>
@@ -1508,6 +1540,8 @@
   <string>otilde.glif</string>
   <key>p</key>
   <string>p.glif</string>
+  <key>pagenumber-ar</key>
+  <string>pagenumber-ar.glif</string>
   <key>paragraph</key>
   <string>paragraph.glif</string>
   <key>paragraphseparator</key>
@@ -1550,8 +1584,12 @@
   <string>period.test.glif</string>
   <key>periodcentered</key>
   <string>periodcentered.glif</string>
+  <key>pertenthousand-ar</key>
+  <string>pertenthousand-ar.glif</string>
   <key>perthousand</key>
   <string>perthousand.glif</string>
+  <key>perthousand-ar</key>
+  <string>perthousand-ar.glif</string>
   <key>plus</key>
   <string>plus.glif</string>
   <key>plusminus</key>
@@ -1630,12 +1668,18 @@
   <string>quotesingle.glif</string>
   <key>r</key>
   <string>r.glif</string>
+  <key>radical</key>
+  <string>radical.glif</string>
+  <key>radical.rtl</key>
+  <string>radical.rtl.glif</string>
   <key>registered</key>
   <string>registered.glif</string>
   <key>reh-ar</key>
   <string>reh-ar.glif</string>
   <key>reh-ar.fina</key>
   <string>reh-ar.fina.glif</string>
+  <key>rehDadabove-ar</key>
+  <string>rehD_adabove-ar.glif</string>
   <key>rehDotbelow-ar</key>
   <string>rehD_otbelow-ar.glif</string>
   <key>rehDotbelow-ar.fina</key>
@@ -1648,6 +1692,8 @@
   <string>rehF_ourdots-ar.glif</string>
   <key>rehFourdots-ar.fina</key>
   <string>rehF_ourdots-ar.fina.glif</string>
+  <key>rehHahabove-ar</key>
+  <string>rehH_ahabove-ar.glif</string>
   <key>rehHamzaabove-ar</key>
   <string>rehH_amzaabove-ar.glif</string>
   <key>rehHamzaabove-ar.fina</key>
@@ -1744,8 +1790,12 @@
   <string>sadT_wodotsbelow-ar.init.glif</string>
   <key>sadTwodotsbelow-ar.medi</key>
   <string>sadT_wodotsbelow-ar.medi.glif</string>
+  <key>sadabove-ar</key>
+  <string>sadabove-ar.glif</string>
   <key>sajdah-ar</key>
   <string>sajdah-ar.glif</string>
+  <key>samvat-ar</key>
+  <string>samvat-ar.glif</string>
   <key>scaron</key>
   <string>scaron.glif</string>
   <key>section</key>
@@ -1766,6 +1816,8 @@
   <string>seenD_otbelowD_otabove-ar.init.glif</string>
   <key>seenDotbelowDotabove-ar.medi</key>
   <string>seenD_otbelowD_otabove-ar.medi.glif</string>
+  <key>seenFourabove-ar</key>
+  <string>seenF_ourabove-ar.glif</string>
   <key>seenFourdotsabove-ar</key>
   <string>seenF_ourdotsabove-ar.glif</string>
   <key>seenFourdotsabove-ar.fina</key>
@@ -1798,6 +1850,8 @@
   <string>seenT_wodotshorizontalabove-ar.init.glif</string>
   <key>seenTwodotshorizontalabove-ar.medi</key>
   <string>seenT_wodotshorizontalabove-ar.medi.glif</string>
+  <key>seenVinvertedabove-ar</key>
+  <string>seenV_invertedabove-ar.glif</string>
   <key>seenabove-ar</key>
   <string>seenabove-ar.glif</string>
   <key>seenbelow-ar</key>
@@ -1942,6 +1996,8 @@
   <string>tahT_hreedots-ar.init.glif</string>
   <key>tahThreedots-ar.medi</key>
   <string>tahT_hreedots-ar.medi.glif</string>
+  <key>tahabove-ar</key>
+  <string>tahabove-ar.glif</string>
   <key>takhallusabove-ar</key>
   <string>takhallusabove-ar.glif</string>
   <key>tcheh-ar</key>
@@ -2146,10 +2202,14 @@
   <string>veh-ar.init.glif</string>
   <key>veh-ar.medi</key>
   <string>veh-ar.medi.glif</string>
+  <key>verseComma-ar</key>
+  <string>verseC_omma-ar.glif</string>
   <key>vinvertedabove-ar</key>
   <string>vinvertedabove-ar.glif</string>
   <key>w</key>
   <string>w.glif</string>
+  <key>wavyhamzabelow-ar</key>
+  <string>wavyhamzabelow-ar.glif</string>
   <key>waw-ar</key>
   <string>waw-ar.glif</string>
   <key>waw-ar.fina</key>
@@ -2164,6 +2224,10 @@
   <string>wawH_amzaabove-ar.fina.glif</string>
   <key>wawSmall-ar</key>
   <string>wawS_mall-ar.glif</string>
+  <key>wawThreeAbove-ar</key>
+  <string>wawT_hreeA_bove-ar.glif</string>
+  <key>wawTwoabove-ar</key>
+  <string>wawT_woabove-ar.glif</string>
   <key>wawTwodots-ar</key>
   <string>wawT_wodots-ar.glif</string>
   <key>wawTwodots-ar.fina</key>
@@ -2182,6 +2246,8 @@
   <string>yacute.glif</string>
   <key>ydieresis</key>
   <string>ydieresis.glif</string>
+  <key>year-ar</key>
+  <string>year-ar.glif</string>
   <key>yeh-ar</key>
   <string>yeh-ar.glif</string>
   <key>yeh-ar.fina</key>
@@ -2206,6 +2272,8 @@
   <string>yeh-farsi.init.glif</string>
   <key>yeh-farsi.medi</key>
   <string>yeh-farsi.medi.glif</string>
+  <key>yehFourbelow-farsi</key>
+  <string>yehF_ourbelow-farsi.glif</string>
   <key>yehHamzaabove-ar</key>
   <string>yehH_amzaabove-ar.glif</string>
   <key>yehHamzaabove-ar.fina</key>
@@ -2214,10 +2282,14 @@
   <string>yehH_amzaabove-ar.init.glif</string>
   <key>yehHamzaabove-ar.medi</key>
   <string>yehH_amzaabove-ar.medi.glif</string>
+  <key>yehKashmiri-ar</key>
+  <string>yehK_ashmiri-ar.glif</string>
   <key>yehTail-ar</key>
   <string>yehT_ail-ar.glif</string>
   <key>yehTail-ar.fina</key>
   <string>yehT_ail-ar.fina.glif</string>
+  <key>yehThreeabove-farsi</key>
+  <string>yehT_hreeabove-farsi.glif</string>
   <key>yehThreedotsbelow-ar</key>
   <string>yehT_hreedotsbelow-ar.glif</string>
   <key>yehThreedotsbelow-ar.fina</key>
@@ -2226,6 +2298,8 @@
   <string>yehT_hreedotsbelow-ar.init.glif</string>
   <key>yehThreedotsbelow-ar.medi</key>
   <string>yehT_hreedotsbelow-ar.medi.glif</string>
+  <key>yehTwoabove-farsi</key>
+  <string>yehT_woabove-farsi.glif</string>
   <key>yehVabove-ar</key>
   <string>yehV_above-ar.glif</string>
   <key>yehVabove-ar.fina</key>
@@ -2252,6 +2326,10 @@
   <string>yehbarreeH_amzaabove-ar.glif</string>
   <key>yehbarreeHamzaabove-ar.fina</key>
   <string>yehbarreeH_amzaabove-ar.fina.glif</string>
+  <key>yehbarreeThreeabove-ar</key>
+  <string>yehbarreeT_hreeabove-ar.glif</string>
+  <key>yehbarreeTwoabove-ar</key>
+  <string>yehbarreeT_woabove-ar.glif</string>
   <key>yehbelow-ar</key>
   <string>yehbelow-ar.glif</string>
   <key>yen</key>
@@ -2278,6 +2356,8 @@
   <string>zainV_invertedabove-ar.glif</string>
   <key>zainVinvertedabove-ar.fina</key>
   <string>zainV_invertedabove-ar.fina.glif</string>
+  <key>zainabove-ar</key>
+  <string>zainabove-ar.glif</string>
   <key>zcaron</key>
   <string>zcaron.glif</string>
   <key>zero</key>
