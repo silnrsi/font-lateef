@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yeh-ar.noDots" format="2">
-  <advance width="1012"/>
+  <advance width="992"/>
   <anchor x="468" y="654" name="above"/>
   <anchor x="325" y="539" name="alef"/>
   <anchor x="328" y="-407" name="below"/>
@@ -50,4 +50,10 @@
       <point x="905" y="418"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

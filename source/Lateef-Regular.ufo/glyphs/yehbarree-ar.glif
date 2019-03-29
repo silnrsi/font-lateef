@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehbarree-ar" format="2">
-  <advance width="1141"/>
+  <advance width="1158"/>
   <unicode hex="06D2"/>
   <anchor x="348" y="286" name="above"/>
   <anchor x="584" y="-503" name="below"/>
@@ -38,4 +38,10 @@
       <point x="1048" y="-365" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
