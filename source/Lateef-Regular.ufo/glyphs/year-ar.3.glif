@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="year-ar.3" format="2">
+  <advance width="3019"/>
+  <anchor x="751" y="317" name="digit"/>
+  <outline>
+    <contour>
+      <point x="2970" y="205" type="curve" smooth="yes"/>
+      <point x="2999" y="222"/>
+      <point x="2947" y="268"/>
+      <point x="2920" y="257" type="curve" smooth="yes"/>
+      <point x="2603" y="140"/>
+      <point x="2086" y="76"/>
+      <point x="1682" y="76" type="curve" smooth="yes"/>
+      <point x="1066" y="76"/>
+      <point x="626" y="184"/>
+      <point x="542" y="184" type="curve" smooth="yes"/>
+      <point x="475" y="184"/>
+      <point x="457" y="-4"/>
+      <point x="374" y="-4" type="curve" smooth="yes"/>
+      <point x="329" y="-4"/>
+      <point x="269" y="17"/>
+      <point x="226" y="17" type="curve" smooth="yes"/>
+      <point x="153" y="17"/>
+      <point x="86" y="-106"/>
+      <point x="42" y="-210" type="curve" smooth="yes"/>
+      <point x="32" y="-230"/>
+      <point x="59" y="-262"/>
+      <point x="70" y="-250" type="curve" smooth="yes"/>
+      <point x="127" y="-194"/>
+      <point x="180" y="-143"/>
+      <point x="227" y="-143" type="curve" smooth="yes"/>
+      <point x="277" y="-143"/>
+      <point x="305" y="-163"/>
+      <point x="362" y="-163" type="curve" smooth="yes"/>
+      <point x="456" y="-163"/>
+      <point x="506" y="8"/>
+      <point x="551" y="8" type="curve" smooth="yes"/>
+      <point x="617" y="8"/>
+      <point x="980" y="-71"/>
+      <point x="1652" y="-71" type="curve" smooth="yes"/>
+      <point x="2181" y="-71"/>
+      <point x="2648" y="25"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -798,6 +798,8 @@
   <string>florin.glif</string>
   <key>footnotemarker-ar</key>
   <string>footnotemarker-ar.glif</string>
+  <key>footnotemarker-ar.2</key>
+  <string>footnotemarker-ar.2.glif</string>
   <key>four</key>
   <string>four.glif</string>
   <key>four-ar</key>
@@ -1542,6 +1544,12 @@
   <string>p.glif</string>
   <key>pagenumber-ar</key>
   <string>pagenumber-ar.glif</string>
+  <key>pagenumber-ar.2</key>
+  <string>pagenumber-ar.2.glif</string>
+  <key>pagenumber-ar.3</key>
+  <string>pagenumber-ar.3.glif</string>
+  <key>pagenumber-ar.4</key>
+  <string>pagenumber-ar.4.glif</string>
   <key>paragraph</key>
   <string>paragraph.glif</string>
   <key>paragraphseparator</key>
@@ -1796,6 +1804,12 @@
   <string>sajdah-ar.glif</string>
   <key>samvat-ar</key>
   <string>samvat-ar.glif</string>
+  <key>samvat-ar.2</key>
+  <string>samvat-ar.2.glif</string>
+  <key>samvat-ar.3</key>
+  <string>samvat-ar.3.glif</string>
+  <key>samvat-ar.4</key>
+  <string>samvat-ar.4.glif</string>
   <key>scaron</key>
   <string>scaron.glif</string>
   <key>section</key>
@@ -2248,6 +2262,12 @@
   <string>ydieresis.glif</string>
   <key>year-ar</key>
   <string>year-ar.glif</string>
+  <key>year-ar.2</key>
+  <string>year-ar.2.glif</string>
+  <key>year-ar.3</key>
+  <string>year-ar.3.glif</string>
+  <key>year-ar.4</key>
+  <string>year-ar.4.glif</string>
   <key>yeh-ar</key>
   <string>yeh-ar.glif</string>
   <key>yeh-ar.fina</key>

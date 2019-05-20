@@ -18,11 +18,9 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1192</string>
+  <string>1230</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <array>
-    <string>/number-ar</string>
-  </array>
+  <string/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>

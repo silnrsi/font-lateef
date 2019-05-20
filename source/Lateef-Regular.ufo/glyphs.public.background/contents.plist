@@ -156,6 +156,10 @@
   <string>five.medium.glif</string>
   <key>five.small</key>
   <string>five.small.glif</string>
+  <key>footnotemarker-ar</key>
+  <string>footnotemarker-ar.glif</string>
+  <key>footnotemarker-ar.2</key>
+  <string>footnotemarker-ar.2.glif</string>
   <key>four-ar</key>
   <string>four-ar.glif</string>
   <key>four-ar.medium</key>
@@ -296,6 +300,10 @@
   <string>noonghunna-ar.glif</string>
   <key>noonghunna-ar.fina</key>
   <string>noonghunna-ar.fina.glif</string>
+  <key>number-ar.2</key>
+  <string>number-ar.2.glif</string>
+  <key>number-ar.3</key>
+  <string>number-ar.3.glif</string>
   <key>one-ar</key>
   <string>one-ar.glif</string>
   <key>one-ar.medium</key>
@@ -314,6 +322,8 @@
   <string>one.small.glif</string>
   <key>parenleft-ar</key>
   <string>parenleft-ar.glif</string>
+  <key>percent-ar</key>
+  <string>percent-ar.glif</string>
   <key>qafDotless-ar</key>
   <string>qafD_otless-ar.glif</string>
   <key>qafDotless-ar.fina</key>
