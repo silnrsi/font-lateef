@@ -2304,6 +2304,12 @@
   <string>yehH_amzaabove-ar.medi.glif</string>
   <key>yehKashmiri-ar</key>
   <string>yehK_ashmiri-ar.glif</string>
+  <key>yehKashmiri-ar.fina</key>
+  <string>yehK_ashmiri-ar.fina.glif</string>
+  <key>yehKashmiri-ar.init</key>
+  <string>yehK_ashmiri-ar.init.glif</string>
+  <key>yehKashmiri-ar.medi</key>
+  <string>yehK_ashmiri-ar.medi.glif</string>
   <key>yehTail-ar</key>
   <string>yehT_ail-ar.glif</string>
   <key>yehTail-ar.fina</key>

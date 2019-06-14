@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefTwoabove-ar" format="2">
-  <advance width="600"/>
+  <advance width="504"/>
   <unicode hex="0773"/>
-  <outline/>
+  <outline>
+    <component base="alef-ar" xOffset="142"/>
+    <component base="two-ar" xScale="0.37" yScale="0.37" xOffset="-65" yOffset="810"/>
+  </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

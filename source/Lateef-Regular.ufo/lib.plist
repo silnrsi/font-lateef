@@ -20,7 +20,9 @@
   <key>com.schriftgestaltung.appVersion</key>
   <string>1230</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <string/>
+  <array>
+    <string>/kafTwodotshorizontalabove-ar/seenVinvertedabove-ar/seenFourabove-ar/hahFourbelow-ar/yehbarreeThreeabove-ar/yehbarreeTwoabove-ar/wawThreeAbove-ar/wawTwoabove-ar/yehFourbelow-farsi/yehThreeabove-farsi/yehTwoabove-farsi/alefThreeabove-ar/alefTwoabove-ar</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>

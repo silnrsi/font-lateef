@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="zainabove-ar" format="2">
-  <unicode hex="0617"/>
+<glyph name="yehKashmiri-ar.medi" format="2">
+  <advance width="447"/>
   <outline>
-    <component base="zain-ar" xScale="0.65" yScale="0.65" xOffset="270" yOffset="1453"/>
+    <component base="yeh-ar.noDots.medi"/>
+    <component base="_ring" xOffset="187" yOffset="-276"/>
   </outline>
   <lib>
     <dict>
