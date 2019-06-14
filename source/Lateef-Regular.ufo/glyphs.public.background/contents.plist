@@ -82,10 +82,14 @@
   <string>ain-ar.init.glif</string>
   <key>ain-ar.medi</key>
   <string>ain-ar.medi.glif</string>
+  <key>ainabove-ar</key>
+  <string>ainabove-ar.glif</string>
   <key>alef-ar</key>
   <string>alef-ar.glif</string>
   <key>alef-ar.fina</key>
   <string>alef-ar.fina.glif</string>
+  <key>alefLamYehabove-ar</key>
+  <string>alefL_amY_ehabove-ar.glif</string>
   <key>alefbelow-ar</key>
   <string>alefbelow-ar.glif</string>
   <key>allah-ar</key>
@@ -336,6 +340,10 @@
   <string>reh-ar.glif</string>
   <key>reh-ar.fina</key>
   <string>reh-ar.fina.glif</string>
+  <key>rehDadabove-ar</key>
+  <string>rehD_adabove-ar.glif</string>
+  <key>rehHahabove-ar</key>
+  <string>rehH_ahabove-ar.glif</string>
   <key>rehLoop-ar</key>
   <string>rehL_oop-ar.glif</string>
   <key>rehLoop-ar.fina</key>
@@ -352,6 +360,8 @@
   <string>sad-ar.medi.glif</string>
   <key>sadLamAlefMaksuraabove-ar</key>
   <string>sadL_amA_lefM_aksuraabove-ar.glif</string>
+  <key>sadabove-ar</key>
+  <string>sadabove-ar.glif</string>
   <key>seen-ar</key>
   <string>seen-ar.glif</string>
   <key>seen-ar.fina</key>

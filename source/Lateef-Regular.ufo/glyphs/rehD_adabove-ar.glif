@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehDadabove-ar" format="2">
   <unicode hex="0613"/>
-  <outline/>
+  <outline>
+    <component base="reh-ar" xScale="0.65579" yScale="0.65579" xOffset="681" yOffset="1451"/>
+    <component base="sadabove-ar" xOffset="-100" yOffset="10"/>
+    <component base="_dot1" xScale="0.66" yScale="0.66" xOffset="413" yOffset="1651"/>
+  </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>600</integer>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

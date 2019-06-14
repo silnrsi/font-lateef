@@ -20,9 +20,7 @@
   <key>com.schriftgestaltung.appVersion</key>
   <string>1230</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <array>
-    <string>/verseComma-ar</string>
-  </array>
+  <string/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
