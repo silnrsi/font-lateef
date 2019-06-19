@@ -36,6 +36,12 @@
       <point x="817" y="165"/>
       <point x="750" y="184"/>
     </contour>
-    <component base="_bowl_seen"/>
+    <component base="_bowl_seen" yOffset="20"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -20,7 +20,11 @@
   <key>com.schriftgestaltung.appVersion</key>
   <string>1230</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <string/>
+  <array>
+    <string>/waw-ar/waw-ar.fina/noonghunna-ar/qafDotless-ar/qafDotless-ar.fina/hehDoachashmee-ar.fina/hehDoachashmee-ar.medi/reh-ar/reh-ar.fina/rehLoop-ar/rehLoop-ar.fina/yehTail-ar/yeh-ar.noDots   
+/lam-ar.fina/seen-ar/seen-ar.fina/sad-ar/sad-ar.fina   
+/yehbarree-ar/yehbarree-ar.fina/yehTail-ar.fina/yeh-ar.noDots.fina/ain-ar/ain-ar.fina/hah-ar/hah-ar.fina  </string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>

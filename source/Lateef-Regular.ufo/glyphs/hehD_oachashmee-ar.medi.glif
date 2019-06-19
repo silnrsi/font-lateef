@@ -3,9 +3,9 @@
   <advance width="698"/>
   <anchor x="430" y="686" name="above"/>
   <anchor x="149" y="637" name="alef"/>
-  <anchor x="310" y="-395" name="below"/>
+  <anchor x="310" y="-370" name="below"/>
   <anchor x="310" y="700" name="diaA"/>
-  <anchor x="235" y="-454" name="diaB"/>
+  <anchor x="235" y="-429" name="diaB"/>
   <outline>
     <contour>
       <point x="698" y="180" type="curve"/>
@@ -41,21 +41,21 @@
       <point x="171" y="288"/>
       <point x="171" y="99" type="curve" smooth="yes"/>
       <point x="171" y="-141"/>
-      <point x="257" y="-355"/>
-      <point x="371" y="-355" type="curve" smooth="yes"/>
-      <point x="469" y="-355"/>
-      <point x="512" y="-220"/>
-      <point x="512" y="-100" type="curve" smooth="yes"/>
-      <point x="512" y="-81"/>
+      <point x="257" y="-330"/>
+      <point x="371" y="-330" type="curve" smooth="yes"/>
+      <point x="469" y="-330"/>
+      <point x="512" y="-195"/>
+      <point x="512" y="-75" type="curve" smooth="yes"/>
+      <point x="512" y="-56"/>
       <point x="492" y="83"/>
       <point x="319" y="131" type="curve"/>
     </contour>
     <contour>
       <point x="0" y="0" type="curve" smooth="yes"/>
       <point x="384" y="0"/>
-      <point x="468" y="-41"/>
-      <point x="468" y="-157" type="curve" smooth="yes"/>
-      <point x="468" y="-203"/>
+      <point x="468" y="-46"/>
+      <point x="468" y="-132" type="curve" smooth="yes"/>
+      <point x="468" y="-178"/>
       <point x="210" y="-194"/>
       <point x="210" y="98" type="curve" smooth="yes"/>
       <point x="210" y="223"/>
@@ -74,4 +74,10 @@
       <point x="-31" y="0"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
