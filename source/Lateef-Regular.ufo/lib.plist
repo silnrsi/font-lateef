@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>GSCornerRadius</key>
+  <integer>15</integer>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict>
     <key>GSDimensionPlugin.Dimensions</key>
@@ -21,8 +23,7 @@
   <string>1230</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/fehDotless-ar/fehDotless-ar.fina/fehDotless-ar.medi/fehDotless-ar.init/waw-ar/waw-ar.fina/qafDotless-ar/qafDotless-ar.fina</string>
-    <string>/qafDotless-ar.fina</string>
+    <string> /lamAlefabove-ar/alef-ar.postLamIni.fina/lam-ar.preAlef.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

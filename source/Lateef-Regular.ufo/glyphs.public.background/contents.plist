@@ -38,6 +38,8 @@
   <string>_gafB_ar_dot2h.glif</string>
   <key>_gafBar_dot3u</key>
   <string>_gafB_ar_dot3u.glif</string>
+  <key>_hamza</key>
+  <string>_hamza.glif</string>
   <key>_hamzaDamma</key>
   <string>_hamzaD_amma.glif</string>
   <key>_hamzaDamma.filled</key>
@@ -194,6 +196,8 @@
   <string>hah-ar.init.glif</string>
   <key>hah-ar.medi</key>
   <string>hah-ar.medi.glif</string>
+  <key>hahabove-ar</key>
+  <string>hahabove-ar.glif</string>
   <key>hamza-ar</key>
   <string>hamza-ar.glif</string>
   <key>hamza_damma-ar</key>
@@ -266,6 +270,8 @@
   <string>lamA_lefabove-ar.glif</string>
   <key>madda-ar</key>
   <string>madda-ar.glif</string>
+  <key>maddalong-ar</key>
+  <string>maddalong-ar.glif</string>
   <key>meem-ar</key>
   <string>meem-ar.glif</string>
   <key>meem-ar.fina</key>
@@ -282,6 +288,8 @@
   <string>meemS_topabove-ar.glif</string>
   <key>meemabove-ar</key>
   <string>meemabove-ar.glif</string>
+  <key>meembelow-ar</key>
+  <string>meembelow-ar.glif</string>
   <key>misraComma-ar</key>
   <string>misraC_omma-ar.glif</string>
   <key>nine-ar</key>
@@ -504,6 +512,8 @@
   <string>yehbarree-ar.glif</string>
   <key>yehbarree-ar.fina</key>
   <string>yehbarree-ar.fina.glif</string>
+  <key>yehbelow-ar</key>
+  <string>yehbelow-ar.glif</string>
   <key>zero-ar.medium</key>
   <string>zero-ar.medium.glif</string>
   <key>zero-ar.small</key>
