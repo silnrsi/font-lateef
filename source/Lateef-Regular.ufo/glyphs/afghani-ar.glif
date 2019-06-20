@@ -44,10 +44,4 @@
     <component base="_dot1" xScale="1.56564" yScale="1.56564" xOffset="357" yOffset="1375"/>
     <component base="_bar" xScale="0" xyScale="-1" yxScale="1" yScale="0" xOffset="312" yOffset="-294"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

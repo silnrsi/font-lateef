@@ -6,10 +6,4 @@
     <component base="hah-ar"/>
     <component base="four-persian.urdu" xScale="0.37" yScale="0.37" xOffset="366" yOffset="-327"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

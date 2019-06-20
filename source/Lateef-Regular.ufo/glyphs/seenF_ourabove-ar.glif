@@ -6,10 +6,4 @@
     <component base="seen-ar"/>
     <component base="four-persian.urdu" xScale="0.37" yScale="0.37" xOffset="816" yOffset="324"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

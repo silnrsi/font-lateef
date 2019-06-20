@@ -4,10 +4,4 @@
   <outline>
     <component base="fatha-ar" xScale="0.66" yScale="0.66" xOffset="469" yOffset="637"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

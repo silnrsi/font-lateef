@@ -33,10 +33,4 @@
     </contour>
     <component base="reh-ar" xScale="0.65579" yScale="0.65579" xOffset="681" yOffset="1451"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

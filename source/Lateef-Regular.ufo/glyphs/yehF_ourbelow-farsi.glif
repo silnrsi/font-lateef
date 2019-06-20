@@ -6,10 +6,4 @@
     <component base="yeh-ar.noDots"/>
     <component base="four-persian.urdu" xScale="0.37" yScale="0.37" xOffset="299" yOffset="-873"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

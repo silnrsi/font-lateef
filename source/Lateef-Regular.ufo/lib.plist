@@ -21,9 +21,8 @@
   <string>1230</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/waw-ar/waw-ar.fina/noonghunna-ar/qafDotless-ar/qafDotless-ar.fina/hehDoachashmee-ar.fina/hehDoachashmee-ar.medi/reh-ar/reh-ar.fina/rehLoop-ar/rehLoop-ar.fina/yehTail-ar/yeh-ar.noDots   
-/lam-ar.fina/seen-ar/seen-ar.fina/sad-ar/sad-ar.fina   
-/yehbarree-ar/yehbarree-ar.fina/yehTail-ar.fina/yeh-ar.noDots.fina/ain-ar/ain-ar.fina/hah-ar/hah-ar.fina  </string>
+    <string>/fehDotless-ar/fehDotless-ar.fina/fehDotless-ar.medi/fehDotless-ar.init/waw-ar/waw-ar.fina/qafDotless-ar/qafDotless-ar.fina</string>
+    <string>/qafDotless-ar.fina</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
