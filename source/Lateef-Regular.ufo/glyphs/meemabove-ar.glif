@@ -6,10 +6,4 @@
   <outline>
     <component base="meem-ar.sindhi" xScale="0.40929" yScale="0.40929" xOffset="-199" yOffset="1057"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

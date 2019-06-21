@@ -3,6 +3,12 @@
   <advance width="362"/>
   <unicode hex="0674"/>
   <outline>
-    <component base="_hamza" xScale="0.82" yScale="0.82" xOffset="203" yOffset="1181"/>
+    <component base="hamza-ar" xScale="0.62751" yScale="0.62751" xOffset="-8" yOffset="1025"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

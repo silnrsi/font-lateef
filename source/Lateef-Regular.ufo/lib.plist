@@ -23,7 +23,7 @@
   <string>1230</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string> /lamAlefabove-ar/alef-ar.postLamIni.fina/lam-ar.preAlef.init</string>
+    <string>/hamza-ar  /_hamza</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
