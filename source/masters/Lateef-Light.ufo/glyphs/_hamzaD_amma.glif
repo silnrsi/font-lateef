@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_hamzaDamma" format="2">
+  <anchor x="-18.0" y="-173.0" name="_above"/>
+  <anchor x="-27.0" y="240.0" name="_below"/>
+  <outline>
+    <component base="damma-ar" xOffset="-374.0" yOffset="-1224.0"/>
+    <component base="_hamza" xOffset="177.0" yOffset="21.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

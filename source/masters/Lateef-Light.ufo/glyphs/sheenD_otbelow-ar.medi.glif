@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheenDotbelow-ar.medi" format="2">
+  <advance width="1032.0"/>
+  <anchor x="165.0" y="599.0" name="alef"/>
+  <anchor x="477.0" y="965.0" name="diaA"/>
+  <anchor x="202.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="seen-ar.medi"/>
+    <component base="_dot3u" xOffset="598.0" yOffset="704.0"/>
+    <component base="_dot1" xOffset="586.0" yOffset="-242.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="behThreedotsupabove-ar" format="2">
+  <advance width="1220.0"/>
+  <unicode hex="0751"/>
+  <anchor x="280.0" y="690.0" name="alef"/>
+  <anchor x="573.0" y="968.0" name="diaA"/>
+  <anchor x="212.0" y="-296.0" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="_dot3u" xOffset="624.0" yOffset="687.0"/>
+    <component base="_dot1" xOffset="612.0" yOffset="-248.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fehDotbelow-ar.fina" format="2">
+  <advance width="1272.0"/>
+  <anchor x="246.0" y="698.0" name="alef"/>
+  <anchor x="669.0" y="700.0" name="diaA"/>
+  <anchor x="300.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="fehDotless-ar.fina"/>
+    <component base="_dot1" xOffset="1053.0" yOffset="847.0"/>
+    <component base="_dot1" xOffset="904.0" yOffset="-224.0"/>
+  </outline>
+</glyph>

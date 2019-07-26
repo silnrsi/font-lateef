@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcheh-ar.init" format="2">
+  <advance width="843.0"/>
+  <anchor x="125.0" y="684.0" name="alef"/>
+  <anchor x="305.0" y="700.0" name="diaA"/>
+  <anchor x="215.0" y="-551.0" name="diaB"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="_dot3d" xOffset="330.0" yOffset="-286.0"/>
+  </outline>
+</glyph>

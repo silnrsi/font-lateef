@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ainTwodotshorizontalabove-ar.init" format="2">
+  <advance width="763.0"/>
+  <anchor x="308.0" y="1105.0" name="diaA"/>
+  <anchor x="202.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="ain-ar.init"/>
+    <component base="_dot2h" xOffset="361.0" yOffset="859.0"/>
+  </outline>
+</glyph>

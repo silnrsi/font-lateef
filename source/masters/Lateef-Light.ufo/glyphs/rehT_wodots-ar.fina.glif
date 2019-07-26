@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehTwodots-ar.fina" format="2">
+  <advance width="542.0"/>
+  <anchor x="106.0" y="678.0" name="alef"/>
+  <anchor x="292.0" y="749.0" name="diaA"/>
+  <anchor x="175.0" y="-490.0" name="diaB"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="_dot2h" xOffset="350.0" yOffset="467.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_dot1smallrotated10" format="2">
+  <anchor x="0.0" y="-180.0" name="_above"/>
+  <anchor x="0.0" y="180.0" name="_below"/>
+  <anchor x="0.0" y="0.0" name="_center"/>
+  <outline>
+    <component base="_dot1" xScale="0.41362" xyScale="0.07293" yxScale="-0.07293" yScale="0.41362"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="meembelow-ar" format="2">
+  <unicode hex="06ED"/>
+  <anchor x="17.0" y="-285.0" name="_diaB"/>
+  <anchor x="17.0" y="-817.0" name="diaB"/>
+  <outline>
+    <component base="meem-ar" xScale="0.54" yScale="0.54" xOffset="-121.0" yOffset="-508.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

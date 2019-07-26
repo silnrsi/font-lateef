@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcheh-ar.medi" format="2">
+  <advance width="952.0"/>
+  <anchor x="165.0" y="720.0" name="alef"/>
+  <anchor x="340.0" y="725.0" name="diaA"/>
+  <anchor x="332.0" y="-530.0" name="diaB"/>
+  <outline>
+    <component base="hah-ar.medi"/>
+    <component base="_dot3d" xOffset="443.0" yOffset="-274.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

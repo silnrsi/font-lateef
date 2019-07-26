@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gafRing-ar.init" format="2">
+  <advance width="633.0"/>
+  <anchor x="142.0" y="1178.0" name="diaA"/>
+  <anchor x="150.0" y="-200.0" name="diaB"/>
+  <outline>
+    <component base="kaf-ar.init"/>
+    <component base="_gafBar" xOffset="-23.0" yOffset="848.0"/>
+    <component base="_ring" xOffset="406.0" yOffset="777.0"/>
+  </outline>
+</glyph>

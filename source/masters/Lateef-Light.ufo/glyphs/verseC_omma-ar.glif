@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verseComma-ar" format="2">
+  <advance width="1450.0"/>
+  <unicode hex="060E"/>
+  <outline>
+    <component base="footnotemarker-ar"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

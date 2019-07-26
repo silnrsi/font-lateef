@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fehThreedotsupbelow-ar" format="2">
+  <advance width="1210.0"/>
+  <unicode hex="0761"/>
+  <anchor x="270.0" y="690.0" name="alef"/>
+  <anchor x="605.0" y="732.0" name="diaA"/>
+  <anchor x="226.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="fehDotless-ar"/>
+    <component base="_dot3u" xOffset="966.0" yOffset="-311.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

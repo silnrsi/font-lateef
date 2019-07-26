@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hamzabelow-ar" format="2">
+  <unicode hex="0655"/>
+  <anchor x="164.0" y="-49.0" name="_diaB"/>
+  <anchor x="164.0" y="-471.0" name="diaB"/>
+  <outline>
+    <component base="_hamza" xOffset="202.0" yOffset="-261.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

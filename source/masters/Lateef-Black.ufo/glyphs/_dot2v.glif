@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_dot2v" format="2">
+  <anchor x="0.0" y="-286.0" name="_above"/>
+  <anchor x="0.0" y="286.0" name="_below"/>
+  <anchor x="0.0" y="0.0" name="_center"/>
+  <outline>
+    <component base="_dot1" xScale="0.0" xyScale="-1.0" yxScale="1.0" yScale="0.0" yOffset="104.0"/>
+    <component base="_dot1" xScale="0.0" xyScale="-1.0" yxScale="1.0" yScale="0.0" yOffset="-104.0"/>
+  </outline>
+</glyph>

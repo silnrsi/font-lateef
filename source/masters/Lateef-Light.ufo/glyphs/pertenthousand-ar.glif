@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pertenthousand-ar" format="2">
+  <advance width="1313.0"/>
+  <unicode hex="060A"/>
+  <outline>
+    <contour>
+      <point x="558.0" y="966.0" type="curve" smooth="yes"/>
+      <point x="436.0" y="744.0"/>
+      <point x="296.0" y="393.0"/>
+      <point x="190.0" y="201.0" type="curve" smooth="yes"/>
+      <point x="116.0" y="67.0"/>
+      <point x="68.0" y="36.0"/>
+      <point x="48.0" y="10.0" type="curve" smooth="yes"/>
+      <point x="22.0" y="-24.0"/>
+      <point x="61.0" y="-106.0"/>
+      <point x="95.0" y="-83.0" type="curve" smooth="yes"/>
+      <point x="145.0" y="-49.0"/>
+      <point x="323.0" y="144.0"/>
+      <point x="458.0" y="388.0" type="curve" smooth="yes"/>
+      <point x="530.0" y="518.0"/>
+      <point x="641.0" y="795.0"/>
+      <point x="731.0" y="955.0" type="curve" smooth="yes"/>
+      <point x="778.0" y="1039.0"/>
+      <point x="802.0" y="1072.0"/>
+      <point x="820.0" y="1086.0" type="curve" smooth="yes"/>
+      <point x="863.0" y="1119.0"/>
+      <point x="830.0" y="1197.0"/>
+      <point x="794.0" y="1183.0" type="curve" smooth="yes"/>
+      <point x="749.0" y="1166.0"/>
+      <point x="624.0" y="1086.0"/>
+    </contour>
+    <component base="_dot1" xOffset="252.0" yOffset="1005.0"/>
+    <component base="_dot1" xOffset="587.0" yOffset="81.0"/>
+    <component base="_dot1" xOffset="877.0" yOffset="81.0"/>
+    <component base="_dot1" xOffset="1169.0" yOffset="81.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

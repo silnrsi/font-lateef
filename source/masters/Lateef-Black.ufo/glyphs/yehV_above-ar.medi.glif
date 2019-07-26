@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehVabove-ar.medi" format="2">
+  <advance width="440.0"/>
+  <anchor x="56.0" y="788.0" name="alef"/>
+  <anchor x="158.0" y="802.0" name="diaA"/>
+  <anchor x="186.0" y="-458.0" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="_smallV" xOffset="212.0" yOffset="554.0"/>
+    <component base="_dot2h" xOffset="203.0" yOffset="-230.0"/>
+  </outline>
+</glyph>

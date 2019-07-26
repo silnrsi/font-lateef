@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="two.small" format="2">
+  <advance width="470.0"/>
+  <anchor x="9.0" y="0.0" name="_digit"/>
+  <anchor x="479.0" y="0.0" name="digit"/>
+  <outline>
+    <component base="two" xScale="0.61" yScale="0.61" xOffset="10.0" yOffset="150.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threedots-ar" format="2">
+  <outline>
+    <contour>
+      <point x="414.0" y="364.0" type="line"/>
+      <point x="310.0" y="471.0" type="line"/>
+      <point x="206.0" y="364.0" type="line"/>
+      <point x="310.0" y="260.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="270.0" y="106.0" type="line"/>
+      <point x="166.0" y="210.0" type="line"/>
+      <point x="59.0" y="106.0" type="line"/>
+      <point x="166.0" y="-1.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="561.0" y="106.0" type="line"/>
+      <point x="454.0" y="210.0" type="line"/>
+      <point x="350.0" y="106.0" type="line"/>
+      <point x="454.0" y="-1.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

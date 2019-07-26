@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonVabove-ar" format="2">
+  <advance width="796.0"/>
+  <unicode hex="0769"/>
+  <anchor x="148.0" y="1003.0" name="alef"/>
+  <anchor x="276.0" y="1020.0" name="diaA"/>
+  <anchor x="231.0" y="-425.0" name="diaB"/>
+  <outline>
+    <component base="noonghunna-ar"/>
+    <component base="_dot1_smallV" xOffset="329.0" yOffset="522.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wawSmall-ar" format="2">
+  <advance width="287.0"/>
+  <unicode hex="06E5"/>
+  <outline>
+    <component base="waw-ar" xScale="0.54" yScale="0.54" xOffset="-12.0" yOffset="203.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

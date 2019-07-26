@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dadDotbelow-ar" format="2">
+  <advance width="1604.0"/>
+  <unicode hex="06FB"/>
+  <anchor x="285.0" y="464.0" name="alef"/>
+  <anchor x="799.0" y="890.0" name="diaA"/>
+  <anchor x="173.0" y="-514.0" name="diaB"/>
+  <outline>
+    <component base="sad-ar"/>
+    <component base="_dot1" xOffset="965.0" yOffset="736.0"/>
+    <component base="_dot1" xOffset="1081.0" yOffset="-267.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

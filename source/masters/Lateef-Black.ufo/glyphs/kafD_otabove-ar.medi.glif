@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafDotabove-ar.medi" format="2">
+  <advance width="952.0"/>
+  <anchor x="53.0" y="1239.0" name="diaA"/>
+  <anchor x="150.0" y="-200.0" name="diaB"/>
+  <outline>
+    <component base="kaf-ar.medi"/>
+    <component base="_dot1" xOffset="56.0" yOffset="1021.0"/>
+  </outline>
+</glyph>

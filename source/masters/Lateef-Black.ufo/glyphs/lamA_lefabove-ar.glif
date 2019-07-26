@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamAlefabove-ar" format="2">
+  <unicode hex="06D9"/>
+  <anchor x="0.0" y="970.0" name="_diaA"/>
+  <anchor x="0.0" y="1681.0" name="diaA"/>
+  <outline>
+    <component base="lam-ar.preAlef.init" xScale="0.54" yScale="0.54" yOffset="1110.0"/>
+    <component base="alef-ar.postLamIni.fina" xScale="0.54" yScale="0.54" xOffset="-310.0" yOffset="1110.0"/>
+  </outline>
+</glyph>

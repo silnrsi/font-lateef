@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hamza_fatha-ar" format="2">
+  <anchor x="178.0" y="625.0" name="_diaA"/>
+  <anchor x="172.0" y="1251.0" name="diaA"/>
+  <outline>
+    <component base="_hamza" xOffset="203.0" yOffset="821.0"/>
+    <component base="fatha-ar" xOffset="-17.0" yOffset="-27.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shadda_alef-ar" format="2">
+  <anchor x="147.0" y="1051.0" name="_diaA"/>
+  <anchor x="147.0" y="1761.0" name="diaA"/>
+  <outline>
+    <component base="shadda-ar"/>
+    <component base="alefabove-ar" xOffset="20.0" yOffset="676.0"/>
+  </outline>
+</glyph>

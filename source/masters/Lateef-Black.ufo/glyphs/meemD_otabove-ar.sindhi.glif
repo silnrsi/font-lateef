@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="meemDotabove-ar.sindhi" format="2">
+  <advance width="854.0"/>
+  <anchor x="266.0" y="579.0" name="alef"/>
+  <anchor x="498.0" y="777.0" name="diaA"/>
+  <anchor x="202.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="meem-ar.sindhi"/>
+    <component base="_dot1" xOffset="678.0" yOffset="760.0"/>
+  </outline>
+</glyph>

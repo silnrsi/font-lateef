@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kehehThreedotsabove-ar" format="2">
+  <advance width="1228.0"/>
+  <unicode hex="0763"/>
+  <anchor x="242.0" y="773.0" name="alef"/>
+  <anchor x="676.0" y="1434.0" name="diaA"/>
+  <anchor x="300.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="keheh-ar"/>
+    <component base="_dot3u" xOffset="742.0" yOffset="1147.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_dot3h" format="2">
+  <anchor x="0.0" y="-180.0" name="_above"/>
+  <anchor x="0.0" y="180.0" name="_below"/>
+  <anchor x="0.0" y="0.0" name="_center"/>
+  <outline>
+    <component base="_dot1" xOffset="-208.0" yOffset="-1.0"/>
+    <component base="_dot1" xOffset="208.0" yOffset="-1.0"/>
+    <component base="_dot1" yOffset="-1.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="popdirectionalformatting" format="2">
+  <unicode hex="202C"/>
+  <outline>
+    <contour>
+      <point x="90.0" y="713.0" type="line"/>
+      <point x="0.0" y="813.0" type="line"/>
+      <point x="-90.0" y="713.0" type="line"/>
+      <point x="-20.0" y="713.0" type="line"/>
+      <point x="-20.0" y="-49.0" type="line"/>
+      <point x="-82.0" y="-49.0" type="line"/>
+      <point x="-82.0" y="-90.0" type="line"/>
+      <point x="82.0" y="-90.0" type="line"/>
+      <point x="82.0" y="-49.0" type="line"/>
+      <point x="20.0" y="-49.0" type="line"/>
+      <point x="20.0" y="713.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

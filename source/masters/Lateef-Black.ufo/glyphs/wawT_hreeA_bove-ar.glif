@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wawThreeAbove-ar" format="2">
+  <advance width="569.0"/>
+  <unicode hex="0779"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="three-ar" xScale="0.37" yScale="0.37" xOffset="-13.0" yOffset="296.0"/>
+  </outline>
+</glyph>

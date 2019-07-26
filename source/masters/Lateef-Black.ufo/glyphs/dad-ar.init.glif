@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dad-ar.init" format="2">
+  <advance width="1173.0"/>
+  <anchor x="125.0" y="595.0" name="alef"/>
+  <anchor x="482.0" y="834.0" name="diaA"/>
+  <anchor x="300.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="sad-ar.init"/>
+    <component base="_dot1" xOffset="548.0" yOffset="641.0"/>
+  </outline>
+</glyph>

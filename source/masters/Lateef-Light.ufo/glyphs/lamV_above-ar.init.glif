@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamVabove-ar.init" format="2">
+  <advance width="338.0"/>
+  <anchor x="0.0" y="551.0" name="alef"/>
+  <anchor x="109.0" y="1543.0" name="diaA"/>
+  <anchor x="150.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="lam-ar.init"/>
+    <component base="_smallV" xOffset="175.0" yOffset="1327.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

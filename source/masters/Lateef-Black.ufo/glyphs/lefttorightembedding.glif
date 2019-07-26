@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lefttorightembedding" format="2">
+  <unicode hex="202A"/>
+  <outline>
+    <contour>
+      <point x="166.0" y="-70.0" type="line"/>
+      <point x="66.0" y="20.0" type="line"/>
+      <point x="66.0" y="-49.0" type="line"/>
+      <point x="0.0" y="-49.0" type="line"/>
+      <point x="0.0" y="713.0" type="line"/>
+      <point x="-41.0" y="713.0" type="line"/>
+      <point x="-41.0" y="-90.0" type="line"/>
+      <point x="66.0" y="-90.0" type="line"/>
+      <point x="66.0" y="-160.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ng-ar.fina" format="2">
+  <advance width="1179.0"/>
+  <anchor x="316.0" y="1350.0" name="alef"/>
+  <anchor x="422.0" y="1431.0" name="diaA"/>
+  <anchor x="300.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="kaf-ar.fina"/>
+    <component base="_dot3u" xOffset="475.0" yOffset="1141.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="heh-ar.fina" format="2">
+  <advance width="642.0"/>
+  <anchor x="145.0" y="744.0" name="alef"/>
+  <anchor x="332.0" y="858.0" name="diaA"/>
+  <anchor x="202.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="ae-ar.fina"/>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_gafBar_dot2h" format="2">
+  <anchor x="98.0" y="0.0" name="_above"/>
+  <outline>
+    <component base="_dot1" xScale="-1.0" yScale="-1.0" xOffset="156.0" yOffset="313.0"/>
+    <component base="_dot1" xScale="-1.0" yScale="-1.0" xOffset="-52.0" yOffset="313.0"/>
+    <component base="_gafBar"/>
+  </outline>
+</glyph>

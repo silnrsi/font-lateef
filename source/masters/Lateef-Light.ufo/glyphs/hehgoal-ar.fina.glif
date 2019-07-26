@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hehgoal-ar.fina" format="2">
+  <advance width="730.0"/>
+  <anchor x="428.0" y="390.0" name="above"/>
+  <anchor x="214.0" y="543.0" name="alef"/>
+  <anchor x="419.0" y="-100.0" name="below"/>
+  <anchor x="370.0" y="700.0" name="diaA"/>
+  <anchor x="203.0" y="-251.0" name="diaB"/>
+  <outline>
+    <contour>
+      <point x="412.0" y="318.0" type="curve" smooth="yes"/>
+      <point x="258.0" y="318.0"/>
+      <point x="125.0" y="170.0"/>
+      <point x="40.0" y="-165.0" type="curve"/>
+      <point x="55.0" y="-167.0" type="line"/>
+      <point x="138.0" y="-13.0"/>
+      <point x="236.0" y="138.0"/>
+      <point x="381.0" y="138.0" type="curve" smooth="yes"/>
+      <point x="519.0" y="138.0"/>
+      <point x="565.0" y="0.0"/>
+      <point x="730.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="771.0" y="0.0"/>
+      <point x="792.0" y="43.0"/>
+      <point x="792.0" y="90.0" type="curve" smooth="yes"/>
+      <point x="792.0" y="137.0"/>
+      <point x="771.0" y="180.0"/>
+      <point x="730.0" y="180.0" type="curve" smooth="yes"/>
+      <point x="631.0" y="180.0"/>
+      <point x="560.0" y="318.0"/>
+    </contour>
+  </outline>
+</glyph>

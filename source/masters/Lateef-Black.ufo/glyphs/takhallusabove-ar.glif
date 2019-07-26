@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="takhallusabove-ar" format="2">
+  <unicode hex="0614"/>
+  <anchor x="556.0" y="1402.0" name="_diaA"/>
+  <anchor x="556.0" y="1749.0" name="diaA"/>
+  <outline>
+    <contour>
+      <point x="96.0" y="1497.0" type="line"/>
+      <point x="131.0" y="1495.0"/>
+      <point x="166.0" y="1493.0"/>
+      <point x="201.0" y="1493.0" type="curve" smooth="yes"/>
+      <point x="349.0" y="1493.0"/>
+      <point x="503.0" y="1506.0"/>
+      <point x="649.0" y="1528.0" type="curve"/>
+      <point x="637.0" y="1539.0" type="line"/>
+      <point x="653.0" y="1446.0"/>
+      <point x="696.0" y="1401.0"/>
+      <point x="788.0" y="1401.0" type="curve" smooth="yes"/>
+      <point x="913.0" y="1401.0"/>
+      <point x="977.0" y="1589.0"/>
+      <point x="977.0" y="1692.0" type="curve" smooth="yes"/>
+      <point x="977.0" y="1704.0"/>
+      <point x="977.0" y="1716.0"/>
+      <point x="975.0" y="1729.0" type="curve"/>
+      <point x="899.0" y="1675.0" type="line"/>
+      <point x="909.0" y="1591.0"/>
+      <point x="897.0" y="1483.0"/>
+      <point x="788.0" y="1483.0" type="curve" smooth="yes"/>
+      <point x="723.0" y="1483.0"/>
+      <point x="713.0" y="1565.0"/>
+      <point x="713.0" y="1614.0" type="curve" smooth="yes"/>
+      <point x="713.0" y="1622.0"/>
+      <point x="713.0" y="1630.0"/>
+      <point x="715.0" y="1638.0" type="curve"/>
+      <point x="561.0" y="1561.0"/>
+      <point x="201.0" y="1542.0"/>
+      <point x="20.0" y="1542.0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

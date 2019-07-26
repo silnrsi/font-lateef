@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="teh-ar" format="2">
+  <advance width="1220.0"/>
+  <unicode hex="062A"/>
+  <anchor x="280.0" y="690.0" name="alef"/>
+  <anchor x="573.0" y="830.0" name="diaA"/>
+  <anchor x="269.0" y="-235.0" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="_dot2h" xOffset="624.0" yOffset="581.0"/>
+  </outline>
+</glyph>

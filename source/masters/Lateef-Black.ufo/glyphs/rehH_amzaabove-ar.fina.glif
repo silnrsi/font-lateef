@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehHamzaabove-ar.fina" format="2">
+  <advance width="542.0"/>
+  <anchor x="106.0" y="678.0" name="alef"/>
+  <anchor x="296.0" y="826.0" name="diaA"/>
+  <anchor x="175.0" y="-490.0" name="diaB"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="_hamza" xOffset="366.0" yOffset="499.0"/>
+  </outline>
+</glyph>

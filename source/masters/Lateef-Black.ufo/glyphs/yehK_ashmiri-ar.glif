@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehKashmiri-ar" format="2">
+  <advance width="943.0"/>
+  <unicode hex="0620"/>
+  <anchor x="419.0" y="654.0" name="above"/>
+  <anchor x="276.0" y="539.0" name="alef"/>
+  <anchor x="279.0" y="-407.0" name="below"/>
+  <anchor x="419.0" y="700.0" name="diaA"/>
+  <anchor x="141.0" y="-462.0" name="diaB"/>
+  <outline>
+    <contour>
+      <point x="859.0" y="389.0" type="curve"/>
+      <point x="890.0" y="430.0"/>
+      <point x="923.0" y="507.0"/>
+      <point x="923.0" y="545.0" type="curve" smooth="yes"/>
+      <point x="923.0" y="582.0"/>
+      <point x="894.0" y="604.0"/>
+      <point x="859.0" y="604.0" type="curve" smooth="yes"/>
+      <point x="704.0" y="604.0"/>
+      <point x="495.0" y="285.0"/>
+      <point x="495.0" y="138.0" type="curve" smooth="yes"/>
+      <point x="495.0" y="-40.0"/>
+      <point x="848.0" y="36.0"/>
+      <point x="832.0" y="-16.0" type="curve" smooth="yes"/>
+      <point x="791.0" y="-150.0"/>
+      <point x="470.0" y="-229.0"/>
+      <point x="226.0" y="-229.0" type="curve" smooth="yes"/>
+      <point x="157.0" y="-229.0"/>
+      <point x="93.0" y="-223.0"/>
+      <point x="45.0" y="-209.0" type="curve"/>
+      <point x="40.0" y="-243.0" type="line"/>
+      <point x="228.0" y="-354.0" type="line"/>
+      <point x="581.0" y="-354.0"/>
+      <point x="904.0" y="-178.0"/>
+      <point x="904.0" y="117.0" type="curve" smooth="yes"/>
+      <point x="904.0" y="228.0"/>
+      <point x="577.0" y="139.0"/>
+      <point x="577.0" y="264.0" type="curve" smooth="yes"/>
+      <point x="577.0" y="344.0"/>
+      <point x="727.0" y="430.0"/>
+      <point x="808.0" y="430.0" type="curve" smooth="yes"/>
+      <point x="836.0" y="430.0"/>
+      <point x="856.0" y="418.0"/>
+    </contour>
+  </outline>
+</glyph>

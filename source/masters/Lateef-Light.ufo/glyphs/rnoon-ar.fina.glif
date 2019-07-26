@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rnoon-ar.fina" format="2">
+  <advance width="907.0"/>
+  <anchor x="182.0" y="532.0" name="alef"/>
+  <anchor x="350.0" y="790.0" name="diaA"/>
+  <anchor x="232.0" y="-502.0" name="diaB"/>
+  <outline>
+    <component base="noonghunna-ar.fina"/>
+    <component base="_tah" xOffset="385.0" yOffset="348.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_highHamza" format="2">
+  <anchor x="-18.0" y="-173.0" name="_above"/>
+  <outline>
+    <component base="_hamza" xOffset="188.0" yOffset="117.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

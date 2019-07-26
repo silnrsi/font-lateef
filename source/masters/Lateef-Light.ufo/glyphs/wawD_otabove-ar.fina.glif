@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wawDotabove-ar.fina" format="2">
+  <advance width="623.0"/>
+  <anchor x="389.0" y="897.0" name="_below"/>
+  <anchor x="171.0" y="686.0" name="alef"/>
+  <anchor x="405.0" y="806.0" name="diaA"/>
+  <anchor x="251.0" y="-462.0" name="diaB"/>
+  <outline>
+    <component base="waw-ar.fina"/>
+    <component base="_dot1" xOffset="389.0" yOffset="717.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

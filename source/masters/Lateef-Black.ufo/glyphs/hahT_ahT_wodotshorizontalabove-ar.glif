@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahTahTwodotshorizontalabove-ar" format="2">
+  <advance width="832.0"/>
+  <unicode hex="076F"/>
+  <anchor x="219.0" y="742.0" name="alef"/>
+  <anchor x="474.0" y="745.0" name="diaA"/>
+  <anchor x="179.0" y="-724.0" name="diaB"/>
+  <outline>
+    <component base="hah-ar"/>
+    <component base="_dot2h_tah" xOffset="494.0" yOffset="-267.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalRing-ar.fina" format="2">
+  <advance width="739.0"/>
+  <anchor x="171.0" y="686.0" name="alef"/>
+  <anchor x="429.0" y="927.0" name="diaA"/>
+  <anchor x="296.0" y="-356.0" name="diaB"/>
+  <outline>
+    <component base="dal-ar.fina"/>
+    <component base="_ring" xOffset="314.0" yOffset="-85.0"/>
+  </outline>
+</glyph>

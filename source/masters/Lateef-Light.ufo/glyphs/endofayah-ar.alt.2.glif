@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="endofayah-ar.alt.2" format="2">
+  <advance width="1844.0"/>
+  <anchor x="220.0" y="0.0" name="digit"/>
+  <outline>
+    <component base="endofayah-ar.alt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

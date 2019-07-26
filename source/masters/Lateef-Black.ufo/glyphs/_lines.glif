@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_lines" format="2">
+  <anchor x="0.0" y="0.0" name="_below"/>
+  <outline>
+    <component base="_vline" xOffset="110.0" yOffset="-234.0"/>
+    <component base="_vline" xOffset="-105.0" yOffset="-234.0"/>
+  </outline>
+</glyph>

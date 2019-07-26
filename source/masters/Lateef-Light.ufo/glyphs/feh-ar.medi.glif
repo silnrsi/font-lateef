@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="feh-ar.medi" format="2">
+  <advance width="513.0"/>
+  <anchor x="243.0" y="1001.0" name="diaA"/>
+  <anchor x="202.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="fehDotless-ar.medi"/>
+    <component base="_dot1" xOffset="299.0" yOffset="847.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

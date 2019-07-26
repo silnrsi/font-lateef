@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="meemDotabove-ar" format="2">
+  <advance width="555.0"/>
+  <unicode hex="0765"/>
+  <anchor x="139.0" y="809.0" name="alef"/>
+  <anchor x="297.0" y="901.0" name="diaA"/>
+  <anchor x="109.0" y="-719.0" name="diaB"/>
+  <outline>
+    <component base="meem-ar"/>
+    <component base="_dot1" xOffset="317.0" yOffset="638.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

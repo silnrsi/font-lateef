@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threedots-ar" format="2">
+  <advance width="626.0"/>
+  <unicode hex="061E"/>
+  <outline>
+    <component base="_dot1" xOffset="166.0" yOffset="103.0"/>
+    <component base="_dot1" xOffset="454.0" yOffset="103.0"/>
+    <component base="_dot1" xOffset="310.0" yOffset="364.0"/>
+  </outline>
+</glyph>

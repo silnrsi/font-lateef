@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hamzaabove-ar" format="2">
+  <unicode hex="0654"/>
+  <anchor x="178.0" y="625.0" name="_diaA"/>
+  <anchor x="178.0" y="1042.0" name="diaA"/>
+  <outline>
+    <component base="_hamza" xOffset="203.0" yOffset="821.0"/>
+  </outline>
+</glyph>

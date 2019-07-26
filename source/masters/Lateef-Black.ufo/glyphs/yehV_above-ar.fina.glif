@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehVabove-ar.fina" format="2">
+  <advance width="1036.0"/>
+  <anchor x="308.0" y="619.0" name="alef"/>
+  <anchor x="488.0" y="640.0" name="diaA"/>
+  <anchor x="277.0" y="-575.0" name="diaB"/>
+  <outline>
+    <component base="_smallV" xOffset="556.0" yOffset="404.0"/>
+    <component base="yeh-ar.noDots.fina"/>
+  </outline>
+</glyph>

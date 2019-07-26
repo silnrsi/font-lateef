@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tehRing-ar" format="2">
+  <advance width="1220.0"/>
+  <unicode hex="067C"/>
+  <anchor x="280.0" y="690.0" name="alef"/>
+  <anchor x="577.0" y="838.0" name="diaA"/>
+  <anchor x="220.0" y="-247.0" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="_dot2h" xOffset="624.0" yOffset="581.0"/>
+    <component base="_ring" xOffset="578.0" yOffset="-95.0"/>
+  </outline>
+</glyph>

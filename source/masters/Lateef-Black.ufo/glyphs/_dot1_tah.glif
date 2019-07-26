@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_dot1_tah" format="2">
+  <anchor x="0.0" y="-180.0" name="_above"/>
+  <anchor x="0.0" y="689.0" name="_below"/>
+  <anchor x="0.0" y="187.0" name="_center"/>
+  <outline>
+    <component base="tah-ar" xScale="0.37" yScale="0.37" xOffset="-199.0" yOffset="166.0"/>
+    <component base="_dot1"/>
+  </outline>
+</glyph>

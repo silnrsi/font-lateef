@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehDadabove-ar" format="2">
+  <unicode hex="0613"/>
+  <outline>
+    <component base="reh-ar" xScale="0.65579" yScale="0.65579" xOffset="681.0" yOffset="1451.0"/>
+    <component base="sadabove-ar" xOffset="-100.0" yOffset="10.0"/>
+    <component base="_dot1" xScale="0.66" yScale="0.66" xOffset="413.0" yOffset="1651.0"/>
+  </outline>
+</glyph>

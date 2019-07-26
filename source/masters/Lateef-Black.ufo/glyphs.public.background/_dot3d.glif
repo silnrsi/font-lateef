@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_dot3d" format="2">
+  <outline>
+    <contour>
+      <point x="212.0" y="104.0" type="line"/>
+      <point x="105.0" y="211.0" type="line"/>
+      <point x="1.0" y="104.0" type="line"/>
+      <point x="105.0" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1.0" y="104.0" type="line"/>
+      <point x="-105.0" y="211.0" type="line"/>
+      <point x="-212.0" y="104.0" type="line"/>
+      <point x="-105.0" y="0.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="104.0" y="-104.0" type="line"/>
+      <point x="0.0" y="0.0" type="line"/>
+      <point x="-104.0" y="-104.0" type="line"/>
+      <point x="0.0" y="-211.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

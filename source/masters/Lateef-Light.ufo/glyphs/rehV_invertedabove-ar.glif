@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehVinvertedabove-ar" format="2">
+  <advance width="590.0"/>
+  <unicode hex="06EF"/>
+  <anchor x="118.0" y="769.0" name="alef"/>
+  <anchor x="280.0" y="923.0" name="diaA"/>
+  <anchor x="167.0" y="-474.0" name="diaB"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="_hat" xOffset="376.0" yOffset="436.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

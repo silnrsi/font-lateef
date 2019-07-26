@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafRing-ar.medi" format="2">
+  <advance width="952.0"/>
+  <anchor x="142.0" y="1020.0" name="diaA"/>
+  <anchor x="150.0" y="-200.0" name="diaB"/>
+  <outline>
+    <component base="kaf-ar.medi"/>
+    <component base="_ring" xOffset="413.0" yOffset="780.0"/>
+  </outline>
+</glyph>

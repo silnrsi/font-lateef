@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafRing-ar.fina" format="2">
+  <advance width="1577.0"/>
+  <anchor x="242.0" y="761.0" name="alef"/>
+  <anchor x="623.0" y="1020.0" name="diaA"/>
+  <anchor x="316.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="keheh-ar.fina"/>
+    <component base="_ring" xOffset="1078.0" yOffset="783.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

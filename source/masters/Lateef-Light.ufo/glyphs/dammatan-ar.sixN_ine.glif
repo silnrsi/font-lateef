@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dammatan-ar.sixNine" format="2">
+  <anchor x="187.0" y="1048.0" name="_diaA"/>
+  <anchor x="187.0" y="1699.0" name="diaA"/>
+  <outline>
+    <component base="damma-ar"/>
+    <component base="damma-ar" xScale="-1.0" yScale="-1.0" xOffset="190.0" yOffset="2715.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

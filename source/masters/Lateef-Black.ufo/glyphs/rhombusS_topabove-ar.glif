@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rhombusStopabove-ar" format="2">
+  <unicode hex="06EB"/>
+  <anchor x="0.0" y="959.0" name="_diaA"/>
+  <anchor x="0.0" y="1232.0" name="diaA"/>
+  <outline>
+    <contour>
+      <point x="113.0" y="1100.0" type="line"/>
+      <point x="0.0" y="1212.0" type="line"/>
+      <point x="-113.0" y="1100.0" type="line"/>
+      <point x="0.0" y="987.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="95.0" y="1111.0" type="line"/>
+      <point x="-11.0" y="1005.0" type="line"/>
+      <point x="11.0" y="1005.0" type="line"/>
+      <point x="-95.0" y="1111.0" type="line"/>
+      <point x="-95.0" y="1089.0" type="line"/>
+      <point x="11.0" y="1195.0" type="line"/>
+      <point x="-11.0" y="1195.0" type="line"/>
+      <point x="95.0" y="1089.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

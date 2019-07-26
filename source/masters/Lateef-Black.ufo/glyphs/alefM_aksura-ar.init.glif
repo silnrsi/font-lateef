@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefMaksura-ar.init" format="2">
+  <advance width="353.0"/>
+  <anchor x="105.0" y="700.0" name="diaA"/>
+  <anchor x="150.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+  </outline>
+</glyph>

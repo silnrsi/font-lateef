@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one.small" format="2">
+  <advance width="470.0"/>
+  <anchor x="0.0" y="0.0" name="_digit"/>
+  <anchor x="470.0" y="0.0" name="digit"/>
+  <outline>
+    <component base="one" xScale="0.61" yScale="0.61" yOffset="150.0"/>
+  </outline>
+</glyph>

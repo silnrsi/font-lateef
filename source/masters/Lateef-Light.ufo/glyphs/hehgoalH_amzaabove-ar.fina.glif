@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hehgoalHamzaabove-ar.fina" format="2">
+  <advance width="762.0"/>
+  <anchor x="158.0" y="704.0" name="alef"/>
+  <anchor x="402.0" y="855.0" name="diaA"/>
+  <anchor x="235.0" y="-251.0" name="diaB"/>
+  <outline>
+    <component base="hehgoal-ar.fina"/>
+    <component base="_hamza" xOffset="418.0" yOffset="602.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

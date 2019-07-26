@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="keheh-ar.init" format="2">
+  <advance width="633.0"/>
+  <anchor x="150.0" y="1049.0" name="diaA"/>
+  <anchor x="150.0" y="-200.0" name="diaB"/>
+  <outline>
+    <component base="kaf-ar.init"/>
+  </outline>
+</glyph>

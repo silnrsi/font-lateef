@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheen-ar.init" format="2">
+  <advance width="850.0"/>
+  <anchor x="125.0" y="595.0" name="alef"/>
+  <anchor x="353.0" y="971.0" name="diaA"/>
+  <anchor x="300.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="seen-ar.init"/>
+    <component base="_dot3u" xOffset="486.0" yOffset="710.0"/>
+  </outline>
+</glyph>

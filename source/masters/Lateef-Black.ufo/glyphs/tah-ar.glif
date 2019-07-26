@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tah-ar" format="2">
+  <advance width="1124.0"/>
+  <unicode hex="0637"/>
+  <anchor x="810.0" y="635.0" name="above"/>
+  <anchor x="211.0" y="845.0" name="alef"/>
+  <anchor x="538.0" y="-66.0" name="below"/>
+  <anchor x="475.0" y="1231.0" name="diaA"/>
+  <anchor x="305.0" y="-202.0" name="diaB"/>
+  <outline>
+    <contour>
+      <point x="914.0" y="587.0" type="curve" smooth="yes"/>
+      <point x="755.0" y="587.0"/>
+      <point x="596.0" y="438.0"/>
+      <point x="335.0" y="154.0" type="curve"/>
+      <point x="396.0" y="150.0" type="line"/>
+      <point x="495.0" y="258.0"/>
+      <point x="711.0" y="400.0"/>
+      <point x="780.0" y="400.0" type="curve" smooth="yes"/>
+      <point x="868.0" y="400.0"/>
+      <point x="885.0" y="354.0"/>
+      <point x="885.0" y="303.0" type="curve" smooth="yes"/>
+      <point x="885.0" y="245.0"/>
+      <point x="660.0" y="188.0"/>
+      <point x="377.0" y="188.0" type="curve" smooth="yes"/>
+      <point x="196.0" y="188.0"/>
+      <point x="135.0" y="205.0"/>
+      <point x="9.0" y="240.0" type="curve"/>
+      <point x="37.0" y="86.0"/>
+      <point x="178.0" y="-45.0"/>
+      <point x="402.0" y="-45.0" type="curve" smooth="yes"/>
+      <point x="781.0" y="-45.0"/>
+      <point x="1144.0" y="175.0"/>
+      <point x="1144.0" y="412.0" type="curve" smooth="yes"/>
+      <point x="1144.0" y="516.0"/>
+      <point x="1047.0" y="587.0"/>
+    </contour>
+    <contour>
+      <point x="504.0" y="891.0" type="line"/>
+      <point x="434.0" y="946.0" type="line"/>
+      <point x="434.0" y="216.0" type="line"/>
+      <point x="504.0" y="298.0" type="line"/>
+    </contour>
+    <component base="_strokeHead" xOffset="203.0" yOffset="845.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

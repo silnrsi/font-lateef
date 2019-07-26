@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uHamzaabove-ar.fina" format="2">
+  <advance width="623.0"/>
+  <anchor x="159.0" y="837.0" name="alef"/>
+  <anchor x="348.0" y="874.0" name="diaA"/>
+  <anchor x="251.0" y="-462.0" name="diaB"/>
+  <outline>
+    <component base="waw-ar.fina"/>
+    <component base="_hamzaDamma" xOffset="407.0" yOffset="710.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

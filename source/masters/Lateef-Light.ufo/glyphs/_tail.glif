@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_tail" format="2">
+  <advance width="600.0"/>
+  <outline>
+    <contour>
+      <point x="-110.0" y="83.0" type="line"/>
+      <point x="22.0" y="83.0"/>
+      <point x="120.0" y="126.0"/>
+      <point x="173.0" y="259.0" type="curve"/>
+      <point x="165.0" y="271.0" type="line"/>
+      <point x="96.0" y="179.0"/>
+      <point x="-18.0" y="116.0"/>
+      <point x="-110.0" y="98.0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

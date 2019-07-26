@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamThreedotsabove-ar" format="2">
+  <advance width="701.0"/>
+  <unicode hex="06B7"/>
+  <anchor x="201.0" y="987.0" name="alef"/>
+  <anchor x="392.0" y="1968.0" name="diaA"/>
+  <anchor x="221.0" y="-202.0" name="diaB"/>
+  <outline>
+    <component base="lam-ar"/>
+    <component base="_dot3u" xOffset="531.0" yOffset="1699.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

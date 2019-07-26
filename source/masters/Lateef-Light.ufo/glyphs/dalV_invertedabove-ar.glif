@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalVinvertedabove-ar" format="2">
+  <advance width="580.0"/>
+  <unicode hex="06EE"/>
+  <anchor x="111.0" y="1094.0" name="alef"/>
+  <anchor x="288.0" y="1146.0" name="diaA"/>
+  <anchor x="211.0" y="-231.0" name="diaB"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="_hat" xOffset="291.0" yOffset="695.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

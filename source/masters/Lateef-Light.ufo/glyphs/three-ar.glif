@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three-ar" format="2">
+  <advance width="881.0"/>
+  <unicode hex="0663"/>
+  <outline>
+    <contour>
+      <point x="800.0" y="1072.0" type="line"/>
+      <point x="754.0" y="924.0"/>
+      <point x="721.0" y="861.0"/>
+      <point x="622.0" y="861.0" type="curve" smooth="yes"/>
+      <point x="548.0" y="861.0"/>
+      <point x="525.0" y="933.0"/>
+      <point x="525.0" y="1072.0" type="curve"/>
+      <point x="510.0" y="1072.0" type="line"/>
+      <point x="464.0" y="924.0"/>
+      <point x="431.0" y="861.0"/>
+      <point x="342.0" y="861.0" type="curve" smooth="yes"/>
+      <point x="291.0" y="861.0"/>
+      <point x="263.0" y="888.0"/>
+      <point x="240.0" y="940.0" type="curve"/>
+      <point x="268.0" y="716.0" type="line"/>
+      <point x="294.0" y="689.0"/>
+      <point x="313.0" y="681.0"/>
+      <point x="351.0" y="681.0" type="curve" smooth="yes"/>
+      <point x="401.0" y="681.0"/>
+      <point x="444.0" y="702.0"/>
+      <point x="477.0" y="749.0" type="curve"/>
+      <point x="517.0" y="705.0"/>
+      <point x="566.0" y="681.0"/>
+      <point x="621.0" y="681.0" type="curve" smooth="yes"/>
+      <point x="736.0" y="681.0"/>
+      <point x="815.0" y="794.0"/>
+      <point x="815.0" y="1072.0" type="curve"/>
+    </contour>
+    <component base="one-ar" xOffset="-170.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

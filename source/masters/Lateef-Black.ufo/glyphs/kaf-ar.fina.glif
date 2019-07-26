@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kaf-ar.fina" format="2">
+  <advance width="1179.0"/>
+  <anchor x="897.0" y="1165.0" name="above"/>
+  <anchor x="226.0" y="761.0" name="alef"/>
+  <anchor x="729.0" y="-62.0" name="below"/>
+  <anchor x="609.0" y="1104.0" name="diaA"/>
+  <anchor x="300.0" y="-202.0" name="diaB"/>
+  <outline>
+    <contour>
+      <point x="928.0" y="175.0" type="curve"/>
+      <point x="904.0" y="267.0" type="line"/>
+      <point x="862.0" y="208.0"/>
+      <point x="780.0" y="180.0"/>
+      <point x="591.0" y="180.0" type="curve"/>
+      <point x="591.0" y="0.0" type="line"/>
+      <point x="784.0" y="0.0"/>
+      <point x="861.0" y="34.0"/>
+    </contour>
+    <contour>
+      <point x="845.0" y="871.0" type="line"/>
+      <point x="845.0" y="159.0"/>
+      <point x="909.0" y="0.0"/>
+      <point x="1179.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="1209.0" y="0.0"/>
+      <point x="1224.0" y="43.0"/>
+      <point x="1224.0" y="90.0" type="curve" smooth="yes"/>
+      <point x="1224.0" y="137.0"/>
+      <point x="1209.0" y="180.0"/>
+      <point x="1179.0" y="180.0" type="curve" smooth="yes"/>
+      <point x="980.0" y="180.0"/>
+      <point x="960.0" y="256.0"/>
+      <point x="937.0" y="803.0" type="curve"/>
+    </contour>
+    <component base="_strokeHead" xOffset="626.0" yOffset="772.0"/>
+    <component base="_kaf_s" xOffset="294.0" yOffset="413.0"/>
+    <component base="_kaf_left"/>
+  </outline>
+</glyph>

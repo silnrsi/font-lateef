@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahFourbelow-ar" format="2">
+  <advance width="832.0"/>
+  <unicode hex="077C"/>
+  <outline>
+    <component base="hah-ar"/>
+    <component base="four-persian.urdu" xScale="0.37" yScale="0.37" xOffset="366.0" yOffset="-327.0"/>
+  </outline>
+</glyph>

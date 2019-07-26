@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fehDotmovedbelow-ar.init" format="2">
+  <advance width="503.0"/>
+  <anchor x="178.0" y="858.0" name="diaA"/>
+  <anchor x="182.0" y="-417.0" name="diaB"/>
+  <outline>
+    <component base="fehDotless-ar.init"/>
+    <component base="_dot1" xOffset="237.0" yOffset="-236.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tchehDotabove-ar.medi" format="2">
+  <advance width="952.0"/>
+  <anchor x="165.0" y="848.0" name="alef"/>
+  <anchor x="340.0" y="948.0" name="diaA"/>
+  <anchor x="316.0" y="-530.0" name="diaB"/>
+  <outline>
+    <component base="hah-ar.medi"/>
+    <component base="_dot1" xOffset="411.0" yOffset="753.0"/>
+    <component base="_dot3d" xOffset="443.0" yOffset="-274.0"/>
+  </outline>
+</glyph>

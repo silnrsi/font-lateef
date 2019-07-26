@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam-ar.preAlef.init" format="2">
+  <advance width="346.0"/>
+  <anchor x="195.0" y="1164.0" name="above"/>
+  <anchor x="-13.0" y="814.0" name="alef"/>
+  <anchor x="123.0" y="-202.0" name="below"/>
+  <anchor x="84.0" y="1170.0" name="diaA"/>
+  <anchor x="125.0" y="-300.0" name="diaB"/>
+  <anchor x="-2.0" y="0.0" name="exit"/>
+  <anchor x="216.0" y="648.0" name="through"/>
+  <outline>
+    <contour>
+      <point x="166.0" y="886.0" type="line"/>
+      <point x="172.0" y="740.0"/>
+      <point x="174.0" y="555.0"/>
+      <point x="174.0" y="410.0" type="curve" smooth="yes"/>
+      <point x="174.0" y="59.0"/>
+      <point x="63.0" y="-98.0"/>
+      <point x="-245.0" y="-98.0" type="curve" smooth="yes"/>
+      <point x="-285.0" y="-98.0"/>
+      <point x="-328.0" y="-95.0"/>
+      <point x="-374.0" y="-90.0" type="curve"/>
+      <point x="-380.0" y="-103.0" type="line"/>
+      <point x="-261.0" y="-180.0"/>
+      <point x="-158.0" y="-215.0"/>
+      <point x="-73.0" y="-215.0" type="curve" smooth="yes"/>
+      <point x="159.0" y="-215.0"/>
+      <point x="269.0" y="41.0"/>
+      <point x="269.0" y="395.0" type="curve" smooth="yes"/>
+      <point x="269.0" y="522.0"/>
+      <point x="264.0" y="701.0"/>
+      <point x="259.0" y="828.0" type="curve"/>
+    </contour>
+    <component base="_strokeHead" xOffset="-47.0" yOffset="777.0"/>
+  </outline>
+</glyph>
