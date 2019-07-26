@@ -16,7 +16,18 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Lateef" filename="Lateef-Regular.ufo" name="Lateef-Regular" stylename="Regular">
+        <source familyname="Lateef" filename="masters/Lateef-Light.ufo" name="Lateef-Light" stylename="Light">
+            <lib copy="1" />
+            <groups copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="300" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="Lateef" filename="masters/Lateef-Regular.ufo" name="Lateef-Regular" stylename="Regular">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -27,11 +38,98 @@
                 <dimension name="custom" xvalue="0" />
             </location>
         </source>
+        <source familyname="Lateef" filename="masters/Lateef-Black.ufo" name="Lateef-Black" stylename="Black">
+            <lib copy="1" />
+            <groups copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+        </source>
     </sources>
     <instances>
-        <instance familyname="Lateef" stylename="Regular" filename="instances/Lateef-Regular.ufo" name="Lateef-Regular" postscriptfontname="Lateef-Regular" stylemapfamilyname="Lateef" stylemapstylename="regular">
+        <!-- Lateef Light, R & B -->
+        <instance       familyname="Lateef Light"
+                              name="Lateef Light"
+                stylemapfamilyname="Lateef Light"
+                         stylename="Regular"
+                 stylemapstylename="regular"
+                postscriptfontname="LateefLight-Regular"
+                filename="instances/LateefLight-Regular.ufo">
+            <location>
+                <dimension name="weight" xvalue="300" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+        </instance>
+        <instance       familyname="Lateef Light"
+                              name="Lateef Light"
+                stylemapfamilyname="Lateef Light"
+                         stylename="Bold"
+                 stylemapstylename="bold"
+                postscriptfontname="LateefLight-Bold"
+                filename="instances/LateefLight-Bold.ufo">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+        </instance>
+
+        <!-- Lateef, R & B -->
+        <instance       familyname="Lateef"
+                              name="Lateef"
+                stylemapfamilyname="Lateef"
+                         stylename="Regular"
+                 stylemapstylename="regular"
+                postscriptfontname="Lateef-Regular"
+                filename="instances/Lateef-Regular.ufo">
             <location>
                 <dimension name="weight" xvalue="400" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+        </instance>
+        <instance       familyname="Lateef"
+                              name="Lateef"
+                stylemapfamilyname="Lateef"
+                         stylename="Bold"
+                 stylemapstylename="bold"
+                postscriptfontname="Lateef-Bold"
+                filename="instances/Lateef-Bold.ufo">
+            <location>
+                <dimension name="weight" xvalue="700" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+        </instance>
+
+        <!-- Lateef Book, R & B -->
+        <instance       familyname="Lateef Book"
+                              name="Lateef Book"
+                stylemapfamilyname="Lateef Book"
+                         stylename="Regular"
+                 stylemapstylename="regular"
+                postscriptfontname="LateefBook-Regular"
+                 ilename="instances/LateefBook-Regular.ufo">
+            <location>
+                <dimension name="weight" xvalue="500" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+        </instance>
+        <instance       familyname="Lateef Book"
+                              name="Lateef Book"
+                stylemapfamilyname="Lateef Book"
+                         stylename="Bold"
+                 stylemapstylename="bold"
+                postscriptfontname="LateefBook-Bold"
+                filename="instances/LateefBook-Bold.ufo">
+            <location>
+                <dimension name="weight" xvalue="800" />
                 <dimension name="width" xvalue="100" />
                 <dimension name="custom" xvalue="0" />
             </location>
