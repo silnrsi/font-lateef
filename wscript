@@ -26,7 +26,7 @@ DESC_NAME = "Lateef"
 DESC_SHORT = "An Arabic script font for Sindhi and other languages of southern Asia"
 
 # Get version info from Regular UFO; must be first function call:
-getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
+getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
 
 
 # set up the sile tests (using fontproof)
@@ -42,7 +42,9 @@ designspace('source/lateef.designspace',
     shortcircuit = True,
     # params = '-l ${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
-        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
+        # The following generates smith error: "source not found: 'instances/Lateef-Regular.ufo'" -- Not sure why.
+        #cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['${DS:FILENAME}']),
+        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/masters/' + FAMILY + '-Regular' + '.ufo']),
         # cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     classes = 'source/classes.xml',
