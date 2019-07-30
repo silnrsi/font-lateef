@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wawTwoabove-ar" format="2">
-  <advance width="569.0"/>
+  <advance width="569"/>
   <unicode hex="0778"/>
   <outline>
     <component base="waw-ar"/>
-    <component base="two-ar" xScale="0.37" yScale="0.37" xOffset="-13.0" yOffset="296.0"/>
+    <component base="two-ar" xScale="0.37" yScale="0.37" xOffset="-13" yOffset="296"/>
   </outline>
   <lib>
     <dict>

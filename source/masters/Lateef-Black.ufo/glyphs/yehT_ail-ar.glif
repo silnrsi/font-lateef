@@ -1,12 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehTail-ar" format="2">
-  <advance width="994.0"/>
+  <advance width="994"/>
   <unicode hex="06CD"/>
-  <anchor x="314.0" y="535.0" name="alef"/>
-  <anchor x="438.0" y="700.0" name="diaA"/>
-  <anchor x="186.0" y="-434.0" name="diaB"/>
+  <anchor x="314" y="535" name="alef"/>
+  <anchor x="438" y="700" name="diaA"/>
+  <anchor x="186" y="-434" name="diaB"/>
   <outline>
-    <component base="yeh-ar.noDots" xOffset="2.0"/>
-    <component base="_tail" xOffset="-10.0" yOffset="28.0"/>
+    <component base="yeh-ar.noDots" xOffset="2"/>
+    <component base="_tail" xOffset="-10" yOffset="28"/>
   </outline>
 </glyph>

@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="six-persian.small" format="2">
-  <advance width="470.0"/>
-  <anchor x="-4.0" y="0.0" name="digitL"/>
-  <anchor x="466.0" y="0.0" name="digitR"/>
+  <advance width="470"/>
+  <anchor x="-4" y="0" name="digitL"/>
+  <anchor x="466" y="0" name="digitR"/>
   <outline>
-    <component base="six-persian" xScale="0.54" yScale="0.54" xOffset="2.0" yOffset="134.0"/>
+    <component base="six-persian" xScale="0.54" yScale="0.54" xOffset="2" yOffset="134"/>
   </outline>
   <lib>
     <dict>

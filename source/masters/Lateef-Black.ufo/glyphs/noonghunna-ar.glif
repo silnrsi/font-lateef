@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonghunna-ar" format="2">
-  <advance width="796.0"/>
+  <advance width="796"/>
   <unicode hex="06BA"/>
-  <anchor x="329.0" y="322.0" name="above"/>
-  <anchor x="219.0" y="543.0" name="alef"/>
-  <anchor x="374.0" y="-377.0" name="below"/>
-  <anchor x="276.0" y="709.0" name="diaA"/>
-  <anchor x="231.0" y="-445.0" name="diaB"/>
-  <anchor x="359.0" y="-237.0" name="ring"/>
+  <anchor x="329" y="322" name="above"/>
+  <anchor x="219" y="543" name="alef"/>
+  <anchor x="374" y="-377" name="below"/>
+  <anchor x="276" y="709" name="diaA"/>
+  <anchor x="231" y="-445" name="diaB"/>
+  <anchor x="359" y="-237" name="ring"/>
   <outline>
-    <component base="_bowl_seen" yOffset="90.0"/>
+    <component base="_bowl_seen" yOffset="90"/>
   </outline>
 </glyph>

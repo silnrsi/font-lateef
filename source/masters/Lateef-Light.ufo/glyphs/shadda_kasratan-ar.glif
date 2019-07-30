@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shadda_kasratan-ar" format="2">
-  <anchor x="144.0" y="1056.0" name="_diaA"/>
-  <anchor x="144.0" y="1721.0" name="diaA"/>
+  <anchor x="144" y="1056" name="_diaA"/>
+  <anchor x="144" y="1721" name="diaA"/>
   <outline>
-    <component base="shadda-ar" yOffset="330.0"/>
-    <component base="fathatan-ar" xOffset="-87.0" yOffset="-2.0"/>
+    <component base="shadda-ar" yOffset="330"/>
+    <component base="fathatan-ar" xOffset="-87" yOffset="-2"/>
   </outline>
   <lib>
     <dict>

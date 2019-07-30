@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heh-ar.hooked.fina" format="2">
-  <advance width="762.0"/>
-  <anchor x="246.0" y="543.0" name="alef"/>
-  <anchor x="402.0" y="700.0" name="diaA"/>
-  <anchor x="235.0" y="-251.0" name="diaB"/>
+  <advance width="762"/>
+  <anchor x="246" y="543" name="alef"/>
+  <anchor x="402" y="700" name="diaA"/>
+  <anchor x="235" y="-251" name="diaB"/>
   <outline>
     <component base="hehgoal-ar.fina"/>
   </outline>

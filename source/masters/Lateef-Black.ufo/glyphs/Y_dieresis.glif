@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ydieresis" format="2">
-  <advance width="1114.0"/>
+  <advance width="1114"/>
   <unicode hex="0178"/>
   <outline>
     <component base="Y"/>
-    <component base="dieresis" xOffset="312.0" yOffset="320.0"/>
+    <component base="dieresis" xOffset="312" yOffset="320"/>
   </outline>
 </glyph>

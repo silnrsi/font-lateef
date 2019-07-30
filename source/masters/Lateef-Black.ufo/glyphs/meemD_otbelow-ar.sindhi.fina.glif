@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meemDotbelow-ar.sindhi.fina" format="2">
-  <advance width="1020.0"/>
-  <anchor x="288.0" y="542.0" name="alef"/>
-  <anchor x="502.0" y="700.0" name="diaA"/>
-  <anchor x="300.0" y="-243.0" name="diaB"/>
+  <advance width="1020"/>
+  <anchor x="288" y="542" name="alef"/>
+  <anchor x="502" y="700" name="diaA"/>
+  <anchor x="300" y="-243" name="diaB"/>
   <outline>
     <component base="meem-ar.sindhi.fina"/>
-    <component base="_dot1" xOffset="636.0" yOffset="-273.0"/>
+    <component base="_dot1" xOffset="636" yOffset="-273"/>
   </outline>
 </glyph>

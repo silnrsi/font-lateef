@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahTwodotsverticalabove-ar.medi" format="2">
-  <advance width="952.0"/>
-  <anchor x="161.0" y="1066.0" name="alef"/>
-  <anchor x="340.0" y="1146.0" name="diaA"/>
-  <anchor x="300.0" y="-202.0" name="diaB"/>
+  <advance width="952"/>
+  <anchor x="161" y="1066" name="alef"/>
+  <anchor x="340" y="1146" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
   <outline>
     <component base="hah-ar.medi"/>
-    <component base="_dot2v" xOffset="411.0" yOffset="859.0"/>
+    <component base="_dot2v" xOffset="411" yOffset="859"/>
   </outline>
 </glyph>

@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="three-persian.small" format="2">
-  <advance width="470.0"/>
-  <anchor x="-13.0" y="0.0" name="digitL"/>
-  <anchor x="457.0" y="0.0" name="digitR"/>
+  <advance width="470"/>
+  <anchor x="-13" y="0" name="digitL"/>
+  <anchor x="457" y="0" name="digitR"/>
   <outline>
-    <component base="three-ar" xScale="0.54" yScale="0.54" xOffset="-17.0" yOffset="146.0"/>
+    <component base="three-ar" xScale="0.54" yScale="0.54" xOffset="-17" yOffset="146"/>
   </outline>
   <lib>
     <dict>

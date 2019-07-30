@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zainabove-ar" format="2">
   <unicode hex="0617"/>
   <outline>
-    <component base="zain-ar" xScale="0.65" yScale="0.65" xOffset="270.0" yOffset="1453.0"/>
+    <component base="zain-ar" xScale="0.65" yScale="0.65" xOffset="270" yOffset="1453"/>
   </outline>
   <lib>
     <dict>

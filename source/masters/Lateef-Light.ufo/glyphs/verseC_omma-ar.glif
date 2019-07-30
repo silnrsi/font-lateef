@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="verseComma-ar" format="2">
-  <advance width="1450.0"/>
+  <advance width="1450"/>
   <unicode hex="060E"/>
   <outline>
     <component base="footnotemarker-ar"/>

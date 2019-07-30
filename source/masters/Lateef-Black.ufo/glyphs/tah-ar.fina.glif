@@ -1,28 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tah-ar.fina" format="2">
-  <advance width="1114.0"/>
-  <anchor x="829.0" y="586.0" name="above"/>
-  <anchor x="198.0" y="841.0" name="alef"/>
-  <anchor x="592.0" y="-50.0" name="below"/>
-  <anchor x="428.0" y="1239.0" name="diaA"/>
-  <anchor x="202.0" y="-202.0" name="diaB"/>
+  <advance width="1114"/>
+  <anchor x="829" y="586" name="above"/>
+  <anchor x="198" y="841" name="alef"/>
+  <anchor x="592" y="-50" name="below"/>
+  <anchor x="428" y="1239" name="diaA"/>
+  <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <contour>
-      <point x="917.0" y="160.0" type="curve"/>
-      <point x="716.0" y="45.0" type="line"/>
-      <point x="864.0" y="6.0"/>
-      <point x="1004.0" y="0.0"/>
-      <point x="1165.0" y="0.0" type="curve"/>
-      <point x="1170.0" y="0.0" type="line"/>
-      <point x="1206.0" y="0.0"/>
-      <point x="1223.0" y="43.0"/>
-      <point x="1223.0" y="90.0" type="curve" smooth="yes"/>
-      <point x="1223.0" y="137.0"/>
-      <point x="1206.0" y="180.0"/>
-      <point x="1170.0" y="180.0" type="curve"/>
-      <point x="1165.0" y="180.0" type="line"/>
-      <point x="1082.0" y="181.0"/>
-      <point x="1006.0" y="183.0"/>
+      <point x="917" y="160" type="curve"/>
+      <point x="716" y="45" type="line"/>
+      <point x="864" y="6"/>
+      <point x="1004" y="0"/>
+      <point x="1165" y="0" type="curve"/>
+      <point x="1170" y="0" type="line"/>
+      <point x="1206" y="0"/>
+      <point x="1223" y="43"/>
+      <point x="1223" y="90" type="curve" smooth="yes"/>
+      <point x="1223" y="137"/>
+      <point x="1206" y="180"/>
+      <point x="1170" y="180" type="curve"/>
+      <point x="1165" y="180" type="line"/>
+      <point x="1082" y="181"/>
+      <point x="1006" y="183"/>
     </contour>
     <component base="tah-ar"/>
   </outline>

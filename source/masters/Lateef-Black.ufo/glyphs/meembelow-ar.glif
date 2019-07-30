@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meembelow-ar" format="2">
   <unicode hex="06ED"/>
-  <anchor x="17.0" y="-285.0" name="_diaB"/>
-  <anchor x="17.0" y="-817.0" name="diaB"/>
+  <anchor x="17" y="-285" name="_diaB"/>
+  <anchor x="17" y="-817" name="diaB"/>
   <outline>
-    <component base="meem-ar" xScale="0.54" yScale="0.54" xOffset="-121.0" yOffset="-508.0"/>
+    <component base="meem-ar" xScale="0.54" yScale="0.54" xOffset="-121" yOffset="-508"/>
   </outline>
 </glyph>

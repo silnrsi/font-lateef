@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehTail-ar.fina" format="2">
-  <advance width="956.0"/>
-  <anchor x="476.0" y="236.0" name="above"/>
-  <anchor x="381.0" y="329.0" name="alef"/>
-  <anchor x="351.0" y="-524.0" name="below"/>
-  <anchor x="506.0" y="510.0" name="diaA"/>
-  <anchor x="316.0" y="-575.0" name="diaB"/>
+  <advance width="956"/>
+  <anchor x="476" y="236" name="above"/>
+  <anchor x="381" y="329" name="alef"/>
+  <anchor x="351" y="-524" name="below"/>
+  <anchor x="506" y="510" name="diaA"/>
+  <anchor x="316" y="-575" name="diaB"/>
   <outline>
-    <component base="_tail" xOffset="-12.0" yOffset="-93.0"/>
+    <component base="_tail" xOffset="-12" yOffset="-93"/>
     <component base="yeh-ar.noDots.fina"/>
   </outline>
 </glyph>

@@ -1,40 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_hamza" format="2">
-  <anchor x="-16.0" y="-212.0" name="_above"/>
-  <anchor x="-27.0" y="240.0" name="_below"/>
+  <anchor x="-16" y="-212" name="_above"/>
+  <anchor x="-27" y="240" name="_below"/>
   <outline>
     <contour>
-      <point x="-96.0" y="-90.0" type="curve"/>
-      <point x="31.0" y="-6.0" type="line"/>
-      <point x="-61.0" y="-29.0"/>
-      <point x="-115.0" y="13.0"/>
-      <point x="-120.0" y="59.0" type="curve"/>
-      <point x="-124.0" y="36.0" type="line"/>
-      <point x="-106.0" y="88.0"/>
-      <point x="-33.0" y="118.0"/>
-      <point x="21.0" y="118.0" type="curve" smooth="yes"/>
-      <point x="36.0" y="118.0"/>
-      <point x="49.0" y="116.0"/>
-      <point x="61.0" y="111.0" type="curve"/>
-      <point x="74.0" y="136.0" type="line"/>
-      <point x="54.0" y="166.0"/>
-      <point x="13.0" y="184.0"/>
-      <point x="-24.0" y="184.0" type="curve" smooth="yes"/>
-      <point x="-83.0" y="184.0"/>
-      <point x="-146.0" y="123.0"/>
-      <point x="-146.0" y="-22.0" type="curve" smooth="yes"/>
-      <point x="-146.0" y="-53.0"/>
-      <point x="-128.0" y="-73.0"/>
+      <point x="-96" y="-90" type="curve"/>
+      <point x="31" y="-6" type="line"/>
+      <point x="-61" y="-29"/>
+      <point x="-115" y="13"/>
+      <point x="-120" y="59" type="curve"/>
+      <point x="-124" y="36" type="line"/>
+      <point x="-106" y="88"/>
+      <point x="-33" y="118"/>
+      <point x="21" y="118" type="curve" smooth="yes"/>
+      <point x="36" y="118"/>
+      <point x="49" y="116"/>
+      <point x="61" y="111" type="curve"/>
+      <point x="74" y="136" type="line"/>
+      <point x="54" y="166"/>
+      <point x="13" y="184"/>
+      <point x="-24" y="184" type="curve" smooth="yes"/>
+      <point x="-83" y="184"/>
+      <point x="-146" y="123"/>
+      <point x="-146" y="-22" type="curve" smooth="yes"/>
+      <point x="-146" y="-53"/>
+      <point x="-128" y="-73"/>
     </contour>
     <contour>
-      <point x="145.0" y="5.0" type="line"/>
-      <point x="-21.0" y="5.0"/>
-      <point x="-111.0" y="-55.0"/>
-      <point x="-202.0" y="-148.0" type="curve"/>
-      <point x="-167.0" y="-173.0" type="line"/>
-      <point x="-64.0" y="-80.0"/>
-      <point x="19.0" y="-77.0"/>
-      <point x="94.0" y="-77.0" type="curve"/>
+      <point x="145" y="5" type="line"/>
+      <point x="-21" y="5"/>
+      <point x="-111" y="-55"/>
+      <point x="-202" y="-148" type="curve"/>
+      <point x="-167" y="-173" type="line"/>
+      <point x="-64" y="-80"/>
+      <point x="19" y="-77"/>
+      <point x="94" y="-77" type="curve"/>
     </contour>
   </outline>
 </glyph>

@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ainThreedotsdownabove-ar" format="2">
-  <advance width="782.0"/>
+  <advance width="782"/>
   <unicode hex="075E"/>
-  <anchor x="188.0" y="1292.0" name="diaA"/>
-  <anchor x="273.0" y="-830.0" name="diaB"/>
+  <anchor x="188" y="1292" name="diaA"/>
+  <anchor x="273" y="-830" name="diaB"/>
   <outline>
     <component base="ain-ar"/>
-    <component base="_dot3d" xOffset="237.0" yOffset="958.0"/>
+    <component base="_dot3d" xOffset="237" yOffset="958"/>
   </outline>
 </glyph>

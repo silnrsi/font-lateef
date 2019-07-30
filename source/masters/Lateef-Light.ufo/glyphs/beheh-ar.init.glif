@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="beheh-ar.init" format="2">
-  <advance width="353.0"/>
-  <anchor x="105.0" y="700.0" name="diaA"/>
-  <anchor x="166.0" y="-636.0" name="diaB"/>
+  <advance width="353"/>
+  <anchor x="105" y="700" name="diaA"/>
+  <anchor x="166" y="-636" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_dot4" xOffset="199.0" yOffset="-336.0"/>
+    <component base="_dot4" xOffset="199" yOffset="-336"/>
   </outline>
   <lib>
     <dict>

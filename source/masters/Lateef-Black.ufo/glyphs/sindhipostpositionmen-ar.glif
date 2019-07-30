@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sindhipostpositionmen-ar" format="2">
-  <advance width="912.0"/>
+  <advance width="912"/>
   <unicode hex="06FE"/>
-  <anchor x="486.0" y="733.0" name="diaA"/>
-  <anchor x="150.0" y="-251.0" name="diaB"/>
+  <anchor x="486" y="733" name="diaA"/>
+  <anchor x="150" y="-251" name="diaB"/>
   <outline>
     <component base="meem-ar.sindhi"/>
-    <component base="_lines" xOffset="637.0"/>
+    <component base="_lines" xOffset="637"/>
   </outline>
 </glyph>

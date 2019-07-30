@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tahThreedots-ar.init" format="2">
-  <advance width="805.0"/>
-  <anchor x="0.0" y="832.0" name="alef"/>
-  <anchor x="219.0" y="1235.0" name="diaA"/>
-  <anchor x="202.0" y="-202.0" name="diaB"/>
+  <advance width="805"/>
+  <anchor x="0" y="832" name="alef"/>
+  <anchor x="219" y="1235" name="diaA"/>
+  <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="tah-ar.init"/>
-    <component base="_dot3u" xOffset="542.0" yOffset="934.0"/>
+    <component base="_dot3u" xOffset="542" yOffset="934"/>
   </outline>
 </glyph>

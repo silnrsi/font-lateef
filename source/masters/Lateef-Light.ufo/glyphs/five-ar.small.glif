@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="five-ar.small" format="2">
-  <advance width="470.0"/>
-  <anchor x="-2.0" y="0.0" name="digitL"/>
-  <anchor x="468.0" y="0.0" name="digitR"/>
+  <advance width="470"/>
+  <anchor x="-2" y="0" name="digitL"/>
+  <anchor x="468" y="0" name="digitR"/>
   <outline>
-    <component base="five-ar" xScale="0.54" yScale="0.54" xOffset="-5.0" yOffset="147.0"/>
+    <component base="five-ar" xScale="0.54" yScale="0.54" xOffset="-5" yOffset="147"/>
   </outline>
   <lib>
     <dict>

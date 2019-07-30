@@ -1,32 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehgoal-ar.fina" format="2">
-  <advance width="730.0"/>
-  <anchor x="428.0" y="390.0" name="above"/>
-  <anchor x="214.0" y="543.0" name="alef"/>
-  <anchor x="419.0" y="-100.0" name="below"/>
-  <anchor x="370.0" y="700.0" name="diaA"/>
-  <anchor x="203.0" y="-251.0" name="diaB"/>
+  <advance width="730"/>
+  <anchor x="428" y="390" name="above"/>
+  <anchor x="214" y="543" name="alef"/>
+  <anchor x="419" y="-100" name="below"/>
+  <anchor x="370" y="700" name="diaA"/>
+  <anchor x="203" y="-251" name="diaB"/>
   <outline>
     <contour>
-      <point x="412.0" y="318.0" type="curve" smooth="yes"/>
-      <point x="258.0" y="318.0"/>
-      <point x="125.0" y="170.0"/>
-      <point x="40.0" y="-165.0" type="curve"/>
-      <point x="55.0" y="-167.0" type="line"/>
-      <point x="138.0" y="-13.0"/>
-      <point x="236.0" y="138.0"/>
-      <point x="381.0" y="138.0" type="curve" smooth="yes"/>
-      <point x="519.0" y="138.0"/>
-      <point x="565.0" y="0.0"/>
-      <point x="730.0" y="0.0" type="curve" smooth="yes"/>
-      <point x="771.0" y="0.0"/>
-      <point x="792.0" y="43.0"/>
-      <point x="792.0" y="90.0" type="curve" smooth="yes"/>
-      <point x="792.0" y="137.0"/>
-      <point x="771.0" y="180.0"/>
-      <point x="730.0" y="180.0" type="curve" smooth="yes"/>
-      <point x="631.0" y="180.0"/>
-      <point x="560.0" y="318.0"/>
+      <point x="412" y="318" type="curve" smooth="yes"/>
+      <point x="258" y="318"/>
+      <point x="125" y="170"/>
+      <point x="40" y="-165" type="curve"/>
+      <point x="55" y="-167" type="line"/>
+      <point x="138" y="-13"/>
+      <point x="236" y="138"/>
+      <point x="381" y="138" type="curve" smooth="yes"/>
+      <point x="519" y="138"/>
+      <point x="565" y="0"/>
+      <point x="730" y="0" type="curve" smooth="yes"/>
+      <point x="771" y="0"/>
+      <point x="792" y="43"/>
+      <point x="792" y="90" type="curve" smooth="yes"/>
+      <point x="792" y="137"/>
+      <point x="771" y="180"/>
+      <point x="730" y="180" type="curve" smooth="yes"/>
+      <point x="631" y="180"/>
+      <point x="560" y="318"/>
     </contour>
   </outline>
 </glyph>

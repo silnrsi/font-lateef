@@ -1,23 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_gafBar_dot2h" format="2">
   <outline>
     <contour>
-      <point x="45.0" y="316.0" type="line"/>
-      <point x="-59.0" y="420.0" type="line"/>
-      <point x="-166.0" y="316.0" type="line"/>
-      <point x="-59.0" y="212.0" type="line"/>
+      <point x="45" y="316" type="line"/>
+      <point x="-59" y="420" type="line"/>
+      <point x="-166" y="316" type="line"/>
+      <point x="-59" y="212" type="line"/>
     </contour>
     <contour>
-      <point x="258.0" y="316.0" type="line"/>
-      <point x="151.0" y="420.0" type="line"/>
-      <point x="47.0" y="316.0" type="line"/>
-      <point x="151.0" y="212.0" type="line"/>
+      <point x="258" y="316" type="line"/>
+      <point x="151" y="420" type="line"/>
+      <point x="47" y="316" type="line"/>
+      <point x="151" y="212" type="line"/>
     </contour>
     <contour>
-      <point x="0.0" y="0.0" type="line"/>
-      <point x="596.0" y="297.0" type="line"/>
-      <point x="625.0" y="383.0" type="line"/>
-      <point x="31.0" y="86.0" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="596" y="297" type="line"/>
+      <point x="625" y="383" type="line"/>
+      <point x="31" y="86" type="line"/>
     </contour>
   </outline>
 </glyph>

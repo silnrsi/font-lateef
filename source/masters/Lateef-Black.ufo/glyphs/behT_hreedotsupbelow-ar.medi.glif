@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behThreedotsupbelow-ar.medi" format="2">
-  <advance width="440.0"/>
-  <anchor x="52.0" y="599.0" name="alef"/>
-  <anchor x="185.0" y="700.0" name="diaA"/>
-  <anchor x="166.0" y="-636.0" name="diaB"/>
+  <advance width="440"/>
+  <anchor x="52" y="599" name="alef"/>
+  <anchor x="185" y="700" name="diaA"/>
+  <anchor x="166" y="-636" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="_dot3u" xOffset="203.0" yOffset="-336.0"/>
+    <component base="_dot3u" xOffset="203" yOffset="-336"/>
   </outline>
 </glyph>

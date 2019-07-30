@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehabove-ar" format="2">
   <unicode hex="06E7"/>
-  <anchor x="3.0" y="996.0" name="_diaA"/>
-  <anchor x="3.0" y="1493.0" name="diaA"/>
+  <anchor x="3" y="996" name="_diaA"/>
+  <anchor x="3" y="1493" name="diaA"/>
   <outline>
-    <component base="yehbarree-ar" xScale="0.54" yScale="0.54" xOffset="-299.0" yOffset="1265.0"/>
+    <component base="yehbarree-ar" xScale="0.54" yScale="0.54" xOffset="-299" yOffset="1265"/>
   </outline>
   <lib>
     <dict>

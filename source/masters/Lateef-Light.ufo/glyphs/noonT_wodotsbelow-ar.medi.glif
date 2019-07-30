@@ -1,13 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonTwodotsbelow-ar.medi" format="2">
-  <advance width="440.0"/>
-  <anchor x="56.0" y="740.0" name="alef"/>
-  <anchor x="162.0" y="822.0" name="diaA"/>
-  <anchor x="182.0" y="-449.0" name="diaB"/>
+  <advance width="440"/>
+  <anchor x="56" y="740" name="alef"/>
+  <anchor x="162" y="822" name="diaA"/>
+  <anchor x="182" y="-449" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="_dot1" xOffset="212.0" yOffset="566.0"/>
-    <component base="_dot2h" xOffset="203.0" yOffset="-230.0"/>
+    <component base="_dot1" xOffset="212" yOffset="566"/>
+    <component base="_dot2h" xOffset="203" yOffset="-230"/>
   </outline>
   <lib>
     <dict>

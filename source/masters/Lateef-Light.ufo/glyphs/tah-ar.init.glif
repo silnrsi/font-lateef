@@ -1,51 +1,51 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tah-ar.init" format="2">
-  <advance width="789.25"/>
-  <anchor x="542.0" y="648.0" name="above"/>
-  <anchor x="0.0" y="832.0" name="alef"/>
-  <anchor x="332.0" y="-50.0" name="below"/>
-  <anchor x="219.0" y="1235.0" name="diaA"/>
-  <anchor x="202.0" y="-202.0" name="diaB"/>
+  <advance width="789"/>
+  <anchor x="542" y="648" name="above"/>
+  <anchor x="0" y="832" name="alef"/>
+  <anchor x="332" y="-50" name="below"/>
+  <anchor x="219" y="1235" name="diaA"/>
+  <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <contour>
-      <point x="-5.0" y="0.0" type="curve" smooth="yes"/>
-      <point x="0.0" y="0.0" type="line" smooth="yes"/>
-      <point x="152.0" y="0.0"/>
-      <point x="276.0" y="2.0"/>
-      <point x="388.0" y="43.0" type="curve" smooth="yes"/>
-      <point x="497.0" y="82.0"/>
-      <point x="749.0" y="237.0"/>
-      <point x="749.0" y="405.0" type="curve" smooth="yes"/>
-      <point x="749.0" y="487.0"/>
-      <point x="696.0" y="544.0"/>
-      <point x="605.0" y="544.0" type="curve" smooth="yes"/>
-      <point x="430.0" y="544.0"/>
-      <point x="95.0" y="187.0"/>
-      <point x="12.0" y="98.0" type="curve"/>
-      <point x="66.0" y="97.0" type="line"/>
-      <point x="207.0" y="241.0"/>
-      <point x="428.0" y="406.0"/>
-      <point x="496.0" y="406.0" type="curve" smooth="yes"/>
-      <point x="592.0" y="406.0"/>
-      <point x="662.0" y="355.0"/>
-      <point x="662.0" y="296.0" type="curve" smooth="yes"/>
-      <point x="662.0" y="225.0"/>
-      <point x="369.0" y="127.0"/>
-      <point x="0.0" y="127.0" type="curve" smooth="yes"/>
-      <point x="-5.0" y="127.0" type="line" smooth="yes"/>
-      <point x="-37.0" y="127.0"/>
-      <point x="-46.0" y="103.0"/>
-      <point x="-46.0" y="63.0" type="curve" smooth="yes"/>
-      <point x="-46.0" y="24.0"/>
-      <point x="-38.0" y="0.0"/>
+      <point x="-5" y="0" type="curve" smooth="yes"/>
+      <point x="0" y="0" type="line" smooth="yes"/>
+      <point x="152" y="0"/>
+      <point x="276" y="2"/>
+      <point x="388" y="43" type="curve" smooth="yes"/>
+      <point x="497" y="82"/>
+      <point x="749" y="237"/>
+      <point x="749" y="405" type="curve" smooth="yes"/>
+      <point x="749" y="487"/>
+      <point x="696" y="544"/>
+      <point x="605" y="544" type="curve" smooth="yes"/>
+      <point x="430" y="544"/>
+      <point x="95" y="187"/>
+      <point x="12" y="98" type="curve"/>
+      <point x="66" y="97" type="line"/>
+      <point x="207" y="241"/>
+      <point x="428" y="406"/>
+      <point x="496" y="406" type="curve" smooth="yes"/>
+      <point x="592" y="406"/>
+      <point x="662" y="355"/>
+      <point x="662" y="296" type="curve" smooth="yes"/>
+      <point x="662" y="225"/>
+      <point x="369" y="127"/>
+      <point x="0" y="127" type="curve" smooth="yes"/>
+      <point x="-5" y="127" type="line" smooth="yes"/>
+      <point x="-37" y="127"/>
+      <point x="-46" y="103"/>
+      <point x="-46" y="63" type="curve" smooth="yes"/>
+      <point x="-46" y="24"/>
+      <point x="-38" y="0"/>
     </contour>
     <contour>
-      <point x="139.0" y="206.0" type="line"/>
-      <point x="207.0" y="260.0" type="line"/>
-      <point x="207.0" y="886.0" type="line"/>
-      <point x="139.0" y="945.0" type="line"/>
+      <point x="139" y="206" type="line"/>
+      <point x="207" y="260" type="line"/>
+      <point x="207" y="886" type="line"/>
+      <point x="139" y="945" type="line"/>
     </contour>
-    <component base="_strokeHead" xOffset="-90.0" yOffset="845.0"/>
+    <component base="_strokeHead" xOffset="-90" yOffset="845"/>
   </outline>
   <lib>
     <dict>
