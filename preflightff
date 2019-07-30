@@ -1,15 +1,15 @@
 #!/bin/sh
-# Update UFO after any edits other than with FontForge and prior to commit
+# Update UFO after editing with FontForge and prior to commit
 
 # Stop on any errors
 set -e
 
 # Check and normalize all UFOs first -- assumes no other steps de-normalize
 echo
-echo "Normalizing UFOs..."
-psfnormalize -p checkfix=fix source/masters/*-Light.ufo    &
-psfnormalize -p checkfix=fix source/masters/*-Regular.ufo  &
-psfnormalize -p checkfix=fix source/masters/*-Black.ufo    &
+echo "Fixing FontForge debris and normalizing UFOs..."
+psffixffglifs -p checkfix=fix source/masters/*-Light.ufo    &
+psffixffglifs -p checkfix=fix source/masters/*-Regular.ufo  &
+psffixffglifs -p checkfix=fix source/masters/*-Black.ufo    &
 wait
 
 echo
@@ -30,4 +30,4 @@ echo "Updating woff metadata file..."
 psfmakewoffmetadata -q -n Lateef -i org.sil.fonts source/masters/*-Regular.ufo
 
 echo
-echo "preflight completed!"
+echo "preflightff completed!"
