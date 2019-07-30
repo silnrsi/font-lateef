@@ -143,7 +143,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameSampleText</key>
   <string/>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Lateef Exra Bold: 2019</string>
+  <string>SIL International: Lateef Light: 2019</string>
   <key>openTypeNameVersion</key>
   <string>Version 1.200</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -224,7 +224,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>1044</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>Lateef-Bold</string>
+  <string>Lateef-Light</string>
   <key>postscriptForceBold</key>
   <false/>
   <key>postscriptIsFixedPitch</key>
