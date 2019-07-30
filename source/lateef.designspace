@@ -17,10 +17,6 @@
     </axes>
     <sources>
         <source familyname="Lateef" filename="masters/Lateef-Light.ufo" name="Lateef-Light" stylename="Light">
-            <lib copy="1" />
-            <groups copy="1" />
-            <features copy="1" />
-            <info copy="1" />
             <location>
                 <dimension name="weight" xvalue="300" />
                 <dimension name="width" xvalue="100" />
@@ -39,10 +35,6 @@
             </location>
         </source>
         <source familyname="Lateef" filename="masters/Lateef-Black.ufo" name="Lateef-Black" stylename="Black">
-            <lib copy="1" />
-            <groups copy="1" />
-            <features copy="1" />
-            <info copy="1" />
             <location>
                 <dimension name="weight" xvalue="800" />
                 <dimension name="width" xvalue="100" />
