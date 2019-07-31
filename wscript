@@ -66,7 +66,7 @@ designspace('source/lateef.designspace',
 #        ),
  
     fret = fret(params='-r -oi'),
-    woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
+    woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m "../source/Lateef-WOFF-metadata.xml"'),
 #   typetuner = 'source/typetuner.xml',
     )
 
