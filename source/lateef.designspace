@@ -56,6 +56,8 @@
                 <dimension name="width" xvalue="100" />
                 <dimension name="custom" xvalue="0" />
             </location>
+            <info/>
+            <kerning/>
         </instance>
         <instance       familyname="Lateef Light"
                               name="Lateef Light Bold"
@@ -69,6 +71,8 @@
                 <dimension name="width" xvalue="100" />
                 <dimension name="custom" xvalue="0" />
             </location>
+            <info/>
+            <kerning/>
         </instance>
 
         <!-- Lateef, R & B -->
@@ -84,6 +88,8 @@
                 <dimension name="width" xvalue="100" />
                 <dimension name="custom" xvalue="0" />
             </location>
+            <info/>
+            <kerning/>
         </instance>
         <instance       familyname="Lateef"
                               name="Lateef Bold"
@@ -97,6 +103,8 @@
                 <dimension name="width" xvalue="100" />
                 <dimension name="custom" xvalue="0" />
             </location>
+            <info/>
+            <kerning/>
         </instance>
 
         <!-- Lateef Book, R & B -->
@@ -112,6 +120,8 @@
                 <dimension name="width" xvalue="100" />
                 <dimension name="custom" xvalue="0" />
             </location>
+            <info/>
+            <kerning/>
         </instance>
         <instance       familyname="Lateef Book"
                               name="Lateef Book Bold"
@@ -125,6 +135,8 @@
                 <dimension name="width" xvalue="100" />
                 <dimension name="custom" xvalue="0" />
             </location>
+            <info/>
+            <kerning/>
         </instance>
     </instances>
 </designspace>
