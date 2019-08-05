@@ -100,6 +100,7 @@ $RECYCLE.BIN/
 # Other
 .sass-cache/
 .jekyll-metadata
+tmp/
 
 # Byte-compiled / optimized files
 *.py[co]
