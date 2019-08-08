@@ -7,15 +7,17 @@
   <anchor x="167" y="-474" name="diaB"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="_smallV" xOffset="376" yOffset="604"/>
+    <component base="vabove-ar" xOffset="166" yOffset="-487"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>
-        <integer>-1</integer>
+        <integer>0</integer>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

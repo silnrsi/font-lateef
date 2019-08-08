@@ -6,16 +6,18 @@
   <anchor x="503" y="1073" name="diaA"/>
   <anchor x="260" y="-462" name="diaB"/>
   <outline>
-    <component base="_smallV" xOffset="538" yOffset="822"/>
     <component base="yeh-ar.noDots"/>
+    <component base="vabove-ar" xOffset="329" yOffset="-269"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>
-        <integer>-1</integer>
+        <integer>0</integer>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>
