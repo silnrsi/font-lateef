@@ -254,6 +254,14 @@
   <string>keheh-ar.glif</string>
   <key>keheh-ar.fina</key>
   <string>keheh-ar.fina.glif</string>
+  <key>kehehThreedotsbelow-ar</key>
+  <string>kehehT_hreedotsbelow-ar.glif</string>
+  <key>kehehThreedotsbelow-ar.fina</key>
+  <string>kehehT_hreedotsbelow-ar.fina.glif</string>
+  <key>kehehTwodotshorizontalabove-ar</key>
+  <string>kehehT_wodotshorizontalabove-ar.glif</string>
+  <key>kehehTwodotshorizontalabove-ar.fina</key>
+  <string>kehehT_wodotshorizontalabove-ar.fina.glif</string>
   <key>lam-ar</key>
   <string>lam-ar.glif</string>
   <key>lam-ar.fina</key>
@@ -318,6 +326,12 @@
   <string>number-ar.2.glif</string>
   <key>number-ar.3</key>
   <string>number-ar.3.glif</string>
+  <key>numbermark-ar</key>
+  <string>numbermark-ar.glif</string>
+  <key>numbermark-ar.2</key>
+  <string>numbermark-ar.2.glif</string>
+  <key>numbermark-ar.3</key>
+  <string>numbermark-ar.3.glif</string>
   <key>one-ar</key>
   <string>one-ar.glif</string>
   <key>one-ar.medium</key>

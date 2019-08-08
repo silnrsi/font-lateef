@@ -23,11 +23,10 @@
   <string>1230</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/ain-ar.fina/gafRing-ar.medi/tah-ar.medi/tahThreedots-ar.medi/fehDotless-ar.medi/tteh-ar.medi/hah-ar.init</string>
-    <string>/behDotless-ar.medi</string>
-    <string>/tah-ar/_tah/tteh-ar.medi</string>
-    <string>/tahThreedots-ar.medi</string>
-    <string>v/gafRing-ar.medi</string>
+    <string>/ain-ar.fina/gafRing-ar.medi/tahThreedots-ar.medi/fehDotless-ar.medi/tteh-ar.medi/hah-ar.init</string>
+    <string>/yehTwodotsabove-farsi/yehTwodotsabove-farsi.fina/yehTwodotsabove-farsi.medi/yehTwodotsabove-farsi.init</string>
+    <string>/kehehTwodotshorizontalabove-ar/kehehTwodotshorizontalabove-ar.fina/kehehTwodotshorizontalabove-ar.medi/kehehTwodotshorizontalabove-ar.init/kehehThreedotsbelow-ar/kehehThreedotsbelow-ar.fina/kehehThreedotsbelow-ar.medi/kehehThreedotsbelow-ar.init/yehTwodotsabove-farsi/yehTwodotsabove-farsi.fina/yehTwodotsabove-farsi.medi/yehTwodotsabove-farsi.init/yehThreedotsabove-farsi/yehThreedotsabove-farsi.fina/yehThreedotsabove-farsi.medi/yehThreedotsabove-farsi.init/blank 
+/numbermark-ar/numbermark-ar/numbermark-ar.3/numbermark-ar.4</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehThreedotsbelow-ar.fina" format="2">
-  <advance width="1036"/>
+  <advance width="952"/>
   <anchor x="375" y="329" name="alef"/>
   <anchor x="471" y="510" name="diaA"/>
   <anchor x="281" y="-1081" name="diaB"/>

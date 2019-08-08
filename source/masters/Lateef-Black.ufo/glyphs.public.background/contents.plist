@@ -252,6 +252,14 @@
   <string>keheh-ar.glif</string>
   <key>keheh-ar.fina</key>
   <string>keheh-ar.fina.glif</string>
+  <key>kehehThreedotsbelow-ar</key>
+  <string>kehehT_hreedotsbelow-ar.glif</string>
+  <key>kehehThreedotsbelow-ar.fina</key>
+  <string>kehehT_hreedotsbelow-ar.fina.glif</string>
+  <key>kehehTwodotshorizontalabove-ar</key>
+  <string>kehehT_wodotshorizontalabove-ar.glif</string>
+  <key>kehehTwodotshorizontalabove-ar.fina</key>
+  <string>kehehT_wodotshorizontalabove-ar.fina.glif</string>
   <key>lam-ar</key>
   <string>lam-ar.glif</string>
   <key>lam-ar.fina</key>
