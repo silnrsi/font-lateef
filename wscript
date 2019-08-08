@@ -38,7 +38,7 @@ ftmlTest('tools/ftml.xsl')
 # APs to omit:
 omitaps = '--omitaps "_above _below _center _ring _through above below center ring through"'
 
-designspace('source/lateef.designspace',
+designspace('source/lateef-RB.designspace',
     shortcircuit = True,
     # params = '-l ${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
