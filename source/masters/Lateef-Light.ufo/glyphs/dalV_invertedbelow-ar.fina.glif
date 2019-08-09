@@ -6,15 +6,17 @@
   <anchor x="316" y="-445" name="diaB"/>
   <outline>
     <component base="dal-ar.fina"/>
-    <component base="_invSmallV" xOffset="349" yOffset="-290"/>
+    <component base="vinvertedabove-ar" xOffset="144" yOffset="-1345"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>
-        <integer>-1</integer>
+        <integer>0</integer>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

@@ -5,8 +5,8 @@
   <anchor x="182" y="-437" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_hat" xOffset="201" yOffset="600"/>
     <component base="_dot2h" xOffset="199" yOffset="-230"/>
+    <component base="vinvertedabove-ar" xOffset="1" yOffset="-455"/>
   </outline>
   <lib>
     <dict>
@@ -14,8 +14,10 @@
       <array>
         <integer>-1</integer>
         <integer>-1</integer>
-        <integer>-1</integer>
+        <integer>0</integer>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

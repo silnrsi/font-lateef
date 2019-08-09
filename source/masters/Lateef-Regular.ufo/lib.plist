@@ -23,7 +23,7 @@
   <string>1230</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/dalVinvertedabove-ar</string>
+    <string>/behVinvertedbelow-ar.fina/behVinvertedbelow-ar.medi/behVinvertedbelow-ar.init/behVabove-ar.fina/behVabove-ar.medi/behVabove-ar.init/dalVinvertedabove-ar.fina/dalVinvertedbelow-ar.fina/zainVinvertedabove-ar.fina/rehv-ar.fina/rehVbelow-ar.fina/rehVinvertedabove-ar.fina/lamVabove-ar.fina/lamVabove-ar.medi/lamVabove-ar.init/lamVabove-ar.preAlef.medi/lamVabove-ar.preAlef.init/noonVabove-ar.fina/noonVabove-ar.medi/noonVabove-ar.init/hehVinvertedabove-ar.fina/hehVinvertedabove-ar.medi/hehVinvertedabove-ar.init/kirghizyu-ar.fina/yehVabove-ar.fina/yehVabove-ar.medi/yehVabove-ar.init/yehVinverted-farsi.fina/alefMaksura-ar.fina/yeh-ar.fina/yehHamzaabove-ar.fina/yehVabove-ar.fina/yeh-farsi.fina/e-ar.fina/yehVinverted-farsi.medi/yehVinverted-farsi.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

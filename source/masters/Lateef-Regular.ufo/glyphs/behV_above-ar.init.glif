@@ -5,6 +5,12 @@
   <anchor x="150" y="-202" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_smallV" xOffset="206" yOffset="698"/>
+    <component base="vabove-ar" xOffset="-6" yOffset="-395"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
