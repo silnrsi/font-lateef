@@ -8,10 +8,4 @@
     <component base="heh-ar.knottedHigh.medi"/>
     <component base="vinvertedabove-ar" xOffset="135" yOffset="-366"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>
