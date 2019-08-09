@@ -18,38 +18,30 @@ DEBPKG = 'fonts-sil-lateef'
 # set the font family name
 FAMILY = APPNAME
 
-# set licensing info
-COPYRIGHT="Copyright (c) 2004-2019, SIL International (http://www.sil.org), with Reserved Font Names \"Harmattan\" and \"SIL\""
-LICENSE='OFL.txt'
-
 DESC_NAME = "Lateef"
 DESC_SHORT = "An Arabic script font for Sindhi and other languages of southern Asia"
 
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
-
+# BUILDLABEL = 'beta'
 
 # set up the sile tests (using fontproof)
 testCommand('sile', cmd='${SILE} --debug versions -o "${TGT}" "${SRC[0].abspath()}" -f "${SRC[1]}"', extracmds=['sile'], shapers=0, supports=['.sil'], ext='.pdf')
 
-
+# set up FTML tests
 ftmlTest('tools/ftml.xsl')
 
 # APs to omit:
 omitaps = '--omitaps "_above _below _center _ring _through above below center ring through"'
 
 designspace('source/lateef-RB.designspace',
-    shortcircuit = True,
-    # params = '-l ${DS:FILENAME_BASE}_createintance.log',
+    params = '-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
-        # The following generates smith error: "source not found: 'instances/Lateef-Regular.ufo'" -- Not sure why.
-        #cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['${DS:FILENAME}']),
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/masters/' + FAMILY + '-Regular' + '.ufo']),
         # cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     classes = 'source/classes.xml',
-    version = VERSION,
-    license = ofl('Lateef','SIL'),
+    version = VERSION,  # Needed to ensure dev information on version string
     ap = generated + '${DS:FILENAME_BASE}.xml',
 
     graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
@@ -66,9 +58,10 @@ designspace('source/lateef-RB.designspace',
 #        ),
  
     fret = fret(params='-r -oi'),
-    woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m "../source/Lateef-WOFF-metadata.xml"'),
+    woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m "../source/' + FAMILY + '-WOFF-metadata.xml"'),
 #   typetuner = 'source/typetuner.xml',
     )
 
 def configure(ctx):
     ctx.find_program('psfchangettfglyphnames')
+#    ctx.find_program('ttfautohint')
