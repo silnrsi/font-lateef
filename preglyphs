@@ -1,6 +1,6 @@
 #!/bin/sh
 # script to convert UFOs to glyphs file for editing
-DESIGNSPACE=source/lateef.designspace
+DESIGNSPACE=source/lateef-RB.designspace
 OUTPUT=source/masters/Lateef.glyphs
 
 echo "Converting UFO(s) in '$DESIGNSPACE' to '$OUTPUT'"
