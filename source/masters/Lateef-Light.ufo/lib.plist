@@ -22,6 +22,8 @@
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/gafRing-ar.medi/gafRing-ar.medi.001/tteh-ar.medi/hah-ar.init</string>
+    <string>/tcheh-ar.fina/tchehDotabove-ar.fina/nyeh-ar.fina/dyeh-ar.fina/hahThreedotsupbelow-ar.fina/hahTahTwodotshorizontalabove-ar.fina</string>
+    <string>/nyeh-ar.fina/dyeh-ar.fina/hahThreedotsupbelow-ar.fina/hahTahTwodotshorizontalabove-ar.fina</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
