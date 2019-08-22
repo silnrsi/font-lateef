@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alef-ar" format="2">
-  <advance width="362"/>
+  <advance width="380"/>
   <unicode hex="0627"/>
   <anchor x="195" y="1176" name="above"/>
   <anchor x="195" y="-50" name="below"/>
@@ -8,16 +8,22 @@
   <anchor x="162" y="-150" name="diaB"/>
   <outline>
     <contour>
-      <point x="137" y="987" type="line"/>
-      <point x="127" y="674"/>
-      <point x="162" y="465"/>
-      <point x="152" y="-5" type="curve"/>
-      <point x="183" y="0"/>
-      <point x="208" y="21"/>
-      <point x="215" y="54" type="curve" smooth="yes"/>
-      <point x="275" y="356"/>
-      <point x="232" y="811"/>
-      <point x="242" y="1126" type="curve"/>
+      <point x="120" y="949" type="line"/>
+      <point x="110" y="636"/>
+      <point x="145" y="465"/>
+      <point x="135" y="-5" type="curve"/>
+      <point x="166" y="0"/>
+      <point x="221" y="74"/>
+      <point x="228" y="107" type="curve" smooth="yes"/>
+      <point x="292" y="408"/>
+      <point x="245" y="811"/>
+      <point x="255" y="1126" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

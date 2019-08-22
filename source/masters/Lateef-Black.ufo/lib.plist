@@ -31,9 +31,8 @@
   <string>Black</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/gafRing-ar.medi/gafRing-ar.medi.001/tteh-ar.medi/hah-ar.init</string>
-    <string>/tcheh-ar.fina/tchehDotabove-ar.fina/nyeh-ar.fina/dyeh-ar.fina/hahThreedotsupbelow-ar.fina/hahTahTwodotshorizontalabove-ar.fina</string>
-    <string>/nyeh-ar.fina/dyeh-ar.fina/hahThreedotsupbelow-ar.fina/hahTahTwodotshorizontalabove-ar.fina</string>
+    <string>/ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/kaf-ar.medi/gafRing-ar.medi/gafRing-ar.medi.001/tteh-ar.medi/hah-ar.init</string>
+    <string>/alef-ar/behDotless-ar/hah-ar/dal-ar/reh-ar/seen-ar/sad-ar/ain-ar/fehDotless-ar/qafDotless-ar/keheh-ar/lam-ar/meem-ar/meem-ar.sindhi/noonghunna-ar/ae-ar/hehDoachashmee-ar/yeh-ar.noDots/yehbarree-ar/ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/gafRing-ar.medi/tteh-ar.medi/hah-ar.init/one-ar/two-ar/three-ar/four-ar/five-ar/six-ar/seven-ar/eight-ar/nine-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

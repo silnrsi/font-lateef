@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tah-ar" format="2">
-  <advance width="1124"/>
+  <advance width="1184"/>
   <unicode hex="0637"/>
   <anchor x="810" y="635" name="above"/>
   <anchor x="211" y="845" name="alef"/>

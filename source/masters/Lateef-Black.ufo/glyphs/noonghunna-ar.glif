@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonghunna-ar" format="2">
-  <advance width="796"/>
+  <advance width="816"/>
   <unicode hex="06BA"/>
   <anchor x="329" y="322" name="above"/>
   <anchor x="219" y="543" name="alef"/>
@@ -11,4 +11,10 @@
   <outline>
     <component base="_bowl_seen" yOffset="90"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
