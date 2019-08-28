@@ -35,7 +35,7 @@ ftmlTest('tools/ftml.xsl')
 omitaps = '--omitaps "_above _below _center _ring _through above below center ring through"'
 
 designspace('source/lateef-RB.designspace',
-    params = '-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
+    instanceparams='-W -l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/masters/' + FAMILY + '-Regular' + '.ufo']),
         # cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
