@@ -31,8 +31,7 @@
   <string>Black</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/kaf-ar.medi/gafRing-ar.medi/gafRing-ar.medi.001/tteh-ar.medi/hah-ar.init</string>
-    <string>/yehbarree-ar/yeh-ar.noDots/hehDoachashmee-ar/ae-ar/noonghunna-ar/meem-ar.sindhi/meem-ar/lam-ar/keheh-ar/qafDotless-ar/fehDotless-ar/ain-ar/sad-ar/seen-ar/reh-ar/dal-ar/hah-ar/behDotless-ar/alef-ar/nine-ar/eight-ar/seven-ar/six-ar/five-ar/four-ar/three-ar/two-ar/one-ar/zero-ar  /ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/gafRing-ar.medi/tteh-ar.medi/hah-ar.init</string>
+    <string>/yehbarree-ar/yeh-ar.noDots/hehDoachashmee-ar/ae-ar/noonghunna-ar/meem-ar.sindhi/meem-ar/lam-ar/kaf-ar.init/keheh-ar.init/keheh-ar/qafDotless-ar/fehDotless-ar/ain-ar/tah-ar/sad-ar/seen-ar/reh-ar/dal-ar/hah-ar/behDotless-ar/alef-ar/nine-ar/eight-ar/seven-ar/six-ar/five-ar/four-ar/three-ar/two-ar/one-ar/zero-ar  /ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/gafRing-ar.medi/tteh-ar.medi/hah-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

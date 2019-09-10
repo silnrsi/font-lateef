@@ -140,8 +140,6 @@
   <string>fathatan-ar.glif</string>
   <key>fathatwodots-ar</key>
   <string>fathatwodots-ar.glif</string>
-  <key>fehDotless-ar</key>
-  <string>fehD_otless-ar.glif</string>
   <key>fehDotless-ar.fina</key>
   <string>fehD_otless-ar.fina.glif</string>
   <key>fehDotless-ar.init</key>
@@ -236,8 +234,6 @@
   <string>kaf-ar.glif</string>
   <key>kaf-ar.fina</key>
   <string>kaf-ar.fina.glif</string>
-  <key>kaf-ar.init</key>
-  <string>kaf-ar.init.glif</string>
   <key>kafswash-ar</key>
   <string>kafswash-ar.glif</string>
   <key>kafswash-ar.fina</key>
@@ -262,8 +258,6 @@
   <string>kehehT_wodotshorizontalabove-ar.glif</string>
   <key>kehehTwodotshorizontalabove-ar.fina</key>
   <string>kehehT_wodotshorizontalabove-ar.fina.glif</string>
-  <key>lam-ar</key>
-  <string>lam-ar.glif</string>
   <key>lam-ar.fina</key>
   <string>lam-ar.fina.glif</string>
   <key>lam-ar.init</key>
