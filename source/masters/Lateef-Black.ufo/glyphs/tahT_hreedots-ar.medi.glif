@@ -6,12 +6,12 @@
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="tah-ar.medi"/>
-    <component base="_dot3u" xOffset="595" yOffset="943"/>
+    <component base="_dot3u" xOffset="605" yOffset="973"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

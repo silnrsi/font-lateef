@@ -10,8 +10,35 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>491</integer>
+            <integer>837</integer>
+          </array>
+          <key>type</key>
+          <string>Circle</string>
+          <key>width</key>
+          <real>257.35419</real>
+        </dict>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>584</integer>
+            <integer>458</integer>
+          </array>
+          <key>text</key>
+          <string>Add taper</string>
+          <key>type</key>
+          <string>Text</string>
+          <key>width</key>
+          <integer>100</integer>
+        </dict>
+      </array>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.85,0.26,0.06,1</string>
     </dict>
   </lib>
 </glyph>

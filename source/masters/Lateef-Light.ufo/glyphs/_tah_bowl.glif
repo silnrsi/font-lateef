@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_tah_bowl" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="512" y="550" type="curve" smooth="yes"/>
+      <point x="337" y="550"/>
+      <point x="-40" y="204"/>
+      <point x="-122" y="115" type="curve"/>
+      <point x="-62" y="112" type="line"/>
+      <point x="79" y="256"/>
+      <point x="335" y="412"/>
+      <point x="403" y="412" type="curve" smooth="yes"/>
+      <point x="492" y="412"/>
+      <point x="569" y="361"/>
+      <point x="569" y="303" type="curve" smooth="yes"/>
+      <point x="569" y="196"/>
+      <point x="269" y="122"/>
+      <point x="-25" y="122" type="curve"/>
+      <point x="0" y="-8" type="line"/>
+      <point x="281" y="-8"/>
+      <point x="656" y="155"/>
+      <point x="656" y="412" type="curve" smooth="yes"/>
+      <point x="656" y="494"/>
+      <point x="603" y="550"/>
+    </contour>
+  </outline>
+</glyph>

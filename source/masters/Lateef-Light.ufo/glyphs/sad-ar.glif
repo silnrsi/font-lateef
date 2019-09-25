@@ -9,41 +9,27 @@
   <anchor x="176" y="-514" name="diaB"/>
   <outline>
     <contour>
-      <point x="1405" y="529" type="curve" smooth="yes"/>
-      <point x="1230" y="529"/>
-      <point x="895" y="172"/>
-      <point x="812" y="83" type="curve"/>
-      <point x="866" y="82" type="line"/>
-      <point x="1007" y="226"/>
-      <point x="1228" y="391"/>
-      <point x="1296" y="391" type="curve" smooth="yes"/>
-      <point x="1392" y="391"/>
-      <point x="1462" y="340"/>
-      <point x="1462" y="281" type="curve" smooth="yes"/>
-      <point x="1462" y="217"/>
-      <point x="1230" y="115"/>
-      <point x="914" y="115" type="curve" smooth="yes"/>
-      <point x="837" y="115"/>
-      <point x="765" y="127"/>
+      <point x="868" y="115" type="line"/>
+      <point x="817" y="115"/>
+      <point x="751" y="128"/>
       <point x="718" y="142" type="curve"/>
       <point x="740" y="0" type="line"/>
       <point x="765" y="-7"/>
-      <point x="845" y="-15"/>
-      <point x="863" y="-15" type="curve" smooth="yes"/>
-      <point x="1181" y="-12"/>
-      <point x="1549" y="143"/>
-      <point x="1549" y="390" type="curve" smooth="yes"/>
-      <point x="1549" y="472"/>
-      <point x="1496" y="529"/>
+      <point x="829" y="-15"/>
+      <point x="893" y="-15" type="curve"/>
     </contour>
     <component base="_bowl_seen" yOffset="20"/>
+    <component base="_tah_bowl" xOffset="891" yOffset="-7"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>
+        <integer>0</integer>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

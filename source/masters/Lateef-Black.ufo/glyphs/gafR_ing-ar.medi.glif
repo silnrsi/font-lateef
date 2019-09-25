@@ -10,8 +10,24 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>448</integer>
+            <integer>-77</integer>
+          </array>
+          <key>text</key>
+          <string>Use design from Kaf</string>
+          <key>type</key>
+          <string>Text</string>
+          <key>width</key>
+          <integer>103</integer>
+        </dict>
+      </array>
       <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
+      <string>0.85,0.26,0.06,1</string>
     </dict>
   </lib>
 </glyph>

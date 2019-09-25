@@ -29,7 +29,12 @@
   <string>1230</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/yehbarree-ar/yeh-ar.noDots/hehDoachashmee-ar/ae-ar/noonghunna-ar/meem-ar.sindhi/meem-ar/lam-ar/kaf-ar.init/keheh-ar.init/keheh-ar/qafDotless-ar/fehDotless-ar/ain-ar/tah-ar/sad-ar/seen-ar/reh-ar/dal-ar/hah-ar/behDotless-ar/alef-ar/nine-ar/eight-ar/seven-ar/six-ar/five-ar/four-ar/three-ar/two-ar/one-ar/zero-ar  /ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/gafRing-ar.medi/tteh-ar.medi/hah-ar.init</string>
+    <string>/yehbarree-ar/yeh-ar.noDots/hehDoachashmee-ar/ae-ar/noonghunna-ar/meem-ar.sindhi/meem-ar/lam-ar/keheh-ar/fehDotless-ar/qafDotless-ar/waw-ar/ain-ar/tah-ar/sad-ar/seen-ar/reh-ar/dal-ar/hah-ar/behDotless-ar/alef-ar/nine-ar/eight-ar/seven-ar/six-ar/five-ar/four-ar/three-ar/two-ar/one-ar/zero-ar  /ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/gafRing-ar.medi/tteh-ar.medi/hah-ar.init</string>
+    <string>/yehbarree-ar/yeh-ar.noDots/hehDoachashmee-ar/ae-ar/noonghunna-ar/meem-ar.sindhi/meem-ar/lam-ar/keheh-ar/fehDotless-ar/qafDotless-ar/waw-ar/ain-ar 
+/tah-ar/sad-ar/seen-ar/seen-ar/seen-ar 
+/reh-ar/reh-ar/reh-ar/dal-ar/dal-ar/dal-ar/hah-ar/hah-ar/hah-ar/behDotless-ar/behDotless-ar/behDotless-ar/alef-ar/alef-ar/alef-ar 
+/nine-ar/eight-ar/seven-ar/six-ar/five-ar/four-ar/three-ar/two-ar/one-ar/zero-ar  
+/ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/gafRing-ar.medi/tteh-ar.medi/hah-ar.init  /ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/gafRing-ar.medi/tteh-ar.medi/hah-ar.init  /ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/gafRing-ar.medi/tteh-ar.medi/hah-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
