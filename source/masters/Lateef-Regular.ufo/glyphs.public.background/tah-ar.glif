@@ -77,5 +77,14 @@
       <point x="1074" y="498"/>
       <point x="1013" y="557"/>
     </contour>
+    <contour>
+      <point x="404" y="-15" type="curve"/>
+      <point x="379" y="165" type="line"/>
+      <point x="244" y="165"/>
+      <point x="105" y="178"/>
+      <point x="-5" y="198" type="curve"/>
+      <point x="75" y="65"/>
+      <point x="253" y="-15"/>
+    </contour>
   </outline>
 </glyph>

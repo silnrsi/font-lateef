@@ -4,10 +4,18 @@
 <dict>
   <key>_bowl_seen</key>
   <string>_bowl_seen.glif</string>
+  <key>_tah_bowl</key>
+  <string>_tah_bowl.glif</string>
   <key>alef-ar</key>
   <string>alef-ar.glif</string>
+  <key>behDotless-ar</key>
+  <string>behD_otless-ar.glif</string>
+  <key>dal-ar</key>
+  <string>dal-ar.glif</string>
   <key>fehDotless-ar</key>
   <string>fehD_otless-ar.glif</string>
+  <key>hah-ar</key>
+  <string>hah-ar.glif</string>
   <key>kaf-ar.medi</key>
   <string>kaf-ar.medi.glif</string>
   <key>lam-ar</key>
@@ -16,5 +24,7 @@
   <string>sad-ar.glif</string>
   <key>seen-ar</key>
   <string>seen-ar.glif</string>
+  <key>tah-ar</key>
+  <string>tah-ar.glif</string>
 </dict>
 </plist>
