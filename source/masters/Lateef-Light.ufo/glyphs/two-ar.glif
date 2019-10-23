@@ -7,16 +7,16 @@
       <point x="705" y="1093" type="curve"/>
       <point x="690" y="1093" type="line"/>
       <point x="644" y="945"/>
-      <point x="561" y="857"/>
-      <point x="472" y="857" type="curve" smooth="yes"/>
-      <point x="421" y="857"/>
-      <point x="363" y="879"/>
-      <point x="329" y="950" type="curve"/>
-      <point x="368" y="762" type="line"/>
-      <point x="404" y="739"/>
-      <point x="443" y="727"/>
-      <point x="481" y="727" type="curve" smooth="yes"/>
-      <point x="585" y="727"/>
+      <point x="581" y="867"/>
+      <point x="492" y="867" type="curve" smooth="yes"/>
+      <point x="441" y="867"/>
+      <point x="363" y="889"/>
+      <point x="329" y="960" type="curve"/>
+      <point x="368" y="792" type="line"/>
+      <point x="404" y="769"/>
+      <point x="463" y="757"/>
+      <point x="501" y="757" type="curve" smooth="yes"/>
+      <point x="605" y="757"/>
       <point x="705" y="857"/>
     </contour>
     <component base="one-ar" xOffset="-80"/>
@@ -27,6 +27,8 @@
       <array>
         <integer>-1</integer>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

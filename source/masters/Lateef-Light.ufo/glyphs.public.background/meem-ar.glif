@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meem-ar" format="2">
-  <advance width="545"/>
-  <unicode hex="0645"/>
-  <anchor x="264" y="412" name="above"/>
-  <anchor x="123" y="563" name="alef"/>
-  <anchor x="305" y="-73" name="below"/>
-  <anchor x="264" y="562" name="diaA"/>
-  <anchor x="126" y="-644" name="diaB"/>
   <outline>
     <contour>
-      <point x="201" y="284" type="curve" smooth="yes"/>
-      <point x="139" y="284"/>
+      <point x="201" y="306" type="curve" smooth="yes"/>
+      <point x="139" y="306"/>
       <point x="102" y="220"/>
       <point x="83" y="150" type="curve"/>
       <point x="98" y="146" type="line"/>
@@ -34,23 +27,17 @@
       <point x="119" y="-307"/>
       <point x="96" y="-147"/>
       <point x="96" y="-25" type="curve" smooth="yes"/>
-      <point x="96" y="8"/>
-      <point x="155" y="23"/>
-      <point x="221" y="23" type="curve" smooth="yes"/>
-      <point x="270" y="23"/>
-      <point x="322" y="15"/>
-      <point x="359" y="1" type="curve" smooth="yes"/>
-      <point x="384" y="-9"/>
-      <point x="430" y="84"/>
-      <point x="430" y="118" type="curve" smooth="yes"/>
-      <point x="430" y="167"/>
-      <point x="339" y="284"/>
+      <point x="96" y="11"/>
+      <point x="167" y="23"/>
+      <point x="238" y="23" type="curve" smooth="yes"/>
+      <point x="303" y="23"/>
+      <point x="338" y="17"/>
+      <point x="379" y="1" type="curve" smooth="yes"/>
+      <point x="404" y="-9"/>
+      <point x="450" y="84"/>
+      <point x="450" y="118" type="curve" smooth="yes"/>
+      <point x="450" y="191"/>
+      <point x="339" y="306"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>
