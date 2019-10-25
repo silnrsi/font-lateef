@@ -6,37 +6,10 @@
   <outline>
     <component base="kaf-ar.medi"/>
     <component base="_gafBar" xOffset="-9" yOffset="797"/>
-    <component base="_ring" xOffset="451" yOffset="780"/>
+    <component base="_ring" xOffset="481" yOffset="787"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>514</integer>
-            <integer>904</integer>
-          </array>
-          <key>type</key>
-          <string>Circle</string>
-          <key>width</key>
-          <real>273.401</real>
-        </dict>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>531</integer>
-            <integer>531</integer>
-          </array>
-          <key>text</key>
-          <string>Add taper</string>
-          <key>type</key>
-          <string>Text</string>
-          <key>width</key>
-          <integer>100</integer>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>
@@ -44,7 +17,7 @@
         <integer>-1</integer>
       </array>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>
