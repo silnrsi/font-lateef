@@ -2232,6 +2232,38 @@
   <string>ugrave.glif</string>
   <key>underscore</key>
   <string>underscore.glif</string>
+  <key>uniFE00</key>
+  <string>uniF_E_00.glif</string>
+  <key>uniFE01</key>
+  <string>uniF_E_01.glif</string>
+  <key>uniFE02</key>
+  <string>uniF_E_02.glif</string>
+  <key>uniFE03</key>
+  <string>uniF_E_03.glif</string>
+  <key>uniFE04</key>
+  <string>uniF_E_04.glif</string>
+  <key>uniFE05</key>
+  <string>uniF_E_05.glif</string>
+  <key>uniFE06</key>
+  <string>uniF_E_06.glif</string>
+  <key>uniFE07</key>
+  <string>uniF_E_07.glif</string>
+  <key>uniFE08</key>
+  <string>uniF_E_08.glif</string>
+  <key>uniFE09</key>
+  <string>uniF_E_09.glif</string>
+  <key>uniFE0A</key>
+  <string>uniF_E_0A_.glif</string>
+  <key>uniFE0B</key>
+  <string>uniF_E_0B_.glif</string>
+  <key>uniFE0C</key>
+  <string>uniF_E_0C_.glif</string>
+  <key>uniFE0D</key>
+  <string>uniF_E_0D_.glif</string>
+  <key>uniFE0E</key>
+  <string>uniF_E_0E_.glif</string>
+  <key>uniFE0F</key>
+  <string>uniF_E_0F_.glif</string>
   <key>v</key>
   <string>v.glif</string>
   <key>vabove-ar</key>
