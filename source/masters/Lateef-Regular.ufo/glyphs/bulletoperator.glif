@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bulletoperator" format="2">
-  <advance width="279"/>
+  <advance width="866"/>
   <unicode hex="2219"/>
+  <note>
+periodcentered
+</note>
   <outline>
-    <component base="periodcentered"/>
+    <contour>
+      <point x="433" y="293" type="curve" smooth="yes"/>
+      <point x="499" y="293"/>
+      <point x="550" y="341"/>
+      <point x="550" y="407" type="curve" smooth="yes"/>
+      <point x="550" y="471"/>
+      <point x="499" y="521"/>
+      <point x="433" y="521" type="curve" smooth="yes"/>
+      <point x="367" y="521"/>
+      <point x="316" y="471"/>
+      <point x="316" y="407" type="curve" smooth="yes"/>
+      <point x="316" y="341"/>
+      <point x="367" y="293"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

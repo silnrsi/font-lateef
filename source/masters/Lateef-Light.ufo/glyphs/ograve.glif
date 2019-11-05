@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ograve" format="2">
-  <advance width="772"/>
+  <advance width="796"/>
   <unicode hex="00F2"/>
+  <note>
+ograve
+</note>
   <outline>
     <component base="o"/>
-    <component base="grave" xOffset="91"/>
+    <component base="gravecomb" xOffset="-83"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Aring" format="2">
-  <advance width="1110"/>
+  <advance width="916"/>
   <unicode hex="00C5"/>
+  <note>
+Aring
+</note>
   <outline>
     <component base="A"/>
-    <component base="ring" xOffset="411" yOffset="330"/>
+    <component base="ringcomb.case" xOffset="-28" yOffset="-117"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

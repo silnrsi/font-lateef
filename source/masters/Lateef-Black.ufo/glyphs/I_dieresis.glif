@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Idieresis" format="2">
-  <advance width="514"/>
+  <advance width="579"/>
   <unicode hex="00CF"/>
+  <note>
+Idieresis
+</note>
   <outline>
     <component base="I"/>
-    <component base="dieresis" xOffset="16" yOffset="320"/>
+    <component base="dieresiscomb.case" xOffset="-192" yOffset="-117"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
 </glyph>

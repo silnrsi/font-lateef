@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="periodcentered" format="2">
-  <advance width="279"/>
+  <advance width="422"/>
   <unicode hex="00B7"/>
+  <note>
+periodcentered
+</note>
   <outline>
     <contour>
-      <point x="227" y="506" type="curve"/>
-      <point x="227" y="555"/>
-      <point x="188" y="592"/>
-      <point x="139" y="592" type="curve" smooth="yes"/>
-      <point x="90" y="592"/>
-      <point x="51" y="555"/>
-      <point x="51" y="506" type="curve" smooth="yes"/>
-      <point x="51" y="455"/>
-      <point x="90" y="418"/>
-      <point x="139" y="418" type="curve" smooth="yes"/>
-      <point x="188" y="418"/>
-      <point x="227" y="455"/>
+      <point x="210" y="240" type="curve" smooth="yes"/>
+      <point x="277" y="240"/>
+      <point x="327" y="290"/>
+      <point x="327" y="353" type="curve" smooth="yes"/>
+      <point x="327" y="418"/>
+      <point x="277" y="468"/>
+      <point x="210" y="468" type="curve" smooth="yes"/>
+      <point x="144" y="468"/>
+      <point x="94" y="418"/>
+      <point x="94" y="353" type="curve" smooth="yes"/>
+      <point x="94" y="290"/>
+      <point x="144" y="240"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

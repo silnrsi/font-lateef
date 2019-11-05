@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jdotless" format="2">
+  <advance width="421"/>
+  <unicode hex="0237"/>
+  <note>
+uni0237
+</note>
+  <anchor x="221" y="694" name="top"/>
+  <outline>
+    <contour>
+      <point x="20" y="-370" type="line"/>
+      <point x="199" y="-290"/>
+      <point x="300" y="-152"/>
+      <point x="300" y="6" type="curve"/>
+      <point x="298" y="460" type="line"/>
+      <point x="298" y="563"/>
+      <point x="301" y="621"/>
+      <point x="308" y="678" type="curve"/>
+      <point x="277" y="704" type="line"/>
+      <point x="25" y="640" type="line"/>
+      <point x="25" y="581" type="line"/>
+      <point x="133" y="560" type="line"/>
+      <point x="139" y="529"/>
+      <point x="147" y="475"/>
+      <point x="147" y="390" type="curve"/>
+      <point x="146" y="-25" type="line"/>
+      <point x="146" y="-166"/>
+      <point x="97" y="-245"/>
+      <point x="-11" y="-309" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="underscore" format="2">
-  <advance width="743"/>
+  <advance width="688"/>
   <unicode hex="005F"/>
+  <note>
+underscore
+</note>
   <outline>
     <contour>
-      <point x="743" y="-174" type="line"/>
-      <point x="743" y="-119" type="line"/>
-      <point x="0" y="-119" type="line"/>
-      <point x="0" y="-174" type="line"/>
+      <point x="35" y="-101" type="line"/>
+      <point x="653" y="-101" type="line"/>
+      <point x="653" y="0" type="line"/>
+      <point x="35" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

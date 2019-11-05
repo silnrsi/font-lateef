@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yacute" format="2">
-  <advance width="1114"/>
+  <advance width="837"/>
   <unicode hex="00DD"/>
+  <note>
+Yacute
+</note>
   <outline>
     <component base="Y"/>
-    <component base="acute" xOffset="327" yOffset="330"/>
+    <component base="acutecomb.case" xOffset="-62" yOffset="-117"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

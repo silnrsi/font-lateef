@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ydieresis" format="2">
-  <advance width="1114"/>
+  <advance width="837"/>
   <unicode hex="0178"/>
+  <note>
+Ydieresis
+</note>
   <outline>
     <component base="Y"/>
-    <component base="dieresis" xOffset="312" yOffset="320"/>
+    <component base="dieresiscomb.case" xOffset="-62" yOffset="-117"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

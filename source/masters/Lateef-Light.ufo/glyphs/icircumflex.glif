@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="icircumflex" format="2">
-  <advance width="430"/>
+  <advance width="409"/>
   <unicode hex="00EE"/>
+  <note>
+icircumflex
+</note>
   <outline>
     <component base="idotless"/>
-    <component base="circumflex" xOffset="-21" yOffset="-10"/>
+    <component base="circumflexcomb" xOffset="-277"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

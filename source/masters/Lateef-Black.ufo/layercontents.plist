@@ -3,6 +3,10 @@
 <plist version="1.0">
 <array>
   <array>
+    <string>Black [500]</string>
+    <string>glyphs.B_lack _500_</string>
+  </array>
+  <array>
     <string>public.background</string>
     <string>glyphs.public.background</string>
   </array>
