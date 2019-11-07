@@ -35,6 +35,9 @@ One font from this typeface family is included:
      * Lateef Regular
      * Lateef Bold
 
+The Latin glyphs in this font are from the Crimson Pro font family 
+(https://github.com/Fonthausen/CrimsonPro).
+
 For detailed documentation see the contents of the 'documentation' folder.
 
 ChangeLog
