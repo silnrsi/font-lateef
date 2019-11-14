@@ -7,48 +7,29 @@
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <contour>
-      <point x="405" y="232" type="curve"/>
-      <point x="416" y="250" type="line"/>
-      <point x="348" y="201"/>
-      <point x="213" y="180"/>
-      <point x="0" y="180" type="curve" smooth="yes"/>
-      <point x="-5" y="180" type="line" smooth="yes"/>
-      <point x="-39" y="180"/>
-      <point x="-54" y="137"/>
-      <point x="-54" y="90" type="curve" smooth="yes"/>
-      <point x="-54" y="43"/>
-      <point x="-38" y="0"/>
-      <point x="-5" y="0" type="curve" smooth="yes"/>
-      <point x="239" y="0"/>
-      <point x="328" y="49"/>
-      <point x="408" y="126" type="curve"/>
-      <point x="444" y="169"/>
-      <point x="462" y="265"/>
-      <point x="462" y="356" type="curve" smooth="yes"/>
-      <point x="462" y="523"/>
-      <point x="417" y="697"/>
-      <point x="323" y="697" type="curve" smooth="yes"/>
-      <point x="218" y="697"/>
-      <point x="188" y="477"/>
-      <point x="188" y="407" type="curve" smooth="yes"/>
-      <point x="188" y="313"/>
-      <point x="235" y="262"/>
-      <point x="301" y="262" type="curve" smooth="yes"/>
-      <point x="341" y="262"/>
-      <point x="413" y="334"/>
-      <point x="425" y="390" type="curve"/>
-      <point x="397" y="490" type="line"/>
-      <point x="383" y="460"/>
-      <point x="330" y="412"/>
-      <point x="301" y="412" type="curve" smooth="yes"/>
-      <point x="268" y="412"/>
-      <point x="243" y="448"/>
-      <point x="243" y="460" type="curve" smooth="yes"/>
-      <point x="243" y="487"/>
-      <point x="282" y="547"/>
-      <point x="309" y="547" type="curve" smooth="yes"/>
-      <point x="360" y="547"/>
-      <point x="444" y="387"/>
+      <point x="0" y="0" type="curve" smooth="yes"/>
+      <point x="145" y="0"/>
+      <point x="300" y="69"/>
+      <point x="371" y="134" type="curve" smooth="yes"/>
+      <point x="440" y="197"/>
+      <point x="463" y="416"/>
+      <point x="463" y="512" type="curve"/>
+      <point x="413" y="353" type="line"/>
+      <point x="371" y="308"/>
+      <point x="177" y="280"/>
+      <point x="-1" y="280" type="curve" smooth="yes"/>
+      <point x="-41" y="280"/>
+      <point x="-50" y="193"/>
+      <point x="-50" y="140" type="curve" smooth="yes"/>
+      <point x="-50" y="89"/>
+      <point x="-40" y="0"/>
     </contour>
+    <component base="_fehHead" xOffset="169" yOffset="362"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

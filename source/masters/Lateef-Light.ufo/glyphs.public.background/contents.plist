@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>_absSwashKaf</key>
+  <string>_absS_washK_af.glif</string>
   <key>_bowl_seen</key>
   <string>_bowl_seen.glif</string>
   <key>_tah_bowl</key>
@@ -16,12 +18,16 @@
   <string>dal-ar.glif</string>
   <key>fehDotless-ar</key>
   <string>fehD_otless-ar.glif</string>
+  <key>fehDotless-ar.init</key>
+  <string>fehD_otless-ar.init.glif</string>
   <key>hah-ar</key>
   <string>hah-ar.glif</string>
   <key>kaf-ar.medi</key>
   <string>kaf-ar.medi.glif</string>
   <key>lam-ar</key>
   <string>lam-ar.glif</string>
+  <key>lam-ar.init</key>
+  <string>lam-ar.init.glif</string>
   <key>meem-ar</key>
   <string>meem-ar.glif</string>
   <key>sad-ar</key>

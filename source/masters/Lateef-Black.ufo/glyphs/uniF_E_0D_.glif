@@ -2,10 +2,4 @@
 <glyph name="uniFE0D" format="2">
   <unicode hex="FE0D"/>
   <outline/>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>
