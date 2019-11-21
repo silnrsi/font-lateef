@@ -14,11 +14,11 @@
       <point x="692" y="0"/>
       <point x="941" y="0" type="curve" smooth="yes"/>
       <point x="946" y="0" type="line" smooth="yes"/>
-      <point x="988" y="0"/>
-      <point x="998" y="13"/>
-      <point x="998" y="52" type="curve" smooth="yes"/>
-      <point x="998" y="91"/>
-      <point x="988" y="110"/>
+      <point x="958" y="0"/>
+      <point x="968" y="13"/>
+      <point x="968" y="52" type="curve" smooth="yes"/>
+      <point x="968" y="91"/>
+      <point x="958" y="110"/>
       <point x="946" y="110" type="curve" smooth="yes"/>
       <point x="941" y="110" type="line" smooth="yes"/>
       <point x="757" y="110"/>
@@ -26,4 +26,10 @@
     </contour>
     <component base="kaf-ar.init"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

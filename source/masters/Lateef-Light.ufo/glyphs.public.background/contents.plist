@@ -22,12 +22,16 @@
   <string>fehD_otless-ar.init.glif</string>
   <key>hah-ar</key>
   <string>hah-ar.glif</string>
+  <key>heh-ar.knottedHigh.medi</key>
+  <string>heh-ar.knottedH_igh.medi.glif</string>
   <key>kaf-ar.medi</key>
   <string>kaf-ar.medi.glif</string>
   <key>lam-ar</key>
   <string>lam-ar.glif</string>
   <key>lam-ar.init</key>
   <string>lam-ar.init.glif</string>
+  <key>lam-ar.preAlef.medi</key>
+  <string>lam-ar.preA_lef.medi.glif</string>
   <key>meem-ar</key>
   <string>meem-ar.glif</string>
   <key>sad-ar</key>
