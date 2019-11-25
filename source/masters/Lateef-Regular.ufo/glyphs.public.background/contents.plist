@@ -90,6 +90,8 @@
   <string>alef-ar.glif</string>
   <key>alef-ar.fina</key>
   <string>alef-ar.fina.glif</string>
+  <key>alef-ar.postLamMed.fina</key>
+  <string>alef-ar.postL_amM_ed.fina.glif</string>
   <key>alefLamYehabove-ar</key>
   <string>alefL_amY_ehabove-ar.glif</string>
   <key>alefbelow-ar</key>

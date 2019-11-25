@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tah-ar.fina" format="2">
-  <advance width="1114"/>
+  <advance width="1247"/>
   <anchor x="829" y="586" name="above"/>
   <anchor x="198" y="841" name="alef"/>
   <anchor x="592" y="-50" name="below"/>
   <anchor x="428" y="1239" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
-    <contour>
-      <point x="917" y="160" type="curve"/>
-      <point x="716" y="45" type="line"/>
-      <point x="864" y="6"/>
-      <point x="1004" y="0"/>
-      <point x="1165" y="0" type="curve"/>
-      <point x="1170" y="0" type="line"/>
-      <point x="1206" y="0"/>
-      <point x="1223" y="43"/>
-      <point x="1223" y="90" type="curve" smooth="yes"/>
-      <point x="1223" y="137"/>
-      <point x="1206" y="180"/>
-      <point x="1170" y="180" type="curve"/>
-      <point x="1165" y="180" type="line"/>
-      <point x="1082" y="181"/>
-      <point x="1006" y="183"/>
-    </contour>
     <component base="tah-ar"/>
+    <component base="_bowl_connector" xOffset="372"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

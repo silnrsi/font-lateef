@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehgoal-ar.fina" format="2">
-  <advance width="730"/>
-  <anchor x="428" y="390" name="above"/>
-  <anchor x="214" y="543" name="alef"/>
-  <anchor x="419" y="-100" name="below"/>
-  <anchor x="370" y="700" name="diaA"/>
-  <anchor x="203" y="-251" name="diaB"/>
+  <advance width="729"/>
+  <anchor x="427" y="390" name="above"/>
+  <anchor x="213" y="543" name="alef"/>
+  <anchor x="418" y="-100" name="below"/>
+  <anchor x="369" y="700" name="diaA"/>
+  <anchor x="202" y="-251" name="diaB"/>
   <outline>
     <contour>
-      <point x="412" y="318" type="curve" smooth="yes"/>
-      <point x="258" y="318"/>
-      <point x="125" y="170"/>
-      <point x="40" y="-165" type="curve"/>
-      <point x="55" y="-167" type="line"/>
-      <point x="138" y="-13"/>
-      <point x="236" y="138"/>
-      <point x="381" y="138" type="curve" smooth="yes"/>
-      <point x="519" y="138"/>
-      <point x="565" y="0"/>
-      <point x="730" y="0" type="curve" smooth="yes"/>
-      <point x="771" y="0"/>
-      <point x="792" y="43"/>
-      <point x="792" y="90" type="curve" smooth="yes"/>
-      <point x="792" y="137"/>
-      <point x="771" y="180"/>
-      <point x="730" y="180" type="curve" smooth="yes"/>
-      <point x="631" y="180"/>
-      <point x="560" y="318"/>
+      <point x="60" y="-167" type="line"/>
+      <point x="127" y="0"/>
+      <point x="235" y="138"/>
+      <point x="380" y="138" type="curve" smooth="yes"/>
+      <point x="518" y="138"/>
+      <point x="537" y="0"/>
+      <point x="729" y="0" type="curve" smooth="yes"/>
+      <point x="750" y="0"/>
+      <point x="771" y="8"/>
+      <point x="771" y="55" type="curve" smooth="yes"/>
+      <point x="771" y="102"/>
+      <point x="750" y="110"/>
+      <point x="729" y="110" type="curve" smooth="yes"/>
+      <point x="591" y="110"/>
+      <point x="559" y="248"/>
+      <point x="411" y="248" type="curve" smooth="yes"/>
+      <point x="292" y="248"/>
+      <point x="125" y="172"/>
+      <point x="40" y="-163" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

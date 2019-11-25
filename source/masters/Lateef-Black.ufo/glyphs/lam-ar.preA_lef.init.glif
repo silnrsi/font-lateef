@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam-ar.preAlef.init" format="2">
-  <advance width="346"/>
+  <advance width="399"/>
   <anchor x="195" y="1164" name="above"/>
   <anchor x="-13" y="814" name="alef"/>
   <anchor x="123" y="-202" name="below"/>

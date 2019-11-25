@@ -78,9 +78,17 @@
       <key>y</key>
       <integer>280</integer>
     </dict>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>x</key>
+      <integer>25</integer>
+      <key>y</key>
+      <integer>-15</integer>
+    </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2019/11/21 14:49:50</string>
+  <string>2019/11/25 10:10:26</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>

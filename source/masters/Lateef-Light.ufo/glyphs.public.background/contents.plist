@@ -12,10 +12,14 @@
   <string>ain-ar.glif</string>
   <key>alef-ar</key>
   <string>alef-ar.glif</string>
+  <key>alef-ar.postLamIni.fina</key>
+  <string>alef-ar.postL_amI_ni.fina.glif</string>
   <key>behDotless-ar</key>
   <string>behD_otless-ar.glif</string>
   <key>dal-ar</key>
   <string>dal-ar.glif</string>
+  <key>dal-ar.fina</key>
+  <string>dal-ar.fina.glif</string>
   <key>fehDotless-ar</key>
   <string>fehD_otless-ar.glif</string>
   <key>fehDotless-ar.init</key>
@@ -28,19 +32,27 @@
   <string>kaf-ar.medi.glif</string>
   <key>lam-ar</key>
   <string>lam-ar.glif</string>
+  <key>lam-ar.fina</key>
+  <string>lam-ar.fina.glif</string>
   <key>lam-ar.init</key>
   <string>lam-ar.init.glif</string>
   <key>lam-ar.preAlef.medi</key>
   <string>lam-ar.preA_lef.medi.glif</string>
   <key>meem-ar</key>
   <string>meem-ar.glif</string>
+  <key>rehLoop-ar.fina</key>
+  <string>rehL_oop-ar.fina.glif</string>
   <key>sad-ar</key>
   <string>sad-ar.glif</string>
   <key>seen-ar</key>
   <string>seen-ar.glif</string>
+  <key>seen-ar.fina</key>
+  <string>seen-ar.fina.glif</string>
   <key>tah-ar</key>
   <string>tah-ar.glif</string>
   <key>waw-ar</key>
   <string>waw-ar.glif</string>
+  <key>waw-ar.fina</key>
+  <string>waw-ar.fina.glif</string>
 </dict>
 </plist>
