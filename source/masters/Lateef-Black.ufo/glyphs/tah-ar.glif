@@ -18,13 +18,14 @@
       <point x="36" y="141"/>
       <point x="198" y="-40"/>
     </contour>
-    <contour>
-      <point x="517" y="276" type="line"/>
-      <point x="587" y="358" type="line"/>
-      <point x="587" y="891" type="line"/>
-      <point x="487" y="946" type="line"/>
-    </contour>
     <component base="_strokeHead" xOffset="286" yOffset="845"/>
     <component base="_tah_bowl" xOffset="463" yOffset="-40"/>
+    <component base="_tah_stem" xOffset="360" yOffset="-10"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_tah_stem" format="2">
+  <advance width="914"/>
+  <outline>
+    <contour>
+      <point x="147" y="299" type="line"/>
+      <point x="227" y="368" type="line"/>
+      <point x="227" y="891" type="line"/>
+      <point x="124" y="949" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

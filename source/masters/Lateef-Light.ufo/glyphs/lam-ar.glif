@@ -36,7 +36,7 @@
       <point x="638" y="398" type="curve" smooth="yes"/>
       <point x="596" y="1089" type="line"/>
     </contour>
-    <component base="_strokeHead" xOffset="288" yOffset="1047"/>
+    <component base="_strokeHead" xOffset="292" yOffset="1047"/>
   </outline>
   <lib>
     <dict>

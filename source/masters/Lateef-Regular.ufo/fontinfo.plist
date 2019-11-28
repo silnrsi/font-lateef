@@ -17,6 +17,8 @@
     <dict>
       <key>angle</key>
       <integer>0</integer>
+      <key>name</key>
+      <string> [locked]</string>
       <key>x</key>
       <integer>827</integer>
       <key>y</key>
@@ -25,6 +27,8 @@
     <dict>
       <key>angle</key>
       <integer>0</integer>
+      <key>name</key>
+      <string> [locked]</string>
       <key>x</key>
       <integer>766</integer>
       <key>y</key>
@@ -86,9 +90,19 @@
       <key>y</key>
       <integer>-15</integer>
     </dict>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>name</key>
+      <string> [locked]</string>
+      <key>x</key>
+      <integer>26</integer>
+      <key>y</key>
+      <integer>0</integer>
+    </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2019/11/25 10:10:23</string>
+  <string>2019/11/28 11:38:45</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>

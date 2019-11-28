@@ -144,6 +144,10 @@
   <string>_absS_washK_af.glif</string>
   <key>_bar</key>
   <string>_bar.glif</string>
+  <key>_baseline_135</key>
+  <string>_baseline_135.glif</string>
+  <key>_baseline_70</key>
+  <string>_baseline_70.glif</string>
   <key>_bowl_connector</key>
   <string>_bowl_connector.glif</string>
   <key>_bowl_seen</key>
@@ -222,6 +226,8 @@
   <string>_tah.glif</string>
   <key>_tah_bowl</key>
   <string>_tah_bowl.glif</string>
+  <key>_tah_stem</key>
+  <string>_tah_stem.glif</string>
   <key>_tail</key>
   <string>_tail.glif</string>
   <key>_vline</key>
