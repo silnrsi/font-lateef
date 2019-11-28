@@ -4,20 +4,13 @@
   <anchor x="0" y="286" name="_below"/>
   <anchor x="0" y="0" name="_center"/>
   <outline>
-    <component base="_dot1" xScale="-1" yScale="-1" xOffset="104" yOffset="104"/>
-    <component base="_dot1" xScale="-1" yScale="-1" xOffset="-104" yOffset="104"/>
-    <component base="_dot1" xScale="-1" yScale="-1" xOffset="104" yOffset="-104"/>
-    <component base="_dot1" xScale="-1" yScale="-1" xOffset="-104" yOffset="-104"/>
+    <component base="_dot2h" xOffset="-2" yOffset="-73"/>
+    <component base="_dot2h" xOffset="-2" yOffset="67"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

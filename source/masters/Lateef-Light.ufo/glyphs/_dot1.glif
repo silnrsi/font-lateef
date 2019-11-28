@@ -5,10 +5,20 @@
   <anchor x="0" y="0" name="_center"/>
   <outline>
     <contour>
-      <point x="0" y="87" type="line"/>
+      <point x="0" y="87" type="curve"/>
       <point x="-87" y="0" type="line"/>
-      <point x="0" y="-87" type="line"/>
+      <point x="-52" y="-25"/>
+      <point x="-23" y="-54"/>
+      <point x="0" y="-87" type="curve"/>
       <point x="87" y="0" type="line"/>
+      <point x="64" y="32"/>
+      <point x="35" y="62"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

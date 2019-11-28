@@ -4,7 +4,13 @@
   <anchor x="0" y="286" name="_below"/>
   <anchor x="0" y="0" name="_center"/>
   <outline>
-    <component base="_dot1" xScale="0" xyScale="-1" yxScale="1" yScale="0" yOffset="104"/>
-    <component base="_dot1" xScale="0" xyScale="-1" yxScale="1" yScale="0" yOffset="-104"/>
+    <component base="_dot1" xOffset="-1" yOffset="-108"/>
+    <component base="_dot1" xOffset="-1" yOffset="102"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

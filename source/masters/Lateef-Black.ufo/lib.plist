@@ -36,10 +36,7 @@
 /seen-ar/seen-ar/_bowl_seen/seen-ar/reh-ar/reh-ar/reh-ar/dal-ar/dal-ar/dal-ar/hah-ar/hah-ar/hah-ar/behDotless-ar/behDotless-ar/behDotless-ar/alef-ar/alef-ar/alef-ar 
 /nine-ar/eight-ar/seven-ar/six-ar/five-ar/four-ar/three-ar/two-ar/one-ar/zero-ar  
 /ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/gafRing-ar.medi/tteh-ar.medi/hah-ar.init  /ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/gafRing-ar.medi/tteh-ar.medi/hah-ar.init  /ain-ar.fina/tahThreedots-ar.medi/fehDotless-ar.medi/gafRing-ar.medi/tteh-ar.medi/hah-ar.init</string>
-    <string>/alef-ar/dal-ar.fina/tah-ar/tah-ar.fina/tah-ar.medi/tah-ar.init/kaf-ar/kaf-ar.fina/lam-ar/lam-ar.fina/lam-ar.medi/lam-ar.init/lam-ar.preAlef.medi/lam-ar.preAlef.init/meem-ar/meem-ar.fina/ae-ar.fina 
-/alef-ar/dal-ar.fina/tah-ar/tah-ar.fina/tah-ar.medi/tah-ar.init/kaf-ar/kaf-ar.fina/lam-ar/lam-ar.fina/lam-ar.medi/lam-ar.init/lam-ar.preAlef.medi/alef-ar.fina/lam-ar.preAlef.init/meem-ar/meem-ar.fina/ae-ar.fina 
-/alef-ar/alef-ar.fina/dal-ar.fina/tah-ar/tah-ar.fina/tah-ar.medi/tah-ar.init/kaf-ar/kaf-ar.fina/lam-ar/lam-ar.fina/lam-ar.medi/lam-ar.init/lam-ar.preAlef.medi/lam-ar.preAlef.init/meem-ar/meem-ar.fina/ae-ar.fina</string>
-    <string>/alef-ar</string>
+    <string>/_dot1   /_dot1_hat   /_dot1_smallV   /_dot1_tah   /_dot2h   /_dot2h_tah   /_dot2v   /_dot3d   /_dot3h    /_dot3u   /_dot4   /_gafBar_dot2h    /_gafBar_dot3u    /_gafBarShort_dot2h    /_gafBarShort_dot3u    /_dot1smallrotated10   /_dot3u_tah   </string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

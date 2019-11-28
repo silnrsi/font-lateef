@@ -90,19 +90,9 @@
       <key>y</key>
       <integer>-15</integer>
     </dict>
-    <dict>
-      <key>angle</key>
-      <integer>0</integer>
-      <key>name</key>
-      <string> [locked]</string>
-      <key>x</key>
-      <integer>26</integer>
-      <key>y</key>
-      <integer>0</integer>
-    </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2019/11/28 11:38:45</string>
+  <string>2019/11/28 12:58:27</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>

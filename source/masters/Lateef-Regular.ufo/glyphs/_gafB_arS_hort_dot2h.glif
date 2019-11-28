@@ -2,8 +2,13 @@
 <glyph name="_gafBarShort_dot2h" format="2">
   <anchor x="98" y="0" name="_above"/>
   <outline>
-    <component base="_dot1" xScale="-1" yScale="-1" xOffset="150" yOffset="317"/>
-    <component base="_dot1" xScale="-1" yScale="-1" xOffset="-58" yOffset="317"/>
     <component base="_gafBar"/>
+    <component base="_dot2h" xOffset="64" yOffset="313"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
