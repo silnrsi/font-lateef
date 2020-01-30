@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dollar" format="2">
-  <advance width="888"/>
+  <advance width="847"/>
   <unicode hex="0024"/>
   <note>
 dollar
@@ -45,16 +45,16 @@ dollar
       <point x="295" y="-14"/>
     </contour>
     <contour>
-      <point x="379" y="945" type="line"/>
-      <point x="574" y="945" type="line"/>
-      <point x="574" y="1128" type="line"/>
-      <point x="379" y="1128" type="line"/>
-    </contour>
-    <contour>
       <point x="379" y="-185" type="line"/>
       <point x="574" y="-185" type="line"/>
       <point x="574" y="38" type="line"/>
       <point x="379" y="38" type="line"/>
+    </contour>
+    <contour>
+      <point x="379" y="945" type="line"/>
+      <point x="574" y="945" type="line"/>
+      <point x="574" y="1128" type="line"/>
+      <point x="379" y="1128" type="line"/>
     </contour>
   </outline>
   <lib>

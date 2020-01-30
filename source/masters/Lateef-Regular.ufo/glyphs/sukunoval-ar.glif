@@ -4,33 +4,12 @@
   <anchor x="150" y="1039" name="_diaA"/>
   <anchor x="150" y="1421" name="diaA"/>
   <outline>
-    <contour>
-      <point x="265" y="1220" type="curve" smooth="yes"/>
-      <point x="265" y="1283"/>
-      <point x="237" y="1388"/>
-      <point x="150" y="1388" type="curve" smooth="yes"/>
-      <point x="63" y="1388"/>
-      <point x="33" y="1279"/>
-      <point x="33" y="1216" type="curve" smooth="yes"/>
-      <point x="33" y="1154"/>
-      <point x="63" y="1048"/>
-      <point x="147" y="1048" type="curve" smooth="yes"/>
-      <point x="238" y="1048"/>
-      <point x="265" y="1156"/>
-    </contour>
-    <contour>
-      <point x="213" y="1231" type="curve" smooth="yes"/>
-      <point x="213" y="1193"/>
-      <point x="213" y="1064"/>
-      <point x="149" y="1064" type="curve" smooth="yes"/>
-      <point x="89" y="1064"/>
-      <point x="85" y="1172"/>
-      <point x="85" y="1210" type="curve" smooth="yes"/>
-      <point x="85" y="1247"/>
-      <point x="88" y="1372"/>
-      <point x="149" y="1372" type="curve" smooth="yes"/>
-      <point x="209" y="1372"/>
-      <point x="213" y="1268"/>
-    </contour>
+    <component base="zero.small" xScale="0.5" yScale="0.57656" xOffset="4" yOffset="966"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

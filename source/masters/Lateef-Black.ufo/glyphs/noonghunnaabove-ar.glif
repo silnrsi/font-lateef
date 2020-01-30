@@ -4,21 +4,12 @@
   <anchor x="147" y="967" name="_diaA"/>
   <anchor x="147" y="1257" name="diaA"/>
   <outline>
-    <contour>
-      <point x="0" y="1210" type="line"/>
-      <point x="10" y="1128"/>
-      <point x="39" y="987"/>
-      <point x="147" y="987" type="curve" smooth="yes"/>
-      <point x="248" y="987"/>
-      <point x="317" y="1135"/>
-      <point x="317" y="1227" type="curve"/>
-      <point x="295" y="1229" type="line"/>
-      <point x="289" y="1153"/>
-      <point x="236" y="1071"/>
-      <point x="168" y="1071" type="curve" smooth="yes"/>
-      <point x="98" y="1071"/>
-      <point x="53" y="1182"/>
-      <point x="41" y="1237" type="curve"/>
-    </contour>
+    <component base="sukun-ar.downOpen" xScale="-1" yScale="-1" xOffset="316" yOffset="2223"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

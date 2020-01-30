@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fatha-ar" format="2">
   <unicode hex="064E"/>
+  <anchor x="98" y="940" name="_above"/>
   <anchor x="190" y="1056" name="_diaA"/>
   <anchor x="190" y="1298" name="diaA"/>
   <outline>
     <contour>
-      <point x="322" y="1278" type="line"/>
-      <point x="18" y="1118" type="line"/>
-      <point x="18" y="1051" type="line"/>
-      <point x="322" y="1212" type="line"/>
+      <point x="-6" y="1018" type="line"/>
+      <point x="298" y="1169" type="line"/>
+      <point x="346" y="1310" type="line"/>
+      <point x="44" y="1159" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -6,7 +6,7 @@
   <anchor x="175" y="-490" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="_tah" xOffset="350" yOffset="448"/>
+    <component base="_tah_small" xOffset="350" yOffset="448"/>
   </outline>
   <lib>
     <dict>

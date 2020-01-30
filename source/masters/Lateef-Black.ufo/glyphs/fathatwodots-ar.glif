@@ -5,7 +5,13 @@
   <anchor x="176" y="1327" name="diaA"/>
   <outline>
     <component base="fatha-ar"/>
-    <component base="_dot1smallrotated10" xOffset="270" yOffset="1084"/>
+    <component base="_dot1smallrotated10" xOffset="270" yOffset="1064"/>
     <component base="_dot1smallrotated10" xOffset="73" yOffset="1266"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

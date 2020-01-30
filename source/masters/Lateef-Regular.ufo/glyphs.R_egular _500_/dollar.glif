@@ -45,16 +45,16 @@ dollar
       <point x="271" y="-14"/>
     </contour>
     <contour>
-      <point x="369" y="945" type="line"/>
-      <point x="454" y="945" type="line"/>
-      <point x="454" y="1128" type="line"/>
-      <point x="369" y="1128" type="line"/>
-    </contour>
-    <contour>
       <point x="369" y="-185" type="line"/>
       <point x="454" y="-185" type="line"/>
       <point x="454" y="28" type="line"/>
       <point x="369" y="28" type="line"/>
+    </contour>
+    <contour>
+      <point x="369" y="945" type="line"/>
+      <point x="454" y="945" type="line"/>
+      <point x="454" y="1128" type="line"/>
+      <point x="369" y="1128" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>2742</integer>
+  <integer>1200</integer>
   <key>capHeight</key>
   <integer>1022</integer>
   <key>copyright</key>
-  <string>Copyright (c) 1994-2019 SIL International.</string>
+  <string>Copyright (c) 1994-2020 SIL International.</string>
   <key>descender</key>
-  <integer>-1488</integer>
+  <integer>-1000</integer>
   <key>familyName</key>
   <string>Lateef</string>
   <key>guidelines</key>
@@ -77,6 +77,8 @@
     <dict>
       <key>angle</key>
       <integer>0</integer>
+      <key>name</key>
+      <string> [locked]</string>
       <key>x</key>
       <integer>41</integer>
       <key>y</key>
@@ -85,20 +87,32 @@
     <dict>
       <key>angle</key>
       <integer>0</integer>
+      <key>name</key>
+      <string> [locked]</string>
       <key>x</key>
       <integer>25</integer>
       <key>y</key>
       <integer>-15</integer>
     </dict>
+    <dict>
+      <key>angle</key>
+      <integer>0</integer>
+      <key>name</key>
+      <string> [locked]</string>
+      <key>x</key>
+      <integer>26</integer>
+      <key>y</key>
+      <integer>0</integer>
+    </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2019/11/28 12:58:27</string>
+  <string>2020/01/30 14:24:33</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
-  <integer>2742</integer>
+  <integer>1200</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-1488</integer>
+  <integer>-1000</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -108,7 +122,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>http://software.sil.org/lateef</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 1994-2019, SIL International (http://www.sil.org/).
+  <string>Copyright (c) 1994-2020, SIL International (http://www.sil.org/).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1, with Reserved Font Names "Lateef" and "SIL". This license is copied below, and is also available with an FAQ at: http://scripts.sil.org/OFL
 
@@ -163,7 +177,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameSampleText</key>
   <string/>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Lateef Regular: 2019</string>
+  <string>SIL International: Lateef Regular: 2020</string>
   <key>openTypeNameVersion</key>
   <string>Version 1.200</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -207,9 +221,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
-  <integer>2742</integer>
+  <integer>1200</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-1488</integer>
+  <integer>-1000</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -226,9 +240,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>2742</integer>
+  <integer>1200</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>1488</integer>
+  <integer>1000</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-23</integer>

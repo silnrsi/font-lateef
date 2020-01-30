@@ -2,6 +2,12 @@
 <glyph name="tahabove-ar" format="2">
   <unicode hex="0615"/>
   <outline>
-    <component base="tah-ar" xScale="0.37" yScale="0.37" xOffset="416" yOffset="1247"/>
+    <component base="_tah_small" xOffset="609" yOffset="1325"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
