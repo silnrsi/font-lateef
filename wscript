@@ -25,9 +25,6 @@ DESC_SHORT = "An Arabic script font for Sindhi and other languages of southern A
 getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
 # BUILDLABEL = 'beta'
 
-# set up the sile tests (using fontproof)
-testCommand('sile', cmd='${SILE} --debug versions -o "${TGT}" "${SRC[0].abspath()}" -f "${SRC[1]}"', extracmds=['sile'], shapers=0, supports=['.sil'], ext='.pdf')
-
 # set up FTML tests
 ftmlTest('tools/ftml.xsl')
 

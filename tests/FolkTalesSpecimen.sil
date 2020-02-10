@@ -1,4 +1,5 @@
 \begin[class=fontproof]{document}
+\setTestFont[]
 \script[src=packages/unichar]
 \script[src=packages/bidi]
 \script[src=packages/frametricks]
