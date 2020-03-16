@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehHahabove-ar" format="2">
   <unicode hex="0612"/>
+  <anchor x="634" y="1190" name="_diaA"/>
+  <anchor x="634" y="1740" name="diaA"/>
   <outline>
     <contour>
       <point x="786" y="1674" type="line"/>
@@ -33,4 +35,10 @@
     </contour>
     <component base="reh-ar" xScale="0.65579" yScale="0.65579" xOffset="681" yOffset="1451"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

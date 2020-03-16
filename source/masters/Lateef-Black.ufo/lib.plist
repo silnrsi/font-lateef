@@ -33,14 +33,10 @@
   <string>Black</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/_bar    /damma-ar   /dammareversed-ar  /dammasmall-ar    /dammatan-ar    /dammatan-ar.sixNine       /_damma.filled     /_dot1    /vabove-ar    /vinvertedabove-ar   /_dot1_hat    /_dot1_smallV   /_smallV   /_invSmallV   
- /_dot1_tah    /_dot1smallrotated10    /_dot2h    /_dot2h_tah    /_dot2v    /_dot3d    /_dot3h    /_dot3u    /_dot3u_tah    /_dot4  /threedots-ar    /threedotsabove-ar  
-/_gafBar    /_gafBar_dot2h    /_gafBar_dot3u    /_gafBarShort_dot2h    /_gafBarShort_dot3u    /fatha-ar   /kasra-ar  /kasrasmall-ar    /kasratan-ar   /fathaHorizont-ar/fathasmall-ar    /fathatan-ar    /fathatwodots-ar   
-/_hamza    /_hamzaDamma    /_hamzaDamma.filled   /_highHamza    /_wavyHamza   /wavyhamzabelow-ar  /ainabove-ar     /hamza_damma-ar    /hamza_damma-ar.filled    /hamza_fatha-ar    /hamzaabove-ar    /hamzabelow-ar    /_hook   /_kaf_s    /_vline   /_vline   /_lines  /alefabove-ar  /alefabove-ar.large    /alefbelow-ar    /_madda  
-/_ring   /sukun-ar    /sukunoval-ar    /sukunround-ar   /rhombusStopabove-ar   /rhombusStopbelow-ar  
- /_smallV   /_wasla  /damma-ar.filled    /dammainverted-ar     /dotStopabove-ar    /dotvowelbelow-ar     /madda-ar    /maddalong-ar  /_hat   /marksidewaysnoonghunna-ar   /sukun-ar.downOpen   /sukun-ar.leftOpen   /noonghunnaabove-ar   /hahabove-ar  
-/meemabove-ar  /wawSmall-ar   /yehabove-ar  /yehbelow-ar  /_tah_small  /tahabove-ar    /zainabove-ar     /alefLamYehabove-ar   /lamAlefabove-ar   /jeemabove-ar   /meembelow-ar   /meemStopabove-ar   /noonabove-ar    /qafLamAlefMaksuraabove-ar  /sadabove-ar      /sadLamAlefMaksuraabove-ar    /seenabove-ar  /seenbelow-ar 
-/shadda-ar   /shadda_alef-ar   /shadda_damma-ar   /shadda_damma-ar.filled   /shadda_dammatan-ar   /shadda_fatha-ar   /shadda_fathatan-ar   /shadda_kasra-ar   /shadda_kasratan-ar       /takhallusabove-ar  </string>
+    <string>/alef-ar.postLamIni.fina/alef-ar.postLamMed.fina/rehLoop-ar/rehLoop-ar.fina  /vabove-ar  /rehHahabove-ar    /rehDadabove-ar     /lam-ar.preAlef.medi  /lam-ar.preAlef.init/meem-ar.sindhi/meem-ar.sindhi.fina 
+/noonghunna-ar/noonghunna-ar.fina/heh-ar.knottedHigh.fina/heh-ar.knottedHigh.medi 
+/hehgoal-ar.fina/hehgoal-ar.medi/hehgoal-ar.init/hehDoachashmee-ar/hehDoachashmee-ar.fina/hehDoachashmee-ar.medi/hehDoachashmee-ar.init/ae-ar/ae-ar.fina 
+/yeh-ar.noDots/yeh-ar.noDots.fina/yehTail-ar/yehTail-ar.fina/yehbarree-ar/yehbarree-ar.fina</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
