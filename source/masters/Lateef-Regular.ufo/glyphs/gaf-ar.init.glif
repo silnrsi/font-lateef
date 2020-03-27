@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gaf-ar.init" format="2">
   <advance width="633"/>
-  <anchor x="142" y="1178" name="diaA"/>
-  <anchor x="150" y="-200" name="diaB"/>
+  <anchor x="180" y="1142" name="diaA"/>
+  <anchor x="200" y="-200" name="diaB"/>
   <outline>
     <component base="kaf-ar.init"/>
-    <component base="_gafBar" xOffset="-23" yOffset="848"/>
+    <component base="_gafBar" xOffset="15" yOffset="835"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

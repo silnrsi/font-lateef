@@ -5,6 +5,14 @@
   <anchor x="634" y="1730" name="diaA"/>
   <outline>
     <contour>
+      <point x="287" y="1215" type="curve"/>
+      <point x="348" y="1260" type="line"/>
+      <point x="348" y="1439"/>
+      <point x="514" y="1559"/>
+      <point x="694" y="1559" type="curve" smooth="yes"/>
+      <point x="708" y="1559"/>
+      <point x="723" y="1558"/>
+      <point x="737" y="1556" type="curve"/>
       <point x="786" y="1674" type="line"/>
       <point x="756" y="1672"/>
       <point x="727" y="1670"/>
@@ -24,14 +32,6 @@
       <point x="515" y="1598" type="line"/>
       <point x="371" y="1508"/>
       <point x="287" y="1348"/>
-      <point x="287" y="1215" type="curve"/>
-      <point x="348" y="1260" type="line"/>
-      <point x="348" y="1439"/>
-      <point x="514" y="1559"/>
-      <point x="694" y="1559" type="curve" smooth="yes"/>
-      <point x="708" y="1559"/>
-      <point x="723" y="1558"/>
-      <point x="737" y="1556" type="curve"/>
     </contour>
     <component base="reh-ar" xScale="0.65579" yScale="0.65579" xOffset="681" yOffset="1451"/>
   </outline>

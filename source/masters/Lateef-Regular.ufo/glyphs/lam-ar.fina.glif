@@ -2,10 +2,10 @@
 <glyph name="lam-ar.fina" format="2">
   <advance width="867"/>
   <anchor x="547" y="1147" name="above"/>
-  <anchor x="313" y="692" name="alef"/>
+  <anchor x="313" y="705" name="alef"/>
   <anchor x="553" y="-374" name="below"/>
-  <anchor x="448" y="1148" name="diaA"/>
-  <anchor x="163" y="-502" name="diaB"/>
+  <anchor x="348" y="1170" name="diaA"/>
+  <anchor x="193" y="-502" name="diaB"/>
   <anchor x="566" y="586" name="through"/>
   <outline>
     <contour>
@@ -51,4 +51,10 @@
       <point x="756" y="0"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

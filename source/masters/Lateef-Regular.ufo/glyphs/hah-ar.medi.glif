@@ -3,9 +3,9 @@
   <advance width="843"/>
   <anchor x="486" y="613" name="above"/>
   <anchor x="214" y="742" name="alef"/>
-  <anchor x="443" y="12" name="below"/>
+  <anchor x="380" y="0" name="below"/>
   <anchor x="469" y="745" name="diaA"/>
-  <anchor x="300" y="-202" name="diaB"/>
+  <anchor x="300" y="-200" name="diaB"/>
   <outline>
     <contour>
       <point x="660" y="304" type="curve"/>
@@ -24,4 +24,10 @@
     </contour>
     <component base="hah-ar.init"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

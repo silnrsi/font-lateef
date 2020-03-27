@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gaf-ar.medi" format="2">
-  <advance width="952"/>
+  <advance width="947"/>
   <anchor x="142" y="1142" name="diaA"/>
   <anchor x="150" y="-200" name="diaB"/>
   <outline>
@@ -14,6 +14,8 @@
         <integer>-1</integer>
         <integer>-1</integer>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

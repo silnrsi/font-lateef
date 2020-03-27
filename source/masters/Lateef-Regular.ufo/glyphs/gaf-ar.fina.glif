@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gaf-ar.fina" format="2">
-  <advance width="1577"/>
+  <advance width="1544"/>
   <anchor x="242" y="761" name="alef"/>
-  <anchor x="623" y="1118" name="diaA"/>
-  <anchor x="316" y="-202" name="diaB"/>
+  <anchor x="520" y="1142" name="diaA"/>
+  <anchor x="286" y="-200" name="diaB"/>
   <outline>
     <component base="keheh-ar.fina"/>
     <component base="_gafBar" xOffset="610" yOffset="835"/>

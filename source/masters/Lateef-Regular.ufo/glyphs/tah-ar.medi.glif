@@ -2,10 +2,10 @@
 <glyph name="tah-ar.medi" format="2">
   <advance width="810"/>
   <anchor x="555" y="636" name="above"/>
-  <anchor x="0" y="832" name="alef"/>
+  <anchor x="0" y="801" name="alef"/>
   <anchor x="410" y="-50" name="below"/>
-  <anchor x="215" y="1251" name="diaA"/>
-  <anchor x="202" y="-202" name="diaB"/>
+  <anchor x="165" y="1231" name="diaA"/>
+  <anchor x="200" y="-200" name="diaB"/>
   <outline>
     <component base="tah-ar.init"/>
     <component base="_bowl_connector"/>

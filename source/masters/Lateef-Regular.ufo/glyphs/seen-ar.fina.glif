@@ -52,6 +52,6 @@
       <point x="767" y="3"/>
       <point x="830" y="-15"/>
     </contour>
-    <component base="_bowl_seen" yOffset="20"/>
+    <component base="_bowl_seen" yOffset="17"/>
   </outline>
 </glyph>

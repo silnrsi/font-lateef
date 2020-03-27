@@ -4,8 +4,8 @@
   <anchor x="388" y="798" name="above"/>
   <anchor x="165" y="748" name="alef"/>
   <anchor x="388" y="-50" name="below"/>
-  <anchor x="378" y="892" name="diaA"/>
-  <anchor x="222" y="-202" name="diaB"/>
+  <anchor x="338" y="892" name="diaA"/>
+  <anchor x="200" y="-200" name="diaB"/>
   <outline>
     <contour>
       <point x="642" y="0" type="curve" smooth="yes"/>

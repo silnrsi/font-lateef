@@ -7,10 +7,4 @@
     <component base="tah-ar" xScale="0.37" yScale="0.37" xOffset="-199" yOffset="166"/>
     <component base="_dot1"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>
