@@ -2,8 +2,8 @@
 <glyph name="kafswash-ar.fina" format="2">
   <advance width="1403"/>
   <anchor x="268" y="841" name="alef"/>
-  <anchor x="464" y="988" name="diaA"/>
-  <anchor x="310" y="-202" name="diaB"/>
+  <anchor x="465" y="1000" name="diaA"/>
+  <anchor x="310" y="-200" name="diaB"/>
   <outline>
     <contour>
       <point x="1403" y="0" type="curve" smooth="yes"/>

@@ -6,7 +6,7 @@
   <anchor x="1028" y="830" name="above"/>
   <anchor x="270" y="790" name="alef"/>
   <anchor x="966" y="75" name="below"/>
-  <anchor x="605" y="832" name="diaA"/>
+  <anchor x="605" y="912" name="diaA"/>
   <anchor x="226" y="-102" name="diaB"/>
   <outline>
     <contour>

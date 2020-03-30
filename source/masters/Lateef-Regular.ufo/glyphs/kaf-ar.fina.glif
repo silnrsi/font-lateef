@@ -4,8 +4,8 @@
   <anchor x="897" y="1165" name="above"/>
   <anchor x="226" y="761" name="alef"/>
   <anchor x="729" y="-62" name="below"/>
-  <anchor x="609" y="1104" name="diaA"/>
-  <anchor x="300" y="-202" name="diaB"/>
+  <anchor x="520" y="1170" name="diaA"/>
+  <anchor x="300" y="-200" name="diaB"/>
   <anchor x="900" y="690" name="through"/>
   <outline>
     <contour>

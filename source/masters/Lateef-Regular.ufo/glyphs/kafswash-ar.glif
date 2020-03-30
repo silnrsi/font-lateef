@@ -3,8 +3,8 @@
   <advance width="1371"/>
   <unicode hex="06AA"/>
   <anchor x="268" y="841" name="alef"/>
-  <anchor x="464" y="988" name="diaA"/>
-  <anchor x="310" y="-202" name="diaB"/>
+  <anchor x="465" y="1000" name="diaA"/>
+  <anchor x="310" y="-200" name="diaB"/>
   <outline>
     <contour>
       <point x="460" y="0" type="curve" smooth="yes"/>

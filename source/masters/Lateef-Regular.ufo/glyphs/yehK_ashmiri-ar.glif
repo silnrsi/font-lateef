@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehKashmiri-ar" format="2">
-  <advance width="943"/>
+  <advance width="963"/>
   <unicode hex="0620"/>
   <anchor x="419" y="654" name="above"/>
   <anchor x="276" y="539" name="alef"/>
   <anchor x="279" y="-407" name="below"/>
   <anchor x="419" y="700" name="diaA"/>
-  <anchor x="141" y="-462" name="diaB"/>
+  <anchor x="200" y="-460" name="diaB"/>
   <outline>
     <contour>
       <point x="859" y="389" type="curve"/>

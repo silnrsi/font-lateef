@@ -5,8 +5,8 @@
   <anchor x="880" y="1166" name="above"/>
   <anchor x="242" y="773" name="alef"/>
   <anchor x="729" y="-56" name="below"/>
-  <anchor x="521" y="1174" name="diaA"/>
-  <anchor x="300" y="-202" name="diaB"/>
+  <anchor x="520" y="1170" name="diaA"/>
+  <anchor x="300" y="-200" name="diaB"/>
   <outline>
     <component base="_kaf_s" xOffset="294" yOffset="413"/>
     <component base="_kaf_left"/>
