@@ -1,11 +1,8 @@
 # Lateef Graphite Font
 
-Lateef is an extended Arabic script font designed by SIL International for
-modern Unicode-based systems.
+Lateef is an extended Arabic script font designed by SIL International for modern Unicode-based systems.
 
-Named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and
-poet, this font is intended to be an appropriate style for use in
-Sindhi and other languages of the southern Asia.
+Named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and poet, this font is intended to be an appropriate style for use in Sindhi and other languages of the southern Asia.
 
 ## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Lateef/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Lateef&guest=1)  
 
@@ -15,7 +12,25 @@ This is an **unreleased development** effort currently focused on the following 
 [Lateef 1.001](http://www.sil.org/resources/software_fonts/lateef) but using [SIL Graphite](https://graphite.sil.org) technology rather than OpenType.
 - Build the font using [SMITH](https://github.com/silnrsi/smith) toolchain.
 
-See the FONTLOG.txt for information on this and previous releases.
+## Copyright and License
+For copyright and licensing information - including any Reserved Font Names - see [OFL.txt](OFL.txt).
+
+For practical information about using, modifying and redistributing this font see [OFL-FAQ.txt](OFL-FAQ.txt).
+
+For more details about this project, including its design history and acknowledgements see [FONTLOG.txt](FONTLOG.txt).
+
+## See also
+For further information, including Unicode ranges supported, Graphite and OpenType font features 
+and how to use them, please see the documentation on [software.sil.org/lateef](http://software.sil.org/lateef/)
+or in the documentation subfolder.
+
+# Developer notes
+
+This project uses a UFO-based design and production workflow, with all sources in open formats and a completely open-source build toolkit. For more details see [SIL Font Development Notes](https://silnrsi.github.io/silfontdev/en-US/Introduction.html).
+
+## Building
+
+See all the details in the [SIL FontDev guide](https://silnrsi.github.io/silfontdev/).
 
 ## About ftml tests
 
@@ -28,15 +43,3 @@ However, in order for Firefox to access the .xsl file, you need to relax its "st
 setting [security.fileuri.strict_origin_policy](http://kb.mozillazine.org/Security.fileuri.strict_origin_policy) to false.
 
 Once you have this setting in effect, you can load the FTML documents directly into Firefox and see the built font rendered.
-
-## License
-
-Lateef is licensed under the SIL Open Font License. See OFL.txt and OFL-FAQ.txt for details.
-
-## See also
-
-For further information about this font, including Unicode ranges
-supported, Graphite and OpenType font features and how to use them,
-and licensing, please see the documentation on [the website](https://software.sil.org/lateef/) or in the documentation
-subfolder of this font package.
-
