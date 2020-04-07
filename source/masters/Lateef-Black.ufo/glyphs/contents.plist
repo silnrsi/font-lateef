@@ -182,6 +182,8 @@
   <string>_dot3u_tah.glif</string>
   <key>_dot4</key>
   <string>_dot4.glif</string>
+  <key>_dot_dia</key>
+  <string>_dot_dia.glif</string>
   <key>_fehHead</key>
   <string>_fehH_ead.glif</string>
   <key>_gafBar</key>
@@ -212,6 +214,8 @@
   <string>_kaf_left.glif</string>
   <key>_kaf_s</key>
   <string>_kaf_s.glif</string>
+  <key>_lamAlefMaksura</key>
+  <string>_lamA_lefM_aksura.glif</string>
   <key>_lines</key>
   <string>_lines.glif</string>
   <key>_madda</key>

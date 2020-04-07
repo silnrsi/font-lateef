@@ -50,6 +50,8 @@
   <string>rehL_oop-ar.fina.glif</string>
   <key>sad-ar</key>
   <string>sad-ar.glif</string>
+  <key>sadLamAlefMaksuraabove-ar</key>
+  <string>sadL_amA_lefM_aksuraabove-ar.glif</string>
   <key>seen-ar</key>
   <string>seen-ar.glif</string>
   <key>seen-ar.fina</key>
@@ -62,5 +64,7 @@
   <string>waw-ar.glif</string>
   <key>waw-ar.fina</key>
   <string>waw-ar.fina.glif</string>
+  <key>zainabove-ar</key>
+  <string>zainabove-ar.glif</string>
 </dict>
 </plist>

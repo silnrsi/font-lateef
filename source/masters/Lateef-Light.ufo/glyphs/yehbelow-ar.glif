@@ -3,8 +3,6 @@
   <unicode hex="06E6"/>
   <anchor x="190" y="469" name="above"/>
   <anchor x="317" y="43" name="below"/>
-  <anchor x="192" y="601" name="diaA"/>
-  <anchor x="163" y="-20" name="diaB"/>
   <outline>
     <contour>
       <point x="598" y="173" type="line"/>

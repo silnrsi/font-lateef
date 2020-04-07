@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefabove-ar.large" format="2">
-  <anchor x="363" y="233" name="_alef"/>
-  <anchor x="363" y="233" name="_diaA"/>
+  <anchor x="363" y="223" name="_alef"/>
+  <anchor x="363" y="225" name="_diaA"/>
   <anchor x="363" y="925" name="diaA"/>
   <outline>
     <contour>
