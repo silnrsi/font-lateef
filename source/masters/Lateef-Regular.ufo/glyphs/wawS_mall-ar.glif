@@ -2,6 +2,8 @@
 <glyph name="wawSmall-ar" format="2">
   <advance width="287"/>
   <unicode hex="06E5"/>
+  <anchor x="140" y="7" name="_diaA"/>
+  <anchor x="140" y="525" name="diaA"/>
   <outline>
     <component base="waw-ar" xScale="0.54" yScale="0.54" xOffset="-12" yOffset="203"/>
   </outline>

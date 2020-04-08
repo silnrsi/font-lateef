@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zainabove-ar" format="2">
   <unicode hex="0617"/>
+  <anchor x="0" y="924" name="_diaA"/>
   <anchor x="20" y="1257" name="above"/>
   <anchor x="-81" y="1362" name="alef"/>
   <anchor x="19" y="953" name="below"/>
   <anchor x="-67" y="1123" name="center"/>
-  <anchor x="-18" y="1335" name="diaA"/>
-  <anchor x="-63" y="923" name="diaB"/>
+  <anchor x="2" y="1439" name="diaA"/>
   <anchor x="12" y="1004" name="ring"/>
   <anchor x="34" y="1081" name="through"/>
   <outline>
@@ -52,8 +52,6 @@
           <integer>100</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="takhallusabove-ar" format="2">
   <unicode hex="0614"/>
-  <anchor x="556" y="1402" name="_diaA"/>
-  <anchor x="556" y="1749" name="diaA"/>
+  <anchor x="556" y="1390" name="_diaA"/>
+  <anchor x="556" y="1719" name="diaA"/>
   <outline>
     <contour>
       <point x="76" y="1489" type="line"/>

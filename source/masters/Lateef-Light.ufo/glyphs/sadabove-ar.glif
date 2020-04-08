@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sadabove-ar" format="2">
   <unicode hex="0610"/>
+  <anchor x="605" y="1264" name="_diaA"/>
+  <anchor x="605" y="1648" name="diaA"/>
   <outline>
     <contour>
       <point x="425" y="1365" type="line"/>

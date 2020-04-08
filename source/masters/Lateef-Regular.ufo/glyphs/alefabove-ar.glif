@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefabove-ar" format="2">
   <unicode hex="0670"/>
-  <anchor x="113" y="676" name="_alef"/>
-  <anchor x="113" y="676" name="_diaA"/>
+  <anchor x="113" y="678" name="_alef"/>
+  <anchor x="113" y="680" name="_diaA"/>
   <anchor x="113" y="1085" name="diaA"/>
   <outline>
     <contour>

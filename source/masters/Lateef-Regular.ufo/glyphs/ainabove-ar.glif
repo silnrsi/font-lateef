@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ainabove-ar" format="2">
   <unicode hex="0611"/>
+  <anchor x="605" y="1227" name="_diaA"/>
+  <anchor x="605" y="1617" name="diaA"/>
   <outline>
     <contour>
       <point x="592" y="1315" type="curve"/>

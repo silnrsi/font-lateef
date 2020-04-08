@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefLamYehabove-ar" format="2">
   <unicode hex="0616"/>
+  <anchor x="0" y="1018" name="_diaA"/>
+  <anchor x="0" y="1725" name="diaA"/>
   <outline>
     <component base="alef-ar" xScale="0.44163" yScale="0.44352" xOffset="-107" yOffset="1222"/>
     <component base="_lamAlefMaksura"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

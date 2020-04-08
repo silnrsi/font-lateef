@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafLamAlefMaksuraabove-ar" format="2">
   <unicode hex="06D7"/>
-  <anchor x="-14" y="1007" name="_diaA"/>
-  <anchor x="-14" y="1734" name="diaA"/>
+  <anchor x="0" y="1018" name="_diaA"/>
+  <anchor x="0" y="1725" name="diaA"/>
   <outline>
     <contour>
       <point x="-70" y="1283" type="line"/>
@@ -61,8 +61,6 @@
         <integer>-1</integer>
         <integer>0</integer>
       </array>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

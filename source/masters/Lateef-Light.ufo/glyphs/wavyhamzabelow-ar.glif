@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wavyhamzabelow-ar" format="2">
   <unicode hex="065F"/>
+  <anchor x="0" y="-235" name="_diaB"/>
+  <anchor x="0" y="-559" name="diaB"/>
   <outline>
     <component base="_wavyHamza" xOffset="78" yOffset="-401"/>
   </outline>

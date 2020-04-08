@@ -6,7 +6,6 @@
   <anchor x="-75" y="1300" name="alef"/>
   <anchor x="-23" y="982" name="below"/>
   <anchor x="0" y="1250" name="diaA"/>
-  <anchor x="-81" y="890" name="diaB"/>
   <outline>
     <contour>
       <point x="183" y="1190" type="line"/>
