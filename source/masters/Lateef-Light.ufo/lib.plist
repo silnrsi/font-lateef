@@ -35,6 +35,7 @@
 /alefabove-ar   /alefabove-ar.large   /alefbelow-ar   /yehbelow-ar   /yehabove-ar   /noonabove-ar  /sadabove-ar   /ainabove-ar    /takhallusabove-ar   /tahabove-ar     /zainabove-ar    /alefLamYehabove-ar    /sadLamAlefMaksuraabove-ar    /qafLamAlefMaksuraabove-ar  /wawSmall-ar   /meemabove-ar   /meembelow-ar  /meemStopabove-ar   /lamAlefabove-ar   /jeemabove-ar   /hahabove-ar    
 /seenabove-ar   /seenbelow-ar   /threedots-ar  /threedotsabove-ar   /wavyhamzabelow-ar    /hamzaabove-ar   /hamzabelow-ar   /hamza_fatha-ar  /hamza_fatha-ar  /hamza_fatha-ar   /hamza_damma-ar   /hamza_damma-ar.filled   /fatha-ar   /fathatwodots-ar/fathasmall-ar    /kasra-ar/kasrasmall-ar    /fathatan-ar   /kasratan-ar   /dammatan-ar    /dammatan-ar.sixNine   /damma-ar   /dammareversed-ar/dammasmall-ar      
 /shadda-ar   /shadda_alef-ar   /shadda_fathatan-ar   /shadda_dammatan-ar   /shadda_kasratan-ar   /shadda_fatha-ar   /shadda_damma-ar   /shadda_damma-ar.filled   /shadda_kasra-ar   /sukun-ar  /sukunround-ar   /sukunoval-ar   /sukun-ar.downOpen   /noonghunnaabove-ar   /sukun-ar.leftOpen   /marksidewaysnoonghunna-ar   /madda-ar    /maddalong-ar   /damma-ar.filled   /dammainverted-ar   /fathaHorizont-ar   /vabove-ar   /vinvertedabove-ar    /dotStopabove-ar   /dotvowelbelow-ar   /rhombusStopabove-ar   /rhombusStopbelow-ar   </string>
+    <string/>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
