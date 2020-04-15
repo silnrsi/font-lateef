@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vinvertedabove-ar" format="2">
   <unicode hex="065B"/>
-  <anchor x="210" y="987" name="_diaA"/>
-  <anchor x="210" y="1226" name="diaA"/>
+  <anchor x="0" y="959" name="_diaA"/>
+  <anchor x="0" y="1225" name="diaA"/>
   <outline>
-    <component base="vabove-ar" xScale="-1" yScale="-1" xOffset="403" yOffset="2193"/>
+    <component base="vabove-ar" xScale="-1" yScale="-1" xOffset="1" yOffset="2193"/>
   </outline>
 </glyph>

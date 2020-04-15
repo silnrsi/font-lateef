@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fathasmall-ar" format="2">
   <unicode hex="0618"/>
+  <anchor x="0" y="1308" name="_diaA"/>
+  <anchor x="0" y="1500" name="diaA"/>
   <outline>
     <component base="fatha-ar" xScale="0.66" yScale="0.66" xOffset="469" yOffset="637"/>
   </outline>

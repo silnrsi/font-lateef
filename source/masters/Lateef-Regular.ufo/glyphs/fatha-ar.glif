@@ -2,8 +2,8 @@
 <glyph name="fatha-ar" format="2">
   <unicode hex="064E"/>
   <anchor x="75" y="1035" name="_above"/>
-  <anchor x="190" y="1056" name="_diaA"/>
-  <anchor x="190" y="1298" name="diaA"/>
+  <anchor x="168" y="1033" name="_diaA"/>
+  <anchor x="168" y="1291" name="diaA"/>
   <outline>
     <contour>
       <point x="3" y="1043" type="line"/>
