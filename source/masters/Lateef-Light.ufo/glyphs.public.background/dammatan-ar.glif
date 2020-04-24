@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dammatan-ar" format="2">
+  <outline>
+    <contour>
+      <point x="-171" y="1093" type="curve"/>
+      <point x="-131" y="1106"/>
+      <point x="-126" y="1111"/>
+      <point x="-91" y="1135" type="curve"/>
+      <point x="-28" y="1225"/>
+      <point x="-132" y="1315"/>
+      <point x="-229" y="1239" type="curve"/>
+      <point x="-245" y="1185" type="line"/>
+      <point x="-117" y="1270"/>
+      <point x="-69" y="1168"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dammatan-ar" format="2">
   <unicode hex="064C"/>
-  <anchor x="171" y="1027" name="_diaA"/>
-  <anchor x="171" y="1492" name="diaA"/>
+  <anchor x="0" y="1027" name="_diaA"/>
+  <anchor x="0" y="1492" name="diaA"/>
   <outline>
     <contour>
-      <point x="0" y="1093" type="curve"/>
-      <point x="40" y="1106"/>
-      <point x="45" y="1111"/>
-      <point x="80" y="1135" type="curve"/>
-      <point x="143" y="1225"/>
-      <point x="39" y="1315"/>
-      <point x="-58" y="1239" type="curve"/>
-      <point x="-74" y="1185" type="line"/>
-      <point x="54" y="1270"/>
-      <point x="102" y="1168"/>
+      <point x="-206" y="1034" type="curve"/>
+      <point x="-186" y="1042"/>
+      <point x="-164" y="1052"/>
+      <point x="-146" y="1061" type="curve"/>
+      <point x="-144" y="1090" type="line"/>
+      <point x="-47" y="1178"/>
+      <point x="-119" y="1306"/>
+      <point x="-229" y="1239" type="curve"/>
+      <point x="-245" y="1185" type="line"/>
+      <point x="-117" y="1270"/>
+      <point x="-143" y="1109"/>
     </contour>
-    <component base="damma-ar"/>
+    <component base="damma-ar" xOffset="-171"/>
   </outline>
 </glyph>

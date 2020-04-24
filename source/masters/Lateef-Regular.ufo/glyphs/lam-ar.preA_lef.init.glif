@@ -6,8 +6,8 @@
   <anchor x="123" y="-202" name="below"/>
   <anchor x="84" y="1170" name="diaA"/>
   <anchor x="125" y="-300" name="diaB"/>
-  <anchor x="-2" y="0" name="exit"/>
-  <anchor x="216" y="648" name="through"/>
+  <anchor x="-26" y="-100" name="exit"/>
+  <anchor x="216" y="590" name="through"/>
   <outline>
     <contour>
       <point x="149" y="896" type="line"/>

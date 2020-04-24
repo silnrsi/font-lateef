@@ -5,17 +5,18 @@
   <anchor x="0" y="1485" name="diaA"/>
   <outline>
     <contour>
-      <point x="-171" y="1096" type="curve"/>
-      <point x="-131" y="1109"/>
-      <point x="-117" y="1118"/>
-      <point x="-82" y="1142" type="curve"/>
-      <point x="-16" y="1236"/>
-      <point x="-127" y="1329"/>
-      <point x="-227" y="1249" type="curve"/>
-      <point x="-245" y="1188" type="line"/>
-      <point x="-117" y="1273"/>
-      <point x="-69" y="1171"/>
+      <point x="-183" y="1021" type="curve"/>
+      <point x="-154" y="1033"/>
+      <point x="-126" y="1046"/>
+      <point x="-104" y="1058" type="curve"/>
+      <point x="-103" y="1087" type="line"/>
+      <point x="-5" y="1170"/>
+      <point x="-49" y="1344"/>
+      <point x="-192" y="1249" type="curve"/>
+      <point x="-210" y="1188" type="line"/>
+      <point x="-77" y="1262"/>
+      <point x="-106" y="1111"/>
     </contour>
-    <component base="damma-ar" xOffset="17"/>
+    <component base="damma-ar" xOffset="52"/>
   </outline>
 </glyph>

@@ -16,6 +16,6 @@
       <point x="0" y="0" type="curve" smooth="yes"/>
     </contour>
     <component base="_absSwashKaf" xOffset="7"/>
-    <component base="_bowl_connector" xOffset="342"/>
+    <component base="_kafswashconnector" xOffset="953"/>
   </outline>
 </glyph>
