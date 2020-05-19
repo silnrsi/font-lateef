@@ -58,6 +58,8 @@
   <string>_kaf_left.glif</string>
   <key>_kaf_s</key>
   <string>_kaf_s.glif</string>
+  <key>_kehehjoiner</key>
+  <string>_kehehjoiner.glif</string>
   <key>_lines</key>
   <string>_lines.glif</string>
   <key>_madda</key>
@@ -238,6 +240,8 @@
   <string>kaf-ar.glif</string>
   <key>kaf-ar.fina</key>
   <string>kaf-ar.fina.glif</string>
+  <key>kaf-ar.init</key>
+  <string>kaf-ar.init.glif</string>
   <key>kaf-ar.medi</key>
   <string>kaf-ar.medi.glif</string>
   <key>kafswash-ar</key>

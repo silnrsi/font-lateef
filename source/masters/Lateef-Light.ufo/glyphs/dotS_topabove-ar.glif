@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotStopabove-ar" format="2">
   <unicode hex="06EC"/>
-  <anchor x="0" y="970" name="_diaA"/>
+  <anchor x="0" y="987" name="_diaA"/>
   <anchor x="0" y="1226" name="diaA"/>
   <outline>
     <contour>

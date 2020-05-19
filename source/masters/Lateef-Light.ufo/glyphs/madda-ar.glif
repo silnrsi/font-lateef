@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="madda-ar" format="2">
   <unicode hex="0653"/>
-  <anchor x="256" y="1123" name="_diaA"/>
-  <anchor x="256" y="1368" name="diaA"/>
+  <anchor x="0" y="1123" name="_diaA"/>
+  <anchor x="0" y="1368" name="diaA"/>
   <outline>
-    <component base="_madda" xOffset="252" yOffset="1181"/>
+    <component base="_madda" xOffset="21" yOffset="1181"/>
   </outline>
 </glyph>

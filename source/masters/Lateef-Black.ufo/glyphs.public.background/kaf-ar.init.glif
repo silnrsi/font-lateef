@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaf-ar.init" format="2">
-  <advance width="633"/>
-  <anchor x="75" y="848" name="above"/>
-  <anchor x="137" y="-50" name="below"/>
-  <anchor x="150" y="1049" name="diaA"/>
-  <anchor x="150" y="-200" name="diaB"/>
-  <anchor x="405" y="922" name="ring"/>
   <outline>
     <contour>
       <point x="805" y="1154" type="line"/>
@@ -15,12 +9,12 @@
       <point x="89" y="757"/>
       <point x="69" y="684"/>
       <point x="69" y="647" type="curve" smooth="yes"/>
-      <point x="69" y="555"/>
-      <point x="400" y="452"/>
+      <point x="69" y="589"/>
+      <point x="400" y="401"/>
       <point x="400" y="322" type="curve" smooth="yes"/>
       <point x="400" y="302"/>
-      <point x="371" y="280"/>
-      <point x="214" y="280" type="curve" smooth="yes"/>
+      <point x="284" y="280"/>
+      <point x="165" y="280" type="curve" smooth="yes"/>
       <point x="0" y="280" type="line" smooth="yes"/>
       <point x="-27" y="280"/>
       <point x="-59" y="218"/>
@@ -32,7 +26,7 @@
       <point x="297" y="0"/>
       <point x="468" y="82"/>
       <point x="468" y="286" type="curve" smooth="yes"/>
-      <point x="468" y="549"/>
+      <point x="468" y="497"/>
       <point x="218" y="597"/>
       <point x="218" y="644" type="curve" smooth="yes"/>
       <point x="218" y="693"/>

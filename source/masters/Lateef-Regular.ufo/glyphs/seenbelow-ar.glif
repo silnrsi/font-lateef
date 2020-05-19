@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seenbelow-ar" format="2">
   <unicode hex="06E3"/>
-  <anchor x="0" y="-223" name="_diaB"/>
-  <anchor x="0" y="-637" name="diaB"/>
+  <anchor x="20" y="-222" name="_diaB"/>
+  <anchor x="20" y="-637" name="diaB"/>
   <outline>
-    <component base="seenabove-ar" xOffset="19" yOffset="-1632"/>
+    <component base="seenabove-ar" xOffset="12" yOffset="-1632"/>
   </outline>
 </glyph>

@@ -3,7 +3,7 @@
   <anchor x="0" y="1048" name="_diaA"/>
   <anchor x="0" y="1714" name="diaA"/>
   <outline>
-    <component base="shadda-ar" yOffset="330"/>
+    <component base="shadda-ar" yOffset="310"/>
     <component base="fathatan-ar" xOffset="-7" yOffset="-2"/>
   </outline>
 </glyph>

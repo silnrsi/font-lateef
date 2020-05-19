@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hamzabelow-ar" format="2">
   <unicode hex="0655"/>
-  <anchor x="164" y="-55" name="_diaB"/>
-  <anchor x="178" y="-410" name="diaB"/>
+  <anchor x="0" y="-58" name="_diaB"/>
+  <anchor x="0" y="-410" name="diaB"/>
   <outline>
-    <component base="_hamza" xOffset="202" yOffset="-261"/>
+    <component base="_hamza" xOffset="29" yOffset="-261"/>
   </outline>
 </glyph>

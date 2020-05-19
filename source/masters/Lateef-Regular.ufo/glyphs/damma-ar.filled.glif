@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="damma-ar.filled" format="2">
   <anchor x="0" y="1064" name="_diaA"/>
-  <anchor x="-1" y="1453" name="diaA"/>
+  <anchor x="-1" y="1468" name="diaA"/>
   <outline>
     <component base="_damma.filled" xOffset="8" yOffset="1211"/>
   </outline>

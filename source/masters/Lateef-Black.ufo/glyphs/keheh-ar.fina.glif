@@ -8,21 +8,7 @@
   <anchor x="316" y="-202" name="diaB"/>
   <anchor x="1076" y="922" name="ring"/>
   <outline>
-    <contour>
-      <point x="899" y="560" type="curve"/>
-      <point x="976" y="414" type="line"/>
-      <point x="1029" y="360"/>
-      <point x="1284" y="0"/>
-      <point x="1544" y="0" type="curve" smooth="yes"/>
-      <point x="1576" y="0"/>
-      <point x="1599" y="84"/>
-      <point x="1599" y="139" type="curve" smooth="yes"/>
-      <point x="1599" y="191"/>
-      <point x="1578" y="280"/>
-      <point x="1544" y="280" type="curve" smooth="yes"/>
-      <point x="1368" y="280"/>
-      <point x="1055" y="433"/>
-    </contour>
     <component base="keheh-ar"/>
+    <component base="_kehehjoiner" xOffset="899"/>
   </outline>
 </glyph>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotvowelbelow-ar" format="2">
   <unicode hex="065C"/>
-  <anchor x="0" y="-2" name="_diaB"/>
-  <anchor x="0" y="-361" name="diaB"/>
+  <anchor x="0" y="-60" name="_diaB"/>
+  <anchor x="0" y="-297" name="diaB"/>
   <outline>
     <component base="dotStopabove-ar" yOffset="-1288"/>
   </outline>

@@ -2,9 +2,6 @@
 <glyph name="hahabove-ar" format="2">
   <unicode hex="06E1"/>
   <anchor x="0" y="979" name="_diaA"/>
-  <anchor x="48" y="1241" name="above"/>
-  <anchor x="-75" y="1300" name="alef"/>
-  <anchor x="-23" y="982" name="below"/>
   <anchor x="0" y="1237" name="diaA"/>
   <outline>
     <contour>

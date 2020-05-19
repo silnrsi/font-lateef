@@ -8,6 +8,6 @@
   <outline>
     <component base="behDotless-ar"/>
     <component base="_dot2h" xOffset="624" yOffset="581"/>
-    <component base="_ring" xOffset="578" yOffset="-95"/>
+    <component base="_ring" xOffset="678" yOffset="-95"/>
   </outline>
 </glyph>

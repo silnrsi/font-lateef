@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shadda_fathatan-ar" format="2">
-  <anchor x="147" y="1045" name="_diaA"/>
-  <anchor x="147" y="1674" name="diaA"/>
+  <anchor x="0" y="1045" name="_diaA"/>
+  <anchor x="0" y="1674" name="diaA"/>
   <outline>
     <component base="shadda-ar"/>
-    <component base="fatha-ar" xOffset="-47" yOffset="377"/>
-    <component base="fatha-ar" xOffset="-47" yOffset="237"/>
+    <component base="fathatan-ar" xOffset="24" yOffset="237"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>
-        <integer>-1</integer>
-        <integer>-1</integer>
+        <integer>0</integer>
       </array>
     </dict>
   </lib>

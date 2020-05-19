@@ -2,8 +2,8 @@
 <glyph name="threedots-ar" format="2">
   <advance width="626"/>
   <unicode hex="061E"/>
-  <anchor x="313" y="486" name="diaA"/>
-  <anchor x="313" y="-20" name="diaB"/>
+  <anchor x="313" y="456" name="diaA"/>
+  <anchor x="313" y="-9" name="diaB"/>
   <outline>
     <component base="_dot1" xOffset="186" yOffset="103"/>
     <component base="_dot1" xOffset="434" yOffset="103"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rhombusStopabove-ar" format="2">
   <unicode hex="06EB"/>
-  <anchor x="0" y="959" name="_diaA"/>
-  <anchor x="0" y="1232" name="diaA"/>
+  <anchor x="0" y="913" name="_diaA"/>
+  <anchor x="0" y="1287" name="diaA"/>
   <outline>
     <contour>
       <point x="148" y="1100" type="line"/>

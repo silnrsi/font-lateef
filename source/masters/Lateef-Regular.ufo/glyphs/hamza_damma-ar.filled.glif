@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hamza_damma-ar.filled" format="2">
-  <anchor x="178" y="673" name="_diaA"/>
-  <anchor x="178" y="1406" name="diaA"/>
+  <anchor x="0" y="673" name="_diaA"/>
+  <anchor x="0" y="1406" name="diaA"/>
   <outline>
-    <component base="_hamza" xOffset="200" yOffset="822"/>
-    <component base="_damma.filled" xOffset="186" yOffset="1162"/>
+    <component base="_hamza" xOffset="22" yOffset="822"/>
+    <component base="_damma.filled" xOffset="8" yOffset="1162"/>
   </outline>
 </glyph>

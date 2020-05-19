@@ -4,7 +4,7 @@
   <anchor x="0" y="1308" name="_diaA"/>
   <anchor x="0" y="1500" name="diaA"/>
   <outline>
-    <component base="fatha-ar" xScale="0.66" yScale="0.66" xOffset="469" yOffset="637"/>
+    <component base="fatha-ar" xScale="0.66" yScale="0.66" xOffset="-112" yOffset="637"/>
   </outline>
   <lib>
     <dict>

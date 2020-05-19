@@ -3,6 +3,6 @@
   <anchor x="0" y="968" name="_diaA"/>
   <anchor x="0" y="1283" name="diaA"/>
   <outline>
-    <component base="marksidewaysnoonghunna-ar" xOffset="-107"/>
+    <component base="marksidewaysnoonghunna-ar" xOffset="-7"/>
   </outline>
 </glyph>

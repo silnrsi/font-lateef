@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dammareversed-ar" format="2">
   <unicode hex="065D"/>
-  <anchor x="0" y="1022" name="_diaA"/>
+  <anchor x="0" y="1048" name="_diaA"/>
   <anchor x="0" y="1485" name="diaA"/>
   <outline>
     <contour>
