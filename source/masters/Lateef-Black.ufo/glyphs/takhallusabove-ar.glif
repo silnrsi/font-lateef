@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="takhallusabove-ar" format="2">
   <unicode hex="0614"/>
-  <anchor x="556" y="1402" name="_diaA"/>
-  <anchor x="556" y="1749" name="diaA"/>
+  <anchor x="26" y="1369" name="_diaA"/>
+  <anchor x="26" y="1727" name="diaA"/>
   <outline>
     <contour>
-      <point x="76" y="1489" type="line"/>
-      <point x="278" y="1473"/>
-      <point x="482" y="1480"/>
-      <point x="690" y="1523" type="curve"/>
-      <point x="678" y="1534" type="line"/>
-      <point x="714" y="1287"/>
-      <point x="987" y="1355"/>
-      <point x="935" y="1707" type="curve"/>
-      <point x="899" y="1689" type="line"/>
-      <point x="932" y="1430"/>
-      <point x="679" y="1428"/>
-      <point x="715" y="1635" type="curve"/>
-      <point x="503" y="1565"/>
-      <point x="271" y="1535"/>
-      <point x="20" y="1529" type="curve"/>
+      <point x="-454" y="1489" type="line"/>
+      <point x="-252" y="1473"/>
+      <point x="-48" y="1480"/>
+      <point x="160" y="1523" type="curve"/>
+      <point x="148" y="1534" type="line"/>
+      <point x="184" y="1287"/>
+      <point x="457" y="1355"/>
+      <point x="405" y="1707" type="curve"/>
+      <point x="369" y="1689" type="line"/>
+      <point x="402" y="1430"/>
+      <point x="149" y="1428"/>
+      <point x="185" y="1635" type="curve"/>
+      <point x="-27" y="1565"/>
+      <point x="-259" y="1535"/>
+      <point x="-510" y="1529" type="curve"/>
     </contour>
   </outline>
 </glyph>

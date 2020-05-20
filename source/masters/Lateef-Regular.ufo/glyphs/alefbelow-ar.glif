@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefbelow-ar" format="2">
   <unicode hex="0656"/>
-  <anchor x="98" y="-26" name="_diaB"/>
-  <anchor x="98" y="-431" name="diaB"/>
+  <anchor x="0" y="-26" name="_diaB"/>
+  <anchor x="0" y="-431" name="diaB"/>
   <outline>
-    <component base="alefabove-ar" yOffset="-1111"/>
+    <component base="alefabove-ar" xOffset="2" yOffset="-1111"/>
   </outline>
 </glyph>
