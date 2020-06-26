@@ -116,7 +116,7 @@
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
-  <string>Lateef, an extended Arabic font, is named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and poet. It is intended to be an appropriate style for use in Sindhi and other languages of the South Asian region.</string>
+  <string>Arabic script font for Sindhi and other languages of southern Asia</string>
   <key>openTypeNameDesigner</key>
   <string>SIL International</string>
   <key>openTypeNameDesignerURL</key>
@@ -179,7 +179,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Lateef Regular: 2020</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.200</string>
+  <string>Version 1.210</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -292,7 +292,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>200</integer>
+  <integer>210</integer>
   <key>xHeight</key>
   <integer>690</integer>
 </dict>

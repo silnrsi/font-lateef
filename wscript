@@ -19,7 +19,7 @@ DEBPKG = 'fonts-sil-lateef'
 FAMILY = APPNAME
 
 DESC_NAME = "Lateef"
-DESC_SHORT = "An Arabic script font for Sindhi and other languages of southern Asia"
+DESC_SHORT = "Arabic script font for Sindhi and other languages of southern Asia"
 
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
