@@ -5,9 +5,9 @@
   <note>
 dotlessi
 </note>
-  <anchor x="203" y="0" name="bottom"/>
+  <anchor x="203" y="682" name="above"/>
+  <anchor x="203" y="0" name="below"/>
   <anchor x="296" y="0" name="ogonek"/>
-  <anchor x="203" y="682" name="top"/>
   <outline>
     <contour>
       <point x="54" y="0" type="line"/>

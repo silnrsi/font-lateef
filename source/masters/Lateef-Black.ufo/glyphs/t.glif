@@ -5,9 +5,9 @@
   <note>
 t
 </note>
-  <anchor x="324" y="0" name="bottom"/>
+  <anchor x="292" y="884" name="above"/>
+  <anchor x="324" y="0" name="below"/>
   <anchor x="227" y="433" name="stroke"/>
-  <anchor x="292" y="884" name="top"/>
   <anchor x="414" y="1104" name="topright"/>
   <outline>
     <contour>

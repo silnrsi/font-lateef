@@ -5,8 +5,8 @@
   <note>
 R
 </note>
-  <anchor x="483" y="0" name="bottom"/>
-  <anchor x="406" y="942" name="top"/>
+  <anchor x="406" y="942" name="above"/>
+  <anchor x="483" y="0" name="below"/>
   <outline>
     <contour>
       <point x="93" y="0" type="line"/>

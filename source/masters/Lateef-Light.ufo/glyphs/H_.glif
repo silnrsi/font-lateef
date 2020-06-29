@@ -5,9 +5,9 @@
   <note>
 H
 </note>
-  <anchor x="529" y="0" name="bottom"/>
+  <anchor x="529" y="942" name="above"/>
+  <anchor x="529" y="0" name="below"/>
   <anchor x="529" y="696" name="center"/>
-  <anchor x="529" y="942" name="top"/>
   <anchor x="40" y="942" name="topleft"/>
   <outline>
     <contour>

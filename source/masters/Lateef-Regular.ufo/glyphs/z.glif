@@ -5,8 +5,8 @@
   <note>
 z
 </note>
-  <anchor x="364" y="0" name="bottom"/>
-  <anchor x="364" y="694" name="top"/>
+  <anchor x="364" y="694" name="above"/>
+  <anchor x="364" y="0" name="below"/>
   <outline>
     <contour>
       <point x="242" y="27" type="line"/>

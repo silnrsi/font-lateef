@@ -5,8 +5,8 @@
   <note>
 S
 </note>
-  <anchor x="377" y="0" name="bottom"/>
-  <anchor x="377" y="942" name="top"/>
+  <anchor x="377" y="942" name="above"/>
+  <anchor x="377" y="0" name="below"/>
   <outline>
     <contour>
       <point x="356" y="-14" type="curve" smooth="yes"/>

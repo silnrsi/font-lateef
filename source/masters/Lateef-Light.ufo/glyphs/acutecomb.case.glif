@@ -3,8 +3,8 @@
   <note>
 acutecomb.cap
 </note>
-  <anchor x="481" y="1059" name="_top"/>
-  <anchor x="481" y="1415" name="top"/>
+  <anchor x="481" y="1059" name="_above"/>
+  <anchor x="481" y="1415" name="above"/>
   <outline>
     <contour>
       <point x="507" y="1149" type="line"/>

@@ -4,8 +4,8 @@
   <note>
 uni030A
 </note>
-  <anchor x="481" y="682" name="_top"/>
-  <anchor x="481" y="1121" name="top"/>
+  <anchor x="481" y="682" name="_above"/>
+  <anchor x="481" y="1121" name="above"/>
   <outline>
     <contour>
       <point x="483" y="797" type="curve" smooth="yes"/>

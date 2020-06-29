@@ -5,9 +5,9 @@
   <note>
 u
 </note>
-  <anchor x="420" y="0" name="bottom"/>
+  <anchor x="420" y="682" name="above"/>
+  <anchor x="420" y="0" name="below"/>
   <anchor x="669" y="0" name="ogonek"/>
-  <anchor x="420" y="682" name="top"/>
   <anchor x="658" y="682" name="topright"/>
   <outline>
     <contour>

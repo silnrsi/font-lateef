@@ -5,8 +5,8 @@
   <note>
 K
 </note>
-  <anchor x="495" y="0" name="bottom"/>
-  <anchor x="495" y="942" name="top"/>
+  <anchor x="495" y="942" name="above"/>
+  <anchor x="495" y="0" name="below"/>
   <outline>
     <contour>
       <point x="579" y="0" type="line"/>

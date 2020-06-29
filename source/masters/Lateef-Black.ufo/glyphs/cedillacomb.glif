@@ -4,7 +4,7 @@
   <note>
 uni0327
 </note>
-  <anchor x="481" y="0" name="_bottom"/>
+  <anchor x="481" y="0" name="_below"/>
   <outline>
     <contour>
       <point x="460" y="-357" type="curve" smooth="yes"/>

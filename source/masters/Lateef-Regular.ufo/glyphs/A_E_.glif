@@ -5,8 +5,8 @@
   <note>
 AE
 </note>
-  <anchor x="672" y="0" name="bottom"/>
-  <anchor x="672" y="942" name="top"/>
+  <anchor x="672" y="942" name="above"/>
+  <anchor x="672" y="0" name="below"/>
   <outline>
     <contour>
       <point x="1197" y="-8" type="curve"/>

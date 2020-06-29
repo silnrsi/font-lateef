@@ -5,9 +5,9 @@
   <note>
 e
 </note>
-  <anchor x="375" y="0" name="bottom"/>
+  <anchor x="375" y="682" name="above"/>
+  <anchor x="375" y="0" name="below"/>
   <anchor x="561" y="0" name="ogonek"/>
-  <anchor x="375" y="682" name="top"/>
   <outline>
     <contour>
       <point x="390" y="-12" type="curve" smooth="yes"/>

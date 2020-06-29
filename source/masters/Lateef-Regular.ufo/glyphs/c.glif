@@ -5,8 +5,8 @@
   <note>
 c
 </note>
-  <anchor x="402" y="0" name="bottom"/>
-  <anchor x="402" y="694" name="top"/>
+  <anchor x="402" y="694" name="above"/>
+  <anchor x="402" y="0" name="below"/>
   <outline>
     <contour>
       <point x="402" y="-12" type="curve" smooth="yes"/>

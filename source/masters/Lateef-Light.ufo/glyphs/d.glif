@@ -5,10 +5,10 @@
   <note>
 d
 </note>
-  <anchor x="444" y="0" name="bottom"/>
+  <anchor x="426" y="1059" name="above"/>
+  <anchor x="444" y="0" name="below"/>
   <anchor x="426" y="341" name="center"/>
   <anchor x="550" y="832" name="stroke"/>
-  <anchor x="426" y="1059" name="top"/>
   <anchor x="752" y="1104" name="topright"/>
   <outline>
     <contour>

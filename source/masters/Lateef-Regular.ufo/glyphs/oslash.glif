@@ -5,7 +5,7 @@
   <note>
 oslash
 </note>
-  <anchor x="422" y="694" name="top"/>
+  <anchor x="422" y="694" name="above"/>
   <outline>
     <component base="o"/>
     <component base="slashlongcomb" xOffset="-67"/>

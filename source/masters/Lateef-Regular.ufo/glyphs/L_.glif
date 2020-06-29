@@ -5,10 +5,10 @@
   <note>
 L
 </note>
-  <anchor x="455" y="0" name="bottom"/>
+  <anchor x="258" y="942" name="above"/>
+  <anchor x="455" y="0" name="below"/>
   <anchor x="311" y="486" name="center"/>
   <anchor x="576" y="513" name="dotacc"/>
-  <anchor x="258" y="942" name="top"/>
   <anchor x="593" y="942" name="topright"/>
   <outline>
     <contour>

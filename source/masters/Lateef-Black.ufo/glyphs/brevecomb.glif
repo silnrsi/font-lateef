@@ -4,8 +4,8 @@
   <note>
 uni0306
 </note>
-  <anchor x="481" y="711" name="_top"/>
-  <anchor x="481" y="1102" name="top"/>
+  <anchor x="481" y="711" name="_above"/>
+  <anchor x="481" y="1102" name="above"/>
   <outline>
     <contour>
       <point x="640" y="1086" type="line"/>
