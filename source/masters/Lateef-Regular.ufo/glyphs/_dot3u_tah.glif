@@ -3,7 +3,7 @@
   <anchor x="0" y="-286" name="_above"/>
   <anchor x="0" y="727" name="_below"/>
   <outline>
-    <component base="tah-ar" xScale="0.37" yScale="0.37" xOffset="-199" yOffset="287"/>
     <component base="_dot3u"/>
+    <component base="_tah" xOffset="8" yOffset="348"/>
   </outline>
 </glyph>
