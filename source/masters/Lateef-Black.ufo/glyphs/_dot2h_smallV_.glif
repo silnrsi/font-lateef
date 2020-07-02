@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="_dot1_smallV" format="2">
+<glyph name="_dot2h_smallV" format="2">
   <anchor x="0" y="-180" name="_above"/>
   <anchor x="0" y="449" name="_below"/>
   <outline>
-    <component base="_dot1"/>
-    <component base="vabove-ar" xOffset="-5" yOffset="-830"/>
+    <component base="vabove-ar" xOffset="-212" yOffset="-808"/>
+    <component base="_dot2h"/>
   </outline>
 </glyph>
