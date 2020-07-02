@@ -5,6 +5,6 @@
   <anchor x="0" y="188" name="_center"/>
   <outline>
     <component base="_dot2h"/>
-    <component base="_tah_small" xOffset="12" yOffset="239"/>
+    <component base="_tah" xOffset="12" yOffset="239"/>
   </outline>
 </glyph>

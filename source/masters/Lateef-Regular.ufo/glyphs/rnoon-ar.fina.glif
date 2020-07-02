@@ -6,6 +6,6 @@
   <anchor x="232" y="-502" name="diaB"/>
   <outline>
     <component base="noonghunna-ar.fina"/>
-    <component base="_tah_small" xOffset="385" yOffset="348"/>
+    <component base="_tah" xOffset="385" yOffset="348"/>
   </outline>
 </glyph>
