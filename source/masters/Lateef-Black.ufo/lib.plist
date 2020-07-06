@@ -49,6 +49,9 @@
     <string>/_dot1_smallV   /_dot2h_smallV</string>
     <string>/tah-ar/_dot1_tah/noonTahabove-ar</string>
     <string>/_dot1_tah   /_dot2h_tah   /_dot3u_tah</string>
+    <string>/tcheh-ar/nyeh-ar/dyeh-ar/jeem-ar/tcheh-ar/tcheheh-ar/tchehDotabove-ar/nyeh-ar/dyeh-ar/hahThreedotsupbelow-ar</string>
+    <string>/vabove-ar   /vabove-ar   /vabove-ar  /_dot2h   /_dot2h_smallV</string>
+    <string> /_dot1_tah   /_dot2h_smallV   /vabove-ar/behVabove-ar/behVabove-ar.fina/behVabove-ar.medi/behVabove-ar.init/rehv-ar/rehv-ar.fina/rehVbelow-ar/rehVbelow-ar.fina/lamVabove-ar/lamVabove-ar.fina/lamVabove-ar.medi/lamVabove-ar.init/lamVabove-ar.preAlef.medi/lamVabove-ar.preAlef.init/yehVabove-ar/yehVabove-ar.fina/yehVabove-ar.medi/yehVabove-ar.init/vinvertedabove-ar/_dot1_smallV/_dot2h_smallV/_tah_smallV   /_tah_smallV</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2930</integer>

@@ -3,7 +3,7 @@
   <anchor x="0" y="-180" name="_above"/>
   <anchor x="0" y="449" name="_below"/>
   <outline>
-    <component base="vabove-ar" xOffset="-212" yOffset="-808"/>
+    <component base="vabove-ar" xOffset="-3" yOffset="-808"/>
     <component base="_dot2h"/>
   </outline>
 </glyph>

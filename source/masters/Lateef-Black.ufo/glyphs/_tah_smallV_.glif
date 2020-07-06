@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_tah_smallV" format="2">
+  <anchor x="0" y="-180" name="_above"/>
+  <anchor x="0" y="646" name="_below"/>
+  <anchor x="0" y="187" name="_center"/>
+  <outline>
+    <component base="_tah" xOffset="4" yOffset="-22"/>
+    <component base="vabove-ar" xOffset="-5" yOffset="-589"/>
+  </outline>
+</glyph>
