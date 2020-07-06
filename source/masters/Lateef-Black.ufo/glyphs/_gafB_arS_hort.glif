@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_gafBarShort" format="2">
+  <anchor x="98" y="0" name="_above"/>
+  <outline>
+    <contour>
+      <point x="-7" y="-23" type="line"/>
+      <point x="585" y="272" type="line"/>
+      <point x="633" y="413" type="line"/>
+      <point x="43" y="118" type="line"/>
+    </contour>
+  </outline>
+</glyph>

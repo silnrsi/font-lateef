@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_one" format="2">
+  <anchor x="0" y="89" name="_above"/>
+  <anchor x="-1" y="613" name="diaA"/>
+  <outline>
+    <component base="one-ar" xScale="0.37" yScale="0.37" xOffset="-159" yOffset="140"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

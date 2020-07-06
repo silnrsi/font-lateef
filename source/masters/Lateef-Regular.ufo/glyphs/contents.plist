@@ -188,8 +188,12 @@
   <string>_dot_dia.glif</string>
   <key>_fehHead</key>
   <string>_fehH_ead.glif</string>
+  <key>_four</key>
+  <string>_four.glif</string>
   <key>_gafBar</key>
   <string>_gafB_ar.glif</string>
+  <key>_gafBarShort</key>
+  <string>_gafB_arS_hort.glif</string>
   <key>_gafBarShort_dot2h</key>
   <string>_gafB_arS_hort_dot2h.glif</string>
   <key>_gafBarShort_dot3u</key>
@@ -226,6 +230,8 @@
   <string>_lines.glif</string>
   <key>_madda</key>
   <string>_madda.glif</string>
+  <key>_one</key>
+  <string>_one.glif</string>
   <key>_ring</key>
   <string>_ring.glif</string>
   <key>_smallV</key>
@@ -242,6 +248,10 @@
   <string>_tah_stem.glif</string>
   <key>_tail</key>
   <string>_tail.glif</string>
+  <key>_three</key>
+  <string>_three.glif</string>
+  <key>_two</key>
+  <string>_two.glif</string>
   <key>_vline</key>
   <string>_vline.glif</string>
   <key>_wasla</key>

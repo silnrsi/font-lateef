@@ -36,6 +36,8 @@
   <string>_dot4.glif</string>
   <key>_gafBar</key>
   <string>_gafB_ar.glif</string>
+  <key>_gafBarShort</key>
+  <string>_gafB_arS_hort.glif</string>
   <key>_gafBarShort_dot2h</key>
   <string>_gafB_arS_hort_dot2h.glif</string>
   <key>_gafBarShort_dot3u</key>

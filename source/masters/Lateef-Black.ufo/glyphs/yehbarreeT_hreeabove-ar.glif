@@ -4,6 +4,6 @@
   <unicode hex="077B"/>
   <outline>
     <component base="yehbarree-ar"/>
-    <component base="three-ar" xScale="0.37" yScale="0.37" xOffset="198" yOffset="140"/>
+    <component base="_three"/>
   </outline>
 </glyph>

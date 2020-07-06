@@ -4,6 +4,6 @@
   <unicode hex="0777"/>
   <outline>
     <component base="yeh-ar.noDots"/>
-    <component base="four-persian.urdu" xScale="0.37" yScale="0.37" xOffset="299" yOffset="-873"/>
+    <component base="_four" xOffset="500"/>
   </outline>
 </glyph>
