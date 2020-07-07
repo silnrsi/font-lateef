@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="waw-ar.fina" format="2">
   <advance width="589"/>
-  <anchor x="357" y="414" name="above"/>
+  <anchor x="355" y="525" name="above"/>
   <anchor x="47" y="686" name="alef"/>
   <anchor x="326" y="-332" name="below"/>
   <anchor x="277" y="648" name="diaA"/>
