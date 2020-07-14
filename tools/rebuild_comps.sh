@@ -4,6 +4,9 @@ SOURCE_UFO=Lateef-Regular.ufo
 TARGET_UFO=Lateef-Regular-composites.ufo
 MASTER_DIR=source/masters
 
+echo
+echo "Rebuilding composites..."
+
 # Check we're in the same directory as the source UFO
 if [ ! -d "$SOURCE_UFO" ]
 then
@@ -26,4 +29,4 @@ psfbuildcomp \
 	--preserve 'dia[AB]|alef$' \
 	-i "$COMP_DEFS" "$TARGET_UFO"
 
-echo "Done."
+echo "Composite rebuild done."

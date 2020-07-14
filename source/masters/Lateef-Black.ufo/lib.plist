@@ -50,7 +50,9 @@
     <string>/yehKashmiri-ar</string>
     <string>/yeh-ar.noDots/yehKashmiri-ar</string>
     <string>/yehKashmiri-ar/yehKashmiri-ar.fina/yehKashmiri-ar.medi/yehKashmiri-ar.init</string>
-    <string>/kehehTwodotshorizontalabove-ar.fina</string>
+    <string>/alef-ar  /_two  /alefTwoabove-ar  /_three  /alefThreeabove-ar/alef-ar.fina  /alef-ar.postLamIni.fina  /alef-ar.postLamMed.fina</string>
+    <string>/_four</string>
+    <string>/_four</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2930</integer>
@@ -230,6 +232,7 @@
     <string>onesuperior</string>
     <string>twosuperior</string>
     <string>threesuperior</string>
+    <string>foursuperior</string>
     <string>onehalf</string>
     <string>onequarter</string>
     <string>threequarters</string>
@@ -1360,6 +1363,7 @@
     <string>summation</string>
     <string>summation.rtl</string>
     <string>minus</string>
+    <string>divisionslash</string>
     <string>bulletoperator</string>
     <string>radical</string>
     <string>radical.rtl</string>
@@ -1615,6 +1619,7 @@
     <string>onesuperior</string>
     <string>twosuperior</string>
     <string>threesuperior</string>
+    <string>foursuperior</string>
     <string>onehalf</string>
     <string>onequarter</string>
     <string>threequarters</string>
@@ -2745,6 +2750,7 @@
     <string>summation</string>
     <string>summation.rtl</string>
     <string>minus</string>
+    <string>divisionslash</string>
     <string>bulletoperator</string>
     <string>radical</string>
     <string>radical.rtl</string>
@@ -3210,6 +3216,8 @@
     <string>uni0308</string>
     <key>dieresiscomb.case</key>
     <string>uni0308.case</string>
+    <key>divisionslash</key>
+    <string>uni2215</string>
     <key>dotStopabove-ar</key>
     <string>uni06EC</string>
     <key>dotaccentcomb</key>
@@ -3390,6 +3398,8 @@
     <string>uni0664.dnom</string>
     <key>fourperemspace</key>
     <string>uni2005</string>
+    <key>foursuperior</key>
+    <string>uni2074</string>
     <key>fullstop-ar</key>
     <string>uni06D4</string>
     <key>gaf-ar</key>
