@@ -1,3 +1,12 @@
+# Originally generated using:
+# psfcsv2comp --fontcode L --gname glyph_name --base Glyphsbase \
+# 		--anchors above,below,center,ring,through,aboveLeft \
+# 		-i .../font-arab-tools/absGlyphList/absGlyphList.csv \
+# 		composites.txt
+#
+# 2020-07-14 pm Edits for LSB on alefTwo, alefThree
+# 2020-06-29 pm delete all Latin composites
+#
 alefHamzaabove-ar = alef-ar + _hamza@above
 alefHamzaabove-ar.fina = alef-ar.fina + _hamza@above
 alefHamzaabove-ar.postLamIni.fina = alef-ar.postLamIni.fina + _hamza@above
@@ -26,14 +35,14 @@ highhamzaAlef-ar = alef-ar + _highHamza@above
 highhamzaAlef-ar.fina = alef-ar.fina + _highHamza@above
 highhamzaAlef-ar.postLamIni.fina = alef-ar.postLamIni.fina + _highHamza@above
 highhamzaAlef-ar.postLamMed.fina = alef-ar.postLamMed.fina + _highHamza@above
-alefTwoabove-ar = alef-ar + _two@aboveLeft
-alefTwoabove-ar.fina = alef-ar.fina + _two@aboveLeft
-alefTwoabove-ar.postLamIni.fina = alef-ar.postLamIni.fina + _two@aboveLeft
-alefTwoabove-ar.postLamMed.fina = alef-ar.postLamMed.fina + _two@aboveLeft
-alefThreeabove-ar = alef-ar + _three@aboveLeft
-alefThreeabove-ar.fina = alef-ar.fina + _three@aboveLeft
-alefThreeabove-ar.postLamIni.fina = alef-ar.postLamIni.fina + _three@aboveLeft
-alefThreeabove-ar.postLamMed.fina = alef-ar.postLamMed.fina + _three@aboveLeft
+alefTwoabove-ar = alef-ar + _two@aboveLeft ^ 144,0
+alefTwoabove-ar.fina = alef-ar.fina + _two@aboveLeft ^ 210,0
+alefTwoabove-ar.postLamIni.fina = alef-ar.postLamIni.fina + _two@aboveLeft ^ 135,0
+alefTwoabove-ar.postLamMed.fina = alef-ar.postLamMed.fina + _two@aboveLeft ^ 135,0
+alefThreeabove-ar = alef-ar + _three@aboveLeft ^ 197,0
+alefThreeabove-ar.fina = alef-ar.fina + _three@aboveLeft ^ 262,0
+alefThreeabove-ar.postLamIni.fina = alef-ar.postLamIni.fina + _three@aboveLeft ^ 187,0
+alefThreeabove-ar.postLamMed.fina = alef-ar.postLamMed.fina + _three@aboveLeft ^ 187,0
 beh-ar = behDotless-ar + _dot1@below
 beh-ar.fina = behDotless-ar.fina + _dot1@below
 beh-ar.medi = behDotless-ar.medi + _dot1@below
@@ -632,8 +641,9 @@ yehFourbelow-farsi = yeh-ar.noDots + _four@below
 yehFourbelow-farsi.fina = yeh-ar.noDots.fina + _four@below
 yehFourbelow-farsi.medi = behDotless-ar.medi + _four@below
 yehFourbelow-farsi.init = behDotless-ar.init + _four@below
-yehKashmiri-ar = yeh-ar.noDots + _ring@ring
-yehKashmiri-ar.fina = yeh-ar.noDots.fina + _ring@ring
+# 2020-07-14 pm Following definitions to be removed from ABSGlyphList, then removed from here
+# yehKashmiri-ar = yeh-ar.noDots + _ring@ring
+# yehKashmiri-ar.fina = yeh-ar.noDots.fina + _ring@ring
 yehKashmiri-ar.medi = behDotless-ar.medi + _ring@ring
 yehKashmiri-ar.init = behDotless-ar.init + _ring@ring
 e-ar = yeh-ar.noDots + _dot2v@below
