@@ -1,158 +1,276 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
-<ftml version='1.0'>
-  <testgroup label='Rendering check'>
-  <test label='Check'><string>RenderingUnknown</string></test>
-  </testgroup>
-  <testgroup label='Subtending Marks'>
-  <test label='U+06DD'><string>\u0628\u06DD\u0645 \u06DD\u0032 \u06DD\u0032\u0032 \u06DD\u0032\u0032\u0032 \u06DD\u0031\u0032</string><comment>absEndOfAyah+two</comment></test>
-  <test label='U+06DD' stylename='cv80_1'><string>\u0628\u06DD\u0645 \u06DD\u0032 \u06DD\u0032\u0032 \u06DD\u0032\u0032\u0032 \u06DD\u0031\u0032</string><comment>absEndOfAyah+two</comment></test>
-  <test label='U+06DD' stylename='cv80_2'><string>\u0628\u06DD\u0645 \u06DD\u0032 \u06DD\u0032\u0032 \u06DD\u0032\u0032\u0032 \u06DD\u0031\u0032</string><comment>absEndOfAyah+two</comment></test>
-  <test label='U+06DD'><string>\u0628\u06DD\u0645 \u06DD\u0668 \u06DD\u0668\u0668 \u06DD\u0668\u0668\u0668 \u06DD\u0661\u0662</string><comment>absEndOfAyah+absEight</comment></test>
-  <test label='U+06DD' stylename='cv80_1'><string>\u0628\u06DD\u0645 \u06DD\u0668 \u06DD\u0668\u0668 \u06DD\u0668\u0668\u0668 \u06DD\u0661\u0662</string><comment>absEndOfAyah+absEight</comment></test>
-  <test label='U+06DD' stylename='cv80_2'><string>\u0628\u06DD\u0645 \u06DD\u0668 \u06DD\u0668\u0668 \u06DD\u0668\u0668\u0668 \u06DD\u0661\u0662</string><comment>absEndOfAyah+absEight</comment></test>
-  <test label='U+06DD'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv82_1'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv82_2'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv82_3'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv82_4'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv80_1'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv80_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv80_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv80_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv80_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv80_1_cv82_1'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv80_1_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv80_1_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv80_1_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv80_1_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv80_1_cv82_2'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv80_1_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv80_1_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv80_1_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv80_1_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv80_1_cv82_3'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv80_1_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv80_1_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv80_1_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv80_1_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv80_1_cv82_4'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv80_1_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv80_1_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv80_1_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv80_1_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv80_2'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv80_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv80_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv80_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv80_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv80_2_cv82_1'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv80_2_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv80_2_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv80_2_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv80_2_cv82_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv80_2_cv82_2'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv80_2_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv80_2_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv80_2_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv80_2_cv82_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv80_2_cv82_3'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv80_2_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv80_2_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv80_2_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv80_2_cv82_3'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='cv80_2_cv82_4'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>absEndOfAyah+absEasternEight</comment></test>
-  <test label='U+06DD' stylename='cv80_2_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='rhg_cv80_2_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='sd_cv80_2_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  <test label='U+06DD' stylename='ur_cv80_2_cv82_4'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>absEndOfAyah</comment></test>
-  </testgroup>
-<head>
-  <fontscale>300</fontscale>
-  <fontsrc>local(Scheherazade)</fontsrc>
-  <fontsrc>local(Lateef)</fontsrc>
-  <fontsrc>url(../results/web/LateefGR-Regular.woff)</fontsrc>
-  <styles>
-    <style name='cv80_1' feats='"cv80" 1'/>
-    <style name='cv80_1_cv82_1' feats='"cv80" 1, "cv82" 1'/>
-    <style name='cv80_1_cv82_2' feats='"cv80" 1, "cv82" 2'/>
-    <style name='cv80_1_cv82_3' feats='"cv80" 1, "cv82" 3'/>
-    <style name='cv80_1_cv82_4' feats='"cv80" 1, "cv82" 4'/>
-    <style name='cv80_2' feats='"cv80" 2'/>
-    <style name='cv80_2_cv82_1' feats='"cv80" 2, "cv82" 1'/>
-    <style name='cv80_2_cv82_2' feats='"cv80" 2, "cv82" 2'/>
-    <style name='cv80_2_cv82_3' feats='"cv80" 2, "cv82" 3'/>
-    <style name='cv80_2_cv82_4' feats='"cv80" 2, "cv82" 4'/>
-    <style name='cv82_1' feats='"cv82" 1'/>
-    <style name='cv82_2' feats='"cv82" 2'/>
-    <style name='cv82_3' feats='"cv82" 3'/>
-    <style name='cv82_4' feats='"cv82" 4'/>
-    <style name='rhg_' lang='rhg'/>
-    <style name='rhg_cv80_1' feats='"cv80" 1' lang='rhg'/>
-    <style name='rhg_cv80_1_cv82_1' feats='"cv80" 1, "cv82" 1' lang='rhg'/>
-    <style name='rhg_cv80_1_cv82_2' feats='"cv80" 1, "cv82" 2' lang='rhg'/>
-    <style name='rhg_cv80_1_cv82_3' feats='"cv80" 1, "cv82" 3' lang='rhg'/>
-    <style name='rhg_cv80_1_cv82_4' feats='"cv80" 1, "cv82" 4' lang='rhg'/>
-    <style name='rhg_cv80_2' feats='"cv80" 2' lang='rhg'/>
-    <style name='rhg_cv80_2_cv82_1' feats='"cv80" 2, "cv82" 1' lang='rhg'/>
-    <style name='rhg_cv80_2_cv82_2' feats='"cv80" 2, "cv82" 2' lang='rhg'/>
-    <style name='rhg_cv80_2_cv82_3' feats='"cv80" 2, "cv82" 3' lang='rhg'/>
-    <style name='rhg_cv80_2_cv82_4' feats='"cv80" 2, "cv82" 4' lang='rhg'/>
-    <style name='rhg_cv82_1' feats='"cv82" 1' lang='rhg'/>
-    <style name='rhg_cv82_2' feats='"cv82" 2' lang='rhg'/>
-    <style name='rhg_cv82_3' feats='"cv82" 3' lang='rhg'/>
-    <style name='rhg_cv82_4' feats='"cv82" 4' lang='rhg'/>
-    <style name='sd_' lang='sd'/>
-    <style name='sd_cv80_1' feats='"cv80" 1' lang='sd'/>
-    <style name='sd_cv80_1_cv82_1' feats='"cv80" 1, "cv82" 1' lang='sd'/>
-    <style name='sd_cv80_1_cv82_2' feats='"cv80" 1, "cv82" 2' lang='sd'/>
-    <style name='sd_cv80_1_cv82_3' feats='"cv80" 1, "cv82" 3' lang='sd'/>
-    <style name='sd_cv80_1_cv82_4' feats='"cv80" 1, "cv82" 4' lang='sd'/>
-    <style name='sd_cv80_2' feats='"cv80" 2' lang='sd'/>
-    <style name='sd_cv80_2_cv82_1' feats='"cv80" 2, "cv82" 1' lang='sd'/>
-    <style name='sd_cv80_2_cv82_2' feats='"cv80" 2, "cv82" 2' lang='sd'/>
-    <style name='sd_cv80_2_cv82_3' feats='"cv80" 2, "cv82" 3' lang='sd'/>
-    <style name='sd_cv80_2_cv82_4' feats='"cv80" 2, "cv82" 4' lang='sd'/>
-    <style name='sd_cv82_1' feats='"cv82" 1' lang='sd'/>
-    <style name='sd_cv82_2' feats='"cv82" 2' lang='sd'/>
-    <style name='sd_cv82_3' feats='"cv82" 3' lang='sd'/>
-    <style name='sd_cv82_4' feats='"cv82" 4' lang='sd'/>
-    <style name='ur_' lang='ur'/>
-    <style name='ur_cv80_1' feats='"cv80" 1' lang='ur'/>
-    <style name='ur_cv80_1_cv82_1' feats='"cv80" 1, "cv82" 1' lang='ur'/>
-    <style name='ur_cv80_1_cv82_2' feats='"cv80" 1, "cv82" 2' lang='ur'/>
-    <style name='ur_cv80_1_cv82_3' feats='"cv80" 1, "cv82" 3' lang='ur'/>
-    <style name='ur_cv80_1_cv82_4' feats='"cv80" 1, "cv82" 4' lang='ur'/>
-    <style name='ur_cv80_2' feats='"cv80" 2' lang='ur'/>
-    <style name='ur_cv80_2_cv82_1' feats='"cv80" 2, "cv82" 1' lang='ur'/>
-    <style name='ur_cv80_2_cv82_2' feats='"cv80" 2, "cv82" 2' lang='ur'/>
-    <style name='ur_cv80_2_cv82_3' feats='"cv80" 2, "cv82" 3' lang='ur'/>
-    <style name='ur_cv80_2_cv82_4' feats='"cv80" 2, "cv82" 4' lang='ur'/>
-    <style name='ur_cv82_1' feats='"cv82" 1' lang='ur'/>
-    <style name='ur_cv82_2' feats='"cv82" 2' lang='ur'/>
-    <style name='ur_cv82_3' feats='"cv82" 3' lang='ur'/>
-    <style name='ur_cv82_4' feats='"cv82" 4' lang='ur'/>
-  </styles>
-  <title>SubtendingMarks test</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>250</fontscale>
+    <fontsrc label="Reg-Gr">url(../results/Lateef-Regular.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv80' 1" name="cv80_1"/>
+      <style feats="'cv80' 1, 'cv82' 1" name="cv80_1_cv82_1"/>
+      <style feats="'cv80' 1, 'cv82' 2" name="cv80_1_cv82_2"/>
+      <style feats="'cv80' 1, 'cv82' 3" name="cv80_1_cv82_3"/>
+      <style feats="'cv80' 1, 'cv82' 4" name="cv80_1_cv82_4"/>
+      <style feats="'cv80' 2" name="cv80_2"/>
+      <style feats="'cv80' 2, 'cv82' 1" name="cv80_2_cv82_1"/>
+      <style feats="'cv80' 2, 'cv82' 2" name="cv80_2_cv82_2"/>
+      <style feats="'cv80' 2, 'cv82' 3" name="cv80_2_cv82_3"/>
+      <style feats="'cv80' 2, 'cv82' 4" name="cv80_2_cv82_4"/>
+      <style feats="'cv82' 1" name="cv82_1"/>
+      <style feats="'cv82' 2" name="cv82_2"/>
+      <style feats="'cv82' 3" name="cv82_3"/>
+      <style feats="'cv82' 4" name="cv82_4"/>
+      <style lang="ku" name="ku"/>
+      <style feats="'cv80' 1" lang="ku" name="ku_cv80_1"/>
+      <style feats="'cv80' 2" lang="ku" name="ku_cv80_2"/>
+      <style lang="rhg" name="rhg"/>
+      <style feats="'cv80' 1" lang="rhg" name="rhg_cv80_1"/>
+      <style feats="'cv80' 2" lang="rhg" name="rhg_cv80_2"/>
+      <style lang="sd" name="sd"/>
+      <style feats="'cv80' 1" lang="sd" name="sd_cv80_1"/>
+      <style feats="'cv80' 2" lang="sd" name="sd_cv80_2"/>
+      <style lang="ur" name="ur"/>
+      <style feats="'cv80' 1" lang="ur" name="ur_cv80_1"/>
+      <style feats="'cv80' 2" lang="ur" name="ur_cv80_2"/>
+      <style lang="wo" name="wo"/>
+      <style feats="'cv80' 1" lang="wo" name="wo_cv80_1"/>
+      <style feats="'cv80' 2" lang="wo" name="wo_cv80_2"/>
+    </styles>
+    <title>Subtending Marks (NG)</title>
+    <widths string="75%"/>
   </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="Group">
+    <test label="U+0600 latn">
+      <comment>number-ar</comment>
+      <string>\u000628\u000600\u000645 \u0006002 \u00060022 \u000600222 \u00060012</string>
+    </test>
+    <test label="U+0601 latn">
+      <comment>year-ar</comment>
+      <string>\u000628\u000601\u000645 \u0006012 \u00060122 \u000601222 \u0006012222 \u00060112</string>
+    </test>
+    <test label="U+0602 latn">
+      <comment>footnotemarker-ar</comment>
+      <string>\u000628\u000602\u000645 \u0006022 \u00060222 \u00060212</string>
+    </test>
+    <test label="U+0603 latn">
+      <comment>pagenumber-ar</comment>
+      <string>\u000628\u000603\u000645 \u0006032 \u00060322 \u000603222 \u0006032222 \u00060312</string>
+    </test>
+    <test label="U+0604 latn">
+      <comment>samvat-ar</comment>
+      <string>\u000628\u000604\u000645 \u0006042 \u00060422 \u000604222 \u0006042222 \u00060412</string>
+    </test>
+    <test label="U+0605 latn">
+      <comment>numbermark-ar</comment>
+      <string>\u000628\u000605\u000645 \u0006052 \u00060522 \u000605222 \u0006052222 \u00060512</string>
+    </test>
+    <test label="U+06DD latn">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
+    </test>
+    <test label="U+06DD latn" stylename="cv80_1">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
+    </test>
+    <test label="U+06DD latn" stylename="cv80_2">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
+    </test>
+    <test label="U+0600 arab">
+      <comment>number-ar</comment>
+      <string>\u000628\u000600\u000645 \u000600\u000668 \u000600\u000668\u000668 \u000600\u000668\u000668\u000668 \u000600\u000661\u000662</string>
+    </test>
+    <test label="U+0601 arab">
+      <comment>year-ar</comment>
+      <string>\u000628\u000601\u000645 \u000601\u000668 \u000601\u000668\u000668 \u000601\u000668\u000668\u000668 \u000601\u000668\u000668\u000668\u000668 \u000601\u000661\u000662</string>
+    </test>
+    <test label="U+0602 arab">
+      <comment>footnotemarker-ar</comment>
+      <string>\u000628\u000602\u000645 \u000602\u000668 \u000602\u000668\u000668 \u000602\u000661\u000662</string>
+    </test>
+    <test label="U+0603 arab">
+      <comment>pagenumber-ar</comment>
+      <string>\u000628\u000603\u000645 \u000603\u000668 \u000603\u000668\u000668 \u000603\u000668\u000668\u000668 \u000603\u000668\u000668\u000668\u000668 \u000603\u000661\u000662</string>
+    </test>
+    <test label="U+0604 arab">
+      <comment>samvat-ar</comment>
+      <string>\u000628\u000604\u000645 \u000604\u000668 \u000604\u000668\u000668 \u000604\u000668\u000668\u000668 \u000604\u000668\u000668\u000668\u000668 \u000604\u000661\u000662</string>
+    </test>
+    <test label="U+0605 arab">
+      <comment>numbermark-ar</comment>
+      <string>\u000628\u000605\u000645 \u000605\u000668 \u000605\u000668\u000668 \u000605\u000668\u000668\u000668 \u000605\u000668\u000668\u000668\u000668 \u000605\u000661\u000662</string>
+    </test>
+    <test label="U+06DD arab">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
+    </test>
+    <test label="U+06DD arab" stylename="cv80_1">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
+    </test>
+    <test label="U+06DD arab" stylename="cv80_2">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
+    </test>
+    <test label="U+0600 urdu">
+      <comment>number-ar</comment>
+      <string>\u000628\u000600\u000645 \u000600\u0006F8 \u000600\u0006F8\u0006F8 \u000600\u0006F8\u0006F8\u0006F8 \u000600\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+0601 urdu">
+      <comment>year-ar</comment>
+      <string>\u000628\u000601\u000645 \u000601\u0006F8 \u000601\u0006F8\u0006F8 \u000601\u0006F8\u0006F8\u0006F8 \u000601\u0006F8\u0006F8\u0006F8\u0006F8 \u000601\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+0602 urdu">
+      <comment>footnotemarker-ar</comment>
+      <string>\u000628\u000602\u000645 \u000602\u0006F8 \u000602\u0006F8\u0006F8 \u000602\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+0603 urdu">
+      <comment>pagenumber-ar</comment>
+      <string>\u000628\u000603\u000645 \u000603\u0006F8 \u000603\u0006F8\u0006F8 \u000603\u0006F8\u0006F8\u0006F8 \u000603\u0006F8\u0006F8\u0006F8\u0006F8 \u000603\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+0604 urdu">
+      <comment>samvat-ar</comment>
+      <string>\u000628\u000604\u000645 \u000604\u0006F8 \u000604\u0006F8\u0006F8 \u000604\u0006F8\u0006F8\u0006F8 \u000604\u0006F8\u0006F8\u0006F8\u0006F8 \u000604\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+0605 urdu">
+      <comment>numbermark-ar</comment>
+      <string>\u000628\u000605\u000645 \u000605\u0006F8 \u000605\u0006F8\u0006F8 \u000605\u0006F8\u0006F8\u0006F8 \u000605\u0006F8\u0006F8\u0006F8\u0006F8 \u000605\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+06DD urdu">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD\u0006F8 \u0006DD\u0006F8\u0006F8 \u0006DD\u0006F8\u0006F8\u0006F8 \u0006DD\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv80_1">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD\u0006F8 \u0006DD\u0006F8\u0006F8 \u0006DD\u0006F8\u0006F8\u0006F8 \u0006DD\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv80_2">
+      <comment>endofayah-ar</comment>
+      <string>\u000628\u0006DD\u000645 \u0006DD\u0006F8 \u0006DD\u0006F8\u0006F8 \u0006DD\u0006F8\u0006F8\u0006F8 \u0006DD\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+06DD urdu">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv82_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv82_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv82_3">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv82_4">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv80_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv80_1_cv82_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv80_1_cv82_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv80_1_cv82_3">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv80_1_cv82_4">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv80_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv80_2_cv82_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv80_2_cv82_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv80_2_cv82_3">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="cv80_2_cv82_4">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="sd">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="sd_cv80_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="sd_cv80_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="ur">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="ur_cv80_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="ur_cv80_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="ku">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="ku_cv80_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="ku_cv80_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="rhg">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="rhg_cv80_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="rhg_cv80_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="wo">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="wo_cv80_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="wo_cv80_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+  </testgroup>
 </ftml>
