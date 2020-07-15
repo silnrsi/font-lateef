@@ -1033,7 +1033,7 @@ kasrasmall-ar,uni061A,061A,1443,,
 threedots-ar,uni061E,061E,1444,,
 wavyhamzabelow-ar,uni065F,065F,1446,,
 alefabove-ar,uni0670,0670,1447,,
-alefabove-ar.large,uni0670.large,,1448,,cv76=2
+alefabove-ar.large,uni0670.large,,1448,,"cv76=1,2"
 alefbelow-ar,uni0656,0656,1449,,
 hamzaabove-ar,uni0654,0654,1450,,
 hamzabelow-ar,uni0655,0655,1452,,
@@ -1043,7 +1043,7 @@ dammatan-ar.sixNine,uni064C.sixNine,,1455,rhg,cv72=1
 kasratan-ar,uni064D,064D,1456,,
 fatha-ar,uni064E,064E,1458,,
 damma-ar,uni064F,064F,1460,,
-damma-ar.filled,uni064F.filled,,1461,,cv70=1
+damma-ar.filled,uni064F.filled,,1461,,"cv70=1,2"
 kasra-ar,uni0650,0650,1464,,
 shadda-ar,uni0651,0651,1466,,
 sukun-ar,uni0652,0652,1467,,
@@ -1051,7 +1051,7 @@ sukun-ar.downOpen,uni0652.downOpen,,1468,,cv78=1
 sukun-ar.leftOpen,uni0652.leftOpen,,1469,,cv78=2
 madda-ar,uni0653,0653,1470,,
 noonghunnaabove-ar,uni0658,0658,1472,,
-dammainverted-ar,uni0657,0657,1473,,cv74=2
+dammainverted-ar,uni0657,0657,1473,,
 fathaHorizont-ar,uni0659,0659,1477,,
 vabove-ar,uni065A,065A,1478,,
 vinvertedabove-ar,uni065B,065B,1479,,
