@@ -26,7 +26,7 @@ opentype/
 typetuner/
     TypeTuner code
 
-Lateef-*.ufo/
+masters/Lateef-*.ufo/
     Font sources in Unified Font Object format
 
 lateef.designspace

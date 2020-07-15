@@ -2,39 +2,30 @@
 # this is a smith configuration file
 
 # set the default output folders
-out="results"
-DOCDIR=["documentation", "web"]
-OUTDIR="installers"
-ZIPDIR="releases"
-TESTDIR='tests'
-TESTRESULTSDIR = 'tests'
-# STANDARDS = 'standards'
-generated = "generated/"
+DOCDIR=['documentation', 'web']
 
 # set package name
-APPNAME="Lateef"
-DEBPKG = 'fonts-sil-lateef'
+APPNAME='Lateef'
 
 # set the font family name
 FAMILY = APPNAME
 
-DESC_NAME = "Lateef"
-DESC_SHORT = "Arabic script font for Sindhi and other languages of southern Asia"
-
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
-# BUILDLABEL = 'beta'
 
 # set up FTML tests
 ftmlTest('tools/ftml.xsl')
 
 # APs to omit:
-omitaps = '--omitaps "_above _below _center _ring _through above below center ring through"'
+omitaps = '--omitaps "_above _aboveLeft _below _center _ring _through above aboveLeft below center ring through"'
+
+# location for misc build results
+generated = 'generated/'
 
 designspace('source/lateef-RB.designspace',
     instanceparams='-W -l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
-        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/masters/' + FAMILY + '-Regular' + '.ufo']),
+##        cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/masters/' + FAMILY + '-Regular' + '.ufo']),
         # cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     classes = 'source/classes.xml',
@@ -48,17 +39,16 @@ designspace('source/lateef-RB.designspace',
         params = '-q -e ${DS:FILENAME_BASE}_gdlerr.txt',
         ),
 
-#   opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
-#        master = 'source/opentype/master.feax',
-#        make_params = OMITAPS,
-#        params = '-m ' + generated + '${DS:FILENAME_BASE}.map',
-#        ),
- 
-    fret = fret(params='-r -oi'),
+##    opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
+##         master = 'source/opentype/master.feax',
+##         make_params = OMITAPS,
+##         params = '-m ' + generated + '${DS:FILENAME_BASE}.map',
+##         ),
+    script = 'arab', 
+    pdf = fret(params='-r -oi'),
     woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m "../source/' + FAMILY + '-WOFF-metadata.xml"'),
-#   typetuner = 'source/typetuner.xml',
+##    typetuner = typetuner('source/typetuner/feat_all.xml'),
     )
 
-def configure(ctx):
-    ctx.find_program('psfchangettfglyphnames')
+# def configure(ctx):
 #    ctx.find_program('ttfautohint')
