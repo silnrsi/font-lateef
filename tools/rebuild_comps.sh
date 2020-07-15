@@ -14,19 +14,12 @@ then
 	exit
 fi
 
-echo "Deleting old target UFO '$TARGET_UFO'..."
-rm -r "$TARGET_UFO"
-
-echo "Copying UFO '$SOURCE_UFO' to '$TARGET_UFO'..."
-cp -R "$SOURCE_UFO" "$TARGET_UFO"
-
-echo "Rebuilding composites..."
 psfbuildcomp \
 	-p scrlevel=w \
 	--noflatten \
 	--color \
 	--remove '_?(above|aboveLeft|below|center|ring|through)$' \
 	--preserve 'dia[AB]|alef$' \
-	-i "$COMP_DEFS" "$TARGET_UFO"
+	-i "$COMP_DEFS" "$SOURCE_UFO" "$TARGET_UFO"
 
 echo "Composite rebuild done."
