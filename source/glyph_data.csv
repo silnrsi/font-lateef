@@ -1041,10 +1041,12 @@ fathatan-ar,uni064B,064B,1453,,
 dammatan-ar,uni064C,064C,1454,,
 dammatan-ar.sixNine,uni064C.sixNine,,1455,rhg,cv72=1
 kasratan-ar,uni064D,064D,1456,,
+kasratan-ar.lowered,uni064D.lowered,,1457,,
 fatha-ar,uni064E,064E,1458,,
 damma-ar,uni064F,064F,1460,,
 damma-ar.filled,uni064F.filled,,1461,,"cv70=1,2"
 kasra-ar,uni0650,0650,1464,,
+kasra-ar.lowered,uni0650.lowered,,1465,,
 shadda-ar,uni0651,0651,1466,,
 sukun-ar,uni0652,0652,1467,,
 sukun-ar.downOpen,uni0652.downOpen,,1468,,cv78=1
