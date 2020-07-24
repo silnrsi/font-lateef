@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kasra-ar.lowered" format="2">
+  <anchor x="66" y="-406" name="_diaB"/>
+  <anchor x="66" y="-651" name="diaB"/>
+  <outline>
+    <component base="fatha-ar" xOffset="-90" yOffset="-1682"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

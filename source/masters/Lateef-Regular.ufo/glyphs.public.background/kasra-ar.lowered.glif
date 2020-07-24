@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kasra-ar.lowered" format="2">
+  <outline>
+    <contour>
+      <point x="233" y="-403" type="line"/>
+      <point x="-72" y="-561" type="line"/>
+      <point x="-72" y="-631" type="line"/>
+      <point x="233" y="-471" type="line"/>
+    </contour>
+  </outline>
+</glyph>

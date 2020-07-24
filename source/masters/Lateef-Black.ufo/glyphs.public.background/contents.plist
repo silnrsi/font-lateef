@@ -260,8 +260,12 @@
   <string>kafswash-ar.medi.glif</string>
   <key>kasra-ar</key>
   <string>kasra-ar.glif</string>
+  <key>kasra-ar.lowered</key>
+  <string>kasra-ar.lowered.glif</string>
   <key>kasratan-ar</key>
   <string>kasratan-ar.glif</string>
+  <key>kasratan-ar.lowered</key>
+  <string>kasratan-ar.lowered.glif</string>
   <key>keheh-ar</key>
   <string>keheh-ar.glif</string>
   <key>keheh-ar.fina</key>

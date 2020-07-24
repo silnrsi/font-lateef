@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kasratan-ar.lowered" format="2">
+  <anchor x="0" y="-403" name="_diaB"/>
+  <anchor x="0" y="-790" name="diaB"/>
+  <outline>
+    <component base="fathatan-ar" xOffset="17" yOffset="-1821"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>
