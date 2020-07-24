@@ -4,6 +4,6 @@
   <anchor x="3" y="996" name="_diaA"/>
   <anchor x="3" y="1419" name="diaA"/>
   <outline>
-    <component base="yehbelow-ar" xOffset="7" yOffset="947"/>
+    <component base="yehSmall-ar" xOffset="7" yOffset="947"/>
   </outline>
 </glyph>

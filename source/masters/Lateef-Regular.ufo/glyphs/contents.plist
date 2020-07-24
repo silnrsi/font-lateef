@@ -28,8 +28,6 @@
   <string>C_.glif</string>
   <key>Ccedilla</key>
   <string>C_cedilla.glif</string>
-  <key>CombGraphemeJoiner</key>
-  <string>C_ombG_raphemeJ_oiner.glif</string>
   <key>D</key>
   <string>D_.glif</string>
   <key>Delta</key>
@@ -74,8 +72,6 @@
   <string>L_.glif</string>
   <key>M</key>
   <string>M_.glif</string>
-  <key>ModTriangularColon</key>
-  <string>M_odT_riangularC_olon.glif</string>
   <key>N</key>
   <string>N_.glif</string>
   <key>Ntilde</key>
@@ -92,10 +88,6 @@
   <string>O_dieresis.glif</string>
   <key>Ograve</key>
   <string>O_grave.glif</string>
-  <key>Ohm</key>
-  <string>O_hm.glif</string>
-  <key>Omega</key>
-  <string>O_mega.glif</string>
   <key>Oslash</key>
   <string>O_slash.glif</string>
   <key>Otilde</key>
@@ -126,6 +118,38 @@
   <string>U_grave.glif</string>
   <key>V</key>
   <string>V_.glif</string>
+  <key>VS1</key>
+  <string>V_S_1.glif</string>
+  <key>VS10</key>
+  <string>V_S_10.glif</string>
+  <key>VS11</key>
+  <string>V_S_11.glif</string>
+  <key>VS12</key>
+  <string>V_S_12.glif</string>
+  <key>VS13</key>
+  <string>V_S_13.glif</string>
+  <key>VS14</key>
+  <string>V_S_14.glif</string>
+  <key>VS15</key>
+  <string>V_S_15.glif</string>
+  <key>VS16</key>
+  <string>V_S_16.glif</string>
+  <key>VS2</key>
+  <string>V_S_2.glif</string>
+  <key>VS3</key>
+  <string>V_S_3.glif</string>
+  <key>VS4</key>
+  <string>V_S_4.glif</string>
+  <key>VS5</key>
+  <string>V_S_5.glif</string>
+  <key>VS6</key>
+  <string>V_S_6.glif</string>
+  <key>VS7</key>
+  <string>V_S_7.glif</string>
+  <key>VS8</key>
+  <string>V_S_8.glif</string>
+  <key>VS9</key>
+  <string>V_S_9.glif</string>
   <key>W</key>
   <string>W_.glif</string>
   <key>X</key>
@@ -424,8 +448,6 @@
   <string>asterisk-ar.glif</string>
   <key>asterisk.arab</key>
   <string>asterisk.arab.glif</string>
-  <key>asteriskArt-ar</key>
-  <string>asteriskA_rt-ar.glif</string>
   <key>at</key>
   <string>at.glif</string>
   <key>atilde</key>
@@ -564,6 +586,8 @@
   <string>colon.glif</string>
   <key>colon.arab</key>
   <string>colon.arab.glif</string>
+  <key>colontriangularmod</key>
+  <string>colontriangularmod.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
   <key>comma-ar</key>
@@ -966,6 +990,8 @@
   <string>ghainD_otbelow-ar.init.glif</string>
   <key>ghainDotbelow-ar.medi</key>
   <string>ghainD_otbelow-ar.medi.glif</string>
+  <key>graphemejoinercomb</key>
+  <string>graphemejoinercomb.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
   <key>gravecomb</key>
@@ -1012,14 +1038,6 @@
   <string>hahH_amzaabove-ar.init.glif</string>
   <key>hahHamzaabove-ar.medi</key>
   <string>hahH_amzaabove-ar.medi.glif</string>
-  <key>hahTahTwodotshorizontalabove-ar</key>
-  <string>hahT_ahT_wodotshorizontalabove-ar.glif</string>
-  <key>hahTahTwodotshorizontalabove-ar.fina</key>
-  <string>hahT_ahT_wodotshorizontalabove-ar.fina.glif</string>
-  <key>hahTahTwodotshorizontalabove-ar.init</key>
-  <string>hahT_ahT_wodotshorizontalabove-ar.init.glif</string>
-  <key>hahTahTwodotshorizontalabove-ar.medi</key>
-  <string>hahT_ahT_wodotshorizontalabove-ar.medi.glif</string>
   <key>hahTahabove-ar</key>
   <string>hahT_ahabove-ar.glif</string>
   <key>hahTahabove-ar.fina</key>
@@ -1164,6 +1182,8 @@
   <string>highhamzaY_eh-ar.init.glif</string>
   <key>highhamzaYeh-ar.medi</key>
   <string>highhamzaY_eh-ar.medi.glif</string>
+  <key>hizb-ar</key>
+  <string>hizb-ar.glif</string>
   <key>horizontalbar</key>
   <string>horizontalbar.glif</string>
   <key>hungarumlaut</key>
@@ -1188,8 +1208,6 @@
   <string>idotless.glif</string>
   <key>igrave</key>
   <string>igrave.glif</string>
-  <key>increment</key>
-  <string>increment.glif</string>
   <key>infinity</key>
   <string>infinity.glif</string>
   <key>inhibitformshaping-ar</key>
@@ -1652,6 +1670,8 @@
   <string>ogonekcomb.glif</string>
   <key>ograve</key>
   <string>ograve.glif</string>
+  <key>ohm</key>
+  <string>ohm.glif</string>
   <key>one</key>
   <string>one.glif</string>
   <key>one-ar</key>
@@ -2366,38 +2386,6 @@
   <string>ugrave.glif</string>
   <key>underscore</key>
   <string>underscore.glif</string>
-  <key>uniFE00</key>
-  <string>uniF_E_00.glif</string>
-  <key>uniFE01</key>
-  <string>uniF_E_01.glif</string>
-  <key>uniFE02</key>
-  <string>uniF_E_02.glif</string>
-  <key>uniFE03</key>
-  <string>uniF_E_03.glif</string>
-  <key>uniFE04</key>
-  <string>uniF_E_04.glif</string>
-  <key>uniFE05</key>
-  <string>uniF_E_05.glif</string>
-  <key>uniFE06</key>
-  <string>uniF_E_06.glif</string>
-  <key>uniFE07</key>
-  <string>uniF_E_07.glif</string>
-  <key>uniFE08</key>
-  <string>uniF_E_08.glif</string>
-  <key>uniFE09</key>
-  <string>uniF_E_09.glif</string>
-  <key>uniFE0A</key>
-  <string>uniF_E_0A_.glif</string>
-  <key>uniFE0B</key>
-  <string>uniF_E_0B_.glif</string>
-  <key>uniFE0C</key>
-  <string>uniF_E_0C_.glif</string>
-  <key>uniFE0D</key>
-  <string>uniF_E_0D_.glif</string>
-  <key>uniFE0E</key>
-  <string>uniF_E_0E_.glif</string>
-  <key>uniFE0F</key>
-  <string>uniF_E_0F_.glif</string>
   <key>v</key>
   <string>v.glif</string>
   <key>vabove-ar</key>
@@ -2508,6 +2496,8 @@
   <string>yehK_ashmiri-ar.init.glif</string>
   <key>yehKashmiri-ar.medi</key>
   <string>yehK_ashmiri-ar.medi.glif</string>
+  <key>yehSmall-ar</key>
+  <string>yehS_mall-ar.glif</string>
   <key>yehTail-ar</key>
   <string>yehT_ail-ar.glif</string>
   <key>yehTail-ar.fina</key>
@@ -2570,8 +2560,6 @@
   <string>yehbarreeT_hreeabove-ar.glif</string>
   <key>yehbarreeTwoabove-ar</key>
   <string>yehbarreeT_woabove-ar.glif</string>
-  <key>yehbelow-ar</key>
-  <string>yehbelow-ar.glif</string>
   <key>yen</key>
   <string>yen.glif</string>
   <key>yu-ar</key>

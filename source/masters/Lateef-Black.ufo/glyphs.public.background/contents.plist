@@ -112,8 +112,6 @@
   <string>alefbelow-ar.glif</string>
   <key>allah-ar</key>
   <string>allah-ar.glif</string>
-  <key>asteriskArt-ar</key>
-  <string>asteriskA_rt-ar.glif</string>
   <key>behDotless-ar</key>
   <string>behD_otless-ar.glif</string>
   <key>behDotless-ar.fina</key>
@@ -240,6 +238,8 @@
   <string>hehgoal-ar.medi.glif</string>
   <key>highhamza-ar</key>
   <string>highhamza-ar.glif</string>
+  <key>hizb-ar</key>
+  <string>hizb-ar.glif</string>
   <key>jeemabove-ar</key>
   <string>jeemabove-ar.glif</string>
   <key>kaf-ar</key>
@@ -520,6 +520,8 @@
   <string>yeh-ar.noD_ots.fina.glif</string>
   <key>yehKashmiri-ar</key>
   <string>yehK_ashmiri-ar.glif</string>
+  <key>yehSmall-ar</key>
+  <string>yehS_mall-ar.glif</string>
   <key>yehTail-ar</key>
   <string>yehT_ail-ar.glif</string>
   <key>yehTail-ar.fina</key>
@@ -530,8 +532,6 @@
   <string>yehbarree-ar.glif</string>
   <key>yehbarree-ar.fina</key>
   <string>yehbarree-ar.fina.glif</string>
-  <key>yehbelow-ar</key>
-  <string>yehbelow-ar.glif</string>
   <key>zero-ar.medium</key>
   <string>zero-ar.medium.glif</string>
   <key>zero-ar.small</key>
