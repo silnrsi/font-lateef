@@ -7,7 +7,7 @@
   <anchor x="396" y="-311" name="below"/>
   <anchor x="313" y="667" name="diaA"/>
   <anchor x="160" y="-400" name="diaB"/>
-  <anchor x="236" y="49" name="ring"/>
+  <anchor x="213" y="49" name="ring"/>
   <anchor x="397" y="-51" name="through"/>
   <outline>
     <contour>
@@ -28,4 +28,10 @@
     </contour>
     <component base="_fehHead" xOffset="254" yOffset="68"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

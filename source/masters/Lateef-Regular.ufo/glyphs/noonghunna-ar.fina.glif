@@ -6,7 +6,7 @@
   <anchor x="348" y="-461" name="below"/>
   <anchor x="338" y="600" name="diaA"/>
   <anchor x="200" y="-510" name="diaB"/>
-  <anchor x="367" y="-343" name="ring"/>
+  <anchor x="367" y="-328" name="ring"/>
   <outline>
     <contour>
       <point x="907" y="180" type="curve" smooth="yes"/>
@@ -25,4 +25,10 @@
     </contour>
     <component base="_bowl_seen" yOffset="20"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
