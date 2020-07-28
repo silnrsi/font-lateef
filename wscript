@@ -22,12 +22,23 @@ omitaps = '--omitaps "_above _aboveLeft _below _center _ring _through above abov
 # location for misc build results
 generated = 'generated/'
 
-designspace('source/lateef-RB.designspace',
+# smith project-specific options:
+#   --autohint - autohint the font
+#   --rename   - include glyph rename step   ## ToDo:  change to --norename when we're far enough along
+#   --regOnly  - build just Lateef-Regular
+opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--regOnly'})
+
+cmds = [ ]
+if '--rename' in opts: ## ToDo:  change to --norename when we're far enough along
+    cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo']))
+if '--autohint' in opts:
+    # Note: in some fonts ttfautohint-generated hints don't maintain stroke thickness at joins; test thoroughly
+    cmds.append(cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}'))
+dspace_file = 'source/lateef-RB.designspace' if '--regOnly' not in opts else 'source/lateef-RegOnly.designspace'
+
+designspace(dspace_file,
     instanceparams='-W -l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
-    target = process('${DS:FILENAME_BASE}.ttf',
-##        cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/masters/' + FAMILY + '-Regular' + '.ufo']),
-        # cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
-    ),
+    target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     classes = 'source/classes.xml',
     version = VERSION,  # Needed to ensure dev information on version string
     ap = generated + '${DS:FILENAME_BASE}.xml',
@@ -50,5 +61,5 @@ designspace('source/lateef-RB.designspace',
 ##    typetuner = typetuner('source/typetuner/feat_all.xml'),
     )
 
-# def configure(ctx):
-#    ctx.find_program('ttfautohint')
+def configure(ctx):
+    ctx.find_program('ttfautohint')
