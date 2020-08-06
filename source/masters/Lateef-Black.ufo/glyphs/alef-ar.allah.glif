@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alef-ar.allah" format="2">
+  <advance width="264"/>
+  <anchor x="92" y="1176" name="above"/>
+  <anchor x="-129" y="756" name="aboveLeft"/>
+  <anchor x="92" y="-50" name="below"/>
+  <anchor x="92" y="1176" name="diaA"/>
+  <anchor x="59" y="-150" name="diaB"/>
+  <outline>
+    <component base="alef-ar" xOffset="-105"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>
