@@ -30,14 +30,18 @@
       <point x="32" y="65"/>
       <point x="136" y="-12"/>
     </contour>
-    <component base="_strokeHead" xOffset="290" yOffset="1047"/>
+    <contour>
+      <point x="562" y="1349" type="line"/>
+      <point x="550" y="1333"/>
+      <point x="475" y="1258"/>
+      <point x="475" y="1193" type="curve" smooth="yes"/>
+      <point x="475" y="1143"/>
+      <point x="550" y="1101"/>
+      <point x="614" y="1070" type="curve"/>
+      <point x="687" y="1167" type="line"/>
+      <point x="587" y="1196"/>
+      <point x="526" y="1256"/>
+      <point x="574" y="1342" type="curve"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

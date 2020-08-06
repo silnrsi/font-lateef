@@ -51,6 +51,9 @@
     <string>/hahFourbelow-ar/seenFourabove-ar/yehFourbelow-farsi/_four/space/space/_two/space/space/_three/space/three-ar/alefThreeabove-ar/wawThreeAbove-ar/yehThreeabove-farsi/space/yehbarreeThreeabove-ar</string>
     <string>/space/_four/space/_three/space/_two/space</string>
     <string>$</string>
+    <string>/allah-ar</string>
+    <string>/shadda_alef-ar/space/space/space/space/space/space/space/allah-ar/space/space/heh-ar.allah.fina/lam-ar.allah1.medi/lam-ar.allah1.init/alef-ar.allah/space/space/heh-ar.fina/lam-ar.medi/lam-ar.init/alef-ar 
+/alef-ar/alef-ar.allah/space/alef-ar.fina/alef-ar.allah.fina/space/lam-ar.init/lam-ar.allah1.init/space/lam-ar.medi/lam-ar.allah1.medi/lam-ar.allah2.medi/space/shadda-ar/space/shadda-ar.allah/space/space/alefabove-ar/space/alefabove-ar.allah/space/space/fatha-ar/space/fatha-ar.allah/space/heh-ar.fina/heh-ar.allah.fina/space/hehgoal-ar.fina/hehgoal-ar.allah.fina/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2930</integer>
@@ -3128,6 +3131,8 @@
     <string>uni0680.init</string>
     <key>beheh-ar.medi</key>
     <string>uni0680.medi</string>
+    <key>blank</key>
+    <string>uni2423</string>
     <key>brevecomb</key>
     <string>uni0306</string>
     <key>bulletoperator</key>

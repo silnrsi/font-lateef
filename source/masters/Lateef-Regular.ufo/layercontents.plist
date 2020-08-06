@@ -3,10 +3,6 @@
 <plist version="1.0">
 <array>
   <array>
-    <string>Regular [500]</string>
-    <string>glyphs.R_egular _500_</string>
-  </array>
-  <array>
     <string>public.background</string>
     <string>glyphs.public.background</string>
   </array>

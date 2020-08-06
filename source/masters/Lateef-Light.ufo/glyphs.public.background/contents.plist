@@ -20,6 +20,8 @@
   <string>ainabove-ar.glif</string>
   <key>alef-ar</key>
   <string>alef-ar.glif</string>
+  <key>alef-ar.allah</key>
+  <string>alef-ar.allah.glif</string>
   <key>alef-ar.postLamIni.fina</key>
   <string>alef-ar.postL_amI_ni.fina.glif</string>
   <key>behDotless-ar</key>
@@ -44,6 +46,8 @@
   <string>kaf-ar.medi.glif</string>
   <key>lam-ar</key>
   <string>lam-ar.glif</string>
+  <key>lam-ar.allah1.init</key>
+  <string>lam-ar.allah1.init.glif</string>
   <key>lam-ar.fina</key>
   <string>lam-ar.fina.glif</string>
   <key>lam-ar.init</key>
@@ -64,6 +68,8 @@
   <string>seen-ar.fina.glif</string>
   <key>shadda-ar</key>
   <string>shadda-ar.glif</string>
+  <key>shadda-ar.allah</key>
+  <string>shadda-ar.allah.glif</string>
   <key>tah-ar</key>
   <string>tah-ar.glif</string>
   <key>waw-ar</key>
