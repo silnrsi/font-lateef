@@ -1030,6 +1030,8 @@
     <string>yehHamzaabove-ar.fina</string>
     <string>yehHamzaabove-ar.medi</string>
     <string>yehHamzaabove-ar.init</string>
+    <string>yehHamzaabove-ar.loclKIR</string>
+    <string>yehHamzaabove-ar.fina.loclKIR</string>
     <string>yehVabove-ar</string>
     <string>yehVabove-ar.fina</string>
     <string>yehVabove-ar.medi</string>
@@ -2426,6 +2428,8 @@
     <string>yehHamzaabove-ar.fina</string>
     <string>yehHamzaabove-ar.medi</string>
     <string>yehHamzaabove-ar.init</string>
+    <string>yehHamzaabove-ar.loclKIR</string>
+    <string>yehHamzaabove-ar.fina.loclKIR</string>
     <string>yehVabove-ar</string>
     <string>yehVabove-ar.fina</string>
     <string>yehVabove-ar.medi</string>
@@ -4813,8 +4817,12 @@
     <string>uni0626</string>
     <key>yehHamzaabove-ar.fina</key>
     <string>uni0626.fina</string>
+    <key>yehHamzaabove-ar.fina.loclKIR</key>
+    <string>uni0626.fina.loclKIR</string>
     <key>yehHamzaabove-ar.init</key>
     <string>uni0626.init</string>
+    <key>yehHamzaabove-ar.loclKIR</key>
+    <string>uni0626.loclKIR</string>
     <key>yehHamzaabove-ar.medi</key>
     <string>uni0626.medi</string>
     <key>yehKashmiri-ar</key>
