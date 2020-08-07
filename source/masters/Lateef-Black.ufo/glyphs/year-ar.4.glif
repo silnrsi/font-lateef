@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="year-ar.4" format="2">
   <advance width="3643"/>
-  <anchor x="722" y="317" name="digit"/>
+  <anchor x="722" y="317" name="digitR"/>
   <outline>
     <contour>
       <point x="3594" y="205" type="curve" smooth="yes"/>

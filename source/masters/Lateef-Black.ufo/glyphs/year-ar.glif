@@ -2,7 +2,7 @@
 <glyph name="year-ar" format="2">
   <advance width="1741"/>
   <unicode hex="0601"/>
-  <anchor x="833" y="312" name="digit"/>
+  <anchor x="833" y="312" name="digitR"/>
   <outline>
     <contour>
       <point x="1694" y="186" type="curve" smooth="yes"/>

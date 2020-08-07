@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endofayah-ar.altB.3" format="2">
   <advance width="1844"/>
-  <anchor x="217" y="0" name="digit"/>
+  <anchor x="217" y="0" name="digitR"/>
   <outline>
     <component base="endofayah-ar.altB"/>
   </outline>

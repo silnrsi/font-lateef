@@ -2,7 +2,7 @@
 <glyph name="pagenumber-ar" format="2">
   <advance width="1875"/>
   <unicode hex="0603"/>
-  <anchor x="171" y="335" name="digit"/>
+  <anchor x="171" y="335" name="digitR"/>
   <outline>
     <contour>
       <point x="1674" y="800" type="curve" smooth="yes"/>

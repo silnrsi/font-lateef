@@ -333,22 +333,22 @@ pass(1)
 	// so we attach the left-most (logically first) to the sign, and proceed to the right.
 
 
-//	cSignDigit=D4 { attach {to=@D3; at=digitS; with=digitM }; insert = true}
-//	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true}
-//	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
-//	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
+//	cSignDigit=D4 { attach {to=@D3; at=digitRS; with=digitLS }; insert = true}
+//	cSignDigit=D3 { attach {to=@D2; at=digitRS; with=digitLS }; insert = true}
+//	cSignDigit=D2 { attach {to=@D1; at=digitRS; with=digitLS }; insert = true}
+//	cSignDigit=D1 { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
 //	cSign4=S;
 
-	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true}
-	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
-	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
+	cSignDigit=D3 { attach {to=@D2; at=digitRS; with=digitLS }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitRS; with=digitLS }; insert = true}
+	cSignDigit=D1 { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
 	cSign3=S;
 
-	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
-	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitRS; with=digitLS }; insert = true}
+	cSignDigit=D1 { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
 	cSign2=S;
 
-	cSignDigit { attach {to=@S;  at=digitS; with=digitM }; insert = true}
+	cSignDigit { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
 	cSign1=S;
 
 
@@ -356,24 +356,24 @@ pass(1)
 	// such that the glyps are still in logical order:
 
 //	cSign4=S
-//	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
-//	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
-//	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true}
-//	cSignDigit=D4 { attach {to=@D3; at=digitS; with=digitM }; insert = true};
+//	cSignDigit=D1 { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
+//	cSignDigit=D2 { attach {to=@D1; at=digitRS; with=digitLS }; insert = true}
+//	cSignDigit=D3 { attach {to=@D2; at=digitRS; with=digitLS }; insert = true}
+//	cSignDigit=D4 { attach {to=@D3; at=digitRS; with=digitLS }; insert = true};
 
 	cSign3=S
-	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
-	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
-	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true};
+	cSignDigit=D1 { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitRS; with=digitLS }; insert = true}
+	cSignDigit=D3 { attach {to=@D2; at=digitRS; with=digitLS }; insert = true};
 
 
 	cSign2=S
-	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
-	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true};
+	cSignDigit=D1 { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitRS; with=digitLS }; insert = true};
 
 
 	cSign1=S
-	cSignDigit { attach {to=@S;  at=digitS; with=digitM }; insert = true};
+	cSignDigit { attach {to=@S;  at=digitRS; with=digitLS }; insert = true};
 
 
 endpass; // 1

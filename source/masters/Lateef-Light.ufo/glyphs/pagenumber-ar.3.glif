@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pagenumber-ar.3" format="2">
   <advance width="3212"/>
-  <anchor x="173" y="335" name="digit"/>
+  <anchor x="173" y="335" name="digitR"/>
   <outline>
     <contour>
       <point x="3011" y="800" type="curve" smooth="yes"/>

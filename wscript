@@ -45,7 +45,7 @@ designspace(dspace_file,
 
     graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
         master = 'source/graphite/master.gdl',
-        make_params = omitaps,
+        make_params = omitaps + ' --cursive "exit=entry,rtl" --cursive "digitR=digitL"',
         depends = ['source/graphite/cp1252.gdl', 'source/graphite/features.gdh'],
         params = '-q -e ${DS:FILENAME_BASE}_gdlerr.txt',
         ),
