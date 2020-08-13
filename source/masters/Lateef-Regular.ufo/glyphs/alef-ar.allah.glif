@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alef-ar.allah" format="2">
-  <advance width="233"/>
+  <advance width="243"/>
   <anchor x="60" y="1186" name="above"/>
   <anchor x="-159" y="756" name="aboveLeft"/>
   <anchor x="60" y="-50" name="below"/>
