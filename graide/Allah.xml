@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Testing.xsl"?>
+<ftml version="1.0">
+  <head>
+    <columns comment="30%" label="15%" string="50%" style="5%" />
+    <fontscale>300</fontscale>
+    <fontsrc>url(..\results\Lateef-Regular-graide.ttf)</fontsrc>
+    <styles />
+    <title>Allah (NG)</title>
+  </head>
+  <testgroup label="Allah ligatures">
+    <test label="Rule 1" rtl="True">
+      <string>ﷲ الل‌ ﷲ </string>
+    </test>
+    <test label="Rule 2 (daggeralef)" rtl="True">
+      <comment>a-l-l-s-da-hf</comment>
+      <string>اللّٰه</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>a-l-l-da-s-hf</comment>
+      <string>اللّٰه</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>a-l-l-s-da-hgf</comment>
+      <string>اللّٰہ</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>a-l-l-da-s-hgf</comment>
+      <string>اللّٰہ</string>
+    </test>
+    <test label="Rule 2 (fatha)" rtl="True">
+      <comment>a-l-l-s-f-hf</comment>
+      <string>اللَّه</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>a-l-l-f-s-hf</comment>
+      <string>اللَّه</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>a-l-l-s-f-hgf</comment>
+      <string>اللَّہ</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>a-l-l-f-s-hgf</comment>
+      <string>اللَّہ</string>
+    </test>
+    <test label="Rule 2d" rtl="True">
+      <comment>space-l-l-s-da-hf</comment>
+      <string> للَّه</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>f-l-l-s-da-hgf</comment>
+      <string>ف۫للَّہ</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>f-a-l-l-s-da-hgf</comment>
+      <string>فاللَّہ</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>f-M-a-l-l-s-da-hgf</comment>
+      <string>فا۫للَّہ</string>
+    </test>
+    <test label="Rule 3" rtl="True">
+      <comment>a-l-l-h</comment>
+      <string>الله</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>aM-l-l-h</comment>
+      <string>آلله</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>aH-l-l-h</comment>
+      <string>ألله</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>aW-l-l-h</comment>
+      <string>ٱلله</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>a-M-l-l-h</comment>
+      <string>ا۫لله</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>f-a-l-l-h</comment>
+      <string>فالله</string>
+    </test>
+    <test label="test" rtl="True">
+      <comment>f-l-l-h</comment>
+      <string>فلله</string>
+    </test>
+    <test label="Rule 4a" rtl="True">
+      <comment>a-l-zwj-l-h</comment>
+      <string>ال‍لّٰه</string>
+    </test>
+  </testgroup>
+</ftml>
