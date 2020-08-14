@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 'generate linking classes for abs projects from glyph_data.csv'
 __url__ = 'http://github.com/silnrsi/pysilfont'
 __copyright__ = 'Copyright (c) 2018,2020 SIL International  (http://www.sil.org)'
@@ -10,7 +10,8 @@ from silfont.core import execute
 from palaso.unicode.ucd import get_ucd
 
 argspec = [
-    ('output',{'help': 'Output classes in XML format', 'nargs': '?'}, {'type': 'outfile', 'def': '_gen_classes.xml'}),
+    ('ifont',{'help': 'Input UFO'}, {'type': 'infont'}),
+    ('output',{'help': 'Output classes in XML format'}, {'type': 'outfile', 'def': '_gen_classes.xml'}),
     ('-i','--input',{'help': 'Glyph info csv file'}, {'type': 'incsv', 'def': 'glyph_data.csv'}),
     ('-l','--log',{'help': 'Set log file name'}, {'type': 'outfile', 'def': '_classes.log'}),
 ]
@@ -36,23 +37,38 @@ def doit(args):
     #   Encoded glyphs whose USV shows they are Right- or Dual-joining
     #     Warn if their name has an extension
     #     Keep a list of right-joining and a list of dual-joining
-    #   Unencoded chars with an extension .init, .medi, or .fina
-    #     Keep a set of these for presence testing
+    #  Arabic mark glyphs
+    #     Keep lists needed for UTF53 processing
+    #
 
+    # For all glyphs:
+    basename2uid = {}   # Mapping basename to USV for encoded chars
+    ligature2uids = {}  # Mapping basename to USV list for ligatures
+    glyphOrder = {}     # dictionary to record sort order of glyphs
+    ufomissing = set()  # glyphs mentioned or needed in csv that aren't in UFO
+
+    # Sets needed for class generation
     rjoining = set()    # names of all right-joining encoded glyphs
     djoining = set()    # names of all dual-joining encoded glyphs
-    unencoded = set()   # names of all unencoded glyphs having .init, .medi, or .fina extensions
-    glyphOrder = {}     # dictionary to record sort order of glyphs
+    lams = set()        # lam-like
+    alefs = set()       # alef-like
 
-    basenames2uid = {}      # dictionary mapping basename of marks to uid
+    # Sets of mark glyphs needed for UTR53
     utr53_220MCM = set()
     utr53_230MCM = set()
     utr53_shadda = set()
     utr53_fixedPos = set()
+    utr53_alef = set()
     utr53_220other = set()
     utr53_230other = set()
 
-    def addMark(uid, gname):
+    def splitgname(gname):
+        '''split a glyph name into base and extension (possibly None) unless the name starts with '.''''
+        p = gname.find('.')
+        return (gname, None) if p <= 0 else (gname[0:p], gname[p:])
+
+    def addMark(gname, uid):
+        '''accumulate sets of mark glyphs based on combining class and MCM status'''
         ccc = int(get_ucd(uid, 'ccc'))
         if uid in (mcm):
             if ccc == 220:
@@ -60,19 +76,44 @@ def doit(args):
             elif ccc == 230:
                 utr53_230MCM.add(gname)
             else:
-                logger.log(f'glyph {gname} (uid {uid:04X}) claims to be MCM but has ccc {ccc}', 'W')
+                logger.log(f'glyph {gname} (uid {uid:04X}) claims to be MCM but has ccc {ccc}', 'S')
         elif ccc == 33:
             utr53_shadda.add(gname)
-        elif ccc > 0 and ccc <= 35:
+        elif ccc > 0 and ccc < 35:
             utr53_fixedPos.add(gname)
+        elif ccc == 35:
+            utr53_alef.add(gname)
         elif ccc == 220:
             utr53_220other.add(gname)
         elif ccc == 230:
             utr53_230other.add(gname)
-        else:
-            logger.log(f'unexpected glyph {gname} with uid {uid:04X} and ccc {ccc}', 'W')
+        elif ccc != 0:
+            # warn about anything else other than cgj and VS1-VS16
+            logger.log(f'unexpected glyph {gname} with uid {uid:04X} and ccc {ccc}; glyph ignored', 'W')
+
+    def addToClasses(gname, uid, basename, ext, encoded):
+        ''' given a glyph with its information, add it to needed classes'''
+        # Note that if the glyph is not encoded, the uid will be that of the encoded variant of it.
+        # Ignore anything outside of arabic blocks
+        if  get_ucd(uid, 'blk').startswith('Arabic'):
+            jt = get_ucd(uid, 'jt')
+            jg = get_ucd(uid, 'jg')
+            if jt == 'R' and encoded:
+                rjoining.add(gname)
+                if jg == 'Alef':
+                    alefs.add(gname)
+            elif jt == 'D' and encoded:
+                djoining.add(gname)
+                if jg == 'Lam':
+                    lams.add(gname)
+            elif get_ucd(uid, 'bc') == 'NSM':
+                # Partition up the marks for pseudo UTR53
+                addMark(gname, uid)
+            if gname not in args.ifont:
+                ufomissing.add(gname)
 
     def makeLines(glist, padding = 0):
+        '''break list of glyphnames into lines for output'''
         lines = []
         while len(glist):
             line = []
@@ -85,12 +126,68 @@ def doit(args):
                 lines.append(line)
         return lines
 
-    namesWithFormRE = re.compile(r'\.(init|medi|fina)')
+    def outputMatchingClasses(cname, glist, related = None):
+        '''output a class, or group of related classes, checking glyph orders'''
+        # cname = name of first (possibly only) class to output
+        # glist = list of glyph names of the first class
+        # related = list of 2-tuples that identify classes that should parallel the first class in correct order
+        #    each tuple contains (rname, extension) where
+        #        rname = name of the related class
+        #        extension = glyphname extension to add to members of cname (e.g., ".init")
+        numClasses = 1 if related is None else 1+len(related)
+        if numClasses == 1:
+            padding = 0
+        else:
+            # Lots of work to do in in dealing with related classes (e.g., right-joining and their finals):
+            # preliminaries:
+            args.output.write(f'    <!-- *NEXT {numClasses} CLASSES MUST MATCH* -->\n\n')
+            # Classes will be linewrapped such that the same glyph names appear in each line of the related classes.
+            # To do this we need to know what the longest extension is in the related classes and account for it
+            # when linewrapping the first class.
+            padding = max(len(r[1]) for r in related)
+            # sort glist by glyphorder:
+            glist = sorted(glist, key=lambda x: glyphOrder[x])
+            # for each related class, verify the corresponding glyphs are present and in the same glyph order in the font
+            for r in related:
+                (rname, ext) = r
+                rlist = (f'{x}{ext}' for x in glist)
+                # Check for missing or out-of-order glyphs
+                lastGlyphOrder = None
+                csvmissing = set()
+                outOfOrder = set()
+                for gname in rlist:
+                    try:
+                        myOrder = glyphOrder[gname]
+                        if lastGlyphOrder is not None and myOrder <= lastGlyphOrder:
+                            outOfOrder.add(gname)
+                        lastGlyphOrder = myOrder
+                    except KeyError:
+                        csvmissing.add(gname)
+                    if gname not in args.ifont:
+                        ufomissing.add(gname)
+                if len(csvmissing):
+                    logger.log(f'CSV is missing glyphs for class {rname}: {" ".join(sorted(csvmissing))}', 'E')
+                if len(outOfOrder):
+                    logger.log(f'Out of order glyphs for class {rname}: {" ".join(sorted(missing))}', 'E')
+        # finally we can output classes, with glyphs in alphabetical order
+        glist = sorted(glist)
+        lines = makeLines(glist, padding)
+        args.output.write(f"    <class name='{cname}'>\n")
+        for line in lines:
+            args.output.write(f"        {' '.join(line)}\n")
+        args.output.write("    </class>\n\n")
+        for r in related:
+            (rname, ext) = r
+            args.output.write(f"    <class name='{rname}'>\n")
+            for line in lines:
+                args.output.write(f"        {' '.join(f'{x}{ext}' for x in line)}\n")
+            args.output.write("    </class>\n\n")
+
 
     # Get headings from csvfile:
     incsv = args.input
     fl = incsv.firstline
-    if fl is None: logger.log("Empty imput file", "S")
+    if fl is None: logger.log("Empty input file", "S")
     # required columns:
     try:
         nameCol = fl.index('glyph_name');
@@ -102,7 +199,6 @@ def doit(args):
         logger.log('Error reading csv input field: ' + e.message, 'S')
     next(incsv.reader, None)  # Skip first line with headers in
 
-
     # Process all records in glyph_data
     for line in incsv:
         gname = line[nameCol].strip()
@@ -111,98 +207,79 @@ def doit(args):
         if len(gname) == 0:
             logger.log('empty glyph name in glyph_data; ignored', 'W')
             continue
-        if gname.startswith('#'):
+        if re.match('[#._]|nonmarkingreturn|tab|absAutoKashida', gname):
             continue
+
+        # remember glyph ordering for all glyphs
+        glyphOrder[gname] = float(line[orderCol])
+        # split gname
+        basename, ext = splitgname(gname)
 
         # Process USV
         # could be empty string, a single USV or space-separated list of USVs
         try:
-            uidList = [int(x, 16) for x in line[usvCol].split()]
+            uidList = tuple(int(x, 16) for x in line[usvCol].split())
         except Exception as e:
-            logger.log("invalid USV '{0}' ({1}); ignored.".format(line[usvCol], e.message), 'W')
-            uidList = []
+            logger.log(f'invalid USV "{line[usvCol]}" ({e.message}); ignored.', 'E')
+            uidList = tuple()
 
         if len(uidList) == 1:
             # Handle simple encoded glyphs
             uid = uidList[0]
-            if get_ucd(uid, 'jt') in ('D','R'):
-                if gname.find('.', 1) > 0:
-                    logger.log("encoded glyph {0} has extensions -- be sure to check construction of joined forms".format(gname), 'W')
-                if get_ucd(uid, 'jt') == 'R':
-                    rjoining.add(gname)
-                else:
-                    djoining.add(gname)
-                # remember glyph ordering for encoded glyphs
-                glyphOrder[gname] = float(line[orderCol])
-            elif get_ucd(uid, 'bc') == 'NSM' and get_ucd(uid, 'blk').startswith('Arabic'):
-                # Partition up the marks for pseudo UTR53
-                addMark(uid, gname)
-                basenames2uid[gname] = uid
-
+            basename2uid[basename] = uid
+            if ext is not None:
+                logger.log(f'encoded glyph {gname} has extensions -- be sure to check construction of variant forms', 'E')
+            addToClasses(gname, uid, basename, ext, True)
+        elif len(uidList) > 1:
+            # Handle ligature glyphs
+            ligature2uids[basename] = uidList
+            # otherwise, for now, we're ignoring ligatures
         elif len(uidList) == 0:
             # Handle unencoded glyphs
-            if namesWithFormRE.search(gname):
-                # This is an initial, medial, or final form -- remember it
-                unencoded.add(gname)
-                glyphOrder[gname] = float(line[orderCol])
-            else:
-                basename = gname.split('.')[0]
-                if basename in basenames2uid:
-                    addMark(basenames2uid[basename], gname)
-
-    # First, find missing or mis-ordered glyphs
-    # For this we have to order the glyphs as they will be in the font
-    missing = []
-    outOfOrder = []
-    for joinType in ('Dual', 'Right'):
-        glist = sorted(djoining if joinType == 'Dual' else rjoining, key=lambda x: glyphOrder[x])
-        for form in (('init', 'medi', 'fina') if joinType == 'Dual' else ('fina',)):
-            # compute list of contextual glyphs in same order
-            glist2 = ['{0}.{1}'.format(x, form) for x in glist]
-            # Check for missing or out-of-order glyphs
-            lastGlyphOrder = None
-            for gname in glist2:
-                if gname not in glyphOrder:
-                    missing.append(gname)
-                else:
-                    myOrder = glyphOrder[gname]
-                    if lastGlyphOrder is not None and myOrder <= lastGlyphOrder:
-                        outOfOrder.append(gname)
-                    lastGlyphOrder = myOrder
+            # for now we're ignoring variants of ligatures:
+            if basename in ligature2uids:
+                continue
+            # for everything else, we should have seen the encoded variant already,
+            # so act based on its uid:
+            try:
+                uid = basename2uid[basename]
+                addToClasses(gname, uid, basename, ext, False)
+            except KeyError:
+                logger.log(f'cannot determine USV for unencoded glyph {gname}; glyph ignored', 'E')
 
     # Now output everything, even if missing or out of order
-    # For this we sort glyphs alphabetically, and make sure lines aren't enormously long
-    for joinType in ('Dual', 'Right'):
-        glist = sorted(djoining if joinType == 'Dual' else rjoining)
-        lines = makeLines(glist, 5)
-        for form in (('isol', 'init', 'medi', 'fina') if joinType == 'Dual' else ('isol', 'fina')):
-            clname = "{0}Link{1}".format(joinType, form.title())
-            # Start xml element for class name
-            args.output.write(u"    <class name='{0}'>\n".format(clname))
-            for line in lines:
-                if form != 'isol':
-                    line = ['{0}.{1}'.format(x,form) for x in line]
-                args.output.write(u'        {0}\n'.format(' '.join(line)))
-            args.output.write(u'    </class>\n\n')
 
+    args.output.write('\n    <!-- ***** NB: The following classes were generated algorithmically based '
+                    'on Unicode properties (see tools/absgenclasses.py) ***** -->\n\n')
+
+    outputMatchingClasses('DualLinkIsol', djoining,
+                          (('DualLinkInit', '.init'), ('DualLinkMedi', '.medi'), ('DualLinkFina', '.fina')))
+    outputMatchingClasses('RightLinkIsol', rjoining,
+                          (('RightLinkFina', '.fina'),))
+    outputMatchingClasses('LamIso', lams,
+                          (('LamIni', '.init'), ('LamMed', '.medi'), ('LamFin', '.fina'),
+                           ('LamIniBeforeAlef', '.preAlef.init'), ('LamMedBeforeAlef', '.preAlef.medi')))
+    outputMatchingClasses('AlefIso', alefs,
+                          (('AlefFin', '.fina'),
+                           ('AlefFinAfterLamIni', '.postLamIni.fina'), ('AlefFinAfterLamMed', '.postLamMed.fina')))
     # And the UTR35 classes:
-    for clname, glist in zip(('utr53_220MCM', 'utr53_230MCM', 'utr53_shadda', 'utr53_fixedPos', 'utr53_220other', 'utr53_230other'),
-                             (utr53_220MCM, utr53_230MCM, utr53_shadda, utr53_fixedPos, utr53_220other, utr53_230other)):
+    args.output.write('    <!-- For pseudo-UTR53 implementation -->\n')
+    for clname, glist in zip(('UTR53_220MCM', 'UTR53_230MCM', 'UTR53_shadda', 'UTR53_fixedPos', 'UTR53_alef', 'UTR53_220other', 'UTR53_230other'),
+                             (utr53_220MCM, utr53_230MCM, utr53_shadda, utr53_fixedPos, utr53_alef, utr53_220other, utr53_230other)):
         glist = sorted(glist)
-        args.output.write(u"    <class name='{0}'>\n".format(clname))
+        args.output.write(f"    <class name='{clname}'>\n")
         lines = makeLines(glist)
         for line in lines:
-            args.output.write(u'        {0}\n'.format(' '.join(line)))
-        args.output.write(u'    </class>\n\n')
+            args.output.write(f'        {" ".join(line)}\n')
+        args.output.write('    </class>\n\n')
 
-    # Emit warnings and errors
-    if len(missing):
-        logger.log("Missing contextual glyphs: " + ' '.join(missing), 'E')
-    if len(outOfOrder):
-        logger.log("The following glyphs are out of order: " + ' '.join(outOfOrder), 'E')
-
+    args.output.write('    <!-- ***** end of algorithmically-generated classes ***** -->\n')
     args.output.close
 
 
-def cmd() : execute(None,doit,argspec)
+    if len(ufomissing):
+        logger.log(f'UFO is missing glyphs: {" ".join(sorted(ufomissing))}', 'E')
+
+
+def cmd() : execute('FP',doit,argspec)
 if __name__ == "__main__": cmd()

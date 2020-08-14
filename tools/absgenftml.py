@@ -246,11 +246,13 @@ def doit(args):
             repBase = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0628, 0x062B, 0x0647, 0x064A, 0x77F, 0x08AC)))
             lamlist = list(filter(lambda x: x in builder.uids(), (0x0644, 0x06B5, 0x06B6, 0x06B7, 0x06B8, 0x076A, 0x08A6)))
             aleflist = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0622, 0x0623, 0x0625, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774)))
+            kasralist = list(filter(lambda x: x in builder.uids(), (0x0650, 0x064D)))
         else:
             repDiac = list(filter(lambda x: x in builder.uids(), (0x064E, 0x0650, 0x0654, 0x0670)))
             repBase = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0628)))
             lamlist = list(filter(lambda x: x in builder.uids(), (0x0644, 0x06B5, 0x06B6, 0x06B7, 0x06B8, 0x076A, 0x08A6)))
             aleflist = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0622, 0x0623, 0x0625, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774)))
+            kasralist = list(filter(lambda x: x in builder.uids(), (0x0650,)))
 
         ftml.startTestGroup('Representative diacritics on all bases that take diacritics')
         for uid in sorted(builder.uids()):
@@ -321,6 +323,17 @@ def doit(args):
                 ftml.clearFeatures()
                 ftml.clearBackground()
                 ftml.closeTest()
+                
+        ftml.startTestGroup('Shadda + Kasra')
+        shadda = 0x0651
+        base = 0x0628
+        for kasra in kasralist:
+            for featlist in builder.permuteFeatures(feats=('cv62',)):
+                ftml.setFeatures(featlist)
+                builder.render((base,kasra,shadda), ftml, addBreaks=False)
+            ftml.clearFeatures()
+            ftml.clearBackground()
+            ftml.closeTest()
 
     if test.lower().startswith("subtending"):
         # Generates sample data for all subtending marks. Data includes sequences of 0 to n+1
@@ -385,13 +398,26 @@ def doit(args):
 
     if test.lower().startswith('daggeralef'):
         for uid in sorted(builder.uids(), key=joinGoupSortKey):
-            if get_ucd(uid,'jg') not in ('Sad', 'Seen', 'Yeh'):
+            if get_ucd(uid,'jg') not in ('Sad', 'Seen', 'Yeh', 'Farsi_Yeh', 'Yeh_With_Tail'):
                 # If not Yeh, Sad or seen joining group we're not interested
                 continue
-            flagUnicodeVersion((uid,))
-            for featlist in builder.permuteFeatures(uids=(uid, 0x0670)):
-                ftml.setFeatures(featlist)
-                builder.render((uid, 0x0670), ftml)
+            # if isLateef and uid in (0626,063D,063E,063F,06CE,0675, 0676,)
+            if "special" not in test:
+                flagUnicodeVersion((uid,))
+                for featlist in builder.permuteFeatures(uids=(uid, 0x0670)):
+                    ftml.setFeatures(featlist)
+                    builder.render((uid, 0x0670), ftml)
+            else:
+                if uid in (0x0626, 0x63D, 0x0678, 0x06CD, 0x06CE):
+                    ftml.setBackground('yellow')
+                comment = builder._charFromUID[uid].basename
+                if uid in (0x0620, 0x063E, 0x063F, 0x0775, 0x0776, 0x0777, 0x077D, 0x077E, 0x8A8, 0x08A9, 0x08BE):
+                    ftml.setBackground('orange')
+                    comment += ' NEW'
+                if uid in (0x063D, 0x0770):
+                    comment += ' added to 1.2'
+                ftml.setFeatures([['cv76','1'],])
+                builder.render((uid, 0x0670), ftml, comment=comment)
             ftml.clearFeatures()
             ftml.clearBackground()
             ftml.closeTest()
@@ -625,7 +651,8 @@ def doit(args):
     if test.lower().startswith('feature-lang'):
         # Testing of language and feature interactions
 
-        tests = (
+        # test only the features from this list that are implemented in this font
+        tests = filter(lambda x : x[0] in builder.features, (
             # feat, langs where it is expected to work (1) or not (0), data seq,  comment
             ('cv02', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x0623,), 'Warsh alternates'),
             ('cv08', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x062C,), 'Jeem/Hah alternates'),
@@ -644,7 +671,7 @@ def doit(args):
             ('cv80', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x06DD,), 'Ayah alternates'),
             ('cv82', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x06F4, 0x06F6, 0x06F7, 0x0020, 0x06DD, 0x06F4, 0x06F6, 0x06F7), 'Eastern Digit alternates'),
             ('cv84', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x060C,), 'Comma alternates'),
-        )
+        ))
 
         ftml._fxml.head.comment = 'In this test, the comment column indicates whether the feature is expected to ' \
                                   'function with the given language tag. '
