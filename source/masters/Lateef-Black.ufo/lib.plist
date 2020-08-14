@@ -1009,6 +1009,8 @@
     <string>wawThreeAbove-ar.fina</string>
     <string>kirghizoe-ar</string>
     <string>kirghizoe-ar.fina</string>
+    <string>kirghizoe-ar.loclKIR</string>
+    <string>kirghizoe-ar.fina.loclKIR</string>
     <string>oe-ar</string>
     <string>oe-ar.fina</string>
     <string>yu-ar</string>
@@ -1098,6 +1100,7 @@
     <string>highhamzaYeh-ar.medi</string>
     <string>highhamzaYeh-ar.init</string>
     <string>kashida-ar</string>
+    <string>kashida-ar.haswidth</string>
     <string>absAutoKashida</string>
     <string>sadabove-ar</string>
     <string>ainabove-ar</string>
@@ -1210,6 +1213,9 @@
     <string>four-persian.urdu</string>
     <string>four-persian.urdu.medium</string>
     <string>four-persian.urdu.small</string>
+    <string>four-persian.roh</string>
+    <string>four-persian.roh.medium</string>
+    <string>four-persian.roh.small</string>
     <string>five-persian</string>
     <string>five-persian.medium</string>
     <string>five-persian.small</string>
@@ -2407,6 +2413,8 @@
     <string>wawThreeAbove-ar.fina</string>
     <string>kirghizoe-ar</string>
     <string>kirghizoe-ar.fina</string>
+    <string>kirghizoe-ar.loclKIR</string>
+    <string>kirghizoe-ar.fina.loclKIR</string>
     <string>oe-ar</string>
     <string>oe-ar.fina</string>
     <string>yu-ar</string>
@@ -2496,6 +2504,7 @@
     <string>highhamzaYeh-ar.medi</string>
     <string>highhamzaYeh-ar.init</string>
     <string>kashida-ar</string>
+    <string>kashida-ar.haswidth</string>
     <string>absAutoKashida</string>
     <string>sadabove-ar</string>
     <string>ainabove-ar</string>
@@ -2608,6 +2617,9 @@
     <string>four-persian.urdu</string>
     <string>four-persian.urdu.medium</string>
     <string>four-persian.urdu.small</string>
+    <string>four-persian.roh</string>
+    <string>four-persian.roh.medium</string>
+    <string>four-persian.roh.small</string>
     <string>five-persian</string>
     <string>five-persian.medium</string>
     <string>five-persian.small</string>
@@ -3410,6 +3422,12 @@
     <string>uni06F4</string>
     <key>four-persian.medium</key>
     <string>uni06F4.medium</string>
+    <key>four-persian.roh</key>
+    <string>uni06F4.roh</string>
+    <key>four-persian.roh.medium</key>
+    <string>uni06F4.roh.medium</string>
+    <key>four-persian.roh.small</key>
+    <string>uni06F4.roh.small</string>
     <key>four-persian.small</key>
     <string>uni06F4.small</string>
     <key>four-persian.urdu</key>
@@ -3830,6 +3848,10 @@
     <string>uni06C5</string>
     <key>kirghizoe-ar.fina</key>
     <string>uni06C5.fina</string>
+    <key>kirghizoe-ar.fina.loclKIR</key>
+    <string>uni06C5.fina.loclKIR</string>
+    <key>kirghizoe-ar.loclKIR</key>
+    <string>uni06C5.loclKIR</string>
     <key>kirghizyu-ar</key>
     <string>uni06C9</string>
     <key>kirghizyu-ar.fina</key>
