@@ -88,6 +88,8 @@
   <string>O_dieresis.glif</string>
   <key>Ograve</key>
   <string>O_grave.glif</string>
+  <key>Ohm</key>
+  <string>O_hm.glif</string>
   <key>Oslash</key>
   <string>O_slash.glif</string>
   <key>Otilde</key>
@@ -1694,8 +1696,6 @@
   <string>ogonekcomb.glif</string>
   <key>ograve</key>
   <string>ograve.glif</string>
-  <key>ohm</key>
-  <string>ohm.glif</string>
   <key>one</key>
   <string>one.glif</string>
   <key>one-ar</key>
