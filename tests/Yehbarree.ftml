@@ -284,7 +284,7 @@
       <comment>kehehTwodotshorizontalabove-ar</comment>
       <string>\u063B\u06EC\u06D2 \u200D\u063B\u06EC\u06D2 \u063B\u064D\u06EC\u06D2 \u200D\u063B\u064D\u06EC\u06D2</string>
     </test>
-    <test background="#ffe0e0" label="U+08C2">
+    <test background="#ffc8a0" label="U+08C2">
       <comment>kehehVabove-ar</comment>
       <string>\u08C2\u06EC\u06D2 \u200D\u08C2\u06EC\u06D2 \u08C2\u064D\u06EC\u06D2 \u200D\u08C2\u064D\u06EC\u06D2</string>
     </test>
@@ -304,7 +304,7 @@
       <comment>lamDotabove-ar</comment>
       <string>\u06B6\u06EC\u06D2 \u200D\u06B6\u06EC\u06D2 \u06B6\u064D\u06EC\u06D2 \u200D\u06B6\u064D\u06EC\u06D2</string>
     </test>
-    <test background="#ffe0e0" label="U+08C7">
+    <test background="#ffc8a0" label="U+08C7">
       <comment>lamTahabove-ar</comment>
       <string>\u08C7\u06EC\u06D2 \u200D\u08C7\u06EC\u06D2 \u08C7\u064D\u06EC\u06D2 \u200D\u08C7\u064D\u06EC\u06D2</string>
     </test>
@@ -396,7 +396,7 @@
       <comment>peheh-ar</comment>
       <string>\u06A6\u06EC\u06D2 \u200D\u06A6\u06EC\u06D2 \u06A6\u064D\u06EC\u06D2 \u200D\u06A6\u064D\u06EC\u06D2</string>
     </test>
-    <test background="#ffe0e0" label="U+08BE">
+    <test background="#ffc8a0" label="U+08BE">
       <comment>pehVabove-ar</comment>
       <string>\u08BE\u06EC\u06D2 \u200D\u08BE\u06EC\u06D2 \u08BE\u064D\u06EC\u06D2 \u200D\u08BE\u064D\u06EC\u06D2</string>
     </test>
@@ -496,7 +496,7 @@
       <comment>tcheheh-ar</comment>
       <string>\u0687\u06EC\u06D2 \u200D\u0687\u06EC\u06D2 \u0687\u064D\u06EC\u06D2 \u200D\u0687\u064D\u06EC\u06D2</string>
     </test>
-    <test background="#ffe0e0" label="U+08C1">
+    <test background="#ffc8a0" label="U+08C1">
       <comment>tchehVabove-ar</comment>
       <string>\u08C1\u06EC\u06D2 \u200D\u08C1\u06EC\u06D2 \u08C1\u064D\u06EC\u06D2 \u200D\u08C1\u064D\u06EC\u06D2</string>
     </test>
@@ -520,7 +520,7 @@
       <comment>tehThreedotsupbelow-ar</comment>
       <string>\u0753\u06EC\u06D2 \u200D\u0753\u06EC\u06D2 \u0753\u064D\u06EC\u06D2 \u200D\u0753\u064D\u06EC\u06D2</string>
     </test>
-    <test background="#ffe0e0" label="U+08BF">
+    <test background="#ffc8a0" label="U+08BF">
       <comment>tehVabove-ar</comment>
       <string>\u08BF\u06EC\u06D2 \u200D\u08BF\u06EC\u06D2 \u08BF\u064D\u06EC\u06D2 \u200D\u08BF\u064D\u06EC\u06D2</string>
     </test>
@@ -536,7 +536,7 @@
       <comment>tteheh-ar</comment>
       <string>\u067A\u06EC\u06D2 \u200D\u067A\u06EC\u06D2 \u067A\u064D\u06EC\u06D2 \u200D\u067A\u064D\u06EC\u06D2</string>
     </test>
-    <test background="#ffe0e0" label="U+08C0">
+    <test background="#ffc8a0" label="U+08C0">
       <comment>ttehVabove-ar</comment>
       <string>\u08C0\u06EC\u06D2 \u200D\u08C0\u06EC\u06D2 \u08C0\u064D\u06EC\u06D2 \u200D\u08C0\u064D\u06EC\u06D2</string>
     </test>
