@@ -8,7 +8,7 @@
 
 /*
 	This file is part of Lateef font family (http://scripts.sil.org/Lateef) 
-	and is Copyright (c) 1994-2017 SIL International (http://www.sil.org/),
+	and is Copyright (c) 1994-2020 SIL International (http://www.sil.org/),
 	with Reserved Font Names "Lateef" and "SIL".
 
 	This Font Software is licensed under the SIL Open Font License,
@@ -94,11 +94,15 @@ shaddaKasra {
     settings {
         std {
             value = 0;
-            name.1033 = string("Raised");
+            name.1033 = string("Default");
         }
-        sindhiUrdu {
+        lowered {
             value = 1;
             name.1033 = string("Lowered");
+        }
+        raised {
+            value = 2;
+            name.1033 = string("Raised");
         }
     }
     default = std;
@@ -237,44 +241,10 @@ commaAlt {
     default = up;
 }
 
-
-jehHack {
-	id = "cv90";
-    name.1033 = string("Jeh hack");
-    settings {
-        std {
-            value = 0;
-            name.1033 = string("Standard");
-        }
-        dotHat {
-            value = 1;
-            name.1033 = string("Dot hat");
-        }
-    }
-    default = std;
-}
-
-
-headOfKhahHack {
-    id = "cv92";	// was 2009;
-    name.1033 = string("Dotless head of khah hack");
-    settings {
-        std {
-            value = 0;
-            name.1033 = string("Standard");
-        }
-        openLeft {
-            value = 1;
-            name.1033 = string("Jazm");
-        }
-    }
-    default = std;
-}
-
-
-invis {
-    id = "invs";
-    name.1033 = string("Show invisible characters");
+utr53 {
+    id.hidden = "ut53";
+    // id = "ut53";
+    name.1033 = string("Include UTR53 approximation");
     settings {
         off {
             value = 0;
@@ -285,9 +255,10 @@ invis {
             name.1033 = string("True");
         }
     }
-    default = off;
-
+    default = on;
 }
+
+
 
 endtable; // feature
 
@@ -319,27 +290,20 @@ kurdish {
 //    dammatanAlt = sixNine;
 //};
 
-shina {
-    languages = (
-        "scl",	// Shina
-        "plk"	// Shina, Kohistani
-    );
-    headOfKhahHack = openLeft;
-};
 
 sindhi {
     languages = ( "snd", "sd" ); // Sindhi
     meemAlt = sindhi;
     hehAlt = sindhi;
     easternDigits = sindhi;
-    shaddaKasra = sindhiUrdu;
+    shaddaKasra = lowered;
 };
 
 urdu {
     languages = ( "urd", "ur" ); // Urdu
     hehAlt = urdu;
     easternDigits = urdu;
-    shaddaKasra = sindhiUrdu;
+    shaddaKasra = lowered;
 };
 
 
