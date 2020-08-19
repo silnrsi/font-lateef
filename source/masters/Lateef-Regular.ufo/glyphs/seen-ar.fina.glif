@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seen-ar.fina" format="2">
   <advance width="1471"/>
-  <anchor x="1032" y="411" name="above"/>
+  <anchor x="1032" y="418" name="above"/>
   <anchor x="295" y="436" name="alef"/>
   <anchor x="1069" y="-69" name="below"/>
   <anchor x="680" y="700" name="diaA"/>
@@ -54,4 +54,10 @@
     </contour>
     <component base="_bowl_seen" yOffset="17"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seen-ar.init" format="2">
   <advance width="849"/>
-  <anchor x="486" y="424" name="above"/>
+  <anchor x="486" y="418" name="above"/>
   <anchor x="125" y="595" name="alef"/>
   <anchor x="480" y="-37" name="below"/>
-  <anchor x="353" y="700" name="diaA"/>
+  <anchor x="413" y="700" name="diaA"/>
   <anchor x="300" y="-200" name="diaB"/>
   <outline>
     <contour>
@@ -57,4 +57,10 @@
       <point x="-33" y="-1"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

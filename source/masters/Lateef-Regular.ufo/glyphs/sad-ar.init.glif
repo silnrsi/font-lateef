@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sad-ar.init" format="2">
-  <advance width="1173"/>
-  <anchor x="548" y="461" name="above"/>
+  <advance width="1171"/>
+  <anchor x="571" y="480" name="above"/>
   <anchor x="125" y="595" name="alef"/>
   <anchor x="548" y="-75" name="below"/>
-  <anchor x="519" y="700" name="diaA"/>
+  <anchor x="521" y="700" name="diaA"/>
   <anchor x="300" y="-200" name="diaB"/>
   <outline>
     <contour>
@@ -34,4 +34,10 @@
     </contour>
     <component base="_tah_bowl" xOffset="459" yOffset="-15"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

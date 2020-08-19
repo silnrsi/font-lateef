@@ -4,10 +4,16 @@
   <anchor x="573" y="480" name="above"/>
   <anchor x="165" y="599" name="alef"/>
   <anchor x="572" y="-60" name="below"/>
-  <anchor x="519" y="700" name="diaA"/>
+  <anchor x="523" y="700" name="diaA"/>
   <anchor x="300" y="-200" name="diaB"/>
   <outline>
     <component base="sad-ar.init"/>
     <component base="_bowl_connector" xOffset="362"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
