@@ -18,10 +18,14 @@
   <string>_dot1_tah.glif</string>
   <key>_dot2h</key>
   <string>_dot2h.glif</string>
+  <key>_dot2h_small</key>
+  <string>_dot2h_small.glif</string>
   <key>_dot2h_smallV</key>
   <string>_dot2h_smallV_.glif</string>
   <key>_dot2h_tah</key>
   <string>_dot2h_tah.glif</string>
+  <key>_dot2h_tah_small</key>
+  <string>_dot2h_tah_small.glif</string>
   <key>_dot2v</key>
   <string>_dot2v.glif</string>
   <key>_dot3d</key>
@@ -76,6 +80,8 @@
   <string>_tah.glif</string>
   <key>_tah_bowl</key>
   <string>_tah_bowl.glif</string>
+  <key>_tah_small</key>
+  <string>_tah_small.glif</string>
   <key>_tah_smallV</key>
   <string>_tah_smallV_.glif</string>
   <key>_wasla</key>

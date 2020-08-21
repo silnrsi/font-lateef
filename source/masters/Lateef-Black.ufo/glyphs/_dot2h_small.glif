@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_dot2h_small" format="2">
+  <anchor x="0" y="-180" name="_above"/>
+  <anchor x="0" y="180" name="_below"/>
+  <anchor x="0" y="0" name="_center"/>
+  <outline>
+    <component base="_dot1_small" xOffset="-94"/>
+    <component base="_dot1_small" xOffset="84"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

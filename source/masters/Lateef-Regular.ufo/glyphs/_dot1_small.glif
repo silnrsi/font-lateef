@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_dot1_small" format="2">
+  <anchor x="0" y="-158" name="_above"/>
+  <anchor x="0" y="158" name="_below"/>
+  <anchor x="0" y="0" name="_center"/>
+  <outline>
+    <contour>
+      <point x="0" y="94" type="curve"/>
+      <point x="-94" y="0" type="line"/>
+      <point x="-57" y="-26"/>
+      <point x="-24" y="-57"/>
+      <point x="0" y="-94" type="curve"/>
+      <point x="94" y="0" type="line"/>
+      <point x="69" y="37"/>
+      <point x="37" y="68"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

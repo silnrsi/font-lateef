@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_dot2h_small" format="2">
+  <anchor x="0" y="-180" name="_above"/>
+  <anchor x="0" y="180" name="_below"/>
+  <anchor x="0" y="0" name="_center"/>
+  <outline>
+    <component base="_dot1_small" xOffset="-63"/>
+    <component base="_dot1_small" xOffset="64"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_dot1_small</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_dot1_small</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

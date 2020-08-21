@@ -54,6 +54,8 @@
     <string>/behDotless-ar.fina/behDotless-ar.init/seen-ar/seen-ar.fina/seen-ar.medi/seen-ar.init/sad-ar/sad-ar.fina/sad-ar.init/tah-ar/tah-ar.fina/tah-ar.medi/tah-ar.init/fehDotless-ar.fina/fehDotless-ar.medi/fehDotless-ar.init/kaf-ar/kaf-ar.fina/lam-ar/lam-ar.fina/lam-ar.medi/lam-ar.init/lam-ar.preAlef.medi/lam-ar.preAlef.init/yeh-ar.noDots/yeh-ar.noDots.fina 
 /hah-ar/hah-ar.fina/hah-ar.medi/hah-ar.init/space/ain-ar/ain-ar.fina</string>
     <string>/behDotless-ar.fina/behDotless-ar.init/seen-ar/seen-ar.fina/seen-ar.medi/seen-ar.init/sad-ar/sad-ar.fina/sad-ar.medi/sad-ar.init/tah-ar/tah-ar.fina/tah-ar.medi/tah-ar.init/ain-ar.fina/fehDotless-ar.fina/fehDotless-ar.medi/fehDotless-ar.init/kaf-ar/kaf-ar.fina/lam-ar/lam-ar.fina/lam-ar.medi/lam-ar.init/lam-ar.preAlef.medi/lam-ar.preAlef.init/yeh-ar.noDots/yeh-ar.noDots.fina</string>
+    <string>/space/space/_dot1/space/space/_dot2h/space/space/_dot3d/space/space/tehThreedotsdown-ar.fina</string>
+    <string>/_dot2h_tah/space/space/_dot2h_tah_small/space/space/_tah_small/space/space/_dot1_small/space/space/_dot2h_small/space/space/_dot2h_tah/space/space/_dot2h_tah_small/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2930</integer>
