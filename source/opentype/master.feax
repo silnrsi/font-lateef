@@ -1,0 +1,1296 @@
+#**********************************
+# This file is part of Harmattan font family (http://software.sil.org/harmattan/) 
+# and is Copyright (c) 2014-2020 SIL International (http://www.sil.org/),
+# with Reserved Font Names "Harmattan" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+# details including an FAQ.
+#**********************************
+
+
+#**********************************
+#  Language Systems
+#**********************************
+
+languagesystem arab dflt ;
+## languagesystem arab KUR  ;    # Kurdish
+languagesystem arab RHG  ;    # Rohingya -- supported by Harfbuzz
+languagesystem arab SND  ;    # Sindhi
+languagesystem arab URD  ;    # Urdu
+#languagesystem arab WLF  ;    # Wolof
+languagesystem latn dflt ;
+
+@MarksAbove = [@_diaA] ;
+@MarksBelow = [@_diaB] ;
+@MarksAny = [@_diaA @_diaB] ;
+
+# Notes:
+#   I've tried to arrange the lookups themselves, and then the features that refer to them,
+#   grouped into ordered passes as the rendering engines (esp Harfbuzz) will execute them.
+#   The boundaries between passes are indicated by the comment 
+#       # HB PAUSE
+#   in the code.
+
+
+#**********************************
+#  Lookups
+#**********************************
+
+
+#****************************
+#****************************
+# GSUB (Subtitution) rules **
+#****************************
+#****************************
+
+#********************
+# for feature rtlm:
+#********************
+
+lookup mirror {
+    sub @cno_rtl by @c_rtl;
+} mirror ;
+
+# HB PAUSE
+
+#********************
+# for features ccmp and locl:
+#********************
+
+
+#********************
+# for UTR53 stacks, this decomposition will already have been done:
+
+lookup DecomposeForColor {
+  lookupflag IgnoreMarks ;
+    sub @AlefPlusMark by alef-ar @AlefMark ;
+} DecomposeForColor;
+
+#********************
+# Font rendering check
+#
+# The following three lookups change "RenderingUnknown" to "RenderingOpenType"
+
+lookup FontCheck_Unknow {
+  lookupflag IgnoreMarks;
+    sub [U n k o w ] by [O p e T y];
+} FontCheck_Unknow;
+
+lookup FontCheck_n {
+  lookupflag IgnoreMarks;
+    sub n by p e;
+} FontCheck_n;
+
+lookup FontCheck {
+  lookupflag IgnoreMarks ;
+    sub [R] e n d e r i n g 
+      U' lookup FontCheck_Unknow 
+      n' lookup FontCheck_Unknow
+      k' lookup FontCheck_Unknow
+      n'  
+      o' lookup FontCheck_Unknow 
+      w' lookup FontCheck_Unknow 
+      n' lookup FontCheck_n;
+} FontCheck;
+
+
+#********************
+# Reordering of madda: moving it beyond any mark with 0 < ccc < 230
+#
+# If Harfbuzz is rendering, UTR53 will already have been executed, thus the following will do nothing
+# Otherwise, we can't do a lot of reordering but we'll move the madda out past vowels
+# in a way that is compatible with UTR53.
+
+@MaddaSkip = [ @UTR53_shadda @UTR53_fixedPos @UTR53_alef @UTR53_220MCM @UTR53_220other ] ;
+
+lookup ReorderMaddaVowel1_target {
+  lookupflag 0 ;
+    sub @MaddaSkip by @MaddaSkip madda-ar ;
+} ReorderMaddaVowel1_target ;
+
+lookup ReorderMaddaVowel1 {
+  lookupflag 0 ;
+    sub madda-ar @MaddaSkip' lookup ReorderMaddaVowel1_target ;
+} ReorderMaddaVowel1;
+
+lookup ReorderMaddaVowel2_target {
+  lookupflag 0 ;
+    sub madda-ar @MaddaSkip by @MaddaSkip ;
+} ReorderMaddaVowel2_target ;
+
+lookup ReorderMaddaVowel2 {
+  lookupflag 0 ;
+    sub madda-ar' lookup ReorderMaddaVowel2_target @MaddaSkip madda-ar ;
+} ReorderMaddaVowel2;
+
+
+#********************
+# Kasra position
+
+# Will need kasra-ar.lowered in Lateef for this logic to work. Need to review
+
+lookup KasraLow {
+  lookupflag 0 ;
+    sub @Kasra by @Kasra_lowered;
+} KasraLow;
+
+lookup KasraHigh {
+  lookupflag 0 ;
+    sub @Kasra_lowered by @Kasra;
+} KasraHigh;
+
+
+# HB PAUSE
+
+#********************
+# for basic Arabic shaping features fina, medi, init:
+#********************
+
+lookup ltrFina {
+  lookupflag IgnoreMarks ;
+    sub [@DualLinkIsol @RightLinkIsol] by [@DualLinkFina @RightLinkFina] ;
+} ltrFina;
+
+# HB PAUSE
+
+lookup ltrMedi {
+  lookupflag IgnoreMarks ;
+    sub @DualLinkIsol by @DualLinkMedi ;
+} ltrMedi;
+
+# HB PAUSE
+
+lookup ltrInit {
+  lookupflag IgnoreMarks ;
+    sub @DualLinkIsol by @DualLinkInit ;
+} ltrInit;
+
+# HB PAUSE
+
+#********************
+# for feature rlig: required ligatures 
+#********************
+
+
+#********
+# Allah "ligature" (implemented by variant forms for glyphs rather than by ligature glyph):
+
+lookup AllahSubAlef {
+  lookupflag 0;
+  	sub alef-ar      by alef-ar.allah;
+  	sub alef-ar.fina by alef-ar.allah.fina;
+} AllahSubAlef;
+
+lookup AllahSubLam1 {
+  lookupflag 0;
+    sub lam-ar.init  by lam-ar.allah1.init;
+    sub lam-ar.medi  by lam-ar.allah1.medi;
+} AllahSubLam1;
+
+lookup AllahSubLam2Heh {
+  lookupflag 0;
+    sub lam-ar.medi     by lam-ar.allah2.medi;
+    sub heh-ar.fina     by heh-ar.allah.fina;
+    sub hehgoal-ar.fina by hehgoal-ar.allah.fina;
+} AllahSubLam2Heh;
+
+lookup AllahSubLam2AddMarks {
+  lookupflag 0;
+    sub lam-ar.medi by lam-ar.allah2.medi shadda-ar alefabove-ar ;  # insert shadda-alef
+} AllahSubLam2AddMarks;
+
+lookup AllahLigatures {
+  lookupflag 0;
+    # Rule 3: alefIso-lam-lam-heh
+    sub alef-ar' lookup AllahSubAlef
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2AddMarks
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub alef-ar' lookup AllahSubAlef
+        @MarksAny'
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2AddMarks
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub alef-ar' lookup AllahSubAlef
+        @MarksAny' 
+        @MarksAny'
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2AddMarks
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+
+    # Rule 2: lamInit-lam-shadda-alef-heh
+    sub [@RightLinkIsol @RightLinkFina]' lookup AllahSubAlef
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
+        shadda-ar'
+        [alefabove-ar fatha-ar]'
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub [@RightLinkIsol @RightLinkFina]' lookup AllahSubAlef
+        @MarksAny' 
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
+        shadda-ar'
+        [alefabove-ar fatha-ar]'
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub [@RightLinkIsol @RightLinkFina]' lookup AllahSubAlef
+        @MarksAny' 
+        @MarksAny' 
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
+        shadda-ar'
+        [alefabove-ar fatha-ar]'
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    # Rule 2: lamInit-lam-alef-shadda-heh
+    sub [@RightLinkIsol @RightLinkFina]' lookup AllahSubAlef
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
+        [alefabove-ar fatha-ar]'
+        shadda-ar'
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub [@RightLinkIsol @RightLinkFina]' lookup AllahSubAlef
+        @MarksAny' 
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
+        [alefabove-ar fatha-ar]'
+        shadda-ar'
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub [@RightLinkIsol @RightLinkFina]' lookup AllahSubAlef
+        @MarksAny' 
+        @MarksAny' 
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
+        [alefabove-ar fatha-ar]'
+        shadda-ar'
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    # Rule 2: lamMedi-lam-shadda-alef-heh
+    sub [@DualLinkInit @DualLinkMedi]
+        lam-ar.medi' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
+        shadda-ar'
+        [alefabove-ar fatha-ar]'
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub [@DualLinkInit @DualLinkMedi]
+        @MarksAny' 
+        lam-ar.medi' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
+        shadda-ar'
+        [alefabove-ar fatha-ar]'
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub [@DualLinkInit @DualLinkMedi]
+        @MarksAny' 
+        @MarksAny' 
+        lam-ar.medi' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
+        shadda-ar'
+        [alefabove-ar fatha-ar]'
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    # Rule 2: lamMedi-lam-alef-shadda-heh
+    sub [@DualLinkInit @DualLinkMedi]
+        lam-ar.medi' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
+        [alefabove-ar fatha-ar]'
+        shadda-ar'
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub [@DualLinkInit @DualLinkMedi]
+        @MarksAny' 
+        lam-ar.medi' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
+        [alefabove-ar fatha-ar]'
+        shadda-ar'
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub [@DualLinkInit @DualLinkMedi]
+        @MarksAny' 
+        @MarksAny' 
+        lam-ar.medi' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
+        [alefabove-ar fatha-ar]'
+        shadda-ar'
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+} AllahLigatures;  
+
+
+#********
+# Substitutions for Lam-Alef "ligature" (implemented
+# as cursively connected components, not a ligature).
+
+lookup LamAlefLigatures {
+  lookupflag IgnoreMarks ;
+    sub [@LamIni @LamMed]' @AlefFin  by [@LamIniBeforeAlef @LamMedBeforeAlef];
+    sub @LamIniBeforeAlef  @AlefFin' by @AlefFinAfterLamIni;
+    sub @LamMedBeforeAlef  @AlefFin' by @AlefFinAfterLamMed ;
+} LamAlefLigatures;
+
+#********
+# Ligatures of marks
+
+# NB: This includes required ligatures other than the shadda-kasra rule, which
+#     must execute after cv67; See notes with feature liga.
+
+# These compositions have to strike a balance between
+# trying to do something useful for DirectWrite (which doesn't reorder glyphs) without
+# violating the rules of UTR53.
+
+# Include in this filter hamzaAbove plus any mark glyphs that should stop any ligation.
+# Mark glyphs not included will be skipped over when trying to find a hamzaAbove
+@HamzaAboveFilter = [@UTR53_230MCM @UTR53_230other graphemejoinercomb ] ;
+lookup ComposeLowHamzaAbove {
+  lookupflag UseMarkFilteringSet @HamzaAboveFilter ;
+    sub @LowHamzaBase hamzaabove-ar by @LowHamzaComposed ;
+} ComposeLowHamzaAbove;
+
+@LigateHamzaMarksFilter = [ hamzaabove-ar @HamzaMarks ] ;
+lookup LigateHamzaMarks {
+  lookupflag UseMarkFilteringSet @LigateHamzaMarksFilter ;
+    sub hamzaabove-ar @HamzaMarks by @HamzaLigatures ;
+} LigateHamzaMarks;
+
+@HamzaLigatureFilter = [ @HamzaAboveFilter @HamzaMarks shadda-ar ] ;
+lookup HamzaLigatures {
+  lookupflag UseMarkFilteringSet @HamzaLigatureFilter ;
+    # shouldn't ligate hamza + following fatha|damma when hamza preceded by non-MCM 230 because 
+    # UTR53 would have moved the fatha|damma to before the 230 marks but could not move the 
+    # hamza as it isn't at the beginning of the 230 sequence.
+    ignore sub @UTR53_230other               hamzaabove-ar' ;
+    ignore sub @UTR53_230other @UTR53_230MCM hamzaabove-ar' ;
+    # shouldn't ligate fatha|damma + following hamza when a 230MCM follows the hamza because
+    # UTR53 would have moved both hamza and following 230MCM to before the fatha|damma at which
+    # point the 230MCM would be between the hamza and the fatha|damma, blocking ligation.
+    ignore sub @HamzaMarks'                  hamzaabove-ar @UTR53_230MCM ;
+    ignore sub @HamzaMarks'    @UTR53_230MCM hamzaabove-ar @UTR53_230MCM ;
+    # otherwise we can ligate in these situations:
+    sub hamzaabove-ar' lookup LigateHamzaMarks                                                   @HamzaMarks ;
+    sub hamzaabove-ar' lookup LigateHamzaMarks @UTR53_230other                                   @HamzaMarks ;
+    sub hamzaabove-ar' lookup LigateHamzaMarks @UTR53_230other [ @UTR53_230other @UTR53_230MCM ] @HamzaMarks ;
+    sub @HamzaMarks'   lookup LigateHamzaMarks                 hamzaabove-ar ;
+    sub @HamzaMarks'   lookup LigateHamzaMarks @UTR53_230MCM   hamzaabove-ar ;
+} HamzaLigatures;
+
+# Including graphemejoinercomb allows it to interrupt the ligature formation,
+#		otherwise the lookupflag causes it to be ignored.
+@ShaddaLigatureFilter = [ @ShaddaMarks @ShaddaKasraMarks shadda-ar graphemejoinercomb ] ;
+lookup ShaddaLigatures {
+  lookupflag UseMarkFilteringSet @ShaddaLigatureFilter ;
+    sub shadda-ar @ShaddaMarks by @ShaddaLigatures ;
+    sub @ShaddaMarks shadda-ar by @ShaddaLigatures ;
+} ShaddaLigatures;
+
+
+# HB PAUSE
+
+#********************
+# for features calt and rclt:
+#********************
+
+#********************
+# Language CALTs
+
+# Note: Setting default kasra is done in ccmp
+
+lookup dfltCALT {
+  lookupflag 0 ;
+     sub tab by tab;   # Need a dummy lookup for Typetuner
+} dfltCALT;
+
+lookup KurdishCALT {
+  lookupflag 0 ;
+    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar by heh-ar.knotted ;
+} KurdishCALT;
+
+lookup RohingyaCALT {
+  lookupflag 0 ;
+    sub four-persian by four-persian.roh ;
+    sub six-persian by six-persian.urdu ;
+    sub seven-persian by seven-persian.urdu ;
+    sub @cno_sixNine by @c_sixNine ;
+} RohingyaCALT  ;
+
+lookup SindhiCALT {
+  lookupflag 0 ;
+    sub six-persian by six-persian.urdu ;
+    sub seven-persian by seven-persian.urdu ;
+    sub @Meem by @Meem.sindhi ;
+} SindhiCALT;
+
+lookup UrduCALT {
+  lookupflag 0 ;
+    sub four-persian by four-persian.urdu ;
+    sub six-persian by six-persian.urdu ;
+    sub seven-persian by seven-persian.urdu ;
+} UrduCALT;
+
+# lookup WolofCALT {
+#   lookupflag 0 ;
+#     sub @cno_loclWLF by @c_loclWLF ;
+#     sub @Damma by @Damma_short ;
+# } WolofCALT;
+
+
+# HB PAUSE
+
+#********************
+# for all remaining substitution features (salt, cvxx, liga):
+#********************
+
+#********************
+# Lookups for user-selectable features
+
+#********************
+# Meem alternate: cv44
+
+lookup MeemAlternate {
+  lookupflag IgnoreMarks ;
+    sub @cno_sindhi by @c_sindhi;
+} MeemAlternate;
+
+#********************
+# Heh Alternates: TypeTuner lookups:
+
+lookup SindhiHeh {
+    sub heh-ar.medi by heh-ar.knottedHigh.medi ;
+    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar by heh-ar.knotted ;
+} SindhiHeh;
+
+lookup UrduHeh {
+    sub heh-ar.init by heh-ar.hooked.init ;
+    sub heh-ar.medi by heh-ar.hooked.medi ;
+    sub heh-ar.fina by heh-ar.hooked.fina ;
+} UrduHeh;
+
+lookup KurdishHeh {
+    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar by heh-ar.knotted ;
+} KurdishHeh;
+
+# Heh alternates: cv48
+
+lookup HehAlternates {
+  lookupflag IgnoreMarks ;             # 1 = Sindhi-style        2 = Urdu-style     3 = Kurdish-style 
+    sub heh-ar                  from   [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
+    sub heh-ar.init             from   [ heh-ar.init             heh-ar.hooked.init heh-ar.init             ] ;
+    sub heh-ar.medi             from   [ heh-ar.knottedHigh.medi heh-ar.hooked.medi heh-ar.medi             ] ;
+    sub heh-ar.fina             from   [ heh-ar.knottedHigh.fina heh-ar.hooked.fina heh-ar.knottedHigh.fina ] ;
+    # In case Kurdish lang has been selected:
+    sub heh-ar.knotted          from   [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
+    sub heh-ar.knottedHigh.fina from   [ heh-ar.knottedHigh.fina heh-ar.hooked.fina heh-ar.knottedHigh.fina ] ;
+    
+} HehAlternates;
+
+#********************
+# Arabic U alternate: cv50
+
+lookup UAlternate {
+  lookupflag 0 ;
+##    sub @U by @U_filled ;		#### TODO: Find out why this won't compile
+    sub u-ar by u-ar.filled;
+} UAlternate;
+
+
+#********************
+# Kasra Alternates: cv62
+
+lookup KasraAlternates {
+  lookupflag 0 ;
+    # NB: This is writen so it doesn't matter which shadda-kasra behavior is active.
+    sub @Kasra_lowered from [ @Kasra_lowered @Kasra ];
+    sub @Kasra         from [ @Kasra_lowered @Kasra ];
+} KasraAlternates;
+
+
+#********************
+# Damma alternates: cv70
+
+lookup DammaAlternates {
+  lookupflag 0 ;
+    sub @Damma        from [ @Damma_filled @Damma_short ];
+    sub @Damma_filled from [ @Damma_filled @Damma_short ];
+##    sub @Damma_short  from [ @Damma_filled @Damma_short ];		#### TODO Will we have this variant?
+} DammaAlternates;
+
+#********************
+# SixNine Dammatan: cv72
+
+lookup DammatanAlternate {
+  lookupflag 0 ;
+    sub @cno_sixNine by @c_sixNine ;
+} DammatanAlternate;
+
+#********************
+# Inverted Damma alternates: cv74
+
+lookup UntapeshAlternates {
+  lookupflag 0 ;
+#    sub dammainverted-ar from [dammainverted-ar dammainverted-ar.filled] ;  #### TODO Will we have this variant?
+    sub dammainverted-ar by dammainverted-ar  ;
+} UntapeshAlternates;
+
+#********************
+# DaggerAlef alternates: cv76
+
+lookup DaggerAlef_target {
+    sub alefabove-ar from [ alefabove-ar.large alefabove-ar ] ;
+} DaggerAlef_target;
+
+lookup DaggerAlefToLarge {
+  lookupflag 0 ;
+    sub @TakesLargeDaggerAlef alefabove-ar' lookup DaggerAlef_target ;
+} DaggerAlefToLarge;
+
+#********************
+# Sukun alternates: cv78
+
+lookup SukunAlternates {
+  lookupflag 0 ;
+    sub sukun-ar from [ sukun-ar.downOpen sukun-ar.leftOpen ] ;
+} SukunAlternates;
+
+#********************
+# End of Ayah alternates: cv80
+
+lookup AyahAlternates {
+  lookupflag 0 ;
+    sub @Ayah from [ @AyahCircle  @AyahSquare ] ;
+} AyahAlternates;
+
+#********************
+# Heh Alternates: TypeTuner lookups:
+
+lookup DigitSindhi {
+  lookupflag 0;
+    sub four-persian.urdu   by four-persian;
+    sub four-persian.roh    by four-persian;
+    sub six-persian         by six-persian.urdu;
+    sub seven-persian       by seven-persian.urdu;
+} DigitSindhi;
+
+lookup DigitUrdu {
+  lookupflag 0;
+    sub four-persian        by four-persian.urdu;
+    sub four-persian.roh    by four-persian.urdu;
+    sub six-persian         by six-persian.urdu;
+    sub seven-persian       by seven-persian.urdu;
+} DigitUrdu;
+
+lookup DigitKurdish {
+  lookupflag 0;
+    sub four-persian.urdu   by four-persian;
+    sub four-persian.roh    by four-persian;
+    sub six-persian.urdu    by six-persian;
+    sub seven-persian.urdu  by seven-persian;
+} DigitKurdish;
+
+lookup DigitRohingya {
+   sub four-persian        by four-persian.roh;
+##   sub four-persian.urdu   by four-persian.roh;    #### TODO We will have this variant.
+   sub six-persian         by six-persian.urdu;
+   sub seven-persian       by seven-persian.urdu;
+} DigitRohingya;
+
+
+# Eastern digit alternates: cv82
+
+lookup DigitAlternates {
+  lookupflag 0 ;        #       1 = Sindhi-style      2 = Urdu-style      3 = Kurdish-style  4 = Rohingya-style
+    sub four-persian       from [four-persian         four-persian.urdu   four-persian       four-persian.roh  ];
+    sub four-persian.urdu  from [four-persian         four-persian.urdu   four-persian       four-persian.roh  ];
+    sub four-persian.roh   from [four-persian         four-persian.urdu   four-persian       four-persian.roh  ];
+    sub six-persian        from [six-persian.urdu     six-persian.urdu    six-persian        six-persian.urdu  ];
+    sub six-persian.urdu   from [six-persian.urdu     six-persian.urdu    six-persian        six-persian.urdu  ];
+    sub seven-persian      from [seven-persian.urdu   seven-persian.urdu  seven-persian      seven-persian.urdu];
+    sub seven-persian.urdu from [seven-persian.urdu   seven-persian.urdu  seven-persian      seven-persian.urdu];
+} DigitAlternates;
+
+#********************
+# Comma alternates: cv84
+
+lookup CommaAlternate {
+  lookupflag IgnoreMarks ;
+    sub @cno_downward by @c_downward;
+} CommaAlternate;
+
+#********************
+# Ligatures: liga
+#
+# see notes with liga feature
+
+@ShaddaKasraFilter = [ @ShaddaKasraMarks shadda-ar ] ;
+lookup ShaddaKasraLigatures {
+  lookupflag UseMarkFilteringSet @ShaddaKasraFilter ;
+    sub @ShaddaKasraMarks shadda-ar by @ShaddaKasraLigatures ;
+    sub shadda-ar @ShaddaKasraMarks by @ShaddaKasraLigatures ;
+} ShaddaKasraLigatures;
+
+
+#********************
+# Substitutions for subtendng marks
+
+lookup SignWith_4digits_target {
+  lookupflag IgnoreMarks ;
+    sub @cno_4 by @c_4 ;
+} SignWith_4digits_target ;
+
+lookup SignWith_3digits_target {
+  lookupflag IgnoreMarks ;
+    sub @cno_3 by @c_3 ;
+} SignWith_3digits_target ;
+
+lookup SignWith_2digits_target {
+  lookupflag IgnoreMarks ;
+    sub @cno_2 by @c_2 ;
+} SignWith_2digits_target ;
+
+lookup SignDigits_ToMedium_target {
+  lookupflag IgnoreMarks ;
+    sub @DigitsAny by @DigitsAnyMedium ;
+} SignDigits_ToMedium_target ;
+
+lookup SignDigits_ToSmall_target {
+  lookupflag IgnoreMarks ;
+    sub @DigitsAny by @DigitsAnySmall ;
+} SignDigits_ToSmall_target ;
+
+lookup SignWithDigits {
+  lookupflag IgnoreMarks ;
+  # Uniscribe or HarfBuzz 'latn'
+    sub [ year-ar samvat-ar pagenumber-ar numbermark-ar ]' lookup SignWith_4digits_target 
+        @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target ;
+    sub [ number-ar year-ar samvat-ar pagenumber-ar numbermark-ar ]' lookup SignWith_3digits_target 
+        @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target ;
+    sub [ endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_3digits_target 
+        @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target ;
+    sub [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_2digits_target 
+        @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target ;
+    sub [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]
+        @DigitsAny' lookup SignDigits_ToMedium_target ;
+  # HarfBuzz 'arab'
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target 
+        [ year-ar samvat-ar pagenumber-ar numbermark-ar ]' lookup SignWith_4digits_target ;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target 
+        [ number-ar year-ar samvat-ar pagenumber-ar numbermark-ar ]' lookup SignWith_3digits_target ;
+    sub @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target  
+        [ endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_3digits_target ;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target 
+        [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_2digits_target ;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target 
+        [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ] ;
+} SignWithDigits;
+
+
+#********
+# Yehbarree substituions to prevent collisions -- must be after lang-specific CALTs and cv48
+
+#### TODO Will we use this?
+
+## lookup YehBarreeToWideAlways {
+##   lookupflag IgnoreMarks ;
+##     sub @YehBarreeContextAlways                            @cno_wide' by @c_wide ;
+## } YehBarreeToWideAlways ;
+## 
+## lookup YehBarreeToWideWithMarks {
+##   lookupflag UseMarkFilteringSet @MarksBelow;
+##     sub @YehBarreeContextMarkBelow @MarksBelow             @cno_wide' by @c_wide ;
+##     sub @YehBarreeContextMarkBelow @MarksBelow @MarksBelow @cno_wide' by @c_wide ;
+## } YehBarreeToWideWithMarks ;
+
+
+#****************************
+#****************************
+# GPOS (positioning) rules **
+#****************************
+#****************************
+
+
+#********************
+# Cursive connection
+
+lookup cursive_exit_entry {
+  lookupflag IgnoreMarks RightToLeft;
+  pos cursive @entry @exit;
+} cursive_exit_entry;
+
+
+#********************
+# Mark attachment
+
+lookup mark_to_base {
+  lookupflag 0;
+  pos base @diaA mark @_diaA;
+  pos base @diaB mark @_diaB;
+} mark_to_base;
+
+lookup alef_to_base {
+  lookupflag 0;
+  pos base @alef mark @_alef;
+} alef_to_base;
+
+#### TODO will we have this?
+
+## lookup mark2_to_base {
+##   lookupflag 0;
+##   pos base @dia2B mark @_diaB;
+## } mark2_to_base;
+
+@MarkFilter_diaA = [@diaA_MarkBase @_diaA];
+lookup mark_to_mark_above {
+  lookupflag UseMarkFilteringSet @MarkFilter_diaA;
+  pos mark @diaA_MarkBase mark @_diaA;
+} mark_to_mark_above;
+
+@MarkFilter_diaB = [@diaB_MarkBase @_diaB];
+lookup mark_to_mark_below {
+  lookupflag UseMarkFilteringSet @MarkFilter_diaB;
+  pos mark @diaB_MarkBase mark @_diaB;
+} mark_to_mark_below;
+
+#********************
+# Mark adjustments after attachment:
+
+#### TODO: Will we have this?
+
+# move MarksBelow slightly left on lam-alef when appropriate:
+## lookup AlefMark2BelowAfterLam {
+##   lookupflag UseMarkFilteringSet @MarksBelow ;
+##     pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @dia2B' lookup mark2_to_base @MarksBelow' ;
+##     pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
+##     pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksBelow' ;
+##     pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
+##     #pos @MarksBelow @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+##     #pos lamThreedotsbelow-ar.preAlef.init @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+##     # Unneeded in Harmattan design:
+##     #pos lamThreedotsbelow-ar.preAlef.medi @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+## } AlefMark2BelowAfterLam;
+
+
+#********************
+# Subtending mark positioning
+
+lookup SubtendingMarks {
+  lookupflag IgnoreMarks ;
+    # In Graphite we use mark attachment rules. However, in OpenType positioning digits on 
+    # subtending marks has to be done with adjustments rather than attachment since for some 
+    # engines the digits will ordered *before* the subtending mark.
+    
+    # Additionally, the adjustment value records depend on font face (bold vs regular). Therefore
+    # we use feax extentions to calculate the value records based on glyph advancewidths and digit AP coordinates.
+    
+    # In each "do" template, the first rule is ordered for Uniscribe or HarfBuzz 'latin', the second for HarfBuzz 'arab'
+    
+    # U+06DD End of Ayah
+    do let w = -ADVx("zero.small"); 
+       let x1 = APx("endofayah-ar.3", "digitR") - ADVx("endofayah-ar.3"); 
+       let x2 = x1 - w; 
+       let x3 = x2 - w;
+    {
+        pos @AyahAny @DigitsAnySmall' <$x1 0 $w 0>   @DigitsAnySmall' <$x2 0 $w 0>   @DigitsAnySmall' <$x3 0 $w 0> ;
+        pos          @DigitsAnySmall' <$x3 0 $w 0>   @DigitsAnySmall' <$x2 0 $w 0>   @DigitsAnySmall' <$x1 0 $w 0>  @AyahAny ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("endofayah-ar.2", "digitR") - ADVx("endofayah-ar.2"); let x2 = x1 - w; 
+    {
+        pos @AyahAny @DigitsAnyMedium' <$x1 0 $w 0>  @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos          @DigitsAnyMedium' <$x2 0 $w 0>  @DigitsAnyMedium' <$x1 0 $w 0>  @AyahAny ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("endofayah-ar", "digitR") - ADVx("endofayah-ar");
+    {
+        pos @AyahAny @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos          @DigitsAnyMedium' <$x1 0 $w 0> @AyahAny ;
+    }
+
+    # U+0600 Number sign
+    do let w = -ADVx("zero.medium"); let x1 = APx("number-ar.3", "digitR") - ADVx("number-ar.3"); let x2 = x1 - w; let x3 = x2 - w;
+    {
+        pos number-ar.3 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> ;
+        pos             @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> number-ar.3 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("number-ar.2", "digitR") - ADVx("number-ar.2"); let x2 = x1 - w;
+    {
+        pos number-ar.2 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos             @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> number-ar.2 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("number-ar", "digitR") - ADVx("number-ar"); 
+    {
+        pos number-ar   @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos             @DigitsAnyMedium' <$x1 0 $w 0> number-ar ;
+    }
+    
+    # U+0601 Year sign
+    do let w = -ADVx("zero.medium"); let x1 = APx("year-ar.4", "digitR") - ADVx("year-ar.4"); let x2 = x1 - w; let x3 = x2 - w; let x4 = x3 - w;
+    {
+        pos year-ar.4 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x4 0 $w 0> ;
+        pos           @DigitsAnyMedium' <$x4 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> year-ar.4 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("year-ar.3", "digitR") - ADVx("year-ar.3"); let x2 = x1 - w; let x3 = x2 - w;
+    {
+        pos year-ar.3 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> ;
+        pos           @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> year-ar.3 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("year-ar.2", "digitR") - ADVx("year-ar.2"); let x2 = x1 - w;
+    {
+        pos year-ar.2 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos           @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> year-ar.2 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("year-ar", "digitR") - ADVx("year-ar"); 
+    {
+        pos year-ar   @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos           @DigitsAnyMedium' <$x1 0 $w 0> year-ar ;
+    }
+    
+    # U+0602 Footnote Marker
+    do let w = -ADVx("zero.medium"); let x1 = APx("footnotemarker-ar.2", "digitR") - ADVx("footnotemarker-ar.2"); let x2 = x1 - w;
+    {
+        pos footnotemarker-ar.2 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos                     @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> footnotemarker-ar.2 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("footnotemarker-ar", "digitR") - ADVx("footnotemarker-ar"); 
+    {
+        pos footnotemarker-ar   @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos                     @DigitsAnyMedium' <$x1 0 $w 0> footnotemarker-ar ;
+    }
+    
+    # U+0603 Page Number
+    do let w = -ADVx("zero.medium"); let x1 = APx("pagenumber-ar.4", "digitR") - ADVx("pagenumber-ar.4"); let x2 = x1 - w; let x3 = x2 - w; let x4 = x3 - w;
+    {
+        pos pagenumber-ar.4 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x4 0 $w 0>;
+        pos                 @DigitsAnyMedium' <$x4 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> pagenumber-ar.4 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("pagenumber-ar.3", "digitR") - ADVx("pagenumber-ar.3"); let x2 = x1 - w; let x3 = x2 - w;
+    {
+        pos pagenumber-ar.3 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> ;
+        pos                 @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> pagenumber-ar.3 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("pagenumber-ar.2", "digitR") - ADVx("pagenumber-ar.2"); let x2 = x1 - w;
+    {
+        pos pagenumber-ar.2 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos                 @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> pagenumber-ar.2 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("pagenumber-ar", "digitR") - ADVx("pagenumber-ar"); 
+    {
+        pos pagenumber-ar   @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos                 @DigitsAnyMedium' <$x1 0 $w 0> pagenumber-ar ;
+    }
+    
+    # U+0604 Samvat sign
+    do let w = -ADVx("zero.medium"); let x1 = APx("samvat-ar.4", "digitR") - ADVx("samvat-ar.4"); let x2 = x1 - w; let x3 = x2 - w; let x4 = x3 - w;
+    {
+        pos samvat-ar.4 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x4 0 $w 0>;
+        pos             @DigitsAnyMedium' <$x4 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> samvat-ar.4 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("samvat-ar.3", "digitR") - ADVx("samvat-ar.3"); let x2 = x1 - w; let x3 = x2 - w;
+    {
+        pos samvat-ar.3 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> ;
+        pos             @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> samvat-ar.3 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("samvat-ar.2", "digitR") - ADVx("samvat-ar.2"); let x2 = x1 - w;
+    {
+        pos samvat-ar.2 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos             @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> samvat-ar.2 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("samvat-ar", "digitR") - ADVx("samvat-ar"); 
+    {
+        pos samvat-ar   @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos             @DigitsAnyMedium' <$x1 0 $w 0> samvat-ar ;
+    }
+    
+    # U+0605 Number mark
+    do let w = -ADVx("zero.medium"); let x1 = APx("numbermark-ar.4", "digitR") - ADVx("numbermark-ar.4"); let x2 = x1 - w; let x3 = x2 - w; let x4 = x3 - w;
+    {
+        pos numbermark-ar.4 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x4 0 $w 0>;
+        pos                 @DigitsAnyMedium' <$x4 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> numbermark-ar.4 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("numbermark-ar.3", "digitR") - ADVx("numbermark-ar.3"); let x2 = x1 - w; let x3 = x2 - w;
+    {
+        pos numbermark-ar.3 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> ;
+        pos                 @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> numbermark-ar.3 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("numbermark-ar.2", "digitR") - ADVx("numbermark-ar.2"); let x2 = x1 - w;
+    {
+        pos numbermark-ar.2 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos                 @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> numbermark-ar.2 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("numbermark-ar", "digitR") - ADVx("numbermark-ar"); 
+    {
+        pos numbermark-ar   @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos                 @DigitsAnyMedium' <$x1 0 $w 0> numbermark-ar ;
+    }
+
+} SubtendingMarks;
+
+
+#**********************************
+#  Features
+#**********************************
+
+# as best as I understand, these are arranged in the order MS & HB engines execute:
+
+#*********************
+#*********************
+# GSUB features     **
+#*********************
+#*********************
+
+feature rtlm {  # Right-to-left mirroring
+    lookup mirror;
+} rtlm ;
+
+# HB PAUSE
+
+feature ccmp {  # Glyph Composition/Decomposition
+    # Same for latin & arabic:
+        # DecomposeForColor executes here for Arabic
+        lookup FontCheck;
+        lookup ReorderMaddaVowel1;
+        lookup ReorderMaddaVowel2;
+        # According to Amiri font developer Khaled Hosney:
+        #    Kashida justification as implemented in most, if not all, applications is
+        #    broken by design; it inserts kashidas *after* doing OT layout which makes it
+        #    impossible for OT code to interact with those kashidas breaking all sorts of
+        #    things.
+        #    To trick LibreOffice/MS Office to not do kashida justification we set the
+        #    default kashida to a zero width, blank glyph which makes them to think there
+        #    is no suitable kashida glyph, resorting back to regular justification
+        #    To get manually inserted kashida working we use an rlig feature to map to the
+        #    actual kashida glyph(s).
+        # See https://github.com/alif-type/amiri/blob/main/sources/kashida.fea
+        # Except we do this in ccmp since we don't have curvy kashida glyphs
+        sub kashida-ar by kashida-ar.haswidth ;
+    script latn;  # Latin
+        lookup KasraLow ;
+    script arab;  # Arabic
+        lookup DecomposeForColor;
+      language KUR  ;
+      	# Kurdish uses raised kasra
+      language RHG  ;
+        lookup KasraLow ;
+      language SND  ;
+        lookup KasraLow ;
+      language URD  ;
+        lookup KasraLow ;
+##      language WLF  ;
+##        lookup KasraLow ;
+      language dflt ;
+        lookup KasraLow ;
+} ccmp ;
+
+# feature locl (not used; see calt)
+
+# HB PAUSE
+
+feature fina {  # Terminal Forms
+    script arab;  # Arabic
+        lookup ltrFina;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language RHG  ;
+      language SND  ;
+      language URD  ;
+#      language WLF  ;
+} fina ;
+
+# HB PAUSE
+
+feature medi {  # Medial Forms
+    script arab;  # Arabic
+        lookup ltrMedi;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language RHG  ;
+      language SND  ;
+      language URD  ;
+#      language WLF  ;
+} medi ;
+
+# HB PAUSE
+
+feature init {  # Initial Forms
+    script arab;  # Arabic
+        lookup ltrInit;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language RHG  ;
+      language SND  ;
+      language URD  ;
+#      language WLF  ;
+} init ;
+
+# HB PAUSE
+
+feature rlig {  # Required Ligatures
+    script arab;  # Arabic
+        lookup AllahLigatures;
+        lookup LamAlefLigatures;
+        lookup ShaddaLigatures;
+        lookup ComposeLowHamzaAbove;
+        lookup HamzaLigatures;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language RHG  ;
+      language SND  ;
+      language URD  ;
+#      language WLF  ;
+} rlig ;
+
+# HB PAUSE
+
+# NB: We use calt for language-specific alternates rather than locl because
+#     the heh localizations don't affect all forms of heh so we need the lookups
+#     to execute after init/medi/fina lookups, but locl executes before.
+
+feature calt {  # Contextual Alternates
+    script arab;  # Arabic
+      language dflt ;   # Must have a lookup here for TypeTuner to work.
+        lookup dfltCALT ;
+      language KUR ; # Kurdish
+        lookup KurdishCALT ;
+      language RHG ; # Rohingya
+        lookup RohingyaCALT ;
+      language SND ; # Sindhi
+        lookup SindhiCALT ;
+      language URD ; # Urdu
+        lookup UrduCALT ;
+#      language WLF ; # Wolof
+#        lookup WolofCALT ;
+} calt ;
+
+# feature rclt
+
+# HB PAUSE
+
+# HB puts everything else (clig, liga, cvXX, ssXX, salt) in one pass:
+
+feature salt {  # Stylistic Alternates
+    script arab;  # Arabic
+        lookup AyahAlternates;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language RHG  ;
+      language SND  ;
+      language URD  ;
+#      language WLF  ;
+} salt ;
+
+feature cv44 {  # Character Variant 44
+    script arab;  # Arabic
+        lookup MeemAlternate;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      # language SND  ;  But not this one since we enable it in SindhiCALT
+      language RHG  ;
+      language URD  ;
+#      language WLF  ;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Meem"         ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style" ; };
+    } ;
+} cv44 ;
+
+feature cv48 {  # Character Variant 48
+    script arab;  # Arabic
+        lookup HehAlternates;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language RHG  ;
+      language URD  ;
+#      language WLF  ;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Heh"            ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Urdu-style"     ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"  ; };
+    } ;
+} cv48 ;
+
+feature cv50 {  # Character Variant 50
+    script arab;  # Arabic
+        lookup UAlternate;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language RHG  ;
+      language SND  ;
+      language URD  ;
+#      language WLF  ;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Arabic U" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
+    } ;
+} cv50 ;
+
+
+feature cv62 {  # Character Variant 62
+    # Same for latin & arabic:
+        lookup KasraAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Kasra"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Lowered" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Raised"  ; };
+    } ;
+} cv62 ;
+
+feature cv70 {  # Character Variant 70
+    # Same for latin & arabic:
+        lookup DammaAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Default"  ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Short"    ; };
+    } ;
+} cv70 ;
+
+feature cv72 {  # Character Variant 72
+    # Same for latin & arabic:
+        lookup DammatanAlternate;
+    # Except Rohingya where it is already set to sixNine
+    script arab ;
+        language RHG exclude_dflt ;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Dammatan" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Six-nine" ; };
+    } ;
+} cv72 ;
+
+feature cv74 {  # Character Variant 74
+    # Same for latin & arabic:
+        lookup UntapeshAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Inverted Damma" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Default"        ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Hollow"         ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Filled"         ; };
+    } ;
+} cv74 ;
+
+feature cv76 {  # Character Variant 76
+    # Same for latin & arabic:
+        lookup DaggerAlefToLarge;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Superscript Alef" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Small"            ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Large"            ; };
+    } ;
+} cv76 ;
+
+feature cv78 {  # Character Variant 78
+    # Same for latin & arabic:
+        lookup SukunAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Sukun"     ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Closed"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Open down" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Open left" ; };
+    } ;
+} cv78 ;
+
+feature cv80 {  # Character Variant 80
+    # Same for latin & arabic:
+        lookup AyahAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "End of ayah"  ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Simplified A" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Simplified B" ; };
+    } ;
+} cv80 ;
+
+feature cv82 {  # Character Variant 82
+    # Same for latin & arabic:
+        lookup DigitAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Eastern digits" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Urdu-style"     ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"  ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Rohingya-style" ; };
+    } ;
+} cv82 ;
+
+feature cv84 {  # Character Variant 84
+    # Same for latin & arabic:
+        lookup CommaAlternate;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Comma"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Upward"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Downward" ; };
+    } ;
+} cv84 ;
+
+
+# In order for the cv62 lookup to function, we need to execute the ShaddaKasraLigatures in the
+# same or later pass as cv62 itself, and it has to execute whether or not cv62 feature is requested,
+# so it has to be part of some other feature. In Harfbuzz, we could use either clig, or liga since they
+# are pulled in from the Horizontal features that follow shaper-specific features and are, therefore
+# executed at the same time as cvXX.
+
+# When rendered with Uniscribe or Word, cv62 is never executed [as of this writing, at any rate].
+# But we still need the ShaddaKasraLigatures lookup to fire. Presently Microsoft doesn't 
+# fire clig, so liga must be the one to use!
+
+# Similarly, the yehbarree contextual substitution must execute after cv48, so they are
+# included in liga (with the lookups ordered after cv48)
+
+feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cv62
+    # Same for latin & arabic:
+        lookup ShaddaKasraLigatures;     # Must be after language-specific CALTs and cv62
+#        lookup YehBarreeToWideAlways;    # Must be after language-specific CALTs and cv48
+#        lookup YehBarreeToWideWithMarks; # Must be after language-specific CALTs and cv48
+        lookup SignWithDigits;           # Must be after cv82
+} liga ;
+
+
+#********************
+#********************
+# GPOS features     *
+#********************
+#********************
+
+# Would love to be able to do subtending marks as either cursive connection or mark attachment
+# Cursive connection doesn't work because the width of the resultant cluster needs to be exactly the
+# same as the subtending mark and unrelated to the widths of the digits.
+# In Firefox at least, mark attachment works for 06DD (end of Ayah) and latin digits, but no other 
+# marks or digits (the digits get reverse ordered by the attachment process).
+# So we're back to using kerning
+
+feature kern {  # Kerning
+    # Same for latin & arabic:
+        lookup SubtendingMarks;
+} kern;
+
+feature curs { # Cursive connection
+    script arab; # Arab
+        lookup cursive_exit_entry;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language RHG  ;
+      language SND  ;
+      language URD  ;
+#      language WLF  ;
+} curs ;
+
+feature mark {  # Mark to base Positioning
+    # Same for latin & arabic:
+        lookup mark_to_base;
+        lookup alef_to_base;
+##    script arab;  # Arabic
+##        lookup AlefMark2BelowAfterLam;
+##      # Force other languages to include Arabic script lookups
+##      language KUR  ;
+##      language RHG  ;
+##      language SND  ;
+##      language URD  ;
+###      language WLF  ;
+} mark ;
+
+feature mkmk {  # Mark to mark Positioning
+    # Same for latin & arabic:
+        lookup mark_to_mark_above;
+        lookup mark_to_mark_below;
+} mkmk ;

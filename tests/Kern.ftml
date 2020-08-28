@@ -4,6 +4,7 @@
   <head>
     <fontscale>250</fontscale>
     <fontsrc label="Reg-Gr">url(../results/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)</fontsrc>
     <styles>
       <style feats="'cv44' 1" name="cv44_1"/>
       <style feats="'cv48' 1" name="cv48_1"/>
@@ -14,7 +15,7 @@
       <style feats="'cv54' 1" name="cv54_1"/>
     </styles>
     <title>Kerning (auto)</title>
-    <widths string="75%"/>
+    <widths string="38%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">

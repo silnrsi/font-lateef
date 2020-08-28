@@ -217,38 +217,6 @@ of the license along with this Font Software. If this is not the case, go to
     <!-- ***** end of algorithmically-generated classes ***** -->
 
 
-    <!-- 
-    ===============================
-    Mark classes 
-    ===============================
-    -->
-
-<!-- Shouldn't be used any more    
-    <class name='MarkGroup1A'>
-        shadda-ar hamzaabove-ar noonghunnaabove-ar
-    </class>
-    <class name='MarkGroup1B'>
-        hamzabelow-ar
-    </class>
-    <class name='MarkGroup2A'>
-        alefabove-ar alefabove-ar.large
-    </class>
-    <class name='MarkGroup2B'>
-        kasratan-ar kasratan-ar.lowered kasra-ar kasra-ar.lowered alefbelow-ar dotvowelbelow-ar dammaturnedbelow-ar wavyhamzabelow-ar kasraCurly-ar kasratanCurly-ar kasraDotbelow-ar leftarrowheadbelow-ar rightarrowheadbelow-ar kasrasmall-ar openkasratan-ar kasra_meem-ar
-    </class>
-    <class name='MarkGroup3A'>
-        fathatan-ar dammatan-ar dammatan-ar.sixNine fatha-ar damma-ar damma-ar.short  damma-ar.filled sukun-ar sukun-ar.downOpen sukun-ar.leftOpen dammainverted-ar dammainverted-ar.open  fathaHorizont-ar vabove-ar vinvertedabove-ar dammareversed-ar fathaCurly-ar fathatanCurly-ar dammaCurly-ar dammatanCurly-ar fathaRing-ar fathaDotabove-ar leftarrowheadabove-ar rightarrowheadabove-ar doublerightarrowheadabove-ar doublerightarrowheadDotabove-ar rightarrowheadDotabove-ar dammaDot-ar hahabove-ar fathasmall-ar dammasmall-ar shadda_fathatan-ar shadda_dammatan-ar shadda_dammatan-ar.sixNine shadda_kasratan-ar shadda_fatha-ar shadda_damma-ar shadda_damma-ar.short shadda_damma-ar.filled shadda_kasra-ar hamza_fatha-ar hamza_damma-ar hamza_damma-ar.short hamza_damma-ar.filled shadda_alef-ar marksidewaysnoonghunna-ar openfathatan-ar opendammatan-ar fatha_meem-ar damma_meem-ar
-    </class>
-    <class name='MarkGroup3B'>
-        toneonedotbelow-ar tonetwodotsbelow-ar toneloopbelow-ar seenbelow-ar rhombusStopbelow-ar meembelow-ar
-    </class>
-    <class name='MarkGroup4A'>
-        madda-ar madda-ar.small fathatwodots-ar
-    </class>
-    <class name='MarkGroup5A'>
-        toneonedotabove-ar tonetwodotsabove-ar toneloopabove-ar sadLamAlefMaksuraabove-ar qafLamAlefMaksuraabove-ar meemabove-ar lamAlefabove-ar jeemabove-ar threedotsabove-ar seenabove-ar sukunround-ar sukunoval-ar meemStopabove-ar maddalong-ar yehabove-ar noonabove-ar rhombusStopabove-ar dotStopabove-ar sadabove-ar ainabove-ar rehHahabove-ar rehDadabove-ar takhallusabove-ar tahabove-ar alefLamYehabove-ar zainabove-ar highwaw-ar
-    </class>
--->
 
     <!--
     ===============================
@@ -308,7 +276,7 @@ of the license along with this Font Software. If this is not the case, go to
     </class>
 
     <!-- *NEXT 2 CLASSES MUST MATCH* -->
-<!--
+
     <class name='ShaddaLigatures'>
         shadda_fathatan-ar shadda_dammatan-ar shadda_fatha-ar shadda_damma-ar shadda_alef-ar
     </class>
@@ -318,7 +286,6 @@ of the license along with this Font Software. If this is not the case, go to
     <class name='ShaddaLigatureParts'>
         cShaddaMarks kasratan-ar kasra-ar shadda-ar
     </class>
--->
 
     <!-- *NEXT 2 CLASSES MUST MATCH* -->
 
@@ -332,9 +299,20 @@ of the license along with this Font Software. If this is not the case, go to
 
     <!-- *NEXT 2 CLASSES MUST MATCH* -->
 
+    <class name='HamzaLigatures'>
+        hamza_fatha-ar hamza_damma-ar hamza_damma-ar.short
+    </class>
+
+    <class name='HamzaMarks'>
+        fatha-ar damma-ar damma-ar.short
+    </class>
+
+    <!-- *NEXT 2 CLASSES MUST MATCH* -->
+
     <class name='LowHamzaBase'>
         waw-ar yeh-ar ae-ar hehgoal-ar waw-ar.fina yeh-ar.fina ae-ar.fina hehgoal-ar.fina yeh-ar.medi hehgoal-ar.medi yeh-ar.init hehgoal-ar.init
     </class>
+    
     <class name='LowHamzaComposed'>
         wawHamzaabove-ar yehHamzaabove-ar hehHamzaabove-ar hehgoalHamzaabove-ar wawHamzaabove-ar.fina yehHamzaabove-ar.fina hehHamzaabove-ar.fina hehgoalHamzaabove-ar.fina yehHamzaabove-ar.medi hehgoalHamzaabove-ar.medi yehHamzaabove-ar.init hehgoalHamzaabove-ar.init
     </class>
@@ -507,6 +485,10 @@ of the license along with this Font Software. If this is not the case, go to
         endofayah-ar.altB endofayah-ar.altB.2 endofayah-ar.altB.3
     </class>
 
+    <class name='AyahAny'>
+        @Ayah @AyahCircle @AyahSquare
+    </class>
+    
     <!-- cv82 Eastern Digits -->
     
     <!-- *NEXT 4 CLASSES MUST MATCH* -->

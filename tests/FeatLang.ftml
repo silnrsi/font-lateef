@@ -5,6 +5,7 @@
     <comment>In this test, the comment column indicates whether the feature is expected to function with the given language tag. </comment>
     <fontscale>250</fontscale>
     <fontsrc label="Reg-Gr">url(../results/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)</fontsrc>
     <styles>
       <style feats="'cv44' 1" name="cv44_1"/>
       <style feats="'cv48' 1" name="cv48_1"/>
@@ -187,7 +188,7 @@
       <style feats="'cv84' 1" lang="wo" name="wo_cv84_1"/>
     </styles>
     <title>Feature-Language Interactions (auto)</title>
-    <widths string="75%"/>
+    <widths string="38%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">

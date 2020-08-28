@@ -5,6 +5,7 @@
     <fontscale>250</fontscale>
     <fontsrc label="LateefGR">url(../references/LateefGR-1.200.ttf)</fontsrc>
     <fontsrc label="Reg-Gr">url(../results/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)</fontsrc>
     <styles>
       <style feats="'cv44' 1" name="cv44_1"/>
       <style feats="'cv48' 1" name="cv48_1"/>
@@ -36,7 +37,7 @@
       <style lang="wo" name="wo"/>
     </styles>
     <title>AllChars (auto)</title>
-    <widths string="38%"/>
+    <widths string="25%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
