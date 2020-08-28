@@ -948,6 +948,12 @@
   <string>four-persian.glif</string>
   <key>four-persian.medium</key>
   <string>four-persian.medium.glif</string>
+  <key>four-persian.roh</key>
+  <string>four-persian.roh.glif</string>
+  <key>four-persian.roh.medium</key>
+  <string>four-persian.roh.medium.glif</string>
+  <key>four-persian.roh.small</key>
+  <string>four-persian.roh.small.glif</string>
   <key>four-persian.small</key>
   <string>four-persian.small.glif</string>
   <key>four-persian.urdu</key>
