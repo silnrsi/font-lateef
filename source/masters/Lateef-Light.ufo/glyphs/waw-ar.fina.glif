@@ -6,7 +6,7 @@
   <anchor x="360" y="-332" name="below"/>
   <anchor x="311" y="688" name="diaA"/>
   <anchor x="161" y="-437" name="diaB"/>
-  <anchor x="202" y="0" name="ring"/>
+  <anchor x="236" y="-25" name="ring"/>
   <anchor x="390" y="-112" name="through"/>
   <outline>
     <contour>
@@ -51,4 +51,10 @@
       <point x="47" y="-370"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
