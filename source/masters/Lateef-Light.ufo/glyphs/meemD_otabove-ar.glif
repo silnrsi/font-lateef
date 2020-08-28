@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meemDotabove-ar" format="2">
-  <advance width="555"/>
+  <advance width="545"/>
   <unicode hex="0765"/>
   <anchor x="139" y="809" name="alef"/>
   <anchor x="297" y="901" name="diaA"/>
   <anchor x="109" y="-719" name="diaB"/>
   <outline>
     <component base="meem-ar"/>
-    <component base="_dot1" xOffset="317" yOffset="638"/>
+    <component base="_dot1" xOffset="264" yOffset="570"/>
   </outline>
   <lib>
     <dict>
@@ -30,6 +30,8 @@
           <string>_dot1</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

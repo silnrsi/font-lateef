@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehTwodotshorizontalaboveTahabove-ar" format="2">
-  <advance width="590"/>
+  <advance width="545"/>
   <unicode hex="0771"/>
   <anchor x="126" y="1019" name="alef"/>
   <anchor x="280" y="1219" name="diaA"/>
   <anchor x="167" y="-474" name="diaB"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="_dot2h_tah" xOffset="376" yOffset="616"/>
+    <component base="_dot2h_tah" xOffset="416" yOffset="616"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

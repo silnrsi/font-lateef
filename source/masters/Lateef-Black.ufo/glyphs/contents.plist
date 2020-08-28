@@ -412,8 +412,20 @@
   <string>alefM_aksura-ar.medi.glif</string>
   <key>alefThreeabove-ar</key>
   <string>alefT_hreeabove-ar.glif</string>
+  <key>alefThreeabove-ar.fina</key>
+  <string>alefT_hreeabove-ar.fina.glif</string>
+  <key>alefThreeabove-ar.postLamIni.fina</key>
+  <string>alefT_hreeabove-ar.postL_amI_ni.fina.glif</string>
+  <key>alefThreeabove-ar.postLamMed.fina</key>
+  <string>alefT_hreeabove-ar.postL_amM_ed.fina.glif</string>
   <key>alefTwoabove-ar</key>
   <string>alefT_woabove-ar.glif</string>
+  <key>alefTwoabove-ar.fina</key>
+  <string>alefT_woabove-ar.fina.glif</string>
+  <key>alefTwoabove-ar.postLamIni.fina</key>
+  <string>alefT_woabove-ar.postL_amI_ni.fina.glif</string>
+  <key>alefTwoabove-ar.postLamMed.fina</key>
+  <string>alefT_woabove-ar.postL_amM_ed.fina.glif</string>
   <key>alefWasla-ar</key>
   <string>alefW_asla-ar.glif</string>
   <key>alefWasla-ar.fina</key>
@@ -1048,6 +1060,12 @@
   <string>hah-ar.medi.glif</string>
   <key>hahFourbelow-ar</key>
   <string>hahF_ourbelow-ar.glif</string>
+  <key>hahFourbelow-ar.fina</key>
+  <string>hahF_ourbelow-ar.fina.glif</string>
+  <key>hahFourbelow-ar.init</key>
+  <string>hahF_ourbelow-ar.init.glif</string>
+  <key>hahFourbelow-ar.medi</key>
+  <string>hahF_ourbelow-ar.medi.glif</string>
   <key>hahHamzaabove-ar</key>
   <string>hahH_amzaabove-ar.glif</string>
   <key>hahHamzaabove-ar.fina</key>
@@ -1056,6 +1074,14 @@
   <string>hahH_amzaabove-ar.init.glif</string>
   <key>hahHamzaabove-ar.medi</key>
   <string>hahH_amzaabove-ar.medi.glif</string>
+  <key>hahTahTwodotshorizontalbelow-ar</key>
+  <string>hahT_ahT_wodotshorizontalbelow-ar.glif</string>
+  <key>hahTahTwodotshorizontalbelow-ar.fina</key>
+  <string>hahT_ahT_wodotshorizontalbelow-ar.fina.glif</string>
+  <key>hahTahTwodotshorizontalbelow-ar.init</key>
+  <string>hahT_ahT_wodotshorizontalbelow-ar.init.glif</string>
+  <key>hahTahTwodotshorizontalbelow-ar.medi</key>
+  <string>hahT_ahT_wodotshorizontalbelow-ar.medi.glif</string>
   <key>hahTahabove-ar</key>
   <string>hahT_ahabove-ar.glif</string>
   <key>hahTahabove-ar.fina</key>
@@ -1290,6 +1316,12 @@
   <string>kafT_hreedotsbelow-ar.medi.glif</string>
   <key>kafTwodotshorizontalabove-ar</key>
   <string>kafT_wodotshorizontalabove-ar.glif</string>
+  <key>kafTwodotshorizontalabove-ar.fina</key>
+  <string>kafT_wodotshorizontalabove-ar.fina.glif</string>
+  <key>kafTwodotshorizontalabove-ar.init</key>
+  <string>kafT_wodotshorizontalabove-ar.init.glif</string>
+  <key>kafTwodotshorizontalabove-ar.medi</key>
+  <string>kafT_wodotshorizontalabove-ar.medi.glif</string>
   <key>kafswash-ar</key>
   <string>kafswash-ar.glif</string>
   <key>kafswash-ar.fina</key>
@@ -1360,6 +1392,14 @@
   <string>kehehT_wodotshorizontalabove-ar.init.glif</string>
   <key>kehehTwodotshorizontalabove-ar.medi</key>
   <string>kehehT_wodotshorizontalabove-ar.medi.glif</string>
+  <key>kehehVabove-ar</key>
+  <string>kehehV_above-ar.glif</string>
+  <key>kehehVabove-ar.fina</key>
+  <string>kehehV_above-ar.fina.glif</string>
+  <key>kehehVabove-ar.init</key>
+  <string>kehehV_above-ar.init.glif</string>
+  <key>kehehVabove-ar.medi</key>
+  <string>kehehV_above-ar.medi.glif</string>
   <key>khah-ar</key>
   <string>khah-ar.glif</string>
   <key>khah-ar.fina</key>
@@ -1422,6 +1462,18 @@
   <string>lamD_otabove-ar.preA_lef.init.glif</string>
   <key>lamDotabove-ar.preAlef.medi</key>
   <string>lamD_otabove-ar.preA_lef.medi.glif</string>
+  <key>lamTahabove-ar</key>
+  <string>lamT_ahabove-ar.glif</string>
+  <key>lamTahabove-ar.fina</key>
+  <string>lamT_ahabove-ar.fina.glif</string>
+  <key>lamTahabove-ar.init</key>
+  <string>lamT_ahabove-ar.init.glif</string>
+  <key>lamTahabove-ar.medi</key>
+  <string>lamT_ahabove-ar.medi.glif</string>
+  <key>lamTahabove-ar.preAlef.init</key>
+  <string>lamT_ahabove-ar.preA_lef.init.glif</string>
+  <key>lamTahabove-ar.preAlef.medi</key>
+  <string>lamT_ahabove-ar.preA_lef.medi.glif</string>
   <key>lamThreedotsabove-ar</key>
   <string>lamT_hreedotsabove-ar.glif</string>
   <key>lamThreedotsabove-ar.fina</key>
@@ -1774,6 +1826,14 @@
   <string>peh-ar.init.glif</string>
   <key>peh-ar.medi</key>
   <string>peh-ar.medi.glif</string>
+  <key>pehVabove-ar</key>
+  <string>pehV_above-ar.glif</string>
+  <key>pehVabove-ar.fina</key>
+  <string>pehV_above-ar.fina.glif</string>
+  <key>pehVabove-ar.init</key>
+  <string>pehV_above-ar.init.glif</string>
+  <key>pehVabove-ar.medi</key>
+  <string>pehV_above-ar.medi.glif</string>
   <key>peheh-ar</key>
   <string>peheh-ar.glif</string>
   <key>peheh-ar.fina</key>
@@ -2042,6 +2102,12 @@
   <string>seenD_otbelowD_otabove-ar.medi.glif</string>
   <key>seenFourabove-ar</key>
   <string>seenF_ourabove-ar.glif</string>
+  <key>seenFourabove-ar.fina</key>
+  <string>seenF_ourabove-ar.fina.glif</string>
+  <key>seenFourabove-ar.init</key>
+  <string>seenF_ourabove-ar.init.glif</string>
+  <key>seenFourabove-ar.medi</key>
+  <string>seenF_ourabove-ar.medi.glif</string>
   <key>seenFourdotsabove-ar</key>
   <string>seenF_ourdotsabove-ar.glif</string>
   <key>seenFourdotsabove-ar.fina</key>
@@ -2066,8 +2132,22 @@
   <string>seenT_hreedotsbelow-ar.init.glif</string>
   <key>seenThreedotsbelow-ar.medi</key>
   <string>seenT_hreedotsbelow-ar.medi.glif</string>
+  <key>seenTwodotsverticalabove-ar</key>
+  <string>seenT_wodotsverticalabove-ar.glif</string>
+  <key>seenTwodotsverticalabove-ar.fina</key>
+  <string>seenT_wodotsverticalabove-ar.fina.glif</string>
+  <key>seenTwodotsverticalabove-ar.init</key>
+  <string>seenT_wodotsverticalabove-ar.init.glif</string>
+  <key>seenTwodotsverticalabove-ar.medi</key>
+  <string>seenT_wodotsverticalabove-ar.medi.glif</string>
   <key>seenVinvertedabove-ar</key>
   <string>seenV_invertedabove-ar.glif</string>
+  <key>seenVinvertedabove-ar.fina</key>
+  <string>seenV_invertedabove-ar.fina.glif</string>
+  <key>seenVinvertedabove-ar.init</key>
+  <string>seenV_invertedabove-ar.init.glif</string>
+  <key>seenVinvertedabove-ar.medi</key>
+  <string>seenV_invertedabove-ar.medi.glif</string>
   <key>seenabove-ar</key>
   <string>seenabove-ar.glif</string>
   <key>seenbelow-ar</key>
@@ -2242,6 +2322,14 @@
   <string>tchehD_otabove-ar.init.glif</string>
   <key>tchehDotabove-ar.medi</key>
   <string>tchehD_otabove-ar.medi.glif</string>
+  <key>tchehVabove-ar</key>
+  <string>tchehV_above-ar.glif</string>
+  <key>tchehVabove-ar.fina</key>
+  <string>tchehV_above-ar.fina.glif</string>
+  <key>tchehVabove-ar.init</key>
+  <string>tchehV_above-ar.init.glif</string>
+  <key>tchehVabove-ar.medi</key>
+  <string>tchehV_above-ar.medi.glif</string>
   <key>tcheheh-ar</key>
   <string>tcheheh-ar.glif</string>
   <key>tcheheh-ar.fina</key>
@@ -2290,6 +2378,14 @@
   <string>tehT_hreedotsupbelow-ar.init.glif</string>
   <key>tehThreedotsupbelow-ar.medi</key>
   <string>tehT_hreedotsupbelow-ar.medi.glif</string>
+  <key>tehVabove-ar</key>
+  <string>tehV_above-ar.glif</string>
+  <key>tehVabove-ar.fina</key>
+  <string>tehV_above-ar.fina.glif</string>
+  <key>tehVabove-ar.init</key>
+  <string>tehV_above-ar.init.glif</string>
+  <key>tehVabove-ar.medi</key>
+  <string>tehV_above-ar.medi.glif</string>
   <key>teheh-ar</key>
   <string>teheh-ar.glif</string>
   <key>teheh-ar.fina</key>
@@ -2362,6 +2458,14 @@
   <string>tteh-ar.init.glif</string>
   <key>tteh-ar.medi</key>
   <string>tteh-ar.medi.glif</string>
+  <key>ttehVabove-ar</key>
+  <string>ttehV_above-ar.glif</string>
+  <key>ttehVabove-ar.fina</key>
+  <string>ttehV_above-ar.fina.glif</string>
+  <key>ttehVabove-ar.init</key>
+  <string>ttehV_above-ar.init.glif</string>
+  <key>ttehVabove-ar.medi</key>
+  <string>ttehV_above-ar.medi.glif</string>
   <key>tteheh-ar</key>
   <string>tteheh-ar.glif</string>
   <key>tteheh-ar.fina</key>
@@ -2460,8 +2564,12 @@
   <string>wawS_mall-ar.glif</string>
   <key>wawThreeAbove-ar</key>
   <string>wawT_hreeA_bove-ar.glif</string>
+  <key>wawThreeAbove-ar.fina</key>
+  <string>wawT_hreeA_bove-ar.fina.glif</string>
   <key>wawTwoabove-ar</key>
   <string>wawT_woabove-ar.glif</string>
+  <key>wawTwoabove-ar.fina</key>
+  <string>wawT_woabove-ar.fina.glif</string>
   <key>wawTwodots-ar</key>
   <string>wawT_wodots-ar.glif</string>
   <key>wawTwodots-ar.fina</key>
@@ -2514,6 +2622,12 @@
   <string>yeh-farsi.medi.glif</string>
   <key>yehFourbelow-farsi</key>
   <string>yehF_ourbelow-farsi.glif</string>
+  <key>yehFourbelow-farsi.fina</key>
+  <string>yehF_ourbelow-farsi.fina.glif</string>
+  <key>yehFourbelow-farsi.init</key>
+  <string>yehF_ourbelow-farsi.init.glif</string>
+  <key>yehFourbelow-farsi.medi</key>
+  <string>yehF_ourbelow-farsi.medi.glif</string>
   <key>yehHamzaabove-ar</key>
   <string>yehH_amzaabove-ar.glif</string>
   <key>yehHamzaabove-ar.fina</key>
@@ -2538,6 +2652,12 @@
   <string>yehT_ail-ar.fina.glif</string>
   <key>yehThreeabove-farsi</key>
   <string>yehT_hreeabove-farsi.glif</string>
+  <key>yehThreeabove-farsi.fina</key>
+  <string>yehT_hreeabove-farsi.fina.glif</string>
+  <key>yehThreeabove-farsi.init</key>
+  <string>yehT_hreeabove-farsi.init.glif</string>
+  <key>yehThreeabove-farsi.medi</key>
+  <string>yehT_hreeabove-farsi.medi.glif</string>
   <key>yehThreedotsabove-farsi</key>
   <string>yehT_hreedotsabove-farsi.glif</string>
   <key>yehThreedotsabove-farsi.fina</key>
@@ -2556,6 +2676,12 @@
   <string>yehT_hreedotsbelow-ar.medi.glif</string>
   <key>yehTwoabove-farsi</key>
   <string>yehT_woabove-farsi.glif</string>
+  <key>yehTwoabove-farsi.fina</key>
+  <string>yehT_woabove-farsi.fina.glif</string>
+  <key>yehTwoabove-farsi.init</key>
+  <string>yehT_woabove-farsi.init.glif</string>
+  <key>yehTwoabove-farsi.medi</key>
+  <string>yehT_woabove-farsi.medi.glif</string>
   <key>yehTwodotsabove-farsi</key>
   <string>yehT_wodotsabove-farsi.glif</string>
   <key>yehTwodotsabove-farsi.fina</key>
@@ -2592,8 +2718,20 @@
   <string>yehbarreeH_amzaabove-ar.fina.glif</string>
   <key>yehbarreeThreeabove-ar</key>
   <string>yehbarreeT_hreeabove-ar.glif</string>
+  <key>yehbarreeThreeabove-ar.fina</key>
+  <string>yehbarreeT_hreeabove-ar.fina.glif</string>
+  <key>yehbarreeThreeabove-ar.init</key>
+  <string>yehbarreeT_hreeabove-ar.init.glif</string>
+  <key>yehbarreeThreeabove-ar.medi</key>
+  <string>yehbarreeT_hreeabove-ar.medi.glif</string>
   <key>yehbarreeTwoabove-ar</key>
   <string>yehbarreeT_woabove-ar.glif</string>
+  <key>yehbarreeTwoabove-ar.fina</key>
+  <string>yehbarreeT_woabove-ar.fina.glif</string>
+  <key>yehbarreeTwoabove-ar.init</key>
+  <string>yehbarreeT_woabove-ar.init.glif</string>
+  <key>yehbarreeTwoabove-ar.medi</key>
+  <string>yehbarreeT_woabove-ar.medi.glif</string>
   <key>yen</key>
   <string>yen.glif</string>
   <key>yu-ar</key>

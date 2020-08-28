@@ -7,6 +7,12 @@
   <anchor x="0" y="-100" name="exit"/>
   <outline>
     <component base="lam-ar.preAlef.medi"/>
-    <component base="vabove-ar" xOffset="13" yOffset="237"/>
+    <component base="_smallV" xOffset="193" yOffset="1281"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

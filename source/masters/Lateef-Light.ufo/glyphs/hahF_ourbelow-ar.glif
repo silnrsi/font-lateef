@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahFourbelow-ar" format="2">
-  <advance width="832"/>
+  <advance width="841"/>
   <unicode hex="077C"/>
+  <anchor x="223" y="742" name="alef"/>
+  <anchor x="478" y="745" name="diaA"/>
+  <anchor x="183" y="-724" name="diaB"/>
   <outline>
     <component base="hah-ar"/>
-    <component base="four-persian.urdu" xScale="0.37" yScale="0.37" xOffset="366" yOffset="-327"/>
+    <component base="_four" xOffset="498" yOffset="573"/>
   </outline>
   <lib>
     <dict>
@@ -18,15 +21,9 @@
           <key>name</key>
           <string>hah-ar</string>
         </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>four-persian.urdu</string>
-        </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

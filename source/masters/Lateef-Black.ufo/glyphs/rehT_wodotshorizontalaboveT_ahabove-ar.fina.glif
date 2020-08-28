@@ -6,6 +6,12 @@
   <anchor x="175" y="-490" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="_dot2h_tah" xOffset="350" yOffset="467"/>
+    <component base="_dot2h_tah" xOffset="308" yOffset="514"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

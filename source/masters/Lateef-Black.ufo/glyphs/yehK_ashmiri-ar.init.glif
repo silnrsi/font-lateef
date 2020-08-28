@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehKashmiri-ar.init" format="2">
-  <advance width="467"/>
+  <advance width="351"/>
+  <anchor x="105" y="700" name="diaA"/>
+  <anchor x="150" y="-202" name="diaB"/>
   <outline>
-    <component base="yeh-ar.noDots.init"/>
-    <component base="_ring" xOffset="307" yOffset="-276"/>
+    <component base="behDotless-ar.init"/>
+    <component base="_ring" xOffset="189" yOffset="-100"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

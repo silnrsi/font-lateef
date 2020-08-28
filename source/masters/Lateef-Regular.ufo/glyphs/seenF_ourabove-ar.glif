@@ -2,8 +2,17 @@
 <glyph name="seenFourabove-ar" format="2">
   <advance width="1367"/>
   <unicode hex="077D"/>
+  <anchor x="295" y="436" name="alef"/>
+  <anchor x="680" y="700" name="diaA"/>
+  <anchor x="200" y="-510" name="diaB"/>
   <outline>
     <component base="seen-ar"/>
-    <component base="four-persian.urdu" xScale="0.37" yScale="0.37" xOffset="816" yOffset="324"/>
+    <component base="_four" xOffset="965" yOffset="1303"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

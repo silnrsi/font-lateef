@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehMarbutagoal-ar" format="2">
-  <advance width="442"/>
+  <advance width="482"/>
   <unicode hex="06C3"/>
   <anchor x="144" y="1122" name="diaA"/>
   <anchor x="177" y="-202" name="diaB"/>
   <outline>
     <component base="ae-ar"/>
-    <component base="_dot2h" xOffset="200" yOffset="868"/>
+    <component base="_dot2h" xOffset="207" yOffset="868"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

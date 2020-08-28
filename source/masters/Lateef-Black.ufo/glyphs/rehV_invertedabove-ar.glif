@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehVinvertedabove-ar" format="2">
-  <advance width="590"/>
+  <advance width="545"/>
   <unicode hex="06EF"/>
   <anchor x="118" y="769" name="alef"/>
   <anchor x="280" y="923" name="diaA"/>
   <anchor x="167" y="-474" name="diaB"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="vinvertedabove-ar" xOffset="174" yOffset="-550"/>
+    <component base="_hat" xOffset="416" yOffset="436"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

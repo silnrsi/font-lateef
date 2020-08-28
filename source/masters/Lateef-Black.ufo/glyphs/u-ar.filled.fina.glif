@@ -6,6 +6,12 @@
   <anchor x="251" y="-462" name="diaB"/>
   <outline>
     <component base="waw-ar.fina"/>
-    <component base="_damma.filled" xOffset="407" yOffset="710"/>
+    <component base="_damma.filled" xOffset="409" yOffset="892"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

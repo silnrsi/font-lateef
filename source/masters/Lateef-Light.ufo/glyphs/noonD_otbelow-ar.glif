@@ -7,8 +7,8 @@
   <anchor x="231" y="-697" name="diaB"/>
   <outline>
     <component base="noonghunna-ar"/>
-    <component base="_dot1" xOffset="329" yOffset="522"/>
-    <component base="_dot1" xOffset="374" yOffset="-537"/>
+    <component base="_dot1" xOffset="329" yOffset="480"/>
+    <component base="_dot1" xOffset="374" yOffset="-535"/>
   </outline>
   <lib>
     <dict>
@@ -39,6 +39,8 @@
           <string>_dot1</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

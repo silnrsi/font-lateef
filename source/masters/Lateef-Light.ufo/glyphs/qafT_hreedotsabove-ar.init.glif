@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafThreedotsabove-ar.init" format="2">
-  <advance width="504"/>
+  <advance width="503"/>
   <anchor x="178" y="1276" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.init"/>
-    <component base="_dot3u" xOffset="256" yOffset="984"/>
+    <component base="_dot3u" xOffset="324" yOffset="993"/>
   </outline>
   <lib>
     <dict>
@@ -28,6 +28,8 @@
           <string>_dot3u</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

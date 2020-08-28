@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gafRing-ar.fina" format="2">
-  <advance width="1577"/>
+  <advance width="1544"/>
   <anchor x="242" y="761" name="alef"/>
   <anchor x="623" y="1118" name="diaA"/>
   <anchor x="316" y="-202" name="diaB"/>
   <outline>
     <component base="keheh-ar.fina"/>
     <component base="_gafBar" xOffset="610" yOffset="835"/>
-    <component base="_ring" xOffset="1078" yOffset="784"/>
+    <component base="_ring" xOffset="1078" yOffset="771"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -3,7 +3,7 @@
   <anchor x="0" y="973" name="_diaA"/>
   <anchor x="0" y="1286" name="diaA"/>
   <outline>
-    <component base="marksidewaysnoonghunna-ar" xOffset="-111"/>
+    <component base="marksidewaysnoonghunna-ar"/>
   </outline>
   <lib>
     <dict>
@@ -18,6 +18,8 @@
           <string>marksidewaysnoonghunna-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

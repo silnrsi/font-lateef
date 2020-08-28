@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefThreeabove-ar" format="2">
-  <advance width="644"/>
+  <advance width="551"/>
   <unicode hex="0774"/>
+  <anchor x="379" y="1176" name="diaA"/>
+  <anchor x="346" y="-150" name="diaB"/>
   <outline>
-    <component base="alef-ar" xOffset="223"/>
-    <component base="three-ar" xScale="0.37" yScale="0.37" xOffset="-29" yOffset="810"/>
+    <component base="alef-ar" xOffset="197"/>
+    <component base="_three" xOffset="158" yOffset="671"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

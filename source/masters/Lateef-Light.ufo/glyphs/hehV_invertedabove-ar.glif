@@ -7,7 +7,7 @@
   <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="hehDoachashmee-ar"/>
-    <component base="vinvertedabove-ar" xOffset="283" yOffset="-237"/>
+    <component base="_hat" xOffset="242" yOffset="-43"/>
   </outline>
   <lib>
     <dict>
@@ -22,6 +22,8 @@
           <string>hehDoachashmee-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

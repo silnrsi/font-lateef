@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehVinvertedabove-ar.fina" format="2">
-  <advance width="940"/>
+  <advance width="894"/>
   <anchor x="225" y="949" name="alef"/>
   <anchor x="404" y="1064" name="diaA"/>
   <anchor x="288" y="-454" name="diaB"/>
   <outline>
     <component base="heh-ar.knottedHigh.fina"/>
-    <component base="vinvertedabove-ar" xOffset="271" yOffset="-366"/>
+    <component base="_hat" xOffset="392" yOffset="688"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

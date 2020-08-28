@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gaf-ar.medi" format="2">
-  <advance width="947"/>
+  <advance width="941"/>
   <anchor x="142" y="1142" name="diaA"/>
   <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="kaf-ar.medi"/>
-    <component base="_gafBar" xOffset="-42" yOffset="841"/>
+    <component base="_gafBar" xOffset="-33" yOffset="841"/>
   </outline>
   <lib>
     <dict>
@@ -28,6 +28,8 @@
           <string>_gafBar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

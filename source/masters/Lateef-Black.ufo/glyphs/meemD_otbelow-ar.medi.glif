@@ -6,6 +6,12 @@
   <anchor x="170" y="-458" name="diaB"/>
   <outline>
     <component base="meem-ar.medi"/>
-    <component base="_dot1" xOffset="303" yOffset="-269"/>
+    <component base="_dot1" xOffset="303" yOffset="-224"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

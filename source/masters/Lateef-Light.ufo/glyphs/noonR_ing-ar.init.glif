@@ -5,8 +5,8 @@
   <anchor x="166" y="-316" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_dot1" xOffset="206" yOffset="710"/>
-    <component base="_ring" xOffset="189" yOffset="-66"/>
+    <component base="_dot1" xOffset="142" yOffset="598"/>
+    <component base="_ring" xOffset="189" yOffset="-63"/>
   </outline>
   <lib>
     <dict>
@@ -37,6 +37,8 @@
           <string>_ring</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

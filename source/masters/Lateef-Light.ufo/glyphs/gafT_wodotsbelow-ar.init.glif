@@ -5,7 +5,7 @@
   <anchor x="150" y="-384" name="diaB"/>
   <outline>
     <component base="kaf-ar.init"/>
-    <component base="_gafBar" xOffset="-23" yOffset="848"/>
+    <component base="_gafBarShort" xOffset="-23" yOffset="848"/>
     <component base="_dot2h" xOffset="137" yOffset="-230"/>
   </outline>
   <lib>
@@ -24,19 +24,13 @@
           <key>alignment</key>
           <integer>-1</integer>
           <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_gafBar</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
           <integer>2</integer>
           <key>name</key>
           <string>_dot2h</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

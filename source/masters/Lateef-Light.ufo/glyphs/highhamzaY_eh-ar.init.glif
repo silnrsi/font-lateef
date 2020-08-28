@@ -5,7 +5,7 @@
   <anchor x="150" y="-202" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_highHamza" xOffset="224" yOffset="703"/>
+    <component base="_highHamza" xOffset="160" yOffset="613"/>
   </outline>
   <lib>
     <dict>
@@ -28,6 +28,8 @@
           <string>_highHamza</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

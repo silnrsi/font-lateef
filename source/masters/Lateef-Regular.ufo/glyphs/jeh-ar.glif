@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jeh-ar" format="2">
-  <advance width="590"/>
+  <advance width="547"/>
   <unicode hex="0698"/>
   <anchor x="114" y="936" name="alef"/>
   <anchor x="272" y="1020" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="reh-ar"/>
     <component base="_dot3u" xOffset="376" yOffset="722"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

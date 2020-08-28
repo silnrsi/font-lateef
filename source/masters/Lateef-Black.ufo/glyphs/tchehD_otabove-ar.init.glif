@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tchehDotabove-ar.init" format="2">
-  <advance width="843"/>
+  <advance width="923"/>
   <anchor x="109" y="865" name="alef"/>
   <anchor x="239" y="988" name="diaA"/>
   <anchor x="219" y="-551" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>
-    <component base="_dot1" xOffset="305" yOffset="760"/>
+    <component base="_dot1" xOffset="486" yOffset="748"/>
     <component base="_dot3d" xOffset="330" yOffset="-286"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hahTahTwodotshorizontalbelow-ar.fina" format="2">
+  <advance width="889"/>
+  <anchor x="214" y="742" name="alef"/>
+  <anchor x="469" y="745" name="diaA"/>
+  <anchor x="202" y="-802" name="diaB"/>
+  <outline>
+    <component base="hah-ar.fina"/>
+    <component base="_dot2h_tah_small" xOffset="424" yOffset="-434"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

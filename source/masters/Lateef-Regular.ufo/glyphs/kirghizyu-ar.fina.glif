@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kirghizyu-ar.fina" format="2">
-  <advance width="623"/>
+  <advance width="589"/>
   <anchor x="171" y="686" name="alef"/>
   <anchor x="401" y="842" name="diaA"/>
   <anchor x="251" y="-462" name="diaB"/>
   <outline>
     <component base="waw-ar.fina"/>
-    <component base="vinvertedabove-ar" xOffset="183" yOffset="-451"/>
+    <component base="_hat" xOffset="355" yOffset="505"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

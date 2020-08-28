@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seenFourdotsabove-ar.fina" format="2">
-  <advance width="1463"/>
+  <advance width="1471"/>
   <anchor x="287" y="436" name="alef"/>
   <anchor x="771" y="958" name="diaA"/>
   <anchor x="235" y="-522" name="diaB"/>
   <outline>
     <component base="seen-ar.fina"/>
-    <component base="_dot4" xOffset="1024" yOffset="697"/>
+    <component base="_dot4" xOffset="1032" yOffset="697"/>
   </outline>
   <lib>
     <dict>
@@ -29,6 +29,8 @@
           <string>_dot4</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

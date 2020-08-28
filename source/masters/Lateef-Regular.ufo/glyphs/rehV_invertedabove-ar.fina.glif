@@ -6,6 +6,12 @@
   <anchor x="175" y="-490" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="vinvertedabove-ar" xOffset="144" yOffset="-694"/>
+    <component base="_hat" xOffset="308" yOffset="334"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

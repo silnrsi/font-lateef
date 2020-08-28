@@ -7,8 +7,8 @@
   <anchor x="215" y="-202" name="diaB"/>
   <outline>
     <component base="keheh-ar"/>
-    <component base="_gafBar" xOffset="644" yOffset="861"/>
-    <component base="_dot2v" xOffset="826" yOffset="-336"/>
+    <component base="_gafBarShort" xOffset="630" yOffset="861"/>
+    <component base="_dot2v" xOffset="812" yOffset="-336"/>
   </outline>
   <lib>
     <dict>
@@ -26,19 +26,13 @@
           <key>alignment</key>
           <integer>-1</integer>
           <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_gafBar</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
           <integer>2</integer>
           <key>name</key>
           <string>_dot2v</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

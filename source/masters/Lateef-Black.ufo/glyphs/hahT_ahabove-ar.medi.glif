@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahTahabove-ar.medi" format="2">
-  <advance width="952"/>
+  <advance width="916"/>
   <anchor x="161" y="905" name="alef"/>
   <anchor x="360" y="1154" name="diaA"/>
   <anchor x="300" y="-202" name="diaB"/>
   <outline>
     <component base="hah-ar.medi"/>
-    <component base="_tah" xOffset="411" yOffset="734"/>
+    <component base="_tah" xOffset="486" yOffset="774"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

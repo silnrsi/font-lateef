@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kehehThreedotsabove-ar.fina" format="2">
-  <advance width="1577"/>
+  <advance width="1544"/>
   <anchor x="242" y="761" name="alef"/>
   <anchor x="502" y="1292" name="diaA"/>
   <anchor x="316" y="-202" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="keheh-ar.fina"/>
     <component base="_dot3u" xOffset="708" yOffset="1121"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

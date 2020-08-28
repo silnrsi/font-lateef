@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oe-ar.fina" format="2">
-  <advance width="623"/>
+  <advance width="589"/>
   <anchor x="171" y="781" name="alef"/>
   <anchor x="409" y="794" name="diaA"/>
   <anchor x="251" y="-462" name="diaB"/>
   <outline>
     <component base="waw-ar.fina"/>
-    <component base="_smallV" xOffset="389" yOffset="705"/>
+    <component base="_smallV" xOffset="355" yOffset="673"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

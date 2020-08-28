@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ddahal-ar.fina" format="2">
-  <advance width="739"/>
+  <advance width="644"/>
   <anchor x="171" y="686" name="alef"/>
   <anchor x="429" y="927" name="diaA"/>
   <anchor x="336" y="-445" name="diaB"/>
   <outline>
     <component base="dal-ar.fina"/>
-    <component base="_dot2h" xOffset="349" yOffset="-242"/>
+    <component base="_dot2h" xOffset="249" yOffset="-269"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -5,8 +5,14 @@
   <anchor x="184" y="885" name="diaA"/>
   <anchor x="186" y="-458" name="diaB"/>
   <outline>
-    <component base="_dot2h" xOffset="203" yOffset="-230"/>
     <component base="behDotless-ar.medi"/>
-    <component base="vinvertedabove-ar" xOffset="1" yOffset="-530"/>
+    <component base="_hat" xOffset="212" yOffset="386"/>
+    <component base="_dot2h" xOffset="203" yOffset="-230"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

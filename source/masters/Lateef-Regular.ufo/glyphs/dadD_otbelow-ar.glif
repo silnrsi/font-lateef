@@ -7,7 +7,13 @@
   <anchor x="173" y="-514" name="diaB"/>
   <outline>
     <component base="sad-ar"/>
-    <component base="_dot1" xOffset="965" yOffset="736"/>
-    <component base="_dot1" xOffset="1081" yOffset="-267"/>
+    <component base="_dot1" xOffset="1004" yOffset="660"/>
+    <component base="_dot1" xOffset="1084" yOffset="-267"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

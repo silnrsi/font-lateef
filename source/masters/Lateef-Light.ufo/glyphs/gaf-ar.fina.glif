@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gaf-ar.fina" format="2">
-  <advance width="1577"/>
+  <advance width="1544"/>
   <anchor x="242" y="761" name="alef"/>
   <anchor x="623" y="1118" name="diaA"/>
   <anchor x="316" y="-202" name="diaB"/>
@@ -29,6 +29,8 @@
           <string>_gafBar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

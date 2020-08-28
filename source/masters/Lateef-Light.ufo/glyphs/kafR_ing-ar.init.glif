@@ -5,7 +5,7 @@
   <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="kaf-ar.init"/>
-    <component base="_ring" xOffset="407" yOffset="776"/>
+    <component base="_ring" xOffset="407" yOffset="778"/>
   </outline>
   <lib>
     <dict>
@@ -28,6 +28,8 @@
           <string>_ring</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

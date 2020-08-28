@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yeh-farsi" format="2">
-  <advance width="1016"/>
+  <advance width="980"/>
   <unicode hex="06CC"/>
   <anchor x="335" y="539" name="alef"/>
   <anchor x="478" y="700" name="diaA"/>
@@ -21,6 +21,8 @@
           <string>yeh-ar.noDots</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

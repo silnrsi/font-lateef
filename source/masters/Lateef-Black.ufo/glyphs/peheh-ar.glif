@@ -7,6 +7,12 @@
   <anchor x="226" y="-202" name="diaB"/>
   <outline>
     <component base="fehDotless-ar"/>
-    <component base="_dot4" xOffset="1028" yOffset="1016"/>
+    <component base="_dot4" xOffset="1022" yOffset="1191"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

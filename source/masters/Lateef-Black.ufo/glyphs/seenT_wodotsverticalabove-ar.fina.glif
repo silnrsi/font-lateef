@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seenTwodotsverticalabove-ar.fina" format="2">
+  <advance width="1471"/>
+  <anchor x="295" y="436" name="alef"/>
+  <anchor x="779" y="700" name="diaA"/>
+  <anchor x="243" y="-522" name="diaB"/>
+  <outline>
+    <component base="seen-ar.fina"/>
+    <component base="_dot2v" xOffset="1032" yOffset="697"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

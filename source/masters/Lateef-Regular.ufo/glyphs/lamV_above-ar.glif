@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamVabove-ar" format="2">
-  <advance width="701"/>
+  <advance width="706"/>
   <unicode hex="06B5"/>
   <anchor x="293" y="928" name="alef"/>
   <anchor x="464" y="1774" name="diaA"/>
   <anchor x="221" y="-202" name="diaB"/>
   <outline>
     <component base="lam-ar"/>
-    <component base="vabove-ar" xOffset="323" yOffset="489"/>
+    <component base="_smallV" xOffset="531" yOffset="1568"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

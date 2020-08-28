@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sukun-ar.leftOpen" format="2">
-  <anchor x="0" y="968" name="_diaA"/>
+  <anchor x="0" y="967" name="_diaA"/>
   <anchor x="0" y="1283" name="diaA"/>
   <outline>
-    <component base="marksidewaysnoonghunna-ar" xOffset="-7"/>
+    <component base="marksidewaysnoonghunna-ar"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
