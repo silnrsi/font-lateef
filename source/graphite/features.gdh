@@ -208,10 +208,10 @@ easternDigits {
             value = 0;
             name.1033 = string("Standard");
         }
-//        rohingya {
-//            value = 4;
-//            name.1033 = string("Rohingya-style");
-//        }
+        rohingya {
+            value = 4;
+            name.1033 = string("Rohingya-style");
+        }
         sindhi {
             value = 1;
             name.1033 = string("Sindhi-style");
@@ -281,14 +281,14 @@ kurdish {
     hehAlt = kurdish;
 };
 
-//rohingya {
-//    languages = (
-//    	"rhg"	// Rohingya
-//    );
-//    easternDigits = rohingya;
-//    shaddaKasra = sindhiUrdu;
-//    dammatanAlt = sixNine;
-//};
+rohingya {
+    languages = (
+    	"rhg"	// Rohingya
+    );
+    easternDigits = rohingya;
+    shaddaKasra = lowered;
+    dammatanAlt = sixNine;
+};
 
 
 sindhi {

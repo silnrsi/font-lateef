@@ -74,11 +74,11 @@ pass(1)	{ Direction = LEFT_TO_RIGHT } // Encoding, [de-]composition, subtending 
 	// This is in a LTR pass because their category (AN) and the digits that follow are collected into
 	// a LTR sequence by the bidi algorithm.
 
-//	cSignTakes4 cDigitsAny cDigitsAny cDigitsAny cDigitsAny  >
-//		cSign4 cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
+	cSignTakes4 cDigitsAny cDigitsAny cDigitsAny cDigitsAny  >
+		cSign4 cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
 
-//	cSignTakes3Medium cDigitsAny cDigitsAny cDigitsAny  >
-//		cSign3Medium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
+	cSignTakes3Medium cDigitsAny cDigitsAny cDigitsAny  >
+		cSign3Medium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
 
 	cSignTakes3Small cDigitsAny cDigitsAny cDigitsAny  >
 		cSign3Small cDigitsAnySmall cDigitsAnySmall cDigitsAnySmall;
@@ -245,9 +245,9 @@ pass(4)	// Features, special behaviors
 	if (easternDigits == urdu)
 		cEasternDigit  >  cEasternDigitUrdu;
 	endif;
-// TODO:	if (easternDigits == rohingya)
-// TODO:		cEasternDigit  >  cEasternDigitRohingya;
-// TODO:	endif;
+	if (easternDigits == rohingya)
+		cEasternDigit  >  cEasternDigitRohingya;
+	endif;
 
 	if (commaAlt == down)
 		cno_downward  >  cdownward;
@@ -294,11 +294,11 @@ pass(1)
 	// so we attach the left-most (logically first) to the sign, and proceed to the right.
 
 
-//	cSignDigit=D4 { attach {to=@D3; at=digitRS; with=digitLS }; insert = true}
-//	cSignDigit=D3 { attach {to=@D2; at=digitRS; with=digitLS }; insert = true}
-//	cSignDigit=D2 { attach {to=@D1; at=digitRS; with=digitLS }; insert = true}
-//	cSignDigit=D1 { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
-//	cSign4=S;
+	cSignDigit=D4 { attach {to=@D3; at=digitRS; with=digitLS }; insert = true}
+	cSignDigit=D3 { attach {to=@D2; at=digitRS; with=digitLS }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitRS; with=digitLS }; insert = true}
+	cSignDigit=D1 { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
+	cSign4=S;
 
 	cSignDigit=D3 { attach {to=@D2; at=digitRS; with=digitLS }; insert = true}
 	cSignDigit=D2 { attach {to=@D1; at=digitRS; with=digitLS }; insert = true}
@@ -316,11 +316,11 @@ pass(1)
 	// However, there is a bug in some integrations (e.g., Firefox)
 	// such that the glyps are still in logical order:
 
-//	cSign4=S
-//	cSignDigit=D1 { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
-//	cSignDigit=D2 { attach {to=@D1; at=digitRS; with=digitLS }; insert = true}
-//	cSignDigit=D3 { attach {to=@D2; at=digitRS; with=digitLS }; insert = true}
-//	cSignDigit=D4 { attach {to=@D3; at=digitRS; with=digitLS }; insert = true};
+	cSign4=S
+	cSignDigit=D1 { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitRS; with=digitLS }; insert = true}
+	cSignDigit=D3 { attach {to=@D2; at=digitRS; with=digitLS }; insert = true}
+	cSignDigit=D4 { attach {to=@D3; at=digitRS; with=digitLS }; insert = true};
 
 	cSign3=S
 	cSignDigit=D1 { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
