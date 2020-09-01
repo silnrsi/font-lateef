@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="samvat-ar.2" format="2">
   <advance width="2709"/>
-  <anchor x="1085" y="450" name="digitR"/>
+  <anchor x="206" y="450" name="digitR"/>
   <outline>
     <contour>
       <point x="2669" y="873" type="curve"/>

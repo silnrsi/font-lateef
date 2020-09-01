@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="number-ar" format="2">
   <advance width="1123"/>
+  <anchor x="200" y="335" name="digitR"/>
   <unicode hex="0600"/>
   <outline>
     <contour>
