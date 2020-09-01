@@ -16,7 +16,7 @@
 #**********************************
 
 languagesystem arab dflt ;
-## languagesystem arab KUR  ;    # Kurdish
+languagesystem arab KUR  ;    # Kurdish
 languagesystem arab RHG  ;    # Rohingya -- supported by Harfbuzz
 languagesystem arab SND  ;    # Sindhi
 languagesystem arab URD  ;    # Urdu
