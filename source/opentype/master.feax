@@ -443,7 +443,7 @@ lookup UrduCALT {
 
 lookup MeemAlternate {
   lookupflag IgnoreMarks ;
-    sub @cno_sindhi by @c_sindhi;
+    sub @Meem by @Meem.sindhi;
 } MeemAlternate;
 
 #********************
