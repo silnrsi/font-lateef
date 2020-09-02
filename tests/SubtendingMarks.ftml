@@ -3,9 +3,10 @@
 <ftml version="1.0">
   <head>
     <fontscale>250</fontscale>
-    <fontsrc label="Har (inst)">local(Harmattan)</fontsrc>
+    <fontsrc label="Sch (inst)">local(Scheherazade)</fontsrc>
     <fontsrc label="Reg-Gr">url(../results/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)</fontsrc>
+    <fontsrc label="Bold-Gr">url(../results/Lateef-Bold.ttf)</fontsrc>
     <styles>
       <style feats="'cv80' 1" name="cv80_1"/>
       <style feats="'cv80' 1, 'cv82' 1" name="cv80_1_cv82_1"/>
@@ -38,7 +39,7 @@
       <style feats="'cv80' 2" lang="wo" name="wo_cv80_2"/>
     </styles>
     <title>Subtending Marks (auto)</title>
-    <widths string="25%"/>
+    <widths string="19%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
