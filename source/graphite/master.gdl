@@ -205,10 +205,6 @@ pass(4)	// Features, special behaviors
 		cShaddaKasraMarks=K  g_shadda_ar=S  >  _ cShaddaKasraLigatures$K:(S K) / _ ^ MARKS _ ;
 	endif;
 
-	if (UAlt == filled)
-		cU  >  cU_filled;
-	endif;
-
 	if (dammaAlt == filled)
 		cDamma > cDamma_filled;
 	endif;

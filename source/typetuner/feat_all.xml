@@ -2,7 +2,7 @@
 <!--
 	This file is part of Lateef font family 
 	(http://scripts.sil.org/Lateef) and is 
-	Copyright (c) 2014-2017 SIL International (http://www.sil.org/), 
+	Copyright (c) 2014-2020 SIL International (http://www.sil.org/), 
 	with Reserved Font Names "Lateef" and "SIL".
 
 	This Font Software is licensed under the SIL Open Font License, 
@@ -71,17 +71,6 @@
 		<value name="Urdu-style" tag="Urd">
 			<!-- cmd name="lookup_add" args="GSUB calt {UrduHeh}"/ -->	
 			<cmd name="gr_feat" args="{gr_cv48} 2"/>
-		</value>
-	</feature>
-
-	<feature name="Arabic U" value="Standard" tag="ArabicU">
-		<!-- see also the interactions section -->
-		<value name="Standard" tag="Std">
-			<cmd name="null" args="null"/>
-		</value>
-		<value name="Filled" tag="Fi">
-			<!-- cmd name="lookup_add" args="GSUB calt {ArabicUAlternates}"/ -->	
-			<cmd name="gr_feat" args="{gr_cv50} 1"/>
 		</value>
 	</feature>
 

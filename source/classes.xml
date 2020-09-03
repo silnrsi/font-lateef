@@ -413,19 +413,6 @@ of the license along with this Font Software. If this is not the case, go to
         meemDotabove-ar.sindhi.fina meemDotbelow-ar.sindhi.fina meemThreedotsabove-ar.sindhi.fina
     </class>
 
-    <!-- cv50 Arabic U -->
-    
-    <!-- *NEXT 2 CLASSES MUST MATCH* -->
-    
-    <class name='U'>
-        uHamzaabove-ar u-ar uHamzaabove-ar.fina u-ar.fina
-    </class>
-    
-    <class name='U_filled'>
-        uHamzaabove-ar.filled u-ar.filled uHamzaabove-ar.filled.fina u-ar.filled.fina
-    </class>
-
-
     <!-- cv62 Kasra positioning -->
     
     <!-- *NEXT 2 CLASSES MUST MATCH* -->

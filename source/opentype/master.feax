@@ -480,15 +480,6 @@ lookup HehAlternates {
     
 } HehAlternates;
 
-#********************
-# Arabic U alternate: cv50
-
-lookup UAlternate {
-  lookupflag 0 ;
-##    sub @U by @U_filled ;		#### TODO: Find out why this won't compile
-    sub u-ar by u-ar.filled;
-} UAlternate;
-
 
 #********************
 # Kasra Alternates: cv62
@@ -1021,22 +1012,6 @@ feature cv48 {  # Character Variant 48
         ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"  ; };
     } ;
 } cv48 ;
-
-feature cv50 {  # Character Variant 50
-    script arab;  # Arabic
-        lookup UAlternate;
-      # Force other languages to include Arabic script lookups
-      language KUR  ;
-      language RHG  ;
-      language SND  ;
-      language URD  ;
-#      language WLF  ;
-    cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Arabic U" ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
-    } ;
-} cv50 ;
 
 
 feature cv62 {  # Character Variant 62
