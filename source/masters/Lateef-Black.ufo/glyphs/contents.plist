@@ -2506,18 +2506,10 @@
   <string>u.glif</string>
   <key>u-ar</key>
   <string>u-ar.glif</string>
-  <key>u-ar.filled</key>
-  <string>u-ar.filled.glif</string>
-  <key>u-ar.filled.fina</key>
-  <string>u-ar.filled.fina.glif</string>
   <key>u-ar.fina</key>
   <string>u-ar.fina.glif</string>
   <key>uHamzaabove-ar</key>
   <string>uH_amzaabove-ar.glif</string>
-  <key>uHamzaabove-ar.filled</key>
-  <string>uH_amzaabove-ar.filled.glif</string>
-  <key>uHamzaabove-ar.filled.fina</key>
-  <string>uH_amzaabove-ar.filled.fina.glif</string>
   <key>uHamzaabove-ar.fina</key>
   <string>uH_amzaabove-ar.fina.glif</string>
   <key>uacute</key>

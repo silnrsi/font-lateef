@@ -7,7 +7,7 @@
   <anchor x="142" y="-425" name="diaB"/>
   <outline>
     <component base="waw-ar"/>
-    <component base="_damma" xOffset="414" yOffset="714"/>
+    <component base="_damma.filled" xOffset="414" yOffset="686"/>
   </outline>
   <lib>
     <dict>
@@ -27,7 +27,7 @@
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>_damma</string>
+          <string>_damma.filled</string>
         </dict>
       </array>
       <key>public.markColor</key>
