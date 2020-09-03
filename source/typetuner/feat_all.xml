@@ -22,7 +22,6 @@
 			<!-- cmd name="lookup_add" args="GSUB calt {KurdishHeh}"/ -->	
 			<cmd name="gr_feat" args="{gr_cv48} 3"/>
 		</value>
-		<!--
 		<value name="Rohingya" tag="Rhg">
 			<cmd name="encode" args="06F4 uni06F4.roh"/>
 			<cmd name="encode" args="06F6 uni06F6.urdu"/>
@@ -30,7 +29,6 @@
 			<cmd name="lookup_add" args="GSUB calt {DammatanAlternates}"/>
 			<cmd name="gr_feat" args="{gr_cv72} 1"/>
 		</value>
-		-->
 		<value name="Sindhi" tag="Sin">
 			<!-- cmd name="lookup_add" args="GSUB calt {SindhiCALT}"/ -->	
 			<cmd name="gr_feat" args="{gr_cv44} 1"/>
@@ -175,24 +173,6 @@
 		<value name="Downward" tag="Dn">					<!-- was "True", "T" -->
 			<cmd name="encode" args="060C uni060C.downward"/>
 			<cmd name="encode" args="061B uni061B.downward"/>
-		</value>
-	</feature>
-	
-	<feature name="Jeh hack" value="Standard" tag="Je">
-		<value name="Standard" tag="Std">
-			<cmd name="null" args="null"/>
-		</value>
-		<value name="Dot Hat" tag="DtHt">
-			<cmd name="encode" args="0698 uni08B2"/>
-		</value>
-	</feature>	
-
-	<feature name="Dotless head of khah hack" value="Standard" tag="Dhok">
-		<value name="Standard" tag="Std">
-			<cmd name="null" args="null"/>
-		</value>
-		<value name="Jazm" tag="Lt">
-			<cmd name="encode" args="06E1 uni08FF"/>
 		</value>
 	</feature>
 
