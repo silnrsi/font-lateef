@@ -283,9 +283,6 @@ of the license along with this Font Software. If this is not the case, go to
     <class name='ShaddaMarks'>
         fathatan-ar dammatan-ar fatha-ar damma-ar alefabove-ar
     </class>
-    <class name='ShaddaLigatureParts'>
-        cShaddaMarks kasratan-ar kasra-ar shadda-ar
-    </class>
 
     <!-- *NEXT 2 CLASSES MUST MATCH* -->
 
