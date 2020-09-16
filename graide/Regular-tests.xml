@@ -11,17 +11,33 @@
       <style lang="ur" name="fset356" />
       <style feats="cv60=0 cv62=0 cv02=0 cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0" name="fset381" />
       <style feats="cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv08=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" name="fset382" />
+      <style feats="cv44=0 cv48=0 cv50=0 cv62=0 cv70=0 cv72=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" name="fset391" />
+      <style feats="cv44=1" name="fset392" />
+      <style lang="sd" name="fset393" />
       <style feats="cv02=2" name="fset4" />
     </styles>
   </head>
   <testgroup label="main" />
-  <testgroup label="meem" />
+  <testgroup label="meem">
+    <test class="fset391" label="meem" rtl="True">
+      <string>م ممم</string>
+    </test>
+    <test class="fset392" label="meem cv44" rtl="True">
+      <string>م ممم</string>
+    </test>
+    <test class="fset393" label="meem sindhi" rtl="True">
+      <string>م ممم</string>
+    </test>
+  </testgroup>
   <testgroup label="subtending marks">
     <test class="fset2" label="ayah-ar 123">
       <string>۝۱۱۳</string>
     </test>
     <test class="fset356" label="ayah-ar 467">
       <string>۝۴۶۷</string>
+    </test>
+    <test class="fset391" label="0600 number-ar latin">
+      <string>ب؀م ؀2 ؀22 ؀222 ؀12</string>
     </test>
   </testgroup>
   <testgroup label="mark ligatures">
