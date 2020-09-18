@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam-ar.init.preAlef" format="2">
+  <advance width="384"/>
+  <anchor x="195" y="1164" name="above"/>
+  <anchor x="-13" y="814" name="alef"/>
+  <anchor x="123" y="-202" name="below"/>
+  <anchor x="84" y="1170" name="diaA"/>
+  <anchor x="125" y="-300" name="diaB"/>
+  <anchor x="-2" y="0" name="exit"/>
+  <anchor x="216" y="648" name="through"/>
+  <outline>
+    <contour>
+      <point x="173" y="886" type="line"/>
+      <point x="208" y="586"/>
+      <point x="221" y="341"/>
+      <point x="221" y="196" type="curve" smooth="yes"/>
+      <point x="221" y="76"/>
+      <point x="105" y="-122"/>
+      <point x="-161" y="-122" type="curve" smooth="yes"/>
+      <point x="-221" y="-122"/>
+      <point x="-292" y="-112"/>
+      <point x="-374" y="-90" type="curve"/>
+      <point x="-380" y="-103" type="line"/>
+      <point x="-260" y="-174"/>
+      <point x="-152" y="-207"/>
+      <point x="-61" y="-207" type="curve" smooth="yes"/>
+      <point x="141" y="-207"/>
+      <point x="282" y="-42"/>
+      <point x="282" y="247" type="curve" smooth="yes"/>
+      <point x="282" y="374"/>
+      <point x="268" y="701"/>
+      <point x="259" y="828" type="curve"/>
+    </contour>
+    <component base="_strokeHead" xOffset="-39" yOffset="777"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_strokeHead</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

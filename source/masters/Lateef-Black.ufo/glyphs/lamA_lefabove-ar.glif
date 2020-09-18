@@ -4,7 +4,7 @@
   <anchor x="0" y="970" name="_diaA"/>
   <anchor x="0" y="1681" name="diaA"/>
   <outline>
-    <component base="lam-ar.preAlef.init" xScale="0.54" yScale="0.54" yOffset="1110"/>
-    <component base="alef-ar.postLamIni.fina" xScale="0.54" yScale="0.54" xOffset="-310" yOffset="1110"/>
+    <component base="lam-ar.init.preAlef" xScale="0.54" yScale="0.54" yOffset="1110"/>
+    <component base="alef-ar.fina.postLamIni" xScale="0.54" yScale="0.54" xOffset="-310" yOffset="1110"/>
   </outline>
 </glyph>

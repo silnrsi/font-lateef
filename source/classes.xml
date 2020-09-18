@@ -179,13 +179,13 @@ of the license along with this Font Software. If this is not the case, go to
     </class>
 
     <class name='LamIniBeforeAlef'>
-        lam-ar.preAlef.init lamBar-ar.preAlef.init lamDotabove-ar.preAlef.init lamTahabove-ar.preAlef.init lamThreedotsabove-ar.preAlef.init
-        lamThreedotsbelow-ar.preAlef.init lamVabove-ar.preAlef.init
+        lam-ar.init.preAlef lamBar-ar.init.preAlef lamDotabove-ar.init.preAlef lamTahabove-ar.init.preAlef lamThreedotsabove-ar.init.preAlef
+        lamThreedotsbelow-ar.init.preAlef lamVabove-ar.init.preAlef
     </class>
 
     <class name='LamMedBeforeAlef'>
-        lam-ar.preAlef.medi lamBar-ar.preAlef.medi lamDotabove-ar.preAlef.medi lamTahabove-ar.preAlef.medi lamThreedotsabove-ar.preAlef.medi
-        lamThreedotsbelow-ar.preAlef.medi lamVabove-ar.preAlef.medi
+        lam-ar.medi.preAlef lamBar-ar.medi.preAlef lamDotabove-ar.medi.preAlef lamTahabove-ar.medi.preAlef lamThreedotsabove-ar.medi.preAlef
+        lamThreedotsbelow-ar.medi.preAlef lamVabove-ar.medi.preAlef
     </class>
 
     <!-- *NEXT 4 CLASSES MUST MATCH* -->
@@ -203,15 +203,15 @@ of the license along with this Font Software. If this is not the case, go to
     </class>
 
     <class name='AlefFinAfterLamIni'>
-        alef-ar.postLamIni.fina alefHamzaabove-ar.postLamIni.fina alefHamzabelow-ar.postLamIni.fina alefMadda-ar.postLamIni.fina
-        alefThreeabove-ar.postLamIni.fina alefTwoabove-ar.postLamIni.fina alefWasla-ar.postLamIni.fina alefWavyhamzaabove-ar.postLamIni.fina
-        alefWavyhamzabelow-ar.postLamIni.fina highhamzaAlef-ar.postLamIni.fina
+        alef-ar.fina.postLamIni alefHamzaabove-ar.fina.postLamIni alefHamzabelow-ar.fina.postLamIni alefMadda-ar.fina.postLamIni
+        alefThreeabove-ar.fina.postLamIni alefTwoabove-ar.fina.postLamIni alefWasla-ar.fina.postLamIni alefWavyhamzaabove-ar.fina.postLamIni
+        alefWavyhamzabelow-ar.fina.postLamIni highhamzaAlef-ar.fina.postLamIni
     </class>
 
     <class name='AlefFinAfterLamMed'>
-        alef-ar.postLamMed.fina alefHamzaabove-ar.postLamMed.fina alefHamzabelow-ar.postLamMed.fina alefMadda-ar.postLamMed.fina
-        alefThreeabove-ar.postLamMed.fina alefTwoabove-ar.postLamMed.fina alefWasla-ar.postLamMed.fina alefWavyhamzaabove-ar.postLamMed.fina
-        alefWavyhamzabelow-ar.postLamMed.fina highhamzaAlef-ar.postLamMed.fina
+        alef-ar.fina.postLamMed alefHamzaabove-ar.fina.postLamMed alefHamzabelow-ar.fina.postLamMed alefMadda-ar.fina.postLamMed
+        alefThreeabove-ar.fina.postLamMed alefTwoabove-ar.fina.postLamMed alefWasla-ar.fina.postLamMed alefWavyhamzaabove-ar.fina.postLamMed
+        alefWavyhamzabelow-ar.fina.postLamMed highhamzaAlef-ar.fina.postLamMed
     </class>
 
     <!-- ***** end of algorithmically-generated classes ***** -->
@@ -406,8 +406,8 @@ of the license along with this Font Software. If this is not the case, go to
     </class>
 
     <class name='Meem.sindhi'>
-        meem-ar.sindhi meemDotabove-ar.sindhi meemDotbelow-ar.sindhi meemThreedotsabove-ar.sindhi meem-ar.sindhi.fina
-        meemDotabove-ar.sindhi.fina meemDotbelow-ar.sindhi.fina meemThreedotsabove-ar.sindhi.fina
+        meem-ar.sindhi meemDotabove-ar.sindhi meemDotbelow-ar.sindhi meemThreedotsabove-ar.sindhi meem-ar.fina.sindhi
+        meemDotabove-ar.fina.sindhi meemDotbelow-ar.fina.sindhi meemThreedotsabove-ar.fina.sindhi
     </class>
 
     <!-- cv62 Kasra positioning -->
@@ -515,8 +515,8 @@ of the license along with this Font Software. If this is not the case, go to
         yehbarree-ar yehbarreeHamzaabove-ar
         noonDotbelow-ar.init noonTwodotsbelow-ar.init noonThreedotsabove-ar.init 
         fehThreedotsbelow-ar.init fehTwodotsbelow-ar.init 
-        heh-ar.hooked.init hehgoal-ar.init hehgoalHamzaabove-ar.init 
-        lamThreedotsbelow-ar lamThreedotsbelow-ar.init lamThreedotsbelow-ar.preAlef.init 
+        heh-ar.init.hooked hehgoal-ar.init hehgoalHamzaabove-ar.init 
+        lamThreedotsbelow-ar lamThreedotsbelow-ar.init lamThreedotsbelow-ar.init.preAlef 
     </class>
     
     <class name='KernRehWawLoosenMore'>
@@ -561,12 +561,12 @@ of the license along with this Font Software. If this is not the case, go to
         thal-ar thal-ar.loclWLF ddal-ar ddal-ar.loclWLF dahal-ar dahal-ar.loclWLF dul-ar dul-ar.loclWLF
         dalThreedotsdown-ar dalThreedotsdown-ar.loclWLF dalFourdots-ar
         dalFourdots-ar.loclWLF dalVinvertedabove-ar dalVinvertedabove-ar.loclWLF heh-ar heh-ar.init heh-ar.knotted
-        heh-ar.hooked.init hehgoal-ar hehgoalHamzaabove-ar tehMarbuta-ar hehHamzaabove-ar ae-ar
+        heh-ar.init.hooked hehgoal-ar hehgoalHamzaabove-ar tehMarbuta-ar hehHamzaabove-ar ae-ar
         tehMarbutagoal-ar hehDoachashmee-ar hehDoachashmee-ar.init hehVinvertedabove-ar hehVinvertedabove-ar.init lam-ar
-        lam-ar.init lam-ar.preAlef.init lamVabove-ar lamVabove-ar.init lamVabove-ar.preAlef.init
-        lamDotabove-ar lamDotabove-ar.init lamDotabove-ar.preAlef.init lamThreedotsabove-ar
-        lamThreedotsabove-ar.init lamThreedotsabove-ar.preAlef.init lamBar-ar lamBar-ar.init
-        lamBar-ar.preAlef.init meem-ar.init meem-ar.sindhi meemDotabove-ar.init meemDotabove-ar.sindhi
+        lam-ar.init lam-ar.init.preAlef lamVabove-ar lamVabove-ar.init lamVabove-ar.init.preAlef
+        lamDotabove-ar lamDotabove-ar.init lamDotabove-ar.init.preAlef lamThreedotsabove-ar
+        lamThreedotsabove-ar.init lamThreedotsabove-ar.init.preAlef lamBar-ar lamBar-ar.init
+        lamBar-ar.init.preAlef meem-ar.init meem-ar.sindhi meemDotabove-ar.init meemDotabove-ar.sindhi
         qaf-ar.init qafDotless-ar.init qafDotabove-ar.init qafThreedotsabove-ar.init
     </class>
 

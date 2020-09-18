@@ -181,25 +181,25 @@ lookup ltrInit {
 lookup AllahSubAlef {
   lookupflag 0;
   	sub alef-ar      by alef-ar.allah;
-  	sub alef-ar.fina by alef-ar.allah.fina;
+  	sub alef-ar.fina by alef-ar.fina.allah;
 } AllahSubAlef;
 
 lookup AllahSubLam1 {
   lookupflag 0;
-    sub lam-ar.init  by lam-ar.allah1.init;
-    sub lam-ar.medi  by lam-ar.allah1.medi;
+    sub lam-ar.init  by lam-ar.init.allah1;
+    sub lam-ar.medi  by lam-ar.medi.allah1;
 } AllahSubLam1;
 
 lookup AllahSubLam2Heh {
   lookupflag 0;
-    sub lam-ar.medi     by lam-ar.allah2.medi;
-    sub heh-ar.fina     by heh-ar.allah.fina;
-    sub hehgoal-ar.fina by hehgoal-ar.allah.fina;
+    sub lam-ar.medi     by lam-ar.medi.allah2;
+    sub heh-ar.fina     by heh-ar.fina.allah;
+    sub hehgoal-ar.fina by hehgoal-ar.fina.allah;
 } AllahSubLam2Heh;
 
 lookup AllahSubLam2AddMarks {
   lookupflag 0;
-    sub lam-ar.medi by lam-ar.allah2.medi shadda-ar alefabove-ar ;  # insert shadda-alef
+    sub lam-ar.medi by lam-ar.medi.allah2 shadda-ar alefabove-ar ;  # insert shadda-alef
 } AllahSubLam2AddMarks;
 
 lookup AllahLigatures {
@@ -396,7 +396,7 @@ lookup dfltCALT {
 
 lookup KurdishCALT {
   lookupflag 0 ;
-    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar.fina by heh-ar.fina.knottedHigh ;
     sub heh-ar by heh-ar.knotted ;
 } KurdishCALT;
 
@@ -450,19 +450,19 @@ lookup MeemAlternate {
 # Heh Alternates: TypeTuner lookups:
 
 lookup SindhiHeh {
-    sub heh-ar.medi by heh-ar.knottedHigh.medi ;
-    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar.medi by heh-ar.medi.knottedHigh ;
+    sub heh-ar.fina by heh-ar.fina.knottedHigh ;
     sub heh-ar by heh-ar.knotted ;
 } SindhiHeh;
 
 lookup UrduHeh {
-    sub heh-ar.init by heh-ar.hooked.init ;
-    sub heh-ar.medi by heh-ar.hooked.medi ;
-    sub heh-ar.fina by heh-ar.hooked.fina ;
+    sub heh-ar.init by heh-ar.init.hooked ;
+    sub heh-ar.medi by heh-ar.medi.hooked ;
+    sub heh-ar.fina by heh-ar.fina.hooked ;
 } UrduHeh;
 
 lookup KurdishHeh {
-    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar.fina by heh-ar.fina.knottedHigh ;
     sub heh-ar by heh-ar.knotted ;
 } KurdishHeh;
 
@@ -471,12 +471,12 @@ lookup KurdishHeh {
 lookup HehAlternates {
   lookupflag IgnoreMarks ;             # 1 = Sindhi-style        2 = Urdu-style     3 = Kurdish-style 
     sub heh-ar                  from   [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
-    sub heh-ar.init             from   [ heh-ar.init             heh-ar.hooked.init heh-ar.init             ] ;
-    sub heh-ar.medi             from   [ heh-ar.knottedHigh.medi heh-ar.hooked.medi heh-ar.medi             ] ;
-    sub heh-ar.fina             from   [ heh-ar.knottedHigh.fina heh-ar.hooked.fina heh-ar.knottedHigh.fina ] ;
+    sub heh-ar.init             from   [ heh-ar.init             heh-ar.init.hooked heh-ar.init             ] ;
+    sub heh-ar.medi             from   [ heh-ar.medi.knottedHigh heh-ar.medi.hooked heh-ar.medi             ] ;
+    sub heh-ar.fina             from   [ heh-ar.fina.knottedHigh heh-ar.fina.hooked heh-ar.fina.knottedHigh ] ;
     # In case Kurdish lang has been selected:
     sub heh-ar.knotted          from   [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
-    sub heh-ar.knottedHigh.fina from   [ heh-ar.knottedHigh.fina heh-ar.hooked.fina heh-ar.knottedHigh.fina ] ;
+    sub heh-ar.fina.knottedHigh from   [ heh-ar.fina.knottedHigh heh-ar.fina.hooked heh-ar.fina.knottedHigh ] ;
     
 } HehAlternates;
 
@@ -745,14 +745,14 @@ lookup mark_to_mark_below {
 # move MarksBelow slightly left on lam-alef when appropriate:
 ## lookup AlefMark2BelowAfterLam {
 ##   lookupflag UseMarkFilteringSet @MarksBelow ;
-##     pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @dia2B' lookup mark2_to_base @MarksBelow' ;
-##     pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
-##     pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksBelow' ;
-##     pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
+##     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup mark2_to_base @MarksBelow' ;
+##     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
+##     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksBelow' ;
+##     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
 ##     #pos @MarksBelow @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
-##     #pos lamThreedotsbelow-ar.preAlef.init @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+##     #pos lamThreedotsbelow-ar.init.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
 ##     # Unneeded in Harmattan design:
-##     #pos lamThreedotsbelow-ar.preAlef.medi @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+##     #pos lamThreedotsbelow-ar.medi.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
 ## } AlefMark2BelowAfterLam;
 
 

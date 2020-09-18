@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam-ar.init.allah1" format="2">
+  <outline>
+    <contour>
+      <point x="98" y="923" type="line"/>
+      <point x="131" y="589"/>
+      <point x="145" y="353"/>
+      <point x="145" y="250" type="curve" smooth="yes"/>
+      <point x="145" y="226"/>
+      <point x="144" y="209"/>
+      <point x="141" y="200" type="curve"/>
+      <point x="150" y="235" type="line"/>
+      <point x="138" y="190"/>
+      <point x="91" y="180"/>
+      <point x="0" y="180" type="curve" smooth="yes"/>
+      <point x="-31" y="180"/>
+      <point x="-46" y="137"/>
+      <point x="-46" y="90" type="curve" smooth="yes"/>
+      <point x="-46" y="43"/>
+      <point x="-31" y="0"/>
+      <point x="0" y="0" type="curve"/>
+      <point x="193" y="0"/>
+      <point x="212" y="157"/>
+      <point x="212" y="300" type="curve"/>
+      <point x="204" y="488"/>
+      <point x="197" y="676"/>
+      <point x="189" y="864" type="curve"/>
+    </contour>
+  </outline>
+</glyph>
