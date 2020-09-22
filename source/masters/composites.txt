@@ -646,8 +646,8 @@ yehFourbelow-farsi.init = behDotless-ar.init + _four@below
 # 2020-07-14 pm Following definitions to be removed from ABSGlyphList, then removed from here
 # yehKashmiri-ar = yeh-ar.noDots + _ring@ring
 # yehKashmiri-ar.fina = yeh-ar.noDots.fina + _ring@ring
-yehKashmiri-ar.medi = behDotless-ar.medi + _ring@below
-yehKashmiri-ar.init = behDotless-ar.init + _ring@below
+yehKashmiri-ar.medi = behDotless-ar.medi + _ring@below[with=_ring]
+yehKashmiri-ar.init = behDotless-ar.init + _ring@below[with=_ring]
 e-ar = yeh-ar.noDots + _dot2v@below | 06D0
 e-ar.fina = yeh-ar.noDots.fina + _dot2v@below
 e-ar.medi = behDotless-ar.medi + _dot2v@below
