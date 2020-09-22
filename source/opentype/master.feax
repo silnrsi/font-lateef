@@ -412,7 +412,7 @@ lookup SindhiCALT {
   lookupflag 0 ;
     sub six-persian by six-persian.urdu ;
     sub seven-persian by seven-persian.urdu ;
-    sub @Meem by @Meem.sindhi ;
+    sub @cno_sindhi by @c_sindhi ;
 } SindhiCALT;
 
 lookup UrduCALT {
@@ -432,7 +432,7 @@ lookup UrduCALT {
 # HB PAUSE
 
 #********************
-# for all remaining substitution features (salt, cvxx, liga):
+# all remaining substitution features (salt, cvxx, liga):
 #********************
 
 #********************
@@ -443,7 +443,7 @@ lookup UrduCALT {
 
 lookup MeemAlternate {
   lookupflag IgnoreMarks ;
-    sub @Meem by @Meem.sindhi;
+    sub @cno_sindhi by @c_sindhi;
 } MeemAlternate;
 
 #********************

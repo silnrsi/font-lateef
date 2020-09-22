@@ -185,7 +185,7 @@ pass(4)	// Features, special behaviors
 	// Features
 
 	if (meemAlt == sindhi)
-		cMeem  >  cMeem_sindhi;
+		cno_sindhi  >  csindhi;
 	endif;
 
 	if (hehAlt == kurdish)

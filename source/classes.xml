@@ -397,19 +397,6 @@ of the license along with this Font Software. If this is not the case, go to
     ===============================
     -->
 
-    <!-- cv44 Meem  -->
-    
-    <!-- *NEXT 2 CLASSES MUST MATCH* -->
-    <class name='Meem'>
-        meem-ar meemDotabove-ar meemDotbelow-ar meemThreedotsabove-ar meem-ar.fina meemDotabove-ar.fina meemDotbelow-ar.fina
-        meemThreedotsabove-ar.fina
-    </class>
-
-    <class name='Meem.sindhi'>
-        meem-ar.sindhi meemDotabove-ar.sindhi meemDotbelow-ar.sindhi meemThreedotsabove-ar.sindhi meem-ar.fina.sindhi
-        meemDotabove-ar.fina.sindhi meemDotbelow-ar.fina.sindhi meemThreedotsabove-ar.fina.sindhi
-    </class>
-
     <!-- cv62 Kasra positioning -->
     
     <!-- *NEXT 2 CLASSES MUST MATCH* -->
