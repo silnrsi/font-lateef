@@ -7,7 +7,7 @@
   <outline>
     <component base="noonghunna-ar.fina"/>
     <component base="_dot1" xOffset="385" yOffset="322"/>
-    <component base="_ring" xOffset="369" yOffset="-524"/>
+    <component base="_ring" xOffset="369" yOffset="-549"/>
   </outline>
   <lib>
     <dict>

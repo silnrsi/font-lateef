@@ -8,7 +8,7 @@
   <outline>
     <component base="noonghunna-ar"/>
     <component base="_dot1" xOffset="329" yOffset="457"/>
-    <component base="_ring" xOffset="361" yOffset="-418"/>
+    <component base="_ring" xOffset="361" yOffset="-460"/>
   </outline>
   <lib>
     <dict>
