@@ -4,6 +4,7 @@
 # 		-i .../font-arab-tools/absGlyphList/absGlyphList.csv \
 # 		composites.txt
 #
+# 2020-10-06 pm Replace all _hat references with _invSmallV
 # 2020-08-16 bh Add USVs based on glyph_data.csv
 # 2020-07-14 pm Edits for LSB on alefTwo, alefThree
 # 2020-06-29 pm delete all Latin composites
@@ -217,8 +218,8 @@ dalThreedotsdown-ar = dal-ar + _dot3d@above | 068F
 dalThreedotsdown-ar.fina = dal-ar.fina + _dot3d@above
 dalFourdots-ar = dal-ar + _dot4@above | 0690
 dalFourdots-ar.fina = dal-ar.fina + _dot4@above
-dalVinvertedabove-ar = dal-ar + _hat@above | 06EE
-dalVinvertedabove-ar.fina = dal-ar.fina + _hat@above
+dalVinvertedabove-ar = dal-ar + _invSmallV@above | 06EE
+dalVinvertedabove-ar.fina = dal-ar.fina + _invSmallV@above
 dalTwodotsverticalbelowTah-ar = dal-ar + _tah@above + _dot2v@dal-ar:below | 0759
 dalTwodotsverticalbelowTah-ar.fina = dal-ar.fina + _tah@above + _dot2v@dal-ar.fina:below
 dalVinvertedbelow-ar = dal-ar + _invSmallV@below | 075A
@@ -245,8 +246,8 @@ jeh-ar = reh-ar + _dot3u@above | 0698
 jeh-ar.fina = reh-ar.fina + _dot3u@above
 rehFourdots-ar = reh-ar + _dot4@above | 0699
 rehFourdots-ar.fina = reh-ar.fina + _dot4@above
-rehVinvertedabove-ar = reh-ar + _hat@above | 06EF
-rehVinvertedabove-ar.fina = reh-ar.fina + _hat@above
+rehVinvertedabove-ar = reh-ar + _invSmallV@above | 06EF
+rehVinvertedabove-ar.fina = reh-ar.fina + _invSmallV@above
 rehStroke-ar = reh-ar + _bar@through | 075B
 rehStroke-ar.fina = reh-ar.fina + _bar@through
 rehTwodotsverticalabove-ar = reh-ar + _dot2v@above | 076B
@@ -291,10 +292,10 @@ seenFourabove-ar = seen-ar + _four@above | 077D
 seenFourabove-ar.fina = seen-ar.fina + _four@above
 seenFourabove-ar.medi = seen-ar.medi + _four@above
 seenFourabove-ar.init = seen-ar.init + _four@above
-seenVinvertedabove-ar = seen-ar + _hat@above | 077E
-seenVinvertedabove-ar.fina = seen-ar.fina + _hat@above
-seenVinvertedabove-ar.medi = seen-ar.medi + _hat@above
-seenVinvertedabove-ar.init = seen-ar.init + _hat@above
+seenVinvertedabove-ar = seen-ar + _invSmallV@above | 077E
+seenVinvertedabove-ar.fina = seen-ar.fina + _invSmallV@above
+seenVinvertedabove-ar.medi = seen-ar.medi + _invSmallV@above
+seenVinvertedabove-ar.init = seen-ar.init + _invSmallV@above
 sadTwodotsbelow-ar = sad-ar + _dot2h@below | 069D
 sadTwodotsbelow-ar.fina = sad-ar.fina + _dot2h@below
 sadTwodotsbelow-ar.medi = sad-ar.medi + _dot2h@below
@@ -557,10 +558,10 @@ hehgoalHamzaabove-ar = ae-ar + _hamza@above | 06C2
 hehgoalHamzaabove-ar.fina = hehgoal-ar.fina + _hamza@above
 hehgoalHamzaabove-ar.medi = hehgoal-ar.medi + _hamza@above
 hehgoalHamzaabove-ar.init = hehgoal-ar.init + _hamza@above
-hehVinvertedabove-ar = hehDoachashmee-ar + _hat@above | 06FF
-hehVinvertedabove-ar.fina = heh-ar.fina.knottedHigh + _hat@above
-hehVinvertedabove-ar.medi = heh-ar.medi.knottedHigh + _hat@above
-hehVinvertedabove-ar.init = hehDoachashmee-ar.init + _hat@above
+hehVinvertedabove-ar = hehDoachashmee-ar + _invSmallV@above | 06FF
+hehVinvertedabove-ar.fina = heh-ar.fina.knottedHigh + _invSmallV@above
+hehVinvertedabove-ar.medi = heh-ar.medi.knottedHigh + _invSmallV@above
+hehVinvertedabove-ar.init = hehDoachashmee-ar.init + _invSmallV@above
 tehMarbuta-ar = ae-ar + _dot2h@above | 0629
 tehMarbuta-ar.fina = ae-ar.fina + _dot2h@above
 tehMarbutagoal-ar = ae-ar + _dot2h@above | 06C3
@@ -589,8 +590,8 @@ oe-ar = waw-ar + _smallV@above | 06C6
 oe-ar.fina = waw-ar.fina + _smallV@above
 yu-ar = waw-ar + _vline@above | 06C8
 yu-ar.fina = waw-ar.fina + _vline@above
-kirghizyu-ar = waw-ar + _hat@above | 06C9
-kirghizyu-ar.fina = waw-ar.fina + _hat@above
+kirghizyu-ar = waw-ar + _invSmallV@above | 06C9
+kirghizyu-ar.fina = waw-ar.fina + _invSmallV@above
 ve-ar = waw-ar + _dot3u@above | 06CB
 ve-ar.fina = waw-ar.fina + _dot3u@above
 alefMaksura-ar = yeh-ar.noDots | 0649
@@ -611,10 +612,10 @@ yehVabove-ar = yeh-ar.noDots + _smallV@above | 06CE
 yehVabove-ar.fina = yeh-ar.noDots.fina + _smallV@above
 yehVabove-ar.medi = behDotless-ar.medi + _smallV@above + _dot2h@behDotless-ar.medi:below
 yehVabove-ar.init = behDotless-ar.init + _smallV@above + _dot2h@behDotless-ar.init:below
-yehVinverted-farsi = yeh-ar.noDots + _hat@above | 063D
-yehVinverted-farsi.fina = yeh-ar.noDots.fina + _hat@above
-yehVinverted-farsi.medi = behDotless-ar.medi + _hat@above + _dot2h@behDotless-ar.medi:below
-yehVinverted-farsi.init = behDotless-ar.init + _hat@above + _dot2h@behDotless-ar.init:below
+yehVinverted-farsi = yeh-ar.noDots + _invSmallV@above | 063D
+yehVinverted-farsi.fina = yeh-ar.noDots.fina + _invSmallV@above
+yehVinverted-farsi.medi = behDotless-ar.medi + _invSmallV@above + _dot2h@behDotless-ar.medi:below
+yehVinverted-farsi.init = behDotless-ar.init + _invSmallV@above + _dot2h@behDotless-ar.init:below
 yeh-farsi = yeh-ar.noDots | 06CC
 yeh-farsi.fina = yeh-ar.noDots.fina
 yeh-farsi.medi = behDotless-ar.medi + _dot2h@below

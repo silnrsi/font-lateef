@@ -49,6 +49,12 @@
     <string>/_ring/space/behDotless-ar/tehRing-ar/behDotless-ar.fina/tehRing-ar.fina/behDotless-ar.medi/tehRing-ar.medi/behDotless-ar.init/tehRing-ar.init/dal-ar/dalRing-ar/dal-ar.fina/dalRing-ar.fina/reh-ar/rehRing-ar/reh-ar.fina/rehRing-ar.fina 
 /keheh-ar/gafRing-ar/gafRing-ar.fina/gafRing-ar.medi/gafRing-ar.init/kafRing-ar/kafRing-ar.fina/kafRing-ar.medi/kafRing-ar.init 
 /noonghunna-ar/noonRing-ar/noonghunna-ar.fina/noonRing-ar.fina/behDotless-ar.medi/noonRing-ar.medi/behDotless-ar.init/noonRing-ar.init/waw-ar/wawring-ar/waw-ar.fina/wawring-ar.fina/space</string>
+    <string>/space/dalVinvertedabove-ar/dalVinvertedabove-ar.fina/rehVinvertedabove-ar/rehVinvertedabove-ar.fina/seenVinvertedabove-ar/seenVinvertedabove-ar.fina/seenVinvertedabove-ar.medi/seenVinvertedabove-ar.init 
+/space/hehVinvertedabove-ar/hehVinvertedabove-ar.fina/hehVinvertedabove-ar.medi/hehVinvertedabove-ar.init/kirghizyu-ar/kirghizyu-ar.fina/yehVinverted-farsi/yehVinverted-farsi.fina/yehVinverted-farsi.medi/yehVinverted-farsi.init 
+/_invSmallV/space/behVinvertedbelow-ar/behVinvertedbelow-ar.fina/behVinvertedbelow-ar.medi/behVinvertedbelow-ar.init/dalVinvertedbelow-ar/dalVinvertedbelow-ar.fina/space 
+/_smallV/space/pehVabove-ar/pehVabove-ar.fina/pehVabove-ar.medi/pehVabove-ar.init/behVabove-ar/behVabove-ar.fina/behVabove-ar.medi/behVabove-ar.init/tchehVabove-ar/tchehVabove-ar.fina/tchehVabove-ar.medi/tchehVabove-ar.init 
+/space/space/rehv-ar/rehv-ar.fina/rehVbelow-ar/rehVbelow-ar.fina/kehehVabove-ar/kehehVabove-ar.fina/kehehVabove-ar.medi/kehehVabove-ar.init/lamVabove-ar/lamVabove-ar.fina/lamVabove-ar.medi/lamVabove-ar.init/lamVabove-ar.medi.preAlef/lamVabove-ar.init.preAlef/oe-ar/oe-ar.fina/yehVabove-ar/yehVabove-ar.fina/yehVabove-ar.medi/yehVabove-ar.init/_invSmallV/space 
+/space/space/vabove-ar/space/space/vinvertedabove-ar/space/space/space/_dot1_hat/space/space/zainVinvertedabove-ar/space/zainVinvertedabove-ar.fina/space/space/seven-ar/eight-ar/space/space/_smallV/space/space/_invSmallV/space/yehVinverted-farsi</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2930</integer>
