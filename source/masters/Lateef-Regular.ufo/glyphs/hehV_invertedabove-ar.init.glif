@@ -6,7 +6,7 @@
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="hehDoachashmee-ar.init"/>
-    <component base="_hat" xOffset="242" yOffset="757"/>
+    <component base="_invSmallV" xOffset="242" yOffset="925"/>
   </outline>
   <lib>
     <dict>
