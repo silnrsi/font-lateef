@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehThreedotsdown-ar" format="2">
-  <advance width="1212"/>
+  <advance width="1204"/>
   <unicode hex="067D"/>
   <anchor x="284" y="900" name="alef"/>
   <anchor x="577" y="1029" name="diaA"/>

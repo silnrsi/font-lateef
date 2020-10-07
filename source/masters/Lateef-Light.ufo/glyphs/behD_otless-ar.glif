@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behDotless-ar" format="2">
-  <advance width="1212"/>
+  <advance width="1204"/>
   <unicode hex="066E"/>
-  <anchor x="616" y="401" name="above"/>
+  <anchor x="616" y="381" name="above"/>
   <anchor x="272" y="690" name="alef"/>
   <anchor x="604" y="-68" name="below"/>
-  <anchor x="604" y="700" name="diaA"/>
+  <anchor x="600" y="700" name="diaA"/>
   <anchor x="261" y="-235" name="diaB"/>
   <anchor x="568" y="50" name="ring"/>
   <outline>
@@ -19,20 +19,20 @@
       <point x="174" y="-15"/>
       <point x="493" y="-15" type="curve" smooth="yes"/>
       <point x="787" y="-15"/>
-      <point x="1084" y="79"/>
-      <point x="1128" y="193" type="curve" smooth="yes"/>
-      <point x="1152" y="256"/>
-      <point x="1166" y="315"/>
-      <point x="1166" y="369" type="curve" smooth="yes"/>
-      <point x="1166" y="444"/>
-      <point x="1140" y="510"/>
-      <point x="1079" y="565" type="curve"/>
-      <point x="1033" y="443" type="line"/>
-      <point x="1093" y="388"/>
-      <point x="1108" y="303"/>
-      <point x="1090" y="216" type="curve"/>
-      <point x="1099" y="233" type="line"/>
-      <point x="999" y="145"/>
+      <point x="1082" y="79"/>
+      <point x="1126" y="193" type="curve" smooth="yes"/>
+      <point x="1150" y="256"/>
+      <point x="1164" y="315"/>
+      <point x="1164" y="369" type="curve" smooth="yes"/>
+      <point x="1164" y="444"/>
+      <point x="1138" y="510"/>
+      <point x="1077" y="565" type="curve"/>
+      <point x="1031" y="443" type="line"/>
+      <point x="1091" y="388"/>
+      <point x="1106" y="303"/>
+      <point x="1088" y="216" type="curve"/>
+      <point x="1097" y="233" type="line"/>
+      <point x="997" y="145"/>
       <point x="783" y="95"/>
       <point x="557" y="95" type="curve" smooth="yes"/>
       <point x="267" y="95"/>

@@ -2,7 +2,7 @@
 <glyph name="waw-ar" format="2">
   <advance width="569"/>
   <unicode hex="0648"/>
-  <anchor x="396" y="541" name="above"/>
+  <anchor x="396" y="403" name="above"/>
   <anchor x="95" y="694" name="alef"/>
   <anchor x="396" y="-311" name="below"/>
   <anchor x="313" y="697" name="diaA"/>

@@ -2,10 +2,10 @@
 <glyph name="behDotless-ar" format="2">
   <advance width="1204"/>
   <unicode hex="066E"/>
-  <anchor x="616" y="401" name="above"/>
+  <anchor x="616" y="441" name="above"/>
   <anchor x="272" y="690" name="alef"/>
   <anchor x="604" y="-68" name="below"/>
-  <anchor x="604" y="700" name="diaA"/>
+  <anchor x="600" y="700" name="diaA"/>
   <anchor x="261" y="-235" name="diaB"/>
   <anchor x="568" y="87" name="ring"/>
   <outline>

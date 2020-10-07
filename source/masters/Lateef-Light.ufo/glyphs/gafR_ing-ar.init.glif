@@ -6,7 +6,7 @@
   <outline>
     <component base="kaf-ar.init"/>
     <component base="_gafBarShort" xOffset="-23" yOffset="848"/>
-    <component base="_ring" xOffset="407" yOffset="778"/>
+    <component base="_ring" xOffset="478" yOffset="778"/>
   </outline>
   <lib>
     <dict>

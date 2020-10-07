@@ -11,4 +11,10 @@
     <component base="keheh-ar"/>
     <component base="_kehehjoiner" xOffset="878"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

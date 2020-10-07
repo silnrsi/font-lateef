@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehThreedotsbelow-ar.init" format="2">
-  <advance width="351"/>
+  <advance width="353"/>
   <anchor x="105" y="700" name="diaA"/>
   <anchor x="166" y="-652" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_dot3d" xOffset="199" yOffset="-336"/>
+    <component base="_dot3d" xOffset="201" yOffset="-337"/>
   </outline>
   <lib>
     <dict>

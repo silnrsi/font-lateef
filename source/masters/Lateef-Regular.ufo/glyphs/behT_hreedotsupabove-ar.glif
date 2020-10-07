@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behThreedotsupabove-ar" format="2">
-  <advance width="1212"/>
+  <advance width="1204"/>
   <unicode hex="0751"/>
   <anchor x="280" y="690" name="alef"/>
   <anchor x="573" y="968" name="diaA"/>

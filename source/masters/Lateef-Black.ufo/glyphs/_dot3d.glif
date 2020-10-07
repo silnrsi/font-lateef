@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dot3d" format="2">
   <anchor x="0" y="-286" name="_above"/>
-  <anchor x="0" y="286" name="_below"/>
+  <anchor x="0" y="287" name="_below"/>
   <anchor x="0" y="0" name="_center"/>
   <outline>
     <component base="_dot1" yOffset="-114"/>
     <component base="_dot2h" yOffset="113"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

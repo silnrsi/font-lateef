@@ -2,11 +2,11 @@
 <glyph name="hehDoachashmee-ar" format="2">
   <advance width="827"/>
   <unicode hex="06BE"/>
-  <anchor x="262" y="-43" name="above"/>
-  <anchor x="108" y="-12" name="alef"/>
-  <anchor x="262" y="-850" name="below"/>
-  <anchor x="255" y="91" name="diaA"/>
-  <anchor x="222" y="-1002" name="diaB"/>
+  <anchor x="352" y="759" name="above"/>
+  <anchor x="40" y="790" name="alef"/>
+  <anchor x="194" y="-48" name="below"/>
+  <anchor x="327" y="824" name="diaA"/>
+  <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <contour>
       <point x="413" y="779" type="curve"/>
@@ -52,4 +52,10 @@
       <point x="745" y="587"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

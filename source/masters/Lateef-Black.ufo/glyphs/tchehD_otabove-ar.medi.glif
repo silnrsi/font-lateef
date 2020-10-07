@@ -7,7 +7,7 @@
   <outline>
     <component base="hah-ar.medi"/>
     <component base="_dot1" xOffset="486" yOffset="748"/>
-    <component base="_dot3d" xOffset="443" yOffset="-274"/>
+    <component base="_dot3d" xOffset="443" yOffset="-275"/>
   </outline>
   <lib>
     <dict>

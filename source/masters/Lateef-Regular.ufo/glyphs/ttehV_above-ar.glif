@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ttehVabove-ar" format="2">
-  <advance width="1212"/>
+  <advance width="1204"/>
   <unicode hex="08C0"/>
   <anchor x="272" y="690" name="alef"/>
   <anchor x="600" y="700" name="diaA"/>

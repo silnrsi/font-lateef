@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pehVabove-ar" format="2">
-  <advance width="1212"/>
+  <advance width="1204"/>
   <unicode hex="08BE"/>
   <anchor x="272" y="690" name="alef"/>
   <anchor x="600" y="700" name="diaA"/>
@@ -8,7 +8,7 @@
   <outline>
     <component base="behDotless-ar"/>
     <component base="_smallV" xOffset="616" yOffset="569"/>
-    <component base="_dot3d" xOffset="604" yOffset="-354"/>
+    <component base="_dot3d" xOffset="604" yOffset="-314"/>
   </outline>
   <lib>
     <dict>

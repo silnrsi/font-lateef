@@ -7,7 +7,7 @@
   <outline>
     <component base="keheh-ar.fina"/>
     <component base="_gafBar" xOffset="610" yOffset="835"/>
-    <component base="_ring" xOffset="1078" yOffset="741"/>
+    <component base="_ring" xOffset="1122" yOffset="721"/>
   </outline>
   <lib>
     <dict>
