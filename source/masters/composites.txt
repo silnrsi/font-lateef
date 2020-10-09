@@ -185,8 +185,8 @@ hahTahbelow-ar = hah-ar + _tah@center | 076E
 hahTahbelow-ar.fina = hah-ar.fina + _tah@center
 hahTahbelow-ar.medi = hah-ar.medi + _tah@below
 hahTahbelow-ar.init = hah-ar.init + _tah@below
-hahTahTwodotshorizontalbelow-ar = hah-ar + _dot2h_tah@center | 076F
-# 2020-08-21 pm _dot2h_tah_small needed to fit into counter:
+# 2020-10-09 pm _dot2h_tah_small needed to fit into counter of isolate and final:
+hahTahTwodotshorizontalbelow-ar = hah-ar + _dot2h_tah_small@center | 076F
 hahTahTwodotshorizontalbelow-ar.fina = hah-ar.fina + _dot2h_tah_small@center
 hahTahTwodotshorizontalbelow-ar.medi = hah-ar.medi + _dot2h_tah@below
 hahTahTwodotshorizontalbelow-ar.init = hah-ar.init + _dot2h_tah@below
