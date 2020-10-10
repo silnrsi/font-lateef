@@ -26,7 +26,7 @@ generated = 'generated/'
 #   --autohint - autohint the font
 #   --rename   - include glyph rename step   ## ToDo:  change to --norename when we're far enough along
 #   --regOnly  - build just Lateef-Regular
-opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--regOnly'})
+opts = preprocess_args({'opt': '--autohint'}, {'opt': '--rename'}, {'opt': '--regOnly'})
 
 cmds = [ ]
 if '--rename' in opts: ## ToDo:  change to --norename when we're far enough along
@@ -51,6 +51,7 @@ designspace(dspace_file,
         ),
 
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
+         mapfile = generated + '${DS:FILENAME_BASE}.map',
          master = 'source/opentype/master.feax',
          make_params = omitaps,
          params = '-m ' + generated + '${DS:FILENAME_BASE}.map',
@@ -58,7 +59,7 @@ designspace(dspace_file,
     script = 'arab', 
     pdf = fret(params='-r -oi'),
     woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m "../source/' + FAMILY + '-WOFF-metadata.xml"'),
-##    typetuner = typetuner('source/typetuner/feat_all.xml'),
+    typetuner = typetuner('source/typetuner/feat_all.xml'),
     )
 
 def configure(ctx):
