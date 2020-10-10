@@ -34,9 +34,6 @@
       <style lang="ur" name="ur"/>
       <style feats="'cv80' 1" lang="ur" name="ur_cv80_1"/>
       <style feats="'cv80' 2" lang="ur" name="ur_cv80_2"/>
-      <style lang="wo" name="wo"/>
-      <style feats="'cv80' 1" lang="wo" name="wo_cv80_1"/>
-      <style feats="'cv80' 2" lang="wo" name="wo_cv80_2"/>
     </styles>
     <title>Subtending Marks (auto)</title>
     <widths string="19%"/>
@@ -260,18 +257,6 @@
       <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06DD urdu" stylename="rhg_cv80_2">
-      <comment>4 6 7</comment>
-      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
-    </test>
-    <test label="U+06DD urdu" stylename="wo">
-      <comment>4 6 7</comment>
-      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
-    </test>
-    <test label="U+06DD urdu" stylename="wo_cv80_1">
-      <comment>4 6 7</comment>
-      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
-    </test>
-    <test label="U+06DD urdu" stylename="wo_cv80_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
     </test>
