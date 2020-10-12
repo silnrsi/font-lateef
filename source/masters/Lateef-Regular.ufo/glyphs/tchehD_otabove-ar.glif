@@ -8,7 +8,7 @@
   <outline>
     <component base="hah-ar"/>
     <component base="_dot1" xOffset="486" yOffset="793"/>
-    <component base="_dot3d" xOffset="489" yOffset="-79"/>
+    <component base="_dot3d" xOffset="489" yOffset="-89"/>
   </outline>
   <lib>
     <dict>

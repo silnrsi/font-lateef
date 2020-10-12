@@ -3,7 +3,7 @@
   <advance width="440"/>
   <anchor x="212" y="386" name="above"/>
   <anchor x="52" y="599" name="alef"/>
-  <anchor x="203" y="-50" name="below"/>
+  <anchor x="203" y="-70" name="below"/>
   <anchor x="215" y="700" name="diaA"/>
   <anchor x="190" y="-200" name="diaB"/>
   <anchor x="205" y="136" name="ring"/>

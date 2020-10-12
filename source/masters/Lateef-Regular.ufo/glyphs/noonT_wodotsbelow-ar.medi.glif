@@ -7,7 +7,7 @@
   <outline>
     <component base="behDotless-ar.medi"/>
     <component base="_dot1" xOffset="212" yOffset="566"/>
-    <component base="_dot2h" xOffset="203" yOffset="-230"/>
+    <component base="_dot2h" xOffset="203" yOffset="-250"/>
   </outline>
   <lib>
     <dict>

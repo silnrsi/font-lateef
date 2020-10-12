@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dot2h_tah_small" format="2">
   <anchor x="0" y="-140" name="_above"/>
-  <anchor x="0" y="616" name="_below"/>
+  <anchor x="0" y="606" name="_below"/>
   <anchor x="0" y="222" name="_center"/>
   <outline>
-    <component base="_tah_small" yOffset="219"/>
     <component base="_dot2h_small" yOffset="20"/>
+    <component base="_tah_small" yOffset="219"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

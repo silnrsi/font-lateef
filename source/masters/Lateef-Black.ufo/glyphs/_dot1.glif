@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dot1" format="2">
-  <anchor x="0" y="-135" name="_above"/>
-  <anchor x="0" y="135" name="_below"/>
+  <anchor x="0" y="-180" name="_above"/>
+  <anchor x="0" y="180" name="_below"/>
   <anchor x="0" y="0" name="_center"/>
   <outline>
     <contour>
@@ -15,4 +15,10 @@
       <point x="54" y="96"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -6,7 +6,7 @@
   <anchor x="150" y="-202" name="diaB"/>
   <outline>
     <component base="lam-ar.init"/>
-    <component base="_dot1" xOffset="175" yOffset="1317"/>
+    <component base="_dot1" xOffset="175" yOffset="1339"/>
   </outline>
   <lib>
     <dict>

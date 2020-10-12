@@ -6,7 +6,7 @@
   <anchor x="232" y="-502" name="diaB"/>
   <outline>
     <component base="noonghunna-ar.fina"/>
-    <component base="_dot1" xOffset="385" yOffset="322"/>
+    <component base="_dot1" xOffset="385" yOffset="367"/>
   </outline>
   <lib>
     <dict>

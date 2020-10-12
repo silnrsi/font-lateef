@@ -6,7 +6,7 @@
   <anchor x="300" y="-202" name="diaB"/>
   <outline>
     <component base="sad-ar.init"/>
-    <component base="_dot1" xOffset="548" yOffset="619"/>
+    <component base="_dot1" xOffset="548" yOffset="641"/>
   </outline>
   <lib>
     <dict>

@@ -6,7 +6,7 @@
   <outline>
     <component base="behDotless-ar.init"/>
     <component base="_three" xOffset="181" yOffset="587"/>
-    <component base="_dot2h" xOffset="201" yOffset="-230"/>
+    <component base="_dot2h" xOffset="199" yOffset="-250"/>
   </outline>
   <lib>
     <dict>

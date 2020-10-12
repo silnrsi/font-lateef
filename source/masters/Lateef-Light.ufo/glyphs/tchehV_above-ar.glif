@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tchehVabove-ar" format="2">
-  <advance width="841"/>
+  <advance width="832"/>
   <unicode hex="08C1"/>
   <anchor x="223" y="742" name="alef"/>
   <anchor x="478" y="745" name="diaA"/>
@@ -8,7 +8,7 @@
   <outline>
     <component base="hah-ar"/>
     <component base="_smallV" xOffset="495" yOffset="781"/>
-    <component base="_dot3d" xOffset="498" yOffset="-79"/>
+    <component base="_dot3d" xOffset="498" yOffset="-89"/>
   </outline>
   <lib>
     <dict>

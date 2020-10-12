@@ -7,7 +7,7 @@
   <outline>
     <component base="dal-ar.fina"/>
     <component base="_tah" xOffset="349" yOffset="984"/>
-    <component base="_dot2v" xOffset="244" yOffset="-348"/>
+    <component base="_dot2v" xOffset="249" yOffset="-375"/>
   </outline>
   <lib>
     <dict>

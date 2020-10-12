@@ -8,7 +8,7 @@
   <outline>
     <component base="seen-ar"/>
     <component base="_dot3u" xOffset="965" yOffset="745"/>
-    <component base="_dot3d" xOffset="1034" yOffset="-283"/>
+    <component base="_dot3d" xOffset="1034" yOffset="-350"/>
   </outline>
   <lib>
     <dict>

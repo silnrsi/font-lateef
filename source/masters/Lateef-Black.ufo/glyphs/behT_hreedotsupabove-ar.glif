@@ -8,7 +8,7 @@
   <outline>
     <component base="behDotless-ar"/>
     <component base="_dot3u" xOffset="616" yOffset="727"/>
-    <component base="_dot1" xOffset="604" yOffset="-203"/>
+    <component base="_dot1" xOffset="604" yOffset="-250"/>
   </outline>
   <lib>
     <dict>

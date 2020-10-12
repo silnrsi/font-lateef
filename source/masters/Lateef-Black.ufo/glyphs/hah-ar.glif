@@ -2,26 +2,26 @@
 <glyph name="hah-ar" format="2">
   <advance width="832"/>
   <unicode hex="062D"/>
-  <anchor x="486" y="613" name="above"/>
+  <anchor x="486" y="745" name="above"/>
   <anchor x="214" y="742" name="alef"/>
-  <anchor x="489" y="-79" name="center"/>
+  <anchor x="489" y="-99" name="center"/>
   <anchor x="469" y="745" name="diaA"/>
-  <anchor x="174" y="-724" name="diaB"/>
+  <anchor x="202" y="-764" name="diaB"/>
   <outline>
     <contour>
-      <point x="586" y="-699" type="curve"/>
-      <point x="943" y="-443" type="line"/>
-      <point x="943" y="-420" type="line"/>
-      <point x="650" y="-420" type="line" smooth="yes"/>
-      <point x="388" y="-420"/>
+      <point x="586" y="-739" type="curve"/>
+      <point x="943" y="-483" type="line"/>
+      <point x="943" y="-460" type="line"/>
+      <point x="650" y="-460" type="line" smooth="yes"/>
+      <point x="308" y="-460"/>
       <point x="116" y="-374"/>
       <point x="116" y="-120" type="curve" smooth="yes"/>
       <point x="116" y="153"/>
-      <point x="383" y="305"/>
-      <point x="657" y="305" type="curve" smooth="yes"/>
-      <point x="679" y="305"/>
-      <point x="701" y="304"/>
-      <point x="723" y="301" type="curve"/>
+      <point x="383" y="320"/>
+      <point x="657" y="320" type="curve" smooth="yes"/>
+      <point x="679" y="320"/>
+      <point x="701" y="319"/>
+      <point x="723" y="316" type="curve"/>
       <point x="838" y="581" type="line"/>
       <point x="793" y="577"/>
       <point x="748" y="575"/>
@@ -44,7 +44,13 @@
       <point x="40" y="51"/>
       <point x="40" y="-152" type="curve" smooth="yes"/>
       <point x="40" y="-467"/>
-      <point x="242" y="-699"/>
+      <point x="242" y="-739"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -4,7 +4,13 @@
   <anchor x="0" y="286" name="_below"/>
   <anchor x="0" y="0" name="_center"/>
   <outline>
-    <component base="_dot2h" xOffset="-2" yOffset="66"/>
-    <component base="_dot2h" xOffset="-2" yOffset="-103"/>
+    <component base="_dot2h" xOffset="-2" yOffset="76"/>
+    <component base="_dot2h" xOffset="-2" yOffset="-93"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
