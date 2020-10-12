@@ -2,10 +2,10 @@
 <glyph name="reh-ar" format="2">
   <advance width="545"/>
   <unicode hex="0631"/>
-  <anchor x="416" y="436" name="above"/>
+  <anchor x="376" y="521" name="above"/>
   <anchor x="162" y="698" name="alef"/>
   <anchor x="412" y="-326" name="below"/>
-  <anchor x="198" y="99" name="center"/>
+  <anchor x="198" y="49" name="center"/>
   <anchor x="320" y="697" name="diaA"/>
   <anchor x="207" y="-460" name="diaB"/>
   <anchor x="396" y="-245" name="ring"/>
@@ -34,4 +34,10 @@
       <point x="-108" y="-233" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -3,7 +3,7 @@
   <advance width="1175"/>
   <anchor x="579" y="383" name="above"/>
   <anchor x="264" y="698" name="alef"/>
-  <anchor x="498" y="-87" name="below"/>
+  <anchor x="498" y="-70" name="below"/>
   <anchor x="600" y="700" name="diaA"/>
   <anchor x="260" y="-200" name="diaB"/>
   <anchor x="540" y="86" name="ring"/>
@@ -44,4 +44,10 @@
       <point x="1042" y="450" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

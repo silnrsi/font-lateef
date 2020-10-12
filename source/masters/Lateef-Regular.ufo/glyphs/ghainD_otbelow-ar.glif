@@ -7,7 +7,7 @@
   <outline>
     <component base="ain-ar"/>
     <component base="_dot1" xOffset="269" yOffset="852"/>
-    <component base="_dot1" xOffset="435" yOffset="-184"/>
+    <component base="_dot1" xOffset="435" yOffset="-193"/>
   </outline>
   <lib>
     <dict>

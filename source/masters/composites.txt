@@ -340,8 +340,9 @@ ghain-ar = ain-ar + _dot1@above | 063A
 ghain-ar.fina = ain-ar.fina + _dot1@above
 ghain-ar.medi = ain-ar.medi + _dot1@above
 ghain-ar.init = ain-ar.init + _dot1@above
-ghainDotbelow-ar = ain-ar + _dot1@above + _dot1@ain-ar:below | 06FC
-ghainDotbelow-ar.fina = ain-ar.fina + _dot1@above + _dot1@ain-ar.fina:below
+# 2020-10-12 pm Changed `below` to `center` for better positioning of nukta in bowl forms
+ghainDotbelow-ar = ain-ar + _dot1@above + _dot1@ain-ar:center | 06FC
+ghainDotbelow-ar.fina = ain-ar.fina + _dot1@above + _dot1@ain-ar.fina:center
 ghainDotbelow-ar.medi = ain-ar.medi + _dot1@above + _dot1@ain-ar.medi:below
 ghainDotbelow-ar.init = ain-ar.init + _dot1@above + _dot1@ain-ar.init:below
 feh-ar = fehDotless-ar + _dot1@above | 0641

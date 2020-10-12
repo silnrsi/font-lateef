@@ -6,7 +6,7 @@
   <outline>
     <component base="ain-ar.fina"/>
     <component base="_dot1" xOffset="363" yOffset="747"/>
-    <component base="_dot1" xOffset="388" yOffset="-184"/>
+    <component base="_dot1" xOffset="381" yOffset="-214"/>
   </outline>
   <lib>
     <dict>

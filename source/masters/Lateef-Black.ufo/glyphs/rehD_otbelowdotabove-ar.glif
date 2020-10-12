@@ -8,7 +8,7 @@
   <outline>
     <component base="reh-ar"/>
     <component base="_dot1" xOffset="412" yOffset="-506"/>
-    <component base="_dot1" xOffset="198" yOffset="99"/>
+    <component base="_dot1" xOffset="198" yOffset="49"/>
   </outline>
   <lib>
     <dict>
