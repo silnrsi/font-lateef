@@ -6,7 +6,7 @@
   <anchor x="300" y="-202" name="diaB"/>
   <outline>
     <component base="seen-ar.init"/>
-    <component base="_four" xOffset="486" yOffset="1309"/>
+    <component base="_four" xOffset="486" yOffset="1373"/>
   </outline>
   <lib>
     <dict>
