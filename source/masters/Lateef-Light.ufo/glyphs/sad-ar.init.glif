@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sad-ar.init" format="2">
-  <advance width="1173"/>
-  <anchor x="548" y="461" name="above"/>
+  <advance width="1114"/>
+  <anchor x="536" y="456" name="above"/>
   <anchor x="125" y="595" name="alef"/>
-  <anchor x="548" y="-75" name="below"/>
+  <anchor x="536" y="-70" name="below"/>
   <anchor x="519" y="700" name="diaA"/>
-  <anchor x="300" y="-202" name="diaB"/>
+  <anchor x="300" y="-200" name="diaB"/>
   <outline>
     <contour>
       <point x="440" y="95" type="line"/>
@@ -34,4 +34,10 @@
     </contour>
     <component base="_tah_bowl" xOffset="459" yOffset="-7"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

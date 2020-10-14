@@ -7,7 +7,7 @@
   <outline>
     <component base="sad-ar.init"/>
     <component base="_dot1" xOffset="571" yOffset="660"/>
-    <component base="_dot1" xOffset="548" yOffset="-255"/>
+    <component base="_dot1" xOffset="571" yOffset="-250"/>
   </outline>
   <lib>
     <dict>

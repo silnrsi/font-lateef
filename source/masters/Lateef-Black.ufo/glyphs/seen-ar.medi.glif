@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seen-ar.medi" format="2">
   <advance width="1032"/>
-  <anchor x="598" y="488" name="above"/>
+  <anchor x="586" y="488" name="above"/>
   <anchor x="165" y="600" name="alef"/>
   <anchor x="586" y="-62" name="below"/>
   <anchor x="477" y="700" name="diaA"/>

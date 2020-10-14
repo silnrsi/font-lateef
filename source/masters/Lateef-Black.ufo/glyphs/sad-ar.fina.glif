@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sad-ar.fina" format="2">
   <advance width="1679"/>
-  <anchor x="1049" y="536" name="above"/>
+  <anchor x="1009" y="556" name="above"/>
   <anchor x="287" y="436" name="alef"/>
-  <anchor x="1099" y="-50" name="below"/>
+  <anchor x="1059" y="-90" name="below"/>
   <anchor x="869" y="700" name="diaA"/>
   <anchor x="235" y="-522" name="diaB"/>
   <outline>
     <component base="sad-ar"/>
     <component base="_bowl_connector" xOffset="804"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
