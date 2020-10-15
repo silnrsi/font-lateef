@@ -6,11 +6,9 @@ Named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and poet, this fo
 
 ## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Lateef/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Lateef&guest=1)  
 
-This is an **unreleased development** effort currently focused on the following goals:
-
-- Implement shaping behavior consistent with
-[Lateef 1.001](http://www.sil.org/resources/software_fonts/lateef) but using [SIL Graphite](https://graphite.sil.org) technology rather than OpenType.
-- Build the font using [SMITH](https://github.com/silnrsi/smith) toolchain.
+**NOTE: This is a development font. It is not yet ready for wider use or distribution to end-users.**   
+Font sources are published in a public repository and a smith open workflow is used for building, testing and releasing.   
+You can contribute and report issues but please don't use this in production yet.
 
 ## Copyright and License
 For copyright and licensing information - including any Reserved Font Names - see [OFL.txt](OFL.txt).
@@ -34,6 +32,13 @@ To enable us to accept contributions in a way that honors your contribution and 
 
 ## Building
 
+The Lateef project can be built from source using [smith](https://github.com/silnrsi/smith). This is done via the sequence:
+```
+    smith distclean
+    smith configure
+    smith build
+    smith alltests
+```
 See all the details in the [SIL FontDev guide](https://silnrsi.github.io/silfontdev/).
 
 ## About ftml tests
