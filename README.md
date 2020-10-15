@@ -1,4 +1,4 @@
-# Lateef Graphite Font
+# Lateef
 
 Lateef is an extended Arabic script font designed by SIL International for modern Unicode-based systems.
 
