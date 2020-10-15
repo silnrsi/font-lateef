@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tah-ar.init" format="2">
   <advance width="792"/>
-  <anchor x="542" y="648" name="above"/>
+  <anchor x="552" y="586" name="above"/>
   <anchor x="0" y="832" name="alef"/>
   <anchor x="332" y="-50" name="below"/>
   <anchor x="219" y="1235" name="diaA"/>
@@ -35,6 +35,8 @@
           <string>_strokeHead</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -33,19 +33,19 @@
   <dict>
     <key>XXXX</key>
     <dict>
-      <key>0.0</key>
+      <key>0</key>
       <integer>0</integer>
     </dict>
     <key>wdth</key>
     <dict>
-      <key>100.0</key>
+      <key>100</key>
       <integer>100</integer>
     </dict>
     <key>wght</key>
     <dict>
-      <key>300.0</key>
+      <key>300</key>
       <integer>300</integer>
-      <key>800.0</key>
+      <key>800</key>
       <integer>800</integer>
     </dict>
   </dict>

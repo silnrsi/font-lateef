@@ -34,10 +34,4 @@
     </contour>
     <component base="_tah_bowl" xOffset="459" yOffset="-7"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>
