@@ -5,7 +5,7 @@
   <anchor x="231" y="-344" name="diaB"/>
   <outline>
     <component base="ain-ar.medi"/>
-    <component base="_dot1" xOffset="361" yOffset="816"/>
+    <component base="_dot1" xOffset="389" yOffset="879"/>
     <component base="_dot1" xOffset="374" yOffset="-180"/>
   </outline>
   <lib>

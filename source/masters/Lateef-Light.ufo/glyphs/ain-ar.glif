@@ -2,10 +2,10 @@
 <glyph name="ain-ar" format="2">
   <advance width="782"/>
   <unicode hex="0639"/>
-  <anchor x="269" y="672" name="above"/>
+  <anchor x="274" y="646" name="above"/>
   <anchor x="435" y="-193" name="center"/>
-  <anchor x="255" y="786" name="diaA"/>
-  <anchor x="255" y="-830" name="diaB"/>
+  <anchor x="285" y="786" name="diaA"/>
+  <anchor x="245" y="-780" name="diaB"/>
   <outline>
     <contour>
       <point x="247" y="90" type="curve"/>
@@ -52,4 +52,10 @@
       <point x="615" y="270" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

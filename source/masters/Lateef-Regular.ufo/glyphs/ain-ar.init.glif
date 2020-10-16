@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ain-ar.init" format="2">
   <advance width="763"/>
-  <anchor x="361" y="679" name="above"/>
+  <anchor x="401" y="676" name="above"/>
   <anchor x="361" y="-44" name="below"/>
   <anchor x="312" y="790" name="diaA"/>
   <anchor x="200" y="-200" name="diaB"/>
@@ -44,4 +44,10 @@
       <point x="196" y="171"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

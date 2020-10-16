@@ -5,7 +5,7 @@
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="ain-ar.medi"/>
-    <component base="_dot2v" xOffset="361" yOffset="872"/>
+    <component base="_dot2v" xOffset="404" yOffset="860"/>
   </outline>
   <lib>
     <dict>

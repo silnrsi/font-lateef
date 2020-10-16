@@ -8,10 +8,4 @@
     <component base="waw-ar.fina"/>
     <component base="_hamzaDamma.filled" xOffset="373" yOffset="868"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

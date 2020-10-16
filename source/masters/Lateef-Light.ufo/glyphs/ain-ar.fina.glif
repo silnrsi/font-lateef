@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ain-ar.fina" format="2">
   <advance width="756"/>
-  <anchor x="356" y="567" name="above"/>
+  <anchor x="356" y="527" name="above"/>
   <anchor x="381" y="-234" name="center"/>
   <anchor x="369" y="701" name="diaA"/>
-  <anchor x="215" y="-786" name="diaB"/>
+  <anchor x="245" y="-780" name="diaB"/>
   <outline>
     <contour>
       <point x="87" y="-264" type="curve" smooth="yes"/>
@@ -49,4 +49,10 @@
       <point x="447" y="190"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
