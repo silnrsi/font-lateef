@@ -6,12 +6,12 @@
   <anchor x="251" y="-462" name="diaB"/>
   <outline>
     <component base="waw-ar.fina"/>
-    <component base="_highHamza" xOffset="407" yOffset="858"/>
+    <component base="_highHamza" xOffset="405" yOffset="752"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -5,32 +5,12 @@
   <anchor x="312" y="-312" name="diaB"/>
   <anchor x="550" y="-100" name="entry"/>
   <outline>
-    <component base="alef-ar.fina.postLamMed"/>
-    <component base="_highHamza" xOffset="181" yOffset="1188"/>
+    <component base="highhamzaAlef-ar.fina.postLamIni"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>alef-ar.fina.postLamMed</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_highHamza</string>
-        </dict>
-      </array>
       <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

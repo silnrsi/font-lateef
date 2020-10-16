@@ -22,10 +22,4 @@
     <component base="_tah_bowl" xOffset="402" yOffset="-15"/>
     <component base="_tah_stem" xOffset="293"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

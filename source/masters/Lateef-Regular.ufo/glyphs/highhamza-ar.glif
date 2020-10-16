@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="highhamza-ar" format="2">
-  <advance width="362"/>
+  <advance width="383"/>
   <unicode hex="0674"/>
   <outline>
-    <component base="hamza-ar" xScale="0.62751" yScale="0.62751" xOffset="-8" yOffset="1025"/>
+    <component base="_hamza" xOffset="220" yOffset="879"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="highhamzaAlef-ar" format="2">
-  <advance width="353"/>
+  <advance width="624"/>
   <unicode hex="0675"/>
   <anchor x="195" y="1719" name="diaA"/>
   <anchor x="163" y="-150" name="diaB"/>
   <outline>
     <component base="alef-ar"/>
-    <component base="_highHamza" xOffset="198" yOffset="1359"/>
+    <component base="_highHamza" xOffset="291" yOffset="772"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_highHamza</string>
+        </dict>
+      </array>
       <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
