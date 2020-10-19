@@ -2,11 +2,11 @@
 <glyph name="qafDotless-ar" format="2">
   <advance width="863"/>
   <unicode hex="066F"/>
-  <anchor x="650" y="483" name="above"/>
+  <anchor x="694" y="437" name="above"/>
   <anchor x="253" y="584" name="alef"/>
   <anchor x="430" y="-380" name="below"/>
   <anchor x="430" y="685" name="diaA"/>
-  <anchor x="221" y="-416" name="diaB"/>
+  <anchor x="200" y="-420" name="diaB"/>
   <outline>
     <contour>
       <point x="777" y="29" type="line"/>
@@ -32,4 +32,10 @@
     </contour>
     <component base="_fehHead" xOffset="549" yOffset="49"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
