@@ -378,8 +378,9 @@ fehThreedotsupbelow-ar = fehDotless-ar + _dot3u@below | 0761
 fehThreedotsupbelow-ar.fina = fehDotless-ar.fina + _dot3u@below
 fehThreedotsupbelow-ar.medi = fehDotless-ar.medi + _dot3u@below
 fehThreedotsupbelow-ar.init = fehDotless-ar.init + _dot3u@below
-qafDotless-ar.medi = fehDotless-ar.medi
-qafDotless-ar.init = fehDotless-ar.init
+# 2020-10-19 pm Removed because we need to retain all APs which would otherwise be removed by the --remove on the rebuild_comps.sh script
+#qafDotless-ar.medi = fehDotless-ar.medi
+#qafDotless-ar.init = fehDotless-ar.init
 qaf-ar = qafDotless-ar + _dot2h@above | 0642
 qaf-ar.fina = qafDotless-ar.fina + _dot2h@above
 qaf-ar.medi = fehDotless-ar.medi + _dot2h@above
