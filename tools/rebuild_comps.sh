@@ -9,7 +9,14 @@ echo "Rebuilding composites..."
 build_one() {
 	
 	SOURCE_UFO=$1
-	TARGET_UFO=$1
+	if [ "$2" = "" ]
+	then
+		TARGET_UFO=$1
+		echo "Building composites in $SOURCE_UFO..."
+	else
+		echo "Building composites from $SOURCE_UFO to $TARGET_UFO..."
+		TARGET_UFO=$2
+	fi
 
 	# Check we're in the same directory as the source UFO
 	if [ ! -d "$SOURCE_UFO" ]
@@ -18,7 +25,6 @@ build_one() {
 		exit
 	fi
 
-	echo "Building composites from $SOURCE_UFO to $TARGET_UFO..."
 	psfbuildcomp \
 		-p scrlevel=w \
 		--noflatten \
@@ -31,8 +37,11 @@ build_one() {
 }
 
 # Build each master
-build_one "Lateef-Light.ufo"   "Lateef-Light-composites.ufo"
-build_one "Lateef-Regular.ufo" "Lateef-Regular-composites.ufo"
-build_one "Lateef-Black.ufo"   "Lateef-Black-composites.ufo"
+build_one "Lateef-Light.ufo"
+build_one "Lateef-Regular.ufo"
+build_one "Lateef-Black.ufo"
+# build_one "Lateef-Light.ufo"   "Lateef-Light-composites.ufo"
+# build_one "Lateef-Regular.ufo" "Lateef-Regular-composites.ufo"
+# build_one "Lateef-Black.ufo"   "Lateef-Black-composites.ufo"
 
 echo "Composite rebuild done."
