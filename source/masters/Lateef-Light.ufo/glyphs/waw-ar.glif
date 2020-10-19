@@ -8,13 +8,13 @@
   <anchor x="313" y="697" name="diaA"/>
   <anchor x="142" y="-400" name="diaB"/>
   <anchor x="236" y="12" name="ring"/>
-  <anchor x="397" y="-51" name="through"/>
+  <anchor x="407" y="-51" name="through"/>
   <outline>
     <contour>
       <point x="529" y="78" type="curve"/>
       <point x="482" y="51" type="line"/>
-      <point x="444" y="-107"/>
-      <point x="249" y="-233"/>
+      <point x="436" y="-138"/>
+      <point x="271" y="-233"/>
       <point x="56" y="-233" type="curve" smooth="yes"/>
       <point x="-12" y="-233"/>
       <point x="-80" y="-221"/>
@@ -26,6 +26,41 @@
       <point x="259" y="-330"/>
       <point x="529" y="-196"/>
     </contour>
-    <component base="_fehHead" xOffset="255" yOffset="23"/>
+    <contour>
+      <point x="458" y="-86" type="curve"/>
+      <point x="488" y="-41"/>
+      <point x="513" y="11"/>
+      <point x="529" y="78" type="curve"/>
+      <point x="529" y="240"/>
+      <point x="481" y="363"/>
+      <point x="400" y="363" type="curve" smooth="yes"/>
+      <point x="345" y="363"/>
+      <point x="275" y="258"/>
+      <point x="275" y="164" type="curve" smooth="yes"/>
+      <point x="275" y="87"/>
+      <point x="312" y="43"/>
+      <point x="384" y="43" type="curve" smooth="yes"/>
+      <point x="431" y="43"/>
+      <point x="466" y="63"/>
+      <point x="487" y="126" type="curve"/>
+      <point x="464" y="196" type="line"/>
+      <point x="460" y="165"/>
+      <point x="427" y="139"/>
+      <point x="394" y="139" type="curve" smooth="yes"/>
+      <point x="354" y="139"/>
+      <point x="330" y="158"/>
+      <point x="330" y="186" type="curve" smooth="yes"/>
+      <point x="330" y="207"/>
+      <point x="349" y="253"/>
+      <point x="394" y="253" type="curve" smooth="yes"/>
+      <point x="469" y="253"/>
+      <point x="488" y="32"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
