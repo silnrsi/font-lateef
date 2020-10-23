@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gafTwodotsbelow-ar.medi" format="2">
-  <advance width="941"/>
+  <advance width="949"/>
   <anchor x="142" y="1142" name="diaA"/>
   <anchor x="130" y="-381" name="diaB"/>
   <outline>
     <component base="kaf-ar.medi"/>
-    <component base="_gafBar" xOffset="-33" yOffset="841"/>
+    <component base="_gafBar" xOffset="45" yOffset="835"/>
     <component base="_dot2h" xOffset="140" yOffset="-224"/>
   </outline>
   <lib>

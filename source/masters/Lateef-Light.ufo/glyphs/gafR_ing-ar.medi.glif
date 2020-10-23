@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gafRing-ar.medi" format="2">
-  <advance width="941"/>
+  <advance width="949"/>
   <anchor x="142" y="1142" name="diaA"/>
   <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="kaf-ar.medi"/>
-    <component base="_gafBar" xOffset="-33" yOffset="841"/>
-    <component base="_ring" xOffset="475" yOffset="784"/>
+    <component base="_gafBar" xOffset="45" yOffset="835"/>
+    <component base="_ring" xOffset="465" yOffset="778"/>
   </outline>
   <lib>
     <dict>

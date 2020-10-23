@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_gafBar" format="2">
-  <anchor x="98" y="0" name="_above"/>
+  <anchor x="68" y="0" name="_above"/>
   <outline>
     <contour>
       <point x="4" y="12" type="line"/>

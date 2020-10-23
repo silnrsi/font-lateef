@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaf-ar.init" format="2">
   <advance width="633"/>
-  <anchor x="75" y="848" name="above"/>
+  <anchor x="113" y="835" name="above"/>
   <anchor x="137" y="-50" name="below"/>
-  <anchor x="150" y="1049" name="diaA"/>
+  <anchor x="170" y="1020" name="diaA"/>
   <anchor x="150" y="-200" name="diaB"/>
-  <anchor x="476" y="922" name="ring"/>
+  <anchor x="463" y="922" name="ring"/>
   <outline>
     <contour>
       <point x="714" y="1080" type="line"/>
@@ -22,11 +22,11 @@
       <point x="318" y="110"/>
       <point x="120" y="110" type="curve" smooth="yes"/>
       <point x="0" y="110" type="line" smooth="yes"/>
-      <point x="-33" y="110"/>
-      <point x="-44" y="102"/>
-      <point x="-44" y="55" type="curve" smooth="yes"/>
-      <point x="-44" y="8"/>
-      <point x="-33" y="0"/>
+      <point x="-19" y="110"/>
+      <point x="-30" y="102"/>
+      <point x="-30" y="55" type="curve" smooth="yes"/>
+      <point x="-30" y="8"/>
+      <point x="-19" y="0"/>
       <point x="0" y="0" type="curve" smooth="yes"/>
       <point x="90" y="0" type="line" smooth="yes"/>
       <point x="339" y="0"/>
@@ -40,4 +40,10 @@
       <point x="683" y="965" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

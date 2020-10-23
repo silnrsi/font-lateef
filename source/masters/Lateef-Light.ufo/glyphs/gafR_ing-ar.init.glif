@@ -5,8 +5,8 @@
   <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="kaf-ar.init"/>
-    <component base="_gafBarShort" xOffset="-23" yOffset="848"/>
-    <component base="_ring" xOffset="478" yOffset="778"/>
+    <component base="_gafBarShort" xOffset="45" yOffset="835"/>
+    <component base="_ring" xOffset="465" yOffset="778"/>
   </outline>
   <lib>
     <dict>

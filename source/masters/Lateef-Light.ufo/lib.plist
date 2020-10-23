@@ -104,7 +104,7 @@
 /_fehHead/fehDotless-ar 
 /space/fehDotless-ar.init/fehDotless-ar.init/fehDotless-ar/space/qafDotless-ar.init/qafDotless-ar/space/_fehHead/waw-ar/waw-ar 
 /qafDotless-ar/qafDotless-ar.fina/qafDotless-ar.medi/qafDotless-ar.init/space/qaf-ar/qaf-ar.fina/qaf-ar.medi/qaf-ar.init/space/qafDotabove-ar/qafDotabove-ar.fina/qafDotabove-ar.medi/qafDotabove-ar.init/space/qafThreedotsabove-ar/qafThreedotsabove-ar.fina/qafThreedotsabove-ar.medi/qafThreedotsabove-ar.init 
-/kaf-ar/kaf-ar.fina/kaf-ar.medi/kaf-ar.init/space/keheh-ar/keheh-ar.fina/keheh-ar.medi/keheh-ar.init/space/kehehTwodotshorizontalabove-ar/kehehTwodotshorizontalabove-ar.fina/kehehTwodotshorizontalabove-ar.medi/kehehTwodotshorizontalabove-ar.init 
+/kaf-ar/kaf-ar.fina/keheh-ar.medi/keheh-ar.init/space/keheh-ar/keheh-ar.fina/kaf-ar.medi/kaf-ar.init/_gafBarShort/space/space/_gafBar/space/space/gaf-ar/gaf-ar.fina/gaf-ar.medi/gaf-ar.init/space/kehehTwodotshorizontalabove-ar/kehehTwodotshorizontalabove-ar.fina/kehehTwodotshorizontalabove-ar.medi/kehehTwodotshorizontalabove-ar.init 
 /kehehThreedotsbelow-ar/kehehThreedotsbelow-ar.fina/kehehThreedotsbelow-ar.medi/kehehThreedotsbelow-ar.init/space/kehehDotabove-ar/kehehDotabove-ar.fina/kehehDotabove-ar.medi/kehehDotabove-ar.init/space/kehehThreedotsabove-ar/kehehThreedotsabove-ar.fina/kehehThreedotsabove-ar.medi/kehehThreedotsabove-ar.init 
 /kehehThreedotsupbelow-ar/kehehThreedotsupbelow-ar.fina/kehehThreedotsupbelow-ar.medi/kehehThreedotsupbelow-ar.init/space/kehehVabove-ar/kehehVabove-ar.fina/kehehVabove-ar.medi/kehehVabove-ar.init/space/gaf-ar/gaf-ar.fina/gaf-ar.medi/gaf-ar.init 
 /gafRing-ar/gafRing-ar.fina/gafRing-ar.medi/gafRing-ar.init/space/gafThreedots-ar/gafThreedots-ar.fina/gafThreedots-ar.medi/gafThreedots-ar.init/space/kafRing-ar/kafRing-ar.fina/kafRing-ar.medi/kafRing-ar.init/space/kafDotabove-ar/kafDotabove-ar.fina/kafDotabove-ar.medi/kafDotabove-ar.init/space/kafTwodotshorizontalabove-ar/kafTwodotshorizontalabove-ar.fina/kafTwodotshorizontalabove-ar.medi/kafTwodotshorizontalabove-ar.init/space/kafThreedotsbelow-ar/kafThreedotsbelow-ar.fina/kafThreedotsbelow-ar.medi/kafThreedotsbelow-ar.init/space/gafTwodotsbelow-ar/gafTwodotsbelow-ar.fina/gafTwodotsbelow-ar.medi/gafTwodotsbelow-ar.init/space/ng-ar/ng-ar.fina/ng-ar.medi/ng-ar.init/space/ngoeh-ar/ngoeh-ar.fina/ngoeh-ar.medi/ngoeh-ar.init/space/gueh-ar/gueh-ar.fina/gueh-ar.medi/gueh-ar.init/space/kafswash-ar/kafswash-ar.fina/kafswash-ar.medi/kafswash-ar.init 
@@ -130,7 +130,6 @@
 /numbermark-ar/numbermark-ar.2/numbermark-ar.3/numbermark-ar.4 
 /perthousand-ar/pertenthousand-ar/afghani-ar/dateseparator-ar/verseComma-ar/misraComma-ar/sindhiampersand-ar/sindhipostpositionmen-ar 
 /endofayah-ar/endofayah-ar.2/endofayah-ar.3/endofayah-ar.alt/endofayah-ar.alt.2/endofayah-ar.alt.3/endofayah-ar.altB/endofayah-ar.altB.2/endofayah-ar.altB.3/allah-ar/alef-ar.allah/alef-ar.fina.allah/lam-ar.init.allah1/lam-ar.medi.allah1/lam-ar.medi.allah2/heh-ar.fina.allah/hehgoal-ar.fina.allah/rial/marksidewaysnoonghunna-ar/hamza_fatha-ar/hamza_damma-ar/hamza_damma-ar.filled/shadda_alef-ar/shadda_fathatan-ar/shadda_dammatan-ar/shadda_kasratan-ar/shadda_fatha-ar/shadda_damma-ar/shadda_damma-ar.filled/shadda_kasra-ar</string>
-    <string>¢$</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2930</integer>

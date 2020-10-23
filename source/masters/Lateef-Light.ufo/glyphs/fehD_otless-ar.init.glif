@@ -7,8 +7,8 @@
   <anchor x="200" y="-200" name="diaB"/>
   <outline>
     <contour>
-      <point x="0" y="3" type="curve" smooth="yes"/>
-      <point x="200" y="3"/>
+      <point x="0" y="0" type="curve" smooth="yes"/>
+      <point x="200" y="0"/>
       <point x="361" y="54"/>
       <point x="394" y="92" type="curve" smooth="yes"/>
       <point x="432" y="136"/>
@@ -46,7 +46,7 @@
       <point x="-39" y="79"/>
       <point x="-39" y="55" type="curve" smooth="yes"/>
       <point x="-39" y="29"/>
-      <point x="-31" y="3"/>
+      <point x="-31" y="0"/>
     </contour>
   </outline>
 </glyph>

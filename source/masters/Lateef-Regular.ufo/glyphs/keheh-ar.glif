@@ -2,14 +2,20 @@
 <glyph name="keheh-ar" format="2">
   <advance width="1228"/>
   <unicode hex="06A9"/>
-  <anchor x="728" y="861" name="above"/>
+  <anchor x="708" y="835" name="above"/>
   <anchor x="228" y="773" name="alef"/>
   <anchor x="812" y="-50" name="below"/>
   <anchor x="520" y="1020" name="diaA"/>
   <anchor x="300" y="-200" name="diaB"/>
-  <anchor x="1058" y="915" name="ring"/>
+  <anchor x="1076" y="922" name="ring"/>
   <outline>
     <component base="keheh-ar.init" xOffset="595"/>
     <component base="_kaf_left"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

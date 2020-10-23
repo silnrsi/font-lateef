@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gafThreedots-ar.medi" format="2">
-  <advance width="941"/>
+  <advance width="949"/>
   <anchor x="32" y="1563" name="diaA"/>
   <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="kaf-ar.medi"/>
-    <component base="_gafBar_dot3u" xOffset="-33" yOffset="841"/>
+    <component base="_gafBar_dot3u" xOffset="15" yOffset="835"/>
   </outline>
   <lib>
     <dict>
