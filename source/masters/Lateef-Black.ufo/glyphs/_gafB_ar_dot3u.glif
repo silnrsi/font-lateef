@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_gafBar_dot3u" format="2">
-  <anchor x="98" y="0" name="_above"/>
+  <anchor x="58" y="-40" name="_above"/>
   <outline>
     <component base="_gafBar"/>
     <component base="_dot3u" xOffset="44" yOffset="440"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
