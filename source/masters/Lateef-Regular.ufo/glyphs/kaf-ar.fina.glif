@@ -47,10 +47,4 @@
     <component base="_strokeHead" xOffset="649" yOffset="772"/>
     <component base="_baseline_135" xOffset="545"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -13,10 +13,4 @@
     <component base="lam-ar.init" xOffset="672"/>
     <component base="_baseline_70" xOffset="543"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>
