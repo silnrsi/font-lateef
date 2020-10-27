@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaf-ar.fina" format="2">
   <advance width="1179"/>
-  <anchor x="897" y="1165" name="above"/>
+  <anchor x="504" y="835" name="above"/>
   <anchor x="226" y="761" name="alef"/>
   <anchor x="729" y="-62" name="below"/>
   <anchor x="609" y="1104" name="diaA"/>
@@ -76,6 +76,8 @@
           <string>_strokeHead</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

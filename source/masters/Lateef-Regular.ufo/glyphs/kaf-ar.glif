@@ -2,7 +2,7 @@
 <glyph name="kaf-ar" format="2">
   <advance width="1007"/>
   <unicode hex="0643"/>
-  <anchor x="880" y="1122" name="above"/>
+  <anchor x="504" y="835" name="above"/>
   <anchor x="242" y="773" name="alef"/>
   <anchor x="729" y="-56" name="below"/>
   <anchor x="520" y="1170" name="diaA"/>
@@ -13,4 +13,10 @@
     <component base="lam-ar.init" xOffset="672"/>
     <component base="_baseline_70" xOffset="543"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

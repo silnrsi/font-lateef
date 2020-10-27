@@ -6,10 +6,4 @@
     <component base="shadda-ar"/>
     <component base="dammatan-ar.sixNine" xOffset="-7" yOffset="241"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

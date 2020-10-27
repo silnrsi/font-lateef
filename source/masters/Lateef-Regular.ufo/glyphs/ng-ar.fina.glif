@@ -6,7 +6,7 @@
   <anchor x="300" y="-202" name="diaB"/>
   <outline>
     <component base="kaf-ar.fina"/>
-    <component base="_dot3u" xOffset="897" yOffset="1408"/>
+    <component base="_dot3u" xOffset="504" yOffset="1121"/>
   </outline>
   <lib>
     <dict>
