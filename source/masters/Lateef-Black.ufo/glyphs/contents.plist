@@ -462,6 +462,8 @@
   <string>ampersand.glif</string>
   <key>approxequal</key>
   <string>approxequal.glif</string>
+  <key>approxequal.rtl</key>
+  <string>approxequal.rtl.glif</string>
   <key>aring</key>
   <string>aring.glif</string>
   <key>asciicircum</key>
@@ -722,6 +724,8 @@
   <string>dieresiscomb.case.glif</string>
   <key>divide</key>
   <string>divide.glif</string>
+  <key>divisionslash</key>
+  <string>divisionslash.glif</string>
   <key>dollar</key>
   <string>dollar.glif</string>
   <key>dotStopabove-ar</key>
@@ -968,6 +972,8 @@
   <string>four.small.glif</string>
   <key>fourperemspace</key>
   <string>fourperemspace.glif</string>
+  <key>foursuperior</key>
+  <string>foursuperior.glif</string>
   <key>fraction</key>
   <string>fraction.glif</string>
   <key>fullstop-ar</key>
@@ -1266,6 +1272,8 @@
   <string>inhibitformshaping-ar.glif</string>
   <key>integral</key>
   <string>integral.glif</string>
+  <key>integral.rtl</key>
+  <string>integral.rtl.glif</string>
   <key>j</key>
   <string>j.glif</string>
   <key>jdotless</key>
@@ -1712,6 +1720,8 @@
   <string>noonghunnaabove-ar.glif</string>
   <key>notequal</key>
   <string>notequal.glif</string>
+  <key>notequal.rtl</key>
+  <string>notequal.rtl.glif</string>
   <key>ntilde</key>
   <string>ntilde.glif</string>
   <key>number-ar</key>
@@ -1822,6 +1832,8 @@
   <string>parenright.arab.glif</string>
   <key>partialdiff</key>
   <string>partialdiff.glif</string>
+  <key>partialdiff.rtl</key>
+  <string>partialdiff.rtl.glif</string>
   <key>peh-ar</key>
   <string>peh-ar.glif</string>
   <key>peh-ar.fina</key>
@@ -2012,6 +2024,8 @@
   <string>rehv-ar.fina.glif</string>
   <key>replacementCharacter</key>
   <string>replacementC_haracter.glif</string>
+  <key>reverseSolidusOperator</key>
+  <string>reverseS_olidusO_perator.glif</string>
   <key>rhombusStopabove-ar</key>
   <string>rhombusS_topabove-ar.glif</string>
   <key>rhombusStopbelow-ar</key>
@@ -2198,6 +2212,8 @@
   <string>shadda_damma-ar.filled.glif</string>
   <key>shadda_dammatan-ar</key>
   <string>shadda_dammatan-ar.glif</string>
+  <key>shadda_dammatan-ar.sixNine</key>
+  <string>shadda_dammatan-ar.sixN_ine.glif</string>
   <key>shadda_fatha-ar</key>
   <string>shadda_fatha-ar.glif</string>
   <key>shadda_fathatan-ar</key>
@@ -2286,6 +2302,8 @@
   <string>sukunround-ar.glif</string>
   <key>summation</key>
   <string>summation.glif</string>
+  <key>summation.rtl</key>
+  <string>summation.rtl.glif</string>
   <key>t</key>
   <string>t.glif</string>
   <key>tab</key>

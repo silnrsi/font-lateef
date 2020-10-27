@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="shadda_dammatan-ar" format="2">
+<glyph name="shadda_dammatan-ar.sixNine" format="2">
   <anchor x="0" y="1045" name="_diaA"/>
-  <anchor x="0" y="1733" name="diaA"/>
+  <anchor x="0" y="1925" name="diaA"/>
   <outline>
-    <component base="dammatan-ar" xOffset="33" yOffset="241"/>
     <component base="shadda-ar"/>
+    <component base="dammatan-ar.sixNine" xOffset="-97" yOffset="241"/>
   </outline>
   <lib>
     <dict>
@@ -15,14 +15,6 @@
           <integer>-1</integer>
           <key>index</key>
           <integer>0</integer>
-          <key>name</key>
-          <string>dammatan-ar</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
           <key>name</key>
           <string>shadda-ar</string>
         </dict>

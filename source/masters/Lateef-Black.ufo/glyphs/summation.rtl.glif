@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="summation.rtl" format="2">
+  <advance width="839"/>
+  <note>
+summation
+</note>
+  <outline>
+    <component base="summation" xScale="-1" xOffset="790"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

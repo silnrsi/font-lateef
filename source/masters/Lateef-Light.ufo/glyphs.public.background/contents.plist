@@ -42,6 +42,8 @@
   <string>fehD_otless-ar.glif</string>
   <key>fehDotless-ar.init</key>
   <string>fehD_otless-ar.init.glif</string>
+  <key>foursuperior</key>
+  <string>foursuperior.glif</string>
   <key>hah-ar</key>
   <string>hah-ar.glif</string>
   <key>heh-ar.medi.knottedHigh</key>

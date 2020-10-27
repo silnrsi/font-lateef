@@ -216,6 +216,8 @@
   <string>four.medium.glif</string>
   <key>four.small</key>
   <string>four.small.glif</string>
+  <key>foursuperior</key>
+  <string>foursuperior.glif</string>
   <key>hah-ar</key>
   <string>hah-ar.glif</string>
   <key>hah-ar.fina</key>
@@ -474,6 +476,8 @@
   <string>shadda_damma-ar.glif</string>
   <key>shadda_dammatan-ar</key>
   <string>shadda_dammatan-ar.glif</string>
+  <key>shadda_dammatan-ar.sixNine</key>
+  <string>shadda_dammatan-ar.sixN_ine.glif</string>
   <key>shadda_fatha-ar</key>
   <string>shadda_fatha-ar.glif</string>
   <key>shadda_fathatan-ar</key>
