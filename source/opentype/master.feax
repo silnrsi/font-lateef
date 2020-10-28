@@ -510,14 +510,6 @@ lookup DammatanAlternate {
     sub @cno_sixNine by @c_sixNine ;
 } DammatanAlternate;
 
-#********************
-# Inverted Damma alternates: cv74
-
-lookup UntapeshAlternates {
-  lookupflag 0 ;
-#    sub dammainverted-ar from [dammainverted-ar dammainverted-ar.filled] ;  #### TODO Will we have this variant?
-    sub dammainverted-ar by dammainverted-ar  ;
-} UntapeshAlternates;
 
 #********************
 # DaggerAlef alternates: cv76
@@ -1048,17 +1040,6 @@ feature cv72 {  # Character Variant 72
         ParamUILabelNameID { name 3 1 0x0409 "Six-nine" ; };
     } ;
 } cv72 ;
-
-feature cv74 {  # Character Variant 74
-    # Same for latin & arabic:
-        lookup UntapeshAlternates;
-    cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Inverted Damma" ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Default"        ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Hollow"         ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Filled"         ; };
-    } ;
-} cv74 ;
 
 feature cv76 {  # Character Variant 76
     # Same for latin & arabic:

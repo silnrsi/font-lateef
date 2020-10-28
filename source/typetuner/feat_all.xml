@@ -130,18 +130,6 @@
 		</value>
 	</feature>
 
-	<!-- feature name="Inverted Damma" value="Default" tag="InvDma">
-		<value name="Default" tag="Def">
-			<cmd name="null" args="null"/>
-		</value>
-		<value name="Hollow" tag="Ho">
-			<cmd name="null" args="null"/>
-		</value>
-		<value name="Filled" tag="Fi">
-			<cmd name="encode" args="0657 uni0657.filled"/>
-		</value>
-	</feature -->
-
 	<feature name="Superscript Alef" value="Default" tag="Sal">
 		<value name="Default" tag="Def">
 			<cmd name="null" args="null"/>
