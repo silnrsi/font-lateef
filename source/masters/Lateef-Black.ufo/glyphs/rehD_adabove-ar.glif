@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehDadabove-ar" format="2">
   <unicode hex="0613"/>
-  <anchor x="634" y="1180" name="_diaA"/>
-  <anchor x="634" y="1750" name="diaA"/>
+  <anchor x="0" y="1180" name="_diaA"/>
+  <anchor x="0" y="1750" name="diaA"/>
   <outline>
-    <component base="reh-ar" xScale="0.65579" yScale="0.65579" xOffset="681" yOffset="1451"/>
-    <component base="sadabove-ar" xOffset="-100" yOffset="10"/>
-    <component base="_dot1" xScale="0.66" yScale="0.66" xOffset="413" yOffset="1651"/>
+    <component base="reh-ar" xScale="0.65579" yScale="0.65579" xOffset="47" yOffset="1451"/>
+    <component base="sadabove-ar" xOffset="-114" yOffset="10"/>
+    <component base="_dot1" xScale="0.66" yScale="0.66" xOffset="-221" yOffset="1651"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
