@@ -497,9 +497,7 @@ lookup KasraAlternates {
 
 lookup DammaAlternates {
   lookupflag 0 ;
-    sub @Damma        from [ @Damma_filled @Damma_short ];
-    sub @Damma_filled from [ @Damma_filled @Damma_short ];
-##    sub @Damma_short  from [ @Damma_filled @Damma_short ];		#### TODO Will we have this variant?
+    sub @cno_filled by @c_filled ;
 } DammaAlternates;
 
 #********************
@@ -1024,7 +1022,6 @@ feature cv70 {  # Character Variant 70
         FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
         ParamUILabelNameID { name 3 1 0x0409 "Default"  ; };
         ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Short"    ; };
     } ;
 } cv70 ;
 
