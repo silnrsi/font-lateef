@@ -980,8 +980,8 @@ feature cv44 {  # Character Variant 44
 #      language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Meem"         ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style" ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style" ; };
     } ;
 } cv44 ;
 
@@ -996,20 +996,19 @@ feature cv48 {  # Character Variant 48
 #      language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Heh"            ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
         ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style"   ; };
         ParamUILabelNameID { name 3 1 0x0409 "Urdu-style"     ; };
         ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"  ; };
     } ;
 } cv48 ;
 
-
 feature cv62 {  # Character Variant 62
     # Same for latin & arabic:
         lookup KasraAlternates;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Kasra"   ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Lowered" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Raised"  ; };
     } ;
@@ -1020,8 +1019,8 @@ feature cv70 {  # Character Variant 70
         lookup DammaAlternates;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Default"  ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Default"  ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
     } ;
 } cv70 ;
 
@@ -1033,8 +1032,8 @@ feature cv72 {  # Character Variant 72
         language RHG exclude_dflt ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Dammatan" ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Six-nine" ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Six-nine" ; };
     } ;
 } cv72 ;
 
@@ -1043,8 +1042,8 @@ feature cv76 {  # Character Variant 76
         lookup DaggerAlefToLarge;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Superscript Alef" ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Small"            ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Large"            ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Small"            ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Large"            ; };
     } ;
 } cv76 ;
 
@@ -1053,7 +1052,7 @@ feature cv78 {  # Character Variant 78
         lookup SukunAlternates;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Sukun"     ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Closed"    ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Closed"    ; };
         ParamUILabelNameID { name 3 1 0x0409 "Open down" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Open left" ; };
     } ;
@@ -1064,7 +1063,7 @@ feature cv80 {  # Character Variant 80
         lookup AyahAlternates;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "End of ayah"  ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
         ParamUILabelNameID { name 3 1 0x0409 "Simplified A" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Simplified B" ; };
     } ;
@@ -1075,7 +1074,7 @@ feature cv82 {  # Character Variant 82
         lookup DigitAlternates;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Eastern digits" ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
         ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style"   ; };
         ParamUILabelNameID { name 3 1 0x0409 "Urdu-style"     ; };
         ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"  ; };
@@ -1088,8 +1087,8 @@ feature cv84 {  # Character Variant 84
         lookup CommaAlternate;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Comma"    ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Upward"   ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Downward" ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Upward"   ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Downward" ; };
     } ;
 } cv84 ;
 
