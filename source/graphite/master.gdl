@@ -90,11 +90,6 @@ pass(1)	{ Direction = LEFT_TO_RIGHT } // Encoding, [de-]composition, subtending 
 
 	// Pick latin variants if appropriate:
 	carab > cno_arab  /  _ {directionality == 0};
-	
-	// Convert encoded zero-width kashida to one with advance-width.
-	// NB: See master.fea ccmp feature for reasons the encoded glyph is zero width
-	g_kashida_ar > g_kashida_ar_haswidth ;  
-
 
 endpass; // 1
 
