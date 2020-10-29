@@ -115,9 +115,6 @@
 		<value name="Filled" tag="Fi">
 			<cmd name="encode" args="064F uni064F.filled"/>
 		</value>
-		<!-- value name="Short" tag="Sh">
-			<cmd name="encode" args="064F uni064F.short"/>
-		</value -->
 	</feature>
 
 	<feature name="Dammatan" value="Standard" tag="Dmtan">		<!-- was "Six-nine dammatan", "SixNine" -->
