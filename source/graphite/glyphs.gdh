@@ -33,13 +33,12 @@ table(glyph)
 // Mirroring
 //
 
-// TODO: g_partialdiff.mirror   {glyph = g_partialdiff_rtl;   isEncoded = 0 };
-// TODO: g_summation.mirror     {glyph = g_summation_rtl;     isEncoded = 0 };
-// TODO: g_divisionslash.mirror {glyph = g_divisionslash_rtl; isEncoded = 0 };
+g_partialdiff.mirror   {glyph = g_partialdiff_rtl;   isEncoded = 0 };
+g_summation.mirror     {glyph = g_summation_rtl;     isEncoded = 0 };
 g_radical.mirror       {glyph = g_radical_rtl;       isEncoded = 0 };
-// TODO: g_integral.mirror      {glyph = g_integral_rtl;      isEncoded = 0 };
-// TODO: g_approxequal.mirror   {glyph = g_approxequal_rtl;   isEncoded = 0 };
-// TODO: g_notequal.mirror      {glyph = g_notequal_rtl;      isEncoded = 0 };
+g_integral.mirror      {glyph = g_integral_rtl;      isEncoded = 0 };
+g_approxequal.mirror   {glyph = g_approxequal_rtl;   isEncoded = 0 };
+g_notequal.mirror      {glyph = g_notequal_rtl;      isEncoded = 0 };
 
 
 //------------------------------------------------------------------------------------------
