@@ -1556,7 +1556,6 @@
     <string>_vline</string>
     <string>_wasla</string>
     <string>_wavyHamza</string>
-    <string>_wavyHamza.b</string>
   </array>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
@@ -2958,7 +2957,6 @@
     <string>_vline</string>
     <string>_wasla</string>
     <string>_wavyHamza</string>
-    <string>_wavyHamza.b</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
