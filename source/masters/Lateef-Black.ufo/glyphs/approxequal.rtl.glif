@@ -2,6 +2,12 @@
 <glyph name="approxequal.rtl" format="2">
   <advance width="866"/>
   <outline>
-    <component base="approxequal"/>
+    <component base="approxequal" xScale="-1" xOffset="866"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
