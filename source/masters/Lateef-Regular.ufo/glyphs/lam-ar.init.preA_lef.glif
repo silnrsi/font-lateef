@@ -2,7 +2,7 @@
 <glyph name="lam-ar.init.preAlef" format="2">
   <advance width="371"/>
   <anchor x="175" y="1113" name="above"/>
-  <anchor x="-13" y="735" name="alef"/>
+  <anchor x="-13" y="800" name="alef"/>
   <anchor x="123" y="-202" name="below"/>
   <anchor x="75" y="1123" name="diaA"/>
   <anchor x="125" y="-250" name="diaB"/>
@@ -33,4 +33,10 @@
     </contour>
     <component base="_strokeHead" xOffset="-57" yOffset="780"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

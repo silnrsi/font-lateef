@@ -33,19 +33,19 @@
   <dict>
     <key>XXXX</key>
     <dict>
-      <key>0</key>
+      <key>0.0</key>
       <integer>0</integer>
     </dict>
     <key>wdth</key>
     <dict>
-      <key>100</key>
+      <key>100.0</key>
       <integer>100</integer>
     </dict>
     <key>wght</key>
     <dict>
-      <key>300</key>
+      <key>300.0</key>
       <integer>300</integer>
-      <key>800</key>
+      <key>800.0</key>
       <integer>800</integer>
     </dict>
   </dict>
@@ -114,7 +114,7 @@
 /keheh-ar/keheh-ar.fina/kaf-ar.medi/kaf-ar.init/gaf-ar/gaf-ar.fina/gaf-ar.medi/gaf-ar.init/_gafBarShort/space/space/_gafBar/space/space/space/_gafBar_dot3u/space/space/space/_gafBarShort_dot3u/space/space/gafThreedots-ar/gafThreedots-ar.fina/gafThreedots-ar.medi/gafThreedots-ar.init/space/kehehTwodotshorizontalabove-ar/kehehTwodotshorizontalabove-ar.fina/kehehTwodotshorizontalabove-ar.medi/kehehTwodotshorizontalabove-ar.init 
 /kehehThreedotsbelow-ar/kehehThreedotsbelow-ar.fina/kehehThreedotsbelow-ar.medi/kehehThreedotsbelow-ar.init/space/kehehDotabove-ar/kehehDotabove-ar.fina/kehehDotabove-ar.medi/kehehDotabove-ar.init/space/kehehThreedotsabove-ar/kehehThreedotsabove-ar.fina/kehehThreedotsabove-ar.medi/kehehThreedotsabove-ar.init 
 /kehehThreedotsupbelow-ar/kehehThreedotsupbelow-ar.fina/kehehThreedotsupbelow-ar.medi/kehehThreedotsupbelow-ar.init/space/kehehVabove-ar/kehehVabove-ar.fina/kehehVabove-ar.medi/kehehVabove-ar.init/space/gaf-ar/gaf-ar.fina/gaf-ar.medi/gaf-ar.init 
-/gafRing-ar/gafRing-ar.fina/gafRing-ar.medi/gafRing-ar.init/space/space/_gafBarShort_dot3u/space/kafRing-ar/kafRing-ar.fina/kafRing-ar.medi/kafRing-ar.init/space/kafDotabove-ar/kafDotabove-ar.fina/kafDotabove-ar.medi/kafDotabove-ar.init/space/kafTwodotshorizontalabove-ar/kafTwodotshorizontalabove-ar.fina/kafTwodotshorizontalabove-ar.medi/kafTwodotshorizontalabove-ar.init/space/kafThreedotsbelow-ar/kafThreedotsbelow-ar.fina/kafThreedotsbelow-ar.medi/kafThreedotsbelow-ar.init/space/gafTwodotsbelow-ar/gafTwodotsbelow-ar.fina/gafTwodotsbelow-ar.medi/gafTwodotsbelow-ar.init/space/ng-ar/ng-ar.fina/ng-ar.medi/ng-ar.init/space/ngoeh-ar/ngoeh-ar.fina/ngoeh-ar.medi/ngoeh-ar.init/space/gueh-ar/gueh-ar.fina/gueh-ar.medi/gueh-ar.init/space/kafswash-ar/kafswash-ar.fina/kafswash-ar.medi/kafswash-ar.init 
+/gafRing-ar/gafRing-ar.fina/gafRing-ar.medi/gafRing-ar.init/space/space/_gafBarShort_dot3u/space/kafRing-ar/kafRing-ar.fina/kafRing-ar.medi/kafRing-ar.init/space/kaf-ar/kafDotabove-ar/kaf-ar.fina/kafDotabove-ar.fina/kafDotabove-ar.medi/kafDotabove-ar.init/space/kafTwodotshorizontalabove-ar/kafTwodotshorizontalabove-ar.fina/kafTwodotshorizontalabove-ar.medi/kafTwodotshorizontalabove-ar.init/space/kafThreedotsbelow-ar/kafThreedotsbelow-ar.fina/kafThreedotsbelow-ar.medi/kafThreedotsbelow-ar.init/space/gafTwodotsbelow-ar/gafTwodotsbelow-ar.fina/gafTwodotsbelow-ar.medi/gafTwodotsbelow-ar.init/space/ng-ar/ng-ar.fina/ng-ar.medi/ng-ar.init/space/ngoeh-ar/ngoeh-ar.fina/ngoeh-ar.medi/ngoeh-ar.init/space/gueh-ar/gueh-ar.fina/gueh-ar.medi/gueh-ar.init/space/kafswash-ar/kafswash-ar.fina/kafswash-ar.medi/kafswash-ar.init 
 /lam-ar/lam-ar.fina/lam-ar.medi/lam-ar.init/space/lam-ar.medi.preAlef/lam-ar.init.preAlef/space/lamVabove-ar/lamVabove-ar.fina/lamVabove-ar.medi/lamVabove-ar.init/lamVabove-ar.medi.preAlef/lamVabove-ar.init.preAlef/space/lamDotabove-ar/lamDotabove-ar.fina/lamDotabove-ar.medi/lamDotabove-ar.init/lamDotabove-ar.medi.preAlef/lamDotabove-ar.init.preAlef/space/lamThreedotsabove-ar/lamThreedotsabove-ar.fina/lamThreedotsabove-ar.medi/lamThreedotsabove-ar.init/lamThreedotsabove-ar.medi.preAlef/lamThreedotsabove-ar.init.preAlef/space/lamTahabove-ar/lamTahabove-ar.fina/lamTahabove-ar.medi/lamTahabove-ar.init/lamTahabove-ar.medi.preAlef/lamTahabove-ar.init.preAlef/space/lamThreedotsbelow-ar/lamThreedotsbelow-ar.fina/lamThreedotsbelow-ar.medi/lamThreedotsbelow-ar.init/lamThreedotsbelow-ar.medi.preAlef/lamThreedotsbelow-ar.init.preAlef/space/lamBar-ar/lamBar-ar.fina/lamBar-ar.medi/lamBar-ar.init/lamBar-ar.medi.preAlef/lamBar-ar.init.preAlef 
 /meem-ar/meem-ar.fina/meem-ar.medi/meem-ar.init/meem-ar.sindhi/meem-ar.fina.sindhi/space/meemDotabove-ar/meemDotabove-ar.fina/meemDotabove-ar.medi/meemDotabove-ar.init/meemDotabove-ar.sindhi/meemDotabove-ar.fina.sindhi/space/meemDotbelow-ar/meemDotbelow-ar.fina/meemDotbelow-ar.medi/meemDotbelow-ar.init/meemDotbelow-ar.sindhi/meemDotbelow-ar.fina.sindhi 
 /noon-ar/noon-ar.fina/noon-ar.medi/noon-ar.init/space/noonDotbelow-ar/noonDotbelow-ar.fina/noonDotbelow-ar.medi/noonDotbelow-ar.init/space/noonghunna-ar/noonghunna-ar.fina/noonghunna-ar.medi/noonghunna-ar.init/space/rnoon-ar/rnoon-ar.fina/rnoon-ar.medi/rnoon-ar.init/space/noonRing-ar/noonRing-ar.fina/noonRing-ar.medi/noonRing-ar.init/space/noonThreedotsabove-ar/noonThreedotsabove-ar.fina/noonThreedotsabove-ar.medi/noonThreedotsabove-ar.init/space/noonTwodotsbelow-ar/noonTwodotsbelow-ar.fina/noonTwodotsbelow-ar.medi/noonTwodotsbelow-ar.init/space/noonTahabove-ar/noonTahabove-ar.fina/noonTahabove-ar.medi/noonTahabove-ar.init/space/noonVabove-ar/noonVabove-ar.fina/noonVabove-ar.medi/noonVabove-ar.init 
@@ -124,7 +124,7 @@
 /kirghizoe-ar/kirghizoe-ar.fina/space/oe-ar/oe-ar.fina/space/yu-ar/yu-ar.fina/space/kirghizyu-ar/kirghizyu-ar.fina/space/ve-ar/ve-ar.fina 
 /alefMaksura-ar/alefMaksura-ar.fina/alefMaksura-ar.medi/alefMaksura-ar.init/space/yeh-ar/yeh-ar.fina/yeh-ar.medi/yeh-ar.init/space/yeh-ar.noDots/yeh-ar.noDots.fina/yeh-ar.noDots.medi/yeh-ar.noDots.init/space/yehHamzaabove-ar/yehHamzaabove-ar.fina/yehHamzaabove-ar.medi/yehHamzaabove-ar.init/space/yehVabove-ar/yehVabove-ar.fina/yehVabove-ar.medi/yehVabove-ar.init/space/yehVinverted-farsi/yehVinverted-farsi.fina/yehVinverted-farsi.medi/yehVinverted-farsi.init/space/yeh-farsi/yeh-farsi.fina/yeh-farsi.medi/yeh-farsi.init/space/yehTwodotsabove-farsi/yehTwodotsabove-farsi.fina/yehTwodotsabove-farsi.medi/yehTwodotsabove-farsi.init/space/yehThreedotsabove-farsi/yehThreedotsabove-farsi.fina/yehThreedotsabove-farsi.medi/yehThreedotsabove-farsi.init/space/yehTwoabove-farsi/yehTwoabove-farsi.fina/yehTwoabove-farsi.medi/yehTwoabove-farsi.init/space/yehThreeabove-farsi/yehThreeabove-farsi.fina/yehThreeabove-farsi.medi/yehThreeabove-farsi.init/space/yehFourbelow-farsi/yehFourbelow-farsi.fina/yehFourbelow-farsi.medi/yehFourbelow-farsi.init/space/yehTail-ar/yehTail-ar.fina/space/yehKashmiri-ar/yehKashmiri-ar.fina/yehKashmiri-ar.medi/yehKashmiri-ar.init/space/e-ar/e-ar.fina/e-ar.medi/e-ar.init/space/yehThreedotsbelow-ar/yehThreedotsbelow-ar.fina/yehThreedotsbelow-ar.medi/yehThreedotsbelow-ar.init 
 /yehbarree-ar/yehbarree-ar.fina/space/yehbarreeHamzaabove-ar/yehbarreeHamzaabove-ar.fina/space/yehbarreeTwoabove-ar/yehbarreeTwoabove-ar.fina/yehbarreeTwoabove-ar.medi/yehbarreeTwoabove-ar.init/space/yehbarreeThreeabove-ar/yehbarreeThreeabove-ar.fina/yehbarreeThreeabove-ar.medi/yehbarreeThreeabove-ar.init/space/highhamzaYeh-ar/highhamzaYeh-ar.fina/highhamzaYeh-ar.medi/highhamzaYeh-ar.init 
-/kashida-ar/kashida-ar.haswidth/absAutoKashida/sadabove-ar/ainabove-ar/takhallusabove-ar/tahabove-ar/alefLamYehabove-ar/zainabove-ar/fathasmall-ar/dammasmall-ar/kasrasmall-ar/threedots-ar/wavyhamzabelow-ar/alefabove-ar/alefabove-ar.large/alefbelow-ar/hamzaabove-ar/hamzabelow-ar/fathatan-ar/dammatan-ar/dammatan-ar.sixNine/kasratan-ar/kasratan-ar.lowered/fatha-ar/damma-ar/damma-ar.filled/kasra-ar/kasra-ar.lowered/shadda-ar/sukun-ar/sukun-ar.downOpen/sukun-ar.leftOpen/madda-ar/noonghunnaabove-ar/dammainverted-ar/fathaHorizont-ar/vabove-ar/vinvertedabove-ar/dotvowelbelow-ar/dammareversed-ar/fathatwodots-ar/sadLamAlefMaksuraabove-ar/qafLamAlefMaksuraabove-ar/meemabove-ar/meemStopabove-ar/lamAlefabove-ar/jeemabove-ar/threedotsabove-ar/seenabove-ar/hizb-ar/sukunround-ar/sukunoval-ar/hahabove-ar/seenbelow-ar/maddalong-ar/wawSmall-ar/yehSmall-ar/yehabove-ar/noonabove-ar/sajdah-ar/rhombusStopbelow-ar/rhombusStopabove-ar/dotStopabove-ar/meembelow-ar 
+/kashida-ar/absAutoKashida/sadabove-ar/ainabove-ar/takhallusabove-ar/tahabove-ar/alefLamYehabove-ar/zainabove-ar/fathasmall-ar/dammasmall-ar/kasrasmall-ar/threedots-ar/wavyhamzabelow-ar/alefabove-ar/alefabove-ar.large/alefbelow-ar/hamzaabove-ar/hamzabelow-ar/fathatan-ar/dammatan-ar/dammatan-ar.sixNine/kasratan-ar/kasratan-ar.lowered/fatha-ar/damma-ar/damma-ar.filled/kasra-ar/kasra-ar.lowered/shadda-ar/sukun-ar/sukun-ar.downOpen/sukun-ar.leftOpen/madda-ar/noonghunnaabove-ar/dammainverted-ar/fathaHorizont-ar/vabove-ar/vinvertedabove-ar/dotvowelbelow-ar/dammareversed-ar/fathatwodots-ar/sadLamAlefMaksuraabove-ar/qafLamAlefMaksuraabove-ar/meemabove-ar/meemStopabove-ar/lamAlefabove-ar/jeemabove-ar/threedotsabove-ar/seenabove-ar/hizb-ar/sukunround-ar/sukunoval-ar/hahabove-ar/seenbelow-ar/maddalong-ar/wawSmall-ar/yehSmall-ar/yehabove-ar/noonabove-ar/sajdah-ar/rhombusStopbelow-ar/rhombusStopabove-ar/dotStopabove-ar/meembelow-ar 
 /zero-ar/zero-ar.medium/zero-ar.small/space/one-ar/one-ar.medium/one-ar.small/space/two-ar/two-ar.medium/two-ar.small/space/three-ar/three-ar.medium/three-ar.small/space/four-ar/four-ar.medium/four-ar.small/space/four.dnom/five-ar/five-ar.medium/five-ar.small/space/six-ar/six-ar.medium/six-ar.small/space/seven-ar/seven-ar.medium/seven-ar.small/space/eight-ar/eight-ar.medium/eight-ar.small/space/nine-ar/nine-ar.medium/nine-ar.small 
 /zero-persian/zero-persian.medium/zero-persian.small/space/one-persian/one-persian.medium/one-persian.small/space/two-persian/two-persian.medium/two-persian.small/space/three-persian/three-persian.medium/three-persian.small/space/four-persian/four-persian.medium/four-persian.small/space/four-persian.urdu/four-persian.urdu.medium/four-persian.urdu.small/space/four-persian.roh/four-persian.roh.medium/four-persian.roh.small/space/five-persian/five-persian.medium/five-persian.small/space/six-persian/six-persian.medium/six-persian.small/space/six-persian.urdu/six-persian.urdu.medium/six-persian.urdu.small/space/seven-persian/seven-persian.medium/seven-persian.small/space/seven-persian.urdu/seven-persian.urdu.medium/seven-persian.urdu.small/space/eight-persian/eight-persian.medium/eight-persian.small/space/nine-persian/nine-persian.medium/nine-persian.small 
 /fullstop-ar/comma-ar/comma-ar.downward/semicolon-ar/semicolon-ar.downward/mark-ar/question-ar/percent-ar 
@@ -135,10 +135,9 @@
 /pagenumber-ar/pagenumber-ar.2/pagenumber-ar.3/pagenumber-ar.4 
 /samvat-ar/samvat-ar.2/samvat-ar.3/samvat-ar.4 
 /numbermark-ar/numbermark-ar.2/numbermark-ar.3/numbermark-ar.4 
-/perthousand-ar/pertenthousand-ar/afghani-ar/dateseparator-ar/verseComma-ar/misraComma-ar/sindhiampersand-ar/sindhipostpositionmen-ar 
+/sindhiampersand-ar/sindhipostpositionmen-ar 
 /endofayah-ar/endofayah-ar.2/endofayah-ar.3/endofayah-ar.alt/endofayah-ar.alt.2/endofayah-ar.alt.3/endofayah-ar.altB/endofayah-ar.altB.2/endofayah-ar.altB.3/allah-ar/alef-ar.allah/alef-ar.fina.allah/lam-ar.init.allah1/lam-ar.medi.allah1/lam-ar.medi.allah2/heh-ar.fina.allah/hehgoal-ar.fina.allah/rial/marksidewaysnoonghunna-ar/hamza_fatha-ar/hamza_damma-ar/hamza_damma-ar.filled/shadda_alef-ar/shadda_fathatan-ar/shadda_dammatan-ar/shadda_kasratan-ar/shadda_fatha-ar/shadda_damma-ar/shadda_damma-ar.filled/shadda_kasra-ar</string>
-    <string>/space/space/ainabove-ar/space/space/alefabove-ar/space/space/alefabove-ar.large/space/space/alefbelow-ar/space/space/alefLamYehabove-ar/space/space/space/damma-ar.filled/space/dammainverted-ar/space/dammareversed-ar/space/dammasmall-ar/space/space/dammatan-ar.sixNine/space/space/dotStopabove-ar/space/dotvowelbelow-ar/space/fathaHorizont-ar/space/fathasmall-ar/space/fathatwodots-ar/space/space/hahabove-ar/space/hamza_damma-ar/space/space/hamza_damma-ar.filled/space/space/hamza_fatha-ar/space/space/hamzaabove-ar/space/space/hamzabelow-ar/space/space/space/jeemabove-ar/space/kasra-ar.lowered/space/kasrasmall-ar/space/kasratan-ar.lowered/space/lamAlefabove-ar/space/space/maddalong-ar/space/marksidewaysnoonghunna-ar/space/meemabove-ar/space/meembelow-ar/space/meemStopabove-ar/space/space/noonabove-ar/space/space/space/noonghunnaabove-ar/space/space/qafLamAlefMaksuraabove-ar/space/space/space/rehDadabove-ar/space/space/space/space/rehHahabove-ar/space/space/space/space/space/rhombusStopabove-ar/space/space/space/rhombusStopbelow-ar/space/space/sadabove-ar/space/space/sadLamAlefMaksuraabove-ar/space/space/space/seenabove-ar/space/space/seenbelow-ar/space/space/shadda_alef-ar/space/space/shadda_damma-ar/space/space/shadda_damma-ar.filled/space/space/shadda_dammatan-ar/space/space/shadda_dammatan-ar.sixNine/space/space/shadda_fatha-ar/space/space/shadda_fathatan-ar/space/space/shadda_kasra-ar/space/space/shadda_kasratan-ar/space/space/sukun-ar.downOpen/space/space/sukun-ar.leftOpen/space/sukunoval-ar/space/sukunround-ar/space/tahabove-ar/space/space/space/space/space/takhallusabove-ar/space/space/space/space/threedotsabove-ar/space/space/space/vabove-ar/space/space/vinvertedabove-ar/space/space/wavyhamzabelow-ar/space/space/yehabove-ar/space/space/zainabove-ar/space</string>
-    <string>/approxequal.rtl</string>
+    <string>/sukun-ar.leftOpen</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2930</integer>
@@ -986,6 +985,90 @@
     <string>lamBar-ar.init</string>
     <string>lamBar-ar.medi.preAlef</string>
     <string>lamBar-ar.init.preAlef</string>
+    <string>lam_alef-ar</string>
+    <string>lam_alef-ar.fina</string>
+    <string>lam_alefWavyhamzaabove-ar</string>
+    <string>lam_alefWavyhamzaabove-ar.fina</string>
+    <string>lam_alefWavyhamzabelow-ar</string>
+    <string>lam_alefWavyhamzabelow-ar.fina</string>
+    <string>lam_alefWasla-ar</string>
+    <string>lam_alefWasla-ar.fina</string>
+    <string>lam_alefTwoabove-ar</string>
+    <string>lam_alefTwoabove-ar.fina</string>
+    <string>lam_alefThreeabove-ar</string>
+    <string>lam_alefThreeabove-ar.fina</string>
+    <string>lamBar_alef-ar</string>
+    <string>lamBar_alef-ar-fina</string>
+    <string>lamBar_alefWavyhamzaabove-ar</string>
+    <string>lamBar_alefWavyhamzaabove-ar.fina</string>
+    <string>lamBar_alefWavyhamzabelow-ar</string>
+    <string>lamBar_alefWavyhamzabelow-ar.fina</string>
+    <string>lamBar_alefWasla-ar</string>
+    <string>lamBar_alefWasla-ar.fina</string>
+    <string>lamBar_alefTwoabove-ar</string>
+    <string>lamBar_alefTwoabove-ar.fina</string>
+    <string>lamBar_alefThreeabove-ar</string>
+    <string>lamBar_alefThreeabove-ar.fina</string>
+    <string>lamDotabove_alef-ar</string>
+    <string>lamDotabove_alef-ar.fina</string>
+    <string>lamDotabove_alefWavyhamzaabove-ar</string>
+    <string>lamDotabove_alefWavyhamzaabove-ar.fina</string>
+    <string>lamDotabove_alefWavyhamzabelow-ar</string>
+    <string>lamDotabove_alefWavyhamzabelow-ar.fina</string>
+    <string>lamDotabove_alefWasla-ar</string>
+    <string>lamDotabove_alefWasla-ar.fina</string>
+    <string>lamDotabove_alefTwoabove-ar</string>
+    <string>lamDotabove_alefTwoabove-ar.fina</string>
+    <string>lamDotabove_alefThreeabove-ar</string>
+    <string>lamDotabove_alefThreeabove-ar.fina</string>
+    <string>lamVabove_alef-ar</string>
+    <string>lamVabove_alef-ar.fina</string>
+    <string>lamVabove_alefWavyhamzaabove-ar</string>
+    <string>lamVabove_alefWavyhamzaabove-ar.fina</string>
+    <string>lamVabove_alefWavyhamzabelow-ar</string>
+    <string>lamVabove_alefWavyhamzabelow-ar.fina</string>
+    <string>lamVabove_alefWasla-ar</string>
+    <string>lamVabove_alefWasla-ar.fina</string>
+    <string>lamVabove_alefTwoabove-ar</string>
+    <string>lamVabove_alefTwoabove-ar.fina</string>
+    <string>lamVabove_alefThreeabove-ar</string>
+    <string>lamVabove_alefThreeabove-ar.fina</string>
+    <string>lamThreedotsabove_alef-ar</string>
+    <string>lamThreedotsabove_alef-ar.fina</string>
+    <string>lamThreedotsabove_alefWavyhamzaabove-ar</string>
+    <string>lamThreedotsabove_alefWavyhamzaabove-ar.fina</string>
+    <string>lamThreedotsabove_alefWavyhamzabelow-ar</string>
+    <string>lamThreedotsabove_alefWavyhamzabelow-ar.fina</string>
+    <string>lamThreedotsabove_alefWasla-ar</string>
+    <string>lamThreedotsabove_alefWasla-ar.fina</string>
+    <string>lamThreedotsabove_alefTwoabove-ar</string>
+    <string>lamThreedotsabove_alefTwoabove-ar.fina</string>
+    <string>lamThreedotsabove_alefThreeabove-ar</string>
+    <string>lamThreedotsabove_alefThreeabove-ar.fina</string>
+    <string>lamThreedotsbelow_alef-ar</string>
+    <string>lamThreedotsbelow_alef-ar.fina</string>
+    <string>lamThreedotsbelow_alefWavyhamzaabove-ar</string>
+    <string>lamThreedotsbelow_alefWavyhamzaabove-ar.fina</string>
+    <string>lamThreedotsbelow_alefWavyhamzabelow-ar</string>
+    <string>lamThreedotsbelow_alefWavyhamzabelow-ar.fina</string>
+    <string>lamThreedotsbelow_alefWasla-ar</string>
+    <string>lamThreedotsbelow_alefWasla-ar.fina</string>
+    <string>lamThreedotsbelow_alefTwoabove-ar</string>
+    <string>lamThreedotsbelow_alefTwoabove-ar.fina</string>
+    <string>lamThreedotsbelow_alefThreeabove-ar</string>
+    <string>lamThreedotsbelow_alefThreeabove-ar.fina</string>
+    <string>lamTahabove_alef-ar</string>
+    <string>lamTahabove_alef-ar.fina</string>
+    <string>lamTahabove_alefWavyhamzaabove-ar</string>
+    <string>lamTahabove_alefWavyhamzaabove-ar.fina</string>
+    <string>lamTahabove_alefWavyhamzabelow-ar</string>
+    <string>lamTahabove_alefWavyhamzabelow-ar.fina</string>
+    <string>lamTahabove_alefWasla-ar</string>
+    <string>lamTahabove_alefWasla-ar.fina</string>
+    <string>lamTahabove_alefTwoabove-ar</string>
+    <string>lamTahabove_alefTwoabove-ar.fina</string>
+    <string>lamTahabove_alefThreeabove-ar</string>
+    <string>lamTahabove_alefThreeabove-ar.fina</string>
     <string>meem-ar</string>
     <string>meem-ar.fina</string>
     <string>meem-ar.medi</string>
@@ -2387,6 +2470,90 @@
     <string>lamBar-ar.init</string>
     <string>lamBar-ar.medi.preAlef</string>
     <string>lamBar-ar.init.preAlef</string>
+    <string>lam_alef-ar</string>
+    <string>lam_alef-ar.fina</string>
+    <string>lam_alefWavyhamzaabove-ar</string>
+    <string>lam_alefWavyhamzaabove-ar.fina</string>
+    <string>lam_alefWavyhamzabelow-ar</string>
+    <string>lam_alefWavyhamzabelow-ar.fina</string>
+    <string>lam_alefWasla-ar</string>
+    <string>lam_alefWasla-ar.fina</string>
+    <string>lam_alefTwoabove-ar</string>
+    <string>lam_alefTwoabove-ar.fina</string>
+    <string>lam_alefThreeabove-ar</string>
+    <string>lam_alefThreeabove-ar.fina</string>
+    <string>lamBar_alef-ar</string>
+    <string>lamBar_alef-ar-fina</string>
+    <string>lamBar_alefWavyhamzaabove-ar</string>
+    <string>lamBar_alefWavyhamzaabove-ar.fina</string>
+    <string>lamBar_alefWavyhamzabelow-ar</string>
+    <string>lamBar_alefWavyhamzabelow-ar.fina</string>
+    <string>lamBar_alefWasla-ar</string>
+    <string>lamBar_alefWasla-ar.fina</string>
+    <string>lamBar_alefTwoabove-ar</string>
+    <string>lamBar_alefTwoabove-ar.fina</string>
+    <string>lamBar_alefThreeabove-ar</string>
+    <string>lamBar_alefThreeabove-ar.fina</string>
+    <string>lamDotabove_alef-ar</string>
+    <string>lamDotabove_alef-ar.fina</string>
+    <string>lamDotabove_alefWavyhamzaabove-ar</string>
+    <string>lamDotabove_alefWavyhamzaabove-ar.fina</string>
+    <string>lamDotabove_alefWavyhamzabelow-ar</string>
+    <string>lamDotabove_alefWavyhamzabelow-ar.fina</string>
+    <string>lamDotabove_alefWasla-ar</string>
+    <string>lamDotabove_alefWasla-ar.fina</string>
+    <string>lamDotabove_alefTwoabove-ar</string>
+    <string>lamDotabove_alefTwoabove-ar.fina</string>
+    <string>lamDotabove_alefThreeabove-ar</string>
+    <string>lamDotabove_alefThreeabove-ar.fina</string>
+    <string>lamVabove_alef-ar</string>
+    <string>lamVabove_alef-ar.fina</string>
+    <string>lamVabove_alefWavyhamzaabove-ar</string>
+    <string>lamVabove_alefWavyhamzaabove-ar.fina</string>
+    <string>lamVabove_alefWavyhamzabelow-ar</string>
+    <string>lamVabove_alefWavyhamzabelow-ar.fina</string>
+    <string>lamVabove_alefWasla-ar</string>
+    <string>lamVabove_alefWasla-ar.fina</string>
+    <string>lamVabove_alefTwoabove-ar</string>
+    <string>lamVabove_alefTwoabove-ar.fina</string>
+    <string>lamVabove_alefThreeabove-ar</string>
+    <string>lamVabove_alefThreeabove-ar.fina</string>
+    <string>lamThreedotsabove_alef-ar</string>
+    <string>lamThreedotsabove_alef-ar.fina</string>
+    <string>lamThreedotsabove_alefWavyhamzaabove-ar</string>
+    <string>lamThreedotsabove_alefWavyhamzaabove-ar.fina</string>
+    <string>lamThreedotsabove_alefWavyhamzabelow-ar</string>
+    <string>lamThreedotsabove_alefWavyhamzabelow-ar.fina</string>
+    <string>lamThreedotsabove_alefWasla-ar</string>
+    <string>lamThreedotsabove_alefWasla-ar.fina</string>
+    <string>lamThreedotsabove_alefTwoabove-ar</string>
+    <string>lamThreedotsabove_alefTwoabove-ar.fina</string>
+    <string>lamThreedotsabove_alefThreeabove-ar</string>
+    <string>lamThreedotsabove_alefThreeabove-ar.fina</string>
+    <string>lamThreedotsbelow_alef-ar</string>
+    <string>lamThreedotsbelow_alef-ar.fina</string>
+    <string>lamThreedotsbelow_alefWavyhamzaabove-ar</string>
+    <string>lamThreedotsbelow_alefWavyhamzaabove-ar.fina</string>
+    <string>lamThreedotsbelow_alefWavyhamzabelow-ar</string>
+    <string>lamThreedotsbelow_alefWavyhamzabelow-ar.fina</string>
+    <string>lamThreedotsbelow_alefWasla-ar</string>
+    <string>lamThreedotsbelow_alefWasla-ar.fina</string>
+    <string>lamThreedotsbelow_alefTwoabove-ar</string>
+    <string>lamThreedotsbelow_alefTwoabove-ar.fina</string>
+    <string>lamThreedotsbelow_alefThreeabove-ar</string>
+    <string>lamThreedotsbelow_alefThreeabove-ar.fina</string>
+    <string>lamTahabove_alef-ar</string>
+    <string>lamTahabove_alef-ar.fina</string>
+    <string>lamTahabove_alefWavyhamzaabove-ar</string>
+    <string>lamTahabove_alefWavyhamzaabove-ar.fina</string>
+    <string>lamTahabove_alefWavyhamzabelow-ar</string>
+    <string>lamTahabove_alefWavyhamzabelow-ar.fina</string>
+    <string>lamTahabove_alefWasla-ar</string>
+    <string>lamTahabove_alefWasla-ar.fina</string>
+    <string>lamTahabove_alefTwoabove-ar</string>
+    <string>lamTahabove_alefTwoabove-ar.fina</string>
+    <string>lamTahabove_alefThreeabove-ar</string>
+    <string>lamTahabove_alefThreeabove-ar.fina</string>
     <string>meem-ar</string>
     <string>meem-ar.fina</string>
     <string>meem-ar.medi</string>
@@ -3974,6 +4141,30 @@
     <string>uni076A.medi</string>
     <key>lamBar-ar.medi.preAlef</key>
     <string>uni076A.medi.preAlef</string>
+    <key>lamBar_alef-ar</key>
+    <string>uni076A0627</string>
+    <key>lamBar_alef-ar-fina</key>
+    <string>uni076A0627.fina</string>
+    <key>lamBar_alefThreeabove-ar</key>
+    <string>uni076A0773</string>
+    <key>lamBar_alefThreeabove-ar.fina</key>
+    <string>uni076A0773.fina</string>
+    <key>lamBar_alefTwoabove-ar</key>
+    <string>uni076A0772</string>
+    <key>lamBar_alefTwoabove-ar.fina</key>
+    <string>uni076A0772.fina</string>
+    <key>lamBar_alefWasla-ar</key>
+    <string>uni076A0671</string>
+    <key>lamBar_alefWasla-ar.fina</key>
+    <string>uni076A0671.fina</string>
+    <key>lamBar_alefWavyhamzaabove-ar</key>
+    <string>uni076A0672</string>
+    <key>lamBar_alefWavyhamzaabove-ar.fina</key>
+    <string>uni076A0672.fina</string>
+    <key>lamBar_alefWavyhamzabelow-ar</key>
+    <string>uni076A0673</string>
+    <key>lamBar_alefWavyhamzabelow-ar.fina</key>
+    <string>uni076A0673.fina</string>
     <key>lamDotabove-ar</key>
     <string>uni06B6</string>
     <key>lamDotabove-ar.fina</key>
@@ -3986,6 +4177,30 @@
     <string>uni06B6.medi</string>
     <key>lamDotabove-ar.medi.preAlef</key>
     <string>uni06B6.medi.preAlef</string>
+    <key>lamDotabove_alef-ar</key>
+    <string>uni06B60627</string>
+    <key>lamDotabove_alef-ar.fina</key>
+    <string>uni06B60627.fina</string>
+    <key>lamDotabove_alefThreeabove-ar</key>
+    <string>uni06B60774</string>
+    <key>lamDotabove_alefThreeabove-ar.fina</key>
+    <string>uni06B60774.fina</string>
+    <key>lamDotabove_alefTwoabove-ar</key>
+    <string>uni06B60773</string>
+    <key>lamDotabove_alefTwoabove-ar.fina</key>
+    <string>uni06B60773.fina</string>
+    <key>lamDotabove_alefWasla-ar</key>
+    <string>uni06B60671</string>
+    <key>lamDotabove_alefWasla-ar.fina</key>
+    <string>uni06B60671.fina</string>
+    <key>lamDotabove_alefWavyhamzaabove-ar</key>
+    <string>uni06B60672</string>
+    <key>lamDotabove_alefWavyhamzaabove-ar.fina</key>
+    <string>uni06B60672.fina</string>
+    <key>lamDotabove_alefWavyhamzabelow-ar</key>
+    <string>uni06B60673</string>
+    <key>lamDotabove_alefWavyhamzabelow-ar.fina</key>
+    <string>uni06B60673.fina</string>
     <key>lamTahabove-ar</key>
     <string>uni08C7</string>
     <key>lamTahabove-ar.fina</key>
@@ -3998,6 +4213,30 @@
     <string>uni08C7.medi</string>
     <key>lamTahabove-ar.medi.preAlef</key>
     <string>uni08C7.medi.preAlef</string>
+    <key>lamTahabove_alef-ar</key>
+    <string>uni08C50627</string>
+    <key>lamTahabove_alef-ar.fina</key>
+    <string>uni08C50627.fina</string>
+    <key>lamTahabove_alefThreeabove-ar</key>
+    <string>uni08C50774</string>
+    <key>lamTahabove_alefThreeabove-ar.fina</key>
+    <string>uni08C50774.fina</string>
+    <key>lamTahabove_alefTwoabove-ar</key>
+    <string>uni08C50773</string>
+    <key>lamTahabove_alefTwoabove-ar.fina</key>
+    <string>uni08C50773.fina</string>
+    <key>lamTahabove_alefWasla-ar</key>
+    <string>uni08C50671</string>
+    <key>lamTahabove_alefWasla-ar.fina</key>
+    <string>uni08C50671.fina</string>
+    <key>lamTahabove_alefWavyhamzaabove-ar</key>
+    <string>uni08C50672</string>
+    <key>lamTahabove_alefWavyhamzaabove-ar.fina</key>
+    <string>uni08C50672.fina</string>
+    <key>lamTahabove_alefWavyhamzabelow-ar</key>
+    <string>uni08C50673</string>
+    <key>lamTahabove_alefWavyhamzabelow-ar.fina</key>
+    <string>uni08C50673.fina</string>
     <key>lamThreedotsabove-ar</key>
     <string>uni06B7</string>
     <key>lamThreedotsabove-ar.fina</key>
@@ -4010,6 +4249,30 @@
     <string>uni06B7.medi</string>
     <key>lamThreedotsabove-ar.medi.preAlef</key>
     <string>uni06B7.medi.preAlef</string>
+    <key>lamThreedotsabove_alef-ar</key>
+    <string>uni06B70627</string>
+    <key>lamThreedotsabove_alef-ar.fina</key>
+    <string>uni06B70627.fina</string>
+    <key>lamThreedotsabove_alefThreeabove-ar</key>
+    <string>uni06B70774</string>
+    <key>lamThreedotsabove_alefThreeabove-ar.fina</key>
+    <string>uni06B70774.fina</string>
+    <key>lamThreedotsabove_alefTwoabove-ar</key>
+    <string>uni06B70773</string>
+    <key>lamThreedotsabove_alefTwoabove-ar.fina</key>
+    <string>uni06B70773.fina</string>
+    <key>lamThreedotsabove_alefWasla-ar</key>
+    <string>uni06B70671</string>
+    <key>lamThreedotsabove_alefWasla-ar.fina</key>
+    <string>uni06B70671.fina</string>
+    <key>lamThreedotsabove_alefWavyhamzaabove-ar</key>
+    <string>uni06B70672</string>
+    <key>lamThreedotsabove_alefWavyhamzaabove-ar.fina</key>
+    <string>uni06B70672.fina</string>
+    <key>lamThreedotsabove_alefWavyhamzabelow-ar</key>
+    <string>uni06B70673</string>
+    <key>lamThreedotsabove_alefWavyhamzabelow-ar.fina</key>
+    <string>uni06B70673.fina</string>
     <key>lamThreedotsbelow-ar</key>
     <string>uni06B8</string>
     <key>lamThreedotsbelow-ar.fina</key>
@@ -4022,6 +4285,30 @@
     <string>uni06B8.medi</string>
     <key>lamThreedotsbelow-ar.medi.preAlef</key>
     <string>uni06B8.medi.preAlef</string>
+    <key>lamThreedotsbelow_alef-ar</key>
+    <string>uni06B80627</string>
+    <key>lamThreedotsbelow_alef-ar.fina</key>
+    <string>uni06B80627.fina</string>
+    <key>lamThreedotsbelow_alefThreeabove-ar</key>
+    <string>uni06B80774</string>
+    <key>lamThreedotsbelow_alefThreeabove-ar.fina</key>
+    <string>uni06B80774.fina</string>
+    <key>lamThreedotsbelow_alefTwoabove-ar</key>
+    <string>uni06B80773</string>
+    <key>lamThreedotsbelow_alefTwoabove-ar.fina</key>
+    <string>uni06B80773.fina</string>
+    <key>lamThreedotsbelow_alefWasla-ar</key>
+    <string>uni06B80671</string>
+    <key>lamThreedotsbelow_alefWasla-ar.fina</key>
+    <string>uni06B80671.fina</string>
+    <key>lamThreedotsbelow_alefWavyhamzaabove-ar</key>
+    <string>uni06B80672</string>
+    <key>lamThreedotsbelow_alefWavyhamzaabove-ar.fina</key>
+    <string>uni06B80672.fina</string>
+    <key>lamThreedotsbelow_alefWavyhamzabelow-ar</key>
+    <string>uni06B80673</string>
+    <key>lamThreedotsbelow_alefWavyhamzabelow-ar.fina</key>
+    <string>uni06B80673.fina</string>
     <key>lamVabove-ar</key>
     <string>uni06B5</string>
     <key>lamVabove-ar.fina</key>
@@ -4034,6 +4321,54 @@
     <string>uni06B5.medi</string>
     <key>lamVabove-ar.medi.preAlef</key>
     <string>uni06B5.medi.preAlef</string>
+    <key>lamVabove_alef-ar</key>
+    <string>uni06B50627</string>
+    <key>lamVabove_alef-ar.fina</key>
+    <string>uni06B50627.fina</string>
+    <key>lamVabove_alefThreeabove-ar</key>
+    <string>uni06B50674</string>
+    <key>lamVabove_alefThreeabove-ar.fina</key>
+    <string>uni06B50674.fina</string>
+    <key>lamVabove_alefTwoabove-ar</key>
+    <string>uni06B50773</string>
+    <key>lamVabove_alefTwoabove-ar.fina</key>
+    <string>uni06B50773.fina</string>
+    <key>lamVabove_alefWasla-ar</key>
+    <string>uni06B50671</string>
+    <key>lamVabove_alefWasla-ar.fina</key>
+    <string>uni06B50671.fina</string>
+    <key>lamVabove_alefWavyhamzaabove-ar</key>
+    <string>uni06B50672</string>
+    <key>lamVabove_alefWavyhamzaabove-ar.fina</key>
+    <string>uni06B50672.fina</string>
+    <key>lamVabove_alefWavyhamzabelow-ar</key>
+    <string>uni06B50673</string>
+    <key>lamVabove_alefWavyhamzabelow-ar.fina</key>
+    <string>uni06B50673.fina</string>
+    <key>lam_alef-ar</key>
+    <string>uni06440627</string>
+    <key>lam_alef-ar.fina</key>
+    <string>uni06440627.fina</string>
+    <key>lam_alefThreeabove-ar</key>
+    <string>uni06440774</string>
+    <key>lam_alefThreeabove-ar.fina</key>
+    <string>uni06440774.fina</string>
+    <key>lam_alefTwoabove-ar</key>
+    <string>uni06440773</string>
+    <key>lam_alefTwoabove-ar.fina</key>
+    <string>uni06440773.fina</string>
+    <key>lam_alefWasla-ar</key>
+    <string>uni06440671</string>
+    <key>lam_alefWasla-ar.fina</key>
+    <string>uni06440671.fina</string>
+    <key>lam_alefWavyhamzaabove-ar</key>
+    <string>uni06440672</string>
+    <key>lam_alefWavyhamzaabove-ar.fina</key>
+    <string>uni06440672.fina</string>
+    <key>lam_alefWavyhamzabelow-ar</key>
+    <string>uni06440673</string>
+    <key>lam_alefWavyhamzabelow-ar.fina</key>
+    <string>uni06440673.fina</string>
     <key>lefttorightembedding</key>
     <string>uni202A</string>
     <key>lefttorightisolate</key>

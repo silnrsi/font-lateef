@@ -6,7 +6,7 @@
   <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="lam-ar.medi"/>
-    <component base="_smallV" xOffset="168" yOffset="1333"/>
+    <component base="_smallV" xOffset="148" yOffset="1281"/>
   </outline>
   <lib>
     <dict>

@@ -2,11 +2,11 @@
 <glyph name="lam-ar" format="2">
   <advance width="690"/>
   <unicode hex="0644"/>
-  <anchor x="529" y="1413" name="above"/>
-  <anchor x="306" y="975" name="alef"/>
-  <anchor x="519" y="-10" name="below"/>
+  <anchor x="531" y="1460" name="above"/>
+  <anchor x="308" y="995" name="alef"/>
+  <anchor x="521" y="-10" name="below"/>
   <anchor x="349" y="1422" name="diaA"/>
-  <anchor x="219" y="-202" name="diaB"/>
+  <anchor x="221" y="-200" name="diaB"/>
   <anchor x="572" y="760" name="through"/>
   <outline>
     <contour>
@@ -38,4 +38,10 @@
     </contour>
     <component base="_strokeHead" xOffset="298" yOffset="1047"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

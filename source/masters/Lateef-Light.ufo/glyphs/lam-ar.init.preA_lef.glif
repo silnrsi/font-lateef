@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam-ar.init.preAlef" format="2">
   <advance width="384"/>
-  <anchor x="195" y="1164" name="above"/>
+  <anchor x="175" y="1113" name="above"/>
   <anchor x="-13" y="814" name="alef"/>
   <anchor x="123" y="-202" name="below"/>
-  <anchor x="84" y="1170" name="diaA"/>
-  <anchor x="125" y="-300" name="diaB"/>
+  <anchor x="75" y="1123" name="diaA"/>
+  <anchor x="125" y="-250" name="diaB"/>
   <anchor x="-2" y="0" name="exit"/>
   <anchor x="216" y="648" name="through"/>
   <outline>
@@ -46,6 +46,8 @@
           <string>_strokeHead</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
