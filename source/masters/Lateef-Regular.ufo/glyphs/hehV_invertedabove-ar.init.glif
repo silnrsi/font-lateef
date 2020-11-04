@@ -6,12 +6,12 @@
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="hehDoachashmee-ar.init"/>
-    <component base="_invSmallV" xOffset="242" yOffset="925"/>
+    <component base="_invSmallV" xOffset="202" yOffset="875"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

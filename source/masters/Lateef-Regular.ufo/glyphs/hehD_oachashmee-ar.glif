@@ -2,10 +2,10 @@
 <glyph name="hehDoachashmee-ar" format="2">
   <advance width="741"/>
   <unicode hex="06BE"/>
-  <anchor x="352" y="759" name="above"/>
-  <anchor x="40" y="790" name="alef"/>
+  <anchor x="372" y="704" name="above"/>
+  <anchor x="220" y="790" name="alef"/>
   <anchor x="194" y="-48" name="below"/>
-  <anchor x="327" y="824" name="diaA"/>
+  <anchor x="347" y="844" name="diaA"/>
   <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <contour>
@@ -27,14 +27,11 @@
       <point x="480" y="368"/>
       <point x="480" y="341" type="curve" smooth="yes"/>
       <point x="480" y="259"/>
-      <point x="276" y="80"/>
-      <point x="-40" y="17" type="curve"/>
-      <point x="-39" y="2" type="line"/>
-      <point x="20" y="-10"/>
-      <point x="74" y="-15"/>
-      <point x="123" y="-15" type="curve" smooth="yes"/>
-      <point x="397" y="-15"/>
-      <point x="520" y="148"/>
+      <point x="216" y="70"/>
+      <point x="-100" y="7" type="curve"/>
+      <point x="-99" y="-8" type="line"/>
+      <point x="213" y="-8"/>
+      <point x="520" y="36"/>
       <point x="520" y="346" type="curve" smooth="yes"/>
       <point x="520" y="370"/>
       <point x="496" y="553"/>
@@ -52,4 +49,10 @@
       <point x="689" y="473"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

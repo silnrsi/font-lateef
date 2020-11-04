@@ -6,12 +6,12 @@
   <anchor x="288" y="-454" name="diaB"/>
   <outline>
     <component base="heh-ar.fina.knottedHigh"/>
-    <component base="_invSmallV" xOffset="492" yOffset="856"/>
+    <component base="_invSmallV" xOffset="422" yOffset="987"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

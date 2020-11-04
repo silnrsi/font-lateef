@@ -4,8 +4,8 @@
   <unicode hex="06D5"/>
   <anchor x="207" y="688" name="above"/>
   <anchor x="244" y="-52" name="below"/>
-  <anchor x="184" y="830" name="diaA"/>
-  <anchor x="184" y="-202" name="diaB"/>
+  <anchor x="237" y="820" name="diaA"/>
+  <anchor x="204" y="-200" name="diaB"/>
   <outline>
     <contour>
       <point x="202" y="500" type="curve"/>
@@ -38,4 +38,10 @@
       <point x="150" y="436"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

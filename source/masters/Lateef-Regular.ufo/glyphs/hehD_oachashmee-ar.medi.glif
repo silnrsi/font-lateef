@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehDoachashmee-ar.medi" format="2">
   <advance width="698"/>
-  <anchor x="430" y="686" name="above"/>
+  <anchor x="430" y="636" name="above"/>
   <anchor x="149" y="637" name="alef"/>
   <anchor x="310" y="-370" name="below"/>
   <anchor x="310" y="712" name="diaA"/>
@@ -76,4 +76,10 @@
       <point x="315" y="417"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
