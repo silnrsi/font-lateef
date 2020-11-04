@@ -1,6 +1,5 @@
 #!/bin/bash
 COMP_DEFS=composites.txt
-# MASTER_DIR=source/masters
 
 echo
 echo "Rebuilding composites..."
@@ -25,10 +24,13 @@ build_one() {
 		exit
 	fi
 
+	# docs: https://github.com/silnrsi/pysilfont/blob/master/docs/scripts.md#psfbuildcomp
+	# colors: unchanged, changed, new glyphs
+		# --colors="none" \
 	psfbuildcomp \
 		-p scrlevel=w \
 		--noflatten \
-		--color \
+		--colors="leave,g_light_blue,g_pink" \
 		--remove '_?(above|aboveLeft|below|center|ring|through)$' \
 		--preserve 'dia[AB]|alef$' \
 		-i "$COMP_DEFS" "$SOURCE_UFO" "$TARGET_UFO"

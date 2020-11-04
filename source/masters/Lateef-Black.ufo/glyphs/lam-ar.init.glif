@@ -35,10 +35,4 @@
     </contour>
     <component base="_strokeHead" xOffset="-40" yOffset="779"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>
