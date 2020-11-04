@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meem-ar.fina" format="2">
   <advance width="535"/>
-  <anchor x="392" y="401" name="above"/>
+  <anchor x="332" y="301" name="above"/>
   <anchor x="185" y="532" name="alef"/>
-  <anchor x="402" y="-170" name="below"/>
+  <anchor x="322" y="-140" name="below"/>
   <anchor x="377" y="535" name="diaA"/>
   <anchor x="130" y="-636" name="diaB"/>
   <outline>
@@ -48,4 +48,10 @@
       <point x="92" y="-377"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

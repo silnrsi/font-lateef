@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meem-ar.medi" format="2">
   <advance width="694"/>
-  <anchor x="303" y="439" name="above"/>
+  <anchor x="303" y="529" name="above"/>
   <anchor x="125" y="684" name="alef"/>
   <anchor x="303" y="-89" name="below"/>
   <anchor x="303" y="700" name="diaA"/>
@@ -56,4 +56,10 @@
       <point x="233" y="217"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
