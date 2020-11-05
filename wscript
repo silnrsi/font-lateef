@@ -28,7 +28,7 @@ generated = 'generated/'
 #   --regOnly  - build just Lateef-Regular
 opts = preprocess_args({'opt': '--autohint'}, {'opt': '--rename'}, {'opt': '--regOnly'})
 
-cmds = [ ]
+cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx'])]
 if '--rename' in opts: ## ToDo:  change to --norename when we're far enough along
     cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo']))
 if '--autohint' in opts:
