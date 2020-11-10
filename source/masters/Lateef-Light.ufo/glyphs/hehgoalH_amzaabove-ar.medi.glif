@@ -6,7 +6,7 @@
   <anchor x="227" y="-867" name="diaB"/>
   <outline>
     <component base="hehgoal-ar.medi"/>
-    <component base="_hamza" xOffset="513" yOffset="724"/>
+    <component base="_hamza" xOffset="513" yOffset="574"/>
   </outline>
   <lib>
     <dict>
@@ -30,7 +30,7 @@
         </dict>
       </array>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

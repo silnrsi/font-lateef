@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehgoalHamzaabove-ar.init" format="2">
-  <advance width="353"/>
+  <advance width="360"/>
   <anchor x="149" y="1033" name="diaA"/>
   <anchor x="170" y="-563" name="diaB"/>
   <outline>
     <component base="hehgoal-ar.init"/>
-    <component base="_hamza" xOffset="201" yOffset="719"/>
+    <component base="_hamza" xOffset="201" yOffset="729"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>
