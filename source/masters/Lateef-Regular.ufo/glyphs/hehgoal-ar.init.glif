@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehgoal-ar.init" format="2">
-  <advance width="353"/>
-  <anchor x="185" y="507" name="above"/>
+  <advance width="360"/>
+  <anchor x="185" y="517" name="above"/>
   <anchor x="162" y="697" name="diaA"/>
   <anchor x="170" y="-563" name="diaB"/>
   <outline>
     <component base="_hook" xOffset="222" yOffset="-256"/>
     <component base="behDotless-ar.init"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
