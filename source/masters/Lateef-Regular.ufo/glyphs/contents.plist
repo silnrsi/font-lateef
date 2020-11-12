@@ -170,6 +170,8 @@
   <string>_absS_washK_af.glif</string>
   <key>_bar</key>
   <string>_bar.glif</string>
+  <key>_bar_horiz</key>
+  <string>_bar_horiz.glif</string>
   <key>_baseline_135</key>
   <string>_baseline_135.glif</string>
   <key>_baseline_70</key>
@@ -1418,8 +1420,12 @@
   <string>khah-ar.medi.glif</string>
   <key>kirghizoe-ar</key>
   <string>kirghizoe-ar.glif</string>
+  <key>kirghizoe-ar.bar</key>
+  <string>kirghizoe-ar.bar.glif</string>
   <key>kirghizoe-ar.fina</key>
   <string>kirghizoe-ar.fina.glif</string>
+  <key>kirghizoe-ar.fina.bar</key>
+  <string>kirghizoe-ar.fina.bar.glif</string>
   <key>kirghizyu-ar</key>
   <string>kirghizyu-ar.glif</string>
   <key>kirghizyu-ar.fina</key>

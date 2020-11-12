@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kirghizoe-ar.bar" format="2">
+  <advance width="569"/>
+  <anchor x="95" y="694" name="alef"/>
+  <anchor x="313" y="697" name="diaA"/>
+  <anchor x="142" y="-425" name="diaB"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="_bar_horiz" xOffset="398" yOffset="-81"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

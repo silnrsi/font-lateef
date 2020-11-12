@@ -6,6 +6,8 @@
   <string>_absS_washK_af.glif</string>
   <key>_bar</key>
   <string>_bar.glif</string>
+  <key>_bar_horiz</key>
+  <string>_bar_horiz.glif</string>
   <key>_bowl_seen</key>
   <string>_bowl_seen.glif</string>
   <key>_damma</key>
@@ -290,6 +292,10 @@
   <string>kehehT_wodotshorizontalabove-ar.glif</string>
   <key>kehehTwodotshorizontalabove-ar.fina</key>
   <string>kehehT_wodotshorizontalabove-ar.fina.glif</string>
+  <key>kirghizoe-ar</key>
+  <string>kirghizoe-ar.glif</string>
+  <key>kirghizoe-ar.fina</key>
+  <string>kirghizoe-ar.fina.glif</string>
   <key>lam-ar.fina</key>
   <string>lam-ar.fina.glif</string>
   <key>lam-ar.init</key>
