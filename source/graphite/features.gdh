@@ -286,6 +286,7 @@ sindhi {
     hehAlt = sindhi;
     easternDigits = sindhi;
     shaddaKasra = lowered;
+    commaAlt = down;
 };
 
 urdu {

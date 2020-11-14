@@ -37,6 +37,7 @@
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {SindhiCALT}"/>	
 			<cmd name="gr_feat" args="{gr_cv44} 1"/>	 <!-- meem alternates -->
 			<cmd name="gr_feat" args="{gr_cv82} 1"/>	 <!-- eastern digits -->
+			<cmd name="gr_feat" args="{gr_cv84} 1"/>	 <!-- comma downward -->
 		</value>
 		<value name="Urdu" tag="Urd">
 			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
