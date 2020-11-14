@@ -66,7 +66,6 @@ ageToFlag = 13.0
 ageColor = "#FFC8A0"      # light orange -- marks if there is a char from above Unicode version or later
 missingColor = "#FFE0E0"  # light red -- mark if a char is missing from UFO
 
-
 def doit(args):
     logger = args.logger
 
@@ -171,7 +170,7 @@ def doit(args):
                     ftml.clearFeatures()
                 ftml.clearBackground()
 
-        # Add low-hamza combinations
+        # Add low-hamza combinations manually
         ftml.startTestGroup('Low-hamza combinations')
         for base in (0x0647, 0x064A, 0x06C1, 0X06D5, ):
             for featlist in builder.permuteFeatures(uids=(base, 0x0654)):
@@ -180,7 +179,6 @@ def doit(args):
                 builder.render((base, 0x0654), ftml)
                 ftml.closeTest()
             ftml.clearFeatures()
-
 
         # Add Allah data manually
         ftml.startTestGroup('Allah ligatures')
@@ -321,7 +319,7 @@ def doit(args):
 
         ftml.startTestGroup('Special cases')
         builder.render((0x064A, 0x064E), ftml)   # Yeh + Fatha should keep dots
-        builder.render((0x064A, 0x0654), ftml)   # Yeh + Hamza should loose dots
+        builder.render((0x064A, 0x0654), ftml)   # Yeh + Hamza should lose dots
         ftml.closeTest()
 
         ftml.startTestGroup('LamAlef ligatures')
@@ -691,7 +689,7 @@ def doit(args):
             ('cv78', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x0652,), 'Sukun alternates'),
             ('cv80', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x06DD,), 'Ayah alternates'),
             ('cv82', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x06F4, 0x06F6, 0x06F7, 0x0020, 0x06DD, 0x06F4, 0x06F6, 0x06F7), 'Eastern Digit alternates'),
-            ('cv84', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x060C,), 'Comma alternates'),
+            ('cv84', {'sd': 0, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x060C, 0x061B), 'Comma alternates'),
         ))
 
         ftml._fxml.head.comment = 'In this test, the comment column indicates whether the feature is expected to ' \

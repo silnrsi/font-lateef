@@ -1420,39 +1420,49 @@ U+06F7" rtl="True" stylename="rhg_cv80_2_cv82_4">
     </test>
   </testgroup>
   <testgroup label="cv84 Comma alternates">
-    <test label="U+060C" rtl="True">
-      <string>\u00060C</string>
+    <test label="U+060C
+U+061B" rtl="True">
+      <string>\u00060C\u00061B</string>
     </test>
-    <test label="U+060C" rtl="True" stylename="cv84_1">
-      <string>\u00060C</string>
+    <test label="U+060C
+U+061B" rtl="True" stylename="cv84_1">
+      <string>\u00060C\u00061B</string>
     </test>
-    <test label="U+060C" rtl="True" stylename="sd">
-      <string>\u00060C</string>
+    <test label="U+060C
+U+061B" rtl="True" stylename="sd">
+      <string>\u00060C\u00061B</string>
     </test>
-    <test label="U+060C" rtl="True" stylename="sd_cv84_1">
+    <test label="U+060C
+U+061B" rtl="True" stylename="sd_cv84_1">
+      <comment>No</comment>
+      <string>\u00060C\u00061B</string>
+    </test>
+    <test label="U+060C
+U+061B" rtl="True" stylename="ur">
+      <string>\u00060C\u00061B</string>
+    </test>
+    <test label="U+060C
+U+061B" rtl="True" stylename="ur_cv84_1">
       <comment>Yes</comment>
-      <string>\u00060C</string>
+      <string>\u00060C\u00061B</string>
     </test>
-    <test label="U+060C" rtl="True" stylename="ur">
-      <string>\u00060C</string>
+    <test label="U+060C
+U+061B" rtl="True" stylename="ku">
+      <string>\u00060C\u00061B</string>
     </test>
-    <test label="U+060C" rtl="True" stylename="ur_cv84_1">
+    <test label="U+060C
+U+061B" rtl="True" stylename="ku_cv84_1">
       <comment>Yes</comment>
-      <string>\u00060C</string>
+      <string>\u00060C\u00061B</string>
     </test>
-    <test label="U+060C" rtl="True" stylename="ku">
-      <string>\u00060C</string>
+    <test label="U+060C
+U+061B" rtl="True" stylename="rhg">
+      <string>\u00060C\u00061B</string>
     </test>
-    <test label="U+060C" rtl="True" stylename="ku_cv84_1">
+    <test label="U+060C
+U+061B" rtl="True" stylename="rhg_cv84_1">
       <comment>Yes</comment>
-      <string>\u00060C</string>
-    </test>
-    <test label="U+060C" rtl="True" stylename="rhg">
-      <string>\u00060C</string>
-    </test>
-    <test label="U+060C" rtl="True" stylename="rhg_cv84_1">
-      <comment>Yes</comment>
-      <string>\u00060C</string>
+      <string>\u00060C\u00061B</string>
     </test>
   </testgroup>
 </ftml>
