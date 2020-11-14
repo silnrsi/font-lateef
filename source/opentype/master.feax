@@ -461,6 +461,9 @@ lookup UrduHeh {
     sub heh-ar.init by heh-ar.init.hooked ;
     sub heh-ar.medi by heh-ar.medi.hooked ;
     sub heh-ar.fina by heh-ar.fina.hooked ;
+    # In case Lang=Kurdish set:
+    sub heh-ar.knotted by heh-ar;
+    sub heh-ar.fina.knottedHigh by heh-ar.fina.hooked ;
 } UrduHeh;
 
 lookup KurdishHeh {

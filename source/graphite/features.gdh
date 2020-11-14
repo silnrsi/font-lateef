@@ -291,9 +291,11 @@ sindhi {
 
 urdu {
     languages = ( "urd", "ur" ); // Urdu
-    hehAlt = urdu;
     easternDigits = urdu;
     shaddaKasra = lowered;
+
+    // hehAlt = urdu; // removed
+
 };
 
 
