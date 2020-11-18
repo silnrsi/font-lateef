@@ -30,7 +30,7 @@ build_one() {
 	psfbuildcomp \
 		-p scrlevel=w \
 		--noflatten \
-		--colors="leave,g_light_blue,g_pink" \
+		--colors="leave,g_cyan,g_pink" \
 		--remove '_?(above|aboveLeft|below|center|ring|through)$' \
 		--preserve 'dia[AB]|alef$' \
 		-i "$COMP_DEFS" "$SOURCE_UFO" "$TARGET_UFO"
