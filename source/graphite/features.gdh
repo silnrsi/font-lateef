@@ -72,6 +72,38 @@ hehAlt {
     default = std;
 }
 
+KyrgyzOeAlt {
+    id = "cv51";
+    name.1033 = string("Kyrgyz OE");
+    settings {
+        loop {
+            value = 0;
+            name.1033 = string("Loop");
+        }
+        bar {
+            value = 1;
+            name.1033 = string("Bar");
+        }
+    }
+    default = loop;
+}
+
+yehHamzaAlt {
+    id = "cv54";
+    name.1033 = string("Yeh Hamza Alt");
+    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        Kyrgyz {
+            value = 1;
+            name.1033 = string("Right hamza");
+        }
+    }
+    default = std;
+}
+
 
 shaddaKasra {
     id = "cv62";
@@ -268,6 +300,11 @@ kurdish {
     	"sdh"	// Southern Kurdish/Sorani
     );
     hehAlt = kurdish;
+};
+
+kyrgyz {
+	languages = ( "kir", "ky" );  // Kirghiz / Kyrgyz
+	yehHamzaAlt = Kyrgyz;
 };
 
 rohingya {

@@ -16,6 +16,7 @@
       <style feats="'cv54' 1" name="cv54_1"/>
       <style feats="'cv84' 1" name="cv84_1"/>
       <style lang="ku" name="ku"/>
+      <style lang="ky" name="ky"/>
       <style lang="rhg" name="rhg"/>
       <style lang="sd" name="sd"/>
       <style lang="ur" name="ur"/>
@@ -210,6 +211,10 @@
       <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
     </test>
     <test label="U+0626" stylename="rhg">
+      <comment>yehHamzaabove-ar</comment>
+      <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
+    </test>
+    <test label="U+0626" stylename="ky">
       <comment>yehHamzaabove-ar</comment>
       <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
     </test>
@@ -661,6 +666,10 @@
       <comment>heh-ar</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 \u000647\u000647\u000647 </string>
     </test>
+    <test label="U+0647" stylename="ky">
+      <comment>heh-ar</comment>
+      <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 \u000647\u000647\u000647 </string>
+    </test>
     <test label="U+06C1">
       <comment>hehgoal-ar</comment>
       <string>\u0006C1 \u0006C1\u00200D \u00200D\u0006C1\u00200D \u00200D\u0006C1 \u0006C1\u0006C1\u0006C1 </string>
@@ -745,6 +754,10 @@
       <comment>meem-ar</comment>
       <string>\u000645 \u000645\u00200D \u00200D\u000645\u00200D \u00200D\u000645 \u000645\u000645\u000645 </string>
     </test>
+    <test label="U+0645" stylename="ky">
+      <comment>meem-ar</comment>
+      <string>\u000645 \u000645\u00200D \u00200D\u000645\u00200D \u00200D\u000645 \u000645\u000645\u000645 </string>
+    </test>
     <test label="U+0765">
       <comment>meemDotabove-ar</comment>
       <string>\u000765 \u000765\u00200D \u00200D\u000765\u00200D \u00200D\u000765 \u000765\u000765\u000765 </string>
@@ -769,6 +782,10 @@
       <comment>meemDotabove-ar</comment>
       <string>\u000765 \u000765\u00200D \u00200D\u000765\u00200D \u00200D\u000765 \u000765\u000765\u000765 </string>
     </test>
+    <test label="U+0765" stylename="ky">
+      <comment>meemDotabove-ar</comment>
+      <string>\u000765 \u000765\u00200D \u00200D\u000765\u00200D \u00200D\u000765 \u000765\u000765\u000765 </string>
+    </test>
     <test label="U+0766">
       <comment>meemDotbelow-ar</comment>
       <string>\u000766 \u000766\u00200D \u00200D\u000766\u00200D \u00200D\u000766 \u000766\u000766\u000766 </string>
@@ -790,6 +807,10 @@
       <string>\u000766 \u000766\u00200D \u00200D\u000766\u00200D \u00200D\u000766 \u000766\u000766\u000766 </string>
     </test>
     <test label="U+0766" stylename="rhg">
+      <comment>meemDotbelow-ar</comment>
+      <string>\u000766 \u000766\u00200D \u00200D\u000766\u00200D \u00200D\u000766 \u000766\u000766\u000766 </string>
+    </test>
+    <test label="U+0766" stylename="ky">
       <comment>meemDotbelow-ar</comment>
       <string>\u000766 \u000766\u00200D \u00200D\u000766\u00200D \u00200D\u000766 \u000766\u000766\u000766 </string>
     </test>
@@ -970,6 +991,26 @@
       <string>\u00061B</string>
     </test>
     <test label="U+061B" stylename="cv84_1">
+      <comment>semicolon-ar</comment>
+      <string>\u00061B</string>
+    </test>
+    <test label="U+061B" stylename="sd">
+      <comment>semicolon-ar</comment>
+      <string>\u00061B</string>
+    </test>
+    <test label="U+061B" stylename="ur">
+      <comment>semicolon-ar</comment>
+      <string>\u00061B</string>
+    </test>
+    <test label="U+061B" stylename="ku">
+      <comment>semicolon-ar</comment>
+      <string>\u00061B</string>
+    </test>
+    <test label="U+061B" stylename="rhg">
+      <comment>semicolon-ar</comment>
+      <string>\u00061B</string>
+    </test>
+    <test label="U+061B" stylename="ky">
       <comment>semicolon-ar</comment>
       <string>\u00061B</string>
     </test>

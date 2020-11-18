@@ -17,6 +17,7 @@
 
 languagesystem arab dflt ;
 languagesystem arab KUR  ;    # Kurdish
+languagesystem arab KIR  ;    # Kyrgyz
 languagesystem arab RHG  ;    # Rohingya -- supported by Harfbuzz
 languagesystem arab SND  ;    # Sindhi
 languagesystem arab URD  ;    # Urdu
@@ -400,6 +401,11 @@ lookup KurdishCALT {
     sub heh-ar by heh-ar.knotted ;
 } KurdishCALT;
 
+##TODO: lookup KyrgyzCALT {
+##TODO:     lookupflag 0;
+##TODO:       sub @cno_loclKIR  by  @c_loclKIR ;
+##TODO: } KyrgyzCALT;
+
 lookup RohingyaCALT {
   lookupflag 0 ;
     sub four-persian by four-persian.roh ;
@@ -484,6 +490,26 @@ lookup HehAlternates {
     sub heh-ar.fina.knottedHigh from   [ heh-ar.fina.knottedHigh heh-ar.fina.hooked heh-ar.fina.knottedHigh ] ;
     
 } HehAlternates;
+
+#********************
+# KyrgyzOeAlternates: cv51
+
+lookup KyrgyzOeAlternates {
+    lookupflag 0;
+        sub @cno_bar  by  @c_bar;
+} KyrgyzOeAlternates;
+
+#********************
+# YehHamzaAlternates: cv54
+
+##TODO: lookup YehHamzaAlternates {
+##TODO:     lookupflag 0;
+                # Impacts only isolate and final forms
+##TODO:         sub yehHamzaabove-ar       by  yehHamzaabove-ar.loclKIR;
+##TODO:         sub yehHamzaabove-ar.fina  by  yehHamzaabove-ar.fina.loclKIR;
+##TODO: } YehHamzaAlternates;
+
+
 
 
 #********************
@@ -850,6 +876,8 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup KasraLow ;
     script arab;  # Arabic
         lookup DecomposeForColor;
+      language KIR  ;
+        lookup KasraLow ;
       language KUR  ;
       	# Kurdish uses raised kasra
       language RHG  ;
@@ -872,6 +900,7 @@ feature fina {  # Terminal Forms
     script arab;  # Arabic
         lookup ltrFina;
       # Force other languages to include Arabic script lookups
+      language KIR  ;
       language KUR  ;
       language RHG  ;
       language SND  ;
@@ -885,6 +914,7 @@ feature medi {  # Medial Forms
     script arab;  # Arabic
         lookup ltrMedi;
       # Force other languages to include Arabic script lookups
+      language KIR  ;
       language KUR  ;
       language RHG  ;
       language SND  ;
@@ -898,6 +928,7 @@ feature init {  # Initial Forms
     script arab;  # Arabic
         lookup ltrInit;
       # Force other languages to include Arabic script lookups
+      language KIR  ;
       language KUR  ;
       language RHG  ;
       language SND  ;
@@ -915,6 +946,7 @@ feature rlig {  # Required Ligatures
         lookup ComposeLowHamzaAbove;
         lookup HamzaLigatures;
       # Force other languages to include Arabic script lookups
+      language KIR  ;
       language KUR  ;
       language RHG  ;
       language SND  ;
@@ -932,6 +964,8 @@ feature calt {  # Contextual Alternates
     script arab;  # Arabic
       language dflt ;   # Must have a lookup here for TypeTuner to work.
         lookup dfltCALT ;
+##TODO:      language KIR ; # Kyrgyz
+##TODO:      	lookup KyrgyzCALT ;
       language KUR ; # Kurdish
         lookup KurdishCALT ;
       language RHG ; # Rohingya
@@ -954,6 +988,7 @@ feature salt {  # Stylistic Alternates
     script arab;  # Arabic
         lookup AyahAlternates;
       # Force other languages to include Arabic script lookups
+      language KIR  ;
       language KUR  ;
       language RHG  ;
       language SND  ;
@@ -965,6 +1000,8 @@ feature cv44 {  # Character Variant 44
     script arab;  # Arabic
         lookup MeemAlternate;
       # Force other languages to include Arabic script lookups
+      language KIR  ;
+      language KUR  ;
       language KUR  ;
       # language SND  ;  But not this one since we enable it in SindhiCALT
       language RHG  ;
@@ -981,6 +1018,8 @@ feature cv48 {  # Character Variant 48
     script arab;  # Arabic
         lookup HehAlternates;
       # Force other languages to include Arabic script lookups
+      language KIR  ;
+      language KUR  ;
       language KUR  ;
       language SND  ;
       language RHG  ;
@@ -994,6 +1033,43 @@ feature cv48 {  # Character Variant 48
         ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"  ; };
     } ;
 } cv48 ;
+
+feature cv51 {  # Character Variant 51
+    script arab;  # Arabic
+        lookup KyrgyzOeAlternates;
+      # Force other languages to include Arabic script lookups
+      language KIR  ;
+      language KUR  ;
+      language KUR  ;
+      language SND  ;
+      language RHG  ;
+      language URD  ;
+#      language WLF  ;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Kyrgyz OE" ; };
+       #ParamUILabelNameID { name 3 1 0x0409 "Loop" ; };
+       #ParamUILabelNameID { name 3 1 0x0409 "Bar"   ; };
+    } ;
+} cv51 ;
+
+##TODO feature cv54 {  # Character Variant 54
+##TODO     script arab;  # Arabic
+##TODO      lookup YehHamzaAlternates;
+##TODO      # Force other languages to include Arabic script lookups
+##TODO      language KIR  ;
+##TODO      language KUR  ;
+##TODO      language KUR  ;
+##TODO      language SND  ;
+##TODO      language RHG  ;
+##TODO      language URD  ;
+##TODO#      language WLF  ;
+##TODO     cvParameters {
+##TODO         FeatUILabelNameID  { name 3 1 0x0409 "Yeh-Hamza" ; };
+##TODO        #ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+##TODO        #ParamUILabelNameID { name 3 1 0x0409 "Right hamza"   ; };
+##TODO     } ;
+##TODO } cv54 ;
+
 
 feature cv62 {  # Character Variant 62
     # Same for latin & arabic:
@@ -1129,6 +1205,7 @@ feature curs { # Cursive connection
     script arab; # Arab
         lookup cursive_exit_entry;
       # Force other languages to include Arabic script lookups
+      language KIR  ;
       language KUR  ;
       language RHG  ;
       language SND  ;
@@ -1143,6 +1220,7 @@ feature mark {  # Mark to base Positioning
 ##    script arab;  # Arabic
 ##        lookup AlefMark2BelowAfterLam;
 ##      # Force other languages to include Arabic script lookups
+##      language KIR  ;
 ##      language KUR  ;
 ##      language RHG  ;
 ##      language SND  ;

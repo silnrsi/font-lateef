@@ -193,6 +193,14 @@ pass(4)	// Features, special behaviors
 		cHeh  >  cHehUrdu;
 	endif;
 
+	if (KyrgyzOeAlt == bar)
+		cno_bar  >  cbar;
+	endif;
+
+//TODO: 	if (yehHamzaAlt == Kyrgyz)
+//TODO: 		cno_loclKIR  >  cloclKIR;
+//TODO: 	endif;
+
 	if (shaddaKasra != lowered)
 		// Normally, due to UTR53 reordering shadda will preceed kasra.
 		// However for sequences such as kasra+CGJ+shadda we still want to ligate the kasra and shadda
