@@ -8,10 +8,4 @@
     <component base="waw-ar.fina"/>
     <component base="_bar_horiz" xOffset="387" yOffset="-121"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

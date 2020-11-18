@@ -9,10 +9,4 @@
     <component base="ae-ar"/>
     <component base="_hamza" xOffset="203" yOffset="900"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
-    </dict>
-  </lib>
 </glyph>

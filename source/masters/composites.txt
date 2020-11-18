@@ -4,6 +4,9 @@
 # 		-i .../font-arab-tools/absGlyphList/absGlyphList.csv \
 # 		composites.txt
 #
+# Syntax:
+# https://github.com/silnrsi/pysilfont/blob/master/docs/composite.md
+#
 # 2020-10-06 pm Replace all _hat references with _invSmallV
 # 2020-08-16 bh Add USVs based on glyph_data.csv
 # 2020-07-14 pm Edits for LSB on alefTwo, alefThree
@@ -609,7 +612,9 @@ yeh-ar.init = behDotless-ar.init + _dot2h@below
 yeh-ar.noDots.medi = behDotless-ar.medi
 yeh-ar.noDots.init = behDotless-ar.init
 yehHamzaabove-ar = yeh-ar.noDots + _hamza@above | 0626
+yehHamzaabove-ar.loclKIR = yeh-ar.noDots + _hamza@above[shift=380,0]
 yehHamzaabove-ar.fina = yeh-ar.noDots.fina + _hamza@above
+yehHamzaabove-ar.fina.loclKIR = yeh-ar.noDots.fina + _hamza@above[shift=300,0]
 yehHamzaabove-ar.medi = behDotless-ar.medi + _hamza@above
 yehHamzaabove-ar.init = behDotless-ar.init + _hamza@above
 yehVabove-ar = yeh-ar.noDots + _smallV@above | 06CE
