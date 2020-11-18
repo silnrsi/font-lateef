@@ -2,10 +2,10 @@
 <glyph name="yehbarree-ar" format="2">
   <advance width="1188"/>
   <unicode hex="06D2"/>
-  <anchor x="378" y="282" name="above"/>
+  <anchor x="348" y="282" name="above"/>
   <anchor x="614" y="-507" name="below"/>
-  <anchor x="382" y="526" name="diaA"/>
-  <anchor x="329" y="-624" name="diaB"/>
+  <anchor x="370" y="526" name="diaA"/>
+  <anchor x="300" y="-620" name="diaB"/>
   <outline>
     <contour>
       <point x="1188" y="-191" type="line"/>
@@ -38,4 +38,10 @@
       <point x="1033" y="-446" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
