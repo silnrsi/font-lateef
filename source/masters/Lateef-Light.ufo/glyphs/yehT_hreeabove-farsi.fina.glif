@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehThreeabove-farsi.fina" format="2">
-  <advance width="954"/>
+  <advance width="956"/>
   <anchor x="293" y="329" name="alef"/>
   <anchor x="389" y="510" name="diaA"/>
   <anchor x="195" y="-575" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots.fina"/>
-    <component base="_three" xOffset="474" yOffset="147"/>
+    <component base="_three" xOffset="476" yOffset="147"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

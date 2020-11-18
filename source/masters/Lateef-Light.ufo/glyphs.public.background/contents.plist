@@ -90,6 +90,8 @@
   <string>waw-ar.glif</string>
   <key>waw-ar.fina</key>
   <string>waw-ar.fina.glif</string>
+  <key>yeh-ar.noDots.fina</key>
+  <string>yeh-ar.noD_ots.fina.glif</string>
   <key>zainabove-ar</key>
   <string>zainabove-ar.glif</string>
 </dict>
