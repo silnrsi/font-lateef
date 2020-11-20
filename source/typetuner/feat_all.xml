@@ -223,6 +223,10 @@
 			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
 			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
 		</test>
+		<test select="Lng-Kyr Kas-Low">
+			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+		</test>
 		<test select="Lng-Kur Kas-Low">
 			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
 			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>

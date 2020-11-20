@@ -201,7 +201,7 @@ pass(4)	// Features, special behaviors
 		cno_loclKIR  >  cloclKIR;
 	endif;
 
-	if (shaddaKasra != lowered)
+	if (shaddaKasra == raised)
 		// Normally, due to UTR53 reordering shadda will preceed kasra.
 		// However for sequences such as kasra+CGJ+shadda we still want to ligate the kasra and shadda
 		g_shadda_ar=S  cShaddaKasraMarks=K  >  cShaddaKasraLigatures$K:(S K) _ / _ ^ MARKS _ ;

@@ -301,11 +301,13 @@ kurdish {
     	"sdh"	// Southern Kurdish/Sorani
     );
     hehAlt = kurdish;
+	shaddaKasra = raised;
 };
 
 kyrgyz {
 	languages = ( "kir", "ky" );  // Kirghiz / Kyrgyz
 	yehHamzaAlt = Kyrgyz;
+	shaddaKasra = raised;
 };
 
 rohingya {
@@ -313,7 +315,6 @@ rohingya {
     	"rhg"	// Rohingya
     );
     easternDigits = rohingya;
-    shaddaKasra = lowered;
     dammatanAlt = sixNine;
 };
 
@@ -323,14 +324,12 @@ sindhi {
     meemAlt = sindhi;
     hehAlt = sindhi;
     easternDigits = sindhi;
-    shaddaKasra = lowered;
     commaAlt = down;
 };
 
 urdu {
     languages = ( "urd", "ur" ); // Urdu
     easternDigits = urdu;
-    shaddaKasra = lowered;
 
     // hehAlt = urdu; // removed
 

@@ -131,17 +131,15 @@ lookup ReorderMaddaVowel2 {
 #********************
 # Kasra position
 
-# Will need kasra-ar.lowered in Lateef for this logic to work. Need to review
-
 lookup KasraLow {
   lookupflag 0 ;
     sub @Kasra by @Kasra_lowered;
 } KasraLow;
 
-lookup KasraHigh {
-  lookupflag 0 ;
-    sub @Kasra_lowered by @Kasra;
-} KasraHigh;
+## unneeded? lookup KasraHigh {
+## unneeded?   lookupflag 0 ;
+## unneeded?     sub @Kasra_lowered by @Kasra;
+## unneeded? } KasraHigh;
 
 
 # HB PAUSE
@@ -495,23 +493,21 @@ lookup HehAlternates {
 # KyrgyzOeAlternates: cv51
 
 lookup KyrgyzOeAlternates {
-    lookupflag 0;
-        sub @cno_bar  by  @c_bar;
+ lookupflag 0;
+    sub @cno_bar  by  @c_bar;
 } KyrgyzOeAlternates;
 
 #********************
 # YehHamzaAlternates: cv54
 
-##TODO: lookup YehHamzaAlternates {
-##TODO:     lookupflag 0;
-                # Impacts only isolate and final forms
-##TODO:         sub yehHamzaabove-ar       by  yehHamzaabove-ar.loclKIR;
-##TODO:         sub yehHamzaabove-ar.fina  by  yehHamzaabove-ar.fina.loclKIR;
-##TODO: } YehHamzaAlternates;
+lookup YehHamzaAlternates {
+  lookupflag 0;
+    # Impacts only isolate and final forms
+    sub yehHamzaabove-ar       by  yehHamzaabove-ar.loclKIR;
+    sub yehHamzaabove-ar.fina  by  yehHamzaabove-ar.fina.loclKIR;
+} YehHamzaAlternates;
 
-
-
-
+         
 #********************
 # Kasra Alternates: cv62
 
@@ -877,9 +873,9 @@ feature ccmp {  # Glyph Composition/Decomposition
     script arab;  # Arabic
         lookup DecomposeForColor;
       language KIR  ;
-        lookup KasraLow ;
+      	# lookup KasraHigh ;
       language KUR  ;
-      	# Kurdish uses raised kasra
+      	# lookup KasraHigh ;
       language RHG  ;
         lookup KasraLow ;
       language SND  ;
@@ -888,7 +884,7 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup KasraLow ;
 ##      language WLF  ;
 ##        lookup KasraLow ;
-      language dflt ;
+      language dflt ;			# Must be last, otherwise its lookups get added to all langs
         lookup KasraLow ;
 } ccmp ;
 
@@ -974,6 +970,8 @@ feature calt {  # Contextual Alternates
         lookup UrduCALT ;
 #      language WLF ; # Wolof
 #        lookup WolofCALT ;
+      language dflt ;   # Must have a lookup here for TypeTuner to work.
+        lookup dfltCALT ;
 } calt ;
 
 # feature rclt
