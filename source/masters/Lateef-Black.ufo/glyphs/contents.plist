@@ -1614,6 +1614,8 @@
   <string>narrownbspace.glif</string>
   <key>nbspace</key>
   <string>nbspace.glif</string>
+  <key>nbspace.arab</key>
+  <string>nbspace.arab.glif</string>
   <key>ng-ar</key>
   <string>ng-ar.glif</string>
   <key>ng-ar.fina</key>
@@ -2290,6 +2292,8 @@
   <string>softhyphen.glif</string>
   <key>space</key>
   <string>space.glif</string>
+  <key>space.arab</key>
+  <string>space.arab.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
   <key>strokeshortcomb.case</key>

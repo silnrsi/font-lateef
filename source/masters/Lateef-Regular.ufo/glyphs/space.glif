@@ -5,5 +5,7 @@
   <note>
 space
 </note>
+  <anchor x="241" y="1060" name="diaA"/>
+  <anchor x="241" y="-49" name="diaB"/>
   <outline/>
 </glyph>
