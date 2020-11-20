@@ -197,9 +197,9 @@ pass(4)	// Features, special behaviors
 		cno_bar  >  cbar;
 	endif;
 
-//TODO: 	if (yehHamzaAlt == Kyrgyz)
-//TODO: 		cno_loclKIR  >  cloclKIR;
-//TODO: 	endif;
+	if (yehHamzaAlt == Kyrgyz)
+		cno_loclKIR  >  cloclKIR;
+	endif;
 
 	if (shaddaKasra != lowered)
 		// Normally, due to UTR53 reordering shadda will preceed kasra.

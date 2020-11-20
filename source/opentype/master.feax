@@ -401,10 +401,10 @@ lookup KurdishCALT {
     sub heh-ar by heh-ar.knotted ;
 } KurdishCALT;
 
-##TODO: lookup KyrgyzCALT {
-##TODO:     lookupflag 0;
-##TODO:       sub @cno_loclKIR  by  @c_loclKIR ;
-##TODO: } KyrgyzCALT;
+lookup KyrgyzCALT {
+  lookupflag 0;
+    sub @cno_loclKIR  by  @c_loclKIR ;
+} KyrgyzCALT;
 
 lookup RohingyaCALT {
   lookupflag 0 ;
@@ -962,10 +962,8 @@ feature rlig {  # Required Ligatures
 
 feature calt {  # Contextual Alternates
     script arab;  # Arabic
-      language dflt ;   # Must have a lookup here for TypeTuner to work.
-        lookup dfltCALT ;
-##TODO:      language KIR ; # Kyrgyz
-##TODO:      	lookup KyrgyzCALT ;
+      language KIR ; # Kyrgyz
+      	lookup KyrgyzCALT ;
       language KUR ; # Kurdish
         lookup KurdishCALT ;
       language RHG ; # Rohingya
@@ -1052,23 +1050,23 @@ feature cv51 {  # Character Variant 51
     } ;
 } cv51 ;
 
-##TODO feature cv54 {  # Character Variant 54
-##TODO     script arab;  # Arabic
-##TODO      lookup YehHamzaAlternates;
-##TODO      # Force other languages to include Arabic script lookups
-##TODO      language KIR  ;
-##TODO      language KUR  ;
-##TODO      language KUR  ;
-##TODO      language SND  ;
-##TODO      language RHG  ;
-##TODO      language URD  ;
-##TODO#      language WLF  ;
-##TODO     cvParameters {
-##TODO         FeatUILabelNameID  { name 3 1 0x0409 "Yeh-Hamza" ; };
-##TODO        #ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
-##TODO        #ParamUILabelNameID { name 3 1 0x0409 "Right hamza"   ; };
-##TODO     } ;
-##TODO } cv54 ;
+feature cv54 {  # Character Variant 54
+    script arab;  # Arabic
+     lookup YehHamzaAlternates;
+     # Force other languages to include Arabic script lookups
+     language KIR  ;
+     language KUR  ;
+     language KUR  ;
+     language SND  ;
+     language RHG  ;
+     language URD  ;
+#     language WLF  ;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Yeh-Hamza" ; };
+       #ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+       #ParamUILabelNameID { name 3 1 0x0409 "Right hamza"   ; };
+    } ;
+} cv54 ;
 
 
 feature cv62 {  # Character Variant 62

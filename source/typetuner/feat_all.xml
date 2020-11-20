@@ -19,9 +19,11 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Kyrgyz" tag="Kyr">
-			<cmd name="null" args="null"/>   <!-- TODO: Implement these: -->
-			<!-- cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KyrgyzCALT}"/ -->
-			<!-- cmd name="gr_feat" args="{gr_cv54} 1"/ -->   <!-- right-shifted hamza on yeh -->
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KyrgyzCALT}"/>
+			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+			<cmd name="gr_feat" args="{gr_cv54} 1"/>	 <!-- right-shifted hamza on yeh -->
+			<cmd name="gr_feat" args="{gr_cv62} 2"/>	 <!-- shadda-kasra raised -->
 		</value>
 		<value name="Kurdish" tag="Kur">
 			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
@@ -94,9 +96,8 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Right hamza" tag="Rt">
-			<cmd name="null" args="null"/>   <!-- TODO: Implement these: -->
-			<!-- cmd name="lookup_add" args="GSUB {calt_arab_dflt} {YehHamzaAlternates}"/  -->
-			<!-- cmd name="gr_feat" args="{gr_cv54} 1"/  -->
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {YehHamzaAlternates}"/>
+			<cmd name="gr_feat" args="{gr_cv54} 1"/>
 		</value>
 	</feature>
 

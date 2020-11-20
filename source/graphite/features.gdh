@@ -293,9 +293,10 @@ table(language)
 
 kurdish {
     languages = (
-    	"bdh",	// Behdini - obsolete
+//    	"bdh",	// Behdini - obsolete
     	"ckb",	// Central Kurdish
     	"kmr",	// Northern Kurdish/Behdini
+    	"ku",   // Kurdish macrolanguage
     	"kur",  // Kurmanji
     	"sdh"	// Southern Kurdish/Sorani
     );
