@@ -74,6 +74,8 @@
   <string>lam-ar.medi.preA_lef.glif</string>
   <key>meem-ar</key>
   <string>meem-ar.glif</string>
+  <key>misraComma-ar</key>
+  <string>misraC_omma-ar.glif</string>
   <key>rehLoop-ar.fina</key>
   <string>rehL_oop-ar.fina.glif</string>
   <key>sad-ar</key>

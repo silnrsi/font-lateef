@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_perdivider" format="2">
+  <advance width="1023"/>
+  <outline>
+    <contour>
+      <point x="95" y="-83" type="line"/>
+      <point x="505" y="117"/>
+      <point x="617" y="1000"/>
+      <point x="807" y="1155" type="curve"/>
+      <point x="794" y="1183" type="line"/>
+      <point x="384" y="983"/>
+      <point x="272" y="98"/>
+      <point x="82" y="-57" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

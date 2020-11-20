@@ -70,6 +70,8 @@
   <string>_kehehjoiner.glif</string>
   <key>_lines</key>
   <string>_lines.glif</string>
+  <key>_perdivider</key>
+  <string>_perdivider.glif</string>
   <key>_smallV</key>
   <string>_smallV_.glif</string>
   <key>_strokeHead</key>
@@ -90,6 +92,8 @@
   <string>ae-ar.glif</string>
   <key>ae-ar.fina</key>
   <string>ae-ar.fina.glif</string>
+  <key>afghani-ar</key>
+  <string>afghani-ar.glif</string>
   <key>ain-ar</key>
   <string>ain-ar.glif</string>
   <key>ain-ar.fina</key>
@@ -144,6 +148,8 @@
   <string>dammatan-ar.glif</string>
   <key>dammatan-ar.sixNine</key>
   <string>dammatan-ar.sixN_ine.glif</string>
+  <key>dateseparator-ar</key>
+  <string>dateseparator-ar.glif</string>
   <key>eight-ar</key>
   <string>eight-ar.glif</string>
   <key>eight-ar.medium</key>
