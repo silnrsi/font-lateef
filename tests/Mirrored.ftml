@@ -1,30 +1,48 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
 <ftml version='1.0'>
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc label="LatGR">url(../references/LateefGR-1.200.ttf)</fontsrc>
+    <fontsrc label="Reg-Gr">url(../results/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)</fontsrc>
+    <styles>
+    </styles>
+    <title>Mirrored and punctuation variants test</title>
+  </head>
   <testgroup label='Rendering check'>
-  <test label='Check'><string>RenderingUnknown</string></test>
+    <test label='Check'><string>RenderingUnknown</string></test>
   </testgroup>
   <testgroup label='Mirrored'>
-  <test label='U+0028'><string>a \u0028 b \u0627 \u0028 \u0628</string></test>
-  <test label='U+0029'><string>a \u0029 b \u0627 \u0029 \u0628</string></test>
-  <test label='U+003C'><string>a \u003C b \u0627 \u003C \u0628</string></test>
-  <test label='U+003E'><string>a \u003E b \u0627 \u003E \u0628</string></test>
-  <test label='U+005B'><string>a \u005B b \u0627 \u005B \u0628</string></test>
-  <test label='U+005D'><string>a \u005D b \u0627 \u005D \u0628</string></test>
-  <test label='U+007B'><string>a \u007B b \u0627 \u007B \u0628</string></test>
-  <test label='U+007D'><string>a \u007D b \u0627 \u007D \u0628</string></test>
-  <test label='U+00AB'><string>a \u00AB b \u0627 \u00AB \u0628</string></test>
-  <test label='U+00BB'><string>a \u00BB b \u0627 \u00BB \u0628</string></test>
-  <test label='U+2039'><string>a \u2039 b \u0627 \u2039 \u0628</string></test>
-  <test label='U+203A'><string>a \u203A b \u0627 \u203A \u0628</string></test>
+    <test label='U+0020'><comment>size          </comment><string>a \u0020 b \u0627 \u0020 \u0628</string></test>
+    <test label='U+0021'><comment>style         </comment><string>a \u0021 b \u0627 \u0021 \u0628</string></test>
+    <test label='U+0028'><comment>mirror + style</comment><string>a \u0028 b \u0627 \u0028 \u0628</string></test>
+    <test label='U+0029'><comment>mirror + style</comment><string>a \u0029 b \u0627 \u0029 \u0628</string></test>
+    <test label='U+002A'><comment>style         </comment><string>a \u002A b \u0627 \u002A \u0628</string></test>
+    <test label='U+003A'><comment>style         </comment><string>a \u003A b \u0627 \u003A \u0628</string></test>
+    <test label='U+003C'><comment>mirror        </comment><string>a \u003C b \u0627 \u003C \u0628</string></test>
+    <test label='U+003E'><comment>mirror        </comment><string>a \u003E b \u0627 \u003E \u0628</string></test>
+    <test label='U+005B'><comment>mirror        </comment><string>a \u005B b \u0627 \u005B \u0628</string></test>
+    <test label='U+005D'><comment>mirror        </comment><string>a \u005D b \u0627 \u005D \u0628</string></test>
+    <test label='U+007B'><comment>mirror        </comment><string>a \u007B b \u0627 \u007B \u0628</string></test>
+    <test label='U+007D'><comment>mirror        </comment><string>a \u007D b \u0627 \u007D \u0628</string></test>
+    <test label='U+00AB'><comment>mirror        </comment><string>a \u00AB b \u0627 \u00AB \u0628</string></test>
+    <test label='U+00BB'><comment>mirror        </comment><string>a \u00BB b \u0627 \u00BB \u0628</string></test>
+    <test label='U+2018'><comment>style         </comment><string>a \u2018 b \u0627 \u2018 \u0628</string></test>
+    <test label='U+2019'><comment>style         </comment><string>a \u2019 b \u0627 \u2019 \u0628</string></test>
+    <test label='U+201C'><comment>style         </comment><string>a \u201C b \u0627 \u201C \u0628</string></test>
+    <test label='U+201D'><comment>style         </comment><string>a \u201D b \u0627 \u201D \u0628</string></test>
+    <test label='U+2039'><comment>mirror        </comment><string>a \u2039 b \u0627 \u2039 \u0628</string></test>
+    <test label='U+203A'><comment>mirror        </comment><string>a \u203A b \u0627 \u203A \u0628</string></test>
+    <test label='U+2202'><comment>mirror        </comment><string>a \u2202 b \u0627 \u2202 \u0628</string></test>
+    <test label='U+2211'><comment>mirror        </comment><string>a \u2211 b \u0627 \u2211 \u0628</string></test>
+    <test label='U+2215'><comment>mirror        </comment><string>a \u2215 b \u0627 \u2215 \u0628</string></test>
+    <test label='U+221A'><comment>mirror        </comment><string>a \u221A b \u0627 \u221A \u0628</string></test>
+    <test label='U+222B'><comment>mirror        </comment><string>a \u222B b \u0627 \u222B \u0628</string></test>
+    <test label='U+2248'><comment>mirror        </comment><string>a \u2248 b \u0627 \u2248 \u0628</string></test>
+    <test label='U+2260'><comment>mirror        </comment><string>a \u2260 b \u0627 \u2260 \u0628</string></test>
+    <test label='U+2264'><comment>mirror        </comment><string>a \u2264 b \u0627 \u2264 \u0628</string></test>
+    <test label='U+2265'><comment>mirror        </comment><string>a \u2265 b \u0627 \u2265 \u0628</string></test>
+    <test label='U+29F5'><comment>mirror        </comment><string>a \u29F5 b \u0627 \u29F5 \u0628</string></test>
   </testgroup>
-<head>
-  <fontscale>300</fontscale>
-  <fontsrc>local(Scheherazade)</fontsrc>
-  <fontsrc>local(Lateef)</fontsrc>
-  <fontsrc>url(../results/web/LateefGR-Regular.woff)</fontsrc>
-  <styles>
-  </styles>
-  <title>Mirrored test</title>
-  </head>
 </ftml>
