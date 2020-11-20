@@ -622,6 +622,8 @@
   <string>comma-ar.glif</string>
   <key>comma-ar.downward</key>
   <string>comma-ar.downward.glif</string>
+  <key>commareversed</key>
+  <string>commareversed.glif</string>
   <key>copyright</key>
   <string>copyright.glif</string>
   <key>currency</key>
@@ -2026,6 +2028,8 @@
   <string>replacementC_haracter.glif</string>
   <key>reverseSolidusOperator</key>
   <string>reverseS_olidusO_perator.glif</string>
+  <key>reversedsemicolon</key>
+  <string>reversedsemicolon.glif</string>
   <key>rhombusStopabove-ar</key>
   <string>rhombusS_topabove-ar.glif</string>
   <key>rhombusStopbelow-ar</key>

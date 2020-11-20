@@ -128,6 +128,8 @@
   <string>comma-ar.glif</string>
   <key>comma-ar.downward</key>
   <string>comma-ar.downward.glif</string>
+  <key>commareversed</key>
+  <string>commareversed.glif</string>
   <key>dal-ar</key>
   <string>dal-ar.glif</string>
   <key>dal-ar.fina</key>
@@ -422,6 +424,8 @@
   <string>rehL_oop-ar.glif</string>
   <key>rehLoop-ar.fina</key>
   <string>rehL_oop-ar.fina.glif</string>
+  <key>reversedsemicolon</key>
+  <string>reversedsemicolon.glif</string>
   <key>rial</key>
   <string>rial.glif</string>
   <key>sad-ar</key>
@@ -448,6 +452,8 @@
   <string>seenabove-ar.glif</string>
   <key>seenbelow-ar</key>
   <string>seenbelow-ar.glif</string>
+  <key>semicolon-ar.downward</key>
+  <string>semicolon-ar.downward.glif</string>
   <key>seven-ar</key>
   <string>seven-ar.glif</string>
   <key>seven-ar.medium</key>

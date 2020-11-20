@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="semicolon-ar.downward" format="2">
-  <advance width="354"/>
+<glyph name="reversedsemicolon" format="2">
+  <advance width="434"/>
+  <unicode hex="204F"/>
   <outline>
-    <component base="comma-ar.downward"/>
-    <component base="_dot1" xOffset="204" yOffset="474"/>
+    <component base="semicolon-ar.downward"/>
   </outline>
   <lib>
     <dict>
