@@ -1,4 +1,4 @@
-FONTLOG
+FONTLOG 
 Lateef font
 =================
 
@@ -30,10 +30,13 @@ simplified style is often preferred for clarity, especially in non-Arabic
 languages, but may be considered unattractive in more traditional and 
 literate communities.
 
-One font from this typeface family is included:
+Two fonts from this typeface family are included:
 
      * Lateef Regular
      * Lateef Bold
+
+The Latin glyphs in this font are from the Crimson Pro font family 
+(https://github.com/Fonthausen/CrimsonPro).
 
 For detailed documentation see the contents of the 'documentation' folder.
 
@@ -62,10 +65,59 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-%ISODATE% (SIL TypeTuner) Tuned version of LateefGR Version 1.200
+%ISODATE% (SIL TypeTuner) Tuned version of Lateef Version 1.280
 - Tuned and delivered by SIL TypeTuner 
 (http://scripts.sil.org/ttw/fonts2go.cgi).
 - See included xml file for details of feature changes.
+
+2020-12-15 (SIL WSTech team) Lateef Version 1.280 (alpha release)
+- Incorporate both OpenType and Graphite in the same font
+- Added Lateef Bold
+- Changed design of Latin glyphs to use Crimson Pro
+- Updated Latin script repertoire to support "Recommended characters for Non-Roman fonts"
+  https://scriptsource.org/entry/gg5wm9hhd3
+- Added U+204F and U+2E41 for Sindhi language support
+- Other characters added: U+0237, U+02D0, U+02D8..U+02D9, U+02DB, U+02DD, U+0300..U+0304, U+0306..U+0308
+  U+030A..U+030C, U+0327..U+0328, U+0338, U+034F, U+03C0, U+2044, U+2074, U+2126, U+2202, 
+  U+2206, U+220F, U+2211, U+2215, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264..U+2265, U+2423, 
+  U+25CA, U+29F5, U+FB01..U+FB02, U+FE00..U+FE0F, U+FFFC..U+FFFD
+- Arabic characters added:U+0600..U+0605, U+0609..U+060B, U+060D..U+0613, U+0615..U+061A, U+0620,
+  U+063B..U+063C, U+063E..U+063F, U+065F, U+0773..U+077F, U=08BE..U+08C2, U+08C7
+- Harmonized design of many characters so that all characters in that family (eg seen, dal, feh, keheh, etc) would be consistent
+- Harmonized design of all terminals
+- Harmonized vertical stems
+- Redesign nuktas and variants to be more calligraphic and less geometric
+- Changed scaling for some quranic marks (combining) and adjusted weights
+- Redesign of some Arabic digits
+- Redesign of hook on heh-goal
+- Adjusted head design of feh, qaf, waw
+- Revised side-bearings for many glyphs
+- Harmonized design of small v and inverted small v characters (U+063D, U+065A,
+  U+065B, U+0692, U+06B5, U+06C9, U+06CE, U+06EE, U+06EF, U+06FF, U+0756,
+  U+0769, U+077E, U+08B2, U+08BE..U+08C2)
+- Changed design of U+06C5 for Kyrgyz language and added feature cv51, Kyrgyz OE,	 
+  supporting the bar design
+- Changed design of U+0677 and U+06C7
+- Changed design of high hamza characters (U+0674..U+0678)
+- Made space and nobreak space have the same width
+- Changed width of kashida
+- Many adjustments to position of anchors
+- Changed position of above nukat on U+06AD and U+06AC
+- Implemented new Allah ligature rules
+- Implemented support for UNICODE ARABIC MARK RENDERING (UTR #53) 
+- Fixed bug in forming of lam/alef ligatures when automatic kashida justification is turned on
+- Added UI name strings for Graphite and OpenType features
+- Removed support for Sindhi-style heh when Sindhi language is selected
+- Removed support for Urdu-style heh when Urdu language is selected
+- Removed "Arabic U" feature
+- Removed "Show invisible characters" feature
+- Removed "Jeh hack" feature
+- Removed "Dotless head of Khah hack" feature
+- Added feature cv54, Yeh hamza, for Kyrgyz language
+- Added Kyrgyz language support in Graphite and OpenType
+- Added Rohingya language support in Graphite and OpenType
+- Added support for Comma downward when Sindhi language is selected
+- Fixed End-of-Ayah rendering in OpenType
 
 2017-03-23 (SIL NRSI team) LateefGR Version 1.200
 - Removed U+03BC

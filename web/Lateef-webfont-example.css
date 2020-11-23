@@ -1,9 +1,9 @@
 /*
 Lateef-webfont-example.css
-LateefGR v1.200
-17 Mar 2017
+Lateef v1.280
+15 Dec 2020
 This file is part of Lateef font family (http://software.sil.org/lateef)
-and is Copyright (c) 1994-2017 SIL International (http://www.sil.org/),
+and is Copyright (c) 1994-2020 SIL International (http://www.sil.org/),
 with Reserved Font Names "Lateef" and "SIL". This Font Software is licensed
 under the SIL Open Font License, Version 1.1. You should have received a copy
 of the license along with this Font Software. If this is not the case, go to
@@ -13,9 +13,12 @@ of the license along with this Font Software. If this is not the case, go to
 /* use Lateef - Regular in .woff format */
 @font-face {
   font-family: LateefRW;
-  src: url(LateefGR-Regular.woff);
+  src: url(Lateef-Regular.woff);
 }
-
+@font-face {
+  font-family: LateefBW;
+  src: url(Lateef-Bold.woff);
+}
 
 /* set body to use Lateef in .woff format */
 body {
@@ -34,7 +37,7 @@ h2 {
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }	
 .rtlb {
-  font-family: LateefRW, sans-serif; font-size: 200%; direction: rtl; text-align: right;
+  font-family: LateefBW, sans-serif; font-size: 200%; direction: rtl; text-align: right;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }	
 .cv440 {
