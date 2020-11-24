@@ -1,51 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pagenumber-ar.3" format="2">
-  <advance width="3212"/>
-  <anchor x="173" y="335" name="digitR"/>
+  <advance width="3563"/>
+  <anchor x="230" y="450" name="digitR"/>
   <outline>
-    <contour>
-      <point x="3011" y="800" type="curve" smooth="yes"/>
-      <point x="2718" y="800"/>
-      <point x="2462" y="277"/>
-      <point x="2414" y="88" type="curve" smooth="yes"/>
-      <point x="2404" y="46"/>
-      <point x="2448" y="-20"/>
-      <point x="2457" y="22" type="curve" smooth="yes"/>
-      <point x="2556" y="463"/>
-      <point x="2776" y="597"/>
-      <point x="2921" y="597" type="curve" smooth="yes"/>
-      <point x="3005" y="597"/>
-      <point x="3062" y="553"/>
-      <point x="3062" y="498" type="curve" smooth="yes"/>
-      <point x="3062" y="412"/>
-      <point x="2789" y="318"/>
-      <point x="2539" y="318" type="curve" smooth="yes"/>
-      <point x="2359" y="318"/>
-      <point x="2375" y="397"/>
-      <point x="2330" y="397" type="curve" smooth="yes"/>
-      <point x="2297" y="397"/>
-      <point x="1814" y="137"/>
-      <point x="957" y="137" type="curve" smooth="yes"/>
-      <point x="712" y="137"/>
-      <point x="497" y="142"/>
-      <point x="83" y="190" type="curve" smooth="yes"/>
-      <point x="56" y="194"/>
-      <point x="22" y="133"/>
-      <point x="50" y="124" type="curve" smooth="yes"/>
-      <point x="303" y="42"/>
-      <point x="746" y="-10"/>
-      <point x="1162" y="-10" type="curve" smooth="yes"/>
-      <point x="1790" y="-10"/>
-      <point x="2324" y="170"/>
-      <point x="2344" y="170" type="curve" smooth="yes"/>
-      <point x="2378" y="170"/>
-      <point x="2375" y="149"/>
-      <point x="2478" y="149" type="curve" smooth="yes"/>
-      <point x="2585" y="149"/>
-      <point x="3172" y="168"/>
-      <point x="3172" y="591" type="curve" smooth="yes"/>
-      <point x="3172" y="707"/>
-      <point x="3129" y="800"/>
-    </contour>
+    <component base="_subtendingA.3"/>
+    <component base="_pagenumberSad" xOffset="2639"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

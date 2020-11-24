@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_subtendingA.4" format="2">
+  <advance width="3492"/>
+  <outline>
+    <contour>
+      <point x="1762" y="-15" type="curve" smooth="yes"/>
+      <point x="2370" y="-15"/>
+      <point x="3001" y="35"/>
+      <point x="3452" y="127" type="curve"/>
+      <point x="3343" y="271" type="line"/>
+      <point x="2881" y="187"/>
+      <point x="2492" y="153"/>
+      <point x="1780" y="153" type="curve" smooth="yes"/>
+      <point x="1044" y="153"/>
+      <point x="285" y="199"/>
+      <point x="64" y="253" type="curve"/>
+      <point x="40" y="220" type="line"/>
+      <point x="353" y="65"/>
+      <point x="1041" y="-15"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

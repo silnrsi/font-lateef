@@ -1,43 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="number-ar" format="2">
-  <advance width="1123"/>
+  <advance width="1445"/>
   <unicode hex="0600"/>
   <anchor x="200" y="335" name="digitR"/>
   <outline>
-    <contour>
-      <point x="1020" y="257" type="curve" smooth="yes"/>
-      <point x="979" y="277"/>
-      <point x="971" y="283"/>
-      <point x="971" y="322" type="curve" smooth="yes"/>
-      <point x="971" y="360"/>
-      <point x="1002" y="481"/>
-      <point x="1054" y="510" type="curve" smooth="yes"/>
-      <point x="1076" y="521"/>
-      <point x="1100" y="704"/>
-      <point x="1067" y="704" type="curve" smooth="yes"/>
-      <point x="1029" y="704"/>
-      <point x="899" y="490"/>
-      <point x="899" y="271" type="curve" smooth="yes"/>
-      <point x="899" y="216"/>
-      <point x="761" y="137"/>
-      <point x="533" y="137" type="curve" smooth="yes"/>
-      <point x="322" y="137"/>
-      <point x="262" y="154"/>
-      <point x="85" y="199" type="curve" smooth="yes"/>
-      <point x="60" y="205"/>
-      <point x="26" y="148"/>
-      <point x="46" y="135" type="curve" smooth="yes"/>
-      <point x="164" y="55"/>
-      <point x="305" y="-10"/>
-      <point x="521" y="-10" type="curve" smooth="yes"/>
-      <point x="777" y="-10"/>
-      <point x="894" y="102"/>
-      <point x="944" y="102" type="curve" smooth="yes"/>
-      <point x="963" y="102"/>
-      <point x="957" y="98"/>
-      <point x="969" y="98" type="curve" smooth="yes"/>
-      <point x="1016" y="98"/>
-      <point x="1051" y="242"/>
-    </contour>
+    <component base="_subtendingA.1"/>
+    <component base="_number" xOffset="1222"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

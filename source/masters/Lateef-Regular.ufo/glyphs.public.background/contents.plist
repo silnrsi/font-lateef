@@ -382,6 +382,8 @@
   <string>noonghunna-ar.fina.glif</string>
   <key>noonghunnaabove-ar</key>
   <string>noonghunnaabove-ar.glif</string>
+  <key>number-ar</key>
+  <string>number-ar.glif</string>
   <key>number-ar.2</key>
   <string>number-ar.2.glif</string>
   <key>number-ar.3</key>
@@ -408,6 +410,12 @@
   <string>one.medium.glif</string>
   <key>one.small</key>
   <string>one.small.glif</string>
+  <key>pagenumber-ar</key>
+  <string>pagenumber-ar.glif</string>
+  <key>pagenumber-ar.2</key>
+  <string>pagenumber-ar.2.glif</string>
+  <key>pagenumber-ar.3</key>
+  <string>pagenumber-ar.3.glif</string>
   <key>parenleft-ar</key>
   <string>parenleft-ar.glif</string>
   <key>percent-ar</key>
@@ -446,6 +454,14 @@
   <string>sadL_amA_lefM_aksuraabove-ar.glif</string>
   <key>sadabove-ar</key>
   <string>sadabove-ar.glif</string>
+  <key>samvat-ar</key>
+  <string>samvat-ar.glif</string>
+  <key>samvat-ar.2</key>
+  <string>samvat-ar.2.glif</string>
+  <key>samvat-ar.3</key>
+  <string>samvat-ar.3.glif</string>
+  <key>samvat-ar.4</key>
+  <string>samvat-ar.4.glif</string>
   <key>seen-ar</key>
   <string>seen-ar.glif</string>
   <key>seen-ar.fina</key>
@@ -584,6 +600,14 @@
   <string>waw-ar.fina.glif</string>
   <key>wawSmall-ar</key>
   <string>wawS_mall-ar.glif</string>
+  <key>year-ar</key>
+  <string>year-ar.glif</string>
+  <key>year-ar.2</key>
+  <string>year-ar.2.glif</string>
+  <key>year-ar.3</key>
+  <string>year-ar.3.glif</string>
+  <key>year-ar.4</key>
+  <string>year-ar.4.glif</string>
   <key>yeh-ar.noDots</key>
   <string>yeh-ar.noD_ots.glif</string>
   <key>yeh-ar.noDots.fina</key>

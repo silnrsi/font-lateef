@@ -262,16 +262,30 @@
   <string>_lines.glif</string>
   <key>_madda</key>
   <string>_madda.glif</string>
+  <key>_number</key>
+  <string>_number.glif</string>
   <key>_one</key>
   <string>_one.glif</string>
+  <key>_pagenumberSad</key>
+  <string>_pagenumberS_ad.glif</string>
   <key>_perdivider</key>
   <string>_perdivider.glif</string>
   <key>_ring</key>
   <string>_ring.glif</string>
+  <key>_samvatSM</key>
+  <string>_samvatS_M_.glif</string>
   <key>_smallV</key>
   <string>_smallV_.glif</string>
   <key>_strokeHead</key>
   <string>_strokeH_ead.glif</string>
+  <key>_subtendingA.1</key>
+  <string>_subtendingA_.1.glif</string>
+  <key>_subtendingA.2</key>
+  <string>_subtendingA_.2.glif</string>
+  <key>_subtendingA.3</key>
+  <string>_subtendingA_.3.glif</string>
+  <key>_subtendingA.4</key>
+  <string>_subtendingA_.4.glif</string>
   <key>_tah</key>
   <string>_tah.glif</string>
   <key>_tah_bowl</key>

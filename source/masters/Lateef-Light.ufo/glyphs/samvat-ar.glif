@@ -1,88 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="samvat-ar" format="2">
-  <advance width="2159"/>
+  <advance width="1940"/>
   <unicode hex="0604"/>
-  <anchor x="206" y="450" name="digitR"/>
+  <anchor x="230" y="380" name="digitR"/>
   <outline>
-    <contour>
-      <point x="2119" y="913" type="curve"/>
-      <point x="2119" y="1016"/>
-      <point x="2060" y="1128"/>
-      <point x="2033" y="1128" type="curve"/>
-      <point x="1999" y="1128"/>
-      <point x="1915" y="883"/>
-      <point x="1915" y="873" type="curve"/>
-      <point x="1915" y="866"/>
-      <point x="2035" y="846"/>
-      <point x="2035" y="800" type="curve"/>
-      <point x="2035" y="778"/>
-      <point x="2022" y="757"/>
-      <point x="1987" y="757" type="curve"/>
-      <point x="1908" y="757"/>
-      <point x="1841" y="815"/>
-      <point x="1803" y="935" type="curve"/>
-      <point x="1798" y="951"/>
-      <point x="1786" y="966"/>
-      <point x="1776" y="966" type="curve"/>
-      <point x="1758" y="966"/>
-      <point x="1751" y="952"/>
-      <point x="1750" y="940" type="curve"/>
-      <point x="1738" y="814"/>
-      <point x="1684" y="703"/>
-      <point x="1578" y="700" type="curve"/>
-      <point x="1478" y="696"/>
-      <point x="1397" y="845"/>
-      <point x="1311" y="845" type="curve"/>
-      <point x="1256" y="845"/>
-      <point x="1207" y="765"/>
-      <point x="1157" y="645" type="curve"/>
-      <point x="1136" y="595"/>
-      <point x="1119" y="516"/>
-      <point x="1119" y="460" type="curve"/>
-      <point x="1119" y="433"/>
-      <point x="1119" y="372"/>
-      <point x="1139" y="314" type="curve"/>
-      <point x="1076" y="227"/>
-      <point x="947" y="192"/>
-      <point x="671" y="192" type="curve"/>
-      <point x="447" y="192"/>
-      <point x="115" y="241"/>
-      <point x="62" y="253" type="curve"/>
-      <point x="57" y="254"/>
-      <point x="40" y="222"/>
-      <point x="40" y="173" type="curve"/>
-      <point x="40" y="145"/>
-      <point x="486" y="-34"/>
-      <point x="853" y="-34" type="curve" smooth="yes"/>
-      <point x="1019" y="-34"/>
-      <point x="1212" y="28"/>
-      <point x="1268" y="103" type="curve"/>
-      <point x="1312" y="53"/>
-      <point x="1406" y="16"/>
-      <point x="1469" y="-1" type="curve"/>
-      <point x="1511" y="-1"/>
-      <point x="1534" y="184"/>
-      <point x="1534" y="209" type="curve"/>
-      <point x="1534" y="227"/>
-      <point x="1531" y="233"/>
-      <point x="1509" y="241" type="curve"/>
-      <point x="1347" y="294"/>
-      <point x="1227" y="355"/>
-      <point x="1227" y="504" type="curve"/>
-      <point x="1227" y="555"/>
-      <point x="1260" y="580"/>
-      <point x="1273" y="580" type="curve"/>
-      <point x="1319" y="580"/>
-      <point x="1417" y="438"/>
-      <point x="1521" y="438" type="curve"/>
-      <point x="1639" y="438"/>
-      <point x="1688" y="566"/>
-      <point x="1743" y="665" type="curve"/>
-      <point x="1782" y="590"/>
-      <point x="1834" y="513"/>
-      <point x="1916" y="513" type="curve"/>
-      <point x="2082" y="513"/>
-      <point x="2119" y="815"/>
-    </contour>
+    <component base="_subtendingA.1"/>
+    <component base="_samvatSM" xOffset="1150"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
