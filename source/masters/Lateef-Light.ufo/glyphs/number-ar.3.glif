@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="number-ar.3" format="2">
-  <advance width="2863"/>
-  <anchor x="200" y="335" name="digitR"/>
+  <advance width="2853"/>
+  <anchor x="339" y="0" name="digitR"/>
   <outline>
-    <component base="_subtendingA.3"/>
-    <component base="_number" xOffset="2640"/>
+    <component base="_subtendingA.3" yOffset="-260"/>
+    <component base="_number" xOffset="2630" yOffset="-270"/>
   </outline>
   <lib>
     <dict>

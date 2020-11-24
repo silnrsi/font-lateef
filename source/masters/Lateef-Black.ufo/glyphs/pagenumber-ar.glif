@@ -2,10 +2,10 @@
 <glyph name="pagenumber-ar" format="2">
   <advance width="2189"/>
   <unicode hex="0603"/>
-  <anchor x="171" y="335" name="digitR"/>
+  <anchor x="230" y="0" name="digitR"/>
   <outline>
-    <component base="_subtendingA.1"/>
-    <component base="_pagenumberSad" xOffset="1202"/>
+    <component base="_subtendingA.1" yOffset="-416"/>
+    <component base="_pagenumberSad" xOffset="1202" yOffset="-416"/>
   </outline>
   <lib>
     <dict>

@@ -2,10 +2,10 @@
 <glyph name="number-ar" format="2">
   <advance width="1445"/>
   <unicode hex="0600"/>
-  <anchor x="200" y="335" name="digitR"/>
+  <anchor x="339" y="0" name="digitR"/>
   <outline>
-    <component base="_subtendingA.1"/>
-    <component base="_number" xOffset="1222"/>
+    <component base="_subtendingA.1" yOffset="-349"/>
+    <component base="_number" xOffset="1222" yOffset="-349"/>
   </outline>
   <lib>
     <dict>
