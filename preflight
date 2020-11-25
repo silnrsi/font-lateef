@@ -28,7 +28,7 @@ psfsyncmasters -p scrlevel=w source/lateef-RB.designspace
 
 echo
 echo "Updating woff metadata file..."
-psfmakewoffmetadata -q -n Lateef -i org.sil.fonts source/masters/*-Regular.ufo
+psfmakewoffmetadata -q -n Lateef -i org.sil.fonts -o source/Lateef-WOFF-metadata.xml source/masters/*-Regular.ufo
 
 echo
 echo "preflight completed!"
