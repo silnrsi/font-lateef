@@ -3,7 +3,7 @@ glyph_name,ps_name,USV,DesignerOrder,bcp47tags,Feat
 .null,.null,,1,,
 nonmarkingreturn,nonmarkingreturn,,2,,
 space,space,0020,4,,
-space.arab,space.arab,,,,
+space.arab,space.arab,,5.1,,
 tab,tab,,6,,
 exclam,exclam,0021,7,,
 exclam.arab,exclam.arab,,8,,
