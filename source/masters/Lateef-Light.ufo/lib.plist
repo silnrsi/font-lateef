@@ -159,6 +159,7 @@
     <string>.null</string>
     <string>nonmarkingreturn</string>
     <string>space</string>
+    <string>space.arab</string>
     <string>tab</string>
     <string>exclam</string>
     <string>exclam.arab</string>
@@ -1431,6 +1432,9 @@
     <string>numbermark-ar.2</string>
     <string>numbermark-ar.3</string>
     <string>numbermark-ar.4</string>
+    <string>cuberoot-ar</string>
+    <string>fourthroot-ar</string>
+    <string>ray-ar</string>
     <string>perthousand-ar</string>
     <string>pertenthousand-ar</string>
     <string>afghani-ar</string>
@@ -1646,6 +1650,7 @@
     <string>.null</string>
     <string>nonmarkingreturn</string>
     <string>space</string>
+    <string>space.arab</string>
     <string>tab</string>
     <string>exclam</string>
     <string>exclam.arab</string>
@@ -2918,6 +2923,9 @@
     <string>numbermark-ar.2</string>
     <string>numbermark-ar.3</string>
     <string>numbermark-ar.4</string>
+    <string>cuberoot-ar</string>
+    <string>fourthroot-ar</string>
+    <string>ray-ar</string>
     <string>perthousand-ar</string>
     <string>pertenthousand-ar</string>
     <string>afghani-ar</string>
@@ -3413,6 +3421,8 @@
     <string>uni060C.downward</string>
     <key>commareversed</key>
     <string>uni2E41</string>
+    <key>cuberoot-ar</key>
+    <string>uni0606</string>
     <key>dad-ar</key>
     <string>uni0636</string>
     <key>dad-ar.fina</key>
@@ -3689,6 +3699,8 @@
     <string>uni2005</string>
     <key>foursuperior</key>
     <string>uni2074</string>
+    <key>fourthroot-ar</key>
+    <string>uni0607</string>
     <key>fullstop-ar</key>
     <string>uni06D4</string>
     <key>gaf-ar</key>
@@ -4659,6 +4671,8 @@
     <string>uni06A8.medi</string>
     <key>question-ar</key>
     <string>uni061F</string>
+    <key>ray-ar</key>
+    <string>uni0608</string>
     <key>reh-ar</key>
     <string>uni0631</string>
     <key>reh-ar.fina</key>
