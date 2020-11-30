@@ -7,10 +7,4 @@
     <component base="_subtendingA.1" yOffset="-416"/>
     <component base="_pagenumberSad" xOffset="1202" yOffset="-416"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

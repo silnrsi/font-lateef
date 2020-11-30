@@ -6,10 +6,4 @@
     <component base="_subtendingA.4" yOffset="-240"/>
     <component base="_pagenumberSad" xOffset="3392" yOffset="-240"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

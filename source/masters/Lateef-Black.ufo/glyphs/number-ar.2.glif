@@ -6,10 +6,4 @@
     <component base="_subtendingA.2" yOffset="-450"/>
     <component base="_number" xOffset="1898" yOffset="-450"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

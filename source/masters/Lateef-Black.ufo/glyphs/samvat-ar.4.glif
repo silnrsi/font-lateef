@@ -6,10 +6,4 @@
     <component base="_subtendingA.4" yOffset="-407"/>
     <component base="_samvatSM" xOffset="3254" yOffset="-407"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>
