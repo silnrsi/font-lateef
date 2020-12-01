@@ -321,10 +321,11 @@ rohingya {
 sindhi {
     languages = ( "snd", "sd" ); // Sindhi
     meemAlt = sindhi;
-    hehAlt = sindhi;
     easternDigits = sindhi;
     commaAlt = down;
     shaddaKasra = lowered;
+
+//  hehAlt = sindhi;  // remove for now, to match OT
 };
 
 urdu {
@@ -332,7 +333,7 @@ urdu {
     easternDigits = urdu;
     shaddaKasra = lowered;
 
-    // hehAlt = urdu; // removed
+//   hehAlt = urdu; // removed
 
 };
 
