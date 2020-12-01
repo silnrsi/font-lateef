@@ -26,10 +26,10 @@ generated = 'generated/'
 #   --autohint - autohint the font
 #   --rename   - include glyph rename step   ## ToDo:  change to --norename when we're far enough along
 #   --regOnly  - build just Lateef-Regular
-opts = preprocess_args({'opt': '--autohint'}, {'opt': '--rename'}, {'opt': '--regOnly'})
+opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--regOnly'})
 
 cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx'])]
-if '--rename' in opts: ## ToDo:  change to --norename when we're far enough along
+if '--norename' not in opts: ## ToDo:  change to --norename when we're far enough along
     cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo']))
 if '--autohint' in opts:
     # Note: in some fonts ttfautohint-generated hints don't maintain stroke thickness at joins; test thoroughly
