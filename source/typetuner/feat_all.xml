@@ -20,35 +20,38 @@
 		</value>
 		<value name="Kyrgyz" tag="Kyr">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KyrgyzCALT}"/>
-			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
-			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
 			<cmd name="gr_feat" args="{gr_cv54} 1"/>	 <!-- right-shifted hamza on yeh -->
-			<cmd name="gr_feat" args="{gr_cv62} 2"/>	 <!-- shadda-kasra raised -->
 		</value>
 		<value name="Kurdish" tag="Kur">
 			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KurdishCALT}"/>
-			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
-			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
-			<cmd name="gr_feat" args="{gr_cv62} 2"/>	 <!-- shadda-kasra raised -->
 			<cmd name="gr_feat" args="{gr_cv48} 3"/>	 <!-- heh -->
 		</value>
 		<value name="Rohingya" tag="Rhg">
 			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {RohingyaCALT}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+			<cmd name="gr_feat" args="{gr_cv62} 1"/>		 <!-- kasra lowered -->
 			<cmd name="gr_feat" args="{gr_cv72} 1"/>	 <!-- dammatan six-nine -->
 			<cmd name="gr_feat" args="{gr_cv82} 4"/>	 <!-- eastern digits -->
 		</value>
 		<value name="Sindhi" tag="Snd">
 			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {SindhiCALT}"/>	
+			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
 			<cmd name="gr_feat" args="{gr_cv44} 1"/>	 <!-- meem alternates -->
+			<cmd name="gr_feat" args="{gr_cv62} 1"/>	 <!-- kasra lowered -->
 			<cmd name="gr_feat" args="{gr_cv82} 1"/>	 <!-- eastern digits -->
 			<cmd name="gr_feat" args="{gr_cv84} 1"/>	 <!-- comma downward -->
 		</value>
 		<value name="Urdu" tag="Urd">
 			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {UrduCALT}"/>	
+			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+			<cmd name="gr_feat" args="{gr_cv62} 1"/>	 <!-- kasra lowered -->
 			<cmd name="gr_feat" args="{gr_cv82} 2"/>	 <!-- eastern digits -->
 		</value>
 	</feature>
@@ -219,9 +222,9 @@
 	</feature>
 
 	<interactions>
-		<test select="Lng-Def Kas-High">
-			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
-			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+		<test select="Lng-Def Kas-Low">
+			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
 		</test>
 		<test select="Lng-Kyr Kas-Low">
 			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>

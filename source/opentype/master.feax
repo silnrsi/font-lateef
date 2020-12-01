@@ -141,11 +141,6 @@ lookup KasraLow {
     sub @Kasra by @Kasra_lowered;
 } KasraLow;
 
-## unneeded? lookup KasraHigh {
-## unneeded?   lookupflag 0 ;
-## unneeded?     sub @Kasra_lowered by @Kasra;
-## unneeded? } KasraHigh;
-
 
 # HB PAUSE
 
@@ -875,13 +870,10 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup ReorderMaddaVowel2;
     script latn;  # Latin
         lookup LatinPunctuation ;
-        lookup KasraLow ;
     script arab;  # Arabic
         lookup DecomposeForColor;
       language KIR  ;
-      	# lookup KasraHigh ;
       language KUR  ;
-      	# lookup KasraHigh ;
       language RHG  ;
         lookup KasraLow ;
       language SND  ;
@@ -890,8 +882,6 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup KasraLow ;
 ##      language WLF  ;
 ##        lookup KasraLow ;
-      language dflt ;			# Must be last, otherwise its lookups get added to all langs
-        lookup KasraLow ;
 } ccmp ;
 
 # feature locl (not used; see calt)

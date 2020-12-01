@@ -293,7 +293,7 @@ table(language)
 
 kurdish {
     languages = (
-//    	"bdh",	// Behdini - obsolete
+//    	"bdh",	// Behdini - obsolete and code is reassigned
     	"ckb",	// Central Kurdish
     	"kmr",	// Northern Kurdish/Behdini
     	"ku",   // Kurdish macrolanguage
@@ -301,13 +301,11 @@ kurdish {
     	"sdh"	// Southern Kurdish/Sorani
     );
     hehAlt = kurdish;
-	shaddaKasra = raised;
 };
 
 kyrgyz {
 	languages = ( "kir", "ky" );  // Kirghiz / Kyrgyz
 	yehHamzaAlt = Kyrgyz;
-	shaddaKasra = raised;
 };
 
 rohingya {
@@ -315,6 +313,7 @@ rohingya {
     	"rhg"	// Rohingya
     );
     easternDigits = rohingya;
+    shaddaKasra = lowered;
     dammatanAlt = sixNine;
 };
 
@@ -322,16 +321,19 @@ rohingya {
 sindhi {
     languages = ( "snd", "sd" ); // Sindhi
     meemAlt = sindhi;
-    hehAlt = sindhi;
     easternDigits = sindhi;
     commaAlt = down;
+    shaddaKasra = lowered;
+
+//  hehAlt = sindhi;  // remove for now, to match OT
 };
 
 urdu {
     languages = ( "urd", "ur" ); // Urdu
     easternDigits = urdu;
+    shaddaKasra = lowered;
 
-    // hehAlt = urdu; // removed
+//   hehAlt = urdu; // removed
 
 };
 
