@@ -384,14 +384,17 @@ lookup ShaddaLigatures {
 #********************
 
 #********************
-# Language CALTs
+# Language-independent CALTs
+
+lookup DaggerAlefToLarge {
+  lookupflag 0 ;
+    sub @TakesLargeDaggerAlef alefabove-ar' by alefabove-ar.large ;
+} DaggerAlefToLarge;
+
+#********************
+# Language-specific  CALTs
 
 # Note: Setting default kasra is done in ccmp
-
-lookup dfltCALT {
-  lookupflag 0 ;
-     sub tab by tab;   # Need a dummy lookup for Typetuner
-} dfltCALT;
 
 lookup KurdishCALT {
   lookupflag 0 ;
@@ -539,14 +542,12 @@ lookup DammatanAlternate {
 #********************
 # DaggerAlef alternates: cv76
 
-lookup DaggerAlef_target {
-    sub alefabove-ar from [ alefabove-ar.large alefabove-ar ] ;
-} DaggerAlef_target;
+lookup DaggerAlefAlternates {
+	# By this time, we've already changed to alefabove-ar.large in contexts where it might be wanted
+	# Now return it to small if cv76=2
+    sub alefabove-ar.large from [ alefabove-ar.large alefabove-ar ] ;
+} DaggerAlefAlternates;
 
-lookup DaggerAlefToLarge {
-  lookupflag 0 ;
-    sub @TakesLargeDaggerAlef alefabove-ar' lookup DaggerAlef_target ;
-} DaggerAlefToLarge;
 
 #********************
 # Sukun alternates: cv78
@@ -565,7 +566,7 @@ lookup AyahAlternates {
 } AyahAlternates;
 
 #********************
-# Heh Alternates: TypeTuner lookups:
+# Digit Alternates: TypeTuner lookups:
 
 lookup DigitSindhi {
   lookupflag 0;
@@ -954,6 +955,7 @@ feature rlig {  # Required Ligatures
 
 feature calt {  # Contextual Alternates
     script arab;  # Arabic
+        lookup DaggerAlefToLarge ;
       language KIR ; # Kyrgyz
       	lookup KyrgyzCALT ;
       language KUR ; # Kurdish
@@ -966,8 +968,6 @@ feature calt {  # Contextual Alternates
         lookup UrduCALT ;
 #      language WLF ; # Wolof
 #        lookup WolofCALT ;
-      language dflt ;   # Must have a lookup here for TypeTuner to work.
-        lookup dfltCALT ;
 } calt ;
 
 # feature rclt
@@ -1099,11 +1099,12 @@ feature cv72 {  # Character Variant 72
 
 feature cv76 {  # Character Variant 76
     # Same for latin & arabic:
-        lookup DaggerAlefToLarge;
+        lookup DaggerAlefAlternates;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Superscript Alef" ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Small"            ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Large"            ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Default"          ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Large"            ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Small"            ; };
     } ;
 } cv76 ;
 
