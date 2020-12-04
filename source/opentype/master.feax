@@ -594,7 +594,7 @@ lookup DigitKurdish {
 
 lookup DigitRohingya {
    sub four-persian        by four-persian.roh;
-##   sub four-persian.urdu   by four-persian.roh;    #### TODO We will have this variant.
+   sub four-persian.urdu   by four-persian.roh;
    sub six-persian         by six-persian.urdu;
    sub seven-persian       by seven-persian.urdu;
 } DigitRohingya;
