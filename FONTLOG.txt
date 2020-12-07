@@ -76,7 +76,6 @@ ChangeLog
 - Changed design of U+FDF2 (Allah) to include alef
 - Implemented new Allah ligature rules
 - Implemented support for UNICODE ARABIC MARK RENDERING (UTR #53) 
-- Fixed bug in forming of lam/alef ligatures when automatic kashida justification is turned on
 - Added UI name strings for Graphite and OpenType features
 - Removed support for Sindhi-style heh when Sindhi language is selected
 - Removed support for Urdu-style heh when Urdu language is selected
