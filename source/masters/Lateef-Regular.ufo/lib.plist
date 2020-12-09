@@ -139,6 +139,7 @@
 /fullstop-ar/comma-ar/comma-ar.downward/commareversed/quotesinglbase.arab/semicolon-ar :/semicolon-ar.downward/reversedsemicolon !()/quoteleft.arab/quoteright.arab/quotedblleft.arab/quotedblright.arab 
 /quoteleft.arab/seven-ar/quoteright.arab/space/quotedblleft.arab/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init/alef-ar/quotedblright.arab/space</string>
     <string>/quotedblright.arab/comma-ar/quotesinglbase.arab/quotedblbase.arab/space</string>
+    <string>/meem-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2930</integer>
