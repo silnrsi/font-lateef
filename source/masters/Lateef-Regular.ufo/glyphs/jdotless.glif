@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jdotless" format="2">
   <advance width="421"/>
-  <unicode hex="0237"/>
   <note>
 uni0237
 </note>
@@ -29,4 +28,10 @@ uni0237
       <point x="-11" y="-309" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

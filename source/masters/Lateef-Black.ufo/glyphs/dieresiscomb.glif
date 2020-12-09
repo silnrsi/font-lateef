@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresiscomb" format="2">
-  <unicode hex="0308"/>
   <note>
 uni0308
 </note>
@@ -40,6 +39,8 @@ uni0308
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>600</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
