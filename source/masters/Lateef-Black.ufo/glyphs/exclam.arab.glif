@@ -1,39 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclam.arab" format="2">
-  <advance width="494"/>
+  <advance width="465"/>
   <unicode hex="0021"/>
   <outline>
     <contour>
-      <point x="248" y="184" type="curve"/>
-      <point x="211" y="184"/>
-      <point x="154" y="129"/>
-      <point x="154" y="90" type="curve" smooth="yes"/>
-      <point x="154" y="51"/>
-      <point x="211" y="-6"/>
-      <point x="248" y="-6" type="curve" smooth="yes"/>
-      <point x="287" y="-6"/>
-      <point x="342" y="51"/>
-      <point x="342" y="90" type="curve" smooth="yes"/>
-      <point x="342" y="129"/>
-      <point x="287" y="184"/>
+      <point x="345" y="1054" type="curve"/>
+      <point x="80" y="915" type="line"/>
+      <point x="96" y="671"/>
+      <point x="127" y="523"/>
+      <point x="216" y="288" type="curve"/>
+      <point x="241" y="294" type="line"/>
+      <point x="235" y="553"/>
+      <point x="273" y="779"/>
     </contour>
-    <contour>
-      <point x="184" y="809" type="line"/>
-      <point x="184" y="528" type="line" smooth="yes"/>
-      <point x="184" y="506"/>
-      <point x="186" y="444"/>
-      <point x="198" y="379" type="curve" smooth="yes"/>
-      <point x="207" y="332"/>
-      <point x="215" y="303"/>
-      <point x="227" y="260" type="curve"/>
-      <point x="276" y="287" type="line"/>
-      <point x="276" y="571" type="line" smooth="yes"/>
-      <point x="276" y="598"/>
-      <point x="287" y="743"/>
-      <point x="297" y="803" type="curve" smooth="yes"/>
-      <point x="307" y="870"/>
-      <point x="309" y="887"/>
-      <point x="315" y="932" type="curve"/>
-    </contour>
+    <component base="_dot1" xOffset="231" yOffset="102"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

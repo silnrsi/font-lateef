@@ -136,6 +136,10 @@
 /_subtendingA.1/_subtendingA.2/_subtendingA.3/_subtendingA.4 
 /_pagenumberSad/space/_samvatSM/space/_number 
 </string>
+    <string>/exclam/asterisk/parenleft/parenright .,;/space/space/quotedblleft Font/quotedblright 
+!*(/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init/alef-ar )/space (/three-ar/one-ar/nine-ar )
+/fullstop-ar/comma-ar/comma-ar.downward/commareversed/semicolon-ar :/semicolon-ar.downward/reversedsemicolon !()/quoteleft.arab/quoteright.arab/quotedblleft.arab/quotedblright.arab 
+/quoteleft.arab/seven-ar/quoteright.arab/space/quotedblleft.arab/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init/alef-ar/quotedblright.arab/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2930</integer>
