@@ -442,6 +442,8 @@
   <string>quoteleft.arab.glif</string>
   <key>quoteright.arab</key>
   <string>quoteright.arab.glif</string>
+  <key>quotesinglbase.arab</key>
+  <string>quotesinglbase.arab.glif</string>
   <key>reh-ar</key>
   <string>reh-ar.glif</string>
   <key>reh-ar.fina</key>

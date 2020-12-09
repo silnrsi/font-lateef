@@ -396,6 +396,8 @@
   <string>qafD_otless-ar.fina.glif</string>
   <key>qafLamAlefMaksuraabove-ar</key>
   <string>qafL_amA_lefM_aksuraabove-ar.glif</string>
+  <key>quotesinglbase.arab</key>
+  <string>quotesinglbase.arab.glif</string>
   <key>reh-ar</key>
   <string>reh-ar.glif</string>
   <key>reh-ar.fina</key>

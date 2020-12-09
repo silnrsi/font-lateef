@@ -6,10 +6,4 @@
     <component base="comma-ar.downward" xOffset="-45" yOffset="1158"/>
     <component base="comma-ar.downward" xOffset="215" yOffset="1158"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>
