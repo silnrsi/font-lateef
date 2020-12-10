@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quoteright.latn" format="2">
+  <advance width="503"/>
+  <note>
+quoteright
+</note>
+  <outline>
+    <contour>
+      <point x="88" y="449" type="line"/>
+      <point x="324" y="544"/>
+      <point x="430" y="701"/>
+      <point x="430" y="890" type="curve" smooth="yes"/>
+      <point x="430" y="1059"/>
+      <point x="332" y="1120"/>
+      <point x="245" y="1120" type="curve" smooth="yes"/>
+      <point x="152" y="1120"/>
+      <point x="81" y="1054"/>
+      <point x="81" y="971" type="curve" smooth="yes"/>
+      <point x="81" y="831"/>
+      <point x="237" y="842"/>
+      <point x="237" y="717" type="curve" smooth="yes"/>
+      <point x="237" y="645"/>
+      <point x="194" y="579"/>
+      <point x="56" y="523" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

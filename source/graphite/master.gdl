@@ -89,7 +89,7 @@ pass(1)	{ Direction = LEFT_TO_RIGHT } // Encoding, [de-]composition, subtending 
 	cSignTakes1 cDigitsAny  >  cSign1  cDigitsAnyMedium;
 
 	// Pick latin variants if appropriate:
-	carab > cno_arab  /  _ {directionality == 0};
+	cno_latn > clatn  /  _ {directionality == 0};
 
 endpass; // 1
 

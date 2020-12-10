@@ -490,8 +490,8 @@
   <string>asterisk.glif</string>
   <key>asterisk-ar</key>
   <string>asterisk-ar.glif</string>
-  <key>asterisk.arab</key>
-  <string>asterisk.arab.glif</string>
+  <key>asterisk.latn</key>
+  <string>asterisk.latn.glif</string>
   <key>at</key>
   <string>at.glif</string>
   <key>atilde</key>
@@ -628,8 +628,8 @@
   <string>circumflexcomb.case.glif</string>
   <key>colon</key>
   <string>colon.glif</string>
-  <key>colon.arab</key>
-  <string>colon.arab.glif</string>
+  <key>colon.latn</key>
+  <string>colon.latn.glif</string>
   <key>colontriangularmod</key>
   <string>colontriangularmod.glif</string>
   <key>comma</key>
@@ -846,8 +846,8 @@
   <string>euro.glif</string>
   <key>exclam</key>
   <string>exclam.glif</string>
-  <key>exclam.arab</key>
-  <string>exclam.arab.glif</string>
+  <key>exclam.latn</key>
+  <string>exclam.latn.glif</string>
   <key>exclamdown</key>
   <string>exclamdown.glif</string>
   <key>f</key>
@@ -1842,14 +1842,14 @@
   <string>parenleft.glif</string>
   <key>parenleft-ar</key>
   <string>parenleft-ar.glif</string>
-  <key>parenleft.arab</key>
-  <string>parenleft.arab.glif</string>
+  <key>parenleft.latn</key>
+  <string>parenleft.latn.glif</string>
   <key>parenright</key>
   <string>parenright.glif</string>
   <key>parenright-ar</key>
   <string>parenright-ar.glif</string>
-  <key>parenright.arab</key>
-  <string>parenright.arab.glif</string>
+  <key>parenright.latn</key>
+  <string>parenright.latn.glif</string>
   <key>partialdiff</key>
   <string>partialdiff.glif</string>
   <key>partialdiff.rtl</key>
@@ -1958,20 +1958,20 @@
   <string>quotedblbase.arab.glif</string>
   <key>quotedblleft</key>
   <string>quotedblleft.glif</string>
-  <key>quotedblleft.arab</key>
-  <string>quotedblleft.arab.glif</string>
+  <key>quotedblleft.latn</key>
+  <string>quotedblleft.latn.glif</string>
   <key>quotedblright</key>
   <string>quotedblright.glif</string>
-  <key>quotedblright.arab</key>
-  <string>quotedblright.arab.glif</string>
+  <key>quotedblright.latn</key>
+  <string>quotedblright.latn.glif</string>
   <key>quoteleft</key>
   <string>quoteleft.glif</string>
-  <key>quoteleft.arab</key>
-  <string>quoteleft.arab.glif</string>
+  <key>quoteleft.latn</key>
+  <string>quoteleft.latn.glif</string>
   <key>quoteright</key>
   <string>quoteright.glif</string>
-  <key>quoteright.arab</key>
-  <string>quoteright.arab.glif</string>
+  <key>quoteright.latn</key>
+  <string>quoteright.latn.glif</string>
   <key>quotesinglbase</key>
   <string>quotesinglbase.glif</string>
   <key>quotesinglbase.arab</key>
@@ -2312,8 +2312,8 @@
   <string>softhyphen.glif</string>
   <key>space</key>
   <string>space.glif</string>
-  <key>space.arab</key>
-  <string>space.arab.glif</string>
+  <key>space.latn</key>
+  <string>space.latn.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
   <key>strokeshortcomb.case</key>

@@ -1,34 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclam" format="2">
-  <advance width="488"/>
-  <note>
-exclam
-</note>
+  <advance width="465"/>
+  <unicode hex="0021"/>
   <outline>
     <contour>
-      <point x="194" y="385" type="line"/>
-      <point x="295" y="385" type="line"/>
-      <point x="404" y="847" type="line" smooth="yes"/>
-      <point x="434" y="1004"/>
-      <point x="370" y="1120"/>
-      <point x="243" y="1120" type="curve" smooth="yes"/>
-      <point x="118" y="1120"/>
-      <point x="54" y="1004"/>
-      <point x="85" y="847" type="curve" smooth="yes"/>
+      <point x="345" y="1054" type="curve"/>
+      <point x="80" y="915" type="line"/>
+      <point x="96" y="671"/>
+      <point x="127" y="523"/>
+      <point x="216" y="288" type="curve"/>
+      <point x="241" y="294" type="line"/>
+      <point x="235" y="553"/>
+      <point x="273" y="779"/>
     </contour>
-    <contour>
-      <point x="243" y="-16" type="curve" smooth="yes"/>
-      <point x="337" y="-16"/>
-      <point x="410" y="54"/>
-      <point x="410" y="146" type="curve" smooth="yes"/>
-      <point x="410" y="239"/>
-      <point x="337" y="312"/>
-      <point x="243" y="312" type="curve" smooth="yes"/>
-      <point x="152" y="312"/>
-      <point x="77" y="239"/>
-      <point x="77" y="146" type="curve" smooth="yes"/>
-      <point x="77" y="56"/>
-      <point x="150" y="-16"/>
-    </contour>
+    <component base="_dot1" xOffset="231" yOffset="102"/>
   </outline>
 </glyph>

@@ -1,45 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="colon" format="2">
-  <advance width="487"/>
-  <note>
-colon
-</note>
+  <advance width="342"/>
+  <unicode hex="003A"/>
   <outline>
-    <contour>
-      <point x="243" y="-16" type="curve" smooth="yes"/>
-      <point x="335" y="-16"/>
-      <point x="410" y="52"/>
-      <point x="410" y="141" type="curve" smooth="yes"/>
-      <point x="410" y="229"/>
-      <point x="335" y="301"/>
-      <point x="243" y="301" type="curve" smooth="yes"/>
-      <point x="152" y="301"/>
-      <point x="75" y="229"/>
-      <point x="75" y="141" type="curve" smooth="yes"/>
-      <point x="75" y="52"/>
-      <point x="152" y="-16"/>
-    </contour>
-    <contour>
-      <point x="243" y="409" type="curve" smooth="yes"/>
-      <point x="335" y="409"/>
-      <point x="410" y="476"/>
-      <point x="410" y="564" type="curve" smooth="yes"/>
-      <point x="410" y="654"/>
-      <point x="335" y="727"/>
-      <point x="243" y="727" type="curve" smooth="yes"/>
-      <point x="152" y="727"/>
-      <point x="75" y="654"/>
-      <point x="75" y="564" type="curve" smooth="yes"/>
-      <point x="75" y="476"/>
-      <point x="152" y="409"/>
-    </contour>
+    <component base="_dot1" xOffset="171" yOffset="116"/>
+    <component base="_dot1" xOffset="171" yOffset="564"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>period</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
-      <string>period</string>
-    </dict>
-  </lib>
 </glyph>

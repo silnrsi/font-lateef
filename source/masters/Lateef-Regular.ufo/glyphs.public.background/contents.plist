@@ -128,8 +128,8 @@
   <string>behD_otless-ar.init.glif</string>
   <key>behDotless-ar.medi</key>
   <string>behD_otless-ar.medi.glif</string>
-  <key>colon.arab</key>
-  <string>colon.arab.glif</string>
+  <key>colon</key>
+  <string>colon.glif</string>
   <key>comma-ar</key>
   <string>comma-ar.glif</string>
   <key>comma-ar.downward</key>
@@ -168,8 +168,8 @@
   <string>eight.medium.glif</string>
   <key>eight.small</key>
   <string>eight.small.glif</string>
-  <key>exclam.arab</key>
-  <string>exclam.arab.glif</string>
+  <key>exclam</key>
+  <string>exclam.glif</string>
   <key>fatha-ar</key>
   <string>fatha-ar.glif</string>
   <key>fatha-ar.allah</key>
@@ -422,12 +422,12 @@
   <string>pagenumber-ar.2.glif</string>
   <key>pagenumber-ar.3</key>
   <string>pagenumber-ar.3.glif</string>
+  <key>parenleft</key>
+  <string>parenleft.glif</string>
   <key>parenleft-ar</key>
   <string>parenleft-ar.glif</string>
-  <key>parenleft.arab</key>
-  <string>parenleft.arab.glif</string>
-  <key>parenright.arab</key>
-  <string>parenright.arab.glif</string>
+  <key>parenright</key>
+  <string>parenright.glif</string>
   <key>percent-ar</key>
   <string>percent-ar.glif</string>
   <key>qafDotless-ar</key>
@@ -436,12 +436,12 @@
   <string>qafD_otless-ar.fina.glif</string>
   <key>qafLamAlefMaksuraabove-ar</key>
   <string>qafL_amA_lefM_aksuraabove-ar.glif</string>
-  <key>quotedblleft.arab</key>
-  <string>quotedblleft.arab.glif</string>
-  <key>quoteleft.arab</key>
-  <string>quoteleft.arab.glif</string>
-  <key>quoteright.arab</key>
-  <string>quoteright.arab.glif</string>
+  <key>quotedblleft</key>
+  <string>quotedblleft.glif</string>
+  <key>quoteleft</key>
+  <string>quoteleft.glif</string>
+  <key>quoteright</key>
+  <string>quoteright.glif</string>
   <key>quotesinglbase.arab</key>
   <string>quotesinglbase.arab.glif</string>
   <key>reh-ar</key>
