@@ -2,7 +2,7 @@
 <glyph name="rehRing-ar" format="2">
   <advance width="545"/>
   <unicode hex="0693"/>
-  <anchor x="122" y="697" name="alef"/>
+  <anchor x="122" y="697" name="alefUnused"/>
   <anchor x="280" y="697" name="diaA"/>
   <anchor x="167" y="-611" name="diaB"/>
   <outline>

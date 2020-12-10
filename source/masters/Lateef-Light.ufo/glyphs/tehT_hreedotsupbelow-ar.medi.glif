@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehThreedotsupbelow-ar.medi" format="2">
   <advance width="440"/>
-  <anchor x="56" y="756" name="alef"/>
+  <anchor x="56" y="756" name="alefUnused"/>
   <anchor x="182" y="830" name="diaA"/>
   <anchor x="166" y="-644" name="diaB"/>
   <outline>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meemDotbelow-ar.init" format="2">
   <advance width="615"/>
-  <anchor x="125" y="551" name="alef"/>
+  <anchor x="125" y="551" name="alefUnused"/>
   <anchor x="240" y="700" name="diaA"/>
   <anchor x="202" y="-336" name="diaB"/>
   <outline>

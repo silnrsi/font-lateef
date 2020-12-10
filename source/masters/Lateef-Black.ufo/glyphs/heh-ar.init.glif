@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heh-ar.init" format="2">
   <advance width="616"/>
-  <anchor x="88" y="788" name="alef"/>
+  <anchor x="88" y="788" name="alefUnused"/>
   <anchor x="235" y="891" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>
   <outline>

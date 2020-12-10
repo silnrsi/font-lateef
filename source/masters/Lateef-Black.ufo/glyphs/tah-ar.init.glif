@@ -3,7 +3,7 @@
   <advance width="914"/>
   <guideline x="1080" y="280" angle="180"/>
   <anchor x="609" y="685" name="above"/>
-  <anchor x="0" y="832" name="alef"/>
+  <anchor x="0" y="832" name="alefUnused"/>
   <anchor x="332" y="-50" name="below"/>
   <anchor x="219" y="1235" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>

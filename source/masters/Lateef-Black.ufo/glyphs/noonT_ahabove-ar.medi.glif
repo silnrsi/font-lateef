@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonTahabove-ar.medi" format="2">
   <advance width="440"/>
-  <anchor x="56" y="953" name="alef"/>
+  <anchor x="56" y="953" name="alefUnused"/>
   <anchor x="174" y="1195" name="diaA"/>
   <anchor x="150" y="-200" name="diaB"/>
   <outline>

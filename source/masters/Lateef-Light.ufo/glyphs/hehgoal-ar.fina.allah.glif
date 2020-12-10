@@ -2,7 +2,7 @@
 <glyph name="hehgoal-ar.fina.allah" format="2">
   <advance width="729"/>
   <anchor x="427" y="390" name="above"/>
-  <anchor x="213" y="543" name="alef"/>
+  <anchor x="213" y="543" name="alefUnused"/>
   <anchor x="418" y="-100" name="below"/>
   <anchor x="369" y="700" name="diaA"/>
   <anchor x="202" y="-251" name="diaB"/>

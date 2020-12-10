@@ -2,7 +2,7 @@
 <glyph name="fehDotbelow-ar" format="2">
   <advance width="1210"/>
   <unicode hex="06A3"/>
-  <anchor x="270" y="690" name="alef"/>
+  <anchor x="270" y="690" name="alefUnused"/>
   <anchor x="605" y="732" name="diaA"/>
   <anchor x="226" y="-202" name="diaB"/>
   <outline>

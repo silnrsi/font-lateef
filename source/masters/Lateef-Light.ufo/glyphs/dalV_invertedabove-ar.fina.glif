@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalVinvertedabove-ar.fina" format="2">
   <advance width="644"/>
-  <anchor x="171" y="1087" name="alef"/>
+  <anchor x="171" y="1087" name="alefUnused"/>
   <anchor x="421" y="1263" name="diaA"/>
   <anchor x="300" y="-202" name="diaB"/>
   <outline>

@@ -2,7 +2,7 @@
 <glyph name="rehVinvertedabove-ar" format="2">
   <advance width="545"/>
   <unicode hex="06EF"/>
-  <anchor x="118" y="769" name="alef"/>
+  <anchor x="118" y="769" name="alefUnused"/>
   <anchor x="280" y="923" name="diaA"/>
   <anchor x="167" y="-474" name="diaB"/>
   <outline>

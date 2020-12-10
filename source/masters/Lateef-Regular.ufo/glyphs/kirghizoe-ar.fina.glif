@@ -2,7 +2,7 @@
 <glyph name="kirghizoe-ar.fina" format="2">
   <advance width="722"/>
   <anchor x="488" y="505" name="above"/>
-  <anchor x="304" y="686" name="alef"/>
+  <anchor x="304" y="686" name="alefUnused"/>
   <anchor x="459" y="-352" name="below"/>
   <anchor x="534" y="688" name="diaA"/>
   <anchor x="384" y="-462" name="diaB"/>

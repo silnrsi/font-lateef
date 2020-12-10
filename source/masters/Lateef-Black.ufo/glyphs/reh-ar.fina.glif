@@ -2,7 +2,7 @@
 <glyph name="reh-ar.fina" format="2">
   <advance width="542"/>
   <anchor x="323" y="447" name="above"/>
-  <anchor x="106" y="684" name="alef"/>
+  <anchor x="106" y="684" name="alefUnused"/>
   <anchor x="418" y="-298" name="below"/>
   <anchor x="124" y="4" name="center"/>
   <anchor x="275" y="684" name="diaA"/>

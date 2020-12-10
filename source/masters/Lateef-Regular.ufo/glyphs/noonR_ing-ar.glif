@@ -2,7 +2,7 @@
 <glyph name="noonRing-ar" format="2">
   <advance width="796"/>
   <unicode hex="06BC"/>
-  <anchor x="172" y="710" name="alef"/>
+  <anchor x="172" y="710" name="alefUnused"/>
   <anchor x="276" y="769" name="diaA"/>
   <anchor x="284" y="-640" name="diaB"/>
   <outline>

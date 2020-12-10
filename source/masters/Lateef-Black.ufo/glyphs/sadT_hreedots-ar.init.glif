@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sadThreedots-ar.init" format="2">
   <advance width="1243"/>
-  <anchor x="125" y="595" name="alef"/>
+  <anchor x="125" y="595" name="alefUnused"/>
   <anchor x="478" y="1049" name="diaA"/>
   <anchor x="300" y="-202" name="diaB"/>
   <outline>

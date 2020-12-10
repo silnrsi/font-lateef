@@ -2,7 +2,7 @@
 <glyph name="sadThreedots-ar" format="2">
   <advance width="1679"/>
   <unicode hex="069E"/>
-  <anchor x="285" y="464" name="alef"/>
+  <anchor x="285" y="464" name="alefUnused"/>
   <anchor x="799" y="1103" name="diaA"/>
   <anchor x="173" y="-514" name="diaB"/>
   <outline>

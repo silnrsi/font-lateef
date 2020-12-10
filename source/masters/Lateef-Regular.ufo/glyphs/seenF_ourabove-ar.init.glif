@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seenFourabove-ar.init" format="2">
   <advance width="849"/>
-  <anchor x="125" y="595" name="alef"/>
+  <anchor x="125" y="595" name="alefUnused"/>
   <anchor x="413" y="700" name="diaA"/>
   <anchor x="300" y="-200" name="diaB"/>
   <outline>

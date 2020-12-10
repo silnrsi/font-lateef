@@ -2,7 +2,7 @@
 <glyph name="kafThreedotsbelow-ar" format="2">
   <advance width="960"/>
   <unicode hex="06AE"/>
-  <anchor x="242" y="773" name="alef"/>
+  <anchor x="242" y="773" name="alefUnused"/>
   <anchor x="521" y="1174" name="diaA"/>
   <anchor x="215" y="-202" name="diaB"/>
   <outline>

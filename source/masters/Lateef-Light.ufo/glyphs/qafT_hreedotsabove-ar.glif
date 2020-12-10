@@ -2,7 +2,7 @@
 <glyph name="qafThreedotsabove-ar" format="2">
   <advance width="863"/>
   <unicode hex="06A8"/>
-  <anchor x="253" y="599" name="alef"/>
+  <anchor x="253" y="599" name="alefUnused"/>
   <anchor x="430" y="1045" name="diaA"/>
   <anchor x="221" y="-401" name="diaB"/>
   <outline>

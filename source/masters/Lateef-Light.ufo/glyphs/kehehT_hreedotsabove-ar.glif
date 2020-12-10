@@ -2,7 +2,7 @@
 <glyph name="kehehThreedotsabove-ar" format="2">
   <advance width="1228"/>
   <unicode hex="0763"/>
-  <anchor x="242" y="773" name="alef"/>
+  <anchor x="242" y="773" name="alefUnused"/>
   <anchor x="676" y="1434" name="diaA"/>
   <anchor x="300" y="-202" name="diaB"/>
   <outline>

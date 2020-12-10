@@ -2,7 +2,7 @@
 <glyph name="sad-ar.init" format="2">
   <advance width="1243"/>
   <anchor x="508" y="556" name="above"/>
-  <anchor x="125" y="595" name="alef"/>
+  <anchor x="125" y="595" name="alefUnused"/>
   <anchor x="508" y="-90" name="below"/>
   <anchor x="519" y="700" name="diaA"/>
   <anchor x="300" y="-200" name="diaB"/>

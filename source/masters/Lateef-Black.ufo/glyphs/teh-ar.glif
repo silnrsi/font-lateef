@@ -2,7 +2,7 @@
 <glyph name="teh-ar" format="2">
   <advance width="1204"/>
   <unicode hex="062A"/>
-  <anchor x="280" y="690" name="alef"/>
+  <anchor x="280" y="690" name="alefUnused"/>
   <anchor x="573" y="830" name="diaA"/>
   <anchor x="269" y="-235" name="diaB"/>
   <outline>

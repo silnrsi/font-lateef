@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hah-ar.init" format="2">
   <anchor x="305" y="580" name="above"/>
-  <anchor x="125" y="684" name="alef"/>
+  <anchor x="125" y="684" name="alefUnused"/>
   <anchor x="305" y="700" name="diaA"/>
   <outline>
     <contour>

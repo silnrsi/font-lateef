@@ -2,7 +2,7 @@
 <glyph name="rehStroke-ar" format="2">
   <advance width="545"/>
   <unicode hex="075B"/>
-  <anchor x="122" y="698" name="alef"/>
+  <anchor x="122" y="698" name="alefUnused"/>
   <anchor x="280" y="697" name="diaA"/>
   <anchor x="167" y="-474" name="diaB"/>
   <outline>

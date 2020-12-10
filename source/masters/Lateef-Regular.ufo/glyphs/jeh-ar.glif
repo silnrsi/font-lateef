@@ -2,7 +2,7 @@
 <glyph name="jeh-ar" format="2">
   <advance width="547"/>
   <unicode hex="0698"/>
-  <anchor x="114" y="936" name="alef"/>
+  <anchor x="114" y="936" name="alefUnused"/>
   <anchor x="272" y="1020" name="diaA"/>
   <anchor x="167" y="-474" name="diaB"/>
   <outline>

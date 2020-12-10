@@ -2,7 +2,7 @@
 <glyph name="yehTail-ar" format="2">
   <advance width="994"/>
   <unicode hex="06CD"/>
-  <anchor x="314" y="535" name="alef"/>
+  <anchor x="314" y="535" name="alefUnused"/>
   <anchor x="438" y="700" name="diaA"/>
   <anchor x="186" y="-434" name="diaB"/>
   <outline>

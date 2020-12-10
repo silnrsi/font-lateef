@@ -2,7 +2,7 @@
 <glyph name="kafTwodotshorizontalabove-ar" format="2">
   <advance width="1021"/>
   <unicode hex="077F"/>
-  <anchor x="242" y="773" name="alef"/>
+  <anchor x="242" y="773" name="alefUnused"/>
   <anchor x="521" y="1174" name="diaA"/>
   <anchor x="300" y="-202" name="diaB"/>
   <outline>

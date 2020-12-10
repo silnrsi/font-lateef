@@ -2,7 +2,7 @@
 <glyph name="tah-ar.medi" format="2">
   <advance width="806"/>
   <anchor x="521" y="601" name="above"/>
-  <anchor x="0" y="801" name="alef"/>
+  <anchor x="0" y="801" name="alefUnused"/>
   <anchor x="410" y="-50" name="below"/>
   <anchor x="165" y="1231" name="diaA"/>
   <anchor x="200" y="-200" name="diaB"/>

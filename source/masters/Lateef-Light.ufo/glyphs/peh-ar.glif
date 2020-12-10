@@ -2,7 +2,7 @@
 <glyph name="peh-ar" format="2">
   <advance width="1204"/>
   <unicode hex="067E"/>
-  <anchor x="280" y="690" name="alef"/>
+  <anchor x="280" y="690" name="alefUnused"/>
   <anchor x="612" y="700" name="diaA"/>
   <anchor x="200" y="-360" name="diaB"/>
   <outline>

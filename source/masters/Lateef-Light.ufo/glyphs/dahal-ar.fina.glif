@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dahal-ar.fina" format="2">
   <advance width="644"/>
-  <anchor x="182" y="1178" name="alef"/>
+  <anchor x="182" y="1178" name="alefUnused"/>
   <anchor x="417" y="1267" name="diaA"/>
   <anchor x="300" y="-202" name="diaB"/>
   <outline>

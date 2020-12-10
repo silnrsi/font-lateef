@@ -2,7 +2,7 @@
 <glyph name="ngoeh-ar" format="2">
   <advance width="1228"/>
   <unicode hex="06B1"/>
-  <anchor x="242" y="773" name="alef"/>
+  <anchor x="242" y="773" name="alefUnused"/>
   <anchor x="632" y="1417" name="diaA"/>
   <anchor x="300" y="-202" name="diaB"/>
   <outline>

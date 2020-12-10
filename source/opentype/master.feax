@@ -731,6 +731,8 @@ lookup mark_to_base {
   pos base @diaB mark @_diaB;
 } mark_to_base;
 
+# Override mark positioning in the case of dagger-alef on certain chars:
+
 lookup alef_to_base {
   lookupflag 0;
   pos base @alef mark @_alef;

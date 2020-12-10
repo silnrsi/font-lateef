@@ -2,7 +2,7 @@
 <glyph name="fehDotless-ar.fina" format="2">
   <advance width="1298"/>
   <anchor x="1070" y="645" name="above"/>
-  <anchor x="272" y="698" name="alef"/>
+  <anchor x="272" y="698" name="alefUnused"/>
   <anchor x="930" y="-50" name="below"/>
   <anchor x="695" y="700" name="diaA"/>
   <anchor x="200" y="-200" name="diaB"/>

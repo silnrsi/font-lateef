@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kafRing-ar.fina" format="2">
   <advance width="1544"/>
-  <anchor x="242" y="761" name="alef"/>
+  <anchor x="242" y="761" name="alefUnused"/>
   <anchor x="623" y="1020" name="diaA"/>
   <anchor x="316" y="-202" name="diaB"/>
   <outline>

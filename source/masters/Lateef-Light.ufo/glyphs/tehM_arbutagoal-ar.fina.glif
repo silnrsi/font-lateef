@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehMarbutagoal-ar.fina" format="2">
   <advance width="729"/>
-  <anchor x="186" y="736" name="alef"/>
+  <anchor x="186" y="736" name="alefUnused"/>
   <anchor x="349" y="794" name="diaA"/>
   <anchor x="235" y="-251" name="diaB"/>
   <outline>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kafTwodotshorizontalabove-ar.fina" format="2">
   <advance width="1179"/>
-  <anchor x="226" y="761" name="alef"/>
+  <anchor x="226" y="761" name="alefUnused"/>
   <anchor x="520" y="1170" name="diaA"/>
   <anchor x="300" y="-200" name="diaB"/>
   <outline>

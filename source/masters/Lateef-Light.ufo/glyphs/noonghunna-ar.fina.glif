@@ -2,7 +2,7 @@
 <glyph name="noonghunna-ar.fina" format="2">
   <advance width="873"/>
   <anchor x="385" y="187" name="above"/>
-  <anchor x="197" y="402" name="alef"/>
+  <anchor x="197" y="402" name="alefUnused"/>
   <anchor x="374" y="-461" name="below"/>
   <anchor x="304" y="624" name="diaA"/>
   <anchor x="198" y="-502" name="diaB"/>

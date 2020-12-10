@@ -2,7 +2,7 @@
 <glyph name="seen-ar.fina" format="2">
   <advance width="1471"/>
   <anchor x="1019" y="418" name="above"/>
-  <anchor x="295" y="436" name="alef"/>
+  <anchor x="295" y="436" name="alefUnused"/>
   <anchor x="1069" y="-69" name="below"/>
   <anchor x="660" y="700" name="diaA"/>
   <anchor x="200" y="-510" name="diaB"/>

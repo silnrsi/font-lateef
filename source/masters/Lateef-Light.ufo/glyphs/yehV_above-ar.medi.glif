@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehVabove-ar.medi" format="2">
   <advance width="440"/>
-  <anchor x="56" y="788" name="alef"/>
+  <anchor x="56" y="788" name="alefUnused"/>
   <anchor x="158" y="802" name="diaA"/>
   <anchor x="186" y="-458" name="diaB"/>
   <outline>

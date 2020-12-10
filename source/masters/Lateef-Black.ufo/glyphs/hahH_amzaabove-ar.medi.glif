@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahHamzaabove-ar.medi" format="2">
   <advance width="916"/>
-  <anchor x="149" y="917" name="alef"/>
+  <anchor x="149" y="917" name="alefUnused"/>
   <anchor x="368" y="1037" name="diaA"/>
   <anchor x="300" y="-202" name="diaB"/>
   <outline>

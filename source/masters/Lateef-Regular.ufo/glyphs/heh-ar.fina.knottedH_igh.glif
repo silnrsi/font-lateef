@@ -2,7 +2,7 @@
 <glyph name="heh-ar.fina.knottedHigh" format="2">
   <advance width="894"/>
   <anchor x="381" y="640" name="above"/>
-  <anchor x="229" y="726" name="alef"/>
+  <anchor x="229" y="726" name="alefUnused"/>
   <anchor x="404" y="-108" name="below"/>
   <anchor x="356" y="780" name="diaA"/>
   <anchor x="229" y="-200" name="diaB"/>

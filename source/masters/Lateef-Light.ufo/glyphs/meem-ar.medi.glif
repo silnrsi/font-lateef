@@ -2,7 +2,7 @@
 <glyph name="meem-ar.medi" format="2">
   <advance width="694"/>
   <anchor x="303" y="439" name="above"/>
-  <anchor x="125" y="684" name="alef"/>
+  <anchor x="125" y="684" name="alefUnused"/>
   <anchor x="303" y="-89" name="below"/>
   <anchor x="303" y="700" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>

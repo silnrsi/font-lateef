@@ -2,7 +2,7 @@
 <glyph name="meemDotbelow-ar" format="2">
   <advance width="586"/>
   <unicode hex="0766"/>
-  <anchor x="147" y="563" name="alef"/>
+  <anchor x="147" y="563" name="alefUnused"/>
   <anchor x="273" y="619" name="diaA"/>
   <anchor x="109" y="-719" name="diaB"/>
   <outline>

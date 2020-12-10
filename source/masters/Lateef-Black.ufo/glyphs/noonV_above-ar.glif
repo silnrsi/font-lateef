@@ -2,7 +2,7 @@
 <glyph name="noonVabove-ar" format="2">
   <advance width="816"/>
   <unicode hex="0769"/>
-  <anchor x="148" y="1003" name="alef"/>
+  <anchor x="148" y="1003" name="alefUnused"/>
   <anchor x="276" y="1020" name="diaA"/>
   <anchor x="231" y="-425" name="diaB"/>
   <outline>

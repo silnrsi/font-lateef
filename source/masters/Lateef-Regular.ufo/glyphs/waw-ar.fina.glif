@@ -2,7 +2,7 @@
 <glyph name="waw-ar.fina" format="2">
   <advance width="589"/>
   <anchor x="355" y="505" name="above"/>
-  <anchor x="47" y="666" name="alef"/>
+  <anchor x="47" y="666" name="alefUnused"/>
   <anchor x="326" y="-352" name="below"/>
   <anchor x="277" y="628" name="diaA"/>
   <anchor x="131" y="-420" name="diaB"/>

@@ -2,7 +2,7 @@
 <glyph name="meem-ar.sindhi" format="2">
   <advance width="854"/>
   <anchor x="625" y="519" name="above"/>
-  <anchor x="306" y="519" name="alef"/>
+  <anchor x="306" y="519" name="alefUnused"/>
   <anchor x="637" y="0" name="below"/>
   <anchor x="538" y="777" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>

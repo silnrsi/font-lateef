@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehLoop-ar.fina" format="2">
   <advance width="520"/>
-  <anchor x="84" y="684" name="alef"/>
+  <anchor x="84" y="684" name="alefUnused"/>
   <anchor x="194" y="684" name="diaA"/>
   <anchor x="153" y="-476" name="diaB"/>
   <outline>

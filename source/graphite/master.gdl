@@ -272,23 +272,22 @@ pass(1)
 
 	// Note: the superscript-alef may have both the _alef and _diaA att pts; the ordering of these
 	// rules assumes the alef AP should be used if there are no intervening marks above.
-	// Sch rule: cHasAlefAP=B  cMarkSuperscriptAlefs {attach {to=@B; at=alef; with=alef_}; }  / _ ^ MARKSBELOW _ ;
+	// Sch rule: calefDia {attach {to = @1; at = alefS; with = alefM}} / ...;
 	// Lateef special considerations:  In the 1.x font, only the lam (and variants except for initial)
-	// were included in the superscript-alef attachment rule, even though other glyphs have an alef AP.
-	// This may need further research and discussion: do we want the Graphite version to match the OT?
-	// For now I am assuming so. Therefore, instead of:
-	//   calefDia {attach {to = @1; at = alefS; with = alefM}} / cTakesalefDia MARKSBELOW _;
-	// we'll use:
-	calefDia {attach {to = @1; at = alefS; with = alefM}} /
-		( cLamIso cLamIni cLamIniBeforeAlef cLamMed cLamMedBeforeAlef cLamFin) MARKSBELOW _;
-
+	// were included in the superscript-alef attachment rule, *even though* other glyphs have an alef AP.
+	// We managed this by using a manually maintained class, cHasAlefAP, to specify what base chars participated
+	// in the special logic. While this is possible VOLT, it isn't possible in fea.
+	// In order to match the old Lateef behavior, we have renamed the `alef` anchors to `alefUnused` on 
+	// all base glyphs *other than* the lam glyphs where we want it. This preserves the anchor data but
+	// makes the alef positioning possible in fea:
+	
+	calefDia {attach {to = @1; at = alefS; with = alefM}} / cTakesalefDia MARKSBELOW _;
 	cdiaADia {attach {to = @1; at = diaAS; with = diaAM}} / cTakesdiaADia MARKSBELOW _;
 	cdiaBDia {attach {to = @1; at = diaBS; with = diaBM}} / cTakesdiaBDia opt4(cnTakesdiaBDia) _;
 
 	// Subtending marks
 	// NB: at this point digits should be in visual order, right to left,
 	// so we attach the left-most (logically first) to the sign, and proceed to the right.
-
 
 	cSignDigit=D4 { attach {to=@D3; at=digitRS; with=digitLS }; insert = true}
 	cSignDigit=D3 { attach {to=@D2; at=digitRS; with=digitLS }; insert = true}

@@ -2,7 +2,7 @@
 <glyph name="yeh-ar.noDots.fina" format="2">
   <advance width="956"/>
   <anchor x="476" y="236" name="above"/>
-  <anchor x="295" y="329" name="alef"/>
+  <anchor x="295" y="329" name="alefUnused"/>
   <anchor x="351" y="-500" name="below"/>
   <anchor x="390" y="510" name="diaA"/>
   <anchor x="200" y="-575" name="diaB"/>

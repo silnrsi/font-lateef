@@ -2,7 +2,7 @@
 <glyph name="noonThreedotsabove-ar" format="2">
   <advance width="796"/>
   <unicode hex="06BD"/>
-  <anchor x="160" y="876" name="alef"/>
+  <anchor x="160" y="876" name="alefUnused"/>
   <anchor x="280" y="948" name="diaA"/>
   <anchor x="231" y="-425" name="diaB"/>
   <outline>

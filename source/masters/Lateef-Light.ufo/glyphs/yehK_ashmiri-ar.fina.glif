@@ -2,7 +2,7 @@
 <glyph name="yehKashmiri-ar.fina" format="2">
   <advance width="943"/>
   <anchor x="463" y="236" name="above"/>
-  <anchor x="282" y="329" name="alef"/>
+  <anchor x="282" y="329" name="alefUnused"/>
   <anchor x="338" y="-524" name="below"/>
   <anchor x="378" y="510" name="diaA"/>
   <anchor x="184" y="-575" name="diaB"/>

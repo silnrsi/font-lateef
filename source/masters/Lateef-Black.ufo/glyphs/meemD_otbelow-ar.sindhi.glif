@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meemDotbelow-ar.sindhi" format="2">
   <advance width="874"/>
-  <anchor x="266" y="579" name="alef"/>
+  <anchor x="266" y="579" name="alefUnused"/>
   <anchor x="498" y="777" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>
   <outline>

@@ -2,7 +2,7 @@
 <glyph name="kafDotabove-ar" format="2">
   <advance width="960"/>
   <unicode hex="06AC"/>
-  <anchor x="354" y="1137" name="alef"/>
+  <anchor x="354" y="1137" name="alefUnused"/>
   <anchor x="460" y="1209" name="diaA"/>
   <anchor x="300" y="-202" name="diaB"/>
   <outline>

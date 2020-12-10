@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="veh-ar.fina" format="2">
   <advance width="1298"/>
-  <anchor x="246" y="698" name="alef"/>
+  <anchor x="246" y="698" name="alefUnused"/>
   <anchor x="668" y="1101" name="diaA"/>
   <anchor x="300" y="-202" name="diaB"/>
   <outline>

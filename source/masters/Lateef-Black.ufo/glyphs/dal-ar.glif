@@ -4,7 +4,7 @@
   <unicode hex="062F"/>
   <guideline x="310" y="258" angle="180"/>
   <anchor x="235" y="758" name="above"/>
-  <anchor x="96" y="817" name="alef"/>
+  <anchor x="96" y="817" name="alefUnused"/>
   <anchor x="238" y="-89" name="below"/>
   <anchor x="235" y="834" name="diaA"/>
   <anchor x="169" y="-200" name="diaB"/>
