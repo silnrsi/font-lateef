@@ -642,6 +642,8 @@
   <string>commareversed.glif</string>
   <key>copyright</key>
   <string>copyright.glif</string>
+  <key>cuberoot-ar</key>
+  <string>cuberoot-ar.glif</string>
   <key>currency</key>
   <string>currency.glif</string>
   <key>d</key>
@@ -992,6 +994,8 @@
   <string>fourperemspace.glif</string>
   <key>foursuperior</key>
   <string>foursuperior.glif</string>
+  <key>fourthroot-ar</key>
+  <string>fourthroot-ar.glif</string>
   <key>fraction</key>
   <string>fraction.glif</string>
   <key>fullstop-ar</key>
@@ -1984,6 +1988,8 @@
   <string>radical.glif</string>
   <key>radical.rtl</key>
   <string>radical.rtl.glif</string>
+  <key>ray-ar</key>
+  <string>ray-ar.glif</string>
   <key>registered</key>
   <string>registered.glif</string>
   <key>reh-ar</key>

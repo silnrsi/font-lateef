@@ -136,6 +136,8 @@
   <string>comma-ar.downward.glif</string>
   <key>commareversed</key>
   <string>commareversed.glif</string>
+  <key>cuberoot-ar</key>
+  <string>cuberoot-ar.glif</string>
   <key>dal-ar</key>
   <string>dal-ar.glif</string>
   <key>dal-ar.fina</key>
@@ -232,6 +234,8 @@
   <string>four.small.glif</string>
   <key>foursuperior</key>
   <string>foursuperior.glif</string>
+  <key>fourthroot-ar</key>
+  <string>fourthroot-ar.glif</string>
   <key>fullstop-ar</key>
   <string>fullstop-ar.glif</string>
   <key>hah-ar</key>
@@ -444,6 +448,10 @@
   <string>quoteright.glif</string>
   <key>quotesinglbase.arab</key>
   <string>quotesinglbase.arab.glif</string>
+  <key>radical.rtl</key>
+  <string>radical.rtl.glif</string>
+  <key>ray-ar</key>
+  <string>ray-ar.glif</string>
   <key>reh-ar</key>
   <string>reh-ar.glif</string>
   <key>reh-ar.fina</key>

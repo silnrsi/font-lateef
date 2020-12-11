@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fourthroot-ar" format="2">
+  <advance width="842"/>
+  <unicode hex="0607"/>
+  <outline>
+    <contour>
+      <point x="403" y="-150" type="line"/>
+      <point x="444" y="-150" type="line"/>
+      <point x="738" y="614" type="line"/>
+      <point x="834" y="632" type="line"/>
+      <point x="831" y="685" type="line"/>
+      <point x="652" y="685" type="line"/>
+      <point x="645" y="659"/>
+      <point x="641" y="637"/>
+      <point x="626" y="597" type="curve" smooth="yes"/>
+      <point x="380" y="-60" type="line"/>
+      <point x="435" y="-70" type="line"/>
+      <point x="82" y="1104" type="line"/>
+      <point x="-10" y="1104" type="line"/>
+    </contour>
+    <component base="four-ar.small" xOffset="211" yOffset="582"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

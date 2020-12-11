@@ -99,10 +99,4 @@
     <component base="shadda_alef-ar" xOffset="714" yOffset="-210"/>
     <component base="alef-ar" xOffset="1297"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>
