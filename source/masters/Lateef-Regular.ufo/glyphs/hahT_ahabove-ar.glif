@@ -2,7 +2,7 @@
 <glyph name="hahTahabove-ar" format="2">
   <advance width="832"/>
   <unicode hex="0772"/>
-  <anchor x="223" y="920" name="alefUnused"/>
+  <anchor x="214" y="742" name="alefUnused"/>
   <anchor x="438" y="1203" name="diaA"/>
   <anchor x="179" y="-724" name="diaB"/>
   <outline>
@@ -12,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

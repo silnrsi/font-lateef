@@ -2,7 +2,7 @@
 <glyph name="alefMaksura-ar" format="2">
   <advance width="1095"/>
   <unicode hex="0649"/>
-  <anchor x="335" y="539" name="alefUnused"/>
+  <anchor x="355" y="539" name="alefUnused"/>
   <anchor x="478" y="700" name="diaA"/>
   <anchor x="200" y="-462" name="diaB"/>
   <outline>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

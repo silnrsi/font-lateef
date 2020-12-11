@@ -2,7 +2,7 @@
 <glyph name="theh-ar" format="2">
   <advance width="1204"/>
   <unicode hex="062B"/>
-  <anchor x="280" y="690" name="alefUnused"/>
+  <anchor x="272" y="690" name="alefUnused"/>
   <anchor x="560" y="976" name="diaA"/>
   <anchor x="269" y="-235" name="diaB"/>
   <outline>
@@ -12,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

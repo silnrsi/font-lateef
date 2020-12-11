@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qaf-ar.fina" format="2">
   <advance width="909"/>
-  <anchor x="222" y="543" name="alefUnused"/>
+  <anchor x="242" y="543" name="alefUnused"/>
   <anchor x="478" y="826" name="diaA"/>
   <anchor x="202" y="-482" name="diaB"/>
   <outline>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

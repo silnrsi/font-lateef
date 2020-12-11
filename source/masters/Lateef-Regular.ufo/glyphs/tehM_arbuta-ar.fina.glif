@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehMarbuta-ar.fina" format="2">
   <advance width="642"/>
-  <anchor x="157" y="1138" name="alefUnused"/>
+  <anchor x="165" y="748" name="alefUnused"/>
   <anchor x="308" y="1178" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

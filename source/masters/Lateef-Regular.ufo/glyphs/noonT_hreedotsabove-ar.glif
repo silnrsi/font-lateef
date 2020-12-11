@@ -2,7 +2,7 @@
 <glyph name="noonThreedotsabove-ar" format="2">
   <advance width="796"/>
   <unicode hex="06BD"/>
-  <anchor x="160" y="876" name="alefUnused"/>
+  <anchor x="219" y="543" name="alefUnused"/>
   <anchor x="280" y="948" name="diaA"/>
   <anchor x="231" y="-425" name="diaB"/>
   <outline>
@@ -12,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

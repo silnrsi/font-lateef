@@ -120,20 +120,7 @@
 /decimalseparator-ar/thousandseparator-ar/asterisk-ar/parenleft-ar/parenright-ar 
 /sindhiampersand-ar/sindhipostpositionmen-ar 
 /endofayah-ar/endofayah-ar.2/endofayah-ar.3/endofayah-ar.alt/endofayah-ar.alt.2/endofayah-ar.alt.3/endofayah-ar.altB/endofayah-ar.altB.2/endofayah-ar.altB.3/allah-ar/alef-ar.allah/alef-ar.fina.allah/lam-ar.init.allah1/lam-ar.medi.allah1/lam-ar.medi.allah2/heh-ar.fina.allah/hehgoal-ar.fina.allah/rial/marksidewaysnoonghunna-ar/hamza_fatha-ar/hamza_damma-ar/hamza_damma-ar.filled/shadda_alef-ar/shadda_fathatan-ar/shadda_dammatan-ar/shadda_kasratan-ar/shadda_fatha-ar/shadda_damma-ar/shadda_damma-ar.filled/shadda_kasra-ar</string>
-    <string>/year-ar/year-ar.2/year-ar.3/year-ar.4 
-/numbermark-ar/numbermark-ar.2/numbermark-ar.3/numbermark-ar.4 
-/footnotemarker-ar/footnotemarker-ar.2/space.latn/number-ar/number-ar.2/number-ar.3 
-/pagenumber-ar/pagenumber-ar.2/pagenumber-ar.3/pagenumber-ar.4 
-/samvat-ar/samvat-ar.2/samvat-ar.3/samvat-ar.4 
-/_subtendingA.1/_subtendingA.2/_subtendingA.3/_subtendingA.4 
-/_pagenumberSad/space.latn/_samvatSM/space.latn/_number 
-</string>
-    <string>/exclam.latn/asterisk.latn/parenleft.latn/parenright.latn .,;/space.latn/space.latn/quotedblleft.latn Font/quotedblright.latn 
-!*(/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init/alef-ar )/space.latn (/three-ar/one-ar/nine-ar )
-/fullstop-ar/comma-ar/comma-ar.downward/commareversed/quotesinglbase.arab/semicolon-ar :/semicolon-ar.downward/reversedsemicolon !()/quoteleft/quoteright/quotedblleft/quotedblright 
-/quoteleft/seven-ar/quoteright/space.latn/quotedblleft/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init/alef-ar/quotedblright/space.latn</string>
-    <string>/quotedblright/comma-ar/quotesinglbase.arab/quotedblbase.arab/space.latn</string>
-    <string>/meem-ar.init</string>
+    <string>/allah-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2930</integer>

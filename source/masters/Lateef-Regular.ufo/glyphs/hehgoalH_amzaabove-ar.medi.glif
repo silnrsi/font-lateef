@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehgoalHamzaabove-ar.medi" format="2">
   <advance width="877"/>
-  <anchor x="156" y="842" name="alefUnused"/>
+  <anchor x="149" y="637" name="alefUnused"/>
   <anchor x="429" y="1020" name="diaA"/>
   <anchor x="227" y="-867" name="diaB"/>
   <outline>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

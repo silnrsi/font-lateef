@@ -2,7 +2,7 @@
 <glyph name="zah-ar" format="2">
   <advance width="1114"/>
   <unicode hex="0638"/>
-  <anchor x="211" y="845" name="alefUnused"/>
+  <anchor x="211" y="801" name="alefUnused"/>
   <anchor x="475" y="1231" name="diaA"/>
   <anchor x="305" y="-202" name="diaB"/>
   <outline>
@@ -12,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

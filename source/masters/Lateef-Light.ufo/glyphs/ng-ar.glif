@@ -2,7 +2,7 @@
 <glyph name="ng-ar" format="2">
   <advance width="960"/>
   <unicode hex="06AD"/>
-  <anchor x="305" y="1350" name="alefUnused"/>
+  <anchor x="242" y="773" name="alefUnused"/>
   <anchor x="420" y="1424" name="diaA"/>
   <anchor x="300" y="-202" name="diaB"/>
   <outline>
@@ -31,7 +31,7 @@
         </dict>
       </array>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sheenDotbelow-ar.fina" format="2">
   <advance width="1471"/>
-  <anchor x="287" y="436" name="alefUnused"/>
+  <anchor x="295" y="436" name="alefUnused"/>
   <anchor x="771" y="958" name="diaA"/>
   <anchor x="235" y="-522" name="diaB"/>
   <outline>
@@ -12,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehv-ar.fina" format="2">
   <advance width="542"/>
-  <anchor x="106" y="678" name="alefUnused"/>
+  <anchor x="106" y="684" name="alefUnused"/>
   <anchor x="288" y="717" name="diaA"/>
   <anchor x="175" y="-490" name="diaB"/>
   <outline>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

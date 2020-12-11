@@ -2,7 +2,7 @@
 <glyph name="rehDotbelowdotabove-ar" format="2">
   <advance width="545"/>
   <unicode hex="0696"/>
-  <anchor x="122" y="698" name="alefUnused"/>
+  <anchor x="162" y="698" name="alefUnused"/>
   <anchor x="280" y="697" name="diaA"/>
   <anchor x="163" y="-697" name="diaB"/>
   <outline>
@@ -13,7 +13,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

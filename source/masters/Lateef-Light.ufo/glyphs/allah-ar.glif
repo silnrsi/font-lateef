@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="allah-ar" format="2">
-  <advance width="1307"/>
+  <advance width="1588"/>
   <unicode hex="FDF2"/>
   <outline>
     <contour>
@@ -97,6 +97,7 @@
     </contour>
     <component base="_strokeHead" xOffset="887" yOffset="779"/>
     <component base="shadda_alef-ar" xOffset="747" yOffset="-210"/>
+    <component base="alef-ar" xOffset="1307"/>
   </outline>
   <lib>
     <dict>
@@ -111,6 +112,8 @@
           <string>_strokeHead</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

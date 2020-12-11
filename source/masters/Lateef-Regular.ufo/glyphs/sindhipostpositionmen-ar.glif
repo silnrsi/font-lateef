@@ -2,7 +2,7 @@
 <glyph name="sindhipostpositionmen-ar" format="2">
   <advance width="854"/>
   <unicode hex="06FE"/>
-  <anchor x="306" y="579" name="alefUnused"/>
+  <anchor x="306" y="519" name="alefUnused"/>
   <anchor x="486" y="733" name="diaA"/>
   <anchor x="150" y="-251" name="diaB"/>
   <outline>
@@ -12,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>
