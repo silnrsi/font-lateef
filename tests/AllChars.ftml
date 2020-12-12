@@ -199,11 +199,7 @@
     </test>
     <test label="U+0600">
       <comment>number-ar</comment>
-      <string>\u000600 \u000601 \u000602 \u000603 \u000604 \u000605</string>
-    </test>
-    <test label="U+0609">
-      <comment>perthousand-ar</comment>
-      <string>\u000609 \u00060A \u00060B \u00060C</string>
+      <string>\u000600 \u000601 \u000602 \u000603 \u000604 \u000605 \u000606 \u000607 \u000608 \u000609 \u00060A \u00060B \u00060C</string>
     </test>
     <test label="U+060C" stylename="cv84_1">
       <comment>comma-ar</comment>
@@ -1477,7 +1473,7 @@
       <comment>fraction</comment>
       <string>\u002044</string>
     </test>
-    <test background="#ffe0e0" label="U+204F">
+    <test label="U+204F">
       <comment>reversedsemicolon</comment>
       <string>\u00204F</string>
     </test>
@@ -1581,7 +1577,7 @@
       <comment>reverseSolidusOperator</comment>
       <string>\u0029F5 LTR: \u00202A\u0029F5\u00202C RTL: \u00202B\u0029F5\u00202C</string>
     </test>
-    <test background="#ffe0e0" label="U+2E41">
+    <test label="U+2E41">
       <comment>commareversed</comment>
       <string>\u002E41</string>
     </test>

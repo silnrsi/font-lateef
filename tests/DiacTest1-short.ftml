@@ -45,6 +45,21 @@
     </test>
   </testgroup>
   <testgroup label="Representative diacritics on all bases that take diacritics">
+    <test label="U+0020
+U+064E">
+      <comment>space fatha-ar</comment>
+      <string>\u00F130 \u00064E\u00F131 \u00F130 \u000650\u00F131 \u00F130 \u000654\u00F131 \u00F130 \u000670\u00F131</string>
+    </test>
+    <test label="U+0020
+U+0670" stylename="cv76_1">
+      <comment>space alefabove-ar</comment>
+      <string>\u00F130 \u000670\u00F131</string>
+    </test>
+    <test label="U+0020
+U+0670" stylename="cv76_2">
+      <comment>space alefabove-ar</comment>
+      <string>\u00F130 \u000670\u00F131</string>
+    </test>
     <test label="U+00A0
 U+064E">
       <comment>nbspace fatha-ar</comment>

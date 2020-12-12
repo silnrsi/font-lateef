@@ -978,6 +978,10 @@
       <comment>wawThreeAbove-ar</comment>
       <string>\u000779 \u00200D\u000779 </string>
     </test>
+    <test label="U+0608">
+      <comment>ray-ar</comment>
+      <string>\u000608</string>
+    </test>
     <test label="U+060B">
       <comment>afghani-ar</comment>
       <string>\u00060B</string>
