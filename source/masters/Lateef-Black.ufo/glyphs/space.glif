@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="space" format="2">
   <advance width="250"/>
+  <unicode hex="0020"/>
   <anchor x="211" y="1060" name="diaA"/>
   <anchor x="211" y="-49" name="diaB"/>
   <outline/>
