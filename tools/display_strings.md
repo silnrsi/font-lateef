@@ -4,6 +4,14 @@
 
   ؑ  ٰ  /alefabove-ar.large   ٖ  ؖ   /damma-ar.filled  ٗ ٝ ؙ  /dammatan-ar.sixNine   ۬ ٜ ٙ ؘ ٞ  ۡ /hamza_damma-ar   /hamza_damma-ar.filled   /hamza_fatha-ar   ٔ  ٕ   ۚ /kasra-ar.lowered  ؚ /kasratan-ar.lowered  ۙ  ۤ ࣿ ۘ ۭ ۢ  ۨ   ٘  ۗ   ؓ    ؒ     ۫   ۪  ؐ  ۖ   ۜ  ۣ  /shadda_alef-ar   /shadda_damma-ar   /shadda_damma-ar.filled   /shadda_dammatan-ar   /shadda_dammatan-ar.sixNine   /shadda_fatha-ar   /shadda_fathatan-ar   /shadda_kasra-ar   /shadda_kasratan-ar   /sukun-ar.downOpen   /sukun-ar.leftOpen  ۠ ۟ ؕ     ؔ    ۛ   ٚ  ٛ  ٟ  ۧ  ؗ 
 
+/_bar    ُ  ٝ ؙ   ٌ   /dammatan-ar.sixNine       /_damma.filled     /_dot1    ٚ   ٛ  /_dot1_hat    /_dot1_smallV   /_smallV   /_invSmallV   
+ /_dot1_tah    /_dot1smallrotated10    /_dot2h    /_dot2h_tah    /_dot2v    /_dot3d    /_dot3h    /_dot3u    /_dot3u_tah    /_dot4  ؞   ۛ 
+/_gafBar    /_gafBar_dot2h    /_gafBar_dot3u    /_gafBarShort_dot2h    /_gafBarShort_dot3u    َ  ِ ؚ   ٍ  ؘٙ   ً   ٞ  
+/_hamza    /_hamzaDamma    /_hamzaDamma.filled   /_highHamza    /_wavyHamza   ٟ ؑ    /hamza_damma-ar    /hamza_damma-ar.filled    /hamza_fatha-ar    ٔ   ٕ   /_hook   /_kaf_s    /_vline   /_vline   /_lines  ٰ /alefabove-ar.large    ٖ   /_madda  
+/_ring   ْ   ۠   ۟  ۫  ۪ 
+ /_smallV   /_wasla  /damma-ar.filled    ٗ    ۬   ٜ    ٓ   ۤ /_hat   ࣿ  /sukun-ar.downOpen   /sukun-ar.leftOpen   ٘  ۡ 
+ۘ ۥ  ۧ ۦ /_tah_small  ؕ   ؗ    ؖ  ۙ  ۚ  ۭ  ۢ  ۨ   ۗ ؐ     ۖ   ۜ ۣ
+ّ  /shadda_alef-ar   /shadda_damma-ar   /shadda_damma-ar.filled   /shadda_dammatan-ar   /shadda_fatha-ar   /shadda_fathatan-ar   /shadda_kasra-ar   /shadda_kasratan-ar       ؔ 
 
 ## Subtending marks
 
