@@ -34,10 +34,7 @@ if '--norename' not in opts: ## ToDo:  change to --norename when we're far enoug
 if '--autohint' in opts:
     # Note: in some fonts ttfautohint-generated hints don't maintain stroke thickness at joins; test thoroughly
     cmds.append(cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}'))
-# dspace_file = 'source/lateef-RB.designspace' if '--regOnly' not in opts else 'source/lateef-RegOnly.designspace'
-
-# For alpha release
-dspace_file = 'source/lateef-RBOnly-alpha.designspace'
+dspace_file = 'source/lateef-RB.designspace' if '--regOnly' not in opts else 'source/lateef-RegOnly.designspace'
 
 designspace(dspace_file,
     instanceparams='-W -l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
