@@ -102,7 +102,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2020/12/16 11:46:42</string>
+  <string>2020/12/16 17:26:18</string>
   <key>openTypeHeadFlags</key>
   <array/>
   <key>openTypeHheaAscender</key>
@@ -175,7 +175,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Lateef Black: 2020</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.210</string>
+  <string>Version 1.280 alpha</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -305,7 +305,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>210</integer>
+  <integer>280</integer>
   <key>xHeight</key>
   <integer>690</integer>
 </dict>
