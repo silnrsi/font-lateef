@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Lateef.1.280" />
+  <uniqueid id="org.sil.fonts.Lateef.1.285" />
   <vendor name="SIL International" url="http://www.sil.org/" />
   <credits>
     <credit
@@ -49,15 +49,15 @@
       
       Known Issues (v 1.280 alpha)
       ----------------------------
-      - Combining marks above or below composite characters may not position correctly 
-        (e.g. If a character has nuktas above, the combining mark above may not position 
-        properly. If a character has nuktas below, the combining mark BELOW may not 
-        position properly.)
+      - Combining marks above or below composite characters may not position correctly
+      (e.g. If a character has nuktas above, the combining mark above may not position
+      properly. If a character has nuktas below, the combining mark BELOW may not
+      position properly.)
       - When text is kashida-justified in Word, the lam/alef ligature may break
-      - This version of the font does not have kerning (where characters may touch each 
-        other), so there is no need to report when a reh touches the following character, etc.
-      - This version of the font has not had the linespacing values evaluated, so there is 
-        no need to report vertical linespacing issues.
+      - This version of the font does not have kerning (where characters may touch each
+      other), so there is no need to report when a reh touches the following character, etc.
+      - This version of the font has not had the linespacing values evaluated, so there is
+      no need to report vertical linespacing issues.
       
       ChangeLog
       ---------

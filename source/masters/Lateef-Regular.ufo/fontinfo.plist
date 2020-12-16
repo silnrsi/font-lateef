@@ -179,7 +179,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Lateef Regular: 2020</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.280 alpha</string>
+  <string>Version 1.285</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -309,7 +309,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>280</integer>
+  <integer>285</integer>
   <key>xHeight</key>
   <integer>690</integer>
 </dict>
