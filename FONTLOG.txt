@@ -43,7 +43,7 @@ For detailed documentation see the contents of the 'documentation' folder.
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
-2020-12-15 (SIL WSTech team) Lateef Version 1.280 (alpha release)
+2020-12-16 (SIL WSTech team) Lateef Version 1.280 (alpha release)
 - Incorporated both OpenType and Graphite in the same font
 - Added Lateef Bold
 - Changed design of all Latin glyphs to use Crimson Pro
