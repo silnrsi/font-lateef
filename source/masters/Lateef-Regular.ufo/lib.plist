@@ -28,7 +28,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1346</string>
+  <string>1350</string>
   <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
   <dict>
     <key>XXXX</key>
@@ -128,6 +128,8 @@
 /endofayah-ar/endofayah-ar.2/endofayah-ar.3/endofayah-ar.alt/endofayah-ar.alt.2/endofayah-ar.alt.3/endofayah-ar.altB/endofayah-ar.altB.2/endofayah-ar.altB.3/allah-ar/alef-ar.allah/alef-ar.fina.allah/lam-ar.init.allah1/lam-ar.medi.allah1/lam-ar.medi.allah2/heh-ar.fina.allah/hehgoal-ar.fina.allah/rial/marksidewaysnoonghunna-ar/hamza_fatha-ar/hamza_damma-ar/hamza_damma-ar.filled/shadda_alef-ar/shadda_fathatan-ar/shadda_dammatan-ar/shadda_kasratan-ar/shadda_fatha-ar/shadda_damma-ar/shadda_damma-ar.filled/shadda_kasra-ar</string>
     <string>/hehDoachashmee-ar.medi</string>
     <string>/hehDoachashmee-ar/hehDoachashmee-ar.fina/hehDoachashmee-ar.medi/hehDoachashmee-ar.init</string>
+    <string>/nbspace</string>
+    <string>/nbspace.latn</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2930</integer>
@@ -286,6 +288,7 @@
     <string>bar</string>
     <string>asciitilde</string>
     <string>nbspace</string>
+    <string>nbspace.latn</string>
     <string>exclamdown</string>
     <string>cent</string>
     <string>sterling</string>
@@ -1777,6 +1780,7 @@
     <string>bar</string>
     <string>asciitilde</string>
     <string>nbspace</string>
+    <string>nbspace.latn</string>
     <string>exclamdown</string>
     <string>cent</string>
     <string>sterling</string>
@@ -4447,6 +4451,8 @@
     <string>uni202F</string>
     <key>nbspace</key>
     <string>uni00A0</string>
+    <key>nbspace.latn</key>
+    <string>uni00A0.latn</string>
     <key>ng-ar</key>
     <string>uni06AD</string>
     <key>ng-ar.fina</key>

@@ -1634,8 +1634,8 @@
   <string>narrownbspace.glif</string>
   <key>nbspace</key>
   <string>nbspace.glif</string>
-  <key>nbspace.arab</key>
-  <string>nbspace.arab.glif</string>
+  <key>nbspace.latn</key>
+  <string>nbspace.latn.glif</string>
   <key>ng-ar</key>
   <string>ng-ar.glif</string>
   <key>ng-ar.fina</key>
