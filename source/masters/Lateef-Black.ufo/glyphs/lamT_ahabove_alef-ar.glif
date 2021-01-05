@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamTahabove_alef-ar" format="2">
+  <advance width="975"/>
+  <anchor x="660" y="1170" name="diaA_1"/>
+  <anchor x="132" y="1030" name="diaA_2"/>
+  <anchor x="701" y="-300" name="diaB_1"/>
+  <anchor x="312" y="-312" name="diaB_2"/>
+  <outline>
+    <component base="lamTahabove-ar.init.preAlef" xOffset="576"/>
+    <component base="alef-ar.fina.postLamIni"/>
+  </outline>
+</glyph>

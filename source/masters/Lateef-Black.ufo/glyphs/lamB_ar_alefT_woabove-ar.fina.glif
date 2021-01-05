@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamBar_alefTwoabove-ar.fina" format="2">
+  <advance width="1187"/>
+  <anchor x="858" y="1178" name="diaA_1"/>
+  <anchor x="267" y="1030" name="diaA_2"/>
+  <anchor x="912" y="-251" name="diaB_1"/>
+  <anchor x="447" y="-312" name="diaB_2"/>
+  <outline>
+    <component base="lamBar-ar.medi.preAlef" xOffset="685"/>
+    <component base="alefTwoabove-ar.fina.postLamMed"/>
+  </outline>
+</glyph>
