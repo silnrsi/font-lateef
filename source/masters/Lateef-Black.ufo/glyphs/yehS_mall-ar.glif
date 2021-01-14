@@ -2,7 +2,7 @@
 <glyph name="yehSmall-ar" format="2">
   <advance width="635"/>
   <unicode hex="06E6"/>
-  <anchor x="0" y="473" name="_diaB"/>
+  <anchor x="0" y="473" name="diaA"/>
   <anchor x="0" y="46" name="diaB"/>
   <outline>
     <contour>
