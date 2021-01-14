@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kasra-ar" format="2">
   <unicode hex="0650"/>
-  <anchor x="66" y="-406" name="_diaB"/>
-  <anchor x="66" y="-651" name="diaB"/>
+  <anchor x="0" y="-350" name="_diaB"/>
+  <anchor x="0" y="-651" name="diaB"/>
   <outline>
-    <component base="fatha-ar" xOffset="-90" yOffset="-1682"/>
+    <component base="fatha-ar" xOffset="-170" yOffset="-1682"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

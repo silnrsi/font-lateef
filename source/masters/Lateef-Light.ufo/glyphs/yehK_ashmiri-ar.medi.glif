@@ -2,8 +2,8 @@
 <glyph name="yehKashmiri-ar.medi" format="2">
   <advance width="440"/>
   <anchor x="52" y="599" name="alefUnused"/>
-  <anchor x="185" y="700" name="diaA"/>
-  <anchor x="150" y="-200" name="diaB"/>
+  <anchor x="239" y="438" name="diaA"/>
+  <anchor x="196" y="-382" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
     <component base="_ring" xOffset="205" yOffset="-214"/>
@@ -22,7 +22,7 @@
         </dict>
       </array>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

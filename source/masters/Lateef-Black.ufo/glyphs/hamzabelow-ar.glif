@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hamzabelow-ar" format="2">
   <unicode hex="0655"/>
-  <anchor x="164" y="-49" name="_diaB"/>
-  <anchor x="164" y="-471" name="diaB"/>
+  <anchor x="0" y="-35" name="_diaB"/>
+  <anchor x="0" y="-471" name="diaB"/>
   <outline>
-    <component base="_hamza" xOffset="202" yOffset="-261"/>
+    <component base="_hamza" xOffset="38" yOffset="-261"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

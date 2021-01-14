@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kehehVabove-ar.init" format="2">
   <advance width="633"/>
-  <anchor x="150" y="1049" name="diaA"/>
+  <anchor x="103" y="1236" name="diaA"/>
   <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="kaf-ar.init"/>
@@ -10,7 +10,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

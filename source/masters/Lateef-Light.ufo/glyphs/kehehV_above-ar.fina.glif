@@ -2,7 +2,7 @@
 <glyph name="kehehVabove-ar.fina" format="2">
   <advance width="1544"/>
   <anchor x="242" y="761" name="alefUnused"/>
-  <anchor x="623" y="1020" name="diaA"/>
+  <anchor x="703" y="1236" name="diaA"/>
   <anchor x="316" y="-202" name="diaB"/>
   <outline>
     <component base="keheh-ar.fina"/>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

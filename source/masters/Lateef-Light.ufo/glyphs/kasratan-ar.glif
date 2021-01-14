@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kasratan-ar" format="2">
   <unicode hex="064D"/>
-  <anchor x="0" y="-403" name="_diaB"/>
+  <anchor x="0" y="-383" name="_diaB"/>
   <anchor x="0" y="-790" name="diaB"/>
   <outline>
     <component base="fathatan-ar" xOffset="17" yOffset="-1821"/>
@@ -19,6 +19,8 @@
           <string>fathatan-ar</string>
         </dict>
       </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

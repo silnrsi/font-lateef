@@ -41,14 +41,19 @@ alefWasla-ar.fina.postLamMed = alef-ar.fina.postLamMed + _wasla@above
 #highhamzaAlef-ar.fina = alef-ar.fina + _highHamza@above
 #highhamzaAlef-ar.fina.postLamIni = alef-ar.fina.postLamIni + _highHamza@above
 #highhamzaAlef-ar.fina.postLamMed = alef-ar.fina.postLamMed + _highHamza@above
-alefTwoabove-ar = alef-ar + _two@aboveLeft ^ 144,0 | 0773
-alefTwoabove-ar.fina = alef-ar.fina + _two@aboveLeft ^ 210,0
-alefTwoabove-ar.fina.postLamIni = alef-ar.fina.postLamIni + _two@aboveLeft ^ 135,0
-alefTwoabove-ar.fina.postLamMed = alef-ar.fina.postLamMed + _two@aboveLeft ^ 135,0
-alefThreeabove-ar = alef-ar + _three@aboveLeft ^ 197,0 | 0774
-alefThreeabove-ar.fina = alef-ar.fina + _three@aboveLeft ^ 262,0
-alefThreeabove-ar.fina.postLamIni = alef-ar.fina.postLamIni + _three@aboveLeft ^ 187,0
-alefThreeabove-ar.fina.postLamMed = alef-ar.fina.postLamMed + _three@aboveLeft ^ 187,0
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# alefTwoabove-ar = alef-ar + _two@aboveLeft ^ 144,0 | 0773
+# alefTwoabove-ar.fina = alef-ar.fina + _two@aboveLeft ^ 210,0
+# alefTwoabove-ar.fina.postLamIni = alef-ar.fina.postLamIni + _two@aboveLeft ^ 135,0
+# alefTwoabove-ar.fina.postLamMed = alef-ar.fina.postLamMed + _two@aboveLeft ^ 135,0
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# alefThreeabove-ar = alef-ar + _three@aboveLeft ^ 197,0 | 0774
+# alefThreeabove-ar.fina = alef-ar.fina + _three@aboveLeft ^ 262,0
+# alefThreeabove-ar.fina.postLamIni = alef-ar.fina.postLamIni + _three@aboveLeft ^ 187,0
+# alefThreeabove-ar.fina.postLamMed = alef-ar.fina.postLamMed + _three@aboveLeft ^ 187,0
+
 beh-ar = behDotless-ar + _dot1@below | 0628
 beh-ar.fina = behDotless-ar.fina + _dot1@below
 beh-ar.medi = behDotless-ar.medi + _dot1@below
@@ -57,10 +62,13 @@ peh-ar = behDotless-ar + _dot3d@below | 067E
 peh-ar.fina = behDotless-ar.fina + _dot3d@below
 peh-ar.medi = behDotless-ar.medi + _dot3d@below
 peh-ar.init = behDotless-ar.init + _dot3d@below
-pehVabove-ar = behDotless-ar + _smallV@above + _dot3d@behDotless-ar:below | 08BE
-pehVabove-ar.fina = behDotless-ar.fina + _smallV@above + _dot3d@behDotless-ar.fina:below
-pehVabove-ar.medi = behDotless-ar.medi + _smallV@above + _dot3d@behDotless-ar.medi:below
-pehVabove-ar.init = behDotless-ar.init + _smallV@above + _dot3d@behDotless-ar.init:below
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# pehVabove-ar = behDotless-ar + _smallV@above + _dot3d@behDotless-ar:below | 08BE
+# pehVabove-ar.fina = behDotless-ar.fina + _smallV@above + _dot3d@behDotless-ar.fina:below
+# pehVabove-ar.medi = behDotless-ar.medi + _smallV@above + _dot3d@behDotless-ar.medi:below
+# pehVabove-ar.init = behDotless-ar.init + _smallV@above + _dot3d@behDotless-ar.init:below
+
 beeh-ar = behDotless-ar + _dot2v@below | 067B
 beeh-ar.fina = behDotless-ar.fina + _dot2v@below
 beeh-ar.medi = behDotless-ar.medi + _dot2v@below
@@ -81,10 +89,13 @@ tehThreedotsdown-ar = behDotless-ar + _dot3d@above | 067D
 tehThreedotsdown-ar.fina = behDotless-ar.fina + _dot3d@above
 tehThreedotsdown-ar.medi = behDotless-ar.medi + _dot3d@above
 tehThreedotsdown-ar.init = behDotless-ar.init + _dot3d@above
-tehVabove-ar = behDotless-ar + _dot2h_smallV@above | 08BF
-tehVabove-ar.fina = behDotless-ar.fina + _dot2h_smallV@above
-tehVabove-ar.medi = behDotless-ar.medi + _dot2h_smallV@above
-tehVabove-ar.init = behDotless-ar.init + _dot2h_smallV@above
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# tehVabove-ar = behDotless-ar + _dot2h_smallV@above | 08BF
+# tehVabove-ar.fina = behDotless-ar.fina + _dot2h_smallV@above
+# tehVabove-ar.medi = behDotless-ar.medi + _dot2h_smallV@above
+# tehVabove-ar.init = behDotless-ar.init + _dot2h_smallV@above
+
 theh-ar = behDotless-ar + _dot3u@above | 062B
 theh-ar.fina = behDotless-ar.fina + _dot3u@above
 theh-ar.medi = behDotless-ar.medi + _dot3u@above
@@ -93,10 +104,13 @@ tteh-ar = behDotless-ar + _tah@above | 0679
 tteh-ar.fina = behDotless-ar.fina + _tah@above
 tteh-ar.medi = behDotless-ar.medi + _tah@above
 tteh-ar.init = behDotless-ar.init + _tah@above
-ttehVabove-ar = behDotless-ar + _tah_smallV@above | 08C0
-ttehVabove-ar.fina = behDotless-ar.fina + _tah_smallV@above
-ttehVabove-ar.medi = behDotless-ar.medi + _tah_smallV@above
-ttehVabove-ar.init = behDotless-ar.init + _tah_smallV@above
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# ttehVabove-ar = behDotless-ar + _tah_smallV@above | 08C0
+# ttehVabove-ar.fina = behDotless-ar.fina + _tah_smallV@above
+# ttehVabove-ar.medi = behDotless-ar.medi + _tah_smallV@above
+# ttehVabove-ar.init = behDotless-ar.init + _tah_smallV@above
+
 tteheh-ar = behDotless-ar + _dot2v@above | 067A
 tteheh-ar.fina = behDotless-ar.fina + _dot2v@above
 tteheh-ar.medi = behDotless-ar.medi + _dot2v@above
@@ -149,10 +163,13 @@ tchehDotabove-ar = hah-ar + _dot1@above + _dot3d@hah-ar:center | 06BF
 tchehDotabove-ar.fina = hah-ar.fina + _dot1@above + _dot3d@hah-ar.fina:center
 tchehDotabove-ar.medi = hah-ar.medi + _dot1@above + _dot3d@hah-ar.medi:below
 tchehDotabove-ar.init = hah-ar.init + _dot1@above + _dot3d@hah-ar.init:below
-tchehVabove-ar = hah-ar + _smallV@above + _dot3d@hah-ar:center | 08C1
-tchehVabove-ar.fina = hah-ar.fina + _smallV@above + _dot3d@hah-ar.fina:center
-tchehVabove-ar.medi = hah-ar.medi + _smallV@above + _dot3d@hah-ar.medi:below
-tchehVabove-ar.init = hah-ar.init + _smallV@above + _dot3d@hah-ar.init:below
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# tchehVabove-ar = hah-ar + _smallV@above + _dot3d@hah-ar:center | 08C1
+# tchehVabove-ar.fina = hah-ar.fina + _smallV@above + _dot3d@hah-ar.fina:center
+# tchehVabove-ar.medi = hah-ar.medi + _smallV@above + _dot3d@hah-ar.medi:below
+# tchehVabove-ar.init = hah-ar.init + _smallV@above + _dot3d@hah-ar.init:below
+
 nyeh-ar = hah-ar + _dot2h@center | 0683
 nyeh-ar.fina = hah-ar.fina + _dot2h@center
 nyeh-ar.medi = hah-ar.medi + _dot2h@below
@@ -292,14 +309,19 @@ seenTahTwodotshorizontalabove-ar = seen-ar + _dot2h_tah@above | 0770
 seenTahTwodotshorizontalabove-ar.fina = seen-ar.fina + _dot2h_tah@above
 seenTahTwodotshorizontalabove-ar.medi = seen-ar.medi + _dot2h_tah@above
 seenTahTwodotshorizontalabove-ar.init = seen-ar.init + _dot2h_tah@above
-seenFourabove-ar = seen-ar + _four@above | 077D
-seenFourabove-ar.fina = seen-ar.fina + _four@above
-seenFourabove-ar.medi = seen-ar.medi + _four@above
-seenFourabove-ar.init = seen-ar.init + _four@above
-seenVinvertedabove-ar = seen-ar + _invSmallV@above | 077E
-seenVinvertedabove-ar.fina = seen-ar.fina + _invSmallV@above
-seenVinvertedabove-ar.medi = seen-ar.medi + _invSmallV@above
-seenVinvertedabove-ar.init = seen-ar.init + _invSmallV@above
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# seenFourabove-ar = seen-ar + _four@above | 077D
+# seenFourabove-ar.fina = seen-ar.fina + _four@above
+# seenFourabove-ar.medi = seen-ar.medi + _four@above
+# seenFourabove-ar.init = seen-ar.init + _four@above
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# seenVinvertedabove-ar = seen-ar + _invSmallV@above | 077E
+# seenVinvertedabove-ar.fina = seen-ar.fina + _invSmallV@above
+# seenVinvertedabove-ar.medi = seen-ar.medi + _invSmallV@above
+# seenVinvertedabove-ar.init = seen-ar.init + _invSmallV@above
+
 sadTwodotsbelow-ar = sad-ar + _dot2h@below | 069D
 sadTwodotsbelow-ar.fina = sad-ar.fina + _dot2h@below
 sadTwodotsbelow-ar.medi = sad-ar.medi + _dot2h@below
@@ -398,14 +420,19 @@ qafThreedotsabove-ar.medi = fehDotless-ar.medi + _dot3u@above
 qafThreedotsabove-ar.init = fehDotless-ar.init + _dot3u@above
 keheh-ar.medi = kaf-ar.medi
 keheh-ar.init = kaf-ar.init
-kehehTwodotshorizontalabove-ar = keheh-ar + _dot2h@above | 063B
-kehehTwodotshorizontalabove-ar.fina = keheh-ar.fina + _dot2h@above
-kehehTwodotshorizontalabove-ar.medi = kaf-ar.medi + _dot2h@above
-kehehTwodotshorizontalabove-ar.init = kaf-ar.init + _dot2h@above
-kehehThreedotsbelow-ar = keheh-ar + _dot3d@below | 063C
-kehehThreedotsbelow-ar.fina = keheh-ar.fina + _dot3d@below
-kehehThreedotsbelow-ar.medi = kaf-ar.medi + _dot3d@below
-kehehThreedotsbelow-ar.init = kaf-ar.init + _dot3d@below
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# kehehTwodotshorizontalabove-ar = keheh-ar + _dot2h@above | 063B
+# kehehTwodotshorizontalabove-ar.fina = keheh-ar.fina + _dot2h@above
+# kehehTwodotshorizontalabove-ar.medi = kaf-ar.medi + _dot2h@above
+# kehehTwodotshorizontalabove-ar.init = kaf-ar.init + _dot2h@above
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# kehehThreedotsbelow-ar = keheh-ar + _dot3d@below | 063C
+# kehehThreedotsbelow-ar.fina = keheh-ar.fina + _dot3d@below
+# kehehThreedotsbelow-ar.medi = kaf-ar.medi + _dot3d@below
+# kehehThreedotsbelow-ar.init = kaf-ar.init + _dot3d@below
+
 kehehDotabove-ar = keheh-ar + _dot1@above | 0762
 kehehDotabove-ar.fina = keheh-ar.fina + _dot1@above
 kehehDotabove-ar.medi = kaf-ar.medi + _dot1@above
@@ -418,10 +445,13 @@ kehehThreedotsupbelow-ar = keheh-ar + _dot3u@below | 0764
 kehehThreedotsupbelow-ar.fina = keheh-ar.fina + _dot3u@below
 kehehThreedotsupbelow-ar.medi = kaf-ar.medi + _dot3u@below
 kehehThreedotsupbelow-ar.init = kaf-ar.init + _dot3u@below
-kehehVabove-ar = keheh-ar + _smallV@above | 08C2
-kehehVabove-ar.fina = keheh-ar.fina + _smallV@above
-kehehVabove-ar.medi = kaf-ar.medi + _smallV@above
-kehehVabove-ar.init = kaf-ar.init + _smallV@above
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# kehehVabove-ar = keheh-ar + _smallV@above | 08C2
+# kehehVabove-ar.fina = keheh-ar.fina + _smallV@above
+# kehehVabove-ar.medi = kaf-ar.medi + _smallV@above
+# kehehVabove-ar.init = kaf-ar.init + _smallV@above
+
 gaf-ar = keheh-ar + _gafBarShort@above | 06AF
 gaf-ar.fina = keheh-ar.fina + _gafBar@above
 gaf-ar.medi = kaf-ar.medi + _gafBar@above
@@ -442,10 +472,13 @@ kafDotabove-ar = kaf-ar + _dot1@above | 06AC
 kafDotabove-ar.fina = kaf-ar.fina + _dot1@above
 kafDotabove-ar.medi = kaf-ar.medi + _dot1@above
 kafDotabove-ar.init = kaf-ar.init + _dot1@above
-kafTwodotshorizontalabove-ar = kaf-ar + _dot2h@above | 077F
-kafTwodotshorizontalabove-ar.fina = kaf-ar.fina + _dot2h@above
-kafTwodotshorizontalabove-ar.medi = kaf-ar.medi + _dot2h@above
-kafTwodotshorizontalabove-ar.init = kaf-ar.init + _dot2h@above
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# kafTwodotshorizontalabove-ar = kaf-ar + _dot2h@above | 077F
+# kafTwodotshorizontalabove-ar.fina = kaf-ar.fina + _dot2h@above
+# kafTwodotshorizontalabove-ar.medi = kaf-ar.medi + _dot2h@above
+# kafTwodotshorizontalabove-ar.init = kaf-ar.init + _dot2h@above
+
 kafThreedotsbelow-ar = kaf-ar + _dot3d@below | 06AE
 kafThreedotsbelow-ar.fina = kaf-ar.fina + _dot3d@below
 kafThreedotsbelow-ar.medi = kaf-ar.medi + _dot3d@below
@@ -484,12 +517,15 @@ lamThreedotsabove-ar.medi = lam-ar.medi + _dot3u@above
 lamThreedotsabove-ar.init = lam-ar.init + _dot3u@above
 lamThreedotsabove-ar.medi.preAlef = lam-ar.medi.preAlef + _dot3u@above
 lamThreedotsabove-ar.init.preAlef = lam-ar.init.preAlef + _dot3u@above
-lamTahabove-ar = lam-ar + _tah@above | 08C7
-lamTahabove-ar.fina = lam-ar.fina + _tah@above
-lamTahabove-ar.medi = lam-ar.medi + _tah@above
-lamTahabove-ar.init = lam-ar.init + _tah@above
-lamTahabove-ar.medi.preAlef = lam-ar.medi.preAlef + _tah@above
-lamTahabove-ar.init.preAlef = lam-ar.init.preAlef + _tah@above
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# lamTahabove-ar = lam-ar + _tah@above | 08C7
+# lamTahabove-ar.fina = lam-ar.fina + _tah@above
+# lamTahabove-ar.medi = lam-ar.medi + _tah@above
+# lamTahabove-ar.init = lam-ar.init + _tah@above
+# lamTahabove-ar.medi.preAlef = lam-ar.medi.preAlef + _tah@above
+# lamTahabove-ar.init.preAlef = lam-ar.init.preAlef + _tah@above
+
 lamThreedotsbelow-ar = lam-ar + _dot3d@below | 06B8
 lamThreedotsbelow-ar.fina = lam-ar.fina + _dot3d@below
 lamThreedotsbelow-ar.medi = lam-ar.medi + _dot3d@below
@@ -587,10 +623,13 @@ wawDotabove-ar = waw-ar + _dot1@above | 06CF
 wawDotabove-ar.fina = waw-ar.fina + _dot1@above
 wawHamzaabove-ar = waw-ar + _hamza@above | 0624
 wawHamzaabove-ar.fina = waw-ar.fina + _hamza@above
-wawTwoabove-ar = waw-ar + _two@above | 0778
-wawTwoabove-ar.fina = waw-ar.fina + _two@above
-wawThreeAbove-ar = waw-ar + _three@above | 0779
-wawThreeAbove-ar.fina = waw-ar.fina + _three@above
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# wawTwoabove-ar = waw-ar + _two@above | 0778
+# wawTwoabove-ar.fina = waw-ar.fina + _two@above
+# wawThreeAbove-ar = waw-ar + _three@above | 0779
+# wawThreeAbove-ar.fina = waw-ar.fina + _three@above
+
 kirghizoe-ar.bar = waw-ar + _bar_horiz@through
 kirghizoe-ar.fina.bar = waw-ar.fina + _bar_horiz@through
 oe-ar = waw-ar + _smallV@above | 06C6
@@ -629,31 +668,45 @@ yeh-farsi = yeh-ar.noDots | 06CC
 yeh-farsi.fina = yeh-ar.noDots.fina
 yeh-farsi.medi = behDotless-ar.medi + _dot2h@below
 yeh-farsi.init = behDotless-ar.init + _dot2h@below
-yehTwodotsabove-farsi = yeh-ar.noDots + _dot2h@above | 063E
-yehTwodotsabove-farsi.fina = yeh-ar.noDots.fina + _dot2h@above
-yehTwodotsabove-farsi.medi = behDotless-ar.medi + _dot2h@above + _dot2h@behDotless-ar.medi:below
-yehTwodotsabove-farsi.init = behDotless-ar.init + _dot2h@above + _dot2h@behDotless-ar.init:below
-yehThreedotsabove-farsi = yeh-ar.noDots + _dot3u@above | 063F
-yehThreedotsabove-farsi.fina = yeh-ar.noDots.fina + _dot3u@above
-yehThreedotsabove-farsi.medi = behDotless-ar.medi + _dot3u@above + _dot2h@behDotless-ar.medi:below
-yehThreedotsabove-farsi.init = behDotless-ar.init + _dot3u@above + _dot2h@behDotless-ar.init:below
-yehTwoabove-farsi = yeh-ar.noDots + _two@above | 0775
-yehTwoabove-farsi.fina = yeh-ar.noDots.fina + _two@above
-yehTwoabove-farsi.medi = behDotless-ar.medi + _two@above + _dot2h@behDotless-ar.medi:below
-yehTwoabove-farsi.init = behDotless-ar.init + _two@above + _dot2h@behDotless-ar.init:below
-yehThreeabove-farsi = yeh-ar.noDots + _three@above | 0776
-yehThreeabove-farsi.fina = yeh-ar.noDots.fina + _three@above
-yehThreeabove-farsi.medi = behDotless-ar.medi + _three@above + _dot2h@behDotless-ar.medi:below
-yehThreeabove-farsi.init = behDotless-ar.init + _three@above + _dot2h@behDotless-ar.init:below
-yehFourbelow-farsi = yeh-ar.noDots + _four@below | 0777
-yehFourbelow-farsi.fina = yeh-ar.noDots.fina + _four@below
-yehFourbelow-farsi.medi = behDotless-ar.medi + _four@below
-yehFourbelow-farsi.init = behDotless-ar.init + _four@below
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# yehTwodotsabove-farsi = yeh-ar.noDots + _dot2h@above | 063E
+# yehTwodotsabove-farsi.fina = yeh-ar.noDots.fina + _dot2h@above
+# yehTwodotsabove-farsi.medi = behDotless-ar.medi + _dot2h@above + _dot2h@behDotless-ar.medi:below
+# yehTwodotsabove-farsi.init = behDotless-ar.init + _dot2h@above + _dot2h@behDotless-ar.init:below
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# yehThreedotsabove-farsi = yeh-ar.noDots + _dot3u@above | 063F
+# yehThreedotsabove-farsi.fina = yeh-ar.noDots.fina + _dot3u@above
+# yehThreedotsabove-farsi.medi = behDotless-ar.medi + _dot3u@above + _dot2h@behDotless-ar.medi:below
+# yehThreedotsabove-farsi.init = behDotless-ar.init + _dot3u@above + _dot2h@behDotless-ar.init:below
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# yehTwoabove-farsi = yeh-ar.noDots + _two@above | 0775
+# yehTwoabove-farsi.fina = yeh-ar.noDots.fina + _two@above
+# yehTwoabove-farsi.medi = behDotless-ar.medi + _two@above + _dot2h@behDotless-ar.medi:below
+# yehTwoabove-farsi.init = behDotless-ar.init + _two@above + _dot2h@behDotless-ar.init:below
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# yehThreeabove-farsi = yeh-ar.noDots + _three@above | 0776
+# yehThreeabove-farsi.fina = yeh-ar.noDots.fina + _three@above
+# yehThreeabove-farsi.medi = behDotless-ar.medi + _three@above + _dot2h@behDotless-ar.medi:below
+# yehThreeabove-farsi.init = behDotless-ar.init + _three@above + _dot2h@behDotless-ar.init:below
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# yehFourbelow-farsi = yeh-ar.noDots + _four@below | 0777
+# yehFourbelow-farsi.fina = yeh-ar.noDots.fina + _four@below
+# yehFourbelow-farsi.medi = behDotless-ar.medi + _four@below
+# yehFourbelow-farsi.init = behDotless-ar.init + _four@below
+
 # 2020-07-14 pm Following definitions to be removed from ABSGlyphList, then removed from here
 # yehKashmiri-ar = yeh-ar.noDots + _ring@ring
 # yehKashmiri-ar.fina = yeh-ar.noDots.fina + _ring@ring
-yehKashmiri-ar.medi = behDotless-ar.medi + _ring@below[with=_ring]
-yehKashmiri-ar.init = behDotless-ar.init + _ring@below[with=_ring]
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# yehKashmiri-ar.medi = behDotless-ar.medi + _ring@below[with=_ring]
+# yehKashmiri-ar.init = behDotless-ar.init + _ring@below[with=_ring]
+
 e-ar = yeh-ar.noDots + _dot2v@below | 06D0
 e-ar.fina = yeh-ar.noDots.fina + _dot2v@below
 e-ar.medi = behDotless-ar.medi + _dot2v@below
@@ -664,14 +717,19 @@ yehThreedotsbelow-ar.medi = behDotless-ar.medi + _dot3d@below
 yehThreedotsbelow-ar.init = behDotless-ar.init + _dot3d@below
 yehbarreeHamzaabove-ar = yehbarree-ar + _hamza@above | 06D3
 yehbarreeHamzaabove-ar.fina = yehbarree-ar.fina + _hamza@above
-yehbarreeTwoabove-ar = yehbarree-ar + _two@above | 077A
-yehbarreeTwoabove-ar.fina = yehbarree-ar.fina + _two@above
-yehbarreeTwoabove-ar.medi = behDotless-ar.medi + _two@above + _dot2h@behDotless-ar.medi:below
-yehbarreeTwoabove-ar.init = behDotless-ar.init + _two@above + _dot2h@behDotless-ar.init:below
-yehbarreeThreeabove-ar = yehbarree-ar + _three@above | 077B
-yehbarreeThreeabove-ar.fina = yehbarree-ar.fina + _three@above
-yehbarreeThreeabove-ar.medi = behDotless-ar.medi + _three@above + _dot2h@behDotless-ar.medi:below
-yehbarreeThreeabove-ar.init = behDotless-ar.init + _three@above + _dot2h@behDotless-ar.init:below
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# yehbarreeTwoabove-ar = yehbarree-ar + _two@above | 077A
+# yehbarreeTwoabove-ar.fina = yehbarree-ar.fina + _two@above
+# yehbarreeTwoabove-ar.medi = behDotless-ar.medi + _two@above + _dot2h@behDotless-ar.medi:below
+# yehbarreeTwoabove-ar.init = behDotless-ar.init + _two@above + _dot2h@behDotless-ar.init:below
+
+# 2021-01-11 pm Manually adjusted diaA and diaB
+# yehbarreeThreeabove-ar = yehbarree-ar + _three@above | 077B
+# yehbarreeThreeabove-ar.fina = yehbarree-ar.fina + _three@above
+# yehbarreeThreeabove-ar.medi = behDotless-ar.medi + _three@above + _dot2h@behDotless-ar.medi:below
+# yehbarreeThreeabove-ar.init = behDotless-ar.init + _three@above + _dot2h@behDotless-ar.init:below
+
 # 2020-10-16 pm Manually composed to place all _highHamza at the same height in composed glyphs
 #highhamzaYeh-ar = yeh-ar.noDots + _highHamza@above | 0678
 #highhamzaYeh-ar.fina = yeh-ar.noDots.fina + _highHamza@above

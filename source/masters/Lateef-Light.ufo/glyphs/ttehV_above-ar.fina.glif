@@ -2,8 +2,8 @@
 <glyph name="ttehVabove-ar.fina" format="2">
   <advance width="1175"/>
   <anchor x="264" y="698" name="alefUnused"/>
-  <anchor x="536" y="701" name="diaA"/>
-  <anchor x="220" y="-202" name="diaB"/>
+  <anchor x="566" y="1214" name="diaA"/>
+  <anchor x="220" y="-200" name="diaB"/>
   <outline>
     <component base="behDotless-ar.fina"/>
     <component base="_tah_smallV" xOffset="579" yOffset="503"/>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

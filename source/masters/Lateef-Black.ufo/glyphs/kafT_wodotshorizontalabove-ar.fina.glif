@@ -2,8 +2,8 @@
 <glyph name="kafTwodotshorizontalabove-ar.fina" format="2">
   <advance width="1157"/>
   <anchor x="226" y="761" name="alefUnused"/>
-  <anchor x="609" y="1104" name="diaA"/>
-  <anchor x="300" y="-202" name="diaB"/>
+  <anchor x="521" y="1254" name="diaA"/>
+  <anchor x="300" y="-200" name="diaB"/>
   <outline>
     <component base="kaf-ar.fina"/>
     <component base="_dot2h" xOffset="504" yOffset="1015"/>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

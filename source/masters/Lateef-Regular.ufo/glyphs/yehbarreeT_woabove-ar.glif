@@ -2,7 +2,7 @@
 <glyph name="yehbarreeTwoabove-ar" format="2">
   <advance width="1158"/>
   <unicode hex="077A"/>
-  <anchor x="370" y="526" name="diaA"/>
+  <anchor x="356" y="845" name="diaA"/>
   <anchor x="300" y="-585" name="diaB"/>
   <outline>
     <component base="yehbarree-ar"/>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

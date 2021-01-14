@@ -3,8 +3,8 @@
   <advance width="1447"/>
   <unicode hex="077D"/>
   <anchor x="295" y="436" name="alefUnused"/>
-  <anchor x="683" y="700" name="diaA"/>
-  <anchor x="176" y="-514" name="diaB"/>
+  <anchor x="980" y="1020" name="diaA"/>
+  <anchor x="176" y="-600" name="diaB"/>
   <outline>
     <component base="seen-ar"/>
     <component base="_four" xOffset="965" yOffset="1373"/>
@@ -12,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

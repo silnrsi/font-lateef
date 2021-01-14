@@ -2,8 +2,8 @@
 <glyph name="alefTwoabove-ar" format="2">
   <advance width="497"/>
   <unicode hex="0773"/>
-  <anchor x="324" y="1176" name="diaA"/>
-  <anchor x="291" y="-150" name="diaB"/>
+  <anchor x="324" y="1300" name="diaA"/>
+  <anchor x="291" y="-200" name="diaB"/>
   <outline>
     <component base="alef-ar" xOffset="144"/>
     <component base="_two" xOffset="105" yOffset="671"/>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
