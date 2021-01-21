@@ -169,6 +169,13 @@ cAnyMarksBelowCGJ = (g_graphemejoinercomb cAnyMarksBelow) ;
 cAnyMarksAboveCGJ = (g_graphemejoinercomb cAnyMarksAbove) ;
 cAnyMarksCGJ      = (g_graphemejoinercomb cAnyMarks     ) ;
 
+
+//------------------------------------------------------------------------------------------
+//
+//	Placeholder for Alef in Lam-Alef ligatures to allow for mark positioning
+//
+g_alefPlaceholder = pseudo(glyphid(1));
+
 endtable; // glyph
 
 endenvironment;

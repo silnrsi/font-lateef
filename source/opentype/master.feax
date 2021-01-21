@@ -312,15 +312,18 @@ lookup AllahLigatures {
 
 
 #********
-# Substitutions for Lam-Alef "ligature" (implemented
-# as cursively connected components, not a ligature).
+# Lam-Alef Ligatures
 
 lookup LamAlefLigatures {
-  lookupflag IgnoreMarks ;
-    sub [@LamIni @LamMed]' @AlefFin  by [@LamIniBeforeAlef @LamMedBeforeAlef];
-    sub @LamIniBeforeAlef  @AlefFin' by @AlefFinAfterLamIni;
-    sub @LamMedBeforeAlef  @AlefFin' by @AlefFinAfterLamMed ;
+	lookupflag IgnoreMarks ;
+		sub @LamInitMedi  alef-ar.fina                by  @LamAlefLig ;
+		sub @LamInitMedi  alefWasla-ar.fina           by  @LamAlefWaslaLig ;
+		sub @LamInitMedi  alefWavyhamzaabove-ar.fina  by  @LamAlefWavyHAboveLig ;
+		sub @LamInitMedi  alefWavyhamzabelow-ar.fina  by  @LamAlefWavyHBelowLig ;
+		sub @LamInitMedi  alefTwoabove-ar.fina        by  @LamAlefTwoAboveLig ;
+		sub @LamInitMedi  alefThreeabove-ar.fina      by  @LamAlefThreeAboveLig ;
 } LamAlefLigatures;
+
 
 #********
 # Ligatures of marks
@@ -738,12 +741,22 @@ lookup alef_to_base {
   pos base @alef mark @_alef;
 } alef_to_base;
 
-#### TODO will we have this?
+lookup mark_to_lig {
+    lookupflag 0;
+    pos ligature @LamAlefLig            @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
+        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
+    pos ligature @LamAlefWaslaLig       @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
+        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
+    pos ligature @LamAlefWavyHAboveLig  @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
+        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
+    pos ligature @LamAlefWavyHBelowLig  @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
+        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
+    pos ligature @LamAlefTwoAboveLig    @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
+        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
+    pos ligature @LamAlefThreeAboveLig  @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
+        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
+} mark_to_lig;
 
-## lookup mark2_to_base {
-##   lookupflag 0;
-##   pos base @dia2B mark @_diaB;
-## } mark2_to_base;
 
 @MarkFilter_diaA = [@diaA_MarkBase @_diaA];
 lookup mark_to_mark_above {
@@ -756,24 +769,6 @@ lookup mark_to_mark_below {
   lookupflag UseMarkFilteringSet @MarkFilter_diaB;
   pos mark @diaB_MarkBase mark @_diaB;
 } mark_to_mark_below;
-
-#********************
-# Mark adjustments after attachment:
-
-#### TODO: Will we have this?
-
-# move MarksBelow slightly left on lam-alef when appropriate:
-## lookup AlefMark2BelowAfterLam {
-##   lookupflag UseMarkFilteringSet @MarksBelow ;
-##     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup mark2_to_base @MarksBelow' ;
-##     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
-##     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksBelow' ;
-##     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
-##     #pos @MarksBelow @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
-##     #pos lamThreedotsbelow-ar.init.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
-##     # Unneeded in Harmattan design:
-##     #pos lamThreedotsbelow-ar.medi.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
-## } AlefMark2BelowAfterLam;
 
 
 #********************
@@ -1212,15 +1207,16 @@ feature mark {  # Mark to base Positioning
     # Same for latin & arabic:
         lookup mark_to_base;
         lookup alef_to_base;
-##    script arab;  # Arabic
+    script arab;  # Arabic
+    	lookup mark_to_lig;
 ##        lookup AlefMark2BelowAfterLam;
-##      # Force other languages to include Arabic script lookups
-##      language KIR  ;
-##      language KUR  ;
-##      language RHG  ;
-##      language SND  ;
-##      language URD  ;
-###      language WLF  ;
+      # Force other languages to include Arabic script lookups
+      language KIR  ;
+      language KUR  ;
+      language RHG  ;
+      language SND  ;
+      language URD  ;
+#      language WLF  ;
 } mark ;
 
 feature mkmk {  # Mark to mark Positioning
