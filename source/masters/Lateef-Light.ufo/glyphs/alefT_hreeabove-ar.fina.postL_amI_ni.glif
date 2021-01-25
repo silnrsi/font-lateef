@@ -8,10 +8,4 @@
     <component base="alef-ar.fina.postLamIni" xOffset="187"/>
     <component base="_three" xOffset="188" yOffset="671"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

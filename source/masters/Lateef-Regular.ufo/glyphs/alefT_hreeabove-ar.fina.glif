@@ -7,10 +7,4 @@
     <component base="alef-ar.fina" xOffset="262"/>
     <component base="_three" xOffset="158" yOffset="671"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

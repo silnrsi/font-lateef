@@ -7,10 +7,4 @@
     <component base="kaf-ar.medi"/>
     <component base="_dot3d" xOffset="201" yOffset="-330"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

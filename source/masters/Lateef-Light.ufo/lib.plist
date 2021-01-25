@@ -24,7 +24,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3050</string>
+  <string>3055</string>
   <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
   <dict>
     <key>XXXX</key>
@@ -109,6 +109,7 @@
 /yehbarreeTwoabove-ar/yehbarreeTwoabove-ar.fina/yehbarreeTwoabove-ar.medi/yehbarreeTwoabove-ar.init/space/yehbarreeThreeabove-ar/yehbarreeThreeabove-ar.fina/yehbarreeThreeabove-ar.medi/yehbarreeThreeabove-ar.init 
 /yehTwodotsabove-farsi/yehTwodotsabove-farsi.fina/yehTwodotsabove-farsi.medi/yehTwodotsabove-farsi.init/space/space/yehThreedotsabove-farsi/yehThreedotsabove-farsi.fina/yehThreedotsabove-farsi.medi/yehThreedotsabove-farsi.init/space/yehTwoabove-farsi/yehTwoabove-farsi.fina/yehTwoabove-farsi.medi/yehTwoabove-farsi.init/space/yehThreeabove-farsi/yehThreeabove-farsi.fina/yehThreeabove-farsi.medi/yehThreeabove-farsi.init/space/yehFourbelow-farsi/yehFourbelow-farsi.fina/yehFourbelow-farsi.medi/yehFourbelow-farsi.init</string>
     <string>/tah-ar</string>
+    <string>/yehSmall-ar/yehSmall-ar/yehabove-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>

@@ -9,10 +9,4 @@
     <component base="waw-ar"/>
     <component base="_three" xOffset="396" yOffset="452"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

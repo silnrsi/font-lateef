@@ -7,10 +7,4 @@
     <component base="yehbarree-ar.fina"/>
     <component base="_two" xOffset="586" yOffset="235"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

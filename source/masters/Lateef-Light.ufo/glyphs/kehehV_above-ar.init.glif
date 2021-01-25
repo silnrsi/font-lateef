@@ -7,10 +7,4 @@
     <component base="kaf-ar.init"/>
     <component base="_smallV" xOffset="113" yOffset="1003"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>
