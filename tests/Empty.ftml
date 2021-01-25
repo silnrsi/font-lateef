@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
 <ftml version='1.0'>
-  <testgroup label='Rendering check'>
-  <test label='Check'><string>RenderingUnknown</string></test>
-  </testgroup>
-<head>
-  <fontscale>300</fontscale>
-  <fontsrc>local(Scheherazade)</fontsrc>
-  <fontsrc>local(Lateef)</fontsrc>
-  <fontsrc>url(../results/web/LateefGR-Regular.woff)</fontsrc>
-  <styles>
-  </styles>
-  <title>Empty test</title>
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc>local(Scheherazade)</fontsrc>
+    <fontsrc>local(Lateef)</fontsrc>
+    <fontsrc>url(../results/web/LateefGR-Regular.woff)</fontsrc>
+    <styles>
+    </styles>
+    <title>Empty test</title>
   </head>
+  <testgroup label='Rendering check'>
+    <test label='Check'><string>RenderingUnknown</string></test>
+  </testgroup>
 </ftml>
