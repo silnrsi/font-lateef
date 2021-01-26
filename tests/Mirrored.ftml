@@ -3,6 +3,7 @@
 <ftml version='1.0'>
   <head>
     <fontscale>300</fontscale>
+    <fontsrc label="LatOT">url(../references/LateefRegOT-1.001.ttf)</fontsrc>
     <fontsrc label="LatGR">url(../references/LateefGR-1.200.ttf)</fontsrc>
     <fontsrc label="Reg-Gr">url(../results/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)</fontsrc>
@@ -30,8 +31,10 @@
     <test label='U+00BB'><comment>mirror        </comment><string>a \u00BB b \u0627 \u00BB \u0628</string></test>
     <test label='U+2018'><comment>style         </comment><string>a \u2018 b \u0627 \u2018 \u0628</string></test>
     <test label='U+2019'><comment>style         </comment><string>a \u2019 b \u0627 \u2019 \u0628</string></test>
+    <test label='U+201A'><comment>              </comment><string>a \u201A b \u0627 \u201A \u0628</string></test>
     <test label='U+201C'><comment>style         </comment><string>a \u201C b \u0627 \u201C \u0628</string></test>
     <test label='U+201D'><comment>style         </comment><string>a \u201D b \u0627 \u201D \u0628</string></test>
+    <test label='U+201E'><comment>              </comment><string>a \u201E b \u0627 \u201E \u0628</string></test>
     <test label='U+2039'><comment>mirror        </comment><string>a \u2039 b \u0627 \u2039 \u0628</string></test>
     <test label='U+203A'><comment>mirror        </comment><string>a \u203A b \u0627 \u203A \u0628</string></test>
     <test label='U+2202'><comment>mirror        </comment><string>a \u2202 b \u0627 \u2202 \u0628</string></test>
