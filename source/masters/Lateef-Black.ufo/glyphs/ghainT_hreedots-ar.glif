@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghainThreedots-ar" format="2">
+  <advance width="782"/>
+  <unicode hex="08C3"/>
+  <anchor x="295" y="786" name="diaA"/>
+  <anchor x="255" y="-780" name="diaB"/>
+  <outline>
+    <component base="ain-ar"/>
+    <component base="_dot1_dot3u" xOffset="276" yOffset="1319"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

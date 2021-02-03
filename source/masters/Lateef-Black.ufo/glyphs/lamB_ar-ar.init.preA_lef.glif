@@ -7,12 +7,12 @@
   <anchor x="-2" y="0" name="exit"/>
   <outline>
     <component base="lam-ar.init.preAlef"/>
-    <component base="_bar" xOffset="216" yOffset="618"/>
+    <component base="_bar" xOffset="226" yOffset="470"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

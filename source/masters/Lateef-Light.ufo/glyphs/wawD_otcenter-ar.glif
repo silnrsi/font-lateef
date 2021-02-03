@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wawDotcenter-ar" format="2">
+  <advance width="569"/>
+  <unicode hex="08AB"/>
+  <anchor x="95" y="694" name="alefUnused"/>
+  <anchor x="313" y="697" name="diaA"/>
+  <anchor x="142" y="-400" name="diaB"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="_dot1" xOffset="170" yOffset="-46"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

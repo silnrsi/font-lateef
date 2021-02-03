@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tehTehabove-ar.medi" format="2">
+  <advance width="440"/>
+  <anchor x="52" y="599" name="alefUnused"/>
+  <anchor x="215" y="700" name="diaA"/>
+  <anchor x="190" y="-200" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="_teh" xOffset="212" yOffset="353"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

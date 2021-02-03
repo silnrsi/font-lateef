@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafDotbelow-ar" format="2">
+  <advance width="865"/>
+  <unicode hex="08A5"/>
+  <anchor x="255" y="584" name="alefUnused"/>
+  <anchor x="430" y="685" name="diaA"/>
+  <anchor x="200" y="-420" name="diaB"/>
+  <outline>
+    <component base="qafDotless-ar"/>
+    <component base="_dot2h" xOffset="676" yOffset="827"/>
+    <component base="_dot1" xOffset="432" yOffset="-560"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>
