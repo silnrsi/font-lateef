@@ -170,6 +170,8 @@
   <string>_absS_washK_af.glif</string>
   <key>_bar</key>
   <string>_bar.glif</string>
+  <key>_bar2</key>
+  <string>_bar2.glif</string>
   <key>_bar_horiz</key>
   <string>_bar_horiz.glif</string>
   <key>_baseline_135</key>
@@ -186,6 +188,10 @@
   <string>_damma.filled.glif</string>
   <key>_dot1</key>
   <string>_dot1.glif</string>
+  <key>_dot1_dot3d</key>
+  <string>_dot1_dot3d.glif</string>
+  <key>_dot1_dot3u</key>
+  <string>_dot1_dot3u.glif</string>
   <key>_dot1_hat</key>
   <string>_dot1_hat.glif</string>
   <key>_dot1_small</key>
@@ -226,6 +232,8 @@
   <string>_four.glif</string>
   <key>_gafBar</key>
   <string>_gafB_ar.glif</string>
+  <key>_gafBarCenter</key>
+  <string>_gafB_arC_enter.glif</string>
   <key>_gafBarShort</key>
   <string>_gafB_arS_hort.glif</string>
   <key>_gafBarShort_dot2h</key>
@@ -262,6 +270,10 @@
   <string>_lines.glif</string>
   <key>_madda</key>
   <string>_madda.glif</string>
+  <key>_meem</key>
+  <string>_meem.glif</string>
+  <key>_noon</key>
+  <string>_noon.glif</string>
   <key>_number</key>
   <string>_number.glif</string>
   <key>_one</key>
@@ -298,6 +310,8 @@
   <string>_tah_stem.glif</string>
   <key>_tail</key>
   <string>_tail.glif</string>
+  <key>_teh</key>
+  <string>_teh.glif</string>
   <key>_three</key>
   <string>_three.glif</string>
   <key>_two</key>

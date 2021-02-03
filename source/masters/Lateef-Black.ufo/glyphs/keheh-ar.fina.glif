@@ -4,6 +4,7 @@
   <anchor x="708" y="835" name="above"/>
   <anchor x="242" y="761" name="alefUnused"/>
   <anchor x="818" y="-50" name="below"/>
+  <anchor x="1167" y="703" name="center"/>
   <anchor x="623" y="1020" name="diaA"/>
   <anchor x="300" y="-200" name="diaB"/>
   <anchor x="1120" y="902" name="ring"/>
@@ -11,4 +12,10 @@
     <component base="keheh-ar"/>
     <component base="_kehehjoiner" xOffset="899"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

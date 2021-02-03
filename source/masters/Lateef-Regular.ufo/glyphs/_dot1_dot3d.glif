@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_dot1_dot3d" format="2">
+  <anchor x="0" y="-563" name="_above"/>
+  <anchor x="0" y="286" name="_below"/>
+  <anchor x="30" y="-202" name="_center"/>
+  <outline>
+    <component base="_dot1" xScale="0.9" yScale="0.9" xOffset="-3" yOffset="52"/>
+    <component base="_dot2h" xScale="0.9" yScale="0.9" yOffset="-126"/>
+    <component base="_dot1" xScale="0.9" yScale="0.9" xOffset="-3" yOffset="-336"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

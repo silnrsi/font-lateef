@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_gafBarCenter" format="2">
+  <anchor x="231" y="73" name="_center"/>
+  <outline>
+    <contour>
+      <point x="0" y="-26" type="line"/>
+      <point x="117" y="12"/>
+      <point x="289" y="46"/>
+      <point x="408" y="56" type="curve"/>
+      <point x="441" y="171" type="line"/>
+      <point x="316" y="149"/>
+      <point x="167" y="103"/>
+      <point x="54" y="56" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

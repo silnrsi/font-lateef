@@ -3,10 +3,29 @@
   <advance width="782"/>
   <unicode hex="0639"/>
   <anchor x="276" y="738" name="above"/>
+  <anchor x="453" y="-161" name="below"/>
   <anchor x="435" y="-161" name="center"/>
   <anchor x="295" y="786" name="diaA"/>
   <anchor x="255" y="-780" name="diaB"/>
   <outline>
+    <contour>
+      <point x="603" y="-700" type="curve"/>
+      <point x="960" y="-443" type="line"/>
+      <point x="960" y="-420" type="line"/>
+      <point x="667" y="-420" type="line" smooth="yes"/>
+      <point x="405" y="-420"/>
+      <point x="156" y="-404"/>
+      <point x="156" y="-170" type="curve" smooth="yes"/>
+      <point x="156" y="-33"/>
+      <point x="322" y="100"/>
+      <point x="615" y="175" type="curve"/>
+      <point x="615" y="455" type="line"/>
+      <point x="316" y="345"/>
+      <point x="80" y="25"/>
+      <point x="80" y="-218" type="curve" smooth="yes"/>
+      <point x="80" y="-533"/>
+      <point x="259" y="-707"/>
+    </contour>
     <contour>
       <point x="180" y="8" type="curve"/>
       <point x="368" y="307" type="line"/>
@@ -32,24 +51,6 @@
       <point x="40" y="230" type="curve" smooth="yes"/>
       <point x="40" y="169"/>
       <point x="70" y="53"/>
-    </contour>
-    <contour>
-      <point x="615" y="455" type="line"/>
-      <point x="316" y="345"/>
-      <point x="80" y="25"/>
-      <point x="80" y="-218" type="curve" smooth="yes"/>
-      <point x="80" y="-533"/>
-      <point x="259" y="-707"/>
-      <point x="603" y="-700" type="curve"/>
-      <point x="960" y="-443" type="line"/>
-      <point x="960" y="-420" type="line"/>
-      <point x="667" y="-420" type="line" smooth="yes"/>
-      <point x="405" y="-420"/>
-      <point x="156" y="-404"/>
-      <point x="156" y="-170" type="curve" smooth="yes"/>
-      <point x="156" y="-33"/>
-      <point x="322" y="100"/>
-      <point x="615" y="175" type="curve"/>
     </contour>
   </outline>
 </glyph>

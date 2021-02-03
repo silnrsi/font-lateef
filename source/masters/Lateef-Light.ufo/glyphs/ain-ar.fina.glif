@@ -2,11 +2,18 @@
 <glyph name="ain-ar.fina" format="2">
   <advance width="756"/>
   <anchor x="356" y="527" name="above"/>
+  <anchor x="362" y="-233" name="below"/>
   <anchor x="381" y="-234" name="center"/>
   <anchor x="369" y="701" name="diaA"/>
   <anchor x="245" y="-780" name="diaB"/>
   <outline>
     <contour>
+      <point x="556" y="-700" type="curve"/>
+      <point x="751" y="-594" type="line"/>
+      <point x="751" y="-574" type="line"/>
+      <point x="543" y="-574" type="line" smooth="yes"/>
+      <point x="279" y="-574"/>
+      <point x="87" y="-532"/>
       <point x="87" y="-264" type="curve" smooth="yes"/>
       <point x="87" y="216"/>
       <point x="521" y="173"/>
@@ -26,18 +33,8 @@
       <point x="40" y="-275" type="curve" smooth="yes"/>
       <point x="40" y="-527"/>
       <point x="151" y="-698"/>
-      <point x="556" y="-700" type="curve"/>
-      <point x="751" y="-594" type="line"/>
-      <point x="751" y="-574" type="line"/>
-      <point x="543" y="-574" type="line" smooth="yes"/>
-      <point x="279" y="-574"/>
-      <point x="87" y="-532"/>
     </contour>
     <contour>
-      <point x="378" y="257" type="curve"/>
-      <point x="319" y="227" type="line"/>
-      <point x="445" y="60"/>
-      <point x="555" y="0"/>
       <point x="756" y="0" type="curve" smooth="yes"/>
       <point x="786" y="0"/>
       <point x="796" y="23"/>
@@ -47,6 +44,10 @@
       <point x="756" y="110" type="curve" smooth="yes"/>
       <point x="566" y="110"/>
       <point x="447" y="190"/>
+      <point x="378" y="257" type="curve"/>
+      <point x="319" y="227" type="line"/>
+      <point x="445" y="60"/>
+      <point x="555" y="0"/>
     </contour>
   </outline>
 </glyph>

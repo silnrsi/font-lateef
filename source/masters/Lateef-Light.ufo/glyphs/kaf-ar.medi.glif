@@ -3,6 +3,7 @@
   <advance width="949"/>
   <anchor x="113" y="835" name="above"/>
   <anchor x="140" y="-44" name="below"/>
+  <anchor x="522" y="771" name="center"/>
   <anchor x="170" y="1020" name="diaA"/>
   <anchor x="159" y="-200" name="diaB"/>
   <anchor x="463" y="922" name="ring"/>
@@ -10,4 +11,29 @@
     <component base="kaf-ar.init"/>
     <component base="_kehehjoiner" xOffset="306"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>kaf-ar.init</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_kehehjoiner</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

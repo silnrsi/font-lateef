@@ -8,4 +8,10 @@
     <component base="behDotless-ar.medi"/>
     <component base="_tah_smallV" xOffset="212" yOffset="566"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

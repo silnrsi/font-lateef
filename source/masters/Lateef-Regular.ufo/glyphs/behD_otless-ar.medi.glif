@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behDotless-ar.medi" format="2">
   <advance width="440"/>
-  <anchor x="212" y="386" name="above"/>
+  <anchor x="212" y="396" name="above"/>
   <anchor x="52" y="599" name="alefUnused"/>
   <anchor x="203" y="-70" name="below"/>
   <anchor x="215" y="700" name="diaA"/>
@@ -44,4 +44,10 @@
       <point x="-31" y="0"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

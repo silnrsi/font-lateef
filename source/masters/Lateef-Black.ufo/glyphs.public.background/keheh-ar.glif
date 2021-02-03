@@ -70,5 +70,25 @@
       <point x="123" y="0"/>
       <point x="289" y="0" type="curve"/>
     </contour>
+    <contour>
+      <point x="942" y="623" type="line"/>
+      <point x="1052" y="671"/>
+      <point x="1217" y="719"/>
+      <point x="1335" y="743" type="curve"/>
+      <point x="1369" y="829" type="line"/>
+      <point x="1248" y="804"/>
+      <point x="1088" y="736"/>
+      <point x="978" y="687" type="curve"/>
+    </contour>
+    <contour>
+      <point x="665" y="823" type="line"/>
+      <point x="845" y="950"/>
+      <point x="1020" y="1052"/>
+      <point x="1220" y="1147" type="curve"/>
+      <point x="1245" y="1243" type="line"/>
+      <point x="1045" y="1148"/>
+      <point x="872" y="1044"/>
+      <point x="690" y="908" type="curve"/>
+    </contour>
   </outline>
 </glyph>

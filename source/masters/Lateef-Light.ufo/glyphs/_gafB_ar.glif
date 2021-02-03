@@ -3,10 +3,20 @@
   <anchor x="68" y="0" name="_above"/>
   <outline>
     <contour>
-      <point x="4" y="12" type="line"/>
-      <point x="600" y="308" type="line"/>
-      <point x="621" y="371" type="line"/>
-      <point x="26" y="73" type="line"/>
+      <point x="25" y="-12" type="line"/>
+      <point x="205" y="115"/>
+      <point x="380" y="217"/>
+      <point x="580" y="312" type="curve"/>
+      <point x="601" y="390" type="line"/>
+      <point x="401" y="295"/>
+      <point x="228" y="191"/>
+      <point x="46" y="55" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

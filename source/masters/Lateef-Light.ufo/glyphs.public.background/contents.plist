@@ -8,6 +8,8 @@
   <string>_bowl_seen.glif</string>
   <key>_dot4</key>
   <string>_dot4.glif</string>
+  <key>_gafBar</key>
+  <string>_gafB_ar.glif</string>
   <key>_hook</key>
   <string>_hook.glif</string>
   <key>_kehehjoiner</key>
@@ -62,6 +64,8 @@
   <string>kaf-ar.init.glif</string>
   <key>kaf-ar.medi</key>
   <string>kaf-ar.medi.glif</string>
+  <key>keheh-ar</key>
+  <string>keheh-ar.glif</string>
   <key>kirghizoe-ar</key>
   <string>kirghizoe-ar.glif</string>
   <key>lam-ar</key>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_gafBar" format="2">
+  <outline>
+    <contour>
+      <point x="4" y="12" type="line"/>
+      <point x="600" y="308" type="line"/>
+      <point x="621" y="371" type="line"/>
+      <point x="26" y="73" type="line"/>
+    </contour>
+  </outline>
+</glyph>

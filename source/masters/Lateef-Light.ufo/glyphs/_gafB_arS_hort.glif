@@ -2,11 +2,6 @@
 <glyph name="_gafBarShort" format="2">
   <anchor x="68" y="0" name="_above"/>
   <outline>
-    <contour>
-      <point x="4" y="12" type="line"/>
-      <point x="600" y="308" type="line"/>
-      <point x="621" y="371" type="line"/>
-      <point x="26" y="73" type="line"/>
-    </contour>
+    <component base="_gafBar"/>
   </outline>
 </glyph>

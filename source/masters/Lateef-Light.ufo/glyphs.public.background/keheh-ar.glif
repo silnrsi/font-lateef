@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="keheh-ar" format="2">
+  <outline>
+    <contour>
+      <point x="912" y="643" type="line"/>
+      <point x="1017" y="702"/>
+      <point x="1176" y="766"/>
+      <point x="1291" y="801" type="curve"/>
+      <point x="1317" y="890" type="line"/>
+      <point x="1199" y="853"/>
+      <point x="1046" y="770"/>
+      <point x="942" y="710" type="curve"/>
+    </contour>
+    <contour>
+      <point x="665" y="823" type="line"/>
+      <point x="845" y="950"/>
+      <point x="1020" y="1052"/>
+      <point x="1220" y="1147" type="curve"/>
+      <point x="1245" y="1243" type="line"/>
+      <point x="1045" y="1148"/>
+      <point x="872" y="1044"/>
+      <point x="690" y="908" type="curve"/>
+    </contour>
+  </outline>
+</glyph>
