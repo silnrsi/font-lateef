@@ -717,15 +717,6 @@ lookup SignWithDigits {
 
 
 #********************
-# Cursive connection
-
-lookup cursive_exit_entry {
-  lookupflag IgnoreMarks RightToLeft;
-  pos cursive @entry @exit;
-} cursive_exit_entry;
-
-
-#********************
 # Mark attachment
 
 lookup mark_to_base {
@@ -1191,17 +1182,6 @@ feature kern {  # Kerning
         lookup SubtendingMarks;
 } kern;
 
-feature curs { # Cursive connection
-    script arab; # Arab
-        lookup cursive_exit_entry;
-      # Force other languages to include Arabic script lookups
-      language KIR  ;
-      language KUR  ;
-      language RHG  ;
-      language SND  ;
-      language URD  ;
-#      language WLF  ;
-} curs ;
 
 feature mark {  # Mark to base Positioning
     # Same for latin & arabic:

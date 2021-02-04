@@ -17,7 +17,7 @@ getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
 ftmlTest('tools/ftml.xsl')
 
 # APs to omit:
-omitaps = '--omitaps "_above _aboveLeft _below _center _ring _through above aboveLeft below center ring through"'
+omitaps = '--omitaps "_above _aboveLeft _below _center _ring _through above aboveLeft below center ring through entry exit"'
 
 # location for misc build results
 generated = 'generated/'
