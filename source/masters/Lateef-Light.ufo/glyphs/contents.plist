@@ -1672,6 +1672,30 @@
   <string>lamD_oublebar-ar.medi.glif</string>
   <key>lamDoublebar-ar.medi.preAlef</key>
   <string>lamD_oublebar-ar.medi.preA_lef.glif</string>
+  <key>lamDoublebar_alef-ar</key>
+  <string>lamD_oublebar_alef-ar.glif</string>
+  <key>lamDoublebar_alef-ar.fina</key>
+  <string>lamD_oublebar_alef-ar.fina.glif</string>
+  <key>lamDoublebar_alefThreeabove-ar</key>
+  <string>lamD_oublebar_alefT_hreeabove-ar.glif</string>
+  <key>lamDoublebar_alefThreeabove-ar.fina</key>
+  <string>lamD_oublebar_alefT_hreeabove-ar.fina.glif</string>
+  <key>lamDoublebar_alefTwoabove-ar</key>
+  <string>lamD_oublebar_alefT_woabove-ar.glif</string>
+  <key>lamDoublebar_alefTwoabove-ar.fina</key>
+  <string>lamD_oublebar_alefT_woabove-ar.fina.glif</string>
+  <key>lamDoublebar_alefWasla-ar</key>
+  <string>lamD_oublebar_alefW_asla-ar.glif</string>
+  <key>lamDoublebar_alefWasla-ar.fina</key>
+  <string>lamD_oublebar_alefW_asla-ar.fina.glif</string>
+  <key>lamDoublebar_alefWavyhamzaabove-ar</key>
+  <string>lamD_oublebar_alefW_avyhamzaabove-ar.glif</string>
+  <key>lamDoublebar_alefWavyhamzaabove-ar.fina</key>
+  <string>lamD_oublebar_alefW_avyhamzaabove-ar.fina.glif</string>
+  <key>lamDoublebar_alefWavyhamzabelow-ar</key>
+  <string>lamD_oublebar_alefW_avyhamzabelow-ar.glif</string>
+  <key>lamDoublebar_alefWavyhamzabelow-ar.fina</key>
+  <string>lamD_oublebar_alefW_avyhamzabelow-ar.fina.glif</string>
   <key>lamTahabove-ar</key>
   <string>lamT_ahabove-ar.glif</string>
   <key>lamTahabove-ar.fina</key>
