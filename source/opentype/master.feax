@@ -311,18 +311,6 @@ lookup AllahLigatures {
 } AllahLigatures;  
 
 
-#********
-# Lam-Alef Ligatures
-
-lookup LamAlefLigatures {
-	lookupflag IgnoreMarks ;
-		sub @LamInitMedi  alef-ar.fina                by  @LamAlefLig ;
-		sub @LamInitMedi  alefWasla-ar.fina           by  @LamAlefWaslaLig ;
-		sub @LamInitMedi  alefWavyhamzaabove-ar.fina  by  @LamAlefWavyHAboveLig ;
-		sub @LamInitMedi  alefWavyhamzabelow-ar.fina  by  @LamAlefWavyHBelowLig ;
-		sub @LamInitMedi  alefTwoabove-ar.fina        by  @LamAlefTwoAboveLig ;
-		sub @LamInitMedi  alefThreeabove-ar.fina      by  @LamAlefThreeAboveLig ;
-} LamAlefLigatures;
 
 
 #********
@@ -347,6 +335,7 @@ lookup ComposeLowHamzaAbove {
 lookup LigateHamzaMarks {
   lookupflag UseMarkFilteringSet @LigateHamzaMarksFilter ;
     sub hamzaabove-ar @HamzaMarks by @HamzaLigatures ;
+    sub @HamzaMarks hamzaabove-ar by @HamzaLigatures ;
 } LigateHamzaMarks;
 
 @HamzaLigatureFilter = [ @HamzaAboveFilter @HamzaMarks shadda-ar ] ;
@@ -636,6 +625,17 @@ lookup ShaddaKasraLigatures {
     sub shadda-ar @ShaddaKasraMarks by @ShaddaKasraLigatures ;
 } ShaddaKasraLigatures;
 
+# Lam-Alef Ligatures
+
+lookup LamAlefLigatures {
+	lookupflag IgnoreMarks ;
+		sub @LamInitMedi  alef-ar.fina                by  @LamAlefLig ;
+		sub @LamInitMedi  alefWasla-ar.fina           by  @LamAlefWaslaLig ;
+		sub @LamInitMedi  alefWavyhamzaabove-ar.fina  by  @LamAlefWavyHAboveLig ;
+		sub @LamInitMedi  alefWavyhamzabelow-ar.fina  by  @LamAlefWavyHBelowLig ;
+		sub @LamInitMedi  alefTwoabove-ar.fina        by  @LamAlefTwoAboveLig ;
+		sub @LamInitMedi  alefThreeabove-ar.fina      by  @LamAlefThreeAboveLig ;
+} LamAlefLigatures;
 
 #********************
 # Substitutions for subtendng marks
@@ -922,7 +922,6 @@ feature init {  # Initial Forms
 feature rlig {  # Required Ligatures
     script arab;  # Arabic
         lookup AllahLigatures;
-        lookup LamAlefLigatures;
         lookup ShaddaLigatures;
         lookup ComposeLowHamzaAbove;
         lookup HamzaLigatures;
@@ -1155,11 +1154,15 @@ feature cv84 {  # Character Variant 84
 # Similarly, the yehbarree contextual substitution must execute after cv48, so they are
 # included in liga (with the lookups ordered after cv48)
 
+# Finally, the LamAlefLigatures must execute after we've ligated mark combinations, including shadda-kasra,
+# or otherwise Word gets confused and ligates shadda-kasra in a sequence such as lam-shadda-alef-kasra
+
 feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cv62
     # Same for latin & arabic:
         lookup ShaddaKasraLigatures;     # Must be after language-specific CALTs and cv62
 #        lookup YehBarreeToWideAlways;    # Must be after language-specific CALTs and cv48
 #        lookup YehBarreeToWideWithMarks; # Must be after language-specific CALTs and cv48
+        lookup LamAlefLigatures;         # Must be after all mark ligatures (including cv62)
         lookup SignWithDigits;           # Must be after cv82
 } liga ;
 
