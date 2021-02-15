@@ -62,7 +62,7 @@ designspace(dspace_file,
     # woff = woff('web/${DS:FILENAME_BASE}.woff', cmd='psfwoffit -m "../source/' + FAMILY + '-WOFF-metadata.xml" --woff ${TGT} --woff2 web/${DS:FILENAME_BASE}.woff2 ${SRC}'),
     woff = woff('web/${DS:FILENAME_BASE}.woff',
         metadata=f'../source/{FAMILY}-WOFF-metadata.xml',
-        cmd='psfwoffit -m ${SRC[1]} --woff ${TGT} --woff2 web/${DS:FILENAME_BASE}.woff2 ${SRC[0]}'
+        cmd='psfwoffit -m ${SRC[1]} --woff ${TGT} --woff2 ${TGT}2 ${SRC[0]}'
         ),
     typetuner = typetuner('source/typetuner/feat_all.xml'),
     )
