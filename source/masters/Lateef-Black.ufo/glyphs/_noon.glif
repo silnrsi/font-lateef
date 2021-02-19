@@ -2,7 +2,6 @@
 <glyph name="_noon" format="2">
   <advance width="500"/>
   <anchor x="-1" y="919" name="_above"/>
-  <anchor x="-1" y="924" name="_diaA"/>
   <anchor x="-1" y="1558" name="diaA"/>
   <outline>
     <contour>
