@@ -12,6 +12,21 @@
   <integer>1</integer>
   <key>GSOffsetVertical</key>
   <integer>10</integer>
+  <key>com.github.googlei18n.ufo2ft.filters</key>
+  <array>
+    <dict>
+      <key>name</key>
+      <string>decomposeTransformedComponents</string>
+      <key>pre</key>
+      <integer>1</integer>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>flattenComponents</string>
+      <key>pre</key>
+      <integer>1</integer>
+    </dict>
+  </array>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict>
     <key>GSDimensionPlugin.Dimensions</key>
@@ -47,8 +62,6 @@
     <dict>
       <key>300</key>
       <integer>300</integer>
-      <key>800</key>
-      <integer>800</integer>
     </dict>
   </dict>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
