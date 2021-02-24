@@ -13,11 +13,11 @@ of the license along with this Font Software. If this is not the case, go to
 /* use Lateef - Regular in .woff format */
 @font-face {
   font-family: LateefRW;
-  src: url(LateefAlpha-Regular.woff);
+  src: url(Lateef-Regular.woff2);
 }
 @font-face {
   font-family: LateefBW;
-  src: url(LateefAlpha-Bold.woff);
+  src: url(Lateef-Bold.woff2);
 }
 
 /* set body to use Lateef in .woff format */
