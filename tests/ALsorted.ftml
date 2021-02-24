@@ -8,9 +8,9 @@
 </comment>
     <fontscale>250</fontscale>
     <fontsrc label="LateefGR">url(../references/LateefGR-1.200.ttf)</fontsrc>
-    <fontsrc label="Reg-Gr">url(../results/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg-Gr">url(../results/web/Lateef-Regular.woff2)</fontsrc>
     <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)</fontsrc>
-    <fontsrc label="Bold-Gr">url(../results/Lateef-Bold.ttf)</fontsrc>
+    <fontsrc label="Bold-Gr">url(../results/web/Lateef-Bold.woff2)</fontsrc>
     <styles>
       <style feats="'cv44' 1" name="cv44_1"/>
       <style feats="'cv48' 1" name="cv48_1"/>
