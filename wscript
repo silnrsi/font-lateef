@@ -58,8 +58,6 @@ designspace(dspace_file,
          ),
     script = 'arab', 
     pdf = fret(params='-r -oi'),
-    # woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m "../source/' + FAMILY + '-WOFF-metadata.xml"'),
-    # woff = woff('web/${DS:FILENAME_BASE}.woff', cmd='psfwoffit -m "../source/' + FAMILY + '-WOFF-metadata.xml" --woff ${TGT} --woff2 web/${DS:FILENAME_BASE}.woff2 ${SRC}'),
     woff = woff('web/${DS:FILENAME_BASE}.woff',
         metadata=f'../source/{FAMILY}-WOFF-metadata.xml',
         cmd='psfwoffit -m ${SRC[1]} --woff ${TGT} --woff2 ${TGT}2 ${SRC[0]}'
