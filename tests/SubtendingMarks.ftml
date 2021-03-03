@@ -5,9 +5,10 @@
     <comment>Background colors: light orange: includes a character from Unicode version 13.0 or later; light red: a character is missing from UFO</comment>
     <fontscale>250</fontscale>
     <fontsrc label="Sch (inst)">local(Scheherazade)</fontsrc>
+    <fontsrc label="Lt-Gr">url(../results/web/LateefLight-Regular.woff2)</fontsrc>
     <fontsrc label="Reg-Gr">url(../results/web/Lateef-Regular.woff2)</fontsrc>
     <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)</fontsrc>
-    <fontsrc label="Bold-Gr">url(../results/web/Lateef-Bold.woff2)</fontsrc>
+    <fontsrc label="BkBld-Gr">url(../results/web/LateefBook-Bold.woff2)</fontsrc>
     <styles>
       <style feats="'cv80' 1" name="cv80_1"/>
       <style feats="'cv80' 1, 'cv82' 1" name="cv80_1_cv82_1"/>
@@ -40,7 +41,7 @@
       <style feats="'cv80' 2" lang="ur" name="ur_cv80_2"/>
     </styles>
     <title>Subtending Marks (auto)</title>
-    <widths string="19%"/>
+    <widths string="15%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">

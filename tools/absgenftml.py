@@ -9,6 +9,7 @@ import re
 from silfont.core import execute
 import silfont.ftml_builder as FB
 from palaso.unicode.ucd import get_ucd
+import os.path
 
 argspec = [
     ('ifont', {'help': 'Input UFO'}, {'type': 'infont'}),
@@ -20,6 +21,7 @@ argspec = [
     ('--rtl', {'help': 'enable right-to-left features', 'action': 'store_true'}, {}),
     ('--norendercheck', {'help': 'do not include the RenderingUnknown check', 'action': 'store_true'}, {}),
     ('-t', '--test', {'help': 'name of the test to generate', 'default': None}, {}),
+    ('--csvdata', {'help': 'name of csv file of input data', 'nargs': '?'}, {'type': 'filename', 'def': None}),
     ('-s','--fontsrc', {'help': 'font source: "url()" or "local()" optionally followed by "=label"', 'action': 'append'}, {}),
     ('--scale', {'help': 'percentage to scale rendered text (default 100)'}, {}),
     ('--ap', {'help': 'regular expression describing APs to examine', 'default': '.'}, {}),
@@ -81,7 +83,9 @@ def doit(args):
         return builder.char(uid).basename.lower()
 
     # Initialize FTML document:
-    test = args.test or "AllChars (NG)"  # Default to AllChars
+    # Default name for test: AllChars or something based on the csvdata file:
+    test = args.test or ('AllChars (NG)' if args.csvdata is not None else
+                         f'{os.path.splitext(os.path.basename(args.csvdata))[0]}.ftml')
     widths = None
     if args.width:
         try:
@@ -113,6 +117,17 @@ def doit(args):
         # else if any uid in uids has Unicode age >= ageToFlag, then set the test background color to ageColor
         elif max(map(lambda x: float(get_ucd(x, 'age')), uids)) >= ageToFlag:
             ftml.setBackground(ageColor)
+
+    if args.csvdata:
+        csvdata = args.csvdata
+        # We're going to get string data from external file:
+
+        next(csvdata.reader, None)  # Skip first line with headers in
+        for line in csvdata:  # Process remaining records in csvdata
+            word = line[0].strip()
+            comment = line[1]
+            language = line[2]
+
 
     if test.lower().startswith("allchars"):
         # all chars that should be in the font:
