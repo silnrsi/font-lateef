@@ -264,17 +264,15 @@ def doit(args):
         doLongTest = 'short' not in test.lower()
 
         # Representative base and diac chars:
+        lamlist = sorted(filter(lambda uid: get_ucd(uid, 'jg') == 'Lam', builder.uids()))
+        aleflist = sorted(filter(lambda uid: get_ucd(uid, 'jg') == 'Alef', builder.uids()))
         if doLongTest:
             repDiac = list(filter(lambda x: x in builder.uids(), (0x064E, 0x0650, 0x065E, 0x0670, 0x0616, 0x06E3, 0x08F0, 0x08F2)))
             repBase = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0628, 0x062B, 0x0647, 0x064A, 0x77F, 0x08AC)))
-            lamlist = list(filter(lambda x: x in builder.uids(), (0x0644, 0x06B5, 0x06B6, 0x06B7, 0x06B8, 0x076A, 0x08A6)))
-            aleflist = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0622, 0x0623, 0x0625, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774)))
             kasralist = list(filter(lambda x: x in builder.uids(), (0x0650, 0x064D)))
         else:
             repDiac = list(filter(lambda x: x in builder.uids(), (0x064E, 0x0650, 0x0654, 0x0670)))
             repBase = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0628)))
-            lamlist = list(filter(lambda x: x in builder.uids(), (0x0644, 0x06B5, 0x06B6, 0x06B7, 0x06B8, 0x076A, 0x08A6)))
-            aleflist = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0622, 0x0623, 0x0625, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774)))
             kasralist = list(filter(lambda x: x in builder.uids(), (0x0650,)))
 
         ftml.startTestGroup('Representative diacritics on all bases that take diacritics')
