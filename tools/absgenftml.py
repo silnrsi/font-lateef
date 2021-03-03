@@ -65,10 +65,7 @@ def joinGoupSortKey(uid:int):
 ageToFlag = 13.0
 ageColor = '#FFC8A0'      # light orange -- marks if there is a char from above Unicode version or later
 missingColor = '#FFE0E0'  # light red -- mark if a char is missing from UFO
-backgroundLegend = '''Background colors:
-    light orange: includes a character from above Unicode version or later;
-    light red: a character is missing from UFO
-'''
+backgroundLegend = f'Background colors: light orange: includes a character from Unicode version {ageToFlag} or later; light red: a character is missing from UFO'
 
 def doit(args):
     logger = args.logger

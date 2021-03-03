@@ -2,10 +2,7 @@
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
-    <comment>Background colors:
-    light orange: includes a character from above Unicode version or later;
-    light red: a character is missing from UFO
-</comment>
+    <comment>Background colors: light orange: includes a character from Unicode version 13.0 or later; light red: a character is missing from UFO</comment>
     <fontscale>250</fontscale>
     <fontsrc label="Sch (inst)">local(Scheherazade)</fontsrc>
     <fontsrc label="Reg-Gr">url(../results/web/Lateef-Regular.woff2)</fontsrc>
