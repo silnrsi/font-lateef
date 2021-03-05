@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamTahabove_alefWavyhamzabelow-ar" format="2">
   <advance width="975"/>
-  <anchor x="660" y="1170" name="diaA_1"/>
+  <anchor x="746" y="1748" name="diaA_1"/>
   <anchor x="109" y="1041" name="diaA_2"/>
-  <anchor x="701" y="-300" name="diaB_1"/>
+  <anchor x="701" y="-341" name="diaB_1"/>
   <anchor x="367" y="-733" name="diaB_2"/>
   <outline>
     <component base="lamTahabove-ar.init.preAlef" xOffset="576"/>

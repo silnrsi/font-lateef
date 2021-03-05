@@ -2,7 +2,7 @@
 <glyph name="lamThreedotsabove_alefThreeabove-ar.fina" format="2">
   <advance width="1239"/>
   <anchor x="902" y="1738" name="diaA_1"/>
-  <anchor x="371" y="1030" name="diaA_2"/>
+  <anchor x="371" y="1300" name="diaA_2"/>
   <anchor x="964" y="-251" name="diaB_1"/>
   <anchor x="499" y="-312" name="diaB_2"/>
   <outline>

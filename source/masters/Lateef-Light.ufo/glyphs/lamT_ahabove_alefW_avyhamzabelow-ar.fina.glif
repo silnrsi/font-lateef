@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamTahabove_alefWavyhamzabelow-ar.fina" format="2">
   <advance width="1052"/>
-  <anchor x="723" y="1178" name="diaA_1"/>
+  <anchor x="713" y="1658" name="diaA_1"/>
   <anchor x="150" y="1000" name="diaA_2"/>
   <anchor x="777" y="-251" name="diaB_1"/>
   <anchor x="356" y="-719" name="diaB_2"/>
