@@ -60,23 +60,6 @@
             <kerning/>
         </instance>
 
-        <!-- Lateef Light - Dummy 350 (just to check interpolation between the neighbouring 300 & 400 masters) -->
-        <instance       familyname="Lateef Light Dummy"
-                              name="Lateef Light Dummy Regular"
-                stylemapfamilyname="Lateef Light Dummy"
-                         stylename="Regular"
-                 stylemapstylename="regular"
-                postscriptfontname="LateefLightDummy-Regular"
-                filename="instances/LateefLightDummy-Regular.ufo">
-            <location>
-                <dimension name="weight" xvalue="350" />
-                <dimension name="width" xvalue="100" />
-                <dimension name="custom" xvalue="0" />
-            </location>
-            <info/>
-            <kerning/>
-        </instance>
-
         <!-- Lateef - Regular -->
         <instance       familyname="Lateef"
                               name="Lateef Regular"

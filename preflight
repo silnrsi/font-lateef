@@ -23,7 +23,7 @@ psfsetpsnames -q -p checkfix=none -i source/glyph_data.csv source/masters/*-Regu
 
 echo
 echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters -p scrlevel=w source/lateef-RB.designspace
+psfsyncmasters -p scrlevel=w source/lateef.designspace
 
 
 echo

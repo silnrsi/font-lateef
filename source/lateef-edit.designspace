@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+<!-- 
+    Same content as lateef.designspace but with an additional instance called
+    "Lateef Light - Dummy" used to verify interpolation compatibility between Light and Regular masters.
+-->
+<axes>
+        <axis default="400" maximum="800" minimum="300" name="weight" tag="wght">
+            <map input="300" output="300" />
+            <map input="800" output="800" />
+            <labelname xml:lang="en">Weight</labelname>
+        </axis>
+        <axis default="100" maximum="100" minimum="100" name="width" tag="wdth">
+            <map input="100" output="100" />
+            <labelname xml:lang="en">Width</labelname>
+        </axis>
+        <axis default="0" maximum="0" minimum="0" name="custom" tag="XXXX">
+            <map input="0" output="0" />
+            <labelname xml:lang="en">Custom</labelname>
+        </axis>
+    </axes>
+    <sources>
+        <source familyname="Lateef" filename="masters/Lateef-Light.ufo" name="Lateef-Light" stylename="Light">
+            <location>
+                <dimension name="weight" xvalue="300" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="Lateef" filename="masters/Lateef-Regular.ufo" name="Lateef-Regular" stylename="Regular">
+            <lib copy="1" />
+            <groups copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+        </source>
+        <source familyname="Lateef" filename="masters/Lateef-Black.ufo" name="Lateef-Black" stylename="Black">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <!-- Lateef Light - Regular -->
+        <instance       familyname="Lateef Light"
+                              name="Lateef Light Regular"
+                stylemapfamilyname="Lateef Light"
+                         stylename="Regular"
+                 stylemapstylename="regular"
+                postscriptfontname="LateefLight-Regular"
+                filename="instances/LateefLight-Regular.ufo">
+            <location>
+                <dimension name="weight" xvalue="300" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+            <info/>
+            <kerning/>
+        </instance>
+
+        <!-- Lateef Light - Dummy 350 (just to check interpolation between the neighbouring 300 & 400 masters) -->
+        <instance       familyname="Lateef Light Dummy"
+                              name="Lateef Light Dummy Regular"
+                stylemapfamilyname="Lateef Light Dummy"
+                         stylename="Regular"
+                 stylemapstylename="regular"
+                postscriptfontname="LateefLightDummy-Regular"
+                filename="instances/LateefLightDummy-Regular.ufo">
+            <location>
+                <dimension name="weight" xvalue="350" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+            <info/>
+            <kerning/>
+        </instance>
+
+        <!-- Lateef - Regular -->
+        <instance       familyname="Lateef"
+                              name="Lateef Regular"
+                stylemapfamilyname="Lateef"
+                         stylename="Regular"
+                 stylemapstylename="regular"
+                postscriptfontname="Lateef-Regular"
+                filename="instances/Lateef-Regular.ufo">
+            <location>
+                <dimension name="weight" xvalue="400" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+            <info/>
+            <kerning/>
+        </instance>
+
+        <!-- Lateef Book - Regular -->
+        <instance       familyname="Lateef Book"
+                              name="Lateef Book Regular"
+                stylemapfamilyname="Lateef Book"
+                         stylename="Regular"
+                 stylemapstylename="regular"
+                postscriptfontname="LateefBook-Regular"
+                filename="instances/LateefBook-Regular.ufo">
+            <location>
+                <dimension name="weight" xvalue="500" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+            <info/>
+            <kerning/>
+        </instance>
+
+        <!-- Lateef Light - Bold -->
+        <instance       familyname="Lateef Light"
+                              name="Lateef Light Bold"
+                stylemapfamilyname="Lateef Light"
+                         stylename="Bold"
+                 stylemapstylename="bold"
+                postscriptfontname="LateefLight-Bold"
+                filename="instances/LateefLight-Bold.ufo">
+            <location>
+                <dimension name="weight" xvalue="600" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+            <info/>
+            <kerning/>
+        </instance>
+
+        <!-- Lateef - Bold -->
+        <instance       familyname="Lateef"
+                              name="Lateef Bold"
+                stylemapfamilyname="Lateef"
+                         stylename="Bold"
+                 stylemapstylename="bold"
+                postscriptfontname="Lateef-Bold"
+                filename="instances/Lateef-Bold.ufo">
+            <location>
+                <dimension name="weight" xvalue="700" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+            <info/>
+            <kerning/>
+        </instance>
+
+        <!-- Lateef Book - Bold -->
+        <instance       familyname="Lateef Book"
+                              name="Lateef Book Bold"
+                stylemapfamilyname="Lateef Book"
+                         stylename="Bold"
+                 stylemapstylename="bold"
+                postscriptfontname="LateefBook-Bold"
+                filename="instances/LateefBook-Bold.ufo">
+            <location>
+                <dimension name="weight" xvalue="800" />
+                <dimension name="width" xvalue="100" />
+                <dimension name="custom" xvalue="0" />
+            </location>
+            <info/>
+            <kerning/>
+        </instance>
+    </instances>
+</designspace>
