@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ghainThreedots-ar.fina" format="2">
   <advance width="756"/>
-  <anchor x="369" y="701" name="diaA"/>
+  <anchor x="297" y="1359" name="diaA"/>
   <anchor x="245" y="-780" name="diaB"/>
   <outline>
     <component base="ain-ar.fina"/>

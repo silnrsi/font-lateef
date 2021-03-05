@@ -2,7 +2,7 @@
 <glyph name="ttehVabove-ar.medi" format="2">
   <advance width="440"/>
   <anchor x="52" y="599" name="alefUnused"/>
-  <anchor x="207" y="1348" name="diaA"/>
+  <anchor x="207" y="1406" name="diaA"/>
   <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pehVabove-ar.init" format="2">
   <advance width="353"/>
-  <anchor x="105" y="700" name="diaA"/>
+  <anchor x="204" y="1040" name="diaA"/>
   <anchor x="173" y="-701" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_smallV" xOffset="181" yOffset="844"/>
     <component base="_dot3d" xOffset="199" yOffset="-356"/>
+    <component base="_smallV" xOffset="181" yOffset="842"/>
   </outline>
 </glyph>

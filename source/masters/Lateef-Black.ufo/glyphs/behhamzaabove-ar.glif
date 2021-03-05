@@ -3,12 +3,12 @@
   <advance width="1204"/>
   <unicode hex="08A1"/>
   <anchor x="272" y="690" name="alefUnused"/>
-  <anchor x="600" y="700" name="diaA"/>
-  <anchor x="260" y="-200" name="diaB"/>
+  <anchor x="618" y="646" name="diaA"/>
+  <anchor x="546" y="-417" name="diaB"/>
   <outline>
     <component base="behDotless-ar"/>
-    <component base="_hamza" xOffset="632" yOffset="653"/>
-    <component base="_dot1" xOffset="604" yOffset="-250"/>
+    <component base="_dot1" xOffset="603" yOffset="-250"/>
+    <component base="_hamza" xOffset="631" yOffset="651"/>
   </outline>
   <lib>
     <dict>

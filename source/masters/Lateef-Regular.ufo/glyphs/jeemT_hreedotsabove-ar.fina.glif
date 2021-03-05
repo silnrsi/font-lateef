@@ -2,12 +2,12 @@
 <glyph name="jeemThreedotsabove-ar.fina" format="2">
   <advance width="889"/>
   <anchor x="214" y="742" name="alefUnused"/>
-  <anchor x="469" y="745" name="diaA"/>
+  <anchor x="430" y="1187" name="diaA"/>
   <anchor x="202" y="-724" name="diaB"/>
   <outline>
     <component base="hah-ar.fina"/>
-    <component base="_dot3u" xOffset="486" yOffset="899"/>
     <component base="_dot1" xOffset="444" yOffset="-202"/>
+    <component base="_dot3u" xOffset="486" yOffset="898"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ghainThreedots-ar.init" format="2">
   <advance width="800"/>
-  <anchor x="397" y="930" name="diaA"/>
+  <anchor x="363" y="1594" name="diaA"/>
   <anchor x="200" y="-200" name="diaB"/>
   <outline>
     <component base="ain-ar.init"/>
-    <component base="_dot1_dot3u" xOffset="420" yOffset="1469"/>
+    <component base="_dot1_dot3u" xOffset="421" yOffset="1467"/>
   </outline>
   <lib>
     <dict>

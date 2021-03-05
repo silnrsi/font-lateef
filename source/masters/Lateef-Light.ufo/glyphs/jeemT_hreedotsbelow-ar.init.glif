@@ -3,10 +3,10 @@
   <advance width="825"/>
   <anchor x="214" y="742" name="alefUnused"/>
   <anchor x="469" y="745" name="diaA"/>
-  <anchor x="202" y="-200" name="diaB"/>
+  <anchor x="287" y="-825" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>
-    <component base="_dot1_dot3d" xOffset="330" yOffset="-286"/>
+    <component base="_dot1_dot3d" xOffset="333" yOffset="-286"/>
   </outline>
   <lib>
     <dict>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behhamzaabove-ar.init" format="2">
   <advance width="353"/>
-  <anchor x="155" y="700" name="diaA"/>
-  <anchor x="170" y="-200" name="diaB"/>
+  <anchor x="208" y="835" name="diaA"/>
+  <anchor x="144" y="-417" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_hamza" xOffset="222" yOffset="742"/>
-    <component base="_dot1" xOffset="199" yOffset="-250"/>
+    <component base="_hamza" xOffset="221" yOffset="743"/>
+    <component base="_dot1" xOffset="201" yOffset="-250"/>
   </outline>
   <lib>
     <dict>

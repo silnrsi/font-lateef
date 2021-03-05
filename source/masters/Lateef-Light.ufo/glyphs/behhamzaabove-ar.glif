@@ -3,15 +3,26 @@
   <advance width="1204"/>
   <unicode hex="08A1"/>
   <anchor x="272" y="690" name="alefUnused"/>
-  <anchor x="600" y="700" name="diaA"/>
-  <anchor x="260" y="-200" name="diaB"/>
+  <anchor x="619" y="715" name="diaA"/>
+  <anchor x="547" y="-417" name="diaB"/>
   <outline>
     <component base="behDotless-ar"/>
-    <component base="_hamza" xOffset="632" yOffset="593"/>
     <component base="_dot1" xOffset="604" yOffset="-250"/>
+    <component base="_hamza" xOffset="632" yOffset="493"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_dot1</string>
+        </dict>
+      </array>
       <key>public.markColor</key>
       <string>0.98,0.36,0.67,1</string>
     </dict>

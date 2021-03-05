@@ -45,7 +45,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1354</string>
+  <string>1342</string>
   <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
   <dict>
     <key>XXXX</key>
@@ -83,8 +83,8 @@
 [/gaf-ar.fina/gaf-ar.medi/gafRing-ar.fina/gafRing-ar.medi/gafTwodotsbelow-ar.fina/gafTwodotsbelow-ar.medi/gueh-ar.fina/gueh-ar.medi/_gafBar_dot2h/_gafBar_dot3u/_gafBarShort_dot2h/space/space/space/_gafBarCenter 
 /space/gaf-ar/gaf-ar.fina/gaf-ar.medi/gaf-ar.init/gafRing-ar/gafRing-ar.fina/gafRing-ar.medi/gafRing-ar.init/gafThreedots-ar/gafThreedots-ar.fina/gafThreedots-ar.medi/gafThreedots-ar.init/gafTwodotsbelow-ar/gafTwodotsbelow-ar.fina/gafTwodotsbelow-ar.medi/gafTwodotsbelow-ar.init/space 
 /space/space/space/space/_gafBar_dot2h/space/space/space/space/_gafBar_dot3u/space/space/space/space/_gafBarShort_dot2h/space/space/space/space/_gafBarShort_dot3u/space/space/space/_gafBarShort/space/space/space/_gafBarCenter</string>
-    <string>/_noon</string>
-    <string>/_meem</string>
+    <string>/_meem/space/space/space/_noon</string>
+    <string>/fehDotbelow-ar/fehDotbelow-ar.fina/fehThreedotsbelow-ar/fehThreedotsbelow-ar.fina</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
@@ -1415,76 +1415,100 @@
     <string>zero-ar</string>
     <string>zero-ar.medium</string>
     <string>zero-ar.small</string>
+    <string>zero-ar.tnum</string>
     <string>one-ar</string>
     <string>one-ar.medium</string>
     <string>one-ar.small</string>
+    <string>one-ar.tnum</string>
     <string>two-ar</string>
     <string>two-ar.medium</string>
     <string>two-ar.small</string>
+    <string>two-ar.tnum</string>
     <string>three-ar</string>
     <string>three-ar.medium</string>
     <string>three-ar.small</string>
+    <string>three-ar.tnum</string>
     <string>four-ar</string>
     <string>four-ar.medium</string>
     <string>four-ar.small</string>
+    <string>four-ar.tnum</string>
     <string>four.dnom</string>
     <string>five-ar</string>
     <string>five-ar.medium</string>
     <string>five-ar.small</string>
+    <string>five-ar.tnum</string>
     <string>six-ar</string>
     <string>six-ar.medium</string>
     <string>six-ar.small</string>
+    <string>six-ar.tnum</string>
     <string>seven-ar</string>
     <string>seven-ar.medium</string>
     <string>seven-ar.small</string>
+    <string>seven-ar.tnum</string>
     <string>eight-ar</string>
     <string>eight-ar.medium</string>
     <string>eight-ar.small</string>
+    <string>eight-ar.tnum</string>
     <string>nine-ar</string>
     <string>nine-ar.medium</string>
     <string>nine-ar.small</string>
+    <string>nine-ar.tnum</string>
     <string>zero-persian</string>
     <string>zero-persian.medium</string>
     <string>zero-persian.small</string>
+    <string>zero-persian.tnum</string>
     <string>one-persian</string>
     <string>one-persian.medium</string>
     <string>one-persian.small</string>
+    <string>one-persian.tnum</string>
     <string>two-persian</string>
     <string>two-persian.medium</string>
     <string>two-persian.small</string>
+    <string>two-persian.tnum</string>
     <string>three-persian</string>
     <string>three-persian.medium</string>
     <string>three-persian.small</string>
+    <string>three-persian.tnum</string>
     <string>four-persian</string>
     <string>four-persian.medium</string>
     <string>four-persian.small</string>
+    <string>four-persian.tnum</string>
     <string>four-persian.urdu</string>
     <string>four-persian.urdu.medium</string>
     <string>four-persian.urdu.small</string>
+    <string>four-persian.urdu.tnum</string>
     <string>four-persian.roh</string>
     <string>four-persian.roh.medium</string>
     <string>four-persian.roh.small</string>
+    <string>four-persian.roh.tnum</string>
     <string>five-persian</string>
     <string>five-persian.medium</string>
     <string>five-persian.small</string>
+    <string>five-persian.tnum</string>
     <string>six-persian</string>
     <string>six-persian.medium</string>
     <string>six-persian.small</string>
+    <string>six-persian.tnum</string>
     <string>six-persian.urdu</string>
     <string>six-persian.urdu.medium</string>
     <string>six-persian.urdu.small</string>
+    <string>six-persian.urdu.tnum</string>
     <string>seven-persian</string>
     <string>seven-persian.medium</string>
     <string>seven-persian.small</string>
+    <string>seven-persian.tnum</string>
     <string>seven-persian.urdu</string>
     <string>seven-persian.urdu.medium</string>
     <string>seven-persian.urdu.small</string>
+    <string>seven-persian.urdu.tnum</string>
     <string>eight-persian</string>
     <string>eight-persian.medium</string>
     <string>eight-persian.small</string>
+    <string>eight-persian.tnum</string>
     <string>nine-persian</string>
     <string>nine-persian.medium</string>
     <string>nine-persian.small</string>
+    <string>nine-persian.tnum</string>
     <string>fullstop-ar</string>
     <string>comma-ar</string>
     <string>comma-ar.downward</string>
@@ -3062,76 +3086,100 @@
     <string>zero-ar</string>
     <string>zero-ar.medium</string>
     <string>zero-ar.small</string>
+    <string>zero-ar.tnum</string>
     <string>one-ar</string>
     <string>one-ar.medium</string>
     <string>one-ar.small</string>
+    <string>one-ar.tnum</string>
     <string>two-ar</string>
     <string>two-ar.medium</string>
     <string>two-ar.small</string>
+    <string>two-ar.tnum</string>
     <string>three-ar</string>
     <string>three-ar.medium</string>
     <string>three-ar.small</string>
+    <string>three-ar.tnum</string>
     <string>four-ar</string>
     <string>four-ar.medium</string>
     <string>four-ar.small</string>
+    <string>four-ar.tnum</string>
     <string>four.dnom</string>
     <string>five-ar</string>
     <string>five-ar.medium</string>
     <string>five-ar.small</string>
+    <string>five-ar.tnum</string>
     <string>six-ar</string>
     <string>six-ar.medium</string>
     <string>six-ar.small</string>
+    <string>six-ar.tnum</string>
     <string>seven-ar</string>
     <string>seven-ar.medium</string>
     <string>seven-ar.small</string>
+    <string>seven-ar.tnum</string>
     <string>eight-ar</string>
     <string>eight-ar.medium</string>
     <string>eight-ar.small</string>
+    <string>eight-ar.tnum</string>
     <string>nine-ar</string>
     <string>nine-ar.medium</string>
     <string>nine-ar.small</string>
+    <string>nine-ar.tnum</string>
     <string>zero-persian</string>
     <string>zero-persian.medium</string>
     <string>zero-persian.small</string>
+    <string>zero-persian.tnum</string>
     <string>one-persian</string>
     <string>one-persian.medium</string>
     <string>one-persian.small</string>
+    <string>one-persian.tnum</string>
     <string>two-persian</string>
     <string>two-persian.medium</string>
     <string>two-persian.small</string>
+    <string>two-persian.tnum</string>
     <string>three-persian</string>
     <string>three-persian.medium</string>
     <string>three-persian.small</string>
+    <string>three-persian.tnum</string>
     <string>four-persian</string>
     <string>four-persian.medium</string>
     <string>four-persian.small</string>
+    <string>four-persian.tnum</string>
     <string>four-persian.urdu</string>
     <string>four-persian.urdu.medium</string>
     <string>four-persian.urdu.small</string>
+    <string>four-persian.urdu.tnum</string>
     <string>four-persian.roh</string>
     <string>four-persian.roh.medium</string>
     <string>four-persian.roh.small</string>
+    <string>four-persian.roh.tnum</string>
     <string>five-persian</string>
     <string>five-persian.medium</string>
     <string>five-persian.small</string>
+    <string>five-persian.tnum</string>
     <string>six-persian</string>
     <string>six-persian.medium</string>
     <string>six-persian.small</string>
+    <string>six-persian.tnum</string>
     <string>six-persian.urdu</string>
     <string>six-persian.urdu.medium</string>
     <string>six-persian.urdu.small</string>
+    <string>six-persian.urdu.tnum</string>
     <string>seven-persian</string>
     <string>seven-persian.medium</string>
     <string>seven-persian.small</string>
+    <string>seven-persian.tnum</string>
     <string>seven-persian.urdu</string>
     <string>seven-persian.urdu.medium</string>
     <string>seven-persian.urdu.small</string>
+    <string>seven-persian.urdu.tnum</string>
     <string>eight-persian</string>
     <string>eight-persian.medium</string>
     <string>eight-persian.small</string>
+    <string>eight-persian.tnum</string>
     <string>nine-persian</string>
     <string>nine-persian.medium</string>
     <string>nine-persian.small</string>
+    <string>nine-persian.tnum</string>
     <string>fullstop-ar</string>
     <string>comma-ar</string>
     <string>comma-ar.downward</string>
@@ -3870,12 +3918,16 @@
     <string>uni0668.medium</string>
     <key>eight-ar.small</key>
     <string>uni0668.small</string>
+    <key>eight-ar.tnum</key>
+    <string>uni0668.tnum</string>
     <key>eight-persian</key>
     <string>uni06F8</string>
     <key>eight-persian.medium</key>
     <string>uni06F8.medium</string>
     <key>eight-persian.small</key>
     <string>uni06F8.small</string>
+    <key>eight-persian.tnum</key>
+    <string>uni06F8.tnum</string>
     <key>emquad</key>
     <string>uni2001</string>
     <key>emspace</key>
@@ -4006,12 +4058,16 @@
     <string>uni0665.medium</string>
     <key>five-ar.small</key>
     <string>uni0665.small</string>
+    <key>five-ar.tnum</key>
+    <string>uni0665.tnum</string>
     <key>five-persian</key>
     <string>uni06F5</string>
     <key>five-persian.medium</key>
     <string>uni06F5.medium</string>
     <key>five-persian.small</key>
     <string>uni06F5.small</string>
+    <key>five-persian.tnum</key>
+    <string>uni06F5.tnum</string>
     <key>footnotemarker-ar</key>
     <string>uni0602</string>
     <key>footnotemarker-ar.2</key>
@@ -4022,6 +4078,8 @@
     <string>uni0664.medium</string>
     <key>four-ar.small</key>
     <string>uni0664.small</string>
+    <key>four-ar.tnum</key>
+    <string>uni0664.tnum</string>
     <key>four-persian</key>
     <string>uni06F4</string>
     <key>four-persian.medium</key>
@@ -4032,14 +4090,20 @@
     <string>uni06F4.roh.medium</string>
     <key>four-persian.roh.small</key>
     <string>uni06F4.roh.small</string>
+    <key>four-persian.roh.tnum</key>
+    <string>uni06F4.roh.tnum</string>
     <key>four-persian.small</key>
     <string>uni06F4.small</string>
+    <key>four-persian.tnum</key>
+    <string>uni06F4.tnum</string>
     <key>four-persian.urdu</key>
     <string>uni06F4.urdu</string>
     <key>four-persian.urdu.medium</key>
     <string>uni06F4.urdu.medium</string>
     <key>four-persian.urdu.small</key>
     <string>uni06F4.urdu.small</string>
+    <key>four-persian.urdu.tnum</key>
+    <string>uni06F4.urdu.tnum</string>
     <key>four.dnom</key>
     <string>uni0664.dnom</string>
     <key>fourperemspace</key>
@@ -4924,12 +4988,16 @@
     <string>uni0669.medium</string>
     <key>nine-ar.small</key>
     <string>uni0669.small</string>
+    <key>nine-ar.tnum</key>
+    <string>uni0669.tnum</string>
     <key>nine-persian</key>
     <string>uni06F9</string>
     <key>nine-persian.medium</key>
     <string>uni06F9.medium</string>
     <key>nine-persian.small</key>
     <string>uni06F9.small</string>
+    <key>nine-persian.tnum</key>
+    <string>uni06F9.tnum</string>
     <key>nonbreakinghyphen</key>
     <string>uni2011</string>
     <key>noon-ar</key>
@@ -5044,12 +5112,16 @@
     <string>uni0661.medium</string>
     <key>one-ar.small</key>
     <string>uni0661.small</string>
+    <key>one-ar.tnum</key>
+    <string>uni0661.tnum</string>
     <key>one-persian</key>
     <string>uni06F1</string>
     <key>one-persian.medium</key>
     <string>uni06F1.medium</string>
     <key>one-persian.small</key>
     <string>uni06F1.small</string>
+    <key>one-persian.tnum</key>
+    <string>uni06F1.tnum</string>
     <key>opendammatan-ar</key>
     <string>uni08F1</string>
     <key>openfathatan-ar</key>
@@ -5406,18 +5478,24 @@
     <string>uni0667.medium</string>
     <key>seven-ar.small</key>
     <string>uni0667.small</string>
+    <key>seven-ar.tnum</key>
+    <string>uni0667.tnum</string>
     <key>seven-persian</key>
     <string>uni06F7</string>
     <key>seven-persian.medium</key>
     <string>uni06F7.medium</string>
     <key>seven-persian.small</key>
     <string>uni06F7.small</string>
+    <key>seven-persian.tnum</key>
+    <string>uni06F7.tnum</string>
     <key>seven-persian.urdu</key>
     <string>uni06F7.urdu</string>
     <key>seven-persian.urdu.medium</key>
     <string>uni06F7.urdu.medium</string>
     <key>seven-persian.urdu.small</key>
     <string>uni06F7.urdu.small</string>
+    <key>seven-persian.urdu.tnum</key>
+    <string>uni06F7.urdu.tnum</string>
     <key>shadda-ar</key>
     <string>uni0651</string>
     <key>shadda_alef-ar</key>
@@ -5472,18 +5550,24 @@
     <string>uni0666.medium</string>
     <key>six-ar.small</key>
     <string>uni0666.small</string>
+    <key>six-ar.tnum</key>
+    <string>uni0666.tnum</string>
     <key>six-persian</key>
     <string>uni06F6</string>
     <key>six-persian.medium</key>
     <string>uni06F6.medium</string>
     <key>six-persian.small</key>
     <string>uni06F6.small</string>
+    <key>six-persian.tnum</key>
+    <string>uni06F6.tnum</string>
     <key>six-persian.urdu</key>
     <string>uni06F6.urdu</string>
     <key>six-persian.urdu.medium</key>
     <string>uni06F6.urdu.medium</string>
     <key>six-persian.urdu.small</key>
     <string>uni06F6.urdu.small</string>
+    <key>six-persian.urdu.tnum</key>
+    <string>uni06F6.urdu.tnum</string>
     <key>sixperemspace</key>
     <string>uni2006</string>
     <key>slashlongcomb</key>
@@ -5648,12 +5732,16 @@
     <string>uni0663.medium</string>
     <key>three-ar.small</key>
     <string>uni0663.small</string>
+    <key>three-ar.tnum</key>
+    <string>uni0663.tnum</string>
     <key>three-persian</key>
     <string>uni06F3</string>
     <key>three-persian.medium</key>
     <string>uni06F3.medium</string>
     <key>three-persian.small</key>
     <string>uni06F3.small</string>
+    <key>three-persian.tnum</key>
+    <string>uni06F3.tnum</string>
     <key>threedots-ar</key>
     <string>uni061E</string>
     <key>threedotsabove-ar</key>
@@ -5706,12 +5794,16 @@
     <string>uni0662.medium</string>
     <key>two-ar.small</key>
     <string>uni0662.small</string>
+    <key>two-ar.tnum</key>
+    <string>uni0662.tnum</string>
     <key>two-persian</key>
     <string>uni06F2</string>
     <key>two-persian.medium</key>
     <string>uni06F2.medium</string>
     <key>two-persian.small</key>
     <string>uni06F2.small</string>
+    <key>two-persian.tnum</key>
+    <string>uni06F2.tnum</string>
     <key>u-ar</key>
     <string>uni06C7</string>
     <key>u-ar.fina</key>
@@ -5984,12 +6076,16 @@
     <string>uni0660.medium</string>
     <key>zero-ar.small</key>
     <string>uni0660.small</string>
+    <key>zero-ar.tnum</key>
+    <string>uni0660.tnum</string>
     <key>zero-persian</key>
     <string>uni06F0</string>
     <key>zero-persian.medium</key>
     <string>uni06F0.medium</string>
     <key>zero-persian.small</key>
     <string>uni06F0.small</string>
+    <key>zero-persian.tnum</key>
+    <string>uni06F0.tnum</string>
     <key>zeroWidthNoBreakSpace</key>
     <string>uniFEFF</string>
     <key>zerowidthjoiner</key>
