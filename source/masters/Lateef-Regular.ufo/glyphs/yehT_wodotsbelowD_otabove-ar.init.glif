@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehTwodotsbelowDotabove-ar.init" format="2">
   <advance width="353"/>
-  <anchor x="155" y="700" name="diaA"/>
-  <anchor x="170" y="-200" name="diaB"/>
+  <anchor x="158" y="955" name="diaA"/>
+  <anchor x="182" y="-437" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_dot1" xOffset="206" yOffset="710"/>
     <component base="_dot2h" xOffset="199" yOffset="-250"/>
+    <component base="_dot1" xOffset="208" yOffset="709"/>
   </outline>
   <lib>
     <dict>

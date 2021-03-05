@@ -2,7 +2,7 @@
 <glyph name="meemThreedotsabove-ar.sindhi" format="2">
   <advance width="854"/>
   <anchor x="306" y="519" name="alefUnused"/>
-  <anchor x="538" y="907" name="diaA"/>
+  <anchor x="567" y="1137" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="meem-ar.sindhi"/>
@@ -10,6 +10,17 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_dot3u</string>
+        </dict>
+      </array>
       <key>public.markColor</key>
       <string>0.98,0.36,0.67,1</string>
     </dict>

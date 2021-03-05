@@ -2,12 +2,12 @@
 <glyph name="yehTwodotsbelowDotabove-ar.fina" format="2">
   <advance width="956"/>
   <anchor x="295" y="329" name="alefUnused"/>
-  <anchor x="390" y="510" name="diaA"/>
-  <anchor x="200" y="-575" name="diaB"/>
+  <anchor x="425" y="660" name="diaA"/>
+  <anchor x="394" y="-903" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots.fina"/>
-    <component base="_dot1" xOffset="476" yOffset="416"/>
     <component base="_dot2h" xOffset="351" yOffset="-680"/>
+    <component base="_dot1" xOffset="475" yOffset="414"/>
   </outline>
   <lib>
     <dict>

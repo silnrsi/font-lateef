@@ -3,11 +3,11 @@
   <advance width="440"/>
   <anchor x="52" y="599" name="alefUnused"/>
   <anchor x="215" y="700" name="diaA"/>
-  <anchor x="150" y="-200" name="diaB"/>
+  <anchor x="182" y="-445" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="_dot1" xOffset="212" yOffset="673"/>
     <component base="_dot2h" xOffset="203" yOffset="-250"/>
+    <component base="_dot1" xOffset="212" yOffset="673"/>
   </outline>
   <lib>
     <dict>

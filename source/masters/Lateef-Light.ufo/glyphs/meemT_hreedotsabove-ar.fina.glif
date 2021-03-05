@@ -2,7 +2,7 @@
 <glyph name="meemThreedotsabove-ar.fina" format="2">
   <advance width="535"/>
   <anchor x="185" y="532" name="alefUnused"/>
-  <anchor x="377" y="535" name="diaA"/>
+  <anchor x="274" y="919" name="diaA"/>
   <anchor x="130" y="-636" name="diaB"/>
   <outline>
     <component base="meem-ar.fina"/>
@@ -10,6 +10,17 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_dot3u</string>
+        </dict>
+      </array>
       <key>public.markColor</key>
       <string>0.98,0.36,0.67,1</string>
     </dict>

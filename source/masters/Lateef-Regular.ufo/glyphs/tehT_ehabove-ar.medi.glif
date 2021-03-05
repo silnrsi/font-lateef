@@ -2,11 +2,11 @@
 <glyph name="tehTehabove-ar.medi" format="2">
   <advance width="440"/>
   <anchor x="52" y="599" name="alefUnused"/>
-  <anchor x="215" y="700" name="diaA"/>
+  <anchor x="222" y="924" name="diaA"/>
   <anchor x="190" y="-200" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="_teh" xOffset="212" yOffset="353"/>
+    <component base="_teh" xOffset="213" yOffset="352"/>
   </outline>
   <lib>
     <dict>

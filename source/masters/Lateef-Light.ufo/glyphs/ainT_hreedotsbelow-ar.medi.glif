@@ -2,13 +2,24 @@
 <glyph name="ainThreedotsbelow-ar.medi" format="2">
   <advance width="709"/>
   <anchor x="313" y="700" name="diaA"/>
-  <anchor x="200" y="-200" name="diaB"/>
+  <anchor x="323" y="-583" name="diaB"/>
   <outline>
     <component base="ain-ar.medi"/>
-    <component base="_dot3d" xOffset="374" yOffset="-286"/>
+    <component base="_dot3d" xOffset="376" yOffset="-283"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_dot3d</string>
+        </dict>
+      </array>
       <key>public.markColor</key>
       <string>0.98,0.36,0.67,1</string>
     </dict>

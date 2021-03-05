@@ -2,10 +2,10 @@
 <glyph name="ainThreedotsbelow-ar.medi" format="2">
   <advance width="709"/>
   <anchor x="313" y="700" name="diaA"/>
-  <anchor x="200" y="-200" name="diaB"/>
+  <anchor x="319" y="-637" name="diaB"/>
   <outline>
     <component base="ain-ar.medi"/>
-    <component base="_dot3d" xOffset="374" yOffset="-336"/>
+    <component base="_dot3d" xOffset="372" yOffset="-337"/>
   </outline>
   <lib>
     <dict>

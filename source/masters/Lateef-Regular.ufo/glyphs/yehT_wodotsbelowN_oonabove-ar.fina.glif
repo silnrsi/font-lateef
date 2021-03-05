@@ -3,7 +3,7 @@
   <advance width="956"/>
   <anchor x="295" y="329" name="alefUnused"/>
   <anchor x="476" y="792" name="diaA"/>
-  <anchor x="200" y="-575" name="diaB"/>
+  <anchor x="394" y="-903" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots.fina"/>
     <component base="_noon" xOffset="476" yOffset="-731"/>

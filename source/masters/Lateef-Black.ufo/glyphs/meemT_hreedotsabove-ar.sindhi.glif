@@ -2,11 +2,11 @@
 <glyph name="meemThreedotsabove-ar.sindhi" format="2">
   <advance width="874"/>
   <anchor x="306" y="519" name="alefUnused"/>
-  <anchor x="538" y="907" name="diaA"/>
+  <anchor x="566" y="1096" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="meem-ar.sindhi"/>
-    <component base="_dot3u" xOffset="625" yOffset="895"/>
+    <component base="_dot3u" xOffset="624" yOffset="891"/>
   </outline>
   <lib>
     <dict>

@@ -3,7 +3,7 @@
   <advance width="1114"/>
   <anchor x="165" y="599" name="alefUnused"/>
   <anchor x="522" y="1045" name="diaA"/>
-  <anchor x="300" y="-202" name="diaB"/>
+  <anchor x="300" y="-200" name="diaB"/>
   <outline>
     <component base="sad-ar.medi"/>
     <component base="_dot3u" xOffset="536" yOffset="742"/>

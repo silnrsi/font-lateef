@@ -2,10 +2,10 @@
 <glyph name="kafDotbelow-ar.medi" format="2">
   <advance width="949"/>
   <anchor x="170" y="1020" name="diaA"/>
-  <anchor x="220" y="-200" name="diaB"/>
+  <anchor x="142" y="-390" name="diaB"/>
   <outline>
     <component base="kaf-ar.medi"/>
-    <component base="_dot1" xOffset="201" yOffset="-224"/>
+    <component base="_dot1" xOffset="199" yOffset="-223"/>
   </outline>
   <lib>
     <dict>

@@ -2,12 +2,12 @@
 <glyph name="yehTwodotsbelowHamzaabove-ar.fina" format="2">
   <advance width="956"/>
   <anchor x="295" y="329" name="alefUnused"/>
-  <anchor x="390" y="510" name="diaA"/>
-  <anchor x="200" y="-635" name="diaB"/>
+  <anchor x="479" y="442" name="diaA"/>
+  <anchor x="394" y="-903" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots.fina"/>
-    <component base="_hamza" xOffset="492" yOffset="448"/>
     <component base="_dot2h" xOffset="351" yOffset="-770"/>
+    <component base="_hamza" xOffset="492" yOffset="447"/>
   </outline>
   <lib>
     <dict>

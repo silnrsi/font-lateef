@@ -2,11 +2,11 @@
 <glyph name="qafAfricanThreedotsabove-ar.fina" format="2">
   <advance width="909"/>
   <anchor x="242" y="543" name="alefUnused"/>
-  <anchor x="491" y="700" name="diaA"/>
+  <anchor x="478" y="1013" name="diaA"/>
   <anchor x="200" y="-420" name="diaB"/>
   <outline>
     <component base="qafDotless-ar.fina"/>
-    <component base="_dot3u" xOffset="706" yOffset="680"/>
+    <component base="_dot3u" xOffset="705" yOffset="680"/>
   </outline>
   <lib>
     <dict>
