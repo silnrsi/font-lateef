@@ -325,19 +325,20 @@ def doit(args):
         builder.render((0x064A, 0x0654), ftml)   # Yeh + Hamza should lose dots
         ftml.closeTest()
 
-        ftml.startTestGroup('LamAlef ligatures')
-        diaB = 0x064D
-        diaA = 0x064B
+        ftml.startTestGroup('Lam-Alef ligatures')
+        diaA1 = 0x0651  # shadda
+        diaA2 = 0x064B  # fathatan
+        diaB  = 0x064D  # kasratan
         for lam in lamlist:
             for alef in aleflist:
                 setBackgroundColor((lam,alef))
                 for featlist in builder.permuteFeatures(uids=(lam,alef)):
                     ftml.setFeatures(featlist)
-                    builder.render((lam, alef),             ftml, addBreaks=False)
-                    builder.render((lam, diaA, alef, diaA), ftml, addBreaks=False)
-                    builder.render((lam, diaB, alef),       ftml, addBreaks=False)
-                    builder.render((lam, alef, diaB),       ftml, addBreaks=False)
-                    builder.render((lam, diaB, alef, diaB), ftml, addBreaks=False)
+                    builder.render((lam, alef),               ftml, addBreaks=False)
+                    builder.render((lam, diaA1, alef, diaA2), ftml, addBreaks=False)
+                    builder.render((lam, diaB, alef),         ftml, addBreaks=False)
+                    builder.render((lam, alef, diaB),         ftml, addBreaks=False)
+                    builder.render((lam, diaB, alef, diaB),   ftml, addBreaks=False)
                 ftml.clearFeatures()
                 ftml.clearBackground()
                 ftml.closeTest()
