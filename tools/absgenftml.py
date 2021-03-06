@@ -273,7 +273,7 @@ def doit(args):
             kasralist = list(filter(lambda x: x in builder.uids(), (0x0650,)))
 
         ftml.startTestGroup('Representative diacritics on all bases that take diacritics')
-        for uid in sorted(builder.uids()):
+        for uid in sorted(builder.uids(), key=joinGoupSortKey):
             if uid < 32 or uid in (0xAA, 0xBA): continue
             c = builder.char(uid)
             # Always process Lo, but others only if that take marks:
