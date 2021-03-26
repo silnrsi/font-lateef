@@ -1,6 +1,6 @@
 #**********************************
-# This file is part of Harmattan font family (http://software.sil.org/harmattan/) 
-# and is Copyright (c) 2014-2020 SIL International (http://www.sil.org/),
+# This file is part of Lateef font family (http://software.sil.org/lateef/) 
+# and is Copyright (c) 2014-2021 SIL International (http://www.sil.org/),
 # with Reserved Font Names "Harmattan" and "SIL".
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -36,16 +36,11 @@ languagesystem latn dflt ;
 #   in the code.
 
 
-#**********************************
-#  Lookups
-#**********************************
-
-
-#****************************
-#****************************
-# GSUB (Subtitution) rules **
-#****************************
-#****************************
+#******************************
+#******************************
+# GSUB (Subtitution) lookups **
+#******************************
+#******************************
 
 #********************
 # for feature rtlm:
@@ -709,149 +704,13 @@ lookup SignWithDigits {
 ## } YehBarreeToWideWithMarks ;
 
 
-#****************************
-#****************************
-# GPOS (positioning) rules **
-#****************************
-#****************************
-
-do if opt("noOTkern") == "";
-{
-  do let f = "../../source/opentype/" + opt(basename) + "-caKern.fea" ;
-  {
-      include( $f ); 
-      @dummy = [beh-ar];
-  };
-}
-
-#********************
-# Mark attachment
-
-lookup mark_to_base {
-  lookupflag 0;
-  pos base @diaA mark @_diaA;
-  pos base @diaB mark @_diaB;
-} mark_to_base;
-
-# Override mark positioning in the case of dagger-alef on certain chars:
-
-lookup alef_to_base {
-  lookupflag 0;
-  pos base @alef mark @_alef;
-} alef_to_base;
-
-lookup mark_to_lig {
-    lookupflag 0;
-    pos ligature @LamAlefLig            @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
-        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
-    pos ligature @LamAlefWaslaLig       @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
-        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
-    pos ligature @LamAlefWavyHAboveLig  @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
-        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
-    pos ligature @LamAlefWavyHBelowLig  @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
-        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
-    pos ligature @LamAlefTwoAboveLig    @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
-        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
-    pos ligature @LamAlefThreeAboveLig  @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
-        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
-} mark_to_lig;
-
-
-@MarkFilter_diaA = [@diaA_MarkBase @_diaA];
-lookup mark_to_mark_above {
-  lookupflag UseMarkFilteringSet @MarkFilter_diaA;
-  pos mark @diaA_MarkBase mark @_diaA;
-} mark_to_mark_above;
-
-@MarkFilter_diaB = [@diaB_MarkBase @_diaB];
-lookup mark_to_mark_below {
-  lookupflag UseMarkFilteringSet @MarkFilter_diaB;
-  pos mark @diaB_MarkBase mark @_diaB;
-} mark_to_mark_below;
-
-
-#********************
-# Subtending mark positioning
-
-lookup SubtendingMarks {
-  lookupflag IgnoreMarks ;
-    # In Graphite we use mark attachment rules. However, in OpenType positioning digits on 
-    # subtending marks has to be done with adjustments rather than attachment since for some 
-    # engines the digits will ordered *before* the subtending mark.
-    
-    # Additionally, the adjustment value records depend on font face (e.g. bold vs regular). Therefore
-    # we use feax extentions to calculate the value records based on glyph advancewidths and digit AP coordinates.
-    
-    # In each "do" template, the first rule is ordered for Uniscribe or HarfBuzz 'latin', the second for HarfBuzz 'arab'
-
-    # Those that take 4 medium digits
-    do for m = @c_4 ;
-       let y = APy(m, "digitR") - APy("zero.medium", "digitL");
-       let w = -ADVx("zero.medium"); 
-       let x1 = APx(m, "digitR") - ADVx(m); 
-       let x2 = x1 - w; let x3 = x2 - w; let x4 = x3 - w;
-    {
-        pos $m @DigitsAnyMedium' <$x1 $y $w 0> @DigitsAnyMedium' <$x2 $y $w 0> @DigitsAnyMedium' <$x3 $y $w 0> @DigitsAnyMedium' <$x4 $y $w 0> ;
-        pos    @DigitsAnyMedium' <$x4 $y $w 0> @DigitsAnyMedium' <$x3 $y $w 0> @DigitsAnyMedium' <$x2 $y $w 0> @DigitsAnyMedium' <$x1 $y $w 0> $m ;
-    }
-    
-    # Those that take 3 medium digits
-    do for m = [ number-ar.3 year-ar.3 pagenumber-ar.3 samvat-ar.3 numbermark-ar.3 ] ;
-       let y = APy(m, "digitR") - APy("zero.medium", "digitL");
-       let w = -ADVx("zero.medium"); 
-       let x1 = APx(m, "digitR") - ADVx(m); 
-       let x2 = x1 - w; let x3 = x2 - w;
-    {
-        pos $m @DigitsAnyMedium' <$x1 $y $w 0> @DigitsAnyMedium' <$x2 $y $w 0> @DigitsAnyMedium' <$x3 $y $w 0> ;
-        pos    @DigitsAnyMedium' <$x3 $y $w 0> @DigitsAnyMedium' <$x2 $y $w 0> @DigitsAnyMedium' <$x1 $y $w 0> $m ;
-    }
-
-    # Those that take 3 small digits
-    do for m = [ endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3 ] ;
-       let y = APy(m, "digitR") - APy("zero.small", "digitL");
-       let w = -ADVx("zero.small"); 
-       let x1 = APx(m, "digitR") - ADVx(m); 
-       let x2 = x1 - w; let x3 = x2 - w;
-    {
-        pos $m @DigitsAnySmall' <$x1 $y $w 0> @DigitsAnySmall' <$x2 $y $w 0> @DigitsAnySmall' <$x3 $y $w 0> ;
-        pos    @DigitsAnySmall' <$x3 $y $w 0> @DigitsAnySmall' <$x2 $y $w 0> @DigitsAnySmall' <$x1 $y $w 0> $m ;
-    }
-
-    # Those that take 2 medium digits
-    do for m = @c_2 ;
-       let y = APy(m, "digitR") - APy("zero.medium", "digitL");
-       let w = -ADVx("zero.medium"); 
-       let x1 = APx(m, "digitR") - ADVx(m); 
-       let x2 = x1 - w; 
-    {
-        pos $m @DigitsAnyMedium' <$x1 $y $w 0> @DigitsAnyMedium' <$x2 $y $w 0> ;
-        pos    @DigitsAnyMedium' <$x2 $y $w 0> @DigitsAnyMedium' <$x1 $y $w 0> $m ;
-    }
-
-    # Those that take 1 medium digit
-    do for m = @cno_2 ;
-       let y = APy(m, "digitR") - APy("zero.medium", "digitL");
-       let w = -ADVx("zero.medium"); 
-       let x1 = APx(m, "digitR") - ADVx(m); 
-    {
-        pos $m @DigitsAnyMedium' <$x1 $y $w 0> ;
-        pos    @DigitsAnyMedium' <$x1 $y $w 0> $m ;
-    }
-    
-} SubtendingMarks;
-
-
-#**********************************
-#  Features
-#**********************************
-
-# as best as I understand, these are arranged in the order MS & HB engines execute:
-
 #*********************
 #*********************
 # GSUB features     **
 #*********************
 #*********************
+
+# as best as I understand, these are arranged in the order MS & HB engines execute:
 
 feature rtlm {  # Right-to-left mirroring
     lookup mirror;
@@ -1174,57 +1033,3 @@ feature liga {  # Ligatures  -- we use this because liga is done in the same pas
         lookup SignWithDigits;           # Must be after cv82
 } liga ;
 
-
-#********************
-#********************
-# GPOS features     *
-#********************
-#********************
-
-# Would love to be able to do subtending marks as either cursive connection or mark attachment
-# Cursive connection doesn't work because the width of the resultant cluster needs to be exactly the
-# same as the subtending mark and unrelated to the widths of the digits.
-# In Firefox at least, mark attachment works for 06DD (end of Ayah) and latin digits, but no other 
-# marks or digits (the digits get reverse ordered by the attachment process).
-# So we're back to using kerning
-
-feature kern {  # Kerning
-    # Same for latin & arabic:
-        lookup SubtendingMarks;
-
-do if opt("noOTkern") == "";	
-{
-    script arab;  # Arabic
-        lookup mainkern;
-      # Force other languages to include Arabic script lookups
-      language KUR  ;
-      language RHG  ;
-      language SND  ;
-      language URD  ;
-      language WLF  ;
-}
-
-} kern;
-
-
-feature mark {  # Mark to base Positioning
-    # Same for latin & arabic:
-        lookup mark_to_base;
-        lookup alef_to_base;
-    script arab;  # Arabic
-    	lookup mark_to_lig;
-##        lookup AlefMark2BelowAfterLam;
-      # Force other languages to include Arabic script lookups
-      language KIR  ;
-      language KUR  ;
-      language RHG  ;
-      language SND  ;
-      language URD  ;
-#      language WLF  ;
-} mark ;
-
-feature mkmk {  # Mark to mark Positioning
-    # Same for latin & arabic:
-        lookup mark_to_mark_above;
-        lookup mark_to_mark_below;
-} mkmk ;

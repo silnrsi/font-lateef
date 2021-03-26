@@ -1,0 +1,20 @@
+#**********************************
+# This file is part of Lateef font family (http://software.sil.org/lateef/) 
+# and is Copyright (c) 2014-2021 SIL International (http://www.sil.org/),
+# with Reserved Font Names "Harmattan" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+# details including an FAQ.
+#**********************************
+
+include(../../source/opentype/gsub.feax);
+
+do if opt("noOTkern") == "";
+{
+  include(../../source/opentype/lateebook-bold-caKern.fea); 
+}
+
+include(../../source/opentype/gpos.feax);
