@@ -14,7 +14,7 @@ FAMILY = APPNAME
 getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
 
 # set up FTML tests
-ftmlTest('tools/ftml.xsl')
+ftmlTest('tools/ftml-smith.xsl')
 
 # APs to omit:
 omitaps = '--omitaps "_above _aboveLeft _below _center _ring _through above aboveLeft below center ring through entry exit"'
@@ -26,9 +26,13 @@ generated = 'generated/'
 #   --autohint - autohint the font
 #   --norename - do not include glyph rename step
 #   --regOnly  - build just Lateef-Regular
-opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--regOnly'})
+#   --noOTkern - omit CA-based kerning in OpenType
+opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--noOTkern'}, {'opt': '--regOnly'})
+
+noOTkern = ' -D noOTkern=yes' if '--noOTkern' in opts else ''
 
 cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx'])]
+        # cmd('../tools/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json')]
 if '--norename' not in opts:
     cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo']))
 if '--autohint' in opts:
@@ -53,7 +57,7 @@ designspace(dspace_file,
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
         mapfile = generated + '${DS:FILENAME_BASE}.map',
         master = 'source/opentype/master.feax',
-        make_params = omitaps,
+        make_params = omitaps + noOTkern + ' -D basename=${DS:FILENAME_BASE}',
         params = '-m ' + generated + '${DS:FILENAME_BASE}.map',
         ),
     script = 'arab', 

@@ -715,6 +715,14 @@ lookup SignWithDigits {
 #****************************
 #****************************
 
+do if opt("noOTkern") == "";
+{
+  do let f = "../../source/opentype/" + opt(basename) + "-caKern.fea" ;
+  {
+      include( $f ); 
+      @dummy = [beh-ar];
+  };
+}
 
 #********************
 # Mark attachment
@@ -1183,6 +1191,19 @@ feature liga {  # Ligatures  -- we use this because liga is done in the same pas
 feature kern {  # Kerning
     # Same for latin & arabic:
         lookup SubtendingMarks;
+
+do if opt("noOTkern") == "";	
+{
+    script arab;  # Arabic
+        lookup mainkern;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language RHG  ;
+      language SND  ;
+      language URD  ;
+      language WLF  ;
+}
+
 } kern;
 
 

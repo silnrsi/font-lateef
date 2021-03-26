@@ -537,6 +537,12 @@ of the license along with this Font Software. If this is not the case, go to
     ===============================
     -->
 
+    <class name='Whitespace'>
+        space nbspace enquad emquad enspace emspace threeperemspace fourperemspace sixperemspace figurespace punctuationspace
+        thinspace hairspace zerowidthspace narrownbspace
+    </class>
+    
+
     <class name='KernRehWawLoosen'>
         alefHamzabelow-ar alefWavyhamzabelow-ar 
         beh-ar.init beeh-ar.init peh-ar.init beheh-ar.init behThreedotsupabove-ar.init behThreedotsupbelow-ar.init 
