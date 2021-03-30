@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="highhamzaAlef-ar.fina.postLamMed" format="2">
   <advance width="550"/>
-  <anchor x="55" y="1400" name="diaA"/>
+  <anchor x="132" y="1030" name="diaA"/>
   <anchor x="312" y="-312" name="diaB"/>
   <anchor x="550" y="-100" name="entry"/>
   <outline>

@@ -2,7 +2,7 @@
 <glyph name="hahHamzaabove-ar.init" format="2">
   <advance width="923"/>
   <anchor x="214" y="842" name="alefUnused"/>
-  <anchor x="305" y="1045" name="diaA"/>
+  <anchor x="424" y="1315" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>

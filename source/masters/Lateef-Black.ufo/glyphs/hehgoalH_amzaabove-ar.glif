@@ -2,7 +2,7 @@
 <glyph name="hehgoalHamzaabove-ar" format="2">
   <advance width="482"/>
   <unicode hex="06C2"/>
-  <anchor x="237" y="1153" name="diaA"/>
+  <anchor x="237" y="1263" name="diaA"/>
   <anchor x="177" y="-202" name="diaB"/>
   <outline>
     <component base="ae-ar"/>
