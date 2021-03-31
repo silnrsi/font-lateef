@@ -3,7 +3,7 @@
   <advance width="923"/>
   <anchor x="214" y="842" name="alefUnused"/>
   <anchor x="469" y="842" name="diaA"/>
-  <anchor x="202" y="-202" name="diaB"/>
+  <anchor x="450" y="-379" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>
     <component base="_four" xOffset="330" yOffset="420"/>
