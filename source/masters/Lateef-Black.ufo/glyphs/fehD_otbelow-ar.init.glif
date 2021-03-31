@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fehDotbelow-ar.init" format="2">
   <advance width="503"/>
-  <anchor x="174" y="1069" name="diaA"/>
+  <anchor x="162" y="1212" name="diaA"/>
   <anchor x="174" y="-413" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.init"/>

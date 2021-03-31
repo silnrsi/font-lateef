@@ -2,7 +2,7 @@
 <glyph name="tehRing-ar.medi" format="2">
   <advance width="440"/>
   <anchor x="52" y="599" name="alefUnused"/>
-  <anchor x="174" y="810" name="diaA"/>
+  <anchor x="174" y="875" name="diaA"/>
   <anchor x="174" y="-300" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>

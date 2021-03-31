@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehRing-ar.init" format="2">
   <advance width="353"/>
-  <anchor x="142" y="956" name="diaA"/>
+  <anchor x="142" y="1062" name="diaA"/>
   <anchor x="166" y="-312" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>

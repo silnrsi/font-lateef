@@ -2,7 +2,7 @@
 <glyph name="qafThreedotsabove-ar.fina" format="2">
   <advance width="909"/>
   <anchor x="242" y="543" name="alefUnused"/>
-  <anchor x="471" y="971" name="diaA"/>
+  <anchor x="441" y="1091" name="diaA"/>
   <anchor x="202" y="-482" name="diaB"/>
   <outline>
     <component base="qafDotless-ar.fina"/>

@@ -2,7 +2,7 @@
 <glyph name="seenTwodotsverticalabove-ar.medi" format="2">
   <advance width="1032"/>
   <anchor x="165" y="600" name="alefUnused"/>
-  <anchor x="477" y="700" name="diaA"/>
+  <anchor x="494" y="955" name="diaA"/>
   <anchor x="300" y="-202" name="diaB"/>
   <outline>
     <component base="seen-ar.medi"/>

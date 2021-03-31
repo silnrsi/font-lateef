@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="teheh-ar.init" format="2">
   <advance width="353"/>
-  <anchor x="154" y="1199" name="diaA"/>
+  <anchor x="154" y="1231" name="diaA"/>
   <anchor x="150" y="-202" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
