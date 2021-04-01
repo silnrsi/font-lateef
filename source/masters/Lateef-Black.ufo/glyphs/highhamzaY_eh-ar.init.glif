@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="highhamzaYeh-ar.init" format="2">
   <advance width="631"/>
-  <anchor x="109" y="1020" name="diaA"/>
+  <anchor x="279" y="1063" name="diaA"/>
   <anchor x="150" y="-202" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
