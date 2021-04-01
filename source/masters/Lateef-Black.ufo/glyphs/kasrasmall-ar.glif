@@ -4,6 +4,6 @@
   <anchor x="0" y="-384" name="_diaB"/>
   <anchor x="0" y="-651" name="diaB"/>
   <outline>
-    <component base="kasra-ar" xOffset="-1"/>
+    <component base="kasra-ar" xScale="0.66" yScale="0.66" xOffset="-1" yOffset="-171"/>
   </outline>
 </glyph>
