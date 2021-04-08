@@ -14,7 +14,7 @@ include(../../source/opentype/gsub.feax);
 
 do if opt("noOTkern") == "";
 {
-  include(../../source/opentype/lateef-regular-caKern.fea); 
+ include(../../source/opentype/Lateef-Regular-caKern.fea); 
 }
 
 include(../../source/opentype/gpos.feax);

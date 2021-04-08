@@ -14,7 +14,7 @@ include(../../source/opentype/gsub.feax);
 
 do if opt("noOTkern") == "";
 {
-  include(../../source/opentype/lateeflight-bold-caKern.fea); 
+  include(../../source/opentype/LateefLight-Bold-caKern.fea); 
 }
 
 include(../../source/opentype/gpos.feax);

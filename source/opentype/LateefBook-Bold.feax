@@ -14,7 +14,7 @@ include(../../source/opentype/gsub.feax);
 
 do if opt("noOTkern") == "";
 {
-  include(../../source/opentype/lateebook-bold-caKern.fea); 
+  include(../../source/opentype/LateefBook-Bold-caKern.fea); 
 }
 
 include(../../source/opentype/gpos.feax);
