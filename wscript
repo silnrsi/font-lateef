@@ -31,8 +31,8 @@ opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--
 
 noOTkern = ' -D noOTkern=yes' if '--noOTkern' in opts else ''
 
-cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx'])]
-        # cmd('../tools/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json')]
+cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx']),
+        cmd('../tools/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json')]
 if '--norename' not in opts:
     cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo']))
 if '--autohint' in opts:
