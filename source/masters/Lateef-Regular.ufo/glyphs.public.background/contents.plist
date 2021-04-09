@@ -128,6 +128,8 @@
   <string>alefL_amY_ehabove-ar.glif</string>
   <key>alefbelow-ar</key>
   <string>alefbelow-ar.glif</string>
+  <key>aleflow-ar</key>
+  <string>aleflow-ar.glif</string>
   <key>allah-ar</key>
   <string>allah-ar.glif</string>
   <key>behDotless-ar</key>
@@ -652,6 +654,10 @@
   <string>yeh-ar.noD_ots.fina.glif</string>
   <key>yehKashmiri-ar</key>
   <string>yehK_ashmiri-ar.glif</string>
+  <key>yehRohingya-ar</key>
+  <string>yehR_ohingya-ar.glif</string>
+  <key>yehRohingya-ar.fina</key>
+  <string>yehR_ohingya-ar.fina.glif</string>
   <key>yehSmall-ar</key>
   <string>yehS_mall-ar.glif</string>
   <key>yehTail-ar</key>

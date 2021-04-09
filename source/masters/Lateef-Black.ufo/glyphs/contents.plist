@@ -494,6 +494,8 @@
   <string>alefabove-ar.large.glif</string>
   <key>alefbelow-ar</key>
   <string>alefbelow-ar.glif</string>
+  <key>aleflow-ar</key>
+  <string>aleflow-ar.glif</string>
   <key>allah-ar</key>
   <string>allah-ar.glif</string>
   <key>ampersand</key>
@@ -3098,6 +3100,10 @@
   <string>yehK_ashmiri-ar.init.glif</string>
   <key>yehKashmiri-ar.medi</key>
   <string>yehK_ashmiri-ar.medi.glif</string>
+  <key>yehRohingya-ar</key>
+  <string>yehR_ohingya-ar.glif</string>
+  <key>yehRohingya-ar.fina</key>
+  <string>yehR_ohingya-ar.fina.glif</string>
   <key>yehSmall-ar</key>
   <string>yehS_mall-ar.glif</string>
   <key>yehTail-ar</key>
