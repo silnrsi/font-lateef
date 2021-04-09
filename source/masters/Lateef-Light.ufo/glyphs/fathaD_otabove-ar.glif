@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fathaDotabove-ar" format="2">
+  <unicode hex="08F5"/>
+  <anchor x="0" y="1056" name="_diaA"/>
+  <anchor x="0" y="1462" name="diaA"/>
+  <outline>
+    <contour>
+      <point x="-183" y="1055" type="line"/>
+      <point x="120" y="1205" type="line"/>
+      <point x="142" y="1269" type="line"/>
+      <point x="-161" y="1116" type="line"/>
+    </contour>
+    <component base="_dotCircular" yOffset="-50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

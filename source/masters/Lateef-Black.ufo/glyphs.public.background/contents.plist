@@ -154,12 +154,16 @@
   <string>dal-ar.glif</string>
   <key>dal-ar.fina</key>
   <string>dal-ar.fina.glif</string>
+  <key>dammaCurly-ar</key>
+  <string>dammaC_urly-ar.glif</string>
   <key>dammareversed-ar</key>
   <string>dammareversed-ar.glif</string>
   <key>dammatan-ar</key>
   <string>dammatan-ar.glif</string>
   <key>dammatan-ar.sixNine</key>
   <string>dammatan-ar.sixN_ine.glif</string>
+  <key>dammatanCurly-ar</key>
+  <string>dammatanC_urly-ar.glif</string>
   <key>eight-ar</key>
   <string>eight-ar.glif</string>
   <key>eight-ar.medium</key>
@@ -176,6 +180,8 @@
   <string>eight.medium.glif</string>
   <key>eight.small</key>
   <string>eight.small.glif</string>
+  <key>fathaRing-ar</key>
+  <string>fathaR_ing-ar.glif</string>
   <key>fathatan-ar</key>
   <string>fathatan-ar.glif</string>
   <key>fathatwodots-ar</key>
