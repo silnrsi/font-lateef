@@ -2,7 +2,7 @@
 
 # This script rebuilds the kerning files for OpenType. See README.md
 
-# Copyright (c) 2020 SIL International  (http://www.sil.org)
+# Copyright (c) 2020-2021 SIL International  (http://www.sil.org)
 # Released under the MIT License (http://opensource.org/licenses/
 
 # Assumes we're in the root folder, i.e., font-lateef
@@ -10,7 +10,9 @@
 # $R is the clustering radius for computing the OpenType kerning. Default is 20 but can be overridden, e.g.:
 #      export R=50 updateKerning
 
-# --nooctalap causes script to assume optimized octaboxes needn't be recomputed
+# Command line options:
+#    --nooctalap       script assumes optimized octaboxes needn't be recomputed
+#    --regOnly         script builds only the Lateef Regular files
 
 set -e	# Stop on error
 # set -x	# echo before execution
@@ -21,6 +23,7 @@ then
 	exit 2
 fi
 
+# Default settings:
 REGONLY=""
 FACES=("" Light Book)
 WEIGHTS=(Regular Bold)
@@ -62,19 +65,29 @@ then
   do
     for w in "${WEIGHTS[@]}"
     do
-      tools/octalap -q -j 0 -o source/Lateef$f-$w-octabox.json results/Lateef$f-$w.ttf &
+      tools/octalap -q -j 0 -o source/graphite/Lateef$f-$w-octabox.json results/Lateef$f-$w.ttf &
     done
   done
 
   echo waiting for octalap...
   wait
 
-  echo "\nrebuilding fonts (with new octaboxes)...\n" 
+  echo "\nrebuilding fonts (with new octaboxes) but no glyph kerning or renaming...\n" 
 
   smith clean
   smith build --norename --noOTkern $REGONLY
 
 fi
+
+echo "\nrebuilding kerndata.ftml...\n"
+
+tools/absgenftml.py -p scrlevel=W -t "KernData with Marks" --norendercheck --ap "_?dia[AB]$" \
+      --xsl ../tools/ftml.xsl --scale 200 -i source/glyph_data.csv -w "80%" \
+      -s "url(../results/Lateef-Regular.ttf)=Reg-Gr" \
+      -s "url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)=Reg-OT" \
+      -s "url(../results/Lateef-Bold.ttf)=Bld-Gr" \
+      -s "url(../results/tests/ftml/fonts/Lateef-Bold_ot_arab.ttf)=Bld-OT" \
+      source/masters/Lateef-Regular.ufo source/kerndata.ftml
 
 echo "\nrebuilding collision-avoidance-based kerning fea files...\n"
 
