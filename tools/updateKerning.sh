@@ -50,7 +50,7 @@ do
   shift
 done
 
-echo "Updating kerning\nrebuilding fonts without glyph kerning or renaming...\n"
+echo -e "Updating kerning\nrebuilding fonts without glyph kerning or renaming...\n"
 
 smith distclean
 smith configure
@@ -59,7 +59,7 @@ smith build --norename --noOTkern $REGONLY
 if [ ${NOOCTALAP} == 0 ]
 then
 
-  echo "\nrebuilding optimized octaboxes...\n"
+  echo -e "\nrebuilding optimized octaboxes...\n"
 
   for f in "${FACES[@]}"
   do
@@ -72,14 +72,14 @@ then
   echo waiting for octalap...
   wait
 
-  echo "\nrebuilding fonts (with new octaboxes) but no glyph kerning or renaming...\n" 
+  echo -e "\nrebuilding fonts (with new octaboxes) but no glyph kerning or renaming...\n" 
 
   smith clean
   smith build --norename --noOTkern $REGONLY
 
 fi
 
-echo "\nrebuilding kerndata.ftml...\n"
+echo -e "\nrebuilding kerndata.ftml...\n"
 
 tools/absgenftml.py -p scrlevel=W -t "KernData with Marks" --norendercheck --ap "_?dia[AB]$" \
       --xsl ../tools/ftml.xsl --scale 200 -i source/glyph_data.csv -w "80%" \
@@ -89,7 +89,7 @@ tools/absgenftml.py -p scrlevel=W -t "KernData with Marks" --norendercheck --ap 
       -s "url(../results/tests/ftml/fonts/Lateef-Bold_ot_arab.ttf)=Bld-OT" \
       source/masters/Lateef-Regular.ufo source/kerndata.ftml
 
-echo "\nrebuilding collision-avoidance-based kerning fea files...\n"
+echo -e "\nrebuilding collision-avoidance-based kerning fea files...\n"
 
 # Use a temp directory
 outdir=results/grkern2fea_r${R:=20}
@@ -106,16 +106,10 @@ do
       sed -e s/kasratan-ar/@_diaB/g -e s/fathatan-ar/@_diaA/g $outdir/Lateef$f-$w-caKern.fea  > source/opentype/Lateef$f-$w-caKern.fea \
     ) &
   done
+  # do only 2 at a time to keep from running out of memory
+  wait
+  echo two grkern2fea done.
 done
-
-# old: ( \
-# old:   grkern2fea -e graphite -i source/kerndata.ftml -F ut53=0        -f results/Lateef-Bold.ttf                    $outdir/rawPairData-Bold.txt           ; \
-# old:   tools/renumberKernData.py $outdir/rawPairData-Bold.txt                                                           $outdir/rawPairData-Bold-nozwj.txt     ; \
-# old:   grkern2fea -s strings  -i $outdir/rawPairData-Bold-nozwj.txt    -f results/Lateef-Bold.ttf     -r ${R:=20} -R $outdir/caKern-Bold.fea                ; \
-# old:   sed -e s/kasratan-ar/@_diaB/g -e s/fathatan-ar/@_diaA/g $outdir/caKern-Bold.fea  > source/opentype/caKern-Bold.fea \
-# old: ) &
-
-wait
 
 echo "finished successfully, and the following files were regenerated:"
 if [ ${NOOCTALAP} == 0 ] 
