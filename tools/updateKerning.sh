@@ -50,7 +50,7 @@ do
   shift
 done
 
-echo -e "Updating kerning\nrebuilding fonts without glyph kerning or renaming...\n"
+echo -e "\nUpdating kerning\n\nrebuilding fonts without glyph kerning or renaming...\n"
 
 smith distclean
 smith configure
@@ -69,7 +69,6 @@ then
     done
   done
 
-  echo waiting for octalap...
   wait
 
   echo -e "\nrebuilding fonts (with new octaboxes) but no glyph kerning or renaming...\n" 
