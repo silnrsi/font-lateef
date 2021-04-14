@@ -822,6 +822,10 @@
   <string>dottedC_ircle.glif</string>
   <key>dotvowelbelow-ar</key>
   <string>dotvowelbelow-ar.glif</string>
+  <key>doublerightarrowheadDotabove-ar</key>
+  <string>doublerightarrowheadD_otabove-ar.glif</string>
+  <key>doublerightarrowheadabove-ar</key>
+  <string>doublerightarrowheadabove-ar.glif</string>
   <key>dul-ar</key>
   <string>dul-ar.glif</string>
   <key>dul-ar.fina</key>
@@ -1362,6 +1366,8 @@
   <string>highhamzaY_eh-ar.init.glif</string>
   <key>highhamzaYeh-ar.medi</key>
   <string>highhamzaY_eh-ar.medi.glif</string>
+  <key>highwaw-ar</key>
+  <string>highwaw-ar.glif</string>
   <key>hizb-ar</key>
   <string>hizb-ar.glif</string>
   <key>horizontalbar</key>
@@ -1888,6 +1894,10 @@
   <string>lam_alefW_avyhamzabelow-ar.glif</string>
   <key>lam_alefWavyhamzabelow-ar.fina</key>
   <string>lam_alefW_avyhamzabelow-ar.fina.glif</string>
+  <key>leftarrowheadabove-ar</key>
+  <string>leftarrowheadabove-ar.glif</string>
+  <key>leftarrowheadbelow-ar</key>
+  <string>leftarrowheadbelow-ar.glif</string>
   <key>lefttorightembedding</key>
   <string>lefttorightembedding.glif</string>
   <key>lefttorightisolate</key>
@@ -2468,6 +2478,12 @@
   <string>rhombusS_topbelow-ar.glif</string>
   <key>rial</key>
   <string>rial.glif</string>
+  <key>rightarrowheadDotabove-ar</key>
+  <string>rightarrowheadD_otabove-ar.glif</string>
+  <key>rightarrowheadabove-ar</key>
+  <string>rightarrowheadabove-ar.glif</string>
+  <key>rightarrowheadbelow-ar</key>
+  <string>rightarrowheadbelow-ar.glif</string>
   <key>righttoleftembedding</key>
   <string>righttoleftembedding.glif</string>
   <key>righttoleftisolate</key>
