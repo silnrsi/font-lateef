@@ -2182,6 +2182,12 @@
   <string>onequarter.glif</string>
   <key>onesuperior</key>
   <string>onesuperior.glif</string>
+  <key>opendammatan-ar</key>
+  <string>opendammatan-ar.glif</string>
+  <key>openfathatan-ar</key>
+  <string>openfathatan-ar.glif</string>
+  <key>openkasratan-ar</key>
+  <string>openkasratan-ar.glif</string>
   <key>ordfeminine</key>
   <string>ordfeminine.glif</string>
   <key>ordmasculine</key>
@@ -2926,6 +2932,18 @@
   <string>tildecomb.glif</string>
   <key>tildecomb.case</key>
   <string>tildecomb.case.glif</string>
+  <key>toneloopabove-ar</key>
+  <string>toneloopabove-ar.glif</string>
+  <key>toneloopbelow-ar-ar</key>
+  <string>toneloopbelow-ar-ar.glif</string>
+  <key>toneonedotabove-ar</key>
+  <string>toneonedotabove-ar.glif</string>
+  <key>toneonedotbelow-ar</key>
+  <string>toneonedotbelow-ar.glif</string>
+  <key>tonetwodotsabove-ar</key>
+  <string>tonetwodotsabove-ar.glif</string>
+  <key>tonetwodotsbelow-ar</key>
+  <string>tonetwodotsbelow-ar.glif</string>
   <key>trademark</key>
   <string>trademark.glif</string>
   <key>tteh-ar</key>

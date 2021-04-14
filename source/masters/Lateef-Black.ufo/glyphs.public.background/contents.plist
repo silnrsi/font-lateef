@@ -406,6 +406,10 @@
   <string>one.medium.glif</string>
   <key>one.small</key>
   <string>one.small.glif</string>
+  <key>openfathatan-ar</key>
+  <string>openfathatan-ar.glif</string>
+  <key>openkasratan-ar</key>
+  <string>openkasratan-ar.glif</string>
   <key>parenleft-ar</key>
   <string>parenleft-ar.glif</string>
   <key>percent-ar</key>

@@ -4,6 +4,6 @@
   <anchor x="0" y="449" name="_below"/>
   <outline>
     <component base="_dot1"/>
-    <component base="vinvertedabove-ar" xOffset="0" yOffset="-845"/>
+    <component base="vinvertedabove-ar" yOffset="-845"/>
   </outline>
 </glyph>

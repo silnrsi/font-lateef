@@ -446,6 +446,10 @@
   <string>one.medium.glif</string>
   <key>one.small</key>
   <string>one.small.glif</string>
+  <key>openfathatan-ar</key>
+  <string>openfathatan-ar.glif</string>
+  <key>openkasratan-ar</key>
+  <string>openkasratan-ar.glif</string>
   <key>pagenumber-ar</key>
   <string>pagenumber-ar.glif</string>
   <key>pagenumber-ar.2</key>
