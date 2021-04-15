@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="toneloopbelow-ar-ar" format="2">
-  <anchor x="0" y="-145" name="_diaA"/>
-  <anchor x="0" y="115" name="diaA"/>
+<glyph name="toneloopbelow-ar" format="2">
+  <anchor x="0" y="-155" name="_diaA"/>
+  <anchor x="0" y="105" name="diaA"/>
   <outline>
     <component base="toneloopabove-ar"/>
   </outline>
