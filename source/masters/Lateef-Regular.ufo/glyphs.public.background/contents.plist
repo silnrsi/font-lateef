@@ -196,6 +196,8 @@
   <string>exclam.glif</string>
   <key>fatha-ar</key>
   <string>fatha-ar.glif</string>
+  <key>fatha-ar.allah</key>
+  <string>fatha-ar.allah.glif</string>
   <key>fathaDotabove-ar</key>
   <string>fathaD_otabove-ar.glif</string>
   <key>fathaHorizont-ar</key>

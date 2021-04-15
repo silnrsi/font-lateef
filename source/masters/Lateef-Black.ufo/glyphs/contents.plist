@@ -922,6 +922,8 @@
   <string>f.glif</string>
   <key>fatha-ar</key>
   <string>fatha-ar.glif</string>
+  <key>fatha-ar.allah</key>
+  <string>fatha-ar.allah.glif</string>
   <key>fathaCurly-ar</key>
   <string>fathaC_urly-ar.glif</string>
   <key>fathaDotabove-ar</key>
