@@ -11,8 +11,9 @@
 #      export R=50 updateKerning
 
 # Command line options:
-#    --nooctalap       script assumes optimized octaboxes needn't be recomputed
-#    --regOnly         script builds only the Lateef Regular files
+#    --noftml        don't rebuild ftml
+#    --nooctalap     don't rebuild optimized octaboxes
+#    --regOnly       process only the Lateef Regular font rather than all six
 
 set -e	# Stop on error
 # set -x	# echo before execution
@@ -28,6 +29,7 @@ REGONLY=""
 FACES=("" Light Book)
 WEIGHTS=(Regular Bold)
 NOOCTALAP=0
+NOFTML=0
 
 # Look for options:
 while [[ $# -gt 0 ]]
@@ -43,6 +45,10 @@ do
     NOOCTALAP=1
     ;;
 
+    --noftml)
+    NOFTML=1
+    ;;
+    
     *)
     echo "unrecognized parameter $1"
     exit 
@@ -78,15 +84,18 @@ then
 
 fi
 
-echo -e "\nrebuilding kerndata.ftml...\n"
+if [ ${NOFTML} == 0 ]
+then
+  echo -e "\nrebuilding kerndata.ftml...\n"
 
-tools/absgenftml.py -p scrlevel=W -t "KernData with Marks" --norendercheck --ap "_?dia[AB]$" \
-      --xsl ../tools/ftml.xsl --scale 200 -i source/glyph_data.csv -w "80%" \
-      -s "url(../results/Lateef-Regular.ttf)=Reg-Gr" \
-      -s "url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)=Reg-OT" \
-      -s "url(../results/Lateef-Bold.ttf)=Bld-Gr" \
-      -s "url(../results/tests/ftml/fonts/Lateef-Bold_ot_arab.ttf)=Bld-OT" \
-      source/masters/Lateef-Regular.ufo source/kerndata.ftml
+  tools/absgenftml.py -p scrlevel=W -t "KernData with Marks" --norendercheck --ap "_?dia[AB]$" \
+        --xsl ../tools/ftml.xsl --scale 200 -i source/glyph_data.csv -w "80%" \
+        -s "url(../results/Lateef-Regular.ttf)=Reg-Gr" \
+        -s "url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)=Reg-OT" \
+        -s "url(../results/Lateef-Bold.ttf)=Bld-Gr" \
+        -s "url(../results/tests/ftml/fonts/Lateef-Bold_ot_arab.ttf)=Bld-OT" \
+        source/masters/Lateef-Regular.ufo source/kerndata.ftml
+fi
 
 echo -e "\nrebuilding collision-avoidance-based kerning fea files...\n"
 
