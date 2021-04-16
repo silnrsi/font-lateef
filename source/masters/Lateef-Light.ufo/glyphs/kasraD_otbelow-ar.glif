@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kasraDotbelow-ar" format="2">
+  <unicode hex="08F6"/>
+  <anchor x="0" y="-841" name="_diaA"/>
+  <anchor x="0" y="-432" name="diaA"/>
+  <outline>
+    <contour>
+      <point x="-142" y="-645" type="line"/>
+      <point x="161" y="-495" type="line"/>
+      <point x="183" y="-431" type="line"/>
+      <point x="-120" y="-584" type="line"/>
+    </contour>
+    <component base="_dotCircular" xOffset="172" yOffset="-2021"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

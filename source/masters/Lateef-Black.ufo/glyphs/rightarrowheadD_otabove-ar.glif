@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rightarrowheadDotabove-ar" format="2">
+  <unicode hex="08FD"/>
+  <anchor x="167" y="1309" name="_diaA"/>
+  <anchor x="167" y="1958" name="diaA"/>
+  <outline>
+    <component base="rightarrowheadabove-ar"/>
+    <component base="_dotCircular" xOffset="-14" yOffset="240"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>600</integer>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

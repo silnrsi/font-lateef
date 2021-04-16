@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fathatanCurly-ar" format="2">
+  <unicode hex="08E7"/>
+  <anchor x="0" y="1093" name="_diaA"/>
+  <anchor x="-37" y="1595" name="diaA"/>
+  <outline>
+    <component base="fathaCurly-ar" xOffset="-172"/>
+    <component base="fathaCurly-ar" xOffset="-172" yOffset="200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="toneloopabove-ar" format="2">
+  <unicode hex="08EC"/>
+  <anchor x="0" y="-115" name="_diaA"/>
+  <anchor x="0" y="145" name="diaA"/>
+  <outline>
+    <contour>
+      <point x="198" y="78" type="curve"/>
+      <point x="198" y="88"/>
+      <point x="193" y="96"/>
+      <point x="187" y="98" type="curve"/>
+      <point x="163" y="66"/>
+      <point x="138" y="34"/>
+      <point x="106" y="11" type="curve"/>
+      <point x="59" y="53"/>
+      <point x="6" y="80"/>
+      <point x="-37" y="80" type="curve" smooth="yes"/>
+      <point x="-109" y="80"/>
+      <point x="-140" y="38"/>
+      <point x="-140" y="-20" type="curve" smooth="yes"/>
+      <point x="-140" y="-55"/>
+      <point x="-123" y="-95"/>
+      <point x="-78" y="-95" type="curve" smooth="yes"/>
+      <point x="-6" y="-95"/>
+      <point x="50" y="-69"/>
+      <point x="102" y="-27" type="curve"/>
+      <point x="131" y="-51"/>
+      <point x="143" y="-75"/>
+      <point x="151" y="-101" type="curve"/>
+      <point x="167" y="-97"/>
+      <point x="173" y="-84"/>
+      <point x="178" y="-75" type="curve"/>
+      <point x="169" y="-50"/>
+      <point x="151" y="-30"/>
+      <point x="124" y="-6" type="curve"/>
+      <point x="158" y="22"/>
+      <point x="179" y="45"/>
+    </contour>
+    <contour>
+      <point x="76" y="-7" type="curve"/>
+      <point x="34" y="-35"/>
+      <point x="-10" y="-43"/>
+      <point x="-53" y="-43" type="curve" smooth="yes"/>
+      <point x="-92" y="-43"/>
+      <point x="-109" y="-18"/>
+      <point x="-109" y="3" type="curve" smooth="yes"/>
+      <point x="-109" y="23"/>
+      <point x="-97" y="51"/>
+      <point x="-42" y="51" type="curve" smooth="yes"/>
+      <point x="-11" y="51"/>
+      <point x="44" y="17"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

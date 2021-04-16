@@ -46,6 +46,8 @@
   <string>_dot3u_tah.glif</string>
   <key>_dot4</key>
   <string>_dot4.glif</string>
+  <key>_dotCircular</key>
+  <string>_dotC_ircular.glif</string>
   <key>_gafBar</key>
   <string>_gafB_ar.glif</string>
   <key>_gafBarShort_dot2h</key>
@@ -128,6 +130,8 @@
   <string>alefL_amY_ehabove-ar.glif</string>
   <key>alefbelow-ar</key>
   <string>alefbelow-ar.glif</string>
+  <key>aleflow-ar</key>
+  <string>aleflow-ar.glif</string>
   <key>allah-ar</key>
   <string>allah-ar.glif</string>
   <key>behDotless-ar</key>
@@ -154,6 +158,10 @@
   <string>dal-ar.fina.glif</string>
   <key>damma-ar</key>
   <string>damma-ar.glif</string>
+  <key>dammaCurly-ar</key>
+  <string>dammaC_urly-ar.glif</string>
+  <key>dammaDot-ar</key>
+  <string>dammaD_ot-ar.glif</string>
   <key>dammainverted-ar</key>
   <string>dammainverted-ar.glif</string>
   <key>dammareversed-ar</key>
@@ -162,6 +170,10 @@
   <string>dammatan-ar.glif</string>
   <key>dammatan-ar.sixNine</key>
   <string>dammatan-ar.sixN_ine.glif</string>
+  <key>dammatanCurly-ar</key>
+  <string>dammatanC_urly-ar.glif</string>
+  <key>dammaturnedbelow-ar</key>
+  <string>dammaturnedbelow-ar.glif</string>
   <key>dateseparator-ar</key>
   <string>dateseparator-ar.glif</string>
   <key>eight-ar</key>
@@ -186,8 +198,12 @@
   <string>fatha-ar.glif</string>
   <key>fatha-ar.allah</key>
   <string>fatha-ar.allah.glif</string>
+  <key>fathaDotabove-ar</key>
+  <string>fathaD_otabove-ar.glif</string>
   <key>fathaHorizont-ar</key>
   <string>fathaH_orizont-ar.glif</string>
+  <key>fathaRing-ar</key>
+  <string>fathaR_ing-ar.glif</string>
   <key>fathatan-ar</key>
   <string>fathatan-ar.glif</string>
   <key>fathatwodots-ar</key>
@@ -290,6 +306,8 @@
   <string>hehgoal-ar.medi.glif</string>
   <key>highhamza-ar</key>
   <string>highhamza-ar.glif</string>
+  <key>highwaw-ar</key>
+  <string>highwaw-ar.glif</string>
   <key>hizb-ar</key>
   <string>hizb-ar.glif</string>
   <key>jeemabove-ar</key>
@@ -314,6 +332,8 @@
   <string>kasra-ar.glif</string>
   <key>kasra-ar.lowered</key>
   <string>kasra-ar.lowered.glif</string>
+  <key>kasraDotbelow-ar</key>
+  <string>kasraD_otbelow-ar.glif</string>
   <key>kasratan-ar</key>
   <string>kasratan-ar.glif</string>
   <key>kasratan-ar.lowered</key>
@@ -430,6 +450,10 @@
   <string>one.medium.glif</string>
   <key>one.small</key>
   <string>one.small.glif</string>
+  <key>openfathatan-ar</key>
+  <string>openfathatan-ar.glif</string>
+  <key>openkasratan-ar</key>
+  <string>openkasratan-ar.glif</string>
   <key>pagenumber-ar</key>
   <string>pagenumber-ar.glif</string>
   <key>pagenumber-ar.2</key>
@@ -638,6 +662,10 @@
   <string>waw-ar.fina.glif</string>
   <key>wawSmall-ar</key>
   <string>wawS_mall-ar.glif</string>
+  <key>wawStraight-ar</key>
+  <string>wawS_traight-ar.glif</string>
+  <key>wawStraight-ar.fina</key>
+  <string>wawS_traight-ar.fina.glif</string>
   <key>year-ar</key>
   <string>year-ar.glif</string>
   <key>year-ar.2</key>
@@ -652,6 +680,10 @@
   <string>yeh-ar.noD_ots.fina.glif</string>
   <key>yehKashmiri-ar</key>
   <string>yehK_ashmiri-ar.glif</string>
+  <key>yehRohingya-ar</key>
+  <string>yehR_ohingya-ar.glif</string>
+  <key>yehRohingya-ar.fina</key>
+  <string>yehR_ohingya-ar.fina.glif</string>
   <key>yehSmall-ar</key>
   <string>yehS_mall-ar.glif</string>
   <key>yehTail-ar</key>

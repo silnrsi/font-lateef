@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="openkasratan-ar" format="2">
+  <unicode hex="08F2"/>
+  <anchor x="0" y="-328" name="_diaB"/>
+  <anchor x="0" y="-790" name="diaB"/>
+  <outline>
+    <component base="fatha-ar" xOffset="-90" yOffset="-1626"/>
+    <component base="fatha-ar" xOffset="-250" yOffset="-1866"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

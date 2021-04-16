@@ -2,7 +2,7 @@
 <glyph name="behhamzaabove-ar.medi" format="2">
   <advance width="440"/>
   <anchor x="52" y="599" name="alefUnused"/>
-  <anchor x="214" y="698" name="diaA"/>
+  <anchor x="214" y="959" name="diaA"/>
   <anchor x="145" y="-416" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dammaturnedbelow-ar" format="2">
+  <unicode hex="08E3"/>
+  <anchor x="0" y="-415" name="_diaB"/>
+  <anchor x="0" y="-852" name="diaB"/>
+  <outline>
+    <contour>
+      <point x="186" y="-383" type="line"/>
+      <point x="48" y="-451"/>
+      <point x="-118" y="-600"/>
+      <point x="-118" y="-727" type="curve" smooth="yes"/>
+      <point x="-118" y="-771"/>
+      <point x="-88" y="-793"/>
+      <point x="-42" y="-793" type="curve" smooth="yes"/>
+      <point x="15" y="-793"/>
+      <point x="96" y="-769"/>
+      <point x="96" y="-667" type="curve" smooth="yes"/>
+      <point x="96" y="-596"/>
+      <point x="22" y="-544"/>
+      <point x="-81" y="-483" type="curve"/>
+      <point x="-127" y="-550" type="line"/>
+      <point x="2" y="-621"/>
+      <point x="29" y="-638"/>
+      <point x="29" y="-673" type="curve" smooth="yes"/>
+      <point x="29" y="-721"/>
+      <point x="-8" y="-741"/>
+      <point x="-23" y="-741" type="curve" smooth="yes"/>
+      <point x="-41" y="-741"/>
+      <point x="-61" y="-726"/>
+      <point x="-61" y="-700" type="curve" smooth="yes"/>
+      <point x="-61" y="-616"/>
+      <point x="91" y="-479"/>
+      <point x="212" y="-424" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

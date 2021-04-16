@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wawStraight-ar.fina" format="2">
+  <outline>
+    <contour>
+      <point x="330" y="-256" type="move"/>
+      <point x="276" y="-371" type="line"/>
+    </contour>
+  </outline>
+</glyph>

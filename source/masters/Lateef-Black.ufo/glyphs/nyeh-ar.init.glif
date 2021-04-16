@@ -2,7 +2,7 @@
 <glyph name="nyeh-ar.init" format="2">
   <advance width="923"/>
   <anchor x="214" y="842" name="alefUnused"/>
-  <anchor x="305" y="700" name="diaA"/>
+  <anchor x="305" y="820" name="diaA"/>
   <anchor x="296" y="-360" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>
