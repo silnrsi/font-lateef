@@ -2,7 +2,7 @@
 <glyph name="jeemTwodotsabove-ar.medi" format="2">
   <advance width="916"/>
   <anchor x="214" y="842" name="alefUnused"/>
-  <anchor x="451" y="1140" name="diaA"/>
+  <anchor x="451" y="1230" name="diaA"/>
   <anchor x="324" y="-349" name="diaB"/>
   <outline>
     <component base="hah-ar.medi"/>

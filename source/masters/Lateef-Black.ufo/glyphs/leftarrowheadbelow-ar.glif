@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="leftarrowheadbelow-ar" format="2">
   <unicode hex="08F9"/>
-  <anchor x="167" y="1863" name="_diaB"/>
+  <anchor x="167" y="203" name="_diaB"/>
   <anchor x="167" y="1214" name="diaB"/>
   <outline>
     <component base="leftarrowheadabove-ar"/>

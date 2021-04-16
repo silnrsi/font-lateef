@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rightarrowheadDotabove-ar" format="2">
   <unicode hex="08FD"/>
-  <anchor x="167" y="1309" name="_diaA"/>
+  <anchor x="167" y="1189" name="_diaA"/>
   <anchor x="167" y="1958" name="diaA"/>
   <outline>
     <component base="rightarrowheadabove-ar"/>

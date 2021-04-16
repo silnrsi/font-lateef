@@ -2,7 +2,7 @@
 <glyph name="qafAfricanThreedotsabove-ar.medi" format="2">
   <advance width="553"/>
   <anchor x="200" y="1579" name="diaA"/>
-  <anchor x="200" y="-200" name="diaB"/>
+  <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.medi"/>
     <component base="_dot1_dot3u" xOffset="301" yOffset="1411"/>

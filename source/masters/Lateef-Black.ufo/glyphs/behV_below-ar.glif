@@ -4,7 +4,7 @@
   <unicode hex="08A0"/>
   <anchor x="272" y="690" name="alefUnused"/>
   <anchor x="600" y="700" name="diaA"/>
-  <anchor x="260" y="-200" name="diaB"/>
+  <anchor x="219" y="-350" name="diaB"/>
   <outline>
     <component base="behDotless-ar"/>
     <component base="_smallV" xOffset="604" yOffset="-298"/>

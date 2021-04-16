@@ -3,7 +3,7 @@
   <advance width="440"/>
   <anchor x="52" y="599" name="alefUnused"/>
   <anchor x="215" y="700" name="diaA"/>
-  <anchor x="190" y="-200" name="diaB"/>
+  <anchor x="178" y="-482" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
     <component base="_smallV" xOffset="203" yOffset="-298"/>
