@@ -3,8 +3,8 @@
   <advance width="863"/>
   <unicode hex="08C4"/>
   <anchor x="253" y="584" name="alefUnused"/>
-  <anchor x="430" y="1042" name="diaA"/>
-  <anchor x="200" y="-420" name="diaB"/>
+  <anchor x="430" y="1045" name="diaA"/>
+  <anchor x="221" y="-401" name="diaB"/>
   <outline>
     <component base="qafDotless-ar"/>
     <component base="_dot3u" xOffset="682" yOffset="845"/>

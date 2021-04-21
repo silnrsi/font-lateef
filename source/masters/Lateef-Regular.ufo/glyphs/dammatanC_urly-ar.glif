@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dammatanCurly-ar" format="2">
   <unicode hex="08E8"/>
-  <anchor x="-18" y="-173" name="_above"/>
-  <anchor x="-27" y="240" name="_below"/>
   <anchor x="0" y="1048" name="_diaA"/>
   <anchor x="-186" y="1734" name="diaA"/>
   <outline>

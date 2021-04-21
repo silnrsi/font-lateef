@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kasraDotbelow-ar" format="2">
   <unicode hex="08F6"/>
-  <anchor x="0" y="-868" name="_diaA"/>
-  <anchor x="-2" y="-428" name="diaA"/>
+  <anchor x="0" y="-868" name="diaB"/>
+  <anchor x="-0" y="-428" name="_diaB"/>
   <outline>
     <contour>
       <point x="-158" y="-682" type="line"/>

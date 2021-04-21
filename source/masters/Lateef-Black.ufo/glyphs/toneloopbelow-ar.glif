@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="toneloopbelow-ar" format="2">
   <unicode hex="08EF"/>
-  <anchor x="0" y="115" name="_diaB"/>
-  <anchor x="0" y="-145" name="diaB"/>
+  <anchor x="0" y="155" name="_diaB"/>
+  <anchor x="0" y="-165" name="diaB"/>
   <outline>
     <component base="toneloopabove-ar"/>
   </outline>

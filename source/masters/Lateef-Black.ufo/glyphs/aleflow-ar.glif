@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aleflow-ar" format="2">
   <unicode hex="08AD"/>
-  <anchor x="0" y="0" name="_diaB"/>
-  <anchor x="0" y="-469" name="diaB"/>
+  <anchor x="0" y="50" name="diaA"/>
+  <anchor x="0" y="-500" name="diaB"/>
   <outline>
     <contour>
       <point x="64" y="-343" type="curve" smooth="yes"/>

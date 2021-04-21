@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="toneloopabove-ar" format="2">
   <unicode hex="08EC"/>
-  <anchor x="0" y="-115" name="_diaA"/>
-  <anchor x="0" y="145" name="diaA"/>
+  <anchor x="0" y="-155" name="_diaA"/>
+  <anchor x="0" y="165" name="diaA"/>
   <outline>
     <contour>
       <point x="215" y="88" type="curve"/>

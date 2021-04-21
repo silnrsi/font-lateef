@@ -3,7 +3,7 @@
   <advance width="832"/>
   <unicode hex="08A2"/>
   <anchor x="214" y="742" name="alefUnused"/>
-  <anchor x="451" y="1060" name="diaA"/>
+  <anchor x="451" y="1130" name="diaA"/>
   <anchor x="202" y="-764" name="diaB"/>
   <outline>
     <component base="hah-ar"/>
