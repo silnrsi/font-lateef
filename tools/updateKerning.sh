@@ -28,8 +28,8 @@ fi
 REGONLY=""
 FACES=("" Light Book)
 WEIGHTS=(Regular Bold)
-NOOCTALAP=0
-NOFTML=0
+OCTALAP=0
+FTML=0
 
 # Look for options:
 while [[ $# -gt 0 ]]
@@ -41,12 +41,12 @@ do
     WEIGHTS=(Regular)
     ;;
   
-    --nooctalap)
-    NOOCTALAP=1
+    --octalap)
+    OCTALAP=1
     ;;
 
-    --noftml)
-    NOFTML=1
+    --ftml)
+    FTML=1
     ;;
     
     *)
@@ -62,7 +62,7 @@ smith distclean
 smith configure
 smith build --norename --noOTkern $REGONLY
 
-if [ ${NOOCTALAP} == 0 ]
+if [ ${OCTALAP} == 1 ]
 then
 
   echo -e "\nrebuilding optimized octaboxes...\n"
@@ -84,7 +84,7 @@ then
 
 fi
 
-if [ ${NOFTML} == 0 ]
+if [ ${FTML} == 1 ]
 then
   echo -e "\nrebuilding kerndata.ftml...\n"
 
