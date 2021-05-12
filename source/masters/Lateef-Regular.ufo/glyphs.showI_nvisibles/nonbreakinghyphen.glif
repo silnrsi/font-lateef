@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nonbreakinghyphen" format="2">
+  <advance width="609"/>
+  <unicode hex="2011"/>
+  <outline>
+    <contour>
+      <point x="126" y="268" type="line"/>
+      <point x="483" y="316" type="line"/>
+      <point x="483" y="444" type="line"/>
+      <point x="126" y="394" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>activateformshaping-ar</key>
+  <string>activateformshaping-ar.glif</string>
+  <key>firststrongisolate</key>
+  <string>firststrongisolate.glif</string>
+  <key>inhibitformshaping-ar</key>
+  <string>inhibitformshaping-ar.glif</string>
+  <key>lefttorightembedding</key>
+  <string>lefttorightembedding.glif</string>
+  <key>lefttorightisolate</key>
+  <string>lefttorightisolate.glif</string>
+  <key>lefttorightmark</key>
+  <string>lefttorightmark.glif</string>
+  <key>lefttorightoverride</key>
+  <string>lefttorightoverride.glif</string>
+  <key>mark-ar</key>
+  <string>mark-ar.glif</string>
+  <key>nonbreakinghyphen</key>
+  <string>nonbreakinghyphen.glif</string>
+  <key>popdirectionalformatting</key>
+  <string>popdirectionalformatting.glif</string>
+  <key>popdirectionalisolate</key>
+  <string>popdirectionalisolate.glif</string>
+  <key>righttoleftembedding</key>
+  <string>righttoleftembedding.glif</string>
+  <key>righttoleftisolate</key>
+  <string>righttoleftisolate.glif</string>
+  <key>righttoleftmark</key>
+  <string>righttoleftmark.glif</string>
+  <key>righttoleftoverride</key>
+  <string>righttoleftoverride.glif</string>
+  <key>zerowidthjoiner</key>
+  <string>zerowidthjoiner.glif</string>
+  <key>zerowidthnonjoiner</key>
+  <string>zerowidthnonjoiner.glif</string>
+</dict>
+</plist>
