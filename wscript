@@ -29,17 +29,24 @@ generated = 'generated/'
 #   --noOTkern - omit CA-based kerning in OpenType
 opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--noOTkern'}, {'opt': '--regOnly'})
 
-noOTkern = ' -D noOTkern=yes' if '--noOTkern' in opts else ''
-
 cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx']),
         cmd('${OCTALAP} -m ${SRC} -o ${TGT} ${DEP}', 'source/graphite/${DS:FILENAME_BASE}-octabox.json')
         ]
 
 if '--norename' not in opts:
     cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo']))
+
 if '--autohint' in opts:
     # Note: in some fonts ttfautohint-generated hints don't maintain stroke thickness at joins; test thoroughly
     cmds.append(cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}'))
+
+if '--noOTkern' in opts:
+    noOTkern = ' -D noOTkern=yes'
+    OTdepends = []
+else:
+    noOTkern = ''
+    OTdepends = ['source/opentype/${DS:FILENAME_BASE-caKern.fea}']
+
 dspace_file = 'source/lateef.designspace' if '--regOnly' not in opts else 'source/lateef-RegOnly.designspace'
 
 designspace(dspace_file,
@@ -52,17 +59,21 @@ designspace(dspace_file,
     graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
         master = 'source/graphite/master.gdl',
         make_params = omitaps + ' --cursive "exit=entry,rtl" --cursive "digitR=digitL"',
-        depends = ['source/graphite/cp1252.gdl', 'source/graphite/features.gdh'],
+        depends = ['source/graphite/caBasedKerning.gdl', 
+                   'source/graphite/cp1252.gdl', 
+                   'source/graphite/features.gdh', 
+                   'source/graphite/glyphs.gdh', 
+                   'source/graphite/stddef.gdh'],
         params = '-q -e ${DS:FILENAME_BASE}_gdlerr.txt',
         ),
 
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
         mapfile = generated + '${DS:FILENAME_BASE}.map',
         master = 'source/opentype/${DS:FILENAME_BASE}.feax',
-        depends = ('source/opentype/gsub.feax',
+        depends = ['source/opentype/gsub.feax',
                    'source/opentype/${DS:FILENAME_BASE}-caKern.fea',
                    'source/opentype/gpos.feax',
-                  ),
+                  ] + OTdepends,
         make_params = omitaps + noOTkern,
         params = '-m ' + generated + '${DS:FILENAME_BASE}.map',
         ),
