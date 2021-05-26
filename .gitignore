@@ -16,6 +16,9 @@ graide_dbg_output.json
 graide_image*.png
 dbg_*.txt
 
+# working directories used during grkern2fea research
+grkern*/**
+
 # general backup files
 *~
 *.swp
