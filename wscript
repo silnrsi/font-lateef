@@ -45,7 +45,7 @@ if '--noOTkern' in opts:
     OTdepends = []
 else:
     noOTkern = ''
-    OTdepends = ['source/opentype/${DS:FILENAME_BASE-caKern.fea}']
+    OTdepends = ['source/opentype/${DS:FILENAME_BASE}-caKern.fea']
 
 dspace_file = 'source/lateef.designspace' if '--regOnly' not in opts else 'source/lateef-RegOnly.designspace'
 
