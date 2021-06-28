@@ -7,7 +7,7 @@
   <key>capHeight</key>
   <integer>1022</integer>
   <key>copyright</key>
-  <string>Copyright (c) 1994-2020 SIL International.</string>
+  <string>Copyright (c) 1994-2021 SIL International.</string>
   <key>descender</key>
   <integer>-1488</integer>
   <key>familyName</key>
@@ -122,7 +122,7 @@
   <key>openTypeNameDesignerURL</key>
   <string>http://software.sil.org/lateef</string>
   <key>openTypeNameLicense</key>
-  <string>Copyright (c) 1994-2020, SIL International (http://www.sil.org/).
+  <string>Copyright (c) 1994-2021, SIL International (http://www.sil.org/).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1, with Reserved Font Names "Lateef" and "SIL". This license is copied below, and is also available with an FAQ at: http://scripts.sil.org/OFL
 
