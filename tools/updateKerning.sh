@@ -71,7 +71,7 @@ then
   do
     for w in "${WEIGHTS[@]}"
     do
-      tools/octalap -q -j 0 -o source/graphite/Lateef$f-$w-octabox.json results/Lateef$f-$w.ttf &
+      octalap -q -j 0 -o source/graphite/Lateef$f-$w-octabox.json results/Lateef$f-$w.ttf &
     done
   done
 
