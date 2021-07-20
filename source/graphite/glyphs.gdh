@@ -2,15 +2,15 @@
 //
 //	File: glyphs.gdh
 //
-//	Glyph definitions and attachment points for Harmattan
+//	Additional glyph and class definitions for Lateef
 //
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
-	This file is part of Harmattan font family 
-	(http://scripts.sil.org/Harmattan) and is 
-	Copyright (c) 2014-2020 SIL International (http://www.sil.org/),
-	with Reserved Font Names "Harmattan" and "SIL".
+	This file is part of Lateef font family 
+	(http://software.sil.org/lateef) and is 
+	Copyright (c) 1994-2020 SIL International (http://www.sil.org/),
+	with Reserved Font Names "Lateef" and "SIL".
 
 	This Font Software is licensed under the SIL Open Font License,
 	Version 1.1.
