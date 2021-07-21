@@ -11,9 +11,9 @@
 #      export R=50 updateKerning
 
 # Command line options:
-#    --noftml        don't rebuild ftml
-#    --nooctalap     don't rebuild optimized octaboxes
-#    --regOnly       process only the Lateef Regular font rather than all six
+#    --ftml        rebuild ftml
+#    --octalap     rebuild optimized octaboxes
+#    --regOnly     process only the Lateef Regular font rather than all six
 
 set -e	# Stop on error
 # set -x	# echo before execution
@@ -51,6 +51,10 @@ do
     
     *)
     echo "unrecognized parameter $1"
+    echo "Command line options:"
+    echo "   --ftml         rebuild ftml"
+    echo "   --octalap      rebuild optimized octaboxes"
+    echo "   --regOnly      process only the Lateef Regular font rather than all six"
     exit 
   esac
   shift
@@ -116,11 +120,13 @@ do
   done
   # do only 2 at a time to keep from running out of memory
   wait
-  echo two grkern2fea done.
+  echo "
+grkern2fea completed for Lateef$f Regular and Bold."
 done
 
-echo "finished successfully, and the following files were regenerated:"
-if [ ${NOOCTALAP} == 0 ] 
+echo "
+finished successfully, and the following files were regenerated:"
+if [ ${OCTALAP} == 1 ] 
 then
   for f in "${FACES[@]}" ; do
     for w in "${WEIGHTS[@]}" ; do
