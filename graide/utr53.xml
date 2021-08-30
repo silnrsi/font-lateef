@@ -6,51 +6,51 @@
     <fontscale>300</fontscale>
     <fontsrc>url(..\results\Lateef-Regular-graide.ttf)</fontsrc>
     <styles>
-      <style feats="cv62=2" name="fset380" />
-      <style feats="cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv08=0 cv12=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" name="fset387" />
-      <style feats="cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" name="fset388" />
-      <style feats="cv02=0 cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" name="fset389" />
-      <style feats="cv48=0 cv50=0 cv02=0 cv08=0 cv12=0 cv20=0 cv44=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" name="fset390" />
+      <style name="fset380" feats="cv62=2" />
+      <style name="fset387" feats="cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv08=0 cv12=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" />
+      <style name="fset388" feats="cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" />
+      <style name="fset389" feats="cv02=0 cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" />
+      <style name="fset390" feats="cv48=0 cv50=0 cv02=0 cv08=0 cv12=0 cv20=0 cv44=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" />
     </styles>
     <title>Kerning (NG)</title>
   </head>
   <testgroup label="main">
-    <test class="fset389" label="beh-dagalef-fatha-shadda-hamza-highseen" rtl="True">
+    <test label="beh-dagalef-fatha-shadda-hamza-highseen" rtl="True" class="fset389">
       <comment>Marks should completely reverse except hamza-highseen should stay in relative order.</comment>
       <string>بَّٰٔۜ</string>
     </test>
-    <test class="fset389" label="alefmadda-dagalef" rtl="True">
+    <test label="alefmadda-dagalef" rtl="True" class="fset389">
       <string>آٰ</string>
     </test>
-    <test class="fset389" label="beh-kasra-220MCM-220other-220MCM" rtl="True">
+    <test label="beh-kasra-220MCM-220other-220MCM" rtl="True" class="fset389">
       <comment>2nd hamza shouldn't move</comment>
       <string>بِٕٖٕ</string>
     </test>
     <test label="beh-fatha-230MCM-230other-230MCM" rtl="True">
       <string>بَٔٚٔ</string>
     </test>
-    <test class="fset387" label="hammza-fatha-damma" rtl="True">
+    <test label="hammza-fatha-damma" rtl="True" class="fset387">
       <string>بَُٔ بَُٔ</string>
     </test>
-    <test class="fset388" label="hamza-damma" rtl="True">
+    <test label="hamza-damma" rtl="True" class="fset388">
       <string>بُٔ بُٔ</string>
     </test>
-    <test class="fset387" label="alefMadda-fatha-hamza" rtl="True">
+    <test label="alefMadda-fatha-hamza" rtl="True" class="fset387">
       <string> آَٔ</string>
     </test>
-    <test class="fset390" label="superlong" rtl="True">
+    <test label="superlong" rtl="True" class="fset390">
       <string>بؘَؙُِّّٖٜٕٔ٘ٓٔ</string>
     </test>
-    <test class="fset390" label="yeh-heh-kasra-seenbelow" rtl="True">
+    <test label="yeh-heh-kasra-seenbelow" rtl="True" class="fset390">
       <string>يهِۣ</string>
     </test>
-    <test class="fset390" label="kashida-kasra-shadda-yehabove" rtl="True">
+    <test label="kashida-kasra-shadda-yehabove" rtl="True" class="fset390">
       <string>ـِّۧ</string>
     </test>
-    <test class="fset380" label="feh-shadda-cgj-kasra" rtl="True">
+    <test label="feh-shadda-cgj-kasra" rtl="True" class="fset380">
       <string>فِ͏ّ</string>
     </test>
-    <test class="fset380" label="teh-kasra-smallHighYeh-shadda" rtl="True">
+    <test label="teh-kasra-smallHighYeh-shadda" rtl="True" class="fset380">
       <string>تِّۧ</string>
     </test>
   </testgroup>

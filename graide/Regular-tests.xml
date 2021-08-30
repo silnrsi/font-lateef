@@ -5,51 +5,51 @@
     <columns comment="30%" label="15%" string="50%" style="5%" />
     <fontsrc>url(..\results\Lateef-Regular-graide.ttf)</fontsrc>
     <styles>
-      <style feats="cv82=1" name="fset2" />
-      <style feats="ut53=0" name="fset289" />
-      <style feats="cv70=1" name="fset3" />
-      <style lang="ur" name="fset356" />
-      <style feats="cv60=0 cv62=0 cv02=0 cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0" name="fset381" />
-      <style feats="cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv08=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" name="fset382" />
-      <style feats="cv44=0 cv48=0 cv50=0 cv62=0 cv70=0 cv72=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" name="fset391" />
-      <style feats="cv44=1" name="fset392" />
-      <style lang="sd" name="fset393" />
-      <style feats="cv02=2" name="fset4" />
+      <style name="fset2" feats="cv82=1" />
+      <style name="fset289" feats="ut53=0" />
+      <style name="fset3" feats="cv70=1" />
+      <style name="fset356" lang="ur" />
+      <style name="fset381" feats="cv60=0 cv62=0 cv02=0 cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0" />
+      <style name="fset382" feats="cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv08=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" />
+      <style name="fset391" feats="cv44=0 cv48=0 cv50=0 cv62=0 cv70=0 cv72=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" />
+      <style name="fset392" feats="cv44=1" />
+      <style name="fset393" lang="sd" />
+      <style name="fset4" feats="cv02=2" />
     </styles>
   </head>
   <testgroup label="main" />
   <testgroup label="meem">
-    <test class="fset391" label="meem" rtl="True">
+    <test label="meem" rtl="True">
       <string>م ممم</string>
     </test>
-    <test class="fset392" label="meem cv44" rtl="True">
+    <test label="meem cv44" rtl="True" class="fset392">
       <string>م ممم</string>
     </test>
-    <test class="fset393" label="meem sindhi" rtl="True">
+    <test label="meem sindhi" rtl="True" class="fset393">
       <string>م ممم</string>
     </test>
   </testgroup>
   <testgroup label="subtending marks">
-    <test class="fset2" label="ayah-ar 123">
+    <test label="ayah-ar 123" class="fset2">
       <string>۝۱۱۳</string>
     </test>
-    <test class="fset356" label="ayah-ar 467">
+    <test label="ayah-ar 467" class="fset356">
       <string>۝۴۶۷</string>
     </test>
-    <test class="fset391" label="0600 number-ar latin">
+    <test label="0600 number-ar latin" class="fset391">
       <string>ب؀م ؀2 ؀22 ؀222 ؀12</string>
     </test>
   </testgroup>
   <testgroup label="mark ligatures">
-    <test class="fset3" label="hamza damma">
+    <test label="hamza damma" class="fset3">
       <string>بُٔ</string>
     </test>
-    <test class="fset3" label="shadda damma">
+    <test label="shadda damma" class="fset3">
       <string>بُّ</string>
     </test>
   </testgroup>
   <testgroup label="lam-alef">
-    <test class="fset4" label="lam alef hamzabelow" rtl="True">
+    <test label="lam alef hamzabelow" rtl="True" class="fset4">
       <string>أِ</string>
     </test>
     <test label="dia2b" rtl="True">
@@ -62,16 +62,16 @@
     <test label="alefMadda-fatha-shadda" rtl="True">
       <string>آَّ</string>
     </test>
-    <test class="fset381" label="alefMadda-shadda" rtl="True">
+    <test label="alefMadda-shadda" rtl="True" class="fset381">
       <string>آٔ</string>
     </test>
   </testgroup>
   <testgroup label="mark issues">
-    <test class="fset289" label="gr shaping issue with some marks" rtl="True">
+    <test label="gr shaping issue with some marks" rtl="True" class="fset289">
       <comment>Should show initial form</comment>
       <string>بٰٔ‍</string>
     </test>
-    <test class="fset382" label="cgj in mark sequence" rtl="True">
+    <test label="cgj in mark sequence" rtl="True" class="fset382">
       <string>اُ͏ٔ</string>
     </test>
   </testgroup>

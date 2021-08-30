@@ -4,15 +4,15 @@ rem Batch file to run graide on Lateef-Regular
 rem Configuration
 
 rem Whether to run graide from an exe or from the source clone:
-set useSource=yes
-rem set useSource=no
+rem set useSource=yes
+set useSource=no
 
 rem if useSource is not "yes", then the following two values are used to construct 
 rem name of graide executable using the expression "graide%ver%%suffix%.exe"
 
 rem ver = version info for use in finding the correct version of graide.exe:
-rem set ver=0_8_80
-set ver=
+set ver=1_0_0
+rem set ver=
 
 rem suffix = _console if there is a special console variant of graide.exe; else nothing:
 rem set suffix=_console
@@ -27,7 +27,7 @@ if "%useSource%" == "yes" (
 	set PYGRAPHITE2_LIBRARY_PATH=C:\DosUtils\graphite2.dll\2021-05-20-graphite2-32-prod.dll
 )
 rem alternatively you can use the system default:
-rem set PYGRAPHITE2_LIBRARY_PATH=
+set PYGRAPHITE2_LIBRARY_PATH=
 
 rem done with configuration
 
