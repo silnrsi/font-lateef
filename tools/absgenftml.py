@@ -510,11 +510,11 @@ def doit(args):
             ftml.defaultRTL = True
             addMarks = "with marks" in test.lower()
             # rules for kerning reh followed by dual- or right-joining:
-            for uid1 in rehs:  # (rehs[0],)
+            # For debugging, use smaller set:
+            rehs=rehs[0:1]
+            uids = list(filter(lambda uid: get_ucd(uid,'jg') == 'Alef', uids))[0:4]
+            for uid1 in rehs:
                 for uid2 in uids:
-#                    if uid2 == 0x0622:
-#                        # alefMadda gets decomposed; we'll handle this decomp below
-#                        continue
                     if get_ucd(uid2, 'age').startswith('13.'):
                         ftml.setBackground(ageColor)
                     for featlist in builder.permuteFeatures(uids=(uid1,uid2)):
@@ -551,7 +551,8 @@ def doit(args):
                     ftml.clearFeatures()
                     ftml.clearBackground()
             # add rules for kerning followed by certain punctuation:
-            for uid1 in rehs[0:0]:
+            # Temporarily removed for testing
+            for uid1 in rehs[0:0]:  # rehs
                 for uid2 in filter(lambda x: x in builder.uids(), (
                         0x0021,  # EXCLAMATION MARK
                         # 0x0022,  # QUOTATION MARK
