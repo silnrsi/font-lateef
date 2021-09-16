@@ -547,17 +547,11 @@ def doit(args):
                             builder.render([uid1, mb, uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                             builder.render([uid1, mb, uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                             #builder.render([uid1, mb, uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-#                            if uid2 == 0x0627:
-#                                # Because alefMadda decompose for reordering we add rules for
-#                                # handling *two* marks-bove between alef and mb:
-#                                builder.render([uid1,     0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-#                                builder.render([uid1, ma, 0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-#                                builder.render([uid1, mb, 0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                     ftml.closeTest()
                     ftml.clearFeatures()
                     ftml.clearBackground()
             # add rules for kerning followed by certain punctuation:
-            for uid1 in rehs:  # (rehs[0],)
+            for uid1 in rehs[0:0]:
                 for uid2 in filter(lambda x: x in builder.uids(), (
                         0x0021,  # EXCLAMATION MARK
                         # 0x0022,  # QUOTATION MARK
