@@ -1,42 +1,52 @@
 lookup kernpos_0 {
-    pos reh-ar <-240 0 -240 0>;
+    pos reh-ar <-231 0 -231 0>;
 } kernpos_0;
 
 lookup kernpos_1 {
-    pos reh-ar <-240 0 -240 0>;
+    pos reh-ar <-250 0 -250 0>;
     pos reh-ar.fina <-207 0 -207 0>;
 } kernpos_1;
 
 lookup kernpos_2 {
-    pos reh-ar <-45 0 -45 0>;
-    pos reh-ar.fina <-40 0 -40 0>;
+    pos reh-ar <-44 0 -44 0>;
+    pos reh-ar.fina <-39 0 -39 0>;
 } kernpos_2;
 
 lookup kernpos_3 {
-    pos reh-ar <250 0 250 0>;
+    pos reh-ar <251 0 251 0>;
     pos reh-ar.fina <242 0 242 0>;
 } kernpos_3;
 
 lookup kernpos_4 {
-    pos reh-ar <250 0 250 0>;
-    pos reh-ar.fina <265 0 265 0>;
+    pos reh-ar <251 0 251 0>;
+    pos reh-ar.fina <261 0 261 0>;
 } kernpos_4;
 
+lookup kernpos_5 {
+    pos reh-ar <273 0 273 0>;
+    pos reh-ar.fina <281 0 281 0>;
+} kernpos_5;
 
-@kernClass_1 = [reh-ar reh-ar.fina];  # used 11 times
+
+@kernClass_1 = [reh-ar reh-ar.fina];  # used 24 times
+@kernClass_2 = [alef-ar alefWasla-ar];  # used 7 times
+@kernClass_3 = [@_diaA @_diaB];  # used 2 times
+lookup kernposchain_0 {
+    pos @kernClass_1' lookup kernpos_3 @_diaA alef-ar;
+    pos @kernClass_1' lookup kernpos_4 @_diaA alefWasla-ar;
+    pos @kernClass_1' lookup kernpos_4 @_diaB alef-ar;
+    pos @kernClass_1' lookup kernpos_5 @_diaB alefWasla-ar;
+    pos @kernClass_1' lookup kernpos_3 alef-ar;
+    pos @kernClass_1' lookup kernpos_4 alefWasla-ar;
+} kernposchain_0;
 lookup mainkern {
-    pos @kernClass_1' lookup kernpos_3 @_diaA alef-ar @_diaA @_diaA @_diaB;
-    pos @kernClass_1' lookup kernpos_4 @_diaB alef-ar @_diaA @_diaA @_diaB;
-    pos @kernClass_1' lookup kernpos_3 alef-ar @_diaA @_diaA @_diaB;
-    pos @kernClass_1' lookup kernpos_3 @_diaA alef-ar @_diaA @_diaB;
-    pos @kernClass_1' lookup kernpos_4 @_diaB alef-ar @_diaA @_diaB;
-    pos @kernClass_1' lookup kernpos_3 alef-ar @_diaA @_diaB;
-    pos @kernClass_1' lookup kernpos_3 @_diaA alef-ar @_diaB;
-    pos @kernClass_1' lookup kernpos_4 @_diaB alef-ar @_diaB;
-    pos reh-ar' lookup kernpos_0 @_diaB alef-ar;
-    pos @kernClass_1' lookup kernpos_2 @_diaA alef-ar;
-    pos @kernClass_1' lookup kernpos_3 alef-ar @_diaB;
-    pos @kernClass_1' lookup kernpos_1 alef-ar;
+    pos reh-ar' lookup kernpos_0 @_diaB @kernClass_2;
+    pos @kernClass_1' lookup kernpos_2 @_diaA @kernClass_2;
+    pos @kernClass_1' lookup kernpos_1 @kernClass_2;
     
+    pos @kernClass_1' lookup kernposchain_0 @kernClass_2' @_diaB;
+    pos @kernClass_1' lookup kernposchain_0 @kernClass_3' @kernClass_2' @_diaB;
+    pos @kernClass_1' lookup kernposchain_0 @kernClass_2' @_diaA @_diaB;
+    pos @kernClass_1' lookup kernposchain_0 @kernClass_3' @kernClass_2' @_diaA @_diaB;
     
 } mainkern;

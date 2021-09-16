@@ -512,7 +512,7 @@ def doit(args):
             # rules for kerning reh followed by dual- or right-joining:
             # For debugging, use smaller set:
             rehs=rehs[0:1]
-            uids = list(filter(lambda uid: get_ucd(uid,'jg') == 'Alef', uids))[0:4]
+            uids = list(filter(lambda uid: get_ucd(uid,'jg') == 'Alef', uids))[0:5]
             for uid1 in rehs:
                 for uid2 in uids:
                     if get_ucd(uid2, 'age').startswith('13.'):
