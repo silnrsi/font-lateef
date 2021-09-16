@@ -58,7 +58,8 @@ lookup mirror {
 
 
 #********************
-# for UTR53 stacks, this decomposition will already have been done:
+# For full UTR53 stacks, this decomposition will already have been done.
+# Howver, as of 2021-09 Harfbuzz does NOT do this See https://github.com/harfbuzz/harfbuzz/issues/3179
 
 lookup DecomposeForColor {
   lookupflag IgnoreMarks ;
@@ -96,9 +97,9 @@ lookup FontCheck {
 #********************
 # Reordering of madda: moving it beyond any mark with 0 < ccc < 230
 #
-# If Harfbuzz is rendering, UTR53 will already have been executed, thus the following will do nothing
-# Otherwise, we can't do a lot of reordering but we'll move the madda out past vowels
-# in a way that is compatible with UTR53.
+# For full UTR53 stacks this will already have been executed, thus the following will do nothing.
+# Otherwise (e.g. for HarfBuzz as of 2021-09), we can't do a lot of reordering but we'll move 
+# the madda out past vowels in a way that is compatible with UTR53.
 
 @MaddaSkip = [ @UTR53_shadda @UTR53_fixedPos @UTR53_alef @UTR53_220MCM @UTR53_220other ] ;
 
@@ -121,6 +122,10 @@ lookup ReorderMaddaVowel2 {
   lookupflag 0 ;
     sub madda-ar' lookup ReorderMaddaVowel2_target @MaddaSkip madda-ar ;
 } ReorderMaddaVowel2;
+
+
+#********************
+# Replace Arabic punctuation glyphs with Latin ones:
 
 lookup LatinPunctuation {
   lookupflag 0 ;
