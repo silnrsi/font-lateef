@@ -512,9 +512,9 @@ def doit(args):
             # rules for kerning reh followed by dual- or right-joining:
             for uid1 in rehs:  # (rehs[0],)
                 for uid2 in uids:
-                    if uid2 == 0x0622:
-                        # alefMadda gets decomposed; we'll handle this decomp below
-                        continue
+#                    if uid2 == 0x0622:
+#                        # alefMadda gets decomposed; we'll handle this decomp below
+#                        continue
                     if get_ucd(uid2, 'age').startswith('13.'):
                         ftml.setBackground(ageColor)
                     for featlist in builder.permuteFeatures(uids=(uid1,uid2)):

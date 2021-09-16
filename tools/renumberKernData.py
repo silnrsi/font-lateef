@@ -7,11 +7,15 @@
 import re
 import sys
 
+ignoreRE = re.compile(r'madda|hamza')
 indexRE = re.compile(r'!\d+')
 
 with open(sys.argv[1]) as fin:
     with open(sys.argv[2], 'w') as fout:
         for line in fin:
+            # If line includes "madda" or "hamza" (from alef decompositions) ignore it:
+            if ignoreRE.search(line):
+                continue
             # Split on whitespace into "words"
             l = line.split()
             # pop first word (the quoted string) and save for later:
