@@ -30,6 +30,7 @@ FACES=("" Light Book)
 WEIGHTS=(Regular Bold)
 OCTALAP=0
 FTML=0
+FTMLONLY=0
 
 # Look for options:
 while [[ $# -gt 0 ]]
@@ -49,10 +50,15 @@ do
     FTML=1
     ;;
     
+    --ftmlonly)
+    FTML=2
+    ;;
+
     *)
     echo "unrecognized parameter $1"
     echo "Command line options:"
     echo "   --ftml         rebuild ftml"
+    echo "   --ftmlonly     rebuild ftml but do nothing else"
     echo "   --octalap      rebuild optimized octaboxes"
     echo "   --regOnly      process only the Lateef Regular font rather than all six"
     exit 
@@ -60,7 +66,27 @@ do
   shift
 done
 
-echo -e "\nUpdating kerning\n\nrebuilding fonts without glyph kerning or renaming...\n"
+echo -e "\nUpdating kerning\n"
+
+if [ ${FTML} -gt 0 ]
+then
+  echo -e "\nrebuilding kerndata.ftml...\n"
+
+  tools/absgenftml.py -p scrlevel=W -t "KernData with Marks" --norendercheck --ap "_?dia[AB]$" \
+        --xsl ../tools/ftml.xsl --scale 200 -i source/glyph_data.csv -w "80%" \
+        -s "url(../results/Lateef-Regular.ttf)=Reg-Gr" \
+        -s "url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)=Reg-OT" \
+        -s "url(../results/Lateef-Bold.ttf)=Bld-Gr" \
+        -s "url(../results/tests/ftml/fonts/Lateef-Bold_ot_arab.ttf)=Bld-OT" \
+        source/masters/Lateef-Regular.ufo source/kerndata.ftml
+fi
+
+if [ ${FTML} -gt 1 ]
+then
+  exit
+fi
+
+echo -e "\nrebuilding fonts without glyph kerning or renaming...\n"
 
 smith distclean
 smith configure
@@ -88,18 +114,7 @@ then
 
 fi
 
-if [ ${FTML} == 1 ]
-then
-  echo -e "\nrebuilding kerndata.ftml...\n"
 
-  tools/absgenftml.py -p scrlevel=W -t "KernData with Marks" --norendercheck --ap "_?dia[AB]$" \
-        --xsl ../tools/ftml.xsl --scale 200 -i source/glyph_data.csv -w "80%" \
-        -s "url(../results/Lateef-Regular.ttf)=Reg-Gr" \
-        -s "url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)=Reg-OT" \
-        -s "url(../results/Lateef-Bold.ttf)=Bld-Gr" \
-        -s "url(../results/tests/ftml/fonts/Lateef-Bold_ot_arab.ttf)=Bld-OT" \
-        source/masters/Lateef-Regular.ufo source/kerndata.ftml
-fi
 
 echo -e "\nrebuilding collision-avoidance-based kerning fea files...\n"
 
