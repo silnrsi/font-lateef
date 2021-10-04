@@ -7,7 +7,7 @@
 import re
 import sys
 
-ignoreRE = re.compile(r'madda|hamza')
+ignoreRE = re.compile(r'\[(?:madda|hamzaabove|hamzabelow)')
 indexRE = re.compile(r'!\d+')
 
 with open(sys.argv[1]) as fin:
