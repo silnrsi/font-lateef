@@ -510,9 +510,9 @@ def doit(args):
             ftml.defaultRTL = True
             addMarks = "with marks" in test.lower()
             # rules for kerning reh followed by dual- or right-joining:
-            # For debugging, use smaller set:
-            rehs=rehs[0:1]
-            uids = list(filter(lambda uid: get_ucd(uid,'jg') == 'Alef', uids))[0:5]
+            # For debugging, use smaller sets:
+            # rehs=rehs[0:1]
+            # uids = list(filter(lambda uid: get_ucd(uid,'jg') == 'Alef', uids))
             for uid1 in rehs:
                 for uid2 in uids:
                     # NB: 3 decomposable chars (alefHamzaabove, alefMaddah, alefHamzaBelow) are in included in this data so they can
@@ -563,8 +563,7 @@ def doit(args):
                     ftml.clearFeatures()
                     ftml.clearBackground()
             # add rules for kerning followed by certain punctuation:
-            # Temporarily removed for testing
-            for uid1 in rehs[0:0]:  # rehs
+            for uid1 in rehs: 
                 for uid2 in filter(lambda x: x in builder.uids(), (
                         0x0021,  # EXCLAMATION MARK
                         # 0x0022,  # QUOTATION MARK
