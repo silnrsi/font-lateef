@@ -67,13 +67,14 @@ cComplexShape = (
 // correctly to slot attributes. (was fixed in https://github.com/silnrsi/graphite/commit/70422617ec4e797288f5a1150fcd6c30ab7babed)
 // Instead, we will set them later in the kerning pass.
 
-// Set collision margin, complexFit and flags for all reh-like things
-cRehAll { collision {
+// Set collision margin, complexFit and flags for all reh-like and waw-like things
+cRehWawAll  { 
+        collision {
             margin = 190m;
             complexFit = true;
             flags = COLL_FIX + COLL_KERN; // + COLL_END + COLL_START
                     }
-        };
+    };
 
 
 // Other chars needed:
@@ -91,10 +92,10 @@ table (positioning)
 
 pass(4) 
     // Turn of kerning if next slot is a whitespace char:
-    cRehAll   { collision.flags = 0 } / _ MARKS cWhitespace;
+    cRehWawAll   { collision.flags = 0 } / _ MARKS cWhitespace;
 
     // Set slot attributes for CA-based kerning:
-    cRehAll { collision {
+    cRehWawAll { collision {
                 min.x = -1000m ; 
                 max.x = 1000m  ;    
                         }
