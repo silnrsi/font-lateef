@@ -513,7 +513,7 @@ def doit(args):
             # For debugging, use smaller sets:
             # rehs=rehs[0:1]
             # uids = list(filter(lambda uid: get_ucd(uid,'jg') == 'Alef', uids))
-            for uid1 in rehs:
+            for uid1 in rehs + waws:
                 for uid2 in uids:
                     # NB: 3 decomposable chars (alefHamzaabove, alefMaddah, alefHamzaBelow) are in included in this data so they can
                     #     be tested. However, for kerning computation any strings containing hamzaabove, hamzabelow, or madda are
@@ -563,7 +563,7 @@ def doit(args):
                     ftml.clearFeatures()
                     ftml.clearBackground()
             # add rules for kerning followed by certain punctuation:
-            for uid1 in rehs: 
+            for uid1 in rehs + waws: 
                 for uid2 in filter(lambda x: x in builder.uids(), (
                         0x0021,  # EXCLAMATION MARK
                         # 0x0022,  # QUOTATION MARK
