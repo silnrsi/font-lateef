@@ -42,7 +42,33 @@
 #define SET_KERN(f)    setbits(f, COLL_KERN, COLL_KERN)
 #define SET_ISSPACE(f) setbits(f, COLL_ISSPACE, COLL_ISSPACE)
 
+//---------------------------------------------------
+table(feature)
 
+caKerning {
+    id.hidden = "kern";
+    name.1033 = string("CollisionAvoidance Kerning");
+    settings {
+        default {
+            value = 0;
+            name.1033 = string("Default");
+        }
+        on {
+            value = 1;
+            name.1033 = string("On");
+        }
+        off {
+            value = 2;
+            name.1033 = string("Off");
+        }
+    }
+    default = on;
+}
+
+endtable; // feature
+
+
+//---------------------------------------------------
 table(glyph)
 
 // This isn't the complete list of initials or isolates, but trying it for now
@@ -70,7 +96,7 @@ cComplexShape = (
 // Set collision margin, complexFit and flags for all reh-like and waw-like things
 cRehWawAll  { 
         collision {
-            margin = 190m;
+            margin = 100m;
             complexFit = true;
             flags = COLL_FIX + COLL_KERN; // + COLL_END + COLL_START
                     }
@@ -83,15 +109,15 @@ g_zerowidthjoiner { collision.flags = COLL_IGNORE} ;
 
 endtable; // glyph
 
-
-
 //---------------------------------------------------
 table (positioning)
+
+if (caKerning != off)
 
 // Collision-Avoidance-based kerning
 
 pass(4) 
-    // Turn of kerning if next slot is a whitespace char:
+    // Turn off kerning if next slot is a whitespace char:
     cRehWawAll   { collision.flags = 0 } / _ MARKS cWhitespace;
 
     // Set slot attributes for CA-based kerning:
@@ -105,6 +131,8 @@ endpass;
 pass(5) {CollisionFix = 2; AutoKern = 1}
     // No rules, just run the collision avoidance algorithm
 endpass;
+
+endif;
 
 endtable; // pos
 
