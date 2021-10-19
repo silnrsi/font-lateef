@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO</comment>
+    <fontscale>250</fontscale>
+    <fontsrc label="Lgt-Gr">url(../results/web/LateefLight-Regular.woff2)</fontsrc>
+    <fontsrc label="LateefGr">url(../references/LateefGR-1.200.ttf)</fontsrc>
+    <fontsrc label="Reg-Gr">url(../results/web/Lateef-Regular.woff2)</fontsrc>
+    <!-- fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)</fontsrc -->
+    <fontsrc label="BkBld-Gr">url(../results/web/LateefBook-Bold.woff2)</fontsrc>
+    <styles>
+      <style feats="'kern' 2" name="nokern"/>
+      <style feats="'cv44' 1" name="cv44_1"/>
+      <style feats="'cv48' 1" name="cv48_1"/>
+      <style feats="'cv48' 2" name="cv48_2"/>
+      <style feats="'cv48' 3" name="cv48_3"/>
+      <style feats="'cv51' 1" name="cv51_1"/>
+      <style feats="'cv54' 1" name="cv54_1"/>
+    </styles>
+    <title>Kerning Misc</title>
+    <widths string="20%"/>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+    <test label="kern">
+      <comment>with Gr kerning</comment>
+      <string>\u0631\u0628</string>
+    </test>
+    <test label="kern" stylename="nokern">
+      <comment>without Gr kerning</comment>
+      <string>\u0631\u0628</string>
+    </test>
+  </testgroup>
+  <testgroup label="ABS-2565">
+    <test label="1">
+      <string>جوڑ ہواں</string>
+    </test>
+    <!-- test label="1" background="#FFFFD0" stylename="nokern">
+      <comment>no Gr kern</comment>
+      <string>جوڑ ہواں</string>
+    </test -->
+    <test label="2">
+      <string>زریعہ</string>
+    </test>
+    <!-- test label="2" background="#FFFFD0" stylename="nokern">
+      <comment>no Gr kern</comment>
+      <string>زریعہ</string>
+    </test -->
+    <test label="3">
+      <string>گڑوگاں</string>
+    </test>
+    <!-- test label="3" background="#FFFFD0" stylename="nokern">
+      <comment>no Gr kern</comment>
+      <string>گڑوگاں</string>
+    </test -->
+    <test label="4">
+      <string>لاوو تے</string>
+    </test>
+    <!-- test label="4" background="#FFFFD0" stylename="nokern">
+      <comment>no Gr kern</comment>
+      <string>لاوو تے</string>
+    </test -->
+    <test label="5">
+      <string>پورہ پورہ</string>
+    </test>
+    <!-- test label="5" background="#FFFFD0" stylename="nokern">
+      <comment>no Gr kern</comment>
+      <string>پورہ پورہ</string>
+    </test -->
+    <test label="6">
+      <string>کٞروگ</string>
+    </test>
+    <!-- test label="6" background="#FFFFD0" stylename="nokern">
+      <comment>no Gr kern</comment>
+      <string>کٞروگ</string>
+    </test -->
+    <test label="7">
+      <string>عُمِّ وُرٛ نَسَرَتُ</string>
+    </test>
+    <!-- test label="7" background="#FFFFD0" stylename="nokern">
+      <comment>no Gr kern</comment>
+      <string>عُمِّ وُرٛ نَسَرَتُ</string>
+    </test -->
+  </testgroup>
+</ftml>
