@@ -7,6 +7,7 @@
   <anchor x="519" y="700" name="diaA"/>
   <anchor x="300" y="-200" name="diaB"/>
   <outline>
+    <component base="_tah_bowl" xOffset="459" yOffset="-7"/>
     <contour>
       <point x="440" y="95" type="line"/>
       <point x="337" y="95"/>
@@ -32,6 +33,5 @@
       <point x="291" y="-15"/>
       <point x="461" y="-15" type="curve"/>
     </contour>
-    <component base="_tah_bowl" xOffset="459" yOffset="-7"/>
   </outline>
 </glyph>

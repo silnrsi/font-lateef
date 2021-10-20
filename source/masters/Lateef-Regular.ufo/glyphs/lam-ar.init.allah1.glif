@@ -8,6 +8,7 @@
   <anchor x="75" y="-200" name="diaB"/>
   <anchor x="149" y="592" name="through"/>
   <outline>
+    <component base="_strokeHead" xOffset="-111" yOffset="779"/>
     <contour>
       <point x="98" y="923" type="line"/>
       <point x="131" y="589"/>
@@ -33,12 +34,11 @@
       <point x="197" y="676"/>
       <point x="189" y="864" type="curve"/>
     </contour>
-    <component base="_strokeHead" xOffset="-111" yOffset="779"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

@@ -8,6 +8,8 @@
   <anchor x="800" y="700" name="diaA"/>
   <anchor x="200" y="-510" name="diaB"/>
   <outline>
+    <component base="_bowl_seen" yOffset="20"/>
+    <component base="_tah_bowl" xOffset="892" yOffset="-15"/>
     <contour>
       <point x="869" y="165" type="line"/>
       <point x="786" y="165"/>
@@ -18,7 +20,5 @@
       <point x="814" y="-15"/>
       <point x="894" y="-15" type="curve"/>
     </contour>
-    <component base="_bowl_seen" yOffset="20"/>
-    <component base="_tah_bowl" xOffset="892" yOffset="-15"/>
   </outline>
 </glyph>

@@ -9,6 +9,7 @@
   <anchor x="-2" y="0" name="exit"/>
   <anchor x="226" y="500" name="through"/>
   <outline>
+    <component base="_strokeHead" xOffset="-49" yOffset="777"/>
     <contour>
       <point x="124" y="902" type="line"/>
       <point x="176" y="599"/>
@@ -31,12 +32,5 @@
       <point x="273" y="725"/>
       <point x="261" y="840" type="curve"/>
     </contour>
-    <component base="_strokeHead" xOffset="-49" yOffset="777"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

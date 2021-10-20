@@ -3,6 +3,9 @@
   <advance width="721"/>
   <unicode hex="060B"/>
   <outline>
+    <component base="_dot1" xScale="1.56564" yScale="1.56564" xOffset="417" yOffset="1425"/>
+    <component base="_fehHead" xScale="1.3708" yScale="1.37018" xOffset="278" yOffset="438"/>
+    <component base="alefbelow-ar" xOffset="433" yOffset="-68"/>
     <contour>
       <point x="40" y="0" type="line"/>
       <point x="379" y="0"/>
@@ -16,8 +19,5 @@
       <point x="442" y="280"/>
       <point x="136" y="280" type="curve"/>
     </contour>
-    <component base="_dot1" xScale="1.56564" yScale="1.56564" xOffset="417" yOffset="1425"/>
-    <component base="_fehHead" xScale="1.3708" yScale="1.37018" xOffset="278" yOffset="438"/>
-    <component base="alefbelow-ar" xOffset="433" yOffset="-68"/>
   </outline>
 </glyph>

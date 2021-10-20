@@ -4,13 +4,13 @@
   <anchor x="-1" y="942" name="_diaA"/>
   <anchor x="0" y="1365" name="diaA"/>
   <outline>
+    <component base="_ring" xScale="1.1" yScale="1.1" xOffset="14" yOffset="1157"/>
     <contour>
       <point x="-196" y="1023" type="line"/>
       <point x="148" y="1193" type="line"/>
       <point x="196" y="1308" type="line"/>
       <point x="-146" y="1138" type="line"/>
     </contour>
-    <component base="_ring" xScale="1.1" yScale="1.1" xOffset="14" yOffset="1157"/>
   </outline>
   <lib>
     <dict>

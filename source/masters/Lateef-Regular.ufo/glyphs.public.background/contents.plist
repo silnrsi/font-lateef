@@ -198,6 +198,8 @@
   <string>fatha-ar.glif</string>
   <key>fatha-ar.allah</key>
   <string>fatha-ar.allah.glif</string>
+  <key>fathaCurly-ar</key>
+  <string>fathaC_urly-ar.glif</string>
   <key>fathaDotabove-ar</key>
   <string>fathaD_otabove-ar.glif</string>
   <key>fathaHorizont-ar</key>
@@ -636,6 +638,8 @@
   <string>threedots-ar.glif</string>
   <key>threedotsabove-ar</key>
   <string>threedotsabove-ar.glif</string>
+  <key>toneloopabove-ar</key>
+  <string>toneloopabove-ar.glif</string>
   <key>two-ar</key>
   <string>two-ar.glif</string>
   <key>two-ar.medium</key>

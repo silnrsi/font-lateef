@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tonetwodotsabove-ar" format="2">
   <unicode hex="08EB"/>
-  <anchor x="0" y="-115" name="_diaA"/>
-  <anchor x="0" y="135" name="diaA"/>
+  <anchor x="0" y="1050" name="_diaA"/>
+  <anchor x="0" y="1300" name="diaA"/>
   <outline>
-    <component base="_dot1" xScale="0.72" yScale="0.72" xOffset="-125" yOffset="-20"/>
-    <component base="_dot1" xScale="0.72" yScale="0.72" xOffset="125" yOffset="20"/>
+    <component base="_dot1" xScale="0.72" yScale="0.72" xOffset="-125" yOffset="1145"/>
+    <component base="_dot1" xScale="0.72" yScale="0.72" xOffset="125" yOffset="1185"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

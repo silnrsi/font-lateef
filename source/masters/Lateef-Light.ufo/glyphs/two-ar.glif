@@ -3,6 +3,7 @@
   <advance width="881"/>
   <unicode hex="0662"/>
   <outline>
+    <component base="one-ar" xOffset="-80"/>
     <contour>
       <point x="705" y="1093" type="curve"/>
       <point x="690" y="1093" type="line"/>
@@ -19,7 +20,6 @@
       <point x="605" y="757"/>
       <point x="705" y="857"/>
     </contour>
-    <component base="one-ar" xOffset="-80"/>
   </outline>
   <lib>
     <dict>

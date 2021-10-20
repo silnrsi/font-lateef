@@ -2,20 +2,15 @@
 <glyph name="fathaDotabove-ar" format="2">
   <unicode hex="08F5"/>
   <anchor x="0" y="1056" name="_diaA"/>
-  <anchor x="0" y="1496" name="diaA"/>
+  <anchor x="0" y="1556" name="diaA"/>
   <outline>
-    <contour>
-      <point x="-196" y="1018" type="line"/>
-      <point x="108" y="1169" type="line"/>
-      <point x="156" y="1310" type="line"/>
-      <point x="-146" y="1159" type="line"/>
-    </contour>
-    <component base="_dotCircular"/>
+    <component base="_dotCircular" xOffset="-40" yOffset="50"/>
+    <component base="fatha-ar" xOffset="-170" yOffset="46"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

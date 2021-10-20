@@ -6,6 +6,7 @@
   <anchor x="464" y="988" name="diaA"/>
   <anchor x="310" y="-202" name="diaB"/>
   <outline>
+    <component base="_absSwashKaf" xOffset="258"/>
     <contour>
       <point x="460" y="0" type="curve" smooth="yes"/>
       <point x="480" y="0" type="line"/>
@@ -15,7 +16,6 @@
       <point x="145" y="26"/>
       <point x="292" y="0"/>
     </contour>
-    <component base="_absSwashKaf" xOffset="258"/>
   </outline>
   <lib>
     <dict>

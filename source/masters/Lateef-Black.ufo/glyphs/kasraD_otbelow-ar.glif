@@ -2,20 +2,14 @@
 <glyph name="kasraDotbelow-ar" format="2">
   <unicode hex="08F6"/>
   <anchor x="0" y="-428" name="_diaB"/>
-  <anchor x="0" y="-868" name="diaB"/>
+  <anchor x="0" y="-938" name="diaB"/>
   <outline>
-    <contour>
-      <point x="-158" y="-682" type="line"/>
-      <point x="146" y="-531" type="line"/>
-      <point x="194" y="-390" type="line"/>
-      <point x="-108" y="-541" type="line"/>
-    </contour>
-    <component base="_dotCircular" xOffset="140" yOffset="-2070"/>
+    <component base="fathaDotabove-ar" xScale="-1" yScale="-1" yOffset="626"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

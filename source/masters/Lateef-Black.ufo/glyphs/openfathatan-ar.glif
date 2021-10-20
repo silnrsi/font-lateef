@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="openfathatan-ar" format="2">
   <unicode hex="08F0"/>
-  <anchor x="226" y="1053" name="_diaA"/>
-  <anchor x="226" y="1437" name="diaA"/>
+  <anchor x="-1" y="983" name="_diaA"/>
+  <anchor x="-1" y="1507" name="diaA"/>
   <outline>
-    <component base="fatha-ar" xOffset="120" yOffset="195"/>
-    <component base="fatha-ar" xOffset="-40" yOffset="-45"/>
+    <component base="fatha-ar" xOffset="-90" yOffset="205"/>
+    <component base="fatha-ar" xOffset="-250" yOffset="-45"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

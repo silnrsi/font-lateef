@@ -4,22 +4,26 @@
   <anchor x="0" y="228" name="_below"/>
   <outline>
     <contour>
-      <point x="-147" y="154" type="curve"/>
-      <point x="-182" y="93" type="line"/>
-      <point x="-118" y="66"/>
-      <point x="-32" y="-28"/>
-      <point x="-22" y="-93" type="curve"/>
-      <point x="18" y="-93" type="line"/>
-      <point x="39" y="-18"/>
-      <point x="73" y="80"/>
-      <point x="150" y="119" type="curve"/>
-      <point x="162" y="158" type="line"/>
-      <point x="72" y="128"/>
-      <point x="28" y="46"/>
-      <point x="-2" y="-31" type="curve"/>
-      <point x="5" y="-28" type="line"/>
-      <point x="5" y="27"/>
-      <point x="-98" y="136"/>
+      <point x="-174" y="105" type="line"/>
+      <point x="-118" y="30"/>
+      <point x="-24" y="-81"/>
+      <point x="-11" y="-81" type="curve" smooth="yes"/>
+      <point x="2" y="-81"/>
+      <point x="105" y="26"/>
+      <point x="179" y="121" type="curve"/>
+      <point x="150" y="144" type="line"/>
+      <point x="98" y="79"/>
+      <point x="21" y="-2"/>
+      <point x="11" y="-2" type="curve" smooth="yes"/>
+      <point x="-1" y="-2"/>
+      <point x="-68" y="82"/>
+      <point x="-119" y="147" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

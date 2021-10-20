@@ -14,6 +14,8 @@
   <string>_hook.glif</string>
   <key>_kehehjoiner</key>
   <string>_kehehjoiner.glif</string>
+  <key>_smallV</key>
+  <string>_smallV_.glif</string>
   <key>_strokeHead</key>
   <string>_strokeH_ead.glif</string>
   <key>_tah_bowl</key>
@@ -32,6 +34,8 @@
   <string>alef-ar.allah.glif</string>
   <key>alef-ar.fina.postLamIni</key>
   <string>alef-ar.fina.postL_amI_ni.glif</string>
+  <key>aleflow-ar</key>
+  <string>aleflow-ar.glif</string>
   <key>behDotless-ar</key>
   <string>behD_otless-ar.glif</string>
   <key>behDotless-ar.medi</key>
@@ -46,6 +50,8 @@
   <string>dal-ar.glif</string>
   <key>dal-ar.fina</key>
   <string>dal-ar.fina.glif</string>
+  <key>dammaCurly-ar</key>
+  <string>dammaC_urly-ar.glif</string>
   <key>dammatan-ar</key>
   <string>dammatan-ar.glif</string>
   <key>fehDotless-ar</key>
@@ -82,6 +88,8 @@
   <string>meem-ar.glif</string>
   <key>misraComma-ar</key>
   <string>misraC_omma-ar.glif</string>
+  <key>one-ar</key>
+  <string>one-ar.glif</string>
   <key>pagenumber-ar</key>
   <string>pagenumber-ar.glif</string>
   <key>quotedblbase.arab</key>
@@ -108,6 +116,8 @@
   <string>shadda-ar.allah.glif</string>
   <key>tah-ar</key>
   <string>tah-ar.glif</string>
+  <key>toneloopabove-ar</key>
+  <string>toneloopabove-ar.glif</string>
   <key>vabove-ar</key>
   <string>vabove-ar.glif</string>
   <key>waw-ar</key>

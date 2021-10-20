@@ -106,9 +106,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2021/05/20 01:39:01</string>
-  <key>openTypeHeadFlags</key>
-  <array/>
+  <string>2021/10/19 15:00:36</string>
   <key>openTypeHheaAscender</key>
   <integer>2742</integer>
   <key>openTypeHheaDescender</key>
@@ -198,6 +196,10 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>0</integer>
     <integer>3</integer>
   </array>
+  <key>openTypeOS2Selection</key>
+  <array>
+    <integer>7</integer>
+  </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>1049</integer>
   <key>openTypeOS2StrikeoutSize</key>
@@ -271,10 +273,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   </array>
   <key>postscriptFontName</key>
   <string>Lateef-Light</string>
-  <key>postscriptForceBold</key>
-  <false/>
-  <key>postscriptIsFixedPitch</key>
-  <false/>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-334</integer>

@@ -8,6 +8,7 @@
   <anchor x="663" y="700" name="diaA"/>
   <anchor x="200" y="-510" name="diaB"/>
   <outline>
+    <component base="_bowl_seen" yOffset="20"/>
     <contour>
       <point x="1080" y="206" type="curve"/>
       <point x="1012" y="101" type="line"/>
@@ -46,7 +47,6 @@
       <point x="796" y="95"/>
       <point x="764" y="105"/>
     </contour>
-    <component base="_bowl_seen" yOffset="20"/>
   </outline>
   <lib>
     <dict>

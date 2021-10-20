@@ -8,6 +8,7 @@
   <anchor x="430" y="685" name="diaA"/>
   <anchor x="200" y="-420" name="diaB"/>
   <outline>
+    <component base="_fehHead" xOffset="549" yOffset="49"/>
     <contour>
       <point x="777" y="29" type="line"/>
       <point x="739" y="-86"/>
@@ -30,6 +31,5 @@
       <point x="823" y="-124"/>
       <point x="823" y="104" type="curve"/>
     </contour>
-    <component base="_fehHead" xOffset="549" yOffset="49"/>
   </outline>
 </glyph>

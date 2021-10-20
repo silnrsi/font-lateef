@@ -4,6 +4,7 @@
   <anchor x="0" y="1048" name="_diaA"/>
   <anchor x="0" y="1485" name="diaA"/>
   <outline>
+    <component base="damma-ar" xOffset="56"/>
     <contour>
       <point x="-179" y="1021" type="curve"/>
       <point x="-150" y="1033"/>
@@ -17,6 +18,11 @@
       <point x="-73" y="1262"/>
       <point x="-102" y="1111"/>
     </contour>
-    <component base="damma-ar" xOffset="56"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -3,6 +3,7 @@
   <advance width="1609"/>
   <unicode hex="FDFC"/>
   <outline>
+    <component base="_strokeHead" xOffset="279" yOffset="1040"/>
     <contour>
       <point x="581" y="1075" type="curve"/>
       <point x="504" y="1128" type="line"/>
@@ -103,6 +104,5 @@
       <point x="788" y="-330" type="line"/>
       <point x="892" y="-434" type="line"/>
     </contour>
-    <component base="_strokeHead" xOffset="279" yOffset="1040"/>
   </outline>
 </glyph>

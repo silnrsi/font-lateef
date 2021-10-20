@@ -8,10 +8,4 @@
     <component base="_dot2h" xScale="0.9" yScale="0.9" yOffset="-126"/>
     <component base="_dot1" xScale="0.9" yScale="0.9" xOffset="-3" yOffset="-336"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

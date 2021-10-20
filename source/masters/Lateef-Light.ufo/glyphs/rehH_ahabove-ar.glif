@@ -4,6 +4,7 @@
   <anchor x="634" y="1210" name="_diaA"/>
   <anchor x="634" y="1710" name="diaA"/>
   <outline>
+    <component base="reh-ar" xScale="0.65579" yScale="0.65579" xOffset="681" yOffset="1451"/>
     <contour>
       <point x="294" y="1226" type="curve"/>
       <point x="339" y="1257" type="line"/>
@@ -33,7 +34,6 @@
       <point x="404" y="1554"/>
       <point x="294" y="1397"/>
     </contour>
-    <component base="reh-ar" xScale="0.65579" yScale="0.65579" xOffset="681" yOffset="1451"/>
   </outline>
   <lib>
     <dict>

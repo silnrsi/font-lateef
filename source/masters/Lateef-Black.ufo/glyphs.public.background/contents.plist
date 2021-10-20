@@ -180,6 +180,8 @@
   <string>eight.medium.glif</string>
   <key>eight.small</key>
   <string>eight.small.glif</string>
+  <key>fathaCurly-ar</key>
+  <string>fathaC_urly-ar.glif</string>
   <key>fathaRing-ar</key>
   <string>fathaR_ing-ar.glif</string>
   <key>fathatan-ar</key>
@@ -558,6 +560,8 @@
   <string>threedots-ar.glif</string>
   <key>threedotsabove-ar</key>
   <string>threedotsabove-ar.glif</string>
+  <key>toneloopabove-ar</key>
+  <string>toneloopabove-ar.glif</string>
   <key>two-ar</key>
   <string>two-ar.glif</string>
   <key>two-ar.medium</key>

@@ -8,6 +8,7 @@
   <anchor x="150" y="-202" name="diaB"/>
   <anchor x="244" y="512" name="through"/>
   <outline>
+    <component base="_strokeHead" xOffset="-30" yOffset="779"/>
     <contour>
       <point x="186" y="921" type="line"/>
       <point x="220" y="632"/>
@@ -33,7 +34,6 @@
       <point x="290" y="418"/>
       <point x="266" y="849" type="curve"/>
     </contour>
-    <component base="_strokeHead" xOffset="-30" yOffset="779"/>
   </outline>
   <lib>
     <dict>

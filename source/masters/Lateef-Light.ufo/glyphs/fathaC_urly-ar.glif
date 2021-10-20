@@ -1,48 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fathaCurly-ar" format="2">
   <unicode hex="08E4"/>
-  <anchor x="172" y="1107" name="_diaA"/>
-  <anchor x="135" y="1395" name="diaA"/>
+  <anchor x="173" y="1107" name="_diaA"/>
+  <anchor x="136" y="1395" name="diaA"/>
   <outline>
     <contour>
-      <point x="283" y="1282" type="curve" smooth="yes"/>
-      <point x="283" y="1333"/>
-      <point x="242" y="1367"/>
-      <point x="231" y="1367" type="curve" smooth="yes"/>
-      <point x="227" y="1367"/>
-      <point x="225" y="1365"/>
-      <point x="225" y="1362" type="curve" smooth="yes"/>
-      <point x="225" y="1357"/>
-      <point x="254" y="1341"/>
-      <point x="254" y="1316" type="curve" smooth="yes"/>
-      <point x="254" y="1265"/>
-      <point x="188" y="1242"/>
-      <point x="130" y="1229" type="curve" smooth="yes"/>
-      <point x="69" y="1217"/>
-      <point x="12" y="1185"/>
-      <point x="12" y="1140" type="curve" smooth="yes"/>
-      <point x="12" y="1088"/>
-      <point x="53" y="1054"/>
-      <point x="65" y="1054" type="curve" smooth="yes"/>
-      <point x="67" y="1054"/>
-      <point x="69" y="1056"/>
-      <point x="69" y="1060" type="curve" smooth="yes"/>
-      <point x="69" y="1065"/>
-      <point x="42" y="1080"/>
-      <point x="42" y="1105" type="curve" smooth="yes"/>
-      <point x="42" y="1156"/>
-      <point x="102" y="1178"/>
-      <point x="166" y="1192" type="curve" smooth="yes"/>
-      <point x="229" y="1206"/>
-      <point x="283" y="1237"/>
+      <point x="69" y="1056" type="line"/>
+      <point x="-81" y="1206"/>
+      <point x="452" y="1156"/>
+      <point x="232" y="1376" type="curve"/>
+      <point x="217" y="1363" type="line"/>
+      <point x="367" y="1213"/>
+      <point x="-166" y="1263"/>
+      <point x="54" y="1043" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>300</integer>
+      <integer>286</integer>
       <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

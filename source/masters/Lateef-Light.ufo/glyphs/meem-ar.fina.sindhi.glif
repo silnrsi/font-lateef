@@ -7,6 +7,7 @@
   <anchor x="502" y="700" name="diaA"/>
   <anchor x="300" y="-243" name="diaB"/>
   <outline>
+    <component base="meem-ar.sindhi" yOffset="-70"/>
     <contour>
       <point x="785" y="116" type="line"/>
       <point x="829" y="44"/>
@@ -22,6 +23,5 @@
       <point x="764" y="409"/>
       <point x="676" y="409" type="curve"/>
     </contour>
-    <component base="meem-ar.sindhi" yOffset="-70"/>
   </outline>
 </glyph>

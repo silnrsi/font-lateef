@@ -9,6 +9,7 @@
   <anchor x="221" y="-200" name="diaB"/>
   <anchor x="574" y="760" name="through"/>
   <outline>
+    <component base="_strokeHead" xOffset="298" yOffset="1047"/>
     <contour>
       <point x="509" y="1151" type="line"/>
       <point x="571" y="519"/>
@@ -36,6 +37,5 @@
       <point x="652" y="398" type="curve"/>
       <point x="606" y="1089" type="line"/>
     </contour>
-    <component base="_strokeHead" xOffset="298" yOffset="1047"/>
   </outline>
 </glyph>

@@ -5,13 +5,11 @@
   <key>GSCornerRadius</key>
   <integer>15</integer>
   <key>GSOffsetHorizontal</key>
-  <integer>40</integer>
+  <integer>10</integer>
   <key>GSOffsetKeepCompatible</key>
   <integer>1</integer>
-  <key>GSOffsetProportional</key>
-  <integer>1</integer>
   <key>GSOffsetVertical</key>
-  <integer>30</integer>
+  <integer>0</integer>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict>
     <key>GSDimensionPlugin.Dimensions</key>
@@ -30,27 +28,9 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1342</string>
+  <string>3099</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Black</string>
-  <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
-  <dict>
-    <key>XXXX</key>
-    <dict>
-      <key>0</key>
-      <integer>0</integer>
-    </dict>
-    <key>wdth</key>
-    <dict>
-      <key>100</key>
-      <integer>100</integer>
-    </dict>
-    <key>wght</key>
-    <dict>
-      <key>300</key>
-      <integer>300</integer>
-    </dict>
-  </dict>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/space/space/ainabove-ar/space/space/alefabove-ar/space/space/alefabove-ar.large/space/space/alefbelow-ar/space/space/alefLamYehabove-ar/space/space/space/damma-ar.filled/space/dammainverted-ar/space/dammareversed-ar/space/dammasmall-ar/space/space/dammatan-ar.sixNine/space/space/dotStopabove-ar/space/dotvowelbelow-ar/space/fathaHorizont-ar/space/fathasmall-ar/space/fathatwodots-ar/space/space/hahabove-ar/space/hamza_damma-ar/space/space/hamza_damma-ar.filled/space/space/hamza_fatha-ar/space/space/hamzaabove-ar/space/space/hamzabelow-ar/space/space/space/jeemabove-ar/space/kasra-ar.lowered/space/kasrasmall-ar/space/kasratan-ar.lowered/space/lamAlefabove-ar/space/space/maddalong-ar/space/marksidewaysnoonghunna-ar/space/meemabove-ar/space/meembelow-ar/space/meemStopabove-ar/space/space/noonabove-ar/space/space/space/noonghunnaabove-ar/space/space/qafLamAlefMaksuraabove-ar/space/space/space/rehDadabove-ar/space/space/space/space/rehHahabove-ar/space/space/space/space/space/rhombusStopabove-ar/space/space/space/rhombusStopbelow-ar/space/space/sadabove-ar/space/space/sadLamAlefMaksuraabove-ar/space/space/space/seenabove-ar/space/space/seenbelow-ar/space/space/shadda_alef-ar/space/space/shadda_damma-ar/space/space/shadda_damma-ar.filled/space/space/shadda_dammatan-ar/space/space/shadda_dammatan-ar.sixNine/space/space/shadda_fatha-ar/space/space/shadda_fathatan-ar/space/space/shadda_kasra-ar/space/space/shadda_kasratan-ar/space/space/sukun-ar.downOpen/space/space/sukun-ar.leftOpen/space/sukunoval-ar/space/sukunround-ar/space/tahabove-ar/space/space/space/space/space/takhallusabove-ar/space/space/space/space/threedotsabove-ar/space/space/space/vabove-ar/space/space/vinvertedabove-ar/space/space/wavyhamzabelow-ar/space/space/yehabove-ar/space/space/zainabove-ar/space 
@@ -63,15 +43,26 @@
 /space/_smallV/space/space/_wasla/space/damma-ar.filled/space/space/space/dammainverted-ar/space/space/space/space/dotStopabove-ar/space/space/space/dotvowelbelow-ar/space/space/space/space/madda-ar/space/space/space/maddalong-ar/space/space/space/marksidewaysnoonghunna-ar/space/space/sukun-ar.downOpen/space/space/sukun-ar.leftOpen/space/space/noonghunnaabove-ar/space/space/hahabove-ar/space 
 /meemabove-ar/space/wawSmall-ar/space/space/yehabove-ar/space/yehSmall-ar/space/_tah_small/space/tahabove-ar/space/space/space/space/zainabove-ar/space/space/_teh/space/space/space/alefLamYehabove-ar/space/space/lamAlefabove-ar/space/space/jeemabove-ar/space/space/_meem/space/space/meemStopabove-ar/space/meembelow-ar/space/space/space/_noon/space/space/noonabove-ar/space/space/space/qafLamAlefMaksuraabove-ar/space/space/space/sadabove-ar/space/space/space/sadLamAlefMaksuraabove-ar/space/space/space/seenabove-ar/space/seenbelow-ar 
 /shadda-ar/space/space/shadda_alef-ar/space/space/shadda_damma-ar/space/space/shadda_damma-ar.filled/space/space/shadda_dammatan-ar/space/space/shadda_fatha-ar/space/space/shadda_fathatan-ar/space/space/shadda_kasra-ar/space/space/shadda_kasratan-ar/space</string>
-    <string>/_gafBarCenter/space/space/space/space/space/space/space/space/space/space/keheh-ar.init/keheh-ar/space/gaf-ar/space 
-/_gafBar/space/space/space/gaf-ar.fina/kaf-ar.medi/gaf-ar.medi/gafRing-ar.fina/gafRing-ar.medi/gafTwodotsbelow-ar.fina/gafTwodotsbelow-ar.medi/gueh-ar.fina/gueh-ar.medi/space/_gafBar_dot2h/space/space/space/space/_gafBar_dot3u/space/space/space/space/_gafBarShort_dot2h/space/space/space ]
-/_gafBarShort/space/space/space/gaf-ar/gaf-ar.init/gafRing-ar/gafRing-ar.init/gafTwodotsbelow-ar/gafTwodotsbelow-ar.init/gueh-ar/gueh-ar.init/space/space/space ]
+    <string>/space/space/ainabove-ar/space/space/alefabove-ar/space/space/alefabove-ar.large/space/space/alefbelow-ar/space/space/alefLamYehabove-ar/space/space/space/damma-ar.filled/space/dammainverted-ar/space/dammareversed-ar/space/dammasmall-ar/space/space/dammatan-ar.sixNine/space/space/dotStopabove-ar/space/dotvowelbelow-ar/space/fathaHorizont-ar/space/fathasmall-ar/space/fathatwodots-ar/space/space/hahabove-ar/space/hamza_damma-ar/space/space/hamza_damma-ar.filled/space/space/hamza_fatha-ar/space/space/hamzaabove-ar/space/space/hamzabelow-ar/space/space/space/jeemabove-ar/space/kasra-ar.lowered/space/kasrasmall-ar/space/kasratan-ar.lowered/space/lamAlefabove-ar/space/space/maddalong-ar/space/marksidewaysnoonghunna-ar/space/meemabove-ar/space/meembelow-ar/space/meemStopabove-ar/space/space/noonabove-ar/space/space/space/noonghunnaabove-ar/space/space/qafLamAlefMaksuraabove-ar/space/space/space/rehDadabove-ar/space/space/space/space/rehHahabove-ar/space/space/space/space/space/rhombusStopabove-ar/space/space/space/rhombusStopbelow-ar/space/space/sadabove-ar/space/space/sadLamAlefMaksuraabove-ar/space/space/space/seenabove-ar/space/space/seenbelow-ar/space/space/shadda_alef-ar/space/space/shadda_damma-ar/space/space/shadda_damma-ar.filled/space/space/shadda_dammatan-ar/space/space/shadda_dammatan-ar.sixNine/space/space/shadda_fatha-ar/space/space/shadda_fathatan-ar/space/space/shadda_kasra-ar/space/space/shadda_kasratan-ar/space/space/sukun-ar.downOpen/space/space/sukun-ar.leftOpen/space/sukunoval-ar/space/sukunround-ar/space/tahabove-ar/space/space/space/space/space/takhallusabove-ar/space/space/space/space/threedotsabove-ar/space/space/space/vabove-ar/space/space/vinvertedabove-ar/space/space/wavyhamzabelow-ar/space/space/yehabove-ar/space/space/zainabove-ar/space 
 
-[/gaf-ar.fina/gaf-ar.medi/gafRing-ar.fina/gafRing-ar.medi/gafTwodotsbelow-ar.fina/gafTwodotsbelow-ar.medi/gueh-ar.fina/gueh-ar.medi/_gafBar_dot2h/_gafBar_dot3u/_gafBarShort_dot2h/space/space/space/_gafBarCenter 
-/space/gaf-ar/gaf-ar.fina/gaf-ar.medi/gaf-ar.init/gafRing-ar/gafRing-ar.fina/gafRing-ar.medi/gafRing-ar.init/gafThreedots-ar/gafThreedots-ar.fina/gafThreedots-ar.medi/gafThreedots-ar.init/gafTwodotsbelow-ar/gafTwodotsbelow-ar.fina/gafTwodotsbelow-ar.medi/gafTwodotsbelow-ar.init/space 
-/space/space/space/space/_gafBar_dot2h/space/space/space/space/_gafBar_dot3u/space/space/space/space/_gafBarShort_dot2h/space/space/space/space/_gafBarShort_dot3u/space/space/space/_gafBarShort/space/space/space/_gafBarCenter</string>
+/_bar/space/space/space/damma-ar/space/space/dammareversed-ar/space/dammasmall-ar/space/space/space/dammatan-ar/space/space/space/dammatan-ar.sixNine/space/space/space/space/space/space/_damma.filled/space/space/space/space/_dot1/space/space/space/vabove-ar/space/space/space/vinvertedabove-ar/space/space/_dot1_hat/space/space/space/_dot1_smallV/space/space/_smallV/space/space/_invSmallV/space/space 
+/space/_dot1_tah/space/space/space/_dot1smallrotated10/space/space/space/_dot2h/space/space/space/_dot2h_tah/space/space/space/_dot2v/space/space/space/_dot3d/space/space/space/_dot3h/space/space/space/_dot3u/space/space/space/_dot3u_tah/space/space/space/_dot4/space/threedots-ar/space/space/space/threedotsabove-ar/space 
+/_gafBar/space/space/space/_gafBar_dot2h/space/space/space/_gafBar_dot3u/space/space/space/_gafBarShort_dot2h/space/space/space/_gafBarShort_dot3u/space/space/space/fatha-ar/space/space/kasra-ar/space/kasrasmall-ar/space/space/space/kasratan-ar/space/space/fathaHorizont-ar/fathasmall-ar/space/space/space/fathatan-ar/space/space/space/fathatwodots-ar/space/space 
+/_hamza/space/space/space/_hamzaDamma/space/space/space/_hamzaDamma.filled/space/space/_highHamza/space/space/space/_wavyHamza/space/space/wavyhamzabelow-ar/space/ainabove-ar/space/space/space/space/hamza_damma-ar/space/space/space/hamza_damma-ar.filled/space/space/space/hamza_fatha-ar/space/space/space/hamzaabove-ar/space/space/_invSmallV/space/space/vabove-ar/space/_invSmallV/space/space/hamzabelow-ar/space/space/space/_hook/space/space/_kaf_s/space/space/space/_vline/space/space/_vline/space/space/_lines/space/alefabove-ar/space/alefabove-ar.large/space/space/space/alefbelow-ar/space/space/space/_madda/space 
+/_ring/space/space/sukun-ar/space/space/space/sukunoval-ar/space/space/space/sukunround-ar/space/space/rhombusStopabove-ar/space/space/rhombusStopbelow-ar/space 
+/space/_smallV/space/space/_wasla/space/damma-ar.filled/space/space/space/dammainverted-ar/space/space/space/space/dotStopabove-ar/space/space/space/dotvowelbelow-ar/space/space/space/space/madda-ar/space/space/space/maddalong-ar/space/space/space/marksidewaysnoonghunna-ar/space/space/sukun-ar.downOpen/space/space/sukun-ar.leftOpen/space/space/noonghunnaabove-ar/space/space/hahabove-ar/space 
+/meemabove-ar/space/wawSmall-ar/space/space/yehabove-ar/space/yehSmall-ar/space/_tah_small/space/tahabove-ar/space/space/space/space/zainabove-ar/space/space/_teh/space/space/space/alefLamYehabove-ar/space/space/lamAlefabove-ar/space/space/jeemabove-ar/space/space/_meem/space/space/meemStopabove-ar/space/meembelow-ar/space/space/space/_noon/space/space/noonabove-ar/space/space/space/qafLamAlefMaksuraabove-ar/space/space/space/sadabove-ar/space/space/space/sadLamAlefMaksuraabove-ar/space/space/space/seenabove-ar/space/seenbelow-ar 
+/shadda-ar/space/space/shadda_alef-ar/space/space/shadda_damma-ar/space/space/shadda_damma-ar.filled/space/space/shadda_dammatan-ar/space/space/shadda_fatha-ar/space/space/shadda_fathatan-ar/space/space/shadda_kasra-ar/space/space/shadda_kasratan-ar/space</string>
     <string>/_meem/space/space/space/_noon</string>
     <string>/fathaCurly-ar/space/dammaCurly-ar/space/kasra-ar/kasra-ar/space/space/space/dammaturnedbelow-ar/space/kasraCurly-ar/space/kasratanCurly-ar/space/damma-ar/space/space/space/space/fathatanCurly-ar/space/space/dammatanCurly-ar/space/space/fathaDotabove-ar/space/kasraDotbelow-ar/space/space/dammaDot-ar</string>
+    <string>/wawStraight-ar/space/wawStraight-ar.fina/space/space/space/aleflow-ar/space/space/yehRohingya-ar/yehRohingya-ar.fina/space/dammaturnedbelow-ar/space/fathaCurly-ar/space/kasraCurly-ar/space/space/fathatanCurly-ar/space/kasratanCurly-ar/space/space/dammaCurly-ar/space/space/space/dammatanCurly-ar/space/space/space/toneonedotabove-ar/space/space/tonetwodotsabove-ar/space/space/toneloopabove-ar/space/space/toneonedotbelow-ar/space/space/tonetwodotsbelow-ar/space/space/toneloopbelow-ar/space/space/openfathatan-ar/space/space/fathatan-ar/space/space/space/opendammatan-ar/space/openkasratan-ar/space/space/highwaw-ar/space/space/fathaRing-ar/space/space/fathaDotabove-ar/space/space/kasraDotbelow-ar/space/space 
+/_smallV/space/space/_invSmallV/space/leftarrowheadabove-ar/space/space/rightarrowheadabove-ar/space/space/leftarrowheadbelow-ar/space/space/rightarrowheadbelow-ar/space/space/doublerightarrowheadabove-ar/space/space/doublerightarrowheadDotabove-ar/space/space/rightarrowheadDotabove-ar/space/space/dammaDot-ar/space/space/space/_dotCircular/space/space/fathaDotabove-ar/space/space/kasraDotbelow-ar/space/space/doublerightarrowheadDotabove-ar/space/space/rightarrowheadDotabove-ar/space/space/dammaDot-ar/space/space 
+/fathatan-ar/space/space/kasratan-ar/space/space/kasratan-ar.lowered/space/space/shadda_fathatan-ar/space/space/shadda_kasratan-ar/space</string>
+    <string>/seven-ar/seven-ar.medium/seven-ar.small/eight-ar/eight-ar.medium/eight-ar.small/space/space/_invSmallV/space/kirghizyu-ar/yehVinverted-farsi/space/space/_smallV/oe-ar/yehVabove-ar 
+/_invSmallV/space/space/vabove-ar/space/space/_invSmallV/space/space/space/leftarrowheadbelow-ar/space/space/rightarrowheadbelow-ar/space/space/space/doublerightarrowheadabove-ar/space/space/space/doublerightarrowheadDotabove-ar/space/space/space/rightarrowheadDotabove-ar/space</string>
+    <string>/dotvowelbelow-ar</string>
+    <string>/dotStopabove-ar</string>
+    <string>/space/_dotCircular/space/fathaDotabove-ar/space/kasraDotbelow-ar/space/doublerightarrowheadDotabove-ar/space/space/rightarrowheadDotabove-ar/space/space/dammaDot-ar/space/space/fathatwodots-ar/space/space/space/fathaDotabove-ar/space/kasraDotbelow-ar/space/doublerightarrowheadDotabove-ar/rightarrowheadDotabove-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>

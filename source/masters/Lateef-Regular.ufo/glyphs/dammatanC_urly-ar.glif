@@ -1,57 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dammatanCurly-ar" format="2">
   <unicode hex="08E8"/>
-  <anchor x="0" y="1048" name="_diaA"/>
-  <anchor x="-186" y="1734" name="diaA"/>
+  <anchor x="98" y="1048" name="_diaA"/>
+  <anchor x="-88" y="1734" name="diaA"/>
   <outline>
-    <contour>
-      <point x="-52" y="1704" type="curve" smooth="yes"/>
-      <point x="-156" y="1704"/>
-      <point x="-337" y="1481"/>
-      <point x="-337" y="1354" type="curve" smooth="yes"/>
-      <point x="-337" y="1310"/>
-      <point x="-307" y="1288"/>
-      <point x="-261" y="1288" type="curve" smooth="yes"/>
-      <point x="-204" y="1288"/>
-      <point x="-123" y="1312"/>
-      <point x="-123" y="1414" type="curve" smooth="yes"/>
-      <point x="-123" y="1485"/>
-      <point x="-197" y="1537"/>
-      <point x="-300" y="1598" type="curve"/>
-      <point x="-346" y="1531" type="line"/>
-      <point x="-217" y="1460"/>
-      <point x="-190" y="1443"/>
-      <point x="-190" y="1408" type="curve" smooth="yes"/>
-      <point x="-190" y="1360"/>
-      <point x="-227" y="1340"/>
-      <point x="-242" y="1340" type="curve" smooth="yes"/>
-      <point x="-260" y="1340"/>
-      <point x="-280" y="1355"/>
-      <point x="-280" y="1381" type="curve" smooth="yes"/>
-      <point x="-280" y="1465"/>
-      <point x="-132" y="1647"/>
-      <point x="-57" y="1647" type="curve" smooth="yes"/>
-      <point x="1" y="1647"/>
-      <point x="45" y="1609"/>
-      <point x="45" y="1570" type="curve" smooth="yes"/>
-      <point x="45" y="1545"/>
-      <point x="16" y="1529"/>
-      <point x="16" y="1524" type="curve" smooth="yes"/>
-      <point x="16" y="1521"/>
-      <point x="18" y="1519"/>
-      <point x="22" y="1519" type="curve" smooth="yes"/>
-      <point x="33" y="1519"/>
-      <point x="74" y="1553"/>
-      <point x="74" y="1604" type="curve" smooth="yes"/>
-      <point x="74" y="1649"/>
-      <point x="12" y="1704"/>
-    </contour>
-    <component base="dammaCurly-ar"/>
+    <component base="dammaCurly-ar" xOffset="58"/>
+    <component base="dammaCurly-ar" xScale="-1" yScale="-1" xOffset="-57" yOffset="2753"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

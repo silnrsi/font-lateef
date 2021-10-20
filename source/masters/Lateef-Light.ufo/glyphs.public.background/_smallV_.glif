@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_smallV" format="2">
+  <outline>
+    <contour>
+      <point x="-149" y="150" type="curve"/>
+      <point x="-178" y="98" type="line"/>
+      <point x="-114" y="71"/>
+      <point x="-31" y="-28"/>
+      <point x="-21" y="-93" type="curve"/>
+      <point x="19" y="-93" type="line"/>
+      <point x="40" y="-18"/>
+      <point x="73" y="76"/>
+      <point x="150" y="115" type="curve"/>
+      <point x="162" y="154" type="line"/>
+      <point x="72" y="124"/>
+      <point x="29" y="46"/>
+      <point x="-1" y="-31" type="curve"/>
+      <point x="2" y="-34" type="line"/>
+      <point x="2" y="21"/>
+      <point x="-100" y="132"/>
+    </contour>
+  </outline>
+</glyph>
