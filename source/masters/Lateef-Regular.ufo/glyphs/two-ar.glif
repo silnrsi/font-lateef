@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="two-ar" format="2">
-  <advance width="881"/>
+  <advance width="677"/>
   <unicode hex="0662"/>
   <outline>
-    <component base="one-ar" xOffset="-80"/>
+    <component base="one-ar"/>
     <contour>
-      <point x="705" y="1093" type="curve"/>
-      <point x="690" y="1093" type="line"/>
-      <point x="644" y="945"/>
-      <point x="561" y="882"/>
-      <point x="472" y="882" type="curve" smooth="yes"/>
-      <point x="421" y="882"/>
-      <point x="353" y="904"/>
-      <point x="319" y="975" type="curve"/>
-      <point x="368" y="737" type="line"/>
-      <point x="404" y="714"/>
-      <point x="443" y="702"/>
-      <point x="481" y="702" type="curve" smooth="yes"/>
-      <point x="596" y="702"/>
-      <point x="705" y="815"/>
+      <point x="607" y="1093" type="curve"/>
+      <point x="592" y="1093" type="line"/>
+      <point x="547" y="947"/>
+      <point x="459" y="881"/>
+      <point x="375" y="881" type="curve" smooth="yes"/>
+      <point x="315" y="881"/>
+      <point x="257" y="915"/>
+      <point x="219" y="979" type="curve"/>
+      <point x="270" y="737" type="line"/>
+      <point x="308" y="713"/>
+      <point x="345" y="701"/>
+      <point x="379" y="701" type="curve" smooth="yes"/>
+      <point x="513" y="701"/>
+      <point x="607" y="876"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

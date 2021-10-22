@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one-ar" format="2">
-  <advance width="881"/>
+  <advance width="413"/>
   <unicode hex="0661"/>
   <outline>
     <contour>
-      <point x="286" y="967" type="line"/>
-      <point x="470" y="685"/>
-      <point x="518" y="331"/>
-      <point x="527" y="-23" type="curve"/>
-      <point x="542" y="-23" type="line"/>
-      <point x="591" y="395"/>
-      <point x="541" y="794"/>
-      <point x="320" y="1108" type="curve"/>
+      <point x="70" y="967" type="line"/>
+      <point x="254" y="685"/>
+      <point x="302" y="331"/>
+      <point x="311" y="-23" type="curve"/>
+      <point x="326" y="-23" type="line"/>
+      <point x="375" y="395"/>
+      <point x="325" y="794"/>
+      <point x="104" y="1108" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -864,12 +864,16 @@
   <string>eight-ar.medium.glif</string>
   <key>eight-ar.small</key>
   <string>eight-ar.small.glif</string>
+  <key>eight-ar.tnum</key>
+  <string>eight-ar.tnum.glif</string>
   <key>eight-persian</key>
   <string>eight-persian.glif</string>
   <key>eight-persian.medium</key>
   <string>eight-persian.medium.glif</string>
   <key>eight-persian.small</key>
   <string>eight-persian.small.glif</string>
+  <key>eight-persian.tnum</key>
+  <string>eight-persian.tnum.glif</string>
   <key>eight.medium</key>
   <string>eight.medium.glif</string>
   <key>eight.small</key>
@@ -1030,12 +1034,16 @@
   <string>five-ar.medium.glif</string>
   <key>five-ar.small</key>
   <string>five-ar.small.glif</string>
+  <key>five-ar.tnum</key>
+  <string>five-ar.tnum.glif</string>
   <key>five-persian</key>
   <string>five-persian.glif</string>
   <key>five-persian.medium</key>
   <string>five-persian.medium.glif</string>
   <key>five-persian.small</key>
   <string>five-persian.small.glif</string>
+  <key>five-persian.tnum</key>
+  <string>five-persian.tnum.glif</string>
   <key>five.medium</key>
   <string>five.medium.glif</string>
   <key>five.small</key>
@@ -1056,6 +1064,8 @@
   <string>four-ar.medium.glif</string>
   <key>four-ar.small</key>
   <string>four-ar.small.glif</string>
+  <key>four-ar.tnum</key>
+  <string>four-ar.tnum.glif</string>
   <key>four-persian</key>
   <string>four-persian.glif</string>
   <key>four-persian.medium</key>
@@ -1066,14 +1076,20 @@
   <string>four-persian.roh.medium.glif</string>
   <key>four-persian.roh.small</key>
   <string>four-persian.roh.small.glif</string>
+  <key>four-persian.roh.tnum</key>
+  <string>four-persian.roh.tnum.glif</string>
   <key>four-persian.small</key>
   <string>four-persian.small.glif</string>
+  <key>four-persian.tnum</key>
+  <string>four-persian.tnum.glif</string>
   <key>four-persian.urdu</key>
   <string>four-persian.urdu.glif</string>
   <key>four-persian.urdu.medium</key>
   <string>four-persian.urdu.medium.glif</string>
   <key>four-persian.urdu.small</key>
   <string>four-persian.urdu.small.glif</string>
+  <key>four-persian.urdu.tnum</key>
+  <string>four-persian.urdu.tnum.glif</string>
   <key>four.dnom</key>
   <string>four.dnom.glif</string>
   <key>four.medium</key>
@@ -2026,12 +2042,16 @@
   <string>nine-ar.medium.glif</string>
   <key>nine-ar.small</key>
   <string>nine-ar.small.glif</string>
+  <key>nine-ar.tnum</key>
+  <string>nine-ar.tnum.glif</string>
   <key>nine-persian</key>
   <string>nine-persian.glif</string>
   <key>nine-persian.medium</key>
   <string>nine-persian.medium.glif</string>
   <key>nine-persian.small</key>
   <string>nine-persian.small.glif</string>
+  <key>nine-persian.tnum</key>
+  <string>nine-persian.tnum.glif</string>
   <key>nine.medium</key>
   <string>nine.medium.glif</string>
   <key>nine.small</key>
@@ -2176,12 +2196,16 @@
   <string>one-ar.medium.glif</string>
   <key>one-ar.small</key>
   <string>one-ar.small.glif</string>
+  <key>one-ar.tnum</key>
+  <string>one-ar.tnum.glif</string>
   <key>one-persian</key>
   <string>one-persian.glif</string>
   <key>one-persian.medium</key>
   <string>one-persian.medium.glif</string>
   <key>one-persian.small</key>
   <string>one-persian.small.glif</string>
+  <key>one-persian.tnum</key>
+  <string>one-persian.tnum.glif</string>
   <key>one.medium</key>
   <string>one.medium.glif</string>
   <key>one.numr</key>
@@ -2646,18 +2670,24 @@
   <string>seven-ar.medium.glif</string>
   <key>seven-ar.small</key>
   <string>seven-ar.small.glif</string>
+  <key>seven-ar.tnum</key>
+  <string>seven-ar.tnum.glif</string>
   <key>seven-persian</key>
   <string>seven-persian.glif</string>
   <key>seven-persian.medium</key>
   <string>seven-persian.medium.glif</string>
   <key>seven-persian.small</key>
   <string>seven-persian.small.glif</string>
+  <key>seven-persian.tnum</key>
+  <string>seven-persian.tnum.glif</string>
   <key>seven-persian.urdu</key>
   <string>seven-persian.urdu.glif</string>
   <key>seven-persian.urdu.medium</key>
   <string>seven-persian.urdu.medium.glif</string>
   <key>seven-persian.urdu.small</key>
   <string>seven-persian.urdu.small.glif</string>
+  <key>seven-persian.urdu.tnum</key>
+  <string>seven-persian.urdu.tnum.glif</string>
   <key>seven.medium</key>
   <string>seven.medium.glif</string>
   <key>seven.small</key>
@@ -2720,18 +2750,24 @@
   <string>six-ar.medium.glif</string>
   <key>six-ar.small</key>
   <string>six-ar.small.glif</string>
+  <key>six-ar.tnum</key>
+  <string>six-ar.tnum.glif</string>
   <key>six-persian</key>
   <string>six-persian.glif</string>
   <key>six-persian.medium</key>
   <string>six-persian.medium.glif</string>
   <key>six-persian.small</key>
   <string>six-persian.small.glif</string>
+  <key>six-persian.tnum</key>
+  <string>six-persian.tnum.glif</string>
   <key>six-persian.urdu</key>
   <string>six-persian.urdu.glif</string>
   <key>six-persian.urdu.medium</key>
   <string>six-persian.urdu.medium.glif</string>
   <key>six-persian.urdu.small</key>
   <string>six-persian.urdu.small.glif</string>
+  <key>six-persian.urdu.tnum</key>
+  <string>six-persian.urdu.tnum.glif</string>
   <key>six.medium</key>
   <string>six.medium.glif</string>
   <key>six.small</key>
@@ -2922,12 +2958,16 @@
   <string>three-ar.medium.glif</string>
   <key>three-ar.small</key>
   <string>three-ar.small.glif</string>
+  <key>three-ar.tnum</key>
+  <string>three-ar.tnum.glif</string>
   <key>three-persian</key>
   <string>three-persian.glif</string>
   <key>three-persian.medium</key>
   <string>three-persian.medium.glif</string>
   <key>three-persian.small</key>
   <string>three-persian.small.glif</string>
+  <key>three-persian.tnum</key>
+  <string>three-persian.tnum.glif</string>
   <key>three.medium</key>
   <string>three.medium.glif</string>
   <key>three.numr</key>
@@ -2996,12 +3036,16 @@
   <string>two-ar.medium.glif</string>
   <key>two-ar.small</key>
   <string>two-ar.small.glif</string>
+  <key>two-ar.tnum</key>
+  <string>two-ar.tnum.glif</string>
   <key>two-persian</key>
   <string>two-persian.glif</string>
   <key>two-persian.medium</key>
   <string>two-persian.medium.glif</string>
   <key>two-persian.small</key>
   <string>two-persian.small.glif</string>
+  <key>two-persian.tnum</key>
+  <string>two-persian.tnum.glif</string>
   <key>two.dnom</key>
   <string>two.dnom.glif</string>
   <key>two.medium</key>
@@ -3314,12 +3358,16 @@
   <string>zero-ar.medium.glif</string>
   <key>zero-ar.small</key>
   <string>zero-ar.small.glif</string>
+  <key>zero-ar.tnum</key>
+  <string>zero-ar.tnum.glif</string>
   <key>zero-persian</key>
   <string>zero-persian.glif</string>
   <key>zero-persian.medium</key>
   <string>zero-persian.medium.glif</string>
   <key>zero-persian.small</key>
   <string>zero-persian.small.glif</string>
+  <key>zero-persian.tnum</key>
+  <string>zero-persian.tnum.glif</string>
   <key>zero.medium</key>
   <string>zero.medium.glif</string>
   <key>zero.small</key>

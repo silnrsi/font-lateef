@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven-persian.urdu" format="2">
-  <advance width="881"/>
-  <guideline x="1656" y="-1300" angle="0"/>
+  <advance width="904"/>
+  <guideline x="1676" y="-1300" angle="0"/>
   <outline>
     <contour>
-      <point x="481" y="1108" type="line"/>
-      <point x="423" y="810"/>
-      <point x="266" y="390"/>
-      <point x="50" y="95" type="curve"/>
-      <point x="60" y="84" type="line"/>
-      <point x="345" y="89"/>
-      <point x="561" y="64"/>
-      <point x="752" y="0" type="curve"/>
-      <point x="814" y="169" type="line"/>
-      <point x="627" y="221"/>
-      <point x="389" y="227"/>
-      <point x="184" y="209" type="curve"/>
-      <point x="336" y="381"/>
-      <point x="505" y="664"/>
-      <point x="554" y="896" type="curve"/>
+      <point x="501" y="1108" type="line"/>
+      <point x="443" y="810"/>
+      <point x="286" y="390"/>
+      <point x="70" y="95" type="curve"/>
+      <point x="80" y="84" type="line"/>
+      <point x="365" y="89"/>
+      <point x="581" y="64"/>
+      <point x="772" y="0" type="curve"/>
+      <point x="834" y="169" type="line"/>
+      <point x="647" y="221"/>
+      <point x="409" y="227"/>
+      <point x="204" y="209" type="curve"/>
+      <point x="356" y="381"/>
+      <point x="525" y="664"/>
+      <point x="574" y="896" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -7,10 +7,4 @@
     <component base="_dotCircular" xOffset="-40" yOffset="50"/>
     <component base="fatha-ar" xOffset="-170" yOffset="46"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>

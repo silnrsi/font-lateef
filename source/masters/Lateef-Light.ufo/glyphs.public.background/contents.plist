@@ -90,6 +90,8 @@
   <string>misraC_omma-ar.glif</string>
   <key>one-ar</key>
   <string>one-ar.glif</string>
+  <key>one-ar.tnum</key>
+  <string>one-ar.tnum.glif</string>
   <key>pagenumber-ar</key>
   <string>pagenumber-ar.glif</string>
   <key>quotedblbase.arab</key>

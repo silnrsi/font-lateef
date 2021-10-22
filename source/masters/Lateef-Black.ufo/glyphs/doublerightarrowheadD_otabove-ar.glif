@@ -7,10 +7,4 @@
     <component base="_dotCircular" xOffset="-202" yOffset="230"/>
     <component base="doublerightarrowheadabove-ar" xOffset="62"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>
