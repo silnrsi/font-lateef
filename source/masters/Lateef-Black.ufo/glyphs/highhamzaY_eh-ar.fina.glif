@@ -8,19 +8,4 @@
     <component base="yeh-ar.noDots.fina"/>
     <component base="_highHamza" xOffset="694" yOffset="752"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_highHamza</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

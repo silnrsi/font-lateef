@@ -6,19 +6,4 @@
     <component base="_dot1"/>
     <component base="vabove-ar" xOffset="-5" yOffset="-830"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>_dot1</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

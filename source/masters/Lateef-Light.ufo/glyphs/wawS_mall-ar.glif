@@ -7,19 +7,4 @@
   <outline>
     <component base="waw-ar" xScale="0.54" yScale="0.54" xOffset="-12" yOffset="203"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>waw-ar</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

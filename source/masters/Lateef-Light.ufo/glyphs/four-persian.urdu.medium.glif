@@ -6,19 +6,4 @@
   <outline>
     <component base="four-persian.urdu" xScale="0.8" yScale="0.8"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>four-persian.urdu</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

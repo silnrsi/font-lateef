@@ -6,27 +6,4 @@
     <component base="shadda-ar"/>
     <component base="fatha-ar" xOffset="-164" yOffset="237"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>shadda-ar</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>fatha-ar</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

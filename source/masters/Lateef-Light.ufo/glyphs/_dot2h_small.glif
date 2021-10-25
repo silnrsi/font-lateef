@@ -7,27 +7,4 @@
     <component base="_dot1_small" xOffset="-63"/>
     <component base="_dot1_small" xOffset="64"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>_dot1_small</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_dot1_small</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

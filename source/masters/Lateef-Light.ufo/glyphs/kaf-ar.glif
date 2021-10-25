@@ -13,27 +13,4 @@
     <component base="lam-ar.init" xOffset="626"/>
     <component base="_baseline_70" xOffset="517"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>_kaf_s</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_kaf_left</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

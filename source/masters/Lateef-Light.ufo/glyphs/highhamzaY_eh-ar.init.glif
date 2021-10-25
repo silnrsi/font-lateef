@@ -7,27 +7,4 @@
     <component base="behDotless-ar.init"/>
     <component base="_highHamza" xOffset="239" yOffset="772"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>behDotless-ar.init</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_highHamza</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

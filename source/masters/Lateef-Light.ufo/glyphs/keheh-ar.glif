@@ -13,27 +13,4 @@
     <component base="_kaf_left"/>
     <component base="keheh-ar.init" xOffset="595"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>_kaf_left</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>keheh-ar.init</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

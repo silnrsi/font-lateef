@@ -12,27 +12,4 @@
     <component base="keheh-ar"/>
     <component base="_kehehjoiner" xOffset="901"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>keheh-ar</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_kehehjoiner</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

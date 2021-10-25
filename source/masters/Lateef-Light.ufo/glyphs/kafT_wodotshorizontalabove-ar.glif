@@ -9,27 +9,4 @@
     <component base="kaf-ar"/>
     <component base="_dot2h" xOffset="504" yOffset="1015"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>kaf-ar</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_dot2h</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

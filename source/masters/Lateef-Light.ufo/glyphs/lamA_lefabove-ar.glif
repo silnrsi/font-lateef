@@ -7,27 +7,4 @@
     <component base="lam-ar.init.preAlef" xScale="0.54" yScale="0.54" yOffset="1110"/>
     <component base="alef-ar.fina.postLamIni" xScale="0.54" yScale="0.54" xOffset="-310" yOffset="1110"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>lam-ar.init.preAlef</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>alef-ar.fina.postLamIni</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

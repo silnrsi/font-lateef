@@ -6,19 +6,4 @@
   <outline>
     <component base="nine-ar" xScale="0.54" yScale="0.54" xOffset="-11" yOffset="143"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>nine-ar</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

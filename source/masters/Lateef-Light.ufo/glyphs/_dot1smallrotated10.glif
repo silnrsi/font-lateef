@@ -6,19 +6,4 @@
   <outline>
     <component base="_dot1" xScale="0.41362" xyScale="0.07293" yxScale="-0.07293" yScale="0.41362"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>_dot1</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

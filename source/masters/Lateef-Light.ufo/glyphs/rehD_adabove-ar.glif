@@ -8,35 +8,4 @@
     <component base="sadabove-ar" xOffset="-114" yOffset="10"/>
     <component base="_dot1" xScale="0.66" yScale="0.66" xOffset="-221" yOffset="1651"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>reh-ar</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>sadabove-ar</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>_dot1</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

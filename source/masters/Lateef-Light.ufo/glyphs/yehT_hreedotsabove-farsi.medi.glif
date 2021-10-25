@@ -9,19 +9,4 @@
     <component base="_dot3u" xOffset="212" yOffset="652"/>
     <component base="_dot2h" xOffset="203" yOffset="-250"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>behDotless-ar.medi</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

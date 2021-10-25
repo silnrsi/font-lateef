@@ -8,35 +8,4 @@
     <component base="_dot1smallrotated10" xOffset="270" yOffset="1064"/>
     <component base="_dot1smallrotated10" xOffset="73" yOffset="1266"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>fatha-ar</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_dot1smallrotated10</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>_dot1smallrotated10</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -7,19 +7,4 @@
     <component base="alef-ar" xScale="0.44" yScale="0.44" xOffset="-109" yOffset="1226"/>
     <component base="_lamAlefMaksura"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>alef-ar</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

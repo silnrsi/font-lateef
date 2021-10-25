@@ -8,19 +8,4 @@
     <component base="behDotless-ar.medi"/>
     <component base="_ring" xOffset="205" yOffset="-214"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_ring</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -48,19 +48,4 @@
       <point x="764" y="105"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>_bowl_seen</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

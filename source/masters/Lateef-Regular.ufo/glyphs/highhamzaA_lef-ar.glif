@@ -8,19 +8,4 @@
     <component base="alef-ar"/>
     <component base="_highHamza" xOffset="291" yOffset="772"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>_highHamza</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

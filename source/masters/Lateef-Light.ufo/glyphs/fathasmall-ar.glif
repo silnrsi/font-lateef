@@ -6,19 +6,4 @@
   <outline>
     <component base="fatha-ar" xScale="0.66" yScale="0.66" xOffset="-112" yOffset="637"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>fatha-ar</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

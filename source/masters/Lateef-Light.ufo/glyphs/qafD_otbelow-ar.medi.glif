@@ -8,19 +8,4 @@
     <component base="_dot2h" xOffset="279" yOffset="808"/>
     <component base="_dot1" xOffset="203" yOffset="-250"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>2</integer>
-          <key>name</key>
-          <string>_dot1</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>
