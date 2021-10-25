@@ -6,6 +6,12 @@
   <outline>
     <component base="fehDotless-ar.medi"/>
     <component base="_dot2h" xOffset="279" yOffset="808"/>
-    <component base="_dot1" xOffset="203" yOffset="-250"/>
+    <component base="_dot1" xOffset="199" yOffset="-230"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

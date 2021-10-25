@@ -5,12 +5,12 @@
   <anchor x="200" y="-200" name="diaB"/>
   <outline>
     <component base="ain-ar.init"/>
-    <component base="_dot1_dot3u" xOffset="421" yOffset="1467"/>
+    <component base="_dot1_dot3u" xOffset="420" yOffset="1469"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

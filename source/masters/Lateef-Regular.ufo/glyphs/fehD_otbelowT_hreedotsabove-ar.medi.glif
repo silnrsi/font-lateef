@@ -5,13 +5,13 @@
   <anchor x="200" y="-400" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.medi"/>
+    <component base="_dot3u" xOffset="285" yOffset="956"/>
     <component base="_dot1" xOffset="199" yOffset="-230"/>
-    <component base="_dot3u" xOffset="285" yOffset="958"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

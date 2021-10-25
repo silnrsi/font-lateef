@@ -6,13 +6,13 @@
   <anchor x="442" y="-417" name="diaB"/>
   <outline>
     <component base="behDotless-ar.fina"/>
-    <component base="_hamza" xOffset="594" yOffset="595"/>
-    <component base="_dot1" xOffset="499" yOffset="-247"/>
+    <component base="_hamza" xOffset="595" yOffset="595"/>
+    <component base="_dot1" xOffset="498" yOffset="-250"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>
