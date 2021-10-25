@@ -45,6 +45,11 @@
 /yeh-ar.noDots/lam-ar/tah-ar/meem-ar/zero-ar.tnum/one-ar.tnum/two-ar.tnum/three-ar.tnum/four-ar.tnum/five-ar.tnum/six-ar.tnum/seven-ar.tnum/eight-ar.tnum/nine-ar.tnum/sad-ar/behDotless-ar/yeh-ar.noDots/lam-ar 
 /yeh-ar.noDots/lam-ar/tah-ar/meem-ar/zero-persian/one-persian/two-persian/three-persian/four-persian/four-persian.urdu/four-persian.roh/five-persian/six-persian/six-persian.urdu/seven-persian/seven-persian.urdu/eight-persian/nine-persian/sad-ar/behDotless-ar/yeh-ar.noDots/lam-ar 
 /yeh-ar.noDots/lam-ar/tah-ar/meem-ar/zero-persian.tnum/one-persian.tnum/two-persian.tnum/three-persian.tnum/four-persian.tnum/four-persian.urdu.tnum/four-persian.roh.tnum/five-persian.tnum/six-persian.tnum/six-persian.urdu.tnum/seven-persian.tnum/seven-persian.urdu.tnum/eight-persian.tnum/nine-persian.tnum/sad-ar/behDotless-ar/yeh-ar.noDots</string>
+    <string>/lamThreedotsbelow_alef-ar.fina/lamThreedotsbelow_alefWavyhamzaabove-ar.fina/lamThreedotsbelow_alefWavyhamzabelow-ar.fina/lamThreedotsbelow_alefWasla-ar.fina/lamThreedotsbelow_alefTwoabove-ar.fina/lamThreedotsbelow_alefThreeabove-ar.fina</string>
+    <string>/waw-ar/reh-ar 
+/waw-ar/highhamzaWaw-ar/uHamzaabove-ar/u-ar/wawring-ar/wawTwodots-ar/wawDotabove-ar/wawHamzaabove-ar/wawTwoabove-ar/wawThreeAbove-ar/wawDotcenter-ar/kirghizoe-ar.bar/oe-ar/yu-ar/kirghizyu-ar/ve-ar/space 
+/reh-ar/zain-ar/zainVinvertedabove-ar/rreh-ar/rehv-ar/rehRing-ar/rehDotbelow-ar/rehVbelow-ar/rehDotbelowdotabove-ar/rehTwodots-ar/jeh-ar/rehFourdots-ar/rehVinvertedabove-ar/rehStroke-ar/rehTwodotsverticalabove-ar/rehHamzaabove-ar/rehTwodotshorizontalaboveTahabove-ar/rehNoonabove-ar/space</string>
+    <string>/hehgoal-ar.fina/hehgoal-ar.fina.allah</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
