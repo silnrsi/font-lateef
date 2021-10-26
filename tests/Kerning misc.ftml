@@ -7,8 +7,9 @@
     <fontsrc label="Lgt-Gr">url(../results/web/LateefLight-Regular.woff2)</fontsrc>
     <fontsrc label="LateefGr">url(../references/LateefGR-1.200.ttf)</fontsrc>
     <fontsrc label="Reg-Gr">url(../results/web/Lateef-Regular.woff2)</fontsrc>
-    <!-- fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)</fontsrc -->
+    <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)</fontsrc>
     <fontsrc label="BkBld-Gr">url(../results/web/LateefBook-Bold.woff2)</fontsrc>
+    <fontsrc label="BkBld-OT">url(../results/tests/ftml/fonts/LateefBook-Bold_ot_arab.ttf)</fontsrc>
     <styles>
       <style feats="'kern' 2" name="nokern"/>
       <style feats="'cv44' 1" name="cv44_1"/>
@@ -19,7 +20,7 @@
       <style feats="'cv54' 1" name="cv54_1"/>
     </styles>
     <title>Kerning Misc</title>
-    <widths string="20%"/>
+    <widths string="15%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
@@ -70,6 +71,10 @@
       <comment>no Gr kern</comment>
       <string>پورہ پورہ</string>
     </test -->
+    <test label="5a">
+      <comment>OT code matches GR</comment>
+      <string>رہ</string>
+    </test>
     <test label="6">
       <string>کٞروگ</string>
     </test>
