@@ -96,7 +96,7 @@ cComplexShape = (
 // Set collision margin, complexFit and flags for all reh-like and waw-like things
 cRehWawAll  { 
         collision {
-            margin = 100m;
+            margin = 150m;
             complexFit = true;
             flags = COLL_FIX + COLL_KERN; // + COLL_END + COLL_START
                     }
@@ -116,14 +116,23 @@ if (caKerning != off)
 
 // Collision-Avoidance-based kerning
 
-pass(4) 
+pass(4)     // Set slot attributes for CA-based kerning:
+
     // Turn off kerning if next slot is a whitespace char:
     cRehWawAll   { collision.flags = 0 } / _ MARKS cWhitespace;
 
-    // Set slot attributes for CA-based kerning:
+    // tighten kerning margin for reh|waw followed by reh|waw
     cRehWawAll { collision {
                 min.x = -1000m ; 
-                max.x = 1000m  ;    
+                max.x =  1000m ; 
+                margin = 50m ;    
+                        }
+            } / _ MARKS cRehWawAll ;
+    
+    // otherwise just need to set min/max x
+    cRehWawAll { collision {
+                min.x = -1000m ; 
+                max.x =  1000m ;    
                         }
             };
 endpass;
