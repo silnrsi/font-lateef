@@ -8,4 +8,10 @@
     <component base="meem-ar.sindhi"/>
     <component base="_dot1" xOffset="625" yOffset="699"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
 </glyph>
