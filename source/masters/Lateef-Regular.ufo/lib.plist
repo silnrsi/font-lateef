@@ -28,7 +28,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3099</string>
+  <string>3100</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/space/space/ainabove-ar/space/space/alefabove-ar/space/space/space/space/alefbelow-ar/space/space/alefLamYehabove-ar/space/space/space/space/dammainverted-ar/space/dammareversed-ar/space/dammasmall-ar/space/space/space/space/dotStopabove-ar/space/dotvowelbelow-ar/space/fathaHorizont-ar/space/fathasmall-ar/space/fathatwodots-ar/space/space/hahabove-ar/space/space/space/space/space/space/space/hamzaabove-ar/space/space/hamzabelow-ar/space/space/space/jeemabove-ar/space/space/kasrasmall-ar/space/space/lamAlefabove-ar/space/space/maddalong-ar/space/marksidewaysnoonghunna-ar/space/meemabove-ar/space/meembelow-ar/space/meemStopabove-ar/space/space/noonabove-ar/space/space/space/noonghunnaabove-ar/space/space/qafLamAlefMaksuraabove-ar/space/space/space/rehDadabove-ar/space/space/space/space/rehHahabove-ar/space/space/space/space/space/rhombusStopabove-ar/space/space/space/rhombusStopbelow-ar/space/space/sadabove-ar/space/space/sadLamAlefMaksuraabove-ar/space/space/space/seenabove-ar/space/space/seenbelow-ar/space/space/space/space/space/space/space/space/space/space/space/space/space/space/space/space/space/space/space/space/space/space/space/sukunoval-ar/space/sukunround-ar/space/tahabove-ar/space/space/space/space/space/takhallusabove-ar/space/space/space/space/threedotsabove-ar/space/space/space/vabove-ar/space/space/vinvertedabove-ar/space/space/wavyhamzabelow-ar/space/space/yehabove-ar/space/space/zainabove-ar/space 
@@ -45,10 +45,14 @@
 /lam-ar/tah-ar/meem-ar/sad-ar/behDotless-ar/lam-ar 
 /lam-ar/tah-ar/meem-ar/zero-persian/one-persian/two-persian/three-persian/four-persian/five-persian/six-persian/seven-persian/eight-persian/nine-persian/sad-ar/behDotless-ar/lam-ar 
 /lam-ar/tah-ar/meem-ar/sad-ar/behDotless-ar</string>
-    <string>/qafDotless-ar/waw-ar/reh-ar 
-/waw-ar/highhamzaWaw-ar/uHamzaabove-ar/u-ar/wawring-ar/wawTwodots-ar/wawDotabove-ar/wawHamzaabove-ar/wawTwoabove-ar/wawThreeAbove-ar/wawDotcenter-ar/kirghizoe-ar.bar/oe-ar/yu-ar/kirghizyu-ar/ve-ar/wawSmall-ar/highwaw-ar 
-/zain-ar/zainVinvertedabove-ar/rreh-ar/rehv-ar/rehRing-ar/rehDotbelow-ar/rehVbelow-ar/rehDotbelowdotabove-ar/rehTwodots-ar/jeh-ar/rehFourdots-ar/rehVinvertedabove-ar/rehStroke-ar/rehTwodotsverticalabove-ar/rehHamzaabove-ar/rehTwodotshorizontalaboveTahabove-ar/rehNoonabove-ar/rehHahabove-ar/rehDadabove-ar 
-</string>
+    <string>/allah-ar 
+/_strokeHead/lam-ar.init/kaf-ar/lamVabove-ar.init/lamDotabove-ar.init/lamThreedotsabove-ar.init/lamTahabove-ar.init/lamThreedotsbelow-ar.init/lamBar-ar.init/lamDoublebar-ar.init 
+/_bar/reh-ar/rehStroke-ar/reh-ar.fina/rehStroke-ar.fina/lamBar-ar/lamBar-ar.fina/lamBar-ar.medi/lamBar-ar.init/lamBar-ar.medi.preAlef/lamBar-ar.init.preAlef/_bar2/space 
+/alef-ar.fina 
+/keheh-ar.fina/kaf-ar.medi/kaf-ar.init/keheh-ar.init/space/keheh-ar/gaf-ar/_gafBar/space/space/space/space/gaf-ar.fina/gaf-ar.medi/space/_ring/space/kaf-ar.init/_gafBarShort/space/space/space/gaf-ar.init 
+
+/_gafBar/space/space/space/gaf-ar.fina/gaf-ar.medi/gafRing-ar.fina/gafRing-ar.medi/gafTwodotsbelow-ar.fina/gafTwodotsbelow-ar.medi/gueh-ar.fina/gueh-ar.medi/space/_gafBar_dot2h/space/space/space/_gafBar_dot3u/space/space/space/_gafBarShort_dot2h/space/space/_gafBarShort/space/space/space 
+/_gafBarShort/space/space/space/gaf-ar/gaf-ar.init/gafRing-ar/gafRing-ar.init/gafTwodotsbelow-ar/gafTwodotsbelow-ar.init/space/gueh-ar/gueh-ar.init/space/ngoeh-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>

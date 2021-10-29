@@ -7,12 +7,12 @@
   <anchor x="300" y="-202" name="diaB"/>
   <outline>
     <component base="keheh-ar"/>
-    <component base="_gafBarShort_dot2h" xOffset="610" yOffset="835"/>
+    <component base="_gafBarShort_dot2h" xOffset="610" yOffset="895"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

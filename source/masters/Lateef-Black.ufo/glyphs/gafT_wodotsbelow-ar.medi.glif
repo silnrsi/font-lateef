@@ -5,13 +5,13 @@
   <anchor x="130" y="-381" name="diaB"/>
   <outline>
     <component base="kaf-ar.medi"/>
-    <component base="_gafBar" xOffset="55" yOffset="875"/>
+    <component base="_gafBar" xOffset="55" yOffset="895"/>
     <component base="_dot2h" xOffset="201" yOffset="-224"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="keheh-ar" format="2">
   <advance width="1228"/>
   <unicode hex="06A9"/>
-  <anchor x="708" y="835" name="above"/>
+  <anchor x="708" y="855" name="above"/>
   <anchor x="228" y="773" name="alefUnused"/>
   <anchor x="812" y="-50" name="below"/>
   <anchor x="1167" y="703" name="center"/>
@@ -13,4 +13,10 @@
     <component base="_kaf_left"/>
     <component base="keheh-ar.init" xOffset="595"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

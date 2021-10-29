@@ -9,7 +9,7 @@
   <anchor x="280" y="697" name="diaA"/>
   <anchor x="167" y="-460" name="diaB"/>
   <anchor x="356" y="-188" name="ring"/>
-  <anchor x="409" y="-4" name="through"/>
+  <anchor x="439" y="-4" name="through"/>
   <outline>
     <contour>
       <point x="-114" y="-247" type="line"/>

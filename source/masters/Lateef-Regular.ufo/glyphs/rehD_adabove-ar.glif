@@ -4,7 +4,7 @@
   <anchor x="0" y="1200" name="_diaA"/>
   <anchor x="0" y="1730" name="diaA"/>
   <outline>
-    <component base="reh-ar" xScale="0.65579" yScale="0.65579" xOffset="47" yOffset="1451"/>
+    <component base="reh-ar" xScale="0.6558" yScale="0.6558" xOffset="47" yOffset="1451"/>
     <component base="sadabove-ar" xOffset="-124" yOffset="10"/>
     <component base="_dot1" xScale="0.66" yScale="0.66" xOffset="-221" yOffset="1651"/>
   </outline>

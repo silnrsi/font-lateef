@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefHamzabelow-ar.fina" format="2">
-  <advance width="362"/>
+  <advance width="422"/>
   <anchor x="227" y="1207" name="diaA"/>
   <anchor x="251" y="-526" name="diaB"/>
   <outline>
     <component base="alef-ar.fina"/>
-    <component base="_hamza" xOffset="207" yOffset="-292"/>
+    <component base="_hamza" xOffset="267" yOffset="-292"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

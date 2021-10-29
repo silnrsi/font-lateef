@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="keheh-ar.fina" format="2">
   <advance width="1544"/>
-  <anchor x="708" y="835" name="above"/>
+  <anchor x="708" y="855" name="above"/>
   <anchor x="242" y="761" name="alefUnused"/>
   <anchor x="818" y="-50" name="below"/>
   <anchor x="1167" y="703" name="center"/>
@@ -12,4 +12,10 @@
     <component base="keheh-ar"/>
     <component base="_kehehjoiner" xOffset="899"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -4,7 +4,7 @@
   <anchor x="634" y="1200" name="_diaA"/>
   <anchor x="634" y="1730" name="diaA"/>
   <outline>
-    <component base="reh-ar" xScale="0.65579" yScale="0.65579" xOffset="681" yOffset="1451"/>
+    <component base="reh-ar" xScale="0.6558" yScale="0.6558" xOffset="681" yOffset="1451"/>
     <contour>
       <point x="287" y="1215" type="curve"/>
       <point x="348" y="1260" type="line"/>

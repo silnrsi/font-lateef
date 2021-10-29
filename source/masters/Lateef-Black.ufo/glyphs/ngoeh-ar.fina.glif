@@ -6,12 +6,12 @@
   <anchor x="316" y="-202" name="diaB"/>
   <outline>
     <component base="keheh-ar.fina"/>
-    <component base="_gafBar_dot2h" xOffset="610" yOffset="835"/>
+    <component base="_gafBar_dot2h" xOffset="610" yOffset="895"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

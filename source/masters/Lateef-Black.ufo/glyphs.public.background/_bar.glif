@@ -2,10 +2,10 @@
 <glyph name="_bar" format="2">
   <outline>
     <contour>
-      <point x="-157" y="88" type="line"/>
-      <point x="-186" y="20" type="line"/>
-      <point x="153" y="-20" type="line"/>
-      <point x="190" y="48" type="line"/>
+      <point x="-152" y="99" type="line"/>
+      <point x="-191" y="8" type="line"/>
+      <point x="146" y="-32" type="line"/>
+      <point x="196" y="59" type="line"/>
     </contour>
   </outline>
 </glyph>

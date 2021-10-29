@@ -13,4 +13,10 @@
     <component base="_kaf_left"/>
     <component base="keheh-ar.init" xOffset="595"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

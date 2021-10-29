@@ -3,10 +3,16 @@
   <anchor x="0" y="30" name="_through"/>
   <outline>
     <contour>
-      <point x="-157" y="88" type="line"/>
-      <point x="-186" y="20" type="line"/>
-      <point x="153" y="-20" type="line"/>
-      <point x="190" y="48" type="line"/>
+      <point x="-127" y="85" type="line"/>
+      <point x="-156" y="17" type="line"/>
+      <point x="113" y="-15" type="line"/>
+      <point x="150" y="53" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
