@@ -49,10 +49,13 @@
 /_strokeHead/lam-ar.init/kaf-ar/lamVabove-ar.init/lamDotabove-ar.init/lamThreedotsabove-ar.init/lamTahabove-ar.init/lamThreedotsbelow-ar.init/lamBar-ar.init/lamDoublebar-ar.init 
 /_bar/reh-ar/rehStroke-ar/reh-ar.fina/rehStroke-ar.fina/lamBar-ar/lamBar-ar.fina/lamBar-ar.medi/lamBar-ar.init/lamBar-ar.medi.preAlef/lamBar-ar.init.preAlef/_bar2/space 
 /alef-ar.fina 
-/keheh-ar.fina/kaf-ar.medi/kaf-ar.init/keheh-ar.init/space/keheh-ar/gaf-ar/_gafBar/space/space/space/space/gaf-ar.fina/gaf-ar.medi/space/_ring/space/kaf-ar.init/_gafBarShort/space/space/space/gaf-ar.init 
+/keheh-ar.fina/kaf-ar.medi/kaf-ar.init/keheh-ar.init/space/keheh-ar/gaf-ar/_gafBar/space/space/space/space/gaf-ar.fina/gaf-ar.medi/space/_ring/space/kaf-ar.init/alef-ar.fina/_gafBarShort/space/space/space/gaf-ar.init 
 
 /_gafBar/space/space/space/gaf-ar.fina/gaf-ar.medi/gafRing-ar.fina/gafRing-ar.medi/gafTwodotsbelow-ar.fina/gafTwodotsbelow-ar.medi/gueh-ar.fina/gueh-ar.medi/space/_gafBar_dot2h/space/space/space/_gafBar_dot3u/space/space/space/_gafBarShort_dot2h/space/space/_gafBarShort/space/space/space 
 /_gafBarShort/space/space/space/gaf-ar/gaf-ar.init/gafRing-ar/gafRing-ar.init/gafTwodotsbelow-ar/gafTwodotsbelow-ar.init/space/gueh-ar/gueh-ar.init/space/ngoeh-ar</string>
+    <string>/kaf-ar/alef-ar.fina/space/kaf-ar/alef-ar.fina/space/kaf-ar/alef-ar.fina/space 
+/gaf-ar/alef-ar.fina/space/gaf-ar/alef-ar.fina/space/gaf-ar/alef-ar.fina/space 
+/lamBar-ar/alef-ar.fina/space/lamBar-ar/alef-ar.fina/space/lamBar-ar/alef-ar.fina/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
