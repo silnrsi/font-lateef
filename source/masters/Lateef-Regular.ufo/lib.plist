@@ -56,6 +56,7 @@
     <string>/kaf-ar/alef-ar.fina/space/kaf-ar/alef-ar.fina/space/kaf-ar/alef-ar.fina/space 
 /gaf-ar/alef-ar.fina/space/gaf-ar/alef-ar.fina/space/gaf-ar/alef-ar.fina/space 
 /lamBar-ar/alef-ar.fina/space/lamBar-ar/alef-ar.fina/space/lamBar-ar/alef-ar.fina/space</string>
+    <string>/ain-ar/ain-ar.fina/ain-ar.medi/ain-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
