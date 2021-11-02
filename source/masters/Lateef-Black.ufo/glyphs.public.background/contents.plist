@@ -436,6 +436,8 @@
   <string>openfathatan-ar.glif</string>
   <key>openkasratan-ar</key>
   <string>openkasratan-ar.glif</string>
+  <key>parenleft</key>
+  <string>parenleft.glif</string>
   <key>parenleft-ar</key>
   <string>parenleft-ar.glif</string>
   <key>percent-ar</key>

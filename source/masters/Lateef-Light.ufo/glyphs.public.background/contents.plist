@@ -98,6 +98,8 @@
   <string>one-ar.tnum.glif</string>
   <key>pagenumber-ar</key>
   <string>pagenumber-ar.glif</string>
+  <key>parenleft</key>
+  <string>parenleft.glif</string>
   <key>quotedblbase.arab</key>
   <string>quotedblbase.arab.glif</string>
   <key>quotedblright</key>

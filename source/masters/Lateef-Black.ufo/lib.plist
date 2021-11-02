@@ -61,6 +61,7 @@
     <string>/ain-ar/ain-ar.fina/ain-ar.medi/ain-ar.init</string>
     <string>/_madda/space/alefMadda-ar/space/alefMadda-ar.fina/space/alefMadda-ar.fina.postLamIni/space/alefMadda-ar.fina.postLamMed/space/space/madda-ar/space/space/space/maddalong-ar/space</string>
     <string>/alefMadda-ar/alefMadda-ar.fina/alefMadda-ar.fina.postLamIni/alefMadda-ar.fina.postLamMed/madda-ar/maddalong-ar/_madda</string>
+    <string>(/parenleft.latn )/parenright.latn</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
