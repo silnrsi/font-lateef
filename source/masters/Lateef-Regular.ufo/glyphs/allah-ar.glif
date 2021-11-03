@@ -2,7 +2,6 @@
 <glyph name="allah-ar" format="2">
   <advance width="1540"/>
   <unicode hex="FDF2"/>
-  <image fileName="Images/allah-ar-Regular.tif" xScale="6.68404" yScale="6.68404" xOffset="-397" yOffset="-68"/>
   <guideline x="705" y="810" angle="18.6427"/>
   <guideline x="727" y="397" angle="273.1488"/>
   <guideline x="1073" y="408" angle="273.1488"/>
@@ -42,9 +41,9 @@
       <point x="710" y="248"/>
       <point x="689" y="180"/>
       <point x="561" y="180" type="curve" smooth="yes"/>
-      <point x="413" y="180"/>
-      <point x="426" y="331"/>
-      <point x="390" y="724" type="curve"/>
+      <point x="459" y="180"/>
+      <point x="444" y="282"/>
+      <point x="398" y="728" type="curve"/>
       <point x="327" y="703" type="line"/>
       <point x="399" y="184"/>
       <point x="374" y="0"/>
@@ -90,19 +89,6 @@
           <integer>100</integer>
         </dict>
       </array>
-      <key>com.schriftgestaltung.backgroundImage.alpha</key>
-      <integer>50</integer>
-      <key>com.schriftgestaltung.backgroundImage.crop</key>
-      <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>0</integer>
-      </array>
-      <key>com.schriftgestaltung.backgroundImage.locked</key>
-      <false/>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>
