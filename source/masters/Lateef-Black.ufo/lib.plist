@@ -64,7 +64,9 @@
     <string>(/parenleft.latn )/parenright.latn</string>
     <string>"'/quotedblleft.latn/quoteleft.latn X/quoteright.latn/quotedblright.latn/quotedblbase/quotesinglbase X/quoteleft.latn/quotedblleft.latn 
 /meem-ar/space/comma-ar.downward/space/quotedblleft/quoteleft/lam-ar.fina/beh-ar.medi/lam-ar.init/quoteright/quotedblright/quotesinglbase.arab/quotedblbase.arab</string>
-    <string>/allah-ar/space/hehgoal-ar.fina.allah/heh-ar.fina.allah/space/lam-ar.medi.allah2/space/lam-ar.medi.allah1/alef-ar.fina.allah/space/lam-ar.init.allah1/alef-ar.allah</string>
+    <string>/allah-ar/alef-ar/space/hehgoal-ar.fina.allah/space/heh-ar.fina.allah/space/lam-ar.medi.allah2/space/lam-ar.init.allah1/space/lam-ar.medi.allah1/space/alef-ar.fina.allah/space/alef-ar.allah 
+/allah-ar/alef-ar/space/hehgoal-ar.fina.allah/space/heh-ar.fina.allah/space/lam-ar.medi.allah2/space/lam-ar.init.allah1/space/lam-ar.medi.allah1/space/alef-ar.fina.allah/space/alef-ar.allah 
+/allah-ar/alef-ar/space/hehgoal-ar.fina.allah/space/heh-ar.fina.allah/space/lam-ar.medi.allah2/space/lam-ar.init.allah1/space/lam-ar.medi.allah1/space/alef-ar.fina.allah/space/alef-ar.allah</string>
     <string>/lamThreedotsbelow-ar.medi.preAlef/lamThreedotsbelow_alef-ar.fina/space/lamThreedotsbelow_alefWavyhamzabelow-ar.fina/lamThreedotsbelow_alefWavyhamzaabove-ar.fina/lamThreedotsbelow_alefWasla-ar.fina/lamThreedotsbelow_alefTwoabove-ar.fina/lamThreedotsbelow_alefThreeabove-ar.fina 
 /lamThreedotsbelow_alef-ar/space/space/space/space/lamThreedotsbelow_alefWavyhamzaabove-ar/lamThreedotsbelow_alefWasla-ar/lamThreedotsbelow_alefTwoabove-ar/lamThreedotsbelow_alefThreeabove-ar 
 /space/space/space/space/lamThreedotsbelow_alefWavyhamzabelow-ar</string>
@@ -1508,6 +1510,7 @@
     <string>number-ar.2</string>
     <string>number-ar.3</string>
     <string>decimalseparator-ar</string>
+    <string>decimalseparator-ar.slash</string>
     <string>thousandseparator-ar</string>
     <string>asterisk-ar</string>
     <string>parenleft-ar</string>
@@ -3179,6 +3182,7 @@
     <string>number-ar.2</string>
     <string>number-ar.3</string>
     <string>decimalseparator-ar</string>
+    <string>decimalseparator-ar.slash</string>
     <string>thousandseparator-ar</string>
     <string>asterisk-ar</string>
     <string>parenleft-ar</string>
