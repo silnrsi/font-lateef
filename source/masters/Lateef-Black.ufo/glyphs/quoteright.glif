@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quoteright" format="2">
-  <advance width="389"/>
+  <advance width="450"/>
   <unicode hex="2019"/>
   <outline>
-    <component base="comma-ar.downward" xScale="-1" yScale="-1" xOffset="434" yOffset="1058"/>
+    <component base="_comma" xScale="-1" yScale="-1" xOffset="450" yOffset="1179"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>_comma</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

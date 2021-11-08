@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblright" format="2">
-  <advance width="589"/>
+  <advance width="679"/>
   <unicode hex="201D"/>
   <outline>
-    <component base="comma-ar.downward" xScale="-1" yScale="-1" xOffset="354" yOffset="1026"/>
-    <component base="comma-ar.downward" xScale="-1" yScale="-1" xOffset="634" yOffset="1026"/>
+    <component base="_comma" xScale="-1" yScale="-1" xOffset="392" yOffset="1178"/>
+    <component base="_comma" xScale="-1" yScale="-1" xOffset="679" yOffset="1178"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>_comma</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

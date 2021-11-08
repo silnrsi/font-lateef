@@ -62,8 +62,16 @@
     <string>/_madda/space/alefMadda-ar/space/alefMadda-ar.fina/space/alefMadda-ar.fina.postLamIni/space/alefMadda-ar.fina.postLamMed/space/space/madda-ar/space/space/space/maddalong-ar/space</string>
     <string>/alefMadda-ar/alefMadda-ar.fina/alefMadda-ar.fina.postLamIni/alefMadda-ar.fina.postLamMed/madda-ar/maddalong-ar/_madda</string>
     <string>(/parenleft.latn )/parenright.latn</string>
-    <string>"'/meem-ar/space/comma-ar.downward/quoteleft/quoteleft.latn/quoteright/quoteright.latn/quotesinglbase/quotedblleft/quotedblleft.latn/quotedblright/quotedblright.latn/quotedblbase/quotesinglbase.arab/quotedblbase.arab</string>
-    <string>/allah-ar</string>
+    <string>"'/quotedblleft.latn/quoteleft.latn X/quoteright.latn/quotedblright.latn/quotedblbase/quotesinglbase X/quoteleft.latn/quotedblleft.latn 
+/meem-ar/space/comma-ar.downward/space/quotedblleft/quoteleft/lam-ar.fina/beh-ar.medi/lam-ar.init/quoteright/quotedblright/quotesinglbase.arab/quotedblbase.arab</string>
+    <string>/allah-ar/space/hehgoal-ar.fina.allah/heh-ar.fina.allah/space/lam-ar.medi.allah2/space/lam-ar.medi.allah1/alef-ar.fina.allah/space/lam-ar.init.allah1/alef-ar.allah</string>
+    <string>/lamThreedotsbelow-ar.medi.preAlef/lamThreedotsbelow_alef-ar.fina/space/lamThreedotsbelow_alefWavyhamzabelow-ar.fina/lamThreedotsbelow_alefWavyhamzaabove-ar.fina/lamThreedotsbelow_alefWasla-ar.fina/lamThreedotsbelow_alefTwoabove-ar.fina/lamThreedotsbelow_alefThreeabove-ar.fina 
+/lamThreedotsbelow_alef-ar/space/space/space/space/lamThreedotsbelow_alefWavyhamzaabove-ar/lamThreedotsbelow_alefWasla-ar/lamThreedotsbelow_alefTwoabove-ar/lamThreedotsbelow_alefThreeabove-ar 
+/space/space/space/space/lamThreedotsbelow_alefWavyhamzabelow-ar</string>
+    <string>/jeem-ar/jeem-ar.fina/jeem-ar.medi/jeem-ar.init/jeemTwodotsabove-ar/jeemTwodotsabove-ar.fina/jeemTwodotsabove-ar.medi/jeemTwodotsabove-ar.init/jeemThreedotsabove-ar/jeemThreedotsabove-ar.fina/jeemThreedotsabove-ar.medi/jeemThreedotsabove-ar.init/jeemThreedotsbelow-ar/jeemThreedotsbelow-ar.fina/jeemThreedotsbelow-ar.medi/jeemThreedotsbelow-ar.init/jeemabove-ar</string>
+    <string>/quoteright.latn/quotedblright.latn/colon.latn ;,/quotesinglbase ./fullstop-ar/_comma/quotesinglbase.arab ./_dot_punct/commareversed/comma-ar.downward/comma-ar :/semicolon-ar/u-ar.fina/e-ar.init/semicolon-ar.downward/tah-ar/reversedsemicolon/behDotless-ar/quotedblleft/quoteleft/lam-ar.fina/beh-ar.medi/lam-ar.init/quoteright/quotedblright 
+/quoteright.latn/quotedblright.latn/colon.latn ;,/quotesinglbase ./fullstop-ar/_comma/quotesinglbase.arab ./_dot_punct/commareversed/comma-ar.downward/comma-ar :/semicolon-ar/u-ar.fina/e-ar.init/semicolon-ar.downward/tah-ar/reversedsemicolon/behDotless-ar/quotedblleft/quoteleft/lam-ar.fina/beh-ar.medi/lam-ar.init/quoteright/quotedblright 
+/quoteright.latn/quotedblright.latn/colon.latn ;,/quotesinglbase ./fullstop-ar/_comma/quotesinglbase.arab ./_dot_punct/commareversed/comma-ar.downward/comma-ar :/semicolon-ar/u-ar/u-ar.fina/e-ar.init/semicolon-ar.downward/tah-ar/reversedsemicolon/behDotless-ar/quotedblleft/quoteleft/lam-ar.fina/beh-ar.medi/lam-ar.init/quoteright/quotedblright</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
@@ -3849,6 +3857,8 @@
     <string>uni0688.fina</string>
     <key>decimalseparator-ar</key>
     <string>uni066B</string>
+    <key>decimalseparator-ar.slash</key>
+    <string>uni066B.slash</string>
     <key>dieresiscomb</key>
     <string>uni0308</string>
     <key>dieresiscomb.case</key>

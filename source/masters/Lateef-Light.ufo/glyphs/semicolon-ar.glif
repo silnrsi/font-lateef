@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semicolon-ar" format="2">
-  <advance width="325"/>
+  <advance width="338"/>
   <unicode hex="061B"/>
   <outline>
-    <component base="comma-ar" xOffset="13" yOffset="277"/>
-    <component base="_dot1" xOffset="187" yOffset="118"/>
+    <component base="_comma" yOffset="391"/>
+    <component base="_dot_punct" xOffset="1" yOffset="72"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>_comma</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

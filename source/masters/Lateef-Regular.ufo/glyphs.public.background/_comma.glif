@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_comma" format="2">
+  <outline>
+    <contour>
+      <point x="250" y="399" type="line"/>
+      <point x="68" y="258"/>
+      <point x="51" y="89"/>
+      <point x="197" y="-15" type="curve"/>
+      <point x="301" y="89" type="line"/>
+      <point x="209" y="152"/>
+      <point x="163" y="259"/>
+      <point x="263" y="387" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_comma" format="2">
+  <advance width="338"/>
+  <anchor x="258" y="-204" name="_above"/>
+  <outline>
+    <contour>
+      <point x="228" y="393" type="line"/>
+      <point x="61" y="264"/>
+      <point x="25" y="80"/>
+      <point x="171" y="-15" type="curve"/>
+      <point x="258" y="72" type="line"/>
+      <point x="159" y="134"/>
+      <point x="141" y="253"/>
+      <point x="241" y="381" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

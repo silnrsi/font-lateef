@@ -8,6 +8,8 @@
   <string>_bar.glif</string>
   <key>_bowl_seen</key>
   <string>_bowl_seen.glif</string>
+  <key>_comma</key>
+  <string>_comma.glif</string>
   <key>_damma</key>
   <string>_damma.glif</string>
   <key>_damma.filled</key>
@@ -50,6 +52,8 @@
   <string>_dot4.glif</string>
   <key>_dotCircular</key>
   <string>_dotC_ircular.glif</string>
+  <key>_dot_punct</key>
+  <string>_dot_punct.glif</string>
   <key>_gafBar</key>
   <string>_gafB_ar.glif</string>
   <key>_gafBarShort_dot2h</key>

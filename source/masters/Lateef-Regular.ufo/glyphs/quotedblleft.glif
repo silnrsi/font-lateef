@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblleft" format="2">
-  <advance width="589"/>
+  <advance width="678"/>
   <unicode hex="201C"/>
   <outline>
-    <component base="comma-ar.downward" xOffset="-45" yOffset="1064"/>
-    <component base="comma-ar.downward" xOffset="235" yOffset="1064"/>
+    <component base="quoteleft" xOffset="286"/>
+    <component base="quoteleft"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>_comma</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
