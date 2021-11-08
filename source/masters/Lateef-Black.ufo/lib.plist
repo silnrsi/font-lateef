@@ -74,9 +74,10 @@
     <string>/quoteright.latn/quotedblright.latn/colon.latn ;,/quotesinglbase ./fullstop-ar/_comma/quotesinglbase.arab ./_dot_punct/commareversed/comma-ar.downward/comma-ar :/semicolon-ar/u-ar.fina/e-ar.init/semicolon-ar.downward/tah-ar/reversedsemicolon/behDotless-ar/quotedblleft/quoteleft/lam-ar.fina/beh-ar.medi/lam-ar.init/quoteright/quotedblright 
 /quoteright.latn/quotedblright.latn/colon.latn ;,/quotesinglbase ./fullstop-ar/_comma/quotesinglbase.arab ./_dot_punct/commareversed/comma-ar.downward/comma-ar :/semicolon-ar/u-ar.fina/e-ar.init/semicolon-ar.downward/tah-ar/reversedsemicolon/behDotless-ar/quotedblleft/quoteleft/lam-ar.fina/beh-ar.medi/lam-ar.init/quoteright/quotedblright 
 /quoteright.latn/quotedblright.latn/colon.latn ;,/quotesinglbase ./fullstop-ar/_comma/quotesinglbase.arab ./_dot_punct/commareversed/comma-ar.downward/comma-ar :/semicolon-ar/u-ar/u-ar.fina/e-ar.init/semicolon-ar.downward/tah-ar/reversedsemicolon/behDotless-ar/quotedblleft/quoteleft/lam-ar.fina/beh-ar.medi/lam-ar.init/quoteright/quotedblright</string>
+    <string>/dotvowelbelow-ar/space/dotStopabove-ar/space/space/dotvowelbelow-ar/space/dotStopabove-ar/space/space/dotvowelbelow-ar/space/dotStopabove-ar/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
-  <integer>3000</integer>
+  <integer>2000</integer>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>

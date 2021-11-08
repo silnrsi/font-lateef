@@ -4,6 +4,25 @@
   <anchor x="0" y="-75" name="_diaB"/>
   <anchor x="0" y="-290" name="diaB"/>
   <outline>
-    <component base="dotStopabove-ar" yOffset="-1288"/>
+    <contour>
+      <point x="0" y="-295" type="curve" smooth="yes"/>
+      <point x="61" y="-295"/>
+      <point x="111" y="-245"/>
+      <point x="111" y="-184" type="curve" smooth="yes"/>
+      <point x="111" y="-123"/>
+      <point x="61" y="-73"/>
+      <point x="0" y="-73" type="curve" smooth="yes"/>
+      <point x="-61" y="-73"/>
+      <point x="-111" y="-123"/>
+      <point x="-111" y="-184" type="curve" smooth="yes"/>
+      <point x="-111" y="-245"/>
+      <point x="-61" y="-295"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
