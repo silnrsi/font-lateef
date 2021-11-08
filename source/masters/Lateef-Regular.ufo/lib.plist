@@ -45,29 +45,12 @@
 /lam-ar/tah-ar/meem-ar/sad-ar/behDotless-ar/lam-ar 
 /lam-ar/tah-ar/meem-ar/zero-persian/one-persian/two-persian/three-persian/four-persian/five-persian/six-persian/seven-persian/eight-persian/nine-persian/sad-ar/behDotless-ar/lam-ar 
 /lam-ar/tah-ar/meem-ar/sad-ar/behDotless-ar</string>
-    <string>/allah-ar 
-/_strokeHead/lam-ar.init/kaf-ar/lamVabove-ar.init/lamDotabove-ar.init/lamThreedotsabove-ar.init/lamTahabove-ar.init/lamThreedotsbelow-ar.init/lamBar-ar.init/lamDoublebar-ar.init 
-/_bar/reh-ar/rehStroke-ar/reh-ar.fina/rehStroke-ar.fina/lamBar-ar/lamBar-ar.fina/lamBar-ar.medi/lamBar-ar.init/lamBar-ar.medi.preAlef/lamBar-ar.init.preAlef/_bar2/space 
-/alef-ar.fina 
-/keheh-ar.fina/kaf-ar.medi/kaf-ar.init/keheh-ar.init/space/keheh-ar/gaf-ar/_gafBar/space/space/space/space/gaf-ar.fina/gaf-ar.medi/space/_ring/space/kaf-ar.init/alef-ar.fina/_gafBarShort/space/space/space/gaf-ar.init 
-
-/_gafBar/space/space/space/gaf-ar.fina/gaf-ar.medi/gafRing-ar.fina/gafRing-ar.medi/gafTwodotsbelow-ar.fina/gafTwodotsbelow-ar.medi/gueh-ar.fina/gueh-ar.medi/space/_gafBar_dot2h/space/space/space/_gafBar_dot3u/space/space/space/_gafBarShort_dot2h/space/space/_gafBarShort/space/space/space 
-/_gafBarShort/space/space/space/gaf-ar/gaf-ar.init/gafRing-ar/gafRing-ar.init/gafTwodotsbelow-ar/gafTwodotsbelow-ar.init/space/gueh-ar/gueh-ar.init/space/ngoeh-ar</string>
-    <string>/kaf-ar/alef-ar.fina/space/kaf-ar/alef-ar.fina/space/kaf-ar/alef-ar.fina/space 
-/gaf-ar/alef-ar.fina/space/gaf-ar/alef-ar.fina/space/gaf-ar/alef-ar.fina/space 
-/lamBar-ar/alef-ar.fina/space/lamBar-ar/alef-ar.fina/space/lamBar-ar/alef-ar.fina/space</string>
-    <string>/ain-ar/ain-ar.fina/ain-ar.medi/ain-ar.init</string>
-    <string>/_madda/space/alefMadda-ar/space/alefMadda-ar.fina/space/alefMadda-ar.fina.postLamIni/space/alefMadda-ar.fina.postLamMed/space/space/madda-ar/space/space/space/maddalong-ar/space</string>
-    <string>/alefMadda-ar/alefMadda-ar.fina/alefMadda-ar.fina.postLamIni/alefMadda-ar.fina.postLamMed/madda-ar/maddalong-ar/_madda</string>
-    <string>(/parenleft.latn )/parenright.latn</string>
-    <string>"'/quotedblleft.latn/quoteleft.latn X/quoteright.latn/quotedblright.latn/quotedblbase/quotesinglbase X/quoteleft.latn/quotedblleft.latn 
-/meem-ar/space/comma-ar.downward/space/quotedblleft/quoteleft/lam-ar.fina/beh-ar.medi/lam-ar.init/quoteright/quotedblright/quotesinglbase.arab/quotedblbase.arab</string>
     <string>/allah-ar/alef-ar/space/hehgoal-ar.fina.allah/space/heh-ar.fina.allah/space/lam-ar.medi.allah2/space/lam-ar.init.allah1/space/lam-ar.medi.allah1/space/alef-ar.fina.allah/space/alef-ar.allah 
 /allah-ar/alef-ar/space/hehgoal-ar.fina.allah/space/heh-ar.fina.allah/space/lam-ar.medi.allah2/space/lam-ar.init.allah1/space/lam-ar.medi.allah1/space/alef-ar.fina.allah/space/alef-ar.allah 
 /allah-ar/alef-ar/space/hehgoal-ar.fina.allah/space/heh-ar.fina.allah/space/lam-ar.medi.allah2/space/lam-ar.init.allah1/space/lam-ar.medi.allah1/space/alef-ar.fina.allah/space/alef-ar.allah</string>
-    <string>/lamThreedotsbelow-ar.medi.preAlef/lamThreedotsbelow_alef-ar.fina/space/lamThreedotsbelow_alefWavyhamzabelow-ar.fina/lamThreedotsbelow_alefWavyhamzaabove-ar.fina/lamThreedotsbelow_alefWasla-ar.fina/lamThreedotsbelow_alefTwoabove-ar.fina/lamThreedotsbelow_alefThreeabove-ar.fina 
-/lamThreedotsbelow_alef-ar/space/space/space/space/lamThreedotsbelow_alefWavyhamzaabove-ar/lamThreedotsbelow_alefWasla-ar/lamThreedotsbelow_alefTwoabove-ar/lamThreedotsbelow_alefThreeabove-ar 
-/space/space/space/space/lamThreedotsbelow_alefWavyhamzabelow-ar</string>
+    <string>/lam-ar.medi.preAlef/space/space/_dot3d/space/space/lamThreedotsbelow-ar.medi.preAlef/lamThreedotsbelow_alef-ar.fina/space/lamThreedotsbelow_alefWavyhamzabelow-ar.fina/lamThreedotsbelow_alefWavyhamzaabove-ar.fina/lamThreedotsbelow_alefWasla-ar.fina/lamThreedotsbelow_alefTwoabove-ar.fina/lamThreedotsbelow_alefThreeabove-ar.fina 
+/lam-ar.init.preAlef/space/lamThreedotsbelow-ar.init.preAlef/lamThreedotsbelow_alef-ar/space/space/space/space/lamThreedotsbelow_alefWavyhamzaabove-ar/lamThreedotsbelow_alefWasla-ar/lamThreedotsbelow_alefTwoabove-ar/lamThreedotsbelow_alefThreeabove-ar 
+/space/space/space/space/alef-ar.fina.postLamIni/alefWavyhamzabelow-ar.fina.postLamIni/lamThreedotsbelow_alefWavyhamzabelow-ar</string>
     <string>/jeem-ar/jeem-ar.fina/jeem-ar.medi/jeem-ar.init/jeemTwodotsabove-ar/jeemTwodotsabove-ar.fina/jeemTwodotsabove-ar.medi/jeemTwodotsabove-ar.init/jeemThreedotsabove-ar/jeemThreedotsabove-ar.fina/jeemThreedotsabove-ar.medi/jeemThreedotsabove-ar.init/jeemThreedotsbelow-ar/jeemThreedotsbelow-ar.fina/jeemThreedotsbelow-ar.medi/jeemThreedotsbelow-ar.init/jeemabove-ar</string>
     <string>/quoteright.latn/quotedblright.latn/colon.latn ;,/quotesinglbase ./fullstop-ar/_comma/quotesinglbase.arab ./_dot_punct/commareversed/comma-ar.downward/comma-ar :/semicolon-ar/u-ar.fina/e-ar.init/semicolon-ar.downward/tah-ar/reversedsemicolon/behDotless-ar/quotedblleft/quoteleft/lam-ar.fina/beh-ar.medi/lam-ar.init/quoteright/quotedblright 
 /quoteright.latn/quotedblright.latn/colon.latn ;,/quotesinglbase ./fullstop-ar/_comma/quotesinglbase.arab ./_dot_punct/commareversed/comma-ar.downward/comma-ar :/semicolon-ar/u-ar.fina/e-ar.init/semicolon-ar.downward/tah-ar/reversedsemicolon/behDotless-ar/quotedblleft/quoteleft/lam-ar.fina/beh-ar.medi/lam-ar.init/quoteright/quotedblright 
@@ -75,7 +58,7 @@
     <string>/dotvowelbelow-ar/space/dotStopabove-ar/space/space/dotvowelbelow-ar/space/dotStopabove-ar/space/space/dotvowelbelow-ar/space/dotStopabove-ar/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
-  <integer>2000</integer>
+  <integer>3000</integer>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
