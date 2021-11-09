@@ -185,7 +185,7 @@
       <string>\u06FC\u06EC\u06D2 \u200D\u06FC\u06EC\u06D2 \u06FC\u064D\u06EC\u06D2 \u200D\u06FC\u064D\u06EC\u06D2</string>
     </test>
     <test background="#ffc8a0" label="U+08C3">
-      <comment>ghainThreedots-ar</comment>
+      <comment>ghainThreedotsabove-ar</comment>
       <string>\u08C3\u06EC\u06D2 \u200D\u08C3\u06EC\u06D2 \u08C3\u064D\u06EC\u06D2 \u200D\u08C3\u064D\u06EC\u06D2</string>
     </test>
     <test label="U+06B3">
@@ -481,7 +481,7 @@
       <string>\u08BC\u06EC\u06D2 \u200D\u08BC\u06EC\u06D2 \u08BC\u064D\u06EC\u06D2 \u200D\u08BC\u064D\u06EC\u06D2</string>
     </test>
     <test background="#ffc8a0" label="U+08C4">
-      <comment>qafAfricanThreedotsabove-ar</comment>
+      <comment>qafThreedotsaboveAfrican-ar</comment>
       <string>\u08C4\u06EC\u06D2 \u200D\u08C4\u06EC\u06D2 \u08C4\u064D\u06EC\u06D2 \u200D\u08C4\u064D\u06EC\u06D2</string>
     </test>
     <test label="U+06A7">

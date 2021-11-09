@@ -1548,11 +1548,11 @@
       <string>\u0008C2 \u0008C2\u00200D \u00200D\u0008C2\u00200D \u00200D\u0008C2 \u0008C2\u0008C2\u0008C2 </string>
     </test>
     <test background="#ffc8a0" label="U+08C3">
-      <comment>ghainThreedots-ar</comment>
+      <comment>ghainThreedotsabove-ar</comment>
       <string>\u0008C3 \u0008C3\u00200D \u00200D\u0008C3\u00200D \u00200D\u0008C3 \u0008C3\u0008C3\u0008C3 </string>
     </test>
     <test background="#ffc8a0" label="U+08C4">
-      <comment>qafAfricanThreedotsabove-ar</comment>
+      <comment>qafThreedotsaboveAfrican-ar</comment>
       <string>\u0008C4 \u0008C4\u00200D \u00200D\u0008C4\u00200D \u00200D\u0008C4 \u0008C4\u0008C4\u0008C4 </string>
     </test>
     <test background="#ffc8a0" label="U+08C5">

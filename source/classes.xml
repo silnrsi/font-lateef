@@ -31,7 +31,7 @@ of the license along with this Font Software. If this is not the case, go to
         behVinvertedbelow-ar beheh-ar behhamzaabove-ar dad-ar dadDotbelow-ar dyeh-ar e-ar feh-ar
         fehAfrican-ar fehDotbelow-ar fehDotbelowThreedotsabove-ar fehDotless-ar fehDotmovedbelow-ar fehThreedotsbelow-ar
         fehThreedotsupbelow-ar fehTwodotsbelow-ar gaf-ar gafInvertedstroke-ar gafRing-ar gafThreedots-ar
-        gafTwodotsbelow-ar ghain-ar ghainDotbelow-ar ghainThreedots-ar gueh-ar hah-ar hahFourbelow-ar
+        gafTwodotsbelow-ar ghain-ar ghainDotbelow-ar ghainThreedotsabove-ar gueh-ar hah-ar hahFourbelow-ar
         hahHamzaabove-ar hahTahTwodotshorizontalbelow-ar hahTahabove-ar hahTahbelow-ar hahThreedotsabove-ar
         hahThreedotsupbelow-ar hahTwodotshorizontalabove-ar hahTwodotsverticalabove-ar heh-ar hehDoachashmee-ar
         hehVinvertedabove-ar hehgoal-ar hehgoalHamzaabove-ar highhamzaYeh-ar jeem-ar jeemThreedotsabove-ar
@@ -42,7 +42,7 @@ of the license along with this Font Software. If this is not the case, go to
         lamVabove-ar meem-ar meemDotabove-ar meemDotbelow-ar meemThreedotsabove-ar ng-ar ngoeh-ar
         noon-ar noonAfrican-ar noonDotbelow-ar noonRing-ar noonTahabove-ar noonThreedotsabove-ar noonTwodotsbelow-ar
         noonVabove-ar noonghunna-ar nyeh-ar peh-ar pehMeemabove-ar pehVabove-ar peheh-ar qaf-ar
-        qafAfrican-ar qafAfricanThreedotsabove-ar qafDotabove-ar qafDotbelow-ar qafDotless-ar qafThreedotsabove-ar
+        qafAfrican-ar qafThreedotsaboveAfrican-ar qafDotabove-ar qafDotbelow-ar qafDotless-ar qafThreedotsabove-ar
         rnoon-ar sad-ar sadThreedots-ar sadThreedotsbelow-ar sadTwodotsbelow-ar seen-ar seenDotbelowDotabove-ar
         seenFourabove-ar seenFourdotsabove-ar seenTahTwodotshorizontalabove-ar seenThreedotsbelow-ar seenTwodotsverticalabove-ar
         seenVinvertedabove-ar sheen-ar sheenDotbelow-ar sheenThreedotsbelow-ar tah-ar tahThreedots-ar
@@ -61,7 +61,7 @@ of the license along with this Font Software. If this is not the case, go to
         behVinvertedbelow-ar.init beheh-ar.init behhamzaabove-ar.init dad-ar.init dadDotbelow-ar.init dyeh-ar.init e-ar.init feh-ar.init
         fehAfrican-ar.init fehDotbelow-ar.init fehDotbelowThreedotsabove-ar.init fehDotless-ar.init fehDotmovedbelow-ar.init fehThreedotsbelow-ar.init
         fehThreedotsupbelow-ar.init fehTwodotsbelow-ar.init gaf-ar.init gafInvertedstroke-ar.init gafRing-ar.init gafThreedots-ar.init
-        gafTwodotsbelow-ar.init ghain-ar.init ghainDotbelow-ar.init ghainThreedots-ar.init gueh-ar.init hah-ar.init hahFourbelow-ar.init
+        gafTwodotsbelow-ar.init ghain-ar.init ghainDotbelow-ar.init ghainThreedotsabove-ar.init gueh-ar.init hah-ar.init hahFourbelow-ar.init
         hahHamzaabove-ar.init hahTahTwodotshorizontalbelow-ar.init hahTahabove-ar.init hahTahbelow-ar.init hahThreedotsabove-ar.init
         hahThreedotsupbelow-ar.init hahTwodotshorizontalabove-ar.init hahTwodotsverticalabove-ar.init heh-ar.init hehDoachashmee-ar.init
         hehVinvertedabove-ar.init hehgoal-ar.init hehgoalHamzaabove-ar.init highhamzaYeh-ar.init jeem-ar.init jeemThreedotsabove-ar.init
@@ -72,7 +72,7 @@ of the license along with this Font Software. If this is not the case, go to
         lamVabove-ar.init meem-ar.init meemDotabove-ar.init meemDotbelow-ar.init meemThreedotsabove-ar.init ng-ar.init ngoeh-ar.init
         noon-ar.init noonAfrican-ar.init noonDotbelow-ar.init noonRing-ar.init noonTahabove-ar.init noonThreedotsabove-ar.init noonTwodotsbelow-ar.init
         noonVabove-ar.init noonghunna-ar.init nyeh-ar.init peh-ar.init pehMeemabove-ar.init pehVabove-ar.init peheh-ar.init qaf-ar.init
-        qafAfrican-ar.init qafAfricanThreedotsabove-ar.init qafDotabove-ar.init qafDotbelow-ar.init qafDotless-ar.init qafThreedotsabove-ar.init
+        qafAfrican-ar.init qafThreedotsaboveAfrican-ar.init qafDotabove-ar.init qafDotbelow-ar.init qafDotless-ar.init qafThreedotsabove-ar.init
         rnoon-ar.init sad-ar.init sadThreedots-ar.init sadThreedotsbelow-ar.init sadTwodotsbelow-ar.init seen-ar.init seenDotbelowDotabove-ar.init
         seenFourabove-ar.init seenFourdotsabove-ar.init seenTahTwodotshorizontalabove-ar.init seenThreedotsbelow-ar.init seenTwodotsverticalabove-ar.init
         seenVinvertedabove-ar.init sheen-ar.init sheenDotbelow-ar.init sheenThreedotsbelow-ar.init tah-ar.init tahThreedots-ar.init
@@ -91,7 +91,7 @@ of the license along with this Font Software. If this is not the case, go to
         behVinvertedbelow-ar.medi beheh-ar.medi behhamzaabove-ar.medi dad-ar.medi dadDotbelow-ar.medi dyeh-ar.medi e-ar.medi feh-ar.medi
         fehAfrican-ar.medi fehDotbelow-ar.medi fehDotbelowThreedotsabove-ar.medi fehDotless-ar.medi fehDotmovedbelow-ar.medi fehThreedotsbelow-ar.medi
         fehThreedotsupbelow-ar.medi fehTwodotsbelow-ar.medi gaf-ar.medi gafInvertedstroke-ar.medi gafRing-ar.medi gafThreedots-ar.medi
-        gafTwodotsbelow-ar.medi ghain-ar.medi ghainDotbelow-ar.medi ghainThreedots-ar.medi gueh-ar.medi hah-ar.medi hahFourbelow-ar.medi
+        gafTwodotsbelow-ar.medi ghain-ar.medi ghainDotbelow-ar.medi ghainThreedotsabove-ar.medi gueh-ar.medi hah-ar.medi hahFourbelow-ar.medi
         hahHamzaabove-ar.medi hahTahTwodotshorizontalbelow-ar.medi hahTahabove-ar.medi hahTahbelow-ar.medi hahThreedotsabove-ar.medi
         hahThreedotsupbelow-ar.medi hahTwodotshorizontalabove-ar.medi hahTwodotsverticalabove-ar.medi heh-ar.medi hehDoachashmee-ar.medi
         hehVinvertedabove-ar.medi hehgoal-ar.medi hehgoalHamzaabove-ar.medi highhamzaYeh-ar.medi jeem-ar.medi jeemThreedotsabove-ar.medi
@@ -102,7 +102,7 @@ of the license along with this Font Software. If this is not the case, go to
         lamVabove-ar.medi meem-ar.medi meemDotabove-ar.medi meemDotbelow-ar.medi meemThreedotsabove-ar.medi ng-ar.medi ngoeh-ar.medi
         noon-ar.medi noonAfrican-ar.medi noonDotbelow-ar.medi noonRing-ar.medi noonTahabove-ar.medi noonThreedotsabove-ar.medi noonTwodotsbelow-ar.medi
         noonVabove-ar.medi noonghunna-ar.medi nyeh-ar.medi peh-ar.medi pehMeemabove-ar.medi pehVabove-ar.medi peheh-ar.medi qaf-ar.medi
-        qafAfrican-ar.medi qafAfricanThreedotsabove-ar.medi qafDotabove-ar.medi qafDotbelow-ar.medi qafDotless-ar.medi qafThreedotsabove-ar.medi
+        qafAfrican-ar.medi qafThreedotsaboveAfrican-ar.medi qafDotabove-ar.medi qafDotbelow-ar.medi qafDotless-ar.medi qafThreedotsabove-ar.medi
         rnoon-ar.medi sad-ar.medi sadThreedots-ar.medi sadThreedotsbelow-ar.medi sadTwodotsbelow-ar.medi seen-ar.medi seenDotbelowDotabove-ar.medi
         seenFourabove-ar.medi seenFourdotsabove-ar.medi seenTahTwodotshorizontalabove-ar.medi seenThreedotsbelow-ar.medi seenTwodotsverticalabove-ar.medi
         seenVinvertedabove-ar.medi sheen-ar.medi sheenDotbelow-ar.medi sheenThreedotsbelow-ar.medi tah-ar.medi tahThreedots-ar.medi
@@ -121,7 +121,7 @@ of the license along with this Font Software. If this is not the case, go to
         behVinvertedbelow-ar.fina beheh-ar.fina behhamzaabove-ar.fina dad-ar.fina dadDotbelow-ar.fina dyeh-ar.fina e-ar.fina feh-ar.fina
         fehAfrican-ar.fina fehDotbelow-ar.fina fehDotbelowThreedotsabove-ar.fina fehDotless-ar.fina fehDotmovedbelow-ar.fina fehThreedotsbelow-ar.fina
         fehThreedotsupbelow-ar.fina fehTwodotsbelow-ar.fina gaf-ar.fina gafInvertedstroke-ar.fina gafRing-ar.fina gafThreedots-ar.fina
-        gafTwodotsbelow-ar.fina ghain-ar.fina ghainDotbelow-ar.fina ghainThreedots-ar.fina gueh-ar.fina hah-ar.fina hahFourbelow-ar.fina
+        gafTwodotsbelow-ar.fina ghain-ar.fina ghainDotbelow-ar.fina ghainThreedotsabove-ar.fina gueh-ar.fina hah-ar.fina hahFourbelow-ar.fina
         hahHamzaabove-ar.fina hahTahTwodotshorizontalbelow-ar.fina hahTahabove-ar.fina hahTahbelow-ar.fina hahThreedotsabove-ar.fina
         hahThreedotsupbelow-ar.fina hahTwodotshorizontalabove-ar.fina hahTwodotsverticalabove-ar.fina heh-ar.fina hehDoachashmee-ar.fina
         hehVinvertedabove-ar.fina hehgoal-ar.fina hehgoalHamzaabove-ar.fina highhamzaYeh-ar.fina jeem-ar.fina jeemThreedotsabove-ar.fina
@@ -132,7 +132,7 @@ of the license along with this Font Software. If this is not the case, go to
         lamVabove-ar.fina meem-ar.fina meemDotabove-ar.fina meemDotbelow-ar.fina meemThreedotsabove-ar.fina ng-ar.fina ngoeh-ar.fina
         noon-ar.fina noonAfrican-ar.fina noonDotbelow-ar.fina noonRing-ar.fina noonTahabove-ar.fina noonThreedotsabove-ar.fina noonTwodotsbelow-ar.fina
         noonVabove-ar.fina noonghunna-ar.fina nyeh-ar.fina peh-ar.fina pehMeemabove-ar.fina pehVabove-ar.fina peheh-ar.fina qaf-ar.fina
-        qafAfrican-ar.fina qafAfricanThreedotsabove-ar.fina qafDotabove-ar.fina qafDotbelow-ar.fina qafDotless-ar.fina qafThreedotsabove-ar.fina
+        qafAfrican-ar.fina qafThreedotsaboveAfrican-ar.fina qafDotabove-ar.fina qafDotbelow-ar.fina qafDotless-ar.fina qafThreedotsabove-ar.fina
         rnoon-ar.fina sad-ar.fina sadThreedots-ar.fina sadThreedotsbelow-ar.fina sadTwodotsbelow-ar.fina seen-ar.fina seenDotbelowDotabove-ar.fina
         seenFourabove-ar.fina seenFourdotsabove-ar.fina seenTahTwodotshorizontalabove-ar.fina seenThreedotsbelow-ar.fina seenTwodotsverticalabove-ar.fina
         seenVinvertedabove-ar.fina sheen-ar.fina sheenDotbelow-ar.fina sheenThreedotsbelow-ar.fina tah-ar.fina tahThreedots-ar.fina
@@ -311,9 +311,9 @@ of the license along with this Font Software. If this is not the case, go to
     </class>
 
     <class name='UTR53_230other'>
-        ainabove-ar alefLamYehabove-ar dammainverted-ar dammareversed-ar dotStopabove-ar fathaHorizont-ar fathatwodots-ar hahabove-ar
+        alayheAssallamcomb-ar alefLamYehabove-ar dammainverted-ar dammareversed-ar dotStopabove-ar fathaHorizont-ar fathatwodots-ar hahabove-ar
         jeemabove-ar lamAlefabove-ar madda-ar maddalong-ar marksidewaysnoonghunna-ar meemStopabove-ar meemabove-ar qafLamAlefMaksuraabove-ar
-        rehDadabove-ar rehHahabove-ar rhombusStopabove-ar sadLamAlefMaksuraabove-ar sadabove-ar sukunoval-ar sukunround-ar tahabove-ar
+        rehDadabove-ar rehHahabove-ar rhombusStopabove-ar sadLamAlefMaksuraabove-ar sallallahouAlayheWassallamcomb-ar-ar sukunoval-ar sukunround-ar tahabove-ar
         takhallusabove-ar threedotsabove-ar vabove-ar vinvertedabove-ar zainabove-ar
     </class>
 
