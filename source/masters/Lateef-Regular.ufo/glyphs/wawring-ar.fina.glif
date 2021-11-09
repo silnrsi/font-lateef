@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wawring-ar.fina" format="2">
-  <advance width="589"/>
-  <anchor x="47" y="666" name="alefUnused"/>
+  <advance width="729"/>
+  <anchor x="187" y="666" name="alefUnused"/>
   <anchor x="401" y="688" name="diaA"/>
   <anchor x="251" y="-462" name="diaB"/>
   <outline>
     <component base="waw-ar.fina"/>
-    <component base="_ring" xOffset="152" yOffset="-171"/>
+    <component base="_ring" xOffset="292" yOffset="-171"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

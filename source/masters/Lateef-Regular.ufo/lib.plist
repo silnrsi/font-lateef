@@ -56,6 +56,10 @@
 /quoteright.latn/quotedblright.latn/colon.latn ;,/quotesinglbase ./fullstop-ar/_comma/quotesinglbase.arab ./_dot_punct/commareversed/comma-ar.downward/comma-ar :/semicolon-ar/u-ar.fina/e-ar.init/semicolon-ar.downward/tah-ar/reversedsemicolon/behDotless-ar/quotedblleft/quoteleft/lam-ar.fina/beh-ar.medi/lam-ar.init/quoteright/quotedblright 
 /quoteright.latn/quotedblright.latn/colon.latn ;,/quotesinglbase ./fullstop-ar/_comma/quotesinglbase.arab ./_dot_punct/commareversed/comma-ar.downward/comma-ar :/semicolon-ar/u-ar/u-ar.fina/e-ar.init/semicolon-ar.downward/tah-ar/reversedsemicolon/behDotless-ar/quotedblleft/quoteleft/lam-ar.fina/beh-ar.medi/lam-ar.init/quoteright/quotedblright</string>
     <string>/dotvowelbelow-ar/space/dotStopabove-ar/space/space/dotvowelbelow-ar/space/dotStopabove-ar/space/space/dotvowelbelow-ar/space/dotStopabove-ar/space</string>
+    <string>/comma-ar/waw-ar/space ,/waw-ar/space/commareversed/waw-ar 
+/waw-ar/highhamzaWaw-ar/uHamzaabove-ar/u-ar/wawring-ar/wawTwodots-ar/wawDotabove-ar/wawHamzaabove-ar/wawTwoabove-ar/wawThreeAbove-ar/wawDotcenter-ar/kirghizoe-ar.bar/oe-ar/yu-ar/kirghizyu-ar/ve-ar/wawSmall-ar/highwaw-ar 
+/comma-ar/waw-ar.fina/space ,/waw-ar.fina/space/commareversed/waw-ar.fina 
+/waw-ar.fina/highhamzaWaw-ar.fina/uHamzaabove-ar.fina/u-ar.fina/wawring-ar.fina/wawTwodots-ar.fina/wawDotabove-ar.fina/wawHamzaabove-ar.fina/wawTwoabove-ar.fina/wawThreeAbove-ar.fina/wawDotcenter-ar.fina/kirghizoe-ar.fina.bar/oe-ar.fina/yu-ar.fina/kirghizyu-ar.fina/ve-ar.fina</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>

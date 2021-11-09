@@ -6,10 +6,4 @@
   <outline>
     <component base="waw-ar" xScale="0.54" yScale="0.54" xOffset="-152" yOffset="1003"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

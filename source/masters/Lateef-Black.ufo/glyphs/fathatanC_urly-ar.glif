@@ -7,10 +7,4 @@
     <component base="fathaCurly-ar" xOffset="-172"/>
     <component base="fathaCurly-ar" xOffset="-172" yOffset="240"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>
