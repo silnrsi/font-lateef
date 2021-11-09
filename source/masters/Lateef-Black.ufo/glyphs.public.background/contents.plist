@@ -118,8 +118,8 @@
   <string>ain-ar.init.glif</string>
   <key>ain-ar.medi</key>
   <string>ain-ar.medi.glif</string>
-  <key>ainabove-ar</key>
-  <string>ainabove-ar.glif</string>
+  <key>alayheAssallamcomb-ar</key>
+  <string>alayheA_ssallamcomb-ar.glif</string>
   <key>alef-ar</key>
   <string>alef-ar.glif</string>
   <key>alef-ar.allah</key>
@@ -478,8 +478,8 @@
   <string>sad-ar.medi.glif</string>
   <key>sadLamAlefMaksuraabove-ar</key>
   <string>sadL_amA_lefM_aksuraabove-ar.glif</string>
-  <key>sadabove-ar</key>
-  <string>sadabove-ar.glif</string>
+  <key>sallallahouAlayheWassallamcomb-ar</key>
+  <string>sallallahouA_layheW_assallamcomb-ar.glif</string>
   <key>samvat-ar.2</key>
   <string>samvat-ar.2.glif</string>
   <key>samvat-ar.4</key>

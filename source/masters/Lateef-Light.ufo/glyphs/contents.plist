@@ -404,8 +404,8 @@
   <string>ainT_wodotsverticalabove-ar.init.glif</string>
   <key>ainTwodotsverticalabove-ar.medi</key>
   <string>ainT_wodotsverticalabove-ar.medi.glif</string>
-  <key>ainabove-ar</key>
-  <string>ainabove-ar.glif</string>
+  <key>alayheAssallamcomb-ar</key>
+  <string>alayheA_ssallamcomb-ar.glif</string>
   <key>alef-ar</key>
   <string>alef-ar.glif</string>
   <key>alef-ar.allah</key>
@@ -1170,14 +1170,14 @@
   <string>ghainD_otbelow-ar.init.glif</string>
   <key>ghainDotbelow-ar.medi</key>
   <string>ghainD_otbelow-ar.medi.glif</string>
-  <key>ghainThreedots-ar</key>
-  <string>ghainT_hreedots-ar.glif</string>
-  <key>ghainThreedots-ar.fina</key>
-  <string>ghainT_hreedots-ar.fina.glif</string>
-  <key>ghainThreedots-ar.init</key>
-  <string>ghainT_hreedots-ar.init.glif</string>
-  <key>ghainThreedots-ar.medi</key>
-  <string>ghainT_hreedots-ar.medi.glif</string>
+  <key>ghainThreedotsabove-ar</key>
+  <string>ghainT_hreedotsabove-ar.glif</string>
+  <key>ghainThreedotsabove-ar.fina</key>
+  <string>ghainT_hreedotsabove-ar.fina.glif</string>
+  <key>ghainThreedotsabove-ar.init</key>
+  <string>ghainT_hreedotsabove-ar.init.glif</string>
+  <key>ghainThreedotsabove-ar.medi</key>
+  <string>ghainT_hreedotsabove-ar.medi.glif</string>
   <key>graphemejoinercomb</key>
   <string>graphemejoinercomb.glif</string>
   <key>grave</key>
@@ -2346,14 +2346,6 @@
   <string>qafA_frican-ar.init.glif</string>
   <key>qafAfrican-ar.medi</key>
   <string>qafA_frican-ar.medi.glif</string>
-  <key>qafAfricanThreedotsabove-ar</key>
-  <string>qafA_fricanT_hreedotsabove-ar.glif</string>
-  <key>qafAfricanThreedotsabove-ar.fina</key>
-  <string>qafA_fricanT_hreedotsabove-ar.fina.glif</string>
-  <key>qafAfricanThreedotsabove-ar.init</key>
-  <string>qafA_fricanT_hreedotsabove-ar.init.glif</string>
-  <key>qafAfricanThreedotsabove-ar.medi</key>
-  <string>qafA_fricanT_hreedotsabove-ar.medi.glif</string>
   <key>qafDotabove-ar</key>
   <string>qafD_otabove-ar.glif</string>
   <key>qafDotabove-ar.fina</key>
@@ -2388,6 +2380,14 @@
   <string>qafT_hreedotsabove-ar.init.glif</string>
   <key>qafThreedotsabove-ar.medi</key>
   <string>qafT_hreedotsabove-ar.medi.glif</string>
+  <key>qafThreedotsaboveAfrican-ar</key>
+  <string>qafT_hreedotsaboveA_frican-ar.glif</string>
+  <key>qafThreedotsaboveAfrican-ar.fina</key>
+  <string>qafT_hreedotsaboveA_frican-ar.fina.glif</string>
+  <key>qafThreedotsaboveAfrican-ar.init</key>
+  <string>qafT_hreedotsaboveA_frican-ar.init.glif</string>
+  <key>qafThreedotsaboveAfrican-ar.medi</key>
+  <string>qafT_hreedotsaboveA_frican-ar.medi.glif</string>
   <key>question</key>
   <string>question.glif</string>
   <key>question-ar</key>
@@ -2576,10 +2576,10 @@
   <string>sadT_wodotsbelow-ar.init.glif</string>
   <key>sadTwodotsbelow-ar.medi</key>
   <string>sadT_wodotsbelow-ar.medi.glif</string>
-  <key>sadabove-ar</key>
-  <string>sadabove-ar.glif</string>
   <key>sajdah-ar</key>
   <string>sajdah-ar.glif</string>
+  <key>sallallahouAlayheWassallamcomb-ar</key>
+  <string>sallallahouA_layheW_assallamcomb-ar.glif</string>
   <key>samvat-ar</key>
   <string>samvat-ar.glif</string>
   <key>samvat-ar.2</key>
