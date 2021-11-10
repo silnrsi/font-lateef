@@ -800,6 +800,8 @@
   <string>ddal-ar.fina.glif</string>
   <key>decimalseparator-ar</key>
   <string>decimalseparator-ar.glif</string>
+  <key>decimalseparator-ar.slash</key>
+  <string>decimalseparator-ar.slash.glif</string>
   <key>degree</key>
   <string>degree.glif</string>
   <key>dieresis</key>

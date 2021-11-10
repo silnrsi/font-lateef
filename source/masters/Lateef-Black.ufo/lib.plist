@@ -70,6 +70,8 @@
 /waw-ar.fina/highhamzaWaw-ar.fina/uHamzaabove-ar.fina/u-ar.fina/wawring-ar.fina/wawTwodots-ar.fina/wawDotabove-ar.fina/wawHamzaabove-ar.fina/wawTwoabove-ar.fina/wawThreeAbove-ar.fina/wawDotcenter-ar.fina/kirghizoe-ar.fina.bar/oe-ar.fina/yu-ar.fina/kirghizyu-ar.fina/ve-ar.fina 
 /comma-ar/waw-ar.fina/space ,/waw-ar.fina/space/commareversed/waw-ar.fina 
 /waw-ar.fina/highhamzaWaw-ar.fina/uHamzaabove-ar.fina/u-ar.fina/wawring-ar.fina/wawTwodots-ar.fina/wawDotabove-ar.fina/wawHamzaabove-ar.fina/wawTwoabove-ar.fina/wawThreeAbove-ar.fina/wawDotcenter-ar.fina/kirghizoe-ar.fina.bar/oe-ar.fina/yu-ar.fina/kirghizyu-ar.fina/ve-ar.fina</string>
+    <string>/decimalseparator-ar/decimalseparator-ar.slash</string>
+    <string>/alef-ar/quotedblleft.latn</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2000</integer>
