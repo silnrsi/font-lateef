@@ -62,7 +62,7 @@ joinGroupKeys = {
 def joinGoupSortKey(uid:int):
     return joinGroupKeys.get(get_ucd(uid, 'jg'), 99) * 65536 + uid
 
-ageToFlag = 13.0
+ageToFlag = 14.0
 ageColor = '#FFC8A0'      # light orange -- marks if there is a char from above Unicode version or later
 missingColor = '#FFE0E0'  # light red -- mark if a char is missing from UFO
 backgroundLegend = f'Background colors: light orange: includes a character from Unicode version {ageToFlag} or later; light red: a character is missing from UFO'
@@ -515,8 +515,7 @@ def doit(args):
                     if uid2 == 0x0622:
                         # alefMadda gets decomposed; we'll handle this decomp below
                         continue
-                    if get_ucd(uid2, 'age').startswith('13.'):
-                        ftml.setBackground(ageColor)
+                    setBackgroundColor((uid1, uid2))
                     for featlist in builder.permuteFeatures(uids=(uid1,uid2)):
                         ftml.setFeatures(featlist)
                         builder.render([uid1, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)

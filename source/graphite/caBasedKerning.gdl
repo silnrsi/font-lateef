@@ -1,0 +1,147 @@
+////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  File: caBasedKerning.gdl
+//
+//  Included at end of master.gdl only to generate kerning calculations.
+//
+////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+    This file is part of Lateef font family 
+    (http://scripts.sil.org/Latteef) and is 
+    Copyright (c) 2014-2021 SIL International (http://www.sil.org/),
+    with Reserved Font Names "Lateef" and "SIL".
+
+    This Font Software is licensed under the SIL Open Font License,
+    Version 1.1.
+
+    You should have received a copy of the license along with this Font Software.
+    If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+    details including an FAQ.
+*/
+
+//---------------------------------------------------
+
+
+// GDL-defined constants for collision avoidance flags:
+#define COLL_FIX 1
+#define COLL_IGNORE 2
+#define COLL_START 4
+#define COLL_END 8
+#define COLL_KERN 16
+#define COLL_ISSPACE 128
+#define ORDER_LEFTDOWN 1
+#define ORDER_NOABOVE 4
+#define ORDER_NOBELOW 8
+
+// Macros for setting flags:
+#define setbits(f,m,v) (f & (~m)) | v
+#define SET_FIX(f)     setbits(f, COLL_FIX, COLL_FIX)
+#define SET_START(f)   setbits(f, COLL_START, COLL_START)
+#define SET_END(f)     setbits(f, COLL_END, COLL_END)
+#define SET_KERN(f)    setbits(f, COLL_KERN, COLL_KERN)
+#define SET_ISSPACE(f) setbits(f, COLL_ISSPACE, COLL_ISSPACE)
+
+//---------------------------------------------------
+table(feature)
+
+caKerning {
+    id.hidden = "kern";
+    name.1033 = string("CollisionAvoidance Kerning");
+    settings {
+        default {
+            value = 0;
+            name.1033 = string("Default");
+        }
+        on {
+            value = 1;
+            name.1033 = string("On");
+        }
+        off {
+            value = 2;
+            name.1033 = string("Off");
+        }
+    }
+    default = on;
+}
+
+endtable; // feature
+
+
+//---------------------------------------------------
+table(glyph)
+
+// This isn't the complete list of initials or isolates, but trying it for now
+cComplexShape = (
+    cDualLinkIsol 
+    cDualLinkInit 
+    cRightLinkIsol
+    // cwarsh
+    // cLamIniBeforeAlef
+    cAlefPlusMark   
+    
+ // ToDo: Manually add other glyphs that need complex shape but aren't included above
+
+    g_kashida_ar
+
+) {collision {
+        complexFit = true; 
+             }
+  } ; 
+
+// NB: Can't set min.x and max.x here because current engine isn't transferring them
+// correctly to slot attributes. (was fixed in https://github.com/silnrsi/graphite/commit/70422617ec4e797288f5a1150fcd6c30ab7babed)
+// Instead, we will set them later in the kerning pass.
+
+// Set collision margin, complexFit and flags for all reh-like and waw-like things
+cRehWawAll  { 
+        collision {
+            margin = 150m;
+            complexFit = true;
+            flags = COLL_FIX + COLL_KERN; // + COLL_END + COLL_START
+                    }
+    };
+
+
+// Other chars needed:
+g_space { collision.flags = COLL_END + COLL_START  + COLL_ISSPACE} ;
+g_zerowidthjoiner { collision.flags = COLL_IGNORE} ;  
+
+endtable; // glyph
+
+//---------------------------------------------------
+table (positioning)
+
+if (caKerning != off)
+
+// Collision-Avoidance-based kerning
+
+pass(4)     // Set slot attributes for CA-based kerning:
+
+    // Turn off kerning if next slot is a whitespace char:
+    cRehWawAll   { collision.flags = 0 } / _ MARKS cWhitespace;
+
+    // tighten kerning margin for reh|waw followed by reh|waw
+    cRehWawAll { collision {
+                min.x = -1000m ; 
+                max.x =  1000m ; 
+                margin = 50m ;    
+                        }
+            } / _ MARKS cRehWawAll ;
+    
+    // otherwise just need to set min/max x
+    cRehWawAll { collision {
+                min.x = -1000m ; 
+                max.x =  1000m ;    
+                        }
+            };
+endpass;
+
+pass(5) {CollisionFix = 2; AutoKern = 1}
+    // No rules, just run the collision avoidance algorithm
+endpass;
+
+endif;
+
+endtable; // pos
+

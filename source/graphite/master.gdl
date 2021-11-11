@@ -342,55 +342,59 @@ pass(1)
 
 endpass; // 1
 
-pass(2)
-
-	// Kerning of reh-like and waw-like
-
-	// Loosen from certain narrow initials because of nuktas below
-	// NB: not sure if it is an optical illusion or what, but if I
-	// kern Reh & Waw the same distance, the Rehs seem to still touch.
-	// So I'm giving them an extra 50m
-	cKernRehWawLoosen     {advance.x += 200m } / cRehAll MARKS _ ;
-	cKernRehWawLoosen     {advance.x += 150m } / cWawAll MARKS _ ;
-	cKernRehWawLoosenMore {advance.x += 350m } / cRehAll MARKS _ ;
-	cKernRehWawLoosenMore {advance.x += 300m } / cWawAll MARKS _ ;
-
-	// loosen from following alef with mark below it
-	cAlefIso {advance.x += 150m} / cRehWawAll MARKS _ MARKS cAnyMarksBelow ;
-	// otherwise most can tighten to alef
-	cRehKernAlef {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
-
-	// tighten to following gaf-like unless reh/waw have a mark above
-	cKernRehWawGaf {advance.x -= 150m} / cRehWawTightenToGaf MARKSBELOW _ ;
-
-	// tighter against Ain-like initials
-	// (for other fonts we don't do this if the Ain has marks Below, but Lateef design is different.)
-	// cAinLikeInit                     / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cAnyMarksBelow ;
-	cAinLikeInit {advance.x -= 150m} / cRehWawTighten     MARKS _ ;
-	cAinLikeInit {advance.x -= 150m} / cRehWawTightenMore MARKS _ ;
-
-	// loosen from following Ain-like isloates when reh/wah have lower diacritic:
-	cAinLikeIsol {advance.x += 200m} / cRehWawAll MARKS cAnyMarksBelow MARKS _ ;
-
-	// otherwise tighten some reh/wah (nothing below) to following Ain-like isolates
-	cAinLikeIsol {advance.x -= 200m} / cRehWawNothingBelow MARKSABOVE _ ;
-
-	// loosen from following narrow glyphs with something below
-	cNarrowIni {advance.x += 120m} / cRehWawAll MARKS _ MARKS cAnyMarksBelow ;
-
-	// leave certain cases alone:
-	cRehKernOther   / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cAnyMarksBelow ;
-	(cRehKernOther cRehKernOtherMB)  / (g_jeh_ar_fina  g_reh_hamzaabove_ar_fina g_reh_twodotshorizontalabove_tahabove_ar g_reh_twodotshorizontalabove_tahabove_ar_fina g_zain_vinvertedabove_ar_fina) MARKS _ ;
-
-	// otherwise tighten against most things
-	(cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
-
-
-
-endpass; // 2
+// pass(2)
+// 
+// 	// Kerning of reh-like and waw-like
+// 
+// 	// Loosen from certain narrow initials because of nuktas below
+// 	// NB: not sure if it is an optical illusion or what, but if I
+// 	// kern Reh & Waw the same distance, the Rehs seem to still touch.
+// 	// So I'm giving them an extra 50m
+// 	cKernRehWawLoosen     {advance.x += 200m } / cRehAll MARKS _ ;
+// 	cKernRehWawLoosen     {advance.x += 150m } / cWawAll MARKS _ ;
+// 	cKernRehWawLoosenMore {advance.x += 350m } / cRehAll MARKS _ ;
+// 	cKernRehWawLoosenMore {advance.x += 300m } / cWawAll MARKS _ ;
+// 
+// 	// loosen from following alef with mark below it
+// 	cAlefIso {advance.x += 150m} / cRehWawAll MARKS _ MARKS cAnyMarksBelow ;
+// 	// otherwise most can tighten to alef
+// 	cRehKernAlef {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
+// 
+// 	// tighten to following gaf-like unless reh/waw have a mark above
+// 	cKernRehWawGaf {advance.x -= 150m} / cRehWawTightenToGaf MARKSBELOW _ ;
+// 
+// 	// tighter against Ain-like initials
+// 	// (for other fonts we don't do this if the Ain has marks Below, but Lateef design is different.)
+// 	// cAinLikeInit                     / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cAnyMarksBelow ;
+// 	cAinLikeInit {advance.x -= 150m} / cRehWawTighten     MARKS _ ;
+// 	cAinLikeInit {advance.x -= 150m} / cRehWawTightenMore MARKS _ ;
+// 
+// 	// loosen from following Ain-like isloates when reh/wah have lower diacritic:
+// 	cAinLikeIsol {advance.x += 200m} / cRehWawAll MARKS cAnyMarksBelow MARKS _ ;
+// 
+// 	// otherwise tighten some reh/wah (nothing below) to following Ain-like isolates
+// 	cAinLikeIsol {advance.x -= 200m} / cRehWawNothingBelow MARKSABOVE _ ;
+// 
+// 	// loosen from following narrow glyphs with something below
+// 	cNarrowIni {advance.x += 120m} / cRehWawAll MARKS _ MARKS cAnyMarksBelow ;
+// 
+// 	// leave certain cases alone:
+// 	cRehKernOther   / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cAnyMarksBelow ;
+// 	(cRehKernOther cRehKernOtherMB)  / (g_jeh_ar_fina  g_reh_hamzaabove_ar_fina g_reh_twodotshorizontalabove_tahabove_ar g_reh_twodotshorizontalabove_tahabove_ar_fina g_zain_vinvertedabove_ar_fina) MARKS _ ;
+// 
+// 	// otherwise tighten against most things
+// 	(cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
+// 
+// 
+// 
+// endpass; // 2
 
 
 
 endtable; // pos
+
+// Collision-Avoidance-based kerning
+
+#include "caBasedKerning.gdl"
 
 endenvironment;
