@@ -62,7 +62,7 @@ joinGroupKeys = {
 def joinGoupSortKey(uid:int):
     return joinGroupKeys.get(get_ucd(uid, 'jg'), 99) * 65536 + uid
 
-ageToFlag = 13.0
+ageToFlag = 14.0
 ageColor = '#FFC8A0'      # light orange -- marks if there is a char from above Unicode version or later
 missingColor = '#FFE0E0'  # light red -- mark if a char is missing from UFO
 backgroundLegend = f'Background colors: light orange: includes a character from Unicode version {ageToFlag} or later; light red: a character is missing from UFO'
@@ -510,54 +510,60 @@ def doit(args):
             ftml.defaultRTL = True
             addMarks = "with marks" in test.lower()
             # rules for kerning reh followed by dual- or right-joining:
-            for uid1 in rehs:  # (rehs[0],)
+            # For debugging, use smaller sets:
+            # rehs=rehs[0:1]
+            # uids = list(filter(lambda uid: get_ucd(uid,'jg') == 'Alef', uids))
+            for uid1 in rehs + waws:
                 for uid2 in uids:
-                    if uid2 == 0x0622:
-                        # alefMadda gets decomposed; we'll handle this decomp below
-                        continue
-                    if get_ucd(uid2, 'age').startswith('13.'):
-                        ftml.setBackground(ageColor)
+                    # NB: 3 decomposable chars (alefHamzaabove, alefMaddah, alefHamzaBelow) are in included in this data so they can
+                    #     be tested. However, for kerning computation any strings containing hamzaabove, hamzabelow, or madda are
+                    #     deleted before kerning calcuations so there won't be redundant records such as alef+hamzaabove and alef+fathatan.
+                    #     It is just the latter that is used in kerning fea generation.
+                    #     Also, the test cases for those 3 decomposable chars are limited to only one additional diacritic, otherwise 
+                    #     the test files would appear to be wrong since, for example, alefMadda+fathatan+fathathan would decompose to a 
+                    #     alef plus sequence of 3 above marks, and we're not supporting 3 marks above or 3 below.
+                    setBackgroundColor((uid1,uid2))
                     for featlist in builder.permuteFeatures(uids=(uid1,uid2)):
                         ftml.setFeatures(featlist)
                         builder.render([uid1, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                         if addMarks:
-                            builder.render([uid1,     uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1,     uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1,     uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            #builder.render([uid1,     uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1,     uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1,     uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1,     uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            #builder.render([uid1,     uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2],                 ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            #builder.render([uid1, ma, uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            #builder.render([uid1, ma, uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2],                 ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            #builder.render([uid1, mb, uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            #builder.render([uid1, mb, uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-#                            if uid2 == 0x0627:
-#                                # Because alefMadda decompose for reordering we add rules for
-#                                # handling *two* marks-bove between alef and mb:
-#                                builder.render([uid1,     0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-#                                builder.render([uid1, ma, 0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-#                                builder.render([uid1, mb, 0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1,     uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1,     uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            if uid2 != 0x0625:
+                                builder.render([uid1,     uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                               #builder.render([uid1,     uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1,     uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1,     uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            if uid2 not in (0x0622, 0x0623):
+                                builder.render([uid1,     uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                               #builder.render([uid1,     uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, ma, uid2],                 ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, ma, uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, ma, uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            if uid2 != 0x0625:
+                                builder.render([uid1, ma, uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                               #builder.render([uid1, ma, uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, ma, uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, ma, uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            if uid2 not in (0x0622, 0x0623):
+                                builder.render([uid1, ma, uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                               #builder.render([uid1, ma, uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, mb, uid2],                 ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, mb, uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, mb, uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            if uid2 != 0x0625:
+                                builder.render([uid1, mb, uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                               #builder.render([uid1, mb, uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, mb, uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([    uid1, mb, uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            if uid2 not in (0x0622, 0x0623):
+                                builder.render([uid1, mb, uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                               #builder.render([uid1, mb, uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                     ftml.closeTest()
                     ftml.clearFeatures()
                     ftml.clearBackground()
             # add rules for kerning followed by certain punctuation:
-            for uid1 in rehs:  # (rehs[0],)
+            for uid1 in rehs + waws: 
                 for uid2 in filter(lambda x: x in builder.uids(), (
                         0x0021,  # EXCLAMATION MARK
                         # 0x0022,  # QUOTATION MARK
