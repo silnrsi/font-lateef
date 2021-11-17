@@ -2,7 +2,15 @@
 <glyph name="highhamza-ar" format="2">
   <advance width="383"/>
   <unicode hex="0674"/>
+  <anchor x="201" y="669" name="_above"/>
+  <anchor x="190" y="1121" name="_below"/>
   <outline>
     <component base="_hamza" xOffset="220" yOffset="879"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

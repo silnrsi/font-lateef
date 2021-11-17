@@ -5,7 +5,7 @@
   <anchor x="682" y="559" name="above"/>
   <anchor x="253" y="584" name="alefUnused"/>
   <anchor x="430" y="-380" name="below"/>
-  <anchor x="430" y="685" name="diaA"/>
+  <anchor x="430" y="825" name="diaA"/>
   <anchor x="200" y="-420" name="diaB"/>
   <outline>
     <component base="_fehHead" xOffset="549" yOffset="74"/>
@@ -32,4 +32,10 @@
       <point x="823" y="184" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

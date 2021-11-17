@@ -28,6 +28,94 @@
     <integer>1</integer>
     <key>com.schriftgestaltung.Glyphs.groupsNotInFeature</key>
     <array/>
+    <key>com.schriftgestaltung.Glyphs.originalKerningGroups</key>
+    <dict>
+      <key>public.kern1.eight-ar</key>
+      <array>
+        <string>seven-persian.urdu</string>
+      </array>
+      <key>public.kern1.four-ar</key>
+      <array>
+        <string>four-ar</string>
+        <string>four-persian.roh</string>
+      </array>
+      <key>public.kern1.one-ar</key>
+      <array>
+        <string>five-persian</string>
+      </array>
+      <key>public.kern1.seven-ar</key>
+      <array>
+        <string>seven-ar</string>
+        <string>seven-persian</string>
+      </array>
+      <key>public.kern1.six-ar</key>
+      <array>
+        <string>eight-ar</string>
+        <string>eight-persian</string>
+        <string>nine-ar</string>
+        <string>nine-persian</string>
+        <string>six-ar</string>
+        <string>six-persian.urdu</string>
+      </array>
+      <key>public.kern1.three-ar</key>
+      <array>
+        <string>four-persian</string>
+        <string>four-persian.urdu</string>
+        <string>three-ar</string>
+        <string>three-persian</string>
+      </array>
+      <key>public.kern1.two-ar</key>
+      <array>
+        <string>two-ar</string>
+        <string>two-persian</string>
+      </array>
+      <key>public.kern1.zero-ar</key>
+      <array>
+        <string>zero-ar</string>
+        <string>zero-persian</string>
+      </array>
+      <key>public.kern2.eight-ar</key>
+      <array>
+        <string>eight-ar</string>
+        <string>eight-persian</string>
+        <string>seven-persian.urdu</string>
+      </array>
+      <key>public.kern2.four-ar</key>
+      <array>
+        <string>four-ar</string>
+        <string>four-persian.roh</string>
+      </array>
+      <key>public.kern2.nine-ar</key>
+      <array>
+        <string>nine-ar</string>
+        <string>nine-persian</string>
+      </array>
+      <key>public.kern2.one-ar</key>
+      <array>
+        <string>four-persian</string>
+        <string>one-ar</string>
+        <string>one-persian</string>
+        <string>three-ar</string>
+        <string>three-persian</string>
+        <string>two-ar</string>
+        <string>two-persian</string>
+      </array>
+      <key>public.kern2.seven-ar</key>
+      <array>
+        <string>seven-ar</string>
+        <string>seven-persian</string>
+      </array>
+      <key>public.kern2.six-ar</key>
+      <array>
+        <string>six-ar</string>
+        <string>six-persian.urdu</string>
+      </array>
+      <key>public.kern2.zero-ar</key>
+      <array>
+        <string>zero-ar</string>
+        <string>zero-persian</string>
+      </array>
+    </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
   <string>3100</string>
@@ -67,6 +155,8 @@
 /five-persian/zero-ar/five-persian/one-ar/five-persian/two-ar/five-persian/three-ar/five-persian/four-ar/five-persian/five-ar/five-persian/six-ar/five-persian/seven-ar/five-persian/eight-ar/five-persian/nine-ar/five-persian/four-persian/five-persian/four-persian.urdu/five-persian/five-persian/five-persian/six-persian/five-persian/seven-persian.urdu/five-persian 
 /six-persian/zero-ar/six-persian/one-ar/six-persian/two-ar/six-persian/three-ar/six-persian/four-ar/six-persian/five-ar/six-persian/six-ar/six-persian/seven-ar/six-persian/eight-ar/six-persian/nine-ar/six-persian/four-persian/six-persian/four-persian.urdu/six-persian/five-persian/six-persian/six-persian/six-persian/seven-persian.urdu/six-persian 
 /seven-persian.urdu/zero-ar/seven-persian.urdu/one-ar/seven-persian.urdu/two-ar/seven-persian.urdu/three-ar/seven-persian.urdu/four-ar/seven-persian.urdu/five-ar/seven-persian.urdu/six-ar/seven-persian.urdu/seven-ar/seven-persian.urdu/eight-ar/seven-persian.urdu/nine-ar/seven-persian.urdu/four-persian/seven-persian.urdu/four-persian.urdu/seven-persian.urdu/five-persian/seven-persian.urdu/six-persian/seven-persian.urdu/seven-persian.urdu/eight-ar/nine-ar</string>
+    <string>/_hamza/space/space/highhamza-ar/space/fatha-ar</string>
+    <string>/qafDotless-ar.fina/qafDotabove-ar.fina/fehDotless-ar.medi/qafDotabove-ar.medi/fehDotless-ar.init/_dot1/qafDotabove-ar.init/qafDotless-ar/qafDotabove-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
