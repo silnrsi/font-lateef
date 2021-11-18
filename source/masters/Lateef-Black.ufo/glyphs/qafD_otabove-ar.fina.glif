@@ -2,7 +2,7 @@
 <glyph name="qafDotabove-ar.fina" format="2">
   <advance width="909"/>
   <anchor x="242" y="543" name="alefUnused"/>
-  <anchor x="473" y="874" name="diaA"/>
+  <anchor x="473" y="1063" name="diaA"/>
   <anchor x="202" y="-482" name="diaB"/>
   <outline>
     <component base="qafDotless-ar.fina"/>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

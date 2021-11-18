@@ -3,7 +3,7 @@
   <advance width="865"/>
   <unicode hex="06A7"/>
   <anchor x="255" y="584" name="alefUnused"/>
-  <anchor x="430" y="832" name="diaA"/>
+  <anchor x="430" y="1002" name="diaA"/>
   <anchor x="221" y="-401" name="diaB"/>
   <outline>
     <component base="qafDotless-ar"/>
@@ -12,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>
