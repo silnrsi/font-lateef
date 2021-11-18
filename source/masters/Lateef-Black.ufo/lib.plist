@@ -157,6 +157,8 @@
 /seven-persian.urdu/zero-ar/seven-persian.urdu/one-ar/seven-persian.urdu/two-ar/seven-persian.urdu/three-ar/seven-persian.urdu/four-ar/seven-persian.urdu/five-ar/seven-persian.urdu/six-ar/seven-persian.urdu/seven-ar/seven-persian.urdu/eight-ar/seven-persian.urdu/nine-ar/seven-persian.urdu/four-persian/seven-persian.urdu/four-persian.urdu/seven-persian.urdu/five-persian/seven-persian.urdu/six-persian/seven-persian.urdu/seven-persian.urdu/eight-ar/nine-ar</string>
     <string>/_hamza/space/space/highhamza-ar/space/fatha-ar</string>
     <string>/qafDotless-ar.fina/qafDotabove-ar.fina/fehDotless-ar.medi/qafDotabove-ar.medi/fehDotless-ar.init/_dot1/qafDotabove-ar.init/qafDotless-ar/qafDotabove-ar</string>
+    <string>/dammatan-ar.sixNine/space/space/space/shadda_dammatan-ar.sixNine</string>
+    <string>/space/dammatan-ar.sixNine/space/space/space/shadda_dammatan-ar.sixNine</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
