@@ -40,21 +40,33 @@ The Latin glyphs in this font are from the Crimson Pro font family
 
 For detailed documentation see the contents of the 'documentation' folder.
 
-Known Issues (v 1.280 alpha)
+Known Issues (v 1.300 alpha)
 ----------------------------
-- Combining marks above or below composite characters may not position correctly 
-  (e.g. If a character has nuktas above, the combining mark above may not position 
-  properly. If a character has nuktas below, the combining mark BELOW may not 
-  position properly.)
-- When text is kashida-justified in Word, the lam/alef ligature may break
-- This version of the font does not have kerning (where characters may touch each 
-  other), so there is no need to report when a reh touches the following character, etc.
+
 - This version of the font has not had the linespacing values evaluated, so there is 
   no need to report vertical linespacing issues.
+- This version has not had the special Allah rendering rules applied
+- This version does not include kerning for the proportional Arabic digits
   
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
+
+2021-11-30 (SIL WSTech team) Lateef Version 1.300 (alpha release)
+- Removed Graphite from the font
+- Added kerning
+- Added Arabic characters
+- Added proportional Arabic digits
+- Added Decimal separator feature (cv85)
+- Redesign of "hat" and "v" component
+- Redesign of U+FDF2
+- Revised quotation marks
+- Small changes to some glyphs including maddah, imala e, ain, waw 
+- Slight changes to some sidebearings based on user feedback
+- Improved mark positioning
+- Fixed bug using kashida-justification in Word (where the lam-alef ligature would break)
+- Removed support for Sindhi-style comma when Sindhi language is selected
+
 2020-12-16 (SIL WSTech team) Lateef Version 1.280 (alpha release)
 - Incorporated both OpenType and Graphite in the same font
 - Added Lateef Bold
@@ -63,7 +75,7 @@ ChangeLog
   https://scriptsource.org/entry/gg5wm9hhd3
 - Added U+204F and U+2E41 for Sindhi language support
 - Added Arabic characters: U+0600..U+0605, U+0609..U+060B, U+060D..U+0613, U+0615..U+061A, U+0620,
-  U+063B..U+063C, U+063E..U+063F, U+065F, U+0773..U+077F, U=08BE..U+08C2, U+08C7
+  U+063B..U+063C, U+063E..U+063F, U+065F, U+0773..U+077F, U+08BE..U+08C2, U+08C7
 - Redesign of some Arabic digits
 - Redesign of hook on heh-goal
 - Redesigned nuktas and variants to be more calligraphic and less geometric
