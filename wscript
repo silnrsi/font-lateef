@@ -26,12 +26,25 @@ generated = 'generated/'
 #   --autohint - autohint the font
 #   --norename - do not include glyph rename step
 #   --regOnly  - build just Lateef-Regular
-#   --noOTkern - omit CA-based kerning in OpenType
-opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--noOTkern'}, {'opt': '--regOnly'})
+#   --noOTkern - omit CA-based kerning from OpenType
+#   --graphite - add graphite smarts font for kerning update purposes (otherwise font is OT-only)
 
-cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx']),
-        cmd('${OCTALAP} -m ${SRC} -o ${TGT} ${DEP}', 'source/graphite/${DS:FILENAME_BASE}-octabox.json')
-        ]
+opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--noOTkern'}, {'opt': '--regOnly'}, {'opt': '--graphite'})
+
+cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx'])]
+
+extras = {}
+if '--graphite' in opts:
+    cmds.append(cmd('${OCTALAP} -m ${SRC} -o ${TGT} ${DEP}', 'source/graphite/${DS:FILENAME_BASE}-octabox.json'))
+    extras['graphite'] = gdl(generated + '${DS:FILENAME_BASE}.gdl',
+        master = 'source/graphite/master.gdl',
+        make_params = omitaps + ' --cursive "exit=entry,rtl" --cursive "digitR=digitL"',
+        depends = ['source/graphite/caBasedKerning.gdl', 
+                   'source/graphite/cp1252.gdl', 
+                   'source/graphite/features.gdh', 
+                   'source/graphite/glyphs.gdh'],
+        params = '-q -e ${DS:FILENAME_BASE}_gdlerr.txt',
+        ) 
 
 if '--norename' not in opts:
     cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo']))
@@ -55,17 +68,6 @@ designspace(dspace_file,
     classes = 'source/classes.xml',
     version = VERSION,  # Needed to ensure dev information on version string
     ap = generated + '${DS:FILENAME_BASE}.xml',
-
-    graphite = gdl(generated + '${DS:FILENAME_BASE}.gdl',
-        master = 'source/graphite/master.gdl',
-        make_params = omitaps + ' --cursive "exit=entry,rtl" --cursive "digitR=digitL"',
-        depends = ['source/graphite/caBasedKerning.gdl', 
-                   'source/graphite/cp1252.gdl', 
-                   'source/graphite/features.gdh', 
-                   'source/graphite/glyphs.gdh'],
-        params = '-q -e ${DS:FILENAME_BASE}_gdlerr.txt',
-        ),
-
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
         mapfile = generated + '${DS:FILENAME_BASE}.map',
         master = 'source/opentype/${DS:FILENAME_BASE}.feax',
@@ -81,8 +83,7 @@ designspace(dspace_file,
         metadata='../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml',
         ),
     typetuner = typetuner('source/typetuner/feat_all.xml'),
-    )
+    **extras)
 
 def configure(ctx):
     ctx.find_program('ttfautohint')
-    ctx.find_program('octalap')
