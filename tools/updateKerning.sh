@@ -86,11 +86,11 @@ then
   exit
 fi
 
-echo -e "\nrebuilding fonts without glyph kerning or renaming...\n"
+echo -e "\nrebuilding fonts with graphite and without glyph kerning or renaming...\n"
 
 smith distclean
-smith configure
-smith build --norename --noOTkern $REGONLY
+smith configure --graphite
+smith build --graphite --norename --noOTkern $REGONLY
 
 if [ ${OCTALAP} == 1 ]
 then
@@ -110,7 +110,7 @@ then
   echo -e "\nrebuilding fonts (with new octaboxes) but no glyph kerning or renaming...\n" 
 
   smith clean
-  smith build --norename --noOTkern $REGONLY
+  smith build --graphite --norename --noOTkern $REGONLY
 
 fi
 
