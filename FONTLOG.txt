@@ -56,11 +56,11 @@ ChangeLog
 - Removed Graphite from the font
 - Added kerning
 - Added Arabic characters
-- Added proportional Arabic digits
+- Added proportional Arabic digits (now the default)
 - Added Decimal separator feature (cv85)
 - Redesign of "hat" and "v" component
 - Redesign of U+FDF2
-- Revised quotation marks
+- Revised quotation marks, commas, period
 - Small changes to some glyphs including maddah, imala e, ain, waw 
 - Slight changes to some sidebearings based on user feedback
 - Improved mark positioning
