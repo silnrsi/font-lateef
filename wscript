@@ -87,3 +87,4 @@ designspace(dspace_file,
 
 def configure(ctx):
     ctx.find_program('ttfautohint')
+    ctx.find_program('octalap', mandatory=False)
