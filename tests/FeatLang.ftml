@@ -1815,7 +1815,7 @@ U+061B" rtl="True" stylename="sd">
     </test>
     <test label="U+060C
 U+061B" rtl="True" stylename="sd_cv84_1">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u00060C\u00061B</string>
     </test>
     <test label="U+060C

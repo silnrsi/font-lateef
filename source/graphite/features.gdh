@@ -322,7 +322,7 @@ sindhi {
     languages = ( "snd", "sd" ); // Sindhi
     meemAlt = sindhi;
     easternDigits = sindhi;
-    commaAlt = down;
+    // commaAlt = down;  # removed 2021-11:  ABS-2469
     shaddaKasra = lowered;
 
 //  hehAlt = sindhi;  // remove for now, to match OT
