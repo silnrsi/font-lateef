@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This file is part of Lateef font family 
+	(http://scripts.sil.org/Lateef) and is 
+	Copyright (c) 2014-2020 SIL International (http://www.sil.org/), 
+	with Reserved Font Names "Lateef" and "SIL".
+
+	This Font Software is licensed under the SIL Open Font License, 
+	Version 1.1.
+
+	You should have received a copy of the license along with this Font Software. 
+	If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+	details including an FAQ.
+-->
+<!DOCTYPE all_features SYSTEM "feat_all.dtd">
+<all_features version="1.0">
+	<feature name="Language" value="Default" tag="Lng">
+		<value name="Default" tag="Def">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Kyrgyz" tag="Kyr">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KyrgyzCALT}"/>
+		</value>
+		<value name="Kurdish" tag="Kur">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KurdishCALT}"/>
+		</value>
+		<value name="Rohingya" tag="Rhg">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {RohingyaCALT}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+		</value>
+		<value name="Sindhi" tag="Snd">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {SindhiCALT}"/>	
+			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+		</value>
+		<value name="Urdu" tag="Urd">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {UrduCALT}"/>	
+			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+		</value>
+	</feature>
+
+	<feature name="Meem" value="Standard" tag="Meem">
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Sindhi-style" tag="Snd">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {MeemAlternate}"/>	
+		</value>
+	</feature>
+
+	<feature name="Heh" value="Standard" tag="Heh">
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Kurdish-style" tag="Kur">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KurdishHeh}"/>	
+		</value>
+		<value name="Sindhi-style" tag="Snd">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {SindhiHeh}"/>	
+		</value>
+		<value name="Urdu-style" tag="Urd">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {UrduHeh}"/>	
+		</value>
+	</feature>
+
+	<feature name="Kyrgyz OE" value="Loop" tag="Koe">
+		<value name="Loop" tag="Lp">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Bar" tag="Bar">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KyrgyzOeAlternates}"/>
+		</value> 
+	</feature>
+	
+	<feature name="Yeh Hamza" value="Standard" tag="Yhmz">
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Right hamza" tag="Rt">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {YehHamzaAlternates}"/>
+		</value>
+	</feature>
+
+	<feature name="Shadda+kasra placement" value="Default" tag="Kas">
+		<!-- OpenType handled in interactions section -->
+		<value name="Default" tag="Def">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Lowered" tag="Low">
+		</value>
+		<value name="Raised" tag="High">
+		</value>
+	</feature>
+
+	<feature name="Damma" value="Default" tag="Dma">
+		<value name="Default" tag="Def">						<!-- was "Standard", "Std" -->
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Filled" tag="Fi">
+			<cmd name="encode" args="064F uni064F.filled"/>
+		</value>
+	</feature>
+
+	<feature name="Dammatan" value="Standard" tag="Dmtan">		<!-- was "Six-nine dammatan", "SixNine" -->
+		<value name="Standard" tag="Std">						<!-- was "False", "F" -->
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Six-nine" tag="69">						<!-- was "True", "T" -->
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DammatanAlternate}"/>	
+		</value>
+	</feature>
+
+	<feature name="Superscript Alef" value="Default" tag="Sal">
+		<value name="Default" tag="Def">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Large" tag="Lg">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Small" tag="Sm">
+			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {DaggerAlefToLarge}"/>
+		</value>
+	</feature>
+
+	<feature name="Sukun" value="Closed" tag="Su">
+		<value name="Closed" tag="Cl">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Open down" tag="Dn">
+			<cmd name="encode" args="0652 uni0652.downOpen"/>
+		</value>
+		<value name="Open left" tag="Lt">
+			<cmd name="encode" args="0652 uni08FF"/>
+		</value>	
+	</feature>
+
+	<feature name="End of ayah" value="Standard" tag="Ayah">
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Simplified A" tag="A">
+			<cmd name="encode" args="06DD uni06DD.alt"/>
+		</value>
+		<value name="Simplified B" tag="B">
+			<cmd name="encode" args="06DD uni06DD.altB"/>
+		</value>
+	</feature>
+
+	<feature name="Eastern digits" value="Standard" tag="Dig">
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Kurdish-style" tag="Kur">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitKurdish}"/>
+		</value>
+		<value name="Rohingya-style" tag="Roh">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitRohingya}"/>
+		</value>
+		<value name="Sindhi-style" tag="Snd">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitSindhi}"/>
+		</value>
+		<value name="Urdu-style" tag="Urd">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitUrdu}"/>
+		</value>
+	</feature>
+
+
+	<feature name="Comma" value="Upward" tag="Cma"> 		<!-- was "Downward comma", "Dc" -->
+		<value name="Upward" tag="Up">						<!-- was "False", "F" -->
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Downward" tag="Dn">					<!-- was "True", "T" -->
+			<cmd name="encode" args="060C uni060C.downward"/>
+			<cmd name="encode" args="061B uni061B.downward"/>
+		</value>
+	</feature>
+
+	<feature name="Line spacing" value="Normal"	tag="LnSpc">
+		<value name="Normal" tag="Nrml">
+			<cmd name="null" args="2742 1488"/>
+		</value>
+		<value name="Tight" tag="Tght">
+			<cmd name="line_gap" args="1910 1022"/>
+		</value>
+		<value name="Loose" tag="Ls">
+			<cmd name="line_gap" args="3668 1593"/>
+		</value>
+		<value name="Imported" tag="Im">
+			<cmd name="line_metrics_scaled" args="null"/>
+		</value>
+	</feature>
+
+	<interactions>
+		<test select="Lng-Def Kas-Low">
+			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+		</test>
+		<test select="Lng-Kyr Kas-Low">
+			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+		</test>
+		<test select="Lng-Kur Kas-Low">
+			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+		</test>
+		<test select="Lng-Rhg Kas-High">
+			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+		</test>
+		<test select="Lng-Snd Kas-High">
+			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+		</test>
+		<test select="Lng-Urd Kas-High">
+			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
+		</test>
+	</interactions>
+
+	<cmd_blocks/>
+
+	<!-- Alias definitions will be inserted by smith (using psftuneraliases) -->
+	<aliases/>
+	
+	<old_names>
+		<old_value feature="Damma" name="Standard" tag="Def" />
+
+		<old_feature  name="Six-nine dammatan" tag="Dmtan"/>
+		<old_value feature="Six-nine dammatan" name="False" tag="Std"/>
+		<old_value feature="Six-nine dammatan" name="True"  tag="69"/> 
+
+		<old_feature  name="Downward comma" tag="Comma"/>
+		<old_value feature="Downward comma" name="False" tag="Up"/>
+		<old_value feature="Downward comma" name="True"  tag="Dn"/>
+	</old_names>
+
+</all_features>
