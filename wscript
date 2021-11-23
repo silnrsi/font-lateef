@@ -32,9 +32,10 @@ generated = 'generated/'
 opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--noOTkern'}, {'opt': '--regOnly'}, {'opt': '--graphite'})
 
 cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx'])]
-
+typetunercmds = []
 extras = {}
 if '--graphite' in opts:
+    # If we're going to include graphite, then we also need to invoke octalap to get optimized octaboxes
     cmds.append(cmd('${OCTALAP} -m ${SRC} -o ${TGT} ${DEP}', 'source/graphite/${DS:FILENAME_BASE}-octabox.json'))
     extras['graphite'] = gdl(generated + '${DS:FILENAME_BASE}.gdl',
         master = 'source/graphite/master.gdl',
@@ -45,6 +46,9 @@ if '--graphite' in opts:
                    'source/graphite/glyphs.gdh'],
         params = '-q -e ${DS:FILENAME_BASE}_gdlerr.txt',
         ) 
+else:
+    # If we're not going to have graphite code then need to remove gr_feat commands from typetuner/feat_all.xml
+    typetunercmds.append(cmd('grep -v gr_feat ${DEP} > ${TGT}'))
 
 if '--norename' not in opts:
     cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo']))
@@ -82,7 +86,7 @@ designspace(dspace_file,
     # woff = woff('web/${DS:FILENAME_BASE}', 
     #    metadata='../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml',
     #    ),
-    typetuner = typetuner('source/typetuner/feat_all.xml'),
+    typetuner = typetuner(process('source/typetuner/feat_all.xml', *typetunercmds)),
     **extras)
 
 def configure(ctx):
