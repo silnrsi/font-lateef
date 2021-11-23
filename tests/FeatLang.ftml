@@ -4,7 +4,7 @@
   <head>
     <comment>In this test, the comment column indicates whether the feature is expected to function with the given language tag. </comment>
     <fontscale>250</fontscale>
-    <fontsrc label="Reg-Gr">url(../results/web/Lateef-Regular.woff2)</fontsrc>
+    <fontsrc label="Reg-Gr">url(../results/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)</fontsrc>
     <styles>
       <style feats="'cv44' 1" name="cv44_1"/>

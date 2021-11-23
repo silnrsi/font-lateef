@@ -79,9 +79,9 @@ designspace(dspace_file,
         ),
     script = 'arab', 
     pdf = fret(params='-b -r -oi'),
-    woff = woff('web/${DS:FILENAME_BASE}', 
-        metadata='../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml',
-        ),
+    # woff = woff('web/${DS:FILENAME_BASE}', 
+    #    metadata='../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml',
+    #    ),
     typetuner = typetuner('source/typetuner/feat_all.xml'),
     **extras)
 
