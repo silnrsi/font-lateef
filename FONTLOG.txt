@@ -52,7 +52,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-2021-11-30 (SIL WSTech team) Lateef Version 1.300 (alpha release)
+2021-11-29 (SIL WSTech team) Lateef Version 1.300 (alpha release)
 - Removed Graphite from the font
 - Added kerning
 - Added Arabic characters U+08A0..U+08A9, U+08AB..U+08B1, U+08B3..U+08B4, U+08B6..U+08BD, U+08C3..U+08C6,
