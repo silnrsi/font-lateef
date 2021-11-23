@@ -44,12 +44,12 @@
     </sources>
     <instances>
         <!-- Lateef Light - Regular -->
-        <instance       familyname="Lateef Light"
-                              name="Lateef Light Regular"
-                stylemapfamilyname="Lateef Light"
+        <instance       familyname="Lateef Alpha2 Light"
+                              name="Lateef Alpha2 Light Regular"
+                stylemapfamilyname="Lateef Alpha2 Light"
                          stylename="Regular"
                  stylemapstylename="regular"
-                postscriptfontname="LateefLight-Regular"
+                postscriptfontname="LateefAlpha2Light-Regular"
                 filename="instances/LateefLight-Regular.ufo">
             <location>
                 <dimension name="weight" xvalue="300" />
@@ -61,12 +61,12 @@
         </instance>
 
         <!-- Lateef - Regular -->
-        <instance       familyname="Lateef"
-                              name="Lateef Regular"
-                stylemapfamilyname="Lateef"
+        <instance       familyname="Lateef Alpha2"
+                              name="Lateef Alpha2 Regular"
+                stylemapfamilyname="Lateef Alpha2"
                          stylename="Regular"
                  stylemapstylename="regular"
-                postscriptfontname="Lateef-Regular"
+                postscriptfontname="LateefAlpha2-Regular"
                 filename="instances/Lateef-Regular.ufo">
             <location>
                 <dimension name="weight" xvalue="400" />
@@ -78,12 +78,12 @@
         </instance>
 
         <!-- Lateef Book - Regular -->
-        <instance       familyname="Lateef Book"
-                              name="Lateef Book Regular"
-                stylemapfamilyname="Lateef Book"
+        <instance       familyname="Lateef Alpha2 Book"
+                              name="Lateef Alpha2 Book Regular"
+                stylemapfamilyname="Lateef Alpha2 Book"
                          stylename="Regular"
                  stylemapstylename="regular"
-                postscriptfontname="LateefBook-Regular"
+                postscriptfontname="LateefAlpha2Book-Regular"
                 filename="instances/LateefBook-Regular.ufo">
             <location>
                 <dimension name="weight" xvalue="500" />
@@ -95,12 +95,12 @@
         </instance>
 
         <!-- Lateef Light - Bold -->
-        <instance       familyname="Lateef Light"
-                              name="Lateef Light Bold"
-                stylemapfamilyname="Lateef Light"
+        <instance       familyname="Lateef Alpha2 Light"
+                              name="Lateef Alpha2 Light Bold"
+                stylemapfamilyname="Lateef Alpha2 Light"
                          stylename="Bold"
                  stylemapstylename="bold"
-                postscriptfontname="LateefLight-Bold"
+                postscriptfontname="LateefAlpha2Light-Bold"
                 filename="instances/LateefLight-Bold.ufo">
             <location>
                 <dimension name="weight" xvalue="600" />
@@ -112,12 +112,12 @@
         </instance>
 
         <!-- Lateef - Bold -->
-        <instance       familyname="Lateef"
-                              name="Lateef Bold"
-                stylemapfamilyname="Lateef"
+        <instance       familyname="Lateef Alpha2"
+                              name="Lateef Alpha2 Bold"
+                stylemapfamilyname="Lateef Alpha2"
                          stylename="Bold"
                  stylemapstylename="bold"
-                postscriptfontname="Lateef-Bold"
+                postscriptfontname="LateefAlpha2-Bold"
                 filename="instances/Lateef-Bold.ufo">
             <location>
                 <dimension name="weight" xvalue="700" />
@@ -129,12 +129,12 @@
         </instance>
 
         <!-- Lateef Book - Bold -->
-        <instance       familyname="Lateef Book"
-                              name="Lateef Book Bold"
-                stylemapfamilyname="Lateef Book"
+        <instance       familyname="Lateef Alpha2 Book"
+                              name="Lateef Alpha2 Book Bold"
+                stylemapfamilyname="Lateef Alpha2 Book"
                          stylename="Bold"
                  stylemapstylename="bold"
-                postscriptfontname="LateefBook-Bold"
+                postscriptfontname="LateefAlpha2Book-Bold"
                 filename="instances/LateefBook-Bold.ufo">
             <location>
                 <dimension name="weight" xvalue="800" />
