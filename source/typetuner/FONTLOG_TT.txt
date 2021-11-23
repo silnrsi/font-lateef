@@ -30,10 +30,14 @@ simplified style is often preferred for clarity, especially in non-Arabic
 languages, but may be considered unattractive in more traditional and 
 literate communities.
 
-Two fonts from this typeface family are included:
+Six fonts from this typeface family are included:
 
-     * Lateef Regular
-     * Lateef Bold
+     * Lateef Alpha2 Regular
+     * Lateef Alpha2 Bold
+     * Lateef Alpha2 Book Regular
+     * Lateef Alpha2 Book Bold
+     * Lateef Alpha2 Light Regular
+     * Lateef Alpha2 Light Bold
 
 The Latin glyphs in this font are from the Crimson Pro font family 
 (https://github.com/Fonthausen/CrimsonPro).

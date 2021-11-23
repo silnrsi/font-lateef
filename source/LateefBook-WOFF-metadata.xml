@@ -37,10 +37,15 @@
       languages, but may be considered unattractive in more traditional and
       literate communities.
       
-      Two fonts from this typeface family are included:
+      Six fonts from this typeface family are included:
       
-      * Lateef Regular
-      * Lateef Bold
+      * Lateef Alpha2 Regular
+      * Lateef Alpha2 Bold
+      * Lateef Alpha2 Book Regular
+      * Lateef Alpha2 Book Bold
+      * Lateef Alpha2 Light Regular
+      * Lateef Alpha2 Light Bold
+      
       
       The Latin glyphs in this font are from the Crimson Pro font family
       (https://github.com/Fonthausen/CrimsonPro).
@@ -59,7 +64,7 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
-      2021-11-30 (SIL WSTech team) Lateef Version 1.300 (alpha release)
+      2021-11-29 (SIL WSTech team) Lateef Version 1.300 (alpha release)
       - Removed Graphite from the font
       - Added kerning
       - Added Arabic characters U+08A0..U+08A9, U+08AB..U+08B1, U+08B3..U+08B4, U+08B6..U+08BD, U+08C3..U+08C6,
