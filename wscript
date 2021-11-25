@@ -35,7 +35,8 @@ cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx'])]
 typetunerfile = 'source/typetuner/feat_all-nographite.xml'
 extras = {}
 if '--graphite' in opts:
-    # If we're going to include graphite, then we also need to invoke octalap to get optimized octaboxes
+    # If we're going to include graphite, then we also need to invoke octalap to get optimized octaboxes 
+    # and a different typetuner source file.
     cmds.append(cmd('${OCTALAP} -m ${SRC} -o ${TGT} ${DEP}', 'source/graphite/${DS:FILENAME_BASE}-octabox.json'))
     typetunerfile = 'source/typetuner/feat_all.xml'
     extras['graphite'] = gdl(generated + '${DS:FILENAME_BASE}.gdl',
@@ -62,10 +63,9 @@ else:
     noOTkern = ''
     OTdepends = ['source/opentype/${DS:FILENAME_BASE}-caKern.fea']
 
-dspace_file = 'source/lateef.designspace' if '--regOnly' not in opts else 'source/lateef-RegOnly.designspace'
-
-designspace(dspace_file,
+designspace('source/lateef.designspace',
     instanceparams='-W -l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
+    instances = ['Lateef Regular'] if '--regOnly' in opts else None,
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     classes = 'source/classes.xml',
     version = VERSION,  # Needed to ensure dev information on version string
