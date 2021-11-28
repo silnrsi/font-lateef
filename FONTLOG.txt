@@ -50,8 +50,8 @@ Known Issues (v 1.300 alpha)
 
 - This version of the font has not had the linespacing values evaluated, so there is 
   no need to report vertical linespacing issues.
-- This version has not had the special Allah rendering rules applied
-- This version does not include kerning for the proportional Arabic digits
+- This version does not yet implement the latest Allah rendering rules.
+- This version does not include kerning for the proportional Arabic digits.
   
 ChangeLog
 ---------
