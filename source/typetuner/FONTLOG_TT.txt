@@ -67,12 +67,13 @@ Reserved Font Names and would have to be named something like "Nations Naskh".
 
 Known Issues (v 1.300 alpha)
 ----------------------------
-
 - This version of the font has not had the linespacing values evaluated, so there is 
   no need to report vertical linespacing issues.
 - This version does not yet implement the latest Allah rendering rules.
 - This version does not include kerning for the proportional Arabic digits.
-
+- Windows Font Viewer and some Windows apps may have trouble accessing both of the
+  weights of Lateef Alpha2 Light.
+  
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
