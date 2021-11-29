@@ -51,8 +51,6 @@ Known Issues (v 1.300 alpha)
   no need to report vertical linespacing issues.
 - This version does not yet implement the latest Allah rendering rules.
 - This version does not include kerning for the proportional Arabic digits.
-- Windows Font Viewer and some Windows apps may have trouble accessing both of the
-  weights of Lateef Alpha2 Light.
   
 ChangeLog
 ---------
