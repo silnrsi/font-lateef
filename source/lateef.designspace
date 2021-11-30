@@ -45,11 +45,11 @@
     <instances>
         <!-- Lateef Light - Regular -->
         <instance             name="Lateef Light Regular"
-                        familyname="Lateef Alpha2 Light"
-                stylemapfamilyname="Lateef Alpha2 Light"
+                        familyname="Lateef Light"
+                stylemapfamilyname="Lateef Light"
                          stylename="Regular"
                  stylemapstylename="regular"
-                postscriptfontname="LateefAlpha2Light-Regular"
+                postscriptfontname="LateefLight-Regular"
                 filename="instances/LateefLight-Regular.ufo">
             <location>
                 <dimension name="weight" xvalue="300" />
@@ -62,11 +62,11 @@
 
         <!-- Lateef - Regular -->
         <instance             name="Lateef Regular"
-                        familyname="Lateef Alpha2"
-                stylemapfamilyname="Lateef Alpha2"
+                        familyname="Lateef"
+                stylemapfamilyname="Lateef"
                          stylename="Regular"
                  stylemapstylename="regular"
-                postscriptfontname="LateefAlpha2-Regular"
+                postscriptfontname="Lateef-Regular"
                 filename="instances/Lateef-Regular.ufo">
             <location>
                 <dimension name="weight" xvalue="400" />
@@ -79,11 +79,11 @@
 
         <!-- Lateef Book - Regular -->
         <instance             name="Lateef Book Regular"
-                        familyname="Lateef Alpha2 Book"
-                stylemapfamilyname="Lateef Alpha2 Book"
+                        familyname="Lateef Book"
+                stylemapfamilyname="Lateef Book"
                          stylename="Regular"
                  stylemapstylename="regular"
-                postscriptfontname="LateefAlpha2Book-Regular"
+                postscriptfontname="LateefBook-Regular"
                 filename="instances/LateefBook-Regular.ufo">
             <location>
                 <dimension name="weight" xvalue="500" />
@@ -96,11 +96,11 @@
 
         <!-- Lateef Light - Bold -->
         <instance             name="Lateef Light Bold"
-                        familyname="Lateef Alpha2 Light"
-                stylemapfamilyname="Lateef Alpha2 Light"
+                        familyname="Lateef Light"
+                stylemapfamilyname="Lateef Light"
                          stylename="Bold"
                  stylemapstylename="bold"
-                postscriptfontname="LateefAlpha2Light-Bold"
+                postscriptfontname="LateefLight-Bold"
                 filename="instances/LateefLight-Bold.ufo">
             <location>
                 <dimension name="weight" xvalue="600" />
@@ -113,11 +113,11 @@
 
         <!-- Lateef - Bold -->
         <instance             name="Lateef Bold"
-                        familyname="Lateef Alpha2"
-                stylemapfamilyname="Lateef Alpha2"
+                        familyname="Lateef"
+                stylemapfamilyname="Lateef"
                          stylename="Bold"
                  stylemapstylename="bold"
-                postscriptfontname="LateefAlpha2-Bold"
+                postscriptfontname="Lateef-Bold"
                 filename="instances/Lateef-Bold.ufo">
             <location>
                 <dimension name="weight" xvalue="700" />
@@ -130,11 +130,11 @@
 
         <!-- Lateef Book - Bold -->
         <instance             name="Lateef Book Bold"
-                        familyname="Lateef Alpha2 Book"
-                stylemapfamilyname="Lateef Alpha2 Book"
+                        familyname="Lateef Book"
+                stylemapfamilyname="Lateef Book"
                          stylename="Bold"
                  stylemapstylename="bold"
-                postscriptfontname="LateefAlpha2Book-Bold"
+                postscriptfontname="LateefBook-Bold"
                 filename="instances/LateefBook-Bold.ufo">
             <location>
                 <dimension name="weight" xvalue="800" />
