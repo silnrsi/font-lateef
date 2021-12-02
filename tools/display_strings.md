@@ -30,6 +30,25 @@
 ۔،/comma-ar.downward ⹁‚؛:/semicolon-ar.downward ⁏!()‘’“”
 ‘٧’ “/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init ا” 
 
+## Digit kerning
+
+ ٠١٢٣٤٥٦٧٨٩۰۱۲۳۴/four-persian.urdu/four-persian.roh ۵۶/six-persian.urdu ۷/seven-persian.urdu ۸۹ Digits
+م/lam_alef-ar.fina/hah-ar.init/lam_alefWavyhamzaabove-ar ا ٢١٣ /reh-ar.fina/yeh-ar.medi/ghain-ar.init  ٤٠٦٧ /reh-ar.fina/tah-ar.medi/meem-ar.medi/teh-ar.init  /lam_alef-ar  /four-persian.urdu ٠۷۵١ ء/alef-ar.fina/meem-ar.medi/seen-ar.init  /beh-ar.fina/hah-ar.medi/lam-ar.init ا Sample
+٠٠٠١٠٢٠٣٠٤٠٥٠٦٠٧٠٨٠٩٠۴٠/four-persian.urdu ٠۵٠۶٠/seven-persian.urdu ٠
+١٠١١١٢١٣١٤١٥١٦١٧١٨١٩١۴١/four-persian.urdu ١۵١۶١/seven-persian.urdu ١
+٢٠٢١٢٢٢٣٢٤٢٥٢٦٢٧٢٨٢٩٢۴٢/four-persian.urdu ٢۵٢۶٢/seven-persian.urdu ٢
+٣٠٣١٣٢٣٣٣٤٣٥٣٦٣٧٣٨٣٩٣۴٣/four-persian.urdu ٣۵٣۶٣/seven-persian.urdu ٣
+٤٠٤١٤٢٤٣٤٤٤٥٤٦٤٧٤٨٤٩٤۴٤/four-persian.urdu ٤۵٤۶٤/seven-persian.urdu ٤
+٥٠٥١٥٢٥٣٥٤٥٥٥٦٥٧٥٨٥٩٥۴٥/four-persian.urdu ٥۵٥۶٥/seven-persian.urdu ٥
+٦٠٦١٦٢٦٣٦٤٦٥٦٦٦٧٦٨٦٩٦۴٦/four-persian.urdu ٦۵٦۶٦/seven-persian.urdu ٦
+٧٠٧١٧٢٧٣٧٤٧٥٧٦٧٧٧٨٧٩٧۴٧/four-persian.urdu ٧۵٧۶٧/seven-persian.urdu ٧
+٨٠٨١٨٢٨٣٨٤٨٥٨٦٨٧٨٨٨٩٨۴٨/four-persian.urdu ٨۵٨۶٨/seven-persian.urdu ٨
+٩٠٩١٩٢٩٣٩٤٩٥٩٦٩٧٩٨٩٩٩۴٩/four-persian.urdu ٩۵٩۶٩/seven-persian.urdu ٩
+۴٠۴١۴٢۴٣۴٤۴٥۴٦۴٧۴٨۴٩۴۴۴/four-persian.urdu ۴۵۴۶۴/seven-persian.urdu ۴
+/four-persian.urdu ٠/four-persian.urdu ١/four-persian.urdu ٢/four-persian.urdu ٣/four-persian.urdu ٤/four-persian.urdu ٥/four-persian.urdu ٦/four-persian.urdu ٧/four-persian.urdu ٨/four-persian.urdu ٩/four-persian.urdu ۴/four-persian.urdu/four-persian.urdu/four-persian.urdu ۵/four-persian.urdu ۶/four-persian.urdu/seven-persian.urdu/four-persian.urdu
+۵٠۵١۵٢۵٣۵٤۵٥۵٦۵٧۵٨۵٩۵۴۵/four-persian.urdu ۵۵۵۶۵/seven-persian.urdu ۵
+۶٠۶١۶٢۶٣۶٤۶٥۶٦۶٧۶٨۶٩۶۴۶/four-persian.urdu ۶۵۶۶۶/seven-persian.urdu ۶
+/seven-persian.urdu ٠/seven-persian.urdu ١/seven-persian.urdu ٢/seven-persian.urdu ٣/seven-persian.urdu ٤/seven-persian.urdu ٥/seven-persian.urdu ٦/seven-persian.urdu ٧/seven-persian.urdu ٨/seven-persian.urdu ٩/seven-persian.urdu ۴/seven-persian.urdu/four-persian.urdu/seven-persian.urdu ۵/seven-persian.urdu ۶/seven-persian.urdu/seven-persian.urdu ٨٩
 
 ## Composites
 

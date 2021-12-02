@@ -2,8 +2,8 @@
 <glyph name="zainVinvertedabove-ar.fina" format="2">
   <advance width="542"/>
   <anchor x="106" y="684" name="alefUnused"/>
-  <anchor x="242" y="978" name="diaA"/>
-  <anchor x="175" y="-490" name="diaB"/>
+  <anchor x="242" y="1078" name="diaA"/>
+  <anchor x="175" y="-530" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
     <component base="_dot1_hat" xOffset="323" yOffset="627"/>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

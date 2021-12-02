@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tah-ar.fina" format="2">
   <advance width="1114"/>
-  <anchor x="829" y="601" name="above"/>
+  <anchor x="829" y="651" name="above"/>
   <anchor x="198" y="801" name="alefUnused"/>
   <anchor x="652" y="-50" name="below"/>
   <anchor x="468" y="1239" name="diaA"/>
@@ -10,4 +10,10 @@
     <component base="tah-ar"/>
     <component base="_bowl_connector" xOffset="303"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

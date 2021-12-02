@@ -2,8 +2,8 @@
 <glyph name="rehNoonabove-ar.fina" format="2">
   <advance width="542"/>
   <anchor x="106" y="684" name="alefUnused"/>
-  <anchor x="323" y="1086" name="diaA"/>
-  <anchor x="175" y="-476" name="diaB"/>
+  <anchor x="323" y="1136" name="diaA"/>
+  <anchor x="175" y="-516" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
     <component base="_noon" xOffset="324" yOffset="-472"/>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

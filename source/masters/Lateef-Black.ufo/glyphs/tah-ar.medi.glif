@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tah-ar.medi" format="2">
   <advance width="913"/>
-  <anchor x="609" y="685" name="above"/>
+  <anchor x="609" y="785" name="above"/>
   <anchor x="0" y="832" name="alefUnused"/>
   <anchor x="410" y="-50" name="below"/>
-  <anchor x="215" y="1251" name="diaA"/>
+  <anchor x="215" y="1305" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="tah-ar.init"/>
     <component base="_bowl_connector" xOffset="38"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
