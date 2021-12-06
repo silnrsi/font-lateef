@@ -130,6 +130,10 @@
   <string>alef-ar.fina.allah.glif</string>
   <key>alefLamYehabove-ar</key>
   <string>alefL_amY_ehabove-ar.glif</string>
+  <key>alefWasla-ar.allah</key>
+  <string>alefW_asla-ar.allah.glif</string>
+  <key>alefWasla-ar.fina.allah</key>
+  <string>alefW_asla-ar.fina.allah.glif</string>
   <key>alefabove-ar.large</key>
   <string>alefabove-ar.large.glif</string>
   <key>alefbelow-ar</key>

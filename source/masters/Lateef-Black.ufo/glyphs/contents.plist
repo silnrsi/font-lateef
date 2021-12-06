@@ -470,8 +470,12 @@
   <string>alefT_woabove-ar.fina.postL_amM_ed.glif</string>
   <key>alefWasla-ar</key>
   <string>alefW_asla-ar.glif</string>
+  <key>alefWasla-ar.allah</key>
+  <string>alefW_asla-ar.allah.glif</string>
   <key>alefWasla-ar.fina</key>
   <string>alefW_asla-ar.fina.glif</string>
+  <key>alefWasla-ar.fina.allah</key>
+  <string>alefW_asla-ar.fina.allah.glif</string>
   <key>alefWasla-ar.fina.postLamIni</key>
   <string>alefW_asla-ar.fina.postL_amI_ni.glif</string>
   <key>alefWasla-ar.fina.postLamMed</key>
