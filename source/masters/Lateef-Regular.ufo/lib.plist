@@ -116,13 +116,12 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3105</string>
+  <string>3108</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/zainVinvertedabove-ar/zainVinvertedabove-ar/zainVinvertedabove-ar/zainVinvertedabove-ar.fina/zainVinvertedabove-ar.fina/zainVinvertedabove-ar.fina</string>
-    <string>/rehNoonabove-ar/rehNoonabove-ar/rehNoonabove-ar/rehNoonabove-ar.fina/rehNoonabove-ar.fina/rehNoonabove-ar.fina</string>
-    <string>/tah-ar/tah-ar.fina/tah-ar.medi/tah-ar.init</string>
-    <string>/alef-ar/alef-ar.allah/alefWasla-ar/alefWasla-ar.allah/alef-ar.fina/alef-ar.fina.allah/alefWasla-ar.fina/alefWasla-ar.fina.allah</string>
+    <string>()/guilsinglleft/guilsinglright «»/guilsinglleft.latn a/guilsinglright.latn/guillemetleft.latn a/guillemetright.latn 
+«/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init »/space/quotedblleft/ng-ar.fina/behDotless-ar.medi/e-ar.init/quotedblright/quotedblright.latn "T/space/space 
+/guilsinglleft/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init/guilsinglright</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
@@ -295,6 +294,7 @@
     <string>registered</string>
     <string>ordfeminine</string>
     <string>guillemetleft</string>
+    <string>guillemetleft.latn</string>
     <string>logicalnot</string>
     <string>softhyphen</string>
     <string>degree</string>
@@ -305,6 +305,7 @@
     <string>periodcentered</string>
     <string>ordmasculine</string>
     <string>guillemetright</string>
+    <string>guillemetright.latn</string>
     <string>onesuperior</string>
     <string>twosuperior</string>
     <string>threesuperior</string>
@@ -1701,7 +1702,9 @@
     <string>narrownbspace</string>
     <string>perthousand</string>
     <string>guilsinglleft</string>
+    <string>guilsinglleft.latn</string>
     <string>guilsinglright</string>
+    <string>guilsinglright.latn</string>
     <string>fraction</string>
     <string>wordjoiner</string>
     <string>lefttorightisolate</string>
@@ -1967,6 +1970,7 @@
     <string>registered</string>
     <string>ordfeminine</string>
     <string>guillemetleft</string>
+    <string>guillemetleft.latn</string>
     <string>logicalnot</string>
     <string>softhyphen</string>
     <string>degree</string>
@@ -1977,6 +1981,7 @@
     <string>periodcentered</string>
     <string>ordmasculine</string>
     <string>guillemetright</string>
+    <string>guillemetright.latn</string>
     <string>onesuperior</string>
     <string>twosuperior</string>
     <string>threesuperior</string>
@@ -3373,7 +3378,9 @@
     <string>narrownbspace</string>
     <string>perthousand</string>
     <string>guilsinglleft</string>
+    <string>guilsinglleft.latn</string>
     <string>guilsinglright</string>
+    <string>guilsinglright.latn</string>
     <string>fraction</string>
     <string>wordjoiner</string>
     <string>lefttorightisolate</string>
@@ -4238,8 +4245,12 @@
     <string>uni06B3.medi</string>
     <key>guillemetleft</key>
     <string>guillemotleft</string>
+    <key>guillemetleft.latn</key>
+    <string>guillemotleft.latn</string>
     <key>guillemetright</key>
     <string>guillemotright</string>
+    <key>guillemetright.latn</key>
+    <string>guillemotright.latn</string>
     <key>hah-ar</key>
     <string>uni062D</string>
     <key>hah-ar.fina</key>

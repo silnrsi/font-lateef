@@ -10,7 +10,7 @@
   <outline>
     <component base="_kaf_s" xOffset="294" yOffset="413"/>
     <component base="_kaf_left"/>
-    <component base="_strokeHead" xOffset="649" yOffset="772"/>
+    <component base="_strokeHead" xOffset="652" yOffset="772"/>
     <component base="_baseline_135" xOffset="545"/>
     <contour>
       <point x="741" y="0" type="curve" smooth="yes"/>
@@ -47,4 +47,10 @@
       <point x="698" y="0"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

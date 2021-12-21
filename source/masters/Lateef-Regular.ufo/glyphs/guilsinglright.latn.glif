@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guilsinglright.latn" format="2">
+  <advance width="618"/>
+  <note>
+guilsinglright
+</note>
+  <outline>
+    <contour>
+      <point x="105" y="614" type="line"/>
+      <point x="373" y="293" type="line"/>
+      <point x="373" y="415" type="line"/>
+      <point x="105" y="94" type="line"/>
+      <point x="153" y="36" type="line"/>
+      <point x="492" y="321" type="line"/>
+      <point x="492" y="390" type="line"/>
+      <point x="153" y="674" type="line"/>
+    </contour>
+  </outline>
+</glyph>

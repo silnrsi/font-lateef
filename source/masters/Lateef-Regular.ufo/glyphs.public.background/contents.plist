@@ -292,6 +292,18 @@
   <string>fourthroot-ar.glif</string>
   <key>fullstop-ar</key>
   <string>fullstop-ar.glif</string>
+  <key>guillemetleft</key>
+  <string>guillemetleft.glif</string>
+  <key>guillemetleft.latn</key>
+  <string>guillemetleft.latn.glif</string>
+  <key>guillemetright</key>
+  <string>guillemetright.glif</string>
+  <key>guillemetright.latn</key>
+  <string>guillemetright.latn.glif</string>
+  <key>guilsinglleft</key>
+  <string>guilsinglleft.glif</string>
+  <key>guilsinglright</key>
+  <string>guilsinglright.glif</string>
   <key>hah-ar</key>
   <string>hah-ar.glif</string>
   <key>hah-ar.fina</key>
