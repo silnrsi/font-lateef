@@ -7,7 +7,7 @@ This information should be distributed along with the Lateef fonts and any deriv
 
 These files are part of the Lateef font family 
 (http://software.sil.org/lateef/) and are 
-Copyright (c) 1994-2021 SIL International (http://www.sil.org/),
+Copyright (c) 2017-2022 SIL International (http://www.sil.org/),
 with Reserved Font Names "Lateef" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License,
@@ -24,4 +24,6 @@ cp1252.gdl    Rules for Roman characters within codepage 1252
 glyphs.gdh    Additional glyphs and classes needed only for Graphite
 
 features.gdh  Feature definitions
+
+caBasedKerning.gdl Used to generate kerning calculations
 

@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 ''' Rewrites the raw kerning data output from grkern2fea -e graphite to remove zwj '''
 
-# Copyright (c) 2020 SIL International  (http://www.sil.org)
+# Copyright (c) 2020-2022 SIL International  (http://www.sil.org)
 # Released under the MIT License (http://opensource.org/licenses/
 
 import re

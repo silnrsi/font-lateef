@@ -1,4 +1,7 @@
 #!/bin/bash
+# Copyright (c) 2020-2022 SIL International  (http://www.sil.org)
+# Released under the MIT License (http://opensource.org/licenses/
+
 COMP_DEFS=composites.txt
 
 echo

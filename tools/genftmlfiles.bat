@@ -2,7 +2,7 @@
 
 rem This script rebuilds the algorithmically-generated ftml files. See README.md
 
-rem Copyright (c) 2020 SIL International  (http://www.sil.org)
+rem Copyright (c) 2020-2022 SIL International  (http://www.sil.org)
 rem Released under the MIT License (http://opensource.org/licenses/
 
 rem Assumes we're in the root folder, i.e., font-Lateef

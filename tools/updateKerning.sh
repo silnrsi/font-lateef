@@ -2,7 +2,7 @@
 
 # This script rebuilds the kerning files for OpenType. See README.md
 
-# Copyright (c) 2020-2021 SIL International  (http://www.sil.org)
+# Copyright (c) 2020-2022 SIL International  (http://www.sil.org)
 # Released under the MIT License (http://opensource.org/licenses/
 
 # Assumes we're in the root folder, i.e., font-lateef
