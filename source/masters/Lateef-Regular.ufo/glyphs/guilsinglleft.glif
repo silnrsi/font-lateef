@@ -2,9 +2,6 @@
 <glyph name="guilsinglleft" format="2">
   <advance width="346"/>
   <unicode hex="2039"/>
-  <note>
-guilsinglleft
-</note>
   <outline>
     <contour>
       <point x="296" y="14" type="line"/>
