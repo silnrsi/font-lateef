@@ -2,22 +2,10 @@ DOCUMENTATION
 Lateef
 ========================
 
-This file describes the documentation files included with the Lateef 
-font. This information should be distributed along with the 
-Scheherazade font and any derivative works.
+The documentation for this project is listed in index.html.
 
-Primary documentation for the Lateef font is on the Lateef 
-website (http://software.sil.org/lateef/).
+There are also PDF versions in the `pdf` folder.
 
-The Lateef-features.pdf file illustrates the use of OpenType and 
-Graphite features.
-
-The Lateef-features.odt file illustrates the use of OpenType and 
-Graphite features (source file for the pdf).
-
-The Lateef-typesample.pdf file gives a sample of all the characters in 
-the font.
-
-The Lateef-typesample.odt file gives a sample of all the characters in 
-the font (source file for the pdf).
-
+These are produced from markdown sources (in `source`) using pandoc,
+weasyprint, and custom python scripts. See the `makedocs` shell script
+in the main project folder.
