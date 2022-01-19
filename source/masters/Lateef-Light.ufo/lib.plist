@@ -118,12 +118,12 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3108</string>
+  <string>3110</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>()/guilsinglleft/guilsinglright «»/guilsinglleft.latn a/guilsinglright.latn/guillemetleft.latn a/guillemetright.latn 
-«/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init »/space/quotedblleft/ng-ar.fina/behDotless-ar.medi/e-ar.init/quotedblright/quotedblright.latn "T/space/space 
-/guilsinglleft/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init/guilsinglright</string>
+    <string>()/space «/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init »/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/guilsinglleft/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init/guilsinglright 
+()/space «/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init »/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/guilsinglleft/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init/guilsinglright 
+()/space «/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init »/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/guilsinglleft/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init/guilsinglright</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
