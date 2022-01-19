@@ -48,8 +48,8 @@
     </sources>
     <instances>
         <!-- Lateef Light - Regular -->
-        <instance       familyname="Lateef Light"
-                              name="Lateef Light Regular"
+        <instance             name="Lateef Light Regular"
+                        familyname="Lateef Light"
                 stylemapfamilyname="Lateef Light"
                          stylename="Regular"
                  stylemapstylename="regular"
@@ -82,8 +82,8 @@
         </instance>
 
         <!-- Lateef - Regular -->
-        <instance       familyname="Lateef"
-                              name="Lateef Regular"
+        <instance             name="Lateef Regular"
+                        familyname="Lateef"
                 stylemapfamilyname="Lateef"
                          stylename="Regular"
                  stylemapstylename="regular"
@@ -99,8 +99,8 @@
         </instance>
 
         <!-- Lateef Book - Regular -->
-        <instance       familyname="Lateef Book"
-                              name="Lateef Book Regular"
+        <instance             name="Lateef Book Regular"
+                        familyname="Lateef Book"
                 stylemapfamilyname="Lateef Book"
                          stylename="Regular"
                  stylemapstylename="regular"
@@ -116,8 +116,8 @@
         </instance>
 
         <!-- Lateef Light - Bold -->
-        <instance       familyname="Lateef Light"
-                              name="Lateef Light Bold"
+        <instance             name="Lateef Light Bold"
+                        familyname="Lateef Light"
                 stylemapfamilyname="Lateef Light"
                          stylename="Bold"
                  stylemapstylename="bold"
@@ -133,8 +133,8 @@
         </instance>
 
         <!-- Lateef - Bold -->
-        <instance       familyname="Lateef"
-                              name="Lateef Bold"
+        <instance             name="Lateef Bold"
+                        familyname="Lateef"
                 stylemapfamilyname="Lateef"
                          stylename="Bold"
                  stylemapstylename="bold"
@@ -150,8 +150,8 @@
         </instance>
 
         <!-- Lateef Book - Bold -->
-        <instance       familyname="Lateef Book"
-                              name="Lateef Book Bold"
+        <instance             name="Lateef Book Bold"
+                        familyname="Lateef Book"
                 stylemapfamilyname="Lateef Book"
                          stylename="Bold"
                  stylemapstylename="bold"
