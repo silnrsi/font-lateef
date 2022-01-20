@@ -11,6 +11,8 @@ This document demonstrates all of the characters in the font. It is organized by
 
 Regular: <span class='lateefL-R normal'> ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~</span>
 
+Regular: <span class='lateefL-R normal'> ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~</span>
+
 **Bold:** <span class='lateefL-B normal'>! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~</span>
 
 ### Latin-1 Supplement:
@@ -61,7 +63,7 @@ Regular:<span class='lateefL-R normal'> €</span>
 
 ### Letterlike Symbols, Mathematical Operators, Control Pictures, Geometric Shapes, Miscellaneous Mathematical Symbols-B: 
 
-Regular:<span class='lateefL-R normal'>™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≠ ≤ ≥ ◊ ◌ ⧵ </span>
+Regular:<span class='lateefL-R normal'> ™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≠ ≤ ≥ ◊ ◌ ⧵ </span>
 
 **Bold:** <span class='lateefL-B normal'> ™ Ω ∂ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≈ ≠ ≤ ≥ ␣ ◊ ◌ ⧵ </span>
 
@@ -123,15 +125,15 @@ Regular:<span class='lateefL-R normal'>™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √ �
 
 ## Arabic MSA UDHR #26:
 
-<p dir="rtl"><span class='lateef-B normal'> المادة 26</span></p>
 
-<p dir="rtl"><span class='lateef-R normal'>لكل شخص الحق في التعلم. ويجب أن يكون التعليم في مراحله الأولى والأساسية على الأقل بالمجان، وأن يكون التعليم الأولي إلزاميا وينبغي أن يعمم التعليم الفني والمهني، وأن ييسر القبول للتعليم العالي على قدم المساواة التامة للجميع وعلى أساس الكفاءة.  </span></p>
+<p dir="rtl"><span class='lateef-B normal'>المادة 26</span></p>
+      
+<p dir="rtl"><span class='lateef-R normal'>لكل شخص الحق في التعلم. ويجب أن يكون التعليم في مراحله الأولى والأساسية على الأقل بالمجان، وأن يكون التعليم الأولي إلزاميا وينبغي أن يعمم التعليم الفني والمهني، وأن ييسر القبول للتعليم العالي على قدم المساواة التامة للجميع وعلى أساس الكفاءة.</span></p>
 
 <p dir="rtl"><span class='lateef-R normal'>يجب أن تهدف التربية إلى إنماء شخصية الإنسان إنماء كاملا، وإلى تعزيز احترام الإنسان والحريات الأساسية وتنمية التفاهم والتسامح والصداقة بين جميع الشعوب والجماعات العنصرية أو الدينية، وإلى زيادة مجهود الأمم المتحدة لحفظ السلام.</span></p>
 
 <p dir="rtl"><span class='lateef-R normal'>للآباء الحق الأول في اختيار نوع تربية أولادهم.</span></p>
-
-
+            
 
 
 <!-- PRODUCT SITE ONLY
