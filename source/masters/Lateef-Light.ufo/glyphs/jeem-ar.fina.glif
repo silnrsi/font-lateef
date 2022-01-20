@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jeem-ar.fina" format="2">
   <advance width="889"/>
-  <anchor x="214" y="742" name="alefUnused"/>
+  <anchor x="214" y="702" name="alefUnused"/>
   <anchor x="381" y="701" name="diaA"/>
   <anchor x="202" y="-802" name="diaB"/>
   <outline>

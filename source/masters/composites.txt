@@ -115,12 +115,14 @@ theh-ar.init = behDotless-ar.init + _dot3u@above
 tteh-ar = behDotless-ar + _tah@above | 0679
 tteh-ar.fina = behDotless-ar.fina + _tah@above
 tteh-ar.medi = behDotless-ar.medi + _tah@above
-tteh-ar.init = behDotless-ar.init + _tah@above
+# 2022-01-20 pm Manually set RSB to 0 to avoid overhang
+# tteh-ar.init = behDotless-ar.init + _tah@above
 
-# 2021-01-11 pm Manually adjusted diaA and diaB
+# 2021-01-11 pm Manually adjusted diaA and diaB (all four forms)
 # ttehVabove-ar = behDotless-ar + _tah_smallV@above | 08C0
 # ttehVabove-ar.fina = behDotless-ar.fina + _tah_smallV@above
 # ttehVabove-ar.medi = behDotless-ar.medi + _tah_smallV@above
+# 2022-01-20 pm Manually set RSB to 0 to avoid overhang
 # ttehVabove-ar.init = behDotless-ar.init + _tah_smallV@above
 
 tteheh-ar = behDotless-ar + _dot2v@above | 067A
@@ -261,7 +263,8 @@ zain-ar = reh-ar + _dot1@above | 0632
 zain-ar.fina = reh-ar.fina + _dot1@above
 zainVinvertedabove-ar = reh-ar + _dot1_hat@above | 08B2
 zainVinvertedabove-ar.fina = reh-ar.fina + _dot1_hat@above
-rreh-ar = reh-ar + _tah@above | 0691
+# 2022-01-20 pm Manually set RSB to 0 to avoid overhang
+# rreh-ar = reh-ar + _tah@above | 0691
 rreh-ar.fina = reh-ar.fina + _tah@above
 rehv-ar = reh-ar + _smallV@above | 0692
 rehv-ar.fina = reh-ar.fina + _smallV@above
@@ -287,7 +290,8 @@ rehTwodotsverticalabove-ar = reh-ar + _dot2v@above | 076B
 rehTwodotsverticalabove-ar.fina = reh-ar.fina + _dot2v@above
 rehHamzaabove-ar = reh-ar + _hamza@above | 076C
 rehHamzaabove-ar.fina = reh-ar.fina + _hamza@above
-rehTwodotshorizontalaboveTahabove-ar = reh-ar + _dot2h_tah@above | 0771
+# 2022-01-20 pm Manually set RSB to 0 to avoid overhang
+# rehTwodotshorizontalaboveTahabove-ar = reh-ar + _dot2h_tah@above | 0771
 rehTwodotshorizontalaboveTahabove-ar.fina = reh-ar.fina + _dot2h_tah@above
 seenDotbelowDotabove-ar = seen-ar + _dot1@above + _dot1@seen-ar:below | 069A
 seenDotbelowDotabove-ar.fina = seen-ar.fina + _dot1@above + _dot1@seen-ar.fina:below
@@ -531,6 +535,7 @@ lamThreedotsabove-ar.medi.preAlef = lam-ar.medi.preAlef + _dot3u@above
 lamThreedotsabove-ar.init.preAlef = lam-ar.init.preAlef + _dot3u@above
 
 # 2021-01-11 pm Manually adjusted diaA and diaB
+# 2022-01-20 pm Manually set RSB to 0 to avoid overhang on lamTahabove-ar.init
 # lamTahabove-ar = lam-ar + _tah@above | 08C7
 # lamTahabove-ar.fina = lam-ar.fina + _tah@above
 # lamTahabove-ar.medi = lam-ar.medi + _tah@above
@@ -575,7 +580,8 @@ noonghunna-ar.init = behDotless-ar.init
 rnoon-ar = noonghunna-ar + _tah@above | 06BB
 rnoon-ar.fina = noonghunna-ar.fina + _tah@above
 rnoon-ar.medi = behDotless-ar.medi + _tah@above
-rnoon-ar.init = behDotless-ar.init + _tah@above
+# 2022-01-20 pm Manually set RSB to 0 to avoid overhang
+# rnoon-ar.init = behDotless-ar.init + _tah@above
 noonRing-ar = noonghunna-ar + _dot1@above + _ring@noonghunna-ar:ring | 06BC
 noonRing-ar.fina = noonghunna-ar.fina + _dot1@above + _ring@noonghunna-ar.fina:ring
 noonRing-ar.medi = behDotless-ar.medi + _dot1@above + _ring@behDotless-ar.medi:ring
@@ -591,7 +597,8 @@ noonTwodotsbelow-ar.init = behDotless-ar.init + _dot1@above + _dot2h@behDotless-
 noonTahabove-ar = noonghunna-ar + _dot1_tah@above | 0768
 noonTahabove-ar.fina = noonghunna-ar.fina + _dot1_tah@above
 noonTahabove-ar.medi = behDotless-ar.medi + _dot1_tah@above
-noonTahabove-ar.init = behDotless-ar.init + _dot1_tah@above
+# 2022-01-20 pm Manually set RSB to 0 to avoid overhang
+# noonTahabove-ar.init = behDotless-ar.init + _dot1_tah@above
 noonVabove-ar = noonghunna-ar + _dot1_smallV@above | 0769
 noonVabove-ar.fina = noonghunna-ar.fina + _dot1_smallV@above
 noonVabove-ar.medi = behDotless-ar.medi + _dot1_smallV@above

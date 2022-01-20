@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehTwodotshorizontalaboveTahabove-ar" format="2">
-  <advance width="547"/>
+  <advance width="589"/>
   <unicode hex="0771"/>
   <anchor x="122" y="698" name="alefUnused"/>
   <anchor x="280" y="1219" name="diaA"/>
@@ -12,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

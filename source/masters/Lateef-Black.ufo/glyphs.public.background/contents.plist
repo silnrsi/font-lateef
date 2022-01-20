@@ -258,6 +258,8 @@
   <string>four.small.glif</string>
   <key>foursuperior</key>
   <string>foursuperior.glif</string>
+  <key>guillemetleft</key>
+  <string>guillemetleft.glif</string>
   <key>guilsinglleft</key>
   <string>guilsinglleft.glif</string>
   <key>hah-ar</key>
