@@ -122,6 +122,11 @@
     <string>()/space «/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init »/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/guilsinglleft/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init/guilsinglright 
 ()/space «/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init »/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/guilsinglleft/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init/guilsinglright 
 ()/space «/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init »/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/guilsinglleft/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init/guilsinglright</string>
+    <string>/hah-ar/hah-ar.fina/hah-ar.medi/hah-ar.init 
+
+/jeem-ar/hah-ar/hah-ar.fina/jeem-ar.fina/hah-ar.medi/hah-ar.init/jeem-ar.medi/hah-ar.init/jeem-ar.init/tcheh-ar.init/tcheheh-ar.init/tchehDotabove-ar.init/tchehVabove-ar.init/nyeh-ar.init/dyeh-ar.init/hah-ar.medi/hahHamzaabove-ar.init/hahTwodotsverticalabove-ar.init/hahTwodotshorizontalabove-ar.init/hahThreedotsabove-ar.init/hahThreedotsupbelow-ar.init/khah-ar.init/hahTahbelow-ar.init/hahTahTwodotshorizontalbelow-ar.init/hahTahabove-ar.init/hahFourbelow-ar.init/jeemTwodotsabove-ar.init/jeemThreedotsabove-ar.init/jeemThreedotsbelow-ar.init/jeem-ar.init 
+
+/yeh-ar.noDots/space/space/yeh-ar.noDots.fina/space/space/space/space/yeh-ar.fina</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
