@@ -7,12 +7,12 @@
   <outline>
     <component base="yeh-ar.noDots.fina"/>
     <component base="_noon" xOffset="477" yOffset="-683"/>
-    <component base="_dot2h" xOffset="351" yOffset="-770"/>
+    <component base="_dot2h" xOffset="294" yOffset="-770"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

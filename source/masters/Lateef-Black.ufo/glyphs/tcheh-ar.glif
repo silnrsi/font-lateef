@@ -2,17 +2,17 @@
 <glyph name="tcheh-ar" format="2">
   <advance width="832"/>
   <unicode hex="0686"/>
-  <anchor x="214" y="742" name="alefUnused"/>
+  <anchor x="214" y="792" name="alefUnused"/>
   <anchor x="474" y="745" name="diaA"/>
   <anchor x="179" y="-724" name="diaB"/>
   <outline>
     <component base="hah-ar"/>
-    <component base="_dot3d" xOffset="489" yOffset="-119"/>
+    <component base="_dot3d" xOffset="489" yOffset="-84"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

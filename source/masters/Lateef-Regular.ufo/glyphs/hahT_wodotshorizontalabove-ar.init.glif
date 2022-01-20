@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahTwodotshorizontalabove-ar.init" format="2">
-  <advance width="843"/>
-  <anchor x="214" y="742" name="alefUnused"/>
+  <advance width="767"/>
+  <anchor x="188" y="698" name="alefUnused"/>
   <anchor x="259" y="1008" name="diaA"/>
   <anchor x="202" y="-202" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>
-    <component base="_dot2h" xOffset="486" yOffset="793"/>
+    <component base="_dot2h" xOffset="440" yOffset="749"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

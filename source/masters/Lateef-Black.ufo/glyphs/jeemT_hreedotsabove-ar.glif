@@ -2,18 +2,18 @@
 <glyph name="jeemThreedotsabove-ar" format="2">
   <advance width="832"/>
   <unicode hex="08C5"/>
-  <anchor x="214" y="742" name="alefUnused"/>
+  <anchor x="214" y="792" name="alefUnused"/>
   <anchor x="430" y="1277" name="diaA"/>
   <anchor x="202" y="-764" name="diaB"/>
   <outline>
     <component base="hah-ar"/>
-    <component base="_dot3u" xOffset="486" yOffset="1031"/>
-    <component base="_dot1" xOffset="489" yOffset="-99"/>
+    <component base="_dot3u" xOffset="486" yOffset="1081"/>
+    <component base="_dot1" xOffset="489" yOffset="-64"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>
