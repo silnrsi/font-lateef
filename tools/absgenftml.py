@@ -458,7 +458,33 @@ def doit(args):
         ma = 0x064B     # Mark above (fathatan)
         mb = 0x064D # chr(0x064D)     # Mark below (kasratan)
 
-        if "data" not in test.lower():
+        if 'digits' in test.lower():
+            ftml.startTestGroup('Digits')
+            digitsets = (list(range(0x0660,0x066A)), list(range(0x06F0, 0x06FA)))
+            for digits in digitsets:
+                doLangIteration = digits[0] == 0x06F0
+                for uid1 in digits:
+                    c = chr(uid1)
+                    label = 'U+{0:04X}'.format(uid1)
+                    str = '.'.join(f'<em>{c}{chr(uid2)}{c}</em>' for uid2 in digits)
+                    for rtl in (True,):  # (False, True):
+                        comment = f"{builder.char(uid1).basename} {'rtl' if rtl else 'ltr'}"
+                        str2 = f"{'ب' if rtl else 'A'} {str} {'ب' if rtl else 'A'}"
+                        ftml.addToTest(uid1, str2, label, comment, rtl=rtl)
+                        if True:  #Always doing this for now.
+                            # Include an unkerned line for comparison:
+                            str3 = '<em>\u200B</em>' + re.sub(r'</?em>', '', str2)
+                            ftml.setFeatures((['kern','0'],))
+                            ftml.addToTest(uid1, str3, label, comment, rtl=rtl)
+                            ftml.clearFeatures()
+                        if doLangIteration:
+                            for langID in builder.allLangs:
+                                ftml.setLang(langID)
+                                ftml.addToTest(uid1, str2, rtl=rtl)
+                            ftml.clearLang()
+                        ftml.closeTest()
+
+        elif 'data' not in test.lower():
             ftml.startTestGroup('All the rehs')
             for uid in rehs:
                 c = chr(uid)
@@ -529,12 +555,12 @@ def doit(args):
                         if addMarks:
                             builder.render([    uid1,     uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                             builder.render([    uid1,     uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            if uid2 != 0x0625:
+                            if uid2 != 0x0625:  #alefHamzabelow 
                                 builder.render([uid1,     uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                                #builder.render([uid1,     uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                             builder.render([    uid1,     uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                             builder.render([    uid1,     uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            if uid2 not in (0x0622, 0x0623):
+                            if uid2 not in (0x0622, 0x0623):  #alefMaddah or alefHamzaabove
                                 builder.render([uid1,     uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                                #builder.render([uid1,     uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                             builder.render([    uid1, ma, uid2],                 ftml, addBreaks=False, rtl=True, dualJoinMode=1)

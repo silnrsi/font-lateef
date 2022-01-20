@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO</comment>
+    <fontscale>250</fontscale>
+    <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="BkBld">url(../results/LateefBook-Bold.ttf)</fontsrc>
+    <styles>
+      <style feats="'kern' 0" name="kern_0"/>
+      <style lang="ku" name="ku"/>
+      <style lang="rhg" name="rhg"/>
+      <style lang="sd" name="sd"/>
+      <style lang="ur" name="ur"/>
+    </styles>
+    <title>Kerning digits (auto)</title>
+    <widths string="38%"/>
+  </head>
+  <testgroup background="#f0f0f0" label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="Digits">
+    <test label="U+0660" rtl="True">
+      <comment>zero-ar rtl</comment>
+      <string>\u000628 <em>\u000660\u000660\u000660</em>.<em>\u000660\u000661\u000660</em>.<em>\u000660\u000662\u000660</em>.<em>\u000660\u000663\u000660</em>.<em>\u000660\u000664\u000660</em>.<em>\u000660\u000665\u000660</em>.<em>\u000660\u000666\u000660</em>.<em>\u000660\u000667\u000660</em>.<em>\u000660\u000668\u000660</em>.<em>\u000660\u000669\u000660</em> \u000628</string>
+    </test>
+    <test label="U+0660" rtl="True" stylename="kern_0">
+      <comment>zero-ar rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u000660\u000660\u000660.\u000660\u000661\u000660.\u000660\u000662\u000660.\u000660\u000663\u000660.\u000660\u000664\u000660.\u000660\u000665\u000660.\u000660\u000666\u000660.\u000660\u000667\u000660.\u000660\u000668\u000660.\u000660\u000669\u000660 \u000628</string>
+    </test>
+    <test label="U+0661" rtl="True">
+      <comment>one-ar rtl</comment>
+      <string>\u000628 <em>\u000661\u000660\u000661</em>.<em>\u000661\u000661\u000661</em>.<em>\u000661\u000662\u000661</em>.<em>\u000661\u000663\u000661</em>.<em>\u000661\u000664\u000661</em>.<em>\u000661\u000665\u000661</em>.<em>\u000661\u000666\u000661</em>.<em>\u000661\u000667\u000661</em>.<em>\u000661\u000668\u000661</em>.<em>\u000661\u000669\u000661</em> \u000628</string>
+    </test>
+    <test label="U+0661" rtl="True" stylename="kern_0">
+      <comment>one-ar rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u000661\u000660\u000661.\u000661\u000661\u000661.\u000661\u000662\u000661.\u000661\u000663\u000661.\u000661\u000664\u000661.\u000661\u000665\u000661.\u000661\u000666\u000661.\u000661\u000667\u000661.\u000661\u000668\u000661.\u000661\u000669\u000661 \u000628</string>
+    </test>
+    <test label="U+0662" rtl="True">
+      <comment>two-ar rtl</comment>
+      <string>\u000628 <em>\u000662\u000660\u000662</em>.<em>\u000662\u000661\u000662</em>.<em>\u000662\u000662\u000662</em>.<em>\u000662\u000663\u000662</em>.<em>\u000662\u000664\u000662</em>.<em>\u000662\u000665\u000662</em>.<em>\u000662\u000666\u000662</em>.<em>\u000662\u000667\u000662</em>.<em>\u000662\u000668\u000662</em>.<em>\u000662\u000669\u000662</em> \u000628</string>
+    </test>
+    <test label="U+0662" rtl="True" stylename="kern_0">
+      <comment>two-ar rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u000662\u000660\u000662.\u000662\u000661\u000662.\u000662\u000662\u000662.\u000662\u000663\u000662.\u000662\u000664\u000662.\u000662\u000665\u000662.\u000662\u000666\u000662.\u000662\u000667\u000662.\u000662\u000668\u000662.\u000662\u000669\u000662 \u000628</string>
+    </test>
+    <test label="U+0663" rtl="True">
+      <comment>three-ar rtl</comment>
+      <string>\u000628 <em>\u000663\u000660\u000663</em>.<em>\u000663\u000661\u000663</em>.<em>\u000663\u000662\u000663</em>.<em>\u000663\u000663\u000663</em>.<em>\u000663\u000664\u000663</em>.<em>\u000663\u000665\u000663</em>.<em>\u000663\u000666\u000663</em>.<em>\u000663\u000667\u000663</em>.<em>\u000663\u000668\u000663</em>.<em>\u000663\u000669\u000663</em> \u000628</string>
+    </test>
+    <test label="U+0663" rtl="True" stylename="kern_0">
+      <comment>three-ar rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u000663\u000660\u000663.\u000663\u000661\u000663.\u000663\u000662\u000663.\u000663\u000663\u000663.\u000663\u000664\u000663.\u000663\u000665\u000663.\u000663\u000666\u000663.\u000663\u000667\u000663.\u000663\u000668\u000663.\u000663\u000669\u000663 \u000628</string>
+    </test>
+    <test label="U+0664" rtl="True">
+      <comment>four-ar rtl</comment>
+      <string>\u000628 <em>\u000664\u000660\u000664</em>.<em>\u000664\u000661\u000664</em>.<em>\u000664\u000662\u000664</em>.<em>\u000664\u000663\u000664</em>.<em>\u000664\u000664\u000664</em>.<em>\u000664\u000665\u000664</em>.<em>\u000664\u000666\u000664</em>.<em>\u000664\u000667\u000664</em>.<em>\u000664\u000668\u000664</em>.<em>\u000664\u000669\u000664</em> \u000628</string>
+    </test>
+    <test label="U+0664" rtl="True" stylename="kern_0">
+      <comment>four-ar rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u000664\u000660\u000664.\u000664\u000661\u000664.\u000664\u000662\u000664.\u000664\u000663\u000664.\u000664\u000664\u000664.\u000664\u000665\u000664.\u000664\u000666\u000664.\u000664\u000667\u000664.\u000664\u000668\u000664.\u000664\u000669\u000664 \u000628</string>
+    </test>
+    <test label="U+0665" rtl="True">
+      <comment>five-ar rtl</comment>
+      <string>\u000628 <em>\u000665\u000660\u000665</em>.<em>\u000665\u000661\u000665</em>.<em>\u000665\u000662\u000665</em>.<em>\u000665\u000663\u000665</em>.<em>\u000665\u000664\u000665</em>.<em>\u000665\u000665\u000665</em>.<em>\u000665\u000666\u000665</em>.<em>\u000665\u000667\u000665</em>.<em>\u000665\u000668\u000665</em>.<em>\u000665\u000669\u000665</em> \u000628</string>
+    </test>
+    <test label="U+0665" rtl="True" stylename="kern_0">
+      <comment>five-ar rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u000665\u000660\u000665.\u000665\u000661\u000665.\u000665\u000662\u000665.\u000665\u000663\u000665.\u000665\u000664\u000665.\u000665\u000665\u000665.\u000665\u000666\u000665.\u000665\u000667\u000665.\u000665\u000668\u000665.\u000665\u000669\u000665 \u000628</string>
+    </test>
+    <test label="U+0666" rtl="True">
+      <comment>six-ar rtl</comment>
+      <string>\u000628 <em>\u000666\u000660\u000666</em>.<em>\u000666\u000661\u000666</em>.<em>\u000666\u000662\u000666</em>.<em>\u000666\u000663\u000666</em>.<em>\u000666\u000664\u000666</em>.<em>\u000666\u000665\u000666</em>.<em>\u000666\u000666\u000666</em>.<em>\u000666\u000667\u000666</em>.<em>\u000666\u000668\u000666</em>.<em>\u000666\u000669\u000666</em> \u000628</string>
+    </test>
+    <test label="U+0666" rtl="True" stylename="kern_0">
+      <comment>six-ar rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u000666\u000660\u000666.\u000666\u000661\u000666.\u000666\u000662\u000666.\u000666\u000663\u000666.\u000666\u000664\u000666.\u000666\u000665\u000666.\u000666\u000666\u000666.\u000666\u000667\u000666.\u000666\u000668\u000666.\u000666\u000669\u000666 \u000628</string>
+    </test>
+    <test label="U+0667" rtl="True">
+      <comment>seven-ar rtl</comment>
+      <string>\u000628 <em>\u000667\u000660\u000667</em>.<em>\u000667\u000661\u000667</em>.<em>\u000667\u000662\u000667</em>.<em>\u000667\u000663\u000667</em>.<em>\u000667\u000664\u000667</em>.<em>\u000667\u000665\u000667</em>.<em>\u000667\u000666\u000667</em>.<em>\u000667\u000667\u000667</em>.<em>\u000667\u000668\u000667</em>.<em>\u000667\u000669\u000667</em> \u000628</string>
+    </test>
+    <test label="U+0667" rtl="True" stylename="kern_0">
+      <comment>seven-ar rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u000667\u000660\u000667.\u000667\u000661\u000667.\u000667\u000662\u000667.\u000667\u000663\u000667.\u000667\u000664\u000667.\u000667\u000665\u000667.\u000667\u000666\u000667.\u000667\u000667\u000667.\u000667\u000668\u000667.\u000667\u000669\u000667 \u000628</string>
+    </test>
+    <test label="U+0668" rtl="True">
+      <comment>eight-ar rtl</comment>
+      <string>\u000628 <em>\u000668\u000660\u000668</em>.<em>\u000668\u000661\u000668</em>.<em>\u000668\u000662\u000668</em>.<em>\u000668\u000663\u000668</em>.<em>\u000668\u000664\u000668</em>.<em>\u000668\u000665\u000668</em>.<em>\u000668\u000666\u000668</em>.<em>\u000668\u000667\u000668</em>.<em>\u000668\u000668\u000668</em>.<em>\u000668\u000669\u000668</em> \u000628</string>
+    </test>
+    <test label="U+0668" rtl="True" stylename="kern_0">
+      <comment>eight-ar rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u000668\u000660\u000668.\u000668\u000661\u000668.\u000668\u000662\u000668.\u000668\u000663\u000668.\u000668\u000664\u000668.\u000668\u000665\u000668.\u000668\u000666\u000668.\u000668\u000667\u000668.\u000668\u000668\u000668.\u000668\u000669\u000668 \u000628</string>
+    </test>
+    <test label="U+0669" rtl="True">
+      <comment>nine-ar rtl</comment>
+      <string>\u000628 <em>\u000669\u000660\u000669</em>.<em>\u000669\u000661\u000669</em>.<em>\u000669\u000662\u000669</em>.<em>\u000669\u000663\u000669</em>.<em>\u000669\u000664\u000669</em>.<em>\u000669\u000665\u000669</em>.<em>\u000669\u000666\u000669</em>.<em>\u000669\u000667\u000669</em>.<em>\u000669\u000668\u000669</em>.<em>\u000669\u000669\u000669</em> \u000628</string>
+    </test>
+    <test label="U+0669" rtl="True" stylename="kern_0">
+      <comment>nine-ar rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u000669\u000660\u000669.\u000669\u000661\u000669.\u000669\u000662\u000669.\u000669\u000663\u000669.\u000669\u000664\u000669.\u000669\u000665\u000669.\u000669\u000666\u000669.\u000669\u000667\u000669.\u000669\u000668\u000669.\u000669\u000669\u000669 \u000628</string>
+    </test>
+    <test label="U+06F0" rtl="True">
+      <comment>zero-persian rtl</comment>
+      <string>\u000628 <em>\u0006F0\u0006F0\u0006F0</em>.<em>\u0006F0\u0006F1\u0006F0</em>.<em>\u0006F0\u0006F2\u0006F0</em>.<em>\u0006F0\u0006F3\u0006F0</em>.<em>\u0006F0\u0006F4\u0006F0</em>.<em>\u0006F0\u0006F5\u0006F0</em>.<em>\u0006F0\u0006F6\u0006F0</em>.<em>\u0006F0\u0006F7\u0006F0</em>.<em>\u0006F0\u0006F8\u0006F0</em>.<em>\u0006F0\u0006F9\u0006F0</em> \u000628</string>
+    </test>
+    <test label="U+06F0" rtl="True" stylename="kern_0">
+      <comment>zero-persian rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u0006F0\u0006F0\u0006F0.\u0006F0\u0006F1\u0006F0.\u0006F0\u0006F2\u0006F0.\u0006F0\u0006F3\u0006F0.\u0006F0\u0006F4\u0006F0.\u0006F0\u0006F5\u0006F0.\u0006F0\u0006F6\u0006F0.\u0006F0\u0006F7\u0006F0.\u0006F0\u0006F8\u0006F0.\u0006F0\u0006F9\u0006F0 \u000628</string>
+    </test>
+    <test label="U+06F0" rtl="True" stylename="sd">
+      <string>\u000628 <em>\u0006F0\u0006F0\u0006F0</em>.<em>\u0006F0\u0006F1\u0006F0</em>.<em>\u0006F0\u0006F2\u0006F0</em>.<em>\u0006F0\u0006F3\u0006F0</em>.<em>\u0006F0\u0006F4\u0006F0</em>.<em>\u0006F0\u0006F5\u0006F0</em>.<em>\u0006F0\u0006F6\u0006F0</em>.<em>\u0006F0\u0006F7\u0006F0</em>.<em>\u0006F0\u0006F8\u0006F0</em>.<em>\u0006F0\u0006F9\u0006F0</em> \u000628</string>
+    </test>
+    <test label="U+06F0" rtl="True" stylename="ur">
+      <string>\u000628 <em>\u0006F0\u0006F0\u0006F0</em>.<em>\u0006F0\u0006F1\u0006F0</em>.<em>\u0006F0\u0006F2\u0006F0</em>.<em>\u0006F0\u0006F3\u0006F0</em>.<em>\u0006F0\u0006F4\u0006F0</em>.<em>\u0006F0\u0006F5\u0006F0</em>.<em>\u0006F0\u0006F6\u0006F0</em>.<em>\u0006F0\u0006F7\u0006F0</em>.<em>\u0006F0\u0006F8\u0006F0</em>.<em>\u0006F0\u0006F9\u0006F0</em> \u000628</string>
+    </test>
+    <test label="U+06F0" rtl="True" stylename="ku">
+      <string>\u000628 <em>\u0006F0\u0006F0\u0006F0</em>.<em>\u0006F0\u0006F1\u0006F0</em>.<em>\u0006F0\u0006F2\u0006F0</em>.<em>\u0006F0\u0006F3\u0006F0</em>.<em>\u0006F0\u0006F4\u0006F0</em>.<em>\u0006F0\u0006F5\u0006F0</em>.<em>\u0006F0\u0006F6\u0006F0</em>.<em>\u0006F0\u0006F7\u0006F0</em>.<em>\u0006F0\u0006F8\u0006F0</em>.<em>\u0006F0\u0006F9\u0006F0</em> \u000628</string>
+    </test>
+    <test label="U+06F0" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F0\u0006F0\u0006F0</em>.<em>\u0006F0\u0006F1\u0006F0</em>.<em>\u0006F0\u0006F2\u0006F0</em>.<em>\u0006F0\u0006F3\u0006F0</em>.<em>\u0006F0\u0006F4\u0006F0</em>.<em>\u0006F0\u0006F5\u0006F0</em>.<em>\u0006F0\u0006F6\u0006F0</em>.<em>\u0006F0\u0006F7\u0006F0</em>.<em>\u0006F0\u0006F8\u0006F0</em>.<em>\u0006F0\u0006F9\u0006F0</em> \u000628</string>
+    </test>
+    <test label="U+06F1" rtl="True">
+      <comment>one-persian rtl</comment>
+      <string>\u000628 <em>\u0006F1\u0006F0\u0006F1</em>.<em>\u0006F1\u0006F1\u0006F1</em>.<em>\u0006F1\u0006F2\u0006F1</em>.<em>\u0006F1\u0006F3\u0006F1</em>.<em>\u0006F1\u0006F4\u0006F1</em>.<em>\u0006F1\u0006F5\u0006F1</em>.<em>\u0006F1\u0006F6\u0006F1</em>.<em>\u0006F1\u0006F7\u0006F1</em>.<em>\u0006F1\u0006F8\u0006F1</em>.<em>\u0006F1\u0006F9\u0006F1</em> \u000628</string>
+    </test>
+    <test label="U+06F1" rtl="True" stylename="kern_0">
+      <comment>one-persian rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u0006F1\u0006F0\u0006F1.\u0006F1\u0006F1\u0006F1.\u0006F1\u0006F2\u0006F1.\u0006F1\u0006F3\u0006F1.\u0006F1\u0006F4\u0006F1.\u0006F1\u0006F5\u0006F1.\u0006F1\u0006F6\u0006F1.\u0006F1\u0006F7\u0006F1.\u0006F1\u0006F8\u0006F1.\u0006F1\u0006F9\u0006F1 \u000628</string>
+    </test>
+    <test label="U+06F1" rtl="True" stylename="sd">
+      <string>\u000628 <em>\u0006F1\u0006F0\u0006F1</em>.<em>\u0006F1\u0006F1\u0006F1</em>.<em>\u0006F1\u0006F2\u0006F1</em>.<em>\u0006F1\u0006F3\u0006F1</em>.<em>\u0006F1\u0006F4\u0006F1</em>.<em>\u0006F1\u0006F5\u0006F1</em>.<em>\u0006F1\u0006F6\u0006F1</em>.<em>\u0006F1\u0006F7\u0006F1</em>.<em>\u0006F1\u0006F8\u0006F1</em>.<em>\u0006F1\u0006F9\u0006F1</em> \u000628</string>
+    </test>
+    <test label="U+06F1" rtl="True" stylename="ur">
+      <string>\u000628 <em>\u0006F1\u0006F0\u0006F1</em>.<em>\u0006F1\u0006F1\u0006F1</em>.<em>\u0006F1\u0006F2\u0006F1</em>.<em>\u0006F1\u0006F3\u0006F1</em>.<em>\u0006F1\u0006F4\u0006F1</em>.<em>\u0006F1\u0006F5\u0006F1</em>.<em>\u0006F1\u0006F6\u0006F1</em>.<em>\u0006F1\u0006F7\u0006F1</em>.<em>\u0006F1\u0006F8\u0006F1</em>.<em>\u0006F1\u0006F9\u0006F1</em> \u000628</string>
+    </test>
+    <test label="U+06F1" rtl="True" stylename="ku">
+      <string>\u000628 <em>\u0006F1\u0006F0\u0006F1</em>.<em>\u0006F1\u0006F1\u0006F1</em>.<em>\u0006F1\u0006F2\u0006F1</em>.<em>\u0006F1\u0006F3\u0006F1</em>.<em>\u0006F1\u0006F4\u0006F1</em>.<em>\u0006F1\u0006F5\u0006F1</em>.<em>\u0006F1\u0006F6\u0006F1</em>.<em>\u0006F1\u0006F7\u0006F1</em>.<em>\u0006F1\u0006F8\u0006F1</em>.<em>\u0006F1\u0006F9\u0006F1</em> \u000628</string>
+    </test>
+    <test label="U+06F1" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F1\u0006F0\u0006F1</em>.<em>\u0006F1\u0006F1\u0006F1</em>.<em>\u0006F1\u0006F2\u0006F1</em>.<em>\u0006F1\u0006F3\u0006F1</em>.<em>\u0006F1\u0006F4\u0006F1</em>.<em>\u0006F1\u0006F5\u0006F1</em>.<em>\u0006F1\u0006F6\u0006F1</em>.<em>\u0006F1\u0006F7\u0006F1</em>.<em>\u0006F1\u0006F8\u0006F1</em>.<em>\u0006F1\u0006F9\u0006F1</em> \u000628</string>
+    </test>
+    <test label="U+06F2" rtl="True">
+      <comment>two-persian rtl</comment>
+      <string>\u000628 <em>\u0006F2\u0006F0\u0006F2</em>.<em>\u0006F2\u0006F1\u0006F2</em>.<em>\u0006F2\u0006F2\u0006F2</em>.<em>\u0006F2\u0006F3\u0006F2</em>.<em>\u0006F2\u0006F4\u0006F2</em>.<em>\u0006F2\u0006F5\u0006F2</em>.<em>\u0006F2\u0006F6\u0006F2</em>.<em>\u0006F2\u0006F7\u0006F2</em>.<em>\u0006F2\u0006F8\u0006F2</em>.<em>\u0006F2\u0006F9\u0006F2</em> \u000628</string>
+    </test>
+    <test label="U+06F2" rtl="True" stylename="kern_0">
+      <comment>two-persian rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u0006F2\u0006F0\u0006F2.\u0006F2\u0006F1\u0006F2.\u0006F2\u0006F2\u0006F2.\u0006F2\u0006F3\u0006F2.\u0006F2\u0006F4\u0006F2.\u0006F2\u0006F5\u0006F2.\u0006F2\u0006F6\u0006F2.\u0006F2\u0006F7\u0006F2.\u0006F2\u0006F8\u0006F2.\u0006F2\u0006F9\u0006F2 \u000628</string>
+    </test>
+    <test label="U+06F2" rtl="True" stylename="sd">
+      <string>\u000628 <em>\u0006F2\u0006F0\u0006F2</em>.<em>\u0006F2\u0006F1\u0006F2</em>.<em>\u0006F2\u0006F2\u0006F2</em>.<em>\u0006F2\u0006F3\u0006F2</em>.<em>\u0006F2\u0006F4\u0006F2</em>.<em>\u0006F2\u0006F5\u0006F2</em>.<em>\u0006F2\u0006F6\u0006F2</em>.<em>\u0006F2\u0006F7\u0006F2</em>.<em>\u0006F2\u0006F8\u0006F2</em>.<em>\u0006F2\u0006F9\u0006F2</em> \u000628</string>
+    </test>
+    <test label="U+06F2" rtl="True" stylename="ur">
+      <string>\u000628 <em>\u0006F2\u0006F0\u0006F2</em>.<em>\u0006F2\u0006F1\u0006F2</em>.<em>\u0006F2\u0006F2\u0006F2</em>.<em>\u0006F2\u0006F3\u0006F2</em>.<em>\u0006F2\u0006F4\u0006F2</em>.<em>\u0006F2\u0006F5\u0006F2</em>.<em>\u0006F2\u0006F6\u0006F2</em>.<em>\u0006F2\u0006F7\u0006F2</em>.<em>\u0006F2\u0006F8\u0006F2</em>.<em>\u0006F2\u0006F9\u0006F2</em> \u000628</string>
+    </test>
+    <test label="U+06F2" rtl="True" stylename="ku">
+      <string>\u000628 <em>\u0006F2\u0006F0\u0006F2</em>.<em>\u0006F2\u0006F1\u0006F2</em>.<em>\u0006F2\u0006F2\u0006F2</em>.<em>\u0006F2\u0006F3\u0006F2</em>.<em>\u0006F2\u0006F4\u0006F2</em>.<em>\u0006F2\u0006F5\u0006F2</em>.<em>\u0006F2\u0006F6\u0006F2</em>.<em>\u0006F2\u0006F7\u0006F2</em>.<em>\u0006F2\u0006F8\u0006F2</em>.<em>\u0006F2\u0006F9\u0006F2</em> \u000628</string>
+    </test>
+    <test label="U+06F2" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F2\u0006F0\u0006F2</em>.<em>\u0006F2\u0006F1\u0006F2</em>.<em>\u0006F2\u0006F2\u0006F2</em>.<em>\u0006F2\u0006F3\u0006F2</em>.<em>\u0006F2\u0006F4\u0006F2</em>.<em>\u0006F2\u0006F5\u0006F2</em>.<em>\u0006F2\u0006F6\u0006F2</em>.<em>\u0006F2\u0006F7\u0006F2</em>.<em>\u0006F2\u0006F8\u0006F2</em>.<em>\u0006F2\u0006F9\u0006F2</em> \u000628</string>
+    </test>
+    <test label="U+06F3" rtl="True">
+      <comment>three-persian rtl</comment>
+      <string>\u000628 <em>\u0006F3\u0006F0\u0006F3</em>.<em>\u0006F3\u0006F1\u0006F3</em>.<em>\u0006F3\u0006F2\u0006F3</em>.<em>\u0006F3\u0006F3\u0006F3</em>.<em>\u0006F3\u0006F4\u0006F3</em>.<em>\u0006F3\u0006F5\u0006F3</em>.<em>\u0006F3\u0006F6\u0006F3</em>.<em>\u0006F3\u0006F7\u0006F3</em>.<em>\u0006F3\u0006F8\u0006F3</em>.<em>\u0006F3\u0006F9\u0006F3</em> \u000628</string>
+    </test>
+    <test label="U+06F3" rtl="True" stylename="kern_0">
+      <comment>three-persian rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u0006F3\u0006F0\u0006F3.\u0006F3\u0006F1\u0006F3.\u0006F3\u0006F2\u0006F3.\u0006F3\u0006F3\u0006F3.\u0006F3\u0006F4\u0006F3.\u0006F3\u0006F5\u0006F3.\u0006F3\u0006F6\u0006F3.\u0006F3\u0006F7\u0006F3.\u0006F3\u0006F8\u0006F3.\u0006F3\u0006F9\u0006F3 \u000628</string>
+    </test>
+    <test label="U+06F3" rtl="True" stylename="sd">
+      <string>\u000628 <em>\u0006F3\u0006F0\u0006F3</em>.<em>\u0006F3\u0006F1\u0006F3</em>.<em>\u0006F3\u0006F2\u0006F3</em>.<em>\u0006F3\u0006F3\u0006F3</em>.<em>\u0006F3\u0006F4\u0006F3</em>.<em>\u0006F3\u0006F5\u0006F3</em>.<em>\u0006F3\u0006F6\u0006F3</em>.<em>\u0006F3\u0006F7\u0006F3</em>.<em>\u0006F3\u0006F8\u0006F3</em>.<em>\u0006F3\u0006F9\u0006F3</em> \u000628</string>
+    </test>
+    <test label="U+06F3" rtl="True" stylename="ur">
+      <string>\u000628 <em>\u0006F3\u0006F0\u0006F3</em>.<em>\u0006F3\u0006F1\u0006F3</em>.<em>\u0006F3\u0006F2\u0006F3</em>.<em>\u0006F3\u0006F3\u0006F3</em>.<em>\u0006F3\u0006F4\u0006F3</em>.<em>\u0006F3\u0006F5\u0006F3</em>.<em>\u0006F3\u0006F6\u0006F3</em>.<em>\u0006F3\u0006F7\u0006F3</em>.<em>\u0006F3\u0006F8\u0006F3</em>.<em>\u0006F3\u0006F9\u0006F3</em> \u000628</string>
+    </test>
+    <test label="U+06F3" rtl="True" stylename="ku">
+      <string>\u000628 <em>\u0006F3\u0006F0\u0006F3</em>.<em>\u0006F3\u0006F1\u0006F3</em>.<em>\u0006F3\u0006F2\u0006F3</em>.<em>\u0006F3\u0006F3\u0006F3</em>.<em>\u0006F3\u0006F4\u0006F3</em>.<em>\u0006F3\u0006F5\u0006F3</em>.<em>\u0006F3\u0006F6\u0006F3</em>.<em>\u0006F3\u0006F7\u0006F3</em>.<em>\u0006F3\u0006F8\u0006F3</em>.<em>\u0006F3\u0006F9\u0006F3</em> \u000628</string>
+    </test>
+    <test label="U+06F3" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F3\u0006F0\u0006F3</em>.<em>\u0006F3\u0006F1\u0006F3</em>.<em>\u0006F3\u0006F2\u0006F3</em>.<em>\u0006F3\u0006F3\u0006F3</em>.<em>\u0006F3\u0006F4\u0006F3</em>.<em>\u0006F3\u0006F5\u0006F3</em>.<em>\u0006F3\u0006F6\u0006F3</em>.<em>\u0006F3\u0006F7\u0006F3</em>.<em>\u0006F3\u0006F8\u0006F3</em>.<em>\u0006F3\u0006F9\u0006F3</em> \u000628</string>
+    </test>
+    <test label="U+06F4" rtl="True">
+      <comment>four-persian rtl</comment>
+      <string>\u000628 <em>\u0006F4\u0006F0\u0006F4</em>.<em>\u0006F4\u0006F1\u0006F4</em>.<em>\u0006F4\u0006F2\u0006F4</em>.<em>\u0006F4\u0006F3\u0006F4</em>.<em>\u0006F4\u0006F4\u0006F4</em>.<em>\u0006F4\u0006F5\u0006F4</em>.<em>\u0006F4\u0006F6\u0006F4</em>.<em>\u0006F4\u0006F7\u0006F4</em>.<em>\u0006F4\u0006F8\u0006F4</em>.<em>\u0006F4\u0006F9\u0006F4</em> \u000628</string>
+    </test>
+    <test label="U+06F4" rtl="True" stylename="kern_0">
+      <comment>four-persian rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u0006F4\u0006F0\u0006F4.\u0006F4\u0006F1\u0006F4.\u0006F4\u0006F2\u0006F4.\u0006F4\u0006F3\u0006F4.\u0006F4\u0006F4\u0006F4.\u0006F4\u0006F5\u0006F4.\u0006F4\u0006F6\u0006F4.\u0006F4\u0006F7\u0006F4.\u0006F4\u0006F8\u0006F4.\u0006F4\u0006F9\u0006F4 \u000628</string>
+    </test>
+    <test label="U+06F4" rtl="True" stylename="sd">
+      <string>\u000628 <em>\u0006F4\u0006F0\u0006F4</em>.<em>\u0006F4\u0006F1\u0006F4</em>.<em>\u0006F4\u0006F2\u0006F4</em>.<em>\u0006F4\u0006F3\u0006F4</em>.<em>\u0006F4\u0006F4\u0006F4</em>.<em>\u0006F4\u0006F5\u0006F4</em>.<em>\u0006F4\u0006F6\u0006F4</em>.<em>\u0006F4\u0006F7\u0006F4</em>.<em>\u0006F4\u0006F8\u0006F4</em>.<em>\u0006F4\u0006F9\u0006F4</em> \u000628</string>
+    </test>
+    <test label="U+06F4" rtl="True" stylename="ur">
+      <string>\u000628 <em>\u0006F4\u0006F0\u0006F4</em>.<em>\u0006F4\u0006F1\u0006F4</em>.<em>\u0006F4\u0006F2\u0006F4</em>.<em>\u0006F4\u0006F3\u0006F4</em>.<em>\u0006F4\u0006F4\u0006F4</em>.<em>\u0006F4\u0006F5\u0006F4</em>.<em>\u0006F4\u0006F6\u0006F4</em>.<em>\u0006F4\u0006F7\u0006F4</em>.<em>\u0006F4\u0006F8\u0006F4</em>.<em>\u0006F4\u0006F9\u0006F4</em> \u000628</string>
+    </test>
+    <test label="U+06F4" rtl="True" stylename="ku">
+      <string>\u000628 <em>\u0006F4\u0006F0\u0006F4</em>.<em>\u0006F4\u0006F1\u0006F4</em>.<em>\u0006F4\u0006F2\u0006F4</em>.<em>\u0006F4\u0006F3\u0006F4</em>.<em>\u0006F4\u0006F4\u0006F4</em>.<em>\u0006F4\u0006F5\u0006F4</em>.<em>\u0006F4\u0006F6\u0006F4</em>.<em>\u0006F4\u0006F7\u0006F4</em>.<em>\u0006F4\u0006F8\u0006F4</em>.<em>\u0006F4\u0006F9\u0006F4</em> \u000628</string>
+    </test>
+    <test label="U+06F4" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F4\u0006F0\u0006F4</em>.<em>\u0006F4\u0006F1\u0006F4</em>.<em>\u0006F4\u0006F2\u0006F4</em>.<em>\u0006F4\u0006F3\u0006F4</em>.<em>\u0006F4\u0006F4\u0006F4</em>.<em>\u0006F4\u0006F5\u0006F4</em>.<em>\u0006F4\u0006F6\u0006F4</em>.<em>\u0006F4\u0006F7\u0006F4</em>.<em>\u0006F4\u0006F8\u0006F4</em>.<em>\u0006F4\u0006F9\u0006F4</em> \u000628</string>
+    </test>
+    <test label="U+06F5" rtl="True">
+      <comment>five-persian rtl</comment>
+      <string>\u000628 <em>\u0006F5\u0006F0\u0006F5</em>.<em>\u0006F5\u0006F1\u0006F5</em>.<em>\u0006F5\u0006F2\u0006F5</em>.<em>\u0006F5\u0006F3\u0006F5</em>.<em>\u0006F5\u0006F4\u0006F5</em>.<em>\u0006F5\u0006F5\u0006F5</em>.<em>\u0006F5\u0006F6\u0006F5</em>.<em>\u0006F5\u0006F7\u0006F5</em>.<em>\u0006F5\u0006F8\u0006F5</em>.<em>\u0006F5\u0006F9\u0006F5</em> \u000628</string>
+    </test>
+    <test label="U+06F5" rtl="True" stylename="kern_0">
+      <comment>five-persian rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u0006F5\u0006F0\u0006F5.\u0006F5\u0006F1\u0006F5.\u0006F5\u0006F2\u0006F5.\u0006F5\u0006F3\u0006F5.\u0006F5\u0006F4\u0006F5.\u0006F5\u0006F5\u0006F5.\u0006F5\u0006F6\u0006F5.\u0006F5\u0006F7\u0006F5.\u0006F5\u0006F8\u0006F5.\u0006F5\u0006F9\u0006F5 \u000628</string>
+    </test>
+    <test label="U+06F5" rtl="True" stylename="sd">
+      <string>\u000628 <em>\u0006F5\u0006F0\u0006F5</em>.<em>\u0006F5\u0006F1\u0006F5</em>.<em>\u0006F5\u0006F2\u0006F5</em>.<em>\u0006F5\u0006F3\u0006F5</em>.<em>\u0006F5\u0006F4\u0006F5</em>.<em>\u0006F5\u0006F5\u0006F5</em>.<em>\u0006F5\u0006F6\u0006F5</em>.<em>\u0006F5\u0006F7\u0006F5</em>.<em>\u0006F5\u0006F8\u0006F5</em>.<em>\u0006F5\u0006F9\u0006F5</em> \u000628</string>
+    </test>
+    <test label="U+06F5" rtl="True" stylename="ur">
+      <string>\u000628 <em>\u0006F5\u0006F0\u0006F5</em>.<em>\u0006F5\u0006F1\u0006F5</em>.<em>\u0006F5\u0006F2\u0006F5</em>.<em>\u0006F5\u0006F3\u0006F5</em>.<em>\u0006F5\u0006F4\u0006F5</em>.<em>\u0006F5\u0006F5\u0006F5</em>.<em>\u0006F5\u0006F6\u0006F5</em>.<em>\u0006F5\u0006F7\u0006F5</em>.<em>\u0006F5\u0006F8\u0006F5</em>.<em>\u0006F5\u0006F9\u0006F5</em> \u000628</string>
+    </test>
+    <test label="U+06F5" rtl="True" stylename="ku">
+      <string>\u000628 <em>\u0006F5\u0006F0\u0006F5</em>.<em>\u0006F5\u0006F1\u0006F5</em>.<em>\u0006F5\u0006F2\u0006F5</em>.<em>\u0006F5\u0006F3\u0006F5</em>.<em>\u0006F5\u0006F4\u0006F5</em>.<em>\u0006F5\u0006F5\u0006F5</em>.<em>\u0006F5\u0006F6\u0006F5</em>.<em>\u0006F5\u0006F7\u0006F5</em>.<em>\u0006F5\u0006F8\u0006F5</em>.<em>\u0006F5\u0006F9\u0006F5</em> \u000628</string>
+    </test>
+    <test label="U+06F5" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F5\u0006F0\u0006F5</em>.<em>\u0006F5\u0006F1\u0006F5</em>.<em>\u0006F5\u0006F2\u0006F5</em>.<em>\u0006F5\u0006F3\u0006F5</em>.<em>\u0006F5\u0006F4\u0006F5</em>.<em>\u0006F5\u0006F5\u0006F5</em>.<em>\u0006F5\u0006F6\u0006F5</em>.<em>\u0006F5\u0006F7\u0006F5</em>.<em>\u0006F5\u0006F8\u0006F5</em>.<em>\u0006F5\u0006F9\u0006F5</em> \u000628</string>
+    </test>
+    <test label="U+06F6" rtl="True">
+      <comment>six-persian rtl</comment>
+      <string>\u000628 <em>\u0006F6\u0006F0\u0006F6</em>.<em>\u0006F6\u0006F1\u0006F6</em>.<em>\u0006F6\u0006F2\u0006F6</em>.<em>\u0006F6\u0006F3\u0006F6</em>.<em>\u0006F6\u0006F4\u0006F6</em>.<em>\u0006F6\u0006F5\u0006F6</em>.<em>\u0006F6\u0006F6\u0006F6</em>.<em>\u0006F6\u0006F7\u0006F6</em>.<em>\u0006F6\u0006F8\u0006F6</em>.<em>\u0006F6\u0006F9\u0006F6</em> \u000628</string>
+    </test>
+    <test label="U+06F6" rtl="True" stylename="kern_0">
+      <comment>six-persian rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u0006F6\u0006F0\u0006F6.\u0006F6\u0006F1\u0006F6.\u0006F6\u0006F2\u0006F6.\u0006F6\u0006F3\u0006F6.\u0006F6\u0006F4\u0006F6.\u0006F6\u0006F5\u0006F6.\u0006F6\u0006F6\u0006F6.\u0006F6\u0006F7\u0006F6.\u0006F6\u0006F8\u0006F6.\u0006F6\u0006F9\u0006F6 \u000628</string>
+    </test>
+    <test label="U+06F6" rtl="True" stylename="sd">
+      <string>\u000628 <em>\u0006F6\u0006F0\u0006F6</em>.<em>\u0006F6\u0006F1\u0006F6</em>.<em>\u0006F6\u0006F2\u0006F6</em>.<em>\u0006F6\u0006F3\u0006F6</em>.<em>\u0006F6\u0006F4\u0006F6</em>.<em>\u0006F6\u0006F5\u0006F6</em>.<em>\u0006F6\u0006F6\u0006F6</em>.<em>\u0006F6\u0006F7\u0006F6</em>.<em>\u0006F6\u0006F8\u0006F6</em>.<em>\u0006F6\u0006F9\u0006F6</em> \u000628</string>
+    </test>
+    <test label="U+06F6" rtl="True" stylename="ur">
+      <string>\u000628 <em>\u0006F6\u0006F0\u0006F6</em>.<em>\u0006F6\u0006F1\u0006F6</em>.<em>\u0006F6\u0006F2\u0006F6</em>.<em>\u0006F6\u0006F3\u0006F6</em>.<em>\u0006F6\u0006F4\u0006F6</em>.<em>\u0006F6\u0006F5\u0006F6</em>.<em>\u0006F6\u0006F6\u0006F6</em>.<em>\u0006F6\u0006F7\u0006F6</em>.<em>\u0006F6\u0006F8\u0006F6</em>.<em>\u0006F6\u0006F9\u0006F6</em> \u000628</string>
+    </test>
+    <test label="U+06F6" rtl="True" stylename="ku">
+      <string>\u000628 <em>\u0006F6\u0006F0\u0006F6</em>.<em>\u0006F6\u0006F1\u0006F6</em>.<em>\u0006F6\u0006F2\u0006F6</em>.<em>\u0006F6\u0006F3\u0006F6</em>.<em>\u0006F6\u0006F4\u0006F6</em>.<em>\u0006F6\u0006F5\u0006F6</em>.<em>\u0006F6\u0006F6\u0006F6</em>.<em>\u0006F6\u0006F7\u0006F6</em>.<em>\u0006F6\u0006F8\u0006F6</em>.<em>\u0006F6\u0006F9\u0006F6</em> \u000628</string>
+    </test>
+    <test label="U+06F6" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F6\u0006F0\u0006F6</em>.<em>\u0006F6\u0006F1\u0006F6</em>.<em>\u0006F6\u0006F2\u0006F6</em>.<em>\u0006F6\u0006F3\u0006F6</em>.<em>\u0006F6\u0006F4\u0006F6</em>.<em>\u0006F6\u0006F5\u0006F6</em>.<em>\u0006F6\u0006F6\u0006F6</em>.<em>\u0006F6\u0006F7\u0006F6</em>.<em>\u0006F6\u0006F8\u0006F6</em>.<em>\u0006F6\u0006F9\u0006F6</em> \u000628</string>
+    </test>
+    <test label="U+06F7" rtl="True">
+      <comment>seven-persian rtl</comment>
+      <string>\u000628 <em>\u0006F7\u0006F0\u0006F7</em>.<em>\u0006F7\u0006F1\u0006F7</em>.<em>\u0006F7\u0006F2\u0006F7</em>.<em>\u0006F7\u0006F3\u0006F7</em>.<em>\u0006F7\u0006F4\u0006F7</em>.<em>\u0006F7\u0006F5\u0006F7</em>.<em>\u0006F7\u0006F6\u0006F7</em>.<em>\u0006F7\u0006F7\u0006F7</em>.<em>\u0006F7\u0006F8\u0006F7</em>.<em>\u0006F7\u0006F9\u0006F7</em> \u000628</string>
+    </test>
+    <test label="U+06F7" rtl="True" stylename="kern_0">
+      <comment>seven-persian rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u0006F7\u0006F0\u0006F7.\u0006F7\u0006F1\u0006F7.\u0006F7\u0006F2\u0006F7.\u0006F7\u0006F3\u0006F7.\u0006F7\u0006F4\u0006F7.\u0006F7\u0006F5\u0006F7.\u0006F7\u0006F6\u0006F7.\u0006F7\u0006F7\u0006F7.\u0006F7\u0006F8\u0006F7.\u0006F7\u0006F9\u0006F7 \u000628</string>
+    </test>
+    <test label="U+06F7" rtl="True" stylename="sd">
+      <string>\u000628 <em>\u0006F7\u0006F0\u0006F7</em>.<em>\u0006F7\u0006F1\u0006F7</em>.<em>\u0006F7\u0006F2\u0006F7</em>.<em>\u0006F7\u0006F3\u0006F7</em>.<em>\u0006F7\u0006F4\u0006F7</em>.<em>\u0006F7\u0006F5\u0006F7</em>.<em>\u0006F7\u0006F6\u0006F7</em>.<em>\u0006F7\u0006F7\u0006F7</em>.<em>\u0006F7\u0006F8\u0006F7</em>.<em>\u0006F7\u0006F9\u0006F7</em> \u000628</string>
+    </test>
+    <test label="U+06F7" rtl="True" stylename="ur">
+      <string>\u000628 <em>\u0006F7\u0006F0\u0006F7</em>.<em>\u0006F7\u0006F1\u0006F7</em>.<em>\u0006F7\u0006F2\u0006F7</em>.<em>\u0006F7\u0006F3\u0006F7</em>.<em>\u0006F7\u0006F4\u0006F7</em>.<em>\u0006F7\u0006F5\u0006F7</em>.<em>\u0006F7\u0006F6\u0006F7</em>.<em>\u0006F7\u0006F7\u0006F7</em>.<em>\u0006F7\u0006F8\u0006F7</em>.<em>\u0006F7\u0006F9\u0006F7</em> \u000628</string>
+    </test>
+    <test label="U+06F7" rtl="True" stylename="ku">
+      <string>\u000628 <em>\u0006F7\u0006F0\u0006F7</em>.<em>\u0006F7\u0006F1\u0006F7</em>.<em>\u0006F7\u0006F2\u0006F7</em>.<em>\u0006F7\u0006F3\u0006F7</em>.<em>\u0006F7\u0006F4\u0006F7</em>.<em>\u0006F7\u0006F5\u0006F7</em>.<em>\u0006F7\u0006F6\u0006F7</em>.<em>\u0006F7\u0006F7\u0006F7</em>.<em>\u0006F7\u0006F8\u0006F7</em>.<em>\u0006F7\u0006F9\u0006F7</em> \u000628</string>
+    </test>
+    <test label="U+06F7" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F7\u0006F0\u0006F7</em>.<em>\u0006F7\u0006F1\u0006F7</em>.<em>\u0006F7\u0006F2\u0006F7</em>.<em>\u0006F7\u0006F3\u0006F7</em>.<em>\u0006F7\u0006F4\u0006F7</em>.<em>\u0006F7\u0006F5\u0006F7</em>.<em>\u0006F7\u0006F6\u0006F7</em>.<em>\u0006F7\u0006F7\u0006F7</em>.<em>\u0006F7\u0006F8\u0006F7</em>.<em>\u0006F7\u0006F9\u0006F7</em> \u000628</string>
+    </test>
+    <test label="U+06F8" rtl="True">
+      <comment>eight-persian rtl</comment>
+      <string>\u000628 <em>\u0006F8\u0006F0\u0006F8</em>.<em>\u0006F8\u0006F1\u0006F8</em>.<em>\u0006F8\u0006F2\u0006F8</em>.<em>\u0006F8\u0006F3\u0006F8</em>.<em>\u0006F8\u0006F4\u0006F8</em>.<em>\u0006F8\u0006F5\u0006F8</em>.<em>\u0006F8\u0006F6\u0006F8</em>.<em>\u0006F8\u0006F7\u0006F8</em>.<em>\u0006F8\u0006F8\u0006F8</em>.<em>\u0006F8\u0006F9\u0006F8</em> \u000628</string>
+    </test>
+    <test label="U+06F8" rtl="True" stylename="kern_0">
+      <comment>eight-persian rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u0006F8\u0006F0\u0006F8.\u0006F8\u0006F1\u0006F8.\u0006F8\u0006F2\u0006F8.\u0006F8\u0006F3\u0006F8.\u0006F8\u0006F4\u0006F8.\u0006F8\u0006F5\u0006F8.\u0006F8\u0006F6\u0006F8.\u0006F8\u0006F7\u0006F8.\u0006F8\u0006F8\u0006F8.\u0006F8\u0006F9\u0006F8 \u000628</string>
+    </test>
+    <test label="U+06F8" rtl="True" stylename="sd">
+      <string>\u000628 <em>\u0006F8\u0006F0\u0006F8</em>.<em>\u0006F8\u0006F1\u0006F8</em>.<em>\u0006F8\u0006F2\u0006F8</em>.<em>\u0006F8\u0006F3\u0006F8</em>.<em>\u0006F8\u0006F4\u0006F8</em>.<em>\u0006F8\u0006F5\u0006F8</em>.<em>\u0006F8\u0006F6\u0006F8</em>.<em>\u0006F8\u0006F7\u0006F8</em>.<em>\u0006F8\u0006F8\u0006F8</em>.<em>\u0006F8\u0006F9\u0006F8</em> \u000628</string>
+    </test>
+    <test label="U+06F8" rtl="True" stylename="ur">
+      <string>\u000628 <em>\u0006F8\u0006F0\u0006F8</em>.<em>\u0006F8\u0006F1\u0006F8</em>.<em>\u0006F8\u0006F2\u0006F8</em>.<em>\u0006F8\u0006F3\u0006F8</em>.<em>\u0006F8\u0006F4\u0006F8</em>.<em>\u0006F8\u0006F5\u0006F8</em>.<em>\u0006F8\u0006F6\u0006F8</em>.<em>\u0006F8\u0006F7\u0006F8</em>.<em>\u0006F8\u0006F8\u0006F8</em>.<em>\u0006F8\u0006F9\u0006F8</em> \u000628</string>
+    </test>
+    <test label="U+06F8" rtl="True" stylename="ku">
+      <string>\u000628 <em>\u0006F8\u0006F0\u0006F8</em>.<em>\u0006F8\u0006F1\u0006F8</em>.<em>\u0006F8\u0006F2\u0006F8</em>.<em>\u0006F8\u0006F3\u0006F8</em>.<em>\u0006F8\u0006F4\u0006F8</em>.<em>\u0006F8\u0006F5\u0006F8</em>.<em>\u0006F8\u0006F6\u0006F8</em>.<em>\u0006F8\u0006F7\u0006F8</em>.<em>\u0006F8\u0006F8\u0006F8</em>.<em>\u0006F8\u0006F9\u0006F8</em> \u000628</string>
+    </test>
+    <test label="U+06F8" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F8\u0006F0\u0006F8</em>.<em>\u0006F8\u0006F1\u0006F8</em>.<em>\u0006F8\u0006F2\u0006F8</em>.<em>\u0006F8\u0006F3\u0006F8</em>.<em>\u0006F8\u0006F4\u0006F8</em>.<em>\u0006F8\u0006F5\u0006F8</em>.<em>\u0006F8\u0006F6\u0006F8</em>.<em>\u0006F8\u0006F7\u0006F8</em>.<em>\u0006F8\u0006F8\u0006F8</em>.<em>\u0006F8\u0006F9\u0006F8</em> \u000628</string>
+    </test>
+    <test label="U+06F9" rtl="True">
+      <comment>nine-persian rtl</comment>
+      <string>\u000628 <em>\u0006F9\u0006F0\u0006F9</em>.<em>\u0006F9\u0006F1\u0006F9</em>.<em>\u0006F9\u0006F2\u0006F9</em>.<em>\u0006F9\u0006F3\u0006F9</em>.<em>\u0006F9\u0006F4\u0006F9</em>.<em>\u0006F9\u0006F5\u0006F9</em>.<em>\u0006F9\u0006F6\u0006F9</em>.<em>\u0006F9\u0006F7\u0006F9</em>.<em>\u0006F9\u0006F8\u0006F9</em>.<em>\u0006F9\u0006F9\u0006F9</em> \u000628</string>
+    </test>
+    <test label="U+06F9" rtl="True" stylename="kern_0">
+      <comment>nine-persian rtl</comment>
+      <string><em>\u00200B</em>\u000628 \u0006F9\u0006F0\u0006F9.\u0006F9\u0006F1\u0006F9.\u0006F9\u0006F2\u0006F9.\u0006F9\u0006F3\u0006F9.\u0006F9\u0006F4\u0006F9.\u0006F9\u0006F5\u0006F9.\u0006F9\u0006F6\u0006F9.\u0006F9\u0006F7\u0006F9.\u0006F9\u0006F8\u0006F9.\u0006F9\u0006F9\u0006F9 \u000628</string>
+    </test>
+    <test label="U+06F9" rtl="True" stylename="sd">
+      <string>\u000628 <em>\u0006F9\u0006F0\u0006F9</em>.<em>\u0006F9\u0006F1\u0006F9</em>.<em>\u0006F9\u0006F2\u0006F9</em>.<em>\u0006F9\u0006F3\u0006F9</em>.<em>\u0006F9\u0006F4\u0006F9</em>.<em>\u0006F9\u0006F5\u0006F9</em>.<em>\u0006F9\u0006F6\u0006F9</em>.<em>\u0006F9\u0006F7\u0006F9</em>.<em>\u0006F9\u0006F8\u0006F9</em>.<em>\u0006F9\u0006F9\u0006F9</em> \u000628</string>
+    </test>
+    <test label="U+06F9" rtl="True" stylename="ur">
+      <string>\u000628 <em>\u0006F9\u0006F0\u0006F9</em>.<em>\u0006F9\u0006F1\u0006F9</em>.<em>\u0006F9\u0006F2\u0006F9</em>.<em>\u0006F9\u0006F3\u0006F9</em>.<em>\u0006F9\u0006F4\u0006F9</em>.<em>\u0006F9\u0006F5\u0006F9</em>.<em>\u0006F9\u0006F6\u0006F9</em>.<em>\u0006F9\u0006F7\u0006F9</em>.<em>\u0006F9\u0006F8\u0006F9</em>.<em>\u0006F9\u0006F9\u0006F9</em> \u000628</string>
+    </test>
+    <test label="U+06F9" rtl="True" stylename="ku">
+      <string>\u000628 <em>\u0006F9\u0006F0\u0006F9</em>.<em>\u0006F9\u0006F1\u0006F9</em>.<em>\u0006F9\u0006F2\u0006F9</em>.<em>\u0006F9\u0006F3\u0006F9</em>.<em>\u0006F9\u0006F4\u0006F9</em>.<em>\u0006F9\u0006F5\u0006F9</em>.<em>\u0006F9\u0006F6\u0006F9</em>.<em>\u0006F9\u0006F7\u0006F9</em>.<em>\u0006F9\u0006F8\u0006F9</em>.<em>\u0006F9\u0006F9\u0006F9</em> \u000628</string>
+    </test>
+    <test label="U+06F9" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F9\u0006F0\u0006F9</em>.<em>\u0006F9\u0006F1\u0006F9</em>.<em>\u0006F9\u0006F2\u0006F9</em>.<em>\u0006F9\u0006F3\u0006F9</em>.<em>\u0006F9\u0006F4\u0006F9</em>.<em>\u0006F9\u0006F5\u0006F9</em>.<em>\u0006F9\u0006F6\u0006F9</em>.<em>\u0006F9\u0006F7\u0006F9</em>.<em>\u0006F9\u0006F8\u0006F9</em>.<em>\u0006F9\u0006F9\u0006F9</em> \u000628</string>
+    </test>
+  </testgroup>
+</ftml>

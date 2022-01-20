@@ -134,7 +134,12 @@ lookup SubtendingMarks {
     
 } SubtendingMarks;
 
-
+#********************
+# Kerning pairs -- used for proportional digits
+lookup kernpairs {
+    lookupflag IgnoreMarks;
+    kernpairs;
+} kernpairs;
 
 #******************
 #******************
@@ -152,6 +157,7 @@ lookup SubtendingMarks {
 feature kern {  # Kerning
     # Same for latin & arabic:
         lookup SubtendingMarks;
+        lookup kernpairs;
 
 do if opt("noOTkern") == "";	
 {
