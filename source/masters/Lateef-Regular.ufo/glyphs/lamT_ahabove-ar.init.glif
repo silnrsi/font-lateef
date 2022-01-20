@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamTahabove-ar.init" format="2">
-  <advance width="338"/>
+  <advance width="414"/>
   <anchor x="0" y="735" name="alef"/>
   <anchor x="171" y="1658" name="diaA"/>
   <anchor x="150" y="-200" name="diaB"/>

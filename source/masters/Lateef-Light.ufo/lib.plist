@@ -121,14 +121,8 @@
   <string>3110</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>()/space «/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init »/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/guilsinglleft/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init/guilsinglright 
-()/space «/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init »/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/guilsinglleft/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init/guilsinglright 
-()/space «/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init »/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/guilsinglleft/ng-ar.fina/behDotless-ar.medi/e-ar.init/space/meem-ar.fina/behDotless-ar.medi/kaf-ar.init/space/alef-ar/lam-ar.fina/hehDoachashmee-ar.init/guilsinglright</string>
-    <string>/hah-ar/hah-ar.fina/hah-ar.medi/hah-ar.init 
-
-/jeem-ar/hah-ar/hah-ar.fina/jeem-ar.fina/hah-ar.medi/hah-ar.init/jeem-ar.medi/hah-ar.init/jeem-ar.init/tcheh-ar.init/tcheheh-ar.init/tchehDotabove-ar.init/tchehVabove-ar.init/nyeh-ar.init/dyeh-ar.init/hah-ar.medi/hahHamzaabove-ar.init/hahTwodotsverticalabove-ar.init/hahTwodotshorizontalabove-ar.init/hahThreedotsabove-ar.init/hahThreedotsupbelow-ar.init/khah-ar.init/hahTahbelow-ar.init/hahTahTwodotshorizontalbelow-ar.init/hahTahabove-ar.init/hahFourbelow-ar.init/jeemTwodotsabove-ar.init/jeemThreedotsabove-ar.init/jeemThreedotsbelow-ar.init/jeem-ar.init 
-
-/yeh-ar.noDots/space/space/yeh-ar.noDots.fina/space/space/space/space/yeh-ar.fina</string>
+    <string>/tteh-ar.init/alef-ar.fina/ttehVabove-ar.init/alef-ar.fina/hahTahabove-ar.init/alef-ar.fina/rreh-ar/alef-ar.fina/rehTwodotshorizontalaboveTahabove-ar/alef-ar.fina/lamTahabove-ar.init/alef-ar.fina/rnoon-ar.init/alef-ar.fina/noonTahabove-ar.init/alef-ar.fina/space/space/_dot2h/space/space/_tah/space/space/_dot2h_tah 
+/_tah/tteh-ar/tteh-ar.fina/tteh-ar.medi/tteh-ar.init/hahTahbelow-ar/hahTahbelow-ar.fina/hahTahbelow-ar.medi/hahTahbelow-ar.init/hahTahabove-ar/hahTahabove-ar.fina/hahTahabove-ar.medi/hahTahabove-ar.init/ddal-ar/ddal-ar.fina/dalDotbelowTah-ar/dalDotbelowTah-ar.fina/dalTwodotsverticalbelowTah-ar/dalTwodotsverticalbelowTah-ar.fina/rreh-ar/rreh-ar.fina/lamTahabove-ar/lamTahabove-ar.fina/lamTahabove-ar.medi/lamTahabove-ar.init/lamTahabove-ar.medi.preAlef/lamTahabove-ar.init.preAlef/rnoon-ar/rnoon-ar.fina/rnoon-ar.medi/rnoon-ar.init/tahabove-ar/_dot1_tah/_dot2h_tah/_dot3u_tah/_tah_smallV</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
