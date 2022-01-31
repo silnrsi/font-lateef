@@ -40,11 +40,16 @@
       <key>public.kern1.one-ar</key>
       <array>
         <string>five-persian</string>
+        <string>one-ar</string>
       </array>
       <key>public.kern1.seven-ar</key>
       <array>
         <string>seven-ar</string>
         <string>seven-persian</string>
+      </array>
+      <key>public.kern1.seven-persian.urdu</key>
+      <array>
+        <string>seven-persian.urdu</string>
       </array>
       <key>public.kern1.six-ar</key>
       <array>
@@ -123,13 +128,12 @@
   <array>
     <string>/tteh-ar.init/alef-ar.fina/ttehVabove-ar.init/alef-ar.fina/hahTahabove-ar.init/alef-ar.fina/rreh-ar/alef-ar.fina/rehTwodotshorizontalaboveTahabove-ar/alef-ar.fina/lamTahabove-ar.init/alef-ar.fina/rnoon-ar.init/alef-ar.fina/noonTahabove-ar.init/alef-ar.fina/space/space/_dot2h/space/space/_tah/space/space/_dot2h_tah 
 /_tah/tteh-ar/tteh-ar.fina/tteh-ar.medi/tteh-ar.init/hahTahbelow-ar/hahTahbelow-ar.fina/hahTahbelow-ar.medi/hahTahbelow-ar.init/hahTahabove-ar/hahTahabove-ar.fina/hahTahabove-ar.medi/hahTahabove-ar.init/ddal-ar/ddal-ar.fina/dalDotbelowTah-ar/dalDotbelowTah-ar.fina/dalTwodotsverticalbelowTah-ar/dalTwodotsverticalbelowTah-ar.fina/rreh-ar/rreh-ar.fina/lamTahabove-ar/lamTahabove-ar.fina/lamTahabove-ar.medi/lamTahabove-ar.init/lamTahabove-ar.medi.preAlef/lamTahabove-ar.init.preAlef/rnoon-ar/rnoon-ar.fina/rnoon-ar.medi/rnoon-ar.init/tahabove-ar/_dot1_tah/_dot2h_tah/_dot3u_tah/_tah_smallV</string>
-    <string>/space/zero-ar/one-ar/two-ar/three-ar/four-ar/five-ar/six-ar/seven-ar/eight-ar/nine-ar/zero-persian/one-persian/two-persian/three-persian/four-persian/four-persian.urdu/four-persian.roh/five-persian/six-persian/six-persian.urdu/seven-persian/seven-persian.urdu/eight-persian/nine-persian/space Digits
-/meem-ar/lam_alef-ar.fina/hah-ar.init/lam_alefWavyhamzaabove-ar/alef-ar/space/two-ar/one-ar/three-ar/space/reh-ar.fina/yeh-ar.medi/ghain-ar.init/space/four-ar/zero-ar/six-ar/seven-ar/space/reh-ar.fina/tah-ar.medi/meem-ar.medi/teh-ar.init/space/lam_alef-ar/space/four-persian.urdu/zero-ar/seven-persian/five-persian/one-ar/space/hamza-ar/alef-ar.fina/meem-ar.medi/seen-ar.init/space/beh-ar.fina/hah-ar.medi/lam-ar.init/alef-ar/space Sample/one-ar/seven-ar/nine-ar/five-persian/one-ar/nine-ar 
+    <string>/space/zero-ar/one-ar/two-ar/three-ar/four-ar/five-ar/six-ar/seven-ar/eight-ar/nine-ar/zero-persian/one-persian/two-persian/three-persian/four-persian/four-persian.urdu/four-persian.roh/five-persian/six-persian/six-persian.urdu/seven-persian/seven-persian.urdu/eight-persian/nine-persian/space Digits/space Latin.
+/meem-ar/lam_alef-ar.fina/hah-ar.init/lam_alefWavyhamzaabove-ar/alef-ar/space/two-ar/one-ar/three-ar/space/reh-ar.fina/yeh-ar.medi/ghain-ar.init/space/four-ar/zero-ar/six-ar/seven-ar/space/reh-ar.fina/tah-ar.medi/meem-ar.medi/teh-ar.init/space/lam_alef-ar/space/four-persian.urdu/zero-ar/seven-persian/five-persian/one-ar/space/hamza-ar/alef-ar.fina/meem-ar.medi/seen-ar.init/space/beh-ar.fina/hah-ar.medi/lam-ar.init/alef-ar/space Sample/one-ar/seven-ar/seven-ar/eight-ar/one-ar/nine-ar 
 /zero-ar/zero-ar/zero-ar/one-ar/zero-ar/two-ar/zero-ar/three-ar/zero-ar/four-ar/zero-ar/five-ar/zero-ar/six-ar/zero-ar/seven-ar/zero-ar/eight-ar/zero-ar/nine-ar/zero-ar/four-persian/zero-ar/four-persian.urdu/zero-ar/five-persian/zero-ar/six-persian/zero-ar/seven-persian.urdu/zero-ar 
 /one-ar/zero-ar/one-ar/one-ar/one-ar/two-ar/one-ar/three-ar/one-ar/four-ar/one-ar/five-ar/one-ar/six-ar/one-ar/seven-ar/one-ar/eight-ar/one-ar/nine-ar/one-ar/four-persian/one-ar/four-persian.urdu/one-ar/five-persian/five-persian/one-ar/six-persian/one-ar/seven-persian.urdu/one-ar 
 /two-ar/zero-ar/two-ar/one-ar/two-ar/two-ar/two-ar/three-ar/two-ar/four-ar/two-ar/five-ar/two-ar/six-ar/two-ar/seven-ar/two-ar/eight-ar/two-ar/nine-ar/two-ar/four-persian/two-ar/four-persian.urdu/two-ar/five-persian/two-ar/six-persian/two-ar/seven-persian.urdu/two-ar 
 /three-ar/zero-ar/three-ar/one-ar/three-ar/two-ar/three-ar/three-ar/three-ar/four-ar/three-ar/five-ar/three-ar/six-ar/three-ar/seven-ar/three-ar/eight-ar/three-ar/nine-ar/three-ar/four-persian/three-ar/four-persian.urdu/three-ar/five-persian/three-ar/six-persian/three-ar/seven-persian.urdu/three-ar 
-/zero-ar/seven-persian.urdu/three-ar 
 /four-ar/zero-ar/four-ar/one-ar/four-ar/two-ar/four-ar/three-ar/four-ar/four-ar/four-ar/five-ar/four-ar/six-ar/four-ar/seven-ar/four-ar/eight-ar/four-ar/nine-ar/four-ar/four-persian/four-ar/four-persian.urdu/four-ar/five-persian/four-ar/six-persian/four-ar/seven-persian.urdu/four-ar 
 /five-ar/zero-ar/five-ar/one-ar/five-ar/two-ar/five-ar/three-ar/five-ar/four-ar/five-ar/five-ar/five-ar/six-ar/five-ar/seven-ar/five-ar/eight-ar/five-ar/nine-ar/five-ar/four-persian/five-ar/four-persian.urdu/five-ar/five-persian/five-ar/six-persian/five-ar/seven-persian.urdu/five-ar 
 /six-ar/zero-ar/six-ar/one-ar/six-ar/two-ar/six-ar/three-ar/six-ar/four-ar/six-ar/five-ar/six-ar/six-ar/six-ar/seven-ar/six-ar/eight-ar/six-ar/nine-ar/six-ar/four-persian/six-ar/four-persian.urdu/six-ar/five-persian/six-ar/six-persian/six-ar/seven-persian.urdu/six-ar 
@@ -142,7 +146,6 @@
 /six-persian/zero-ar/six-persian/one-ar/six-persian/two-ar/six-persian/three-ar/six-persian/four-ar/six-persian/five-ar/six-persian/six-ar/six-persian/seven-ar/six-persian/eight-ar/six-persian/nine-ar/six-persian/four-persian/six-persian/four-persian.urdu/six-persian/five-persian/six-persian/six-persian/six-persian/seven-persian.urdu/six-persian 
 /seven-persian.urdu/zero-ar/one-ar/zero-ar/seven-persian.urdu/one-ar/seven-persian.urdu/two-ar/seven-persian.urdu/three-ar/seven-persian.urdu/four-ar/seven-persian.urdu/five-ar/seven-persian.urdu/six-ar/seven-persian.urdu/seven-ar/seven-persian.urdu/eight-ar/seven-persian.urdu/nine-ar/seven-persian.urdu/four-persian/seven-persian.urdu/four-persian.urdu/seven-persian.urdu/five-persian/seven-persian.urdu/six-persian/seven-persian.urdu/seven-persian.urdu/eight-ar 
 </string>
-    <string>/space/space.latn/nbspace/nbspace.latn/enspace/emspace/threeperemspace/fourperemspace/sixperemspace/figurespace/punctuationspace/thinspace/hairspace/zerowidthspace/zeroWidthNoBreakSpace/narrownbspace</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>

@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>public.kern1.eight-ar</key>
-  <array>
-    <string>seven-persian.urdu</string>
-  </array>
   <key>public.kern1.four-ar</key>
   <array>
     <string>four-ar</string>
@@ -14,11 +10,16 @@
   <key>public.kern1.one-ar</key>
   <array>
     <string>five-persian</string>
+    <string>one-ar</string>
   </array>
   <key>public.kern1.seven-ar</key>
   <array>
     <string>seven-ar</string>
     <string>seven-persian</string>
+  </array>
+  <key>public.kern1.seven-persian.urdu</key>
+  <array>
+    <string>seven-persian.urdu</string>
   </array>
   <key>public.kern1.six-ar</key>
   <array>
