@@ -7,7 +7,7 @@
   <outline>
     <component base="yeh-ar.noDots.fina"/>
     <component base="_noon" xOffset="477" yOffset="-683"/>
-    <component base="_dot2h" xOffset="294" yOffset="-770"/>
+    <component base="_dot2h" xOffset="351" yOffset="-770"/>
   </outline>
   <lib>
     <dict>

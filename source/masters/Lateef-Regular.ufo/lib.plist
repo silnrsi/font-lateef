@@ -124,7 +124,10 @@
   <string>3112</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/figurespace.tnum/zero-ar.tnum/one-ar.tnum</string>
+    <string>/yeh-ar.noDots.fina/yeh-ar.noDots.fina/yeh-ar.noDots.fina 
+/yeh-ar.fina 
+/yeh-ar.fina 
+/yeh-ar.fina</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
