@@ -1032,6 +1032,8 @@
   <string>figuredash.glif</string>
   <key>figurespace</key>
   <string>figurespace.glif</string>
+  <key>figurespace.tnum</key>
+  <string>figurespace.tnum.glif</string>
   <key>firststrongisolate</key>
   <string>firststrongisolate.glif</string>
   <key>firsttonechinese</key>
@@ -2034,8 +2036,6 @@
   <string>narrownbspace.glif</string>
   <key>nbspace</key>
   <string>nbspace.glif</string>
-  <key>nbspace.latn</key>
-  <string>nbspace.latn.glif</string>
   <key>ng-ar</key>
   <string>ng-ar.glif</string>
   <key>ng-ar.fina</key>
@@ -2802,8 +2802,6 @@
   <string>softhyphen.glif</string>
   <key>space</key>
   <string>space.glif</string>
-  <key>space.latn</key>
-  <string>space.latn.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
   <key>strokeshortcomb.case</key>

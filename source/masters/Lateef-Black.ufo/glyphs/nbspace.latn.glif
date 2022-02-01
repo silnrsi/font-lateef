@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="nbspace.latn" format="2">
-  <advance width="310"/>
-  <anchor x="241" y="1060" name="diaA"/>
-  <anchor x="241" y="-49" name="diaB"/>
-  <outline/>
-</glyph>

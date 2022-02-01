@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="narrownbspace" format="2">
-  <advance width="410"/>
+  <advance width="129"/>
   <unicode hex="202F"/>
   <anchor x="100" y="299" name="alefUnused"/>
   <anchor x="100" y="684" name="diaA"/>
