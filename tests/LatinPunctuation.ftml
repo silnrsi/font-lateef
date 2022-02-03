@@ -5,7 +5,7 @@
 	  <fontscale>300</fontscale>
 	  <fontsrc>local(Scheherazade)</fontsrc>
 	  <fontsrc>local(Lateef)</fontsrc>
-	  <fontsrc>url(../results/LateefGR-Regular.woff)</fontsrc>
+    <fontsrc label="Lateef-OT">url(../results/Lateef-Regular.ttf)</fontsrc>
 	  <title>Latin Punctuation</title>
   </head>
   <testgroup label="main"> 
