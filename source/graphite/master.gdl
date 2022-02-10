@@ -245,6 +245,10 @@ pass(4)	// Features, special behaviors
 		cno_downward  >  cdownward;
 	endif;
 
+	if (decimalSepAlt == slash)
+	  g_decimalseparator_ar  >  g_decimalseparator_ar_slash;
+	endif;
+
 endpass; // 4
 
 pass(5)

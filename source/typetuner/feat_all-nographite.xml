@@ -166,7 +166,6 @@
 		</value>
 	</feature>
 
-
 	<feature name="Comma" value="Upward" tag="Cma"> 		<!-- was "Downward comma", "Dc" -->
 		<value name="Upward" tag="Up">						<!-- was "False", "F" -->
 			<cmd name="null" args="null"/>
@@ -177,6 +176,15 @@
 		</value>
 	</feature>
 
+		<feature name="Decimal separator" value="Small reh" tag="DSep">
+		<value name="Small reh" tag="Re">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Slash" tag="Sl">
+			<cmd name="encode" args="066B uni066B.slash"/>
+		</value>
+	</feature>
+	
 	<feature name="Line spacing" value="Normal"	tag="LnSpc">
 		<value name="Normal" tag="Nrml">
 			<cmd name="null" args="2742 1488"/>

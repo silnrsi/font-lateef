@@ -37,6 +37,7 @@
       <style feats="'cv82' 3" name="cv82_3"/>
       <style feats="'cv82' 4" name="cv82_4"/>
       <style feats="'cv84' 1" name="cv84_1"/>
+      <style feats="'cv85' 1" name="cv85_1"/>
       <style lang="ku" name="ku"/>
       <style feats="'cv44' 1" lang="ku" name="ku_cv44_1"/>
       <style feats="'cv48' 1" lang="ku" name="ku_cv48_1"/>
@@ -68,6 +69,7 @@
       <style feats="'cv82' 3" lang="ku" name="ku_cv82_3"/>
       <style feats="'cv82' 4" lang="ku" name="ku_cv82_4"/>
       <style feats="'cv84' 1" lang="ku" name="ku_cv84_1"/>
+      <style feats="'cv85' 1" lang="ku" name="ku_cv85_1"/>
       <style lang="ky" name="ky"/>
       <style feats="'cv44' 1" lang="ky" name="ky_cv44_1"/>
       <style feats="'cv48' 1" lang="ky" name="ky_cv48_1"/>
@@ -99,6 +101,7 @@
       <style feats="'cv82' 3" lang="ky" name="ky_cv82_3"/>
       <style feats="'cv82' 4" lang="ky" name="ky_cv82_4"/>
       <style feats="'cv84' 1" lang="ky" name="ky_cv84_1"/>
+      <style feats="'cv85' 1" lang="ky" name="ky_cv85_1"/>
       <style lang="rhg" name="rhg"/>
       <style feats="'cv44' 1" lang="rhg" name="rhg_cv44_1"/>
       <style feats="'cv48' 1" lang="rhg" name="rhg_cv48_1"/>
@@ -130,6 +133,7 @@
       <style feats="'cv82' 3" lang="rhg" name="rhg_cv82_3"/>
       <style feats="'cv82' 4" lang="rhg" name="rhg_cv82_4"/>
       <style feats="'cv84' 1" lang="rhg" name="rhg_cv84_1"/>
+      <style feats="'cv85' 1" lang="rhg" name="rhg_cv85_1"/>
       <style lang="sd" name="sd"/>
       <style feats="'cv44' 1" lang="sd" name="sd_cv44_1"/>
       <style feats="'cv48' 1" lang="sd" name="sd_cv48_1"/>
@@ -161,6 +165,7 @@
       <style feats="'cv82' 3" lang="sd" name="sd_cv82_3"/>
       <style feats="'cv82' 4" lang="sd" name="sd_cv82_4"/>
       <style feats="'cv84' 1" lang="sd" name="sd_cv84_1"/>
+      <style feats="'cv85' 1" lang="sd" name="sd_cv85_1"/>
       <style lang="ur" name="ur"/>
       <style feats="'cv44' 1" lang="ur" name="ur_cv44_1"/>
       <style feats="'cv48' 1" lang="ur" name="ur_cv48_1"/>
@@ -192,6 +197,7 @@
       <style feats="'cv82' 3" lang="ur" name="ur_cv82_3"/>
       <style feats="'cv82' 4" lang="ur" name="ur_cv82_4"/>
       <style feats="'cv84' 1" lang="ur" name="ur_cv84_1"/>
+      <style feats="'cv85' 1" lang="ur" name="ur_cv85_1"/>
     </styles>
     <title>Feature-Language Interactions (auto)</title>
     <widths string="38%"/>
@@ -1853,6 +1859,49 @@ U+061B" rtl="True" stylename="ky">
 U+061B" rtl="True" stylename="ky_cv84_1">
       <comment>Yes</comment>
       <string>\u00060C\u00061B</string>
+    </test>
+  </testgroup>
+  <testgroup label="cv85 Decimal separator">
+    <test label="U+066B" rtl="True">
+      <string>\u00066B</string>
+    </test>
+    <test label="U+066B" rtl="True" stylename="cv85_1">
+      <string>\u00066B</string>
+    </test>
+    <test label="U+066B" rtl="True" stylename="sd">
+      <string>\u00066B</string>
+    </test>
+    <test label="U+066B" rtl="True" stylename="sd_cv85_1">
+      <comment>Yes</comment>
+      <string>\u00066B</string>
+    </test>
+    <test label="U+066B" rtl="True" stylename="ur">
+      <string>\u00066B</string>
+    </test>
+    <test label="U+066B" rtl="True" stylename="ur_cv85_1">
+      <comment>Yes</comment>
+      <string>\u00066B</string>
+    </test>
+    <test label="U+066B" rtl="True" stylename="ku">
+      <string>\u00066B</string>
+    </test>
+    <test label="U+066B" rtl="True" stylename="ku_cv85_1">
+      <comment>Yes</comment>
+      <string>\u00066B</string>
+    </test>
+    <test label="U+066B" rtl="True" stylename="rhg">
+      <string>\u00066B</string>
+    </test>
+    <test label="U+066B" rtl="True" stylename="rhg_cv85_1">
+      <comment>Yes</comment>
+      <string>\u00066B</string>
+    </test>
+    <test label="U+066B" rtl="True" stylename="ky">
+      <string>\u00066B</string>
+    </test>
+    <test label="U+066B" rtl="True" stylename="ky_cv85_1">
+      <comment>Yes</comment>
+      <string>\u00066B</string>
     </test>
   </testgroup>
 </ftml>
