@@ -688,6 +688,13 @@ lookup SignWithDigits {
         [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ] ;
 } SignWithDigits;
 
+#********************
+# Tabular Numbers: tnum
+
+lookup TabularDigits {
+  lookupflag IgnoreMarks ;
+    sub @cno_tnum by @c_tnum ;
+} TabularDigits ;
 
 #********
 # Yehbarree substituions to prevent collisions -- must be after lang-specific CALTs and cv48
@@ -1037,11 +1044,15 @@ feature cv85 {  # Character Variant 85
 
 feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cv62
     # Same for latin & arabic:
-        lookup ShaddaKasraLigatures;     # Must be after language-specific CALTs and cv62
-#        lookup YehBarreeToWideAlways;    # Must be after language-specific CALTs and cv48
-#        lookup YehBarreeToWideWithMarks; # Must be after language-specific CALTs and cv48
-        lookup LamAlefLigatures;         # Must be after all mark ligatures (including cv62)
-        lookup AllahAlef;                # Must be after lam-alef lig
-        lookup SignWithDigits;           # Must be after cv82
+        lookup ShaddaKasraLigatures;     # Must execute after language-specific CALTs and cv62
+#        lookup YehBarreeToWideAlways;    # Must execute after language-specific CALTs and cv48
+#        lookup YehBarreeToWideWithMarks; # Must execute after language-specific CALTs and cv48
+        lookup LamAlefLigatures;         # Must execute after all mark ligatures (including cv62)
+        lookup AllahAlef;                # Must execute after lam-alef lig
+        lookup SignWithDigits;           # Must execute after cv82
 } liga ;
 
+feature tnum {  # Tabular numbers
+    # Same for latin & arabic:
+        lookup TabularDigits ;            # Must execute after SignWithDigits
+} tnum ;

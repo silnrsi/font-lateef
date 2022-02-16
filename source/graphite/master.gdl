@@ -249,6 +249,10 @@ pass(4)	// Features, special behaviors
 	  g_decimalseparator_ar  >  g_decimalseparator_ar_slash;
 	endif;
 
+	if (tabularDigits == on)
+		cno_tnum > ctnum;
+	endif;
+
 endpass; // 4
 
 pass(5)

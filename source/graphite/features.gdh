@@ -245,6 +245,21 @@ easternDigits {
     default = std;
 }
 
+tabularDigits {
+    id = "tnum";
+    name.1033 = string("Tabular digits");
+    settings {
+        off {
+            value = 0;
+            name.1033 = string("False");
+        }
+        on {
+            value = 1;
+            name.1033 = string("True");
+        }
+    }
+    default = off;
+}
 
 commaAlt {
     id = "cv84";	// was 2006;

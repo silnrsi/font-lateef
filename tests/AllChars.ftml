@@ -27,15 +27,20 @@
       <style feats="'cv80' 1" name="cv80_1"/>
       <style feats="'cv80' 2" name="cv80_2"/>
       <style feats="'cv82' 1" name="cv82_1"/>
+      <style feats="'cv82' 1, 'tnum' 1" name="cv82_1_tnum_1"/>
       <style feats="'cv82' 2" name="cv82_2"/>
+      <style feats="'cv82' 2, 'tnum' 1" name="cv82_2_tnum_1"/>
       <style feats="'cv82' 3" name="cv82_3"/>
+      <style feats="'cv82' 3, 'tnum' 1" name="cv82_3_tnum_1"/>
       <style feats="'cv82' 4" name="cv82_4"/>
+      <style feats="'cv82' 4, 'tnum' 1" name="cv82_4_tnum_1"/>
       <style feats="'cv84' 1" name="cv84_1"/>
       <style feats="'cv85' 1" name="cv85_1"/>
       <style lang="ku" name="ku"/>
       <style lang="ky" name="ky"/>
       <style lang="rhg" name="rhg"/>
       <style lang="sd" name="sd"/>
+      <style feats="'tnum' 1" name="tnum_1"/>
       <style lang="ur" name="ur"/>
     </styles>
     <title>AllChars (auto)</title>
@@ -549,7 +554,87 @@
     </test>
     <test label="U+0653">
       <comment>madda-ar</comment>
-      <string>\u000628\u000653 \u000628\u000654 \u000628\u000655 \u000628\u000656 \u000628\u000657 \u000628\u000658 \u000628\u000659 \u000628\u00065A \u000628\u00065B \u000628\u00065C \u000628\u00065D \u000628\u00065E \u000628\u00065F \u000660 \u000661 \u000662 \u000663 \u000664 \u000665 \u000666 \u000667 \u000668 \u000669 \u00066A \u00066B</string>
+      <string>\u000628\u000653 \u000628\u000654 \u000628\u000655 \u000628\u000656 \u000628\u000657 \u000628\u000658 \u000628\u000659 \u000628\u00065A \u000628\u00065B \u000628\u00065C \u000628\u00065D \u000628\u00065E \u000628\u00065F \u000660</string>
+    </test>
+    <test label="U+0660" stylename="tnum_1">
+      <comment>zero-ar</comment>
+      <string>\u000660</string>
+    </test>
+    <test label="U+0661">
+      <comment>one-ar</comment>
+      <string>\u000661</string>
+    </test>
+    <test label="U+0661" stylename="tnum_1">
+      <comment>one-ar</comment>
+      <string>\u000661</string>
+    </test>
+    <test label="U+0662">
+      <comment>two-ar</comment>
+      <string>\u000662</string>
+    </test>
+    <test label="U+0662" stylename="tnum_1">
+      <comment>two-ar</comment>
+      <string>\u000662</string>
+    </test>
+    <test label="U+0663">
+      <comment>three-ar</comment>
+      <string>\u000663</string>
+    </test>
+    <test label="U+0663" stylename="tnum_1">
+      <comment>three-ar</comment>
+      <string>\u000663</string>
+    </test>
+    <test label="U+0664">
+      <comment>four-ar</comment>
+      <string>\u000664</string>
+    </test>
+    <test label="U+0664" stylename="tnum_1">
+      <comment>four-ar</comment>
+      <string>\u000664</string>
+    </test>
+    <test label="U+0665">
+      <comment>five-ar</comment>
+      <string>\u000665</string>
+    </test>
+    <test label="U+0665" stylename="tnum_1">
+      <comment>five-ar</comment>
+      <string>\u000665</string>
+    </test>
+    <test label="U+0666">
+      <comment>six-ar</comment>
+      <string>\u000666</string>
+    </test>
+    <test label="U+0666" stylename="tnum_1">
+      <comment>six-ar</comment>
+      <string>\u000666</string>
+    </test>
+    <test label="U+0667">
+      <comment>seven-ar</comment>
+      <string>\u000667</string>
+    </test>
+    <test label="U+0667" stylename="tnum_1">
+      <comment>seven-ar</comment>
+      <string>\u000667</string>
+    </test>
+    <test label="U+0668">
+      <comment>eight-ar</comment>
+      <string>\u000668</string>
+    </test>
+    <test label="U+0668" stylename="tnum_1">
+      <comment>eight-ar</comment>
+      <string>\u000668</string>
+    </test>
+    <test label="U+0669">
+      <comment>nine-ar</comment>
+      <string>\u000669</string>
+    </test>
+    <test label="U+0669" stylename="tnum_1">
+      <comment>nine-ar</comment>
+      <string>\u000669</string>
+    </test>
+    <test label="U+066A">
+      <comment>percent-ar</comment>
+      <string>\u00066A \u00066B</string>
     </test>
     <test label="U+066B" stylename="cv85_1">
       <comment>decimalseparator-ar</comment>
@@ -1013,9 +1098,49 @@
     </test>
     <test label="U+06F0">
       <comment>zero-persian</comment>
-      <string>\u0006F0 \u0006F1 \u0006F2 \u0006F3 \u0006F4</string>
+      <string>\u0006F0</string>
+    </test>
+    <test label="U+06F0" stylename="tnum_1">
+      <comment>zero-persian</comment>
+      <string>\u0006F0</string>
+    </test>
+    <test label="U+06F1">
+      <comment>one-persian</comment>
+      <string>\u0006F1</string>
+    </test>
+    <test label="U+06F1" stylename="tnum_1">
+      <comment>one-persian</comment>
+      <string>\u0006F1</string>
+    </test>
+    <test label="U+06F2">
+      <comment>two-persian</comment>
+      <string>\u0006F2</string>
+    </test>
+    <test label="U+06F2" stylename="tnum_1">
+      <comment>two-persian</comment>
+      <string>\u0006F2</string>
+    </test>
+    <test label="U+06F3">
+      <comment>three-persian</comment>
+      <string>\u0006F3</string>
+    </test>
+    <test label="U+06F3" stylename="tnum_1">
+      <comment>three-persian</comment>
+      <string>\u0006F3</string>
+    </test>
+    <test label="U+06F4">
+      <comment>four-persian</comment>
+      <string>\u0006F4</string>
+    </test>
+    <test label="U+06F4" stylename="tnum_1">
+      <comment>four-persian</comment>
+      <string>\u0006F4</string>
     </test>
     <test label="U+06F4" stylename="cv82_1">
+      <comment>four-persian</comment>
+      <string>\u0006F4</string>
+    </test>
+    <test label="U+06F4" stylename="cv82_1_tnum_1">
       <comment>four-persian</comment>
       <string>\u0006F4</string>
     </test>
@@ -1023,11 +1148,23 @@
       <comment>four-persian</comment>
       <string>\u0006F4</string>
     </test>
+    <test label="U+06F4" stylename="cv82_2_tnum_1">
+      <comment>four-persian</comment>
+      <string>\u0006F4</string>
+    </test>
     <test label="U+06F4" stylename="cv82_3">
       <comment>four-persian</comment>
       <string>\u0006F4</string>
     </test>
+    <test label="U+06F4" stylename="cv82_3_tnum_1">
+      <comment>four-persian</comment>
+      <string>\u0006F4</string>
+    </test>
     <test label="U+06F4" stylename="cv82_4">
+      <comment>four-persian</comment>
+      <string>\u0006F4</string>
+    </test>
+    <test label="U+06F4" stylename="cv82_4_tnum_1">
       <comment>four-persian</comment>
       <string>\u0006F4</string>
     </test>
@@ -1053,9 +1190,25 @@
     </test>
     <test label="U+06F5">
       <comment>five-persian</comment>
-      <string>\u0006F5 \u0006F6</string>
+      <string>\u0006F5</string>
+    </test>
+    <test label="U+06F5" stylename="tnum_1">
+      <comment>five-persian</comment>
+      <string>\u0006F5</string>
+    </test>
+    <test label="U+06F6">
+      <comment>six-persian</comment>
+      <string>\u0006F6</string>
+    </test>
+    <test label="U+06F6" stylename="tnum_1">
+      <comment>six-persian</comment>
+      <string>\u0006F6</string>
     </test>
     <test label="U+06F6" stylename="cv82_1">
+      <comment>six-persian</comment>
+      <string>\u0006F6</string>
+    </test>
+    <test label="U+06F6" stylename="cv82_1_tnum_1">
       <comment>six-persian</comment>
       <string>\u0006F6</string>
     </test>
@@ -1063,11 +1216,23 @@
       <comment>six-persian</comment>
       <string>\u0006F6</string>
     </test>
+    <test label="U+06F6" stylename="cv82_2_tnum_1">
+      <comment>six-persian</comment>
+      <string>\u0006F6</string>
+    </test>
     <test label="U+06F6" stylename="cv82_3">
       <comment>six-persian</comment>
       <string>\u0006F6</string>
     </test>
+    <test label="U+06F6" stylename="cv82_3_tnum_1">
+      <comment>six-persian</comment>
+      <string>\u0006F6</string>
+    </test>
     <test label="U+06F6" stylename="cv82_4">
+      <comment>six-persian</comment>
+      <string>\u0006F6</string>
+    </test>
+    <test label="U+06F6" stylename="cv82_4_tnum_1">
       <comment>six-persian</comment>
       <string>\u0006F6</string>
     </test>
@@ -1095,7 +1260,15 @@
       <comment>seven-persian</comment>
       <string>\u0006F7</string>
     </test>
+    <test label="U+06F7" stylename="tnum_1">
+      <comment>seven-persian</comment>
+      <string>\u0006F7</string>
+    </test>
     <test label="U+06F7" stylename="cv82_1">
+      <comment>seven-persian</comment>
+      <string>\u0006F7</string>
+    </test>
+    <test label="U+06F7" stylename="cv82_1_tnum_1">
       <comment>seven-persian</comment>
       <string>\u0006F7</string>
     </test>
@@ -1103,11 +1276,23 @@
       <comment>seven-persian</comment>
       <string>\u0006F7</string>
     </test>
+    <test label="U+06F7" stylename="cv82_2_tnum_1">
+      <comment>seven-persian</comment>
+      <string>\u0006F7</string>
+    </test>
     <test label="U+06F7" stylename="cv82_3">
       <comment>seven-persian</comment>
       <string>\u0006F7</string>
     </test>
+    <test label="U+06F7" stylename="cv82_3_tnum_1">
+      <comment>seven-persian</comment>
+      <string>\u0006F7</string>
+    </test>
     <test label="U+06F7" stylename="cv82_4">
+      <comment>seven-persian</comment>
+      <string>\u0006F7</string>
+    </test>
+    <test label="U+06F7" stylename="cv82_4_tnum_1">
       <comment>seven-persian</comment>
       <string>\u0006F7</string>
     </test>
@@ -1133,7 +1318,19 @@
     </test>
     <test label="U+06F8">
       <comment>eight-persian</comment>
-      <string>\u0006F8 \u0006F9</string>
+      <string>\u0006F8</string>
+    </test>
+    <test label="U+06F8" stylename="tnum_1">
+      <comment>eight-persian</comment>
+      <string>\u0006F8</string>
+    </test>
+    <test label="U+06F9">
+      <comment>nine-persian</comment>
+      <string>\u0006F9</string>
+    </test>
+    <test label="U+06F9" stylename="tnum_1">
+      <comment>nine-persian</comment>
+      <string>\u0006F9</string>
     </test>
     <test label="U+06FA">
       <comment>sheenDotbelow-ar</comment>
@@ -1581,7 +1778,15 @@
     </test>
     <test label="U+2000">
       <comment>enquad</comment>
-      <string>\u00F130\u002000\u00F131 \u00F130\u002001\u00F131 \u00F130\u002002\u00F131 \u00F130\u002003\u00F131 \u00F130\u002004\u00F131 \u00F130\u002005\u00F131 \u00F130\u002006\u00F131 \u00F130\u002007\u00F131 \u00F130\u002008\u00F131 \u00F130\u002009\u00F131 \u00F130\u00200A\u00F131 \u00200B \u00200C \u00200D \u00200E \u00200F \u002010 \u002011 \u002012 \u002013 \u002014 \u002015</string>
+      <string>\u00F130\u002000\u00F131 \u00F130\u002001\u00F131 \u00F130\u002002\u00F131 \u00F130\u002003\u00F131 \u00F130\u002004\u00F131 \u00F130\u002005\u00F131 \u00F130\u002006\u00F131 \u00F130\u002007\u00F131</string>
+    </test>
+    <test label="U+2007" stylename="tnum_1">
+      <comment>figurespace</comment>
+      <string>\u00F130\u002007\u00F131</string>
+    </test>
+    <test label="U+2008">
+      <comment>punctuationspace</comment>
+      <string>\u00F130\u002008\u00F131 \u00F130\u002009\u00F131 \u00F130\u00200A\u00F131 \u00200B \u00200C \u00200D \u00200E \u00200F \u002010 \u002011 \u002012 \u002013 \u002014 \u002015</string>
     </test>
     <test label="U+2018">
       <comment>quoteleft</comment>
@@ -2723,6 +2928,38 @@ U+0654">
     <test label="a-l-zwj-l-s-da-h">
       <comment>Rule 4a: shouldn't match</comment>
       <string>\u0627\u0644\u200D\u0644\u0651\u0670\u0647</string>
+    </test>
+  </testgroup>
+  <testgroup label="Tabular Digits">
+    <test label="digits">
+      <string>\u000660\u000661\u000662\u000663\u000664\u000665\u000666\u000667\u000668\u000669\u0006F0\u0006F1\u0006F2\u0006F3\u0006F4\u0006F5\u0006F6\u0006F7\u0006F8\u0006F9</string>
+    </test>
+    <test label="digits" stylename="tnum_1">
+      <string>\u000660\u000661\u000662\u000663\u000664\u000665\u000666\u000667\u000668\u000669\u0006F0\u0006F1\u0006F2\u0006F3\u0006F4\u0006F5\u0006F6\u0006F7\u0006F8\u0006F9</string>
+    </test>
+    <test label="digits" stylename="cv82_1">
+      <string>\u000660\u000661\u000662\u000663\u000664\u000665\u000666\u000667\u000668\u000669\u0006F0\u0006F1\u0006F2\u0006F3\u0006F4\u0006F5\u0006F6\u0006F7\u0006F8\u0006F9</string>
+    </test>
+    <test label="digits" stylename="cv82_1_tnum_1">
+      <string>\u000660\u000661\u000662\u000663\u000664\u000665\u000666\u000667\u000668\u000669\u0006F0\u0006F1\u0006F2\u0006F3\u0006F4\u0006F5\u0006F6\u0006F7\u0006F8\u0006F9</string>
+    </test>
+    <test label="digits" stylename="cv82_2">
+      <string>\u000660\u000661\u000662\u000663\u000664\u000665\u000666\u000667\u000668\u000669\u0006F0\u0006F1\u0006F2\u0006F3\u0006F4\u0006F5\u0006F6\u0006F7\u0006F8\u0006F9</string>
+    </test>
+    <test label="digits" stylename="cv82_2_tnum_1">
+      <string>\u000660\u000661\u000662\u000663\u000664\u000665\u000666\u000667\u000668\u000669\u0006F0\u0006F1\u0006F2\u0006F3\u0006F4\u0006F5\u0006F6\u0006F7\u0006F8\u0006F9</string>
+    </test>
+    <test label="digits" stylename="cv82_3">
+      <string>\u000660\u000661\u000662\u000663\u000664\u000665\u000666\u000667\u000668\u000669\u0006F0\u0006F1\u0006F2\u0006F3\u0006F4\u0006F5\u0006F6\u0006F7\u0006F8\u0006F9</string>
+    </test>
+    <test label="digits" stylename="cv82_3_tnum_1">
+      <string>\u000660\u000661\u000662\u000663\u000664\u000665\u000666\u000667\u000668\u000669\u0006F0\u0006F1\u0006F2\u0006F3\u0006F4\u0006F5\u0006F6\u0006F7\u0006F8\u0006F9</string>
+    </test>
+    <test label="digits" stylename="cv82_4">
+      <string>\u000660\u000661\u000662\u000663\u000664\u000665\u000666\u000667\u000668\u000669\u0006F0\u0006F1\u0006F2\u0006F3\u0006F4\u0006F5\u0006F6\u0006F7\u0006F8\u0006F9</string>
+    </test>
+    <test label="digits" stylename="cv82_4_tnum_1">
+      <string>\u000660\u000661\u000662\u000663\u000664\u000665\u000666\u000667\u000668\u000669\u0006F0\u0006F1\u0006F2\u0006F3\u0006F4\u0006F5\u0006F6\u0006F7\u0006F8\u0006F9</string>
     </test>
   </testgroup>
 </ftml>

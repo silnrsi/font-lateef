@@ -238,6 +238,15 @@ def doit(args):
         ftml.addToTest(None, r"\u0627\u0644\u200D\u0644\u0651\u0670\u0647", label="a-l-zwj-l-s-da-h", comment="Rule 4a: shouldn't match")
         ftml.closeTest()
 
+        # Add tabular digits test manually
+        if 'tnum' in builder.features:
+            ftml.startTestGroup('Tabular Digits')
+            digits = list(range(0x0660,0x066A)) + list(range(0x06F0, 0x06FA))
+            for featlist in builder.permuteFeatures(uids=digits):
+                ftml.setFeatures(featlist)
+                builder.render(digits, ftml, label='digits', comment='')
+            ftml.clearFeatures()
+
     if test.lower().startswith("al sorted"):
         # all AL chars, sorted by shape:
         ftml.startTestGroup('Arabic Letters')
@@ -379,6 +388,11 @@ def doit(args):
                     # Extra items for Eastern digits
                     setBackgroundColor((uid,))
                     for featlist in builder.permuteFeatures(uids=(uid, 0x06F7)):
+                        # We don't need permutations that include 'tnum' since our smaller digits
+                        # are all tabular anyway, so filter out such permutations.
+                        hasTnum = len([t_v for t_v in featlist if t_v is not None and t_v[0]=='tnum']) > 0
+                        if hasTnum:
+                            continue
                         ftml.setFeatures(featlist)
                         ftml.addToTest(uid, c + "\u06F4\u06F6\u06F7", label, "4 6 7")
                     ftml.clearFeatures()
@@ -729,6 +743,7 @@ def doit(args):
             ('cv82', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x06F4, 0x06F6, 0x06F7, 0x0020, 0x06DD, 0x06F4, 0x06F6, 0x06F7), 'Eastern Digit alternates'),
             ('cv84', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x060C, 0x061B), 'Comma alternates'),
             ('cv85', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x066B,), 'Decimal separator'),
+            ('tnum', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x06F4, 0x06F6, 0x06F7), 'Tabular digits'),
         ))
 
         ftml._fxml.head.comment = 'In this test, the comment column indicates whether the feature is expected to ' \
@@ -749,6 +764,12 @@ def doit(args):
                         break
             setBackgroundColor(uids)
             for featlist in featcombinations:
+                if tag == 'cv82': # Eastern digits
+                    # For cv82 tests we don't need permutations that include 'tnum' --
+                    # we'll do that in a tnum-specific test.
+                    hasTnum = len([t_v for t_v in featlist if t_v is not None and t_v[0]=='tnum']) > 0
+                    if hasTnum:
+                        continue
                 ftml.setFeatures(featlist)
                 builder.render(uids, ftml, rtl=True, dualJoinMode=1, comment="")
             ftml.clearFeatures()
@@ -756,6 +777,12 @@ def doit(args):
                 ftml.setLang(langID)
                 comment = ("No", "Yes")[expected.get(langID, 1)]
                 for featlist in featcombinations:
+                    if tag == 'cv82': # Eastern digits
+                        # For cv82 tests we don't need permutations that include 'tnum' --
+                        # we'll do that in a tnum-specific test.
+                        hasTnum = len([t_v for t_v in featlist if t_v is not None and t_v[0]=='tnum']) > 0
+                        if hasTnum:
+                            continue
                     ftml.setFeatures(featlist)
                     builder.render(uids, ftml, rtl=True, dualJoinMode=1, comment= comment if len(tuple(filter(None, featlist))) else "")
                 ftml.clearFeatures()
