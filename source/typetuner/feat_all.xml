@@ -191,6 +191,15 @@
 		</value>
 	</feature>
 
+	<feature name="Tabular digits" value="False" tag="Td">
+		<value name="False" tag="F">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="True" tag="T">
+			<cmd name="lookup_add" args="GSUB {liga_arab_dflt} {TabularDigits}"/>
+			<cmd name="gr_feat" args="{gr_tnum} 1"/>
+		</value>
+	</feature>
 
 	<feature name="Comma" value="Upward" tag="Cma"> 		<!-- was "Downward comma", "Dc" -->
 		<value name="Upward" tag="Up">						<!-- was "False", "F" -->
