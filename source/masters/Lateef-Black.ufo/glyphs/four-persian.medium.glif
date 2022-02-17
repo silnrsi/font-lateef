@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="four-persian.medium" format="2">
-  <advance width="704"/>
+  <advance width="660"/>
   <anchor x="0" y="0" name="digitL"/>
-  <anchor x="704" y="0" name="digitR"/>
+  <anchor x="660" y="0" name="digitR"/>
   <outline>
-    <component base="four-persian" xScale="0.8" yScale="0.8"/>
+    <component base="four-persian" xScale="0.75" yScale="0.75" xOffset="-1"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=zero.medium</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zero.medium" format="2">
-  <advance width="704"/>
+  <advance width="660"/>
   <anchor x="0" y="0" name="digitL"/>
-  <anchor x="704" y="0" name="digitR"/>
+  <anchor x="660" y="0" name="digitR"/>
   <outline>
-    <component base="zero" xScale="0.9" yScale="0.9" xOffset="5"/>
+    <component base="zero" xScale="0.7" yScale="0.8" xOffset="-4" yOffset="40"/>
   </outline>
 </glyph>
