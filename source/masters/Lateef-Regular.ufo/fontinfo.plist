@@ -100,7 +100,7 @@
       <key>name</key>
       <string> [locked]</string>
       <key>x</key>
-      <integer>26</integer>
+      <integer>19</integer>
       <key>y</key>
       <integer>0</integer>
     </dict>
@@ -114,7 +114,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2022/02/17 16:18:06</string>
+  <string>2022/02/23 17:35:26</string>
   <key>openTypeHheaAscender</key>
   <integer>2742</integer>
   <key>openTypeHheaDescender</key>

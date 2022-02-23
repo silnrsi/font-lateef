@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven-ar.small" format="2">
   <advance width="470"/>
-  <anchor x="-5" y="0" name="digitL"/>
-  <anchor x="465" y="0" name="digitR"/>
+  <anchor x="1" y="0" name="digitL"/>
+  <anchor x="471" y="0" name="digitR"/>
   <outline>
-    <component base="seven-ar" xScale="0.54" yScale="0.54" xOffset="-9" yOffset="145"/>
+    <component base="seven-ar" xScale="0.54" yScale="0.54" xOffset="-4"/>
   </outline>
 </glyph>

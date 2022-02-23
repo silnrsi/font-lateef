@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eight-persian.small" format="2">
   <advance width="470"/>
-  <anchor x="-6" y="0" name="digitL"/>
-  <anchor x="464" y="0" name="digitR"/>
+  <anchor x="2" y="0" name="digitL"/>
+  <anchor x="472" y="0" name="digitR"/>
   <outline>
-    <component base="eight-ar" xScale="0.54" yScale="0.54" xOffset="-9" yOffset="147"/>
+    <component base="eight-ar" xScale="0.54" yScale="0.54" xOffset="-2"/>
   </outline>
 </glyph>
