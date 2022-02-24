@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="numbermark-ar.4" format="2">
   <advance width="3415"/>
-  <anchor x="321" y="0" name="digitR"/>
+  <anchor x="381" y="0" name="digitR"/>
   <outline>
     <contour>
       <point x="85" y="835" type="line"/>

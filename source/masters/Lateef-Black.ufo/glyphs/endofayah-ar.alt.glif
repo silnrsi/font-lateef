@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endofayah-ar.alt" format="2">
   <advance width="1844"/>
-  <anchor x="570" y="0" name="digitR"/>
+  <anchor x="592" y="50" name="digitR"/>
   <outline>
     <contour>
       <point x="1742" y="467" type="curve"/>

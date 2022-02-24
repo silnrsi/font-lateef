@@ -13,13 +13,17 @@
 ۘ ۥ  ۧ ۦ /_tah_small  ؕ   ؗ /_teh    ؖ  ۙ  ۚ  /_meem   ۢ ۭ   ۨ   ۗ ؐ     ۖ   ۜ ۣ
 ّ  /shadda_alef-ar   /shadda_damma-ar   /shadda_damma-ar.filled   /shadda_dammatan-ar   /shadda_fatha-ar   /shadda_fathatan-ar   /shadda_kasra-ar   /shadda_kasratan-ar       ؔ 
 
-## Subtending marks
+## Latin+Arabic Digits & Subtending marks
 
-؁/year-ar.2/year-ar.3/year-ar.4
-؅/numbermark-ar.2/numbermark-ar.3/numbermark-ar.4
-؂/footnotemarker-ar.2  ؀/number-ar.2/number-ar.3
-؃/pagenumber-ar.2/pagenumber-ar.3/pagenumber-ar.4
-؄/samvat-ar.2/samvat-ar.3/samvat-ar.4
+/zero.medium/zero.medium/one.medium/two.medium/three.medium/four.medium/five.medium/six.medium/seven.medium/eight.medium/nine.medium  /zero.small/zero.small/one.small/two.small/three.small/four.small/five.small/six.small/seven.small/eight.small/nine.small
+/zero-ar.medium/zero-ar.medium/one-ar.medium/two-ar.medium/three-ar.medium/four-ar.medium/five-ar.medium/six-ar.medium/seven-ar.medium/eight-ar.medium/nine-ar.medium/zero-persian.medium/one-persian.medium/two-persian.medium/three-persian.medium/four-persian.medium/four-persian.urdu.medium/four-persian.roh.medium/five-persian.medium/six-persian.medium/six-persian.urdu.medium/seven-persian.medium/seven-persian.urdu.medium/eight-persian.medium/nine-persian.medium  /zero-ar.small/one-ar.small/two-ar.small/three-ar.small/four-ar.small/five-ar.small/six-ar.small/seven-ar.small/eight-ar.small/nine-ar.small/zero-persian.small/one-persian.small/two-persian.small/three-persian.small/four-persian.small/four-persian.urdu.small/four-persian.roh.small/five-persian.small/six-persian.small/six-persian.urdu.small/seven-persian.small/seven-persian.urdu.small/eight-persian.small/nine-persian.small
+/zero.medium/zero.medium/one.medium/two.medium/three.medium/four.medium/five.medium/six.medium/seven.medium/eight.medium/nine.medium  /zero.small/zero.small/one.small/two.small/three.small/four.small/five.small/six.small/seven.small/eight.small/nine.small
+/zero-ar.medium/zero-ar.medium/one-ar.medium/two-ar.medium/three-ar.medium/four-ar.medium/five-ar.medium/six-ar.medium/seven-ar.medium/eight-ar.medium/nine-ar.medium/zero-persian.medium/one-persian.medium/two-persian.medium/three-persian.medium/four-persian.medium/four-persian.urdu.medium/four-persian.roh.medium/five-persian.medium/six-persian.medium/six-persian.urdu.medium/seven-persian.medium/seven-persian.urdu.medium/eight-persian.medium/nine-persian.medium  /zero-ar.small/one-ar.small/two-ar.small/three-ar.small/four-ar.small/five-ar.small/six-ar.small/seven-ar.small/eight-ar.small/nine-ar.small/zero-persian.small/one-persian.small/two-persian.small/three-persian.small/four-persian.small/four-persian.urdu.small/four-persian.roh.small/five-persian.small/six-persian.small/six-persian.urdu.small/seven-persian.small/seven-persian.urdu.small/eight-persian.small/nine-persian.small
+/zero.medium/zero.medium/one.medium/two.medium/three.medium/four.medium/five.medium/six.medium/seven.medium/eight.medium/nine.medium  /zero.small/zero.small/one.small/two.small/three.small/four.small/five.small/six.small/seven.small/eight.small/nine.small
+/zero-ar.medium/zero-ar.medium/one-ar.medium/two-ar.medium/three-ar.medium/four-ar.medium/five-ar.medium/six-ar.medium/seven-ar.medium/eight-ar.medium/nine-ar.medium/zero-persian.medium/one-persian.medium/two-persian.medium/three-persian.medium/four-persian.medium/four-persian.urdu.medium/four-persian.roh.medium/five-persian.medium/six-persian.medium/six-persian.urdu.medium/seven-persian.medium/seven-persian.urdu.medium/eight-persian.medium/nine-persian.medium  /zero-ar.small/one-ar.small/two-ar.small/three-ar.small/four-ar.small/five-ar.small/six-ar.small/seven-ar.small/eight-ar.small/nine-ar.small/zero-persian.small/one-persian.small/two-persian.small/three-persian.small/four-persian.small/four-persian.urdu.small/four-persian.roh.small/five-persian.small/six-persian.small/six-persian.urdu.small/seven-persian.small/seven-persian.urdu.small/eight-persian.small/nine-persian.small
+۝/endofayah-ar.2/endofayah-ar.3/endofayah-ar.alt/endofayah-ar.alt.2/endofayah-ar.alt.3/endofayah-ar.altB/endofayah-ar.altB.2/endofayah-ar.altB.3
+؀/number-ar.2/number-ar.3  ؅/numbermark-ar.2/numbermark-ar.3/numbermark-ar.4  ؁/year-ar.2/year-ar.3/year-ar.4
+؂/footnotemarker-ar.2  ؃/pagenumber-ar.2/pagenumber-ar.3/pagenumber-ar.4  ؄/samvat-ar.2/samvat-ar.3/samvat-ar.4
 /_subtendingA.1/_subtendingA.2/_subtendingA.3/_subtendingA.4
 /_pagenumberSad  /_samvatSM  /_number
 

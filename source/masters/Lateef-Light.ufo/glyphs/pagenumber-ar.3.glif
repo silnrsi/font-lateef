@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="pagenumber-ar.3" format="2">
   <advance width="3544"/>
-  <anchor x="230" y="0" name="digitR"/>
+  <anchor x="400" y="0" name="digitR"/>
   <outline>
     <component base="_subtendingA.3" yOffset="-240"/>
     <component base="_pagenumberSad" xOffset="2688" yOffset="-240"/>

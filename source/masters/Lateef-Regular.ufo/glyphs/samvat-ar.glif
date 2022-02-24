@@ -2,7 +2,7 @@
 <glyph name="samvat-ar" format="2">
   <advance width="1940"/>
   <unicode hex="0604"/>
-  <anchor x="230" y="0" name="digitR"/>
+  <anchor x="340" y="0" name="digitR"/>
   <outline>
     <component base="_subtendingA.1" yOffset="-320"/>
     <component base="_samvatSM" xOffset="1150" yOffset="-320"/>

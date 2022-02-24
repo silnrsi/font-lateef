@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="number-ar.3" format="2">
   <advance width="2853"/>
-  <anchor x="339" y="0" name="digitR"/>
+  <anchor x="379" y="0" name="digitR"/>
   <outline>
     <component base="_subtendingA.3" yOffset="-450"/>
     <component base="_number" xOffset="2606" yOffset="-450"/>
