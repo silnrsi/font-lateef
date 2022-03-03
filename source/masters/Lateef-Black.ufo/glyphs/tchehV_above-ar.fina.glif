@@ -7,6 +7,6 @@
   <outline>
     <component base="hah-ar.fina"/>
     <component base="_smallV" xOffset="486" yOffset="913"/>
-    <component base="_dot3d" xOffset="424" yOffset="-172"/>
+    <component base="_dot3d" xOffset="424" yOffset="-132"/>
   </outline>
 </glyph>

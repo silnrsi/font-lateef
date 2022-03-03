@@ -7,4 +7,10 @@
     <component base="_dot2h_small" yOffset="10"/>
     <component base="_tah_small" xOffset="-3" yOffset="209"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

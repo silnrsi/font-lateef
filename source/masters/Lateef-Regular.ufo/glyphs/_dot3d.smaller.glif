@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="_dot3u" format="2">
+<glyph name="_dot3d.smaller" format="2">
   <anchor x="0" y="-286" name="_above"/>
   <anchor x="0" y="286" name="_below"/>
   <anchor x="0" y="0" name="_center"/>
   <outline>
-    <component base="_dot1" yOffset="101"/>
-    <component base="_dot2h" yOffset="-105"/>
+    <component base="_dot3d"/>
   </outline>
 </glyph>

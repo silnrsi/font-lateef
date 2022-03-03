@@ -6,12 +6,12 @@
   <outline>
     <component base="ain-ar.medi"/>
     <component base="_dot1" xOffset="389" yOffset="879"/>
-    <component base="_dot1" xOffset="374" yOffset="-180"/>
+    <component base="_dot1" xOffset="374" yOffset="-230"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

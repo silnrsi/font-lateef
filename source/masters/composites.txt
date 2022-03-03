@@ -805,8 +805,9 @@ tahTwodotsabove-ar.medi = tah-ar.medi + _dot2h@above
 tahTwodotsabove-ar.init = tah-ar.init + _dot2h@above
 
 # 2021-02-01 pm Changed isolate and final to use center AP instead of below
-ainThreedotsbelow-ar = ain-ar + _dot3d@center | 08B3
-ainThreedotsbelow-ar.fina = ain-ar.fina + _dot3d@center
+# 2022-02-24 pm Changed isolate and final to use _dot3d.smaller
+ainThreedotsbelow-ar = ain-ar + _dot3d.smaller@center | 08B3
+ainThreedotsbelow-ar.fina = ain-ar.fina + _dot3d.smaller@center
 ainThreedotsbelow-ar.medi = ain-ar.medi + _dot3d@below
 ainThreedotsbelow-ar.init = ain-ar.init + _dot3d@below
 
