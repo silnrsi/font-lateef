@@ -25,6 +25,13 @@ echo
 echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters -p scrlevel=w source/lateef.designspace
 
+echo
+echo "Syncing kerning information from Regular to Light and Black UFOs..."
+# kerning.plist and groups.plist
+cp source/masters/Lateef-Regular.ufo/kerning.plist source/masters/Lateef-Light.ufo/kerning.plist
+cp source/masters/Lateef-Regular.ufo/groups.plist  source/masters/Lateef-Light.ufo/groups.plist
+cp source/masters/Lateef-Regular.ufo/kerning.plist source/masters/Lateef-Black.ufo/kerning.plist
+cp source/masters/Lateef-Regular.ufo/groups.plist  source/masters/Lateef-Black.ufo/groups.plist
 
 echo
 echo "Updating woff metadata files..."
