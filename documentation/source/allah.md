@@ -1,5 +1,5 @@
 ---
-title: Lateef - Special rules for rendering Allah
+title: Lateef - Rendering the Allah ligature
 fontversion: 2.000
 ---
 

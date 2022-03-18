@@ -41,10 +41,11 @@ Lateef is designed in an appropriate style often used for Sindhi and other langu
 
 #### *What makes Lateef specifically "Sindhi-style"?*
 
-* The lam-alef ligature is designed in a Sindhi-style: 
-
-![Lateef lam-alef ligature](assets/images/LateefLamAlef.jpg){.fullsize}
+* The lam-alef ligature is designed in a Sindhi-style: ![Lateef lam-alef ligature](assets/images/LateefLamAlef.jpg){.fullsize}
+<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/lateef/wp-content/uploads/sites/30/2018/10/LateefLamAlef.jpg -->
+<figcaption></figcaption>
 	
-* Diacritics on isolate and final forms of characters are left offset to the nukat: 
+* Diacritics on isolate and final forms of characters are left offset to the nukat: ![Lateef Diacritics](assets/images/LateefDiacritics.jpg){.fullsize}
+<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/lateef/wp-content/uploads/sites/30/2018/10/LateefDiacritics.jpg -->
+<figcaption></figcaption>
 
-![Lateef Diacritics](assets/images/LateefDiacritics.jpg){.fullsize}

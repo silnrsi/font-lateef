@@ -14,7 +14,7 @@ This documentation is a set of HTML pages that can be viewed in any modern web b
 - [Character set support](charset.md) — Details of Unicode characters that are supported
 - [Type Sample](sample.md) — Type sample demonstrating all the characters in this font
 - [Font features](features.md) — Using smart font features
-- [Rendering Allah](allah.md) — Special rules for rendering Allah
+- [Rendering the Allah ligature](allah.md) — Special rules for rendering the Allah ligature
 - [Support](support.md) — How to get additional support
 - [Developer information](developer.md) — How to modify and build the fonts
 - [Versions](versions.md) - Sources for alternate versions
