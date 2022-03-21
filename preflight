@@ -28,10 +28,12 @@ psfsyncmasters -p scrlevel=w source/lateef.designspace
 echo
 echo "Syncing kerning information from Regular to Light and Black UFOs..."
 # kerning.plist and groups.plist
-cp source/masters/Lateef-Regular.ufo/kerning.plist source/masters/Lateef-Light.ufo/kerning.plist
-cp source/masters/Lateef-Regular.ufo/groups.plist  source/masters/Lateef-Light.ufo/groups.plist
-cp source/masters/Lateef-Regular.ufo/kerning.plist source/masters/Lateef-Black.ufo/kerning.plist
-cp source/masters/Lateef-Regular.ufo/groups.plist  source/masters/Lateef-Black.ufo/groups.plist
+cp source/masters/Lateef-Regular.ufo/kerning.plist \
+   source/masters/Lateef-Regular.ufo/groups.plist \
+      source/masters/Lateef-Light.ufo/
+cp source/masters/Lateef-Regular.ufo/kerning.plist \
+   source/masters/Lateef-Regular.ufo/groups.plist \
+      source/masters/Lateef-Black.ufo/
 
 echo
 echo "Updating woff metadata files..."
