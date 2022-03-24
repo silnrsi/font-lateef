@@ -2,10 +2,16 @@
 <glyph name="lamTahabove-ar.init" format="2">
   <advance width="389"/>
   <anchor x="0" y="802" name="alef"/>
-  <anchor x="163" y="1658" name="diaA"/>
+  <anchor x="163" y="1710" name="diaA"/>
   <anchor x="150" y="-202" name="diaB"/>
   <outline>
     <component base="lam-ar.init"/>
     <component base="_tah" xOffset="191" yOffset="1274"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -3,7 +3,7 @@
   <advance width="706"/>
   <unicode hex="06B7"/>
   <anchor x="201" y="987" name="alef"/>
-  <anchor x="392" y="1968" name="diaA"/>
+  <anchor x="392" y="1973" name="diaA"/>
   <anchor x="221" y="-202" name="diaB"/>
   <outline>
     <component base="lam-ar"/>
@@ -12,7 +12,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

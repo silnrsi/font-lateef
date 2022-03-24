@@ -2,7 +2,7 @@
 <glyph name="lamDoublebar-ar.medi" format="2">
   <advance width="438"/>
   <anchor x="0" y="800" name="alef"/>
-  <anchor x="148" y="1123" name="diaA"/>
+  <anchor x="148" y="1153" name="diaA"/>
   <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="lam-ar.medi"/>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

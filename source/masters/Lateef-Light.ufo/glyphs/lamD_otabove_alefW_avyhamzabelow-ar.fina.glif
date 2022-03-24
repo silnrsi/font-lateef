@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamDotabove_alefWavyhamzabelow-ar.fina" format="2">
   <advance width="1052"/>
-  <anchor x="744" y="1547" name="diaA_1"/>
-  <anchor x="150" y="1000" name="diaA_2"/>
+  <anchor x="744" y="1460" name="diaA_1"/>
+  <anchor x="150" y="1030" name="diaA_2"/>
   <anchor x="777" y="-251" name="diaB_1"/>
   <anchor x="356" y="-719" name="diaB_2"/>
   <outline>
     <component base="lamDotabove-ar.medi.preAlef" xOffset="550"/>
     <component base="alefWavyhamzabelow-ar.fina.postLamMed"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

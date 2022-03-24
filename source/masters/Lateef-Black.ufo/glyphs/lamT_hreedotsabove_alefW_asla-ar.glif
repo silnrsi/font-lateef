@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamThreedotsabove_alefWasla-ar" format="2">
   <advance width="975"/>
-  <anchor x="715" y="1730" name="diaA_1"/>
-  <anchor x="26" y="1368" name="diaA_2"/>
+  <anchor x="715" y="1748" name="diaA_1"/>
+  <anchor x="26" y="1401" name="diaA_2"/>
   <anchor x="701" y="-300" name="diaB_1"/>
   <anchor x="312" y="-312" name="diaB_2"/>
   <outline>
     <component base="lamThreedotsabove-ar.init.preAlef" xOffset="576"/>
     <component base="alefWasla-ar.fina.postLamIni"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

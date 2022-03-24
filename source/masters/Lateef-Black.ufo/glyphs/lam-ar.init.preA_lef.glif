@@ -4,7 +4,7 @@
   <anchor x="175" y="1183" name="above"/>
   <anchor x="-13" y="814" name="alef"/>
   <anchor x="123" y="-272" name="below"/>
-  <anchor x="75" y="1193" name="diaA"/>
+  <anchor x="75" y="1225" name="diaA"/>
   <anchor x="125" y="-320" name="diaB"/>
   <anchor x="-2" y="0" name="exit"/>
   <anchor x="226" y="500" name="through"/>
@@ -33,4 +33,10 @@
       <point x="261" y="840" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

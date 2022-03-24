@@ -2,11 +2,17 @@
 <glyph name="lamDoublebar_alefTwoabove-ar" format="2">
   <advance width="1110"/>
   <anchor x="786" y="1193" name="diaA_1"/>
-  <anchor x="267" y="1300" name="diaA_2"/>
+  <anchor x="267" y="1299" name="diaA_2"/>
   <anchor x="836" y="-320" name="diaB_1"/>
   <anchor x="447" y="-312" name="diaB_2"/>
   <outline>
     <component base="lamDoublebar-ar.init.preAlef" xOffset="711"/>
     <component base="alefTwoabove-ar.fina.postLamIni"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -13,6 +13,13 @@
 ۘ ۥ  ۧ ۦ /_tah_small  ؕ   ؗ /_teh    ؖ  ۙ  ۚ  /_meem   ۢ ۭ   ۨ   ۗ ؐ     ۖ   ۜ ۣ
 ّ  /shadda_alef-ar   /shadda_damma-ar   /shadda_damma-ar.filled   /shadda_dammatan-ar   /shadda_fatha-ar   /shadda_fathatan-ar   /shadda_kasra-ar   /shadda_kasratan-ar       ؔ 
 
+## Punctuation
+
+/exclam.latn/asterisk.latn/parenleft.latn/parenright.latn .,;  /quotedblleft.latn Font/quotedblright.latn
+!*(/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init ا) (٣١٩)
+۔،/comma-ar.downward ⹁‚؛:/semicolon-ar.downward ⁏!()‘’“”
+‘٧’ “/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init ا” 
+
 ## Latin+Arabic Digits & Subtending marks
 
 /zero.medium/zero.medium/one.medium/two.medium/three.medium/four.medium/five.medium/six.medium/seven.medium/eight.medium/nine.medium  /zero.small/zero.small/one.small/two.small/three.small/four.small/five.small/six.small/seven.small/eight.small/nine.small
@@ -26,13 +33,6 @@
 ؂/footnotemarker-ar.2  ؃/pagenumber-ar.2/pagenumber-ar.3/pagenumber-ar.4  ؄/samvat-ar.2/samvat-ar.3/samvat-ar.4
 /_subtendingA.1/_subtendingA.2/_subtendingA.3/_subtendingA.4
 /_pagenumberSad  /_samvatSM  /_number
-
-## Punctuation
-
-/exclam.latn/asterisk.latn/parenleft.latn/parenright.latn .,;  /quotedblleft.latn Font/quotedblright.latn
-!*(/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init ا) (٣١٩)
-۔،/comma-ar.downward ⹁‚؛:/semicolon-ar.downward ⁏!()‘’“”
-‘٧’ “/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init ا” 
 
 ## Digit kerning
 

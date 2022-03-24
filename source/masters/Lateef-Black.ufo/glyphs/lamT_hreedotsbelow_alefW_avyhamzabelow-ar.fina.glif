@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamThreedotsbelow_alefWavyhamzabelow-ar.fina" format="2">
   <advance width="1052"/>
-  <anchor x="723" y="1178" name="diaA_1"/>
+  <anchor x="723" y="1154" name="diaA_1"/>
   <anchor x="150" y="1000" name="diaA_2"/>
   <anchor x="752" y="-733" name="diaB_1"/>
   <anchor x="356" y="-719" name="diaB_2"/>
@@ -9,4 +9,10 @@
     <component base="lamThreedotsbelow-ar.medi.preAlef" xOffset="550"/>
     <component base="alefWavyhamzabelow-ar.fina.postLamMed"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="lamVabove-ar.init" format="2">
   <advance width="334"/>
   <anchor x="0" y="551" name="alef"/>
-  <anchor x="109" y="1543" name="diaA"/>
+  <anchor x="109" y="1503" name="diaA"/>
   <anchor x="150" y="-202" name="diaB"/>
   <outline>
     <component base="lam-ar.init"/>
@@ -11,7 +11,7 @@
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

@@ -2,11 +2,17 @@
 <glyph name="lamThreedotsbelow_alefTwoabove-ar.fina" format="2">
   <advance width="1187"/>
   <anchor x="858" y="1178" name="diaA_1"/>
-  <anchor x="305" y="1300" name="diaA_2"/>
+  <anchor x="305" y="1310" name="diaA_2"/>
   <anchor x="887" y="-733" name="diaB_1"/>
   <anchor x="447" y="-300" name="diaB_2"/>
   <outline>
     <component base="lamThreedotsbelow-ar.medi.preAlef" xOffset="685"/>
     <component base="alefTwoabove-ar.fina.postLamMed"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>
