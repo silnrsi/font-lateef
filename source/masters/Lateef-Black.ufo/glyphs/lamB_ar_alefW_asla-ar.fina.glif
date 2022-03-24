@@ -9,10 +9,4 @@
     <component base="lamBar-ar.medi.preAlef" xOffset="550"/>
     <component base="alefWasla-ar.fina.postLamMed"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
-    </dict>
-  </lib>
 </glyph>
