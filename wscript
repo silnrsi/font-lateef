@@ -56,7 +56,7 @@ if '--autohint' in opts:
     # Note: in some fonts ttfautohint-generated hints don't maintain stroke thickness at joins; test thoroughly
     cmds.append(cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}'))
 
-if '--noOTkern' in opts:
+if True:   #  '--noOTkern' in opts:    Temporarily turn off OT kerning.
     noOTkern = ' -D noOTkern=yes'
     OTdepends = []
 else:
