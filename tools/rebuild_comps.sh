@@ -42,11 +42,11 @@ build_one() {
 }
 
 # Build each master
-build_one "Lateef-Light.ufo"
+build_one "Lateef-ExtraLight.ufo"
 build_one "Lateef-Regular.ufo"
-build_one "Lateef-Black.ufo"
-# build_one "Lateef-Light.ufo"   "Lateef-Light-composites.ufo"
+build_one "Lateef-ExtraBold.ufo"
+# build_one "Lateef-ExtraLight.ufo"   "Lateef-ExtraLight-composites.ufo"
 # build_one "Lateef-Regular.ufo" "Lateef-Regular-composites.ufo"
-# build_one "Lateef-Black.ufo"   "Lateef-Black-composites.ufo"
+# build_one "Lateef-ExtraBold.ufo"   "Lateef-ExtraBold-composites.ufo"
 
 echo "Composite rebuild done."

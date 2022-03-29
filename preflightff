@@ -7,9 +7,9 @@ set -e
 # Check and normalize all UFOs first -- assumes no other steps de-normalize
 echo
 echo "Fixing FontForge debris and normalizing UFOs..."
-psffixffglifs -p checkfix=fix source/masters/*-Light.ufo    &
-psffixffglifs -p checkfix=fix source/masters/*-Regular.ufo  &
-psffixffglifs -p checkfix=fix source/masters/*-Black.ufo    &
+psffixffglifs -p checkfix=fix source/masters/Lateef-ExtraLight.ufo    &
+psffixffglifs -p checkfix=fix source/masters/Lateef-Regular.ufo  &
+psffixffglifs -p checkfix=fix source/masters/Lateef-ExtraBold.ufo    &
 wait
 
 echo

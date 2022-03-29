@@ -106,7 +106,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2022/03/24 16:07:53</string>
+  <string>2022/03/29 17:39:26</string>
   <key>openTypeHheaAscender</key>
   <integer>2742</integer>
   <key>openTypeHheaDescender</key>
@@ -171,11 +171,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredFamilyName</key>
   <string>Lateef</string>
   <key>openTypeNamePreferredSubfamilyName</key>
-  <string>Light</string>
+  <string>Extra Light</string>
   <key>openTypeNameSampleText</key>
   <string/>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Lateef Light: 2022</string>
+  <string>SIL International: Lateef Extra Light: 2022</string>
   <key>openTypeNameVersion</key>
   <string>Version 1.301</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -273,7 +273,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>1044</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>Lateef-Light</string>
+  <string>Lateef-ExtraLight</string>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-334</integer>
@@ -300,7 +300,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>styleMapStyleName</key>
   <string>regular</string>
   <key>styleName</key>
-  <string>Light</string>
+  <string>ExtraLight</string>
   <key>trademark</key>
   <string>"Lateef" and "SIL" are trademarks of SIL International</string>
   <key>unitsPerEm</key>

@@ -124,6 +124,8 @@
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
   <string>3117</string>
+  <key>com.schriftgestaltung.customName</key>
+  <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/zain-ar/zain-ar.fina/zainVinvertedabove-ar/zainVinvertedabove-ar.fina/ain-ar/ain-ar.fina/ain-ar.medi/ain-ar.init/ainThreedots-ar/ainThreedots-ar.fina/ainThreedots-ar.medi/ainThreedots-ar.init/ainTwodotshorizontalabove-ar/ainTwodotshorizontalabove-ar.fina/ainTwodotshorizontalabove-ar.medi/ainTwodotshorizontalabove-ar.init/ainThreedotsdownabove-ar/ainThreedotsdownabove-ar.fina/ainThreedotsdownabove-ar.medi/ainThreedotsdownabove-ar.init/ainTwodotsverticalabove-ar/ainTwodotsverticalabove-ar.fina/ainTwodotsverticalabove-ar.medi/ainTwodotsverticalabove-ar.init/space/space/space/space/ain-ar/space/_dot3d/space/space/_dot3d.smaller/space/ain-ar/ainThreedotsbelow-ar/ain-ar.fina/ainThreedotsbelow-ar.fina/ainThreedotsbelow-ar.medi/ainThreedotsbelow-ar.init/ghain-ar/ghain-ar.fina/ghain-ar.medi/ghain-ar.init/ghainThreedotsabove-ar/ghainThreedotsabove-ar.fina/ghainThreedotsabove-ar.medi/ghainThreedotsabove-ar.init/ghainDotbelow-ar/ghainDotbelow-ar.fina/ghainDotbelow-ar.medi/ghainDotbelow-ar.init/zainabove-ar/dammainverted-ar 
