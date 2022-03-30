@@ -133,7 +133,7 @@
                          stylename="Bold"
                 postscriptfontname="Lateef-Bold">
             <location>
-                <dimension name="weight" xvalue="650.000000" />
+                <dimension name="weight" xvalue="700.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
