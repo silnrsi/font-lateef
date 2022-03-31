@@ -291,10 +291,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>9</integer>
   <key>postscriptUniqueID</key>
   <integer>8</integer>
-  <key>styleMapFamilyName</key>
-  <string>Lateef</string>
-  <key>styleMapStyleName</key>
-  <string>bold</string>
   <key>styleName</key>
   <string>ExtraBold</string>
   <key>trademark</key>
