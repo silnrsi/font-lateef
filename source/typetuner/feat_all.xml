@@ -222,13 +222,13 @@
 
 	<feature name="Line spacing" value="Normal"	tag="LnSpc">
 		<value name="Normal" tag="Nrml">
-			<cmd name="null" args="2742 1488"/>
+			<cmd name="null" args="2531 1442 0 3089 2188 2531 1442 0"/>
 		</value>
 		<value name="Tight" tag="Tght">
-			<cmd name="line_gap" args="1910 1022"/>
+			<cmd name="line_metrics" args="1996 1121 0 3089 2188 1996 1121 0"/>
 		</value>
 		<value name="Loose" tag="Ls">
-			<cmd name="line_gap" args="3668 1593"/>
+			<cmd name="line_metrics" args="3784 2188 0 3089 2188 3784 2188 0"/>
 		</value>
 		<value name="Imported" tag="Im">
 			<cmd name="line_metrics_scaled" args="null"/>

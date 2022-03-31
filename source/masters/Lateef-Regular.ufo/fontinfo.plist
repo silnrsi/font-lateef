@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>2742</integer>
+  <integer>3089</integer>
   <key>capHeight</key>
   <integer>1022</integer>
   <key>copyright</key>
   <string>Copyright (c) 1994-2022 SIL International.</string>
   <key>descender</key>
-  <integer>-1488</integer>
+  <integer>-2188</integer>
   <key>familyName</key>
   <string>Lateef</string>
   <key>guidelines</key>
@@ -116,9 +116,9 @@
   <key>openTypeHeadCreated</key>
   <string>2022/03/29 17:39:19</string>
   <key>openTypeHheaAscender</key>
-  <integer>2742</integer>
+  <integer>2531</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-1488</integer>
+  <integer>-1442</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -232,9 +232,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
-  <integer>2742</integer>
+  <integer>2531</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-1488</integer>
+  <integer>-1442</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -268,9 +268,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
-  <integer>2742</integer>
+  <integer>3089</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>1488</integer>
+  <integer>2188</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-23</integer>
