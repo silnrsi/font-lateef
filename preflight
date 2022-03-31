@@ -38,8 +38,6 @@ cp source/masters/Lateef-Regular.ufo/kerning.plist \
 echo
 echo "Updating woff metadata files..."
 psfmakewoffmetadata -q -n lateef      -i org.sil.fonts -o source/Lateef-WOFF-metadata.xml      source/masters/*-Regular.ufo
-psfmakewoffmetadata -q -n lateefbook  -i org.sil.fonts -o source/LateefBook-WOFF-metadata.xml  source/masters/*-Regular.ufo
-psfmakewoffmetadata -q -n lateeflight -i org.sil.fonts -o source/LateefLight-WOFF-metadata.xml source/masters/*-Regular.ufo
 
 echo
 echo "preflight completed!"
