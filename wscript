@@ -64,7 +64,7 @@ else:
     OTdepends = ['source/opentype/${DS:FILENAME_BASE}-caKern.fea']
 
 designspace('source/lateef.designspace',
-    instanceparams='-W -l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
+    instanceparams='-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
     instances = ['Lateef Regular'] if '--regOnly' in opts else None,
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     classes = 'source/classes.xml',
