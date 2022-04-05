@@ -9,7 +9,8 @@
             <map input="200.0" output="300.0" /> <!-- ExtraLight -->
             <map input="300.0" output="350.0" /> <!-- Light -->
             <map input="400.0" output="400.0" /> <!-- Regular -->
-            <map input="500.0" output="525.0" /> <!-- SemiBold -->
+            <map input="500.0" output="500.0" /> <!-- Medium -->
+            <map input="600.0" output="600.0" /> <!-- SemiBold -->
             <map input="700.0" output="700.0" /> <!-- Bold -->
             <map input="800.0" output="800.0" /> <!-- ExtraBold -->
             <labelname xml:lang="en">Weight</labelname>
@@ -107,6 +108,23 @@
             <kerning/>
         </instance>
 
+        <!-- Lateef Medium -->
+        <instance       familyname="Lateef"
+                          filename="instances/Lateef-Medium.ufo"
+                              name="Lateef Medium"
+                stylemapfamilyname="Lateef"
+                 stylemapstylename="regular"
+                         stylename="Medium"
+                postscriptfontname="Lateef-Medium">
+            <location>
+                <dimension name="weight" xvalue="500.000000" />
+                <dimension name="width" xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info/>
+            <kerning/>
+        </instance>
+
         <!-- Lateef SemiBold -->
         <instance       familyname="Lateef"
                           filename="instances/Lateef-SemiBold.ufo"
@@ -116,7 +134,7 @@
                          stylename="SemiBold"
                 postscriptfontname="Lateef-SemiBold">
             <location>
-                <dimension name="weight" xvalue="525.000000" />
+                <dimension name="weight" xvalue="600.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
