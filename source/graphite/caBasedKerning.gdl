@@ -76,12 +76,32 @@ cComplexShape = (
     cDualLinkIsol 
     cDualLinkInit 
     cRightLinkIsol
-    // cwarsh
-    // cLamIniBeforeAlef
-    cAlefPlusMark   
+    cAlefPlusMark
     
- // ToDo: Manually add other glyphs that need complex shape but aren't included above
+    // Permits kerning to allah or l-l-h ligatures:
+    cAlefAllahIsol  g_lam_ar_init_allah1
 
+    // All isolate lam-alef ligatures (cAllLamAlefLig without finals):
+    g_lam_alef_ar, g_lam_alef_wavyhamzaabove_ar, g_lam_alef_wavyhamzabelow_ar, g_lam_alef_wasla_ar, 
+    g_lam_alef_twoabove_ar, g_lam_alef_threeabove_ar, g_lam_vabove_alef_ar, g_lam_vabove_alef_wavyhamzaabove_ar, 
+    g_lam_vabove_alef_wavyhamzabelow_ar, g_lam_vabove_alef_wasla_ar, g_lam_vabove_alef_twoabove_ar, g_lam_vabove_alef_threeabove_ar,
+    g_lam_dotabove_alef_ar, g_lam_dotabove_alef_wavyhamzaabove_ar, g_lam_dotabove_alef_wavyhamzabelow_ar, g_lam_dotabove_alef_wasla_ar,
+    g_lam_dotabove_alef_twoabove_ar, g_lam_dotabove_alef_threeabove_ar, g_lam_threedotsabove_alef_ar, g_lam_threedotsabove_alef_wavyhamzaabove_ar,
+    g_lam_threedotsabove_alef_wavyhamzabelow_ar, g_lam_threedotsabove_alef_wasla_ar, g_lam_threedotsabove_alef_twoabove_ar, g_lam_threedotsabove_alef_threeabove_ar,
+    g_lam_tahabove_alef_ar, g_lam_tahabove_alef_wavyhamzaabove_ar, g_lam_tahabove_alef_wavyhamzabelow_ar, g_lam_tahabove_alef_wasla_ar,
+    g_lam_tahabove_alef_twoabove_ar, g_lam_tahabove_alef_threeabove_ar, g_lam_threedotsbelow_alef_ar, g_lam_threedotsbelow_alef_wavyhamzaabove_ar,
+    g_lam_threedotsbelow_alef_wavyhamzabelow_ar, g_lam_threedotsbelow_alef_wasla_ar, g_lam_threedotsbelow_alef_twoabove_ar, g_lam_threedotsbelow_alef_threeabove_ar,
+    g_lam_bar_alef_ar, g_lam_bar_alef_wavyhamzaabove_ar, g_lam_bar_alef_wavyhamzabelow_ar, g_lam_bar_alef_wasla_ar,
+    g_lam_bar_alef_twoabove_ar, g_lam_bar_alef_threeabove_ar, g_lam_doublebar_alef_ar, g_lam_doublebar_alef_wavyhamzaabove_ar,
+    g_lam_doublebar_alef_wavyhamzabelow_ar, g_lam_doublebar_alef_wasla_ar, g_lam_doublebar_alef_twoabove_ar, g_lam_doublebar_alef_threeabove_ar,
+
+    // csindhi without final forms:
+    g_meem_ar_sindhi g_meem_dotabove_ar_sindhi g_meem_dotbelow_ar_sindhi g_meem_threedotsabove_ar_sindhi  
+
+    // misc glyphs:
+    g_heh_ar_knotted
+    g_heh_ar_init_hooked
+    g_yeh_hamzaabove_ar_locl_k_i_r
     g_kashida_ar
 
 ) {collision {
