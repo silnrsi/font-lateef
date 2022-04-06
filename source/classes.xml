@@ -20,7 +20,7 @@ of the license along with this Font Software. If this is not the case, go to
     ===============================
     -->
 
-    <!-- ***** NB: The following 8 classes were generated algorithmically based on Unicode properties (see tools/absgenclasses.py) ***** -->
+    <!-- ***** NB: The following classes were generated algorithmically based on Unicode properties (see tools/absgenclasses.py) ***** -->
 
     <!-- *NEXT 4 CLASSES MUST MATCH* -->
 
@@ -42,7 +42,7 @@ of the license along with this Font Software. If this is not the case, go to
         lamVabove-ar meem-ar meemDotabove-ar meemDotbelow-ar meemThreedotsabove-ar ng-ar ngoeh-ar
         noon-ar noonAfrican-ar noonDotbelow-ar noonRing-ar noonTahabove-ar noonThreedotsabove-ar noonTwodotsbelow-ar
         noonVabove-ar noonghunna-ar nyeh-ar peh-ar pehMeemabove-ar pehVabove-ar peheh-ar qaf-ar
-        qafAfrican-ar qafThreedotsaboveAfrican-ar qafDotabove-ar qafDotbelow-ar qafDotless-ar qafThreedotsabove-ar
+        qafAfrican-ar qafDotabove-ar qafDotbelow-ar qafDotless-ar qafThreedotsabove-ar qafThreedotsaboveAfrican-ar
         rnoon-ar sad-ar sadThreedots-ar sadThreedotsbelow-ar sadTwodotsbelow-ar seen-ar seenDotbelowDotabove-ar
         seenFourabove-ar seenFourdotsabove-ar seenTahTwodotshorizontalabove-ar seenThreedotsbelow-ar seenTwodotsverticalabove-ar
         seenVinvertedabove-ar sheen-ar sheenDotbelow-ar sheenThreedotsbelow-ar tah-ar tahThreedots-ar
@@ -72,7 +72,7 @@ of the license along with this Font Software. If this is not the case, go to
         lamVabove-ar.init meem-ar.init meemDotabove-ar.init meemDotbelow-ar.init meemThreedotsabove-ar.init ng-ar.init ngoeh-ar.init
         noon-ar.init noonAfrican-ar.init noonDotbelow-ar.init noonRing-ar.init noonTahabove-ar.init noonThreedotsabove-ar.init noonTwodotsbelow-ar.init
         noonVabove-ar.init noonghunna-ar.init nyeh-ar.init peh-ar.init pehMeemabove-ar.init pehVabove-ar.init peheh-ar.init qaf-ar.init
-        qafAfrican-ar.init qafThreedotsaboveAfrican-ar.init qafDotabove-ar.init qafDotbelow-ar.init qafDotless-ar.init qafThreedotsabove-ar.init
+        qafAfrican-ar.init qafDotabove-ar.init qafDotbelow-ar.init qafDotless-ar.init qafThreedotsabove-ar.init qafThreedotsaboveAfrican-ar.init
         rnoon-ar.init sad-ar.init sadThreedots-ar.init sadThreedotsbelow-ar.init sadTwodotsbelow-ar.init seen-ar.init seenDotbelowDotabove-ar.init
         seenFourabove-ar.init seenFourdotsabove-ar.init seenTahTwodotshorizontalabove-ar.init seenThreedotsbelow-ar.init seenTwodotsverticalabove-ar.init
         seenVinvertedabove-ar.init sheen-ar.init sheenDotbelow-ar.init sheenThreedotsbelow-ar.init tah-ar.init tahThreedots-ar.init
@@ -102,7 +102,7 @@ of the license along with this Font Software. If this is not the case, go to
         lamVabove-ar.medi meem-ar.medi meemDotabove-ar.medi meemDotbelow-ar.medi meemThreedotsabove-ar.medi ng-ar.medi ngoeh-ar.medi
         noon-ar.medi noonAfrican-ar.medi noonDotbelow-ar.medi noonRing-ar.medi noonTahabove-ar.medi noonThreedotsabove-ar.medi noonTwodotsbelow-ar.medi
         noonVabove-ar.medi noonghunna-ar.medi nyeh-ar.medi peh-ar.medi pehMeemabove-ar.medi pehVabove-ar.medi peheh-ar.medi qaf-ar.medi
-        qafAfrican-ar.medi qafThreedotsaboveAfrican-ar.medi qafDotabove-ar.medi qafDotbelow-ar.medi qafDotless-ar.medi qafThreedotsabove-ar.medi
+        qafAfrican-ar.medi qafDotabove-ar.medi qafDotbelow-ar.medi qafDotless-ar.medi qafThreedotsabove-ar.medi qafThreedotsaboveAfrican-ar.medi
         rnoon-ar.medi sad-ar.medi sadThreedots-ar.medi sadThreedotsbelow-ar.medi sadTwodotsbelow-ar.medi seen-ar.medi seenDotbelowDotabove-ar.medi
         seenFourabove-ar.medi seenFourdotsabove-ar.medi seenTahTwodotshorizontalabove-ar.medi seenThreedotsbelow-ar.medi seenTwodotsverticalabove-ar.medi
         seenVinvertedabove-ar.medi sheen-ar.medi sheenDotbelow-ar.medi sheenThreedotsbelow-ar.medi tah-ar.medi tahThreedots-ar.medi
@@ -132,7 +132,7 @@ of the license along with this Font Software. If this is not the case, go to
         lamVabove-ar.fina meem-ar.fina meemDotabove-ar.fina meemDotbelow-ar.fina meemThreedotsabove-ar.fina ng-ar.fina ngoeh-ar.fina
         noon-ar.fina noonAfrican-ar.fina noonDotbelow-ar.fina noonRing-ar.fina noonTahabove-ar.fina noonThreedotsabove-ar.fina noonTwodotsbelow-ar.fina
         noonVabove-ar.fina noonghunna-ar.fina nyeh-ar.fina peh-ar.fina pehMeemabove-ar.fina pehVabove-ar.fina peheh-ar.fina qaf-ar.fina
-        qafAfrican-ar.fina qafThreedotsaboveAfrican-ar.fina qafDotabove-ar.fina qafDotbelow-ar.fina qafDotless-ar.fina qafThreedotsabove-ar.fina
+        qafAfrican-ar.fina qafDotabove-ar.fina qafDotbelow-ar.fina qafDotless-ar.fina qafThreedotsabove-ar.fina qafThreedotsaboveAfrican-ar.fina
         rnoon-ar.fina sad-ar.fina sadThreedots-ar.fina sadThreedotsbelow-ar.fina sadTwodotsbelow-ar.fina seen-ar.fina seenDotbelowDotabove-ar.fina
         seenFourabove-ar.fina seenFourdotsabove-ar.fina seenTahTwodotshorizontalabove-ar.fina seenThreedotsbelow-ar.fina seenTwodotsverticalabove-ar.fina
         seenVinvertedabove-ar.fina sheen-ar.fina sheenDotbelow-ar.fina sheenThreedotsbelow-ar.fina tah-ar.fina tahThreedots-ar.fina
@@ -174,21 +174,17 @@ of the license along with this Font Software. If this is not the case, go to
         zain-ar.fina zainVinvertedabove-ar.fina
     </class>
 
-
     <!-- *NEXT 2 CLASSES MUST MATCH* -->
 
     <class name='AlefIso'>
-        alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar
-        alefThreeabove-ar alefTwoabove-ar alefWasla-ar alefWavyhamzaabove-ar
-        alefWavyhamzabelow-ar highhamzaAlef-ar
+        alef-ar alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar alefThreeabove-ar alefTwoabove-ar
+        alefWasla-ar alefWavyhamzaabove-ar alefWavyhamzabelow-ar highhamzaAlef-ar
     </class>
 
     <class name='AlefFin'>
-        alef-ar.fina alefHamzaabove-ar.fina alefHamzabelow-ar.fina alefMadda-ar.fina
-        alefThreeabove-ar.fina alefTwoabove-ar.fina alefWasla-ar.fina alefWavyhamzaabove-ar.fina
-        alefWavyhamzabelow-ar.fina highhamzaAlef-ar.fina
+        alef-ar.fina alefHamzaabove-ar.fina alefHamzabelow-ar.fina alefMadda-ar.fina alefThreeabove-ar.fina alefTwoabove-ar.fina
+        alefWasla-ar.fina alefWavyhamzaabove-ar.fina alefWavyhamzabelow-ar.fina highhamzaAlef-ar.fina
     </class>
-
 
     <!-- ***** end of algorithmically-generated classes ***** -->
 
@@ -290,7 +286,7 @@ of the license along with this Font Software. If this is not the case, go to
     </class>
 
     <class name='UTR53_230MCM'>
-        hamzaabove-ar noonabove-ar noonghunnaabove-ar seenabove-ar yehabove-ar
+        hamzaabove-ar highwaw-ar noonabove-ar noonghunnaabove-ar seenabove-ar yehabove-ar
     </class>
 
     <class name='UTR53_shadda'>
@@ -299,7 +295,8 @@ of the license along with this Font Software. If this is not the case, go to
 
     <class name='UTR53_fixedPos'>
         damma-ar damma-ar.filled dammasmall-ar dammatan-ar dammatan-ar.sixNine fatha-ar fathasmall-ar fathatan-ar kasra-ar kasra-ar.lowered
-        kasrasmall-ar kasratan-ar kasratan-ar.lowered sukun-ar sukun-ar.downOpen sukun-ar.leftOpen
+        kasrasmall-ar kasratan-ar kasratan-ar.lowered opendammatan-ar openfathatan-ar openkasratan-ar sukun-ar sukun-ar.downOpen
+        sukun-ar.leftOpen
     </class>
 
     <class name='UTR53_alef'>
@@ -307,14 +304,18 @@ of the license along with this Font Software. If this is not the case, go to
     </class>
 
     <class name='UTR53_220other'>
-        alefbelow-ar dotvowelbelow-ar meembelow-ar rhombusStopbelow-ar wavyhamzabelow-ar
+        alefbelow-ar dammaturnedbelow-ar dotvowelbelow-ar kasraCurly-ar kasraDotbelow-ar kasratanCurly-ar leftarrowheadbelow-ar
+        meembelow-ar rhombusStopbelow-ar rightarrowheadbelow-ar toneloopbelow-ar toneonedotbelow-ar tonetwodotsbelow-ar wavyhamzabelow-ar
     </class>
 
     <class name='UTR53_230other'>
-        alayheAssallamcomb-ar alefLamYehabove-ar dammainverted-ar dammareversed-ar dotStopabove-ar fathaHorizont-ar fathatwodots-ar hahabove-ar
-        jeemabove-ar lamAlefabove-ar madda-ar maddalong-ar marksidewaysnoonghunna-ar meemStopabove-ar meemabove-ar qafLamAlefMaksuraabove-ar
-        rehDadabove-ar rehHahabove-ar rhombusStopabove-ar sadLamAlefMaksuraabove-ar sallallahouAlayheWassallamcomb-ar-ar sukunoval-ar sukunround-ar tahabove-ar
-        takhallusabove-ar threedotsabove-ar vabove-ar vinvertedabove-ar zainabove-ar
+        alayheAssallamcomb-ar alefLamYehabove-ar dammaCurly-ar dammaDot-ar dammainverted-ar dammareversed-ar dammatanCurly-ar dotStopabove-ar
+        doublerightarrowheadDotabove-ar doublerightarrowheadabove-ar fathaCurly-ar fathaDotabove-ar fathaHorizont-ar fathaRing-ar
+        fathatanCurly-ar fathatwodots-ar hahabove-ar jeemabove-ar lamAlefabove-ar leftarrowheadabove-ar madda-ar maddalong-ar marksidewaysnoonghunna-ar
+        meemStopabove-ar meemabove-ar qafLamAlefMaksuraabove-ar rehDadabove-ar rehHahabove-ar rhombusStopabove-ar rightarrowheadDotabove-ar
+        rightarrowheadabove-ar sadLamAlefMaksuraabove-ar sallallahouAlayheWassallamcomb-ar sukunoval-ar sukunround-ar tahabove-ar
+        takhallusabove-ar threedotsabove-ar toneloopabove-ar toneonedotabove-ar tonetwodotsabove-ar vabove-ar vinvertedabove-ar
+        zainabove-ar
     </class>
 
     <!-- ***** end of algorithmically-generated classes ***** -->

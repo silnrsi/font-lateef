@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 __doc__ = '''generate linking classes for abs projects from glyph_data.csv'''
 __url__ = 'http://github.com/silnrsi/pysilfont'
 __copyright__ = 'Copyright (c) 2018-2022 SIL International  (http://www.sil.org)'
@@ -16,7 +16,7 @@ argspec = [
     ('-l','--log',{'help': 'Set log file name'}, {'type': 'outfile', 'def': '_classes.log'}),
 ]
 
-# UTR53 Modifier Combining Marks
+# UTR53 Modifier Combining Marks (from https://www.unicode.org/reports/tr53/)
 mcm = {
     0x0654, # ARABIC HAMZA ABOVE
     0x0655, # ARABIC HAMZA BELOW
@@ -25,8 +25,13 @@ mcm = {
     0x06E3, # ARABIC SMALL LOW SEEN
     0x06E7, # ARABIC SMALL HIGH YEH
     0x06E8, # ARABIC SMALL HIGH NOON
-    0x08F3, # ARABIC SMALL HIGH WAW
+    0x08CA, # ARABIC SMALL HIGH FARSI YEH
+    0x08CB, # ARABIC SMALL HIGH YEH BARREE WITH TWO DOTS BELOW
+    0x08CD, # ARABIC SMALL HIGH ZAH
+    0x08CE, # ARABIC LARGE ROUND DOT ABOVE
+    0x08CF, # ARABIC LARGE ROUND DOT BELOW    
     0x08D3, # ARABIC SMALL LOW WAW
+    0x08F3, # ARABIC SMALL HIGH WAW
 }
 
 
@@ -63,7 +68,7 @@ def doit(args):
     utr53_230other = set()
 
     def splitgname(gname):
-        '''split a glyph name into base and extension (possibly None) unless the name starts with '.''''
+        '''split a glyph name into base and extension (possibly None) unless the name starts with '.' '''
         p = gname.find('.')
         return (gname, None) if p <= 0 else (gname[0:p], gname[p:])
 
@@ -168,7 +173,7 @@ def doit(args):
                 if len(csvmissing):
                     logger.log(f'CSV is missing glyphs for class {rname}: {" ".join(sorted(csvmissing))}', 'E')
                 if len(outOfOrder):
-                    logger.log(f'Out of order glyphs for class {rname}: {" ".join(sorted(missing))}', 'E')
+                    logger.log(f'Out of order glyphs for class {rname}: {" ".join(sorted(outOfOrder))}', 'E')
         # finally we can output classes, with glyphs in alphabetical order
         glist = sorted(glist)
         lines = makeLines(glist, padding)
@@ -257,11 +262,10 @@ def doit(args):
     outputMatchingClasses('RightLinkIsol', rjoining,
                           (('RightLinkFina', '.fina'),))
     outputMatchingClasses('LamIso', lams,
-                          (('LamIni', '.init'), ('LamMed', '.medi'), ('LamFin', '.fina'),
-                           ('LamIniBeforeAlef', '.preAlef.init'), ('LamMedBeforeAlef', '.preAlef.medi')))
+                          (('LamIni', '.init'), ('LamMed', '.medi'), ('LamFin', '.fina')))
     outputMatchingClasses('AlefIso', alefs,
-                          (('AlefFin', '.fina'),
-                           ('AlefFinAfterLamIni', '.postLamIni.fina'), ('AlefFinAfterLamMed', '.postLamMed.fina')))
+                          (('AlefFin', '.fina'),))
+    
     # And the UTR35 classes:
     args.output.write('    <!-- For pseudo-UTR53 implementation -->\n')
     for clname, glist in zip(('UTR53_220MCM', 'UTR53_230MCM', 'UTR53_shadda', 'UTR53_fixedPos', 'UTR53_alef', 'UTR53_220other', 'UTR53_230other'),
