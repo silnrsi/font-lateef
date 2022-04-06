@@ -16,7 +16,7 @@
 #    --regOnly     process only the Lateef Regular font rather than all six
 
 set -e	# Stop on error
-set -x	# echo before execution
+# set -x	# echo before execution
 
 if [ ! -e OFL.txt ] 
 then
@@ -26,8 +26,8 @@ fi
 
 # Default settings:
 REGONLY=""
-FACES=("" Light Book)
-WEIGHTS=(Regular Bold)
+# WEIGHTS=(Regular Bold)
+WEIGHTS=(ExtraLight Light Regular Medium SemiBold Bold ExtraBold)
 OCTALAP=0
 FTML=0
 FTMLONLY=0
@@ -38,7 +38,6 @@ do
   case $1 in
     --regOnly)
     REGONLY="--regOnly"
-    FACES=("")
     WEIGHTS=(Regular)
     ;;
   
@@ -83,7 +82,9 @@ fi
 
 if [ ${FTML} -gt 1 ]
 then
-  exit
+  echo "
+  finished successfully, and the following files were regenerated:
+   - source/kerndata.ftml"
 fi
 
 echo -e "\nrebuilding fonts with graphite and without glyph kerning or renaming...\n"
@@ -97,16 +98,12 @@ then
 
   echo -e "\nrebuilding optimized octaboxes...\n"
 
-  for f in "${FACES[@]}"
+  for w in "${WEIGHTS[@]}"
   do
-    for w in "${WEIGHTS[@]}"
-    do
-      octalap -q -j 0 -o source/graphite/Lateef$f-$w-octabox.json results/Lateef$f-$w.ttf &
-    done
-    # do only 2 at a time to keep from running out of memory
-    wait
-    echo -e "\noctalap completed for Lateef$f."
+    octalap -q -j 0 -o source/graphite/Lateef-$w-octabox.json results/Lateef-$w.ttf
+    echo -e "\noctalap completed for Lateef $w."
   done
+  
   echo -e "\nrebuilding fonts (with new octaboxes) but no glyph kerning or renaming...\n" 
 
   smith clean
@@ -115,46 +112,40 @@ then
 fi
 
 
-
 echo -e "\nrebuilding collision-avoidance-based kerning fea files...\n"
 
 # Use a temp directory
 outdir=results/grkern2fea_r${R:=20}
 mkdir -p $outdir
 
-for f in "${FACES[@]}"
+for w in "${WEIGHTS[@]}"
 do
-  for w in "${WEIGHTS[@]}"
-  do
-    ( \
-      grkern2fea -e graphite -i source/kerndata.ftml -F ut53=0        -f results/Lateef$f-$w.ttf                 $outdir/rawPairData-$f-$w.txt        ; \
-      tools/renumberKernData.py $outdir/rawPairData-$f-$w.txt                                                    $outdir/rawPairData-$f-$w-nozwj.txt  ; \
-      grkern2fea -s strings  -i $outdir/rawPairData-$f-$w-nozwj.txt -f results/Lateef$f-$w.ttf  -r ${R:=20} -R   $outdir/Lateef$f-$w-caKern.fea       ; \
-      sed -e s/kasratan-ar/@_diaB/g -e s/fathatan-ar/@_diaA/g $outdir/Lateef$f-$w-caKern.fea  > source/opentype/Lateef$f-$w-caKern.fea \
-    ) # &   # If you have enough RAM then run these in parallel
-  done
-  # do only 2 at a time to keep from running out of memory
-  wait
-  echo -e "\ngrkern2fea completed for Lateef$f."
+  ( \
+    grkern2fea -e graphite -i source/kerndata.ftml -F ut53=0   -f results/Lateef-$w.ttf                 $outdir/rawPairData-$w.txt        ; \
+    tools/renumberKernData.py $outdir/rawPairData-$w.txt                                                $outdir/rawPairData-$w-nozwj.txt  ; \
+    grkern2fea -s strings  -i $outdir/rawPairData-$w-nozwj.txt -f results/Lateef-$w.ttf  -r ${R:=20} -R $outdir/Lateef-$w-caKern.fea      ; \
+    sed -e s/kasratan-ar/@_diaB/g -e s/fathatan-ar/@_diaA/g $outdir/Lateef-$w-caKern.fea  > source/opentype/Lateef-$w-caKern.fea
+  ) 
+  echo "grkern2fea finished for Lateef $w"
 done
 
 echo "
-finished successfully, and the following files were regenerated:"
+finished successfully and the following files were regenerated:"
+if [ ${FTML} > 0 ]
+then
+  echo " - source/kerndata.ftml"
+fi
+
 if [ ${OCTALAP} == 1 ] 
 then
-  for f in "${FACES[@]}" ; do
-    for w in "${WEIGHTS[@]}" ; do
-      echo " - source/Lateef$f-$w-octabox.json"
-    done
+  for w in "${WEIGHTS[@]}" ; do
+    echo " - source/Lateef-$w-octabox.json"
   done
 fi
 
-for f in "${FACES[@]}"
+for w in "${WEIGHTS[@]}"
 do
-  for w in "${WEIGHTS[@]}"
-  do
-    echo " - source/opentype/Lateef$f-$w-caKern.fea"
-  done
+  echo " - source/opentype/Lateef-$w-caKern.fea"
 done
 
 echo "
