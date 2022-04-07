@@ -5,9 +5,9 @@
     <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO</comment>
     <fontscale>250</fontscale>
     <fontsrc label="LateefGR">url(../references/LateefGR-1.200.ttf)</fontsrc>
-    <fontsrc label="Lt">url(../results/LateefLight-Regular.ttf)</fontsrc>
+    <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
-    <fontsrc label="BkBld">url(../results/LateefBook-Bold.ttf)</fontsrc>
+    <fontsrc label="ExBld">url(../results/Lateef-ExtraBold.ttf)</fontsrc>
     <styles>
       <style feats="'cv44' 1" name="cv44_1"/>
       <style feats="'cv48' 1" name="cv48_1"/>

@@ -4,10 +4,10 @@
   <head>
     <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO</comment>
     <fontscale>250</fontscale>
-    <fontsrc label="Sch (inst)">local(Scheherazade)</fontsrc>
-    <fontsrc label="Lt">url(../results/LateefLight-Regular.ttf)</fontsrc>
+    <fontsrc label="SchNew (inst)">local(Scheherazade New)</fontsrc>
+    <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
-    <fontsrc label="BkBld">url(../results/LateefBook-Bold.ttf)</fontsrc>
+    <fontsrc label="ExBld">url(../results/Lateef-ExtraBold.ttf)</fontsrc>
     <styles>
       <style feats="'cv80' 1" name="cv80_1"/>
       <style feats="'cv80' 1, 'cv82' 1" name="cv80_1_cv82_1"/>

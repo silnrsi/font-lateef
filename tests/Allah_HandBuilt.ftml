@@ -3,12 +3,13 @@
 <ftml version="1.0">
   <head>
     <fontscale>400</fontscale>
-    <fontsrc>url(../results/LateefLight-Regular.ttf)</fontsrc>
-    <fontsrc>url(../results/LateefLight-Bold.ttf)</fontsrc>
-    <fontsrc>url(../results/Lateef-Regular.ttf)</fontsrc>
-    <fontsrc>url(../results/Lateef-Bold.ttf)</fontsrc>
-    <fontsrc>url(../results/LateefBook-Regular.ttf)</fontsrc>
-    <fontsrc>url(../results/LateefBook-Bold.ttf)</fontsrc>
+    <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
+    <fontsrc label="Lt">url(../results/Lateef-Light.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="Med">url(../results/Lateef-Medium>.ttf)</fontsrc>
+    <fontsrc label="SeBld">url(../results/Lateef-SemiBold.ttf)</fontsrc>
+    <fontsrc label="Bld">url(../results/Lateef-Bold.ttf)</fontsrc>
+    <fontsrc label="ExBld">url(../results/Lateef-ExtraBold.ttf)</fontsrc>
     <!-- <fontsrc>url(../results/tests/ftml/fonts/Lateef-Regular_ot_arab.ttf)</fontsrc> -->
     <styles>
       <style lang="ku" name="ku"/>

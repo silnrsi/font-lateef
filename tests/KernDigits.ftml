@@ -4,8 +4,9 @@
   <head>
     <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO</comment>
     <fontscale>250</fontscale>
+    <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
-    <fontsrc label="BkBld">url(../results/LateefBook-Bold.ttf)</fontsrc>
+    <fontsrc label="ExBld">url(../results/Lateef-ExtraBold.ttf)</fontsrc>
     <styles>
       <style feats="'kern' 0" name="kern_0"/>
       <style lang="ku" name="ku"/>
@@ -14,7 +15,7 @@
       <style lang="ur" name="ur"/>
     </styles>
     <title>Kerning digits (auto)</title>
-    <widths string="38%"/>
+    <widths string="25%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
