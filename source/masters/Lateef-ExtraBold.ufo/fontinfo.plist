@@ -102,7 +102,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2022/03/30 19:35:23</string>
+  <string>2022/04/07 21:17:24</string>
   <key>openTypeHheaAscender</key>
   <integer>2742</integer>
   <key>openTypeHheaDescender</key>
@@ -301,6 +301,49 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>1</integer>
   <key>versionMinor</key>
   <integer>301</integer>
+  <key>woffMetadataCredits</key>
+  <dict>
+    <key>credits</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>Bob Hallissy, Jonathan Kew</string>
+        <key>role</key>
+        <string>SIL designers and font engineers</string>
+        <key>url</key>
+        <string>http://software.sil.org/lateef/</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Peter Martin</string>
+        <key>role</key>
+        <string>SIL designer</string>
+        <key>url</key>
+        <string>http://software.sil.org/lateef/</string>
+      </dict>
+    </array>
+  </dict>
+  <key>woffMetadataDescription</key>
+  <dict>
+    <key>text</key>
+    <array>
+      <dict>
+        <key>text</key>
+        <string>Lateef is named after Shah Abdul Lateef Bhitai, the famous Sindhi
+mystic and poet. It is intended to be an appropriate style for use
+in Sindhi and other languages of the South Asian region.
+
+This font provides a simplified rendering of Arabic script, using basic
+connecting glyphs but not including a wide variety of additional ligatures
+or contextual alternates (only the required lam-alef ligatures). This
+simplified style is often preferred for clarity, especially in non-Arabic
+languages, but may be considered unattractive in more traditional and
+literate communities.</string>
+      </dict>
+    </array>
+    <key>url</key>
+    <string>https://software.sil.org/lateef/history/</string>
+  </dict>
   <key>xHeight</key>
   <integer>690</integer>
 </dict>
