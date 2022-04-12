@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
+<ftml version='1.0'>
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc label="LateefGR">url(../references/LateefGR-1.200.ttf)</fontsrc>
+    <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
+    <fontsrc label="Lt">url(../results/Lateef-Light.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Lateef-Medium.ttf)</fontsrc>
+    <fontsrc label="SemBld">url(../results/Lateef-SemiBold.ttf)</fontsrc>
+    <fontsrc label="Bold">url(../results/Lateef-Bold.ttf)</fontsrc>
+    <fontsrc label="ExBld">url(../results/Lateef-ExtraBold.ttf)</fontsrc>
+    <styles>
+      <style feats="'kern' 0" name="kern_0"/>
+    </styles>
+    <title>SK Feedback</title>
+  </head>
+  <testgroup label='Rendering check'>
+    <test label='Check'><string>RenderingUnknown </string></test>
+  </testgroup>
+
+  <testgroup label='ABS-2641 - Lateef Alpha 2 (2022-01-06)'>
+    <test label='1'>
+        <comment>too tight between the waw and ain (but maybe I'll get used to it)</comment>
+        <string>شرُوع </string>
+    </test>
+    <test label='1' stylename="kern_0">
+        <string>شرُوع<em> </em></string>
+    </test>
+    <test label='2'>
+        <comment>too tight between the aleph and toeh. Even tighter in Book weight </comment>
+        <string>ٽاٹي </string>
+    </test>
+    <test label='2' stylename="kern_0">
+        <string>ٽاٹي<em> </em></string>
+    </test>
+    <test label='3'>
+        <comment>too tight</comment>
+        <string>هوئین </string>
+    </test>
+    <test label='3' stylename="kern_0">
+        <string>هوئین<em> </em></string>
+    </test>
+    <test label='4'>
+        <comment>the spacing between the zeh and meem is too tight in Book weight and Light weight . It looks better in Regular weight</comment>
+        <string>زمئن </string>
+    </test>
+    <test label='4' stylename="kern_0">
+        <string>زمئن<em> </em></string></test>
+    <test label='5'>
+        <comment>in comparison to other words, the final noon could be closer to the waw. It feels like an isolate form.</comment>
+        <string>سارُون </string>
+    </test>
+    <test label='5' stylename="kern_0">
+        <string>سارُون<em> </em></string>
+    </test>
+    <test label='6'>
+        <comment>the waw seems quite far from the following yeh making it seem like two words. I see this in many cases but I'm not sure what can be done about it since the double-nuqta is level with the tail of the waw. The only option is to lower the double-nuqta, which I'm not fond of.</comment>
+        <string>جویو </string>
+    </test>
+    <test label='6' stylename="kern_0">
+        <string>جویو<em> </em></string>
+    </test>
+  </testgroup>
+</ftml>
