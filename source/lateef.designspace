@@ -26,14 +26,14 @@
     </axes>
 
     <sources>
-        <source familyname="Lateef Master" filename="masters/Lateef-ExtraLight.ufo" name="Lateef-ExtraLight" stylename="ExtraLight">
+        <source familyname="Lateef" filename="masters/Lateef-ExtraLight.ufo" name="Lateef-ExtraLight" stylename="ExtraLight">
             <location>
                 <dimension name="weight" xvalue="300.000000" />
                 <dimension name="width" xvalue="100.000000" />
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Lateef Master" filename="masters/Lateef-Regular.ufo" name="Lateef-Regular" stylename="Regular">
+        <source familyname="Lateef" filename="masters/Lateef-Regular.ufo" name="Lateef-Regular" stylename="Regular">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -44,7 +44,7 @@
                 <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source familyname="Lateef Master" filename="masters/Lateef-ExtraBold.ufo" name="Lateef-ExtraBold" stylename="ExtraBold">
+        <source familyname="Lateef" filename="masters/Lateef-ExtraBold.ufo" name="Lateef-ExtraBold" stylename="ExtraBold">
             <location>
                 <dimension name="weight" xvalue="800.000000" />
                 <dimension name="width" xvalue="100.000000" />
