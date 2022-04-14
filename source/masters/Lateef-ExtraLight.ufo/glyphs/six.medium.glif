@@ -4,7 +4,7 @@
   <anchor x="0" y="0" name="digitL"/>
   <anchor x="660" y="0" name="digitR"/>
   <outline>
-    <component base="six" xScale="0.8" yScale="0.8" xOffset="-1"/>
+    <component base="six" xScale="0.8" yScale="0.8" xOffset="10"/>
   </outline>
   <lib>
     <dict>

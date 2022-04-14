@@ -121,38 +121,15 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3117</string>
+  <string>3123</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/zain-ar/zain-ar.fina/zainVinvertedabove-ar/zainVinvertedabove-ar.fina/ain-ar/ain-ar.fina/ain-ar.medi/ain-ar.init/ainThreedots-ar/ainThreedots-ar.fina/ainThreedots-ar.medi/ainThreedots-ar.init/ainTwodotshorizontalabove-ar/ainTwodotshorizontalabove-ar.fina/ainTwodotshorizontalabove-ar.medi/ainTwodotshorizontalabove-ar.init/ainThreedotsdownabove-ar/ainThreedotsdownabove-ar.fina/ainThreedotsdownabove-ar.medi/ainThreedotsdownabove-ar.init/ainTwodotsverticalabove-ar/ainTwodotsverticalabove-ar.fina/ainTwodotsverticalabove-ar.medi/ainTwodotsverticalabove-ar.init/space/space/space/space/ain-ar/space/_dot3d/space/space/_dot3d.smaller/space/ain-ar/ainThreedotsbelow-ar/ain-ar.fina/ainThreedotsbelow-ar.fina/ainThreedotsbelow-ar.medi/ainThreedotsbelow-ar.init/ghain-ar/ghain-ar.fina/ghain-ar.medi/ghain-ar.init/ghainThreedotsabove-ar/ghainThreedotsabove-ar.fina/ghainThreedotsabove-ar.medi/ghainThreedotsabove-ar.init/ghainDotbelow-ar/ghainDotbelow-ar.fina/ghainDotbelow-ar.medi/ghainDotbelow-ar.init/zainabove-ar/dammainverted-ar 
-/ghain-ar/ghain-ar.fina/ghain-ar.medi/ghain-ar.init/ghainThreedotsabove-ar/ghainThreedotsabove-ar.fina/ghainThreedotsabove-ar.medi/ghainThreedotsabove-ar.init/ghainDotbelow-ar/ghainDotbelow-ar.fina/ghainDotbelow-ar.medi/ghainDotbelow-ar.init 
-/space/_dot3d/space/space/_dot1/space/_dot1/space/_dot1/space/space/space/_dot1smallrotated10/space/_dot_dia/space/_dot1_hat/space/space/_dot1_smallV/space/space/_dot1_tah/space/space/_dot2h/space/space/_dot2h_smallV/space/space/_dot2h_tah/space/space/_dot2v/space/space/_dot3d/space/space/_dot3h/space/space/_dot3u/space/space/_dot3u_tah/space/space/_dot4/space/space/_dot1_dot3d/space/space/_dot1_dot3u/space/space/_dot1_small/space/space/_dot2h_small/space/space/_dot2h_tah_small/space/space/space/peh-ar/peh-ar.fina/peh-ar.medi/peh-ar.init/pehVabove-ar/pehVabove-ar.fina/pehVabove-ar.medi/pehVabove-ar.init/tehThreedotsdown-ar/tehThreedotsdown-ar.fina/tehThreedotsdown-ar.medi/tehThreedotsdown-ar.init/pehMeemabove-ar/pehMeemabove-ar.fina/pehMeemabove-ar.medi/pehMeemabove-ar.init/tcheh-ar/tcheh-ar.fina/tcheh-ar.medi/tcheh-ar.init/tchehDotabove-ar/space 
-/ain-ar.fina/ainThreedotsbelow-ar.fina/hah-ar.fina/tchehDotabove-ar.fina/jeem-ar.fina/tcheh-ar.fina/tcheheh-ar.fina/tchehVabove-ar.fina/nyeh-ar.fina/dyeh-ar.fina/hahHamzaabove-ar.fina/hahTwodotsverticalabove-ar.fina/hahTwodotshorizontalabove-ar.fina/hahThreedotsabove-ar.fina/hah-ar.fina/space/_dot3u/space/hah-ar.fina/hahThreedotsupbelow-ar.fina/khah-ar.fina/hahTahbelow-ar.fina/hahTahTwodotshorizontalbelow-ar.fina/hahTahabove-ar.fina/hahFourbelow-ar.fina/jeemTwodotsabove-ar.fina/jeemThreedotsabove-ar.fina/jeemThreedotsbelow-ar.fina/space/tchehDotabove-ar.medi/tchehDotabove-ar.init/hah-ar/_dot3d/tchehVabove-ar/hah-ar.fina/tchehVabove-ar.fina/tchehVabove-ar.medi/tchehVabove-ar.init/dalThreedotsdown-ar/dalThreedotsdown-ar.fina/dalThreedotsbelow-ar/dalThreedotsbelow-ar.fina/seenThreedotsbelow-ar/seenThreedotsbelow-ar.fina/seenThreedotsbelow-ar.medi/seenThreedotsbelow-ar.init/sheenThreedotsbelow-ar/sheenThreedotsbelow-ar.fina/sheenThreedotsbelow-ar.medi/sheenThreedotsbelow-ar.init/sadThreedotsbelow-ar/sadThreedotsbelow-ar.fina/sadThreedotsbelow-ar.medi/sadThreedotsbelow-ar.init/ainThreedotsdownabove-ar/ainThreedotsdownabove-ar.fina/ainThreedotsdownabove-ar.medi/ainThreedotsdownabove-ar.init/ainThreedotsbelow-ar.fina/ain-ar.medi/ainThreedotsbelow-ar.medi/ain-ar.init/ainThreedotsbelow-ar.init/fehDotless-ar/fehThreedotsbelow-ar/fehDotless-ar.fina/fehThreedotsbelow-ar.fina/fehThreedotsbelow-ar.medi/fehThreedotsbelow-ar.init/kehehThreedotsbelow-ar/kehehThreedotsbelow-ar.fina/kehehThreedotsbelow-ar.medi/kehehThreedotsbelow-ar.init/kafThreedotsbelow-ar/kafThreedotsbelow-ar.fina/kafThreedotsbelow-ar.medi/kafThreedotsbelow-ar.init/lam-ar/lamThreedotsbelow-ar/lamVabove-ar/lamDotabove-ar/lamThreedotsabove-ar/lamTahabove-ar/lamBar-ar/lamDoublebar-ar/lam-ar.fina/space/_dot3d/space/lamThreedotsbelow-ar.fina/lamThreedotsbelow-ar.medi/lamThreedotsbelow-ar.init/lamThreedotsbelow-ar.medi.preAlef/lamThreedotsbelow-ar.init.preAlef/noonThreedotsabove-ar.medi/noonThreedotsabove-ar.init/yehThreedotsbelow-ar/yehThreedotsbelow-ar.fina/yehThreedotsbelow-ar.medi/yehThreedotsbelow-ar.init</string>
-    <string>/space/zero-ar/one-ar/two-ar/three-ar/four-ar/five-ar/six-ar/seven-ar/eight-ar/nine-ar/zero-persian/one-persian/two-persian/three-persian/four-persian/four-persian.urdu/four-persian.roh/five-persian/six-persian/six-persian.urdu/seven-persian/seven-persian.urdu/eight-persian/nine-persian/space Digits
-/meem-ar/lam_alef-ar.fina/hah-ar.init/lam_alefWavyhamzaabove-ar/alef-ar/space/two-ar/one-ar/three-ar/space/reh-ar.fina/yeh-ar.medi/ghain-ar.init/space/four-ar/zero-ar/six-ar/seven-ar/space/reh-ar.fina/tah-ar.medi/meem-ar.medi/teh-ar.init/space/lam_alef-ar/space/four-persian.urdu/zero-ar/seven-persian/five-persian/one-ar/space/hamza-ar/alef-ar.fina/meem-ar.medi/seen-ar.init/space/beh-ar.fina/hah-ar.medi/lam-ar.init/alef-ar/space Sample
-/zero-ar/zero-ar/zero-ar/one-ar/zero-ar/two-ar/zero-ar/three-ar/zero-ar/four-ar/zero-ar/five-ar/zero-ar/six-ar/zero-ar/seven-ar/zero-ar/eight-ar/zero-ar/nine-ar/zero-ar/four-persian/zero-ar/four-persian.urdu/zero-ar/five-persian/zero-ar/six-persian/zero-ar/seven-persian.urdu/zero-ar 
-/one-ar/zero-ar/one-ar/one-ar/one-ar/two-ar/one-ar/three-ar/one-ar/four-ar/one-ar/five-ar/one-ar/six-ar/one-ar/seven-ar/one-ar/eight-ar/one-ar/nine-ar/one-ar/four-persian/one-ar/four-persian.urdu/one-ar/five-persian/one-ar/six-persian/one-ar/seven-persian.urdu/one-ar 
-/two-ar/zero-ar/two-ar/one-ar/two-ar/two-ar/two-ar/three-ar/two-ar/four-ar/two-ar/five-ar/two-ar/six-ar/two-ar/seven-ar/two-ar/eight-ar/two-ar/nine-ar/two-ar/four-persian/two-ar/four-persian.urdu/two-ar/five-persian/two-ar/six-persian/two-ar/seven-persian.urdu/two-ar 
-/three-ar/zero-ar/three-ar/one-ar/three-ar/two-ar/three-ar/three-ar/three-ar/four-ar/three-ar/five-ar/three-ar/six-ar/three-ar/seven-ar/three-ar/eight-ar/three-ar/nine-ar/three-ar/four-persian/three-ar/four-persian.urdu/three-ar/five-persian/three-ar/six-persian/three-ar/seven-persian.urdu/three-ar 
-/four-ar/zero-ar/four-ar/one-ar/four-ar/two-ar/four-ar/three-ar/four-ar/four-ar/four-ar/five-ar/four-ar/six-ar/four-ar/seven-ar/four-ar/eight-ar/four-ar/nine-ar/four-ar/four-persian/four-ar/four-persian.urdu/four-ar/five-persian/four-ar/six-persian/four-ar/seven-persian.urdu/four-ar 
-/five-ar/zero-ar/five-ar/one-ar/five-ar/two-ar/five-ar/three-ar/five-ar/four-ar/five-ar/five-ar/five-ar/six-ar/five-ar/seven-ar/five-ar/eight-ar/five-ar/nine-ar/five-ar/four-persian/five-ar/four-persian.urdu/five-ar/five-persian/five-ar/six-persian/five-ar/seven-persian.urdu/five-ar 
-/six-ar/zero-ar/six-ar/one-ar/six-ar/two-ar/six-ar/three-ar/six-ar/four-ar/six-ar/five-ar/six-ar/six-ar/six-ar/seven-ar/six-ar/eight-ar/six-ar/nine-ar/six-ar/four-persian/six-ar/four-persian.urdu/six-ar/five-persian/six-ar/six-persian/six-ar/seven-persian.urdu/six-ar 
-/seven-ar/zero-ar/seven-ar/one-ar/seven-ar/two-ar/seven-ar/three-ar/seven-ar/four-ar/seven-ar/five-ar/seven-ar/six-ar/seven-ar/seven-ar/seven-ar/eight-ar/seven-ar/nine-ar/seven-ar/four-persian/seven-ar/four-persian.urdu/seven-ar/five-persian/seven-ar/six-persian/seven-ar/seven-persian.urdu/seven-ar 
-/eight-ar/zero-ar/eight-ar/one-ar/eight-ar/two-ar/eight-ar/three-ar/eight-ar/four-ar/eight-ar/five-ar/eight-ar/six-ar/eight-ar/seven-ar/eight-ar/eight-ar/eight-ar/nine-ar/eight-ar/four-persian/eight-ar/four-persian.urdu/eight-ar/five-persian/eight-ar/six-persian/eight-ar/seven-persian.urdu/eight-ar 
-/nine-ar/zero-ar/nine-ar/one-ar/nine-ar/two-ar/nine-ar/three-ar/nine-ar/four-ar/nine-ar/five-ar/nine-ar/six-ar/nine-ar/seven-ar/nine-ar/eight-ar/nine-ar/nine-ar/nine-ar/four-persian/nine-ar/four-persian.urdu/nine-ar/five-persian/nine-ar/six-persian/nine-ar/seven-persian.urdu/nine-ar 
-/four-persian/zero-ar/four-persian/one-ar/four-persian/two-ar/four-persian/three-ar/four-persian/four-ar/four-persian/five-ar/four-persian/six-ar/four-persian/seven-ar/four-persian/eight-ar/four-persian/nine-ar/four-persian/four-persian/four-persian/four-persian.urdu/four-persian/five-persian/four-persian/six-persian/four-persian/seven-persian.urdu/four-persian 
-/four-persian.urdu/zero-ar/four-persian.urdu/one-ar/four-persian.urdu/two-ar/four-persian.urdu/three-ar/four-persian.urdu/four-ar/four-persian.urdu/five-ar/four-persian.urdu/six-ar/four-persian.urdu/seven-ar/four-persian.urdu/eight-ar/four-persian.urdu/nine-ar/four-persian.urdu/four-persian/four-persian.urdu/four-persian.urdu/four-persian.urdu/five-persian/four-persian.urdu/six-persian/four-persian.urdu/seven-persian.urdu/four-persian.urdu 
-/five-persian/zero-ar/five-persian/one-ar/five-persian/two-ar/five-persian/three-ar/five-persian/four-ar/five-persian/five-ar/five-persian/six-ar/five-persian/seven-ar/five-persian/eight-ar/five-persian/nine-ar/five-persian/four-persian/five-persian/four-persian.urdu/five-persian/five-persian/five-persian/six-persian/five-persian/seven-persian.urdu/five-persian 
-/six-persian/zero-ar/six-persian/one-ar/six-persian/two-ar/six-persian/three-ar/six-persian/four-ar/six-persian/five-ar/six-persian/six-ar/six-persian/seven-ar/six-persian/eight-ar/six-persian/nine-ar/six-persian/four-persian/six-persian/four-persian.urdu/six-persian/five-persian/six-persian/six-persian/six-persian/seven-persian.urdu/six-persian 
-/seven-persian.urdu/zero-ar/seven-persian.urdu/one-ar/seven-persian.urdu/two-ar/seven-persian.urdu/three-ar/seven-persian.urdu/four-ar/seven-persian.urdu/five-ar/seven-persian.urdu/six-ar/seven-persian.urdu/seven-ar/seven-persian.urdu/eight-ar/seven-persian.urdu/nine-ar/seven-persian.urdu/four-persian/seven-persian.urdu/four-persian.urdu/seven-persian.urdu/five-persian/seven-persian.urdu/six-persian/seven-persian.urdu/seven-persian.urdu/eight-ar/nine-ar 
-</string>
-    <string>/alef-ar.fina.postLamIni/alef-ar.fina.postLamMed/alefHamzaabove-ar.fina.postLamIni/alefHamzaabove-ar.fina.postLamMed/alefHamzabelow-ar.fina.postLamIni/alefHamzabelow-ar.fina.postLamMed/alefWavyhamzaabove-ar.fina.postLamIni/alefWavyhamzaabove-ar.fina.postLamMed/alefWavyhamzabelow-ar.fina.postLamIni/alefWavyhamzabelow-ar.fina.postLamMed/alefMadda-ar.fina.postLamIni/alefMadda-ar.fina.postLamMed/alefWasla-ar.fina.postLamIni/alefWasla-ar.fina.postLamMed/highhamzaAlef-ar.fina.postLamIni/highhamzaAlef-ar.fina.postLamMed/alefTwoabove-ar.fina.postLamIni/alefTwoabove-ar.fina.postLamMed/alefThreeabove-ar.fina.postLamIni/alefThreeabove-ar.fina.postLamMed 
-/lam-ar/lam-ar.fina/lam-ar.medi/lam-ar.init/lam-ar.medi.preAlef/lam-ar.init.preAlef/lamVabove-ar/lamVabove-ar.fina/lamVabove-ar.medi/lamVabove-ar.init/lamVabove-ar.medi.preAlef/lamVabove-ar.init.preAlef/lamDotabove-ar/lamDotabove-ar.fina/lamDotabove-ar.medi/lamDotabove-ar.init/lamDotabove-ar.medi.preAlef/lamDotabove-ar.init.preAlef/lamThreedotsabove-ar/lamThreedotsabove-ar.fina/lamThreedotsabove-ar.medi/lamThreedotsabove-ar.init/lamThreedotsabove-ar.medi.preAlef/lamThreedotsabove-ar.init.preAlef/lamTahabove-ar/lamTahabove-ar.fina/lamTahabove-ar.medi/lamTahabove-ar.init/lamTahabove-ar.medi.preAlef/lamTahabove-ar.init.preAlef/lamThreedotsbelow-ar/lamThreedotsbelow-ar.fina/lamThreedotsbelow-ar.medi/lamThreedotsbelow-ar.init/lamThreedotsbelow-ar.medi.preAlef/lamThreedotsbelow-ar.init.preAlef/lamBar-ar/lamBar-ar.fina/lamBar-ar.medi/lamBar-ar.init/lamBar-ar.medi.preAlef/lamBar-ar.init.preAlef/lamDoublebar-ar/lamDoublebar-ar.fina/lamDoublebar-ar.medi/lamDoublebar-ar.init/lamDoublebar-ar.medi.preAlef/lamDoublebar-ar.init.preAlef 
-/lam_alef-ar/lam_alef-ar.fina/lam_alefWavyhamzaabove-ar/lam_alefWavyhamzaabove-ar.fina/lam_alefWavyhamzabelow-ar/lam_alefWavyhamzabelow-ar.fina/lam_alefWasla-ar/lam_alefWasla-ar.fina/lam_alefTwoabove-ar/lam_alefTwoabove-ar.fina/lam_alefThreeabove-ar/lam_alefThreeabove-ar.fina/lamVabove_alef-ar/lamVabove_alef-ar.fina/lamVabove_alefWavyhamzaabove-ar/lamVabove_alefWavyhamzaabove-ar.fina/lamVabove_alefWavyhamzabelow-ar/lamVabove_alefWavyhamzabelow-ar.fina/lamVabove_alefWasla-ar/lamVabove_alefWasla-ar.fina/lamVabove_alefTwoabove-ar/lamVabove_alefTwoabove-ar.fina/lamVabove_alefThreeabove-ar/lamVabove_alefThreeabove-ar.fina 
-/lamDotabove_alef-ar/lamDotabove_alef-ar.fina/lamDotabove_alefWavyhamzaabove-ar/lamDotabove_alefWavyhamzaabove-ar.fina/lamDotabove_alefWavyhamzabelow-ar/lamDotabove_alefWavyhamzabelow-ar.fina/lamDotabove_alefWasla-ar/lamDotabove_alefWasla-ar.fina/lamDotabove_alefTwoabove-ar/lamDotabove_alefTwoabove-ar.fina/lamDotabove_alefThreeabove-ar/lamDotabove_alefThreeabove-ar.fina/lamThreedotsabove_alef-ar/lamThreedotsabove_alef-ar.fina/lamThreedotsabove_alefWavyhamzaabove-ar 
-/lamThreedotsabove_alefWavyhamzaabove-ar.fina/lamThreedotsabove_alefWavyhamzabelow-ar/lamThreedotsabove_alefWavyhamzabelow-ar.fina/lamThreedotsabove_alefWasla-ar/lamThreedotsabove_alefWasla-ar.fina/lamThreedotsabove_alefTwoabove-ar/lamThreedotsabove_alefTwoabove-ar.fina/lamThreedotsabove_alefThreeabove-ar/lamThreedotsabove_alefThreeabove-ar.fina/lamTahabove_alef-ar/lamTahabove_alef-ar.fina/lamTahabove_alefWavyhamzaabove-ar/lamTahabove_alefWavyhamzaabove-ar.fina/lamTahabove_alefWavyhamzabelow-ar/lamTahabove_alefWavyhamzabelow-ar.fina/lamTahabove_alefWasla-ar/lamTahabove_alefWasla-ar.fina/lamTahabove_alefTwoabove-ar/lamTahabove_alefTwoabove-ar.fina/lamTahabove_alefThreeabove-ar/lamTahabove_alefThreeabove-ar.fina 
-/lamThreedotsbelow_alef-ar/lamThreedotsbelow_alef-ar.fina/lamThreedotsbelow_alefWavyhamzaabove-ar/lamThreedotsbelow_alefWavyhamzaabove-ar.fina/lamThreedotsbelow_alefWavyhamzabelow-ar/lamThreedotsbelow_alefWavyhamzabelow-ar.fina/lamThreedotsbelow_alefWasla-ar/lamThreedotsbelow_alefWasla-ar.fina/lamThreedotsbelow_alefTwoabove-ar/lamThreedotsbelow_alefTwoabove-ar.fina/lamThreedotsbelow_alefThreeabove-ar/lamThreedotsbelow_alefThreeabove-ar.fina/lamBar_alef-ar/lamBar_alef-ar.fina/lamBar_alefWavyhamzaabove-ar/lamBar_alefWavyhamzaabove-ar.fina/lamBar_alefWavyhamzabelow-ar/lamBar_alefWavyhamzabelow-ar.fina/lamBar_alefWasla-ar/lamBar_alefWasla-ar.fina/lamBar_alefTwoabove-ar/lamBar_alefTwoabove-ar.fina/lamBar_alefThreeabove-ar/lamBar_alefThreeabove-ar.fina 
-/lamDoublebar_alef-ar/lamDoublebar_alef-ar.fina/lamDoublebar_alefWavyhamzaabove-ar/lamDoublebar_alefWavyhamzaabove-ar.fina/lamDoublebar_alefWavyhamzabelow-ar/lamDoublebar_alefWavyhamzabelow-ar.fina/lamDoublebar_alefWasla-ar/lamDoublebar_alefWasla-ar.fina/lamDoublebar_alefTwoabove-ar/lamDoublebar_alefTwoabove-ar.fina/lamDoublebar_alefThreeabove-ar/lamDoublebar_alefThreeabove-ar.fina/lam-ar.init.allah1/lam-ar.medi.allah1/lam-ar.medi.allah2</string>
+    <string>HAMBURGER
+0123456789
+/zero.pnum/one.pnum/two.pnum/three.pnum/four.pnum/five.pnum/six.pnum/seven.pnum/eight.pnum/nine.pnum</string>
+    <string>0123456789/zero.medium/one.medium/two.medium/three.medium/four.medium/five.medium/six.medium/seven.medium/eight.medium/nine.medium/zero.small/one.small/two.small/three.small/four.small/five.small/six.small/seven.small/eight.small/nine.small 
+/zero.pnum/one.pnum/two.pnum/three.pnum/four.pnum/five.pnum/six.pnum/seven.pnum/eight.pnum/nine.pnum 
+/zero-ar/one-ar/two-ar/three-ar/four-ar/five-ar/six-ar/seven-ar/eight-ar/nine-ar/zero-ar.tnum/one-ar.tnum/two-ar.tnum/three-ar.tnum/four-ar.tnum/five-ar.tnum/six-ar.tnum/seven-ar.tnum/eight-ar.tnum/nine-ar.tnum/zero-persian.tnum/one-persian.tnum/two-persian.tnum/three-persian.tnum/four-persian.tnum/four-persian.urdu.tnum/four-persian.roh.tnum/five-persian.tnum/six-persian.tnum/six-persian.urdu.tnum/seven-persian.tnum/seven-persian.urdu.tnum/eight-persian.tnum/nine-persian.tnum/zero-ar.medium/one-ar.medium/two-ar.medium/three-ar.medium/four-ar.medium/five-ar.medium/six-ar.medium/seven-ar.medium/eight-ar.medium/nine-ar.medium/zero-ar.small/one-ar.small/two-ar.small/three-ar.small/four-ar.small/five-ar.small/six-ar.small/seven-ar.small/eight-ar.small/nine-ar.small/zero-persian/one-persian/two-persian/three-persian/four-persian/four-persian.urdu/four-persian.roh/five-persian/six-persian/six-persian.urdu/seven-persian/seven-persian.urdu/eight-persian/nine-persian/zero-persian.medium/one-persian.medium/two-persian.medium/three-persian.medium/four-persian.medium/four-persian.urdu.medium/four-persian.roh.medium/five-persian.medium/six-persian.medium/six-persian.urdu.medium/seven-persian.medium/seven-persian.urdu.medium/eight-persian.medium/nine-persian.medium/zero-persian.small/one-persian.small/two-persian.small/three-persian.small/four-persian.small/four-persian.urdu.small/four-persian.roh.small/five-persian.small/six-persian.small/six-persian.urdu.small/seven-persian.small/seven-persian.urdu.small/eight-persian.small/nine-persian.small</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
@@ -213,37 +190,47 @@
     <string>zero</string>
     <string>zero.medium</string>
     <string>zero.small</string>
+    <string>zero.pnum</string>
     <string>one</string>
     <string>one.medium</string>
     <string>one.small</string>
     <string>one.numr</string>
+    <string>one.pnum</string>
     <string>two</string>
     <string>two.medium</string>
     <string>two.small</string>
     <string>two.dnom</string>
+    <string>two.pnum</string>
     <string>three</string>
     <string>three.medium</string>
     <string>three.small</string>
     <string>three.numr</string>
+    <string>three.pnum</string>
     <string>four</string>
     <string>four.medium</string>
     <string>four.small</string>
     <string>four.dnom</string>
+    <string>four.pnum</string>
     <string>five</string>
     <string>five.medium</string>
     <string>five.small</string>
+    <string>five.pnum</string>
     <string>six</string>
     <string>six.medium</string>
     <string>six.small</string>
+    <string>six.pnum</string>
     <string>seven</string>
     <string>seven.medium</string>
     <string>seven.small</string>
+    <string>seven.pnum</string>
     <string>eight</string>
     <string>eight.medium</string>
     <string>eight.small</string>
+    <string>eight.pnum</string>
     <string>nine</string>
     <string>nine.medium</string>
     <string>nine.small</string>
+    <string>nine.pnum</string>
     <string>colon</string>
     <string>colon.latn</string>
     <string>semicolon</string>
@@ -1890,37 +1877,47 @@
     <string>zero</string>
     <string>zero.medium</string>
     <string>zero.small</string>
+    <string>zero.pnum</string>
     <string>one</string>
     <string>one.medium</string>
     <string>one.small</string>
     <string>one.numr</string>
+    <string>one.pnum</string>
     <string>two</string>
     <string>two.medium</string>
     <string>two.small</string>
     <string>two.dnom</string>
+    <string>two.pnum</string>
     <string>three</string>
     <string>three.medium</string>
     <string>three.small</string>
     <string>three.numr</string>
+    <string>three.pnum</string>
     <string>four</string>
     <string>four.medium</string>
     <string>four.small</string>
     <string>four.dnom</string>
+    <string>four.pnum</string>
     <string>five</string>
     <string>five.medium</string>
     <string>five.small</string>
+    <string>five.pnum</string>
     <string>six</string>
     <string>six.medium</string>
     <string>six.small</string>
+    <string>six.pnum</string>
     <string>seven</string>
     <string>seven.medium</string>
     <string>seven.small</string>
+    <string>seven.pnum</string>
     <string>eight</string>
     <string>eight.medium</string>
     <string>eight.small</string>
+    <string>eight.pnum</string>
     <string>nine</string>
     <string>nine.medium</string>
     <string>nine.small</string>
+    <string>nine.pnum</string>
     <string>colon</string>
     <string>colon.latn</string>
     <string>semicolon</string>

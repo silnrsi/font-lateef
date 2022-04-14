@@ -4,6 +4,6 @@
   <anchor x="0" y="0" name="digitL"/>
   <anchor x="660" y="0" name="digitR"/>
   <outline>
-    <component base="zero" xScale="0.65" yScale="0.8" xOffset="38" yOffset="20"/>
+    <component base="zero" xScale="0.8" yScale="0.8" xOffset="10" yOffset="20"/>
   </outline>
 </glyph>

@@ -888,6 +888,8 @@
   <string>eight-persian.tnum.glif</string>
   <key>eight.medium</key>
   <string>eight.medium.glif</string>
+  <key>eight.pnum</key>
+  <string>eight.pnum.glif</string>
   <key>eight.small</key>
   <string>eight.small.glif</string>
   <key>ellipsis</key>
@@ -1060,6 +1062,8 @@
   <string>five-persian.tnum.glif</string>
   <key>five.medium</key>
   <string>five.medium.glif</string>
+  <key>five.pnum</key>
+  <string>five.pnum.glif</string>
   <key>five.small</key>
   <string>five.small.glif</string>
   <key>fl</key>
@@ -1108,6 +1112,8 @@
   <string>four.dnom.glif</string>
   <key>four.medium</key>
   <string>four.medium.glif</string>
+  <key>four.pnum</key>
+  <string>four.pnum.glif</string>
   <key>four.small</key>
   <string>four.small.glif</string>
   <key>fourperemspace</key>
@@ -2074,6 +2080,8 @@
   <string>nine-persian.tnum.glif</string>
   <key>nine.medium</key>
   <string>nine.medium.glif</string>
+  <key>nine.pnum</key>
+  <string>nine.pnum.glif</string>
   <key>nine.small</key>
   <string>nine.small.glif</string>
   <key>nonbreakinghyphen</key>
@@ -2230,6 +2238,8 @@
   <string>one.medium.glif</string>
   <key>one.numr</key>
   <string>one.numr.glif</string>
+  <key>one.pnum</key>
+  <string>one.pnum.glif</string>
   <key>one.small</key>
   <string>one.small.glif</string>
   <key>onehalf</key>
@@ -2710,6 +2720,8 @@
   <string>seven-persian.urdu.tnum.glif</string>
   <key>seven.medium</key>
   <string>seven.medium.glif</string>
+  <key>seven.pnum</key>
+  <string>seven.pnum.glif</string>
   <key>seven.small</key>
   <string>seven.small.glif</string>
   <key>shadda-ar</key>
@@ -2790,6 +2802,8 @@
   <string>six-persian.urdu.tnum.glif</string>
   <key>six.medium</key>
   <string>six.medium.glif</string>
+  <key>six.pnum</key>
+  <string>six.pnum.glif</string>
   <key>six.small</key>
   <string>six.small.glif</string>
   <key>sixperemspace</key>
@@ -2990,6 +3004,8 @@
   <string>three.medium.glif</string>
   <key>three.numr</key>
   <string>three.numr.glif</string>
+  <key>three.pnum</key>
+  <string>three.pnum.glif</string>
   <key>three.small</key>
   <string>three.small.glif</string>
   <key>threedots-ar</key>
@@ -3068,6 +3084,8 @@
   <string>two.dnom.glif</string>
   <key>two.medium</key>
   <string>two.medium.glif</string>
+  <key>two.pnum</key>
+  <string>two.pnum.glif</string>
   <key>two.small</key>
   <string>two.small.glif</string>
   <key>twosuperior</key>
@@ -3388,6 +3406,8 @@
   <string>zero-persian.tnum.glif</string>
   <key>zero.medium</key>
   <string>zero.medium.glif</string>
+  <key>zero.pnum</key>
+  <string>zero.pnum.glif</string>
   <key>zero.small</key>
   <string>zero.small.glif</string>
   <key>zeroWidthNoBreakSpace</key>
