@@ -43,7 +43,7 @@ nine
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>=|six</string>
+      <string>=|six.pnum</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>six.pnum</string>
       <key>public.markColor</key>
