@@ -249,7 +249,11 @@ pass(4)	// Features, special behaviors
 	  g_decimalseparator_ar  >  g_decimalseparator_ar_slash;
 	endif;
 
-	if (tabularDigits == on)
+	if (proportionalFigures == on)
+		cno_pnum > cpnum;
+	endif;
+
+	if (tabularFigures == on)
 		cno_tnum > ctnum;
 	endif;
 

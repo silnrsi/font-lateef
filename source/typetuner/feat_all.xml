@@ -191,12 +191,22 @@
 		</value>
 	</feature>
 
-	<feature name="Tabular digits" value="False" tag="Td">
+	<feature name="Proportional figures" value="False" tag="Pf">
 		<value name="False" tag="F">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="True" tag="T">
-			<cmd name="lookup_add" args="GSUB {liga_arab_dflt} {TabularDigits}"/>
+			<cmd name="lookup_add" args="GSUB {liga_arab_dflt} {ProportionalFigures}"/>
+			<cmd name="gr_feat" args="{gr_pnum} 1"/>
+		</value>
+	</feature>
+
+	<feature name="Tabular figures" value="False" tag="Tf">
+		<value name="False" tag="F">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="True" tag="T">
+			<cmd name="lookup_add" args="GSUB {liga_arab_dflt} {TabularFigures}"/>
 			<cmd name="gr_feat" args="{gr_tnum} 1"/>
 		</value>
 	</feature>

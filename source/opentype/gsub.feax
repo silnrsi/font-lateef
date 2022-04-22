@@ -689,12 +689,20 @@ lookup SignWithDigits {
 } SignWithDigits;
 
 #********************
-# Tabular Numbers: tnum
+# Proportional Figures: pnum
 
-lookup TabularDigits {
+lookup ProportionalFigures {
+  lookupflag IgnoreMarks ;
+    sub @cno_pnum by @c_pnum ;
+} ProportionalFigures ;
+
+#********************
+# Tabular Figures: tnum
+
+lookup TabularFigures {
   lookupflag IgnoreMarks ;
     sub @cno_tnum by @c_tnum ;
-} TabularDigits ;
+} TabularFigures ;
 
 #********
 # Yehbarree substituions to prevent collisions -- must be after lang-specific CALTs and cv48
@@ -1052,7 +1060,14 @@ feature liga {  # Ligatures  -- we use this because liga is done in the same pas
         lookup SignWithDigits;           # Must execute after cv82
 } liga ;
 
-feature tnum {  # Tabular numbers
-    # Same for latin & arabic:
-        lookup TabularDigits ;            # Must execute after SignWithDigits
+
+
+feature tnum {  # Tabular figures
+    # default for latin, select for arabic:
+        lookup TabularFigures ;            # Must execute after SignWithDigits
 } tnum ;
+
+feature pnum {  # Proportional figures
+    # default for arabic, select for latin:
+        lookup ProportionalFigures ;            # Must execute after SignWithDigits
+} pnum ;
