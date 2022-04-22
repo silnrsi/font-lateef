@@ -7,9 +7,9 @@ set -e
 # Check and normalize all UFOs first -- assumes no other steps de-normalize
 echo
 echo "Normalizing UFOs..."
-psfnormalize -p scrlevel=w -p checkfix=fix source/masters/Lateef-ExtraLight.ufo  &
-psfnormalize -p scrlevel=w -p checkfix=fix source/masters/Lateef-Regular.ufo  &
-psfnormalize -p scrlevel=w -p checkfix=fix source/masters/Lateef-ExtraBold.ufo  &
+psfnormalize -p scrlevel=w -p checkfix=check source/masters/Lateef-ExtraLight.ufo  &
+psfnormalize -p scrlevel=w -p checkfix=check source/masters/Lateef-Regular.ufo  &
+psfnormalize -p scrlevel=w -p checkfix=check source/masters/Lateef-ExtraBold.ufo  &
 wait
 
 echo
