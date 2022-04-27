@@ -21,4 +21,5 @@ cv80,End of ayah,Standard,Simplified A,Simplified B
 cv82,Eastern digits,Standard,Sindhi-style,Urdu-style,Kurdish-style,Rohingya-style
 cv84,Comma,Upward,Downward
 cv85,Decimal separator,Small reh,Slash
-tnum,Tabular digits,False,True
+pnum,Proportional Figures,False,True
+tnum,Tabular Figures,False,True

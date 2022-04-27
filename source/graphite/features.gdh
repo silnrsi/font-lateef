@@ -245,9 +245,25 @@ easternDigits {
     default = std;
 }
 
-tabularDigits {
+tabularFigures {
     id = "tnum";
-    name.1033 = string("Tabular digits");
+    name.1033 = string("Tabular figures");
+    settings {
+        off {
+            value = 0;
+            name.1033 = string("False");
+        }
+        on {
+            value = 1;
+            name.1033 = string("True");
+        }
+    }
+    default = off;
+}
+
+proportionalFigures {
+    id = "pnum";
+    name.1033 = string("Proportional figures");
     settings {
         off {
             value = 0;
