@@ -15,6 +15,7 @@ argspec = [
     ('output', {'help': 'Output file ftml in XML format', 'nargs': '?'}, {'type': 'outfile', 'def': '_out.ftml'}),
     ('-i','--input', {'help': 'Glyph info csv file'}, {'type': 'incsv', 'def': 'glyph_data.csv'}),
     ('-f','--fontcode', {'help': 'letter to filter for glyph_data'},{}),
+    ('--prevfont', {'help': 'font file of previous version', 'default': None}, {'type': 'filename'}),
     ('-l','--log', {'help': 'Set log file name'}, {'type': 'outfile', 'def': '_ftml.log'}),
     ('--langs', {'help':'List of bcp47 language tags', 'default': None}, {}),
     ('--rtl', {'help': 'enable right-to-left features', 'action': 'store_true'}, {}),
@@ -65,7 +66,10 @@ def joinGoupSortKey(uid:int):
 ageToFlag = 14.0
 ageColor = '#FFC8A0'      # light orange -- marks if there is a char from above Unicode version or later
 missingColor = '#FFE0E0'  # light red -- mark if a char is missing from UFO
-backgroundLegend = f'Background colors: light orange: includes a character from Unicode version {ageToFlag} or later; light red: a character is missing from UFO'
+newColor = '#F0FFF0'      # light green -- mark if char is not in previous version (if --prevFont supplied)
+backgroundLegend = f'Background colors: light orange: includes a character from Unicode version {ageToFlag} or later; ' + \
+                   'light red: a character is missing from UFO; ' \
+                   'light green: a character is new in this version of the font'
 
 def doit(args):
     logger = args.logger
@@ -106,6 +110,12 @@ def doit(args):
     ftml = FB.FTML(test, logger, comment=backgroundLegend, rendercheck=not args.norendercheck, fontscale=args.scale,
                    widths=widths, xslfn=args.xsl, fontsrc=fontsrc, fontlabel=labels, defaultrtl=args.rtl)
 
+    if args.prevfont:
+        from fontTools.ttLib import TTFont
+        font = TTFont(args.prevfont)
+        prevCmap = font.getBestCmap()
+
+
     def setBackgroundColor(uids):
         # if any uid in uids is missing from the UFO, set test background color to missingColor
         if any(uid in builder.uidsMissingFromUFO for uid in uids):
@@ -113,6 +123,8 @@ def doit(args):
         # else if any uid in uids has Unicode age >= ageToFlag, then set the test background color to ageColor
         elif max(map(lambda x: float(get_ucd(x, 'age')), uids)) >= ageToFlag:
             ftml.setBackground(ageColor)
+        elif args.prevfont and any(uid not in prevCmap for uid in uids):
+            ftml.setBackground(newColor)
 
     if test.lower().startswith("allchars"):
         # all chars that should be in the font:
@@ -466,8 +478,9 @@ def doit(args):
         # NB: I wondered about including punctuation, i.e.,  get_ucd(uid, 'gc').startswith('P'), but the default
         #     spacing is pretty good and graphite collision avoidance makes it worse, so the only one we need is FDFE
 
-        dbehf = chr(0x066E) + chr(0x200D)  # dotless beh final
+        dbeh = chr(0x066E)   # dotless
         alef = chr(0x0627)   # alef
+        beh = chr(0x0628)
         zwj  = chr(0x200D)   # Zero width joiner
         ma = 0x064B     # Mark above (fathatan)
         mb = 0x064D # chr(0x064D)     # Mark below (kasratan)
@@ -507,7 +520,7 @@ def doit(args):
                 setBackgroundColor((uid,))
                 for featlist in builder.permuteFeatures(uids=(uid,)):
                     ftml.setFeatures(featlist)
-                    ftml.addToTest(uid, c + dbehf + ' ' + zwj + c + dbehf, label, comment)
+                    ftml.addToTest(uid, c + dbeh + c + dbeh + alef, label, comment)
                 ftml.clearFeatures()
                 ftml.clearBackground()
                 ftml.closeTest()
@@ -520,7 +533,7 @@ def doit(args):
                 setBackgroundColor((uid,))
                 for featlist in builder.permuteFeatures(uids=(uid,)):
                     ftml.setFeatures(featlist)
-                    ftml.addToTest(uid, c + dbehf + ' ' + zwj + c + dbehf, label, comment)
+                    ftml.addToTest(uid, alef + c + dbeh + c + dbeh + alef, label, comment)
                 ftml.clearFeatures()
                 ftml.clearBackground()
                 ftml.closeTest()
