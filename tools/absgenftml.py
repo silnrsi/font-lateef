@@ -478,8 +478,9 @@ def doit(args):
         # NB: I wondered about including punctuation, i.e.,  get_ucd(uid, 'gc').startswith('P'), but the default
         #     spacing is pretty good and graphite collision avoidance makes it worse, so the only one we need is FDFE
 
-        dbehf = chr(0x066E) + chr(0x200D)  # dotless beh final
+        dbeh = chr(0x066E)   # dotless
         alef = chr(0x0627)   # alef
+        beh = chr(0x0628)
         zwj  = chr(0x200D)   # Zero width joiner
         ma = 0x064B     # Mark above (fathatan)
         mb = 0x064D # chr(0x064D)     # Mark below (kasratan)
@@ -519,7 +520,7 @@ def doit(args):
                 setBackgroundColor((uid,))
                 for featlist in builder.permuteFeatures(uids=(uid,)):
                     ftml.setFeatures(featlist)
-                    ftml.addToTest(uid, c + dbehf + ' ' + zwj + c + dbehf, label, comment)
+                    ftml.addToTest(uid, c + dbeh + c + dbeh + alef, label, comment)
                 ftml.clearFeatures()
                 ftml.clearBackground()
                 ftml.closeTest()
@@ -532,7 +533,7 @@ def doit(args):
                 setBackgroundColor((uid,))
                 for featlist in builder.permuteFeatures(uids=(uid,)):
                     ftml.setFeatures(featlist)
-                    ftml.addToTest(uid, c + dbehf + ' ' + zwj + c + dbehf, label, comment)
+                    ftml.addToTest(uid, alef + c + dbeh + c + dbeh + alef, label, comment)
                 ftml.clearFeatures()
                 ftml.clearBackground()
                 ftml.closeTest()
