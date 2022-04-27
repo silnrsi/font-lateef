@@ -17,6 +17,8 @@
 #****************************
 #****************************
 
+include(../../source/opentype/oldStyleKerning.feax); 
+
 
 #********************
 # Mark attachment
@@ -158,6 +160,7 @@ feature kern {  # Kerning
     # Same for latin & arabic:
         lookup SubtendingMarks;
         lookup kernpairs;
+        lookup oldStyleKerning;
 
 do if opt("noOTkern") == "";	
 {
