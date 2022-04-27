@@ -72,6 +72,7 @@ lookup oldStyleKerning {
     #gr   cAinLikeIsol {advance.x += 200m} / cRehWawAll MARKS cAnyMarksBelow MARKS _ ;
 
     pos @RehWawAll' <200 0 200 0> @MarksBelow             @AinLikeIsol ;  #gr
+    pos @RehWawAll' <200 0 200 0> @MarksBelow @MarksAny   @AinLikeIsol ;  #gr
     pos @RehWawAll' <200 0 200 0> @MarksAny   @MarksBelow @AinLikeIsol ;  #gr
 
     #gr   // otherwise tighten some reh/wah (nothing below) to following Ain-like isolates
