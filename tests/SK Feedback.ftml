@@ -7,7 +7,7 @@
     <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
     <fontsrc label="Lt">url(../results/Lateef-Light.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
-    <fontsrc label="Reg">url(../results/Lateef-Medium.ttf)</fontsrc>
+    <fontsrc label="Med">url(../results/Lateef-Medium.ttf)</fontsrc>
     <fontsrc label="SemBld">url(../results/Lateef-SemiBold.ttf)</fontsrc>
     <fontsrc label="Bold">url(../results/Lateef-Bold.ttf)</fontsrc>
     <fontsrc label="ExBld">url(../results/Lateef-ExtraBold.ttf)</fontsrc>

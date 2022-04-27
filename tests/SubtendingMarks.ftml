@@ -2,7 +2,7 @@
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
-    <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO</comment>
+    <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
     <fontsrc label="SchNew (inst)">local(Scheherazade New)</fontsrc>
     <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
@@ -48,27 +48,27 @@
     </test>
   </testgroup>
   <testgroup label="Group">
-    <test label="U+0600 latn">
+    <test background="#f0fff0" label="U+0600 latn">
       <comment>number-ar</comment>
       <string>\u000628\u000600\u000645 \u0006002 \u00060022 \u000600222 \u00060012</string>
     </test>
-    <test label="U+0601 latn">
+    <test background="#f0fff0" label="U+0601 latn">
       <comment>year-ar</comment>
       <string>\u000628\u000601\u000645 \u0006012 \u00060122 \u000601222 \u0006012222 \u00060112</string>
     </test>
-    <test label="U+0602 latn">
+    <test background="#f0fff0" label="U+0602 latn">
       <comment>footnotemarker-ar</comment>
       <string>\u000628\u000602\u000645 \u0006022 \u00060222 \u00060212</string>
     </test>
-    <test label="U+0603 latn">
+    <test background="#f0fff0" label="U+0603 latn">
       <comment>pagenumber-ar</comment>
       <string>\u000628\u000603\u000645 \u0006032 \u00060322 \u000603222 \u0006032222 \u00060312</string>
     </test>
-    <test label="U+0604 latn">
+    <test background="#f0fff0" label="U+0604 latn">
       <comment>samvat-ar</comment>
       <string>\u000628\u000604\u000645 \u0006042 \u00060422 \u000604222 \u0006042222 \u00060412</string>
     </test>
-    <test label="U+0605 latn">
+    <test background="#f0fff0" label="U+0605 latn">
       <comment>numbermark-ar</comment>
       <string>\u000628\u000605\u000645 \u0006052 \u00060522 \u000605222 \u0006052222 \u00060512</string>
     </test>
@@ -84,27 +84,27 @@
       <comment>endofayah-ar</comment>
       <string>\u000628\u0006DD\u000645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
     </test>
-    <test label="U+0600 arab">
+    <test background="#f0fff0" label="U+0600 arab">
       <comment>number-ar</comment>
       <string>\u000628\u000600\u000645 \u000600\u000668 \u000600\u000668\u000668 \u000600\u000668\u000668\u000668 \u000600\u000661\u000662</string>
     </test>
-    <test label="U+0601 arab">
+    <test background="#f0fff0" label="U+0601 arab">
       <comment>year-ar</comment>
       <string>\u000628\u000601\u000645 \u000601\u000668 \u000601\u000668\u000668 \u000601\u000668\u000668\u000668 \u000601\u000668\u000668\u000668\u000668 \u000601\u000661\u000662</string>
     </test>
-    <test label="U+0602 arab">
+    <test background="#f0fff0" label="U+0602 arab">
       <comment>footnotemarker-ar</comment>
       <string>\u000628\u000602\u000645 \u000602\u000668 \u000602\u000668\u000668 \u000602\u000661\u000662</string>
     </test>
-    <test label="U+0603 arab">
+    <test background="#f0fff0" label="U+0603 arab">
       <comment>pagenumber-ar</comment>
       <string>\u000628\u000603\u000645 \u000603\u000668 \u000603\u000668\u000668 \u000603\u000668\u000668\u000668 \u000603\u000668\u000668\u000668\u000668 \u000603\u000661\u000662</string>
     </test>
-    <test label="U+0604 arab">
+    <test background="#f0fff0" label="U+0604 arab">
       <comment>samvat-ar</comment>
       <string>\u000628\u000604\u000645 \u000604\u000668 \u000604\u000668\u000668 \u000604\u000668\u000668\u000668 \u000604\u000668\u000668\u000668\u000668 \u000604\u000661\u000662</string>
     </test>
-    <test label="U+0605 arab">
+    <test background="#f0fff0" label="U+0605 arab">
       <comment>numbermark-ar</comment>
       <string>\u000628\u000605\u000645 \u000605\u000668 \u000605\u000668\u000668 \u000605\u000668\u000668\u000668 \u000605\u000668\u000668\u000668\u000668 \u000605\u000661\u000662</string>
     </test>
@@ -120,27 +120,27 @@
       <comment>endofayah-ar</comment>
       <string>\u000628\u0006DD\u000645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
     </test>
-    <test label="U+0600 urdu">
+    <test background="#f0fff0" label="U+0600 urdu">
       <comment>number-ar</comment>
       <string>\u000628\u000600\u000645 \u000600\u0006F8 \u000600\u0006F8\u0006F8 \u000600\u0006F8\u0006F8\u0006F8 \u000600\u0006F1\u0006F2</string>
     </test>
-    <test label="U+0601 urdu">
+    <test background="#f0fff0" label="U+0601 urdu">
       <comment>year-ar</comment>
       <string>\u000628\u000601\u000645 \u000601\u0006F8 \u000601\u0006F8\u0006F8 \u000601\u0006F8\u0006F8\u0006F8 \u000601\u0006F8\u0006F8\u0006F8\u0006F8 \u000601\u0006F1\u0006F2</string>
     </test>
-    <test label="U+0602 urdu">
+    <test background="#f0fff0" label="U+0602 urdu">
       <comment>footnotemarker-ar</comment>
       <string>\u000628\u000602\u000645 \u000602\u0006F8 \u000602\u0006F8\u0006F8 \u000602\u0006F1\u0006F2</string>
     </test>
-    <test label="U+0603 urdu">
+    <test background="#f0fff0" label="U+0603 urdu">
       <comment>pagenumber-ar</comment>
       <string>\u000628\u000603\u000645 \u000603\u0006F8 \u000603\u0006F8\u0006F8 \u000603\u0006F8\u0006F8\u0006F8 \u000603\u0006F8\u0006F8\u0006F8\u0006F8 \u000603\u0006F1\u0006F2</string>
     </test>
-    <test label="U+0604 urdu">
+    <test background="#f0fff0" label="U+0604 urdu">
       <comment>samvat-ar</comment>
       <string>\u000628\u000604\u000645 \u000604\u0006F8 \u000604\u0006F8\u0006F8 \u000604\u0006F8\u0006F8\u0006F8 \u000604\u0006F8\u0006F8\u0006F8\u0006F8 \u000604\u0006F1\u0006F2</string>
     </test>
-    <test label="U+0605 urdu">
+    <test background="#f0fff0" label="U+0605 urdu">
       <comment>numbermark-ar</comment>
       <string>\u000628\u000605\u000645 \u000605\u0006F8 \u000605\u0006F8\u0006F8 \u000605\u0006F8\u0006F8\u0006F8 \u000605\u0006F8\u0006F8\u0006F8\u0006F8 \u000605\u0006F1\u0006F2</string>
     </test>
