@@ -5,19 +5,15 @@ Lateef
 Thank you for your interest in the Lateef font.
 We hope you find it useful!
 
-The Lateef font does not contain complete coverage of all the 
-characters defined in Unicode for Arabic script. The font is 
-intended to contain all the characters required for use by languages 
-which use this Sindhi-style (excluding the Arabic Presentation Forms 
-blocks, which are not recommended for normal use). 
+Lateef is named after Shah Abdul Lateef Bhitai, the famous Sindhi 
+mystic and poet. It is intended to be an appropriate style for use 
+in Sindhi and other languages of the South Asian region.
 
-Named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and poet, 
-this font is intended to be an appropriate style for use in Sindhi and other 
-languages of the southern Asia.
-
-Font smarts are implemented using OpenType and Graphite technologies. 
-A number of glyph variations are accessible through font features
-available via both OpenType and Graphite technologies. 
+This release supports virtually all of the Unicode 13.0 Arabic character 
+repertoire (excluding the Arabic Presentation Forms blocks, which are not 
+recommended for normal use). Font smarts are 
+implemented using state-of-the-art OpenType technology, including 
+variant glyphs for a number of characters for use in particular contexts. 
 
 Lateef is released under the SIL Open Font License.
 Lateef is a trademark of SIL International.
