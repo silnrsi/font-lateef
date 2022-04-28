@@ -1,6 +1,6 @@
 ---
 title: Lateef - Versions and Changes
-fontversion: 2.000
+fontversion: 1.400 beta
 ---
 
 ## Announcement list

@@ -63,7 +63,7 @@ Sindhi-style | <span dir="rtl" class='lateef-cv44-1-R normal'> م ممم ݥ ݥݥ
 <span class='affects'>Affects: U+0647</span>
 
 Feature | Sample | Feature setting
-------------- | ---------------: | ------------- 
+------------- | --------------- | ------------- 
 Standard | <span dir="rtl" class='lateef-R normal'> ه ههه </span>| `cv48=0`
 Kurdish-style | <span dir="rtl" class='lateef-cv48-3-R normal'> ه ههه </span>| `cv48=3`
 Sindhi-style | <span dir="rtl" class='lateef-cv48-1-R normal'> ه ههه </span>| `cv48=1`
@@ -74,7 +74,7 @@ Urdu-style | <span dir="rtl" class='lateef-cv48-2-R normal'> ه ههه </span>| 
 <span class='affects'>Affects: U+06C5</span>
 
 Feature | Sample | Feature setting
-------------- | ---------------: | ------------- 
+------------- | --------------- | ------------- 
 Loop | <span dir="rtl" class='lateef-R normal'>ۅ</span> | `cv51=0`
 Bar | <span dir="rtl" class='lateef-cv51-1-R normal'>ۅ</span>| `cv51=1`
 
@@ -83,7 +83,7 @@ Bar | <span dir="rtl" class='lateef-cv51-1-R normal'>ۅ</span>| `cv51=1`
 <span class='affects'>Affects: U+0626</span>
 
 Feature | Sample | Feature setting
-------------- | ---------------: | ------------- 
+------------- | --------------- | ------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>ئ ‍ئ</span> | `cv54=0`
 Right hamza| <span dir="rtl" class='lateef-cv54-1-R normal'>ئ ‍ئ</span>| `cv54=1`
 
@@ -93,7 +93,7 @@ Right hamza| <span dir="rtl" class='lateef-cv54-1-R normal'>ئ ‍ئ</span>| `cv
 <span class='affects'>Affects: U+064D, U+0650 with U+0651</span>
 
 Feature | Sample | Feature setting
-------------- | ---------------: | ------------- 
+------------- | --------------- | ------------- 
 Raised | <span dir="rtl" class='lateef-R normal'> بِّ ◌ِّ بٍّ ◌ٍّ </span> | `cv62=0`
 Lowered | <span dir="rtl" class='lateef-cv62-1-R normal'> بِّ ◌ِّ بٍّ ◌ٍّ </span>| `cv62=1`
 
@@ -103,8 +103,8 @@ Lowered | <span dir="rtl" class='lateef-cv62-1-R normal'> بِّ ◌ِّ بٍّ 
 <span class='affects'>Affects: U+064F</span>
 
 Feature | Sample | Feature setting
-------------- | ---------------: | ------------- 
-Standard | <span dir="rtl" class='lateef-R normal'> بُ ◌ُ</span> | `cv70=0`
+------------- | --------------- | ------------- 
+Default | <span dir="rtl" class='lateef-R normal'> بُ ◌ُ</span> | `cv70=0`
 Filled | <span dir="rtl" class='lateef-cv70-1-R normal'>بُ ◌ُ</span>| `cv70=1`
 
 #### Dammatan 
@@ -112,7 +112,7 @@ Filled | <span dir="rtl" class='lateef-cv70-1-R normal'>بُ ◌ُ</span>| `cv70
 <span class='affects'>Affects: U+064C</span>
 
 Feature | Sample | Feature setting
-------------- | ---------------: | ------------- 
+------------- | --------------- | ------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>بٌ ◌ٌ</span> | `cv72=0`
 Six-nine | <span dir="rtl" class='lateef-cv72-1-R normal'>بٌ ◌ٌ</span>| `cv72=1`
 
@@ -131,7 +131,7 @@ Large | <span dir="rtl" class='lateef-cv76-1-R normal'>ئٰ ئٰئٰئٰ ىٰ ى
 <span class='affects'>Affects: U+0652</span>
 
 Feature | Sample | Feature setting
-------------- | ---------------: | ------------- 
+------------- | --------------- | ------------- 
 Closed | <span dir="rtl" class='lateef-R normal'>بْ ◌ْ</span> | `cv78=0`
 Open down | <span dir="rtl" class='lateef-cv78-1-R normal'>بْ ◌ْ</span>| `cv78=1`
 Open left | <span dir="rtl" class='lateef-cv78-2-R normal'>بْ ◌ْ</span>| `cv78=2`
@@ -152,7 +152,7 @@ Surrounding the sequence with U+202D and U+202C seems to give the most reliable 
 In the example below, the following codepoints are used: U+202D U+06DD U+0031 U+0032 U+0033 U+202C U+202D U+06DD U+0611 U+0622 U+0663 U+202C.
 
 Feature | Sample | Feature setting
-------------- | ---------------: | ------------- 
+------------- | --------------- | ------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span> | `cv80=0`
 Simplified A | <span dir="rtl" class='lateef-cv80-1-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `cv80=1`
 Simplified B | <span dir="rtl" class='lateef-cv80-2-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `cv80=2`
@@ -163,19 +163,41 @@ Simplified B | <span dir="rtl" class='lateef-cv80-2-R normal'>&#x202D;&#x6DD;&#x
 <span class='affects'>Affects: U+06F4, U+06F6, U+06F7</span>
 
 Feature | Sample | Feature setting
-------------- | ---------------: | ------------- 
+------------- | --------------- | ------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>&#x06F4;&#x06F6;&#x06F7;</span> | `cv82=0`
+Kurdish-style | <span dir="rtl" class='lateef-cv82-3-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=3`
+Rohingya-style | <span dir="rtl" class='lateef-cv82-4-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=4`
 Sindhi-style | <span dir="rtl" class='lateef-cv82-1-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=1`
 Urdu-style | <span dir="rtl" class='lateef-cv82-2-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=2`
-Rohingya-style | <span dir="rtl" class='lateef-cv82-4-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=4`
 
+## Proportional Figures
+
+Tabular digits are the default for Latin digits. Lateef supports the OpenType **Proportional Figures (pnum)** for Latin digits.
+
+<span class='affects'>Affects: U+0030..U+0039</span>
+
+Feature | Sample | Feature setting
+------------- | ------ | ------------- 
+Tabular Figures      | <span dir="ltr" class='lateefL-R normal'> 0 1 2 3 4 5 6 7 8 9</span>| `pnum=0`
+Proportional Figures     | <span dir="ltr" class='lateefL-pnum-1-R normal'> 0 1 2 3 4 5 6 7 8 9</span>| `pnum=1`
+
+## Tabular Figures
+
+Proportional digits are the default for Arabic digits. Lateef supports the OpenType **Tabular Figures (tnum)** for Arabic digits.
+
+<span class='affects'>Affects: U+0660..U+0669, U+06F0.. U+06F9</span>
+
+Feature | Sample | Feature setting
+------------- | ------ | ------------- 
+Proportional Figures      | <span dir="rtl" class='lateef-R normal'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=0`
+Tabular Figures     | <span dir="rtl" class='lateef-tnum-1-R normal'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=1`
 
 #### Comma 
 
 <span class='affects'>Affects: U+060C, U+061B</span>
 
 Feature | Sample |  Feature setting
-------------- | ---------------: | ------------- 
+------------- | --------------- | ------------- 
 Upward | <span dir="rtl" class='lateef-R normal'>، ؛</span> | `cv84=0`
 Downward | <span dir="rtl" class='lateef-cv84-1-R normal'>، ؛</span>| `cv84=1`
 
@@ -184,7 +206,7 @@ Downward | <span dir="rtl" class='lateef-cv84-1-R normal'>، ؛</span>| `cv84=1`
 <span class='affects'>Affects: U+066B</span>
 
 Feature | Sample |  Feature setting
-------------- | ---------------: | ------------- 
+------------- | --------------- | ------------- 
 Small reh | <span dir="rtl" class='lateef-R normal'>&#x066B;</span> | `cv85=0`
 Slash | <span dir="rtl" class='lateef-cv85-1-R normal'>&#x066B;</span>| `cv85=1`
 
@@ -195,9 +217,9 @@ Allows for adjustment of the default line spacing in the font (values shown are 
 
 Feature | 
 ------------- | ---------------  
-Tight | 
 Normal | 
 Loose |
+Extra Loose | 
 
 
 
@@ -220,8 +242,11 @@ Loose |
 [font id='lateef-cv78-2' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='cv78 2']
 [font id='lateef-cv80-1' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='cv80 1']
 [font id='lateef-cv80-2' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='cv80 2']
+[font id='lateef-cv82-3' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='cv82 3']
+[font id='lateef-cv82-4' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='cv82 4']
 [font id='lateef-cv82-1' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='cv82 1']
 [font id='lateef-cv82-2' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='cv82 2']
-[font id='lateef-cv82-4' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='cv82 4']
+[font id='lateef-pnum-1' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='pnum 1']
+[font id='lateef-tnum-1' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='tnum 1']
 [font id='lateef-cv84-1' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='cv84 1']
 [font id='lateef-cv85-1' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='cv85 1']

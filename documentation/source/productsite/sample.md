@@ -127,8 +127,18 @@ Regular:<span class='lateefL-R normal'> ™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √ 
 <p dir="rtl"><span class='lateef-R normal'>للآباء الحق الأول في اختيار نوع تربية أولادهم.</span></p>
             
 
+## Sindhi UDHR #26:
+
+<p dir="rtl"><span class='lateef-B normal'>آرٽيڪل 26.</span></p>
+<p dir="rtl"><span class='lateef-cv44-1-cv84-1-R normal'>(1) هر فر د کي تعليم حاصل ڪرڻ جو حق آهي. گهٽ ۾ گهٽ تعليم ايليمينٽري تا بنيادي سطح تائين فراهم ڪئي  وڃي. ايليمنيٽري سطح تائين تعليم حاصل ڪرڻ لازمي هوندي. هڪ پاسي ٽڪينيڪل تاپروفيشنل تعليم کي عوام لاءِ موجود ڪيو ويندو ته ٻي پاسي اهليت پٽاندڙ اعليٰ تعيلم تائين پهچڻ جو حق سڀني هڪ جيتر و حا صل هوندو.</span></p>
+<p dir="rtl"><span class='lateef-cv44-1-cv84-1-R normal'>(2) تعليم و سيلي هر هڪ جي انساني شخصيت کي و ڌايو ويندو ته ٻي پاسي انساني حقن ۽ بنيادي آز اىين و اسطي احتر ام و اري جذبي کي سگهارو ڪيو ويندو، ان جي معر فت قو من، نسلي ۽ مذهبي گروهن جي و چ ۾ هڪ ٻئي جي سمجهه، هڪ ٻئي لاءِ سهپ، دوستيءَ جا جنبا و ڌايا و يندا، ٻي پاسي گڏيل قومن پار ان امن لاءِ ڪيو ن وينىڙ ڪو ششون واتيون وينديون.</span></p>
+<p dir="rtl"><span class='lateef-cv44-1-cv84-1-R normal'>(3) والدين کي پنهنجي ٻار کي ڏني و ينىڙ تعليم جي طر يقي جي چونڊ جو او لين حق حا صل هو ندو.</span></p>
+
 
 [font id='lateef' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1]
 [font id='lateefL' face='Lateef-Regular' bold='Lateef-Bold' size='150%' ltr=1]
 
 
+[font id='lateef-cv44-1-cv84-1' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='cv44 1, cv84 1']
+[font id='lateef-cv44-1-cv84-1' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='cv44 1, cv84 1']
+[font id='lateef-cv44-1-cv84-1' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1 feats='cv44 1, cv84 1']

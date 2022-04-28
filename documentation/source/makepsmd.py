@@ -64,13 +64,25 @@ def doit(args):
     temptext = temptext.replace(".rawmd",".md")
 
     # make a list of new classes needed for font shortcode
-    fontclass = re.compile(r"style='font-feature-settings:\s\"(\w+\d*)\"\s(\d+)'")
-    for match in fontclass.finditer(temptext):
+    # separate searches for spans with 1, 2, or 3 settings
+    fontclass1 = re.compile(r"style='font-feature-settings:\s\"(\w+\d*)\"\s(\d+)'")
+    fontclass2 = re.compile(r"style='font-feature-settings:\s\"(\w+\d*)\"\s(\d+),\s\"(\w+\d*)\"\s(\d+)'")
+    fontclass3 = re.compile(r"style='font-feature-settings:\s\"(\w+\d*)\"\s(\d+),\s\"(\w+\d*)\"\s(\d+),\s\"(\w+\d*)\"\s(\d+)'")
+    for match in fontclass1.finditer(temptext):
          classes.append(("-" + match.group(1) + "-" + match.group(2), match.group(1) + " " + match.group(2)))
+    for match in fontclass2.finditer(temptext):
+         classes.append(("-" + match.group(1) + "-" + match.group(2) + "-" + match.group(3) + "-" + match.group(4), match.group(1) + " " + match.group(2) + ", " + match.group(3) + " " + match.group(4)))
+    for match in fontclass3.finditer(temptext):
+         classes.append(("-" + match.group(1) + "-" + match.group(2) + "-" + match.group(3) + "-" + match.group(4) + "-" + match.group(5) + "-" + match.group(6), match.group(1) + " " + match.group(2) + ", " + match.group(3) + " " + match.group(4) + ", " + match.group(5) + " " + match.group(6)))
 
     # transform explicit font feature settings into classes
-    fontspan = re.compile(r"class='(\w+)+-(\w+)+\snormal'\sstyle='font-feature-settings:\s\"(\w+\d*)\"\s(\d+)'>")
-    temptext = fontspan.sub(r"class='\1-\3-\4-\2 normal'>", temptext)
+    # separate searches for spans with 1, 2, or 3 settings
+    fontspan1 = re.compile(r"class='(\w+)+-(\w+)+\snormal'\sstyle='font-feature-settings:\s\"(\w+\d*)\"\s(\d+)'>")
+    fontspan2 = re.compile(r"class='(\w+)+-(\w+)+\snormal'\sstyle='font-feature-settings:\s\"(\w+\d*)\"\s(\d+),\s\"(\w+\d*)\"\s(\d+)'>")
+    fontspan3 = re.compile(r"class='(\w+)+-(\w+)+\snormal'\sstyle='font-feature-settings:\s\"(\w+\d*)\"\s(\d+),\s\"(\w+\d*)\"\s(\d+),\s\"(\w+\d*)\"\s(\d+)'>")
+    temptext = fontspan1.sub(r"class='\1-\3-\4-\2 normal'>", temptext)
+    temptext = fontspan2.sub(r"class='\1-\3-\4-\5-\6-\2 normal'>", temptext)
+    temptext = fontspan3.sub(r"class='\1-\3-\4-\5-\6-\7-\8-\2 normal'>", temptext)
 
     # add new font sortcodes for added classes
     for c in classes:

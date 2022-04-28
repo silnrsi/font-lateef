@@ -1,6 +1,6 @@
 ---
 title: Lateef - Developer information
-fontversion: 2.000
+fontversion: 1.400 beta
 ---
 
 Lateef is currently in a major development phase.

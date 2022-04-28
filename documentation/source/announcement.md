@@ -1,18 +1,38 @@
 ---
 title: Lateef - Announcement
-fontversion: 2.000
+fontversion: 1.400 beta
 ---
+
+We are pleased to release version 1.400 beta of the Lateef font family. The font package is available for download from the [GitHub repository](https://github.com/silnrsi/font-lateef/releases).
+
+We would like to receive all feedback on this version by May 27, 2022. Email Lorna with your feedback **as you find issues**. Do not wait to combine all your feedback in one email.
 
 #### Changes
 
-This release includes the following changes for this version:
+2022-04-29 (SIL WSTech team) Lateef Version 1.400 (beta release)
 
-- Add text here
+- Repackage fonts so there is one axis-based Lateef family rather than three RIBBI families
+- Reverted default linespacing to that of Lateef 1.001 which was much tighter than LateefGR
+- Reverted kerning to that of LateefGR. Characters added since LateefGR are not yet kerned.
+- TypeTuner line spacing options now include
+     - "Loose"  equivalent to LateefGR default
+     - "Extra Loose" equivalent to LateefGR Loose setting
+- Refined size and positioning of digits used with subtending marks
+- New features:
+     - cv85 - alternate for decimal separator
+     - tnum - access tabular versions of Arabic digits
+     - pnum - access proportional versions of Latin digits
+- Latin digits are now tablular spacing; use new "pnum" feature to access proportional digits
+- Added kerning for proportional Arabic digits
+- Adjusted width of various whitespace characters to conform to best practice
+- Updated Allah ligature rules
+- Added Arabic-style (rounded) versions of chevron quotes
 
 Both desktop and web fonts are provided in a single, all-platforms package on the [Download Page](https://software.sil.org/lateef/download/).
 
 #### Known issues
 
-- Add text here
+- Characters added since LateefGR are not yet kerned so spacing after reh- and waw-like characters may be incorrect. Please let us know of specific combinations that should be improved.
+- In Word, kerning of Arabic proportional digits is incorrect. This is a bug in Word.
 
 

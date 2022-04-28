@@ -1,6 +1,6 @@
 ---
 title: Lateef - Character Set Support
-fontversion: 2.000
+fontversion: 1.400 beta
 ---
 
 The Lateef font contains near-complete coverage of all the characters defined in Unicode for Arabic script (excluding the Arabic Presentation Forms blocks, which are not recommended for normal use).  
@@ -13,11 +13,12 @@ The following character ranges are supported by this font:
 
 Unicode block | Lateef support
 ------------- | ---------------
-Arabic 	| ✓
+Arabic 	| ✓ (except does not include 06EC)
 Arabic Supplement | ✓
+Arabic Extended-B | ✗
 Arabic Extended-A | does not include 08B5, 08C8..08E2
 Supplemental Punctuation | 2E41
-Arabic Presentation Forms-A | only includes FD3E..FD3F, FD40..FD4F, FDCF, FDF2, FDFA..FDFF
+Arabic Presentation Forms-A | only includes FD3E..FD3F, FDF2, FDFC
 Arabic Presentation Forms-B | ✗ 
 Codepage 1252 (Western)¹ | ✓
 

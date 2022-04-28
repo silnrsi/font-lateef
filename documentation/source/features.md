@@ -1,6 +1,6 @@
 ---
 title: Lateef - Font Features
-fontversion: 2.000
+fontversion: 1.400 beta
 ---
 
 Lateef is a TrueType font with smart font capabilities added using the OpenType font technology. The Lateef font includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerates the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Features are available in OpenType. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](http://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Kurdish, Kyrgyz, Rohingya, Sindhi, and Urdu languages variants.
@@ -108,7 +108,7 @@ Lowered | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: 
 
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
-Standard | <span dir="rtl" class='lateef-R normal'> بُ ◌ُ</span> | `cv70=0`
+Default | <span dir="rtl" class='lateef-R normal'> بُ ◌ُ</span> | `cv70=0`
 Filled | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv70" 1'>بُ ◌ُ</span>| `cv70=1`
 
 #### Dammatan 
@@ -169,10 +169,32 @@ Simplified B | <span dir="rtl" class='lateef-R normal' style='font-feature-setti
 Feature | Sample | Feature setting
 ------------- | --------------- | ------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>&#x06F4;&#x06F6;&#x06F7;</span> | `cv82=0`
+Kurdish-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv82" 3'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=3`
+Rohingya-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv82" 4'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=4`
 Sindhi-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv82" 1'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=1`
 Urdu-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv82" 2'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=2`
-Rohingya-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv82" 4'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=4`
 
+## Proportional Figures
+
+Tabular digits are the default for Latin digits. Lateef supports the OpenType **Proportional Figures (pnum)** for Latin digits.
+
+<span class='affects'>Affects: U+0030..U+0039</span>
+
+Feature | Sample | Feature setting
+------------- | ------ | ------------- 
+Tabular Figures      | <span dir="ltr" class='lateefL-R normal'> 0 1 2 3 4 5 6 7 8 9</span>| `pnum=0`
+Proportional Figures     | <span dir="ltr" class='lateefL-R normal' style='font-feature-settings: "pnum" 1'> 0 1 2 3 4 5 6 7 8 9</span>| `pnum=1`
+
+## Tabular Figures
+
+Proportional digits are the default for Arabic digits. Lateef supports the OpenType **Tabular Figures (tnum)** for Arabic digits.
+
+<span class='affects'>Affects: U+0660..U+0669, U+06F0.. U+06F9</span>
+
+Feature | Sample | Feature setting
+------------- | ------ | ------------- 
+Proportional Figures      | <span dir="rtl" class='lateef-R normal'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=0`
+Tabular Figures     | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "tnum" 1'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=1`
 
 #### Comma 
 
@@ -199,9 +221,9 @@ Allows for adjustment of the default line spacing in the font (values shown are 
 
 Feature | 
 ------------- | ---------------  
-Tight | 
 Normal | 
 Loose |
+Extra Loose | 
 
 
 

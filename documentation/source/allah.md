@@ -1,6 +1,6 @@
 ---
 title: Lateef - Rendering the Allah ligature
-fontversion: 2.000
+fontversion: 1.400 beta
 ---
 
 
@@ -18,8 +18,6 @@ Starting with v2.000, Lateef provides the special rendering for sequences of Ara
   * The special Unicode character U+FDF2 will always display the Allah ligature.
 
 To disable the special ligature, insert a zero-width joiner character (200D) somewhere in the sequence.
-
-
 
 Characters | → | Glyph | Comment
 ---------- | - | ----  | -------

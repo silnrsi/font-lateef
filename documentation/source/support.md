@@ -1,6 +1,6 @@
 ---
 title: Lateef - Support
-fontversion: 2.000
+fontversion: 1.400 beta
 ---
 
 ## Support options

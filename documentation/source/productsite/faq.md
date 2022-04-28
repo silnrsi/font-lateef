@@ -20,7 +20,7 @@ A generic FAQ for all of our Arabic scripts fonts can be found here: [Arabic Fon
 
 The most obvious difference is that **Lateef** only provides OpenType support and **LateefGR** only provides Graphite support. For a complete list of the differences, you can read the [Release 1.200 announcement](http://software.sil.org/lateef/release-1-200/). 
 
-The upcoming version of **Lateef** will be an OpenType font that includes all the kerning support that is currently only found in **LateefGR**.
+This _beta_ version of **Lateef** is an OpenType font that includes all the kerning support that is currently only found in **LateefGR**. It also includes many more characters than were in **LateefGR**. 
 
 #### *What characters are included with this release?*
 
