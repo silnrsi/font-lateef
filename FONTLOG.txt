@@ -16,12 +16,9 @@ in Sindhi and other languages of the South Asian region.
 This release supports virtually all of the Unicode 5.0 Arabic character 
 repertoire (excluding the Arabic Presentation Forms blocks, which are not 
 recommended for normal use). A few Arabic script characters that were added 
-to Unicode 5.1, 6.0, 6.1, and 7.0 have also been included. Font smarts are implemented using Graphite 
-technology.
-
-This font uses state-of-the-art OpenType and Graphite font technologies, 
-including variant glyphs for a number of characters for use in particular 
-contexts. 
+to Unicode 5.1, 6.0, 6.1, and 7.0 have also been included. Font smarts are 
+implemented using state-of-the-art OpenType technology, including 
+variant glyphs for a number of characters for use in particular contexts. 
 
 This font provides a simplified rendering of Arabic script, using basic 
 connecting glyphs but not including a wide variety of additional ligatures 
@@ -30,31 +27,48 @@ simplified style is often preferred for clarity, especially in non-Arabic
 languages, but may be considered unattractive in more traditional and 
 literate communities.
 
-Six fonts from this typeface family are included:
+Seven weights for this typeface family are included:
 
-     * Lateef Alpha2 Regular
-     * Lateef Alpha2 Bold
-     * Lateef Alpha2 Book Regular
-     * Lateef Alpha2 Book Bold
-     * Lateef Alpha2 Light Regular
-     * Lateef Alpha2 Light Bold
-
+     * Lateef Beta ExtraLight
+     * Lateef Beta Light
+     * Lateef Beta Regular
+     * Lateef Beta Medium
+     * Lateef Beta SemiBold
+     * Lateef Beta Bold
+     * Lateef Beta ExtraBold
 
 The Latin glyphs in this font are from the Crimson Pro font family 
 (https://github.com/Fonthausen/CrimsonPro).
 
 For detailed documentation see the contents of the 'documentation' folder.
 
-Known Issues (v 1.300 alpha)
+Known Issues (v 1.400 beta)
 ----------------------------
-- This version of the font has not had the linespacing values evaluated, so there is 
-  no need to report vertical linespacing issues.
-- This version does not yet implement the latest Allah rendering rules.
-- This version does not include kerning for the proportional Arabic digits.
-  
+- Characters added since LateefGR are not yet kerned so spacing after reh- and 
+  waw-like characters may be incorrect. Please let us know of specific combinations
+  that should be improved.
+- In Word, kerning of Arabic proportional digits is incorrect. This is a bug in Word.
+
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
+
+2022-??-?? (SIL WSTech team) Lateef Version 1.400 (beta release)
+- Repackage fonts so there is one axis-based Lateef family rather than three RIBBI families
+- Reverted default linespacing to that of Lateef 1.001 which was much tighter than LateefGR
+- Reverted kerning to that of LateefGR. Characters added since LateefGr are not yet kerned.
+- TypeTuner line spacing options now include
+     - "Loose"  equivalent to LateefGR default
+     - "Extra Loose" equivalent to LateefGR Loose setting
+- Refined size and positioning of digits used with subtending marks
+- New features:
+     - cv85 - alternate for decimal separator
+     - tnum - access tabular versions of Arabic digits
+     - pnum - access proportional versions of Latin digits
+- Latin digits are now tablular spacing; use new "pnum" feature to access proportional digits
+- Added kerning for proportional Arabic digits
+- Adjusted width of various whitespace characters to conform to best practice
+- Updated Allah ligature rules
 
 2021-11-29 (SIL WSTech team) Lateef Version 1.300 (alpha release)
 - Removed Graphite from the font
