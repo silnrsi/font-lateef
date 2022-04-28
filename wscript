@@ -82,7 +82,7 @@ designspace('source/lateef.designspace',
     script = 'arab', 
     pdf = fret(params='-b -r -oi'),
     woff = woff('web/${DS:FILENAME_BASE}', 
-        metadata='../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml',
+        metadata=f'../source/{FAMILY}-WOFF-metadata.xml',
         ),
     typetuner = typetuner(typetunerfile),
     **extras)
