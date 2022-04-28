@@ -4,6 +4,9 @@
   <head>
     <fontscale>300</fontscale>
     <fontsrc label="LateefGR">url(../references/LateefGR-1.200.ttf)</fontsrc>
+    <fontsrc label="Alpha2Lt">url(../references/LateefLight-Regular.ttf)</fontsrc>
+    <fontsrc label="Alpha2Reg">url(../references/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="Alpha2Bk">url(../references/LateefBook-Regular.ttf)</fontsrc>
     <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
     <fontsrc label="Lt">url(../results/Lateef-Light.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
