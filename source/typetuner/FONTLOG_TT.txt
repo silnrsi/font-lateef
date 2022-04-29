@@ -15,9 +15,9 @@ in Sindhi and other languages of the South Asian region.
 
 This release supports virtually all of the Unicode 13.0 Arabic character 
 repertoire (excluding the Arabic Presentation Forms blocks, which are not 
-recommended for normal use). Font smarts are 
-implemented using state-of-the-art OpenType technology, including 
-variant glyphs for a number of characters for use in particular contexts. 
+recommended for normal use). Font smarts are implemented using 
+state-of-the-art OpenType technology, including variant glyphs for a 
+number of characters for use in particular contexts. 
 
 This font provides a simplified rendering of Arabic script, using basic 
 connecting glyphs but not including a wide variety of additional ligatures 
@@ -79,9 +79,10 @@ ChangeLog
 - See included xml file for details of feature changes.
 
 2022-04-29 (SIL WSTech team) Lateef Version 1.400 (beta release)
-- Repackage fonts so there is one axis-based Lateef family rather than three RIBBI families
-- Reverted default linespacing to that of Lateef 1.001 which was much tighter than LateefGR
-- Reverted kerning to that of LateefGR. Characters added since LateefGR are not yet kerned.
+- Repackage fonts so there is a single Lateef family (containing seven weights) rather
+  than three families, each having two weights (Regular, Bold)
+- Adjusted default linespacing to match that of Lateef 1.001 (which is tighter than LateefGR)
+- Adjusted kerning to be similar to that of LateefGR
 - TypeTuner line spacing options now include
      - "Loose"  equivalent to LateefGR default
      - "Extra Loose" equivalent to LateefGR Loose setting

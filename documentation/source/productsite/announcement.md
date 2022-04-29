@@ -7,9 +7,9 @@ We would like to receive all feedback on this version by May 27, 2022. Email Lor
 
 2022-04-29 (SIL WSTech team) Lateef Version 1.400 (beta release)
 
-- Repackage fonts so there is one axis-based Lateef family rather than three RIBBI families
-- Reverted default linespacing to that of Lateef 1.001 which was much tighter than LateefGR
-- Reverted kerning to that of LateefGR. Characters added since LateefGR are not yet kerned.
+- Repackage fonts so there is a single Lateef family (containing seven weights) rather than three families, each having two weights (Regular, Bold)
+- Adjusted default linespacing to match that of Lateef 1.001 (which is tighter than LateefGR)
+- Adjusted kerning to be similar to that of LateefGR
 - TypeTuner line spacing options now include
      - "Loose"  equivalent to LateefGR default
      - "Extra Loose" equivalent to LateefGR Loose setting
