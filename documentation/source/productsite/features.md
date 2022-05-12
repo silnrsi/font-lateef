@@ -212,17 +212,6 @@ Small reh | <span dir="rtl" class='lateef-R normal'>&#x066B;</span> | `cv85=0`
 Slash | <span dir="rtl" class='lateef-cv85-1-R normal'>&#x066B;</span>| `cv85=1`
 
 
-#### Line spacing 
-
-Allows for adjustment of the default line spacing in the font (values shown are ordered in increasing line spacing). This feature is only available with TypeTuner.
-
-Feature | 
-------------- | ---------------  
-Normal | 
-Loose |
-Extra Loose | 
-
-
 
 [font id='lateef' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1]
 [font id='lateefL' face='Lateef-Regular' bold='Lateef-Bold' size='150%' ltr=1]
