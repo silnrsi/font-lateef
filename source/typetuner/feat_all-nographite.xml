@@ -203,21 +203,6 @@
 		</value>
 	</feature>
 	
-	<feature name="Line spacing" value="Normal"	tag="LnSpc">
-		<value name="Normal" tag="Nrml">
-			<cmd name="null" args="1937 1024"/>
-		</value>
-		<value name="Loose" tag="Ls">
-			<cmd name="line_gap" args="2742 1488"/>
-		</value>
-		<value name="Extra Loose" tag="ExLs">
-			<cmd name="line_gap" args="3668 1593"/>
-		</value>
-		<value name="Imported" tag="Im">
-			<cmd name="line_metrics_scaled" args="null"/>
-		</value>
-	</feature>
-
 	<interactions>
 		<test select="Lng-Def Kas-Low">
 			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
