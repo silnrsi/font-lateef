@@ -15,7 +15,7 @@ argspec = [
     ('output', {'help': 'Output file ftml in XML format', 'nargs': '?'}, {'type': 'outfile', 'def': '_out.ftml'}),
     ('-i','--input', {'help': 'Glyph info csv file'}, {'type': 'incsv', 'def': 'glyph_data.csv'}),
     ('-f','--fontcode', {'help': 'letter to filter for glyph_data'},{}),
-    ('--prevfont', {'help': 'font file of previous version', 'default': None}, {'type': 'filename'}),
+    ('--prevfont', {'help': 'font file of previous version'}, {'type': 'filename', 'def': None}),
     ('-l','--log', {'help': 'Set log file name'}, {'type': 'outfile', 'def': '_ftml.log'}),
     ('--langs', {'help':'List of bcp47 language tags', 'default': None}, {}),
     ('--rtl', {'help': 'enable right-to-left features', 'action': 'store_true'}, {}),
@@ -110,10 +110,13 @@ def doit(args):
     ftml = FB.FTML(test, logger, comment=backgroundLegend, rendercheck=not args.norendercheck, fontscale=args.scale,
                    widths=widths, xslfn=args.xsl, fontsrc=fontsrc, fontlabel=labels, defaultrtl=args.rtl)
 
-    if args.prevfont:
-        from fontTools.ttLib import TTFont
-        font = TTFont(args.prevfont)
-        prevCmap = font.getBestCmap()
+    if args.prevfont is not None:
+        try:
+            from fontTools.ttLib import TTFont
+            font = TTFont(args.prevfont)
+            prevCmap = font.getBestCmap()
+        except:
+            logger.log(f'Unable to open previous font {args.prevfont}', 'S')
 
 
     def setBackgroundColor(uids):
