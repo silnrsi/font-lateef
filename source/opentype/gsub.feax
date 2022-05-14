@@ -873,7 +873,7 @@ feature cv44 {  # Character Variant 44
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Meem"         ; };
         #ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style" ; };
     } ;
 } cv44 ;
 
@@ -910,9 +910,9 @@ feature cv51 {  # Character Variant 51
 #      language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Kyrgyz OE" ; };
-       #ParamUILabelNameID { name 3 1 0x0409 "Loop" ; };
-       #ParamUILabelNameID { name 3 1 0x0409 "Bar"   ; };
-    } ;
+        #ParamUILabelNameID { name 3 1 0x0409 "Loop"      ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Bar"       ; };
+    } ;    
 } cv51 ;
 
 feature cv54 {  # Character Variant 54
@@ -927,9 +927,9 @@ feature cv54 {  # Character Variant 54
      language URD  ;
 #     language WLF  ;
     cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Yeh-Hamza" ; };
-       #ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
-       #ParamUILabelNameID { name 3 1 0x0409 "Right hamza"   ; };
+        FeatUILabelNameID  { name 3 1 0x0409 "Yeh-Hamza"    ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Right hamza"  ; };
     } ;
 } cv54 ;
 
@@ -951,7 +951,7 @@ feature cv70 {  # Character Variant 70
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
         #ParamUILabelNameID { name 3 1 0x0409 "Default"  ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
     } ;
 } cv70 ;
 
@@ -962,9 +962,9 @@ feature cv72 {  # Character Variant 72
     script arab ;
         language RHG exclude_dflt ;
     cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Dammatan" ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Six-nine" ; };
+        FeatUILabelNameID  { name 3 1 0x0409 "Dammatan"  ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Six-nine"  ; };
     } ;
 } cv72 ;
 
@@ -1020,7 +1020,7 @@ feature cv84 {  # Character Variant 84
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Comma"    ; };
         #ParamUILabelNameID { name 3 1 0x0409 "Upward"   ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Downward" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Downward" ; };
     } ;
 } cv84 ;
 
@@ -1028,9 +1028,9 @@ feature cv85 {  # Character Variant 85
 		# Same for latin & arabic:
 			lookup DecimalSepAlternate;
     cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Decmal separator"    ; };
-       #ParamUILabelNameID { name 3 1 0x0409 "Small reh"   ; };
-       #ParamUILabelNameID { name 3 1 0x0409 "Slash" ; };
+        FeatUILabelNameID  { name 3 1 0x0409 "Decmal separator"  ; };
+        #ParamUILabelNameID { name 3 1 0x0409 "Small reh"         ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Slash"             ; };
     } ;
 } cv85 ;
 
@@ -1059,7 +1059,6 @@ feature liga {  # Ligatures  -- we use this because liga is done in the same pas
         lookup AllahAlef;                # Must execute after lam-alef lig
         lookup SignWithDigits;           # Must execute after cv82
 } liga ;
-
 
 
 feature tnum {  # Tabular figures
