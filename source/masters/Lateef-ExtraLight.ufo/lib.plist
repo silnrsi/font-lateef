@@ -987,7 +987,6 @@
     <string>gafRing-ar</string>
     <string>gafRing-ar.fina</string>
     <string>gafRing-ar.medi</string>
-    <string>gafRing-ar.medi.001</string>
     <string>gafRing-ar.init</string>
     <string>gafThreedots-ar</string>
     <string>gafThreedots-ar.fina</string>
@@ -2674,7 +2673,6 @@
     <string>gafRing-ar</string>
     <string>gafRing-ar.fina</string>
     <string>gafRing-ar.medi</string>
-    <string>gafRing-ar.medi.001</string>
     <string>gafRing-ar.init</string>
     <string>gafThreedots-ar</string>
     <string>gafThreedots-ar.fina</string>
@@ -4224,8 +4222,6 @@
     <string>uni06B0.init</string>
     <key>gafRing-ar.medi</key>
     <string>uni06B0.medi</string>
-    <key>gafRing-ar.medi.001</key>
-    <string>uni06B0.medi.001</string>
     <key>gafThreedots-ar</key>
     <string>uni06B4</string>
     <key>gafThreedots-ar.fina</key>
