@@ -30,6 +30,17 @@ Some applications will list all the weights but leave out Bold. To access the Bo
 
 If you choose a weight other than Regular (such as ExtraLight), then use application controls to turn on Bold, some applications will make a "fake" Bold rather than use one of the real ones in the font (Medium, SemiBold, Bold, ExtraBold). This is because only Regular has an associated Bold counterpart. This is a technical limitation with some apps and OSes. If you are using some other weight than Regular for text and want to make a word or phrase stand out you will need to select the text and apply one of the heavier weights manually. 
 
+### *I understand there is kerning for the Arabic proportional digits. However, it is not working.*
+
+The main application which does not support the kerning of the Arabic proportional digits seems to be Microsoft Word (at least on Windows). It does not correctly process the pair kerning of the proportional Arabic digits that are in font. 
+
+Some workarounds:
+- Switch to Tabular digits (in the **Advanced** Font dialog)
+- Force the run to be LTR (using [Right-to-left script macros](https://software.sil.org/arabicfonts/right-to-left-scripts-in-microsoft-office/))
+   - Select the digits, then choose **ABS Utilities: Set Run Ltr**
+- Surround sequences with appropriate direction controls such as U+200E LEFT-TO-RIGHT MARK or U+202D LEFT-TO-RIGHT OVERRIDE with U+202C POP DIRECTIONAL FORMATTING (however, in our testing these did not seem to fix the issue)
+
+
 ### *What are the differences between the **Lateef** and **LateefGR** fonts?*
 
 The most obvious difference is that **Lateef** only provides OpenType support and **LateefGR** only provides Graphite support. For a complete list of the differences between **Lateef** version 1.001 and **LateefGR**, you can read the [Release 1.200 announcement](http://software.sil.org/lateef/release-1-200/). 
