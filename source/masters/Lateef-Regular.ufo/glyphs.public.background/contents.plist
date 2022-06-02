@@ -524,6 +524,8 @@
   <string>qafD_otless-ar.fina.glif</string>
   <key>qafLamAlefMaksuraabove-ar</key>
   <string>qafL_amA_lefM_aksuraabove-ar.glif</string>
+  <key>question-ar</key>
+  <string>question-ar.glif</string>
   <key>quotedblleft</key>
   <string>quotedblleft.glif</string>
   <key>quoteleft</key>

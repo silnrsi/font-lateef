@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_dot_punct" format="2">
-  <advance width="508"/>
-  <anchor x="265" y="-180" name="_above"/>
-  <anchor x="265" y="180" name="_below"/>
-  <anchor x="265" y="0" name="_center"/>
+  <advance width="474"/>
+  <anchor x="248" y="-180" name="_above"/>
+  <anchor x="248" y="180" name="_below"/>
+  <anchor x="248" y="0" name="_center"/>
   <outline>
-    <component base="_dot1" xScale="1.331" yScale="1.331" xOffset="254"/>
+    <component base="_dot1" xScale="1.331" yScale="1.331" xOffset="237"/>
   </outline>
 </glyph>

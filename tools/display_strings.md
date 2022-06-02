@@ -17,7 +17,7 @@
 
 /exclam.latn/asterisk.latn/parenleft.latn/parenright.latn .,;  /quotedblleft.latn Font/quotedblright.latn
 !*(/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init ا) (٣١٩)
-۔،/comma-ar.downward ⹁‚؛:/semicolon-ar.downward ⁏!()‘’“”
+۔،/comma-ar.downward ⹁‚؛:/semicolon-ar.downward ⁏؟!()‘’“”
 ‘٧’ “/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init ا” 
 
 ## Latin+Arabic Digits & Subtending marks

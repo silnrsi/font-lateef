@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semicolon-ar.downward" format="2">
-  <advance width="432"/>
+  <advance width="412"/>
   <outline>
-    <component base="_dot_punct" xOffset="22" yOffset="442"/>
-    <component base="_comma" yScale="-1" xOffset="40" yOffset="201"/>
+    <component base="_dot_punct" yOffset="442"/>
+    <component base="_comma" yScale="-1" xOffset="17" yOffset="201"/>
   </outline>
   <lib>
     <dict>

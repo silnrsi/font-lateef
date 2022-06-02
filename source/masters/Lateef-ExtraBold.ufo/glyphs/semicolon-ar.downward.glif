@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semicolon-ar.downward" format="2">
-  <advance width="508"/>
+  <advance width="497"/>
   <guideline x="211" y="227" angle="270"/>
   <outline>
     <component base="_dot_punct" yOffset="509"/>

@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclam" format="2">
-  <advance width="465"/>
+  <advance width="474"/>
   <unicode hex="0021"/>
   <outline>
-    <component base="_dot1" xOffset="231" yOffset="102"/>
+    <component base="_dot_punct" yOffset="116"/>
     <contour>
-      <point x="345" y="1054" type="curve"/>
-      <point x="80" y="915" type="line"/>
-      <point x="96" y="671"/>
-      <point x="127" y="523"/>
-      <point x="216" y="288" type="curve"/>
-      <point x="241" y="294" type="line"/>
-      <point x="235" y="553"/>
-      <point x="273" y="779"/>
+      <point x="353" y="1100" type="curve"/>
+      <point x="88" y="961" type="line"/>
+      <point x="104" y="717"/>
+      <point x="135" y="563"/>
+      <point x="224" y="328" type="curve"/>
+      <point x="249" y="334" type="line"/>
+      <point x="243" y="593"/>
+      <point x="281" y="825"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>_comma</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

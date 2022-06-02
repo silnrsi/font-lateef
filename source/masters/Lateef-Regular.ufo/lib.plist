@@ -4,12 +4,16 @@
 <dict>
   <key>GSCornerRadius</key>
   <integer>15</integer>
+  <key>GSOffsetAutoStroke</key>
+  <integer>1</integer>
   <key>GSOffsetHorizontal</key>
-  <integer>10</integer>
+  <integer>50</integer>
   <key>GSOffsetKeepCompatible</key>
   <integer>1</integer>
+  <key>GSOffsetMakeStroke</key>
+  <integer>1</integer>
   <key>GSOffsetVertical</key>
-  <integer>0</integer>
+  <integer>180</integer>
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict>
     <key>GSDimensionPlugin.Dimensions</key>
@@ -121,16 +125,16 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3124</string>
+  <string>3129</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>HAMBURGER
-0123456789
-/zero.pnum/one.pnum/two.pnum/three.pnum/four.pnum/five.pnum/six.pnum/seven.pnum/eight.pnum/nine.pnum</string>
-    <string>/figurespace/figurespace.tnum/one.numr/two.dnom/four.dnom ¹²³/foursuperior ½¼¾0123456789/zero.medium/one.medium/two.medium/three.medium/four.medium/five.medium/six.medium/seven.medium/eight.medium/nine.medium/zero.small/one.small/two.small/three.small/four.small/five.small/six.small/seven.small/eight.small/nine.small 
-/zero.pnum/one.pnum/two.pnum/three.pnum/four.pnum/five.pnum/six.pnum/seven.pnum/eight.pnum/nine.pnum 
-/zero-ar/one-ar/two-ar/three-ar/four-ar/five-ar/six-ar/seven-ar/eight-ar/nine-ar/zero-ar.tnum/one-ar.tnum/two-ar.tnum/three-ar.tnum/four-ar.tnum/five-ar.tnum/six-ar.tnum/seven-ar.tnum/eight-ar.tnum/nine-ar.tnum/zero-persian.tnum/one-persian.tnum/two-persian.tnum/three-persian.tnum/four-persian.tnum/four-persian.urdu.tnum/four-persian.roh.tnum/five-persian.tnum/six-persian.tnum/six-persian.urdu.tnum/seven-persian.tnum/seven-persian.urdu.tnum/eight-persian.tnum/nine-persian.tnum/zero-ar.medium/one-ar.medium/two-ar.medium/three-ar.medium/four-ar.medium/five-ar.medium/six-ar.medium/seven-ar.medium/eight-ar.medium/nine-ar.medium/zero-ar.small/one-ar.small/two-ar.small/three-ar.small/four-ar.small/five-ar.small/six-ar.small/seven-ar.small/eight-ar.small/nine-ar.small/zero-persian/one-persian/two-persian/three-persian/four-persian/four-persian.urdu/four-persian.roh/five-persian/six-persian/six-persian.urdu/seven-persian/seven-persian.urdu/eight-persian/nine-persian/zero-persian.medium/one-persian.medium/two-persian.medium/three-persian.medium/four-persian.medium/four-persian.urdu.medium/four-persian.roh.medium/five-persian.medium/six-persian.medium/six-persian.urdu.medium/seven-persian.medium/seven-persian.urdu.medium/eight-persian.medium/nine-persian.medium/zero-persian.small/one-persian.small/two-persian.small/three-persian.small/four-persian.small/four-persian.urdu.small/four-persian.roh.small/five-persian.small/six-persian.small/six-persian.urdu.small/seven-persian.small/seven-persian.urdu.small/eight-persian.small/nine-persian.small</string>
-    <string>/punctuationspace .</string>
+    <string>/exclam.latn/asterisk.latn/parenleft.latn/parenright.latn .,;/space/space/quotedblleft.latn Font/quotedblright.latn 
+!*(/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init/alef-ar )/space (/three-ar/one-ar/nine-ar )
+/fullstop-ar/_dot_punct/_comma/comma-ar/comma-ar.downward/commareversed/quotesinglbase.arab/semicolon-ar :/semicolon-ar.downward/reversedsemicolon ?/question-ar !/quoteleft/quoteright/quotedblleft/quotedblright 
+/comma-ar.downward/alef-ar/dal-ar.fina/noon-ar.init/zain-ar/space/question-ar/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space !/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space/fullstop-ar/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space/comma-ar.downward/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar 
+/yeh-ar.noDots.fina/alefMaksura-ar.fina/yeh-ar.fina/yehHamzaabove-ar.fina/yehHamzaabove-ar.fina.loclKIR/yehVabove-ar.fina/yehTwodotsbelowHamzaabove-ar.fina/yehTwodotsbelowDotabove-ar.fina/yehVinverted-farsi.fina/yeh-farsi.fina/yeh-ar.noDots.fina/yehTwodotsabove-farsi.fina/yehThreedotsabove-farsi.fina/yehTwoabove-farsi.fina/yehThreeabove-farsi.fina/yehFourbelow-farsi.fina/yehTail-ar.fina/e-ar.fina/yehThreedotsbelow-ar.fina/yehTwodotsbelowNoonabove-ar.fina/highhamzaYeh-ar.fina</string>
+    <string>/question-ar/alefHamzaabove-ar/jeem-ar/thal-ar/rehv-ar/seenDotbelowDotabove-ar/zah-ar/ainThreedots-ar/gafRing-ar/lamBar-ar/lamDoublebar_alefThreeabove-ar/noon-ar/yeh-ar</string>
+    <string>897</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>3000</integer>
