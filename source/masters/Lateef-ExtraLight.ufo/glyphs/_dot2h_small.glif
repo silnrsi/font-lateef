@@ -4,7 +4,7 @@
   <anchor x="0" y="180" name="_below"/>
   <anchor x="0" y="0" name="_center"/>
   <outline>
-    <component base="_dot1_small" xOffset="-63"/>
-    <component base="_dot1_small" xOffset="64"/>
+    <component base="_dot1_small" xOffset="-79"/>
+    <component base="_dot1_small" xOffset="79"/>
   </outline>
 </glyph>
