@@ -756,6 +756,7 @@ def doit(args):
             ('cv76', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x0633, 0x0670), 'Superscript alef alternates'),
             ('cv78', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x0652,), 'Sukun alternates'),
             ('cv80', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x06DD,), 'Ayah alternates'),
+            ('cv81', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0xE002, 0xFDFD,), 'Honorific ligatures'),
             ('cv82', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x06F4, 0x06F6, 0x06F7, 0x0020, 0x06DD, 0x06F4, 0x06F6, 0x06F7), 'Eastern Digit alternates'),
             ('cv84', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x060C, 0x061B), 'Comma alternates'),
             ('cv85', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1, 'ky': 1}, (0x066B,), 'Decimal separator'),

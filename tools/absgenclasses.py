@@ -217,6 +217,12 @@ def doit(args):
         logger.log('Error reading csv input field: ' + e.message, 'S')
     next(incsv.reader, None)  # Skip first line with headers in
 
+    # RE that matches USV sequences for ligatures
+    ligatureRE = re.compile('^[0-9A-Fa-f]{4,6}(?:_[0-9A-Fa-f]{4,6})+$')
+    
+    # RE that matches space-separated USV sequences
+    USVsRE = re.compile('^[0-9A-Fa-f]{4,6}(?:\s+[0-9A-Fa-f]{4,6})*$')
+
     # Process all records in glyph_data
     for line in incsv:
         gname = line[nameCol].strip()
@@ -234,25 +240,25 @@ def doit(args):
         basename, ext = splitgname(gname)
 
         # Process USV
-        # could be empty string, a single USV or space-separated list of USVs
-        try:
-            uidList = tuple(int(x, 16) for x in line[usvCol].split())
-        except Exception as e:
-            logger.log(f'invalid USV "{line[usvCol]}" ({e.message}); ignored.', 'E')
-            uidList = tuple()
+        # could be empty string, or an underscore- or space-separated list of USVs
+        usvs = line[usvCol].strip()
+        if len(usvs) == 0:
+            # Empty USV field, unencoded glyph
+            usvs = ()
+        elif USVsRE.match(usvs):
+            # space-separated hex values:
+            usvs = usvs.split()
+            isLigature = False
+        elif ligatureRE.match(usvs):
+            # '_' separated hex values (ligatures)
+            usvs = usvs.split('_')
+            isLigature = True
+        else:
+            self._csvWarning(f"invalid USV field '{usvs}'; ignored")
+            usvs = ()
+        uids = [int(x, 16) for x in usvs]
 
-        if len(uidList) == 1:
-            # Handle simple encoded glyphs
-            uid = uidList[0]
-            basename2uid[basename] = uid
-            if ext is not None:
-                logger.log(f'encoded glyph {gname} has extensions -- be sure to check construction of variant forms', 'E')
-            addToClasses(gname, uid, basename, ext, True)
-        elif len(uidList) > 1:
-            # Handle ligature glyphs
-            ligature2uids[basename] = uidList
-            # otherwise, for now, we're ignoring ligatures
-        elif len(uidList) == 0:
+        if len(uids) == 0:
             # Handle unencoded glyphs
             # for now we're ignoring variants of ligatures:
             if basename in ligature2uids:
@@ -264,6 +270,18 @@ def doit(args):
                 addToClasses(gname, uid, basename, ext, False)
             except KeyError:
                 logger.log(f'cannot determine USV for unencoded glyph {gname}; glyph ignored', 'E')
+        elif not isLigature:
+            # Handle simple encoded glyphs
+            # TODO: What should we do if glyph has multiple encodings? Right now just take first
+            uid = uids[0]
+            basename2uid[basename] = uid
+            if ext is not None:
+                logger.log(f'encoded glyph {gname} has extensions -- be sure to check construction of variant forms', 'E')
+            addToClasses(gname, uid, basename, ext, True)
+        else:
+            # Handle ligature glyphs
+            ligature2uids[basename] = uids
+            # otherwise, for now, we're ignoring ligatures
 
     # Now output everything, even if missing or out of order
 
