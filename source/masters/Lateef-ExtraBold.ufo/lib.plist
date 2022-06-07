@@ -128,14 +128,20 @@
   <array>
     <string>/exclam.latn/asterisk.latn/parenleft.latn/parenright.latn .,;/space/space/quotedblleft.latn Font/quotedblright.latn 
 !*(/tehVabove-ar.fina/jeem-ar.medi/tah-ar.medi/beh-ar.init/alef-ar )/space (/three-ar/one-ar/nine-ar )
-/fullstop-ar/_dot_punct/_comma/comma-ar/comma-ar.downward/commareversed/quotesinglbase.arab/semicolon-ar :/semicolon-ar.downward/reversedsemicolon ?/question-ar !/quoteleft/quoteright/quotedblleft/quotedblright 
-/comma-ar.downward/alef-ar/dal-ar.fina/noon-ar.init/zain-ar/space/question-ar/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space !/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space/fullstop-ar/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space/comma-ar.downward/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar 
+/fullstop-ar/_dot_punct/_comma/comma-ar/comma-ar.downward/commareversed/quotesinglbase.arab/semicolon-ar :/semicolon-ar.downward/reversedsemicolon ?/question-ar !/quoteleft/quoteright/quotedblleft/quotedblright/space/space/space/space/space/space/space/comma-ar.downward/alef-ar/dal-ar.fina/noon-ar.init/zain-ar/space/question-ar/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space !/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space/fullstop-ar/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space/comma-ar.downward/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar 
+/fullstop-ar/_dot_punct/_comma/comma-ar/comma-ar.downward/commareversed/quotesinglbase.arab/semicolon-ar :/semicolon-ar.downward/reversedsemicolon ?/question-ar !/quoteleft/quoteright/quotedblleft/quotedblright/space/space/space/space/comma-ar.downward/alef-ar/dal-ar.fina/noon-ar.init/zain-ar/space/space/space/question-ar/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space !/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space/fullstop-ar/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space/comma-ar.downward/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar 
+/fullstop-ar/_dot_punct/_comma/comma-ar/comma-ar.downward/commareversed/quotesinglbase.arab/semicolon-ar :/semicolon-ar.downward/reversedsemicolon ?/question-ar !/quoteleft/quoteright/quotedblleft/quotedblright/space/comma-ar.downward/alef-ar/dal-ar.fina/noon-ar.init/zain-ar/space/question-ar/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space !/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space/fullstop-ar/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar/space/comma-ar.downward/yeh-ar.fina/gaf-ar.init/dal-ar.fina/noon-ar.init/zain-ar 
+
 /yeh-ar.noDots.fina/alefMaksura-ar.fina/yeh-ar.fina/yehHamzaabove-ar.fina/yehHamzaabove-ar.fina.loclKIR/yehVabove-ar.fina/yehTwodotsbelowHamzaabove-ar.fina/yehTwodotsbelowDotabove-ar.fina/yehVinverted-farsi.fina/yeh-farsi.fina/yeh-ar.noDots.fina/yehTwodotsabove-farsi.fina/yehThreedotsabove-farsi.fina/yehTwoabove-farsi.fina/yehThreeabove-farsi.fina/yehFourbelow-farsi.fina/yehTail-ar.fina/e-ar.fina/yehThreedotsbelow-ar.fina/yehTwodotsbelowNoonabove-ar.fina/highhamzaYeh-ar.fina</string>
     <string>/question-ar/alefHamzaabove-ar/jeem-ar/thal-ar/rehv-ar/seenDotbelowDotabove-ar/zah-ar/ainThreedots-ar/gafRing-ar/lamBar-ar/lamDoublebar_alefThreeabove-ar/noon-ar/yeh-ar</string>
     <string>897</string>
+    <string>/space/_dot4/space 
+/space/_dot2h/space/space/_dot2h_smallV/space/space/_dot2h_tah/space/space/_dot2v/space/space/_dot2h_small/space/space/_dot2h_tah_small/space/space/_gafBar_dot2h/space/space/space/_gafBarShort_dot2h/space/space/space/space/_dot3d/space/space/_dot3u/space/space/_dot3h/space/space/space/_dot3u_tah/space/space/_dot3d.smaller/space/space/_dot1_dot3d/space/space/_dot1_dot3u/space/_gafBar_dot3u/space/space/_gafBarShort_dot3u/space/space 
+/_dot4/space/beheh-ar/beheh-ar.fina/beheh-ar.medi/beheh-ar.init/teheh-ar/teheh-ar.fina/teheh-ar.medi/teheh-ar.init/tcheheh-ar/tcheheh-ar.fina/tcheheh-ar.medi/tcheheh-ar.init 
+/dalFourdots-ar/dalFourdots-ar.fina/rehFourdots-ar/rehFourdots-ar.fina/seenFourdotsabove-ar/seenFourdotsabove-ar.fina/seenFourdotsabove-ar.medi/seenFourdotsabove-ar.init/peheh-ar/peheh-ar.fina/peheh-ar.medi/peheh-ar.init/tcheheh-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
-  <integer>3000</integer>
+  <integer>2500</integer>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
