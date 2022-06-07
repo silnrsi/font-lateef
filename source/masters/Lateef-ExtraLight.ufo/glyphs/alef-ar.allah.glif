@@ -5,7 +5,7 @@
   <anchor x="-139" y="756" name="aboveLeft"/>
   <anchor x="45" y="-50" name="below"/>
   <anchor x="45" y="1176" name="diaA"/>
-  <anchor x="12" y="-150" name="diaB"/>
+  <anchor x="12" y="-202" name="diaB"/>
   <outline>
     <component base="alef-ar"/>
   </outline>

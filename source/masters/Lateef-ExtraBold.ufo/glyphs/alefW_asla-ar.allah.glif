@@ -3,7 +3,7 @@
   <advance width="354"/>
   <anchor x="-129" y="756" name="aboveLeft"/>
   <anchor x="195" y="1545" name="diaA"/>
-  <anchor x="163" y="-150" name="diaB"/>
+  <anchor x="163" y="-202" name="diaB"/>
   <outline>
     <component base="alefWasla-ar"/>
   </outline>
