@@ -14353,6 +14353,40 @@ U+0774">
       <string>\u0008C7\u000774 \u00200D\u0008C7\u000774  \u0008C7\u000651\u000774\u00064B \u00200D\u0008C7\u000651\u000774\u00064B  \u0008C7\u00064D\u000774 \u00200D\u0008C7\u00064D\u000774  \u0008C7\u000774\u00064D \u00200D\u0008C7\u000774\u00064D  \u0008C7\u00064D\u000774\u00064D \u00200D\u0008C7\u00064D\u000774\u00064D </string>
     </test>
   </testgroup>
+  <testgroup label="alefMadda lam collisions">
+    <test label="U+0622 U+0644">
+      <comment>alefMadda lam-ar</comment>
+      <string>\u000622\u000644\u000631 \u00200D\u000622\u000644\u000631  \u000622\u000644\u00064E\u000631 \u00200D\u000622\u000644\u00064E\u000631 </string>
+    </test>
+    <test label="U+0622 U+06B5">
+      <comment>alefMadda lamVabove-ar</comment>
+      <string>\u000622\u0006B5\u000631 \u00200D\u000622\u0006B5\u000631  \u000622\u0006B5\u00064E\u000631 \u00200D\u000622\u0006B5\u00064E\u000631 </string>
+    </test>
+    <test label="U+0622 U+06B6">
+      <comment>alefMadda lamDotabove-ar</comment>
+      <string>\u000622\u0006B6\u000631 \u00200D\u000622\u0006B6\u000631  \u000622\u0006B6\u00064E\u000631 \u00200D\u000622\u0006B6\u00064E\u000631 </string>
+    </test>
+    <test label="U+0622 U+06B7">
+      <comment>alefMadda lamThreedotsabove-ar</comment>
+      <string>\u000622\u0006B7\u000631 \u00200D\u000622\u0006B7\u000631  \u000622\u0006B7\u00064E\u000631 \u00200D\u000622\u0006B7\u00064E\u000631 </string>
+    </test>
+    <test label="U+0622 U+06B8">
+      <comment>alefMadda lamThreedotsbelow-ar</comment>
+      <string>\u000622\u0006B8\u000631 \u00200D\u000622\u0006B8\u000631  \u000622\u0006B8\u00064E\u000631 \u00200D\u000622\u0006B8\u00064E\u000631 </string>
+    </test>
+    <test label="U+0622 U+076A">
+      <comment>alefMadda lamBar-ar</comment>
+      <string>\u000622\u00076A\u000631 \u00200D\u000622\u00076A\u000631  \u000622\u00076A\u00064E\u000631 \u00200D\u000622\u00076A\u00064E\u000631 </string>
+    </test>
+    <test background="#f0fff0" label="U+0622 U+08A6">
+      <comment>alefMadda lamDoublebar-ar</comment>
+      <string>\u000622\u0008A6\u000631 \u00200D\u000622\u0008A6\u000631  \u000622\u0008A6\u00064E\u000631 \u00200D\u000622\u0008A6\u00064E\u000631 </string>
+    </test>
+    <test background="#f0fff0" label="U+0622 U+08C7">
+      <comment>alefMadda lamTahabove-ar</comment>
+      <string>\u000622\u0008C7\u000631 \u00200D\u000622\u0008C7\u000631  \u000622\u0008C7\u00064E\u000631 \u00200D\u000622\u0008C7\u00064E\u000631 </string>
+    </test>
+  </testgroup>
   <testgroup label="Shadda + Kasra">
     <test label="U+0628
 U+0650

@@ -129,6 +129,10 @@ def doit(args):
         elif args.prevfont and any(uid not in prevCmap for uid in uids):
             ftml.setBackground(newColor)
 
+    # Some lists shared used by multiple tests:
+    lamlist = sorted(filter(lambda uid: get_ucd(uid, 'jg') == 'Lam', builder.uids()))
+    aleflist = sorted(filter(lambda uid: get_ucd(uid, 'jg') == 'Alef', builder.uids()))
+
     if test.lower().startswith("allchars"):
         # all chars that should be in the font:
         ftml.startTestGroup('Encoded characters')
@@ -167,8 +171,7 @@ def doit(args):
 
         # Add Lam-Alef data manually
         ftml.startTestGroup('Lam-Alef')
-        lamlist = sorted(filter(lambda uid: get_ucd(uid,'jg') == 'Lam', builder.uids()))
-        aleflist = sorted(filter(lambda uid: get_ucd(uid,'jg') == 'Alef', builder.uids()))
+
         # for this test use beh to force final form:
         saveJoiner = builder.joinBefore
         builder.joinBefore = '\u0628'
@@ -285,8 +288,6 @@ def doit(args):
         doLongTest = 'short' not in test.lower()
 
         # Representative base and diac chars:
-        lamlist = sorted(filter(lambda uid: get_ucd(uid, 'jg') == 'Lam', builder.uids()))
-        aleflist = sorted(filter(lambda uid: get_ucd(uid, 'jg') == 'Alef', builder.uids()))
         if doLongTest:
             repDiac = list(filter(lambda x: x in builder.uids(), (0x064E, 0x0650, 0x065E, 0x0670, 0x0616, 0x06E3, 0x08F0, 0x08F2)))
             repBase = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0628, 0x062B, 0x0647, 0x064A, 0x77F, 0x08AC)))
@@ -366,7 +367,22 @@ def doit(args):
                 ftml.clearFeatures()
                 ftml.clearBackground()
                 ftml.closeTest()
-                
+
+        ftml.startTestGroup('alefMadda lam collisions')
+        alefMadda = 0x0622
+        for lam in lamlist:
+            setBackgroundColor((alefMadda, lam))
+            comment = 'alefMadda ' +builder._charFromUID[lam].basename
+            for featList in builder.permuteFeatures(uids=(alefMadda, lam)):
+                label = f'U+0622 U+{lam:04X}'
+                ftml.setFeatures(featlist)
+                builder.render((alefMadda, lam, 0x0631),         ftml, addBreaks=False, comment=comment, label=label)
+                builder.render((alefMadda, lam, 0x064E, 0x0631), ftml, addBreaks=False)
+            ftml.clearFeatures()
+            ftml.clearBackground()
+            ftml.closeTest()
+
+
         ftml.startTestGroup('Shadda + Kasra')
         shadda = 0x0651
         base = 0x0628

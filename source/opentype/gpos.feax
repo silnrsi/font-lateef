@@ -65,6 +65,14 @@ lookup mark_to_mark_below {
   pos mark @diaB_MarkBase mark @_diaB;
 } mark_to_mark_below;
 
+# ABS-2762
+# Increase vertical separation between maddah and fatha for sequences like: alefMaddah + lam-initial + fatha
+# (for all initial lam-like glyphs that have no nukta above)
+
+lookup raiseMadda {
+  lookupflag 0;
+  pos [alef-ar alef-ar.fina] madda-ar' <0 -40 0 0 >  [lam-ar.init lamThreedotsbelow-ar.init lamBar-ar.init lamDoublebar-ar.init]' fatha-ar' <0 100 0 0>;
+} raiseMadda ;
 
 #********************
 # Subtending mark positioning
@@ -181,6 +189,7 @@ feature mark {  # Mark to base Positioning
     # Same for latin & arabic:
         lookup mark_to_base;
         lookup alef_to_base;
+        lookup raiseMadda;
     script arab;  # Arabic
     	lookup mark_to_lig;
 ##        lookup AlefMark2BelowAfterLam;
