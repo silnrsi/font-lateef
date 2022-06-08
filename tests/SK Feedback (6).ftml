@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
+<ftml version='1.0'>
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc label="LateefOT">url(../references/LateefRegOT-1.001.ttf)</fontsrc>
+    <fontsrc label="LateefGR">url(../references/LateefGR-1.200.ttf)</fontsrc>
+    <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
+    <fontsrc label="Lt">url(../results/Lateef-Light.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="Med">url(../results/Lateef-Medium.ttf)</fontsrc>
+    <fontsrc label="SemBld">url(../results/Lateef-SemiBold.ttf)</fontsrc>
+    <fontsrc label="Bold">url(../results/Lateef-Bold.ttf)</fontsrc>
+    <fontsrc label="ExBld">url(../results/Lateef-ExtraBold.ttf)</fontsrc>
+    <styles>
+      <style feats="'kern' 0" name="kern_0"/>
+      <style feats="'cv48' 2" name="cv48_2"/>
+      <style feats="'kern' 0,'cv48' 2" name="kern_0_cv48_2"/>
+   </styles>
+    <title>[ABS-2641] SK Feedback (point 6)</title>
+  </head>
+  <testgroup label='Rendering check'>
+    <test label='Check'><string>RenderingUnknown </string></test>
+  </testgroup>
+
+<testgroup label='@RehWawAll &lt;x 0 x 0&gt; @KernRehWawLoosen'>
+<test>                   <comment>alefHamzabelow-ar              </comment><string>\u0631\u0625       \u200D\u0631\u0625       \u0648\u0625       \u200D\u0648\u0625       </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u0625       \u200D\u0631\u0625       \u0648\u0625       \u200D\u0648\u0625      <em> </em></string></test>
+<test>                   <comment>alefWavyhamzabelow-ar          </comment><string>\u0631\u0673       \u200D\u0631\u0673       \u0648\u0673       \u200D\u0648\u0673       </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u0673       \u200D\u0631\u0673       \u0648\u0673       \u200D\u0648\u0673      <em> </em></string></test>
+<test>                   <comment>beh-ar.init                    </comment><string>\u0631\u0628\u0631 \u200D\u0631\u0628\u0631 \u0648\u0628\u0631 \u200D\u0648\u0628\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u0628\u0631 \u200D\u0631\u0628\u0631 \u0648\u0628\u0631 \u200D\u0648\u0628\u0631<em> </em></string></test>
+<test>                   <comment>beeh-ar.init                   </comment><string>\u0631\u067B\u0631 \u200D\u0631\u067B\u0631 \u0648\u067B\u0631 \u200D\u0648\u067B\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u067B\u0631 \u200D\u0631\u067B\u0631 \u0648\u067B\u0631 \u200D\u0648\u067B\u0631<em> </em></string></test>
+<test>                   <comment>peh-ar.init                    </comment><string>\u0631\u067E\u0631 \u200D\u0631\u067E\u0631 \u0648\u067E\u0631 \u200D\u0648\u067E\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u067E\u0631 \u200D\u0631\u067E\u0631 \u0648\u067E\u0631 \u200D\u0648\u067E\u0631<em> </em></string></test>
+<test>                   <comment>beheh-ar.init                  </comment><string>\u0631\u0680\u0631 \u200D\u0631\u0680\u0631 \u0648\u0680\u0631 \u200D\u0648\u0680\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u0680\u0631 \u200D\u0631\u0680\u0631 \u0648\u0680\u0631 \u200D\u0648\u0680\u0631<em> </em></string></test>
+<test>                   <comment>behThreedotsupabove-ar.init    </comment><string>\u0631\u0751\u0631 \u200D\u0631\u0751\u0631 \u0648\u0751\u0631 \u200D\u0648\u0751\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u0751\u0631 \u200D\u0631\u0751\u0631 \u0648\u0751\u0631 \u200D\u0648\u0751\u0631<em> </em></string></test>
+<test>                   <comment>behThreedotsupbelow-ar.init    </comment><string>\u0631\u0752\u0631 \u200D\u0631\u0752\u0631 \u0648\u0752\u0631 \u200D\u0648\u0752\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u0752\u0631 \u200D\u0631\u0752\u0631 \u0648\u0752\u0631 \u200D\u0648\u0752\u0631<em> </em></string></test>
+<test>                   <comment>tehThreedotsupbelow-ar.init    </comment><string>\u0631\u0753\u0631 \u200D\u0631\u0753\u0631 \u0648\u0753\u0631 \u200D\u0648\u0753\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u0753\u0631 \u200D\u0631\u0753\u0631 \u0648\u0753\u0631 \u200D\u0648\u0753\u0631<em> </em></string></test>
+<test>                   <comment>behTwodotsbelowDotabove-ar.init</comment><string>\u0631\u0754\u0631 \u200D\u0631\u0754\u0631 \u0648\u0754\u0631 \u200D\u0648\u0754\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u0754\u0631 \u200D\u0631\u0754\u0631 \u0648\u0754\u0631 \u200D\u0648\u0754\u0631<em> </em></string></test>
+<test>                   <comment>behTwodotsbelowDotabove-ar.init</comment><string>\u0631\u0754\u0631 \u200D\u0631\u0754\u0631 \u0648\u0754\u0631 \u200D\u0648\u0754\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u0754\u0631 \u200D\u0631\u0754\u0631 \u0648\u0754\u0631 \u200D\u0648\u0754\u0631<em> </em></string></test>
+<test>                   <comment>behVinvertedbelow-ar.init      </comment><string>\u0631\u0755\u0631 \u200D\u0631\u0755\u0631 \u0648\u0755\u0631 \u200D\u0648\u0755\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u0755\u0631 \u200D\u0631\u0755\u0631 \u0648\u0755\u0631 \u200D\u0648\u0755\u0631<em> </em></string></test>
+<test>                   <comment>yeh-ar.init                    </comment><string>\u0631\u064A\u0631 \u200D\u0631\u064A\u0631 \u0648\u064A\u0631 \u200D\u0648\u064A\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u064A\u0631 \u200D\u0631\u064A\u0631 \u0648\u064A\u0631 \u200D\u0648\u064A\u0631<em> </em></string></test>
+<test>                   <comment>e-ar.init                      </comment><string>\u0631\u06D0\u0631 \u200D\u0631\u06D0\u0631 \u0648\u06D0\u0631 \u200D\u0648\u06D0\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06D0\u0631 \u200D\u0631\u06D0\u0631 \u0648\u06D0\u0631 \u200D\u0648\u06D0\u0631<em> </em></string></test>
+<test>                   <comment>yehThreedotsbelow-ar.init      </comment><string>\u0631\u06D1\u0631 \u200D\u0631\u06D1\u0631 \u0648\u06D1\u0631 \u200D\u0648\u06D1\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06D1\u0631 \u200D\u0631\u06D1\u0631 \u0648\u06D1\u0631 \u200D\u0648\u06D1\u0631<em> </em></string></test>
+<test>                   <comment>yehVinverted-farsi.init        </comment><string>\u0631\u063D\u0631 \u200D\u0631\u063D\u0631 \u0648\u063D\u0631 \u200D\u0648\u063D\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u063D\u0631 \u200D\u0631\u063D\u0631 \u0648\u063D\u0631 \u200D\u0648\u063D\u0631<em> </em></string></test>
+<test>                   <comment>yeh-farsi.init                 </comment><string>\u0631\u06CC\u0631 \u200D\u0631\u06CC\u0631 \u0648\u06CC\u0631 \u200D\u0648\u06CC\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06CC\u0631 \u200D\u0631\u06CC\u0631 \u0648\u06CC\u0631 \u200D\u0648\u06CC\u0631<em> </em></string></test>
+<test>                   <comment>yehVabove-ar.init              </comment><string>\u0631\u06CE\u0631 \u200D\u0631\u06CE\u0631 \u0648\u06CE\u0631 \u200D\u0648\u06CE\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06CE\u0631 \u200D\u0631\u06CE\u0631 \u0648\u06CE\u0631 \u200D\u0648\u06CE\u0631<em> </em></string></test>
+<test>                   <comment>yehbarree-ar                   </comment><string>\u0631\u06D2       \u200D\u0631\u06D2       \u0648\u06D2       \u200D\u0648\u06D2       </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06D2       \u200D\u0631\u06D2       \u0648\u06D2       \u200D\u0648\u06D2      <em> </em></string></test>
+<test>                   <comment>yehbarreeHamzaabove-ar         </comment><string>\u0631\u06D3       \u200D\u0631\u06D3       \u0648\u06D3       \u200D\u0648\u06D3       </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06D3       \u200D\u0631\u06D3       \u0648\u06D3       \u200D\u0648\u06D3      <em> </em></string></test>
+<test>                   <comment>noonDotbelow-ar.init           </comment><string>\u0631\u06B9\u0631 \u200D\u0631\u06B9\u0631 \u0648\u06B9\u0631 \u200D\u0648\u06B9\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06B9\u0631 \u200D\u0631\u06B9\u0631 \u0648\u06B9\u0631 \u200D\u0648\u06B9\u0631<em> </em></string></test>
+<test>                   <comment>noonTwodotsbelow-ar.init       </comment><string>\u0631\u0767\u0631 \u200D\u0631\u0767\u0631 \u0648\u0767\u0631 \u200D\u0648\u0767\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u0767\u0631 \u200D\u0631\u0767\u0631 \u0648\u0767\u0631 \u200D\u0648\u0767\u0631<em> </em></string></test>
+<test>                   <comment>noonThreedotsabove-ar.init     </comment><string>\u0631\u06BD\u0631 \u200D\u0631\u06BD\u0631 \u0648\u06BD\u0631 \u200D\u0648\u06BD\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06BD\u0631 \u200D\u0631\u06BD\u0631 \u0648\u06BD\u0631 \u200D\u0648\u06BD\u0631<em> </em></string></test>
+<test>                   <comment>fehThreedotsbelow-ar.init      </comment><string>\u0631\u06A5\u0631 \u200D\u0631\u06A5\u0631 \u0648\u06A5\u0631 \u200D\u0648\u06A5\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06A5\u0631 \u200D\u0631\u06A5\u0631 \u0648\u06A5\u0631 \u200D\u0648\u06A5\u0631<em> </em></string></test>
+<test>                   <comment>fehTwodotsbelow-ar.init        </comment><string>\u0631\u0760\u0631 \u200D\u0631\u0760\u0631 \u0648\u0760\u0631 \u200D\u0648\u0760\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u0760\u0631 \u200D\u0631\u0760\u0631 \u0648\u0760\u0631 \u200D\u0648\u0760\u0631<em> </em></string></test>
+<test stylename="cv48_2"><comment>heh-ar.init.hooked             </comment><string>\u0631\u0647\u0631 \u200D\u0631\u0647\u0631 \u0648\u0647\u0631 \u200D\u0648\u0647\u0631 </string></test>
+<test stylename="kern_0_cv48_2">                                           <string>\u0631\u0647\u0631 \u200D\u0631\u0647\u0631 \u0648\u0647\u0631 \u200D\u0648\u0647\u0631<em> </em></string></test>
+<test>                   <comment>hehgoal-ar.init                </comment><string>\u0631\u06C1\u0631 \u200D\u0631\u06C1\u0631 \u0648\u06C1\u0631 \u200D\u0648\u06C1\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06C1\u0631 \u200D\u0631\u06C1\u0631 \u0648\u06C1\u0631 \u200D\u0648\u06C1\u0631<em> </em></string></test>
+<test>                   <comment>hehgoalHamzaabove-ar.init      </comment><string>\u0631\u06C2\u0631 \u200D\u0631\u06C2\u0631 \u0648\u06C2\u0631 \u200D\u0648\u06C2\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06C2\u0631 \u200D\u0631\u06C2\u0631 \u0648\u06C2\u0631 \u200D\u0648\u06C2\u0631<em> </em></string></test>
+<test>                   <comment>lamThreedotsbelow-ar           </comment><string>\u0631\u06B8       \u200D\u0631\u06B8       \u0648\u06B8       \u200D\u0648\u06B8       </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06B8       \u200D\u0631\u06B8       \u0648\u06B8       \u200D\u0648\u06B8      <em> </em></string></test>
+<test>                   <comment>lamThreedotsbelow-ar.init      </comment><string>\u0631\u06B8\u0631 \u200D\u0631\u06B8\u0631 \u0648\u06B8\u0631 \u200D\u0648\u06B8\u0631 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06B8\u0631 \u200D\u0631\u06B8\u0631 \u0648\u06B8\u0631 \u200D\u0648\u06B8\u0631<em> </em></string></test>
+<test>                   <comment>lamThreedotsbelow_alef-ar      </comment><string>\u0631\u06B8\u0627 \u200D\u0631\u06B8\u0627 \u0648\u06B8\u0627 \u200D\u0648\u06B8\u0627 </string></test>
+<test stylename="kern_0">                                                  <string>\u0631\u06B8\u0627 \u200D\u0631\u06B8\u0627 \u0648\u06B8\u0627 \u200D\u0648\u06B8\u0627<em> </em></string></test>
+</testgroup>
+
+</ftml>
