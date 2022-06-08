@@ -4,8 +4,10 @@
 
 # smith
 .waf-*
+.smithpickle-*
 .lock-*
-results/**
+*results*/**
+dev*/**
 buildlinux2/**
 bin/**
 
@@ -15,6 +17,8 @@ gdlerr.txt
 graide_dbg_output.json
 graide_image*.png
 dbg_*.txt
+source/temp/*
+source/backups/*
 
 # general backup files
 *~
@@ -23,7 +27,7 @@ dbg_*.txt
 *(Autosaved)*
 
 
-# macOS
+# OS X
 *.DS_STORE
 *__MACOSX
 .Spotlight-V100
@@ -56,6 +60,8 @@ current.fpr
 *.bak
 *.vfbak
 *.~tt
+.idea/*
+
 
 # Shares
 .AppleDB
@@ -70,7 +76,7 @@ $RECYCLE.BIN/
 # Fontforge temporary backups
 *.sfd-*
 
-# Proprietary formats to keep out of git
+# Opaque formats to keep out of git
 *.fog
 *.vfc
 *.glyphs
@@ -96,6 +102,7 @@ $RECYCLE.BIN/
 .vagrant/
 .docker/
 *.log
+filter.rsync
 
 # Other
 .sass-cache/
