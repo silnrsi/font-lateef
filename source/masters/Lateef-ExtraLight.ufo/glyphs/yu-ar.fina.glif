@@ -3,7 +3,7 @@
   <advance width="723"/>
   <anchor x="181" y="686" name="alefUnused"/>
   <anchor x="417" y="1008" name="diaA"/>
-  <anchor x="251" y="-462" name="diaB"/>
+  <anchor x="180" y="-520" name="diaB"/>
   <outline>
     <component base="waw-ar.fina"/>
     <component base="_vline" xOffset="519" yOffset="600"/>

@@ -3,7 +3,7 @@
   <advance width="666"/>
   <anchor x="192" y="694" name="alefUnused"/>
   <anchor x="313" y="697" name="diaA"/>
-  <anchor x="142" y="-425" name="diaB"/>
+  <anchor x="180" y="-474" name="diaB"/>
   <outline>
     <component base="waw-ar"/>
     <component base="_bar_horiz" xOffset="523" yOffset="-81"/>

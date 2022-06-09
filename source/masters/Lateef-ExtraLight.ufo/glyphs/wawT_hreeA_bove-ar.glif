@@ -4,7 +4,7 @@
   <unicode hex="0779"/>
   <anchor x="95" y="694" name="alefUnused"/>
   <anchor x="361" y="966" name="diaA"/>
-  <anchor x="142" y="-400" name="diaB"/>
+  <anchor x="180" y="-474" name="diaB"/>
   <outline>
     <component base="waw-ar"/>
     <component base="_three" xOffset="499" yOffset="314"/>

@@ -6,16 +6,16 @@
   <anchor x="418" y="-298" name="below"/>
   <anchor x="124" y="24" name="center"/>
   <anchor x="275" y="684" name="diaA"/>
-  <anchor x="175" y="-400" name="diaB"/>
-  <anchor x="343" y="-204" name="ring"/>
+  <anchor x="135" y="-520" name="diaB"/>
+  <anchor x="343" y="-244" name="ring"/>
   <anchor x="392" y="-95" name="through"/>
   <outline>
     <contour>
-      <point x="-114" y="-247" type="line"/>
-      <point x="-54" y="-292"/>
-      <point x="73" y="-330"/>
-      <point x="165" y="-330" type="curve" smooth="yes"/>
-      <point x="331" y="-330"/>
+      <point x="-114" y="-297" type="line"/>
+      <point x="-54" y="-342"/>
+      <point x="73" y="-380"/>
+      <point x="165" y="-380" type="curve" smooth="yes"/>
+      <point x="331" y="-380"/>
       <point x="452" y="-154"/>
       <point x="452" y="62" type="curve" smooth="yes"/>
       <point x="452" y="164"/>
@@ -26,11 +26,11 @@
       <point x="407" y="28"/>
       <point x="407" y="-6" type="curve" smooth="yes"/>
       <point x="407" y="-61"/>
-      <point x="259" y="-244"/>
-      <point x="-32" y="-244" type="curve" smooth="yes"/>
-      <point x="-68" y="-244"/>
-      <point x="-88" y="-239"/>
-      <point x="-107" y="-233" type="curve"/>
+      <point x="259" y="-294"/>
+      <point x="-32" y="-294" type="curve" smooth="yes"/>
+      <point x="-68" y="-294"/>
+      <point x="-88" y="-289"/>
+      <point x="-107" y="-283" type="curve"/>
     </contour>
     <contour>
       <point x="542" y="180" type="curve" smooth="yes"/>

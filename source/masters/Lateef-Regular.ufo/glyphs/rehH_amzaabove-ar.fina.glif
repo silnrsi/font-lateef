@@ -3,7 +3,7 @@
   <advance width="542"/>
   <anchor x="106" y="684" name="alefUnused"/>
   <anchor x="296" y="826" name="diaA"/>
-  <anchor x="175" y="-490" name="diaB"/>
+  <anchor x="135" y="-520" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
     <component base="_hamza" xOffset="339" yOffset="564"/>

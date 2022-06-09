@@ -3,10 +3,10 @@
   <advance width="542"/>
   <anchor x="106" y="684" name="alefUnused"/>
   <anchor x="325" y="684" name="diaA"/>
-  <anchor x="183" y="-591" name="diaB"/>
+  <anchor x="183" y="-654" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="_dot1" xOffset="418" yOffset="-478"/>
+    <component base="_dot1" xOffset="418" yOffset="-518"/>
   </outline>
   <lib>
     <dict>

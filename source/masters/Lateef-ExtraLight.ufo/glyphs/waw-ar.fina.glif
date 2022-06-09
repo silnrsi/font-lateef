@@ -6,7 +6,7 @@
   <anchor x="460" y="-332" name="below"/>
   <anchor x="269" y="-71" name="center"/>
   <anchor x="411" y="688" name="diaA"/>
-  <anchor x="261" y="-437" name="diaB"/>
+  <anchor x="180" y="-520" name="diaB"/>
   <anchor x="336" y="-25" name="ring"/>
   <anchor x="480" y="-140" name="through"/>
   <outline>
