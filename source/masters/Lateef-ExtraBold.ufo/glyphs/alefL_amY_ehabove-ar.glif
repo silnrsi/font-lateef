@@ -4,7 +4,7 @@
   <anchor x="0" y="1018" name="_diaA"/>
   <anchor x="0" y="1725" name="diaA"/>
   <outline>
-    <component base="alef-ar" xScale="0.44" yScale="0.44" xOffset="-102" yOffset="1236"/>
-    <component base="_lamAlefMaksura"/>
+    <component base="alef-ar" xScale="0.44" yScale="0.44" xOffset="8" yOffset="1226"/>
+    <component base="yehabove-ar" xOffset="-41" yOffset="10"/>
   </outline>
 </glyph>
