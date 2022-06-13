@@ -2,11 +2,11 @@
 <glyph name="lamBar-ar" format="2">
   <advance width="685"/>
   <unicode hex="076A"/>
-  <anchor x="308" y="975" name="alef"/>
-  <anchor x="351" y="1429" name="diaA"/>
-  <anchor x="221" y="-202" name="diaB"/>
+  <anchor x="308" y="719" name="alef"/>
+  <anchor x="351" y="1173" name="diaA"/>
+  <anchor x="221" y="-392" name="diaB"/>
   <outline>
     <component base="lam-ar"/>
-    <component base="_bar" xOffset="564" yOffset="730"/>
+    <component base="_bar" xOffset="564" yOffset="540"/>
   </outline>
 </glyph>

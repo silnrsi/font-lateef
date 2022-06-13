@@ -2,11 +2,11 @@
 <glyph name="lamTahabove-ar" format="2">
   <advance width="706"/>
   <unicode hex="08C7"/>
-  <anchor x="308" y="995" name="alef"/>
-  <anchor x="392" y="2007" name="diaA"/>
-  <anchor x="221" y="-200" name="diaB"/>
+  <anchor x="308" y="725" name="alef"/>
+  <anchor x="392" y="1737" name="diaA"/>
+  <anchor x="221" y="-395" name="diaB"/>
   <outline>
     <component base="lam-ar"/>
-    <component base="_tah" xOffset="531" yOffset="1561"/>
+    <component base="_tah" xOffset="531" yOffset="1291"/>
   </outline>
 </glyph>
