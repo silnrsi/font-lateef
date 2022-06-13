@@ -136,6 +136,7 @@
     <string>/lam-ar.fina/lam-ar/alefMadda-ar/lam-ar.init/space/lam-ar.init.preAlef/lamVabove-ar/lamDotabove-ar/lamThreedotsabove-ar/lamTahabove-ar/lamThreedotsbelow-ar/lamBar-ar/lamDoublebar-ar 
 /lam-ar/kaf-ar.fina/lam-ar.init/lam-ar.init.preAlef/alefMadda-ar/tah-ar/tah-ar.init 
 /rial</string>
+    <string>/_tah_stem/tah-ar/tah-ar.fina/tah-ar.medi/tah-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2000</integer>
@@ -1703,9 +1704,13 @@
     <string>quoteleft.latn</string>
     <string>quoteright</string>
     <string>quoteright.latn</string>
+    <string>quotereversed</string>
+    <string>quotereversed.latn</string>
     <string>quotesinglbase</string>
     <string>quotedblleft</string>
     <string>quotedblleft.latn</string>
+    <string>quotedblrightreversed</string>
+    <string>quotedblrightreversed.latn</string>
     <string>quotedblright</string>
     <string>quotedblright.latn</string>
     <string>quotedblbase</string>
@@ -3389,9 +3394,13 @@
     <string>quoteleft.latn</string>
     <string>quoteright</string>
     <string>quoteright.latn</string>
+    <string>quotereversed</string>
+    <string>quotereversed.latn</string>
     <string>quotesinglbase</string>
     <string>quotedblleft</string>
     <string>quotedblleft.latn</string>
+    <string>quotedblrightreversed</string>
+    <string>quotedblrightreversed.latn</string>
     <string>quotedblright</string>
     <string>quotedblright.latn</string>
     <string>quotedblbase</string>
