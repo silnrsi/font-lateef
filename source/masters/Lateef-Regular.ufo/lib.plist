@@ -125,7 +125,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3131</string>
+  <string>3132</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/reh-ar/reh-ar.fina/waw-ar/waw-ar.fina 
@@ -133,6 +133,10 @@
 /reh-ar.fina/zain-ar.fina/zainVinvertedabove-ar.fina/rreh-ar.fina/rehv-ar.fina/rehRing-ar.fina/rehDotbelow-ar.fina/rehVbelow-ar.fina/rehDotbelowdotabove-ar.fina/rehTwodots-ar.fina/jeh-ar.fina/rehFourdots-ar.fina/rehVinvertedabove-ar.fina/rehStroke-ar.fina/rehTwodotsverticalabove-ar.fina/rehHamzaabove-ar.fina/rehTwodotshorizontalaboveTahabove-ar.fina/rehNoonabove-ar.fina 
 /waw-ar/highhamzaWaw-ar/uHamzaabove-ar/u-ar/_ring/wawring-ar/wawTwodots-ar/wawDotabove-ar/wawHamzaabove-ar/wawTwoabove-ar/wawThreeAbove-ar/wawDotcenter-ar/kirghizoe-ar.bar/oe-ar/yu-ar/kirghizyu-ar/ve-ar/wawSmall-ar/highwaw-ar 
 /waw-ar.fina/highhamzaWaw-ar.fina/uHamzaabove-ar.fina/u-ar.fina/wawring-ar.fina/wawTwodots-ar.fina/wawDotabove-ar.fina/wawHamzaabove-ar.fina/wawTwoabove-ar.fina/wawThreeAbove-ar.fina/wawDotcenter-ar.fina/kirghizoe-ar.fina.bar/oe-ar.fina/yu-ar.fina/kirghizyu-ar.fina/ve-ar.fina</string>
+    <string>/lam-ar.fina/lam-ar/alefMadda-ar/lam-ar.init/space/lam-ar.init.preAlef/lamVabove-ar/lamDotabove-ar/lamThreedotsabove-ar/lamTahabove-ar/lamThreedotsbelow-ar/lamBar-ar/lamDoublebar-ar 
+/lam-ar/kaf-ar.fina/lam-ar.init/lam-ar.init.preAlef/alefMadda-ar/tah-ar/tah-ar.init 
+/rial</string>
+    <string>/_tah_stem/tah-ar/tah-ar.fina/tah-ar.medi/tah-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2000</integer>
@@ -1702,9 +1706,13 @@
     <string>quoteleft.latn</string>
     <string>quoteright</string>
     <string>quoteright.latn</string>
+    <string>quotereversed</string>
+    <string>quotereversed.latn</string>
     <string>quotesinglbase</string>
     <string>quotedblleft</string>
     <string>quotedblleft.latn</string>
+    <string>quotedblrightreversed</string>
+    <string>quotedblrightreversed.latn</string>
     <string>quotedblright</string>
     <string>quotedblright.latn</string>
     <string>quotedblbase</string>
@@ -3388,9 +3396,13 @@
     <string>quoteleft.latn</string>
     <string>quoteright</string>
     <string>quoteright.latn</string>
+    <string>quotereversed</string>
+    <string>quotereversed.latn</string>
     <string>quotesinglbase</string>
     <string>quotedblleft</string>
     <string>quotedblleft.latn</string>
+    <string>quotedblrightreversed</string>
+    <string>quotedblrightreversed.latn</string>
     <string>quotedblright</string>
     <string>quotedblright.latn</string>
     <string>quotedblbase</string>

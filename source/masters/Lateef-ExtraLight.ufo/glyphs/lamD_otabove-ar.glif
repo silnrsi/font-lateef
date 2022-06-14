@@ -2,11 +2,11 @@
 <glyph name="lamDotabove-ar" format="2">
   <advance width="685"/>
   <unicode hex="06B6"/>
-  <anchor x="293" y="975" name="alef"/>
-  <anchor x="468" y="1727" name="diaA"/>
-  <anchor x="221" y="-202" name="diaB"/>
+  <anchor x="293" y="719" name="alef"/>
+  <anchor x="468" y="1471" name="diaA"/>
+  <anchor x="221" y="-392" name="diaB"/>
   <outline>
     <component base="lam-ar"/>
-    <component base="_dot1" xOffset="531" yOffset="1560"/>
+    <component base="_dot1" xOffset="531" yOffset="1304"/>
   </outline>
 </glyph>
