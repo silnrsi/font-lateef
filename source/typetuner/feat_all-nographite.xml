@@ -194,7 +194,7 @@
 		</value>
 	</feature>
 
-		<feature name="Decimal separator" value="Small reh" tag="DSep">
+	<feature name="Decimal separator" value="Small reh" tag="DSep">
 		<value name="Small reh" tag="Re">
 			<cmd name="null" args="null"/>
 		</value>
