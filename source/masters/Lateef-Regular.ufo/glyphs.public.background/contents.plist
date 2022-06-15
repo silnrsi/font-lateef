@@ -528,8 +528,12 @@
   <string>question-ar.glif</string>
   <key>quotedblleft</key>
   <string>quotedblleft.glif</string>
+  <key>quotedblrightreversed</key>
+  <string>quotedblrightreversed.glif</string>
   <key>quoteleft</key>
   <string>quoteleft.glif</string>
+  <key>quotereversed</key>
+  <string>quotereversed.glif</string>
   <key>quoteright</key>
   <string>quoteright.glif</string>
   <key>quotesinglbase.arab</key>

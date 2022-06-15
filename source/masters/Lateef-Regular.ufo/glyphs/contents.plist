@@ -2434,10 +2434,18 @@
   <string>quotedblright.glif</string>
   <key>quotedblright.latn</key>
   <string>quotedblright.latn.glif</string>
+  <key>quotedblrightreversed</key>
+  <string>quotedblrightreversed.glif</string>
+  <key>quotedblrightreversed.latn</key>
+  <string>quotedblrightreversed.latn.glif</string>
   <key>quoteleft</key>
   <string>quoteleft.glif</string>
   <key>quoteleft.latn</key>
   <string>quoteleft.latn.glif</string>
+  <key>quotereversed</key>
+  <string>quotereversed.glif</string>
+  <key>quotereversed.latn</key>
+  <string>quotereversed.latn.glif</string>
   <key>quoteright</key>
   <string>quoteright.glif</string>
   <key>quoteright.latn</key>
