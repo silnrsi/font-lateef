@@ -546,6 +546,10 @@
   <string>reh-ar.glif</string>
   <key>reh-ar.fina</key>
   <string>reh-ar.fina.glif</string>
+  <key>reh-ar.fina.shrtail</key>
+  <string>reh-ar.fina.shrtail.glif</string>
+  <key>reh-ar.shrtail</key>
+  <string>reh-ar.shrtail.glif</string>
   <key>rehDadabove-ar</key>
   <string>rehD_adabove-ar.glif</string>
   <key>rehHahabove-ar</key>
@@ -738,6 +742,10 @@
   <string>waw-ar.glif</string>
   <key>waw-ar.fina</key>
   <string>waw-ar.fina.glif</string>
+  <key>waw-ar.fina.shrtail</key>
+  <string>waw-ar.fina.shrtail.glif</string>
+  <key>waw-ar.shrtail</key>
+  <string>waw-ar.shrtail.glif</string>
   <key>wawSmall-ar</key>
   <string>wawS_mall-ar.glif</string>
   <key>wawStraight-ar</key>

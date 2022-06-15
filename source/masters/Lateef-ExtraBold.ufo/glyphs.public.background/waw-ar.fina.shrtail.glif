@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="waw-ar.fina.shrtail" format="2">
+  <outline>
+    <contour>
+      <point x="470" y="-6" type="move"/>
+      <point x="470" y="-136"/>
+      <point x="153" y="-206"/>
+      <point x="-2" y="-206" type="curve" smooth="yes"/>
+      <point x="-18" y="-206"/>
+      <point x="-32" y="-205"/>
+      <point x="-44" y="-203" type="curve"/>
+      <point x="-51" y="-217" type="line"/>
+      <point x="30" y="-309"/>
+      <point x="130" y="-380"/>
+      <point x="205" y="-380" type="curve" smooth="yes"/>
+      <point x="403" y="-380"/>
+      <point x="515" y="-154"/>
+      <point x="515" y="62" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

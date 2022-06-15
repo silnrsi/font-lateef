@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="reh-ar.shrtail" format="2">
+  <advance width="545"/>
+  <anchor x="376" y="521" name="above"/>
+  <anchor x="162" y="698" name="alefUnused"/>
+  <anchor x="412" y="-326" name="below"/>
+  <anchor x="198" y="49" name="center"/>
+  <anchor x="320" y="697" name="diaA"/>
+  <anchor x="167" y="-474" name="diaB"/>
+  <anchor x="396" y="-245" name="ring"/>
+  <anchor x="424" y="-34" name="through"/>
+  <outline>
+    <contour>
+      <point x="-115" y="-247" type="line"/>
+      <point x="-51" y="-309"/>
+      <point x="152" y="-380"/>
+      <point x="261" y="-380" type="curve" smooth="yes"/>
+      <point x="465" y="-380"/>
+      <point x="505" y="-77"/>
+      <point x="505" y="151" type="curve" smooth="yes"/>
+      <point x="505" y="253"/>
+      <point x="459" y="417"/>
+      <point x="376" y="470" type="curve"/>
+      <point x="300" y="200" type="line"/>
+      <point x="363" y="178"/>
+      <point x="460" y="117"/>
+      <point x="460" y="83" type="curve" smooth="yes"/>
+      <point x="460" y="-11"/>
+      <point x="207" y="-245"/>
+      <point x="-22" y="-245" type="curve" smooth="yes"/>
+      <point x="-51" y="-245"/>
+      <point x="-80" y="-241"/>
+      <point x="-108" y="-233" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

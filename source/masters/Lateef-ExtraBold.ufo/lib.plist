@@ -135,15 +135,11 @@
 /reh-ar.fina/zain-ar.fina/zainVinvertedabove-ar.fina/rreh-ar.fina/rehv-ar.fina/rehRing-ar.fina/rehDotbelow-ar.fina/rehVbelow-ar.fina/rehDotbelowdotabove-ar.fina/rehTwodots-ar.fina/jeh-ar.fina/rehFourdots-ar.fina/rehVinvertedabove-ar.fina/rehStroke-ar.fina/rehTwodotsverticalabove-ar.fina/rehHamzaabove-ar.fina/rehTwodotshorizontalaboveTahabove-ar.fina/rehNoonabove-ar.fina 
 /waw-ar/highhamzaWaw-ar/uHamzaabove-ar/u-ar/wawring-ar/wawTwodots-ar/wawDotabove-ar/wawHamzaabove-ar/wawTwoabove-ar/wawThreeAbove-ar/wawDotcenter-ar/kirghizoe-ar.bar/oe-ar/yu-ar/kirghizyu-ar/ve-ar/wawSmall-ar/highwaw-ar 
 /waw-ar.fina/highhamzaWaw-ar.fina/uHamzaabove-ar.fina/u-ar.fina/wawring-ar.fina/wawTwodots-ar.fina/wawDotabove-ar.fina/wawHamzaabove-ar.fina/wawTwoabove-ar.fina/wawThreeAbove-ar.fina/wawDotcenter-ar.fina/kirghizoe-ar.fina.bar/oe-ar.fina/yu-ar.fina/kirghizyu-ar.fina/ve-ar.fina 
-/reh-ar/reh-ar.fina/waw-ar/waw-ar.fina 
-/yeh-ar.init/reh-ar/space/yeh-ar.init/space/space/space/beh-ar.init/reh-ar/space/beh-ar.init 
-/yeh-ar.init/reh-ar.fina/space/yeh-ar.init/space/space/space/beh-ar.init/space/beh-ar.init 
-/yeh-ar.init/waw-ar/space/yeh-ar.init/space/space/beh-ar.init/waw-ar/space/beh-ar.init 
-/yeh-ar.init/waw-ar.fina/space/yeh-ar.init/space/space/beh-ar.init/waw-ar.fina/space/beh-ar.init</string>
-    <string>/quoteleft/quotereversed/space/quoteleft.latn/quotereversed.latn/space/quotedblleft/quotedblrightreversed/space/quotedblleft.latn/quotedblrightreversed.latn/space 
-
-"'/quoteleft/quoteleft.latn/quoteright/quoteright.latn/quotesinglbase/quotedblleft/quotedblleft.latn/quotedblright/quotedblright.latn/quotedblbase/quotesinglbase.arab/quotedblbase.arab</string>
-    <string>"'/quoteleft/quoteleft.latn/quoteright/quoteright.latn/quotesinglbase/quotedblleft/quotedblleft.latn/quotedblright/quotedblright.latn/quotedblbase/quotesinglbase.arab/quotedblbase.arab</string>
+/reh-ar/reh-ar.shrtail/reh-ar.fina/reh-ar.fina.shrtail/waw-ar/waw-ar.shrtail/waw-ar.fina/waw-ar.fina.shrtail 
+/yeh-ar.init/reh-ar/space/yeh-ar.init/reh-ar.shrtail/space/space/space/beh-ar.init/reh-ar/space/beh-ar.init/reh-ar.shrtail 
+/yeh-ar.init/reh-ar.fina/space/yeh-ar.init/reh-ar.fina.shrtail/space/space/space/beh-ar.init/reh-ar.fina.shrtail/space/beh-ar.init/reh-ar.fina.shrtail 
+/yeh-ar.init/waw-ar/space/yeh-ar.init/waw-ar.shrtail/space/space/beh-ar.init/waw-ar/space/beh-ar.init/waw-ar.shrtail 
+/yeh-ar.init/waw-ar.fina/space/yeh-ar.init/waw-ar.fina.shrtail/space/space/beh-ar.init/waw-ar.fina/space/beh-ar.init/waw-ar.fina.shrtail</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2000</integer>
