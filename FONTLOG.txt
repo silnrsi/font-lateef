@@ -52,6 +52,14 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+2022-06-15 (SIL WSTech team) Lateef Version 1.401 (beta non-release build #763)
+- Adjusted position of isolate lam characters
+- Slight adjustments to nukta spacing
+- Increase vertical separation between maddah and fatha in context of alef-maddah and initial lam+fatha
+- Redesign of U+0616
+- Make below anchor position on all reh and waw characters consistent
+- Added "Disable digit kerning (see FAQ)" TypeTuner-only feature to support the bug in Word
+
 2022-05-16 (SIL WSTech team) Lateef Version 1.400 (beta release)
 - Repackage fonts so there is a single Lateef family (containing seven weights) rather
   than three families, each having two weights (Regular, Bold)
