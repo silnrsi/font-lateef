@@ -32,14 +32,21 @@ If you choose a weight other than Regular (such as ExtraLight), then use applica
 
 ### *I understand there is kerning for the Arabic proportional digits. However, it is not working.*
 
-The main application which does not support the kerning of the Arabic proportional digits seems to be Microsoft Word (at least on Windows). It does not correctly process the pair kerning of the proportional Arabic digits that are in font. 
+The Arabic digits are proportional by default and Lateef includes kerning to improve the spacing of certain pairs of digits such as ٧٨. However there are some applications, including Microsoft Word for Windows, that process the digit kerning information incorrectly, actually making some digits too far apart and some too close together.
 
-Some workarounds:
+If you see incorrect digit kerning in applications other than Microsoft Word, please do let us know.
+
+In the mean time there are two workarounds to consider:
 - Switch to Tabular digits (in the **Advanced** Font dialog)
-- Force the run to be LTR (using [Right-to-left script macros](https://software.sil.org/arabicfonts/right-to-left-scripts-in-microsoft-office/))
-   - Select the digits, then choose **ABS Utilities: Set Run Ltr**
-- Surround sequences with appropriate direction controls such as U+200E LEFT-TO-RIGHT MARK or U+202D LEFT-TO-RIGHT OVERRIDE with U+202C POP DIRECTIONAL FORMATTING (however, in our testing these did not seem to fix the issue)
+- We have added a special Typetuner feature that can be used create a version of the Lateef fonts in which the digit kerning is _disabled_. When using those fonts in Microsoft Word the resulting digit spacing will be much nicer than Tabular, but not quite as good as it would be if the application's kerning worked correctly.
 
+To obtain Lateef fonts with digit kerning disabled:
+- Go to [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi)
+- Select the Lateef font and click "Select Features"
+- Find the feature named "Disable digit kerning (see FAQ)" and set it to "True"
+- If desired, fill in the "Font name suffix" field
+- Click "Get tuned font" to download a package of Lateef fonts with the digit kerning disabled for use in Microsoft Word.
+- Unpack the resulting zip and install the fonts it contains.
 
 ### *What are the differences between the **Lateef** and **LateefGR** fonts?*
 

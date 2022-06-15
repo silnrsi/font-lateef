@@ -184,6 +184,15 @@
 		</value>
 	</feature>
 
+	<feature name="Disable digit kerning (see FAQ)" value="False" tag="Ddk">
+		<value name="False" tag="F">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="True" tag="T">
+			<cmd name="lookup_del" args="GPOS {kern_arab_dflt} {kernpairs}"/>
+		</value>
+	</feature>
+
 	<feature name="Comma" value="Upward" tag="Cma"> 		<!-- was "Downward comma", "Dc" -->
 		<value name="Upward" tag="Up">						<!-- was "False", "F" -->
 			<cmd name="null" args="null"/>
