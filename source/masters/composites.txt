@@ -874,3 +874,22 @@ yehTwodotsbelowNoonabove-ar.fina = yeh-ar.noDots.fina + _noon@above + _dot2h@yeh
 yehTwodotsbelowNoonabove-ar.medi = behDotless-ar.medi + _noon@above + _dot2h@behDotless-ar.medi:below
 yehTwodotsbelowNoonabove-ar.init = behDotless-ar.init + _noon@above + _dot2h@behDotless-ar.init:below
 # --- END --- ABS-2373 new batch of 110 composites
+
+# --- START --- ABS-2786 Add new batch of 16 composites / rreh-ar.shrtail might need RSB adjustment
+zain-ar.shrtail = reh-ar.shrtail + _dot1@above
+zain-ar.fina.shrtail = reh-ar.fina.shrtail + _dot1@above
+rreh-ar.shrtail = reh-ar.shrtail + _tah@above
+rreh-ar.fina.shrtail = reh-ar.fina.shrtail + _tah@above
+rehRing-ar.shrtail = reh-ar.shrtail + _ring@ring
+rehRing-ar.fina.shrtail = reh-ar.fina.shrtail + _ring@ring
+rehFourdots-ar.shrtail = reh-ar.shrtail + _dot4@above
+rehFourdots-ar.fina.shrtail = reh-ar.fina.shrtail + _dot4@above
+rehVinvertedabove-ar.shrtail = reh-ar.shrtail + _invSmallV@above
+rehVinvertedabove-ar.fina.shrtail = reh-ar.fina.shrtail + _invSmallV@above
+rehHamzaabove-ar.shrtail = reh-ar.shrtail + _hamza@above
+rehHamzaabove-ar.fina.shrtail = reh-ar.fina.shrtail + _hamza@above
+wawHamzaabove-ar.shrtail = waw-ar.shrtail + _hamza@above
+wawHamzaabove-ar.fina.shrtail = waw-ar.fina.shrtail + _hamza@above
+oe-ar.shrtail = waw-ar.shrtail + _smallV@above
+oe-ar.fina.shrtail = waw-ar.fina.shrtail + _smallV@above
+# --- END --- ABS-2786 new batch of 16 composites
