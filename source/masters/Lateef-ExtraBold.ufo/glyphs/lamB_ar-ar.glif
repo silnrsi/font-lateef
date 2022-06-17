@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamBar-ar" format="2">
-  <advance width="703"/>
+  <advance width="713"/>
   <unicode hex="076A"/>
   <anchor x="308" y="707" name="alef"/>
   <anchor x="351" y="1227" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="lam-ar"/>
     <component base="_bar" xOffset="572" yOffset="462"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

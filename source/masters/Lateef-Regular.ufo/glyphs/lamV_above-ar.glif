@@ -7,6 +7,12 @@
   <anchor x="221" y="-397" name="diaB"/>
   <outline>
     <component base="lam-ar"/>
-    <component base="_smallV" xOffset="531" yOffset="1298"/>
+    <component base="_smallV" xOffset="531" yOffset="1300"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

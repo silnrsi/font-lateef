@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rehRing-ar.shrtail" format="2">
+  <advance width="407"/>
+  <anchor x="122" y="698" name="alefUnused"/>
+  <anchor x="220" y="465" name="diaA"/>
+  <anchor x="177" y="-474" name="diaB"/>
+  <outline>
+    <component base="reh-ar.shrtail"/>
+    <component base="_ring" xOffset="315" yOffset="-335"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

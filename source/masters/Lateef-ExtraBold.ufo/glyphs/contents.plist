@@ -2210,6 +2210,10 @@
   <string>oe-ar.glif</string>
   <key>oe-ar.fina</key>
   <string>oe-ar.fina.glif</string>
+  <key>oe-ar.fina.shrtail</key>
+  <string>oe-ar.fina.shrtail.glif</string>
+  <key>oe-ar.shrtail</key>
+  <string>oe-ar.shrtail.glif</string>
   <key>ogonek</key>
   <string>ogonek.glif</string>
   <key>ogonekcomb</key>
@@ -2488,12 +2492,20 @@
   <string>rehF_ourdots-ar.glif</string>
   <key>rehFourdots-ar.fina</key>
   <string>rehF_ourdots-ar.fina.glif</string>
+  <key>rehFourdots-ar.fina.shrtail</key>
+  <string>rehF_ourdots-ar.fina.shrtail.glif</string>
+  <key>rehFourdots-ar.shrtail</key>
+  <string>rehF_ourdots-ar.shrtail.glif</string>
   <key>rehHahabove-ar</key>
   <string>rehH_ahabove-ar.glif</string>
   <key>rehHamzaabove-ar</key>
   <string>rehH_amzaabove-ar.glif</string>
   <key>rehHamzaabove-ar.fina</key>
   <string>rehH_amzaabove-ar.fina.glif</string>
+  <key>rehHamzaabove-ar.fina.shrtail</key>
+  <string>rehH_amzaabove-ar.fina.shrtail.glif</string>
+  <key>rehHamzaabove-ar.shrtail</key>
+  <string>rehH_amzaabove-ar.shrtail.glif</string>
   <key>rehLoop-ar</key>
   <string>rehL_oop-ar.glif</string>
   <key>rehLoop-ar.fina</key>
@@ -2506,6 +2518,10 @@
   <string>rehR_ing-ar.glif</string>
   <key>rehRing-ar.fina</key>
   <string>rehR_ing-ar.fina.glif</string>
+  <key>rehRing-ar.fina.shrtail</key>
+  <string>rehR_ing-ar.fina.shrtail.glif</string>
+  <key>rehRing-ar.shrtail</key>
+  <string>rehR_ing-ar.shrtail.glif</string>
   <key>rehStroke-ar</key>
   <string>rehS_troke-ar.glif</string>
   <key>rehStroke-ar.fina</key>
@@ -2530,6 +2546,10 @@
   <string>rehV_invertedabove-ar.glif</string>
   <key>rehVinvertedabove-ar.fina</key>
   <string>rehV_invertedabove-ar.fina.glif</string>
+  <key>rehVinvertedabove-ar.fina.shrtail</key>
+  <string>rehV_invertedabove-ar.fina.shrtail.glif</string>
+  <key>rehVinvertedabove-ar.shrtail</key>
+  <string>rehV_invertedabove-ar.shrtail.glif</string>
   <key>rehv-ar</key>
   <string>rehv-ar.glif</string>
   <key>rehv-ar.fina</key>
@@ -2578,6 +2598,10 @@
   <string>rreh-ar.glif</string>
   <key>rreh-ar.fina</key>
   <string>rreh-ar.fina.glif</string>
+  <key>rreh-ar.fina.shrtail</key>
+  <string>rreh-ar.fina.shrtail.glif</string>
+  <key>rreh-ar.shrtail</key>
+  <string>rreh-ar.shrtail.glif</string>
   <key>s</key>
   <string>s.glif</string>
   <key>sad-ar</key>
@@ -3166,6 +3190,10 @@
   <string>wawH_amzaabove-ar.glif</string>
   <key>wawHamzaabove-ar.fina</key>
   <string>wawH_amzaabove-ar.fina.glif</string>
+  <key>wawHamzaabove-ar.fina.shrtail</key>
+  <string>wawH_amzaabove-ar.fina.shrtail.glif</string>
+  <key>wawHamzaabove-ar.shrtail</key>
+  <string>wawH_amzaabove-ar.shrtail.glif</string>
   <key>wawSmall-ar</key>
   <string>wawS_mall-ar.glif</string>
   <key>wawStraight-ar</key>
@@ -3394,6 +3422,10 @@
   <string>zain-ar.glif</string>
   <key>zain-ar.fina</key>
   <string>zain-ar.fina.glif</string>
+  <key>zain-ar.fina.shrtail</key>
+  <string>zain-ar.fina.shrtail.glif</string>
+  <key>zain-ar.shrtail</key>
+  <string>zain-ar.shrtail.glif</string>
   <key>zainVinvertedabove-ar</key>
   <string>zainV_invertedabove-ar.glif</string>
   <key>zainVinvertedabove-ar.fina</key>
