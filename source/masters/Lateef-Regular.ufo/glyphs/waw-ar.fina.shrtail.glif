@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="waw-ar.fina.shrtail" format="2">
   <advance width="589"/>
-  <anchor x="495" y="505" name="above"/>
+  <anchor x="355" y="505" name="above"/>
   <anchor x="187" y="666" name="alefUnused"/>
-  <anchor x="466" y="-352" name="below"/>
-  <anchor x="241" y="-67" name="center"/>
-  <anchor x="417" y="628" name="diaA"/>
-  <anchor x="180" y="-520" name="diaB"/>
-  <anchor x="290" y="-20" name="ring"/>
-  <anchor x="489" y="-125" name="through"/>
+  <anchor x="426" y="-352" name="below"/>
+  <anchor x="188" y="-88" name="center"/>
+  <anchor x="277" y="628" name="diaA"/>
+  <anchor x="190" y="-520" name="diaB"/>
+  <anchor x="214" y="-35" name="ring"/>
+  <anchor x="389" y="-125" name="through"/>
   <outline>
     <contour>
       <point x="217" y="-390" type="curve" smooth="yes"/>

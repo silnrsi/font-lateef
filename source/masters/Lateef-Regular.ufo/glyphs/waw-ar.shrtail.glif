@@ -2,14 +2,14 @@
 <glyph name="waw-ar.shrtail" format="2">
   <advance width="535"/>
   <guideline x="194" y="449" angle="0"/>
-  <anchor x="485" y="501" name="above"/>
+  <anchor x="355" y="501" name="above"/>
   <anchor x="192" y="694" name="alefUnused"/>
-  <anchor x="493" y="-330" name="below"/>
-  <anchor x="234" y="-21" name="center"/>
-  <anchor x="410" y="617" name="diaA"/>
-  <anchor x="180" y="-474" name="diaB"/>
-  <anchor x="310" y="29" name="ring"/>
-  <anchor x="523" y="-51" name="through"/>
+  <anchor x="413" y="-330" name="below"/>
+  <anchor x="167" y="-45" name="center"/>
+  <anchor x="280" y="617" name="diaA"/>
+  <anchor x="190" y="-474" name="diaB"/>
+  <anchor x="188" y="2" name="ring"/>
+  <anchor x="405" y="-51" name="through"/>
   <outline>
     <contour>
       <point x="495" y="123" type="curve"/>
