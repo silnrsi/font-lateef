@@ -1,6 +1,6 @@
 ---
 title: Lateef - Character Set Support
-fontversion: 1.400 beta
+fontversion: 2.000
 ---
 
 The Lateef font contains near-complete coverage of all the characters defined in Unicode for Arabic script (excluding the Arabic Presentation Forms blocks, which are not recommended for normal use).  

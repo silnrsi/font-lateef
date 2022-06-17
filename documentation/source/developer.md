@@ -1,14 +1,11 @@
 ---
 title: Lateef - Developer information
-fontversion: 1.400 beta
+fontversion: 2.000
 ---
-
-Lateef is currently in a major development phase.
-
 
 ## Welcome font developers!
 
-We welcome other developers who wish to get involved in supporting and enhancing this font.
+We welcome other developers who wish to get involved in supporting and enhancing these fonts or who want to modify them.
 
 ## Permissions granted by the OFL
 

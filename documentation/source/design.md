@@ -1,19 +1,19 @@
 ---
 title: Lateef - Design
-fontversion: 1.400 beta
+fontversion: 2.000
 ---
 
 Lateef provides a &#x201c;simplified&#x201d; rendering of Arabic script, using basic connecting glyphs but not including a wide variety of additional ligatures or contextual alternates (only the required lam-alef ligatures). This simplified style is often preferred for clarity, especially in non-Arabic languages.
 
 Seven weights for this typeface family are included:
 
-- Lateef Beta ExtraLight
-- Lateef Beta Light
-- Lateef Beta Regular
-- Lateef Beta Medium
-- Lateef Beta SemiBold
-- Lateef Beta Bold
-- Lateef Beta ExtraBold
+- Lateef ExtraLight
+- Lateef Light
+- Lateef Regular
+- Lateef Medium
+- Lateef SemiBold
+- Lateef Bold
+- Lateef ExtraBold
 
 
 ## Type Samples
@@ -21,7 +21,12 @@ Seven weights for this typeface family are included:
 Type samples showing some of the inventory of glyphs can be found here: 
 [Lateef Type Sample](sample.md).
 
-An example of some text is shown below. 
+Examples of some text is shown below. 
+
+![Lateef Sample - Seven weights](assets/images/weights.png){.fullsize}
+<!-- PRODUCT SITE IMAGE SRC https://software.sil.org/lateef/wp-content/uploads/sites/30/2022/04/weights.png -->
+<figcaption>Lateef Sample - Seven weights</figcaption>
+
 
 ![Lateef Sample - Genesis 11](assets/images/LateefGen11_LO.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/lateef/wp-content/uploads/sites/30/2022/04/LateefGen11_LO.png -->

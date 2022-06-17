@@ -1,6 +1,6 @@
 ---
 title: Lateef - Rendering the Allah ligature
-fontversion: 1.400 beta
+fontversion: 2.000
 ---
 
 

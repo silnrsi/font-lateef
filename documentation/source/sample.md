@@ -1,6 +1,6 @@
 ---
 title: Lateef - Type Sample
-fontversion: 1.400 beta
+fontversion: 2.000
 ---
 
 This document demonstrates all of the characters in the font. It is organized by Unicode block. Alternate glyphs that are available through features are demonstrated in the [Features](features.md) document. At the end is a sample demonstrating Arabic shaping and another example of running text.
@@ -43,25 +43,25 @@ CGJ (U+034F)
 
 ### Greek and Coptic:
 
-Regular: <span class='lateefL-R normal'> π </span>
+Regular: <span class='lateefL-R normal'>&#x03C0;</span>
 
-**Bold:** <span class='lateefL-B normal'> π</span>
+**Bold:** <span class='lateefL-B normal'>&#x03C0;</span>
 
 ### General Punctuation, Supplemental Punctuation:
 
-Regular:<span class='lateefL-R normal'> ‐ ‑ ‒ – — ― ‘ ’ ‚ “ ” „ † ‡ • … ‰ ‹ › ⁄ ⁏ ⹁</span>
+Regular: <span class='lateefL-R normal'>&#x2010; &#x2011; &#x2012; &#x2013; &#x2014; &#x2015; &#x2018; &#x2019; &#x201A; &#x201B; &#x201C; &#x201D; &#x201E; &#x201F; &#x2020; &#x2021; &#x2022; &#x2026; &#x2030; &#x2039; &#x203A; &#x2044; &#x204F; &#x2E41;</span>
 
-**Bold:** <span class='lateefL-B normal'> ‐ ‑ ‒ – — ― ‘ ’ ‚ “ ” „ † ‡ • … ‰ ‹ › ⁄ ⁏ ⹁</span>
+**Bold:** <span class='lateefL-B normal'>&#x2010; &#x2011; &#x2012; &#x2013; &#x2014; &#x2015; &#x2018; &#x2019; &#x201A; &#x201B; &#x201C; &#x201D; &#x201E; &#x201F; &#x2020; &#x2021; &#x2022; &#x2026; &#x2030; &#x2039; &#x203A; &#x2044; &#x204F; &#x2E41;</span>
 
 ### Currency Symbols:
 
-Regular:<span class='lateefL-R normal'> €</span>
+Regular: <span class='lateefL-R normal'>&#x20AC;</span>
 
-**Bold:** <span class='lateefL-B normal'> €</span>
+**Bold:** <span class='lateefL-B normal'>&#x20AC;</span>
 
 ### Letterlike Symbols, Mathematical Operators, Control Pictures, Geometric Shapes, Miscellaneous Mathematical Symbols-B: 
 
-Regular:<span class='lateefL-R normal'> ™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≠ ≤ ≥ ◊ ◌ ⧵ </span>
+Regular: <span class='lateefL-R normal'> ™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≠ ≤ ≥ ◊ ◌ ⧵ </span>
 
 **Bold:** <span class='lateefL-B normal'> ™ Ω ∂ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≈ ≠ ≤ ≥ ␣ ◊ ◌ ⧵ </span>
 

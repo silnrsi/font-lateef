@@ -1,11 +1,11 @@
 ---
 title: Lateef - Support
-fontversion: 1.400 beta
+fontversion: 2.000
 ---
 
 ## Support options
 
-As this font is distributed at no cost, we are unable to provide a commercial level of personal technical support. We will, however, try to resolve problems that are reported to us.
+As these fonts are distributed at no cost, we are unable to provide a commercial level of personal technical support. We will, however, try to resolve problems that are reported to us.
 
 Before requesting technical support, please **carefully read all the documentation included with the fonts and linked pages on the web site**. The [Resources page](resources.md) is a good place to begin.
 
@@ -15,9 +15,9 @@ For person-to-person support visit the [SIL Language Software Community](https:/
 
 ## Reporting bugs and feature requests
 
-If you have a bug to report or a suggestion for how we could improve the font please create an issue in the [Github Lateef project](https://github.com/silnrsi/font-lateef/issues) or contact us directly.
+If you have a bug to report or a suggestion for how we could improve the fonts please create an issue in the [Github Lateef project](https://github.com/silnrsi/font-lateef/issues) or contact us directly.
 
 ## Contact form
 
-If the documentation and community fail to answer your question or need further help using the font, please contact us using [the form on the Lateef web site](https://software.sil.org/lateef/about/contact/).
+If the documentation and community fail to answer your question or need further help using the fonts, please contact us using [the form on the Lateef web site](https://software.sil.org/lateef/about/contact/).
 

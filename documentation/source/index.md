@@ -1,6 +1,6 @@
 ---
 title: Lateef - Documentation
-fontversion: 1.400 beta
+fontversion: 2.000
 ---
 
 Thank you for your interest in the Lateef font. Lateef includes near-complete support for Unicode 13.0 Arabic ranges (excluding the Arabic Presentation Forms blocks, which are not recommended for normal use).
