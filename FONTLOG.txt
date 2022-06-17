@@ -48,7 +48,7 @@ For detailed documentation see the contents of the 'documentation' folder.
 
 #### New
 
-- Added Lateef 6 weights -- ExtraLight, Light, Medium, SemiBold, Bold, and ExtraBold
+- Added 6 weights -- ExtraLight, Light, Medium, SemiBold, Bold, and ExtraBold
 - Added OpenType support back in to the font
 - Added "Disable digit kerning (see FAQ)" TypeTuner-only feature to support the bug in Word
 - New features:
@@ -177,7 +177,7 @@ For detailed documentation see the contents of the 'documentation' folder.
      - U+201F DOUBLE HIGH-REVERSED-9 QUOTATION MARK
      - U+204F REVERSED SEMICOLON
      - U+2E41 REVERSED COMMA
-- Implemented new Allah ligature rules
+- Implemented new rules for forming the Allah ligature
 - Implemented support for UNICODE ARABIC MARK RENDERING (UTR #53) 
 - Changed design of all Latin glyphs to use Crimson Pro
 - Updated Latin script repertoire to support "Recommended characters for Non-Roman fonts"

@@ -202,7 +202,7 @@ Reserved Font Names and would have to be named something like "Nations Naskh".
      - U+201F DOUBLE HIGH-REVERSED-9 QUOTATION MARK
      - U+204F REVERSED SEMICOLON
      - U+2E41 REVERSED COMMA
-- Implemented new Allah ligature rules
+- Implemented new rules for forming the Allah ligature
 - Implemented support for UNICODE ARABIC MARK RENDERING (UTR #53) 
 - Changed design of all Latin glyphs to use Crimson Pro
 - Updated Latin script repertoire to support "Recommended characters for Non-Roman fonts"
