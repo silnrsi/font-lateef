@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rreh-ar.shrtail" format="2">
-  <advance width="407"/>
+  <advance width="437"/>
   <anchor x="52" y="698" name="alefUnused"/>
   <anchor x="200" y="998" name="diaA"/>
   <anchor x="167" y="-474" name="diaB"/>
