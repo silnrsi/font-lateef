@@ -357,6 +357,52 @@ lookup ShaddaLigatures {
 #********************
 
 #********************
+# Short tail variants of reh and waw
+
+lookup shrtail {
+  lookupflag 0;
+  sub @cno_shrtail by @c_shrtail;
+} shrtail ;
+
+# Now the contexts for the above:
+
+# At present these are all the same patterns that, if we don't do the substitution,
+# would get loosened slightly by the logic in oldStyleKerning.feax EXCEPT for
+# the reh-markbelow-ain case (which is not covered here, so the oldStyleKerning rules
+# still kick in).
+
+lookup ShortTailRehWaw {
+  lookupflag 0;
+  # Followed by certain narrow initials because of nuktas below
+  sub @cno_shrtail' lookup shrtail                     [ @KernRehWawLoosen @KernRehWawLoosenMore ];
+  sub @cno_shrtail' lookup shrtail @MarksAny           [ @KernRehWawLoosen @KernRehWawLoosenMore ];
+  sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny [ @KernRehWawLoosen @KernRehWawLoosenMore ];
+
+  # Followed alef with mark below it
+  sub @cno_shrtail' lookup shrtail                     @AlefIso @MarksBelow                         ;
+  sub @cno_shrtail' lookup shrtail                     @AlefIso @MarksAbove @MarksBelow             ;
+  sub @cno_shrtail' lookup shrtail                     @AlefIso @MarksAbove @MarksAbove @MarksBelow ;
+  sub @cno_shrtail' lookup shrtail @MarksAny           @AlefIso @MarksBelow                         ;
+  sub @cno_shrtail' lookup shrtail @MarksAny           @AlefIso @MarksAbove @MarksBelow             ;
+  sub @cno_shrtail' lookup shrtail @MarksAny           @AlefIso @MarksAbove @MarksAbove @MarksBelow ;
+  sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @AlefIso @MarksBelow                         ;
+  sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @AlefIso @MarksAbove @MarksBelow             ;
+  sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @AlefIso @MarksAbove @MarksAbove @MarksBelow ;
+
+  # Followed by narrow glyphs with something below
+  sub @cno_shrtail' lookup shrtail                     @NarrowIni @MarksBelow                         ;
+  sub @cno_shrtail' lookup shrtail                     @NarrowIni @MarksAbove @MarksBelow             ;
+  sub @cno_shrtail' lookup shrtail                     @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;
+  sub @cno_shrtail' lookup shrtail @MarksAny           @NarrowIni @MarksBelow                         ;
+  sub @cno_shrtail' lookup shrtail @MarksAny           @NarrowIni @MarksAbove @MarksBelow             ;
+  sub @cno_shrtail' lookup shrtail @MarksAny           @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;
+  sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @NarrowIni @MarksBelow                         ;
+  sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksBelow             ;
+  sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;
+} ShortTailRehWaw ;
+
+
+#********************
 # Language-independent CALTs
 
 lookup DaggerAlefToLarge {
@@ -827,6 +873,7 @@ feature rlig {  # Required Ligatures
 feature calt {  # Contextual Alternates
     script arab;  # Arabic
         lookup DaggerAlefToLarge ;
+        lookup ShortTailRehWaw ;
       language KIR ; # Kyrgyz
       	lookup KyrgyzCALT ;
       language KUR ; # Kurdish
