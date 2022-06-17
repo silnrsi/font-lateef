@@ -367,12 +367,11 @@ lookup shrtail {
 # Now the contexts for the above:
 
 # At present these are all the same patterns that, if we don't do the substitution,
-# would get loosened slightly by the logic in oldStyleKerning.feax EXCEPT for
-# the reh-markbelow-ain case (which is not covered here, so the oldStyleKerning rules
-# still kick in).
+# would get loosened slightly by the logic in oldStyleKerning.feax.
 
 lookup ShortTailRehWaw {
   lookupflag 0;
+  
   # Followed by certain narrow initials because of nuktas below
   sub @cno_shrtail' lookup shrtail                     [ @KernRehWawLoosen @KernRehWawLoosenMore ];
   sub @cno_shrtail' lookup shrtail @MarksAny           [ @KernRehWawLoosen @KernRehWawLoosenMore ];
@@ -389,6 +388,11 @@ lookup ShortTailRehWaw {
   sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @AlefIso @MarksAbove @MarksBelow             ;
   sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @AlefIso @MarksAbove @MarksAbove @MarksBelow ;
 
+  # Followed by mark below and then Ain-like isloates:
+  sub @cno_shrtail' lookup shrtail @MarksBelow             @AinLikeIsol ;
+  sub @cno_shrtail' lookup shrtail @MarksBelow @MarksAny   @AinLikeIsol ;
+  sub @cno_shrtail' lookup shrtail @MarksAny   @MarksBelow @AinLikeIsol ;
+  
   # Followed by narrow glyphs with something below
   sub @cno_shrtail' lookup shrtail                     @NarrowIni @MarksBelow                         ;
   sub @cno_shrtail' lookup shrtail                     @NarrowIni @MarksAbove @MarksBelow             ;

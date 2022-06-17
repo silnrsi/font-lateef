@@ -1,3 +1,15 @@
+#**********************************
+# This file is part of Lateef font family (http://software.sil.org/lateef/) 
+# and is Copyright (c) 2001-2022 SIL International (http://www.sil.org/),
+# with Reserved Font Names "Lateef" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+# details including an FAQ.
+#**********************************
+
 # Kerning of reh-like and waw-like, derived from LateefGR
 
 # Whole lines begining with "#gr" are lines of code from LateefGR
@@ -74,6 +86,13 @@ lookup oldStyleKerning {
     pos @RehWawAll' <200 0 200 0> @MarksBelow             @AinLikeIsol ;  #gr
     pos @RehWawAll' <200 0 200 0> @MarksBelow @MarksAny   @AinLikeIsol ;  #gr
     pos @RehWawAll' <200 0 200 0> @MarksAny   @MarksBelow @AinLikeIsol ;  #gr
+
+    # Similar to above, but for the new short-tail reh/waw, we need to move it just 
+    # slightly right to keep the mark below from hitting isolate ain.
+
+    pos @c_shrtail' <100 0 100 0> @MarksBelow             @AinLikeIsol ;
+    pos @c_shrtail' <100 0 100 0> @MarksBelow @MarksAny   @AinLikeIsol ;
+    pos @c_shrtail' <100 0 100 0> @MarksAny   @MarksBelow @AinLikeIsol ;
 
     #gr   // otherwise tighten some reh/wah (nothing below) to following Ain-like isolates
     #gr   cAinLikeIsol {advance.x -= 200m} / cRehWawNothingBelow MARKSABOVE _ ;
