@@ -169,21 +169,7 @@ feature kern {  # Kerning
         lookup SubtendingMarks;
         lookup kernpairs;
         lookup oldStyleKerning;
-
-do if opt("noOTkern") == "";	
-{
-    script arab;  # Arabic
-        lookup mainkern;
-      # Force other languages to include Arabic script lookups
-      language KUR  ;
-      language RHG  ;
-      language SND  ;
-      language URD  ;
-      language WLF  ;
-}
-
 } kern;
-
 
 feature mark {  # Mark to base Positioning
     # Same for latin & arabic:

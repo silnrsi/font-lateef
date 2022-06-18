@@ -13,8 +13,11 @@ with Reserved Font Names "Lateef" and "SIL".
 This Font Software is licensed under the SIL Open Font License,
 Version 1.1.
 
-Lateef*.feax  Master source file for OpenType logic for each individual font. Note this file utilizes
-              FEA extensions provided by pysilfont.
-gpos.feax     Pulled in by each master source file.
-gsub.feax     Pulled in by each master source file.
+All files utilize FEA extensions provided by pysilfont.
+
+main.feax     Main source file for OpenType logic.
+gpos.feax     Included into main.feax source file.
+gsub.feax     Included into main.feax source file.
+oldStyleKerning.feax  Included into main.feax source file.
+
 

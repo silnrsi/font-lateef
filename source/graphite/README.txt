@@ -17,13 +17,10 @@ You should have received a copy of the license along with this Font Software.
 If this is not the case, go to (http://scripts.sil.org/OFL) for all the
 details including an FAQ.
 
-master*.gdl   Master GDL file; includes all the others
+main.gdl   Main GDL file; includes all the others:
 
 cp1252.gdl    Rules for Roman characters within codepage 1252
 
 glyphs.gdh    Additional glyphs and classes needed only for Graphite
 
 features.gdh  Feature definitions
-
-caBasedKerning.gdl Used to generate kerning calculations
-
