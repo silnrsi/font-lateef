@@ -2,7 +2,7 @@
 <glyph name="rehRing-ar.shrtail" format="2">
   <advance width="406"/>
   <anchor x="93" y="698" name="alefUnused"/>
-  <anchor x="231" y="530" name="diaA"/>
+  <anchor x="231" y="697" name="diaA"/>
   <anchor x="178" y="-474" name="diaB"/>
   <outline>
     <component base="reh-ar.shrtail"/>
