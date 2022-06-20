@@ -87,12 +87,13 @@ lookup oldStyleKerning {
     pos @RehWawAll' <200 0 200 0> @MarksBelow @MarksAny   @AinLikeIsol ;  #gr
     pos @RehWawAll' <200 0 200 0> @MarksAny   @MarksBelow @AinLikeIsol ;  #gr
 
-    # Similar to above, but for the new short-tail reh/waw, we need to move it just 
-    # slightly right to keep the mark below from hitting isolate ain.
-
-    pos @c_shrtail' <100 0 100 0> @MarksBelow             @AinLikeIsol ;
-    pos @c_shrtail' <100 0 100 0> @MarksBelow @MarksAny   @AinLikeIsol ;
-    pos @c_shrtail' <100 0 100 0> @MarksAny   @MarksBelow @AinLikeIsol ;
+    # Short-tail variants disabled for now.
+    ## # Similar to above, but for the new short-tail reh/waw, we need to move it just 
+    ## # slightly right to keep the mark below from hitting isolate ain.   
+    ## 
+    ## pos @c_shrtail' <100 0 100 0> @MarksBelow             @AinLikeIsol ;
+    ## pos @c_shrtail' <100 0 100 0> @MarksBelow @MarksAny   @AinLikeIsol ;
+    ## pos @c_shrtail' <100 0 100 0> @MarksAny   @MarksBelow @AinLikeIsol ;
 
     #gr   // otherwise tighten some reh/wah (nothing below) to following Ain-like isolates
     #gr   cAinLikeIsol {advance.x -= 200m} / cRehWawNothingBelow MARKSABOVE _ ;
