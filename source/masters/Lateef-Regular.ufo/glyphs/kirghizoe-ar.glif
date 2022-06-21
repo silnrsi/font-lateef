@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kirghizoe-ar" format="2">
-  <advance width="667"/>
+  <advance width="674"/>
   <unicode hex="06C5"/>
   <anchor x="494" y="541" name="above"/>
   <anchor x="193" y="694" name="alefUnused"/>
