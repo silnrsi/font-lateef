@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="reh-ar" format="2">
-  <advance width="547"/>
+  <advance width="567"/>
   <unicode hex="0631"/>
   <anchor x="378" y="441" name="above"/>
   <anchor x="122" y="698" name="alefUnused"/>

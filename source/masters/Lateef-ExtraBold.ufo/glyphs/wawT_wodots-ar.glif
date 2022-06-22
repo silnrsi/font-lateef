@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wawTwodots-ar" format="2">
-  <advance width="658"/>
+  <advance width="678"/>
   <unicode hex="06CA"/>
   <anchor x="184" y="694" name="alefUnused"/>
   <anchor x="195" y="907" name="diaA"/>

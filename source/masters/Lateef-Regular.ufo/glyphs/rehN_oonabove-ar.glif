@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehNoonabove-ar" format="2">
-  <advance width="547"/>
+  <advance width="567"/>
   <unicode hex="08B9"/>
   <anchor x="122" y="698" name="alefUnused"/>
   <anchor x="378" y="1064" name="diaA"/>

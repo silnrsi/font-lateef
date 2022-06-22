@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehVinvertedabove-ar" format="2">
-  <advance width="545"/>
+  <advance width="565"/>
   <unicode hex="06EF"/>
   <anchor x="162" y="698" name="alefUnused"/>
   <anchor x="280" y="923" name="diaA"/>

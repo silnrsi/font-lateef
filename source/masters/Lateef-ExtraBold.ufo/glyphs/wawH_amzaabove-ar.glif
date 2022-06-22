@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wawHamzaabove-ar" format="2">
-  <advance width="658"/>
+  <advance width="678"/>
   <unicode hex="0624"/>
   <anchor x="184" y="694" name="alefUnused"/>
   <anchor x="308" y="977" name="diaA"/>

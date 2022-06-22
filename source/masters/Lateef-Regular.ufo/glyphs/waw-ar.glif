@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="waw-ar" format="2">
-  <advance width="674"/>
+  <advance width="685"/>
   <unicode hex="0648"/>
   <guideline x="194" y="449" angle="0"/>
   <anchor x="485" y="501" name="above"/>

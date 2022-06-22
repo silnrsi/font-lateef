@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalFourdots-ar" format="2">
-  <advance width="514"/>
+  <advance width="554"/>
   <unicode hex="0690"/>
   <anchor x="96" y="817" name="alefUnused"/>
   <anchor x="288" y="1283" name="diaA"/>
