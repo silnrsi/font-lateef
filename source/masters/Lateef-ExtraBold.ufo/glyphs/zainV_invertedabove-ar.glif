@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zainVinvertedabove-ar" format="2">
-  <advance width="545"/>
+  <advance width="565"/>
   <unicode hex="08B2"/>
   <anchor x="162" y="698" name="alefUnused"/>
   <anchor x="280" y="1149" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="reh-ar"/>
     <component base="_dot1_hat" xOffset="376" yOffset="701"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

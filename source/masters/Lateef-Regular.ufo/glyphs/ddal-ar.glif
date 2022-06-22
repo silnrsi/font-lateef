@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ddal-ar" format="2">
-  <advance width="553"/>
+  <advance width="535"/>
   <unicode hex="0688"/>
-  <anchor x="114" y="817" name="alefUnused"/>
+  <anchor x="116" y="817" name="alefUnused"/>
   <anchor x="309" y="1267" name="diaA"/>
   <anchor x="229" y="-231" name="diaB"/>
   <outline>
-    <component base="dal-ar" xOffset="18"/>
-    <component base="_tah" xOffset="264" yOffset="862"/>
+    <component base="dal-ar"/>
+    <component base="_tah" xOffset="266" yOffset="862"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>
