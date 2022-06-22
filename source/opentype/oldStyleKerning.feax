@@ -26,21 +26,21 @@ lookup oldStyleKerning {
     #gr  cKernRehWawLoosenMore {advance.x += 350m } / cRehAll MARKS _ ;
     #gr  cKernRehWawLoosenMore {advance.x += 300m } / cWawAll MARKS _ ;
 
-    pos @RehAll' <200 0 200 0>                     @KernRehWawLoosen ;        #gr
-    pos @RehAll' <200 0 200 0> @MarksAny           @KernRehWawLoosen ;        #gr
-    pos @RehAll' <200 0 200 0> @MarksAny @MarksAny @KernRehWawLoosen ;        #gr
+    pos @RehAll' <100 0 100 0>                     @KernRehWawLoosen ;        #gr
+    pos @RehAll' <100 0 100 0> @MarksAny           @KernRehWawLoosen ;        #gr
+    pos @RehAll' <100 0 100 0> @MarksAny @MarksAny @KernRehWawLoosen ;        #gr
     
-    pos @WawAll' <150 0 150 0>                     @KernRehWawLoosen ;        #gr
-    pos @WawAll' <150 0 150 0> @MarksAny           @KernRehWawLoosen ;        #gr
-    pos @WawAll' <150 0 150 0> @MarksAny @MarksAny @KernRehWawLoosen ;        #gr
+    pos @WawAll' <30 0 30 0>                     @KernRehWawLoosen ;        #gr
+    pos @WawAll' <30 0 30 0> @MarksAny           @KernRehWawLoosen ;        #gr
+    pos @WawAll' <30 0 30 0> @MarksAny @MarksAny @KernRehWawLoosen ;        #gr
 
-    pos @RehAll' <350 0 350 0>                     @KernRehWawLoosenMore ;    #gr
-    pos @RehAll' <350 0 350 0> @MarksAny           @KernRehWawLoosenMore ;    #gr
-    pos @RehAll' <350 0 350 0> @MarksAny @MarksAny @KernRehWawLoosenMore ;    #gr
+    pos @RehAll' <200 0 200 0>                     @KernRehWawLoosenMore ;    #gr
+    pos @RehAll' <200 0 200 0> @MarksAny           @KernRehWawLoosenMore ;    #gr
+    pos @RehAll' <200 0 200 0> @MarksAny @MarksAny @KernRehWawLoosenMore ;    #gr
     
-    pos @WawAll' <300 0 300 0>                     @KernRehWawLoosenMore ;    #gr
-    pos @WawAll' <300 0 300 0> @MarksAny           @KernRehWawLoosenMore ;    #gr
-    pos @WawAll' <300 0 300 0> @MarksAny @MarksAny @KernRehWawLoosenMore ;    #gr
+    pos @WawAll' <150 0 150 0>                     @KernRehWawLoosenMore ;    #gr
+    pos @WawAll' <150 0 150 0> @MarksAny           @KernRehWawLoosenMore ;    #gr
+    pos @WawAll' <150 0 150 0> @MarksAny @MarksAny @KernRehWawLoosenMore ;    #gr
     
 
     #gr  // loosen from following alef with mark below it
@@ -105,15 +105,15 @@ lookup oldStyleKerning {
     #gr   // loosen from following narrow glyphs with something below
     #gr   cNarrowIni {advance.x += 120m} / cRehWawAll MARKS _ MARKS cAnyMarksBelow ;
 
-    pos @RehWawAll' <120 0 120 0>                     @NarrowIni @MarksBelow                         ;  #gr
-    pos @RehWawAll' <120 0 120 0>                     @NarrowIni @MarksAbove @MarksBelow             ;  #gr
-    pos @RehWawAll' <120 0 120 0>                     @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;  #gr
-    pos @RehWawAll' <120 0 120 0> @MarksAny           @NarrowIni @MarksBelow                         ;  #gr
-    pos @RehWawAll' <120 0 120 0> @MarksAny           @NarrowIni @MarksAbove @MarksBelow             ;  #gr
-    pos @RehWawAll' <120 0 120 0> @MarksAny           @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;  #gr
-    pos @RehWawAll' <120 0 120 0> @MarksAny @MarksAny @NarrowIni @MarksBelow                         ;  #gr
-    pos @RehWawAll' <120 0 120 0> @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksBelow             ;  #gr
-    pos @RehWawAll' <120 0 120 0> @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;  #gr
+    pos @RehWawAll' <100 0 100 0>                     @NarrowIni @MarksBelow                         ;  #gr
+    pos @RehWawAll' <100 0 100 0>                     @NarrowIni @MarksAbove @MarksBelow             ;  #gr
+    pos @RehWawAll' <100 0 100 0>                     @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;  #gr
+    pos @RehWawAll' <100 0 100 0> @MarksAny           @NarrowIni @MarksBelow                         ;  #gr
+    pos @RehWawAll' <100 0 100 0> @MarksAny           @NarrowIni @MarksAbove @MarksBelow             ;  #gr
+    pos @RehWawAll' <100 0 100 0> @MarksAny           @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;  #gr
+    pos @RehWawAll' <100 0 100 0> @MarksAny @MarksAny @NarrowIni @MarksBelow                         ;  #gr
+    pos @RehWawAll' <100 0 100 0> @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksBelow             ;  #gr
+    pos @RehWawAll' <100 0 100 0> @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;  #gr
     
     #gr   // leave certain cases alone:
     #gr   cRehKernOther   / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cAnyMarksBelow ;
