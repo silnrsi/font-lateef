@@ -247,7 +247,7 @@ Reserved Font Names and would have to be named something like "Nations Naskh".
     - U+06C5 ARABIC LETTER KIRGHIZ OE
     - U+06C7 ARABIC LETTER U
     - U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM
-- Adjusted position of isolate lam characters
+- Adjusted vertical position of isolate lam characters
 - Small changes to some glyphs including maddah, imala e, ain, waw 
 - Increase vertical separation between maddah and fatha in context of alef-maddah and initial lam+fatha
 - Adjusted default linespacing to match that of Lateef 1.001 (which is tighter than LateefGR)
