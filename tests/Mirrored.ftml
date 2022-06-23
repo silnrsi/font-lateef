@@ -31,9 +31,11 @@
     <test label='U+2018'><comment>style         </comment><string>a \u2018 b \u0627 \u2018 \u0628</string></test>
     <test label='U+2019'><comment>style         </comment><string>a \u2019 b \u0627 \u2019 \u0628</string></test>
     <test label='U+201A'><comment>              </comment><string>a \u201A b \u0627 \u201A \u0628</string></test>
+    <test label='U+201B'><comment>style         </comment><string>a \u201B b \u0627 \u201B \u0628</string></test>
     <test label='U+201C'><comment>style         </comment><string>a \u201C b \u0627 \u201C \u0628</string></test>
     <test label='U+201D'><comment>style         </comment><string>a \u201D b \u0627 \u201D \u0628</string></test>
     <test label='U+201E'><comment>              </comment><string>a \u201E b \u0627 \u201E \u0628</string></test>
+    <test label='U+201F'><comment>style         </comment><string>a \u201F b \u0627 \u201F \u0628</string></test>
     <test label='U+2039'><comment>mirror + style</comment><string>a \u2039 b \u0627 \u2039 \u0628</string></test>
     <test label='U+203A'><comment>mirror + style</comment><string>a \u203A b \u0627 \u203A \u0628</string></test>
     <test label='U+2202'><comment>mirror        </comment><string>a \u2202 b \u0627 \u2202 \u0628</string></test>
