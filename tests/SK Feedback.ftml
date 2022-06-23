@@ -21,6 +21,64 @@
     <test label='Check'><string>RenderingUnknown </string></test>
   </testgroup>
 
+  <testgroup label='ABS-2796 - Lateef Beta with short-tail glyphs'>
+    <test label='1'>
+        <comment>It looks scrunched together as if the reh has been rotated counter-clockwise. I wonder if it could be backed off a little in both the kerning and the length of the tail, something between what we had before and what is there now. It is emphasized in words where you have a waw followed by a reh.</comment>
+        <string>\u0639\u0632\u0650\u064a\u0627 \u067e\u0631\u0680\u064f\u0648 \u0699\u0650\u064a\u0627 \u06a9\u0648\u0699\u064e\u064a\u0646</string>
+    </test>
+    <test label='1' stylename="kern_0">
+        <string>\u0639\u0632\u0650\u064a\u0627 \u067e\u0631\u0680\u064f\u0648 \u0699\u0650\u064a\u0627 \u06a9\u0648\u0699\u064e\u064a\u0646<em> </em></string>
+    </test>
+    <test label='2'>
+        <comment>It now has less gap than in other contexts. Compare with the zeh followed by qaf in the following word.</comment>
+        <string>\u062d\u0650\u0632\u0642\u0650\u064a </string>
+    </test>
+    <test label='2' stylename="kern_0">
+        <string>\u062d\u0650\u0632\u0642\u0650\u064a<em> </em></string>
+    </test>
+    <test label='3'>
+        <comment>We're also getting some collisions where the four nuqta reh is colliding with the following character with nuqtas above.</comment>
+        <string>\u0628\u0699\u062a\u0650\u064a </string>
+    </test>
+    <test label='3' stylename="kern_0">
+        <string>\u0628\u0699\u062a\u0650\u064a<em> </em></string>
+    </test>
+    <test label='4'>
+        <comment>I don't feel the same about the shortened waw even where it occurs in the same word with a normal waw. In fact, I hardly notice the difference. I do see that the gap between the top of the waw and the following character is slightly more than the reh.</comment>
+        <string>\u0648\u067e\u0627\u0020\u067e\u0648\u0650\u064a\u062a </string>
+    </test>
+    <test label='4' stylename="kern_0">
+        <string>\u0648\u067e\u0627\u0020\u067e\u0648\u0650\u064a\u062a<em> </em></string></test>
+    <test label='5'>
+        <comment>I wonder if a word like Judea should also use the shortened tail form.</comment>
+        <string>\u0647\u0648\u062f\u0650\u064a\u062a </string>
+    </test>
+    <test label='5' stylename="kern_0">
+        <string>\u0647\u0648\u062f\u0650\u064a\u062a<em> </em></string>
+    </test>
+    <test label='6'>
+        <comment>One thing I am noticing is that the waw and reh followed by jeem forms need to be brought together.</comment>
+        <string>\u062a\u0631\u062c\u0645\u0020\u0648\u0758\u0646 </string>
+    </test>
+    <test label='6' stylename="kern_0">
+        <string>\u062a\u0631\u062c\u0645\u0020\u0648\u0758\u0646<em> </em></string>
+    </test>
+    <test label='7'>
+        <comment>I'm also noticing that the dal followed by waw or reh seems to be crunched together and almost touching.</comment>
+        <string>\u068f\u0631\u064f\u0648\u0020\u068f\u064f\u0648 </string>
+    </test>
+    <test label='7' stylename="kern_0">
+        <string>\u068f\u0631\u064f\u0648\u0020\u068f\u064f\u0648<em> </em></string>
+    </test>
+    <test label='8'>
+        <comment>dal with three nuqtas above followed by kaf also gets a bit too close.</comment>
+        <string>\u068f\u064f\u06a9\u0649 </string>
+    </test>
+    <test label='8' stylename="kern_0">
+        <string>\u068f\u064f\u06a9\u0649<em> </em></string>
+    </test>
+  </testgroup>
+
   <testgroup label='ABS-2641 - Lateef Alpha 2 (2022-01-06)'>
     <test label='1'>
         <comment>too tight between the waw and ain (but maybe I'll get used to it)</comment>
