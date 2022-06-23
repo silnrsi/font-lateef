@@ -15,7 +15,7 @@
     <styles>
       <style feats="'kern' 0" name="kern_0"/>
     </styles>
-    <title>[ABS-2641] SK Feedback</title>
+    <title>SK Beta 1.400 Feedback</title>
   </head>
   <testgroup label='Rendering check'>
     <test label='Check'><string>RenderingUnknown </string></test>
