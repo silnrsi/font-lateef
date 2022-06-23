@@ -5,4 +5,4 @@ DESIGNSPACE=source/lateef.designspace
 OUTPUT=source/masters/Lateef.glyphs
 
 echo "Converting UFO(s) in '$DESIGNSPACE' to '$OUTPUT'"
-psfufo2glyphs $DESIGNSPACE $OUTPUT
+psfufo2glyphs --nofea $DESIGNSPACE $OUTPUT
