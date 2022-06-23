@@ -3,7 +3,7 @@ title: Lateef - Announcement
 fontversion: 2.000
 ---
 
-We are pleased to release version 2.000 of the Lateef font family. The font package is available for download from the [Download page](https://software.sil.org/scheherazade/download/).
+We are pleased to release version 2.000 of the Lateef font family. The font package is available for download from the [Download page](https://software.sil.org/lateef/download/).
 
 Seven weights for this typeface family are included:
 
@@ -220,7 +220,9 @@ The full range of weights is accessed in different ways depending on the applica
 #### Known issues
 
 - Characters added since LateefGR are not yet kerned so spacing after reh- and waw-like characters may be incorrect. Please let us know of specific combinations that should be improved.
-- In Word, kerning of Arabic proportional digits is incorrect. This is a bug in Word.
+- In Word: kerning of Arabic proportional digits is incorrect. This is a bug in Word.
+- In InDesign: some behaviors, such as the _lam-alef_ ligature, raised _kasra_ with _shadda_, and subtending marks, will not function correctly unless **Ligatures** is turned on in the **Characters** panel.
+
 
 
 

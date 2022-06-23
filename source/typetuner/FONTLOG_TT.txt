@@ -273,7 +273,11 @@ Reserved Font Names and would have to be named something like "Nations Naskh".
 - Characters added since LateefGR are not yet kerned so spacing after reh- and 
   waw-like characters may be incorrect. Please let us know of specific combinations
   that should be improved.
-- In Word, kerning of Arabic proportional digits is incorrect. This is a bug in Word.
+- In Word: kerning of Arabic proportional digits is incorrect. This is a bug in Word.
+- In InDesign: some behaviors, such as the _lam-alef_ ligature, raised _kasra_ with 
+  _shadda_, and subtending marks, will not function correctly unless **Ligatures** is 
+  turned on in the **Characters** panel.
+
 
 ### 2017-03-23 (SIL NRSI team) LateefGR Version 1.200
 - Removed U+03BC
