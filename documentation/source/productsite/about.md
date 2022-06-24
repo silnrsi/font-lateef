@@ -10,7 +10,7 @@ For more information on the visual characteristics of the font see [Design](desi
 
 ## Future plans
 
-This font is actively maintained and improved, and recent changes to its development process will enable more frequent releases.
+These fonts are actively maintained and improved, and recent changes to their development process will enable more frequent releases.
 
 The highest priorities for future additions and enhancements are mainly driven by:
 
@@ -34,7 +34,7 @@ Our font announcements are also available through Twitter [@silfonts](http://twi
 
 ## Supporting the project
 
-This font is  provided at no cost, however it is expensive to produce and maintain. Please consider donating to SIL’s font development efforts to support future development. Go to [SIL’s Give Direct page](https://donate.givedirect.org/?cid=13536&n=206909) and designate your gift for _Scripts & Fonts_. **Thank you!** 
+These fonts are provided at no cost, however they are expensive to produce and maintain. Please consider donating to SIL’s font development efforts to support future development. Go to [SIL’s Give Direct page](https://donate.givedirect.org/?cid=13536&n=206909) and designate your gift for _Scripts & Fonts_. **Thank you!** 
 
 ## About SIL International
 

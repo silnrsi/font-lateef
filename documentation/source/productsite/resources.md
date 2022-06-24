@@ -5,11 +5,10 @@ Arabic script is a complex and difficult script, and this complexity is compound
 
 ## Requirements
 
-This font is supported by all major operating systems (macOS, Windows, Linux-based, iOS, and Android), however the extent of that support depends on the individual OS and application.
-
+These fonts are supported by all major operating systems (macOS, Windows, Linux-based, iOS, and Android), however the extent of that support depends on the individual OS and application.
 ## Installation
 
-Install the font by decompressing the .zip archive and installing the font using the standard font installation process for .ttf (TrueType/OpenType) fonts for your platform. For additional tips see the help page on [Font installation](https://software.sil.org/fonts/installation).
+Install the fonts by decompressing the .zip archive and installing the fonts using the standard font installation process for .ttf (TrueType/OpenType) fonts for your platform. For additional tips see the help page on [Font installation](https://software.sil.org/fonts/installation).
 
 ## Keyboarding and character set support
 
@@ -19,17 +18,17 @@ If you want to enter characters that are not supported by any system keyboard, a
 
 Other suggestions are listed here: [Keyboard Systems Overview](http://scriptsource.org/entry/ytr8g8n6sw).
 
-See [Character set support](charset) for details of the Unicode characters supported by this font.
+See [Character set support](charset) for details of the Unicode characters supported by these fonts.
 
 ## Rendering and application support
 
-This font is designed to work with the OpenType advanced font technology. To take advantage of the advanced typographic capabilities of this fonts, you must be using applications that provide an adequate level of support for OpenType.
+These fonts are designed to work with the OpenType advanced font technology. To take advantage of the advanced typographic capabilities of these fonts, you must be using applications that provide an adequate level of support for OpenType.
 
 Other suggestions are listed here: [Applications Support](http://software.sil.org/arabicfonts/support/application-support/) and here: [Using Font Features](https://software.sil.org/fonts/features/). 
 
 ## Web fonts
 
-Web font versions of this font (in WOFF and WOFF2 formats) are available in the `web` folder. These can be copied to a web server and used as fonts on web pages. A very basic HTML/CSS demo page is also included. For more information on the options and techniques available for using these fonts on web pages see [Using SIL Fonts on Web Pages](http://software.sil.org/fonts/webfonts).
+Web font versions of these fonts (in WOFF and WOFF2 formats) are available in the `web` folder. These can be copied to a web server and used as fonts on web pages. A very basic HTML/CSS demo page is also included. For more information on the options and techniques available for using these fonts on web pages see [Using SIL Fonts on Web Pages](http://software.sil.org/fonts/webfonts).
 
 ## Text conversion
 

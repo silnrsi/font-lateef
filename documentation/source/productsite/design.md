@@ -3,13 +3,13 @@ Lateef provides a &#x201c;simplified&#x201d; rendering of Arabic script, using b
 
 Seven weights for this typeface family are included:
 
-- Lateef Beta ExtraLight
-- Lateef Beta Light
-- Lateef Beta Regular
-- Lateef Beta Medium
-- Lateef Beta SemiBold
-- Lateef Beta Bold
-- Lateef Beta ExtraBold
+- Lateef ExtraLight
+- Lateef Light
+- Lateef Regular
+- Lateef Medium
+- Lateef SemiBold
+- Lateef Bold
+- Lateef ExtraBold
 
 
 ## Type Samples
@@ -17,9 +17,13 @@ Seven weights for this typeface family are included:
 Type samples showing some of the inventory of glyphs can be found here: 
 [Lateef Type Sample](sample).
 
-An example of some text is shown below. 
+Examples of some text is shown below. 
 
-<img class='fullsize' alt='Lateef Sample - Genesis 11' src='https://software.sil.org/lateef/wp-content/uploads/sites/30/2022/04/LateefGen11_LO.png' />
+<img class='fullsize' alt='Lateef Sample - Seven weights' src='https://software.sil.org/lateef/wp-content/uploads/sites/30/2022/06/weights.png' />
+[caption]<em>Lateef Sample - Seven weights</em>[/caption]
+
+
+<img class='fullsize' alt='Lateef Sample - Genesis 11' src='https://software.sil.org/lateef/wp-content/uploads/sites/30/2022/06/LateefArabicGen11_LO.png' />
 [caption]<em>Lateef Sample - Genesis 11</em>[/caption]
 
 ## Character Set

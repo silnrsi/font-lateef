@@ -39,25 +39,25 @@ CGJ (U+034F)
 
 ### Greek and Coptic:
 
-Regular: <span class='lateefL-R normal'> π </span>
+Regular: <span class='lateefL-R normal'>&#x03C0;</span>
 
-**Bold:** <span class='lateefL-B normal'> π</span>
+**Bold:** <span class='lateefL-B normal'>&#x03C0;</span>
 
 ### General Punctuation, Supplemental Punctuation:
 
-Regular:<span class='lateefL-R normal'> ‐ ‑ ‒ – — ― ‘ ’ ‚ “ ” „ † ‡ • … ‰ ‹ › ⁄ ⁏ ⹁</span>
+Regular: <span class='lateefL-R normal'>&#x2010; &#x2011; &#x2012; &#x2013; &#x2014; &#x2015; &#x2018; &#x2019; &#x201A; &#x201B; &#x201C; &#x201D; &#x201E; &#x201F; &#x2020; &#x2021; &#x2022; &#x2026; &#x2030; &#x2039; &#x203A; &#x2044; &#x204F; &#x2E41;</span>
 
-**Bold:** <span class='lateefL-B normal'> ‐ ‑ ‒ – — ― ‘ ’ ‚ “ ” „ † ‡ • … ‰ ‹ › ⁄ ⁏ ⹁</span>
+**Bold:** <span class='lateefL-B normal'>&#x2010; &#x2011; &#x2012; &#x2013; &#x2014; &#x2015; &#x2018; &#x2019; &#x201A; &#x201B; &#x201C; &#x201D; &#x201E; &#x201F; &#x2020; &#x2021; &#x2022; &#x2026; &#x2030; &#x2039; &#x203A; &#x2044; &#x204F; &#x2E41;</span>
 
 ### Currency Symbols:
 
-Regular:<span class='lateefL-R normal'> €</span>
+Regular: <span class='lateefL-R normal'>&#x20AC;</span>
 
-**Bold:** <span class='lateefL-B normal'> €</span>
+**Bold:** <span class='lateefL-B normal'>&#x20AC;</span>
 
 ### Letterlike Symbols, Mathematical Operators, Control Pictures, Geometric Shapes, Miscellaneous Mathematical Symbols-B: 
 
-Regular:<span class='lateefL-R normal'> ™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≠ ≤ ≥ ◊ ◌ ⧵ </span>
+Regular: <span class='lateefL-R normal'> ™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≠ ≤ ≥ ◊ ◌ ⧵ </span>
 
 **Bold:** <span class='lateefL-B normal'> ™ Ω ∂ ∏ ∑ − ∕ ∙ √ ∞ ∫ ≈ ≠ ≤ ≥ ␣ ◊ ◌ ⧵ </span>
 
@@ -129,10 +129,10 @@ Regular:<span class='lateefL-R normal'> ™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √ 
 
 ## Sindhi UDHR #26:
 
-<p dir="rtl"><span class='lateef-B normal'>آرٽيڪل 26.</span></p>
-<p dir="rtl"><span class='lateef-cv44-1-cv84-1-R normal'>(1) هر فر د کي تعليم حاصل ڪرڻ جو حق آهي. گهٽ ۾ گهٽ تعليم ايليمينٽري تا بنيادي سطح تائين فراهم ڪئي  وڃي. ايليمنيٽري سطح تائين تعليم حاصل ڪرڻ لازمي هوندي. هڪ پاسي ٽڪينيڪل تاپروفيشنل تعليم کي عوام لاءِ موجود ڪيو ويندو ته ٻي پاسي اهليت پٽاندڙ اعليٰ تعيلم تائين پهچڻ جو حق سڀني هڪ جيتر و حا صل هوندو.</span></p>
-<p dir="rtl"><span class='lateef-cv44-1-cv84-1-R normal'>(2) تعليم و سيلي هر هڪ جي انساني شخصيت کي و ڌايو ويندو ته ٻي پاسي انساني حقن ۽ بنيادي آز اىين و اسطي احتر ام و اري جذبي کي سگهارو ڪيو ويندو، ان جي معر فت قو من، نسلي ۽ مذهبي گروهن جي و چ ۾ هڪ ٻئي جي سمجهه، هڪ ٻئي لاءِ سهپ، دوستيءَ جا جنبا و ڌايا و يندا، ٻي پاسي گڏيل قومن پار ان امن لاءِ ڪيو ن وينىڙ ڪو ششون واتيون وينديون.</span></p>
-<p dir="rtl"><span class='lateef-cv44-1-cv84-1-R normal'>(3) والدين کي پنهنجي ٻار کي ڏني و ينىڙ تعليم جي طر يقي جي چونڊ جو او لين حق حا صل هو ندو.</span></p>
+<p dir="rtl"><span class='lateef-B normal'>آرٽيڪل 26</span></p>
+<p dir="rtl"><span class='lateef-cv44-1-cv84-1-R normal'>هر فر د کي تعليم حاصل ڪرڻ جو حق آهي. گهٽ ۾ گهٽ تعليم ايليمينٽري تا بنيادي سطح تائين فراهم ڪئي  وڃي. ايليمنيٽري سطح تائين تعليم حاصل ڪرڻ لازمي هوندي. هڪ پاسي ٽڪينيڪل تاپروفيشنل تعليم کي عوام لاءِ موجود ڪيو ويندو ته ٻي پاسي اهليت پٽاندڙ اعليٰ تعيلم تائين پهچڻ جو حق سڀني هڪ جيتر و حا صل هوندو.</span></p>
+<p dir="rtl"><span class='lateef-cv44-1-cv84-1-R normal'>تعليم و سيلي هر هڪ جي انساني شخصيت کي و ڌايو ويندو ته ٻي پاسي انساني حقن ۽ بنيادي آز اىين و اسطي احتر ام و اري جذبي کي سگهارو ڪيو ويندو، ان جي معر فت قو من، نسلي ۽ مذهبي گروهن جي و چ ۾ هڪ ٻئي جي سمجهه، هڪ ٻئي لاءِ سهپ، دوستيءَ جا جنبا و ڌايا و يندا، ٻي پاسي گڏيل قومن پار ان امن لاءِ ڪيو ن وينىڙ ڪو ششون واتيون وينديون.</span></p>
+<p dir="rtl"><span class='lateef-cv44-1-cv84-1-R normal'>والدين کي پنهنجي ٻار کي ڏني و ينىڙ تعليم جي طر يقي جي چونڊ جو او لين حق حا صل هو ندو.</span></p>
 
 
 [font id='lateef' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1]

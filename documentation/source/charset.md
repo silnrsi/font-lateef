@@ -13,7 +13,7 @@ The following character ranges are supported by this font:
 
 Unicode block | Lateef support
 ------------- | ---------------
-Arabic 	| ✓ (except does not include 06EC)
+Arabic 	| ✓
 Arabic Supplement | ✓
 Arabic Extended-B | ✗
 Arabic Extended-A | does not include 08B5, 08C8..08E2
