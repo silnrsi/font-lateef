@@ -112,12 +112,8 @@
   <string>pagenumber-ar.glif</string>
   <key>parenleft</key>
   <string>parenleft.glif</string>
-  <key>quotedblbase.arab</key>
-  <string>quotedblbase.arab.glif</string>
   <key>quotedblright</key>
   <string>quotedblright.glif</string>
-  <key>quotesinglbase.arab</key>
-  <string>quotesinglbase.arab.glif</string>
   <key>rehLoop-ar.fina</key>
   <string>rehL_oop-ar.fina.glif</string>
   <key>sad-ar</key>
