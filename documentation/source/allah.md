@@ -4,7 +4,7 @@ fontversion: 2.000
 ---
 
 
-In certain types of literature, the name *Allah* and words related to this name are given unique rendering. Unicode has a *presentation form* character (U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM) that implements this rendering and, while this can work (in some fonts) for the word in isolation, it doesnâ€™t help users obtain special rendering in other contexts where it is desired.Â 
+In certain types of literature, the name *Allah* and words related to this name are given unique rendering. Unicode has a *presentation form* character (U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM) that implements this rendering and, while this can work (in some fonts) for the word in isolation, it does not help users obtain special rendering in other contexts where it is desired.
 
 Starting with v2.000, Lateef provides the special rendering for sequences of Arabic letters that meet specific patterns, giving much more flexibility to document authors. 
 
