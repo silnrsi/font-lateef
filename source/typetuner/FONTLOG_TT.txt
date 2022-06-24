@@ -64,7 +64,7 @@ Reserved Font Names and would have to be named something like "Nations Naskh".
 ---------
 (This should list both major and minor changes, most recent first.)
 
-%ISODATE% (SIL TypeTuner) Tuned version of Lateef Version 1.400 (beta release)
+%ISODATE% (SIL TypeTuner) Tuned version of Lateef Version 2.000
 - Tuned and delivered by SIL TypeTuner 
 (http://scripts.sil.org/ttw/fonts2go.cgi).
 - See included xml file for details of feature changes.
