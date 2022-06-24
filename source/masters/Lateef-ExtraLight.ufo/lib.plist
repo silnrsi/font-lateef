@@ -1745,6 +1745,7 @@
     <string>quotereversed</string>
     <string>quotereversed.latn</string>
     <string>quotesinglbase</string>
+    <string>quotesinglbase.latn</string>
     <string>quotedblleft</string>
     <string>quotedblleft.latn</string>
     <string>quotedblrightreversed</string>
@@ -1752,6 +1753,7 @@
     <string>quotedblright</string>
     <string>quotedblright.latn</string>
     <string>quotedblbase</string>
+    <string>quotedblbase.latn</string>
     <string>dagger</string>
     <string>daggerdbl</string>
     <string>bullet</string>
@@ -3455,6 +3457,7 @@
     <string>quotereversed</string>
     <string>quotereversed.latn</string>
     <string>quotesinglbase</string>
+    <string>quotesinglbase.latn</string>
     <string>quotedblleft</string>
     <string>quotedblleft.latn</string>
     <string>quotedblrightreversed</string>
@@ -3462,6 +3465,7 @@
     <string>quotedblright</string>
     <string>quotedblright.latn</string>
     <string>quotedblbase</string>
+    <string>quotedblbase.latn</string>
     <string>dagger</string>
     <string>daggerdbl</string>
     <string>bullet</string>

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quotedblbase" format="2">
-  <advance width="592"/>
-  <unicode hex="201E"/>
+<glyph name="quotedblbase.latn" format="2">
+  <advance width="898"/>
   <note>
 quotedblbase
 </note>
   <outline>
-    <component base="comma" xOffset="252"/>
+    <component base="comma" xOffset="406"/>
     <component base="comma" xOffset="5"/>
   </outline>
   <lib>

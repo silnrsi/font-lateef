@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotesinglbase.arab" format="2">
   <advance width="392"/>
-  <unicode hex="201A"/>
   <outline>
     <component base="_comma"/>
   </outline>

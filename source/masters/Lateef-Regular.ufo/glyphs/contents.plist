@@ -2430,6 +2430,8 @@
   <string>quotedblbase.glif</string>
   <key>quotedblbase.arab</key>
   <string>quotedblbase.arab.glif</string>
+  <key>quotedblbase.latn</key>
+  <string>quotedblbase.latn.glif</string>
   <key>quotedblleft</key>
   <string>quotedblleft.glif</string>
   <key>quotedblleft.latn</key>
@@ -2458,6 +2460,8 @@
   <string>quotesinglbase.glif</string>
   <key>quotesinglbase.arab</key>
   <string>quotesinglbase.arab.glif</string>
+  <key>quotesinglbase.latn</key>
+  <string>quotesinglbase.latn.glif</string>
   <key>quotesingle</key>
   <string>quotesingle.glif</string>
   <key>r</key>
