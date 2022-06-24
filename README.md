@@ -6,9 +6,7 @@ Named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and poet, this fo
 
 ## Project status [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Lateef/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Lateef&guest=1)  
 
-**NOTE: This is a beta version of a development font. It is not yet ready for wider use or distribution to end-users.**   
-Font sources are published in a public repository and a smith open workflow is used for building, testing and releasing.   
-You can contribute and report issues but please don't use this in production yet.
+Lateef v2.000 has been released. We will be releasing maintenance updates to fix bugs.
 
 ## Copyright and License
 For copyright and licensing information - including any Reserved Font Names - see [OFL.txt](OFL.txt).
