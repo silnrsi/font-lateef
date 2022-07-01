@@ -32,7 +32,7 @@ If you choose a weight other than Regular (such as ExtraLight), then use applica
 
 ### *I understand there is kerning for the Arabic proportional digits. However, it is not working.*
 
-The Arabic digits are proportional by default and Lateef includes kerning to improve the spacing of certain pairs of digits such as ٧٨. However there are some applications, including Microsoft Word for Windows, that process the digit kerning information incorrectly, actually making some digits too far apart and some too close together.
+The Arabic digits are proportional by default and Lateef includes kerning to improve the spacing of certain pairs of digits such as &#x0667;&#x0668;. However there are some applications, including Microsoft Word for Windows, that process the digit kerning information incorrectly, actually making some digits too far apart and some too close together.
 
 If you see incorrect digit kerning in applications other than Microsoft Word, please do let us know.
 

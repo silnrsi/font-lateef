@@ -190,8 +190,8 @@ Proportional digits are the default for Arabic digits. Lateef supports the OpenT
 
 Feature | Sample | Feature setting
 ------------- | ------ | ------------- 
-Proportional Figures      | <span dir="rtl" class='lateef-R normal'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=0`
-Tabular Figures     | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "tnum" 1'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=1`
+Proportional Figures      | <span class='lateefL-R normal'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=0`
+Tabular Figures     | <span class='lateefL-R normal' style='font-feature-settings: "tnum" 1'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=1`
 
 #### Comma 
 
@@ -213,7 +213,7 @@ Slash | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "c
 
 #### Disable digit kerning (see FAQ) &#x2014; TypeTuner-only
 
-<span class='affects'>The Arabic digits are proportional by default and Lateef includes kerning to improve the spacing of certain pairs of digits such as ٧٨. However there are some applications, including Microsoft Word for Windows, that process the digit kerning information incorrectly, actually making some digits too far apart and some too close together. We have added a special Typetuner feature that can be used create a version of the Lateef fonts in which the digit kerning is _disabled_. When using those fonts in Microsoft Word the resulting digit spacing will be much nicer than Tabular, but not quite as good as it would be if the application's kerning worked correctly. This is discussed further in the [FAQ](faq.md).</span>
+<span class='affects'>The Arabic digits are proportional by default and Lateef includes kerning to improve the spacing of certain pairs of digits such as &#x0667;&#x0668;. However there are some applications, including Microsoft Word for Windows, that process the digit kerning information incorrectly, actually making some digits too far apart and some too close together. We have added a special Typetuner feature that can be used create a version of the Lateef fonts in which the digit kerning is _disabled_. When using those fonts in Microsoft Word the resulting digit spacing will be much nicer than Tabular, but not quite as good as it would be if the application's kerning worked correctly. This is discussed further in the [FAQ](faq.md).</span>
 
 <!-- PRODUCT SITE ONLY
 [font id='lateef' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1]
