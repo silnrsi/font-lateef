@@ -17,62 +17,69 @@
 #****************************
 #****************************
 
-include(../../source/opentype/oldStyleKerning.feax); 
+include(../../source/opentype/customKerning.feax); 
 
 
-#********************
-# Mark attachment
+#---  mark feature  ---
 
-lookup mark_to_base {
+lookup MarkToBase {
   lookupflag 0;
-  pos base @diaA mark @_diaA;
-  pos base @diaB mark @_diaB;
-} mark_to_base;
+    pos  base @diaA  mark @_diaA;
+    pos  base @diaB  mark @_diaB;
+} MarkToBase;
 
 # Override mark positioning in the case of dagger-alef on certain chars:
-
-lookup alef_to_base {
+lookup AlefToBase {
   lookupflag 0;
-  pos base @alef mark @_alef;
-} alef_to_base;
+    pos  base @alef  mark @_alef;
+} AlefToBase;
 
-lookup mark_to_lig {
-    lookupflag 0;
-    pos ligature @LamAlefLig            @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
-        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
-    pos ligature @LamAlefWaslaLig       @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
-        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
-    pos ligature @LamAlefWavyHAboveLig  @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
-        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
-    pos ligature @LamAlefWavyHBelowLig  @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
-        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
-    pos ligature @LamAlefTwoAboveLig    @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
-        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
-    pos ligature @LamAlefThreeAboveLig  @diaA_1 mark @_diaA     @diaB_1 mark @_diaB
-        ligComponent                    @diaA_2 mark @_diaA     @diaB_2 mark @_diaB;
-} mark_to_lig;
+lookup MarkToLig {
+  lookupflag 0;
+    pos ligature @LamAlefLig            @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+    pos ligature @LamAlefWaslaLig       @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+    pos ligature @LamAlefWavyHAboveLig  @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+    pos ligature @LamAlefWavyHBelowLig  @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+    pos ligature @LamAlefTwoAboveLig    @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+    pos ligature @LamAlefThreeAboveLig  @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+} MarkToLig;
 
+
+#---  mkmk feature  ---
 
 @MarkFilter_diaA = [@diaA_MarkBase @_diaA];
-lookup mark_to_mark_above {
+lookup MarkToMarkAbove {
   lookupflag UseMarkFilteringSet @MarkFilter_diaA;
-  pos mark @diaA_MarkBase mark @_diaA;
-} mark_to_mark_above;
+    pos mark @diaA_MarkBase mark @_diaA;
+} MarkToMarkAbove;
 
 @MarkFilter_diaB = [@diaB_MarkBase @_diaB];
-lookup mark_to_mark_below {
+lookup MarkToMarkBelow {
   lookupflag UseMarkFilteringSet @MarkFilter_diaB;
-  pos mark @diaB_MarkBase mark @_diaB;
-} mark_to_mark_below;
+    pos mark @diaB_MarkBase mark @_diaB;
+} MarkToMarkBelow;
 
-# ABS-2762
-# Increase vertical separation between maddah and fatha for sequences like: alefMaddah + lam-initial + fatha
-# (for all initial lam-like glyphs that have no nukta above)
+## Lateef only; others have an empty lookup
 
-lookup raiseMadda {
+# Increase vertical separation between maddah and fatha for sequences like:
+# alefMaddah + lam-initial + fatha (for all initial lam-like glyphs that have 
+# no nukta above) [ABS-2762]
+lookup RaiseMadda {
   lookupflag 0;
+ifinfo(familyName, "Lateef") {
   pos [alef-ar alef-ar.fina] madda-ar' <0 -40 0 0 >  [lam-ar.init lamThreedotsbelow-ar.init lamBar-ar.init lamDoublebar-ar.init]' fatha-ar' <0 100 0 0>;
-} raiseMadda ;
+}
+} RaiseMadda ;
+
+
+#---  kern feature (cont'd)  ---
+
 
 #********************
 # Subtending mark positioning
@@ -144,18 +151,24 @@ lookup SubtendingMarks {
     
 } SubtendingMarks;
 
-#********************
-# Kerning pairs -- used for proportional digits
-lookup kernpairs {
-    lookupflag IgnoreMarks;
-    kernpairs;
-} kernpairs;
 
-#******************
-#******************
-#* GPOS features **
-#******************
-#******************
+include(../../source/opentype/customShifting.feax);
+
+# Lateef only; others have an empty lookup
+
+lookup KernPairs {
+  lookupflag IgnoreMarks;
+ifinfo(familyName, "Lateef") {
+    kernpairs;
+}
+} KernPairs;
+
+
+#**********************************
+#  FEATURES
+#**********************************
+
+#--- Positioning ---
 
 # Would love to be able to do subtending marks as either cursive connection or mark attachment
 # Cursive connection doesn't work because the width of the resultant cluster needs to be exactly the
@@ -164,20 +177,44 @@ lookup kernpairs {
 # marks or digits (the digits get reverse ordered by the attachment process).
 # So we're back to using kerning
 
+
 feature kern {  # Kerning
-    # Same for latin & arabic:
+    # Same behavior for latin & arabic:
         lookup SubtendingMarks;
-        lookup kernpairs;
-        lookup oldStyleKerning;
-} kern;
+        lookup KernPairs;       # Lateef
+
+# Scheherazade lookups:
+do let f = info("familyName");
+   if f.find("Scheherazade") != -1 and opt("nokern") != "yes"; {
+   # start of kerning positioning
+        lookup RehWawKerning1;  # a separate lookup to handle chains
+        lookup RehWawKerning;
+        lookup LamAlefKerning;
+        lookup MiscKerning;
+        lookup MiscKerningWDiacs;
+        lookup ToothKashidaKerningIM;
+        lookup ToothKashidaKerningMM;
+        lookup ToothKashidaKerningIMF;
+        lookup MiscKashidaKerning;
+        # after mark attachment:
+        lookup DiacShifting;
+}   # SchNew and not nokern
+
+# Lateef lookups:
+do let f = info("familyName");
+   if f.find("Lateef") != -1; {
+        lookup OldStyleKerning;
+}   # Lateef
+
+} kern ;
 
 feature mark {  # Mark to base Positioning
     # Same for latin & arabic:
-        lookup mark_to_base;
-        lookup alef_to_base;
-        lookup raiseMadda;
+        lookup MarkToBase;
+        lookup AlefToBase;
+        lookup RaiseMadda;    # Lateef
     script arab;  # Arabic
-    	lookup mark_to_lig;
+    	lookup MarkToLig;
 ##        lookup AlefMark2BelowAfterLam;
       # Force other languages to include Arabic script lookups
       language KIR  ;
@@ -190,6 +227,6 @@ feature mark {  # Mark to base Positioning
 
 feature mkmk {  # Mark to mark Positioning
     # Same for latin & arabic:
-        lookup mark_to_mark_above;
-        lookup mark_to_mark_below;
+        lookup MarkToMarkAbove;
+        lookup MarkToMarkBelow;
 } mkmk ;

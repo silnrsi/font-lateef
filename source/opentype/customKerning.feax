@@ -1,0 +1,147 @@
+#**********************************
+# This file is part of Lateef font family (http://software.sil.org/lateef/) 
+# and is Copyright (c) 2001-2022 SIL International (http://www.sil.org/),
+# with Reserved Font Names "Lateef" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+# details including an FAQ.
+#**********************************
+
+# Kerning of reh-like and waw-like, derived from LateefGR
+
+# Whole lines begining with "#gr" are lines of code from LateefGR
+# Fea code ending with "#gr" are derived from the preceeding graphite rule(s)
+
+lookup OldStyleKerning {
+
+    #gr  // Loosen from certain narrow initials because of nuktas below
+    #gr  // NB: not sure if it is an optical illusion or what, but if I
+    #gr  // kern Reh & Waw the same distance, the Rehs seem to still touch.
+    #gr  // So I'm giving them an extra 50m
+    #gr  cKernRehWawLoosen     {advance.x += 200m } / cRehAll MARKS _ ;
+    #gr  cKernRehWawLoosen     {advance.x += 150m } / cWawAll MARKS _ ;
+    #gr  cKernRehWawLoosenMore {advance.x += 350m } / cRehAll MARKS _ ;
+    #gr  cKernRehWawLoosenMore {advance.x += 300m } / cWawAll MARKS _ ;
+
+    pos @RehAll' <100 0 100 0>                     @KernRehWawLoosen ;        #gr
+    pos @RehAll' <100 0 100 0> @MarksAny           @KernRehWawLoosen ;        #gr
+    pos @RehAll' <100 0 100 0> @MarksAny @MarksAny @KernRehWawLoosen ;        #gr
+    
+    pos @WawAll' <30 0 30 0>                     @KernRehWawLoosen ;        #gr
+    pos @WawAll' <30 0 30 0> @MarksAny           @KernRehWawLoosen ;        #gr
+    pos @WawAll' <30 0 30 0> @MarksAny @MarksAny @KernRehWawLoosen ;        #gr
+
+    pos @RehAll' <200 0 200 0>                     @KernRehWawLoosenMore ;    #gr
+    pos @RehAll' <200 0 200 0> @MarksAny           @KernRehWawLoosenMore ;    #gr
+    pos @RehAll' <200 0 200 0> @MarksAny @MarksAny @KernRehWawLoosenMore ;    #gr
+    
+    pos @WawAll' <150 0 150 0>                     @KernRehWawLoosenMore ;    #gr
+    pos @WawAll' <150 0 150 0> @MarksAny           @KernRehWawLoosenMore ;    #gr
+    pos @WawAll' <150 0 150 0> @MarksAny @MarksAny @KernRehWawLoosenMore ;    #gr
+    
+
+    #gr  // loosen from following alef with mark below it
+    #gr  cAlefIso {advance.x += 150m} / cRehWawAll MARKS _ MARKS cAnyMarksBelow ;
+
+    pos @RehWawAll' <150 0 150 0>                     @AlefIso @MarksBelow                         ;  #gr
+    pos @RehWawAll' <150 0 150 0>                     @AlefIso @MarksAbove @MarksBelow             ;  #gr
+    pos @RehWawAll' <150 0 150 0>                     @AlefIso @MarksAbove @MarksAbove @MarksBelow ;  #gr
+    pos @RehWawAll' <150 0 150 0> @MarksAny           @AlefIso @MarksBelow                         ;  #gr
+    pos @RehWawAll' <150 0 150 0> @MarksAny           @AlefIso @MarksAbove @MarksBelow             ;  #gr
+    pos @RehWawAll' <150 0 150 0> @MarksAny           @AlefIso @MarksAbove @MarksAbove @MarksBelow ;  #gr
+    pos @RehWawAll' <150 0 150 0> @MarksAny @MarksAny @AlefIso @MarksBelow                         ;  #gr
+    pos @RehWawAll' <150 0 150 0> @MarksAny @MarksAny @AlefIso @MarksAbove @MarksBelow             ;  #gr
+    pos @RehWawAll' <150 0 150 0> @MarksAny @MarksAny @AlefIso @MarksAbove @MarksAbove @MarksBelow ;  #gr
+
+    #gr   // otherwise most can tighten to alef
+    #gr   cRehKernAlef {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
+
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-130 0 -130 0>                         @RehKernAlef ;  #gr
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-130 0 -130 0> @MarksBelow             @RehKernAlef ;  #gr
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-130 0 -130 0> @MarksBelow @MarksBelow @RehKernAlef ;  #gr
+
+    #gr   // tighten to following gaf-like unless reh/waw have a mark above
+    #gr   cKernRehWawGaf {advance.x -= 150m} / cRehWawTightenToGaf MARKSBELOW _ ; 
+
+    pos @RehWawTightenToGaf' <-150 0 -150 0>                         @KernRehWawGaf ;  #gr
+    pos @RehWawTightenToGaf' <-150 0 -150 0> @MarksBelow             @KernRehWawGaf ;  #gr
+    pos @RehWawTightenToGaf' <-150 0 -150 0> @MarksBelow @MarksBelow @KernRehWawGaf ;  #gr
+    
+    #gr   // tighter against Ain-like initials
+    #gr   // (for other fonts we don't do this if the Ain has marks Below, but Lateef design is different.)
+    #gr   // cAinLikeInit                     / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cAnyMarksBelow ;
+    #gr   cAinLikeInit {advance.x -= 150m} / cRehWawTighten     MARKS _ ;
+    #gr   cAinLikeInit {advance.x -= 150m} / cRehWawTightenMore MARKS _ ;
+
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-150 0 -150 0>                     @AinLikeInit ;  #gr
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-150 0 -150 0> @MarksAny           @AinLikeInit ;  #gr
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-150 0 -150 0> @MarksAny @MarksAny @AinLikeInit ;  #gr
+
+    #gr   // loosen from following Ain-like isloates when reh/wah have lower diacritic:
+    #gr   cAinLikeIsol {advance.x += 200m} / cRehWawAll MARKS cAnyMarksBelow MARKS _ ;
+
+    pos @RehWawAll' <200 0 200 0> @MarksBelow             @AinLikeIsol ;  #gr
+    pos @RehWawAll' <200 0 200 0> @MarksBelow @MarksAny   @AinLikeIsol ;  #gr
+    pos @RehWawAll' <200 0 200 0> @MarksAny   @MarksBelow @AinLikeIsol ;  #gr
+
+    # Short-tail variants disabled for now.
+    ## # Similar to above, but for the new short-tail reh/waw, we need to move it just 
+    ## # slightly right to keep the mark below from hitting isolate ain.   
+    ## 
+    ## pos @c_shrtail' <100 0 100 0> @MarksBelow             @AinLikeIsol ;
+    ## pos @c_shrtail' <100 0 100 0> @MarksBelow @MarksAny   @AinLikeIsol ;
+    ## pos @c_shrtail' <100 0 100 0> @MarksAny   @MarksBelow @AinLikeIsol ;
+
+    #gr   // otherwise tighten some reh/wah (nothing below) to following Ain-like isolates
+    #gr   cAinLikeIsol {advance.x -= 200m} / cRehWawNothingBelow MARKSABOVE _ ;
+
+    pos @RehWawNothingBelow' <-200 0 -200 0>                                     @AinLikeIsol ;  #gr
+    pos @RehWawNothingBelow' <-200 0 -200 0> @MarksAbove @MarksAbove             @AinLikeIsol ;  #gr
+    pos @RehWawNothingBelow' <-200 0 -200 0> @MarksAbove @MarksAbove @MarksAbove @AinLikeIsol ;  #gr
+
+    #gr   // loosen from following narrow glyphs with something below
+    #gr   cNarrowIni {advance.x += 120m} / cRehWawAll MARKS _ MARKS cAnyMarksBelow ;
+
+    pos @RehWawAll' <100 0 100 0>                     @NarrowIni @MarksBelow                         ;  #gr
+    pos @RehWawAll' <100 0 100 0>                     @NarrowIni @MarksAbove @MarksBelow             ;  #gr
+    pos @RehWawAll' <100 0 100 0>                     @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;  #gr
+    pos @RehWawAll' <100 0 100 0> @MarksAny           @NarrowIni @MarksBelow                         ;  #gr
+    pos @RehWawAll' <100 0 100 0> @MarksAny           @NarrowIni @MarksAbove @MarksBelow             ;  #gr
+    pos @RehWawAll' <100 0 100 0> @MarksAny           @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;  #gr
+    pos @RehWawAll' <100 0 100 0> @MarksAny @MarksAny @NarrowIni @MarksBelow                         ;  #gr
+    pos @RehWawAll' <100 0 100 0> @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksBelow             ;  #gr
+    pos @RehWawAll' <100 0 100 0> @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;  #gr
+    
+    #gr   // leave certain cases alone:
+    #gr   cRehKernOther   / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cAnyMarksBelow ;
+    #gr   (cRehKernOther cRehKernOtherMB)  / (g_jeh_ar_fina  g_reh_hamzaabove_ar_fina g_reh_twodotshorizontalabove_tahabove_ar \
+    #gr     g_reh_twodotshorizontalabove_tahabove_ar_fina g_zain_vinvertedabove_ar_fina) MARKS _ ;
+
+    ignore pos [ @RehWawTighten @RehWawTightenMore ]'                     @RehKernOther @MarksBelow                         ;  #gr
+    ignore pos [ @RehWawTighten @RehWawTightenMore ]'                     @RehKernOther @MarksAbove @MarksBelow             ;  #gr
+    ignore pos [ @RehWawTighten @RehWawTightenMore ]'                     @RehKernOther @MarksAbove @MarksAbove @MarksBelow ;  #gr
+    ignore pos [ @RehWawTighten @RehWawTightenMore ]' @MarksAny           @RehKernOther @MarksBelow                         ;  #gr
+    ignore pos [ @RehWawTighten @RehWawTightenMore ]' @MarksAny           @RehKernOther @MarksAbove @MarksBelow             ;  #gr
+    ignore pos [ @RehWawTighten @RehWawTightenMore ]' @MarksAny           @RehKernOther @MarksAbove @MarksAbove @MarksBelow ;  #gr
+    ignore pos [ @RehWawTighten @RehWawTightenMore ]' @MarksAny @MarksAny @RehKernOther @MarksBelow                         ;  #gr
+    ignore pos [ @RehWawTighten @RehWawTightenMore ]' @MarksAny @MarksAny @RehKernOther @MarksAbove @MarksBelow             ;  #gr
+    ignore pos [ @RehWawTighten @RehWawTightenMore ]' @MarksAny @MarksAny @RehKernOther @MarksAbove @MarksAbove @MarksBelow ;  #gr
+
+    @T1 = [ jeh-ar.fina  rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar 
+            rehTwodotshorizontalaboveTahabove-ar.fina zainVinvertedabove-ar.fina] ;  #gr
+    
+    ignore pos @T1'                     [ @RehKernOther @RehKernOtherMB ] ;  #gr
+    ignore pos @T1' @MarksAny           [ @RehKernOther @RehKernOtherMB ] ;  #gr
+    ignore pos @T1' @MarksAny @MarksAny [ @RehKernOther @RehKernOtherMB ] ;  #gr
+
+    #gr   // otherwise tighten against most things
+    #gr   (cRehKernOther cRehKernOtherMB) {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
+
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-130 0 -130 0>                         [ @RehKernOther @RehKernOtherMB ] ;  #gr
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-130 0 -130 0> @MarksBelow             [ @RehKernOther @RehKernOtherMB ] ;  #gr
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-130 0 -130 0> @MarksBelow @MarksBelow [ @RehKernOther @RehKernOtherMB ] ;  #gr
+    
+} OldStyleKerning ;

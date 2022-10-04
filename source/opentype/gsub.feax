@@ -37,18 +37,14 @@ languagesystem latn dflt ;
 
 
 #******************************
-#******************************
 # GSUB (Subtitution) lookups **
 #******************************
-#******************************
 
-#********************
-# for feature rtlm:
-#********************
+#---  rtlm feature  ---
 
-lookup mirror {
+lookup Mirror {
     sub @cno_rtl by @c_rtl;
-} mirror ;
+} Mirror ;
 
 # HB PAUSE
 
@@ -307,10 +303,12 @@ lookup AllahLigatures {
 # Include in this filter hamzaAbove plus any mark glyphs that should stop any ligation.
 # Mark glyphs not included will be skipped over when trying to find a hamzaAbove
 @HamzaAboveFilter = [@UTR53_230MCM @UTR53_230other graphemejoinercomb ] ;
+
 lookup ComposeLowHamzaAbove {
   lookupflag UseMarkFilteringSet @HamzaAboveFilter ;
     sub @LowHamzaBase hamzaabove-ar by @LowHamzaComposed ;
 } ComposeLowHamzaAbove;
+
 
 @LigateHamzaMarksFilter = [ hamzaabove-ar @HamzaMarks ] ;
 lookup LigateHamzaMarks {
@@ -684,6 +682,7 @@ lookup AllahAlef {  # clean up: make sure alef is correct form for Allah
 		sub @AlefNoAllah'  lam-ar.init.allah1  by  @AlefAllah;
 } AllahAlef;
 
+
 #********************
 # Substitutions for subtendng marks
 
@@ -780,7 +779,7 @@ lookup TabularFigures {
 # as best as I understand, these are arranged in the order MS & HB engines execute:
 
 feature rtlm {  # Right-to-left mirroring
-    lookup mirror;
+    lookup Mirror;
 } rtlm ;
 
 # HB PAUSE
@@ -922,9 +921,9 @@ feature cv44 {  # Character Variant 44
       # Force other languages to include Arabic script lookups
       language KIR  ;
       language KUR  ;
-      language KUR  ;
-      # language SND  ;  But not this one since we enable it in SindhiCALT
+      language KUR  ;   ## why twice???
       language RHG  ;
+      # language SND  ;  But not this one since we enable it in SindhiCALT
       language URD  ;
 #      language WLF  ;
 } cv44 ;
