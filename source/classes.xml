@@ -341,6 +341,12 @@ of the license along with this Font Software. If this is not the case, go to
     <class name='ShaddaMarks'>
         fathatan-ar dammatan-ar fatha-ar damma-ar alefabove-ar
     </class>
+    
+    <!-- Including graphemejoinercomb allows it to interrupt the ligature formation,
+					otherwise the lookupflag causes it to be ignored. -->
+    <class name="ShaddaLigatureParts">
+        @ShaddaMarks kasratan-ar kasra-ar shadda-ar graphemejoinercomb
+    </class>
 
     <!-- *NEXT 2 CLASSES MUST MATCH* -->
 
@@ -550,6 +556,22 @@ of the license along with this Font Software. If this is not the case, go to
     <!-- Note that we don't need to include alef-hamza or alef-madda because they are decomposed. -->
     <class name="AlefNoAllahIsol" fixed="0">alef-ar        alefWasla-ar</class>
     <class name="AlefAllahIsol"   fixed="0">alef-ar.allah  alefWasla-ar.allah</class>
+    
+    <!--
+    ==============================
+          For OT unification
+    ==============================
+    -->
+    
+    <!-- These pairs of classes must match. They are mainly bogus classes that make FEAX compilatin work. -->
+    
+    <!-- bogus -->
+    <class name="c_loclWLF">  dal.ar</class>
+    <class name="cno_loclWLF">dal.ar</class>
+
+    <class name="Damma">      damma-ar</class>
+    <class name="Damma_short">damma-ar</class>"
+    
 
     <!-- 
     ===============================

@@ -21,7 +21,7 @@ languagesystem arab KIR  ;    # Kyrgyz
 languagesystem arab RHG  ;    # Rohingya -- supported by Harfbuzz
 languagesystem arab SND  ;    # Sindhi
 languagesystem arab URD  ;    # Urdu
-#languagesystem arab WLF  ;    # Wolof
+languagesystem arab WLF  ;    # Wolof
 languagesystem latn dflt ;
 
 @MarksAbove = [@_diaA] ;
@@ -407,10 +407,17 @@ lookup ShaddaLigatures {
 #********************
 # Language-independent CALTs
 
+# Lateef only
+
+do let f = info("familyName");
+   if f.find("Lateef") != -1; {
+   
 lookup DaggerAlefToLarge {
   lookupflag 0 ;
     sub @TakesLargeDaggerAlef alefabove-ar' by alefabove-ar.large ;
 } DaggerAlefToLarge;
+
+}  # Lateef
 
 #********************
 # Language-specific  CALTs
@@ -434,6 +441,7 @@ lookup RohingyaCALT {
     sub six-persian by six-persian.urdu ;
     sub seven-persian by seven-persian.urdu ;
     sub @cno_sixNine by @c_sixNine ;
+    sub @Kasra by @Kasra_lowered;
 } RohingyaCALT  ;
 
 lookup SindhiCALT {
@@ -443,7 +451,8 @@ lookup SindhiCALT {
     sub @cno_sindhi by @c_sindhi ;
     # the following removed 2021-11:  ABS-2469
     #  sub comma-ar by comma-ar.downward ;
-    #  sub semicolon-ar by semicolon-ar.downward ; 
+    #  sub semicolon-ar by semicolon-ar.downward ;
+    sub @Kasra by @Kasra_lowered;
 } SindhiCALT;
 
 lookup UrduCALT {
@@ -451,13 +460,18 @@ lookup UrduCALT {
     sub four-persian by four-persian.urdu ;
     sub six-persian by six-persian.urdu ;
     sub seven-persian by seven-persian.urdu ;
+    sub @Kasra by @Kasra_lowered;
 } UrduCALT;
 
-# lookup WolofCALT {
-#   lookupflag 0 ;
-#     sub @cno_loclWLF by @c_loclWLF ;
-#     sub @Damma by @Damma_short ;
-# } WolofCALT;
+lookup WolofCALT {
+  lookupflag 0 ;
+ifinfo(familyName, "Scheherazade New") {
+    sub @cno_loclWLF     by  @c_loclWLF ;    # Lateef?
+    sub @Damma           by  @Damma_short ;  # Lateef?
+    sub @Kasra           by  @Kasra_lowered ;
+    sub dammainverted-ar by  dammainverted-ar.open ;
+}  # Sch
+} WolofCALT;
 
 
 # HB PAUSE
@@ -539,8 +553,8 @@ lookup YehHamzaAlternates {
 lookup KasraAlternates {
   lookupflag 0 ;
     # NB: This is writen so it doesn't matter which shadda-kasra behavior is active.
-    sub @Kasra_lowered from [ @Kasra_lowered @Kasra ];
-    sub @Kasra         from [ @Kasra_lowered @Kasra ];
+    sub @Kasra_lowered from [ @Kasra_lowered  @Kasra ];
+    sub @Kasra         from [ @Kasra_lowered  @Kasra ];
 } KasraAlternates;
 
 
@@ -657,12 +671,20 @@ lookup DecimalSepAlternate {
 #
 # see notes with liga feature
 
-@ShaddaKasraFilter = [ @ShaddaKasraMarks shadda-ar ] ;
 lookup ShaddaKasraLigatures {
-  lookupflag UseMarkFilteringSet @ShaddaKasraFilter ;
-    sub @ShaddaKasraMarks shadda-ar by @ShaddaKasraLigatures ;
-    sub shadda-ar @ShaddaKasraMarks by @ShaddaKasraLigatures ;
+  lookupflag MarkAttachmentType @ShaddaLigatureParts;
+    sub @ShaddaKasraMarks                    shadda-ar  by  @ShaddaKasraLigatures ;
+    sub @ShaddaKasraMarks graphemejoinercomb shadda-ar  by  @ShaddaKasraLigatures ;
+    sub shadda-ar                    @ShaddaKasraMarks  by  @ShaddaKasraLigatures ;
+    sub shadda-ar graphemejoinercomb @ShaddaKasraMarks  by  @ShaddaKasraLigatures ;
 } ShaddaKasraLigatures;
+
+##@ShaddaKasraFilter = [ @ShaddaKasraMarks shadda-ar ] ;
+##lookup ShaddaKasraLigatures {
+##  lookupflag UseMarkFilteringSet @ShaddaKasraFilter ;
+##    sub @ShaddaKasraMarks shadda-ar         by @ShaddaKasraLigatures ;
+##    sub shadda-ar         @ShaddaKasraMarks by @ShaddaKasraLigatures ;
+##} ShaddaKasraLigatures;
 
 # Lam-Alef Ligatures
 
@@ -855,9 +877,11 @@ feature init {  # Initial Forms
 feature rlig {  # Required Ligatures
     script arab;  # Arabic
         lookup AllahLigatures;
+        #lookup LamAlefLigatures; -- move to liga to go after ShaddaKasraLigatures
         lookup ShaddaLigatures;
         lookup ComposeLowHamzaAbove;
         lookup HamzaLigatures;
+        #lookup ShaddaKasraLigatures; -- move to liga so it runs after cv62
       # Force other languages to include Arabic script lookups
       language KIR  ;
       language KUR  ;
@@ -874,9 +898,24 @@ feature rlig {  # Required Ligatures
 #     to execute after init/medi/fina lookups, but locl executes before.
 
 feature calt {  # Contextual Alternates
-    script arab;  # Arabic
-        lookup DaggerAlefToLarge ;
-##        lookup ShortTailRehWaw ;   Short-tail reh/waw variants disabled for now
+    script arab;
+        #lookup SignWithDigits;  # moved to liga feature
+ifinfo(familyName, "Lateef") {
+        lookup DaggerAlefToLarge;
+##      lookup ShortTailRehWaw ;   Lateef only; short-tail reh/waw variants disabled for now
+}
+
+# Sch only:        
+do let f = info("familyName");
+   if f.find("Scherherazade") != -1 and opt("nokern") != "yes"; {
+     # start of kerning substitutions
+        lookup ToothKashidasIM;
+        lookup ToothKashidasMM;
+        lookup ToothKashidasIMF;
+        lookup MiscKashidas;
+        lookup MarkKashidas;
+}   # end of kerning substitutions
+
       language KIR ; # Kyrgyz
       	lookup KyrgyzCALT ;
       language KUR ; # Kurdish
@@ -887,8 +926,8 @@ feature calt {  # Contextual Alternates
         lookup SindhiCALT ;
       language URD ; # Urdu
         lookup UrduCALT ;
-#      language WLF ; # Wolof
-#        lookup WolofCALT ;
+      language WLF ; # Wolof
+        lookup WolofCALT ;
 } calt ;
 
 # feature rclt
