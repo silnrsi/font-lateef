@@ -563,15 +563,28 @@ of the license along with this Font Software. If this is not the case, go to
     ==============================
     -->
     
-    <!-- These pairs of classes must match. They are mainly bogus classes that make FEAX compilatin work. -->
+    <!-- These pairs of classes must match. They are mainly bogus classes that make FEAX compilation work. -->
     
     <!-- bogus -->
     <class name="c_loclWLF">  dal.ar</class>
     <class name="cno_loclWLF">dal.ar</class>
 
     <class name="Damma">      damma-ar</class>
-    <class name="Damma_short">damma-ar</class>"
+    <class name="Damma_short">damma-ar</class>
     
+    <class name="Maddah">      maddah-ar</class>
+    <class name="Maddah.small">maddah-ar</class>
+    
+    <!-- Currently there are no honorific ligatures in Lateef. -->
+    <class name="HonLigCall">tab</class>
+    <class name="HonLigSmpl">tab</class>
+    
+    <class name="DalIso">    dal-ar</class>
+    <class name="DalIso.sen">dal-ar</class>
+    
+    <class name="DammaInverted">    dammainverted-ar</class>
+    <class name="DammaInvertedOpen">dammainverted-ar</class>
+    <class name="DammaInvertedAll">dammainverted-ar</class>
 
     <!-- 
     ===============================

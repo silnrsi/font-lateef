@@ -48,10 +48,14 @@ lookup Mirror {
 
 # HB PAUSE
 
-#********************
-# for features ccmp and locl:
-#********************
+#---  ccmp feature  ---
 
+lookup SmallMadda {
+  lookupflag 0 ;
+ifinfo(familyName, "Scheherazade New") {
+    sub @Maddah by @Maddah.small ;
+}
+} SmallMadda;
 
 #********************
 # For full UTR53 stacks, this decomposition will already have been done.
@@ -338,6 +342,9 @@ lookup HamzaLigatures {
     sub @HamzaMarks'   lookup LigateHamzaMarks @UTR53_230MCM   hamzaabove-ar ;
 } HamzaLigatures;
 
+
+# Shadda ligation
+
 # Including graphemejoinercomb allows it to interrupt the ligature formation,
 #		otherwise the lookupflag causes it to be ignored.
 @ShaddaLigatureFilter = [ @ShaddaMarks @ShaddaKasraMarks shadda-ar graphemejoinercomb ] ;
@@ -414,10 +421,14 @@ do let f = info("familyName");
    
 lookup DaggerAlefToLarge {
   lookupflag 0 ;
-    sub @TakesLargeDaggerAlef alefabove-ar' by alefabove-ar.large ;
+ifinfo(familyName, "Lateef") {
+      sub @TakesLargeDaggerAlef alefabove-ar' by alefabove-ar.large ;   # Lateef
+}
 } DaggerAlefToLarge;
 
-}  # Lateef
+}  # end do - Lateef
+
+# HB PAUSE
 
 #********************
 # Language-specific  CALTs
@@ -473,7 +484,6 @@ ifinfo(familyName, "Scheherazade New") {
 }  # Sch
 } WolofCALT;
 
-
 # HB PAUSE
 
 #********************
@@ -483,13 +493,36 @@ ifinfo(familyName, "Scheherazade New") {
 #********************
 # Lookups for user-selectable features
 
+lookup DalAlternate {						# cv12 - MMM not in L
+  lookupflag IgnoreMarks ;
+ifinfo(familyName, "Scheherazade New") {
+    sub @DalIso by @DalIso.sen ;
+}
+} DalAlternate;
+
+
 #********************
 # Meem alternate: cv44
+
+do let f = info("familyName");
+	 if f.find("Lateef") != -1; {
 
 lookup MeemAlternate {
   lookupflag IgnoreMarks ;
     sub @cno_sindhi by @c_sindhi;
 } MeemAlternate;
+
+}  # end do - Lateef
+
+
+# Madda alternate
+
+lookup MaddaAlternate {				# MMM not in L
+  lookupflag 0 ;
+ifinfo(familyName, "Scheherazade New") {
+    sub @Maddah.small by @Maddah ;
+}
+} MaddaAlternate;
 
 #********************
 # Heh Alternates: TypeTuner lookups:
@@ -517,7 +550,8 @@ lookup KurdishHeh {
 # Heh alternates: cv48
 
 lookup HehAlternates {
-  lookupflag IgnoreMarks ;             # 1 = Sindhi-style        2 = Urdu-style     3 = Kurdish-style 
+  lookupflag IgnoreMarks ;
+    #   0=default;              1=Sindhi;                        2=Urdu;             3=Kurdish
     sub heh-ar                  from   [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
     sub heh-ar.init             from   [ heh-ar.init             heh-ar.init.hooked heh-ar.init             ] ;
     sub heh-ar.medi             from   [ heh-ar.medi.knottedHigh heh-ar.medi.hooked heh-ar.medi             ] ;
@@ -566,6 +600,7 @@ lookup DammaAlternates {
     sub @cno_filled by @c_filled ;
 } DammaAlternates;
 
+
 #********************
 # SixNine Dammatan: cv72
 
@@ -573,6 +608,16 @@ lookup DammatanAlternate {
   lookupflag 0 ;
     sub @cno_sixNine by @c_sixNine ;
 } DammatanAlternate;
+
+
+lookup DammaInvertedAlternates {
+  lookupflag 0 ;
+ifinfo(familyName, "Scheherazade New") {
+    #   0=default (filled);        1=hollow;                2=filled
+    sub @DammaInvertedAll      from [ @DammaInvertedOpen  @DammaInverted ];
+    #sub dammainverted-ar.open from [ dammainverted-ar.open  dammainverted-ar ];
+}
+} DammaInvertedAlternates;
 
 
 #********************
@@ -600,6 +645,15 @@ lookup AyahAlternates {
   lookupflag 0 ;
     sub @Ayah from [ @AyahCircle  @AyahSquare ] ;
 } AyahAlternates;
+
+
+lookup HonLigAlternates {			# cv81
+  lookupflag 0;
+ifinfo(familyName, "Scheherazade New") {
+    sub @HonLigCall from @HonLigSmpl ;
+}
+} HonLigAlternates;
+
 
 #********************
 # Digit Alternates: TypeTuner lookups:
@@ -638,6 +692,9 @@ lookup DigitRohingya {
 
 # Eastern digit alternates: cv82
 
+# Only used for cv82, not language-specific modifications:
+# We include the Kurdish forms as a place holder for value 3, even though they are not offered as a supported value.
+# They are simply the standard Persian forms.
 lookup DigitAlternates {
   lookupflag 0 ;        #       1 = Sindhi-style      2 = Urdu-style      3 = Kurdish-style  4 = Rohingya-style
     sub four-persian       from [four-persian         four-persian.urdu   four-persian       four-persian.roh  ];
@@ -652,17 +709,17 @@ lookup DigitAlternates {
 #********************
 # Comma alternates: cv84
 
-lookup CommaAlternate {
+lookup CommaAlternates {
   lookupflag IgnoreMarks ;
     sub @cno_downward by @c_downward;
-} CommaAlternate;
+} CommaAlternates;
 
 #********************
 # Decimal separator: cv85
 
 lookup DecimalSepAlternate {
 	lookupflag IgnoreMarks ;
-		sub decimalseparator-ar by decimalseparator-ar.slash;
+		sub @cno_slash by @c_slash;
 } DecimalSepAlternate;
 
 
@@ -679,6 +736,7 @@ lookup ShaddaKasraLigatures {
     sub shadda-ar graphemejoinercomb @ShaddaKasraMarks  by  @ShaddaKasraLigatures ;
 } ShaddaKasraLigatures;
 
+### pre-unification:
 ##@ShaddaKasraFilter = [ @ShaddaKasraMarks shadda-ar ] ;
 ##lookup ShaddaKasraLigatures {
 ##  lookupflag UseMarkFilteringSet @ShaddaKasraFilter ;
@@ -759,7 +817,11 @@ lookup SignWithDigits {
         [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ] ;
 } SignWithDigits;
 
-#********************
+
+# Lateef only
+do let f = info("familyName");
+   if f.find("Lateef") != -1; {
+   
 # Proportional Figures: pnum
 
 lookup ProportionalFigures {
@@ -767,7 +829,6 @@ lookup ProportionalFigures {
     sub @cno_pnum by @c_pnum ;
 } ProportionalFigures ;
 
-#********************
 # Tabular Figures: tnum
 
 lookup TabularFigures {
@@ -775,21 +836,18 @@ lookup TabularFigures {
     sub @cno_tnum by @c_tnum ;
 } TabularFigures ;
 
-#********
-# Yehbarree substituions to prevent collisions -- must be after lang-specific CALTs and cv48
+}  # end do - Lateef
 
-#### TODO Will we use this?
 
-## lookup YehBarreeToWideAlways {
-##   lookupflag IgnoreMarks ;
-##     sub @YehBarreeContextAlways                            @cno_wide' by @c_wide ;
-## } YehBarreeToWideAlways ;
-## 
-## lookup YehBarreeToWideWithMarks {
-##   lookupflag UseMarkFilteringSet @MarksBelow;
-##     sub @YehBarreeContextMarkBelow @MarksBelow             @cno_wide' by @c_wide ;
-##     sub @YehBarreeContextMarkBelow @MarksBelow @MarksBelow @cno_wide' by @c_wide ;
-## } YehBarreeToWideWithMarks ;
+include(../../source/opentype/customCollisionSubs.feax); 
+
+
+# Scheherazade only:
+lookup WideKashida {
+ifinfo(familyName, "Scheherazade New") {
+  sub kashida-ar'  @MarksAny  by  kashida-ar.wide;
+}
+} WideKashida;
 
 
 #*********************
@@ -798,7 +856,7 @@ lookup TabularFigures {
 #*********************
 #*********************
 
-# as best as I understand, these are arranged in the order MS & HB engines execute:
+# As best as I understand, these are arranged in the order MS & HB engines execute:
 
 feature rtlm {  # Right-to-left mirroring
     lookup Mirror;
@@ -841,7 +899,7 @@ feature fina {  # Terminal Forms
       language RHG  ;
       language SND  ;
       language URD  ;
-#      language WLF  ;
+      language WLF  ;
 } fina ;
 
 # HB PAUSE
@@ -855,7 +913,7 @@ feature medi {  # Medial Forms
       language RHG  ;
       language SND  ;
       language URD  ;
-#      language WLF  ;
+      language WLF  ;
 } medi ;
 
 # HB PAUSE
@@ -869,7 +927,7 @@ feature init {  # Initial Forms
       language RHG  ;
       language SND  ;
       language URD  ;
-#      language WLF  ;
+      language WLF  ;
 } init ;
 
 # HB PAUSE
@@ -888,7 +946,7 @@ feature rlig {  # Required Ligatures
       language RHG  ;
       language SND  ;
       language URD  ;
-#      language WLF  ;
+      language WLF  ;
 } rlig ;
 
 # HB PAUSE
@@ -945,14 +1003,39 @@ feature salt {  # Stylistic Alternates
       language RHG  ;
       language SND  ;
       language URD  ;
-#      language WLF  ;
+      language WLF  ;
 } salt ;
+
+#--- Character Variants ---
+
+do let f = info("familyName");
+   if f.find("Scheherazade New"); {
+
+feature cv12 {  # Character Variant 12 - Scheherazade only
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Dal"       ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; };
+    } ;
+    script arab;
+        lookup DalAlternate;
+      # Force other languages to include Arabic script lookups
+      language KIR ;
+      language KUR ;
+      language RHG ;
+      language SND ;
+      language URD ;
+      # language WLF;  -- but not this one since we enable it in the WolofCALT
+} cv12 ;
+
+}   # end of do - Sch
+
 
 feature cv44 {  # Character Variant 44
     cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Meem"         ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style" ; };
+        FeatUILabelNameID  { name 3 1 0x0409 "Meem"       ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style"; };
     } ;
 
     script arab;  # Arabic
@@ -960,17 +1043,17 @@ feature cv44 {  # Character Variant 44
       # Force other languages to include Arabic script lookups
       language KIR  ;
       language KUR  ;
-      language KUR  ;   ## why twice???
       language RHG  ;
-      # language SND  ;  But not this one since we enable it in SindhiCALT
+      # language SND  ;  -- but not this one since we enable it in SindhiCALT
       language URD  ;
-#      language WLF  ;
+      language WLF  ;
 } cv44 ;
+
 
 feature cv48 {  # Character Variant 48
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Heh"            ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
         ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style"   ; };
         ParamUILabelNameID { name 3 1 0x0409 "Urdu-style"     ; };
         ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"  ; };
@@ -985,14 +1068,14 @@ feature cv48 {  # Character Variant 48
       language SND  ;
       language RHG  ;
       language URD  ;
-#      language WLF  ;
+      language WLF  ;
 } cv48 ;
 
 feature cv51 {  # Character Variant 51
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Kyrgyz OE" ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Loop"      ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Bar"       ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Loop" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Bar"   ; };
     } ;    
 
     script arab;  # Arabic
@@ -1004,14 +1087,15 @@ feature cv51 {  # Character Variant 51
       language SND  ;
       language RHG  ;
       language URD  ;
-#      language WLF  ;
+      language WLF  ;
 } cv51 ;
+
 
 feature cv54 {  # Character Variant 54
     cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Yeh-Hamza"    ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Right hamza"  ; };
+        FeatUILabelNameID  { name 3 1 0x0409 "Yeh-Hamza"  ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Right hamza"; };
     } ;
 
     script arab;  # Arabic
@@ -1023,14 +1107,32 @@ feature cv54 {  # Character Variant 54
      language SND  ;
      language RHG  ;
      language URD  ;
-#     language WLF  ;
+     language WLF  ;
 } cv54 ;
+
+
+# Character Variant 60
+
+do let f = info("familyName");
+   if f.find("Scheherazade New"); {
+   
+feature cv60 {  # Character Variant 60
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Maddah"   ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Small"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Large"    ; };
+    } ;
+    # Same for latin & arabic:
+      lookup MaddaAlternate;
+} cv60 ;
+
+}   # end - Sch
 
 
 feature cv62 {  # Character Variant 62
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Kasra"   ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Lowered" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Raised"  ; };
     } ;
@@ -1039,47 +1141,96 @@ feature cv62 {  # Character Variant 62
         lookup KasraAlternates;
 } cv62 ;
 
-feature cv70 {  # Character Variant 70
+
+# Character variants 70
+
+do let f = info("familyName");
+	 if f.find("Scheherazade New") != -1; {
+	 
+feature cv70 {
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Default"  ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Short"    ; };   # MMM not present in L
+    } ;
+    # Same for latin & arabic:
+      lookup DammaAlternates;
+} cv70 ;
+
+}  # end do - Sch
+
+do let f = info("familyName");
+	 if f.find("Lateef") != -1; {
+	 
+feature cv70 {
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Short" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
     } ;
-
     # Same for latin & arabic:
-        lookup DammaAlternates;
+      lookup DammaAlternates;
 } cv70 ;
+
+}  # end do - Lateef
+
 
 feature cv72 {  # Character Variant 72
     cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Dammatan"  ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Six-nine"  ; };
+        FeatUILabelNameID  { name 3 1 0x0409 "Dammatan" ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Six-nine" ; };
     } ;
-
     # Same for latin & arabic:
-        lookup DammatanAlternate;
+      lookup DammatanAlternate;
     # Except Rohingya where it is already set to sixNine
     script arab ;
-        language RHG exclude_dflt ;
+      language RHG exclude_dflt ;    # MMM added to Sch
 } cv72 ;
 
-feature cv76 {  # Character Variant 76
+
+# Character Variant 74
+
+do let f = info("familyName");
+   if f.find("Scheherazade New"); {
+   
+feature cv74 {
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Inverted Damma" ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Default"        ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Hollow"         ; };
+    } ;
+    # Same for latin & arabic:
+      lookup DammaInvertedAlternates;
+} cv74 ;
+
+}  # end - Sch
+
+
+# Character Variant 76
+
+do let f = info("familyName");
+	 if f.find("Lateef") != -1; {
+
+feature cv76 {  
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Superscript Alef" ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Default"          ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Large"            ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Small"            ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Small"            ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Large"            ; }; 
     } ;
 
     # Same for latin & arabic:
         lookup DaggerAlefAlternates;
 } cv76 ;
 
+}   # end do - Sch
+
+
 feature cv78 {  # Character Variant 78
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Sukun"     ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Closed"    ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Closed"    ; };
         ParamUILabelNameID { name 3 1 0x0409 "Open down" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Open left" ; };
     } ;
@@ -1091,7 +1242,7 @@ feature cv78 {  # Character Variant 78
 feature cv80 {  # Character Variant 80
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "End of ayah"  ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
         ParamUILabelNameID { name 3 1 0x0409 "Simplified A" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Simplified B" ; };
     } ;
@@ -1100,40 +1251,56 @@ feature cv80 {  # Character Variant 80
         lookup AyahAlternates;
 } cv80 ;
 
+
+do let f = info("familyName");
+	 if f.find("Scheherazade New") != -1; {
+
+feature cv81 {  # Character Variant 81
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Honorific ligatures" ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Calligraphic" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Simplified" ; };
+    } ;
+    # Same for latin and arabic:
+      lookup HonLigAlternates;
+} cv81 ;
+
+}
+
+
 feature cv82 {  # Character Variant 82
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Eastern digits" ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
         ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style"   ; };
         ParamUILabelNameID { name 3 1 0x0409 "Urdu-style"     ; };
         ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"  ; };
         ParamUILabelNameID { name 3 1 0x0409 "Rohingya-style" ; };
     } ;
-
     # Same for latin & arabic:
-        lookup DigitAlternates;
+      lookup DigitAlternates;  # Latin and Arabic
 } cv82 ;
+
 
 feature cv84 {  # Character Variant 84
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Comma"    ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Upward"   ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Upward"   ; };
         ParamUILabelNameID { name 3 1 0x0409 "Downward" ; };
     } ;
-
     # Same for latin & arabic:
-        lookup CommaAlternate;
+      lookup CommaAlternates;
 } cv84 ;
+
 
 feature cv85 {  # Character Variant 85
     cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Decmal separator"  ; };
-        #ParamUILabelNameID { name 3 1 0x0409 "Small reh"         ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Slash"             ; };
+        FeatUILabelNameID  { name 3 1 0x0409 "Decmal separator"    ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Small reh"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Slash" ; };
     } ;
-
-		# Same for latin & arabic:
-			lookup DecimalSepAlternate;
+    # Same for latin & arabic:
+      lookup DecimalSepAlternate;
 } cv85 ;
 
 # In order for the cv62 lookup to function, we need to execute the ShaddaKasraLigatures in the
@@ -1155,20 +1322,27 @@ feature cv85 {  # Character Variant 85
 feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cv62
     # Same for latin & arabic:
         lookup ShaddaKasraLigatures;     # Must execute after language-specific CALTs and cv62
-#        lookup YehBarreeToWideAlways;    # Must execute after language-specific CALTs and cv48
-#        lookup YehBarreeToWideWithMarks; # Must execute after language-specific CALTs and cv48
+    #   lookup YehBarreeToWideAlways;    # Must execute after language-specific CALTs and cv48
+    #   lookup YehBarreeToWideWithMarks; # Must execute after language-specific CALTs and cv48
         lookup LamAlefLigatures;         # Must execute after all mark ligatures (including cv62)
         lookup AllahAlef;                # Must execute after lam-alef lig
         lookup SignWithDigits;           # Must execute after cv82
 } liga ;
 
 
+# Lateef only:
+
+do let f = info("familyName");
+   if f.find("Lateef") != -1; {
+   
 feature tnum {  # Tabular figures
     # default for latin, select for arabic:
-        lookup TabularFigures ;            # Must execute after SignWithDigits
+    lookup TabularFigures ;            # must execute after SignWithDigits
 } tnum ;
 
 feature pnum {  # Proportional figures
     # default for arabic, select for latin:
-        lookup ProportionalFigures ;            # Must execute after SignWithDigits
+    lookup ProportionalFigures ;       # must execute after SignWithDigits
 } pnum ;
+   
+}  # end of do - Lateef
