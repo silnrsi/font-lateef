@@ -1,0 +1,29 @@
+#**********************************
+# This file is part of Lateef font family (http://software.sil.org/lateef/) 
+# and is Copyright (c) 2001-2022 SIL International (http://www.sil.org/),
+# with Reserved Font Names "Lateef" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+# details including an FAQ.
+#**********************************
+
+# Custom substitutions for collsion avoidance, such a kashida insertion.
+
+#********
+# Yehbarree substituions to prevent collisions -- must be after lang-specific CALTs and cv48
+
+#### TODO Will we use this?
+
+## lookup YehBarreeToWideAlways {
+##   lookupflag IgnoreMarks ;
+##     sub @YehBarreeContextAlways                            @cno_wide' by @c_wide ;
+## } YehBarreeToWideAlways ;
+## 
+## lookup YehBarreeToWideWithMarks {
+##   lookupflag UseMarkFilteringSet @MarksBelow;
+##     sub @YehBarreeContextMarkBelow @MarksBelow             @cno_wide' by @c_wide ;
+##     sub @YehBarreeContextMarkBelow @MarksBelow @MarksBelow @cno_wide' by @c_wide ;
+## } YehBarreeToWideWithMarks ;
