@@ -224,6 +224,8 @@
   <string>_damma.glif</string>
   <key>_damma.filled</key>
   <string>_damma.filled.glif</string>
+  <key>_damma.short</key>
+  <string>_damma.short.glif</string>
   <key>_dot1</key>
   <string>_dot1.glif</string>
   <key>_dot1_dot3d</key>
@@ -812,6 +814,8 @@
   <string>damma-ar.glif</string>
   <key>damma-ar.filled</key>
   <string>damma-ar.filled.glif</string>
+  <key>damma-ar.short</key>
+  <string>damma-ar.short.glif</string>
   <key>dammaCurly-ar</key>
   <string>dammaC_urly-ar.glif</string>
   <key>dammaDot-ar</key>
@@ -1358,6 +1362,8 @@
   <string>hamza_damma-ar.glif</string>
   <key>hamza_damma-ar.filled</key>
   <string>hamza_damma-ar.filled.glif</string>
+  <key>hamza_damma-ar.short</key>
+  <string>hamza_damma-ar.short.glif</string>
   <key>hamza_fatha-ar</key>
   <string>hamza_fatha-ar.glif</string>
   <key>hamzaabove-ar</key>
@@ -2770,6 +2776,8 @@
   <string>shadda_damma-ar.glif</string>
   <key>shadda_damma-ar.filled</key>
   <string>shadda_damma-ar.filled.glif</string>
+  <key>shadda_damma-ar.short</key>
+  <string>shadda_damma-ar.short.glif</string>
   <key>shadda_dammatan-ar</key>
   <string>shadda_dammatan-ar.glif</string>
   <key>shadda_dammatan-ar.sixNine</key>

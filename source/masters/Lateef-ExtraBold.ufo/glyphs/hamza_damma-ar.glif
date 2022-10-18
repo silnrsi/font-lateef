@@ -3,7 +3,7 @@
   <anchor x="178" y="625" name="_diaA"/>
   <anchor x="176" y="1461" name="diaA"/>
   <outline>
-    <component base="damma-ar" xOffset="-19" yOffset="-48"/>
+    <component base="damma-ar" xOffset="131" yOffset="-48"/>
     <component base="_hamza" xOffset="203" yOffset="821"/>
   </outline>
 </glyph>

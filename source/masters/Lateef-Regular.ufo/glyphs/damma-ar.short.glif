@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="damma-ar.short" format="2">
+  <anchor x="0" y="1048" name="_diaA"/>
+  <anchor x="0" y="1485" name="diaA"/>
+  <outline>
+    <component base="_damma.short" xOffset="239" yOffset="1231"/>
+  </outline>
+</glyph>
