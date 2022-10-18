@@ -330,6 +330,8 @@
   <string>_lamD_oublebar-ar.init.preA_lef.glif</string>
   <key>_lamDoublebar-ar.medi.preAlef</key>
   <string>_lamD_oublebar-ar.medi.preA_lef.glif</string>
+  <key>_lamTahabove-ar.init.preAlef</key>
+  <string>_lamT_ahabove-ar.init.preA_lef.glif</string>
   <key>_lamTahabove-ar.medi.preAlef</key>
   <string>_lamT_ahabove-ar.medi.preA_lef.glif</string>
   <key>_lamThreedotsabove-ar.init.preAlef</key>
@@ -1792,8 +1794,6 @@
   <string>lamT_ahabove-ar.fina.glif</string>
   <key>lamTahabove-ar.init</key>
   <string>lamT_ahabove-ar.init.glif</string>
-  <key>lamTahabove-ar.init.preAlef</key>
-  <string>lamT_ahabove-ar.init.preA_lef.glif</string>
   <key>lamTahabove-ar.medi</key>
   <string>lamT_ahabove-ar.medi.glif</string>
   <key>lamTahabove_alef-ar</key>
