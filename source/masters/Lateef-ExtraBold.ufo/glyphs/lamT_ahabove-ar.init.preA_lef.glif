@@ -6,7 +6,7 @@
   <anchor x="125" y="-341" name="diaB"/>
   <anchor x="-2" y="0" name="exit"/>
   <outline>
-    <component base="lam-ar.init.preAlef"/>
+    <component base="_lam-ar.init.preAlef"/>
     <component base="_tah" xOffset="175" yOffset="1344"/>
   </outline>
 </glyph>

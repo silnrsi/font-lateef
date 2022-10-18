@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_alefThreeabove-ar.fina.postLamMed" format="2">
+  <advance width="737"/>
+  <anchor x="319" y="1299" name="diaA"/>
+  <anchor x="499" y="-312" name="diaB"/>
+  <anchor x="737" y="-100" name="entry"/>
+  <outline>
+    <component base="_alef-ar.fina.postLamMed" xOffset="187"/>
+    <component base="_three" xOffset="128" yOffset="671"/>
+  </outline>
+</glyph>

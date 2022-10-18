@@ -4,6 +4,8 @@
 <dict>
   <key>_absSwashKaf</key>
   <string>_absS_washK_af.glif</string>
+  <key>_alef-ar.fina.postLamIni</key>
+  <string>_alef-ar.fina.postL_amI_ni.glif</string>
   <key>_bar</key>
   <string>_bar.glif</string>
   <key>_bowl_seen</key>
@@ -18,6 +20,8 @@
   <string>_hook.glif</string>
   <key>_kehehjoiner</key>
   <string>_kehehjoiner.glif</string>
+  <key>_lam-ar.medi.preAlef</key>
+  <string>_lam-ar.medi.preA_lef.glif</string>
   <key>_smallV</key>
   <string>_smallV_.glif</string>
   <key>_strokeHead</key>
@@ -38,8 +42,6 @@
   <string>alef-ar.glif</string>
   <key>alef-ar.allah</key>
   <string>alef-ar.allah.glif</string>
-  <key>alef-ar.fina.postLamIni</key>
-  <string>alef-ar.fina.postL_amI_ni.glif</string>
   <key>alefWasla-ar.allah</key>
   <string>alefW_asla-ar.allah.glif</string>
   <key>aleflow-ar</key>
@@ -98,8 +100,6 @@
   <string>lam-ar.init.allah1.glif</string>
   <key>lam-ar.medi.allah1</key>
   <string>lam-ar.medi.allah1.glif</string>
-  <key>lam-ar.medi.preAlef</key>
-  <string>lam-ar.medi.preA_lef.glif</string>
   <key>meem-ar</key>
   <string>meem-ar.glif</string>
   <key>misraComma-ar</key>

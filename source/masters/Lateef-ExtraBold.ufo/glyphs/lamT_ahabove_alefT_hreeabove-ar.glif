@@ -7,6 +7,6 @@
   <anchor x="499" y="-312" name="diaB_2"/>
   <outline>
     <component base="lamTahabove-ar.init.preAlef" xOffset="763"/>
-    <component base="alefThreeabove-ar.fina.postLamIni"/>
+    <component base="_alefThreeabove-ar.fina.postLamIni"/>
   </outline>
 </glyph>

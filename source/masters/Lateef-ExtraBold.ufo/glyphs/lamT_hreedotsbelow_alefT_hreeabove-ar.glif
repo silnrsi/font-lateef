@@ -6,7 +6,7 @@
   <anchor x="865" y="-800" name="diaB_1"/>
   <anchor x="499" y="-312" name="diaB_2"/>
   <outline>
-    <component base="lamThreedotsbelow-ar.init.preAlef" xOffset="763"/>
-    <component base="alefThreeabove-ar.fina.postLamIni"/>
+    <component base="_lamThreedotsbelow-ar.init.preAlef" xOffset="763"/>
+    <component base="_alefThreeabove-ar.fina.postLamIni"/>
   </outline>
 </glyph>

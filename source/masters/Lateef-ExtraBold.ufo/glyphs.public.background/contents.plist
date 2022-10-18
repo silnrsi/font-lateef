@@ -84,6 +84,10 @@
   <string>_kaf_s.glif</string>
   <key>_kehehjoiner</key>
   <string>_kehehjoiner.glif</string>
+  <key>_lam-ar.init.preAlef</key>
+  <string>_lam-ar.init.preA_lef.glif</string>
+  <key>_lam-ar.medi.preAlef</key>
+  <string>_lam-ar.medi.preA_lef.glif</string>
   <key>_lines</key>
   <string>_lines.glif</string>
   <key>_madda</key>
@@ -362,16 +366,12 @@
   <string>lam-ar.init.glif</string>
   <key>lam-ar.init.allah1</key>
   <string>lam-ar.init.allah1.glif</string>
-  <key>lam-ar.init.preAlef</key>
-  <string>lam-ar.init.preA_lef.glif</string>
   <key>lam-ar.medi</key>
   <string>lam-ar.medi.glif</string>
   <key>lam-ar.medi.allah1</key>
   <string>lam-ar.medi.allah1.glif</string>
   <key>lam-ar.medi.allah2</key>
   <string>lam-ar.medi.allah2.glif</string>
-  <key>lam-ar.medi.preAlef</key>
-  <string>lam-ar.medi.preA_lef.glif</string>
   <key>lamAlefabove-ar</key>
   <string>lamA_lefabove-ar.glif</string>
   <key>madda-ar</key>

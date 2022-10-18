@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_alefWavyhamzabelow-ar.fina.postLamIni" format="2">
+  <advance width="576"/>
+  <anchor x="109" y="1011" name="diaA"/>
+  <anchor x="367" y="-733" name="diaB"/>
+  <anchor x="574" y="0" name="entry"/>
+  <outline>
+    <component base="_alef-ar.fina.postLamIni"/>
+    <component base="_wavyHamza" xOffset="354" yOffset="-526"/>
+  </outline>
+</glyph>
