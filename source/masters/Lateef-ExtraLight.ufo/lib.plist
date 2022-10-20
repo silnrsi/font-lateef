@@ -1572,6 +1572,7 @@
     <string>halfmaddaovermadda-ar</string>
     <string>noonghunnaabove-ar</string>
     <string>dammainverted-ar</string>
+    <string>dammainverted-ar.open</string>
     <string>fathaHorizont-ar</string>
     <string>vabove-ar</string>
     <string>vinvertedabove-ar</string>
@@ -3449,6 +3450,7 @@
     <string>halfmaddaovermadda-ar</string>
     <string>noonghunnaabove-ar</string>
     <string>dammainverted-ar</string>
+    <string>dammainverted-ar.open</string>
     <string>fathaHorizont-ar</string>
     <string>vabove-ar</string>
     <string>vinvertedabove-ar</string>
@@ -4430,6 +4432,8 @@
     <string>uni08FE</string>
     <key>dammainverted-ar</key>
     <string>uni0657</string>
+    <key>dammainverted-ar.open</key>
+    <string>uni0657.open</string>
     <key>dammareversed-ar</key>
     <string>uni065D</string>
     <key>dammasmall-ar</key>
