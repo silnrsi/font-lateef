@@ -478,7 +478,7 @@ lookup WolofCALT {
   lookupflag 0 ;
 ifinfo(familyName, "Scheherazade New") {
     sub @cno_loclWLF     by  @c_loclWLF ;    # Lateef?
-    sub @Damma           by  @Damma_short ;  # Lateef?
+    sub @Damma           by  @Damma_short ;
     sub @Kasra           by  @Kasra_lowered ;
     sub dammainverted-ar by  dammainverted-ar.open ;
 }  # Sch
@@ -593,9 +593,11 @@ lookup KasraAlternates {
 #********************
 # Damma alternates: cv70
 
-lookup DammaAlternates {
+lookup DammaAlternates {			# cv70
   lookupflag 0 ;
-    sub @cno_filled by @c_filled ;
+    sub @Damma        from [ @Damma_filled  @Damma_short ];
+    sub @Damma_filled from [ @Damma_filled  @Damma_short ];
+    sub @Damma_short  from [ @Damma_filled  @Damma_short ];
 } DammaAlternates;
 
 
@@ -1157,7 +1159,7 @@ feature cv70 {
         FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
     ### ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Short"    ; };   # MMM not present in L
+        ParamUILabelNameID { name 3 1 0x0409 "Short"    ; };
     } ;
     # Same for latin & arabic:
       lookup DammaAlternates;
