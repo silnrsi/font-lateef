@@ -523,10 +523,14 @@ of the license along with this Font Software. If this is not the case, go to
         damma-ar.short  shadda_damma-ar.short  hamza_damma-ar.short
     </class>
     
+    <!-- *NEXT 2 CLASSES MUST MATCH* -->
+    <class name="DammaInverted">    dammainverted-ar</class>
+    <class name="DammaInvertedOpen">dammainverted-ar.open</class>
+    
     <!-- *NEXT 4 CLASSES MUST MATCH* -->
 
     <class name='EasternDigit'>
-        four-persian             six-persian             seven-persian
+        four-persian              six-persian              seven-persian
         four-persian.medium       six-persian.medium       seven-persian.medium
         four-persian.small        six-persian.small        seven-persian.small
     </class>
@@ -590,11 +594,6 @@ of the license along with this Font Software. If this is not the case, go to
     
     <class name="DalIso">    dal-ar</class>
     <class name="DalIso.sen">dal-ar</class>
-    
-    <class name="DammaInverted">    dammainverted-ar</class>
-    <class name="DammaInvertedOpen">dammainverted-ar</class>
-    
-    <class name="DammaInvertedAll"> dammainverted-ar</class>
 
     <!-- 
     ===============================
