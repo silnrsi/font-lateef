@@ -580,9 +580,8 @@ of the license along with this Font Software. If this is not the case, go to
     ==============================
     -->
     
-    <!-- These pairs of classes must match. They are mainly bogus classes that make FEAX compilation work. -->
+    <!-- These groups of classes must match. They are mainly bogus classes that make FEAX compilation work. -->
     
-    <!-- bogus -->
     <class name="c_loclWLF">  dal.ar</class>
     <class name="cno_loclWLF">dal.ar</class>
     
@@ -594,6 +593,13 @@ of the license along with this Font Software. If this is not the case, go to
     
     <class name="DalIso">    dal-ar</class>
     <class name="DalIso.sen">dal-ar</class>
+    
+    <class name="cno_half">sad-ar</class>
+    <class name="c_half">  sad-ar</class>
+    
+    <class name="AlefRareNoLig">     alef-ar.fina</class>
+    <class name="LamAlefRareLig">    lam_alef-ar</class>
+    <class name="LamAlefRareLigFina">lam-alef-ar.fina</class>
 
     <!-- 
     ===============================

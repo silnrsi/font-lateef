@@ -1,0 +1,61 @@
+#**********************************
+# This file is part of Lateef font family (http://software.sil.org/lateef/) 
+# and is Copyright (c) 2001-2022 SIL International (http://www.sil.org/),
+# with Reserved Font Names "Lateef" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+# details including an FAQ.
+#**********************************
+
+
+# Short tail variants of reh and waw -- disabled for now
+
+## lookup _shrtail {
+##   lookupflag 0;
+##   sub @cno_shrtail by @c_shrtail;
+## } _shrtail ;
+## 
+## # Now the contexts for the above:
+## 
+## # At present these are all the same patterns that, if we don't do the substitution,
+## # would get loosened slightly by the logic in oldStyleKerning.feax.
+## 
+## lookup ShortTailRehWaw {
+##   lookupflag 0;
+##   
+##   # Followed by certain narrow initials because of nuktas below
+##   sub @cno_shrtail' lookup _shrtail                     [ @KernRehWawLoosen @KernRehWawLoosenMore ];
+##   sub @cno_shrtail' lookup _shrtail @MarksAny           [ @KernRehWawLoosen @KernRehWawLoosenMore ];
+##   sub @cno_shrtail' lookup _shrtail @MarksAny @MarksAny [ @KernRehWawLoosen @KernRehWawLoosenMore ];
+## 
+##   # Followed alef with mark below it
+##   sub @cno_shrtail' lookup _shrtail                     @AlefIso @MarksBelow                         ;
+##   sub @cno_shrtail' lookup _shrtail                     @AlefIso @MarksAbove @MarksBelow             ;
+##   sub @cno_shrtail' lookup _shrtail                     @AlefIso @MarksAbove @MarksAbove @MarksBelow ;
+##   sub @cno_shrtail' lookup _shrtail @MarksAny           @AlefIso @MarksBelow                         ;
+##   sub @cno_shrtail' lookup _shrtail @MarksAny           @AlefIso @MarksAbove @MarksBelow             ;
+##   sub @cno_shrtail' lookup _shrtail @MarksAny           @AlefIso @MarksAbove @MarksAbove @MarksBelow ;
+##   sub @cno_shrtail' lookup _shrtail @MarksAny @MarksAny @AlefIso @MarksBelow                         ;
+##   sub @cno_shrtail' lookup _shrtail @MarksAny @MarksAny @AlefIso @MarksAbove @MarksBelow             ;
+##   sub @cno_shrtail' lookup _shrtail @MarksAny @MarksAny @AlefIso @MarksAbove @MarksAbove @MarksBelow ;
+## 
+##   # Followed by mark below and then Ain-like isloates:
+##   sub @cno_shrtail' lookup _shrtail @MarksBelow             @AinLikeIsol ;
+##   sub @cno_shrtail' lookup _shrtail @MarksBelow @MarksAny   @AinLikeIsol ;
+##   sub @cno_shrtail' lookup _shrtail @MarksAny   @MarksBelow @AinLikeIsol ;
+##   
+##   # Followed by narrow glyphs with something below
+##   sub @cno_shrtail' lookup _shrtail                     @NarrowIni @MarksBelow                         ;
+##   sub @cno_shrtail' lookup _shrtail                     @NarrowIni @MarksAbove @MarksBelow             ;
+##   sub @cno_shrtail' lookup _shrtail                     @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;
+##   sub @cno_shrtail' lookup _shrtail @MarksAny           @NarrowIni @MarksBelow                         ;
+##   sub @cno_shrtail' lookup _shrtail @MarksAny           @NarrowIni @MarksAbove @MarksBelow             ;
+##   sub @cno_shrtail' lookup _shrtail @MarksAny           @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;
+##   sub @cno_shrtail' lookup _shrtail @MarksAny @MarksAny @NarrowIni @MarksBelow                         ;
+##   sub @cno_shrtail' lookup _shrtail @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksBelow             ;
+##   sub @cno_shrtail' lookup _shrtail @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;
+## } ShortTailRehWaw ;
+

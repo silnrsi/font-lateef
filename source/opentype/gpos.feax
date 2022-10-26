@@ -222,7 +222,7 @@ feature mark {  # Mark to base Positioning
       language RHG  ;
       language SND  ;
       language URD  ;
-#      language WLF  ;
+      language WLF  ;
 } mark ;
 
 feature mkmk {  # Mark to mark Positioning
