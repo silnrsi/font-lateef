@@ -10,20 +10,24 @@
 # details including an FAQ.
 #**********************************
 
-# Custom substitutions for collsion avoidance, such a kashida insertion.
+# Custom substitutions need to handle collsion avoidance, such a kashida insertion.
+
+#--- liga feature ---
 
 #********
-# Yehbarree substituions to prevent collisions -- must be after lang-specific CALTs and cv48
+# Yehbarree substitutions to prevent collisions -- must be after lang-specific CALTs and cv48
 
 #### TODO Will we use this?
+# Regardless, these are needed for compatibility with Harmattan.
 
-## lookup YehBarreeToWideAlways {
+lookup YehBarreeToWideAlways {
 ##   lookupflag IgnoreMarks ;
 ##     sub @YehBarreeContextAlways                            @cno_wide' by @c_wide ;
-## } YehBarreeToWideAlways ;
-## 
-## lookup YehBarreeToWideWithMarks {
+} YehBarreeToWideAlways ;
+ 
+lookup YehBarreeToWideWithMarks {
 ##   lookupflag UseMarkFilteringSet @MarksBelow;
 ##     sub @YehBarreeContextMarkBelow @MarksBelow             @cno_wide' by @c_wide ;
 ##     sub @YehBarreeContextMarkBelow @MarksBelow @MarksBelow @cno_wide' by @c_wide ;
-## } YehBarreeToWideWithMarks ;
+} YehBarreeToWideWithMarks ;
+

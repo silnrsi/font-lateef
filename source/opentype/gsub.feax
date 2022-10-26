@@ -349,7 +349,7 @@ lookup HamzaLigatures {
 
 # Including graphemejoinercomb allows it to interrupt the ligature formation,
 #		otherwise the lookupflag causes it to be ignored.
-@ShaddaLigatureFilter = [ @ShaddaMarks @ShaddaKasraMarks shadda-ar graphemejoinercomb ] ;
+@ShaddaLigatureFilter = [ @ShaddaMarks @ShaddaKasraMarks shadda-ar alefabove-ar graphemejoinercomb ] ;
 lookup ShaddaLigatures {
   lookupflag UseMarkFilteringSet @ShaddaLigatureFilter ;
     sub shadda-ar @ShaddaMarks by @ShaddaLigatures ;
@@ -359,64 +359,13 @@ lookup ShaddaLigatures {
 
 # HB PAUSE
 
-#********************
-# for features calt and rclt:
-#********************
 
-#********************
-# Short tail variants of reh and waw -- disabled for now
+#---  calt feature  ---
 
-## lookup shrtail {
-##   lookupflag 0;
-##   sub @cno_shrtail by @c_shrtail;
-## } shrtail ;
-## 
-## # Now the contexts for the above:
-## 
-## # At present these are all the same patterns that, if we don't do the substitution,
-## # would get loosened slightly by the logic in oldStyleKerning.feax.
-## 
-## lookup ShortTailRehWaw {
-##   lookupflag 0;
-##   
-##   # Followed by certain narrow initials because of nuktas below
-##   sub @cno_shrtail' lookup shrtail                     [ @KernRehWawLoosen @KernRehWawLoosenMore ];
-##   sub @cno_shrtail' lookup shrtail @MarksAny           [ @KernRehWawLoosen @KernRehWawLoosenMore ];
-##   sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny [ @KernRehWawLoosen @KernRehWawLoosenMore ];
-## 
-##   # Followed alef with mark below it
-##   sub @cno_shrtail' lookup shrtail                     @AlefIso @MarksBelow                         ;
-##   sub @cno_shrtail' lookup shrtail                     @AlefIso @MarksAbove @MarksBelow             ;
-##   sub @cno_shrtail' lookup shrtail                     @AlefIso @MarksAbove @MarksAbove @MarksBelow ;
-##   sub @cno_shrtail' lookup shrtail @MarksAny           @AlefIso @MarksBelow                         ;
-##   sub @cno_shrtail' lookup shrtail @MarksAny           @AlefIso @MarksAbove @MarksBelow             ;
-##   sub @cno_shrtail' lookup shrtail @MarksAny           @AlefIso @MarksAbove @MarksAbove @MarksBelow ;
-##   sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @AlefIso @MarksBelow                         ;
-##   sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @AlefIso @MarksAbove @MarksBelow             ;
-##   sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @AlefIso @MarksAbove @MarksAbove @MarksBelow ;
-## 
-##   # Followed by mark below and then Ain-like isloates:
-##   sub @cno_shrtail' lookup shrtail @MarksBelow             @AinLikeIsol ;
-##   sub @cno_shrtail' lookup shrtail @MarksBelow @MarksAny   @AinLikeIsol ;
-##   sub @cno_shrtail' lookup shrtail @MarksAny   @MarksBelow @AinLikeIsol ;
-##   
-##   # Followed by narrow glyphs with something below
-##   sub @cno_shrtail' lookup shrtail                     @NarrowIni @MarksBelow                         ;
-##   sub @cno_shrtail' lookup shrtail                     @NarrowIni @MarksAbove @MarksBelow             ;
-##   sub @cno_shrtail' lookup shrtail                     @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;
-##   sub @cno_shrtail' lookup shrtail @MarksAny           @NarrowIni @MarksBelow                         ;
-##   sub @cno_shrtail' lookup shrtail @MarksAny           @NarrowIni @MarksAbove @MarksBelow             ;
-##   sub @cno_shrtail' lookup shrtail @MarksAny           @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;
-##   sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @NarrowIni @MarksBelow                         ;
-##   sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksBelow             ;
-##   sub @cno_shrtail' lookup shrtail @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;
-## } ShortTailRehWaw ;
+# Language-independent shaping
 
-
-#********************
-# Language-independent CALTs
-
-# Lateef only
+# Short tail variants of reh and waw -- disabled for now.
+#include(../../source/opentype/customShaping.feax)
 
 ifinfo(familyName, "Lateef") {
    
@@ -426,12 +375,11 @@ lookup DaggerAlefToLarge {
 
 } DaggerAlefToLarge;
 
-}  # end do - Lateef
+}  # Lateef
 
 # HB PAUSE
 
-#********************
-# Language-specific  CALTs
+# Language-specific shaping
 
 # Note: Setting default kasra is done in ccmp
 
@@ -476,12 +424,10 @@ lookup UrduCALT {
 
 lookup WolofCALT {
   lookupflag 0 ;
-ifinfo(familyName, "Scheherazade New") {
-    sub @cno_loclWLF     by  @c_loclWLF ;    # Lateef?
+    sub @cno_loclWLF     by  @c_loclWLF ;
     sub @Damma           by  @Damma_short ;
     sub @Kasra           by  @Kasra_lowered ;
     sub dammainverted-ar by  dammainverted-ar.open ;
-}  # Sch
 } WolofCALT;
 
 # HB PAUSE
@@ -526,12 +472,14 @@ lookup MaddaAlternate {				# MMM not in L
 # Heh Alternates: TypeTuner lookups:
 
 lookup SindhiHeh {
+  lookupflag IgnoreMarks;
     sub heh-ar.medi by heh-ar.medi.knottedHigh ;
     sub heh-ar.fina by heh-ar.fina.knottedHigh ;
     sub heh-ar by heh-ar.knotted ;
 } SindhiHeh;
 
 lookup UrduHeh {
+  lookupflag IgnoreMarks;
     sub heh-ar.init by heh-ar.init.hooked ;
     sub heh-ar.medi by heh-ar.medi.hooked ;
     sub heh-ar.fina by heh-ar.fina.hooked ;
@@ -541,6 +489,7 @@ lookup UrduHeh {
 } UrduHeh;
 
 lookup KurdishHeh {
+  lookupflag IgnoreMarks;
     sub heh-ar.fina by heh-ar.fina.knottedHigh ;
     sub heh-ar by heh-ar.knotted ;
 } KurdishHeh;
@@ -624,10 +573,27 @@ lookup DammaInvertedAlternates {   # cv74
 #********************
 # DaggerAlef alternates: cv76
 
-lookup DaggerAlefAlternates {
-	# By this time, we've already changed to alefabove-ar.large in contexts where it might be wanted
-	# Now return it to small if cv76=2
+# used in Sch only:
+lookup _DaggerAlefAlt {
+  lookupflag 0 ;
+    # 0=default;            1=large;            2=small
+    sub alefabove-ar from [ alefabove-ar.large  alefabove-ar ];
+    #sub alefabove-ar by alefabove-ar.large ;
+} _DaggerAlefAlt ;
+
+lookup DaggerAlefAlternates {   # cv76
+  lookupflag 0 ;
+	  # By this time, we've already changed to alefabove-ar.large in contexts where it might be wanted (eg, in Sch).
+	  # Now return it to small if cv76=2.
+  
+ifinfo(familyName, "Scheherazade New") {
+    sub @TakesLargeDaggerAlef alefabove-ar' lookup _DaggerAlefAlt ;
+}
+
+ifinfo(familyName, "Lateef") {
     sub alefabove-ar.large from [ alefabove-ar.large alefabove-ar ] ;
+}
+
 } DaggerAlefAlternates;
 
 
@@ -757,6 +723,10 @@ lookup LamAlefLigatures {
 		sub @LamInitMedi  alefWavyhamzabelow-ar.fina  by  @LamAlefWavyHBelowLig ;
 		sub @LamInitMedi  alefTwoabove-ar.fina        by  @LamAlefTwoAboveLig ;
 		sub @LamInitMedi  alefThreeabove-ar.fina      by  @LamAlefThreeAboveLig ;
+ifinfo(familyName, "Scheherazade New") {
+    sub lam-ar      @AlefRareNoLig              by  @LamAlefRareLig ;
+    sub lam-ar.fina @AlefRareNoLig              by  @LamAlefRareLigFina ;
+}
 } LamAlefLigatures;
 
 # Must be after LamAlefLigatures
@@ -793,6 +763,8 @@ lookup SignDigits_ToSmall_target {
   lookupflag IgnoreMarks ;
     sub @DigitsAny by @DigitsAnySmall ;
 } SignDigits_ToSmall_target ;
+
+# TODO: add poundmarkabove, piastremarkabove, or disputedendofayah to Lateef
 
 lookup SignWithDigits {
   lookupflag IgnoreMarks ;
@@ -996,7 +968,7 @@ do let f = info("familyName");
         lookup WolofCALT ;
 } calt ;
 
-# feature rclt
+# feature rclt - nothing to do
 
 # HB PAUSE
 
