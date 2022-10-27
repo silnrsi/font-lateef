@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="disputedendofayah-ar" format="2">
+  <advance width="1323"/>
+  <unicode hex="08E2"/>
+  <anchor x="370" y="0" name="digitR"/>
+  <outline>
+    <component base="five-persian" xOffset="216" yOffset="887"/>
+  </outline>
+</glyph>

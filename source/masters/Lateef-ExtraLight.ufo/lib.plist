@@ -126,6 +126,10 @@
   <string>3091</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
+  <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
+  <array>
+    <string>/disputedendofayah-ar/disputedendofayah-ar.2/disputedendofayah-ar.3</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>

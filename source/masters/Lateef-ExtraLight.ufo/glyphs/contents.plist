@@ -858,6 +858,12 @@
   <string>dieresiscomb.glif</string>
   <key>dieresiscomb.case</key>
   <string>dieresiscomb.case.glif</string>
+  <key>disputedendofayah-ar</key>
+  <string>disputedendofayah-ar.glif</string>
+  <key>disputedendofayah-ar.2</key>
+  <string>disputedendofayah-ar.2.glif</string>
+  <key>disputedendofayah-ar.3</key>
+  <string>disputedendofayah-ar.3.glif</string>
   <key>divide</key>
   <string>divide.glif</string>
   <key>divisionslash</key>
@@ -2354,6 +2360,14 @@
   <string>perthousand-ar.glif</string>
   <key>pi</key>
   <string>pi.glif</string>
+  <key>piastremarkabove-ar</key>
+  <string>piastremarkabove-ar.glif</string>
+  <key>piastremarkabove-ar.2</key>
+  <string>piastremarkabove-ar.2.glif</string>
+  <key>piastremarkabove-ar.3</key>
+  <string>piastremarkabove-ar.3.glif</string>
+  <key>piastremarkabove-ar.4</key>
+  <string>piastremarkabove-ar.4.glif</string>
   <key>plus</key>
   <string>plus.glif</string>
   <key>plusminus</key>
@@ -2362,6 +2376,14 @@
   <string>popdirectionalformatting.glif</string>
   <key>popdirectionalisolate</key>
   <string>popdirectionalisolate.glif</string>
+  <key>poundmarkabove-ar</key>
+  <string>poundmarkabove-ar.glif</string>
+  <key>poundmarkabove-ar.2</key>
+  <string>poundmarkabove-ar.2.glif</string>
+  <key>poundmarkabove-ar.3</key>
+  <string>poundmarkabove-ar.3.glif</string>
+  <key>poundmarkabove-ar.4</key>
+  <string>poundmarkabove-ar.4.glif</string>
   <key>product</key>
   <string>product.glif</string>
   <key>punctuationspace</key>

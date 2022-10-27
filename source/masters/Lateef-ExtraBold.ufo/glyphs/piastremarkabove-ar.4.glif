@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="piastremarkabove-ar.4" format="2">
+  <advance width="3435"/>
+  <anchor x="2470" y="0" name="digitR"/>
+  <outline>
+    <contour>
+      <point x="2700" y="967" type="curve" smooth="yes"/>
+      <point x="2968" y="967"/>
+      <point x="3220" y="1043"/>
+      <point x="3405" y="1258" type="curve"/>
+      <point x="3381" y="1291" type="line"/>
+      <point x="3187" y="1238"/>
+      <point x="2962" y="1226"/>
+      <point x="2789" y="1226" type="curve" smooth="yes"/>
+      <point x="2583" y="1226"/>
+      <point x="269" y="1198"/>
+      <point x="112" y="1282" type="curve"/>
+      <point x="30" y="967" type="line"/>
+      <point x="223" y="967"/>
+      <point x="2504" y="967"/>
+    </contour>
+    <contour>
+      <point x="1391" y="1207" type="line"/>
+      <point x="1598" y="1290"/>
+      <point x="1650" y="1418"/>
+      <point x="1785" y="1418" type="curve" smooth="yes"/>
+      <point x="1905" y="1418"/>
+      <point x="1920" y="1363"/>
+      <point x="1920" y="1330" type="curve" smooth="yes"/>
+      <point x="1920" y="1291"/>
+      <point x="1917" y="1259"/>
+      <point x="1897" y="1221" type="curve"/>
+      <point x="2053" y="1222" type="line"/>
+      <point x="2099" y="1278"/>
+      <point x="2115" y="1345"/>
+      <point x="2115" y="1425" type="curve" smooth="yes"/>
+      <point x="2115" y="1525"/>
+      <point x="2020" y="1641"/>
+      <point x="1875" y="1641" type="curve" smooth="yes"/>
+      <point x="1603" y="1641"/>
+      <point x="1468" y="1304"/>
+      <point x="1192" y="1223" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

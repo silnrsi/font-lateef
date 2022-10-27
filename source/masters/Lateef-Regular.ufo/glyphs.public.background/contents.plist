@@ -200,6 +200,12 @@
   <string>dammaturnedbelow-ar.glif</string>
   <key>dateseparator-ar</key>
   <string>dateseparator-ar.glif</string>
+  <key>disputedendofayah-ar</key>
+  <string>disputedendofayah-ar.glif</string>
+  <key>disputedendofayah-ar.2</key>
+  <string>disputedendofayah-ar.2.glif</string>
+  <key>disputedendofayah-ar.3</key>
+  <string>disputedendofayah-ar.3.glif</string>
   <key>eight-ar</key>
   <string>eight-ar.glif</string>
   <key>eight-ar.medium</key>
@@ -526,6 +532,18 @@
   <string>parenright.glif</string>
   <key>percent-ar</key>
   <string>percent-ar.glif</string>
+  <key>piastremarkabove-ar</key>
+  <string>piastremarkabove-ar.glif</string>
+  <key>piastremarkabove-ar.2</key>
+  <string>piastremarkabove-ar.2.glif</string>
+  <key>piastremarkabove-ar.3</key>
+  <string>piastremarkabove-ar.3.glif</string>
+  <key>poundmarkabove-ar</key>
+  <string>poundmarkabove-ar.glif</string>
+  <key>poundmarkabove-ar.2</key>
+  <string>poundmarkabove-ar.2.glif</string>
+  <key>poundmarkabove-ar.3</key>
+  <string>poundmarkabove-ar.3.glif</string>
   <key>qafDotless-ar</key>
   <string>qafD_otless-ar.glif</string>
   <key>qafDotless-ar.fina</key>
