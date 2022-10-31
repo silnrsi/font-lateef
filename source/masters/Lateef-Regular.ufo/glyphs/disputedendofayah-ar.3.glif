@@ -3,8 +3,8 @@
   <advance width="2731"/>
   <guideline x="785" y="907" angle="0"/>
   <guideline x="809" y="982" angle="0"/>
-  <anchor x="381" y="0" name="digitR"/>
+  <anchor x="660" y="0" name="digitR"/>
   <outline>
-    <component base="five-persian" xScale="0.85" yScale="0.85" xOffset="987" yOffset="1011"/>
+    <component base="five-persian" xScale="0.85" yScale="0.85" xOffset="987" yOffset="761"/>
   </outline>
 </glyph>

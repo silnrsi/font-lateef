@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="disputedendofayah-ar.2" format="2">
   <advance width="2027"/>
-  <anchor x="370" y="0" name="digitR"/>
+  <anchor x="543" y="0" name="digitR"/>
   <outline>
-    <component base="five-persian" xOffset="568" yOffset="887"/>
+    <component base="five-persian" xOffset="568" yOffset="637"/>
   </outline>
 </glyph>
