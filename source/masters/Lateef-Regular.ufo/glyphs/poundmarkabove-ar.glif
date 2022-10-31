@@ -2,7 +2,7 @@
 <glyph name="poundmarkabove-ar" format="2">
   <advance width="1323"/>
   <unicode hex="0890"/>
-  <anchor x="370" y="0" name="digitR"/>
+  <anchor x="420" y="0" name="digitR"/>
   <outline>
     <contour>
       <point x="921" y="1138" type="curve"/>

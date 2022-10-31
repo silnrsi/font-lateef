@@ -3,7 +3,7 @@
   <advance width="3435"/>
   <guideline x="1028" y="982" angle="0"/>
   <guideline x="1004" y="907" angle="0"/>
-  <anchor x="381" y="0" name="digitR"/>
+  <anchor x="581" y="0" name="digitR"/>
   <outline>
     <contour>
       <point x="2191" y="1142" type="curve"/>
