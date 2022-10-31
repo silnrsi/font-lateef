@@ -129,6 +129,8 @@
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/disputedendofayah-ar/disputedendofayah-ar.2/disputedendofayah-ar.3</string>
+    <string>/piastremarkabove-ar/piastremarkabove-ar.2/piastremarkabove-ar.3/piastremarkabove-ar.4</string>
+    <string>/poundmarkabove-ar/poundmarkabove-ar.2/poundmarkabove-ar.3/poundmarkabove-ar.4</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>

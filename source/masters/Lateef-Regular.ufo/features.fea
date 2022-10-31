@@ -2292,17 +2292,21 @@ lookup SignDigits_ToSmall_target {
 lookup SignWithDigits {
     lookupflag IgnoreMarks;
     # Uniscribe or HarfBuzz 'latn'
-    sub [year-ar samvat-ar pagenumber-ar numbermark-ar]' lookup SignWith_4digits_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target;
-    sub [number-ar year-ar samvat-ar pagenumber-ar numbermark-ar]' lookup SignWith_3digits_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target;
-    sub [endofayah-ar endofayah-ar.alt endofayah-ar.altB]' lookup SignWith_3digits_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target;
-    sub [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB]' lookup SignWith_2digits_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target;
-    sub [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB] @DigitsAny' lookup SignDigits_ToMedium_target;
+    sub [year-ar samvat-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar]' lookup SignWith_4digits_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target;
+    sub [number-ar year-ar samvat-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar]' lookup SignWith_3digits_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target;
+    sub [endofayah-ar endofayah-ar.alt endofayah-ar.altB disputedendofayah-ar]' lookup SignWith_3digits_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target;
+    sub [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB]' lookup SignWith_2digits_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target;
+    sub [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB] @DigitsAny' lookup SignDigits_ToMedium_target;
+    sub [disputedendofayah-ar]' lookup SignWith_2digits_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target;
+    sub [disputedendofayah-ar] @DigitsAny' lookup SignDigits_ToSmall_target;
     # HarfBuzz 'arab'
-    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target [year-ar samvat-ar pagenumber-ar numbermark-ar]' lookup SignWith_4digits_target;
-    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target [number-ar year-ar samvat-ar pagenumber-ar numbermark-ar]' lookup SignWith_3digits_target;
-    sub @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target [endofayah-ar endofayah-ar.alt endofayah-ar.altB]' lookup SignWith_3digits_target;
-    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB]' lookup SignWith_2digits_target;
-    sub @DigitsAny' lookup SignDigits_ToMedium_target [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB];
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target [year-ar samvat-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar]' lookup SignWith_4digits_target;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target [number-ar year-ar samvat-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar]' lookup SignWith_3digits_target;
+    sub @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target [endofayah-ar endofayah-ar.alt endofayah-ar.altB disputedendofayah-ar]' lookup SignWith_3digits_target;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB]' lookup SignWith_2digits_target;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB];
+    sub @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target [disputedendofayah-ar]' lookup SignWith_2digits_target;
+    sub @DigitsAny' lookup SignDigits_ToSmall_target [disputedendofayah-ar];
 } SignWithDigits;
 
 # Lateef only
