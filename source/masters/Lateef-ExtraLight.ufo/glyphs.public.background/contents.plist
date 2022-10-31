@@ -152,6 +152,14 @@
   <string>yehR_ohingya-ar.glif</string>
   <key>yehRohingya-ar.fina</key>
   <string>yehR_ohingya-ar.fina.glif</string>
+  <key>yehthin-ar</key>
+  <string>yehthin-ar.glif</string>
+  <key>yehthin-ar.fina</key>
+  <string>yehthin-ar.fina.glif</string>
+  <key>yehthin-ar.init</key>
+  <string>yehthin-ar.init.glif</string>
+  <key>yehthin-ar.medi</key>
+  <string>yehthin-ar.medi.glif</string>
   <key>zainabove-ar</key>
   <string>zainabove-ar.glif</string>
 </dict>

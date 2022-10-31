@@ -3434,6 +3434,14 @@
   <string>yehbarreeT_woabove-ar.init.glif</string>
   <key>yehbarreeTwoabove-ar.medi</key>
   <string>yehbarreeT_woabove-ar.medi.glif</string>
+  <key>yehthin-ar</key>
+  <string>yehthin-ar.glif</string>
+  <key>yehthin-ar.fina</key>
+  <string>yehthin-ar.fina.glif</string>
+  <key>yehthin-ar.init</key>
+  <string>yehthin-ar.init.glif</string>
+  <key>yehthin-ar.medi</key>
+  <string>yehthin-ar.medi.glif</string>
   <key>yen</key>
   <string>yen.glif</string>
   <key>yu-ar</key>

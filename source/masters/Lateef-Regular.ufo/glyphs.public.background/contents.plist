@@ -808,6 +808,14 @@
   <string>yehbarree-ar.glif</string>
   <key>yehbarree-ar.fina</key>
   <string>yehbarree-ar.fina.glif</string>
+  <key>yehthin-ar</key>
+  <string>yehthin-ar.glif</string>
+  <key>yehthin-ar.fina</key>
+  <string>yehthin-ar.fina.glif</string>
+  <key>yehthin-ar.init</key>
+  <string>yehthin-ar.init.glif</string>
+  <key>yehthin-ar.medi</key>
+  <string>yehthin-ar.medi.glif</string>
   <key>zero-ar.medium</key>
   <string>zero-ar.medium.glif</string>
   <key>zero-ar.small</key>

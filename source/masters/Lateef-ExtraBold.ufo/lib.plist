@@ -126,9 +126,7 @@
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/two.small/disputedendofayah-ar/disputedendofayah-ar.2/disputedendofayah-ar.3</string>
-    <string>/piastremarkabove-ar/piastremarkabove-ar.2/piastremarkabove-ar.3/piastremarkabove-ar.4</string>
-    <string>/poundmarkabove-ar/poundmarkabove-ar.2/poundmarkabove-ar.3/poundmarkabove-ar.4</string>
+    <string>/yeh-ar/yeh-ar.fina/yeh-ar.medi/yeh-ar.init/space/space/yehthin-ar/yehthin-ar.fina/yehthin-ar.medi/yehthin-ar.init/space/space/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>
