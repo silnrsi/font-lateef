@@ -3196,6 +3196,10 @@
   <string>veh-ar.medi.glif</string>
   <key>verseComma-ar</key>
   <string>verseC_omma-ar.glif</string>
+  <key>verticaltail-ar</key>
+  <string>verticaltail-ar.glif</string>
+  <key>verticaltail-ar.fina</key>
+  <string>verticaltail-ar.fina.glif</string>
   <key>vinvertedabove-ar</key>
   <string>vinvertedabove-ar.glif</string>
   <key>w</key>
