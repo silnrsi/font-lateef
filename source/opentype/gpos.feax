@@ -107,7 +107,7 @@ lookup SubtendingMarks {
     }
     
     # Those that take 3 medium digits
-    do for m = [ number-ar.3 year-ar.3 pagenumber-ar.3 samvat-ar.3 numbermark-ar.3 ] ;
+    do for m = [ number-ar.3 year-ar.3 pagenumber-ar.3 samvat-ar.3 numbermark-ar.3 poundmarkabove-ar.3 piastremarkabove-ar.3 ] ;
        let y = APy(m, "digitR") - APy("zero.medium", "digitL");
        let w = -ADVx("zero.medium"); 
        let x1 = APx(m, "digitR") - ADVx(m); 
@@ -118,7 +118,7 @@ lookup SubtendingMarks {
     }
 
     # Those that take 3 small digits
-    do for m = [ endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3 ] ;
+    do for m = [ endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3 disputedendofayah-ar.3 ] ;
        let y = APy(m, "digitR") - APy("zero.small", "digitL");
        let w = -ADVx("zero.small"); 
        let x1 = APx(m, "digitR") - ADVx(m); 
@@ -126,6 +126,17 @@ lookup SubtendingMarks {
     {
         pos $m @DigitsAnySmall' <$x1 $y $w 0> @DigitsAnySmall' <$x2 $y $w 0> @DigitsAnySmall' <$x3 $y $w 0> ;
         pos    @DigitsAnySmall' <$x3 $y $w 0> @DigitsAnySmall' <$x2 $y $w 0> @DigitsAnySmall' <$x1 $y $w 0> $m ;
+    }
+    
+    # Those that take 2 small digits
+    do for m = [ disputedendofayah-ar.2 ] ;
+       let y = APy(m, "digitR") - APy("zero.small", "digitL");
+       let w = -ADVx("zero.small"); 
+       let x1 = APx(m, "digitR") - ADVx(m); 
+       let x2 = x1 - w; 
+    {
+        pos $m  @DigitsAnySmall' <$x1 $y $w 0>  @DigitsAnySmall' <$x2 $y $w 0> ;
+        pos     @DigitsAnySmall' <$x2 $y $w 0>  @DigitsAnySmall' <$x1 $y $w 0>  $m ;
     }
 
     # Those that take 2 medium digits
@@ -137,6 +148,16 @@ lookup SubtendingMarks {
     {
         pos $m @DigitsAnyMedium' <$x1 $y $w 0> @DigitsAnyMedium' <$x2 $y $w 0> ;
         pos    @DigitsAnyMedium' <$x2 $y $w 0> @DigitsAnyMedium' <$x1 $y $w 0> $m ;
+    }
+    
+    # Those that take 1 small digit
+    do for m = [ disputedendofayah-ar ] ;
+       let y = APy(m, "digitR") - APy("zero.small", "digitL");
+       let w = -ADVx("zero.small"); 
+       let x1 = APx(m, "digitR") - ADVx(m); 
+    {
+        pos $m  @DigitsAnySmall' <$x1 $y $w 0> ;
+        pos     @DigitsAnySmall' <$x1 $y $w 0>  $m ;
     }
 
     # Those that take 1 medium digit
