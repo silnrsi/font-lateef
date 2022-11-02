@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kehehElongatedhamzaabove-ar.init" format="2">
+  <advance width="633"/>
+  <anchor x="180" y="1142" name="diaA"/>
+  <anchor x="200" y="-200" name="diaB"/>
+  <outline>
+    <component base="kaf-ar.init"/>
+    <component base="_gafBarShort" xOffset="25" yOffset="835"/>
+    <contour>
+      <point x="357" y="1067" type="curve"/>
+      <point x="484" y="1151" type="line"/>
+      <point x="466" y="1147"/>
+      <point x="450" y="1145"/>
+      <point x="435" y="1145" type="curve" smooth="yes"/>
+      <point x="373" y="1145"/>
+      <point x="337" y="1179"/>
+      <point x="333" y="1216" type="curve"/>
+      <point x="329" y="1193" type="line"/>
+      <point x="347" y="1245"/>
+      <point x="420" y="1275"/>
+      <point x="474" y="1275" type="curve" smooth="yes"/>
+      <point x="489" y="1275"/>
+      <point x="502" y="1273"/>
+      <point x="514" y="1268" type="curve"/>
+      <point x="527" y="1293" type="line"/>
+      <point x="507" y="1323"/>
+      <point x="466" y="1341"/>
+      <point x="429" y="1341" type="curve" smooth="yes"/>
+      <point x="370" y="1341"/>
+      <point x="307" y="1280"/>
+      <point x="307" y="1135" type="curve" smooth="yes"/>
+      <point x="307" y="1104"/>
+      <point x="325" y="1084"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

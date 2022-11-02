@@ -1628,6 +1628,14 @@
   <string>kehehD_otabove-ar.init.glif</string>
   <key>kehehDotabove-ar.medi</key>
   <string>kehehD_otabove-ar.medi.glif</string>
+  <key>kehehElongatedhamzaabove-ar</key>
+  <string>kehehE_longatedhamzaabove-ar.glif</string>
+  <key>kehehElongatedhamzaabove-ar.fina</key>
+  <string>kehehE_longatedhamzaabove-ar.fina.glif</string>
+  <key>kehehElongatedhamzaabove-ar.init</key>
+  <string>kehehE_longatedhamzaabove-ar.init.glif</string>
+  <key>kehehElongatedhamzaabove-ar.medi</key>
+  <string>kehehE_longatedhamzaabove-ar.medi.glif</string>
   <key>kehehThreedotsabove-ar</key>
   <string>kehehT_hreedotsabove-ar.glif</string>
   <key>kehehThreedotsabove-ar.fina</key>

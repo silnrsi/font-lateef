@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kehehElongatedhamzaabove-ar.fina" format="2">
+  <advance width="1544"/>
+  <anchor x="242" y="761" name="alefUnused"/>
+  <anchor x="520" y="1142" name="diaA"/>
+  <anchor x="286" y="-200" name="diaB"/>
+  <outline>
+    <component base="keheh-ar.fina"/>
+    <component base="_gafBarShort" xOffset="620" yOffset="835"/>
+    <contour>
+      <point x="952" y="1067" type="curve"/>
+      <point x="1079" y="1151" type="line"/>
+      <point x="1061" y="1147"/>
+      <point x="1045" y="1145"/>
+      <point x="1030" y="1145" type="curve" smooth="yes"/>
+      <point x="968" y="1145"/>
+      <point x="932" y="1179"/>
+      <point x="928" y="1216" type="curve"/>
+      <point x="924" y="1193" type="line"/>
+      <point x="942" y="1245"/>
+      <point x="1015" y="1275"/>
+      <point x="1069" y="1275" type="curve" smooth="yes"/>
+      <point x="1084" y="1275"/>
+      <point x="1097" y="1273"/>
+      <point x="1109" y="1268" type="curve"/>
+      <point x="1122" y="1293" type="line"/>
+      <point x="1102" y="1323"/>
+      <point x="1061" y="1341"/>
+      <point x="1024" y="1341" type="curve" smooth="yes"/>
+      <point x="965" y="1341"/>
+      <point x="902" y="1280"/>
+      <point x="902" y="1135" type="curve" smooth="yes"/>
+      <point x="902" y="1104"/>
+      <point x="920" y="1084"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -127,7 +127,6 @@
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/yeh-ar/yeh-ar.fina/yeh-ar.medi/yeh-ar.init/space/space/yehthin-ar/yehthin-ar.fina/yehthin-ar.medi/yehthin-ar.init/space/space/space</string>
-    <string>/noonghunna-ar.fina/noonghunna-ar.fina/noon-ar.fina/meem-ar/alef-ar/space/verticaltail-ar/seen-ar/space/verticaltail-ar.fina/meem-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>
