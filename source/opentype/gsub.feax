@@ -144,6 +144,12 @@ lookup KasraLow {
 } KasraLow;
 
 
+lookup KasraHigh {
+  lookupflag 0 ;
+    sub @Kasra_lowered by @Kasra;
+} KasraHigh;
+
+
 # HB PAUSE
 
 #********************
@@ -356,6 +362,12 @@ lookup ShaddaLigatures {
     sub @ShaddaMarks shadda-ar by @ShaddaLigatures ;
 } ShaddaLigatures;
 
+# In theory we could do this up where we create the Allah ligature, but this simpler:
+lookup ShaddaAlefLigatures {
+  lookupflag UseMarkFilteringSet @ShaddaLigatureFilter ;
+    sub lam-ar.medi.allah2 shadda-ar'    alefabove-ar'  by  shadda_alef-ar;
+    sub lam-ar.medi.allah2 alefabove-ar' shadda-ar'     by  shadda_alef-ar;
+} ShaddaAlefLigatures;
 
 # HB PAUSE
 
@@ -868,8 +880,8 @@ feature ccmp {  # Glyph Composition/Decomposition
       language WLF  ;
         lookup KasraLow ;
         
-###    script latn;
-###        lookup KasraHigh;  #### why is this needed for latn?
+    script latn;
+        lookup KasraHigh;  # need for bare diacritics (on white space) in Latin text
 } ccmp ;
 
 # feature locl (not used; see calt)
