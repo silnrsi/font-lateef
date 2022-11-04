@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rounddotraised-ar" format="2">
+  <advance width="375"/>
+  <unicode hex="0888"/>
+  <anchor x="188" y="-200" name="_diaA"/>
+  <anchor x="188" y="938" name="diaA"/>
+  <outline>
+    <component base="dotStopabove-ar" xOffset="188" yOffset="-416"/>
+  </outline>
+</glyph>

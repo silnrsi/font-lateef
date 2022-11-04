@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kashidaTwobelow-ar" format="2">
+  <advance width="600"/>
+  <anchor x="300" y="700" name="diaA"/>
+  <anchor x="316" y="-380" name="diaB"/>
+  <outline>
+    <component base="_dot2h" xOffset="308" yOffset="-176"/>
+    <contour>
+      <point x="0" y="280" type="line"/>
+      <point x="-38" y="280"/>
+      <point x="-56" y="187"/>
+      <point x="-56" y="140" type="curve" smooth="yes"/>
+      <point x="-56" y="94"/>
+      <point x="-38" y="0"/>
+      <point x="0" y="0" type="curve" smooth="yes"/>
+      <point x="600" y="0" type="line" smooth="yes"/>
+      <point x="637" y="0"/>
+      <point x="655" y="94"/>
+      <point x="655" y="140" type="curve" smooth="yes"/>
+      <point x="655" y="187"/>
+      <point x="637" y="280"/>
+      <point x="600" y="280" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>
