@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="imaalabelow-ar" format="2">
+  <advance width="994" height="2961"/>
+  <unicode hex="089A"/>
+  <anchor x="497" y="523" name="_diaB"/>
+  <anchor x="497" y="-50" name="diaB"/>
+  <outline>
+    <component base="alef-ar" xScale="0.45" yScale="0.45" xOffset="882"/>
+    <component base="meem-ar.init" xScale="0.45" yScale="0.45" xOffset="592"/>
+    <component base="alef-ar.fina" xScale="0.45" yScale="0.45" xOffset="422"/>
+    <component base="lam-ar.init" xScale="0.45" yScale="0.45" xOffset="252"/>
+    <component base="tehMarbuta-ar.fina" xScale="0.45" yScale="0.45" xOffset="-18"/>
+  </outline>
+</glyph>

@@ -132,7 +132,7 @@
     <string>?/endoftext-ar/space/yeh-ar.noDots/yeh-ar</string>
     <string>/noonghunna-ar.fina/noon-ar.fina/kashida-ar/space/absAutoKashida</string>
     <string>/kashidaHamza-ar/space/kashidaWaw-ar/space/kashidaTwobelow-ar</string>
-    <string>/aljuzabove-ar/space/arrubabove-ar/space/aththalathaabove-ar/space/assajdaabove-ar/space/annisfabove-ar</string>
+    <string>/aljuzabove-ar/space/arrubabove-ar/space/aththalathaabove-ar/space/assajdaabove-ar/space/annisfabove-ar/space/saktaabove-ar/space/qifabove-ar/space/waqfaaabove-ar/space/ishmaambelow-ar/space/imaalabelow-ar/space/tasheel-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>

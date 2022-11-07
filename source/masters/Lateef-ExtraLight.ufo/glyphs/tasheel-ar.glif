@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tasheel-ar" format="2">
+  <advance width="1453" height="2961"/>
+  <unicode hex="089B"/>
+  <anchor x="732" y="483" name="_diaB"/>
+  <anchor x="732" y="-140" name="diaB"/>
+  <outline>
+    <component base="teh-ar.init" xScale="0.45" yScale="0.45" xOffset="1282"/>
+    <component base="sheen-ar.medi" xScale="0.45" yScale="0.45" xOffset="842"/>
+    <component base="heh-ar.medi" xScale="0.45" yScale="0.45" xOffset="552"/>
+    <component base="yeh-ar.medi" xScale="0.45" yScale="0.45" xOffset="362"/>
+    <component base="lam-ar.fina" xScale="0.45" yScale="0.45" xOffset="-18"/>
+  </outline>
+</glyph>

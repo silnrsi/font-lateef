@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="waqfaaabove-ar" format="2">
+  <advance width="883" height="2961"/>
+  <anchor x="442" y="-150" name="_diaA"/>
+  <anchor x="442" y="483" name="diaA"/>
+  <outline>
+    <component base="waw-ar" xScale="0.45" yScale="0.45" xOffset="602"/>
+    <component base="qaf-ar.init" xScale="0.45" yScale="0.45" xOffset="505"/>
+    <component base="feh-ar.medi" xScale="0.45" yScale="0.45" xOffset="302"/>
+    <component base="tehMarbutagoal-ar.fina" xScale="0.45" yScale="0.45" xOffset="-18"/>
+  </outline>
+</glyph>
