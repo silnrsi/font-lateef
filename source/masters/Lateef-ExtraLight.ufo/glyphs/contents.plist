@@ -546,20 +546,28 @@
   <string>alefbelow-ar.glif</string>
   <key>aleflow-ar</key>
   <string>aleflow-ar.glif</string>
+  <key>aljuzabove-ar</key>
+  <string>aljuzabove-ar.glif</string>
   <key>allah-ar</key>
   <string>allah-ar.glif</string>
   <key>ampersand</key>
   <string>ampersand.glif</string>
+  <key>annisfabove-ar</key>
+  <string>annisfabove-ar.glif</string>
   <key>approxequal</key>
   <string>approxequal.glif</string>
   <key>approxequal.rtl</key>
   <string>approxequal.rtl.glif</string>
   <key>aring</key>
   <string>aring.glif</string>
+  <key>arrubabove-ar</key>
+  <string>arrubabove-ar.glif</string>
   <key>asciicircum</key>
   <string>asciicircum.glif</string>
   <key>asciitilde</key>
   <string>asciitilde.glif</string>
+  <key>assajdaabove-ar</key>
+  <string>assajdaabove-ar.glif</string>
   <key>asterisk</key>
   <string>asterisk.glif</string>
   <key>asterisk-ar</key>
@@ -568,6 +576,8 @@
   <string>asterisk.latn.glif</string>
   <key>at</key>
   <string>at.glif</string>
+  <key>aththalathaabove-ar</key>
+  <string>aththalathaabove-ar.glif</string>
   <key>atilde</key>
   <string>atilde.glif</string>
   <key>b</key>

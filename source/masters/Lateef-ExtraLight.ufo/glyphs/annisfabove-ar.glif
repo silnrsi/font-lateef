@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="annisfabove-ar" format="2">
+  <advance width="1476" height="2961"/>
+  <unicode hex="08DC"/>
+  <outline>
+    <component base="alef-ar" xScale="0.45" yScale="0.45" xOffset="1382"/>
+    <component base="lam-ar.init" xScale="0.45" yScale="0.45" xOffset="1233"/>
+    <component base="noon-ar.medi" xScale="0.45" yScale="0.45" xOffset="1047"/>
+    <component base="sad-ar.medi" xScale="0.45" yScale="0.45" xOffset="559"/>
+    <component base="feh-ar.fina" xScale="0.45" yScale="0.45" xOffset="-18"/>
+  </outline>
+</glyph>

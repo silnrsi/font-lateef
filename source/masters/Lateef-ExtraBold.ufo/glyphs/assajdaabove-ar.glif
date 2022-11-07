@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="assajdaabove-ar" format="2">
+  <advance width="1595" height="2961"/>
+  <unicode hex="08DB"/>
+  <anchor x="797" y="-132" name="_diaA"/>
+  <anchor x="797" y="527" name="diaA"/>
+  <outline>
+    <component base="alef-ar" xScale="0.45" yScale="0.45" xOffset="1483"/>
+    <component base="lam-ar.init" xScale="0.45" yScale="0.45" xOffset="1323"/>
+    <component base="seen-ar.medi" xScale="0.45" yScale="0.45" xOffset="873"/>
+    <component base="jeem-ar.medi" xScale="0.45" yScale="0.45" xOffset="483"/>
+    <component base="dal-ar.fina" xScale="0.45" yScale="0.45" xOffset="213"/>
+    <component base="hehgoal-ar" xScale="0.45" yScale="0.45" xOffset="13"/>
+    <component base="_dot2h" xScale="0.45" yScale="0.45" xOffset="95" yOffset="406"/>
+  </outline>
+</glyph>
