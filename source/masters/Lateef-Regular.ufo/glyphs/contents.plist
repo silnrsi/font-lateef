@@ -546,6 +546,8 @@
   <string>alefbelow-ar.glif</string>
   <key>aleflow-ar</key>
   <string>aleflow-ar.glif</string>
+  <key>alefmokhassasabove-ar</key>
+  <string>alefmokhassasabove-ar.glif</string>
   <key>aljuzabove-ar</key>
   <string>aljuzabove-ar.glif</string>
   <key>allah-ar</key>
@@ -2020,6 +2022,8 @@
   <string>maddadoubled-ar.glif</string>
   <key>maddalong-ar</key>
   <string>maddalong-ar.glif</string>
+  <key>maddawaajib-ar</key>
+  <string>maddawaajib-ar.glif</string>
   <key>mark-ar</key>
   <string>mark-ar.glif</string>
   <key>marksidewaysnoonghunna-ar</key>
