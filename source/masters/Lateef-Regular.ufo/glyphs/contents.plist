@@ -1376,6 +1376,8 @@
   <string>hahabove-ar.glif</string>
   <key>hairspace</key>
   <string>hairspace.glif</string>
+  <key>halfmaddaovermadda-ar</key>
+  <string>halfmaddaovermadda-ar.glif</string>
   <key>hamza-ar</key>
   <string>hamza-ar.glif</string>
   <key>hamza_damma-ar</key>
@@ -2014,6 +2016,8 @@
   <string>macroncomb.glif</string>
   <key>madda-ar</key>
   <string>madda-ar.glif</string>
+  <key>maddadoubled-ar</key>
+  <string>maddadoubled-ar.glif</string>
   <key>maddalong-ar</key>
   <string>maddalong-ar.glif</string>
   <key>mark-ar</key>
@@ -2704,6 +2708,8 @@
   <string>sadT_wodotsbelow-ar.init.glif</string>
   <key>sadTwodotsbelow-ar.medi</key>
   <string>sadT_wodotsbelow-ar.medi.glif</string>
+  <key>sahabove-ar</key>
+  <string>sahabove-ar.glif</string>
   <key>sajdah-ar</key>
   <string>sajdah-ar.glif</string>
   <key>saktaabove-ar</key>
@@ -3458,6 +3464,8 @@
   <string>yehV_inverted-farsi.medi.glif</string>
   <key>yehabove-ar</key>
   <string>yehabove-ar.glif</string>
+  <key>yehabove-farsi</key>
+  <string>yehabove-farsi.glif</string>
   <key>yehbarree-ar</key>
   <string>yehbarree-ar.glif</string>
   <key>yehbarree-ar.fina</key>
@@ -3482,6 +3490,8 @@
   <string>yehbarreeT_woabove-ar.init.glif</string>
   <key>yehbarreeTwoabove-ar.medi</key>
   <string>yehbarreeT_woabove-ar.medi.glif</string>
+  <key>yehbarreeTwobelowabove-ar.</key>
+  <string>yehbarreeT_wobelowabove-ar..glif</string>
   <key>yehthin-ar</key>
   <string>yehthin-ar.glif</string>
   <key>yehthin-ar.fina</key>

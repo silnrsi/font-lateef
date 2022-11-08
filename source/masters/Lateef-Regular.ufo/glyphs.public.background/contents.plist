@@ -334,6 +334,8 @@
   <string>hah-ar.medi.glif</string>
   <key>hahabove-ar</key>
   <string>hahabove-ar.glif</string>
+  <key>halfmaddaovermadda-ar</key>
+  <string>halfmaddaovermadda-ar.glif</string>
   <key>hamza-ar</key>
   <string>hamza-ar.glif</string>
   <key>hamza_damma-ar</key>
@@ -432,6 +434,8 @@
   <string>lamA_lefabove-ar.glif</string>
   <key>madda-ar</key>
   <string>madda-ar.glif</string>
+  <key>maddadoubled-ar</key>
+  <string>maddadoubled-ar.glif</string>
   <key>maddalong-ar</key>
   <string>maddalong-ar.glif</string>
   <key>marksidewaysnoonghunna-ar</key>

@@ -126,11 +126,9 @@
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/yeh-ar/yeh-ar.fina/yeh-ar.medi/yeh-ar.init/space/space/yehthin-ar/yehthin-ar.fina/yehthin-ar.medi/yehthin-ar.init/space/space/space</string>
-    <string>?/endoftext-ar/space/yeh-ar.noDots/yeh-ar</string>
-    <string>/noonghunna-ar.fina/noon-ar.fina/kashida-ar/space/absAutoKashida</string>
     <string>/kashidaHamza-ar/space/kashidaWaw-ar/space/kashidaTwobelow-ar</string>
     <string>/aljuzabove-ar/space/arrubabove-ar/space/aththalathaabove-ar/space/assajdaabove-ar/space/annisfabove-ar/space/saktaabove-ar/space/qifabove-ar/space/waqfaaabove-ar/space/ishmaambelow-ar/space/imaalabelow-ar/space/tasheel-ar</string>
+    <string>/space/space/lamAlefabove-ar/space/space/space/space/maddadoubled-ar/space/space/space/space/sallallahouAlayheWassallamcomb-ar/space/space/alayheAssallamcomb-ar/space/zainabove-ar/space/space/yehabove-ar/space/space/space/space/yehbarreeTwobelowabove-ar./space/space/sahabove-ar/space/space</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>

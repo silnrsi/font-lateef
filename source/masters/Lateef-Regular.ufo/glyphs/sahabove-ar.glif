@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sahabove-ar" format="2">
+  <unicode hex="08CC"/>
+  <anchor x="0" y="1037" name="_diaA"/>
+  <anchor x="0" y="1308" name="diaA"/>
+  <outline>
+    <component base="_wasla" xOffset="17" yOffset="1141"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

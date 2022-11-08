@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehabove-farsi" format="2">
+  <advance width="457"/>
+  <unicode hex="08CA"/>
+  <anchor x="228" y="938" name="_diaA"/>
+  <anchor x="228" y="1405" name="diaA"/>
+  <outline>
+    <component base="yeh-ar.noDots" xScale="0.45" yScale="0.45" xOffset="-18" yOffset="1095"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

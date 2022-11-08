@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehbarreeTwobelowabove-ar." format="2">
+  <unicode hex="08CB"/>
+  <anchor x="0" y="907" name="_diaA"/>
+  <anchor x="-63" y="1365" name="diaA"/>
+  <outline>
+    <component base="yehSmall-ar" xOffset="-274" yOffset="947"/>
+    <component base="_dot2h" xScale="0.45" yScale="0.45" xOffset="-2" yOffset="957"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>
