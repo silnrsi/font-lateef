@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="safhaaabove-ar" format="2">
+  <unicode hex="08E1"/>
+  <anchor x="0" y="1012" name="_diaA"/>
+  <anchor x="0" y="1302" name="diaA"/>
+  <outline>
+    <component base="_subtendingA.1" xScale="0.3" yScale="0.45" xOffset="-392" yOffset="1017"/>
+    <component base="_pagenumberSad" xScale="0.45" yScale="0.45" xOffset="-23" yOffset="1017"/>
+  </outline>
+</glyph>

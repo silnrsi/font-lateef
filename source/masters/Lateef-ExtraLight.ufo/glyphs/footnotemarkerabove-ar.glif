@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="footnotemarkerabove-ar" format="2">
+  <unicode hex="08E0"/>
+  <anchor x="0" y="1005" name="_diaA"/>
+  <anchor x="0" y="1303" name="diaA"/>
+  <outline>
+    <component base="footnotemarker-ar" xScale="0.45" yScale="0.45" xOffset="-291" yOffset="1155"/>
+  </outline>
+</glyph>

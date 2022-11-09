@@ -1138,6 +1138,8 @@
   <string>footnotemarker-ar.glif</string>
   <key>footnotemarker-ar.2</key>
   <string>footnotemarker-ar.2.glif</string>
+  <key>footnotemarkerabove-ar</key>
+  <string>footnotemarkerabove-ar.glif</string>
   <key>four</key>
   <string>four.glif</string>
   <key>four-ar</key>
@@ -2170,6 +2172,8 @@
   <string>noonD_otbelow-ar.init.glif</string>
   <key>noonDotbelow-ar.medi</key>
   <string>noonD_otbelow-ar.medi.glif</string>
+  <key>noonKasraabove-ar</key>
+  <string>noonK_asraabove-ar.glif</string>
   <key>noonRing-ar</key>
   <string>noonR_ing-ar.glif</string>
   <key>noonRing-ar.fina</key>
@@ -2722,6 +2726,8 @@
   <string>sadT_wodotsbelow-ar.medi.glif</string>
   <key>sadabove-ar</key>
   <string>sadabove-ar.glif</string>
+  <key>safhaaabove-ar</key>
+  <string>safhaaabove-ar.glif</string>
   <key>sahabove-ar</key>
   <string>sahabove-ar.glif</string>
   <key>sajdah-ar</key>

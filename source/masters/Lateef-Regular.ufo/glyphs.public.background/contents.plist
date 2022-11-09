@@ -280,6 +280,8 @@
   <string>footnotemarker-ar.glif</string>
   <key>footnotemarker-ar.2</key>
   <string>footnotemarker-ar.2.glif</string>
+  <key>footnotemarkerabove-ar</key>
+  <string>footnotemarkerabove-ar.glif</string>
   <key>four-ar</key>
   <string>four-ar.glif</string>
   <key>four-ar.medium</key>
@@ -482,6 +484,8 @@
   <string>nine.medium.glif</string>
   <key>nine.small</key>
   <string>nine.small.glif</string>
+  <key>noonKasraabove-ar</key>
+  <string>noonK_asraabove-ar.glif</string>
   <key>noonabove-ar</key>
   <string>noonabove-ar.glif</string>
   <key>noonghunna-ar</key>
@@ -608,6 +612,8 @@
   <string>sadL_amA_lefM_aksuraabove-ar.glif</string>
   <key>sadabove-ar</key>
   <string>sadabove-ar.glif</string>
+  <key>safhaaabove-ar</key>
+  <string>safhaaabove-ar.glif</string>
   <key>sallallahouAlayheWassallamcomb-ar</key>
   <string>sallallahouA_layheW_assallamcomb-ar.glif</string>
   <key>samvat-ar</key>
