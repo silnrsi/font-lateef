@@ -155,8 +155,6 @@
   <integer>800</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
   <integer>100</integer>
-  <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
-  <false/>
   <key>com.schriftgestaltung.fontMasterOrder</key>
   <integer>2</integer>
   <key>com.schriftgestaltung.glyphOrder</key>
@@ -6928,24 +6926,5 @@
     <key>zerowidthspace</key>
     <string>uni200B</string>
   </dict>
-  <key>public.skipExportGlyphs</key>
-  <array>
-    <string>_baseline_135</string>
-    <string>_baseline_70</string>
-    <string>_bowl_connector</string>
-    <string>_tah_stem</string>
-    <string>_number</string>
-    <string>_pagenumberSad</string>
-    <string>_three</string>
-    <string>_one</string>
-    <string>_subtendingA.1</string>
-    <string>_kehehjoiner</string>
-    <string>_four</string>
-    <string>_subtendingA.3</string>
-    <string>_subtendingA.2</string>
-    <string>_two</string>
-    <string>_samvatSM</string>
-    <string>_subtendingA.4</string>
-  </array>
 </dict>
 </plist>

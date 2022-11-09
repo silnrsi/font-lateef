@@ -291,8 +291,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>9</integer>
   <key>postscriptUniqueID</key>
   <integer>8</integer>
-  <key>styleMapStyleName</key>
-  <string>regular</string>
   <key>styleName</key>
   <string>ExtraBold</string>
   <key>trademark</key>
