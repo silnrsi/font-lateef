@@ -480,6 +480,8 @@
   <string>ainT_wodotsverticalabove-ar.init.glif</string>
   <key>ainTwodotsverticalabove-ar.medi</key>
   <string>ainT_wodotsverticalabove-ar.medi.glif</string>
+  <key>ainabove-ar</key>
+  <string>ainabove-ar.glif</string>
   <key>alayheAssallamcomb-ar</key>
   <string>alayheA_ssallamcomb-ar.glif</string>
   <key>alef-ar</key>
@@ -1988,6 +1990,10 @@
   <string>lam_alefW_avyhamzabelow-ar.glif</string>
   <key>lam_alefWavyhamzabelow-ar.fina</key>
   <string>lam_alefW_avyhamzabelow-ar.fina.glif</string>
+  <key>largerounddotabove-ar</key>
+  <string>largerounddotabove-ar.glif</string>
+  <key>largerounddotbelow-ar</key>
+  <string>largerounddotbelow-ar.glif</string>
   <key>leftarrowheadabove-ar</key>
   <string>leftarrowheadabove-ar.glif</string>
   <key>leftarrowheadbelow-ar</key>
@@ -2486,6 +2492,8 @@
   <string>qafT_hreedotsaboveA_frican-ar.init.glif</string>
   <key>qafThreedotsaboveAfrican-ar.medi</key>
   <string>qafT_hreedotsaboveA_frican-ar.medi.glif</string>
+  <key>qafabove-ar</key>
+  <string>qafabove-ar.glif</string>
   <key>qifabove-ar</key>
   <string>qifabove-ar.glif</string>
   <key>question</key>
@@ -2712,6 +2720,8 @@
   <string>sadT_wodotsbelow-ar.init.glif</string>
   <key>sadTwodotsbelow-ar.medi</key>
   <string>sadT_wodotsbelow-ar.medi.glif</string>
+  <key>sadabove-ar</key>
+  <string>sadabove-ar.glif</string>
   <key>sahabove-ar</key>
   <string>sahabove-ar.glif</string>
   <key>sajdah-ar</key>
@@ -3520,6 +3530,8 @@
   <string>zah-ar.init.glif</string>
   <key>zah-ar.medi</key>
   <string>zah-ar.medi.glif</string>
+  <key>zahabove-ar</key>
+  <string>zahabove-ar.glif</string>
   <key>zain-ar</key>
   <string>zain-ar.glif</string>
   <key>zain-ar.fina</key>

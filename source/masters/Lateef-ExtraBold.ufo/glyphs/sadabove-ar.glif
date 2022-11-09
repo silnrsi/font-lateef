@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sadabove-ar" format="2">
+  <unicode hex="08D5"/>
+  <anchor x="0" y="979" name="_diaA"/>
+  <anchor x="0" y="1512" name="diaA"/>
+  <outline>
+    <component base="sad-ar" xScale="0.45" yScale="0.45" xOffset="-397" yOffset="1188"/>
+  </outline>
+</glyph>

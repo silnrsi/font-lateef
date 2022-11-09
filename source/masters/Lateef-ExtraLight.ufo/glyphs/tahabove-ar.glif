@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tahabove-ar" format="2">
   <unicode hex="0615"/>
-  <anchor x="607" y="1215" name="_diaA"/>
+  <anchor x="605" y="1215" name="_diaA"/>
   <anchor x="607" y="1708" name="diaA"/>
   <outline>
     <component base="_tah" xOffset="609" yOffset="1325"/>

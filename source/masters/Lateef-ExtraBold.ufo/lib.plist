@@ -121,15 +121,14 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3091</string>
+  <string>3133</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/kashidaHamza-ar/space/kashidaWaw-ar/space/kashidaTwobelow-ar</string>
     <string>/aljuzabove-ar/space/arrubabove-ar/space/aththalathaabove-ar/space/assajdaabove-ar/space/annisfabove-ar/space/saktaabove-ar/space/qifabove-ar/space/waqfaaabove-ar/space/ishmaambelow-ar/space/imaalabelow-ar/space/tasheel-ar</string>
-    <string>/space/space/lamAlefabove-ar/space/space/space/space/maddadoubled-ar/space/space/space/space/sallallahouAlayheWassallamcomb-ar/space/space/alayheAssallamcomb-ar/space/zainabove-ar/space/space/yehabove-ar/space/space/space/space/yehbarreeTwobelowabove-ar./space/space/sahabove-ar/space/space</string>
-    <string>/maddawaajib-ar</string>
+    <string>/qafabove-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>

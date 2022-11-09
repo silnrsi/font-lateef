@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainabove-ar" format="2">
+  <unicode hex="08D6"/>
+  <anchor x="0" y="984" name="_diaA"/>
+  <anchor x="0" y="1592" name="diaA"/>
+  <outline>
+    <component base="ain-ar" xScale="0.45" yScale="0.45" xOffset="-139" yOffset="1309"/>
+  </outline>
+</glyph>
