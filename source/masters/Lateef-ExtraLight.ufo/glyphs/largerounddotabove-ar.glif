@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="largerounddotabove-ar" format="2">
+  <unicode hex="08CE"/>
   <anchor x="0" y="1010" name="_diaA"/>
   <anchor x="0" y="1186" name="diaA"/>
   <outline>

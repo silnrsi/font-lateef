@@ -130,6 +130,7 @@
   <array>
     <string>/kashidaHamza-ar/space/kashidaWaw-ar/space/kashidaTwobelow-ar</string>
     <string>/aljuzabove-ar/space/arrubabove-ar/space/aththalathaabove-ar/space/assajdaabove-ar/space/annisfabove-ar/space/saktaabove-ar/space/qifabove-ar/space/waqfaaabove-ar/space/ishmaambelow-ar/space/imaalabelow-ar/space/tasheel-ar</string>
+    <string>/largerounddotbelow-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>
@@ -1167,43 +1168,6 @@
     <string>lam_alefTwoabove-ar.fina</string>
     <string>lam_alefThreeabove-ar</string>
     <string>lam_alefThreeabove-ar.fina</string>
-    <string>lam_alefFathaattached-ar</string>
-    <string>lam_alefFathaattached-ar.fina</string>
-    <string>lam_alefToprightfathaattached-ar</string>
-    <string>lam_alefToprightfathaattached-ar.fina</string>
-    <string>lam_alefRightmiddlestroke-ar</string>
-    <string>lam_alefRightmiddlestroke-ar.fina</string>
-    <string>lam_alefLeftmiddlestroke-ar</string>
-    <string>lam_alefLeftmiddlestroke-ar.fina</string>
-    <string>lam_alefKasraattached-ar</string>
-    <string>lam_alefKasraattached-ar.fina</string>
-    <string>lam_alefBottomrightkasraattached-ar</string>
-    <string>lam_alefBottomrightkasraattached-ar.fina</string>
-    <string>lam_alefRounddotaboveattached-ar</string>
-    <string>lam_alefRounddotaboveattached-ar.fina</string>
-    <string>lam_alefRightrounddotattached-ar</string>
-    <string>lam_alefRightrounddotattached-ar.fina</string>
-    <string>lam_alefLeftrounddotattached-ar</string>
-    <string>lam_alefLeftrounddotattached-ar.fina</string>
-    <string>lam_alefRounddotbelowattached-ar</string>
-    <string>lam_alefRounddotbelowattached-ar.fina</string>
-    <string>lam_alefDotabove-ar</string>
-    <string>lam_alefDotabove-ar.fina</string>
-    <string>lam_alefToprightfathaattachedDotabove-ar</string>
-    <string>lam_alefToprightfathaattachedDotabove-ar.fina</string>
-    <string>lam_alefRightmiddlestrokeDotabove-ar</string>
-    <string>lam_alefRightmiddlestrokeDotabove-ar.fina</string>
-    <string>lam_alefBottomrightkasraattachedDotabove-ar</string>
-    <string>lam_alefBottomrightkasraattachedDotabove-ar.fina</string>
-    <string>lam_alefToprightfathaattachedLeftring-ar</string>
-    <string>lam_alefToprightfathaattachedLeftring-ar.fina</string>
-    <string>lam_alefRightmiddlestrokeLeftring-ar</string>
-    <string>lam_alefRightmiddlestrokeLeftring-ar.fina</string>
-    <string>lam_alefBottomrightkasraattachedLeftring-ar</string>
-    <string>lam_alefBottomrightkasraattachedLeftring-ar.fina</string>
-    <string>lam_alefRighthamzaattached-ar</string>
-    <string>lam_alefRighthamzaattached-ar.fina</string>
-    <string>lam_alefLefthamzaattached-ar</string>
     <string>lam_alefLefthamzaattached-ar.fina</string>
     <string>lamVabove_alef-ar</string>
     <string>lamVabove_alef-ar.fina</string>
@@ -1221,9 +1185,9 @@
     <string>lamDotabove_alef-ar.fina</string>
     <string>lamDotabove_alefWavyhamzaabove-ar</string>
     <string>lamDotabove_alefWavyhamzaabove-ar.fina</string>
+    <string>lamDotabove_alefWasla-ar</string>
     <string>lamDotabove_alefWavyhamzabelow-ar</string>
     <string>lamDotabove_alefWavyhamzabelow-ar.fina</string>
-    <string>lamDotabove_alefWasla-ar</string>
     <string>lamDotabove_alefWasla-ar.fina</string>
     <string>lamDotabove_alefTwoabove-ar</string>
     <string>lamDotabove_alefTwoabove-ar.fina</string>
@@ -1615,11 +1579,14 @@
     <string>assajdaabove-ar</string>
     <string>annisfabove-ar</string>
     <string>saktaabove-ar</string>
+    <string>saktabelow-ar</string>
     <string>qifabove-ar</string>
     <string>waqfaabove-ar</string>
+    <string>qasrbelow-ar</string>
     <string>aljuzabove-ar</string>
     <string>ishmaambelow-ar</string>
     <string>imaalabelow-ar</string>
+    <string>wordmaddabelow-ar</string>
     <string>tasheel-ar</string>
     <string>footnotemarkerabove-ar</string>
     <string>safhaabove-ar</string>
@@ -1985,7 +1952,6 @@
     <string>_bar</string>
     <string>_damma</string>
     <string>_damma.filled</string>
-    <string>_damma.short</string>
     <string>_dot1</string>
     <string>_dot1smallrotated10</string>
     <string>_dot_dia</string>
@@ -2009,7 +1975,6 @@
     <string>_hamza</string>
     <string>_hamzaDamma</string>
     <string>_hamzaDamma.filled</string>
-    <string>_hamzaDamma.short</string>
     <string>_hamzaComma</string>
     <string>_hat</string>
     <string>_highHamza</string>
@@ -3045,43 +3010,6 @@
     <string>lam_alefTwoabove-ar.fina</string>
     <string>lam_alefThreeabove-ar</string>
     <string>lam_alefThreeabove-ar.fina</string>
-    <string>lam_alefFathaattached-ar</string>
-    <string>lam_alefFathaattached-ar.fina</string>
-    <string>lam_alefToprightfathaattached-ar</string>
-    <string>lam_alefToprightfathaattached-ar.fina</string>
-    <string>lam_alefRightmiddlestroke-ar</string>
-    <string>lam_alefRightmiddlestroke-ar.fina</string>
-    <string>lam_alefLeftmiddlestroke-ar</string>
-    <string>lam_alefLeftmiddlestroke-ar.fina</string>
-    <string>lam_alefKasraattached-ar</string>
-    <string>lam_alefKasraattached-ar.fina</string>
-    <string>lam_alefBottomrightkasraattached-ar</string>
-    <string>lam_alefBottomrightkasraattached-ar.fina</string>
-    <string>lam_alefRounddotaboveattached-ar</string>
-    <string>lam_alefRounddotaboveattached-ar.fina</string>
-    <string>lam_alefRightrounddotattached-ar</string>
-    <string>lam_alefRightrounddotattached-ar.fina</string>
-    <string>lam_alefLeftrounddotattached-ar</string>
-    <string>lam_alefLeftrounddotattached-ar.fina</string>
-    <string>lam_alefRounddotbelowattached-ar</string>
-    <string>lam_alefRounddotbelowattached-ar.fina</string>
-    <string>lam_alefDotabove-ar</string>
-    <string>lam_alefDotabove-ar.fina</string>
-    <string>lam_alefToprightfathaattachedDotabove-ar</string>
-    <string>lam_alefToprightfathaattachedDotabove-ar.fina</string>
-    <string>lam_alefRightmiddlestrokeDotabove-ar</string>
-    <string>lam_alefRightmiddlestrokeDotabove-ar.fina</string>
-    <string>lam_alefBottomrightkasraattachedDotabove-ar</string>
-    <string>lam_alefBottomrightkasraattachedDotabove-ar.fina</string>
-    <string>lam_alefToprightfathaattachedLeftring-ar</string>
-    <string>lam_alefToprightfathaattachedLeftring-ar.fina</string>
-    <string>lam_alefRightmiddlestrokeLeftring-ar</string>
-    <string>lam_alefRightmiddlestrokeLeftring-ar.fina</string>
-    <string>lam_alefBottomrightkasraattachedLeftring-ar</string>
-    <string>lam_alefBottomrightkasraattachedLeftring-ar.fina</string>
-    <string>lam_alefRighthamzaattached-ar</string>
-    <string>lam_alefRighthamzaattached-ar.fina</string>
-    <string>lam_alefLefthamzaattached-ar</string>
     <string>lam_alefLefthamzaattached-ar.fina</string>
     <string>lamVabove_alef-ar</string>
     <string>lamVabove_alef-ar.fina</string>
@@ -3099,9 +3027,9 @@
     <string>lamDotabove_alef-ar.fina</string>
     <string>lamDotabove_alefWavyhamzaabove-ar</string>
     <string>lamDotabove_alefWavyhamzaabove-ar.fina</string>
+    <string>lamDotabove_alefWasla-ar</string>
     <string>lamDotabove_alefWavyhamzabelow-ar</string>
     <string>lamDotabove_alefWavyhamzabelow-ar.fina</string>
-    <string>lamDotabove_alefWasla-ar</string>
     <string>lamDotabove_alefWasla-ar.fina</string>
     <string>lamDotabove_alefTwoabove-ar</string>
     <string>lamDotabove_alefTwoabove-ar.fina</string>
@@ -3493,11 +3421,14 @@
     <string>assajdaabove-ar</string>
     <string>annisfabove-ar</string>
     <string>saktaabove-ar</string>
+    <string>saktabelow-ar</string>
     <string>qifabove-ar</string>
     <string>waqfaabove-ar</string>
+    <string>qasrbelow-ar</string>
     <string>aljuzabove-ar</string>
     <string>ishmaambelow-ar</string>
     <string>imaalabelow-ar</string>
+    <string>wordmaddabelow-ar</string>
     <string>tasheel-ar</string>
     <string>footnotemarkerabove-ar</string>
     <string>safhaabove-ar</string>
@@ -3863,7 +3794,6 @@
     <string>_bar</string>
     <string>_damma</string>
     <string>_damma.filled</string>
-    <string>_damma.short</string>
     <string>_dot1</string>
     <string>_dot1smallrotated10</string>
     <string>_dot_dia</string>
@@ -3887,7 +3817,6 @@
     <string>_hamza</string>
     <string>_hamzaDamma</string>
     <string>_hamzaDamma.filled</string>
-    <string>_hamzaDamma.short</string>
     <string>_hamzaComma</string>
     <string>_hat</string>
     <string>_highHamza</string>
@@ -3945,78 +3874,6 @@
     <string>uniFE07</string>
     <key>VS9</key>
     <string>uniFE08</string>
-    <key>_alef-ar.fina.postLamIni</key>
-    <string>uni0627.fina.postLamIni</string>
-    <key>_alef-ar.fina.postLamMed</key>
-    <string>uni0627.fina.postLamMed</string>
-    <key>_alefHamzaabove-ar.fina.postLamIni</key>
-    <string>uni0623.fina.postLamIni</string>
-    <key>_alefHamzaabove-ar.fina.postLamMed</key>
-    <string>uni0623.fina.postLamMed</string>
-    <key>_alefHamzabelow-ar.fina.postLamIni</key>
-    <string>uni0625.fina.postLamIni</string>
-    <key>_alefHamzabelow-ar.fina.postLamMed</key>
-    <string>uni0625.fina.postLamMed</string>
-    <key>_alefMadda-ar.fina.postLamIni</key>
-    <string>uni0622.fina.postLamIni</string>
-    <key>_alefMadda-ar.fina.postLamMed</key>
-    <string>uni0622.fina.postLamMed</string>
-    <key>_alefThreeabove-ar.fina.postLamIni</key>
-    <string>uni0774.fina.postLamIni</string>
-    <key>_alefThreeabove-ar.fina.postLamMed</key>
-    <string>uni0774.fina.postLamMed</string>
-    <key>_alefTwoabove-ar.fina.postLamIni</key>
-    <string>uni0773.fina.postLamIni</string>
-    <key>_alefTwoabove-ar.fina.postLamMed</key>
-    <string>uni0773.fina.postLamMed</string>
-    <key>_alefWasla-ar.fina.postLamIni</key>
-    <string>uni0671.fina.postLamIni</string>
-    <key>_alefWasla-ar.fina.postLamMed</key>
-    <string>uni0671.fina.postLamMed</string>
-    <key>_alefWavyhamzaabove-ar.fina.postLamIni</key>
-    <string>uni0672.fina.postLamIni</string>
-    <key>_alefWavyhamzaabove-ar.fina.postLamMed</key>
-    <string>uni0672.fina.postLamMed</string>
-    <key>_alefWavyhamzabelow-ar.fina.postLamIni</key>
-    <string>uni0673.fina.postLamIni</string>
-    <key>_alefWavyhamzabelow-ar.fina.postLamMed</key>
-    <string>uni0673.fina.postLamMed</string>
-    <key>_highhamzaAlef-ar.fina.postLamIni</key>
-    <string>uni0675.fina.postLamIni</string>
-    <key>_highhamzaAlef-ar.fina.postLamMed</key>
-    <string>uni0675.fina.postLamMed</string>
-    <key>_lam-ar.init.preAlef</key>
-    <string>uni0644.init.preAlef</string>
-    <key>_lam-ar.medi.preAlef</key>
-    <string>uni0644.medi.preAlef</string>
-    <key>_lamBar-ar.init.preAlef</key>
-    <string>uni076A.init.preAlef</string>
-    <key>_lamBar-ar.medi.preAlef</key>
-    <string>uni076A.medi.preAlef</string>
-    <key>_lamDotabove-ar.init.preAlef</key>
-    <string>uni06B6.init.preAlef</string>
-    <key>_lamDotabove-ar.medi.preAlef</key>
-    <string>uni06B6.medi.preAlef</string>
-    <key>_lamDoublebar-ar.init.preAlef</key>
-    <string>uni08A6.init.preAlef</string>
-    <key>_lamDoublebar-ar.medi.preAlef</key>
-    <string>uni08A6.medi.preAlef</string>
-    <key>_lamTahabove-ar.init.preAlef</key>
-    <string>uni08C7.init.preAlef</string>
-    <key>_lamTahabove-ar.medi.preAlef</key>
-    <string>uni08C7.medi.preAlef</string>
-    <key>_lamThreedotsabove-ar.init.preAlef</key>
-    <string>uni06B7.init.preAlef</string>
-    <key>_lamThreedotsabove-ar.medi.preAlef</key>
-    <string>uni06B7.medi.preAlef</string>
-    <key>_lamThreedotsbelow-ar.init.preAlef</key>
-    <string>uni06B8.init.preAlef</string>
-    <key>_lamThreedotsbelow-ar.medi.preAlef</key>
-    <string>uni06B8.medi.preAlef</string>
-    <key>_lamVabove-ar.init.preAlef</key>
-    <string>uni06B5.init.preAlef</string>
-    <key>_lamVabove-ar.medi.preAlef</key>
-    <string>uni06B5.medi.preAlef</string>
     <key>activateformshaping-ar</key>
     <string>uni206D</string>
     <key>acutecomb</key>
@@ -5467,86 +5324,12 @@
     <string>uni06440627</string>
     <key>lam_alef-ar.fina</key>
     <string>uni06440627.fina</string>
-    <key>lam_alefBottomrightkasraattached-ar</key>
-    <string>uni06440875</string>
-    <key>lam_alefBottomrightkasraattached-ar.fina</key>
-    <string>uni06440875.fina</string>
-    <key>lam_alefBottomrightkasraattachedDotabove-ar</key>
-    <string>uni0644087D</string>
-    <key>lam_alefBottomrightkasraattachedDotabove-ar.fina</key>
-    <string>uni0644087D.fina</string>
-    <key>lam_alefBottomrightkasraattachedLeftring-ar</key>
-    <string>uni06440880</string>
-    <key>lam_alefBottomrightkasraattachedLeftring-ar.fina</key>
-    <string>uni06440880.fina</string>
-    <key>lam_alefDotabove-ar</key>
-    <string>uni0644087A</string>
-    <key>lam_alefDotabove-ar.fina</key>
-    <string>uni0644087A.fina</string>
-    <key>lam_alefFathaattached-ar</key>
-    <string>uni06440870</string>
-    <key>lam_alefFathaattached-ar.fina</key>
-    <string>uni06440870.fina</string>
-    <key>lam_alefKasraattached-ar</key>
-    <string>uni06440874</string>
-    <key>lam_alefKasraattached-ar.fina</key>
-    <string>uni06440874.fina</string>
-    <key>lam_alefLefthamzaattached-ar</key>
-    <string>uni06440882</string>
     <key>lam_alefLefthamzaattached-ar.fina</key>
     <string>uni06440882.fina</string>
-    <key>lam_alefLeftmiddlestroke-ar</key>
-    <string>uni06440873</string>
-    <key>lam_alefLeftmiddlestroke-ar.fina</key>
-    <string>uni06440873.fina</string>
-    <key>lam_alefLeftrounddotattached-ar</key>
-    <string>uni06440878</string>
-    <key>lam_alefLeftrounddotattached-ar.fina</key>
-    <string>uni06440878.fina</string>
-    <key>lam_alefRighthamzaattached-ar</key>
-    <string>uni06440881</string>
-    <key>lam_alefRighthamzaattached-ar.fina</key>
-    <string>uni06440881.fina</string>
-    <key>lam_alefRightmiddlestroke-ar</key>
-    <string>uni06440872</string>
-    <key>lam_alefRightmiddlestroke-ar.fina</key>
-    <string>uni06440872.fina</string>
-    <key>lam_alefRightmiddlestrokeDotabove-ar</key>
-    <string>uni0644087C</string>
-    <key>lam_alefRightmiddlestrokeDotabove-ar.fina</key>
-    <string>uni0644087C.fina</string>
-    <key>lam_alefRightmiddlestrokeLeftring-ar</key>
-    <string>uni0644087F</string>
-    <key>lam_alefRightmiddlestrokeLeftring-ar.fina</key>
-    <string>uni0644087F.fina</string>
-    <key>lam_alefRightrounddotattached-ar</key>
-    <string>uni06440877</string>
-    <key>lam_alefRightrounddotattached-ar.fina</key>
-    <string>uni06440877.fina</string>
-    <key>lam_alefRounddotaboveattached-ar</key>
-    <string>uni06440876</string>
-    <key>lam_alefRounddotaboveattached-ar.fina</key>
-    <string>uni06440876.fina</string>
-    <key>lam_alefRounddotbelowattached-ar</key>
-    <string>uni06440879</string>
-    <key>lam_alefRounddotbelowattached-ar.fina</key>
-    <string>uni06440879.fina</string>
     <key>lam_alefThreeabove-ar</key>
     <string>uni06440774</string>
     <key>lam_alefThreeabove-ar.fina</key>
     <string>uni06440774.fina</string>
-    <key>lam_alefToprightfathaattached-ar</key>
-    <string>uni06440871</string>
-    <key>lam_alefToprightfathaattached-ar.fina</key>
-    <string>uni06440871.fina</string>
-    <key>lam_alefToprightfathaattachedDotabove-ar</key>
-    <string>uni0644087B</string>
-    <key>lam_alefToprightfathaattachedDotabove-ar.fina</key>
-    <string>uni0644087B.fina</string>
-    <key>lam_alefToprightfathaattachedLeftring-ar</key>
-    <string>uni0644087E</string>
-    <key>lam_alefToprightfathaattachedLeftring-ar.fina</key>
-    <string>uni0644087E.fina</string>
     <key>lam_alefTwoabove-ar</key>
     <string>uni06440773</string>
     <key>lam_alefTwoabove-ar.fina</key>
@@ -5981,6 +5764,8 @@
     <string>uni08C4.medi</string>
     <key>qafabove-ar</key>
     <string>uni08D7</string>
+    <key>qasrbelow-ar</key>
+    <string>u10EFE</string>
     <key>qifabove-ar</key>
     <string>uni08DE</string>
     <key>question-ar</key>
@@ -6165,6 +5950,8 @@
     <string>uni06E9</string>
     <key>saktaabove-ar</key>
     <string>uni08DD</string>
+    <key>saktabelow-ar</key>
+    <string>u10EFD</string>
     <key>sallallahouAlayheWassallamcomb-ar</key>
     <string>uni0610</string>
     <key>samvat-ar</key>
@@ -6685,6 +6472,8 @@
     <string>uni06C4.fina</string>
     <key>wordjoiner</key>
     <string>uni2060</string>
+    <key>wordmaddabelow-ar</key>
+    <string>u10EFF</string>
     <key>year-ar</key>
     <string>uni0601</string>
     <key>year-ar.2</key>

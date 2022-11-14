@@ -1992,10 +1992,14 @@
   <string>lam_alefW_avyhamzabelow-ar.glif</string>
   <key>lam_alefWavyhamzabelow-ar.fina</key>
   <string>lam_alefW_avyhamzabelow-ar.fina.glif</string>
+  <key>largecirclebelow-ar</key>
+  <string>largecirclebelow-ar.glif</string>
   <key>largerounddotabove-ar</key>
   <string>largerounddotabove-ar.glif</string>
   <key>largerounddotbelow-ar</key>
   <string>largerounddotbelow-ar.glif</string>
+  <key>largerounddotinsidecirclebelow-ar</key>
+  <string>largerounddotinsidecirclebelow-ar.glif</string>
   <key>leftarrowheadabove-ar</key>
   <string>leftarrowheadabove-ar.glif</string>
   <key>leftarrowheadbelow-ar</key>

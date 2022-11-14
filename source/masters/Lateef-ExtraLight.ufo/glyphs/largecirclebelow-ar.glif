@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="largecirclebelow-ar" format="2">
+  <unicode hex="08D1"/>
+  <anchor x="0" y="48" name="_diaB"/>
+  <anchor x="0" y="-289" name="diaB"/>
+  <outline>
+    <contour>
+      <point x="0" y="-276" type="curve" smooth="yes"/>
+      <point x="85" y="-276"/>
+      <point x="155" y="-207"/>
+      <point x="155" y="-122" type="curve" smooth="yes"/>
+      <point x="155" y="-37"/>
+      <point x="85" y="33"/>
+      <point x="0" y="33" type="curve" smooth="yes"/>
+      <point x="-85" y="33"/>
+      <point x="-155" y="-37"/>
+      <point x="-155" y="-122" type="curve" smooth="yes"/>
+      <point x="-155" y="-207"/>
+      <point x="-85" y="-276"/>
+    </contour>
+    <contour>
+      <point x="0" y="-240" type="curve" smooth="yes"/>
+      <point x="-64" y="-240"/>
+      <point x="-119" y="-186"/>
+      <point x="-119" y="-122" type="curve" smooth="yes"/>
+      <point x="-119" y="-58"/>
+      <point x="-64" y="-3"/>
+      <point x="0" y="-3" type="curve" smooth="yes"/>
+      <point x="64" y="-3"/>
+      <point x="119" y="-58"/>
+      <point x="119" y="-122" type="curve" smooth="yes"/>
+      <point x="119" y="-186"/>
+      <point x="64" y="-240"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="largerounddotinsidecirclebelow-ar" format="2">
+  <unicode hex="08D2"/>
+  <anchor x="0" y="172" name="_diaB"/>
+  <anchor x="0" y="-364" name="diaB"/>
+  <outline>
+    <component base="largerounddotabove-ar" yOffset="-1203"/>
+    <component base="largecirclebelow-ar"/>
+  </outline>
+</glyph>
