@@ -126,7 +126,7 @@
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/aljuzabove-ar/space/arrubabove-ar/space/aththalathaabove-ar/space/assajdaabove-ar/space/annisfabove-ar/space/saktaabove-ar/space/qifabove-ar/space/waqfaaabove-ar/space/ishmaambelow-ar/space/imaalabelow-ar/space/tasheel-ar</string>
+    <string>/aljuzabove-ar/space/arrubabove-ar/space/aththalathaabove-ar/space/assajdaabove-ar/space/annisfabove-ar/space/saktaabove-ar/space/qifabove-ar/space/space/ishmaambelow-ar/space/imaalabelow-ar/space/tasheel-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>

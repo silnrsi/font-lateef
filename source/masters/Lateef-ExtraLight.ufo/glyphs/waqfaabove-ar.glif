@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="waqfaaabove-ar" format="2">
+<glyph name="waqfaabove-ar" format="2">
   <advance width="884" height="2961"/>
+  <unicode hex="08DF"/>
   <anchor x="442" y="-150" name="_diaA"/>
   <anchor x="442" y="483" name="diaA"/>
   <outline>
