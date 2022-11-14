@@ -5060,7 +5060,7 @@ U+08CA">
       <comment>alef-ar yehabove-farsi</comment>
       <string>\u000627\u0008CA \u00200D\u000627\u0008CA  \u000628\u0008CA \u000628\u0008CA\u000628\u0008CA\u000628\u0008CA </string>
     </test>
-    <test background="#ffe0e0" label="U+0627
+    <test background="#f0fff0" label="U+0627
 U+08CB">
       <comment>alef-ar yehbarreeTwobelowabove-ar</comment>
       <string>\u000627\u0008CB \u00200D\u000627\u0008CB  \u000628\u0008CB \u000628\u0008CB\u000628\u0008CB\u000628\u0008CB </string>
@@ -5085,22 +5085,22 @@ U+08CF">
       <comment>alef-ar largerounddotbelow-ar</comment>
       <string>\u000627\u0008CF \u00200D\u000627\u0008CF  \u000628\u0008CF \u000628\u0008CF\u000628\u0008CF\u000628\u0008CF </string>
     </test>
-    <test background="#ffe0e0" label="U+0627
+    <test background="#f0fff0" label="U+0627
 U+08D0">
       <comment>alef-ar sukunbelow-ar</comment>
       <string>\u000627\u0008D0 \u00200D\u000627\u0008D0  \u000628\u0008D0 \u000628\u0008D0\u000628\u0008D0\u000628\u0008D0 </string>
     </test>
-    <test background="#ffe0e0" label="U+0627
+    <test background="#f0fff0" label="U+0627
 U+08D1">
       <comment>alef-ar largecirclebelow-ar</comment>
       <string>\u000627\u0008D1 \u00200D\u000627\u0008D1  \u000628\u0008D1 \u000628\u0008D1\u000628\u0008D1\u000628\u0008D1 </string>
     </test>
-    <test background="#ffe0e0" label="U+0627
+    <test background="#f0fff0" label="U+0627
 U+08D2">
       <comment>alef-ar largerounddotinsidecirclebelow-ar</comment>
       <string>\u000627\u0008D2 \u00200D\u000627\u0008D2  \u000628\u0008D2 \u000628\u0008D2\u000628\u0008D2\u000628\u0008D2 </string>
     </test>
-    <test background="#ffe0e0" label="U+0627
+    <test background="#f0fff0" label="U+0627
 U+08D3">
       <comment>alef-ar wawbelow-ar</comment>
       <string>\u000627\u0008D3 \u00200D\u000627\u0008D3  \u000628\u0008D3 \u000628\u0008D3\u000628\u0008D3\u000628\u0008D3 </string>
@@ -5130,7 +5130,7 @@ U+08D8">
       <comment>alef-ar noonKasraabove-ar</comment>
       <string>\u000627\u0008D8 \u00200D\u000627\u0008D8  \u000628\u0008D8 \u000628\u0008D8\u000628\u0008D8\u000628\u0008D8 </string>
     </test>
-    <test background="#ffe0e0" label="U+0627
+    <test background="#f0fff0" label="U+0627
 U+08D9">
       <comment>alef-ar noonKasrabelow-ar</comment>
       <string>\u000627\u0008D9 \u00200D\u000627\u0008D9  \u000628\u0008D9 \u000628\u0008D9\u000628\u0008D9\u000628\u0008D9 </string>
@@ -5160,7 +5160,7 @@ U+08DE">
       <comment>alef-ar qifabove-ar</comment>
       <string>\u000627\u0008DE \u00200D\u000627\u0008DE  \u000628\u0008DE \u000628\u0008DE\u000628\u0008DE\u000628\u0008DE </string>
     </test>
-    <test background="#ffe0e0" label="U+0627
+    <test background="#f0fff0" label="U+0627
 U+08DF">
       <comment>alef-ar waqfaabove-ar</comment>
       <string>\u000627\u0008DF \u00200D\u000627\u0008DF  \u000628\u0008DF \u000628\u0008DF\u000628\u0008DF\u000628\u0008DF </string>
