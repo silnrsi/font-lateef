@@ -18,6 +18,8 @@
       <style feats="'cv70' 1" name="cv70_1"/>
       <style feats="'cv70' 2" name="cv70_2"/>
       <style feats="'cv72' 1" name="cv72_1"/>
+      <style feats="'cv74' 1" name="cv74_1"/>
+      <style feats="'cv74' 2" name="cv74_2"/>
       <style feats="'cv76' 1" name="cv76_1"/>
       <style feats="'cv76' 2" name="cv76_2"/>
       <style feats="'cv78' 1" name="cv78_1"/>
@@ -54,6 +56,8 @@
       <style feats="'cv70' 1" lang="ku" name="ku_cv70_1"/>
       <style feats="'cv70' 2" lang="ku" name="ku_cv70_2"/>
       <style feats="'cv72' 1" lang="ku" name="ku_cv72_1"/>
+      <style feats="'cv74' 1" lang="ku" name="ku_cv74_1"/>
+      <style feats="'cv74' 2" lang="ku" name="ku_cv74_2"/>
       <style feats="'cv76' 1" lang="ku" name="ku_cv76_1"/>
       <style feats="'cv76' 2" lang="ku" name="ku_cv76_2"/>
       <style feats="'cv78' 1" lang="ku" name="ku_cv78_1"/>
@@ -91,6 +95,8 @@
       <style feats="'cv70' 1" lang="ky" name="ky_cv70_1"/>
       <style feats="'cv70' 2" lang="ky" name="ky_cv70_2"/>
       <style feats="'cv72' 1" lang="ky" name="ky_cv72_1"/>
+      <style feats="'cv74' 1" lang="ky" name="ky_cv74_1"/>
+      <style feats="'cv74' 2" lang="ky" name="ky_cv74_2"/>
       <style feats="'cv76' 1" lang="ky" name="ky_cv76_1"/>
       <style feats="'cv76' 2" lang="ky" name="ky_cv76_2"/>
       <style feats="'cv78' 1" lang="ky" name="ky_cv78_1"/>
@@ -128,6 +134,8 @@
       <style feats="'cv70' 1" lang="rhg" name="rhg_cv70_1"/>
       <style feats="'cv70' 2" lang="rhg" name="rhg_cv70_2"/>
       <style feats="'cv72' 1" lang="rhg" name="rhg_cv72_1"/>
+      <style feats="'cv74' 1" lang="rhg" name="rhg_cv74_1"/>
+      <style feats="'cv74' 2" lang="rhg" name="rhg_cv74_2"/>
       <style feats="'cv76' 1" lang="rhg" name="rhg_cv76_1"/>
       <style feats="'cv76' 2" lang="rhg" name="rhg_cv76_2"/>
       <style feats="'cv78' 1" lang="rhg" name="rhg_cv78_1"/>
@@ -165,6 +173,8 @@
       <style feats="'cv70' 1" lang="sd" name="sd_cv70_1"/>
       <style feats="'cv70' 2" lang="sd" name="sd_cv70_2"/>
       <style feats="'cv72' 1" lang="sd" name="sd_cv72_1"/>
+      <style feats="'cv74' 1" lang="sd" name="sd_cv74_1"/>
+      <style feats="'cv74' 2" lang="sd" name="sd_cv74_2"/>
       <style feats="'cv76' 1" lang="sd" name="sd_cv76_1"/>
       <style feats="'cv76' 2" lang="sd" name="sd_cv76_2"/>
       <style feats="'cv78' 1" lang="sd" name="sd_cv78_1"/>
@@ -203,6 +213,8 @@
       <style feats="'cv70' 1" lang="ur" name="ur_cv70_1"/>
       <style feats="'cv70' 2" lang="ur" name="ur_cv70_2"/>
       <style feats="'cv72' 1" lang="ur" name="ur_cv72_1"/>
+      <style feats="'cv74' 1" lang="ur" name="ur_cv74_1"/>
+      <style feats="'cv74' 2" lang="ur" name="ur_cv74_2"/>
       <style feats="'cv76' 1" lang="ur" name="ur_cv76_1"/>
       <style feats="'cv76' 2" lang="ur" name="ur_cv76_2"/>
       <style feats="'cv78' 1" lang="ur" name="ur_cv78_1"/>
@@ -646,6 +658,72 @@ U+0650" rtl="True" stylename="ky_cv62_2">
     <test label="U+064C" rtl="True" stylename="ky_cv72_1">
       <comment>Yes</comment>
       <string>\u000628\u00064C</string>
+    </test>
+  </testgroup>
+  <testgroup label="cv74 Inverted Damma alternates">
+    <test label="U+0657" rtl="True">
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="cv74_1">
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="cv74_2">
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="sd">
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="sd_cv74_1">
+      <comment>Yes</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="sd_cv74_2">
+      <comment>Yes</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="ur">
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="ur_cv74_1">
+      <comment>Yes</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="ur_cv74_2">
+      <comment>Yes</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="ku">
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="ku_cv74_1">
+      <comment>Yes</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="ku_cv74_2">
+      <comment>Yes</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="rhg">
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="rhg_cv74_1">
+      <comment>Yes</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="rhg_cv74_2">
+      <comment>Yes</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="ky">
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="ky_cv74_1">
+      <comment>Yes</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" rtl="True" stylename="ky_cv74_2">
+      <comment>Yes</comment>
+      <string>\u000628\u000657</string>
     </test>
   </testgroup>
   <testgroup label="cv76 Superscript alef alternates">
