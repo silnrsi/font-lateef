@@ -3,6 +3,6 @@
   <advance width="2027"/>
   <anchor x="543" y="0" name="digitR"/>
   <outline>
-    <component base="five-persian" xOffset="568" yOffset="637"/>
+    <component base="five-persian" xScale="0.85" yScale="0.8" xOffset="568" yOffset="757"/>
   </outline>
 </glyph>

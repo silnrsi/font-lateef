@@ -486,6 +486,8 @@
   <string>nine.small.glif</string>
   <key>noonKasraabove-ar</key>
   <string>noonK_asraabove-ar.glif</string>
+  <key>noonKasrabelow-ar</key>
+  <string>noonK_asrabelow-ar.glif</string>
   <key>noonabove-ar</key>
   <string>noonabove-ar.glif</string>
   <key>noonghunna-ar</key>
@@ -722,6 +724,8 @@
   <string>sukun-ar.glif</string>
   <key>sukun-ar.downOpen</key>
   <string>sukun-ar.downO_pen.glif</string>
+  <key>sukunbelow-ar</key>
+  <string>sukunbelow-ar.glif</string>
   <key>tah-ar</key>
   <string>tah-ar.glif</string>
   <key>tah-ar.fina</key>
@@ -800,6 +804,8 @@
   <string>wawS_traight-ar.glif</string>
   <key>wawStraight-ar.fina</key>
   <string>wawS_traight-ar.fina.glif</string>
+  <key>wawbelow-ar</key>
+  <string>wawbelow-ar.glif</string>
   <key>year-ar</key>
   <string>year-ar.glif</string>
   <key>year-ar.2</key>

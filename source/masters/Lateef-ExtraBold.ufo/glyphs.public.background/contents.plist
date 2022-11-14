@@ -432,6 +432,8 @@
   <string>nine.small.glif</string>
   <key>noonKasraabove-ar</key>
   <string>noonK_asraabove-ar.glif</string>
+  <key>noonKasrabelow-ar</key>
+  <string>noonK_asrabelow-ar.glif</string>
   <key>noonabove-ar</key>
   <string>noonabove-ar.glif</string>
   <key>noonghunna-ar</key>
@@ -682,6 +684,8 @@
   <string>wawS_mall-ar.glif</string>
   <key>wawStraight-ar.fina</key>
   <string>wawS_traight-ar.fina.glif</string>
+  <key>wawbelow-ar</key>
+  <string>wawbelow-ar.glif</string>
   <key>yeh-ar.noDots</key>
   <string>yeh-ar.noD_ots.glif</string>
   <key>yeh-ar.noDots.fina</key>

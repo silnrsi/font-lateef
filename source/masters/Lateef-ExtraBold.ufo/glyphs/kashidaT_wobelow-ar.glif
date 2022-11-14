@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kashidaTwobelow-ar" format="2">
   <advance width="600"/>
+  <unicode hex="0885"/>
   <anchor x="300" y="700" name="diaA"/>
   <anchor x="316" y="-380" name="diaB"/>
   <outline>

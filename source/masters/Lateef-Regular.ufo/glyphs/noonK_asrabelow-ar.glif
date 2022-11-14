@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonKasrabelow-ar" format="2">
+  <unicode hex="08D9"/>
+  <anchor x="0" y="-166" name="_diaB"/>
+  <anchor x="0" y="-848" name="diaB"/>
+  <outline>
+    <component base="noonabove-ar" yOffset="-1700"/>
+    <component base="kasrasmall-ar" yOffset="-272"/>
+  </outline>
+</glyph>
