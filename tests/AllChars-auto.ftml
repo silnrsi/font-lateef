@@ -2074,15 +2074,7 @@
     </test>
     <test background="#f0fff0" label="U+08C9">
       <comment>yehSmall-farsi</comment>
-      <string>\u0008C9 \u000628\u0008CA \u000628\u0008CB \u000628\u0008CC \u000628\u0008CD \u000628\u0008CE \u000628\u0008CF \u000628\u0008D0 \u000628\u0008D1 \u000628\u0008D2 \u000628\u0008D3 \u000628\u0008D4 \u000628\u0008D5 \u000628\u0008D6 \u000628\u0008D7 \u000628\u0008D8 \u000628\u0008D9 \u000628\u0008DA \u000628\u0008DB \u000628\u0008DC \u000628\u0008DD \u000628\u0008DE \u000628\u0008DF \u000628\u0008E0</string>
-    </test>
-    <test background="#ffe0e0" label="U+08E1">
-      <comment>safhaabove-ar</comment>
-      <string>\u000628\u0008E1</string>
-    </test>
-    <test background="#f0fff0" label="U+08E2">
-      <comment>disputedendofayah-ar</comment>
-      <string>\u0008E2</string>
+      <string>\u0008C9 \u000628\u0008CA \u000628\u0008CB \u000628\u0008CC \u000628\u0008CD \u000628\u0008CE \u000628\u0008CF \u000628\u0008D0 \u000628\u0008D1 \u000628\u0008D2 \u000628\u0008D3 \u000628\u0008D4 \u000628\u0008D5 \u000628\u0008D6 \u000628\u0008D7 \u000628\u0008D8 \u000628\u0008D9 \u000628\u0008DA \u000628\u0008DB \u000628\u0008DC \u000628\u0008DD \u000628\u0008DE \u000628\u0008DF \u000628\u0008E0 \u000628\u0008E1 \u0008E2</string>
     </test>
     <test label="U+08E3">
       <comment>dammaturnedbelow-ar</comment>

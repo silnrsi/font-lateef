@@ -5170,7 +5170,7 @@ U+08E0">
       <comment>alef-ar footnotemarkerabove-ar</comment>
       <string>\u000627\u0008E0 \u00200D\u000627\u0008E0  \u000628\u0008E0 \u000628\u0008E0\u000628\u0008E0\u000628\u0008E0 </string>
     </test>
-    <test background="#ffe0e0" label="U+0627
+    <test background="#f0fff0" label="U+0627
 U+08E1">
       <comment>alef-ar safhaabove-ar</comment>
       <string>\u000627\u0008E1 \u00200D\u000627\u0008E1  \u000628\u0008E1 \u000628\u0008E1\u000628\u0008E1\u000628\u0008E1 </string>
