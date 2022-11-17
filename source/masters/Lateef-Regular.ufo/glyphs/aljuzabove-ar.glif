@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aljuzabove-ar" format="2">
   <advance width="987" height="2961"/>
+  <unicode hex="0898"/>
   <anchor x="492" y="-192" name="_diaA"/>
   <anchor x="492" y="492" name="diaA"/>
   <outline>

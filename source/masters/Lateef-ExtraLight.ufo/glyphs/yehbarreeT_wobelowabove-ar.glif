@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehbarreeTwobelowabove-ar" format="2">
+  <unicode hex="08CB"/>
   <anchor x="0" y="912" name="_diaA"/>
   <anchor x="-70" y="1365" name="diaA"/>
   <outline>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ishmaambelow-ar" format="2">
   <advance width="1106" height="2961"/>
+  <unicode hex="0899"/>
   <anchor x="553" y="483" name="_diaB"/>
   <anchor x="553" y="-210" name="diaB"/>
   <outline>
