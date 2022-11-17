@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="annisfabove-ar" format="2">
-  <advance width="1564" height="2961"/>
   <unicode hex="08DC"/>
+  <anchor x="0" y="-132" name="_diaA"/>
+  <anchor x="0" y="527" name="diaA"/>
   <outline>
-    <component base="alef-ar" xScale="0.45" yScale="0.45" xOffset="1452"/>
-    <component base="lam-ar.init" xScale="0.45" yScale="0.45" xOffset="1275"/>
-    <component base="noon-ar.medi" xScale="0.45" yScale="0.45" xOffset="1092"/>
-    <component base="sad-ar.medi" xScale="0.45" yScale="0.45" xOffset="548"/>
-    <component base="feh-ar.fina" xScale="0.45" yScale="0.45" xOffset="-18"/>
+    <component base="alef-ar" xScale="0.45" yScale="0.45" xOffset="670"/>
+    <component base="lam-ar.init" xScale="0.45" yScale="0.45" xOffset="493"/>
+    <component base="noon-ar.medi" xScale="0.45" yScale="0.45" xOffset="310"/>
+    <component base="sad-ar.medi" xScale="0.45" yScale="0.45" xOffset="-234"/>
+    <component base="feh-ar.fina" xScale="0.45" yScale="0.45" xOffset="-800"/>
   </outline>
 </glyph>

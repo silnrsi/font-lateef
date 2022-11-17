@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wordmaddabelow-ar" format="2">
+  <advance width="615"/>
+  <unicode hex="10EFF"/>
+  <anchor x="0" y="-98" name="_diaB"/>
+  <anchor x="0" y="-652" name="diaB"/>
+  <outline>
+    <component base="meem-ar.init" xScale="0.45" yScale="0.45" yOffset="-450"/>
+    <component base="dal-ar.fina" xScale="0.45" yScale="0.45" xOffset="-278" yOffset="-458"/>
+  </outline>
+</glyph>

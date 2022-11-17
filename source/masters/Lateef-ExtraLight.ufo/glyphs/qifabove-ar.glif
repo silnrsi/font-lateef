@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qifabove-ar" format="2">
-  <advance width="757" height="2961"/>
   <unicode hex="08DE"/>
-  <anchor x="380" y="-50" name="_diaA"/>
-  <anchor x="380" y="515" name="diaA"/>
+  <anchor x="2" y="-50" name="_diaA"/>
+  <anchor x="2" y="515" name="diaA"/>
   <outline>
-    <component base="qaf-ar.init" xScale="0.45" yScale="0.45" xOffset="552"/>
-    <component base="feh-ar.fina" xScale="0.45" yScale="0.45" xOffset="-18"/>
+    <component base="qaf-ar.init" xScale="0.45" yScale="0.45" xOffset="174"/>
+    <component base="feh-ar.fina" xScale="0.45" yScale="0.45" xOffset="-396"/>
   </outline>
 </glyph>

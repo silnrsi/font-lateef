@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="saktabelow-ar" format="2">
+  <unicode hex="10EFD"/>
+  <anchor x="0" y="-85" name="_diaB"/>
+  <anchor x="0" y="-650" name="diaB"/>
+  <outline>
+    <component base="seen-ar.init" xScale="0.45" yScale="0.45" xOffset="258" yOffset="-600"/>
+    <component base="keheh-ar.medi" xScale="0.45" yScale="0.45" xOffset="-157" yOffset="-600"/>
+    <component base="teh-ar.medi" xScale="0.45" yScale="0.45" xOffset="-337" yOffset="-600"/>
+    <component base="tehMarbutagoal-ar.fina" xScale="0.45" yScale="0.45" xOffset="-657" yOffset="-600"/>
+  </outline>
+</glyph>

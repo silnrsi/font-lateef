@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="saktaabove-ar" format="2">
-  <advance width="1250" height="2961"/>
   <unicode hex="08DD"/>
-  <anchor x="625" y="-52" name="_diaA"/>
-  <anchor x="625" y="502" name="diaA"/>
+  <anchor x="0" y="-52" name="_diaA"/>
+  <anchor x="0" y="502" name="diaA"/>
   <outline>
-    <component base="seen-ar.init" xScale="0.45" yScale="0.45" xOffset="891"/>
-    <component base="keheh-ar.medi" xScale="0.45" yScale="0.45" xOffset="482"/>
-    <component base="teh-ar.medi" xScale="0.45" yScale="0.45" xOffset="302"/>
-    <component base="tehMarbutagoal-ar.fina" xScale="0.45" yScale="0.45" xOffset="-18"/>
+    <component base="seen-ar.init" xScale="0.45" yScale="0.45" xOffset="266"/>
+    <component base="keheh-ar.medi" xScale="0.45" yScale="0.45" xOffset="-143"/>
+    <component base="teh-ar.medi" xScale="0.45" yScale="0.45" xOffset="-323"/>
+    <component base="tehMarbutagoal-ar.fina" xScale="0.45" yScale="0.45" xOffset="-643"/>
   </outline>
 </glyph>

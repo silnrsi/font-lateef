@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qasrbelow-ar" format="2">
+  <unicode hex="10EFE"/>
+  <anchor x="0" y="-43" name="_diaB"/>
+  <anchor x="0" y="-642" name="diaB"/>
+  <outline>
+    <component base="_dot2h" xScale="0.45" yScale="0.45" xOffset="339" yOffset="-95"/>
+    <component base="sad-ar.medi" xScale="0.45" yScale="0.45" xOffset="-288" yOffset="-478"/>
+    <component base="qafDotless-ar.init" xScale="0.45" yScale="0.45" xOffset="224" yOffset="-478"/>
+    <component base="reh-ar.fina" xScale="0.45" yScale="0.45" xOffset="-530" yOffset="-478"/>
+  </outline>
+</glyph>
