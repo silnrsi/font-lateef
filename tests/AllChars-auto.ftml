@@ -2252,7 +2252,7 @@
       <comment>objectReplacementCharacter</comment>
       <string>\u00FFFC \u00FFFD</string>
     </test>
-    <test background="#ffe0e0" label="U+10EFD">
+    <test background="#ffc8a0" label="U+10EFD">
       <comment>saktabelow-ar</comment>
       <string>\u000628\u010EFD \u000628\u010EFE \u000628\u010EFF</string>
     </test>

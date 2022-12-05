@@ -4548,6 +4548,21 @@ U+0670" stylename="cv76_2">
       <comment>rounddotbaseline-ar alefabove-ar</comment>
       <string>\u000887\u000670</string>
     </test>
+    <test background="#f0fff0" label="U+0888
+U+064E">
+      <comment>rounddotraised-ar fatha-ar</comment>
+      <string>\u000888\u00064E \u000888\u000650 \u000888\u000654 \u000888\u000670</string>
+    </test>
+    <test background="#f0fff0" label="U+0888
+U+0670" stylename="cv76_1">
+      <comment>rounddotraised-ar alefabove-ar</comment>
+      <string>\u000888\u000670</string>
+    </test>
+    <test background="#f0fff0" label="U+0888
+U+0670" stylename="cv76_2">
+      <comment>rounddotraised-ar alefabove-ar</comment>
+      <string>\u000888\u000670</string>
+    </test>
     <test background="#f0fff0" label="U+088E
 U+064E">
       <comment>verticaltail-ar fatha-ar</comment>
@@ -5320,17 +5335,17 @@ U+08FF">
       <comment>alef-ar marksidewaysnoonghunna-ar</comment>
       <string>\u000627\u0008FF \u00200D\u000627\u0008FF  \u000628\u0008FF \u000628\u0008FF\u000628\u0008FF\u000628\u0008FF </string>
     </test>
-    <test background="#ffe0e0" label="U+0627
+    <test background="#ffc8a0" label="U+0627
 U+10EFD">
       <comment>alef-ar saktabelow-ar</comment>
       <string>\u000627\u010EFD \u00200D\u000627\u010EFD  \u000628\u010EFD \u000628\u010EFD\u000628\u010EFD\u000628\u010EFD </string>
     </test>
-    <test background="#ffe0e0" label="U+0627
+    <test background="#ffc8a0" label="U+0627
 U+10EFE">
       <comment>alef-ar qasrbelow-ar</comment>
       <string>\u000627\u010EFE \u00200D\u000627\u010EFE  \u000628\u010EFE \u000628\u010EFE\u000628\u010EFE\u000628\u010EFE </string>
     </test>
-    <test background="#ffe0e0" label="U+0627
+    <test background="#ffc8a0" label="U+0627
 U+10EFF">
       <comment>alef-ar wordmaddabelow-ar</comment>
       <string>\u000627\u010EFF \u00200D\u000627\u010EFF  \u000628\u010EFF \u000628\u010EFF\u000628\u010EFF\u000628\u010EFF </string>
