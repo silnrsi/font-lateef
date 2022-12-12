@@ -8,4 +8,10 @@
     <component base="_alef-ar.fina.postLamMed"/>
     <component base="_wasla" xOffset="170" yOffset="1184"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

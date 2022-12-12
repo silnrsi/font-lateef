@@ -1378,6 +1378,14 @@
   <string>hahT_wodotsverticalabove-ar.init.glif</string>
   <key>hahTwodotsverticalabove-ar.medi</key>
   <string>hahT_wodotsverticalabove-ar.medi.glif</string>
+  <key>hahVinvertedbelow-ar</key>
+  <string>hahV_invertedbelow-ar.glif</string>
+  <key>hahVinvertedbelow-ar.fina</key>
+  <string>hahV_invertedbelow-ar.fina.glif</string>
+  <key>hahVinvertedbelow-ar.init</key>
+  <string>hahV_invertedbelow-ar.init.glif</string>
+  <key>hahVinvertedbelow-ar.medi</key>
+  <string>hahV_invertedbelow-ar.medi.glif</string>
   <key>hahabove-ar</key>
   <string>hahabove-ar.glif</string>
   <key>hairspace</key>
@@ -1698,6 +1706,14 @@
   <string>kehehT_wodotshorizontalabove-ar.init.glif</string>
   <key>kehehTwodotshorizontalabove-ar.medi</key>
   <string>kehehT_wodotshorizontalabove-ar.medi.glif</string>
+  <key>kehehTwodotsverticalbelow-ar</key>
+  <string>kehehT_wodotsverticalbelow-ar.glif</string>
+  <key>kehehTwodotsverticalbelow-ar.fina</key>
+  <string>kehehT_wodotsverticalbelow-ar.fina.glif</string>
+  <key>kehehTwodotsverticalbelow-ar.init</key>
+  <string>kehehT_wodotsverticalbelow-ar.init.glif</string>
+  <key>kehehTwodotsverticalbelow-ar.medi</key>
+  <string>kehehT_wodotsverticalbelow-ar.medi.glif</string>
   <key>kehehVabove-ar</key>
   <string>kehehV_above-ar.glif</string>
   <key>kehehVabove-ar.fina</key>
@@ -2220,6 +2236,14 @@
   <string>noonV_above-ar.init.glif</string>
   <key>noonVabove-ar.medi</key>
   <string>noonV_above-ar.medi.glif</string>
+  <key>noonVinvertedabove-ar</key>
+  <string>noonV_invertedabove-ar.glif</string>
+  <key>noonVinvertedabove-ar.fina</key>
+  <string>noonV_invertedabove-ar.fina.glif</string>
+  <key>noonVinvertedabove-ar.init</key>
+  <string>noonV_invertedabove-ar.init.glif</string>
+  <key>noonVinvertedabove-ar.medi</key>
+  <string>noonV_invertedabove-ar.medi.glif</string>
   <key>noonabove-ar</key>
   <string>noonabove-ar.glif</string>
   <key>noonghunna-ar</key>
@@ -2476,6 +2500,14 @@
   <string>qafD_otbelow-ar.init.glif</string>
   <key>qafDotbelow-ar.medi</key>
   <string>qafD_otbelow-ar.medi.glif</string>
+  <key>qafDotbelowNodotsabove-ar</key>
+  <string>qafD_otbelowN_odotsabove-ar.glif</string>
+  <key>qafDotbelowNodotsabove-ar.fina</key>
+  <string>qafD_otbelowN_odotsabove-ar.fina.glif</string>
+  <key>qafDotbelowNodotsabove-ar.init</key>
+  <string>qafD_otbelowN_odotsabove-ar.init.glif</string>
+  <key>qafDotbelowNodotsabove-ar.medi</key>
+  <string>qafD_otbelowN_odotsabove-ar.medi.glif</string>
   <key>qafDotless-ar</key>
   <string>qafD_otless-ar.glif</string>
   <key>qafDotless-ar.fina</key>
@@ -2992,6 +3024,14 @@
   <string>tah-ar.init.glif</string>
   <key>tah-ar.medi</key>
   <string>tah-ar.medi.glif</string>
+  <key>tahDotbelow-ar</key>
+  <string>tahD_otbelow-ar.glif</string>
+  <key>tahDotbelow-ar.fina</key>
+  <string>tahD_otbelow-ar.fina.glif</string>
+  <key>tahDotbelow-ar.init</key>
+  <string>tahD_otbelow-ar.init.glif</string>
+  <key>tahDotbelow-ar.medi</key>
+  <string>tahD_otbelow-ar.medi.glif</string>
   <key>tahThreedots-ar</key>
   <string>tahT_hreedots-ar.glif</string>
   <key>tahThreedots-ar.fina</key>
@@ -3000,6 +3040,14 @@
   <string>tahT_hreedots-ar.init.glif</string>
   <key>tahThreedots-ar.medi</key>
   <string>tahT_hreedots-ar.medi.glif</string>
+  <key>tahThreedotsbelow-ar</key>
+  <string>tahT_hreedotsbelow-ar.glif</string>
+  <key>tahThreedotsbelow-ar.fina</key>
+  <string>tahT_hreedotsbelow-ar.fina.glif</string>
+  <key>tahThreedotsbelow-ar.init</key>
+  <string>tahT_hreedotsbelow-ar.init.glif</string>
+  <key>tahThreedotsbelow-ar.medi</key>
+  <string>tahT_hreedotsbelow-ar.medi.glif</string>
   <key>tahTwodotsabove-ar</key>
   <string>tahT_wodotsabove-ar.glif</string>
   <key>tahTwodotsabove-ar.fina</key>

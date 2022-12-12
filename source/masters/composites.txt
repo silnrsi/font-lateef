@@ -26,45 +26,45 @@
 #
 alefHamzaabove-ar = alef-ar + _hamza@above | 0623
 alefHamzaabove-ar.fina = alef-ar.fina + _hamza@above
-alefHamzaabove-ar.fina.postLamIni = alef-ar.fina.postLamIni + _hamza@above
-alefHamzaabove-ar.fina.postLamMed = alef-ar.fina.postLamMed + _hamza@above
+_alefHamzaabove-ar.fina.postLamIni = _alef-ar.fina.postLamIni + _hamza@above
+_alefHamzaabove-ar.fina.postLamMed = _alef-ar.fina.postLamMed + _hamza@above
 alefHamzabelow-ar = alef-ar + _hamza@below | 0625
 alefHamzabelow-ar.fina = alef-ar.fina + _hamza@below
-alefHamzabelow-ar.fina.postLamIni = alef-ar.fina.postLamIni + _hamza@below
-alefHamzabelow-ar.fina.postLamMed = alef-ar.fina.postLamMed + _hamza@below
+_alefHamzabelow-ar.fina.postLamIni = _alef-ar.fina.postLamIni + _hamza@below
+_alefHamzabelow-ar.fina.postLamMed = _alef-ar.fina.postLamMed + _hamza@below
 alefWavyhamzaabove-ar = alef-ar + _wavyHamza@above | 0672
 alefWavyhamzaabove-ar.fina = alef-ar.fina + _wavyHamza@above
-alefWavyhamzaabove-ar.fina.postLamIni = alef-ar.fina.postLamIni + _wavyHamza@above
-alefWavyhamzaabove-ar.fina.postLamMed = alef-ar.fina.postLamMed + _wavyHamza@above
+_alefWavyhamzaabove-ar.fina.postLamIni = _alef-ar.fina.postLamIni + _wavyHamza@above
+_alefWavyhamzaabove-ar.fina.postLamMed = _alef-ar.fina.postLamMed + _wavyHamza@above
 alefWavyhamzabelow-ar = alef-ar + _wavyHamza@below | 0673
 alefWavyhamzabelow-ar.fina = alef-ar.fina + _wavyHamza@below
-alefWavyhamzabelow-ar.fina.postLamIni = alef-ar.fina.postLamIni + _wavyHamza@below
-alefWavyhamzabelow-ar.fina.postLamMed = alef-ar.fina.postLamMed + _wavyHamza@below
+_alefWavyhamzabelow-ar.fina.postLamIni = _alef-ar.fina.postLamIni + _wavyHamza@below
+_alefWavyhamzabelow-ar.fina.postLamMed = _alef-ar.fina.postLamMed + _wavyHamza@below
 alefMadda-ar = alef-ar + _madda@above | 0622
 alefMadda-ar.fina = alef-ar.fina + _madda@above
-alefMadda-ar.fina.postLamIni = alef-ar.fina.postLamIni + _madda@above
-alefMadda-ar.fina.postLamMed = alef-ar.fina.postLamMed + _madda@above
+_alefMadda-ar.fina.postLamIni = _alef-ar.fina.postLamIni + _madda@above
+_alefMadda-ar.fina.postLamMed = _alef-ar.fina.postLamMed + _madda@above
 alefWasla-ar = alef-ar + _wasla@above | 0671
 alefWasla-ar.fina = alef-ar.fina + _wasla@above
-alefWasla-ar.fina.postLamIni = alef-ar.fina.postLamIni + _wasla@above
-alefWasla-ar.fina.postLamMed = alef-ar.fina.postLamMed + _wasla@above
+_alefWasla-ar.fina.postLamIni = _alef-ar.fina.postLamIni + _wasla@above
+_alefWasla-ar.fina.postLamMed = _alef-ar.fina.postLamMed + _wasla@above
 # 2020-10-15 pm Manually composed to place all _highHamza at the same height in composed glyphs
 #highhamzaAlef-ar = alef-ar + _highHamza@above | 0675
 #highhamzaAlef-ar.fina = alef-ar.fina + _highHamza@above
-#highhamzaAlef-ar.fina.postLamIni = alef-ar.fina.postLamIni + _highHamza@above
-#highhamzaAlef-ar.fina.postLamMed = alef-ar.fina.postLamMed + _highHamza@above
+#_highhamzaAlef-ar.fina.postLamIni = _alef-ar.fina.postLamIni + _highHamza@above
+#_highhamzaAlef-ar.fina.postLamMed = _alef-ar.fina.postLamMed + _highHamza@above
 
 # 2021-01-11 pm Manually adjusted diaA and diaB
 # alefTwoabove-ar = alef-ar + _two@aboveLeft ^ 144,0 | 0773
 # alefTwoabove-ar.fina = alef-ar.fina + _two@aboveLeft ^ 210,0
-# alefTwoabove-ar.fina.postLamIni = alef-ar.fina.postLamIni + _two@aboveLeft ^ 135,0
-# alefTwoabove-ar.fina.postLamMed = alef-ar.fina.postLamMed + _two@aboveLeft ^ 135,0
+# _alefTwoabove-ar.fina.postLamIni = _alef-ar.fina.postLamIni + _two@aboveLeft ^ 135,0
+# _alefTwoabove-ar.fina.postLamMed = _alef-ar.fina.postLamMed + _two@aboveLeft ^ 135,0
 
 # 2021-01-11 pm Manually adjusted diaA and diaB
 # alefThreeabove-ar = alef-ar + _three@aboveLeft ^ 197,0 | 0774
 # alefThreeabove-ar.fina = alef-ar.fina + _three@aboveLeft ^ 262,0
-# alefThreeabove-ar.fina.postLamIni = alef-ar.fina.postLamIni + _three@aboveLeft ^ 187,0
-# alefThreeabove-ar.fina.postLamMed = alef-ar.fina.postLamMed + _three@aboveLeft ^ 187,0
+# _alefThreeabove-ar.fina.postLamIni = _alef-ar.fina.postLamIni + _three@aboveLeft ^ 187,0
+# _alefThreeabove-ar.fina.postLamMed = _alef-ar.fina.postLamMed + _three@aboveLeft ^ 187,0
 
 beh-ar = behDotless-ar + _dot1@below | 0628
 beh-ar.fina = behDotless-ar.fina + _dot1@below
@@ -519,20 +519,20 @@ lamVabove-ar = lam-ar + _smallV@above | 06B5
 lamVabove-ar.fina = lam-ar.fina + _smallV@above
 lamVabove-ar.medi = lam-ar.medi + _smallV@above
 lamVabove-ar.init = lam-ar.init + _smallV@above
-lamVabove-ar.medi.preAlef = lam-ar.medi.preAlef + _smallV@above
-lamVabove-ar.init.preAlef = lam-ar.init.preAlef + _smallV@above
+_lamVabove-ar.medi.preAlef = _lam-ar.medi.preAlef + _smallV@above
+_lamVabove-ar.init.preAlef = _lam-ar.init.preAlef + _smallV@above
 lamDotabove-ar = lam-ar + _dot1@above | 06B6
 lamDotabove-ar.fina = lam-ar.fina + _dot1@above
 lamDotabove-ar.medi = lam-ar.medi + _dot1@above
 lamDotabove-ar.init = lam-ar.init + _dot1@above
-lamDotabove-ar.medi.preAlef = lam-ar.medi.preAlef + _dot1@above
-lamDotabove-ar.init.preAlef = lam-ar.init.preAlef + _dot1@above
+_lamDotabove-ar.medi.preAlef = _lam-ar.medi.preAlef + _dot1@above
+_lamDotabove-ar.init.preAlef = _lam-ar.init.preAlef + _dot1@above
 lamThreedotsabove-ar = lam-ar + _dot3u@above | 06B7
 lamThreedotsabove-ar.fina = lam-ar.fina + _dot3u@above
 lamThreedotsabove-ar.medi = lam-ar.medi + _dot3u@above
 lamThreedotsabove-ar.init = lam-ar.init + _dot3u@above
-lamThreedotsabove-ar.medi.preAlef = lam-ar.medi.preAlef + _dot3u@above
-lamThreedotsabove-ar.init.preAlef = lam-ar.init.preAlef + _dot3u@above
+_lamThreedotsabove-ar.medi.preAlef = _lam-ar.medi.preAlef + _dot3u@above
+_lamThreedotsabove-ar.init.preAlef = _lam-ar.init.preAlef + _dot3u@above
 
 # 2021-01-11 pm Manually adjusted diaA and diaB
 # 2022-01-20 pm Manually set RSB to 0 to avoid overhang on lamTahabove-ar.init
@@ -540,21 +540,21 @@ lamThreedotsabove-ar.init.preAlef = lam-ar.init.preAlef + _dot3u@above
 # lamTahabove-ar.fina = lam-ar.fina + _tah@above
 # lamTahabove-ar.medi = lam-ar.medi + _tah@above
 # lamTahabove-ar.init = lam-ar.init + _tah@above
-# lamTahabove-ar.medi.preAlef = lam-ar.medi.preAlef + _tah@above
-# lamTahabove-ar.init.preAlef = lam-ar.init.preAlef + _tah@above
+# _lamTahabove-ar.medi.preAlef = _lam-ar.medi.preAlef + _tah@above
+# _lamTahabove-ar.init.preAlef = _lam-ar.init.preAlef + _tah@above
 
 lamThreedotsbelow-ar = lam-ar + _dot3d@below | 06B8
 lamThreedotsbelow-ar.fina = lam-ar.fina + _dot3d@below
 lamThreedotsbelow-ar.medi = lam-ar.medi + _dot3d@below
 lamThreedotsbelow-ar.init = lam-ar.init + _dot3d@below
-lamThreedotsbelow-ar.medi.preAlef = lam-ar.medi.preAlef + _dot3d@below
-lamThreedotsbelow-ar.init.preAlef = lam-ar.init.preAlef + _dot3d@below
+_lamThreedotsbelow-ar.medi.preAlef = _lam-ar.medi.preAlef + _dot3d@below
+_lamThreedotsbelow-ar.init.preAlef = _lam-ar.init.preAlef + _dot3d@below
 lamBar-ar = lam-ar + _bar@through | 076A
 lamBar-ar.fina = lam-ar.fina + _bar@through
 lamBar-ar.medi = lam-ar.medi + _bar@through
 lamBar-ar.init = lam-ar.init + _bar@through
-lamBar-ar.medi.preAlef = lam-ar.medi.preAlef + _bar@through
-lamBar-ar.init.preAlef = lam-ar.init.preAlef + _bar@through
+_lamBar-ar.medi.preAlef = _lam-ar.medi.preAlef + _bar@through
+_lamBar-ar.init.preAlef = _lam-ar.init.preAlef + _bar@through
 meemDotabove-ar = meem-ar + _dot1@above | 0765
 meemDotabove-ar.fina = meem-ar.fina + _dot1@above
 meemDotabove-ar.medi = meem-ar.medi + _dot1@above
@@ -847,8 +847,8 @@ lamDoublebar-ar = lam-ar + _bar2@through | 08A6
 lamDoublebar-ar.fina = lam-ar.fina + _bar2@through
 lamDoublebar-ar.medi = lam-ar.medi + _bar2@through
 lamDoublebar-ar.init = lam-ar.init + _bar2@through
-lamDoublebar-ar.medi.preAlef = lam-ar.medi.preAlef + _bar2@through
-lamDoublebar-ar.init.preAlef = lam-ar.init.preAlef + _bar2@through
+_lamDoublebar-ar.medi.preAlef = _lam-ar.medi.preAlef + _bar2@through
+_lamDoublebar-ar.init.preAlef = _lam-ar.init.preAlef + _bar2@through
 meemThreedotsabove-ar = meem-ar + _dot3u@above | 08A7
 meemThreedotsabove-ar.fina = meem-ar.fina + _dot3u@above
 meemThreedotsabove-ar.medi = meem-ar.medi + _dot3u@above
@@ -893,3 +893,36 @@ wawHamzaabove-ar.fina.shrtail = waw-ar.fina.shrtail + _hamza@above
 oe-ar.shrtail = waw-ar.shrtail + _smallV@above
 oe-ar.fina.shrtail = waw-ar.fina.shrtail + _smallV@above
 # --- END --- ABS-2786 new batch of 16 composites
+
+# --- START --- ABS-2847
+noonVinvertedabove-ar = noonghunna-ar + _hat@above | 0889
+noonVinvertedabove-ar.fina = noonghunna-ar.fina + _hat@above
+noonVinvertedabove-ar.medi = behDotless-ar.medi + _hat@above
+noonVinvertedabove-ar.init = behDotless-ar.init + _hat@above
+
+hahVinvertedbelow-ar = hah-ar + _hat@center | 088A
+hahVinvertedbelow-ar.fina = hah-ar.fina + _hat@center
+hahVinvertedbelow-ar.medi = hah-ar.medi + _hat@below
+hahVinvertedbelow-ar.init = hah-ar.init + _hat@below
+
+tahDotbelow-ar = tah-ar + _dot1@below | 088B
+tahDotbelow-ar.fina = tah-ar.fina + _dot1@below
+tahDotbelow-ar.medi = tah-ar.medi + _dot1@below
+tahDotbelow-ar.init = tah-ar.init + _dot1@below
+
+tahThreedotsbelow-ar = tah-ar + _dot3d@below | 088C
+tahThreedotsbelow-ar.fina = tah-ar.fina + _dot3d@below
+tahThreedotsbelow-ar.medi = tah-ar.medi + _dot3d@below
+tahThreedotsbelow-ar.init = tah-ar.init + _dot3d@below
+
+kehehTwodotsverticalbelow-ar = keheh-ar + _dot2v@below | 088D
+kehehTwodotsverticalbelow-ar.fina = keheh-ar.fina + _dot2v@below
+kehehTwodotsverticalbelow-ar.medi = kaf-ar.medi + _dot2v@below
+kehehTwodotsverticalbelow-ar.init = kaf-ar.init + _dot2v@below
+
+qafDotbelowNodotsabove-ar = qafDotless-ar + _dot1@below | 08B5
+qafDotbelowNodotsabove-ar.fina = qafDotless-ar.fina + _dot1@below
+qafDotbelowNodotsabove-ar.medi = fehDotless-ar.medi + _dot1@below
+qafDotbelowNodotsabove-ar.init = fehDotless-ar.init + _dot1@below
+# --- END --- ABS-2847
+
