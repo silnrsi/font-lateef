@@ -9,4 +9,10 @@
     <component base="_lam-ar.init.preAlef"/>
     <component base="_dot1" xOffset="175" yOffset="1363"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>

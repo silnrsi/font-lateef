@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonVinvertedabove-ar.medi" format="2">
   <advance width="440"/>
-  <anchor x="52" y="599" name="alefUnused"/>
-  <anchor x="215" y="700" name="diaA"/>
+  <anchor x="52" y="792" name="alefUnused"/>
+  <anchor x="240" y="922" name="diaA"/>
   <anchor x="150" y="-200" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
+    <component base="_invSmallV" xOffset="246" yOffset="689"/>
   </outline>
   <lib>
     <dict>

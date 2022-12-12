@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahVinvertedbelow-ar.medi" format="2">
   <advance width="916"/>
-  <anchor x="214" y="842" name="alefUnused"/>
-  <anchor x="469" y="825" name="diaA"/>
+  <anchor x="214" y="972" name="alefUnused"/>
+  <anchor x="501" y="1190" name="diaA"/>
   <anchor x="300" y="-200" name="diaB"/>
   <outline>
     <component base="hah-ar.medi"/>
+    <component base="_invSmallV" xOffset="506" yOffset="929"/>
   </outline>
   <lib>
     <dict>

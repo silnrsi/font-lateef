@@ -3,7 +3,7 @@
   <advance width="914"/>
   <anchor x="0" y="832" name="alefUnused"/>
   <anchor x="219" y="1305" name="diaA"/>
-  <anchor x="202" y="-202" name="diaB"/>
+  <anchor x="32" y="-400" name="diaB"/>
   <outline>
     <component base="tah-ar.init"/>
     <component base="_dot3d" xOffset="332" yOffset="-336"/>

@@ -4,7 +4,7 @@
   <unicode hex="063C"/>
   <anchor x="228" y="773" name="alefUnused"/>
   <anchor x="521" y="1020" name="diaA"/>
-  <anchor x="812" y="-644" name="diaB"/>
+  <anchor x="215" y="-202" name="diaB"/>
   <outline>
     <component base="keheh-ar"/>
     <component base="_dot3d" xOffset="812" yOffset="-336"/>

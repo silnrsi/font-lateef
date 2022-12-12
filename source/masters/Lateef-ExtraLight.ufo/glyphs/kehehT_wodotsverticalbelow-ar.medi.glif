@@ -2,7 +2,7 @@
 <glyph name="kehehTwodotsverticalbelow-ar.medi" format="2">
   <advance width="949"/>
   <anchor x="170" y="1020" name="diaA"/>
-  <anchor x="159" y="-200" name="diaB"/>
+  <anchor x="85" y="-594" name="diaB"/>
   <outline>
     <component base="kaf-ar.medi"/>
     <component base="_dot2v" xOffset="140" yOffset="-330"/>

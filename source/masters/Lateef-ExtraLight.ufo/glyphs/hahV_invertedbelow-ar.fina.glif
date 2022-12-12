@@ -2,10 +2,11 @@
 <glyph name="hahVinvertedbelow-ar.fina" format="2">
   <advance width="889"/>
   <anchor x="214" y="702" name="alefUnused"/>
-  <anchor x="469" y="705" name="diaA"/>
+  <anchor x="461" y="1050" name="diaA"/>
   <anchor x="202" y="-764" name="diaB"/>
   <outline>
     <component base="hah-ar.fina"/>
+    <component base="_invSmallV" xOffset="466" yOffset="789"/>
   </outline>
   <lib>
     <dict>
