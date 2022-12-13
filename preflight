@@ -35,9 +35,9 @@ cp source/masters/Lateef-Regular.ufo/kerning.plist \
    source/masters/Lateef-Regular.ufo/groups.plist \
       source/masters/Lateef-ExtraBold.ufo/
 
-echo
-echo "Updating classes.xml..."
-tools/absgenclasses.py -c source/classes.xml -i source/glyph_data.csv source/masters/Lateef-Regular.ufo source/classes.xml
+# echo
+# echo "Updating classes.xml..."
+# tools/absgenclasses.py -c source/classes.xml -i source/glyph_data.csv source/masters/Lateef-Regular.ufo source/classes.xml
 
 echo
 echo "Building internal fea..."
@@ -45,8 +45,6 @@ psfmakefea -q -o source/masters/Lateef-Regular.ufo/features.fea    -l logs/Latee
 psfmakefea -q -o source/masters/Lateef-ExtraLight.ufo/features.fea -l logs/Lateef-ExtraLight-psfmakefea.log -i source/opentype/main.feax -c source/classes.xml --omitaps "_above _aboveLeft _below _center _ring _through above aboveLeft below center ring through entry exit alefUnused _none" source/masters/Lateef-ExtraLight.ufo &
 psfmakefea -q -o source/masters/Lateef-ExtraBold.ufo/features.fea  -l logs/Lateef-ExtraBold-psfmakefea.log  -i source/opentype/main.feax -c source/classes.xml --omitaps "_above _aboveLeft _below _center _ring _through above aboveLeft below center ring through entry exit alefUnused _none" source/masters/Lateef-ExtraBold.ufo  &
 wait
-
-echo "preflight completed!"
 
 echo
 echo "Updating woff metadata files..."
