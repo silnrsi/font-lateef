@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefKasraattached-ar.fina" format="2">
+  <advance width="422"/>
+  <anchor x="359" y="390" name="attBottomRight"/>
+  <anchor x="-25" y="485" name="attLeftMid"/>
+  <anchor x="351" y="574" name="attRtMid"/>
+  <anchor x="174" y="967" name="attTop"/>
+  <anchor x="336" y="1038" name="attTopRight"/>
+  <anchor x="181" y="1196" name="diaA"/>
+  <anchor x="72" y="-29" name="diaB"/>
+  <outline>
+    <component base="alef-ar.fina"/>
+    <component base="kasra-ar" xOffset="72" yOffset="622"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

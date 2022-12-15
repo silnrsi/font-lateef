@@ -492,6 +492,26 @@
   <string>alef-ar.fina.glif</string>
   <key>alef-ar.fina.allah</key>
   <string>alef-ar.fina.allah.glif</string>
+  <key>alefBottomrightkasraattached-ar</key>
+  <string>alefB_ottomrightkasraattached-ar.glif</string>
+  <key>alefBottomrightkasraattached-ar.fina</key>
+  <string>alefB_ottomrightkasraattached-ar.fina.glif</string>
+  <key>alefBottomrightkasraattachedDotabove-ar</key>
+  <string>alefB_ottomrightkasraattachedD_otabove-ar.glif</string>
+  <key>alefBottomrightkasraattachedDotabove-ar.fina</key>
+  <string>alefB_ottomrightkasraattachedD_otabove-ar.fina.glif</string>
+  <key>alefBottomrightkasraattachedLeftring-ar</key>
+  <string>alefB_ottomrightkasraattachedL_eftring-ar.glif</string>
+  <key>alefBottomrightkasraattachedLeftring-ar.fina</key>
+  <string>alefB_ottomrightkasraattachedL_eftring-ar.fina.glif</string>
+  <key>alefDotabove-ar</key>
+  <string>alefD_otabove-ar.glif</string>
+  <key>alefDotabove-ar.fina</key>
+  <string>alefD_otabove-ar.fina.glif</string>
+  <key>alefFathaattached-ar</key>
+  <string>alefF_athaattached-ar.glif</string>
+  <key>alefFathaattached-ar.fina</key>
+  <string>alefF_athaattached-ar.fina.glif</string>
   <key>alefHamzaabove-ar</key>
   <string>alefH_amzaabove-ar.glif</string>
   <key>alefHamzaabove-ar.fina</key>
@@ -500,8 +520,24 @@
   <string>alefH_amzabelow-ar.glif</string>
   <key>alefHamzabelow-ar.fina</key>
   <string>alefH_amzabelow-ar.fina.glif</string>
+  <key>alefKasraattached-ar</key>
+  <string>alefK_asraattached-ar.glif</string>
+  <key>alefKasraattached-ar.fina</key>
+  <string>alefK_asraattached-ar.fina.glif</string>
   <key>alefLamYehabove-ar</key>
   <string>alefL_amY_ehabove-ar.glif</string>
+  <key>alefLefthamzaattached-ar</key>
+  <string>alefL_efthamzaattached-ar.glif</string>
+  <key>alefLefthamzaattached-ar.fina</key>
+  <string>alefL_efthamzaattached-ar.fina.glif</string>
+  <key>alefLeftmiddlestroke-ar</key>
+  <string>alefL_eftmiddlestroke-ar.glif</string>
+  <key>alefLeftmiddlestroke-ar.fina</key>
+  <string>alefL_eftmiddlestroke-ar.fina.glif</string>
+  <key>alefLeftrounddotattached-ar</key>
+  <string>alefL_eftrounddotattached-ar.glif</string>
+  <key>alefLeftrounddotattached-ar.fina</key>
+  <string>alefL_eftrounddotattached-ar.fina.glif</string>
   <key>alefMadda-ar</key>
   <string>alefM_adda-ar.glif</string>
   <key>alefMadda-ar.fina</key>
@@ -514,10 +550,50 @@
   <string>alefM_aksura-ar.init.glif</string>
   <key>alefMaksura-ar.medi</key>
   <string>alefM_aksura-ar.medi.glif</string>
+  <key>alefRighthamzaattached-ar</key>
+  <string>alefR_ighthamzaattached-ar.glif</string>
+  <key>alefRighthamzaattached-ar.fina</key>
+  <string>alefR_ighthamzaattached-ar.fina.glif</string>
+  <key>alefRightmiddlestroke-ar</key>
+  <string>alefR_ightmiddlestroke-ar.glif</string>
+  <key>alefRightmiddlestroke-ar.fina</key>
+  <string>alefR_ightmiddlestroke-ar.fina.glif</string>
+  <key>alefRightmiddlestrokeDotabove-ar</key>
+  <string>alefR_ightmiddlestrokeD_otabove-ar.glif</string>
+  <key>alefRightmiddlestrokeDotabove-ar.fina</key>
+  <string>alefR_ightmiddlestrokeD_otabove-ar.fina.glif</string>
+  <key>alefRightmiddlestrokeLeftring-ar</key>
+  <string>alefR_ightmiddlestrokeL_eftring-ar.glif</string>
+  <key>alefRightmiddlestrokeLeftring-ar.fina</key>
+  <string>alefR_ightmiddlestrokeL_eftring-ar.fina.glif</string>
+  <key>alefRightrounddotattached-ar</key>
+  <string>alefR_ightrounddotattached-ar.glif</string>
+  <key>alefRightrounddotattached-ar.fina</key>
+  <string>alefR_ightrounddotattached-ar.fina.glif</string>
+  <key>alefRounddotaboveattached-ar</key>
+  <string>alefR_ounddotaboveattached-ar.glif</string>
+  <key>alefRounddotaboveattached-ar.fina</key>
+  <string>alefR_ounddotaboveattached-ar.fina.glif</string>
+  <key>alefRounddotbelowattached-ar</key>
+  <string>alefR_ounddotbelowattached-ar.glif</string>
+  <key>alefRounddotbelowattached-ar.fina</key>
+  <string>alefR_ounddotbelowattached-ar.fina.glif</string>
   <key>alefThreeabove-ar</key>
   <string>alefT_hreeabove-ar.glif</string>
   <key>alefThreeabove-ar.fina</key>
   <string>alefT_hreeabove-ar.fina.glif</string>
+  <key>alefToprightfathaattached-ar</key>
+  <string>alefT_oprightfathaattached-ar.glif</string>
+  <key>alefToprightfathaattached-ar.fina</key>
+  <string>alefT_oprightfathaattached-ar.fina.glif</string>
+  <key>alefToprightfathaattachedDotabove-ar</key>
+  <string>alefT_oprightfathaattachedD_otabove-ar.glif</string>
+  <key>alefToprightfathaattachedDotabove-ar.fina</key>
+  <string>alefT_oprightfathaattachedD_otabove-ar.fina.glif</string>
+  <key>alefToprightfathaattachedLeftring-ar</key>
+  <string>alefT_oprightfathaattachedL_eftring-ar.glif</string>
+  <key>alefToprightfathaattachedLeftring-ar.fina</key>
+  <string>alefT_oprightfathaattachedL_eftring-ar.fina.glif</string>
   <key>alefTwoabove-ar</key>
   <string>alefT_woabove-ar.glif</string>
   <key>alefTwoabove-ar.fina</key>

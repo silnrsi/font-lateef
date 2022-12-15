@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefRightmiddlestrokeLeftring-ar" format="2">
+  <advance width="354"/>
+  <unicode hex="087F"/>
+  <anchor x="152" y="121" name="attBottom"/>
+  <anchor x="313" y="222" name="attBottomRight"/>
+  <anchor x="174" y="997" name="attTop"/>
+  <anchor x="391" y="1066" name="attTopRight"/>
+  <anchor x="0" y="242" name="diaA"/>
+  <anchor x="149" y="-202" name="diaB"/>
+  <outline>
+    <component base="alef-ar"/>
+    <component base="_ring" xOffset="-33" yOffset="243"/>
+    <component base="fatha-ar" xOffset="241" yOffset="-562"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>
