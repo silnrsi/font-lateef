@@ -1419,6 +1419,32 @@ markClass yehbarreeTwobelowabove-ar <anchor 0 912> @_diaA;
 markClass zahabove-ar <anchor -1 1215> @_diaA;
 markClass zainabove-ar <anchor 0 924> @_diaA;
 
+# AP: attBottom
+@attBottom = [alef-ar alef-ar.fina];
+# baseClass alef-ar <anchor 152 121> @attBottom;
+# baseClass alef-ar.fina <anchor -135 240> @attBottom;
+
+# AP: attBottomRight
+@attBottomRight = [alef-ar alef-ar.fina];
+# baseClass alef-ar <anchor 313 222> @attBottomRight;
+# baseClass alef-ar.fina <anchor 158 440> @attBottomRight;
+
+# AP: attLeftMid
+@attLeftMid = [alef-ar alef-ar.fina];
+# baseClass [alef-ar alef-ar.fina] <anchor -25 524> @attLeftMid;
+
+# AP: attRtMid
+@attRtMid = [alef-ar alef-ar.fina];
+# baseClass [alef-ar alef-ar.fina] <anchor 381 524> @attRtMid;
+
+# AP: attTop
+@attTop = [alef-ar alef-ar.fina];
+# baseClass [alef-ar alef-ar.fina] <anchor 174 967> @attTop;
+
+# AP: attTopRight
+@attTopRight = [alef-ar alef-ar.fina];
+# baseClass [alef-ar alef-ar.fina] <anchor 381 1056> @attTopRight;
+
 # AP: _alef
 markClass [alefabove-ar alefabove-ar.allah] <anchor 0 676> @_alef;
 markClass alefabove-ar.large <anchor 0 233> @_alef;

@@ -133,6 +133,9 @@
     <string>/seenVinvertedabove-ar/noonVinvertedabove-ar/noonVinvertedabove-ar.fina/noonVinvertedabove-ar.medi/noonVinvertedabove-ar.init/space/hahVinvertedbelow-ar/hahVinvertedbelow-ar.fina/hahVinvertedbelow-ar.medi/hahVinvertedbelow-ar.init/jeem-ar/jeem-ar.fina/jeem-ar.medi/jeem-ar.init</string>
     <string>/hahVinvertedbelow-ar/hahVinvertedbelow-ar.fina/hahVinvertedbelow-ar.medi/hahVinvertedbelow-ar.init</string>
     <string>/wawbelow-ar</string>
+    <string>/seenTahTwodotshorizontalabove-ar/seenTahTwodotshorizontalabove-ar.fina/seenTahTwodotshorizontalabove-ar.medi/seenTahTwodotshorizontalabove-ar.init</string>
+    <string>/fatha-ar/kasra-ar/kasra-ar/space/space/fatha-ar/space/alef-ar.fina/alef-ar</string>
+    <string>/_ring</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>

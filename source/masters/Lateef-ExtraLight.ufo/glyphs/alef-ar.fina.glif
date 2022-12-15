@@ -3,6 +3,12 @@
   <advance width="425"/>
   <anchor x="181" y="1186" name="above"/>
   <anchor x="-44" y="756" name="aboveLeft"/>
+  <anchor x="-135" y="240" name="attBottom"/>
+  <anchor x="158" y="440" name="attBottomRight"/>
+  <anchor x="-25" y="524" name="attLeftMid"/>
+  <anchor x="381" y="524" name="attRtMid"/>
+  <anchor x="174" y="967" name="attTop"/>
+  <anchor x="381" y="1056" name="attTopRight"/>
   <anchor x="243" y="-52" name="below"/>
   <anchor x="181" y="1196" name="diaA"/>
   <anchor x="160" y="-202" name="diaB"/>
