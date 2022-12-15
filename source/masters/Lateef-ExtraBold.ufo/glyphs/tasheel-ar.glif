@@ -4,10 +4,10 @@
   <anchor x="0" y="483" name="_diaB"/>
   <anchor x="0" y="-187" name="diaB"/>
   <outline>
-    <component base="teh-ar.init" xScale="0.45" yScale="0.45" xOffset="537"/>
-    <component base="sheen-ar.medi" xScale="0.45" yScale="0.45" xOffset="97"/>
+    <component base="teh-ar.init" xScale="0.45" yScale="0.45" xOffset="550"/>
     <component base="heh-ar.medi" xScale="0.45" yScale="0.45" xOffset="-190"/>
     <component base="yeh-ar.medi" xScale="0.45" yScale="0.45" xOffset="-363"/>
     <component base="lam-ar.fina" xScale="0.45" yScale="0.45" xOffset="-733"/>
+    <component base="seen-ar.medi" xScale="0.45" yScale="0.45" xOffset="103"/>
   </outline>
 </glyph>

@@ -5,9 +5,9 @@
   <anchor x="0" y="-160" name="diaB"/>
   <outline>
     <component base="teh-ar.init" xScale="0.45" yScale="0.45" xOffset="549"/>
-    <component base="sheen-ar.medi" xScale="0.45" yScale="0.45" xOffset="109"/>
     <component base="heh-ar.medi" xScale="0.45" yScale="0.45" xOffset="-191"/>
     <component base="yeh-ar.medi" xScale="0.45" yScale="0.45" xOffset="-371"/>
     <component base="lam-ar.fina" xScale="0.45" yScale="0.45" xOffset="-751"/>
+    <component base="seen-ar.medi" xScale="0.45" yScale="0.45" xOffset="106"/>
   </outline>
 </glyph>
