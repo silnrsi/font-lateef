@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefFathaattached-ar" format="2">
-  <advance width="329"/>
+  <advance width="325"/>
   <unicode hex="0870"/>
-  <anchor x="152" y="121" name="attBottom"/>
-  <anchor x="313" y="222" name="attBottomRight"/>
-  <anchor x="-25" y="524" name="attLeftMid"/>
-  <anchor x="381" y="524" name="attRtMid"/>
-  <anchor x="381" y="1056" name="attTopRight"/>
-  <anchor x="174" y="1209" name="diaA"/>
-  <anchor x="132" y="-202" name="diaB"/>
+  <anchor x="183" y="1209" name="diaA"/>
+  <anchor x="141" y="-202" name="diaB"/>
   <outline>
-    <component base="alef-ar"/>
-    <component base="fatha-ar" xOffset="-16" yOffset="-89"/>
+    <component base="alef-ar" xOffset="9"/>
+    <component base="fatha-ar" xOffset="-7" yOffset="-89"/>
   </outline>
   <lib>
     <dict>

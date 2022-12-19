@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefBottomrightkasraattachedLeftring-ar" format="2">
-  <advance width="329"/>
+  <advance width="647"/>
   <unicode hex="0880"/>
-  <anchor x="152" y="121" name="attBottom"/>
-  <anchor x="381" y="524" name="attRtMid"/>
-  <anchor x="174" y="967" name="attTop"/>
-  <anchor x="381" y="1056" name="attTopRight"/>
-  <anchor x="313" y="464" name="diaA"/>
-  <anchor x="132" y="-202" name="diaB"/>
+  <anchor x="301" y="1176" name="diaA"/>
+  <anchor x="253" y="-202" name="diaB"/>
   <outline>
-    <component base="alef-ar"/>
-    <component base="_ring" xOffset="-23" yOffset="380"/>
-    <component base="fatha-ar" xOffset="123" yOffset="-834"/>
+    <component base="alef-ar" xOffset="121"/>
+    <component base="_ring" xOffset="168" yOffset="530"/>
+    <component base="kasra-ar" xOffset="434" yOffset="605"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefRightmiddlestrokeLeftring-ar.fina" format="2">
-  <advance width="422"/>
-  <anchor x="72" y="238" name="attBottom"/>
-  <anchor x="359" y="390" name="attBottomRight"/>
-  <anchor x="174" y="967" name="attTop"/>
-  <anchor x="336" y="1038" name="attTopRight"/>
-  <anchor x="0" y="258" name="diaA"/>
-  <anchor x="157" y="-202" name="diaB"/>
+  <advance width="652"/>
+  <anchor x="312" y="1196" name="diaA"/>
+  <anchor x="288" y="-202" name="diaB"/>
   <outline>
-    <component base="alef-ar.fina"/>
-    <component base="_ring" xOffset="-23" yOffset="334"/>
-    <component base="fatha-ar" xOffset="351" yOffset="-459"/>
+    <component base="_ring" xOffset="168" yOffset="574"/>
+    <component base="fatha-ar" xOffset="477" yOffset="-489"/>
+    <component base="_alef-ar.fina_wide" xOffset="130"/>
   </outline>
   <lib>
     <dict>

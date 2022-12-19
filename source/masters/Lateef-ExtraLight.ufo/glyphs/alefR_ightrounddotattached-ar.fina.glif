@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefRightrounddotattached-ar.fina" format="2">
-  <advance width="425"/>
-  <anchor x="-135" y="240" name="attBottom"/>
-  <anchor x="158" y="440" name="attBottomRight"/>
-  <anchor x="-25" y="524" name="attLeftMid"/>
-  <anchor x="174" y="967" name="attTop"/>
-  <anchor x="381" y="1056" name="attTopRight"/>
-  <anchor x="0" y="176" name="diaA"/>
+  <advance width="475"/>
+  <anchor x="181" y="1196" name="diaA"/>
   <anchor x="160" y="-202" name="diaB"/>
   <outline>
-    <component base="alef-ar.fina"/>
-    <component base="largerounddotabove-ar" xOffset="381" yOffset="-486"/>
+    <component base="largerounddotabove-ar" xOffset="281" yOffset="-516"/>
+    <component base="_alef-ar.fina_wide"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
