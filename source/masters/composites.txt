@@ -927,42 +927,44 @@ qafDotbelowNodotsabove-ar.init = fehDotless-ar.init + _dot1@below
 # --- END --- ABS-2847
 
 # --- START --- ABS-2845 New alefs
-alefFathaattached-ar = alef-ar + fatha-ar@attTop[with=_diaA] | 0870
-alefFathaattached-ar.fina = alef-ar.fina + fatha-ar@attTop[with=_diaA]
-alefToprightfathaattached-ar = alef-ar + fatha-ar@attTopRight[with=_diaA] | 0871
-alefToprightfathaattached-ar.fina = alef-ar.fina + fatha-ar@attTopRight[with=_diaA]
-alefRightmiddlestroke-ar = alef-ar + fatha-ar@attRtMid[with=_diaA] | 0872
-alefRightmiddlestroke-ar.fina = alef-ar.fina + fatha-ar@attRtMid[with=_diaA]
-alefLeftmiddlestroke-ar = alef-ar + fatha-ar@attLeftMid[with=_diaA] | 0873
-alefLeftmiddlestroke-ar.fina = alef-ar.fina + fatha-ar@attLeftMid[with=_diaA]
-alefKasraattached-ar = alef-ar + kasra-ar@attBottom[with=_diaB] | 0874
-alefKasraattached-ar.fina = alef-ar.fina + kasra-ar@attBottom[with=_diaB]
-alefBottomrightkasraattached-ar = alef-ar + kasra-ar@attBottomRight[with=_diaB] | 0875
-alefBottomrightkasraattached-ar.fina = alef-ar.fina + kasra-ar@attBottomRight[with=_diaB]
-alefRounddotaboveattached-ar = alef-ar + largerounddotabove-ar@attTop[with=_diaA] | 0876
-alefRounddotaboveattached-ar.fina = alef-ar.fina + largerounddotabove-ar@attTop[with=_diaA]
-alefRightrounddotattached-ar = alef-ar + largerounddotabove-ar@attRtMid[with=_diaA] | 0877
-alefRightrounddotattached-ar.fina = alef-ar.fina + largerounddotabove-ar@attRtMid[with=_diaA]
-alefLeftrounddotattached-ar = alef-ar + largerounddotabove-ar@attLeftMid[with=_diaA] | 0878
-alefLeftrounddotattached-ar.fina = alef-ar.fina + largerounddotabove-ar@attLeftMid[with=_diaA]
-alefRounddotbelowattached-ar = alef-ar + largerounddotbelow-ar@attBottom[with=_diaB] | 0879
-alefRounddotbelowattached-ar.fina = alef-ar.fina + largerounddotbelow-ar@attBottom[with=_diaB]
-alefDotabove-ar = alef-ar + _dot1@attTop[with=_above] | 087A
-alefDotabove-ar.fina = alef-ar.fina + _dot1@attTop[with=_above]
-alefToprightfathaattachedDotabove-ar = alef-ar + _dot1@attTop[with=_above] + fatha-ar@attTopRight[with=_diaA] | 087B
-alefToprightfathaattachedDotabove-ar.fina = alef-ar.fina + _dot1@attTop[with=_above] + fatha-ar@attTopRight[with=_diaA]
-alefRightmiddlestrokeDotabove-ar = alef-ar + _dot1@attTop[with=_above] + fatha-ar@attRtMid[with=_diaA] | 087C
-alefRightmiddlestrokeDotabove-ar.fina = alef-ar.fina + _dot1@attTop[with=_above] + fatha-ar@attRtMid[with=_diaA]
-alefBottomrightkasraattachedDotabove-ar = alef-ar + _dot1@attTop[with=_above] + fatha-ar@attBottomRight[with=_diaA] | 087D
-alefBottomrightkasraattachedDotabove-ar.fina = alef-ar.fina + _dot1@attTop[with=_above] + fatha-ar@attBottomRight[with=_diaA]
-alefToprightfathaattachedLeftring-ar = alef-ar + _ring@attLeftMid[with=_ring] + fatha-ar@attTopRight[with=_diaA] | 087E
-alefToprightfathaattachedLeftring-ar.fina = alef-ar.fina + _ring@attLeftMid[with=_ring] + fatha-ar@attTopRight[with=_diaA]
-alefRightmiddlestrokeLeftring-ar = alef-ar + _ring@attLeftMid[with=_ring] + fatha-ar@attRtMid[with=_diaA] | 087F
-alefRightmiddlestrokeLeftring-ar.fina = alef-ar.fina + _ring@attLeftMid[with=_ring] + fatha-ar@attRtMid[with=_diaA]
-alefBottomrightkasraattachedLeftring-ar = alef-ar + _ring@attLeftMid[with=_ring] + fatha-ar@attBottomRight[with=_diaA] | 0880
-alefBottomrightkasraattachedLeftring-ar.fina = alef-ar.fina + _ring@attLeftMid[with=_ring] + fatha-ar@attBottomRight[with=_diaA]
-alefRighthamzaattached-ar = alef-ar + highhamza-ar@attTop[with=_above] | 0881
-alefRighthamzaattached-ar.fina = alef-ar.fina + highhamza-ar@attTop[with=_above]
-alefLefthamzaattached-ar = alef-ar + highhamza-ar@attLeftMid[with=_above] | 0882
-alefLefthamzaattached-ar.fina = alef-ar.fina + highhamza-ar@attLeftMid[with=_above]
+# This was used to create the glyphs initially, but then a lot of tweaking was required, so it shouldn't be
+# used to regenerated them.
+# alefFathaattached-ar = alef-ar + fatha-ar@attTop[with=_diaA] | 0870
+# alefFathaattached-ar.fina = alef-ar.fina + fatha-ar@attTop[with=_diaA]
+# alefToprightfathaattached-ar = alef-ar + fatha-ar@attTopRight[with=_diaA] | 0871
+# alefToprightfathaattached-ar.fina = alef-ar.fina + fatha-ar@attTopRight[with=_diaA]
+# alefRightmiddlestroke-ar = alef-ar + fatha-ar@attRtMid[with=_diaA] | 0872
+# alefRightmiddlestroke-ar.fina = alef-ar.fina + fatha-ar@attRtMid[with=_diaA]
+# alefLeftmiddlestroke-ar = alef-ar + fatha-ar@attLeftMid[with=_diaA] | 0873
+# alefLeftmiddlestroke-ar.fina = alef-ar.fina + fatha-ar@attLeftMid[with=_diaA]
+# alefKasraattached-ar = alef-ar + kasra-ar@attBottom[with=_diaB] | 0874
+# alefKasraattached-ar.fina = alef-ar.fina + kasra-ar@attBottom[with=_diaB]
+# alefBottomrightkasraattached-ar = alef-ar + kasra-ar@attBottomRight[with=_diaB] | 0875
+# alefBottomrightkasraattached-ar.fina = alef-ar.fina + kasra-ar@attBottomRight[with=_diaB]
+# alefRounddotaboveattached-ar = alef-ar + largerounddotabove-ar@attTop[with=_diaA] | 0876
+# alefRounddotaboveattached-ar.fina = alef-ar.fina + largerounddotabove-ar@attTop[with=_diaA]
+# alefRightrounddotattached-ar = alef-ar + largerounddotabove-ar@attRtMid[with=_diaA] | 0877
+# alefRightrounddotattached-ar.fina = alef-ar.fina + largerounddotabove-ar@attRtMid[with=_diaA]
+# alefLeftrounddotattached-ar = alef-ar + largerounddotabove-ar@attLeftMid[with=_diaA] | 0878
+# alefLeftrounddotattached-ar.fina = alef-ar.fina + largerounddotabove-ar@attLeftMid[with=_diaA]
+# alefRounddotbelowattached-ar = alef-ar + largerounddotbelow-ar@attBottom[with=_diaB] | 0879
+# alefRounddotbelowattached-ar.fina = alef-ar.fina + largerounddotbelow-ar@attBottom[with=_diaB]
+# alefDotabove-ar = alef-ar + _dot1@attTop[with=_above] | 087A
+# alefDotabove-ar.fina = alef-ar.fina + _dot1@attTop[with=_above]
+# alefToprightfathaattachedDotabove-ar = alef-ar + _dot1@attTop[with=_above] + fatha-ar@attTopRight[with=_diaA] | 087B
+# alefToprightfathaattachedDotabove-ar.fina = alef-ar.fina + _dot1@attTop[with=_above] + fatha-ar@attTopRight[with=_diaA]
+# alefRightmiddlestrokeDotabove-ar = alef-ar + _dot1@attTop[with=_above] + fatha-ar@attRtMid[with=_diaA] | 087C
+# alefRightmiddlestrokeDotabove-ar.fina = alef-ar.fina + _dot1@attTop[with=_above] + fatha-ar@attRtMid[with=_diaA]
+# alefBottomrightkasraattachedDotabove-ar = alef-ar + _dot1@attTop[with=_above] + kasra-ar@attBottomRight[with=_diaA] | 087D
+# alefBottomrightkasraattachedDotabove-ar.fina = alef-ar.fina + _dot1@attTop[with=_above] + kasra-ar@attBottomRight[with=_diaA]
+# alefToprightfathaattachedLeftring-ar = alef-ar + _ring@attLeftMid[with=_ring] + fatha-ar@attTopRight[with=_diaA] | 087E
+# alefToprightfathaattachedLeftring-ar.fina = alef-ar.fina + _ring@attLeftMid[with=_ring] + fatha-ar@attTopRight[with=_diaA]
+# alefRightmiddlestrokeLeftring-ar = alef-ar + _ring@attLeftMid[with=_ring] + fatha-ar@attRtMid[with=_diaA] | 087F
+# alefRightmiddlestrokeLeftring-ar.fina = alef-ar.fina + _ring@attLeftMid[with=_ring] + fatha-ar@attRtMid[with=_diaA]
+# alefBottomrightkasraattachedLeftring-ar = alef-ar + _ring@attLeftMid[with=_ring] + kasra-ar@attBottomRight[with=_diaA] | 0880
+# alefBottomrightkasraattachedLeftring-ar.fina = alef-ar.fina + _ring@attLeftMid[with=_ring] + kasra-ar@attBottomRight[with=_diaA]
+# alefRighthamzaattached-ar = alef-ar + highhamza-ar@attRtMid[with=_above] | 0881
+# alefRighthamzaattached-ar.fina = alef-ar.fina + highhamza-ar@attRtMid[with=_above]
+# alefLefthamzaattached-ar = alef-ar + highhamza-ar@attLeftMid[with=_above] | 0882
+# alefLefthamzaattached-ar.fina = alef-ar.fina + highhamza-ar@attLeftMid[with=_above]
 # --- END --- ABS-2845

@@ -639,10 +639,13 @@ of the license along with this Font Software. If this is not the case, go to
         alefHamzabelow-ar alefWavyhamzabelow-ar 
         beh-ar.init beeh-ar.init peh-ar.init beheh-ar.init behThreedotsupabove-ar.init behThreedotsupbelow-ar.init 
         tehThreedotsupbelow-ar.init behTwodotsbelowDotabove-ar.init behTwodotsbelowDotabove-ar.init behVinvertedbelow-ar.init 
+        behVbelow-ar.init behhamzaabove-ar.init behMeemabove-ar.init pehMeemabove-ar.init pehVabove-ar.init
         yeh-ar.init e-ar.init yehThreedotsbelow-ar.init yehVinverted-farsi.init yeh-farsi.init yehVabove-ar.init
         yehbarree-ar yehbarreeHamzaabove-ar
+        yehTwodotsabove-farsi.init yehThreedotsabove-farsi.init yehTwoabove-farsi.init yehThreeabove-farsi.init
+        yehFourbelow-farsi.init yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowDotabove-ar.init
         noonDotbelow-ar.init noonTwodotsbelow-ar.init noonThreedotsabove-ar.init 
-        fehThreedotsbelow-ar.init fehTwodotsbelow-ar.init 
+        fehThreedotsbelow-ar.init fehTwodotsbelow-ar.init fehThreedotsupbelow-ar.init fehDotbelowThreedotsabove-ar.init
         heh-ar.init.hooked hehgoal-ar.init hehgoalHamzaabove-ar.init 
         lamThreedotsbelow-ar lamThreedotsbelow-ar.init lamThreedotsbelow-ar.init.preAlef 
     </class>
@@ -653,18 +656,23 @@ of the license along with this Font Software. If this is not the case, go to
     <class name="AinLikeInit">
         ain-ar.init ghain-ar.init ainThreedots-ar.init <!-- ghainDotbelow-ar.init -->
         ainTwodotshorizontalabove-ar.init ainThreedotsdownabove-ar.init ainTwodotsverticalabove-ar.init
+        ainThreedotsbelow-ar.init ghainThreedotsabove-ar.init
     </class>
 
     <class name="AinLikeIsol">
         ain-ar ghain-ar ainThreedots-ar <!-- ghainDotbelow-ar -->
         ainTwodotshorizontalabove-ar ainThreedotsdownabove-ar ainTwodotsverticalabove-ar
+        ainThreedotsbelow-ar ghainThreedotsabove-ar
     </class>
 
     <class name="NarrowIni">
         teh-ar.init theh-ar.init behDotless-ar.init tteh-ar.init tteheh-ar.init tehRing-ar.init tehThreedotsdown-ar.init
-        teheh-ar.init behVabove-ar.init yehHamzaabove-ar.init alefMaksura-ar.init highhamzaYeh-ar.init 
+        teheh-ar.init behVabove-ar.init tehTehabove-ar.init tehVabove-ar.init ttehVabove-ar.init
+        yehHamzaabove-ar.init alefMaksura-ar.init highhamzaYeh-ar.init 
         noon-ar.init noonghunna-ar.init rnoon-ar.init noonTahabove-ar.init noonVabove-ar.init 
+        noonThreedotsabove-ar.init noonVinvertedabove-ar.init noonAfrican-ar.init
         lam-ar.init lamVabove-ar.init lamDotabove-ar.init lamThreedotsabove-ar.init lamBar-ar.init 
+        lamDoublebar-ar.init lamTahabove-ar.init
     </class>
 
     <class name="RehKernAlef">
@@ -672,14 +680,21 @@ of the license along with this Font Software. If this is not the case, go to
         alefWavyhamzaabove-ar highhamzaAlef-ar alefWasla-ar alefTwoabove-ar alefThreeabove-ar
     </class>
 
+	<!-- IS THIS CLASS INCONSISENT? -->
     <class name="KernRehWawGaf">
         keheh-ar kafRing-ar gaf-ar gafRing-ar ngoeh-ar <!-- gafTwodotsbelow-ar -->
         gueh-ar gafThreedots-ar kehehDotabove-ar kehehThreedotsabove-ar kehehThreedotsupbelow-ar 
-        kehehTwodotshorizontalabove-ar kehehThreedotsbelow-ar gafInvertedstroke-ar kaf-ar.init kafDotabove-ar.init 
-        kafDotbelow-ar.init ng-ar.init kafTwodotshorizontalabove-ar.init kafThreedotsbelow-ar.init keheh-ar.init 
-        kafRing-ar.init gaf-ar.init gafRing-ar.init ngoeh-ar.init <!-- gafTwodotsbelow-ar.init --> gueh-ar.init 
-        gafThreedots-ar.init kehehDotabove-ar.init kehehThreedotsabove-ar.init kehehThreedotsupbelow-ar.init 
+        kehehTwodotshorizontalabove-ar kehehThreedotsbelow-ar gafInvertedstroke-ar 
+        kehehVabove-ar kehehElongatedhamzaabove-ar 
+        
+        <!-- REVOVE? -->
+        kaf-ar.init kafDotabove-ar.init 
+        kafDotbelow-ar.init ng-ar.init kafTwodotshorizontalabove-ar.init kafThreedotsbelow-ar.init
+        
+        keheh-ar.init kafRing-ar.init gaf-ar.init gafRing-ar.init ngoeh-ar.init <!-- gafTwodotsbelow-ar.init -->
+        gueh-ar.init gafThreedots-ar.init kehehDotabove-ar.init kehehThreedotsabove-ar.init kehehThreedotsupbelow-ar.init 
         kehehTwodotshorizontalabove-ar.init kehehThreedotsbelow-ar.init gafInvertedstroke-ar.init
+        kehehVabove-ar.init kehehElongatedhamzaabove-ar.init
     </class>
 
     <class name="RehKernOther">
@@ -703,17 +718,27 @@ of the license along with this Font Software. If this is not the case, go to
         tehThreedotsdown-ar peh-ar teheh-ar beheh-ar behThreedotshorizontalbelow-ar
         behThreedotsupabove-ar behThreedotsupbelow-ar
         tehThreedotsupbelow-ar behTwodotsbelowDotabove-ar behVinvertedbelow-ar
-        behVabove-ar sad-ar sad-ar.init dad-ar dad-ar.init sadTwodotsbelow-ar
+        behVabove-ar behVbelow-ar behhamzaabove-ar behMeemabove-ar pehMeemabove-ar
+        tehTehabove-ar pehVabove-ar tehVabove-ar ttehVabove-ar
+        
+        sad-ar sad-ar.init dad-ar dad-ar.init sadTwodotsbelow-ar
         sadTwodotsbelow-ar.init sadThreedots-ar sadThreedots-ar.init dadDotbelow-ar
-        dadDotbelow-ar.init seen-ar seen-ar.init sheen-ar sheen-ar.init seenFourdotsabove-ar
-        seenFourdotsabove-ar.init seenTwodotshorizontalabove-ar seenTwodotshorizontalabove-ar.init seenTahTwodotshorizontalabove-ar
-        seenTahTwodotshorizontalabove-ar.init 
-        feh-ar fehDotless-ar veh-ar peheh-ar 
-        kaf-ar kafDotabove-ar ng-ar jeem-ar jeem-ar.init hah-ar hah-ar.init
+        dadDotbelow-ar.init sadThreedotsbelow-ar sadThreedotsbelow-ar.init
+        
+        seen-ar seen-ar.init sheen-ar sheen-ar.init seenFourdotsabove-ar
+        seenFourdotsabove-ar.init seenTahTwodotshorizontalabove-ar seenTahTwodotshorizontalabove-ar.init 
+        seenTwodotsverticalabove-ar seenTwodotsverticalabove-ar.init 
+        seenTahTwodotshorizontalabove-ar seenTahTwodotshorizontalabove-ar.init seenFourabove-ar seenFourabove-ar.init 
+        seenVinvertedabove-ar seenVinvertedabove-ar.init
+
+        feh-ar fehDotless-ar veh-ar peheh-ar fehAfrican-ar
+        jeem-ar jeem-ar.init hah-ar hah-ar.init
         khah-ar khah-ar.init hahHamzaabove-ar hahHamzaabove-ar.init hahTwodotsverticalabove-ar 
         hahTwodotsverticalabove-ar.init nyeh-ar.init dyeh-ar.init hahThreedotsabove-ar hahThreedotsabove-ar.init tcheh-ar.init tcheheh-ar.init tchehDotabove-ar.init hahTwodotshorizontalabove-ar
         hahTwodotshorizontalabove-ar.init hahThreedotsupbelow-ar.init hahTahbelow-ar.init hahTahTwodotshorizontalbelow-ar.init hahTahabove-ar hahTahabove-ar.init meem-ar meemDotabove-ar
-        kafswash-ar kafswash-ar.init
+        hahVinvertedbelow-ar.init jeemTwodotsabove-ar.init tchehVabove-ar jeemThreedotsabove-ar.init jeemThreedotsbelow-ar.init
+        kaf-ar kafDotabove-ar ng-ar kafswash-ar kafswash-ar.init
+        meemThreedotsabove-ar
     </class>
 
     <class name="RehAll" exts=".fina">    <!-- autogenerated (19 glyphs) -->
@@ -733,13 +758,13 @@ of the license along with this Font Software. If this is not the case, go to
     </class>
 
     <class name="RehWawNothingBelow">
-        wawHamzaabove-ar waw-ar highhamzaWaw-ar uHamzaabove-ar uHamzaabove-ar.filled 
-        wawring-ar kirghizoe-ar oe-ar u-ar u-ar.filled yu-ar kirghizyu-ar wawTwodots-ar 
+        wawHamzaabove-ar waw-ar highhamzaWaw-ar uHamzaabove-ar 
+        wawring-ar kirghizoe-ar oe-ar u-ar yu-ar kirghizyu-ar wawTwodots-ar 
         ve-ar wawDotabove-ar wawTwoabove-ar wawThreeAbove-ar wawDotcenter-ar reh-ar 
         zain-ar rreh-ar rehNoonabove-ar rehv-ar rehTwodots-ar jeh-ar rehFourdots-ar 
         rehTwodotsverticalabove-ar rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar zainVinvertedabove-ar rehVinvertedabove-ar rehStroke-ar 
-        rehLoop-ar wawHamzaabove-ar.fina waw-ar.fina highhamzaWaw-ar.fina uHamzaabove-ar.fina uHamzaabove-ar.filled.fina 
-        wawring-ar.fina kirghizoe-ar.fina oe-ar.fina u-ar.fina u-ar.filled.fina yu-ar.fina kirghizyu-ar.fina 
+        rehLoop-ar wawHamzaabove-ar.fina waw-ar.fina highhamzaWaw-ar.fina uHamzaabove-ar.fina
+        wawring-ar.fina kirghizoe-ar.fina oe-ar.fina u-ar.fina yu-ar.fina kirghizyu-ar.fina 
         wawTwodots-ar.fina ve-ar.fina wawDotabove-ar.fina wawTwoabove-ar.fina wawThreeAbove-ar.fina 
         wawDotcenter-ar.fina reh-ar.fina zain-ar.fina rreh-ar.fina rehNoonabove-ar.fina rehv-ar.fina 
         rehTwodots-ar.fina jeh-ar.fina rehFourdots-ar.fina rehTwodotsverticalabove-ar.fina rehHamzaabove-ar.fina 
@@ -747,25 +772,25 @@ of the license along with this Font Software. If this is not the case, go to
     </class>
 
     <class name="RehWawTighten">
-        wawHamzaabove-ar oe-ar u-ar 
-        u-ar.filled kirghizyu-ar wawTwodots-ar ve-ar wawTwoabove-ar wawThreeAbove-ar 
-        wawDotcenter-ar rreh-ar rehNoonabove-ar rehv-ar 
-        rehTwodots-ar jeh-ar  rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar 
-        zainVinvertedabove-ar  wawHamzaabove-ar.fina 
-        oe-ar.fina u-ar.fina u-ar.filled.fina kirghizyu-ar.fina wawTwodots-ar.fina ve-ar.fina wawTwoabove-ar.fina 
-        wawThreeAbove-ar.fina wawDotcenter-ar.fina rreh-ar.fina rehNoonabove-ar.fina rehv-ar.fina 
-         rehTwodots-ar.fina jeh-ar.fina  
-        rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar.fina zainVinvertedabove-ar.fina 
+        wawHamzaabove-ar  oe-ar  u-ar  kirghizyu-ar  wawTwodots-ar  ve-ar  wawTwoabove-ar  
+        wawThreeAbove-ar  wawDotcenter-ar  rreh-ar  rehNoonabove-ar  rehv-ar 
+        rehTwodots-ar  jeh-ar  rehHamzaabove-ar  rehTwodotshorizontalaboveTahabove-ar 
+        zainVinvertedabove-ar  rehFourdots-ar  rehVinvertedabove-ar  
         
-        reh-ar zain-ar rehRing-ar rehDotbelow-ar rehVbelow-ar rehTwodotsverticalabove-ar rehStroke-ar 
+        wawHamzaabove-ar.fina  oe-ar.fina  u-ar.fina  kirghizyu-ar.fina  wawTwodots-ar.fina  ve-ar.fina  wawTwoabove-ar.fina 
+        wawThreeAbove-ar.fina  wawDotcenter-ar.fina  rreh-ar.fina  rehNoonabove-ar.fina  rehv-ar.fina 
+        rehTwodots-ar.fina  jeh-ar.fina  rehHamzaabove-ar.fina  rehTwodotshorizontalaboveTahabove-ar.fina
+        zainVinvertedabove-ar.fina  rehFourdots-ar.fina  rehVinvertedabove-ar.fina
+        
+        reh-ar  zain-ar  rehRing-ar  rehDotbelow-ar  rehVbelow-ar  rehTwodotsverticalabove-ar  rehStroke-ar 
         rehLoop-ar
     </class>
 
     <class name="RehWawTightenMore">
-        waw-ar highhamzaWaw-ar wawring-ar kirghizoe-ar yu-ar wawDotabove-ar 
-         waw-ar.fina highhamzaWaw-ar.fina wawring-ar.fina kirghizoe-ar.fina yu-ar.fina wawDotabove-ar.fina 
-        reh-ar.fina zain-ar.fina rehRing-ar.fina rehDotbelow-ar.fina rehVbelow-ar.fina rehTwodotsverticalabove-ar.fina 
-        rehStroke-ar.fina rehLoop-ar.fina
+        waw-ar  highhamzaWaw-ar  wawring-ar  kirghizoe-ar  yu-ar  wawDotabove-ar 
+        waw-ar.fina  highhamzaWaw-ar.fina  wawring-ar.fina  kirghizoe-ar.fina  yu-ar.fina  wawDotabove-ar.fina 
+        reh-ar.fina  zain-ar.fina  rehRing-ar.fina  rehDotbelow-ar.fina  rehVbelow-ar.fina  rehTwodotsverticalabove-ar.fina 
+        rehStroke-ar.fina  rehLoop-ar.fina
 
     </class>
 
@@ -779,7 +804,7 @@ of the license along with this Font Software. If this is not the case, go to
         wawring-ar.fina kirghizoe-ar.fina oe-ar.fina u-ar.fina yu-ar.fina kirghizyu-ar.fina 
         wawTwodots-ar.fina ve-ar.fina wawDotabove-ar.fina 
         wawDotcenter-ar.fina 
-        reh-ar.fina zain-ar.fina rreh-ar Fin rehv-ar.fina rehRing-ar.fina rehDotbelow-ar.fina 
+        reh-ar.fina zain-ar.fina rreh-ar.fina rehv-ar.fina rehRing-ar.fina rehDotbelow-ar.fina 
         rehVbelow-ar.fina rehDotbelowdotabove-ar.fina rehTwodots-ar.fina jeh-ar.fina rehFourdots-ar.fina 
         rehTwodotsverticalabove-ar.fina rehHamzaabove-ar.fina rehVinvertedabove-ar.fina rehStroke-ar.fina rehLoop-ar.fina zainVinvertedabove-ar.fina 
     </class>
