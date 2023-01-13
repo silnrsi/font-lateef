@@ -16,8 +16,8 @@
 #**********************************
 
 languagesystem arab dflt ;
-languagesystem arab KUR  ;    # Kurdish
 languagesystem arab KIR  ;    # Kyrgyz
+languagesystem arab KUR  ;    # Kurdish
 languagesystem arab RHG  ;    # Rohingya -- supported by Harfbuzz
 languagesystem arab SND  ;    # Sindhi
 languagesystem arab URD  ;    # Urdu
@@ -28,38 +28,40 @@ languagesystem latn dflt ;
 @MarksBelow = [@_diaB] ;
 @MarksAny = [@_diaA @_diaB] ;
 
+
 # Notes:
-#   I've tried to arrange the lookups themselves, and then the features that refer to them,
-#   grouped into ordered passes as the rendering engines (esp Harfbuzz) will execute them.
-#   The boundaries between passes are indicated by the comment 
+#   The lookups and then the features are arranged and grouped into ordered passes
+#   as the rendering engines (esp Harfbuzz) will execute them.
+#   The boundaries between passes are indicated by the comment
 #       # HB PAUSE
 #   in the code.
 
 
-#******************************
-# GSUB (Subtitution) lookups **
-#******************************
+#**********************************
+# GSUB (Subtitution) lookups
+#**********************************
 
 #---  rtlm feature  ---
 
 lookup Mirror {
-    sub @cno_rtl by @c_rtl;
-} Mirror ;
+  lookupflag IgnoreMarks ;
+    sub @cno_rtl by @c_rtl ;
+} Mirror;
 
 # HB PAUSE
 
 #---  ccmp feature  ---
 
-ifinfo(familyName, "Scheherazade New") {
+do let f = info("familyName");
+	 if f.find("Scheherazade New") != -1 or f.find("Harmattan") != -1; {
 
 lookup SmallMadda {
   lookupflag 0 ;
     sub @Maddah by @Maddah.small ;
 } SmallMadda;
 
-} # Sch
+} # Sch or Har
 
-#********************
 # For full UTR53 stacks, this decomposition will already have been done.
 # Howver, as of 2021-09 Harfbuzz does NOT do this See https://github.com/harfbuzz/harfbuzz/issues/3179
 
@@ -68,35 +70,34 @@ lookup DecomposeForColor {
     sub @AlefPlusMark by alef-ar @AlefMark ;
 } DecomposeForColor;
 
-#********************
+
 # Font rendering check
 #
 # The following three lookups change "RenderingUnknown" to "RenderingOpenType"
 
-lookup FontCheck_Unknow {
+lookup _FontCheck_Unknow {
   lookupflag IgnoreMarks;
     sub [U n k o w ] by [O p e T y];
-} FontCheck_Unknow;
+} _FontCheck_Unknow;
 
-lookup FontCheck_n {
+lookup _FontCheck_n {
   lookupflag IgnoreMarks;
     sub n by p e;
-} FontCheck_n;
+} _FontCheck_n;
 
 lookup FontCheck {
   lookupflag IgnoreMarks ;
-    sub [R] e n d e r i n g 
-      U' lookup FontCheck_Unknow 
-      n' lookup FontCheck_Unknow
-      k' lookup FontCheck_Unknow
-      n'  
-      o' lookup FontCheck_Unknow 
-      w' lookup FontCheck_Unknow 
-      n' lookup FontCheck_n;
+    sub [R] e n d e r i n g
+      U' lookup _FontCheck_Unknow
+      n' lookup _FontCheck_Unknow
+      k' lookup _FontCheck_Unknow
+      n'
+      o' lookup _FontCheck_Unknow
+      w' lookup _FontCheck_Unknow
+      n' lookup _FontCheck_n;
 } FontCheck;
 
 
-#********************
 # Reordering of madda: moving it beyond any mark with 0 < ccc < 230
 #
 # For full UTR53 stacks this will already have been executed, thus the following will do nothing.
@@ -105,44 +106,42 @@ lookup FontCheck {
 
 @MaddaSkip = [ @UTR53_shadda @UTR53_fixedPos @UTR53_alef @UTR53_220MCM @UTR53_220other ] ;
 
-lookup ReorderMaddaVowel1_target {
+lookup _ReorderMaddaVowel1 {
   lookupflag 0 ;
     sub @MaddaSkip by @MaddaSkip madda-ar ;
-} ReorderMaddaVowel1_target ;
+} _ReorderMaddaVowel1 ;
 
 lookup ReorderMaddaVowel1 {
   lookupflag 0 ;
-    sub madda-ar @MaddaSkip' lookup ReorderMaddaVowel1_target ;
+    sub madda-ar @MaddaSkip' lookup _ReorderMaddaVowel1 ;
 } ReorderMaddaVowel1;
 
-lookup ReorderMaddaVowel2_target {
+lookup _ReorderMaddaVowel2 {
   lookupflag 0 ;
     sub madda-ar @MaddaSkip by @MaddaSkip ;
-} ReorderMaddaVowel2_target ;
+} _ReorderMaddaVowel2 ;
 
 lookup ReorderMaddaVowel2 {
   lookupflag 0 ;
-    sub madda-ar' lookup ReorderMaddaVowel2_target @MaddaSkip madda-ar ;
+    sub madda-ar' lookup _ReorderMaddaVowel2 @MaddaSkip madda-ar ;
 } ReorderMaddaVowel2;
 
 
-#********************
 # Replace Arabic punctuation glyphs with Latin ones:
 
+# Has no effect in Harmattan:
 lookup LatinPunctuation {
   lookupflag 0 ;
     sub @cno_latn by @c_latn ;
 } LatinPunctuation ;
 
 
-#********************
 # Kasra position
 
 lookup KasraLow {
   lookupflag 0 ;
     sub @Kasra by @Kasra_lowered;
 } KasraLow;
-
 
 lookup KasraHigh {
   lookupflag 0 ;
@@ -152,34 +151,35 @@ lookup KasraHigh {
 
 # HB PAUSE
 
-#********************
-# for basic Arabic shaping features fina, medi, init:
-#********************
+#---  fina feature  ---
 
 lookup ltrFina {
   lookupflag IgnoreMarks ;
-    sub [@DualLinkIsol @RightLinkIsol] by [@DualLinkFina @RightLinkFina] ;
+    sub @DualLinkIsol  by  @DualLinkFina ;
+    sub @RightLinkIsol by  @RightLinkFina ;
 } ltrFina;
 
 # HB PAUSE
 
+#---  medi feature  ---
+
 lookup ltrMedi {
   lookupflag IgnoreMarks ;
-    sub @DualLinkIsol by @DualLinkMedi ;
+    sub @DualLinkIsol  by  @DualLinkMedi ;
 } ltrMedi;
 
 # HB PAUSE
 
+#---  init  feature  ---
+
 lookup ltrInit {
   lookupflag IgnoreMarks ;
-    sub @DualLinkIsol by @DualLinkInit ;
+    sub @DualLinkIsol  by  @DualLinkInit ;
 } ltrInit;
 
 # HB PAUSE
 
-#********************
-# for feature rlig: required ligatures 
-#********************
+#---  rlig feature  ---
 
 
 #********
@@ -301,8 +301,6 @@ lookup AllahLigatures {
 } AllahLigatures;
 
 
-
-#********
 # Ligatures of marks
 
 # NB: This includes required ligatures other than the shadda-kasra rule, which
@@ -354,7 +352,7 @@ lookup HamzaLigatures {
 # Shadda ligation
 
 # Including graphemejoinercomb allows it to interrupt the ligature formation,
-#		otherwise the lookupflag causes it to be ignored.
+#   otherwise the lookupflag causes it to be ignored.
 @ShaddaLigatureFilter = [ @ShaddaMarks @ShaddaKasraMarks shadda-ar alefabove-ar graphemejoinercomb ] ;
 lookup ShaddaLigatures {
   lookupflag UseMarkFilteringSet @ShaddaLigatureFilter ;
