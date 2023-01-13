@@ -1072,10 +1072,9 @@ feature cv48 {  # Character Variant 48
 feature cv51 {  # Character Variant 51
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Kyrgyz OE" ; };
-    ### ParamUILabelNameID { name 3 1 0x0409 "Loop" ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Bar"   ; };
-    } ;    
-
+    ### ParamUILabelNameID { name 3 1 0x0409 "Loop"      ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Bar"       ; };
+    } ;
     script arab;  # Arabic
         lookup KyrgyzOeAlternates;
       # Force other languages to include Arabic script lookups
@@ -1091,9 +1090,9 @@ feature cv51 {  # Character Variant 51
 
 feature cv54 {  # Character Variant 54
     cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Yeh-Hamza"  ; };
-    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"   ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Right hamza"; };
+        FeatUILabelNameID  { name 3 1 0x0409 "Yeh-Hamza"   ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Right hamza" ; };
     } ;
 
     script arab;  # Arabic
@@ -1112,8 +1111,8 @@ feature cv54 {  # Character Variant 54
 # Character Variant 60
 
 do let f = info("familyName");
-   if f.find("Scheherazade New") != -1; {
-   
+   if f.find("Scheherazade New") != -1 or f.find("Harmattan") != -1; {
+
 feature cv60 {  # Character Variant 60
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Maddah"   ; };
@@ -1124,7 +1123,7 @@ feature cv60 {  # Character Variant 60
       lookup MaddaAlternate;
 } cv60 ;
 
-}   # end - Sch
+}   # end do - Sch or Har
 
 
 feature cv62 {  # Character Variant 62
@@ -1134,14 +1133,13 @@ feature cv62 {  # Character Variant 62
         ParamUILabelNameID { name 3 1 0x0409 "Lowered" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Raised"  ; };
     } ;
-
     # Same for latin & arabic:
-        lookup KasraAlternates;
+      lookup KasraAlternates;
 } cv62 ;
 
 
 # Character variants 70
-	 
+
 feature cv70 {
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
@@ -1170,6 +1168,9 @@ feature cv72 {  # Character Variant 72
 
 # Character Variant 74
 
+do let f = info("familyName");
+   if f.find("Scheherazade New") != -1 or f.find("Harmattan") != -1; {
+
 feature cv74 {
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Inverted Damma" ; };
@@ -1180,17 +1181,37 @@ feature cv74 {
       lookup DammaInvertedAlternates;
 } cv74 ;
 
+}  # end do - Sch or Harmattan
+
 
 # Character Variant 76
 
 do let f = info("familyName");
-	 if f.find("Lateef") != -1; {
+	 if f.find("Scheherazade New") != -1 or f.find("Harmattan") != -1; {
 
-feature cv76 {  
+feature cv76 {
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Superscript Alef" ; };
     ### ParamUILabelNameID { name 3 1 0x0409 "Small"            ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Large"            ; }; 
+        ParamUILabelNameID { name 3 1 0x0409 "Large"            ; };
+    } ;
+
+    # Same for latin & arabic:
+        lookup DaggerAlefAlternates;
+} cv76 ;
+
+}   # end do - Sch or Harmattan
+
+
+do let f = info("familyName");
+	 if f.find("Lateef") != -1; {
+
+feature cv76 {
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Superscript Alef" ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Default"          ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Large"            ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Small"            ; };
     } ;
 
     # Same for latin & arabic:
@@ -1207,10 +1228,10 @@ feature cv78 {  # Character Variant 78
         ParamUILabelNameID { name 3 1 0x0409 "Open down" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Open left" ; };
     } ;
-
     # Same for latin & arabic:
-        lookup SukunAlternates;
+      lookup SukunAlternates;
 } cv78 ;
+
 
 feature cv80 {  # Character Variant 80
     cvParameters {
@@ -1219,9 +1240,8 @@ feature cv80 {  # Character Variant 80
         ParamUILabelNameID { name 3 1 0x0409 "Simplified A" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Simplified B" ; };
     } ;
-
     # Same for latin & arabic:
-        lookup AyahAlternates;
+      lookup AyahAlternates;
 } cv80 ;
 
 
@@ -1238,7 +1258,7 @@ feature cv81 {  # Character Variant 81
       lookup HonLigAlternates;
 } cv81 ;
 
-}
+}  # end do - Sch
 
 
 feature cv82 {  # Character Variant 82
@@ -1266,40 +1286,48 @@ feature cv84 {  # Character Variant 84
 } cv84 ;
 
 
+do let f = info("familyName");
+	 if f.find("Scheherazade New") != -1 or f.find("Lateef") != -1; {
+	 
 feature cv85 {  # Character Variant 85
     cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Decmal separator"    ; };
-    ### ParamUILabelNameID { name 3 1 0x0409 "Small reh"   ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Slash" ; };
+        FeatUILabelNameID  { name 3 1 0x0409 "Decmal separator"; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Small reh"       ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Slash"           ; };
     } ;
     # Same for latin & arabic:
       lookup DecimalSepAlternate;
 } cv85 ;
 
+}   # end do - Sch or Lateef
+
+
 # In order for the cv62 lookup to function, we need to execute the ShaddaKasraLigatures in the
 # same or later pass as cv62 itself, and it has to execute whether or not cv62 feature is requested,
-# so it has to be part of some other feature. In Harfbuzz, we could use either clig, or liga since they
+# so it has to be part of some other feature. In Harfbuzz, we could use either clig or liga, since they
 # are pulled in from the Horizontal features that follow shaper-specific features and are, therefore
 # executed at the same time as cvXX.
 
 # When rendered with Uniscribe or Word, cv62 is never executed [as of this writing, at any rate].
-# But we still need the ShaddaKasraLigatures lookup to fire. Presently Microsoft doesn't 
+# But we still need the ShaddaKasraLigatures lookup to fire. Presently Microsoft doesn't
 # fire clig, so liga must be the one to use!
 
 # Similarly, the yehbarree contextual substitution must execute after cv48, so they are
 # included in liga (with the lookups ordered after cv48)
 
 # Finally, the LamAlefLigatures must execute after we've ligated mark combinations, including shadda-kasra,
-# or otherwise Word gets confused and ligates shadda-kasra in a sequence such as lam-shadda-alef-kasra
+# or otherwise Word gets confused and ligates shadda-kasra in a sequence such as lam-shadda-alef-kasra.
 
 feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cv62
     # Same for latin & arabic:
-        lookup ShaddaKasraLigatures;     # Must execute after language-specific CALTs and cv62
-    #   lookup YehBarreeToWideAlways;    # Must execute after language-specific CALTs and cv48
-    #   lookup YehBarreeToWideWithMarks; # Must execute after language-specific CALTs and cv48
-        lookup LamAlefLigatures;         # Must execute after all mark ligatures (including cv62)
-        lookup AllahAlef;                # Must execute after lam-alef lig
-        lookup SignWithDigits;           # Must execute after cv82
+        lookup ShaddaKasraLigatures;     # Must be after language-specific CALTs and cv62
+ifinfo(familyName, "Harmattan") {
+        lookup YehBarreeToWideAlways;    # Must execute after language-specific CALTs and cv48
+        lookup YehBarreeToWideWithMarks; # Must execute after language-specific CALTs and cv48
+}
+        lookup SignWithDigits;
+        lookup LamAlefLigatures;         # Must be after all mark ligatures (including cv62)
+        lookup AllahAlef;                # Must be after lam-alef lig
 } liga ;
 
 
@@ -1307,7 +1335,7 @@ feature liga {  # Ligatures  -- we use this because liga is done in the same pas
 
 do let f = info("familyName");
    if f.find("Lateef") != -1; {
-   
+
 feature tnum {  # Tabular figures
     # default for latin, select for arabic:
     lookup TabularFigures ;            # must execute after SignWithDigits
@@ -1317,5 +1345,5 @@ feature pnum {  # Proportional figures
     # default for arabic, select for latin:
     lookup ProportionalFigures ;       # must execute after SignWithDigits
 } pnum ;
-   
+
 }  # end of do - Lateef
