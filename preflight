@@ -37,7 +37,7 @@ cp source/masters/Lateef-Regular.ufo/kerning.plist \
 
 echo
 echo "Updating classes.xml..."
-python3 tools/absgenclasses.py -c source/classes.xml -i source/glyph_data.csv source/masters/*-Regular.ufo source/classes.xml
+python3 tools/absgenclasses.py -p scrlevel=w -c source/classes.xml -i source/glyph_data.csv source/masters/*-Regular.ufo source/classes.xml
 
 echo
 echo "Building internal fea..."

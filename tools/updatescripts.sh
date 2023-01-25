@@ -16,5 +16,16 @@ then
 	exit 2
 fi
 
-cp -v ../font-arab-tools/bin/absgen*.py tools
+for f in absgenftml.py absgenclasses.py
+do
+	# Update only those scripts that are already in the project:
+	[ -e "tools/$f" ] || continue
+	if cmp -s "tools/$f" "../font-arab-tools/bin/$f" ; then
+		echo "$f is up-to-date"
+	else
+		echo "Updating $f"
+		cp "../font-arab-tools/bin/$f" tools/
+		chmod u+x "tools/$f"
+	fi
+done
 echo done.
