@@ -1924,6 +1924,7 @@
     <string>objectReplacementCharacter</string>
     <string>replacementCharacter</string>
     <string>_absSwashKaf</string>
+    <string>_alef-ar.fina_wide</string>
     <string>_fehHead</string>
     <string>_hook</string>
     <string>_kaf_left</string>
@@ -1938,6 +1939,7 @@
     <string>_bar</string>
     <string>_damma</string>
     <string>_damma.filled</string>
+    <string>_damma.short</string>
     <string>_dot1</string>
     <string>_dot1smallrotated10</string>
     <string>_dot_dia</string>
@@ -1961,8 +1963,8 @@
     <string>_hamza</string>
     <string>_hamzaDamma</string>
     <string>_hamzaDamma.filled</string>
+    <string>_hamzaDamma.short</string>
     <string>_hamzaComma</string>
-    <string>_hat</string>
     <string>_highHamza</string>
     <string>_invSmallV</string>
     <string>_lines</string>
@@ -3746,6 +3748,7 @@
     <string>objectReplacementCharacter</string>
     <string>replacementCharacter</string>
     <string>_absSwashKaf</string>
+    <string>_alef-ar.fina_wide</string>
     <string>_fehHead</string>
     <string>_hook</string>
     <string>_kaf_left</string>
@@ -3760,6 +3763,7 @@
     <string>_bar</string>
     <string>_damma</string>
     <string>_damma.filled</string>
+    <string>_damma.short</string>
     <string>_dot1</string>
     <string>_dot1smallrotated10</string>
     <string>_dot_dia</string>
@@ -3783,8 +3787,8 @@
     <string>_hamza</string>
     <string>_hamzaDamma</string>
     <string>_hamzaDamma.filled</string>
+    <string>_hamzaDamma.short</string>
     <string>_hamzaComma</string>
-    <string>_hat</string>
     <string>_highHamza</string>
     <string>_invSmallV</string>
     <string>_lines</string>
