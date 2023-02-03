@@ -42,7 +42,6 @@ lookup OldStyleKerning {
     pos @WawAll' <150 0 150 0> @MarksAny           @KernRehWawLoosenMore ;    #gr
     pos @WawAll' <150 0 150 0> @MarksAny @MarksAny @KernRehWawLoosenMore ;    #gr
     
-
     #gr  // loosen from following alef with mark below it
     #gr  cAlefIso {advance.x += 150m} / cRehWawAll MARKS _ MARKS cAnyMarksBelow ;
 
@@ -58,6 +57,11 @@ lookup OldStyleKerning {
 
     #gr   // otherwise most can tighten to alef
     #gr   cRehKernAlef {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
+    
+    # Alefs with stuff attached at the top-right - need more kerning.
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-250 0 -250 0>                         @RehKernWideAlef ;
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-250 0 -250 0> @MarksBelow             @RehKernWideAlef ;
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-250 0 -250 0> @MarksBelow @MarksBelow @RehKernWideAlef ;
 
     pos [ @RehWawTighten @RehWawTightenMore ]' <-130 0 -130 0>                         @RehKernAlef ;  #gr
     pos [ @RehWawTighten @RehWawTightenMore ]' <-130 0 -130 0> @MarksBelow             @RehKernAlef ;  #gr
@@ -79,7 +83,7 @@ lookup OldStyleKerning {
     pos [ @RehWawTighten @RehWawTightenMore ]' <-150 0 -150 0>                     @AinLikeInit ;  #gr
     pos [ @RehWawTighten @RehWawTightenMore ]' <-150 0 -150 0> @MarksAny           @AinLikeInit ;  #gr
     pos [ @RehWawTighten @RehWawTightenMore ]' <-150 0 -150 0> @MarksAny @MarksAny @AinLikeInit ;  #gr
-
+    
     #gr   // loosen from following Ain-like isloates when reh/wah have lower diacritic:
     #gr   cAinLikeIsol {advance.x += 200m} / cRehWawAll MARKS cAnyMarksBelow MARKS _ ;
 
@@ -114,7 +118,7 @@ lookup OldStyleKerning {
     pos @RehWawAll' <100 0 100 0> @MarksAny @MarksAny @NarrowIni @MarksBelow                         ;  #gr
     pos @RehWawAll' <100 0 100 0> @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksBelow             ;  #gr
     pos @RehWawAll' <100 0 100 0> @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;  #gr
-    
+
     #gr   // leave certain cases alone:
     #gr   cRehKernOther   / (cRehWawTighten cRehWawTightenMore) MARKS _ MARKS cAnyMarksBelow ;
     #gr   (cRehKernOther cRehKernOtherMB)  / (g_jeh_ar_fina  g_reh_hamzaabove_ar_fina g_reh_twodotshorizontalabove_tahabove_ar \
@@ -144,4 +148,8 @@ lookup OldStyleKerning {
     pos [ @RehWawTighten @RehWawTightenMore ]' <-130 0 -130 0> @MarksBelow             [ @RehKernOther @RehKernOtherMB ] ;  #gr
     pos [ @RehWawTighten @RehWawTightenMore ]' <-130 0 -130 0> @MarksBelow @MarksBelow [ @RehKernOther @RehKernOtherMB ] ;  #gr
     
-} OldStyleKerning ;
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-50 0 -50 0>                         [ @RehKernOtherMBwide ] ;
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-50 0 -50 0> @MarksBelow             [ @RehKernOtherMBwide ] ;
+    pos [ @RehWawTighten @RehWawTightenMore ]' <-50 0 -50 0> @MarksBelow @MarksBelow [ @RehKernOtherMBwide ] ;
+    
+} OldStyleKerning;

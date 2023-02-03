@@ -928,7 +928,7 @@ qafDotbelowNodotsabove-ar.init = fehDotless-ar.init + _dot1@below
 
 # --- START --- ABS-2845 New alefs
 # This was used to create the glyphs initially, but then a lot of tweaking was required, so it shouldn't be
-# used to regenerated them.
+# used to regenerate them.
 # alefFathaattached-ar = alef-ar + fatha-ar@attTop[with=_diaA] | 0870
 # alefFathaattached-ar.fina = alef-ar.fina + fatha-ar@attTop[with=_diaA]
 # alefToprightfathaattached-ar = alef-ar + fatha-ar@attTopRight[with=_diaA] | 0871

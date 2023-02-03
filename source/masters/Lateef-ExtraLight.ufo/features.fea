@@ -1,7 +1,7 @@
 
 # Main Classes
-@AinLikeInit = [ain-ar.init ghain-ar.init ainThreedots-ar.init ainTwodotshorizontalabove-ar.init ainThreedotsdownabove-ar.init ainTwodotsverticalabove-ar.init];
-@AinLikeIsol = [ain-ar ghain-ar ainThreedots-ar ainTwodotshorizontalabove-ar ainThreedotsdownabove-ar ainTwodotsverticalabove-ar];
+@AinLikeInit = [ain-ar.init ghain-ar.init ainThreedots-ar.init ainTwodotshorizontalabove-ar.init ainThreedotsdownabove-ar.init ainTwodotsverticalabove-ar.init ghainThreedotsabove-ar.init];
+@AinLikeIsol = [ain-ar ghain-ar ainThreedots-ar ainTwodotshorizontalabove-ar ainThreedotsdownabove-ar ainTwodotsverticalabove-ar ghainThreedotsabove-ar];
 @AlefAllah = [alef-ar.allah alef-ar.fina.allah alefWasla-ar.allah alefWasla-ar.fina.allah];
 @AlefAllahIsol = [alef-ar.allah alefWasla-ar.allah];
 @AlefFin = [alef-ar.fina alefHamzaabove-ar.fina alefHamzabelow-ar.fina alefMadda-ar.fina alefThreeabove-ar.fina alefTwoabove-ar.fina alefWasla-ar.fina alefWavyhamzaabove-ar.fina alefWavyhamzabelow-ar.fina highhamzaAlef-ar.fina];
@@ -53,8 +53,8 @@
 @HonLigSmpl = [tab];
 @Kasra = [kasra-ar kasratan-ar];
 @Kasra_lowered = [kasra-ar.lowered kasratan-ar.lowered];
-@KernRehWawGaf = [keheh-ar kafRing-ar gaf-ar gafRing-ar ngoeh-ar gueh-ar gafThreedots-ar kehehDotabove-ar kehehThreedotsabove-ar kehehThreedotsupbelow-ar kehehTwodotshorizontalabove-ar kehehThreedotsbelow-ar gafInvertedstroke-ar kaf-ar.init kafDotabove-ar.init kafDotbelow-ar.init ng-ar.init kafTwodotshorizontalabove-ar.init kafThreedotsbelow-ar.init keheh-ar.init kafRing-ar.init gaf-ar.init gafRing-ar.init ngoeh-ar.init gueh-ar.init gafThreedots-ar.init kehehDotabove-ar.init kehehThreedotsabove-ar.init kehehThreedotsupbelow-ar.init kehehTwodotshorizontalabove-ar.init kehehThreedotsbelow-ar.init gafInvertedstroke-ar.init];
-@KernRehWawLoosen = [alefHamzabelow-ar alefWavyhamzabelow-ar beh-ar.init beeh-ar.init peh-ar.init beheh-ar.init behThreedotsupabove-ar.init behThreedotsupbelow-ar.init tehThreedotsupbelow-ar.init behTwodotsbelowDotabove-ar.init behTwodotsbelowDotabove-ar.init behVinvertedbelow-ar.init yeh-ar.init e-ar.init yehThreedotsbelow-ar.init yehVinverted-farsi.init yeh-farsi.init yehVabove-ar.init yehbarree-ar yehbarreeHamzaabove-ar noonDotbelow-ar.init noonTwodotsbelow-ar.init noonThreedotsabove-ar.init fehThreedotsbelow-ar.init fehTwodotsbelow-ar.init heh-ar.init.hooked hehgoal-ar.init hehgoalHamzaabove-ar.init lamThreedotsbelow-ar lamThreedotsbelow-ar.init];
+@KernRehWawGaf = [keheh-ar kafRing-ar gaf-ar gafRing-ar ngoeh-ar gueh-ar gafThreedots-ar kehehDotabove-ar kehehThreedotsabove-ar kehehTwodotshorizontalabove-ar kehehThreedotsbelow-ar gafInvertedstroke-ar kehehVabove-ar kehehElongatedhamzaabove-ar kehehThreedotsupbelow-ar kehehTwodotsverticalbelow-ar keheh-ar.init kafRing-ar.init gaf-ar.init gafRing-ar.init ngoeh-ar.init gueh-ar.init gafThreedots-ar.init kehehDotabove-ar.init kehehThreedotsabove-ar.init kehehThreedotsupbelow-ar.init kehehTwodotshorizontalabove-ar.init kehehThreedotsbelow-ar.init gafInvertedstroke-ar.init kehehVabove-ar.init kehehElongatedhamzaabove-ar.init kehehThreedotsupbelow-ar.init kehehTwodotsverticalbelow-ar.init kaf-ar.init kafDotabove-ar.init kafDotbelow-ar.init ng-ar.init kafTwodotshorizontalabove-ar.init kafThreedotsbelow-ar.init];
+@KernRehWawLoosen = [alefHamzabelow-ar alefWavyhamzabelow-ar beh-ar.init beeh-ar.init peh-ar.init beheh-ar.init behThreedotsupabove-ar.init behThreedotsupbelow-ar.init tehThreedotsupbelow-ar.init behTwodotsbelowDotabove-ar.init behTwodotsbelowDotabove-ar.init behVinvertedbelow-ar.init behVbelow-ar.init behhamzaabove-ar.init behMeemabove-ar.init pehMeemabove-ar.init pehVabove-ar.init yeh-ar.init e-ar.init yehThreedotsbelow-ar.init yehVinverted-farsi.init yeh-farsi.init yehVabove-ar.init yehbarree-ar yehbarreeHamzaabove-ar yehTwodotsabove-farsi.init yehThreedotsabove-farsi.init yehTwoabove-farsi.init yehThreeabove-farsi.init yehFourbelow-farsi.init yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowDotabove-ar.init noonDotbelow-ar.init noonTwodotsbelow-ar.init noonThreedotsabove-ar.init fehThreedotsbelow-ar.init fehTwodotsbelow-ar.init fehThreedotsupbelow-ar.init fehDotbelowThreedotsabove-ar.init heh-ar.init.hooked hehgoal-ar.init hehgoalHamzaabove-ar.init lamThreedotsbelow-ar lamThreedotsbelow-ar.init];
 @KernRehWawLoosenMore = [behThreedotshorizontalbelow-ar.init];
 @Lam1Allah = [lam-ar.init.allah1 lam-ar.medi.allah1];
 @Lam1NoAllah = [lam-ar.init lam-ar.medi];
@@ -74,15 +74,17 @@
 @LowHamzaComposed = [wawHamzaabove-ar yehHamzaabove-ar hehHamzaabove-ar hehgoalHamzaabove-ar wawHamzaabove-ar.fina yehHamzaabove-ar.fina hehHamzaabove-ar.fina hehgoalHamzaabove-ar.fina yehHamzaabove-ar.medi hehgoalHamzaabove-ar.medi yehHamzaabove-ar.init hehgoalHamzaabove-ar.init];
 @Maddah = [madda-ar];
 @Maddah.small = [madda-ar];
-@NarrowIni = [teh-ar.init theh-ar.init behDotless-ar.init tteh-ar.init tteheh-ar.init tehRing-ar.init tehThreedotsdown-ar.init teheh-ar.init behVabove-ar.init yehHamzaabove-ar.init alefMaksura-ar.init highhamzaYeh-ar.init noon-ar.init noonghunna-ar.init rnoon-ar.init noonTahabove-ar.init noonVabove-ar.init lam-ar.init lamVabove-ar.init lamDotabove-ar.init lamThreedotsabove-ar.init lamBar-ar.init];
+@NarrowIni = [teh-ar.init theh-ar.init behDotless-ar.init tteh-ar.init tteheh-ar.init tehRing-ar.init tehThreedotsdown-ar.init teheh-ar.init behVabove-ar.init tehTehabove-ar.init tehVabove-ar.init ttehVabove-ar.init yehHamzaabove-ar.init alefMaksura-ar.init highhamzaYeh-ar.init noon-ar.init noonghunna-ar.init rnoon-ar.init noonTahabove-ar.init noonVabove-ar.init noonThreedotsabove-ar.init noonVinvertedabove-ar.init noonAfrican-ar.init lam-ar.init lamVabove-ar.init lamDotabove-ar.init lamThreedotsabove-ar.init lamBar-ar.init lamDoublebar-ar.init lamTahabove-ar.init];
 @RehAll = [jeh-ar.fina reh-ar.fina rehDotbelow-ar.fina rehDotbelowdotabove-ar.fina rehFourdots-ar.fina rehHamzaabove-ar.fina rehLoop-ar.fina rehNoonabove-ar.fina rehRing-ar.fina rehStroke-ar.fina rehTwodots-ar.fina rehTwodotshorizontalaboveTahabove-ar.fina rehTwodotsverticalabove-ar.fina rehVbelow-ar.fina rehVinvertedabove-ar.fina rehv-ar.fina rreh-ar.fina zain-ar.fina zainVinvertedabove-ar.fina jeh-ar reh-ar rehDotbelow-ar rehDotbelowdotabove-ar rehFourdots-ar rehHamzaabove-ar rehLoop-ar rehNoonabove-ar rehRing-ar rehStroke-ar rehTwodots-ar rehTwodotshorizontalaboveTahabove-ar rehTwodotsverticalabove-ar rehVbelow-ar rehVinvertedabove-ar rehv-ar rreh-ar zain-ar zainVinvertedabove-ar];
-@RehKernAlef = [alefMadda-ar alefHamzaabove-ar alef-ar alefWavyhamzaabove-ar highhamzaAlef-ar alefWasla-ar alefTwoabove-ar alefThreeabove-ar];
+@RehKernAlef = [alefMadda-ar alefHamzaabove-ar alef-ar alefWavyhamzaabove-ar highhamzaAlef-ar alefWasla-ar alefTwoabove-ar alefThreeabove-ar alefFathaattached-ar alefLeftmiddlestroke-ar alefRounddotaboveattached-ar alefRightrounddotattached-ar alefLeftrounddotattached-ar alefDotabove-ar alefRightmiddlestrokeDotabove-ar alefRighthamzaattached-ar alefLefthamzaattached-ar];
 @RehKernOther = [teh-ar.init theh-ar.init behDotless-ar.init tteh-ar.init tteheh-ar.init tehThreedotsdown-ar.init teheh-ar.init behVabove-ar.init yehHamzaabove-ar.init alefMaksura-ar.init highhamzaYeh-ar.init noon-ar.init noonghunna-ar.init rnoon-ar.init noonTahabove-ar.init noonVabove-ar.init dal-ar thal-ar ddal-ar dahal-ar dul-ar dalThreedotsdown-ar dalFourdots-ar dalVinvertedabove-ar heh-ar heh-ar.init heh-ar.knotted heh-ar.init.hooked hehgoal-ar hehgoalHamzaabove-ar tehMarbuta-ar hehHamzaabove-ar ae-ar tehMarbutagoal-ar hehDoachashmee-ar hehDoachashmee-ar.init hehVinvertedabove-ar hehVinvertedabove-ar.init lam-ar lam-ar.init lamVabove-ar lamVabove-ar.init lamDotabove-ar lamDotabove-ar.init lamThreedotsabove-ar lamThreedotsabove-ar.init lamBar-ar lamBar-ar.init meem-ar.init meem-ar.sindhi meemDotabove-ar.init meemDotabove-ar.sindhi qaf-ar.init qafDotless-ar.init qafDotabove-ar.init qafThreedotsabove-ar.init];
-@RehKernOtherMB = [beh-ar teh-ar theh-ar behDotless-ar tteh-ar tteheh-ar beeh-ar tehRing-ar tehThreedotsdown-ar peh-ar teheh-ar beheh-ar behThreedotshorizontalbelow-ar behThreedotsupabove-ar behThreedotsupbelow-ar tehThreedotsupbelow-ar behTwodotsbelowDotabove-ar behVinvertedbelow-ar behVabove-ar sad-ar sad-ar.init dad-ar dad-ar.init sadTwodotsbelow-ar sadTwodotsbelow-ar.init sadThreedots-ar sadThreedots-ar.init dadDotbelow-ar dadDotbelow-ar.init seen-ar seen-ar.init sheen-ar sheen-ar.init seenFourdotsabove-ar seenFourdotsabove-ar.init seenTahTwodotshorizontalabove-ar seenTahTwodotshorizontalabove-ar.init feh-ar fehDotless-ar veh-ar peheh-ar kaf-ar kafDotabove-ar ng-ar jeem-ar jeem-ar.init hah-ar hah-ar.init khah-ar khah-ar.init hahHamzaabove-ar hahHamzaabove-ar.init hahTwodotsverticalabove-ar hahTwodotsverticalabove-ar.init nyeh-ar.init dyeh-ar.init hahThreedotsabove-ar hahThreedotsabove-ar.init tcheh-ar.init tcheheh-ar.init tchehDotabove-ar.init hahTwodotshorizontalabove-ar hahTwodotshorizontalabove-ar.init hahThreedotsupbelow-ar.init hahTahbelow-ar.init hahTahTwodotshorizontalbelow-ar.init hahTahabove-ar hahTahabove-ar.init meem-ar meemDotabove-ar kafswash-ar kafswash-ar.init];
+@RehKernOtherMB = [beh-ar teh-ar theh-ar behDotless-ar tteh-ar tteheh-ar beeh-ar tehRing-ar tehThreedotsdown-ar peh-ar teheh-ar beheh-ar behThreedotshorizontalbelow-ar behThreedotsupabove-ar behThreedotsupbelow-ar tehThreedotsupbelow-ar behTwodotsbelowDotabove-ar behVinvertedbelow-ar behVabove-ar behVbelow-ar behhamzaabove-ar behMeemabove-ar pehMeemabove-ar tehTehabove-ar pehVabove-ar tehVabove-ar ttehVabove-ar sad-ar sad-ar.init dad-ar dad-ar.init sadTwodotsbelow-ar sadTwodotsbelow-ar.init sadThreedots-ar sadThreedots-ar.init dadDotbelow-ar dadDotbelow-ar.init sadThreedotsbelow-ar sadThreedotsbelow-ar.init seen-ar seen-ar.init sheen-ar sheen-ar.init seenFourdotsabove-ar seenFourdotsabove-ar.init seenTahTwodotshorizontalabove-ar seenTahTwodotshorizontalabove-ar.init seenTwodotsverticalabove-ar seenTwodotsverticalabove-ar.init seenTahTwodotshorizontalabove-ar seenTahTwodotshorizontalabove-ar.init seenFourabove-ar seenFourabove-ar.init seenVinvertedabove-ar seenVinvertedabove-ar.init feh-ar fehDotless-ar veh-ar peheh-ar fehAfrican-ar kaf-ar kafDotabove-ar ng-ar kafswash-ar kafswash-ar.init meemThreedotsabove-ar meem-ar meemDotabove-ar jeem-ar hah-ar khah-ar hahHamzaabove-ar hahTwodotsverticalabove-ar hahThreedotsabove-ar hahTwodotshorizontalabove-ar hahTahabove-ar tchehVabove-ar jeem-ar.init hah-ar.init khah-ar.init hahHamzaabove-ar.init hahTwodotsverticalabove-ar.init hahThreedotsabove-ar.init hahTwodotshorizontalabove-ar.init hahTahabove-ar.init nyeh-ar.init dyeh-ar.init tcheh-ar.init tcheheh-ar.init tchehDotabove-ar.init hahThreedotsupbelow-ar.init hahTahbelow-ar.init hahTahTwodotshorizontalbelow-ar.init jeemTwodotsabove-ar.init jeemThreedotsabove-ar.init jeemThreedotsbelow-ar.init];
+@RehKernOtherMBwide = [hahFourbelow-ar.init hahVinvertedbelow-ar.init tchehVabove-ar.init];
+@RehKernWideAlef = [alefToprightfathaattached-ar alefRightmiddlestroke-ar alefToprightfathaattachedLeftring-ar alefRightmiddlestrokeLeftring-ar alefToprightfathaattachedDotabove-ar];
 @RehWawNothingBelow = [wawHamzaabove-ar waw-ar highhamzaWaw-ar uHamzaabove-ar wawring-ar kirghizoe-ar oe-ar u-ar yu-ar kirghizyu-ar wawTwodots-ar ve-ar wawDotabove-ar wawTwoabove-ar wawThreeAbove-ar wawDotcenter-ar reh-ar zain-ar rreh-ar rehNoonabove-ar rehv-ar rehTwodots-ar jeh-ar rehFourdots-ar rehTwodotsverticalabove-ar rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar zainVinvertedabove-ar rehVinvertedabove-ar rehStroke-ar rehLoop-ar wawHamzaabove-ar.fina waw-ar.fina highhamzaWaw-ar.fina uHamzaabove-ar.fina wawring-ar.fina kirghizoe-ar.fina oe-ar.fina u-ar.fina yu-ar.fina kirghizyu-ar.fina wawTwodots-ar.fina ve-ar.fina wawDotabove-ar.fina wawTwoabove-ar.fina wawThreeAbove-ar.fina wawDotcenter-ar.fina reh-ar.fina zain-ar.fina rreh-ar.fina rehNoonabove-ar.fina rehv-ar.fina rehTwodots-ar.fina jeh-ar.fina rehFourdots-ar.fina rehTwodotsverticalabove-ar.fina rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar.fina zainVinvertedabove-ar.fina rehVinvertedabove-ar.fina rehStroke-ar.fina rehLoop-ar.fina];
-@RehWawTighten = [wawHamzaabove-ar oe-ar u-ar kirghizyu-ar wawTwodots-ar ve-ar wawTwoabove-ar wawThreeAbove-ar wawDotcenter-ar rreh-ar rehNoonabove-ar rehv-ar rehTwodots-ar jeh-ar rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar zainVinvertedabove-ar wawHamzaabove-ar.fina oe-ar.fina u-ar.fina kirghizyu-ar.fina wawTwodots-ar.fina ve-ar.fina wawTwoabove-ar.fina wawThreeAbove-ar.fina wawDotcenter-ar.fina rreh-ar.fina rehNoonabove-ar.fina rehv-ar.fina rehTwodots-ar.fina jeh-ar.fina rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar.fina zainVinvertedabove-ar.fina reh-ar zain-ar rehRing-ar rehDotbelow-ar rehVbelow-ar rehTwodotsverticalabove-ar rehStroke-ar rehLoop-ar];
+@RehWawTighten = [wawHamzaabove-ar oe-ar u-ar kirghizyu-ar wawTwodots-ar ve-ar wawTwoabove-ar wawThreeAbove-ar wawDotcenter-ar rreh-ar rehNoonabove-ar rehv-ar rehTwodots-ar jeh-ar rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar zainVinvertedabove-ar rehFourdots-ar rehVinvertedabove-ar wawHamzaabove-ar.fina oe-ar.fina u-ar.fina kirghizyu-ar.fina wawTwodots-ar.fina ve-ar.fina wawTwoabove-ar.fina wawThreeAbove-ar.fina wawDotcenter-ar.fina rreh-ar.fina rehNoonabove-ar.fina rehv-ar.fina rehTwodots-ar.fina jeh-ar.fina rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar.fina zainVinvertedabove-ar.fina rehFourdots-ar.fina rehVinvertedabove-ar.fina reh-ar zain-ar rehRing-ar rehDotbelow-ar rehVbelow-ar rehTwodotsverticalabove-ar rehStroke-ar rehLoop-ar];
 @RehWawTightenMore = [waw-ar highhamzaWaw-ar wawring-ar kirghizoe-ar yu-ar wawDotabove-ar waw-ar.fina highhamzaWaw-ar.fina wawring-ar.fina kirghizoe-ar.fina yu-ar.fina wawDotabove-ar.fina reh-ar.fina zain-ar.fina rehRing-ar.fina rehDotbelow-ar.fina rehVbelow-ar.fina rehTwodotsverticalabove-ar.fina rehStroke-ar.fina rehLoop-ar.fina];
-@RehWawTightenToGaf = [wawHamzaabove-ar waw-ar highhamzaWaw-ar wawring-ar kirghizoe-ar oe-ar u-ar yu-ar kirghizyu-ar wawTwodots-ar ve-ar wawDotabove-ar wawDotcenter-ar reh-ar zain-ar rreh-ar rehv-ar rehRing-ar rehDotbelow-ar rehVbelow-ar rehDotbelowdotabove-ar rehTwodots-ar jeh-ar rehTwodotsverticalabove-ar rehHamzaabove-ar rehVinvertedabove-ar rehStroke-ar rehLoop-ar zainVinvertedabove-ar wawHamzaabove-ar.fina waw-ar.fina highhamzaWaw-ar.fina wawring-ar.fina kirghizoe-ar.fina oe-ar.fina u-ar.fina yu-ar.fina kirghizyu-ar.fina wawTwodots-ar.fina ve-ar.fina wawDotabove-ar.fina wawDotcenter-ar.fina reh-ar.fina zain-ar.fina rreh-ar rehv-ar.fina rehRing-ar.fina rehDotbelow-ar.fina rehVbelow-ar.fina rehDotbelowdotabove-ar.fina rehTwodots-ar.fina jeh-ar.fina rehFourdots-ar.fina rehTwodotsverticalabove-ar.fina rehHamzaabove-ar.fina rehVinvertedabove-ar.fina rehStroke-ar.fina rehLoop-ar.fina zainVinvertedabove-ar.fina];
+@RehWawTightenToGaf = [waw-ar wawHamzaabove-ar highhamzaWaw-ar wawring-ar kirghizoe-ar oe-ar u-ar yu-ar kirghizyu-ar wawTwodots-ar ve-ar wawDotabove-ar wawDotcenter-ar reh-ar zain-ar rreh-ar rehv-ar rehRing-ar rehDotbelow-ar rehVbelow-ar rehDotbelowdotabove-ar rehTwodots-ar jeh-ar rehTwodotsverticalabove-ar rehHamzaabove-ar rehVinvertedabove-ar rehStroke-ar rehLoop-ar zainVinvertedabove-ar wawHamzaabove-ar.fina waw-ar.fina highhamzaWaw-ar.fina wawring-ar.fina kirghizoe-ar.fina oe-ar.fina u-ar.fina yu-ar.fina kirghizyu-ar.fina wawTwodots-ar.fina ve-ar.fina wawDotabove-ar.fina wawDotcenter-ar.fina reh-ar.fina zain-ar.fina rreh-ar.fina rehv-ar.fina rehRing-ar.fina rehDotbelow-ar.fina rehVbelow-ar.fina rehDotbelowdotabove-ar.fina rehTwodots-ar.fina jeh-ar.fina rehFourdots-ar.fina rehTwodotsverticalabove-ar.fina rehHamzaabove-ar.fina rehVinvertedabove-ar.fina rehStroke-ar.fina rehLoop-ar.fina zainVinvertedabove-ar.fina];
 @RightLinkFina = [ae-ar.fina alef-ar.fina alefBottomrightkasraattached-ar.fina alefBottomrightkasraattachedDotabove-ar.fina alefBottomrightkasraattachedLeftring-ar.fina alefDotabove-ar.fina alefFathaattached-ar.fina alefHamzaabove-ar.fina alefHamzabelow-ar.fina alefKasraattached-ar.fina alefLefthamzaattached-ar.fina alefLeftmiddlestroke-ar.fina alefLeftrounddotattached-ar.fina alefMadda-ar.fina alefRighthamzaattached-ar.fina alefRightmiddlestroke-ar.fina alefRightmiddlestrokeDotabove-ar.fina alefRightmiddlestrokeLeftring-ar.fina alefRightrounddotattached-ar.fina alefRounddotaboveattached-ar.fina alefRounddotbelowattached-ar.fina alefThreeabove-ar.fina alefToprightfathaattached-ar.fina alefToprightfathaattachedDotabove-ar.fina alefToprightfathaattachedLeftring-ar.fina alefTwoabove-ar.fina alefWasla-ar.fina alefWavyhamzaabove-ar.fina alefWavyhamzabelow-ar.fina dahal-ar.fina dal-ar.fina dalDotbelow-ar.fina dalDotbelowTah-ar.fina dalFourdots-ar.fina dalRing-ar.fina dalThreedotsbelow-ar.fina dalThreedotsdown-ar.fina dalTwodotsverticalbelowTah-ar.fina dalVinvertedabove-ar.fina dalVinvertedbelow-ar.fina ddahal-ar.fina ddal-ar.fina dul-ar.fina hehHamzaabove-ar.fina highhamzaAlef-ar.fina highhamzaWaw-ar.fina jeh-ar.fina kirghizoe-ar.fina kirghizyu-ar.fina oe-ar.fina reh-ar.fina rehDotbelow-ar.fina rehDotbelowdotabove-ar.fina rehFourdots-ar.fina rehHamzaabove-ar.fina rehLoop-ar.fina rehNoonabove-ar.fina rehRing-ar.fina rehStroke-ar.fina rehTwodots-ar.fina rehTwodotshorizontalaboveTahabove-ar.fina rehTwodotsverticalabove-ar.fina rehVbelow-ar.fina rehVinvertedabove-ar.fina rehv-ar.fina rreh-ar.fina tehMarbuta-ar.fina tehMarbutagoal-ar.fina thal-ar.fina u-ar.fina uHamzaabove-ar.fina ve-ar.fina verticaltail-ar.fina waw-ar.fina wawDotabove-ar.fina wawDotcenter-ar.fina wawHamzaabove-ar.fina wawStraight-ar.fina wawThreeAbove-ar.fina wawTwoabove-ar.fina wawTwodots-ar.fina wawring-ar.fina yehRohingya-ar.fina yehTail-ar.fina yehbarree-ar.fina yehbarreeHamzaabove-ar.fina yu-ar.fina zain-ar.fina zainVinvertedabove-ar.fina];
 @RightLinkIsol = [ae-ar alef-ar alefBottomrightkasraattached-ar alefBottomrightkasraattachedDotabove-ar alefBottomrightkasraattachedLeftring-ar alefDotabove-ar alefFathaattached-ar alefHamzaabove-ar alefHamzabelow-ar alefKasraattached-ar alefLefthamzaattached-ar alefLeftmiddlestroke-ar alefLeftrounddotattached-ar alefMadda-ar alefRighthamzaattached-ar alefRightmiddlestroke-ar alefRightmiddlestrokeDotabove-ar alefRightmiddlestrokeLeftring-ar alefRightrounddotattached-ar alefRounddotaboveattached-ar alefRounddotbelowattached-ar alefThreeabove-ar alefToprightfathaattached-ar alefToprightfathaattachedDotabove-ar alefToprightfathaattachedLeftring-ar alefTwoabove-ar alefWasla-ar alefWavyhamzaabove-ar alefWavyhamzabelow-ar dahal-ar dal-ar dalDotbelow-ar dalDotbelowTah-ar dalFourdots-ar dalRing-ar dalThreedotsbelow-ar dalThreedotsdown-ar dalTwodotsverticalbelowTah-ar dalVinvertedabove-ar dalVinvertedbelow-ar ddahal-ar ddal-ar dul-ar hehHamzaabove-ar highhamzaAlef-ar highhamzaWaw-ar jeh-ar kirghizoe-ar kirghizyu-ar oe-ar reh-ar rehDotbelow-ar rehDotbelowdotabove-ar rehFourdots-ar rehHamzaabove-ar rehLoop-ar rehNoonabove-ar rehRing-ar rehStroke-ar rehTwodots-ar rehTwodotshorizontalaboveTahabove-ar rehTwodotsverticalabove-ar rehVbelow-ar rehVinvertedabove-ar rehv-ar rreh-ar tehMarbuta-ar tehMarbutagoal-ar thal-ar u-ar uHamzaabove-ar ve-ar verticaltail-ar waw-ar wawDotabove-ar wawDotcenter-ar wawHamzaabove-ar wawStraight-ar wawThreeAbove-ar wawTwoabove-ar wawTwodots-ar wawring-ar yehRohingya-ar yehTail-ar yehbarree-ar yehbarreeHamzaabove-ar yu-ar zain-ar zainVinvertedabove-ar];
 @ShaddaKasraLigatures = [shadda_kasratan-ar shadda_kasra-ar];
@@ -1669,10 +1671,10 @@ markClass strokeshortcomb.case <anchor 414 651> @_stroke;
 #  Language Systems
 #**********************************
 languagesystem arab dflt;
-languagesystem arab KUR;
-# Kurdish
 languagesystem arab KIR;
 # Kyrgyz
+languagesystem arab KUR;
+# Kurdish
 languagesystem arab RHG;
 # Rohingya -- supported by Harfbuzz
 languagesystem arab SND;
@@ -1686,24 +1688,25 @@ languagesystem latn dflt;
 @MarksBelow = [@_diaB];
 @MarksAny = [@_diaA @_diaB];
 # Notes:
-#   I've tried to arrange the lookups themselves, and then the features that refer to them,
-#   grouped into ordered passes as the rendering engines (esp Harfbuzz) will execute them.
-#   The boundaries between passes are indicated by the comment 
+#   The lookups and then the features are arranged and grouped into ordered passes
+#   as the rendering engines (esp Harfbuzz) will execute them.
+#   The boundaries between passes are indicated by the comment
 #       # HB PAUSE
 #   in the code.
-#******************************
-# GSUB (Subtitution) lookups **
-#******************************
+#**********************************
+# GSUB (Subtitution) lookups
+#**********************************
 #---  rtlm feature  ---
 lookup Mirror {
+    lookupflag IgnoreMarks;
     sub @cno_rtl by @c_rtl;
 } Mirror;
 
 # HB PAUSE
 #---  ccmp feature  ---
+    
 
-# Sch
-#********************
+# Sch or Har
 # For full UTR53 stacks, this decomposition will already have been done.
 # Howver, as of 2021-09 Harfbuzz does NOT do this See https://github.com/harfbuzz/harfbuzz/issues/3179
 lookup DecomposeForColor {
@@ -1713,33 +1716,31 @@ lookup DecomposeForColor {
     sub alefHamzabelow-ar by alef-ar hamzabelow-ar;
 } DecomposeForColor;
 
-#********************
 # Font rendering check
 #
 # The following three lookups change "RenderingUnknown" to "RenderingOpenType"
-lookup FontCheck_Unknow {
+lookup _FontCheck_Unknow {
     lookupflag IgnoreMarks;
     sub [U n k o w] by [O p e T y];
-} FontCheck_Unknow;
+} _FontCheck_Unknow;
 
-lookup FontCheck_n {
+lookup _FontCheck_n {
     lookupflag IgnoreMarks;
     sub n by p e;
-} FontCheck_n;
+} _FontCheck_n;
 
 lookup FontCheck {
     lookupflag IgnoreMarks;
-    sub [R] e n d e r i n g U' lookup FontCheck_Unknow n' lookup FontCheck_Unknow k' lookup FontCheck_Unknow n' o' lookup FontCheck_Unknow w' lookup FontCheck_Unknow n' lookup FontCheck_n;
+    sub [R] e n d e r i n g U' lookup _FontCheck_Unknow n' lookup _FontCheck_Unknow k' lookup _FontCheck_Unknow n' o' lookup _FontCheck_Unknow w' lookup _FontCheck_Unknow n' lookup _FontCheck_n;
 } FontCheck;
 
-#********************
 # Reordering of madda: moving it beyond any mark with 0 < ccc < 230
 #
 # For full UTR53 stacks this will already have been executed, thus the following will do nothing.
 # Otherwise (e.g. for HarfBuzz as of 2021-09), we can't do a lot of reordering but we'll move 
 # the madda out past vowels in a way that is compatible with UTR53.
 @MaddaSkip = [@UTR53_shadda @UTR53_fixedPos @UTR53_alef @UTR53_220MCM @UTR53_220other];
-lookup ReorderMaddaVowel1_target {
+lookup _ReorderMaddaVowel1 {
     lookupflag 0;
     sub shadda-ar by shadda-ar madda-ar;
     sub damma-ar by damma-ar madda-ar;
@@ -1791,14 +1792,14 @@ lookup ReorderMaddaVowel1_target {
     sub tonetwodotsbelow-ar by tonetwodotsbelow-ar madda-ar;
     sub wavyhamzabelow-ar by wavyhamzabelow-ar madda-ar;
     sub wordmaddabelow-ar by wordmaddabelow-ar madda-ar;
-} ReorderMaddaVowel1_target;
+} _ReorderMaddaVowel1;
 
 lookup ReorderMaddaVowel1 {
     lookupflag 0;
-    sub madda-ar @MaddaSkip' lookup ReorderMaddaVowel1_target;
+    sub madda-ar @MaddaSkip' lookup _ReorderMaddaVowel1;
 } ReorderMaddaVowel1;
 
-lookup ReorderMaddaVowel2_target {
+lookup _ReorderMaddaVowel2 {
     lookupflag 0;
     sub madda-ar shadda-ar by shadda-ar;
     sub madda-ar damma-ar by damma-ar;
@@ -1850,21 +1851,20 @@ lookup ReorderMaddaVowel2_target {
     sub madda-ar tonetwodotsbelow-ar by tonetwodotsbelow-ar;
     sub madda-ar wavyhamzabelow-ar by wavyhamzabelow-ar;
     sub madda-ar wordmaddabelow-ar by wordmaddabelow-ar;
-} ReorderMaddaVowel2_target;
+} _ReorderMaddaVowel2;
 
 lookup ReorderMaddaVowel2 {
     lookupflag 0;
-    sub madda-ar' lookup ReorderMaddaVowel2_target @MaddaSkip madda-ar;
+    sub madda-ar' lookup _ReorderMaddaVowel2 @MaddaSkip madda-ar;
 } ReorderMaddaVowel2;
 
-#********************
 # Replace Arabic punctuation glyphs with Latin ones:
+# Has no effect in Harmattan:
 lookup LatinPunctuation {
     lookupflag 0;
     sub @cno_latn by @c_latn;
 } LatinPunctuation;
 
-#********************
 # Kasra position
 lookup KasraLow {
     lookupflag 0;
@@ -1877,30 +1877,29 @@ lookup KasraHigh {
 } KasraHigh;
 
 # HB PAUSE
-#********************
-# for basic Arabic shaping features fina, medi, init:
-#********************
+#---  fina feature  ---
 lookup ltrFina {
     lookupflag IgnoreMarks;
-    sub [@DualLinkIsol @RightLinkIsol] by [@DualLinkFina @RightLinkFina];
+    sub @DualLinkIsol by @DualLinkFina;
+    sub @RightLinkIsol by @RightLinkFina;
 } ltrFina;
 
 # HB PAUSE
+#---  medi feature  ---
 lookup ltrMedi {
     lookupflag IgnoreMarks;
     sub @DualLinkIsol by @DualLinkMedi;
 } ltrMedi;
 
 # HB PAUSE
+#---  init  feature  ---
 lookup ltrInit {
     lookupflag IgnoreMarks;
     sub @DualLinkIsol by @DualLinkInit;
 } ltrInit;
 
 # HB PAUSE
-#********************
-# for feature rlig: required ligatures 
-#********************
+#---  rlig feature  ---
 #********
 # Allah "ligature" (implemented by variant forms for glyphs rather than by ligature glyph):
 lookup _AllahSub_Alef {
@@ -1953,7 +1952,6 @@ lookup AllahLigatures {
     sub @Lam1NoAllah' lookup _AllahSub_Lam1 kasra-ar' lam-ar.medi' lookup _AllahSub_Lam2 shadda-ar' lookup _AllahSub_Shadda_insertA @HehNoAllah' lookup _AllahSub_Heh;
 } AllahLigatures;
 
-#********
 # Ligatures of marks
 # NB: This includes required ligatures other than the shadda-kasra rule, which
 #     must execute after cv67; See notes with feature liga.
@@ -2013,7 +2011,7 @@ lookup HamzaLigatures {
 
 # Shadda ligation
 # Including graphemejoinercomb allows it to interrupt the ligature formation,
-#		otherwise the lookupflag causes it to be ignored.
+#   otherwise the lookupflag causes it to be ignored.
 @ShaddaLigatureFilter = [@ShaddaMarks @ShaddaKasraMarks shadda-ar alefabove-ar graphemejoinercomb];
 lookup ShaddaLigatures {
     lookupflag UseMarkFilteringSet @ShaddaLigatureFilter;
@@ -2120,6 +2118,7 @@ lookup MeemAlternate {
 #********************
 # Heh Alternates: TypeTuner lookups:
 lookup SindhiHeh {
+    # TypeTuner only
     lookupflag IgnoreMarks;
     sub heh-ar.medi by heh-ar.medi.knottedHigh;
     sub heh-ar.fina by heh-ar.fina.knottedHigh;
@@ -2127,6 +2126,7 @@ lookup SindhiHeh {
 } SindhiHeh;
 
 lookup UrduHeh {
+    # TypeTuner only}
     lookupflag IgnoreMarks;
     sub heh-ar.init by heh-ar.init.hooked;
     sub heh-ar.medi by heh-ar.medi.hooked;
@@ -2137,7 +2137,9 @@ lookup UrduHeh {
 } UrduHeh;
 
 lookup KurdishHeh {
+    # TypeTuner only
     lookupflag IgnoreMarks;
+    # Used only by TypeTuner
     sub heh-ar.fina by heh-ar.fina.knottedHigh;
     sub heh-ar by heh-ar.knotted;
 } KurdishHeh;
@@ -2145,7 +2147,7 @@ lookup KurdishHeh {
 # Heh alternates: cv48
 lookup HehAlternates {
     lookupflag IgnoreMarks;
-    #   0=default;              1=Sindhi;                        2=Urdu;             3=Kurdish
+    #   0=default                       1=Sindhi-style           2=Urdu-style        3=Kurdish-style
     sub heh-ar from [heh-ar.knotted heh-ar heh-ar.knotted];
     sub heh-ar.init from [heh-ar.init heh-ar.init.hooked heh-ar.init];
     sub heh-ar.medi from [heh-ar.medi.knottedHigh heh-ar.medi.hooked heh-ar.medi];
@@ -2174,8 +2176,10 @@ lookup YehHamzaAlternates {
 #********************
 # Kasra Alternates: cv62
 lookup KasraAlternates {
+    # cv62
     lookupflag 0;
-    # NB: This is writen so it doesn't matter which shadda-kasra behavior is active.
+    # NB: This is writen so it doesn't matter which shadda-kasra behavior is default.
+    #   0=default             1=lowered       2=raised
     sub kasra-ar.lowered from [kasra-ar.lowered kasra-ar];
     sub kasratan-ar.lowered from [kasratan-ar.lowered kasratan-ar];
     sub kasra-ar from [kasra-ar.lowered kasra-ar];
@@ -2448,8 +2452,8 @@ lookup AllahAlef {
     sub @AlefNoAllah' lam-ar.init.allah1 by @AlefAllah;
 } AllahAlef;
 
-#********************
-# Substitutions for subtendng marks
+# Subtending mark digits
+# Keep after cv82 (DigitAlternates)
 lookup SignWith_4digits_target {
     lookupflag IgnoreMarks;
     sub @cno_4 by @c_4;
@@ -2544,14 +2548,12 @@ lookup WideKashida {
     
 } WideKashida;
 
-#*********************
-#*********************
-# GSUB features     **
-#*********************
-#*********************
-# As best as I understand, these are arranged in the order MS & HB engines execute:
+#**********************************
+#  GSUB FEATURES
+#**********************************
+# These are intended to be arranged in the order MS & HB engines execute.
 feature rtlm {
-    # Right-to-left mirroring
+    # Right-To-Left Mirrored Forms
     lookup Mirror;
 } rtlm;
 
@@ -2564,10 +2566,8 @@ feature ccmp {
     lookup ReorderMaddaVowel1;
     lookup ReorderMaddaVowel2;
     script latn;
-    # Latin
     lookup LatinPunctuation;
     script arab;
-    # Arabic
     lookup DecomposeForColor;
     # Force other languages to include Arabic script lookups
     language KIR;
@@ -2590,7 +2590,6 @@ feature ccmp {
 feature fina {
     # Terminal Forms
     script arab;
-    # Arabic
     lookup ltrFina;
     # Force other languages to include Arabic script lookups
     language KIR;
@@ -2605,7 +2604,6 @@ feature fina {
 feature medi {
     # Medial Forms
     script arab;
-    # Arabic
     lookup ltrMedi;
     # Force other languages to include Arabic script lookups
     language KIR;
@@ -2620,7 +2618,6 @@ feature medi {
 feature init {
     # Initial Forms
     script arab;
-    # Arabic
     lookup ltrInit;
     # Force other languages to include Arabic script lookups
     language KIR;
@@ -2662,7 +2659,7 @@ feature calt {
             lookup DaggerAlefToLarge;
         ##      lookup ShortTailRehWaw ;   Lateef only; short-tail reh/waw variants disabled for now
 
-    # Sch only:        
+    # Sch only:
             
 
     # start of kerning substitutions
@@ -2675,7 +2672,7 @@ feature calt {
     # Kurdish
     lookup KurdishCALT;
     language RHG;
-    # Rohingya
+    #Rohingya
     lookup RohingyaCALT;
     language SND;
     # Sindhi
@@ -2694,25 +2691,49 @@ feature calt {
 feature salt {
     # Stylistic Alternates
     script arab;
-    # Arabic
     lookup AyahAlternates;
     # Force other languages to include Arabic script lookups
     language KIR;
+    # Kyrgyz
     language KUR;
+    # Kurdish
     language RHG;
+    # Rohingya
     language SND;
+    # Sindhi
     language URD;
+    # Urdu
     language WLF;
+    # Wolof
 } salt;
 
 #--- Character Variants ---
+# Character Variant 02 - Harmattan only
     
 
-# Character Variant 12 - Scheherazade only
+### ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
+# Arabic
+# Force other languages to include Arabic script lookups
+# Character Variant 08
+### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+# Arabic
+# Force other languages to include Arabic script lookups
+# end do - Harmattan
+# Character Variant 12 - Sch/Har
+    
+
 ### ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; };
 # Force other languages to include Arabic script lookups
 # language WLF;  -- but not this one since we enable it in the WolofCALT
-# end of do - Sch
+# end do - Sch or Har
+    
+
+# Character Variant 20
+### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+# Arabic
+# Force other languages to include Arabic script lookups
+# end do - Harmattan
+# Use meem alternates for languages other than Sindhi
 feature cv44 {
     # Character Variant 44
         cvParameters {
@@ -2728,13 +2749,12 @@ feature cv44 {
     };
 
     script arab;
-    # Arabic
     lookup MeemAlternate;
     # Force other languages to include Arabic script lookups
     language KIR;
     language KUR;
     language RHG;
-    # language SND  ;  -- but not this one since we enable it in SindhiCALT
+    # language SND; -- but not this one since we enable it in SindhiCALT
     language URD;
     language WLF;
 } cv44;
@@ -2762,14 +2782,12 @@ feature cv48 {
     };
 
     script arab;
-    # Arabic
     lookup HehAlternates;
     # Force other languages to include Arabic script lookups
     language KIR;
     language KUR;
-    language KUR;
-    language SND;
     language RHG;
+    language SND;
     language URD;
     language WLF;
 } cv48;
@@ -2781,7 +2799,7 @@ feature cv51 {
             name "Kyrgyz OE";
         };
 
-        ### ParamUILabelNameID { name 3 1 0x0409 "Loop" ; };
+        ### ParamUILabelNameID { name 3 1 0x0409 "Loop"      ; };
                 ParamUILabelNameID {
             name "Bar";
         };
@@ -2808,7 +2826,7 @@ feature cv54 {
             name "Yeh-Hamza";
         };
 
-        ### ParamUILabelNameID { name 3 1 0x0409 "Standard"   ; };
+        ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
                 ParamUILabelNameID {
             name "Right hamza";
         };
@@ -2834,9 +2852,9 @@ feature cv54 {
 # Character Variant 60
 ### ParamUILabelNameID { name 3 1 0x0409 "Small"    ; };
 # Same for latin & arabic:
-# end - Sch
+# end do - Sch or Har
+# Character Variant 62
 feature cv62 {
-    # Character Variant 62
         cvParameters {
                 FeatUILabelNameID {
             name "Kasra";
@@ -2879,8 +2897,8 @@ feature cv70 {
     lookup DammaAlternates;
 } cv70;
 
+# Character Variant 72
 feature cv72 {
-    # Character Variant 72
         cvParameters {
                 FeatUILabelNameID {
             name "Dammatan";
@@ -2902,27 +2920,20 @@ feature cv72 {
 } cv72;
 
 # Character Variant 74
-feature cv74 {
-        cvParameters {
-                FeatUILabelNameID {
-            name "Inverted Damma";
-        };
+    
 
-        ### ParamUILabelNameID { name 3 1 0x0409 "Default"        ; };
-                ParamUILabelNameID {
-            name "Hollow";
-        };
-
-    };
-
-    # Same for latin & arabic:
-    lookup DammaInvertedAlternates;
-} cv74;
-
+### ParamUILabelNameID { name 3 1 0x0409 "Default"        ; };
+# Same for latin & arabic:
+# end do - Sch or Harmattan
 # Character Variant 76
-    ### ParamUILabelNameID { name 3 1 0x0409 "Small"            ; };
+    
+
+### ParamUILabelNameID { name 3 1 0x0409 "Small"            ; };
+# Same for latin & arabic:
+# end do - Sch or Harmattan
+    ### ParamUILabelNameID { name 3 1 0x0409 "Default"          ; };
     # Same for latin & arabic:
-    # end do - Sch
+    # end do - Lateef
         feature cv76 {
                 cvParameters {
                         FeatUILabelNameID {
@@ -2931,6 +2942,10 @@ feature cv74 {
 
                         ParamUILabelNameID {
                 name "Large";
+            };
+
+                        ParamUILabelNameID {
+                name "Small";
             };
 
         };
@@ -2988,6 +3003,7 @@ feature cv80 {
 # Character Variant 81
 ### ParamUILabelNameID { name 3 1 0x0409 "Calligraphic" ; };
 # Same for latin and arabic:
+# end do - Sch
 feature cv82 {
     # Character Variant 82
         cvParameters {
@@ -3037,49 +3053,49 @@ feature cv84 {
     lookup CommaAlternates;
 } cv84;
 
-feature cv85 {
     # Character Variant 85
-        cvParameters {
-                FeatUILabelNameID {
-            name "Decmal separator";
-        };
-
-        ### ParamUILabelNameID { name 3 1 0x0409 "Small reh"   ; };
-                ParamUILabelNameID {
-            name "Slash";
-        };
-
-    };
-
+    ### ParamUILabelNameID { name 3 1 0x0409 "Small reh"       ; };
     # Same for latin & arabic:
-    lookup DecimalSepAlternate;
-} cv85;
+    # end do - Sch or Lateef
+    # In order for the cv62 lookup to function, we need to execute the ShaddaKasraLigatures in the
+    # same or later pass as cv62 itself, and it has to execute whether or not cv62 feature is requested,
+    # so it has to be part of some other feature. In Harfbuzz, we could use either clig or liga, since they
+    # are pulled in from the Horizontal features that follow shaper-specific features and are, therefore
+    # executed at the same time as cvXX.
+    # When rendered with Uniscribe or Word, cv62 is never executed [as of this writing, at any rate].
+    # But we still need the ShaddaKasraLigatures lookup to fire. Presently Microsoft doesn't
+    # fire clig, so liga must be the one to use!
+    # Similarly, the yehbarree contextual substitution must execute after cv48, so they are
+    # included in liga (with the lookups ordered after cv48)
+    # Finally, the LamAlefLigatures must execute after we've ligated mark combinations, including shadda-kasra,
+    # or otherwise Word gets confused and ligates shadda-kasra in a sequence such as lam-shadda-alef-kasra.
+        feature cv85 {
+                cvParameters {
+                        FeatUILabelNameID {
+                name "Decmal separator";
+            };
 
-# In order for the cv62 lookup to function, we need to execute the ShaddaKasraLigatures in the
-# same or later pass as cv62 itself, and it has to execute whether or not cv62 feature is requested,
-# so it has to be part of some other feature. In Harfbuzz, we could use either clig, or liga since they
-# are pulled in from the Horizontal features that follow shaper-specific features and are, therefore
-# executed at the same time as cvXX.
-# When rendered with Uniscribe or Word, cv62 is never executed [as of this writing, at any rate].
-# But we still need the ShaddaKasraLigatures lookup to fire. Presently Microsoft doesn't 
-# fire clig, so liga must be the one to use!
-# Similarly, the yehbarree contextual substitution must execute after cv48, so they are
-# included in liga (with the lookups ordered after cv48)
-# Finally, the LamAlefLigatures must execute after we've ligated mark combinations, including shadda-kasra,
-# or otherwise Word gets confused and ligates shadda-kasra in a sequence such as lam-shadda-alef-kasra
+                        ParamUILabelNameID {
+                name "Slash";
+            };
+
+        };
+
+        lookup DecimalSepAlternate;
+    } cv85;
+
+
 feature liga {
     # Ligatures  -- we use this because liga is done in the same pass as cv62
     # Same for latin & arabic:
     lookup ShaddaKasraLigatures;
-    # Must execute after language-specific CALTs and cv62
-    #   lookup YehBarreeToWideAlways;    # Must execute after language-specific CALTs and cv48
-    #   lookup YehBarreeToWideWithMarks; # Must execute after language-specific CALTs and cv48
-    lookup LamAlefLigatures;
-    # Must execute after all mark ligatures (including cv62)
-    lookup AllahAlef;
-    # Must execute after lam-alef lig
+    # Must be after language-specific CALTs and cv62
+    
     lookup SignWithDigits;
-    # Must execute after cv82
+    lookup LamAlefLigatures;
+    # Must be after all mark ligatures (including cv62)
+    lookup AllahAlef;
+    # Must be after lam-alef lig
 } liga;
 
 # Lateef only:
@@ -3184,6 +3200,10 @@ lookup OldStyleKerning {
     #gr
     #gr   // otherwise most can tighten to alef
     #gr   cRehKernAlef {advance.x -= 130m} / (cRehWawTighten cRehWawTightenMore) MARKSBELOW _ ;
+    # Alefs with stuff attached at the top-right - need more kerning.
+    pos [@RehWawTighten @RehWawTightenMore]' <-250 0 -250 0> @RehKernWideAlef;
+    pos [@RehWawTighten @RehWawTightenMore]' <-250 0 -250 0> @MarksBelow @RehKernWideAlef;
+    pos [@RehWawTighten @RehWawTightenMore]' <-250 0 -250 0> @MarksBelow @MarksBelow @RehKernWideAlef;
     pos [@RehWawTighten @RehWawTightenMore]' <-130 0 -130 0> @RehKernAlef;
     #gr
     pos [@RehWawTighten @RehWawTightenMore]' <-130 0 -130 0> @MarksBelow @RehKernAlef;
@@ -3290,6 +3310,9 @@ lookup OldStyleKerning {
     #gr
     pos [@RehWawTighten @RehWawTightenMore]' <-130 0 -130 0> @MarksBelow @MarksBelow [@RehKernOther @RehKernOtherMB];
     #gr
+    pos [@RehWawTighten @RehWawTightenMore]' <-50 0 -50 0> [@RehKernOtherMBwide];
+    pos [@RehWawTighten @RehWawTightenMore]' <-50 0 -50 0> @MarksBelow [@RehKernOtherMBwide];
+    pos [@RehWawTighten @RehWawTightenMore]' <-50 0 -50 0> @MarksBelow @MarksBelow [@RehKernOtherMBwide];
 } OldStyleKerning;
 
 #---  mark feature  ---
