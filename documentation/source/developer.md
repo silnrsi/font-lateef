@@ -43,7 +43,7 @@ The resulting files will not have functional kerning or collision avoidance, but
 
 After base characters to the font, the following files will also need updating:
 - `glyph_data.csv` -- used to set glyph orders and psnames in the built font
-- `classes.xml` -- used to define classes used by OpenType
+- `classes.xml` -- used to define classes used by OpenType. Note that some of the classes defined therein are noted to be "automatically generated" -- these will be updated (from glyph_data.csv) the next time `./preflight` is run.
 - `opentype/*.feax` -- modify as needed to add needed OpenType behavior
 - `tests/*.ftml` -- see below
 
