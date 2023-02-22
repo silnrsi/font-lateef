@@ -1160,7 +1160,6 @@
     <string>lam_alefTwoabove-ar.fina</string>
     <string>lam_alefThreeabove-ar</string>
     <string>lam_alefThreeabove-ar.fina</string>
-    <string>lam_alefLefthamzaattached-ar.fina</string>
     <string>lamVabove_alef-ar</string>
     <string>lamVabove_alef-ar.fina</string>
     <string>lamVabove_alefWavyhamzaabove-ar</string>
@@ -1340,6 +1339,8 @@
     <string>hehDoachashmee-ar.fina</string>
     <string>hehDoachashmee-ar.medi</string>
     <string>hehDoachashmee-ar.init</string>
+    <string>hehDoachashmee-ar.fina.knottedhigh</string>
+    <string>hehDoachashmee-ar.medi.knottedhigh</string>
     <string>hehVinvertedabove-ar</string>
     <string>hehVinvertedabove-ar.fina</string>
     <string>hehVinvertedabove-ar.medi</string>
@@ -1937,45 +1938,61 @@
     <string>_bowl_connector</string>
     <string>_bowl_seen</string>
     <string>_bar</string>
+    <string>_bar2</string>
     <string>_damma</string>
-    <string>_damma.filled</string>
     <string>_damma.short</string>
     <string>_dot1</string>
+    <string>_dot1_small</string>
     <string>_dot1smallrotated10</string>
     <string>_dot_dia</string>
+    <string>_dot_punct</string>
+    <string>_comma</string>
     <string>_dot1_hat</string>
     <string>_dot1_smallV</string>
     <string>_dot1_tah</string>
+    <string>_dot1_dot3u</string>
+    <string>_dot1_dot3d</string>
     <string>_dot2h</string>
+    <string>_dot2h_small</string>
     <string>_dot2h_smallV</string>
     <string>_dot2h_tah</string>
+    <string>_dot2h_tah_small</string>
     <string>_dot2v</string>
     <string>_dot3d</string>
+    <string>_dot3d.smaller</string>
     <string>_dot3h</string>
     <string>_dot3u</string>
     <string>_dot3u_tah</string>
     <string>_dot4</string>
+    <string>_dotCircular</string>
+    <string>_four</string>
     <string>_gafBar</string>
     <string>_gafBar_dot2h</string>
     <string>_gafBar_dot3u</string>
+    <string>_gafBarCenter</string>
+    <string>_gafBarShort</string>
     <string>_gafBarShort_dot2h</string>
     <string>_gafBarShort_dot3u</string>
     <string>_hamza</string>
     <string>_hamzaDamma</string>
     <string>_hamzaDamma.filled</string>
-    <string>_hamzaDamma.short</string>
-    <string>_hamzaComma</string>
     <string>_highHamza</string>
     <string>_invSmallV</string>
     <string>_lines</string>
     <string>_madda</string>
+    <string>_meem</string>
+    <string>_noon</string>
     <string>_ring</string>
     <string>_smallV</string>
     <string>_tah</string>
+    <string>_tah_small</string>
     <string>_tah_smallV</string>
     <string>_tah_bowl</string>
     <string>_tah_stem</string>
-    <string>_uComma</string>
+    <string>_teh</string>
+    <string>_three</string>
+    <string>_two</string>
+    <string>_damma.filled</string>
     <string>_vline</string>
     <string>_wasla</string>
     <string>_wavyHamza</string>
@@ -2984,7 +3001,6 @@
     <string>lam_alefTwoabove-ar.fina</string>
     <string>lam_alefThreeabove-ar</string>
     <string>lam_alefThreeabove-ar.fina</string>
-    <string>lam_alefLefthamzaattached-ar.fina</string>
     <string>lamVabove_alef-ar</string>
     <string>lamVabove_alef-ar.fina</string>
     <string>lamVabove_alefWavyhamzaabove-ar</string>
@@ -3164,6 +3180,8 @@
     <string>hehDoachashmee-ar.fina</string>
     <string>hehDoachashmee-ar.medi</string>
     <string>hehDoachashmee-ar.init</string>
+    <string>hehDoachashmee-ar.fina.knottedhigh</string>
+    <string>hehDoachashmee-ar.medi.knottedhigh</string>
     <string>hehVinvertedabove-ar</string>
     <string>hehVinvertedabove-ar.fina</string>
     <string>hehVinvertedabove-ar.medi</string>
@@ -3761,45 +3779,61 @@
     <string>_bowl_connector</string>
     <string>_bowl_seen</string>
     <string>_bar</string>
+    <string>_bar2</string>
     <string>_damma</string>
-    <string>_damma.filled</string>
     <string>_damma.short</string>
     <string>_dot1</string>
+    <string>_dot1_small</string>
     <string>_dot1smallrotated10</string>
     <string>_dot_dia</string>
+    <string>_dot_punct</string>
+    <string>_comma</string>
     <string>_dot1_hat</string>
     <string>_dot1_smallV</string>
     <string>_dot1_tah</string>
+    <string>_dot1_dot3u</string>
+    <string>_dot1_dot3d</string>
     <string>_dot2h</string>
+    <string>_dot2h_small</string>
     <string>_dot2h_smallV</string>
     <string>_dot2h_tah</string>
+    <string>_dot2h_tah_small</string>
     <string>_dot2v</string>
     <string>_dot3d</string>
+    <string>_dot3d.smaller</string>
     <string>_dot3h</string>
     <string>_dot3u</string>
     <string>_dot3u_tah</string>
     <string>_dot4</string>
+    <string>_dotCircular</string>
+    <string>_four</string>
     <string>_gafBar</string>
     <string>_gafBar_dot2h</string>
     <string>_gafBar_dot3u</string>
+    <string>_gafBarCenter</string>
+    <string>_gafBarShort</string>
     <string>_gafBarShort_dot2h</string>
     <string>_gafBarShort_dot3u</string>
     <string>_hamza</string>
     <string>_hamzaDamma</string>
     <string>_hamzaDamma.filled</string>
-    <string>_hamzaDamma.short</string>
-    <string>_hamzaComma</string>
     <string>_highHamza</string>
     <string>_invSmallV</string>
     <string>_lines</string>
     <string>_madda</string>
+    <string>_meem</string>
+    <string>_noon</string>
     <string>_ring</string>
     <string>_smallV</string>
     <string>_tah</string>
+    <string>_tah_small</string>
     <string>_tah_smallV</string>
     <string>_tah_bowl</string>
     <string>_tah_stem</string>
-    <string>_uComma</string>
+    <string>_teh</string>
+    <string>_three</string>
+    <string>_two</string>
+    <string>_damma.filled</string>
     <string>_vline</string>
     <string>_wasla</string>
     <string>_wavyHamza</string>
@@ -4768,10 +4802,14 @@
     <string>uni06BE</string>
     <key>hehDoachashmee-ar.fina</key>
     <string>uni06BE.fina</string>
+    <key>hehDoachashmee-ar.fina.knottedhigh</key>
+    <string>uni06BE.fina.knottedhigh</string>
     <key>hehDoachashmee-ar.init</key>
     <string>uni06BE.init</string>
     <key>hehDoachashmee-ar.medi</key>
     <string>uni06BE.medi</string>
+    <key>hehDoachashmee-ar.medi.knottedhigh</key>
+    <string>uni06BE.medi.knottedhigh</string>
     <key>hehHamzaabove-ar</key>
     <string>uni06C0</string>
     <key>hehHamzaabove-ar.fina</key>
@@ -5294,8 +5332,6 @@
     <string>uni06440627</string>
     <key>lam_alef-ar.fina</key>
     <string>uni06440627.fina</string>
-    <key>lam_alefLefthamzaattached-ar.fina</key>
-    <string>uni06440882.fina</string>
     <key>lam_alefThreeabove-ar</key>
     <string>uni06440774</string>
     <key>lam_alefThreeabove-ar.fina</key>

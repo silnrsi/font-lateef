@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hehDoachashmee-ar.fina.knottedHigh" format="2">
+  <advance width="894"/>
+  <anchor x="229" y="726" name="alefUnused"/>
+  <anchor x="356" y="780" name="diaA"/>
+  <anchor x="229" y="-200" name="diaB"/>
+  <outline>
+    <component base="heh-ar.fina.knottedHigh"/>
+  </outline>
+</glyph>
