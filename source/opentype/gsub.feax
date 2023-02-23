@@ -611,8 +611,8 @@ lookup DammatanAlternate {
 lookup DammaInvertedAlternates {   # cv74
   lookupflag 0 ;
     #   0=default (filled);        1=hollow;                2=filled
-    sub @DammaInverted     from  [ @DammaInvertedOpen  @DammaInverted ];
-    sub @DammaInvertedOpen from  [ @DammaInvertedOpen  @DammaInverted ];
+    sub @DammaInverted      from  [ @DammaInverted_open  @DammaInverted ];
+    sub @DammaInverted_open from  [ @DammaInverted_open  @DammaInverted ];
 } DammaInvertedAlternates;
 
 
