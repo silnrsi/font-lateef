@@ -7,6 +7,6 @@ iacute
 </note>
   <outline>
     <component base="idotless"/>
-    <component base="acutecomb" xOffset="-277"/>
+    <component base="_acute" xOffset="-277"/>
   </outline>
 </glyph>

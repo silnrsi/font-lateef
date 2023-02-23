@@ -7,6 +7,6 @@ j
 </note>
   <outline>
     <component base="jdotless"/>
-    <component base="dotaccentcomb.i" xOffset="-277"/>
+    <component base="_dotaccent.i" xOffset="-277"/>
   </outline>
 </glyph>

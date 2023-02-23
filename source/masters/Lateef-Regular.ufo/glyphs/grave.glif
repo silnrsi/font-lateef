@@ -6,6 +6,6 @@
 grave
 </note>
   <outline>
-    <component base="gravecomb"/>
+    <component base="_grave"/>
   </outline>
 </glyph>

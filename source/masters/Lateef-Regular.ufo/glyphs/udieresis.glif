@@ -7,6 +7,6 @@ udieresis
 </note>
   <outline>
     <component base="u"/>
-    <component base="dieresiscomb" xOffset="-36"/>
+    <component base="_dieresis" xOffset="-36"/>
   </outline>
 </glyph>

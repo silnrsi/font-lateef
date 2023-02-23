@@ -7,6 +7,6 @@ igrave
 </note>
   <outline>
     <component base="idotless"/>
-    <component base="gravecomb" xOffset="-258"/>
+    <component base="_grave" xOffset="-258"/>
   </outline>
 </glyph>

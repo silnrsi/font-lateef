@@ -7,6 +7,6 @@ agrave
 </note>
   <outline>
     <component base="a"/>
-    <component base="gravecomb" xOffset="-75"/>
+    <component base="_grave" xOffset="-75"/>
   </outline>
 </glyph>

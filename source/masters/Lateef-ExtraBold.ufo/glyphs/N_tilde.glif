@@ -7,6 +7,6 @@ Ntilde
 </note>
   <outline>
     <component base="N"/>
-    <component base="tildecomb.case" xOffset="86" yOffset="-117"/>
+    <component base="_tilde.case" xOffset="86" yOffset="-117"/>
   </outline>
 </glyph>

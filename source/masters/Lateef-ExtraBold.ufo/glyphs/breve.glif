@@ -6,6 +6,6 @@
 breve
 </note>
   <outline>
-    <component base="brevecomb"/>
+    <component base="_breve"/>
   </outline>
 </glyph>

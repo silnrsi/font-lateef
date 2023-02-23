@@ -6,6 +6,6 @@
 cedilla
 </note>
   <outline>
-    <component base="cedillacomb"/>
+    <component base="_cedilla"/>
   </outline>
 </glyph>

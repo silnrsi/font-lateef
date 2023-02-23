@@ -6,6 +6,6 @@
 caron
 </note>
   <outline>
-    <component base="caroncomb"/>
+    <component base="_caron"/>
   </outline>
 </glyph>

@@ -7,6 +7,6 @@ Ydieresis
 </note>
   <outline>
     <component base="Y"/>
-    <component base="dieresiscomb.case" xOffset="-38" yOffset="-117"/>
+    <component base="_dieresis.case" xOffset="-38" yOffset="-117"/>
   </outline>
 </glyph>

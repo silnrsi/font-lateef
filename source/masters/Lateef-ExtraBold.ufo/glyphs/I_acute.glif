@@ -7,7 +7,7 @@ Iacute
 </note>
   <outline>
     <component base="I"/>
-    <component base="acutecomb.case" xOffset="-192" yOffset="-117"/>
+    <component base="_acute.case" xOffset="-192" yOffset="-117"/>
   </outline>
   <lib>
     <dict>

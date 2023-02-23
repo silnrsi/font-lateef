@@ -7,6 +7,6 @@ edieresis
 </note>
   <outline>
     <component base="e"/>
-    <component base="dieresiscomb" xOffset="-105"/>
+    <component base="_dieresis" xOffset="-105"/>
   </outline>
 </glyph>

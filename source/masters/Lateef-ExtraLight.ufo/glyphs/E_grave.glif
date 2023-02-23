@@ -7,6 +7,6 @@ Egrave
 </note>
   <outline>
     <component base="E"/>
-    <component base="gravecomb.case" xOffset="-40" yOffset="-117"/>
+    <component base="_grave.case" xOffset="-40" yOffset="-117"/>
   </outline>
 </glyph>

@@ -6,6 +6,6 @@
 tilde
 </note>
   <outline>
-    <component base="tildecomb"/>
+    <component base="_tilde"/>
   </outline>
 </glyph>

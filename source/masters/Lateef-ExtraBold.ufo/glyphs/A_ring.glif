@@ -7,6 +7,6 @@ Aring
 </note>
   <outline>
     <component base="A"/>
-    <component base="ringcomb.case" xOffset="-4" yOffset="-117"/>
+    <component base="_ringabv.case" xOffset="-4" yOffset="-117"/>
   </outline>
 </glyph>

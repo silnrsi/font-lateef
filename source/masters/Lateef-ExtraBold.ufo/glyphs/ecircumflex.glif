@@ -7,6 +7,6 @@ ecircumflex
 </note>
   <outline>
     <component base="e"/>
-    <component base="circumflexcomb" xOffset="-67"/>
+    <component base="_circumflex" xOffset="-67"/>
   </outline>
 </glyph>

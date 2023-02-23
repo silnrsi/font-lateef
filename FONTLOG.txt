@@ -126,7 +126,7 @@ For detailed documentation see the contents of the 'documentation' folder.
 
 #### Improved
 - Adjusted height of kashida
-- Enhanced kerning to support all the reh and waw forms
+- Enhanced kerning to support support new characters
 
 #### Removed
 

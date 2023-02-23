@@ -6,6 +6,6 @@
 ogonek
 </note>
   <outline>
-    <component base="ogonekcomb"/>
+    <component base="_ogonek"/>
   </outline>
 </glyph>

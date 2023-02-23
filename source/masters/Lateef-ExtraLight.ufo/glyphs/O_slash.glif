@@ -7,6 +7,6 @@ Oslash
 </note>
   <outline>
     <component base="O"/>
-    <component base="slashlongcomb.case" xOffset="60"/>
+    <component base="_slashlong.case" xOffset="60"/>
   </outline>
 </glyph>

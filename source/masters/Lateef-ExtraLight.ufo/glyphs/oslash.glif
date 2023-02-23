@@ -8,6 +8,6 @@ oslash
   <anchor x="406" y="682" name="above"/>
   <outline>
     <component base="o"/>
-    <component base="slashlongcomb" xOffset="-83"/>
+    <component base="_slashlong" xOffset="-83"/>
   </outline>
 </glyph>

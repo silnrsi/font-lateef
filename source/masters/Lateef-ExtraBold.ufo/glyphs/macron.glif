@@ -6,6 +6,6 @@
 macron
 </note>
   <outline>
-    <component base="macroncomb"/>
+    <component base="_macron"/>
   </outline>
 </glyph>

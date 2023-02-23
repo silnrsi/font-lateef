@@ -7,7 +7,7 @@ Idieresis
 </note>
   <outline>
     <component base="I"/>
-    <component base="dieresiscomb.case" xOffset="-243" yOffset="-117"/>
+    <component base="_dieresis.case" xOffset="-243" yOffset="-117"/>
   </outline>
   <lib>
     <dict>

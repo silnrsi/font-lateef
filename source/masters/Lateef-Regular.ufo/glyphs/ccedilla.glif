@@ -7,6 +7,6 @@ ccedilla
 </note>
   <outline>
     <component base="c"/>
-    <component base="cedillacomb" xOffset="-78"/>
+    <component base="_cedilla" xOffset="-78"/>
   </outline>
 </glyph>

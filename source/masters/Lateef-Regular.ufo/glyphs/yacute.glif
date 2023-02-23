@@ -7,6 +7,6 @@ yacute
 </note>
   <outline>
     <component base="y"/>
-    <component base="acutecomb" xOffset="-60"/>
+    <component base="_acute" xOffset="-60"/>
   </outline>
 </glyph>

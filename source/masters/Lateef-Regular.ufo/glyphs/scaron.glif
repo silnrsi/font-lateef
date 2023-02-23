@@ -7,6 +7,6 @@ scaron
 </note>
   <outline>
     <component base="s"/>
-    <component base="caroncomb" xOffset="-149"/>
+    <component base="_caron" xOffset="-149"/>
   </outline>
 </glyph>

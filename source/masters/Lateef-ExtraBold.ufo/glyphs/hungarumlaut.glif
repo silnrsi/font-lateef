@@ -6,6 +6,6 @@
 hungarumlaut
 </note>
   <outline>
-    <component base="hungarumlautcomb"/>
+    <component base="_hungarumlaut"/>
   </outline>
 </glyph>

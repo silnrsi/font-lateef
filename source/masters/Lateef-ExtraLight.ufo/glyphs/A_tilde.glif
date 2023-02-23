@@ -7,6 +7,6 @@ Atilde
 </note>
   <outline>
     <component base="A"/>
-    <component base="tildecomb.case" xOffset="-28" yOffset="-117"/>
+    <component base="_tilde.case" xOffset="-28" yOffset="-117"/>
   </outline>
 </glyph>

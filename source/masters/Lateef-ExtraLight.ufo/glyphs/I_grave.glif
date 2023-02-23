@@ -7,7 +7,7 @@ Igrave
 </note>
   <outline>
     <component base="I"/>
-    <component base="gravecomb.case" xOffset="-243" yOffset="-117"/>
+    <component base="_grave.case" xOffset="-243" yOffset="-117"/>
   </outline>
   <lib>
     <dict>

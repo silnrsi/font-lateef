@@ -7,6 +7,6 @@ icircumflex
 </note>
   <outline>
     <component base="idotless"/>
-    <component base="circumflexcomb" xOffset="-232"/>
+    <component base="_circumflex" xOffset="-232"/>
   </outline>
 </glyph>

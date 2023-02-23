@@ -6,6 +6,6 @@
 acute
 </note>
   <outline>
-    <component base="acutecomb"/>
+    <component base="_acute"/>
   </outline>
 </glyph>

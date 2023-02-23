@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_macron" format="2">
+  <note>
+uni0304
+</note>
+  <anchor x="481" y="711" name="_above"/>
+  <anchor x="481" y="1102" name="above"/>
+  <outline>
+    <contour>
+      <point x="226" y="990" type="line"/>
+      <point x="226" y="866" type="line"/>
+      <point x="736" y="866" type="line"/>
+      <point x="736" y="990" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>600</integer>
+    </dict>
+  </lib>
+</glyph>

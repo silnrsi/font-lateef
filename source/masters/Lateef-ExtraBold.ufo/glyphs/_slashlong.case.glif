@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_slashlong.case" format="2">
+  <anchor x="481" y="471" name="_center"/>
+  <outline>
+    <contour>
+      <point x="186" y="-120" type="line"/>
+      <point x="884" y="999" type="line"/>
+      <point x="776" y="1064" type="line"/>
+      <point x="78" y="-56" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>600</integer>
+    </dict>
+  </lib>
+</glyph>

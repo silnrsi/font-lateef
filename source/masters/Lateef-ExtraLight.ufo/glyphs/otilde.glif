@@ -7,6 +7,6 @@ otilde
 </note>
   <outline>
     <component base="o"/>
-    <component base="tildecomb" xOffset="-83"/>
+    <component base="_tilde" xOffset="-83"/>
   </outline>
 </glyph>

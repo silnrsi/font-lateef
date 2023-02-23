@@ -6,6 +6,6 @@
 circumflex
 </note>
   <outline>
-    <component base="circumflexcomb"/>
+    <component base="_circumflex"/>
   </outline>
 </glyph>

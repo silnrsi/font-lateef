@@ -7,6 +7,6 @@ Oacute
 </note>
   <outline>
     <component base="O"/>
-    <component base="acutecomb.case" xOffset="73" yOffset="-117"/>
+    <component base="_acute.case" xOffset="73" yOffset="-117"/>
   </outline>
 </glyph>

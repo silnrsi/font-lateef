@@ -7,6 +7,6 @@ Ugrave
 </note>
   <outline>
     <component base="U"/>
-    <component base="gravecomb.case" xOffset="52" yOffset="-117"/>
+    <component base="_grave.case" xOffset="52" yOffset="-117"/>
   </outline>
 </glyph>

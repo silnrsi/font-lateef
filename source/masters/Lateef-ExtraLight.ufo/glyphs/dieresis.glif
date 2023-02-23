@@ -6,6 +6,6 @@
 dieresis
 </note>
   <outline>
-    <component base="dieresiscomb"/>
+    <component base="_dieresis"/>
   </outline>
 </glyph>
