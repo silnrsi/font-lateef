@@ -1,6 +1,6 @@
 ---
 title: Lateef - Font Features
-fontversion: 2.000
+fontversion: 4.000
 ---
 
 Lateef is an OpenType-enabled font family that supports the Arabic script. It includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerate the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](http://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Kurdish, Kyrgyz, Rohingya, Sindhi, and Urdu languages variants.
@@ -27,21 +27,29 @@ For applications that do not make use of the OpenType Character Variants, you ca
 
 ### Language 
 
-<span class='affects'>Affects: U+062F, U+0630, U+0688..U+068F, U+0690, U+06EE, U+0759, U+075A, U+08AE, U+0645, U+0765, U+0766, U+08A7, U+0647, U+0626, U+060C, U+061B, U+06F4, U+06F5, U+06F6, U+06F7, U+0650, U+064F, U+064C, U+0657</span>
+<span class='affects'>Affects: U+062F, U+0630, U+0688..U+068F, U+0690, U+06EE, U+0759, U+075A, U+08AE, U+0645, U+0765, U+0766, U+08A7, U+06BE, U+0626, U+060C, U+061B, U+06F4, U+06F5, U+06F6, U+06F7, U+0650, U+064F, U+064C, U+0657</span>
 
 Unfortunately, the UI needed to access the language-specific behavior is not yet present in many applications. LibreOffice and Microsoft Word 2016 support language-specific behavior for Kurdish, Sindhi and Urdu (but not Kyrgyz or Rohingya). Some Harfbuzz-based apps, e.g., XeTeX, can access language-specific behavior.
 
 <!-- ky and wo do not work for pdf. Must use kir and wol for proper display in pdf. However, for proper display in html must use ky and wo! -->
 
-Language | Meem | Heh | 0626 | 4   | 6   | 7 | 0650/064E | 064C | Feature setting
---- | -- | --- | -- | - | - | - | - | - | ----
-default | <span dir="rtl" class='lateef-R normal'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' >&#x0647;&#x0020;&#x0647;&#x0647;&#x0647;</span> | <span dir="rtl" class='lateef-R normal'>&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> |  <span dir="rtl" class='lateef-R normal'>&#x06F4;</span> |<span dir="rtl" class='lateef-R normal'>&#x06F6;</span> | <span dir="rtl" class='lateef-R normal'>&#x06F7;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x064C;</span> | |
-Kurdish</br>(Northern) |  <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='ku' style="color:red">&#x0647;&#x0020;&#x0647;&#x0647;&#x0647;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0628;&#x064C;</span> | `lang=ku`
-Kyrgyz | <span dir="rtl" class='lateef-R normal' lang='ky'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='ky'>&#x0647;&#x0020;&#x0647;&#x0647;&#x0647;</span> | <span dir="rtl" class='lateef-R normal' lang='ky' style="color:red">&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='lateef-R normal' lang='ky'>&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='ky'>&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='ky'>&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='ky'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='ky'>&#x0628;&#x064C;</span> | `lang=ky`
-Rohingya | <span dir="rtl" class='lateef-R normal' lang='rhg'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg'>&#x0647;&#x0020;&#x0647;&#x0647;&#x0647;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg'>&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x0628;&#x064C;</span> | `lang=rhg`
-Sindhi | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x0647;&#x0020;&#x0647;&#x0647;&#x0647;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x0628;&#x064C;</span> | `lang=sd`
-Urdu | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x0647;&#x0020;&#x0647;&#x0647;&#x0647;</span> | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x0628;&#x064C;</span> | `lang=ur`
+#### Kurdish (Northern), Rohingya, Sindhi, Urdu
 
+Language | Meem | Heh Doachashmee (06BE) | 4 | 6 | 7 | 0650/064E | 064C | Feature Setting
+-- | ---: | ----: | -: | -: | -: | --: | --: | ---
+default | <span dir="rtl" class='lateef-R' normal>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' >&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal'>&#x06F4;</span> |<span dir="rtl" class='lateef-R normal'>&#x06F6;</span> | <span dir="rtl" class='lateef-R normal'>&#x06F7;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x064C;</span> |
+Kurdish</br>(Northern) | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='ku' style="color:red">&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0628;&#x064C;</span> |  `lang='ku'`
+Rohingya | <span dir="rtl" class='lateef-R normal' lang='rhg'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x06F4;</span> | <span dir="rtl" class='lateef-R small' lang='rhg' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x0628;&#x064C;</span>| `lang='rhg'`
+Sindhi | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x0628;&#x064C;</span> | `lang='sd'`
+Urdu | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x0628;&#x064C;</span> | `lang='ur'`
+
+#### Kyrgyz and Wolof
+
+Language | 0626 | 0650/064E | 064F | 0657 | Feature Setting
+-- | -: |  --: | --: | --: | ---
+default | <span dir="rtl" class='lateef-R normal'>&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x064F;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x0657;</span>|
+Kyrgyz | <span dir="rtl" class='lateef-R normal' lang='ky' style="color:red">&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='lateef-R normal' lang='ky'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='ky'>&#x0628;&#x064F;</span> | <span dir="rtl" class='lateef-R normal' lang='ky'>&#x0628;&#x0657;</span>| `lang='ky'`
+Wolof | <span dir="rtl" class='lateef-R normal' lang='wo'>&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='lateef-R normal' lang='wo' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='wo' style="color:red">&#x0628;&#x064F;</span> | <span dir="rtl" class='lateef-R normal' lang='wo' style="color:red">&#x0628;&#x0657;</span>| `lang='wo'`
 
 
 ### Character variants
@@ -68,6 +76,16 @@ Standard | <span dir="rtl" class='lateef-R normal'> ه ههه </span>| `cv48=0`
 Kurdish-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv48" 3'> ه ههه </span>| `cv48=3`
 Sindhi-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv48" 1'> ه ههه </span>| `cv48=1`
 Urdu-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv48" 2'> ه ههه </span>| `cv48=2`
+
+#### Heh Doachashmee 
+
+<span class='affects'>Affects: U+06BE</span>
+
+Feature | Sample | Feature setting
+------------- | ------ | ------------- 
+Standard | <span dir="rtl" class='lateef-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=0`
+Knotted-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv49" 1'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=1`
+Kurdish-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv49" 3'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=3`
 
 #### Kirghiz OE 
 
@@ -216,8 +234,8 @@ Slash | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "c
 <span class='affects'>The Arabic digits are proportional by default and Lateef includes kerning to improve the spacing of certain pairs of digits such as &#x0667;&#x0668;. However there are some applications, including Microsoft Word for Windows, that process the digit kerning information incorrectly, actually making some digits too far apart and some too close together. We have added a special Typetuner feature that can be used create a version of the Lateef fonts in which the digit kerning is _disabled_. When using those fonts in Microsoft Word the resulting digit spacing will be much nicer than Tabular, but not quite as good as it would be if the application's kerning worked correctly. This is discussed further in the [FAQ](faq.md).</span>
 
 <!-- PRODUCT SITE ONLY
-[font id='lateef' face='Lateef-Regular' bold='Lateef-Bold' size='150%' rtl=1]
-[font id='lateefL' face='Lateef-Regular' bold='Lateef-Bold' size='150%' ltr=1]
+[font id='lateef' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1]
+[font id='lateefL' face='Lateef-Regular' bold='Lateef-Bold' size='160%' ltr=1]
 
 -->
 

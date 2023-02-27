@@ -1,6 +1,6 @@
 ---
 title: Lateef - Developer information
-fontversion: 2.000
+fontversion: 4.000
 ---
 
 ## Welcome font developers!
