@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kasratanCurly-ar" format="2">
   <unicode hex="08E9"/>
-  <anchor x="0" y="-919" name="_diaA"/>
-  <anchor x="-37" y="-426" name="diaA"/>
+  <anchor x="-37" y="-426" name="_diaB"/>
+  <anchor x="0" y="-919" name="diaB"/>
   <outline>
     <component base="fathaCurly-ar" xOffset="-172" yOffset="-1940"/>
     <component base="fathaCurly-ar" xOffset="-172" yOffset="-1740"/>
