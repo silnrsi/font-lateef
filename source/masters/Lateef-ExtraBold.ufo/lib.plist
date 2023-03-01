@@ -1738,6 +1738,9 @@
     <string>lam-ar.init.allah1</string>
     <string>lam-ar.medi.allah1</string>
     <string>lam-ar.medi.allah2</string>
+    <string>shadda-ar.allah</string>
+    <string>alefabove-ar.allah</string>
+    <string>fatha-ar.allah</string>
     <string>heh-ar.fina.allah</string>
     <string>hehgoal-ar.fina.allah</string>
     <string>rial</string>
@@ -1994,6 +1997,20 @@
     <string>_dotaccent.i</string>
     <string>_slashlong</string>
     <string>_slashlong.case</string>
+    <string>_bar_horiz</string>
+    <string>_kafswashconnector</string>
+    <string>_kehehjoiner</string>
+    <string>_number</string>
+    <string>_one</string>
+    <string>_pagenumberSad</string>
+    <string>_perdivider</string>
+    <string>_samvatSM</string>
+    <string>_subtendingA.1</string>
+    <string>_subtendingA.2</string>
+    <string>_subtendingA.3</string>
+    <string>_subtendingA.4</string>
+    <string>jdotless</string>
+    <string>strokeshortcomb.case</string>
   </array>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
@@ -3579,6 +3596,9 @@
     <string>lam-ar.init.allah1</string>
     <string>lam-ar.medi.allah1</string>
     <string>lam-ar.medi.allah2</string>
+    <string>shadda-ar.allah</string>
+    <string>alefabove-ar.allah</string>
+    <string>fatha-ar.allah</string>
     <string>heh-ar.fina.allah</string>
     <string>hehgoal-ar.fina.allah</string>
     <string>rial</string>
@@ -3835,6 +3855,20 @@
     <string>_dotaccent.i</string>
     <string>_slashlong</string>
     <string>_slashlong.case</string>
+    <string>_bar_horiz</string>
+    <string>_kafswashconnector</string>
+    <string>_kehehjoiner</string>
+    <string>_number</string>
+    <string>_one</string>
+    <string>_pagenumberSad</string>
+    <string>_perdivider</string>
+    <string>_samvatSM</string>
+    <string>_subtendingA.1</string>
+    <string>_subtendingA.2</string>
+    <string>_subtendingA.3</string>
+    <string>_subtendingA.4</string>
+    <string>jdotless</string>
+    <string>strokeshortcomb.case</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
@@ -4068,6 +4102,8 @@
     <string>uni0673.fina</string>
     <key>alefabove-ar</key>
     <string>uni0670</string>
+    <key>alefabove-ar.allah</key>
+    <string>uni0670.allah</string>
     <key>alefabove-ar.large</key>
     <string>uni0670.large</string>
     <key>alefbelow-ar</key>
@@ -4394,6 +4430,8 @@
     <string>Euro</string>
     <key>fatha-ar</key>
     <string>uni064E</string>
+    <key>fatha-ar.allah</key>
+    <string>uni064E.allah</string>
     <key>fathaCurly-ar</key>
     <string>uni08E4</string>
     <key>fathaDotabove-ar</key>
@@ -5996,6 +6034,8 @@
     <string>uni06F7.urdu.tnum</string>
     <key>shadda-ar</key>
     <string>uni0651</string>
+    <key>shadda-ar.allah</key>
+    <string>uni0651.allah</string>
     <key>shadda_alef-ar</key>
     <string>uni06510670</string>
     <key>shadda_damma-ar</key>

@@ -103,9 +103,9 @@
 @UTR53_220other = [alefbelow-ar dammaturnedbelow-ar dotvowelbelow-ar imaalabelow-ar ishmaambelow-ar kasraCurly-ar kasraDotbelow-ar kasratanCurly-ar largecirclebelow-ar largerounddotinsidecirclebelow-ar leftarrowheadbelow-ar meembelow-ar qasrbelow-ar rhombusStopbelow-ar rightarrowheadbelow-ar saktabelow-ar sukunbelow-ar tasheel-ar toneloopbelow-ar toneonedotbelow-ar tonetwodotsbelow-ar wavyhamzabelow-ar wordmaddabelow-ar];
 @UTR53_230MCM = [hamzaabove-ar highwaw-ar largerounddotabove-ar noonabove-ar noonghunnaabove-ar seenabove-ar yehabove-ar yehabove-farsi yehbarreeTwobelowabove-ar zahabove-ar];
 @UTR53_230other = [ainabove-ar alayheAssallamcomb-ar alefLamYehabove-ar alefmokhassasabove-ar aljuzabove-ar annisfabove-ar arrubabove-ar assajdaabove-ar aththalathaabove-ar dammaCurly-ar dammaDot-ar dammainverted-ar dammainverted-ar.open dammareversed-ar dammatanCurly-ar dotStopabove-ar doublerightarrowheadDotabove-ar doublerightarrowheadabove-ar fathaCurly-ar fathaDotabove-ar fathaHorizont-ar fathaRing-ar fathatanCurly-ar fathatwodots-ar footnotemarkerabove-ar hahabove-ar halfmaddaovermadda-ar jeemabove-ar lamAlefabove-ar leftarrowheadabove-ar madda-ar maddadoubled-ar maddalong-ar maddawaajib-ar marksidewaysnoonghunna-ar meemStopabove-ar meemabove-ar noonKasraabove-ar noonKasrabelow-ar qafLamAlefMaksuraabove-ar qafabove-ar qifabove-ar rehDadabove-ar rehHahabove-ar rhombusStopabove-ar rightarrowheadDotabove-ar rightarrowheadabove-ar sadLamAlefMaksuraabove-ar sadabove-ar safhaabove-ar sahabove-ar saktaabove-ar sallallahouAlayheWassallamcomb-ar sukunoval-ar sukunround-ar tahabove-ar takhallusabove-ar threedotsabove-ar toneloopabove-ar toneonedotabove-ar tonetwodotsabove-ar vabove-ar vinvertedabove-ar waqfaabove-ar zainabove-ar];
-@UTR53_alef = [alefabove-ar alefabove-ar.large];
-@UTR53_fixedPos = [damma-ar damma-ar.filled damma-ar.short dammasmall-ar dammatan-ar dammatan-ar.sixNine fatha-ar fathasmall-ar fathatan-ar kasra-ar kasra-ar.lowered kasrasmall-ar kasratan-ar kasratan-ar.lowered opendammatan-ar openfathatan-ar openkasratan-ar sukun-ar sukun-ar.downOpen sukun-ar.leftOpen];
-@UTR53_shadda = [shadda-ar];
+@UTR53_alef = [alefabove-ar alefabove-ar.allah alefabove-ar.large];
+@UTR53_fixedPos = [damma-ar damma-ar.filled damma-ar.short dammasmall-ar dammatan-ar dammatan-ar.sixNine fatha-ar fatha-ar.allah fathasmall-ar fathatan-ar kasra-ar kasra-ar.lowered kasrasmall-ar kasratan-ar kasratan-ar.lowered opendammatan-ar openfathatan-ar openkasratan-ar sukun-ar sukun-ar.downOpen sukun-ar.leftOpen];
+@UTR53_shadda = [shadda-ar shadda-ar.allah];
 @WawAll = [highhamzaWaw-ar.fina kirghizoe-ar.fina kirghizyu-ar.fina oe-ar.fina u-ar.fina uHamzaabove-ar.fina ve-ar.fina waw-ar.fina wawDotabove-ar.fina wawDotcenter-ar.fina wawHamzaabove-ar.fina wawThreeAbove-ar.fina wawTwoabove-ar.fina wawTwodots-ar.fina wawring-ar.fina yu-ar.fina highhamzaWaw-ar kirghizoe-ar kirghizyu-ar oe-ar u-ar uHamzaabove-ar ve-ar waw-ar wawDotabove-ar wawDotcenter-ar wawHamzaabove-ar wawThreeAbove-ar wawTwoabove-ar wawTwodots-ar wawring-ar yu-ar];
 @RehWawAll = [@RehAll @WawAll];
 @Whitespace = [space nbspace enquad emquad enspace emspace threeperemspace fourperemspace sixperemspace figurespace punctuationspace thinspace hairspace zerowidthspace narrownbspace];
@@ -1723,6 +1723,7 @@ lookup FontCheck {
 lookup _ReorderMaddaVowel1 {
     lookupflag 0;
     sub shadda-ar by shadda-ar madda-ar;
+    sub shadda-ar.allah by shadda-ar.allah madda-ar;
     sub damma-ar by damma-ar madda-ar;
     sub damma-ar.filled by damma-ar.filled madda-ar;
     sub damma-ar.short by damma-ar.short madda-ar;
@@ -1730,6 +1731,7 @@ lookup _ReorderMaddaVowel1 {
     sub dammatan-ar by dammatan-ar madda-ar;
     sub dammatan-ar.sixNine by dammatan-ar.sixNine madda-ar;
     sub fatha-ar by fatha-ar madda-ar;
+    sub fatha-ar.allah by fatha-ar.allah madda-ar;
     sub fathasmall-ar by fathasmall-ar madda-ar;
     sub fathatan-ar by fathatan-ar madda-ar;
     sub kasra-ar by kasra-ar madda-ar;
@@ -1744,6 +1746,7 @@ lookup _ReorderMaddaVowel1 {
     sub sukun-ar.downOpen by sukun-ar.downOpen madda-ar;
     sub sukun-ar.leftOpen by sukun-ar.leftOpen madda-ar;
     sub alefabove-ar by alefabove-ar madda-ar;
+    sub alefabove-ar.allah by alefabove-ar.allah madda-ar;
     sub alefabove-ar.large by alefabove-ar.large madda-ar;
     sub hamzabelow-ar by hamzabelow-ar madda-ar;
     sub largerounddotbelow-ar by largerounddotbelow-ar madda-ar;
@@ -1782,6 +1785,7 @@ lookup ReorderMaddaVowel1 {
 lookup _ReorderMaddaVowel2 {
     lookupflag 0;
     sub madda-ar shadda-ar by shadda-ar;
+    sub madda-ar shadda-ar.allah by shadda-ar.allah;
     sub madda-ar damma-ar by damma-ar;
     sub madda-ar damma-ar.filled by damma-ar.filled;
     sub madda-ar damma-ar.short by damma-ar.short;
@@ -1789,6 +1793,7 @@ lookup _ReorderMaddaVowel2 {
     sub madda-ar dammatan-ar by dammatan-ar;
     sub madda-ar dammatan-ar.sixNine by dammatan-ar.sixNine;
     sub madda-ar fatha-ar by fatha-ar;
+    sub madda-ar fatha-ar.allah by fatha-ar.allah;
     sub madda-ar fathasmall-ar by fathasmall-ar;
     sub madda-ar fathatan-ar by fathatan-ar;
     sub madda-ar kasra-ar by kasra-ar;
@@ -1803,6 +1808,7 @@ lookup _ReorderMaddaVowel2 {
     sub madda-ar sukun-ar.downOpen by sukun-ar.downOpen;
     sub madda-ar sukun-ar.leftOpen by sukun-ar.leftOpen;
     sub madda-ar alefabove-ar by alefabove-ar;
+    sub madda-ar alefabove-ar.allah by alefabove-ar.allah;
     sub madda-ar alefabove-ar.large by alefabove-ar.large;
     sub madda-ar hamzabelow-ar by hamzabelow-ar;
     sub madda-ar largerounddotbelow-ar by largerounddotbelow-ar;
