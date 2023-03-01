@@ -662,8 +662,6 @@
   <string>alefW_avyhamzabelow-ar.fina.glif</string>
   <key>alefabove-ar</key>
   <string>alefabove-ar.glif</string>
-  <key>alefabove-ar.allah</key>
-  <string>alefabove-ar.allah.glif</string>
   <key>alefabove-ar.large</key>
   <string>alefabove-ar.large.glif</string>
   <key>alefbelow-ar</key>
@@ -1104,8 +1102,6 @@
   <string>f.glif</string>
   <key>fatha-ar</key>
   <string>fatha-ar.glif</string>
-  <key>fatha-ar.allah</key>
-  <string>fatha-ar.allah.glif</string>
   <key>fathaCurly-ar</key>
   <string>fathaC_urly-ar.glif</string>
   <key>fathaDotabove-ar</key>
@@ -2960,8 +2956,6 @@
   <string>seven.small.glif</string>
   <key>shadda-ar</key>
   <string>shadda-ar.glif</string>
-  <key>shadda-ar.allah</key>
-  <string>shadda-ar.allah.glif</string>
   <key>shadda_alef-ar</key>
   <string>shadda_alef-ar.glif</string>
   <key>shadda_damma-ar</key>
