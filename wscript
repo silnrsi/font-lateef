@@ -31,7 +31,6 @@ generated = 'generated/'
 opts = preprocess_args({'opt': '--autohint'}, {'opt': '--norename'}, {'opt': '--regOnly'}, {'opt': '--graphite'})
 
 cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx'])]
-typetunerfile = 'source/typetuner/feat_all-nographite.xml'
 extras = {}
 if '--graphite' in opts:
     # If we're going to include graphite, then we need a different typetuner source file.
@@ -44,9 +43,12 @@ if '--graphite' in opts:
                    'source/graphite/glyphs.gdh'],
         params = '-q -e ${DS:FILENAME_BASE}_gdlerr.txt',
         ) 
+else:
+    # Without grahite, we use a subset of the typetuner file that contains no graphite table manipulation
+    typetunerfile = create(generated + '${DS:FILENAME_BASE}-feat_all.xml', cmd('grep -v "gr_" ${SRC} > ${TGT}', ['source/typetuner/feat_all.xml']))
 
 if '--norename' not in opts:
-    cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo']))
+    cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']))
 
 if '--autohint' in opts:
     # Note: in some fonts ttfautohint-generated hints don't maintain stroke thickness at joins; test thoroughly

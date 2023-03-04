@@ -2,7 +2,7 @@
 <!--
 	This file is part of Lateef font family 
 	(http://scripts.sil.org/Lateef) and is 
-	Copyright (c) 2014-2022 SIL International (http://www.sil.org/), 
+	Copyright (c) 2014-2023 SIL International (http://www.sil.org/), 
 	with Reserved Font Names "Lateef" and "SIL".
 
 	This Font Software is licensed under the SIL Open Font License, 
@@ -20,50 +20,41 @@
 		</value>
 		<value name="Kyrgyz" tag="Kyr">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KyrgyzCALT}"/>
-			<!-- <cmd name="gr_feat" args="{gr_cv54} 1"/>    -- right-shifted hamza on yeh -->
+			<cmd name="gr_feat" args="{gr_cv54} 1"/>    <!-- right-shifted hamza on yeh -->
 		</value>
 		<value name="Kurdish" tag="Kur">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KurdishCALT}"/>
-			<!-- <cmd name="gr_feat" args="{gr_cv48} 3"/>    -- heh -->
+			<cmd name="gr_feat" args="{gr_cv48} 3"/>    <!-- heh -->
 		</value>
 		<value name="Rohingya" tag="Rhg">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {RohingyaCALT}"/>
 			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
 			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
-			<!--
-			<cmd name="gr_feat" args="{gr_cv62} 1"/>		 -- kasra lowered --
-			<cmd name="gr_feat" args="{gr_cv72} 1"/>	 -- dammatan six-nine --
-			<cmd name="gr_feat" args="{gr_cv82} 4"/>	 -- eastern digits --
-			-->
+			<cmd name="gr_feat" args="{gr_cv62} 1"/>	 <!-- kasra lowered -->
+			<cmd name="gr_feat" args="{gr_cv72} 1"/>	 <!-- dammatan six-nine -->
+			<cmd name="gr_feat" args="{gr_cv82} 4"/>	 <!-- eastern digits -->
 		</value>
 		<value name="Sindhi" tag="Snd">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {SindhiCALT}"/>	
 			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
 			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
-			<!--
-			<cmd name="gr_feat" args="{gr_cv44} 1"/>	 -- meem alternates --
-			<cmd name="gr_feat" args="{gr_cv62} 1"/>	 -- kasra lowered --
-			<cmd name="gr_feat" args="{gr_cv82} 1"/>	 -- eastern digits --
-			<cmd name="gr_feat" args="{gr_cv84} 1"/>   -- comma downward # removed 2021-11:  ABS-2469
-			-->
+			<cmd name="gr_feat" args="{gr_cv44} 1"/>	 <!-- meem alternates -->
+			<cmd name="gr_feat" args="{gr_cv62} 1"/>	 <!-- kasra lowered -->
+			<cmd name="gr_feat" args="{gr_cv82} 1"/>	 <!-- eastern digits -->
 		</value>
 		<value name="Urdu" tag="Urd">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {UrduCALT}"/>	
 			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
 			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
-			<!--
-			<cmd name="gr_feat" args="{gr_cv62} 1"/>	 -- kasra lowered --
-			<cmd name="gr_feat" args="{gr_cv82} 2"/>	 -- eastern digits --
-			-->
+			<cmd name="gr_feat" args="{gr_cv62} 1"/>	 <!-- kasra lowered -->
+			<cmd name="gr_feat" args="{gr_cv82} 2"/>	 <!-- eastern digits -->
 		</value>
 		<value name="Wolof" tag="Wol">
 			<!-- <cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/> -->
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {WolofCALT}"/>	
-			<!--
-			<cmd name="gr_feat" args="{gr_cv62} 1"/>   -- shadda+kasra lowered --
-			<cmd name="gr_feat" args="{gr_cv70} 2"/>	 -- damma short --
-			<cmd name="gr_feat" args="{gr_cv74} 1"/>   -- hollow inverted damma --
-			-->
+			<cmd name="gr_feat" args="{gr_cv62} 1"/>	 <!-- shadda+kasra lowered -->
+			<cmd name="gr_feat" args="{gr_cv70} 2"/>	 <!-- damma short -->
+			<cmd name="gr_feat" args="{gr_cv74} 1"/>	 <!-- hollow inverted damma -->
 		</value>
 	</feature>
 
@@ -73,7 +64,7 @@
 		</value>
 		<value name="Sindhi-style" tag="Snd">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {MeemAlternate}"/>	
-			<!-- <cmd name="gr_feat" args="{gr_cv44} 1"/> -->
+			<cmd name="gr_feat" args="{gr_cv44} 1"/>
 		</value>
 	</feature>
 
@@ -83,15 +74,15 @@
 		</value>
 		<value name="Kurdish-style" tag="Kur">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KurdishHeh}"/>	
-			<!-- <cmd name="gr_feat" args="{gr_cv48} 3"/> -->
+			<cmd name="gr_feat" args="{gr_cv48} 3"/>
 		</value>
 		<value name="Sindhi-style" tag="Snd">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {SindhiHeh}"/>	
-			<!-- <cmd name="gr_feat" args="{gr_cv48} 1"/> -->
+			<cmd name="gr_feat" args="{gr_cv48} 1"/>
 		</value>
 		<value name="Urdu-style" tag="Urd">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {UrduHeh}"/>	
-			<!-- <cmd name="gr_feat" args="{gr_cv48} 2"/> -->
+			<cmd name="gr_feat" args="{gr_cv48} 2"/>
 		</value>
 	</feature>
 
@@ -101,7 +92,7 @@
 		</value>
 		<value name="Bar" tag="Bar">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KyrgyzOeAlternates}"/>
-			<!-- <cmd name="gr_feat" args="{gr_cv51} 1"/> -->
+			<cmd name="gr_feat" args="{gr_cv51} 1"/>
 		</value> 
 	</feature>
 	
@@ -111,7 +102,7 @@
 		</value>
 		<value name="Right hamza" tag="Rt">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {YehHamzaAlternates}"/>
-			<!-- <cmd name="gr_feat" args="{gr_cv54} 1"/> -->
+			<cmd name="gr_feat" args="{gr_cv54} 1"/>
 		</value>
 	</feature>
 
@@ -121,15 +112,15 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Lowered" tag="Low">
-			<!-- <cmd name="gr_feat" args="{gr_cv62} 1"/> -->
+			<cmd name="gr_feat" args="{gr_cv62} 1"/>
 		</value>
 		<value name="Raised" tag="High">
-			<!-- <cmd name="gr_feat" args="{gr_cv62} 2"/> -->
+			<cmd name="gr_feat" args="{gr_cv62} 2"/>
 		</value>
 	</feature>
 
 	<feature name="Damma" value="Default" tag="Dma">
-		<value name="Default" tag="Def">
+		<value name="Default" tag="Def">						<!-- was "Standard", "Std" -->
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Filled" tag="Fi">
@@ -146,7 +137,7 @@
 		</value>
 		<value name="Six-nine" tag="69">						<!-- was "True", "T" -->
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DammatanAlternate}"/>	
-			<!-- <cmd name="gr_feat" args="{gr_cv72} 1"/> -->
+			<cmd name="gr_feat" args="{gr_cv72} 1"/>
 		</value>
 	</feature>
 
@@ -159,7 +150,7 @@
 		</value>
 		<value name="Small" tag="Sm">
 			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {DaggerAlefToLarge}"/>
-			<!-- <cmd name="gr_feat" args="{gr_cv76} 2"/> -->
+			<cmd name="gr_feat" args="{gr_cv76} 2"/>
 		</value>
 	</feature>
 
@@ -193,19 +184,19 @@
 		</value>
 		<value name="Kurdish-style" tag="Kur">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitKurdish}"/>
-			<!-- <cmd name="gr_feat" args="{gr_cv82} 3"/> -->
+			<cmd name="gr_feat" args="{gr_cv82} 3"/>
 		</value>
 		<value name="Rohingya-style" tag="Roh">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitRohingya}"/>
-			<!-- <cmd name="gr_feat" args="{gr_cv82} 4"/> -->
+			<cmd name="gr_feat" args="{gr_cv82} 4"/>
 		</value>
 		<value name="Sindhi-style" tag="Snd">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitSindhi}"/>
-			<!-- <cmd name="gr_feat" args="{gr_cv82} 1"/> -->
+			<cmd name="gr_feat" args="{gr_cv82} 1"/>
 		</value>
 		<value name="Urdu-style" tag="Urd">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitUrdu}"/>
-			<!-- <cmd name="gr_feat" args="{gr_cv82} 2"/> -->
+			<cmd name="gr_feat" args="{gr_cv82} 2"/>
 		</value>
 	</feature>
 
@@ -215,7 +206,7 @@
 		</value>
 		<value name="True" tag="T">
 			<cmd name="lookup_add" args="GSUB {liga_arab_dflt} {ProportionalFigures}"/>
-			<!-- <cmd name="gr_feat" args="{gr_pnum} 1"/> -->
+			<cmd name="gr_feat" args="{gr_pnum} 1"/>
 		</value>
 	</feature>
 
@@ -225,7 +216,7 @@
 		</value>
 		<value name="True" tag="T">
 			<cmd name="lookup_add" args="GSUB {liga_arab_dflt} {TabularFigures}"/>
-			<!-- <cmd name="gr_feat" args="{gr_tnum} 1"/> -->
+			<cmd name="gr_feat" args="{gr_tnum} 1"/>
 		</value>
 	</feature>
 
