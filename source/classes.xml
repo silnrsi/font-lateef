@@ -214,7 +214,7 @@ of the license along with this Font Software. If this is not the case, go to
          doesn't pass the psfcheckclassorders alignment check. (It doesn't need to align by glyphID
          because this class is used only for OpenType and not for Graphite).
     -->
-    <class name="LamInitMedi">  <!-- OpenType --> 
+    <class name="LamNoLig">  <!-- OpenType --> 
         lam-ar.init  lamVabove-ar.init  lamDotabove-ar.init  lamThreedotsabove-ar.init
         lamThreedotsbelow-ar.init  lamTahabove-ar.init  lamBar-ar.init  lamDoublebar-ar.init
         lam-ar.medi  lamVabove-ar.medi  lamDotabove-ar.medi  lamThreedotsabove-ar.medi
@@ -398,6 +398,15 @@ of the license along with this Font Software. If this is not the case, go to
     
     <class name="LowHamzaComposed">
         wawHamzaabove-ar yehHamzaabove-ar hehHamzaabove-ar hehgoalHamzaabove-ar wawHamzaabove-ar.fina yehHamzaabove-ar.fina hehHamzaabove-ar.fina hehgoalHamzaabove-ar.fina yehHamzaabove-ar.medi hehgoalHamzaabove-ar.medi yehHamzaabove-ar.init hehgoalHamzaabove-ar.init
+    </class>
+    
+    <!-- UTR53 algorithm -->
+    <class name="MaddaPlain">
+    	madda-ar
+    </class>
+    
+    <class name="MaddaInsert">
+      madda-ar
     </class>
 
     <!--
@@ -625,7 +634,6 @@ of the license along with this Font Software. If this is not the case, go to
     <class name="LamAlefRareLig">    lam_alef-ar</class>
     <class name="LamAlefRareLigFina">lam-alef-ar.fina</class>
     
-    <class name="LamNoLig">            lam-ar</class>
     <class name="LamAlefHamzaaboveLig">lam_alef-ar</class>
     <class name="LamAlefHamzabelowLig">lam_alef-ar</class>
 
