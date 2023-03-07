@@ -8,6 +8,9 @@ fontversion: 4.000
 #### New
 
 - Added Wolof language support
+- New features:
+  - cv49 - Heh Doachashmee
+  - cv74 - Inverted Damma
 - Added:
   - U+061D ARABIC END OF TEXT MARK
   - U+0870 ARABIC LETTER ALEF WITH ATTACHED FATHA
@@ -86,13 +89,12 @@ fontversion: 4.000
 #### Improved
 - Adjusted height of kashida
 - Enhanced kerning to support support new characters
+- Changed Kurdish language to support a U+06BE Heh Doachashmee alternate rather than U+0647 Heh alternate
 
 #### Known issues
-
 - Shaping for these newly added characters may not yet occur in applications
 - In Word: kerning of Arabic proportional digits is incorrect. This is a bug in Word.
 - In InDesign: some behaviors, such as the _lam-alef_ ligature, raised _kasra_ with _shadda_, and subtending marks, will not function correctly unless **Ligatures** is turned on in the **Characters** panel.
-
 
 
 

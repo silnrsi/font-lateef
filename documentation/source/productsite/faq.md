@@ -28,7 +28,7 @@ If you choose a weight other than Regular (such as ExtraLight), then use applica
 
 ### *I understand there is kerning for the Arabic proportional digits. However, it is not working.*
 
-The Arabic digits are proportional by default and Lateef includes kerning to improve the spacing of certain pairs of digits such as ٧٨. However there are some applications, including Microsoft Word for Windows, that process the digit kerning information incorrectly, actually making some digits too far apart and some too close together.
+The Arabic digits are proportional by default and Lateef includes kerning to improve the spacing of certain pairs of digits such as &#x0667;&#x0668;. However there are some applications, including Microsoft Word for Windows, that process the digit kerning information incorrectly, actually making some digits too far apart and some too close together.
 
 If you see incorrect digit kerning in applications other than Microsoft Word, please do let us know.
 
@@ -48,7 +48,7 @@ To obtain Lateef fonts with digit kerning disabled:
 
 The most obvious difference is that **Lateef** only provides OpenType support and **LateefGR** only provides Graphite support. For a complete list of the differences between **Lateef** version 1.001 and **LateefGR**, you can read the [Release 1.200 announcement](http://software.sil.org/lateef/release-1-200/). 
 
-This _beta_ version of **Lateef** is an OpenType font that includes all the kerning support that is currently only found in **LateefGR**. It also includes many more characters than were in **LateefGR** and **Lateef** version 1.001. 
+This version of **Lateef** is an OpenType font that includes all the kerning support that is currently only found in **LateefGR**. It also includes many more characters than were in **LateefGR** and **Lateef** version 1.001. Read the [Release 2.000 announcement](http://software.sil.org/lateef/release-2-000/) for all the changes in this font.
 
 ### *What characters are included with this release?*
 

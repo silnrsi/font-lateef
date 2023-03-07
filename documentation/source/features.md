@@ -3,17 +3,17 @@ title: Lateef - Font Features
 fontversion: 4.000
 ---
 
-Lateef is an OpenType-enabled font family that supports the Arabic script. It includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerate the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](http://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Kurdish, Kyrgyz, Rohingya, Sindhi, and Urdu languages variants.
+Lateef is an OpenType-enabled font family that supports the Arabic script. It includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerate the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](http://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Kurdish, Kyrgyz, Rohingya, Sindhi, Urdu, and Wolof language variants.
 
-See [Using Font Features](https://software.sil.org/fonts/features/). Although that page is not targeted at Arabic script support, it does provide a comprehensive list of applications that make full use of the OpenType and Graphite font technologies.
+See [Using Font Features](https://software.sil.org/fonts/features/). Although that page is not targeted at Arabic script support, it does provide a comprehensive list of applications that make full use of the OpenType font technology.
 
-See also [Arabic Fonts — Application Support](http://software.sil.org/arabicfonts/support/application-support/). It provides a fairly comprehensive list of applications that make full use of the OpenType and [Graphite](http://graphite.sil.org) font technologies.
+See also [Arabic Fonts — Application Support](http://software.sil.org/arabicfonts/support/application-support/). It provides a fairly comprehensive list of applications that make full use of the OpenType font technology.
 
 This page uses web fonts (WOFF) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Lateef as a web font see *Lateef-webfont-example.html* in the font package web folder. 
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
-## End of Ayah (U+06DD) and subtending marks (U+0600..U+0605)
+## End of Ayah (U+06DD), Disputed End of Ayah (U+08E2), and subtending marks (U+0600..U+0605, U+0890..U+0891)
 
 These Arabic characters are intended to enclose or hold one or more digits. 
 
