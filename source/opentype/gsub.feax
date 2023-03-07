@@ -52,15 +52,12 @@ lookup Mirror {
 
 #---  ccmp feature  ---
 
-do let f = info("familyName");
-	 if f.find("Scheherazade New") != -1 or f.find("Harmattan") != -1; {
 
 lookup SmallMadda {
   lookupflag 0 ;
     sub @Maddah by @Maddah.small ;
 } SmallMadda;
 
-} # Sch or Har
 
 # For full UTR53 stacks, this decomposition will already have been done.
 # Howver, as of 2021-09 Harfbuzz does NOT do this See https://github.com/harfbuzz/harfbuzz/issues/3179
@@ -532,11 +529,49 @@ lookup WolofCALT {
 
 # Lookups for user-selectable features
 
+
+do let f = info("familyName");
+   if f.find("Harmattan") != -1; {
+
+### REMOVE CV02
+#lookup WarshAlternates {
+#  lookupflag IgnoreMarks ;
+#    # Hamza touching is for cv02=1 or cv02=2 :
+#    sub alefHamzaabove-ar from [ alefHamzaabove-ar.warsh alefHamzaabove-ar.warsh ] ;
+#    sub alefHamzaabove-ar.fina from [ alefHamzaabove-ar.fina.warsh alefHamzaabove-ar.fina.warsh ] ;
+#    sub alefHamzabelow-ar from [ alefHamzabelow-ar.warsh alefHamzabelow-ar.warsh ] ;
+#    sub alefHamzabelow-ar.fina from [ alefHamzabelow-ar.fina.warsh alefHamzabelow-ar.fina.warsh ] ;
+#    # fatha and kasra touching isolate alef happens with cv02=2 :
+#    sub alef_fatha-ar from [ alef_fatha-ar alef_fatha-ar.warsh ] ;
+#    sub alef_kasra-ar from [ alef_kasra-ar alef_kasra-ar.warsh ] ;
+#} WarshAlternates;
+
+
+# Jeem/Hah medial alternate: cv08
+
+lookup JeemHahMedAlternate {
+  lookupflag IgnoreMarks ;
+    sub @cno_hand by @c_hand ;
+} JeemHahMedAlternate;
+
+}  #end do - Harmattan
+
+
+# Dal alternate: cv12
+# Has no effect in Lateef
+
 lookup DalAlternate {
   lookupflag IgnoreMarks ;
-    sub @DalIso  by   @DalIso.sen;
-    #sub @cno_loclWLF by @c_loclWLF ;
+    sub @cno_loclWLF by @c_loclWLF ;
 } DalAlternate;
+
+
+# Sad/Dad "half" form alternate: cv20
+
+lookup SadDadAlternate {
+  lookupflag IgnoreMarks ;
+    sub @cno_half by @c_half ;
+} SadDadAlternate;
 
 
 # Meem alternate: cv44
@@ -547,18 +582,6 @@ lookup MeemAlternate {
 } MeemAlternate;
 
 
-# Madda alternate
-
-ifinfo(familyName, "Scheherazade New") {
-	 
-lookup MaddaAlternate {				# MMM not in L
-  lookupflag 0 ;
-    sub @Maddah.small by @Maddah ;
-} MaddaAlternate;
-
-}  # Sch
-
-#********************
 # Heh Alternates: TypeTuner lookups:
 
 lookup SindhiHeh {         # TypeTuner only
@@ -957,7 +980,7 @@ feature rtlm {  # Right-To-Left Mirrored Forms
 
 feature ccmp {  # Glyph Composition/Decomposition
     # Same for latin & arabic:
-###        lookup SmallMadda;
+        lookup SmallMadda;
         # DecomposeForColor executes here for Arabic
         lookup FontCheck;
         lookup ReorderMaddaVowel1;

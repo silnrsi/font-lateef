@@ -624,8 +624,8 @@ of the license along with this Font Software. If this is not the case, go to
     <class name="HonLigCall">tab</class>
     <class name="HonLigSmpl">tab</class>
     
-    <class name="DalIso">    dal-ar</class>
-    <class name="DalIso.sen">dal-ar</class>
+    <class name="cno_loclWLF">dal-ar</class>
+    <class name="c_loclWLF">  dal-ar</class>
     
     <class name="cno_half">sad-ar</class>
     <class name="c_half">  sad-ar</class>

@@ -4,7 +4,7 @@
 
 -->
 <designspace format="3">
-<axes>
+    <axes>
         <axis default="400.0" maximum="800.0" minimum="200.0" name="weight" tag="wght">
             <map input="200.0" output="300.0" /> <!-- ExtraLight -->
             <map input="300.0" output="350.0" /> <!-- Light -->
