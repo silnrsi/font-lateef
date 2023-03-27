@@ -4,7 +4,8 @@
   <head>
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 15.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
-    <fontsrc label="LateefGR">url(../results/flo_cache/LateefGR-1.200.ttf)</fontsrc>
+    <fontsrc label="2.0">url(../references/v2.000/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="ref">url(../references/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ExBld">url(../results/Lateef-ExtraBold.ttf)</fontsrc>
@@ -51,7 +52,7 @@
       <style lang="wo" name="wo"/>
     </styles>
     <title>AllChars (auto)</title>
-    <widths string="19%"/>
+    <widths string="15%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">

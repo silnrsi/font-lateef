@@ -4,7 +4,7 @@
   <head>
     <comment>Background colors: light orange: includes a character from Unicode version 14.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
-    <fontsrc label="LateefGR">url(../references/LateefGR-1.200.ttf)</fontsrc>
+    <fontsrc label="LateefGR">url(../references/v1.200/LateefGR-Regular.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'cv44' 1" name="cv44_1"/>

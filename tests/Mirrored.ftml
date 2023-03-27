@@ -3,8 +3,8 @@
 <ftml version='1.0'>
   <head>
     <fontscale>300</fontscale>
-    <fontsrc label="LatOT">url(../references/LateefRegOT-1.001.ttf)</fontsrc>
-    <fontsrc label="LatGR">url(../references/LateefGR-1.200.ttf)</fontsrc>
+    <fontsrc label="LatOT">url(../references/v1.001/LateefRegOT.ttf)</fontsrc>
+    <fontsrc label="LatGR">url(../references/v1.200/LateefGR-Regular.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
     <styles>
     </styles>

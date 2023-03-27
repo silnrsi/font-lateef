@@ -3,9 +3,9 @@
 <ftml version='1.0'>
   <head>
     <fontscale>300</fontscale>
-    <fontsrc>local(Scheherazade)</fontsrc>
-    <fontsrc>local(Lateef)</fontsrc>
-    <fontsrc>url(../results/web/LateefGR-Regular.woff)</fontsrc>
+    <fontsrc label="Sch">local(Scheherazade)</fontsrc>
+    <fontsrc label="Lat">local(Lateef)</fontsrc>
+    <fontsrc label="Reg">url(../results/web/Lateef-Regular.woff)</fontsrc>
     <styles>
     </styles>
     <title>Empty test</title>
