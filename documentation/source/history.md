@@ -264,7 +264,7 @@ fontversion: 4.000
 - Changed scaling for some quranic marks (combining) and adjusted weights
 - Improved mark positioning
 - Redesign 
-    - U+0616 ARABIC SMALL HIGH LIGATURE ALEF WITH LAM WITH YEH
+    - U+0616 ARABIC SMALL HIGH LIGATURE ALEF WITH LAM WITH YEH (see https://www.unicode.org/versions/Unicode15.0.0/erratafixed.html)
     - U+0677 ARABIC LETTER U WITH HAMZA ABOVE
     - U+06AC ARABIC LETTER KAF WITH DOT ABOVE
     - U+06AD ARABIC LETTER NG
