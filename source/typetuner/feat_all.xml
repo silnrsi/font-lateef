@@ -152,7 +152,7 @@
 
 	<!-- cv70 -->
 	<feature name="Damma" value="Default" tag="Dma">
-		<value name="Default" tag="Def">						<!-- was "Standard", "Std" -->
+		<value name="Default" tag="Def">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Filled" tag="Fi">
@@ -226,7 +226,7 @@
 		</value>
 	</feature>
 
-	<!-- cv81 -->
+	<!-- cv81 - Scheherazade only
 	<feature name="Honorific ligatures" value="Calligraphic" tag="HnLg">
 		<value name="Calligraphic" tag="Cal">
 			<cmd name="null" args="null" />
@@ -235,6 +235,7 @@
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {HonLigAlternates}"/>
 		</value>"
 	</feature>
+	-->
 
 	<!-- cv82 -->
 	<feature name="Eastern digits" value="Standard" tag="Dig">
