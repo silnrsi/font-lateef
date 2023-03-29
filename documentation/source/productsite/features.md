@@ -32,7 +32,7 @@ Unfortunately, the UI needed to access the language-specific behavior is not yet
 #### Kurdish (Northern), Rohingya, Sindhi, Urdu
 
 Language | Meem | Heh Doachashmee (06BE) | 4 | 6 | 7 | 0650/064E | 064C | Feature Setting
--- | ---: | ----: | -: | -: | -: | --: | --: | ---
+:-- | ---: | ----: | -: | -: | -: | --: | --: | :---
 default | <span dir="rtl" class='lateef-R normal'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' >&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal'>&#x06F4;</span> |<span dir="rtl" class='lateef-R normal'>&#x06F6;</span> | <span dir="rtl" class='lateef-R normal'>&#x06F7;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x064C;</span> |
 Kurdish</br>(Northern) | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='ku' style="color:red">&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0628;&#x064C;</span> |  `lang='ku'`
 Rohingya | <span dir="rtl" class='lateef-R normal' lang='rhg'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x06F4;</span> | <span dir="rtl" class='lateef-R small' lang='rhg' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x0628;&#x064C;</span>| `lang='rhg'`
@@ -42,7 +42,7 @@ Urdu | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x0645;&#x0020;&#x0645
 #### Kyrgyz and Wolof
 
 Language | 0626 | 0650/064E | 064F | 0657 | Feature Setting
--- | -: |  --: | --: | --: | ---
+:-- | -: |  --: | --: | --: | :---
 default | <span dir="rtl" class='lateef-R normal'>&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x064F;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x0657;</span>|
 Kyrgyz | <span dir="rtl" class='lateef-R normal' lang='ky' style="color:red">&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='lateef-R normal' lang='ky'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='ky'>&#x0628;&#x064F;</span> | <span dir="rtl" class='lateef-R normal' lang='ky'>&#x0628;&#x0657;</span>| `lang='ky'`
 Wolof | <span dir="rtl" class='lateef-R normal' lang='wo'>&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='lateef-R normal' lang='wo' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='wo' style="color:red">&#x0628;&#x064F;</span> | <span dir="rtl" class='lateef-R normal' lang='wo' style="color:red">&#x0628;&#x0657;</span>| `lang='wo'`
@@ -57,7 +57,7 @@ There are some character shape differences in different languages which use the 
 <span class='affects'>Affects: U+0645, U+0765, U+0766, U+08A7</span>
 
 Feature | Sample | Feature setting
-------------- | ---------------: | ------------- 
+:------------- | ---------------: | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'> م ممم ݥ ݥݥݥ ݦ ݦݦݦ ࢧ ࢧࢧࢧ </span> | `cv44=0`
 Sindhi-style | <span dir="rtl" class='lateef-cv44-1-R normal'> م ممم ݥ ݥݥݥ ݦ ݦݦݦ ࢧ ࢧࢧࢧ </span>| `cv44=1`
 
@@ -67,7 +67,7 @@ Sindhi-style | <span dir="rtl" class='lateef-cv44-1-R normal'> م ممم ݥ ݥݥ
 <span class='affects'>Affects: U+0647</span>
 
 Feature | Sample | Feature setting
-------------- | --------------- | ------------- 
+:------------- | ---------------: | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'> ه ههه </span>| `cv48=0`
 Kurdish-style | <span dir="rtl" class='lateef-cv48-3-R normal'> ه ههه </span>| `cv48=3`
 Sindhi-style | <span dir="rtl" class='lateef-cv48-1-R normal'> ه ههه </span>| `cv48=1`
@@ -78,7 +78,7 @@ Urdu-style | <span dir="rtl" class='lateef-cv48-2-R normal'> ه ههه </span>| 
 <span class='affects'>Affects: U+06BE</span>
 
 Feature | Sample | Feature setting
-------------- | ------ | ------------- 
+:------------- | ------: | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=0`
 Knotted-style | <span dir="rtl" class='lateef-cv49-1-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=1`
 Kurdish-style | <span dir="rtl" class='lateef-cv49-3-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=3`
@@ -88,7 +88,7 @@ Kurdish-style | <span dir="rtl" class='lateef-cv49-3-R normal'>&#x06be;&#x0020;&
 <span class='affects'>Affects: U+06C5</span>
 
 Feature | Sample | Feature setting
-------------- | --------------- | ------------- 
+:------------- | ---------------: | :------------- 
 Loop | <span dir="rtl" class='lateef-R normal'>ۅ</span> | `cv51=0`
 Bar | <span dir="rtl" class='lateef-cv51-1-R normal'>ۅ</span>| `cv51=1`
 
@@ -97,7 +97,7 @@ Bar | <span dir="rtl" class='lateef-cv51-1-R normal'>ۅ</span>| `cv51=1`
 <span class='affects'>Affects: U+0626</span>
 
 Feature | Sample | Feature setting
-------------- | --------------- | ------------- 
+:------------- | ---------------: | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>ئ ‍ئ</span> | `cv54=0`
 Right hamza| <span dir="rtl" class='lateef-cv54-1-R normal'>ئ ‍ئ</span>| `cv54=1`
 
@@ -107,46 +107,57 @@ Right hamza| <span dir="rtl" class='lateef-cv54-1-R normal'>ئ ‍ئ</span>| `cv
 <span class='affects'>Affects: U+064D, U+0650 with U+0651</span>
 
 Feature | Sample | Feature setting
-------------- | --------------- | ------------- 
-Raised | <span dir="rtl" class='lateef-R normal'> بِّ ◌ِّ بٍّ ◌ٍّ </span> | `cv62=0`
+:------------- | ---------------: | :------------- 
+Default | <span dir="rtl" class='lateef-R normal'> بِّ ◌ِّ بٍّ ◌ٍّ </span> | `cv62=0`
 Lowered | <span dir="rtl" class='lateef-cv62-1-R normal'> بِّ ◌ِّ بٍّ ◌ٍّ </span>| `cv62=1`
+Raised | <span dir="rtl" class='lateef-cv62-2-R normal'> بِّ ◌ِّ بٍّ ◌ٍّ </span>| `cv62=2`
 
 #### Damma 
-
 
 <span class='affects'>Affects: U+064F</span>
 
 Feature | Sample | Feature setting
-------------- | --------------- | ------------- 
+:------------- | ---------------: | :------------- 
 Default | <span dir="rtl" class='lateef-R normal'> بُ ◌ُ</span> | `cv70=0`
 Filled | <span dir="rtl" class='lateef-cv70-1-R normal'>بُ ◌ُ</span>| `cv70=1`
+Short | <span dir="rtl" class='lateef-cv70-2-R normal'>بُ ◌ُ</span>| `cv70=2`
 
 #### Dammatan 
 
 <span class='affects'>Affects: U+064C</span>
 
 Feature | Sample | Feature setting
-------------- | --------------- | ------------- 
+:------------- | ---------------: | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>بٌ ◌ٌ</span> | `cv72=0`
 Six-nine | <span dir="rtl" class='lateef-cv72-1-R normal'>بٌ ◌ٌ</span>| `cv72=1`
+
+#### Inverted Damma 
+
+<span class='affects'>Affects: U+0657</span>
+
+Feature | Sample | Feature setting
+:------------- | ------: | :------------- 
+Default | <span dir="rtl" class='lateef-R normal'>بٗ ◌ٗ</span> | `cv74=0`
+Hollow | <span dir="rtl" class='lateef-cv74-1-R normal'>بٗ ◌ٗ</span>| `cv74=1`
+Filled | <span dir="rtl" class='lateef-cv74-2-R normal'>بٗ ◌ٗ</span>| `cv74=2`
 
 #### Superscript Alef 
 
 <span class='affects'>Affects: U+0670 on all yeh, sad and seen-like characters 
-U+0649 U+064A U+06D0 U+06D1 U+0777 U+06CC U+0635 U+0636 U+069D U+069E U+06FB U+08AF U+0633 U+0634 U+069A U+069B U+069C U+06FA U+075C U+076D U+0770 U+077D U+077E</span>
+U+0620, U+0626, U+0633, U+0634, U+0635, U+0636, U+063D, U+063E, U+063F, U+0649, U+064A, U+0678, U+069A, U+069B, U+069C, U+069D, U+069E, U+06CC, U+06CD, U+06CE, U+06D0, U+06D1, U+06FA, U+06FB, U+075C, U+076D, U+0770, U+077D, U+077E, U+0775, U+0776, U+0777, U+08A8, U+08A9, U+08AF, U+08BA</span>
 
 Feature | Sample | Feature setting
-------------- | ---------------: | ------------- 
-Default (Large) | <span dir="rtl" class='lateef-R normal'>ئٰ ئٰئٰئٰ ىٰ ىٰىٰىٰ يٰ يٰيٰيٰ ٸٰ ٸٰٸٰٸٰ ېٰ ېٰېٰېٰ ۑٰ ۑٰۑٰۑٰ ݷٰ ݷٰݷٰݷٰ ࢨٰ ࢨٰࢨٰࢨٰ ࢩٰ ࢩٰࢩٰࢩٰ ؽٰ ؽٰؽٰؽٰ ؾٰ ؾٰؾٰؾٰ ؿٰ ؿٰؿٰؿٰ یٰ یٰیٰیٰ ێٰ ێٰێٰێٰ ݵٰ ݵٰݵٰݵٰ ݶٰ ݶٰݶٰݶٰ صٰ صٰصٰصٰ ضٰ ضٰضٰضٰ ڝٰ ڝٰڝٰڝٰ ڞٰ ڞٰڞٰڞٰ ۻٰ ۻٰۻٰۻٰ ࢯٰ ࢯٰࢯٰࢯٰ سٰ سٰسٰسٰ شٰ شٰشٰشٰ ښٰ ښٰښٰښٰ ڛٰ ڛٰڛٰڛٰ ڜٰ ڜٰڜٰڜٰ ۺٰ ۺٰۺٰۺٰ ݜٰ ݜٰݜٰݜٰ ݭٰ ݭٰݭٰݭٰ ݰٰ ݰٰݰٰݰٰ ݽٰ ݽٰݽٰݽٰ ݾٰ ݾٰݾٰݾٰ </span> | `cv76=0`
-Large | <span dir="rtl" class='lateef-cv76-1-R normal'>ئٰ ئٰئٰئٰ ىٰ ىٰىٰىٰ يٰ يٰيٰيٰ ٸٰ ٸٰٸٰٸٰ ېٰ ېٰېٰېٰ ۑٰ ۑٰۑٰۑٰ ݷٰ ݷٰݷٰݷٰ ࢨٰ ࢨٰࢨٰࢨٰ ࢩٰ ࢩٰࢩٰࢩٰ ؽٰ ؽٰؽٰؽٰ ؾٰ ؾٰؾٰؾٰ ؿٰ ؿٰؿٰؿٰ یٰ یٰیٰیٰ ێٰ ێٰێٰێٰ ݵٰ ݵٰݵٰݵٰ ݶٰ ݶٰݶٰݶٰ صٰ صٰصٰصٰ ضٰ ضٰضٰضٰ ڝٰ ڝٰڝٰڝٰ ڞٰ ڞٰڞٰڞٰ ۻٰ ۻٰۻٰۻٰ ࢯٰ ࢯٰࢯٰࢯٰ سٰ سٰسٰسٰ شٰ شٰشٰشٰ ښٰ ښٰښٰښٰ ڛٰ ڛٰڛٰڛٰ ڜٰ ڜٰڜٰڜٰ ۺٰ ۺٰۺٰۺٰ ݜٰ ݜٰݜٰݜٰ ݭٰ ݭٰݭٰݭٰ ݰٰ ݰٰݰٰݰٰ ݽٰ ݽٰݽٰݽٰ ݾٰ ݾٰݾٰݾٰ </span>| `cv76=1`
-Small | <span dir="rtl" class='lateef-cv76-2-R normal'>ئٰ ئٰئٰئٰ ىٰ ىٰىٰىٰ يٰ يٰيٰيٰ ٸٰ ٸٰٸٰٸٰ ېٰ ېٰېٰېٰ ۑٰ ۑٰۑٰۑٰ ݷٰ ݷٰݷٰݷٰ ࢨٰ ࢨٰࢨٰࢨٰ ࢩٰ ࢩٰࢩٰࢩٰ ؽٰ ؽٰؽٰؽٰ ؾٰ ؾٰؾٰؾٰ ؿٰ ؿٰؿٰؿٰ یٰ یٰیٰیٰ ێٰ ێٰێٰێٰ ݵٰ ݵٰݵٰݵٰ ݶٰ ݶٰݶٰݶٰ صٰ صٰصٰصٰ ضٰ ضٰضٰضٰ ڝٰ ڝٰڝٰڝٰ ڞٰ ڞٰڞٰڞٰ ۻٰ ۻٰۻٰۻٰ ࢯٰ ࢯٰࢯٰࢯٰ سٰ سٰسٰسٰ شٰ شٰشٰشٰ ښٰ ښٰښٰښٰ ڛٰ ڛٰڛٰڛٰ ڜٰ ڜٰڜٰڜٰ ۺٰ ۺٰۺٰۺٰ ݜٰ ݜٰݜٰݜٰ ݭٰ ݭٰݭٰݭٰ ݰٰ ݰٰݰٰݰٰ ݽٰ ݽٰݽٰݽٰ ݾٰ ݾٰݾٰݾٰ </span>| `cv76=2`
+:------------- | ---------------: | :------------- 
+Default | <span dir="rtl" class='lateef-R normal'>&#x0620;&#x0670; &#x0620;&#x0670;&#x0620;&#x0670; &#x0626;&#x0670; &#x0626;&#x0670;&#x0626;&#x0670; &#x0633;&#x0670; &#x0633;&#x0670;&#x0633;&#x0670; &#x0634;&#x0670; &#x0634;&#x0670;&#x0634;&#x0670; &#x0635;&#x0670; &#x0635;&#x0670;&#x0635;&#x0670; &#x0636;&#x0670; &#x0636;&#x0670;&#x0636;&#x0670; &#x063D;&#x0670; &#x063D;&#x0670;&#x063D;&#x0670; &#x063E;&#x0670; &#x063E;&#x0670;&#x063E;&#x0670; &#x063F;&#x0670; &#x063F;&#x0670;&#x063F;&#x0670; &#x0649;&#x0670; &#x0649;&#x0670;&#x0649;&#x0670; &#x064A;&#x0670; &#x064A;&#x0670;&#x064A;&#x0670; &#x0678;&#x0670; &#x0678;&#x0670;&#x0678;&#x0670; &#x069A;&#x0670; &#x069A;&#x0670;&#x069A;&#x0670; &#x069B;&#x0670; &#x069B;&#x0670;&#x069B;&#x0670; &#x069C;&#x0670; &#x069C;&#x0670;&#x069C;&#x0670; &#x069D;&#x0670; &#x069D;&#x0670;&#x069D;&#x0670; &#x069E;&#x0670; &#x069E;&#x0670;&#x069E;&#x0670; &#x06CC;&#x0670; &#x06CC;&#x0670;&#x06CC;&#x0670; &#x06CD;&#x0670; &#x0628;&#x06CD;&#x0670; &#x06CE;&#x0670; &#x06CE;&#x0670;&#x06CE;&#x0670; &#x06D0;&#x0670; &#x06D0;&#x0670;&#x06D0;&#x0670; &#x06D1;&#x0670; &#x06D1;&#x0670;&#x06D1;&#x0670; &#x06FA;&#x0670; &#x06FA;&#x0670;&#x06FA;&#x0670; &#x06FB;&#x0670; &#x06FB;&#x0670;&#x06FB;&#x0670; &#x075C;&#x0670; &#x075C;&#x0670;&#x075C;&#x0670; &#x076D;&#x0670; &#x076D;&#x0670;&#x076D;&#x0670; &#x0770;&#x0670; &#x0770;&#x0670;&#x0770;&#x0670; &#x077D;&#x0670; &#x077D;&#x0670;&#x077D;&#x0670; &#x077E;&#x0670; &#x077E;&#x0670;&#x077E;&#x0670; &#x0775;&#x0670; &#x0775;&#x0670;&#x0775;&#x0670; &#x0776;&#x0670; &#x0776;&#x0670;&#x0776;&#x0670; &#x0777;&#x0670; &#x0777;&#x0670;&#x0777;&#x0670; &#x08A8;&#x0670; &#x08A8;&#x0670;&#x08A8;&#x0670; &#x08A9;&#x0670; &#x08A9;&#x0670;&#x08A9;&#x0670; &#x08AF;&#x0670; &#x08AF;&#x0670;&#x08AF;&#x0670; &#x08BA;&#x0670; &#x08BA;&#x0670;&#x08BA;&#x0670;</span> | `cv76=0`
+Large | <span dir="rtl" class='lateef-cv76-1-R normal'>&#x0620;&#x0670; &#x0620;&#x0670;&#x0620;&#x0670; &#x0626;&#x0670; &#x0626;&#x0670;&#x0626;&#x0670; &#x0633;&#x0670; &#x0633;&#x0670;&#x0633;&#x0670; &#x0634;&#x0670; &#x0634;&#x0670;&#x0634;&#x0670; &#x0635;&#x0670; &#x0635;&#x0670;&#x0635;&#x0670; &#x0636;&#x0670; &#x0636;&#x0670;&#x0636;&#x0670; &#x063D;&#x0670; &#x063D;&#x0670;&#x063D;&#x0670; &#x063E;&#x0670; &#x063E;&#x0670;&#x063E;&#x0670; &#x063F;&#x0670; &#x063F;&#x0670;&#x063F;&#x0670; &#x0649;&#x0670; &#x0649;&#x0670;&#x0649;&#x0670; &#x064A;&#x0670; &#x064A;&#x0670;&#x064A;&#x0670; &#x0678;&#x0670; &#x0678;&#x0670;&#x0678;&#x0670; &#x069A;&#x0670; &#x069A;&#x0670;&#x069A;&#x0670; &#x069B;&#x0670; &#x069B;&#x0670;&#x069B;&#x0670; &#x069C;&#x0670; &#x069C;&#x0670;&#x069C;&#x0670; &#x069D;&#x0670; &#x069D;&#x0670;&#x069D;&#x0670; &#x069E;&#x0670; &#x069E;&#x0670;&#x069E;&#x0670; &#x06CC;&#x0670; &#x06CC;&#x0670;&#x06CC;&#x0670; &#x06CD;&#x0670; &#x0628;&#x06CD;&#x0670; &#x06CE;&#x0670; &#x06CE;&#x0670;&#x06CE;&#x0670; &#x06D0;&#x0670; &#x06D0;&#x0670;&#x06D0;&#x0670; &#x06D1;&#x0670; &#x06D1;&#x0670;&#x06D1;&#x0670; &#x06FA;&#x0670; &#x06FA;&#x0670;&#x06FA;&#x0670; &#x06FB;&#x0670; &#x06FB;&#x0670;&#x06FB;&#x0670; &#x075C;&#x0670; &#x075C;&#x0670;&#x075C;&#x0670; &#x076D;&#x0670; &#x076D;&#x0670;&#x076D;&#x0670; &#x0770;&#x0670; &#x0770;&#x0670;&#x0770;&#x0670; &#x077D;&#x0670; &#x077D;&#x0670;&#x077D;&#x0670; &#x077E;&#x0670; &#x077E;&#x0670;&#x077E;&#x0670; &#x0775;&#x0670; &#x0775;&#x0670;&#x0775;&#x0670; &#x0776;&#x0670; &#x0776;&#x0670;&#x0776;&#x0670; &#x0777;&#x0670; &#x0777;&#x0670;&#x0777;&#x0670; &#x08A8;&#x0670; &#x08A8;&#x0670;&#x08A8;&#x0670; &#x08A9;&#x0670; &#x08A9;&#x0670;&#x08A9;&#x0670; &#x08AF;&#x0670; &#x08AF;&#x0670;&#x08AF;&#x0670; &#x08BA;&#x0670; &#x08BA;&#x0670;&#x08BA;&#x0670;</span>| `cv76=1`
+Small | <span dir="rtl" class='lateef-cv76-2-R normal'>&#x0620;&#x0670; &#x0620;&#x0670;&#x0620;&#x0670; &#x0626;&#x0670; &#x0626;&#x0670;&#x0626;&#x0670; &#x0633;&#x0670; &#x0633;&#x0670;&#x0633;&#x0670; &#x0634;&#x0670; &#x0634;&#x0670;&#x0634;&#x0670; &#x0635;&#x0670; &#x0635;&#x0670;&#x0635;&#x0670; &#x0636;&#x0670; &#x0636;&#x0670;&#x0636;&#x0670; &#x063D;&#x0670; &#x063D;&#x0670;&#x063D;&#x0670; &#x063E;&#x0670; &#x063E;&#x0670;&#x063E;&#x0670; &#x063F;&#x0670; &#x063F;&#x0670;&#x063F;&#x0670; &#x0649;&#x0670; &#x0649;&#x0670;&#x0649;&#x0670; &#x064A;&#x0670; &#x064A;&#x0670;&#x064A;&#x0670; &#x0678;&#x0670; &#x0678;&#x0670;&#x0678;&#x0670; &#x069A;&#x0670; &#x069A;&#x0670;&#x069A;&#x0670; &#x069B;&#x0670; &#x069B;&#x0670;&#x069B;&#x0670; &#x069C;&#x0670; &#x069C;&#x0670;&#x069C;&#x0670; &#x069D;&#x0670; &#x069D;&#x0670;&#x069D;&#x0670; &#x069E;&#x0670; &#x069E;&#x0670;&#x069E;&#x0670; &#x06CC;&#x0670; &#x06CC;&#x0670;&#x06CC;&#x0670; &#x06CD;&#x0670; &#x0628;&#x06CD;&#x0670; &#x06CE;&#x0670; &#x06CE;&#x0670;&#x06CE;&#x0670; &#x06D0;&#x0670; &#x06D0;&#x0670;&#x06D0;&#x0670; &#x06D1;&#x0670; &#x06D1;&#x0670;&#x06D1;&#x0670; &#x06FA;&#x0670; &#x06FA;&#x0670;&#x06FA;&#x0670; &#x06FB;&#x0670; &#x06FB;&#x0670;&#x06FB;&#x0670; &#x075C;&#x0670; &#x075C;&#x0670;&#x075C;&#x0670; &#x076D;&#x0670; &#x076D;&#x0670;&#x076D;&#x0670; &#x0770;&#x0670; &#x0770;&#x0670;&#x0770;&#x0670; &#x077D;&#x0670; &#x077D;&#x0670;&#x077D;&#x0670; &#x077E;&#x0670; &#x077E;&#x0670;&#x077E;&#x0670; &#x0775;&#x0670; &#x0775;&#x0670;&#x0775;&#x0670; &#x0776;&#x0670; &#x0776;&#x0670;&#x0776;&#x0670; &#x0777;&#x0670; &#x0777;&#x0670;&#x0777;&#x0670; &#x08A8;&#x0670; &#x08A8;&#x0670;&#x08A8;&#x0670; &#x08A9;&#x0670; &#x08A9;&#x0670;&#x08A9;&#x0670; &#x08AF;&#x0670; &#x08AF;&#x0670;&#x08AF;&#x0670; &#x08BA;&#x0670; &#x08BA;&#x0670;&#x08BA;&#x0670;</span>| `cv76=2`
 
 #### Sukun 
 
 <span class='affects'>Affects: U+0652</span>
 
 Feature | Sample | Feature setting
-------------- | --------------- | ------------- 
+:------------- | ---------------: | :------------- 
 Closed | <span dir="rtl" class='lateef-R normal'>بْ ◌ْ</span> | `cv78=0`
 Open down | <span dir="rtl" class='lateef-cv78-1-R normal'>بْ ◌ْ</span>| `cv78=1`
 Open left | <span dir="rtl" class='lateef-cv78-2-R normal'>بْ ◌ْ</span>| `cv78=2`
@@ -167,7 +178,7 @@ Surrounding the sequence with U+202D and U+202C seems to give the most reliable 
 In the example below, the following codepoints are used: U+202D U+06DD U+0031 U+0032 U+0033 U+202C U+202D U+06DD U+0611 U+0622 U+0663 U+202C.
 
 Feature | Sample | Feature setting
-------------- | --------------- | ------------- 
+:------------- | ---------------: | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span> | `cv80=0`
 Simplified A | <span dir="rtl" class='lateef-cv80-1-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `cv80=1`
 Simplified B | <span dir="rtl" class='lateef-cv80-2-R normal'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `cv80=2`
@@ -182,7 +193,7 @@ The DISPUTED END OF AYAH (U+08E2) is also now available in the font. It works in
 <span class='affects'>Affects: U+06F4, U+06F6, U+06F7</span>
 
 Feature | Sample | Feature setting
-------------- | --------------- | ------------- 
+:------------- | ---------------: | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>&#x06F4;&#x06F6;&#x06F7;</span> | `cv82=0`
 Kurdish-style | <span dir="rtl" class='lateef-cv82-3-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=3`
 Rohingya-style | <span dir="rtl" class='lateef-cv82-4-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=4`
@@ -196,7 +207,7 @@ Tabular digits are the default for Latin digits. Lateef supports the OpenType **
 <span class='affects'>Affects: U+0030..U+0039</span>
 
 Feature | Sample | Feature setting
-------------- | ------ | ------------- 
+:------------- | :------ | :------------- 
 Tabular Figures      | <span dir="ltr" class='lateefL-R normal'>0123456789</span>| `pnum=0`
 Proportional Figures     | <span dir="ltr" class='lateefL-pnum-1-R normal'>0123456789</span>| `pnum=1`
 
@@ -207,7 +218,7 @@ Proportional digits are the default for Arabic digits. Lateef supports the OpenT
 <span class='affects'>Affects: U+0660..U+0669, U+06F0.. U+06F9</span>
 
 Feature | Sample | Feature setting
-------------- | ------ | ------------- 
+:------------- | ------: | :------------- 
 Proportional Figures      | <span class='lateefL-R normal'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=0`
 Tabular Figures     | <span class='lateefL-tnum-1-R normal'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=1`
 
@@ -216,7 +227,7 @@ Tabular Figures     | <span class='lateefL-tnum-1-R normal'>&#x0660;&#x0661;&#x0
 <span class='affects'>Affects: U+060C, U+061B</span>
 
 Feature | Sample |  Feature setting
-------------- | --------------- | ------------- 
+:------------- | ---------------: | :------------- 
 Upward | <span dir="rtl" class='lateef-R normal'>، ؛</span> | `cv84=0`
 Downward | <span dir="rtl" class='lateef-cv84-1-R normal'>، ؛</span>| `cv84=1`
 
@@ -225,7 +236,7 @@ Downward | <span dir="rtl" class='lateef-cv84-1-R normal'>، ؛</span>| `cv84=1`
 <span class='affects'>Affects: U+066B</span>
 
 Feature | Sample |  Feature setting
-------------- | --------------- | ------------- 
+:------------- | ---------------: | :------------- 
 Small reh | <span dir="rtl" class='lateef-R normal'>&#x066B;</span> | `cv85=0`
 Slash | <span dir="rtl" class='lateef-cv85-1-R normal'>&#x066B;</span>| `cv85=1`
 
@@ -247,8 +258,12 @@ Slash | <span dir="rtl" class='lateef-cv85-1-R normal'>&#x066B;</span>| `cv85=1`
 [font id='lateef-cv51-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv51 1']
 [font id='lateef-cv54-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv54 1']
 [font id='lateef-cv62-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv62 1']
+[font id='lateef-cv62-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv62 2']
 [font id='lateef-cv70-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv70 1']
+[font id='lateef-cv70-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv70 2']
 [font id='lateef-cv72-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv72 1']
+[font id='lateef-cv74-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv74 1']
+[font id='lateef-cv74-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv74 2']
 [font id='lateef-cv76-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv76 1']
 [font id='lateef-cv76-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv76 2']
 [font id='lateef-cv78-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv78 1']
