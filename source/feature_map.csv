@@ -14,7 +14,7 @@ cv48,Heh,Standard,Sindhi-style,Urdu-style,Kurdish-style
 cv51,Kyrgyz OE,Loop,Bar
 cv54,Yeh Hamza,Standard,Right hamza
 cv62,Shadda+kasra placement,Default,Lowered,Raised
-cv70,Damma,Standard,Filled
+cv70,Damma,Default,Filled
 cv72,Dammatan,Standard,Six-nine
 cv74,Inverted Damma,Default,Hollow,Filled
 cv76,Superscript Alef,Default,Large,Small
