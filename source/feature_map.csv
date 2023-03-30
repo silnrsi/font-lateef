@@ -11,7 +11,7 @@ lang=wo,Language,Wolof
 # feat tag mappings,TT feat,default,value 1,value 2,value 3,value 4
 cv44,Meem,Standard,Sindhi-style
 cv48,Heh,Standard,Sindhi-style,Urdu-style,Kurdish-style
-cv49,Heh Doachashmee,Standard,Knotted-style,Standard,Kurdish-style
+cv49,Heh Doachashmee,Standard,Knotted,Standard,Kurdish-style
 cv51,Kyrgyz OE,Loop,Bar
 cv54,Yeh Hamza,Standard,Right hamza
 cv62,Shadda+kasra placement,Default,Lowered,Raised

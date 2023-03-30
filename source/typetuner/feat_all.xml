@@ -108,7 +108,7 @@
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Knotted-style" tag="Knt">
+		<value name="Knotted" tag="Knt">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Kurdish-style" tag="Ku">

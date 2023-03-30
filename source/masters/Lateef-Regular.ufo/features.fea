@@ -2168,15 +2168,23 @@ lookup MeemAlternate {
 } MeemAlternate;
 
 # Heh alternates: cv48
-lookup SindhiHeh {
+lookup KurdishHehTT {
+    # TypeTuner only
+    lookupflag IgnoreMarks;
+    # Used only by TypeTuner
+    sub heh-ar.fina by heh-ar.fina.knottedHigh;
+    sub heh-ar by heh-ar.knotted;
+} KurdishHehTT;
+
+lookup SindhiHehTT {
     # TypeTuner only
     lookupflag IgnoreMarks;
     sub heh-ar.medi by heh-ar.medi.knottedHigh;
     sub heh-ar.fina by heh-ar.fina.knottedHigh;
     sub heh-ar by heh-ar.knotted;
-} SindhiHeh;
+} SindhiHehTT;
 
-lookup UrduHeh {
+lookup UrduHehTT {
     # TypeTuner only}
     lookupflag IgnoreMarks;
     sub heh-ar.init by heh-ar.init.hooked;
@@ -2185,17 +2193,8 @@ lookup UrduHeh {
     # In case Lang=Kurdish set:
     sub heh-ar.knotted by heh-ar;
     sub heh-ar.fina.knottedHigh by heh-ar.fina.hooked;
-} UrduHeh;
+} UrduHehTT;
 
-lookup KurdishHeh {
-    # TypeTuner only
-    lookupflag IgnoreMarks;
-    # Used only by TypeTuner
-    sub heh-ar.fina by heh-ar.fina.knottedHigh;
-    sub heh-ar by heh-ar.knotted;
-} KurdishHeh;
-
-# Heh alternates: cv48
 lookup HehAlternates {
     lookupflag IgnoreMarks;
     #   0=default             1=Sindhi-style           2=Urdu-style        3=Kurdish-style
@@ -2208,7 +2207,7 @@ lookup HehAlternates {
 # Heh-doachashmee alternates: cv49
 lookup HehDoAlternates {
     lookupflag IgnoreMarks;
-    #   0=default                       1=knotted-style                     2=no change             3=Kurdish-style
+    #   0=default                       1=knotted                           2=no change             3=Kurdish-style
     sub hehDoachashmee-ar from [hehDoachashmee-ar hehDoachashmee-ar hehDoachashmee-ar];
     sub hehDoachashmee-ar.init from [hehDoachashmee-ar.init hehDoachashmee-ar.init hehDoachashmee-ar.init];
     sub hehDoachashmee-ar.medi from [hehDoachashmee-ar.medi.knottedHigh hehDoachashmee-ar.medi hehDoachashmee-ar.medi];
@@ -2313,36 +2312,36 @@ lookup AyahAlternates {
 # Sch
 # Digit alternates
 # TypeTuner lookups:
-lookup DigitSindhi {
+lookup DigitSindhiTT {
     lookupflag 0;
     sub four-persian.urdu by four-persian;
     sub four-persian.roh by four-persian;
     sub six-persian by six-persian.urdu;
     sub seven-persian by seven-persian.urdu;
-} DigitSindhi;
+} DigitSindhiTT;
 
-lookup DigitUrdu {
+lookup DigitUrduTT {
     lookupflag 0;
     sub four-persian by four-persian.urdu;
     sub four-persian.roh by four-persian.urdu;
     sub six-persian by six-persian.urdu;
     sub seven-persian by seven-persian.urdu;
-} DigitUrdu;
+} DigitUrduTT;
 
-lookup DigitKurdish {
+lookup DigitKurdishTT {
     lookupflag 0;
     sub four-persian.urdu by four-persian;
     sub four-persian.roh by four-persian;
     sub six-persian.urdu by six-persian;
     sub seven-persian.urdu by seven-persian;
-} DigitKurdish;
+} DigitKurdishTT;
 
-lookup DigitRohingya {
+lookup DigitRohingyaTT {
     sub four-persian by four-persian.roh;
     sub four-persian.urdu by four-persian.roh;
     sub six-persian by six-persian.urdu;
     sub seven-persian by seven-persian.urdu;
-} DigitRohingya;
+} DigitRohingyaTT;
 
 # Eastern digit alternates: cv82
 # Only used for cv82, not language-specific modifications:
@@ -2854,7 +2853,7 @@ feature cv49 {
 
         ### ParamUILabelNameID { name 3 1 0x0409 "Standard"        ; };
                 ParamUILabelNameID {
-            name "Knotted-style";
+            name "Knotted";
         };
 
                 ParamUILabelNameID {
@@ -3159,10 +3158,10 @@ feature cv85 {
     # Character Variant 85
         cvParameters {
                 FeatUILabelNameID {
-            name "Decmal separator";
+            name "Decimal separator";
         };
 
-        ### ParamUILabelNameID { name 3 1 0x0409 "Small reh"       ; };
+        ### ParamUILabelNameID { name 3 1 0x0409 "Small reh"        ; };
                 ParamUILabelNameID {
             name "Slash";
         };
