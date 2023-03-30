@@ -89,6 +89,7 @@
       <style feats="'cv82' 4, 'tnum' 1" lang="ku" name="ku_cv82_4_tnum_1"/>
       <style feats="'cv84' 1" lang="ku" name="ku_cv84_1"/>
       <style feats="'cv85' 1" lang="ku" name="ku_cv85_1"/>
+      <style feats="'pnum' 1" lang="ku" name="ku_pnum_1"/>
       <style feats="'tnum' 1" lang="ku" name="ku_tnum_1"/>
       <style lang="ky" name="ky"/>
       <style feats="'cv44' 1" lang="ky" name="ky_cv44_1"/>
@@ -131,7 +132,9 @@
       <style feats="'cv82' 4, 'tnum' 1" lang="ky" name="ky_cv82_4_tnum_1"/>
       <style feats="'cv84' 1" lang="ky" name="ky_cv84_1"/>
       <style feats="'cv85' 1" lang="ky" name="ky_cv85_1"/>
+      <style feats="'pnum' 1" lang="ky" name="ky_pnum_1"/>
       <style feats="'tnum' 1" lang="ky" name="ky_tnum_1"/>
+      <style feats="'pnum' 1" name="pnum_1"/>
       <style lang="rhg" name="rhg"/>
       <style feats="'cv44' 1" lang="rhg" name="rhg_cv44_1"/>
       <style feats="'cv48' 1" lang="rhg" name="rhg_cv48_1"/>
@@ -173,6 +176,7 @@
       <style feats="'cv82' 4, 'tnum' 1" lang="rhg" name="rhg_cv82_4_tnum_1"/>
       <style feats="'cv84' 1" lang="rhg" name="rhg_cv84_1"/>
       <style feats="'cv85' 1" lang="rhg" name="rhg_cv85_1"/>
+      <style feats="'pnum' 1" lang="rhg" name="rhg_pnum_1"/>
       <style feats="'tnum' 1" lang="rhg" name="rhg_tnum_1"/>
       <style lang="sd" name="sd"/>
       <style feats="'cv44' 1" lang="sd" name="sd_cv44_1"/>
@@ -215,6 +219,7 @@
       <style feats="'cv82' 4, 'tnum' 1" lang="sd" name="sd_cv82_4_tnum_1"/>
       <style feats="'cv84' 1" lang="sd" name="sd_cv84_1"/>
       <style feats="'cv85' 1" lang="sd" name="sd_cv85_1"/>
+      <style feats="'pnum' 1" lang="sd" name="sd_pnum_1"/>
       <style feats="'tnum' 1" lang="sd" name="sd_tnum_1"/>
       <style feats="'tnum' 1" name="tnum_1"/>
       <style lang="ur" name="ur"/>
@@ -258,6 +263,7 @@
       <style feats="'cv82' 4, 'tnum' 1" lang="ur" name="ur_cv82_4_tnum_1"/>
       <style feats="'cv84' 1" lang="ur" name="ur_cv84_1"/>
       <style feats="'cv85' 1" lang="ur" name="ur_cv85_1"/>
+      <style feats="'pnum' 1" lang="ur" name="ur_pnum_1"/>
       <style feats="'tnum' 1" lang="ur" name="ur_tnum_1"/>
       <style lang="wo" name="wo"/>
       <style feats="'cv44' 1" lang="wo" name="wo_cv44_1"/>
@@ -300,6 +306,7 @@
       <style feats="'cv82' 4, 'tnum' 1" lang="wo" name="wo_cv82_4_tnum_1"/>
       <style feats="'cv84' 1" lang="wo" name="wo_cv84_1"/>
       <style feats="'cv85' 1" lang="wo" name="wo_cv85_1"/>
+      <style feats="'pnum' 1" lang="wo" name="wo_pnum_1"/>
       <style feats="'tnum' 1" lang="wo" name="wo_tnum_1"/>
     </styles>
     <title>Feature-Language Interactions (auto)</title>
@@ -2470,6 +2477,196 @@ U+061B" rtl="True" stylename="wo_cv84_1">
     <test label="U+066B" rtl="True" stylename="wo_cv85_1">
       <comment>Yes</comment>
       <string>\u00066B</string>
+    </test>
+  </testgroup>
+  <testgroup label="pnum Proportional digits">
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True">
+      <string>11111 77777</string>
+    </test>
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True" stylename="pnum_1">
+      <string>11111 77777</string>
+    </test>
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True" stylename="sd">
+      <string>11111 77777</string>
+    </test>
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True" stylename="sd_pnum_1">
+      <comment>Yes</comment>
+      <string>11111 77777</string>
+    </test>
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True" stylename="ur">
+      <string>11111 77777</string>
+    </test>
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True" stylename="ur_pnum_1">
+      <comment>Yes</comment>
+      <string>11111 77777</string>
+    </test>
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True" stylename="ku">
+      <string>11111 77777</string>
+    </test>
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True" stylename="ku_pnum_1">
+      <comment>Yes</comment>
+      <string>11111 77777</string>
+    </test>
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True" stylename="rhg">
+      <string>11111 77777</string>
+    </test>
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True" stylename="rhg_pnum_1">
+      <comment>Yes</comment>
+      <string>11111 77777</string>
+    </test>
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True" stylename="ky">
+      <string>11111 77777</string>
+    </test>
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True" stylename="ky_pnum_1">
+      <comment>Yes</comment>
+      <string>11111 77777</string>
+    </test>
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True" stylename="wo">
+      <string>11111 77777</string>
+    </test>
+    <test label="U+0031
+U+0031
+U+0031
+U+0031
+U+0031
+U+0020
+U+0037
+U+0037
+U+0037
+U+0037
+U+0037" rtl="True" stylename="wo_pnum_1">
+      <comment>Yes</comment>
+      <string>11111 77777</string>
     </test>
   </testgroup>
   <testgroup label="tnum Tabular digits">
