@@ -102,7 +102,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/03/27 16:37:07</string>
+  <string>2023/03/31 08:41:14</string>
   <key>openTypeHheaAscender</key>
   <integer>1937</integer>
   <key>openTypeHheaDescender</key>
@@ -308,7 +308,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <array>
       <dict>
         <key>name</key>
-        <string>Bob Hallissy, Jonathan Kew</string>
+        <string>Bob Hallissy, Jonathan Kew, Sharon Correll</string>
         <key>role</key>
         <string>SIL designers and font engineers</string>
         <key>url</key>
