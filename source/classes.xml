@@ -636,6 +636,8 @@ of the license along with this Font Software. If this is not the case, go to
     
     <class name="LamAlefHamzaaboveLig">lam_alef-ar</class>
     <class name="LamAlefHamzabelowLig">lam_alef-ar</class>
+    
+    <class name="dia2B">_alef-ar.fina.postLamIni</class>
 
     <!-- 
     ===============================

@@ -585,7 +585,6 @@ lookup MeemAlternate {
 
 lookup KurdishHehTT {        # TypeTuner only
   lookupflag IgnoreMarks ;
-  # Used only by TypeTuner
     sub heh-ar.fina by heh-ar.fina.knottedHigh ;
     sub heh-ar by heh-ar.knotted ;
 } KurdishHehTT;
@@ -602,7 +601,7 @@ lookup UrduHehTT {           # TypeTuner only}
     sub heh-ar.init by heh-ar.init.hooked ;
     sub heh-ar.medi by heh-ar.medi.hooked ;
     sub heh-ar.fina by heh-ar.fina.hooked ;
-    # In case Lang=Kurdish set:
+    # In case Lang=Kurdish is set:
     sub heh-ar.knotted by heh-ar;
     sub heh-ar.fina.knottedHigh by heh-ar.fina.hooked ;
 } UrduHehTT;
@@ -1003,6 +1002,7 @@ feature ccmp {  # Glyph Composition/Decomposition
       # Force other languages to include Arabic script lookups
       language KIR ;
       language KUR ;
+      # Kurdish uses raised kasra
       language RHG  ;
       language SND  ;
       language URD  ;
