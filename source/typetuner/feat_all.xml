@@ -109,10 +109,10 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Knotted" tag="Knt">
-			<cmd name="null" args="null"/>
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KnottedHehDoTT}"/>
 		</value>
 		<value name="Kurdish-style" tag="Ku">
-			<cmd name="null" args="null"/>
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KurdishHehDoTT}"/>
 		</value>
 	</feature>
 
