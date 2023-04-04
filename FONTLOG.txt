@@ -395,18 +395,22 @@ submit the required form, please visit the CLA information page
 be sure to add your name (N), email (E), web-address (W) and description
 (D). This list is sorted by last name in alphabetical order.)
 
+N: Sharon Correll
+E: fonts@sil.org
+W: https://software.sil.org/wstech/
+D: Contributing Designer and Script Engineer
+
 N: Bob Hallissy, Jonathan Kew
 E: fonts@sil.org
-W: http://software.sil.org/lateef/
+W: https://software.sil.org/wstech/
 D: SIL designers and font engineers
 
 N: Peter Martin
 E: fonts@sil.org
-W: http://software.sil.org/lateef/
+W: https://software.sil.org/wstech/
 D: SIL designer
 
 The Lateef project is maintained by SIL International.
 
 For more information please visit the Lateef font page on 
 SIL International's website: http://software.sil.org/lateef/
-

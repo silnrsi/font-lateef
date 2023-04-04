@@ -106,7 +106,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/03/31 08:41:14</string>
+  <string>2023/04/04 14:06:05</string>
   <key>openTypeHheaAscender</key>
   <integer>1937</integer>
   <key>openTypeHheaDescender</key>
@@ -316,7 +316,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <key>role</key>
         <string>SIL designers and font engineers</string>
         <key>url</key>
-        <string>http://software.sil.org/lateef/</string>
+        <string>http://software.sil.org/wstech/</string>
       </dict>
       <dict>
         <key>name</key>
@@ -324,7 +324,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <key>role</key>
         <string>SIL designer</string>
         <key>url</key>
-        <string>http://software.sil.org/lateef/</string>
+        <string>http://software.sil.org/wstech/</string>
       </dict>
     </array>
   </dict>
