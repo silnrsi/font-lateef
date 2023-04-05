@@ -83,7 +83,7 @@ Standard | <span dir="rtl" class='lateef-R normal'>&#x06be;&#x0020;&#x06be;&#x06
 Knotted | <span dir="rtl" class='lateef-cv49-1-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=1`
 Kurdish-style | <span dir="rtl" class='lateef-cv49-3-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=3`
 
-#### Kirghiz OE 
+#### Kyrgyz OE 
 
 <span class='affects'>Affects: U+06C5</span>
 
