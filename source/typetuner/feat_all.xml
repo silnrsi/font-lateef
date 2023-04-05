@@ -43,7 +43,7 @@
 			<cmd name="lookup_add" args="GSUB {calt_latn_dflt} {WolofCALT}"/>	
 		</value>
 	</feature>
-
+	
 	<!-- cv08 - Harmattan only
 	<feature name="Jeem/Hah" value="Standard" tag="JeHa">
 		<value name="Standard" tag="Std">
@@ -102,7 +102,7 @@
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {UrduHehTT}"/>	
 		</value>
 	</feature>
-
+	
   <!-- cv49 -->
 	<feature name="Heh Doachashmee" value="Standard" tag="Hehdo">
 		<value name="Standard" tag="Std">
@@ -123,7 +123,7 @@
 		</value>
 		<value name="Bar" tag="Bar">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KyrgyzOeAlternates}"/>
-		</value> 
+		</value>
 	</feature>
 	
 	<!-- cv54 -->
@@ -142,7 +142,7 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Large" tag="Lg">
-			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {MaddahAlternate}"/>
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {MaddahAlternate}"/>	<!-- must be via lookup -->
 		</value>
 	</feature>
 	-->
@@ -155,11 +155,11 @@
 		</value>
 		<value name="Lowered" tag="Low">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KasraLowTT}"/>
-			<cmd name="lookup_add" args="GSUB {calt_latn_dflt} {KasraLowTT}"/>
+			<cmd name="lookup_add" args="GSUB {calt_latn_dflt} {KasraLowTT}"/> 
 		</value>
 		<value name="Raised" tag="High">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KasraHighTT}"/>
-			<cmd name="lookup_add" args="GSUB {calt_latn_dflt} {KasraHighTT}"/>
+			<cmd name="lookup_add" args="GSUB {calt_latn_dflt} {KasraHighTT}"/> 
 		</value>
 	</feature>
 
@@ -185,7 +185,7 @@
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DammatanAlternate}"/>	
 		</value>
 	</feature>
-	
+
 	<!-- cv74 -->
 	<feature name="Inverted Damma" value="Default" tag="IDma">
 		<value name="Default" tag="Def">
@@ -200,7 +200,7 @@
 		</value>
 	</feature>
 	
-	<!-- cv76 -->
+	<!-- cv76: different between Sch/Harmattan and Lateef -->
 	<feature name="Superscript Alef" value="Default" tag="Sal">
 		<value name="Default" tag="Def">
 			<cmd name="null" args="null"/>
@@ -319,7 +319,33 @@
 		</value>
 	</feature>
 
-	<interactions>
+  <!-- Scheherazade only:
+	<feature name="Line spacing" value="Normal"	tag="LnSp">
+		<value name="Normal" tag="Nrml">
+			<cmd name="null" args="2750 1427"/>
+		</value>
+		<value name="Tight" tag="Tt">
+			<cmd name="line_gap" args="2324 1377"/>
+		</value>
+		<value name="Loose" tag="Ls">
+			<cmd name="line_gap" args="3600 1427"/>
+		</value>
+		<!--
+		<value name="1.0 Compatible Normal" tag="1.0N">
+			<cmd name="line_gap" args="2080 1274"/>
+		</value>
+		<value name="1.0 Compatible Loose" tag="1.0L">
+			<cmd name="line_gap" args="2970 1948"/>
+		</value>
+		-->
+		<value name="Imported" tag="Im">
+			<cmd name="line_metrics_scaled" args="null"/>
+		</value>
+	</feature>
+	-->
+	
+	<!--
+	<interactions>	    
 		<test select="Lng-Def Kas-Low">
 			<!-- <cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLowTT}"/> -->
 			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLowTT}"/>
@@ -345,6 +371,7 @@
 			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLowTT}"/>
 		</test>
 	</interactions>
+-->
 
 	<cmd_blocks/>
 
