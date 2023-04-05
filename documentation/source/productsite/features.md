@@ -80,7 +80,7 @@ Urdu-style | <span dir="rtl" class='lateef-cv48-2-R normal'> ه ههه </span>| 
 Feature | Sample | Feature setting
 :------------- | ------: | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=0`
-Knotted-style | <span dir="rtl" class='lateef-cv49-1-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=1`
+Knotted | <span dir="rtl" class='lateef-cv49-1-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=1`
 Kurdish-style | <span dir="rtl" class='lateef-cv49-3-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=3`
 
 #### Kirghiz OE 
@@ -200,7 +200,7 @@ Rohingya-style | <span dir="rtl" class='lateef-cv82-4-R normal'>&#x06F4;&#x06F6;
 Sindhi-style | <span dir="rtl" class='lateef-cv82-1-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=1`
 Urdu-style | <span dir="rtl" class='lateef-cv82-2-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=2`
 
-## Proportional Figures
+## Proportional figures
 
 Tabular digits are the default for Latin digits. Lateef supports the OpenType **Proportional Figures (pnum)** for Latin digits.
 
@@ -208,10 +208,10 @@ Tabular digits are the default for Latin digits. Lateef supports the OpenType **
 
 Feature | Sample | Feature setting
 :------------- | :------ | :------------- 
-Tabular Figures      | <span dir="ltr" class='lateefL-R normal'>0123456789</span>| `pnum=0`
-Proportional Figures     | <span dir="ltr" class='lateefL-pnum-1-R normal'>0123456789</span>| `pnum=1`
+False      | <span dir="ltr" class='lateefL-R normal'>0123456789</span>| `pnum=0`
+True     | <span dir="ltr" class='lateefL-pnum-1-R normal'>0123456789</span>| `pnum=1`
 
-## Tabular Figures
+## Tabular figures
 
 Proportional digits are the default for Arabic digits. Lateef supports the OpenType **Tabular Figures (tnum)** for Arabic digits.
 
@@ -219,8 +219,8 @@ Proportional digits are the default for Arabic digits. Lateef supports the OpenT
 
 Feature | Sample | Feature setting
 :------------- | ------: | :------------- 
-Proportional Figures      | <span class='lateefL-R normal'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=0`
-Tabular Figures     | <span class='lateefL-tnum-1-R normal'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=1`
+False      | <span class='lateefL-R normal'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=0`
+True     | <span class='lateefL-tnum-1-R normal'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=1`
 
 #### Comma 
 
