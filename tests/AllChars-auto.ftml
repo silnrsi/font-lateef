@@ -7,7 +7,11 @@
     <fontsrc label="2.0">url(../references/v2.000/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ref">url(../references/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
+    <fontsrc label="Lt">url(../results/Lateef-Light.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="Med">url(../results/Lateef-Medium.ttf)</fontsrc>
+    <fontsrc label="seBld">url(../results/Lateef-SemiBold.ttf)</fontsrc>
+    <fontsrc label="Bld">url(../results/Lateef-Bold.ttf)</fontsrc>
     <fontsrc label="ExBld">url(../results/Lateef-ExtraBold.ttf)</fontsrc>
     <styles>
       <style feats="'cv44' 1" name="cv44_1"/>
@@ -52,7 +56,7 @@
       <style lang="wo" name="wo"/>
     </styles>
     <title>AllChars (auto)</title>
-    <widths string="15%"/>
+    <widths string="8%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
