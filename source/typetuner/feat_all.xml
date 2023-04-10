@@ -341,7 +341,7 @@
 	</feature>
 	-->
 	
-<!-- OBSOLETE:
+	<!-- OBSOLETE:
 	<interactions>	    
 		<test select="Lng-Def Kas-Low">
 			- <cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraHigh}"/>
@@ -369,7 +369,6 @@
 		</test>
 	</interactions>
 -->
-
 
 	<cmd_blocks/>
 
