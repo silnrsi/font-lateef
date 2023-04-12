@@ -132,6 +132,7 @@ For detailed documentation see the contents of the 'documentation' folder.
 - Adjusted height of kashida
 - Enhanced kerning to support support new characters
 - Changed Kurdish language to support a U+06BE Heh Doachashmee alternate rather than U+0647 Heh alternate
+- Fixed rendering bug related to a vowel mark plus a hamza with an intervening combining grapheme joiner
 
 #### Known issues
 - Shaping for these newly added characters may not yet occur in applications
