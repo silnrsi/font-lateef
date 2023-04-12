@@ -44,7 +44,7 @@ For detailed documentation see the contents of the 'documentation' folder.
 ---------
 (This should list both major and minor changes, most recent first.)
 
-### 202x-xx-xx (SIL WSTech team) Lateef version 4.000
+### 202x-04-14 (SIL WSTech team) Lateef version 4.000
 
 #### New
 
@@ -54,7 +54,7 @@ For detailed documentation see the contents of the 'documentation' folder.
   - cv74 - Inverted Damma
 - Added:
   - U+061D ARABIC END OF TEXT MARK
-  - Due to the rarity of these characters, lam-alef ligatures have not been implemented with these new characters
+  - Due to the rarity of these characters, lam-alef ligatures have not been implemented with these new characters:
     - U+0870 ARABIC LETTER ALEF WITH ATTACHED FATHA
     - U+0871 ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA
     - U+0872 ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE
@@ -135,7 +135,9 @@ For detailed documentation see the contents of the 'documentation' folder.
 - Fixed rendering bug related to a vowel mark plus a hamza with an intervening combining grapheme joiner
 
 #### Known issues
-- Shaping for these newly added characters may not yet occur in applications
+- Shaping for the newly added characters may not yet occur in applications.
+- Medial and final high hamza characters may have collisions (these likely do not occur).
+- Lam + high hamza alef ligature does not form as it likely does not occur.
 - In Word: kerning of Arabic proportional digits is incorrect. This is a bug in Word.
 - In InDesign: some behaviors, such as the _lam-alef_ ligature, raised _kasra_ with _shadda_, and subtending marks, will not function correctly unless **Ligatures** is turned on in the **Characters** panel.
 
