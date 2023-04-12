@@ -9,7 +9,7 @@
   - cv74 - Inverted Damma
 - Added:
   - U+061D ARABIC END OF TEXT MARK
-  - Due to the rarity of these characters, lam-alef ligatures have not been implemented with these new characters
+  - Due to the rarity of these characters, lam-alef ligatures have not been implemented with these new characters:
     - U+0870 ARABIC LETTER ALEF WITH ATTACHED FATHA
     - U+0871 ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA
     - U+0872 ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE
@@ -87,11 +87,12 @@
 - Adjusted height of kashida
 - Enhanced kerning to support support new characters
 - Changed Kurdish language to support a U+06BE Heh Doachashmee alternate rather than U+0647 Heh alternate
+- Fixed rendering bug related to a vowel mark plus a hamza with an intervening combining grapheme joiner
 
 #### Known issues
-- Shaping for these newly added characters may not yet occur in applications
+- Shaping for the newly added characters may not yet occur in applications.
+- Medial and final high hamza characters may have collisions (these likely do not occur).
+- Lam + high hamza alef ligature does not form as it likely does not occur.
 - In Word: kerning of Arabic proportional digits is incorrect. This is a bug in Word.
 - In InDesign: some behaviors, such as the _lam-alef_ ligature, raised _kasra_ with _shadda_, and subtending marks, will not function correctly unless **Ligatures** is turned on in the **Characters** panel.
-
-
 

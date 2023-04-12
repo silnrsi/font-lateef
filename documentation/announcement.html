@@ -26,7 +26,7 @@
     <li>Added:
     <ul>
     <li>U+061D ARABIC END OF TEXT MARK</li>
-    <li>Due to the rarity of these characters, lam-alef ligatures have not been implemented with these new characters
+    <li>Due to the rarity of these characters, lam-alef ligatures have not been implemented with these new characters:
     <ul>
     <li>U+0870 ARABIC LETTER ALEF WITH ATTACHED FATHA</li>
     <li>U+0871 ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA</li>
@@ -109,10 +109,13 @@
     <li>Adjusted height of kashida</li>
     <li>Enhanced kerning to support support new characters</li>
     <li>Changed Kurdish language to support a U+06BE Heh Doachashmee alternate rather than U+0647 Heh alternate</li>
+    <li>Fixed rendering bug related to a vowel mark plus a hamza with an intervening combining grapheme joiner</li>
     </ul>
     <h4 id="known-issues">Known issues</h4>
     <ul>
-    <li>Shaping for these newly added characters may not yet occur in applications</li>
+    <li>Shaping for the newly added characters may not yet occur in applications.</li>
+    <li>Medial and final high hamza characters may have collisions (these likely do not occur).</li>
+    <li>Lam + high hamza alef ligature does not form as it likely does not occur.</li>
     <li>In Word: kerning of Arabic proportional digits is incorrect. This is a bug in Word.</li>
     <li>In InDesign: some behaviors, such as the <em>lam-alef</em> ligature, raised <em>kasra</em> with <em>shadda</em>, and subtending marks, will not function correctly unless <strong>Ligatures</strong> is turned on in the <strong>Characters</strong> panel.</li>
     </ul>

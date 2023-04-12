@@ -44,7 +44,7 @@ For detailed documentation see the contents of the 'documentation' folder.
 ---------
 (This should list both major and minor changes, most recent first.)
 
-### 202x-04-14 (SIL WSTech team) Lateef version 4.000
+### 2023-04-14 (SIL WSTech team) Lateef version 4.000
 
 #### New
 
