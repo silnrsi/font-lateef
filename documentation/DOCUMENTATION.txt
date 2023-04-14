@@ -14,3 +14,8 @@ FYI: There is a problem with language features for kir/ky and wol/wo in features
 Our pdf maker requires the 3 letter codes and html requires 2 letter codes. It is best
 to open the .html file and create a pdf manually. It might be better to do this for
 each document that uses the font: allah.html, features.html, sample.html.
+
+There is also an issue with the product site generation of the tag for tnum and pnum 
+in features.md document. These tags need adding:
+[font id='lateefL-pnum-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' ltr=1 feats='pnum 1']
+[font id='lateefL-tnum-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' ltr=1 feats='tnum 1']

@@ -114,7 +114,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/04/12 14:25:06</string>
+  <string>2023/04/14 11:57:35</string>
   <key>openTypeHheaAscender</key>
   <integer>1937</integer>
   <key>openTypeHheaDescender</key>
@@ -185,7 +185,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Lateef Regular: 2023</string>
   <key>openTypeNameVersion</key>
-  <string>Version 4.000</string>
+  <string>Version 4.001</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -313,7 +313,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>4</integer>
   <key>versionMinor</key>
-  <integer>0</integer>
+  <integer>1</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>
