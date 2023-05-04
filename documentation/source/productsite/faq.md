@@ -1,7 +1,7 @@
 
 Many questions can be answered by consulting the following FAQ pages. Here are a few sample questions answered in each FAQ:
 
-- [SIL fonts in general](http://software.sil.org/fonts/faq)
+- [SIL fonts in general](https://software.sil.org/fonts/faq)
     - *How can I type...?*
     - *How can I use font features?*
     - *Will you add support for character...?*
@@ -14,7 +14,7 @@ Many questions can be answered by consulting the following FAQ pages. Here are a
     - *If I use the font on a web page do I have to include an acknowledgement?*
     - The full OFL-FAQ.txt is also included in the font package.
 
-A generic FAQ for all of our Arabic scripts fonts can be found here: [Arabic Fonts - FAQ](http://software.sil.org/arabicfonts/support/faq/). FAQ's specific to Lateef are found below.
+A generic FAQ for all of our Arabic scripts fonts can be found here: [Arabic Fonts - FAQ](https://software.sil.org/arabicfonts/support/faq/). FAQ's specific to Lateef are found below.
 
 ### Problems with Bold weights
 
@@ -46,9 +46,9 @@ To obtain Lateef fonts with digit kerning disabled:
 
 ### *What are the differences between the **Lateef** and **LateefGR** fonts?*
 
-The most obvious difference is that **Lateef** only provides OpenType support and **LateefGR** only provides Graphite support. For a complete list of the differences between **Lateef** version 1.001 and **LateefGR**, you can read the [Release 1.200 announcement](http://software.sil.org/lateef/release-1-200/). 
+The most obvious difference is that **Lateef** only provides OpenType support and **LateefGR** only provides Graphite support. For a complete list of the differences between **Lateef** version 1.001 and **LateefGR**, you can read the [Release 1.200 announcement](https://software.sil.org/lateef/release-1-200/). 
 
-This version of **Lateef** is an OpenType font that includes all the kerning support that is currently only found in **LateefGR**. It also includes many more characters than were in **LateefGR** and **Lateef** version 1.001. Read the [Release 2.000 announcement](http://software.sil.org/lateef/release-2-000/) for all the changes in this font.
+This version of **Lateef** is an OpenType font that includes all the kerning support that is currently only found in **LateefGR**. It also includes many more characters than were in **LateefGR** and **Lateef** version 1.001. Read the [Release 2.000 announcement](https://software.sil.org/lateef/release-2-000/) for all the changes in this font.
 
 ### *What characters are included with this release?*
 

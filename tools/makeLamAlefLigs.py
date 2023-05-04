@@ -3,7 +3,7 @@
 anchors diaA, diaB, diaB2 and alef from the components.
 For example, construct lam_alef-ar.fina from lam-ar.medi.preAlef and alef-ar.fina.postLamMed
 '''
-__copyright__ = 'Copyright (c) 2021-2022 SIL International  (http://www.sil.org)'
+__copyright__ = 'Copyright (c) 2021-2022 SIL International  (https://www.sil.org)'
 __license__ = 'Released under the MIT License (http://opensource.org/licenses/MIT)'
 __author__ = 'Bob Hallissy'
 

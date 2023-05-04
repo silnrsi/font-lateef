@@ -20,7 +20,7 @@
 	<weight_code>400</weight_code>
 	<width>Medium (normal)</width>
 	<designer>SIL International</designer>
-	<designer_url>http://software.sil.org/lateef</designer_url>
+	<designer_url>https://software.sil.org/lateef</designer_url>
 	<fontnames>[<FontName: nid=1, pid=1, eid=0, lid=0, name=Lateef..., parent: 'Lateef'>,<FontName: nid=1, pid=3, eid=1, lid=1033, name=Lateef..., parent: 'Lateef'>,<FontName: nid=2, pid=1, eid=0, lid=0, name=Regular..., parent: 'Lateef'>,<FontName: nid=2, pid=3, eid=1, lid=1033, name=Regular..., parent: 'Lateef'>,<FontName: nid=3, pid=1, eid=0, lid=0, name=SILInterna..., parent: 'Lateef'>,<FontName: nid=3, pid=3, eid=1, lid=1033, name=SILInterna..., parent: 'Lateef'>,<FontName: nid=4, pid=1, eid=0, lid=0, name=Lateef..., parent: 'Lateef'>,<FontName: nid=4, pid=3, eid=1, lid=1033, name=Lateef..., parent: 'Lateef'>,<FontName: nid=5, pid=1, eid=0, lid=0, name=Version 0...., parent: 'Lateef'>,<FontName: nid=5, pid=3, eid=1, lid=1033, name=Version 0...., parent: 'Lateef'>,<FontName: nid=6, pid=1, eid=0, lid=0, name=Lateef..., parent: 'Lateef'>,<FontName: nid=6, pid=3, eid=1, lid=1033, name=Lateef..., parent: 'Lateef'>,<FontName: nid=9, pid=1, eid=0, lid=0, name=SIL Intern..., parent: 'Lateef'>,<FontName: nid=9, pid=3, eid=1, lid=1033, name=SIL Intern..., parent: 'Lateef'>,<FontName: nid=10, pid=1, eid=0, lid=0, name=Lateef, an..., parent: 'Lateef'>,<FontName: nid=10, pid=3, eid=1, lid=1033, name=Lateef, an..., parent: 'Lateef'>,<FontName: nid=11, pid=1, eid=0, lid=0, name=http://www..., parent: 'Lateef'>,<FontName: nid=11, pid=3, eid=1, lid=1033, name=http://www..., parent: 'Lateef'>,<FontName: nid=12, pid=1, eid=0, lid=0, name=http://scr..., parent: 'Lateef'>,<FontName: nid=12, pid=3, eid=1, lid=1033, name=http://scr..., parent: 'Lateef'>,<FontName: nid=16, pid=1, eid=0, lid=0, name=Lateef..., parent: 'Lateef'>,<FontName: nid=16, pid=3, eid=1, lid=1033, name=Lateef..., parent: 'Lateef'>,<FontName: nid=17, pid=1, eid=0, lid=0, name=Regular..., parent: 'Lateef'>,<FontName: nid=17, pid=3, eid=1, lid=1033, name=Regular..., parent: 'Lateef'>,<FontName: nid=18, pid=1, eid=0, lid=0, name=Lateef..., parent: 'Lateef'>]</fontnames>
 	<copyright>Copyright (c) 1994-2017 SIL International.</copyright>
 	<notice>Lateef, an extended Arabic font, is named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and poet. It is intended to be an appropriate style for use in Sindhi and other languages of the South Asian region.</notice>
@@ -30,7 +30,7 @@
 	<tt_version>Version 1.200</tt_version>
 	<trademark>None</trademark>
 	<vendor>SIL</vendor>
-	<vendor_url>http://www.sil.org/</vendor_url>
+	<vendor_url>https://www.sil.org/</vendor_url>
 	<version>1.200</version>
 	<year>2017</year>
 	<version_major>1</version_major>

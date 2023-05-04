@@ -1,4 +1,4 @@
-# Lateef [![Build Status](http://build.palaso.org/app/rest/builds/buildType:Fonts_Lateef/statusIcon)](http://build.palaso.org/viewType.html?buildTypeId=Fonts_Lateef&guest=1)  
+# Lateef [![Build Status](https://build.palaso.org/app/rest/builds/buildType:Fonts_Lateef/statusIcon)](https://build.palaso.org/viewType.html?buildTypeId=Fonts_Lateef&guest=1)  
 
 Lateef is an extended Arabic script font designed by SIL International for modern Unicode-based systems.
 

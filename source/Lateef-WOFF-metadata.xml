@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
   <uniqueid id="org.sil.fonts.lateef.4.001" />
-  <vendor name="SIL International" url="http://www.sil.org/" />
+  <vendor name="SIL International" url="https://www.sil.org/" />
   <credits>
     <credit
       name="Bob Hallissy, Jonathan Kew, Sharon Correll"
-      url="http://software.sil.org/wstech/"
+      url="https://software.sil.org/wstech/"
       role="SIL designers and font engineers"
     />
     <credit
       name="Peter Martin"
-      url="http://software.sil.org/wstech/"
+      url="https://software.sil.org/wstech/"
       role="SIL designer"
     />
   </credits>
@@ -30,9 +30,9 @@
   </description>
   <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
     <text lang="en">
-      Copyright (c) 1994-2023, SIL International (http://www.sil.org/).
+      Copyright (c) 1994-2023, SIL International (https://www.sil.org/).
       
-      This Font Software is licensed under the SIL Open Font License, Version 1.1, with Reserved Font Names "Lateef" and "SIL". This license is copied below, and is also available with an FAQ at: http://scripts.sil.org/OFL
+      This Font Software is licensed under the SIL Open Font License, Version 1.1, with Reserved Font Names "Lateef" and "SIL". This license is copied below, and is also available with an FAQ at: https://scripts.sil.org/OFL
       
       ----------------------------------------------------
       SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007

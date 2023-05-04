@@ -5,7 +5,7 @@ fontversion: 4.000
 
 The SIL Arabic script fonts are encoded according to Unicode, so your application must support Unicode text in order to access letters other than the standard ANSI characters. Most applications now provide basic Unicode support. You will, however, need some way of entering Unicode text into your document.
 
-Arabic script is a complex and difficult script, and this complexity is compounded by the fact that Arabic script is used for [many different languages](http://scriptsource.org/scr/Arab) and cultures with variations in acceptable calligraphic style. From a computer perspective at least, the technologies used to implement Arabic script are not yet fully mature. The result is that while a given font might work for one set of languages on a given software platform, the same font might not work for other languages or on other platforms. This means that it is very difficult to give an accurate answer to the question of software requirements. 
+Arabic script is a complex and difficult script, and this complexity is compounded by the fact that Arabic script is used for [many different languages](https://scriptsource.org/scr/Arab) and cultures with variations in acceptable calligraphic style. From a computer perspective at least, the technologies used to implement Arabic script are not yet fully mature. The result is that while a given font might work for one set of languages on a given software platform, the same font might not work for other languages or on other platforms. This means that it is very difficult to give an accurate answer to the question of software requirements. 
 
 ## Requirements
 
@@ -20,7 +20,7 @@ The Arabic script font packages do not include any keyboarding helps or utilitie
 
 If you want to enter characters that are not supported by any system keyboard, and to access the full Unicode range, we suggest you use gucharmap, kcharselect on Ubuntu or similar software. Another method of entering some symbols is provided by a few applications such as Adobe InDesign. They can display a glyph palette that shows all the glyphs (symbols) in a font and allow you to enter them by clicking on the glyph you want.
 
-Other suggestions are listed here: [Keyboard Systems Overview](http://scriptsource.org/entry/ytr8g8n6sw).
+Other suggestions are listed here: [Keyboard Systems Overview](https://scriptsource.org/entry/ytr8g8n6sw).
 
 See [Character set support](charset.md) for details of the Unicode characters supported by these fonts.
 
@@ -28,11 +28,11 @@ See [Character set support](charset.md) for details of the Unicode characters su
 
 These fonts are designed to work with the OpenType advanced font technology. To take advantage of the advanced typographic capabilities of these fonts, you must be using applications that provide an adequate level of support for OpenType.
 
-Other suggestions are listed here: [Applications Support](http://software.sil.org/arabicfonts/support/application-support/) and here: [Using Font Features](https://software.sil.org/fonts/features/). 
+Other suggestions are listed here: [Applications Support](https://software.sil.org/arabicfonts/support/application-support/) and here: [Using Font Features](https://software.sil.org/fonts/features/). 
 
 ## Web fonts
 
-Web font versions of these fonts (in WOFF and WOFF2 formats) are available in the `web` folder. These can be copied to a web server and used as fonts on web pages. A very basic HTML/CSS demo page is also included. For more information on the options and techniques available for using these fonts on web pages see [Using SIL Fonts on Web Pages](http://software.sil.org/fonts/webfonts).
+Web font versions of these fonts (in WOFF and WOFF2 formats) are available in the `web` folder. These can be copied to a web server and used as fonts on web pages. A very basic HTML/CSS demo page is also included. For more information on the options and techniques available for using these fonts on web pages see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts).
 
 ## Text conversion
 
@@ -40,6 +40,6 @@ One common type of data conversion is from Roman script to Arabic script. Cross-
 
 One page that may prove helpful is: [Roman Script to Arabic Script Conversion](https://software.sil.org/arabicfonts/rs-to-as-conversion/).
 
-Other suggestions are listed here: [Introduction to Text Conversion and Transliteration](http://scriptsource.org/entry/xlzd6n5aqt).
+Other suggestions are listed here: [Introduction to Text Conversion and Transliteration](https://scriptsource.org/entry/xlzd6n5aqt).
 
-See also: [Arabic Fonts -- Resources](http://software.sil.org/arabicfonts/resources/).
+See also: [Arabic Fonts -- Resources](https://software.sil.org/arabicfonts/resources/).

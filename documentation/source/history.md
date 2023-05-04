@@ -311,7 +311,7 @@ fontversion: 4.000
 - Added alternates for End of Ayah (U+06DD) and changed default design
 - Design changes to U+0755, U+0756, U+075A
 - Design changes to U+06AC and U+06AD
-- Design changes to U+06DF..U+06E1 (to follow http://unicode.org/review/pr-73.html)
+- Design changes to U+06DF..U+06E1 (to follow https://unicode.org/review/pr-73.html)
 - U+06BA is now dotless in all positions
 - U+00A0 advanced width changed to match U+0020
 - Size of dagger alef (U+0670) is reduced above U+0678
