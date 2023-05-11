@@ -267,7 +267,7 @@ fontversion: 4.000
 - Adjusted width of various whitespace characters to conform to best practice
 - Revised side-bearings for many glyphs
 - Revised width of kashida
-- Changed scaling for some quranic marks (combining) and adjusted weights
+- Changed scaling for some Quranic marks (combining) and adjusted weights
 - Improved mark positioning
 - Redesign 
     - U+0616 ARABIC SMALL HIGH LIGATURE ALEF WITH LAM WITH YEH (see https://www.unicode.org/versions/Unicode15.0.0/erratafixed.html)
