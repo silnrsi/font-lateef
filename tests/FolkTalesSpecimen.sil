@@ -1,7 +1,6 @@
 \begin[class=fontproof]{document}
 \setTestFont[]
 \script[src=packages/unichar]
-\script[src=packages/bidi]
 \script[src=packages/frametricks]
 \script[src=packages/linespacing]
 \script[src=packages/specimen]
@@ -10,12 +9,11 @@
 \set[parameter=linespacing.method,value=fixed]
 \set[parameter=linespacing.fixed.baselinedistance,value=1em]
 
-% uncomment as necessary: from the font installed in the font folder or directly from the results folder or the current folder
+% uncomment as necessary for manual runs: from the font installed in the font folder or directly from the results folder or the current folder
 % then run with sile file.sil --debug versions
-% \setTestFont[family=LateefGR,size=12pt,language=ar,script=Arab]
+% \setTestFont[family=LateefGR,size=12pt,language=ar,script=Arab,color=green, shaper="ot,fallback"]
 % \setTestFont[filename=../results/LateefGR-Regular.ttf,size=12pt,language=ar,script=Arab]
-\setTestFont[size=12pt,language=ar,script=Arab]
-% \setTestFont[filename=LateefGR-Regular.ttf,size=12pt,language=ar,script=Arab]
+\setTestFont[size=12pt]
 
 \bigskip
 
