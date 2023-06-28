@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# To generate PDFs that are somewhat OK you will need to have the Roboto and Roboto mono font families installed on your system
+# https://fonts.google.com/specimen/Roboto
+# https://fonts.google.com/specimen/Roboto+Mono
+
+echo "-----Rebuilding documentation..."
+
+echo "     >>> HTML (documentation/)"
+
+echo "     > features.html"
+pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/features.md -o documentation/features.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
+
+
+echo "     >>> PRODUCT SITE MARKDOWN (documentation/source/productsite/)"
+
+echo "     > features.md"
+python3 documentation/source/makepsmd.py documentation/source/features.md documentation/source/productsite/features.md -q
+echo "     Markdown source for other pages is in separate repo"
+
+echo "-----Completed!"

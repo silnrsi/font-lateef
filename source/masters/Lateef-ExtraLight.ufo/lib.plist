@@ -1738,6 +1738,10 @@
     <string>heh-ar.fina.allah</string>
     <string>hehgoal-ar.fina.allah</string>
     <string>rial</string>
+    <string>bismillah-ar</string>
+    <string>salaamuhuAlaynaa-ar</string>
+    <string>alayhiAsSalaam-ar</string>
+    <string>radiAllaahuAnhaa-ar</string>
     <string>dammaturnedbelow-ar</string>
     <string>fathaCurly-ar</string>
     <string>dammaCurly-ar</string>
@@ -1956,6 +1960,7 @@
     <string>_noon</string>
     <string>_ring</string>
     <string>_smallV</string>
+    <string>_smallv.cal</string>
     <string>_tah</string>
     <string>_tah_small</string>
     <string>_tah_smallV</string>
@@ -1964,9 +1969,18 @@
     <string>_teh</string>
     <string>_three</string>
     <string>_two</string>
+    <string>_comma.cal</string>
     <string>_vline</string>
     <string>_wasla</string>
     <string>_wavyHamza</string>
+    <string>_allah.cal</string>
+    <string>_dot1.cal</string>
+    <string>_dot2h.cal</string>
+    <string>_fatha-kasra.cal</string>
+    <string>_damma.cal</string>
+    <string>_shadda.cal</string>
+    <string>_sukun.cal</string>
+    <string>_salem.cal</string>
     <string>_grave</string>
     <string>_grave.case</string>
     <string>_acute</string>
@@ -3593,6 +3607,10 @@
     <string>heh-ar.fina.allah</string>
     <string>hehgoal-ar.fina.allah</string>
     <string>rial</string>
+    <string>bismillah-ar</string>
+    <string>salaamuhuAlaynaa-ar</string>
+    <string>alayhiAsSalaam-ar</string>
+    <string>radiAllaahuAnhaa-ar</string>
     <string>dammaturnedbelow-ar</string>
     <string>fathaCurly-ar</string>
     <string>dammaCurly-ar</string>
@@ -3811,6 +3829,7 @@
     <string>_noon</string>
     <string>_ring</string>
     <string>_smallV</string>
+    <string>_smallv.cal</string>
     <string>_tah</string>
     <string>_tah_small</string>
     <string>_tah_smallV</string>
@@ -3819,9 +3838,18 @@
     <string>_teh</string>
     <string>_three</string>
     <string>_two</string>
+    <string>_comma.cal</string>
     <string>_vline</string>
     <string>_wasla</string>
     <string>_wavyHamza</string>
+    <string>_allah.cal</string>
+    <string>_dot1.cal</string>
+    <string>_dot2h.cal</string>
+    <string>_fatha-kasra.cal</string>
+    <string>_damma.cal</string>
+    <string>_shadda.cal</string>
+    <string>_sukun.cal</string>
+    <string>_salem.cal</string>
     <string>_grave</string>
     <string>_grave.case</string>
     <string>_acute</string>
@@ -3961,6 +3989,8 @@
     <string>uni08D6</string>
     <key>alayheAssallamcomb-ar</key>
     <string>uni0611</string>
+    <key>alayhiAsSalaam-ar</key>
+    <string>uniFD47</string>
     <key>alef-ar</key>
     <string>uni0627</string>
     <key>alef-ar.allah</key>
@@ -4219,6 +4249,8 @@
     <string>uni08A1.init</string>
     <key>behhamzaabove-ar.medi</key>
     <string>uni08A1.medi</string>
+    <key>bismillah-ar</key>
+    <string>uniFDFD</string>
     <key>blank</key>
     <string>uni2423</string>
     <key>bulletoperator</key>
@@ -5759,6 +5791,8 @@
     <string>uni08DE</string>
     <key>question-ar</key>
     <string>uni061F</string>
+    <key>radiAllaahuAnhaa-ar</key>
+    <string>uniFD42</string>
     <key>ray-ar</key>
     <string>uni0608</string>
     <key>reh-ar</key>
@@ -5913,6 +5947,8 @@
     <string>uni08DD</string>
     <key>saktabelow-ar</key>
     <string>u10EFD</string>
+    <key>salaamuhuAlaynaa-ar</key>
+    <string>uniFDCF</string>
     <key>sallallahouAlayheWassallamcomb-ar</key>
     <string>uni0610</string>
     <key>samvat-ar</key>
