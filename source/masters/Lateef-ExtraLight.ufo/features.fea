@@ -1642,15 +1642,10 @@ markClass strokeshortcomb.case <anchor 414 651> @_stroke;
 # details including an FAQ.
 #**********************************
 #**********************************
-# This file is part of Lateef font family (https://software.sil.org/lateef/) 
-# and is Copyright (c) 2001-2023 SIL International (https://www.sil.org/),
-# with Reserved Font Names "Lateef" and "SIL".
 #
-# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+# Copyright (c) 1994-2023 SIL International  (https://www.sil.org)
+# Released under the MIT License (https://opensource.org/licenses/MIT)
 #
-# You should have received a copy of the license along with this Font Software.
-# If this is not the case, go to (https://scripts.sil.org/OFL) for all the
-# details including an FAQ.
 #**********************************
 #**********************************
 #  Language Systems
@@ -1679,7 +1674,7 @@ languagesystem latn dflt;
 #       # HB PAUSE
 #   in the code.
 #**********************************
-# GSUB (Subtitution) lookups
+# GSUB (Substitution) lookups
 #**********************************
 #---  rtlm feature  ---
 lookup Mirror {
@@ -1695,7 +1690,7 @@ lookup SmallMadda {
 } SmallMadda;
 
 # For full UTR53 stacks, this decomposition will already have been done.
-# Howver, as of 2021-09 Harfbuzz does NOT do this See https://github.com/harfbuzz/harfbuzz/issues/3179
+# However, as of 2021-09 Harfbuzz does NOT do this See https://github.com/harfbuzz/harfbuzz/issues/3179
 lookup DecomposeForColor {
     lookupflag IgnoreMarks;
     sub alefMadda-ar by alef-ar madda-ar;
@@ -2211,7 +2206,7 @@ lookup YehHamzaAlternates {
 lookup KasraAlternates {
     # cv62
     lookupflag 0;
-    # NB: This is writen so it doesn't matter which shadda-kasra behavior is default.
+    # NB: This is written so it doesn't matter which shadda-kasra behavior is default.
     #   0=default             1=lowered       2=raised
     sub kasra-ar.lowered from [kasra-ar.lowered kasra-ar];
     sub kasratan-ar.lowered from [kasratan-ar.lowered kasratan-ar];

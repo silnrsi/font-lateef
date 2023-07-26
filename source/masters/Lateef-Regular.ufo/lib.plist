@@ -25,6 +25,8 @@
         <key>arRoundThin</key>
         <string>40</string>
       </dict>
+      <key>B2EB2BF5-F403-44A2-8239-334C418637F3</key>
+      <dict/>
     </dict>
     <key>GSDontShowVersionAlert</key>
     <integer>1</integer>
@@ -125,7 +127,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3151</string>
+  <string>3207</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/space/space/arrubabove-ar/space/space/space/space/aththalathaabove-ar/space/space/space/assajdaabove-ar/space/space/space/space/space/space/annisfabove-ar/space/space/space/saktaabove-ar/space/space/space/space/space/qifabove-ar/space/space/space/space/space/imaalabelow-ar/space/space/space/space/tasheel-ar</string>
@@ -134,6 +136,12 @@
     <string>/alef-ar/space/alef-ar.fina/space/alefRightmiddlestroke-ar/space/alefRightmiddlestroke-ar.fina/space/alefLeftmiddlestroke-ar/space/alefLeftmiddlestroke-ar.fina/space/alefKasraattached-ar/space/alefKasraattached-ar.fina/space/alefBottomrightkasraattached-ar/space/alefBottomrightkasraattached-ar.fina/space/alefRightrounddotattached-ar/space/alefRightrounddotattached-ar.fina/space/alefLeftrounddotattached-ar/space/alefLeftrounddotattached-ar.fina/space/alefRounddotbelowattached-ar/space/alefRounddotbelowattached-ar.fina/space/alefRightmiddlestrokeLeftring-ar/space/alefRightmiddlestrokeLeftring-ar.fina/space/alefBottomrightkasraattachedLeftring-ar/space/alefBottomrightkasraattachedLeftring-ar.fina/space/alefRighthamzaattached-ar/space/alefRighthamzaattached-ar.fina/space/alefLefthamzaattached-ar/space/alefLefthamzaattached-ar.fina/space/alefFathaattached-ar/space/alefFathaattached-ar.fina/space/alefToprightfathaattached-ar/space/alefToprightfathaattached-ar.fina/space/alefToprightfathaattachedLeftring-ar/space/alefToprightfathaattachedLeftring-ar.fina/space/alefDotabove-ar/space/alefDotabove-ar.fina/space/alefToprightfathaattachedDotabove-ar/space/alefToprightfathaattachedDotabove-ar.fina/space/alefRightmiddlestrokeDotabove-ar/space/alefRightmiddlestrokeDotabove-ar.fina/space/alefBottomrightkasraattachedDotabove-ar/space/alefBottomrightkasraattachedDotabove-ar.fina/space/alefRounddotaboveattached-ar/space/alefRounddotaboveattached-ar.fina/space 
 /alefRightmiddlestroke-ar.fina/space/alefRightrounddotattached-ar.fina/space/alefRighthamzaattached-ar.fina/space/alefBottomrightkasraattachedLeftring-ar.fina/space</string>
     <string>/alefRightmiddlestroke-ar.fina/space/alefRightrounddotattached-ar.fina/space/alefRighthamzaattached-ar.fina/space/alefBottomrightkasraattached-ar.fina/space/alefBottomrightkasraattachedLeftring-ar.fina/space/alefRightmiddlestrokeLeftring-ar.fina</string>
+    <string>/_lam-ar.medi.preAlef/lam_alef-ar.fina/behDotless-ar/seen-ar/meem-ar/space/alef-ar/lam-ar/reh-ar/hah-ar/meem-ar/_bowl_seen/reh-ar/noonghunna-ar.fina/noon-ar/space/seen-ar/lam_alef-ar/meem-ar/ae-ar.fina/heh-ar/space/ain-ar/lam-ar/yeh-ar/noon-ar/alef-ar 
+/ain-ar/noon-ar/heh-ar.medi.knottedHigh/alef-ar/sad-ar.init/dad-ar/yeh-ar.noDots.fina/yeh-ar/space/ain-ar/lam-ar/yeh-ar/heh-ar/space/allah-ar/space/behDotless-ar.init/beh-ar.init/hehDoachashmee-ar.init/meem-ar.medi/meem-ar.fina.sindhi/space/meem-ar.sindhi/space/shadda-ar/space/dammasmall-ar 
+
+/bismillah-ar/salaamuhuAlaynaa-ar/alayhiAsSalaam-ar/radiAllaahuAnhaa-ar 
+/_dot1.cal/_comma.cal/_allah.cal/_dot2h.cal/_damma.cal/_sukun.cal/_salem.cal/_smallv.cal/_shadda.cal/_fatha-kasra.cal</string>
+    <string>/hahabove-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>

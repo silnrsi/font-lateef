@@ -18,6 +18,8 @@
   <string>_comma.glif</string>
   <key>_damma</key>
   <string>_damma.glif</string>
+  <key>_damma.cal</key>
+  <string>_damma.cal.glif</string>
   <key>_damma.short</key>
   <string>_damma.short.glif</string>
   <key>_dot1</key>
@@ -34,6 +36,8 @@
   <string>_dot1_tah.glif</string>
   <key>_dot2h</key>
   <string>_dot2h.glif</string>
+  <key>_dot2h.cal</key>
+  <string>_dot2h.cal.glif</string>
   <key>_dot2h_small</key>
   <string>_dot2h_small.glif</string>
   <key>_dot2h_smallV</key>
@@ -100,8 +104,12 @@
   <string>_meem.glif</string>
   <key>_noon</key>
   <string>_noon.glif</string>
+  <key>_shadda.cal</key>
+  <string>_shadda.cal.glif</string>
   <key>_smallV</key>
   <string>_smallV_.glif</string>
+  <key>_smallv.cal</key>
+  <string>_smallv.cal.glif</string>
   <key>_strokeHead</key>
   <string>_strokeH_ead.glif</string>
   <key>_tah</key>
@@ -134,6 +142,8 @@
   <string>ainabove-ar.glif</string>
   <key>alayheAssallamcomb-ar</key>
   <string>alayheA_ssallamcomb-ar.glif</string>
+  <key>alayhiAsSalaam-ar</key>
+  <string>alayhiA_sS_alaam-ar.glif</string>
   <key>alef-ar</key>
   <string>alef-ar.glif</string>
   <key>alef-ar.allah</key>
@@ -164,6 +174,8 @@
   <string>behD_otless-ar.init.glif</string>
   <key>behDotless-ar.medi</key>
   <string>behD_otless-ar.medi.glif</string>
+  <key>bismillah-ar</key>
+  <string>bismillah-ar.glif</string>
   <key>comma-ar</key>
   <string>comma-ar.glif</string>
   <key>comma-ar.downward</key>

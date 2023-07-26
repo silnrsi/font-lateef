@@ -42,6 +42,8 @@ perthousand
       <string>percent</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>percent</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CPP</string>
     </dict>
   </lib>
 </glyph>
