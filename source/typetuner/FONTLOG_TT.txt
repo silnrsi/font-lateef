@@ -64,10 +64,20 @@ Reserved Font Names and would have to be named something like "Nations Naskh".
 ---------
 (This should list both major and minor changes, most recent first.)
 
-%ISODATE% (SIL TypeTuner) Tuned version of Lateef Version 4.000
+%ISODATE% (SIL TypeTuner) Tuned version of Lateef Version 4.100
 - Tuned and delivered by SIL TypeTuner 
 (https://scripts.sil.org/ttw/fonts2go.cgi).
 - See included xml file for details of feature changes.
+
+### 2023-08-11 (SIL WSTech team) Lateef version 4.100
+
+#### New
+
+- Added:
+    - FD42 ARABIC LIGATURE RADI ALLAAHU ANHAA
+    - FD47 ARABIC LIGATURE ALAYHI AS-SALAAM
+    - FDCF ARABIC LIGATURE SALAAMUHU ALAYNAA
+    - FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM
 
 ### 2023-04-14 (SIL WSTech team) Lateef version 4.000
 

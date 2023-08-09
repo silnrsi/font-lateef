@@ -1,7 +1,17 @@
 ---
 title: Lateef - Version History
-fontversion: 4.000
+fontversion: 4.100
 ---
+
+### 2023-08-11 (SIL WSTech team) Lateef version 4.100
+
+#### New
+
+- Added:
+    - FD42 ARABIC LIGATURE RADI ALLAAHU ANHAA
+    - FD47 ARABIC LIGATURE ALAYHI AS-SALAAM
+    - FDCF ARABIC LIGATURE SALAAMUHU ALAYNAA
+    - FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM
 
 ### 2023-04-14 (SIL WSTech team) Lateef version 4.000
 

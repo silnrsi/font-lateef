@@ -4,7 +4,7 @@
   <head>
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 15.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
-    <fontsrc label="2.0">url(../references/v2.000/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="4.0">url(../references/v4.000/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ref">url(../references/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
@@ -76,15 +76,15 @@
       <comment>numbermark-ar</comment>
       <string>\u000628\u000605\u000645 \u0006052 \u00060522 \u000605222 \u0006052222 \u00060512</string>
     </test>
-    <test background="#f0fff0" label="U+0890 latn">
+    <test label="U+0890 latn">
       <comment>poundmarkabove-ar</comment>
       <string>\u000628\u000890\u000645 \u0008902 \u00089022 \u000890222 \u0008902222 \u00089012</string>
     </test>
-    <test background="#f0fff0" label="U+0891 latn">
+    <test label="U+0891 latn">
       <comment>piastremarkabove-ar</comment>
       <string>\u000628\u000891\u000645 \u0008912 \u00089122 \u000891222 \u0008912222 \u00089112</string>
     </test>
-    <test background="#f0fff0" label="U+08E2 latn">
+    <test label="U+08E2 latn">
       <comment>disputedendofayah-ar</comment>
       <string>\u000628\u0008E2\u000645 \u0008E22 \u0008E222 \u0008E2222 \u0008E212</string>
     </test>
@@ -124,15 +124,15 @@
       <comment>numbermark-ar</comment>
       <string>\u000628\u000605\u000645 \u000605\u000668 \u000605\u000668\u000668 \u000605\u000668\u000668\u000668 \u000605\u000668\u000668\u000668\u000668 \u000605\u000661\u000662</string>
     </test>
-    <test background="#f0fff0" label="U+0890 arab">
+    <test label="U+0890 arab">
       <comment>poundmarkabove-ar</comment>
       <string>\u000628\u000890\u000645 \u000890\u000668 \u000890\u000668\u000668 \u000890\u000668\u000668\u000668 \u000890\u000668\u000668\u000668\u000668 \u000890\u000661\u000662</string>
     </test>
-    <test background="#f0fff0" label="U+0891 arab">
+    <test label="U+0891 arab">
       <comment>piastremarkabove-ar</comment>
       <string>\u000628\u000891\u000645 \u000891\u000668 \u000891\u000668\u000668 \u000891\u000668\u000668\u000668 \u000891\u000668\u000668\u000668\u000668 \u000891\u000661\u000662</string>
     </test>
-    <test background="#f0fff0" label="U+08E2 arab">
+    <test label="U+08E2 arab">
       <comment>disputedendofayah-ar</comment>
       <string>\u000628\u0008E2\u000645 \u0008E2\u000668 \u0008E2\u000668\u000668 \u0008E2\u000668\u000668\u000668 \u0008E2\u000661\u000662</string>
     </test>
@@ -172,15 +172,15 @@
       <comment>numbermark-ar</comment>
       <string>\u000628\u000605\u000645 \u000605\u0006F8 \u000605\u0006F8\u0006F8 \u000605\u0006F8\u0006F8\u0006F8 \u000605\u0006F8\u0006F8\u0006F8\u0006F8 \u000605\u0006F1\u0006F2</string>
     </test>
-    <test background="#f0fff0" label="U+0890 extd">
+    <test label="U+0890 extd">
       <comment>poundmarkabove-ar</comment>
       <string>\u000628\u000890\u000645 \u000890\u0006F8 \u000890\u0006F8\u0006F8 \u000890\u0006F8\u0006F8\u0006F8 \u000890\u0006F8\u0006F8\u0006F8\u0006F8 \u000890\u0006F1\u0006F2</string>
     </test>
-    <test background="#f0fff0" label="U+0891 extd">
+    <test label="U+0891 extd">
       <comment>piastremarkabove-ar</comment>
       <string>\u000628\u000891\u000645 \u000891\u0006F8 \u000891\u0006F8\u0006F8 \u000891\u0006F8\u0006F8\u0006F8 \u000891\u0006F8\u0006F8\u0006F8\u0006F8 \u000891\u0006F1\u0006F2</string>
     </test>
-    <test background="#f0fff0" label="U+08E2 extd">
+    <test label="U+08E2 extd">
       <comment>disputedendofayah-ar</comment>
       <string>\u000628\u0008E2\u000645 \u0008E2\u0006F8 \u0008E2\u0006F8\u0006F8 \u0008E2\u0006F8\u0006F8\u0006F8 \u0008E2\u0006F1\u0006F2</string>
     </test>
