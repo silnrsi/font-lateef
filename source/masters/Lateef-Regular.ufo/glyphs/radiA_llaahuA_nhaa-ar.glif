@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="radiAllaahuAnhaa-ar" format="2">
-  <advance width="2050"/>
+  <advance width="2069"/>
   <unicode hex="FD42"/>
   <outline>
     <component base="_damma.cal" xOffset="361" yOffset="1175"/>
