@@ -14,7 +14,7 @@ Arabic Supplement | ✓
 Arabic Extended-A | ✓ 
 Arabic Extended-B | ✓ 
 Supplemental Punctuation | 2E41
-Arabic Presentation Forms-A | only includes FD3E..FD3F, FDF2, FDFC
+Arabic Presentation Forms-A | only includes FD3E..FD3F, FD42, FD47, FDCF, FDF2, FDFC, FDFD
 Arabic Presentation Forms-B | ✗ 
 Arabic Extended-C | only includes 10EFD..10EFF
 Codepage 1252 (Western)¹ | ✓

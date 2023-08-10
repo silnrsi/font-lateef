@@ -109,11 +109,11 @@ Regular: <span class='lateefL-R normal'> ™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √
 
 #### Regular:
 
-<p dir="rtl"><span class='lateef-R normal'>&#xFD3E;&#xFD3F;&#xFDF2;&#xFDFC;</span></p>
+<p dir="rtl"><span class='lateef-R normal'>&#xFD3E; &#x0628; &#xFD3F; &#x0628; &#xFD42; &#x0628; &#xFD47; &#x0628; &#xFDCF; &#x0628; &#xFDF2; &#x0628; &#xFDFC; &#x0628; &#xFDFD;</span></p>
 
 #### Bold:
 
-<p dir="rtl"><span class='lateef-B normal'>&#xFD3E;&#xFD3F;&#xFDF2;&#xFDFC;</span></p>
+<p dir="rtl"><span class='lateef-B normal'>&#xFD3E; &#x0628; &#xFD3F; &#x0628; &#xFD42; &#x0628; &#xFD47; &#x0628; &#xFDCF; &#x0628; &#xFDF2; &#x0628; &#xFDFC; &#x0628; &#xFDFD;</span></p>
 
 
 ### Arabic Extended-C:

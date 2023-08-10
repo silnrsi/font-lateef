@@ -1,4 +1,14 @@
 
+### 2023-08-11 (SIL WSTech team) Lateef version 4.100
+
+#### New
+
+- Added:
+    - FD42 ARABIC LIGATURE RADI ALLAAHU ANHAA
+    - FD47 ARABIC LIGATURE ALAYHI AS-SALAAM
+    - FDCF ARABIC LIGATURE SALAAMUHU ALAYNAA
+    - FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM
+
 ### 2023-04-14 (SIL WSTech team) Lateef version 4.000
 
 #### New
@@ -263,7 +273,7 @@
 - Adjusted width of various whitespace characters to conform to best practice
 - Revised side-bearings for many glyphs
 - Revised width of kashida
-- Changed scaling for some quranic marks (combining) and adjusted weights
+- Changed scaling for some Quranic marks (combining) and adjusted weights
 - Improved mark positioning
 - Redesign 
     - U+0616 ARABIC SMALL HIGH LIGATURE ALEF WITH LAM WITH YEH (see https://www.unicode.org/versions/Unicode15.0.0/erratafixed.html)
