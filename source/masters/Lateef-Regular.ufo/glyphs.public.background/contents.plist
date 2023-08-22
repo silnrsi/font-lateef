@@ -172,6 +172,8 @@
   <string>aleflow-ar.glif</string>
   <key>allah-ar</key>
   <string>allah-ar.glif</string>
+  <key>allahlong-ar</key>
+  <string>allahlong-ar.glif</string>
   <key>behDotless-ar</key>
   <string>behD_otless-ar.glif</string>
   <key>behDotless-ar.fina</key>
@@ -396,6 +398,8 @@
   <string>highwaw-ar.glif</string>
   <key>hizb-ar</key>
   <string>hizb-ar.glif</string>
+  <key>jallajalalouhou-ar</key>
+  <string>jallajalalouhou-ar.glif</string>
   <key>jeemabove-ar</key>
   <string>jeemabove-ar.glif</string>
   <key>kaf-ar</key>
