@@ -1,10 +1,7 @@
 /*
-This file is part of Lateef font family (https://software.sil.org/lateef)
-and is Copyright (c) 2014-2023 SIL International (https://www.sil.org/),
-with Reserved Font Names "Lateef" and "SIL". This Font Software is licensed
-under the SIL Open Font License, Version 1.1. You should have received a copy
-of the license along with this Font Software. If this is not the case, go to
-(https://scripts.sil.org/OFL) for all the details including a FAQ.
+This file is from the SIL Fontdocs project (https://github.com/silnrsi/fontdocs).
+Copyright (c) 2021 SIL International (http://www.sil.org/). This Font Software is
+released under the MIT license (http://opensource.org/licenses/MIT).
 */
 html {
     font-family: sans-serif;
@@ -196,6 +193,7 @@ kbd{
 footer {
     margin-top: 2rem;
     margin-bottom: 1rem;
+    color: #999999;
 }
 
 .affects {
