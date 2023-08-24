@@ -4,7 +4,7 @@
   <head>
     <comment>In this test, the comment column indicates whether the feature is expected to function with the given language tag. </comment>
     <fontscale>250</fontscale>
-    <fontsrc label="4.0">url(../references/v4.000/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="4.1">url(../references/v4.100/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ref">url(../references/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
     <styles>

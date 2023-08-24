@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jallajalalouhou-ar" format="2">
   <advance width="2322"/>
+  <unicode hex="FDFB"/>
   <outline>
     <component base="_damma.cal" xOffset="73" yOffset="326"/>
     <component base="_fatha-kasra.cal" xOffset="1544" yOffset="710"/>

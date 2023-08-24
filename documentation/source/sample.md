@@ -1,6 +1,6 @@
 ---
 title: Lateef - Type Sample
-fontversion: 4.100
+fontversion: 4.200
 ---
 
 This document demonstrates all of the characters in the font. It is organized by Unicode block. Alternate glyphs that are available through features are demonstrated in the [Features](features.md) document. At the end is a sample demonstrating Arabic shaping and another example of running text.
@@ -113,11 +113,11 @@ Regular: <span class='lateefL-R normal'> ™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √
 
 #### Regular:
 
-<p dir="rtl"><span class='lateef-R normal'>&#xFD3E; &#x0628; &#xFD3F; &#x0628; &#xFD42; &#x0628; &#xFD47; &#x0628; &#xFDCF; &#x0628; &#xFDF2; &#x0628; &#xFDFC; &#x0628; &#xFDFD;</span></p>
+<p dir="rtl"><span class='lateef-R normal'>&#xFD3E; &#x0628; &#xFD3F; &#x0628; &#xFD42; &#x0628; &#xFD47; &#x0628; &#xFDCF; &#x0628; &#xFDF2; &#x0628; &#xFDFA; &#x0628; &#xFDFB; &#x0628; &#xFDFC; &#x0628; &#xFDFD;</span></p>
 
 #### Bold:
 
-<p dir="rtl"><span class='lateef-B normal'>&#xFD3E; &#x0628; &#xFD3F; &#x0628; &#xFD42; &#x0628; &#xFD47; &#x0628; &#xFDCF; &#x0628; &#xFDF2; &#x0628; &#xFDFC; &#x0628; &#xFDFD;</span></p>
+<p dir="rtl"><span class='lateef-B normal'>&#xFD3E; &#x0628; &#xFD3F; &#x0628; &#xFD42; &#x0628; &#xFD47; &#x0628; &#xFDCF; &#x0628; &#xFDF2; &#x0628; &#xFDFA; &#x0628; &#xFDFB; &#x0628; &#xFDFC; &#x0628; &#xFDFD;</span></p>
 
 
 ### Arabic Extended-C:

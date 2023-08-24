@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="allahlong-ar" format="2">
   <advance width="2357"/>
+  <unicode hex="FDFA"/>
   <outline>
     <component base="_fatha-kasra.cal" xOffset="1774" yOffset="1193"/>
     <component base="_allah.cal" xOffset="175" yOffset="852"/>

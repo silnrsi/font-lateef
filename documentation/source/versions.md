@@ -1,6 +1,6 @@
 ---
 title: Lateef - Versions and Changes
-fontversion: 4.100
+fontversion: 4.200
 ---
 
 ## Announcement list

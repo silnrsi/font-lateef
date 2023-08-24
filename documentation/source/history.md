@@ -1,7 +1,15 @@
 ---
 title: Lateef - Version History
-fontversion: 4.100
+fontversion: 4.200
 ---
+
+### 2023-08-28 (SIL WSTech team) Lateef version 4.200
+
+#### New
+
+- Added:
+    - FDFA ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM
+    - FDFB ARABIC LIGATURE JALLAJALALOUHOU
 
 ### 2023-08-11 (SIL WSTech team) Lateef version 4.100
 

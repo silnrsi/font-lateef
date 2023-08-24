@@ -177,7 +177,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Lateef ExtraLight: 2023</string>
   <key>openTypeNameVersion</key>
-  <string>Version 4.101</string>
+  <string>Version 4.200</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -305,7 +305,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>4</integer>
   <key>versionMinor</key>
-  <integer>101</integer>
+  <integer>200</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>
@@ -320,7 +320,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
       </dict>
       <dict>
         <key>name</key>
-        <string>Peter Martin</string>
+        <string>Peter Martin, Becca Spalinger</string>
         <key>role</key>
         <string>SIL designer</string>
         <key>url</key>

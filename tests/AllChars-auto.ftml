@@ -4,7 +4,7 @@
   <head>
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 15.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
-    <fontsrc label="4.0">url(../references/v4.000/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="4.1">url(../references/v4.100/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ref">url(../references/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
     <fontsrc label="Lt">url(../results/Lateef-Light.ttf)</fontsrc>
@@ -2288,15 +2288,15 @@
       <comment>parenleft-ar</comment>
       <string>\u00FD3E \u00FD3F</string>
     </test>
-    <test background="#f0fff0" label="U+FD42">
+    <test label="U+FD42">
       <comment>radiAllaahuAnhaa-ar</comment>
       <string>\u00FD42</string>
     </test>
-    <test background="#f0fff0" label="U+FD47">
+    <test label="U+FD47">
       <comment>alayhiAsSalaam-ar</comment>
       <string>\u00FD47</string>
     </test>
-    <test background="#f0fff0" label="U+FDCF">
+    <test label="U+FDCF">
       <comment>salaamuhuAlaynaa-ar</comment>
       <string>\u00FDCF</string>
     </test>
@@ -2304,13 +2304,13 @@
       <comment>allah-ar</comment>
       <string>\u00FDF2</string>
     </test>
+    <test background="#f0fff0" label="U+FDFA">
+      <comment>allahlong-ar</comment>
+      <string>\u00FDFA \u00FDFB</string>
+    </test>
     <test label="U+FDFC">
       <comment>rial</comment>
-      <string>\u00FDFC</string>
-    </test>
-    <test background="#f0fff0" label="U+FDFD">
-      <comment>bismillah-ar</comment>
-      <string>\u00FDFD</string>
+      <string>\u00FDFC \u00FDFD</string>
     </test>
     <test label="U+FE00">
       <comment>VS1</comment>

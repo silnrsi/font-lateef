@@ -4,7 +4,7 @@
   <head>
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 15.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
-    <fontsrc label="4.0">url(../references/v4.000/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="4.1">url(../references/v4.100/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ref">url(../references/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
@@ -6558,6 +6558,46 @@ U+0670" stylename="cv76_2">
 U+0616">
       <comment>allah-ar alefLamYehabove-ar</comment>
       <string>\u00FDF2\u000616 \u00FDF2\u000616\u000651 \u00FDF2\u000651\u000616 \u00FDF2\u000616\u000654 \u00FDF2\u000654\u000616 \u00FDF2\u0006E3 \u00FDF2\u0006E3\u000651 \u00FDF2\u000651\u0006E3 \u00FDF2\u0006E3\u000654 \u00FDF2\u000654\u0006E3 \u00FDF2\u0008F0 \u00FDF2\u0008F0\u000651 \u00FDF2\u000651\u0008F0 \u00FDF2\u0008F0\u000654 \u00FDF2\u000654\u0008F0 \u00FDF2\u0008F2 \u00FDF2\u0008F2\u000651 \u00FDF2\u000651\u0008F2 \u00FDF2\u0008F2\u000654 \u00FDF2\u000654\u0008F2</string>
+    </test>
+    <test background="#f0fff0" label="U+FDFA
+U+064E">
+      <comment>allahlong-ar fatha-ar</comment>
+      <string>\u00FDFA\u00064E \u00FDFA\u00064E\u000651 \u00FDFA\u000651\u00064E \u00FDFA\u00064E\u000654 \u00FDFA\u000654\u00064E \u00FDFA\u000650 \u00FDFA\u000650\u000651 \u00FDFA\u000651\u000650 \u00FDFA\u000650\u000654 \u00FDFA\u000654\u000650 \u00FDFA\u00065E \u00FDFA\u00065E\u000651 \u00FDFA\u000651\u00065E \u00FDFA\u00065E\u000654 \u00FDFA\u000654\u00065E \u00FDFA\u000670 \u00FDFA\u000670\u000651 \u00FDFA\u000651\u000670 \u00FDFA\u000670\u000654 \u00FDFA\u000654\u000670</string>
+    </test>
+    <test background="#f0fff0" label="U+FDFA
+U+0670" stylename="cv76_1">
+      <comment>allahlong-ar alefabove-ar</comment>
+      <string>\u00FDFA\u000670 \u00FDFA\u000670\u000651 \u00FDFA\u000651\u000670 \u00FDFA\u000670\u000654 \u00FDFA\u000654\u000670</string>
+    </test>
+    <test background="#f0fff0" label="U+FDFA
+U+0670" stylename="cv76_2">
+      <comment>allahlong-ar alefabove-ar</comment>
+      <string>\u00FDFA\u000670 \u00FDFA\u000670\u000651 \u00FDFA\u000651\u000670 \u00FDFA\u000670\u000654 \u00FDFA\u000654\u000670</string>
+    </test>
+    <test background="#f0fff0" label="U+FDFA
+U+0616">
+      <comment>allahlong-ar alefLamYehabove-ar</comment>
+      <string>\u00FDFA\u000616 \u00FDFA\u000616\u000651 \u00FDFA\u000651\u000616 \u00FDFA\u000616\u000654 \u00FDFA\u000654\u000616 \u00FDFA\u0006E3 \u00FDFA\u0006E3\u000651 \u00FDFA\u000651\u0006E3 \u00FDFA\u0006E3\u000654 \u00FDFA\u000654\u0006E3 \u00FDFA\u0008F0 \u00FDFA\u0008F0\u000651 \u00FDFA\u000651\u0008F0 \u00FDFA\u0008F0\u000654 \u00FDFA\u000654\u0008F0 \u00FDFA\u0008F2 \u00FDFA\u0008F2\u000651 \u00FDFA\u000651\u0008F2 \u00FDFA\u0008F2\u000654 \u00FDFA\u000654\u0008F2</string>
+    </test>
+    <test background="#f0fff0" label="U+FDFB
+U+064E">
+      <comment>jallajalalouhou-ar fatha-ar</comment>
+      <string>\u00FDFB\u00064E \u00FDFB\u00064E\u000651 \u00FDFB\u000651\u00064E \u00FDFB\u00064E\u000654 \u00FDFB\u000654\u00064E \u00FDFB\u000650 \u00FDFB\u000650\u000651 \u00FDFB\u000651\u000650 \u00FDFB\u000650\u000654 \u00FDFB\u000654\u000650 \u00FDFB\u00065E \u00FDFB\u00065E\u000651 \u00FDFB\u000651\u00065E \u00FDFB\u00065E\u000654 \u00FDFB\u000654\u00065E \u00FDFB\u000670 \u00FDFB\u000670\u000651 \u00FDFB\u000651\u000670 \u00FDFB\u000670\u000654 \u00FDFB\u000654\u000670</string>
+    </test>
+    <test background="#f0fff0" label="U+FDFB
+U+0670" stylename="cv76_1">
+      <comment>jallajalalouhou-ar alefabove-ar</comment>
+      <string>\u00FDFB\u000670 \u00FDFB\u000670\u000651 \u00FDFB\u000651\u000670 \u00FDFB\u000670\u000654 \u00FDFB\u000654\u000670</string>
+    </test>
+    <test background="#f0fff0" label="U+FDFB
+U+0670" stylename="cv76_2">
+      <comment>jallajalalouhou-ar alefabove-ar</comment>
+      <string>\u00FDFB\u000670 \u00FDFB\u000670\u000651 \u00FDFB\u000651\u000670 \u00FDFB\u000670\u000654 \u00FDFB\u000654\u000670</string>
+    </test>
+    <test background="#f0fff0" label="U+FDFB
+U+0616">
+      <comment>jallajalalouhou-ar alefLamYehabove-ar</comment>
+      <string>\u00FDFB\u000616 \u00FDFB\u000616\u000651 \u00FDFB\u000651\u000616 \u00FDFB\u000616\u000654 \u00FDFB\u000654\u000616 \u00FDFB\u0006E3 \u00FDFB\u0006E3\u000651 \u00FDFB\u000651\u0006E3 \u00FDFB\u0006E3\u000654 \u00FDFB\u000654\u0006E3 \u00FDFB\u0008F0 \u00FDFB\u0008F0\u000651 \u00FDFB\u000651\u0008F0 \u00FDFB\u0008F0\u000654 \u00FDFB\u000654\u0008F0 \u00FDFB\u0008F2 \u00FDFB\u0008F2\u000651 \u00FDFB\u000651\u0008F2 \u00FDFB\u0008F2\u000654 \u00FDFB\u000654\u0008F2</string>
     </test>
   </testgroup>
   <testgroup label="All Arabic diacritics on representative bases">

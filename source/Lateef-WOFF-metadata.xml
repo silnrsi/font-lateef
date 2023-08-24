@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.lateef.4.101" />
+  <uniqueid id="org.sil.fonts.lateef.4.200" />
   <vendor name="SIL International" url="https://www.sil.org/" />
   <credits>
     <credit
@@ -9,7 +9,7 @@
       role="SIL designers and font engineers"
     />
     <credit
-      name="Peter Martin"
+      name="Peter Martin, Becca Spalinger"
       url="https://software.sil.org/wstech/"
       role="SIL designer"
     />

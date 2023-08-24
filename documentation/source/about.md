@@ -1,6 +1,6 @@
 ---
 title: Lateef - About
-fontversion: 4.100
+fontversion: 4.200
 ---
 
 ## About this project
