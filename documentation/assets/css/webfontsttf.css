@@ -14,14 +14,6 @@ of the license along with this Font Software. If this is not the case, go to
     font-family: Lateef-B;
     src: url("../../../results/Lateef-Bold.ttf") format("truetype");
 }
-@font-face {
-    font-family: LateefL-R;
-    src: url("../../../results/Lateef-Regular.ttf") format("truetype");
-}
-@font-face {
-    font-family: LateefL-B;
-    src: url("../../../results/Lateef-Bold.ttf") format("truetype");
-}
 .lateef-R { font-family: Lateef-R; direction: rtl; text-align: right;}
 .lateef-B { font-family: Lateef-B; direction: rtl; text-align: right;}
 .lateefL-R { font-family: Lateef-R; direction: ltr; text-align: left;}
