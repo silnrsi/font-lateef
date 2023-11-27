@@ -3,7 +3,7 @@ title: Lateef - Font Features
 fontversion: 4.200
 ---
 
-Lateef is an OpenType-enabled font family that supports the Arabic script. It includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerate the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](https://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Kurdish, Kyrgyz, Rohingya, Sindhi, Urdu, and Wolof language variants.
+Lateef is an OpenType-enabled font family that supports the Arabic script. It includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerate the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. For applications that do not make use of the OpenType Character Variants, you can now download fonts customized with the variant glyphs you choose. Read this document, visit [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi), then choose the variants and download your font.
 
 See [Using Font Features](https://software.sil.org/fonts/features/). Although that page is not targeted at Arabic script support, it does provide a comprehensive list of applications that make full use of the OpenType font technology.
 
@@ -13,19 +13,9 @@ This page uses web fonts (WOFF) to demonstrate font features and should display 
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
-## End of Ayah (U+06DD), Disputed End of Ayah (U+08E2), and subtending marks (U+0600..U+0605, U+0890..U+0891)
+## Complete feature list
 
-These Arabic characters are intended to enclose or hold one or more digits. 
-
-Specific technical details of how to use them are discussed in the [Arabic fonts FAQ -- Subtending marks](https://software.sil.org/arabicfonts/support/faq#Ayah).
-
-Additionally, Lateef includes two simplified alternates for U+06DD ARABIC END OF AYAH under the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. The two alternates are also available through the Character Variants feature discussed below.
-
-## Customizing with TypeTuner
-
-For applications that do not make use of the OpenType Character Variants, you can now download fonts customized with the variant glyphs you choose. Read this document, visit [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi), then choose the variants and download your font.
-
-### Language 
+### Language system tags
 
 <span class='affects'>Affects: U+062F, U+0630, U+0688..U+068F, U+0690, U+06EE, U+0759, U+075A, U+08AE, U+0645, U+0765, U+0766, U+08A7, U+06BE, U+0626, U+060C, U+061B, U+06F4, U+06F5, U+06F6, U+06F7, U+0650, U+064F, U+064C, U+0657</span>
 
@@ -54,7 +44,7 @@ Wolof | <span dir="rtl" class='lateef-R normal' lang='wo'>&#x0626;&#x0020;&#x062
 
 ### Character variants
 
-There are some character shape differences in different languages which use the Arabic script. These can be accessed by using OpenType Character Variants, or through the language support mentioned above.  
+There are some character shape differences in different languages which use the Arabic script. These can be accessed by using OpenType Character Variants, or through the language support mentioned above.
 
 #### Meem 
 
@@ -64,7 +54,6 @@ Feature | Sample | Feature setting
 :------------- | ---------------: | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'> م ممم ݥ ݥݥݥ ݦ ݦݦݦ ࢧ ࢧࢧࢧ </span> | `cv44=0`
 Sindhi-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv44" 1'> م ممم ݥ ݥݥݥ ݦ ݦݦݦ ࢧ ࢧࢧࢧ </span>| `cv44=1`
-
 
 #### Heh 
 
@@ -104,7 +93,6 @@ Feature | Sample | Feature setting
 :------------- | ---------------: | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>ئ ‍ئ</span> | `cv54=0`
 Right hamza| <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv54" 1'>ئ ‍ئ</span>| `cv54=1`
-
 
 #### Shadda+kasra placement 
 
@@ -168,8 +156,9 @@ Open left | <span dir="rtl" class='lateef-R normal' style='font-feature-settings
 
 #### End of ayah 
 
-
 <span class='affects'>Affects: U+06DD</span>
+
+These alternates are also available using the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. 
 
 Firefox allows you to use U+06DD followed by the digits and proper rendering occurs. Some applications require the following:
 
@@ -191,7 +180,6 @@ The DISPUTED END OF AYAH (U+08E2) is also now available in the font. It works in
 
 <span dir="rtl" class='lateef-R normal'>&#x202D;&#x8E2;&#x663;&#x664;&#x665;&#x202C;</span>
 
-
 #### Eastern digits 
 
 <span class='affects'>Affects: U+06F4, U+06F6, U+06F7</span>
@@ -203,28 +191,6 @@ Kurdish-style | <span dir="rtl" class='lateef-R normal' style='font-feature-sett
 Rohingya-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv82" 4'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=4`
 Sindhi-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv82" 1'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=1`
 Urdu-style | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv82" 2'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=2`
-
-## Proportional figures
-
-Tabular digits are the default for Latin digits. Lateef supports the OpenType **Proportional Figures (pnum)** for Latin digits.
-
-<span class='affects'>Affects: U+0030..U+0039</span>
-
-Feature | Sample | Feature setting
-:------------- | :------ | :------------- 
-False      | <span dir="ltr" class='lateefL-R normal'>0123456789</span>| `pnum=0`
-True     | <span dir="ltr" class='lateefL-R normal' style='font-feature-settings: "pnum" 1'>0123456789</span>| `pnum=1`
-
-## Tabular figures
-
-Proportional digits are the default for Arabic digits. Lateef supports the OpenType **Tabular Figures (tnum)** for Arabic digits.
-
-<span class='affects'>Affects: U+0660..U+0669, U+06F0.. U+06F9</span>
-
-Feature | Sample | Feature setting
-:------------- | :------ | :------------- 
-False      | <span class='lateefL-R normal'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=0`
-True     | <span class='lateefL-R normal' style='font-feature-settings: "tnum" 1'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=1`
 
 #### Comma 
 
@@ -244,7 +210,33 @@ Feature | Sample |  Feature setting
 Small reh | <span dir="rtl" class='lateef-R normal'>&#x066B;</span> | `cv85=0`
 Slash | <span dir="rtl" class='lateef-R normal' style='font-feature-settings: "cv85" 1'>&#x066B;</span>| `cv85=1`
 
-#### Disable digit kerning (see FAQ) &#x2014; TypeTuner-only
+### Other user font features
+
+#### Proportional figures
+
+Tabular digits are the default for Latin digits. Lateef supports the OpenType **Proportional Figures (pnum)** for Latin digits.
+
+<span class='affects'>Affects: U+0030..U+0039</span>
+
+Feature | Sample | Feature setting
+:------------- | :------ | :------------- 
+False      | <span dir="ltr" class='lateefL-R normal'>0123456789</span>| `pnum=0`
+True     | <span dir="ltr" class='lateefL-R normal' style='font-feature-settings: "pnum" 1'>0123456789</span>| `pnum=1`
+
+#### Tabular figures
+
+Proportional digits are the default for Arabic digits. Lateef supports the OpenType **Tabular Figures (tnum)** for Arabic digits.
+
+<span class='affects'>Affects: U+0660..U+0669, U+06F0.. U+06F9</span>
+
+Feature | Sample | Feature setting
+:------------- | :------ | :------------- 
+False      | <span class='lateefL-R normal'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=0`
+True     | <span class='lateefL-R normal' style='font-feature-settings: "tnum" 1'>&#x0660;&#x0661;&#x0662;&#x0663;&#x0664;&#x0665;&#x0666;&#x0667;&#x0668;&#x0669; &#x06F0;&#x06F1;&#x06F2;&#x06F3;&#x06F5;&#x06F6;&#x06F7;&#x06F8;&#x06F9;</span>| `tnum=1`
+
+#### Disable digit kerning (see FAQ)
+
+_This feature is only available in TypeTuner Web._
 
 <span class='affects'>The Arabic digits are proportional by default and Lateef includes kerning to improve the spacing of certain pairs of digits such as &#x0667;&#x0668;. However there are some applications, including Microsoft Word for Windows, that process the digit kerning information incorrectly, actually making some digits too far apart and some too close together. We have added a special Typetuner feature that can be used to create a version of the Lateef fonts in which the digit kerning is _disabled_. When using those fonts in Microsoft Word the resulting digit spacing will be much nicer than Tabular, but not quite as good as it would be if the application's kerning worked correctly. This is discussed further in the [FAQ](faq.md).</span>
 
