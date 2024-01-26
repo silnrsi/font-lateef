@@ -132,8 +132,8 @@ fontversion: 4.200
      - cv54 - Yeh hamza (Standard/Right hamza)
      - cv85 - Decimal separator (Small reh/Slash)
 - Added UI name strings for OpenType features
-- Added Kyrgyz language support in Graphite and OpenType
-- Added Rohingya language support in Graphite and OpenType
+- Added Kyrgyz language support
+- Added Rohingya language support
 - Added proportional Arabic digits (now the default)
 - Added kerning for proportional Arabic digits
 - Added Arabic-style (rounded) versions of chevron quotes
