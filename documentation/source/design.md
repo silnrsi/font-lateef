@@ -23,12 +23,12 @@ Type samples showing some of the inventory of glyphs can be found here:
 
 Examples of some text is shown below. 
 
-![Lateef Sample - Seven weights](assets/images/weights.png){.fullsize}
+![Lateef Sample - Seven weights](../assets/images/weights.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/lateef/wp-content/uploads/sites/30/2022/06/weights.png -->
 <figcaption>Lateef Sample - Seven weights</figcaption>
 
 
-![Lateef Sample - Genesis 11](assets/images/LateefArabicGen11_LO.png){.fullsize}
+![Lateef Sample - Genesis 11](../assets/images/LateefArabicGen11_LO.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/lateef/wp-content/uploads/sites/30/2022/06/LateefArabicGen11_LO.png -->
 <figcaption>Lateef Sample - Genesis 11</figcaption>
 
