@@ -6,19 +6,29 @@
 .waf-*
 .smithpickle-*
 .lock-*
-*results*/**
-dev*/**
+results/**
 buildlinux2/**
 bin/**
+source/temp/*
+source/masters/temp/*
+source/backups/*
 
-# gdl and graide
+# temporary fontdocs files
+documentation/source/pdftemp/
+documentation/source/productsite/
+web/*.woff*
+
+# diffenator2
+.ninja_log
+build.ninja
+
+# graphite
 $_temp.gdl
 gdlerr.txt
 graide_dbg_output.json
 graide_image*.png
 dbg_*.txt
-source/temp/*
-source/backups/*
+
 
 # general backup files
 *~
@@ -61,7 +71,7 @@ current.fpr
 *.vfbak
 *.~tt
 .idea/*
-
+.vscode/*
 
 # Shares
 .AppleDB
@@ -79,7 +89,6 @@ $RECYCLE.BIN/
 # Opaque formats to keep out of git
 *.fog
 *.vfc
-*.glyphs
 
 # generated releases
 *.zip
@@ -102,15 +111,15 @@ $RECYCLE.BIN/
 .vagrant/
 .docker/
 *.log
-filter.rsync
 
 # Other
 .sass-cache/
 .jekyll-metadata
-tmp/
 
 # Byte-compiled / optimized files
 *.py[co]
 *$py.class
 __pycache__/
 
+# Glyphs.App
+*.glyphs
