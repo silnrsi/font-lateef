@@ -22,13 +22,6 @@ web/*.woff*
 .ninja_log
 build.ninja
 
-# graphite
-$_temp.gdl
-gdlerr.txt
-graide_dbg_output.json
-graide_image*.png
-dbg_*.txt
-
 
 # general backup files
 *~
