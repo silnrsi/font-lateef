@@ -209,7 +209,7 @@ of the license along with this Font Software. If this is not the case, go to
     =============================== 
     -->
     
-    <!-- I'd prefer to include the next class with the related group of 7, but the current glyph orer
+    <!-- I'd prefer to include the next class with the related group of 7, but the current glyph order
          won't allow it. That is, the glyph order in the class is currently correct for the logic, but 
          doesn't pass the psfcheckclassorders alignment check. (It doesn't need to align by glyphID
          because this class is used only for OpenType and not for Graphite).

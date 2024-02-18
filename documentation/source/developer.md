@@ -64,7 +64,7 @@ After adding characters or additional behaviors to the font, test files should b
 
 are generated automatically using `tools/bin/genftmlfiles.sh`.
 
-`tools/ftml.xsl` can be used to view ftml documents directly in Firefox (which supports both Graphite and OpenType rendering).
+`tools/ftml.xsl` can be used to view ftml documents directly in Firefox.
 
 ### About ftml tests
 
