@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 15.0 or later; else light green: a character is new in this version of the font</comment>
+    <fontscale>250</fontscale>
+    <fontsrc label="4.2">url(../references/v4.200/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="ref">url(../references/Lateef-Regular.ttf)</fontsrc>
+    <styles>
+    </styles>
+    <title>Direction Test</title>
+    <widths string="30%"/>
+  </head>
+  <testgroup label="LTR">
+    <test label="U+003F">
+      <comment>question</comment>
+      <string>? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</string>
+    </test>
+    <test label="U+0628">
+      <comment>beh-ar</comment>
+      <string>\u000628 \u000628\u00200D \u00200D\u000628\u00200D \u00200D\u000628 \u000628\u000628\u000628 </string>
+    </test>
+  </testgroup>
+  <testgroup label="RTL">
+    <test label="U+003F" rtl="True">
+      <comment>question</comment>
+      <string>? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</string>
+    </test>
+    <test label="U+0628" rtl="True">
+      <comment>beh-ar</comment>
+      <string>\u000628 \u000628\u00200D \u00200D\u000628\u00200D \u00200D\u000628 \u000628\u000628\u000628 </string>
+    </test>
+  </testgroup>
+</ftml>
