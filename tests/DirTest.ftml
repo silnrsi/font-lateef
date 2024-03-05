@@ -10,13 +10,11 @@
     <widths string="30%"/>
   </head>
   <testgroup>
-    <test label="U+003F" rtl="True">
-      <comment>question</comment>
-      <string>? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</string>
+    <test label="l-b-m  RTL" rtl="True">
+      <string>\u0628\u0644\u0645 </string>
     </test>
-    <test label="U+0628" rtl="True">
-      <comment>beh-ar</comment>
-      <string>\u000628 \u000628\u00200D \u00200D\u000628\u00200D \u00200D\u000628 \u000628\u000628\u000628 </string>
+    <test label="l-b-m  LTR">
+      <string>\u0628\u0644\u0645 </string>
     </test>
   </testgroup>
 </ftml>
