@@ -2,9 +2,9 @@
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
-    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 15.0 or later; else light green: a character is new in this version of the font</comment>
+    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 16.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
-    <fontsrc label="4.1">url(../references/v4.100/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="4.2">url(../references/v4.200/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ref">url(../references/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
     <fontsrc label="Lt">url(../results/Lateef-Light.ttf)</fontsrc>
@@ -1936,6 +1936,10 @@
       <comment>poundmarkabove-ar</comment>
       <string>\u000890 \u000891</string>
     </test>
+    <test background="#ffe0e0" label="U+0897">
+      <comment>pepet-ar</comment>
+      <string>\u000628\u000897</string>
+    </test>
     <test label="U+0898">
       <comment>aljuzabove-ar</comment>
       <string>\u000628\u000898 \u000628\u000899 \u000628\u00089A \u000628\u00089B \u000628\u00089C \u000628\u00089D \u000628\u00089E \u000628\u00089F</string>
@@ -2304,13 +2308,9 @@
       <comment>allah-ar</comment>
       <string>\u00FDF2</string>
     </test>
-    <test background="#f0fff0" label="U+FDFA">
+    <test label="U+FDFA">
       <comment>allahlong-ar</comment>
-      <string>\u00FDFA \u00FDFB</string>
-    </test>
-    <test label="U+FDFC">
-      <comment>rial</comment>
-      <string>\u00FDFC \u00FDFD</string>
+      <string>\u00FDFA \u00FDFB \u00FDFC \u00FDFD</string>
     </test>
     <test label="U+FE00">
       <comment>VS1</comment>
@@ -2324,7 +2324,23 @@
       <comment>objectReplacementCharacter</comment>
       <string>\u00FFFC \u00FFFD</string>
     </test>
-    <test background="#ffc8a0" label="U+10EFD">
+    <test background="#ffe0e0" label="U+10EC2">
+      <comment>dalTwodotsverticalbelow-ar</comment>
+      <string>\u010EC2 \u00200D\u010EC2 </string>
+    </test>
+    <test background="#ffe0e0" label="U+10EC3">
+      <comment>tahTwodotsverticalbelow-ar</comment>
+      <string>\u010EC3 \u010EC3\u00200D \u00200D\u010EC3\u00200D \u00200D\u010EC3 \u010EC3\u010EC3\u010EC3 </string>
+    </test>
+    <test background="#ffe0e0" label="U+10EC4">
+      <comment>kafTwodotsverticalbelow-ar</comment>
+      <string>\u010EC4 \u010EC4\u00200D \u00200D\u010EC4\u00200D \u00200D\u010EC4 \u010EC4\u010EC4\u010EC4 </string>
+    </test>
+    <test background="#ffe0e0" label="U+10EFC">
+      <comment>alefoverlay-ar</comment>
+      <string>\u000628\u010EFC</string>
+    </test>
+    <test label="U+10EFD">
       <comment>saktabelow-ar</comment>
       <string>\u000628\u010EFD \u000628\u010EFE \u000628\u010EFF</string>
     </test>

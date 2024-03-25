@@ -11,10 +11,16 @@
   </head>
   <testgroup>
     <test label="b-l-m  RTL" rtl="True">
-      <string>\u0628\u0644\u0645 </string>
+      <string>\u0628\u0644\u0645</string>
     </test>
     <test label="b-l-m  LTR">
-      <string>\u0628\u0644\u0645 </string>
+      <string>\u0628\u0644\u0645</string>
+    </test>
+    <test label="Abc  RTL" rtl="True">
+      <string>Abc</string>
+    </test>
+    <test label="Abc  LTR">
+      <string>Abc</string>
     </test>
   </testgroup>
 </ftml>
