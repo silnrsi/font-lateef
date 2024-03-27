@@ -11,6 +11,7 @@
     <fontsrc label="ExBld">url(../results/Lateef-ExtraBold.ttf)</fontsrc>
     <styles>
       <style feats="'kern' 0" name="kern_0"/>
+      <style lang="ks" name="ks"/>
       <style lang="ku" name="ku"/>
       <style lang="ky" name="ky"/>
       <style lang="rhg" name="rhg"/>
@@ -127,6 +128,9 @@
     <test label="U+06F0" rtl="True" stylename="rhg">
       <string>\u000628 <em>\u0006F0\u0006F0\u0006F0</em>.<em>\u0006F0\u0006F1\u0006F0</em>.<em>\u0006F0\u0006F2\u0006F0</em>.<em>\u0006F0\u0006F3\u0006F0</em>.<em>\u0006F0\u0006F4\u0006F0</em>.<em>\u0006F0\u0006F5\u0006F0</em>.<em>\u0006F0\u0006F6\u0006F0</em>.<em>\u0006F0\u0006F7\u0006F0</em>.<em>\u0006F0\u0006F8\u0006F0</em>.<em>\u0006F0\u0006F9\u0006F0</em> \u000628</string>
     </test>
+    <test label="U+06F0" rtl="True" stylename="ks">
+      <string>\u000628 <em>\u0006F0\u0006F0\u0006F0</em>.<em>\u0006F0\u0006F1\u0006F0</em>.<em>\u0006F0\u0006F2\u0006F0</em>.<em>\u0006F0\u0006F3\u0006F0</em>.<em>\u0006F0\u0006F4\u0006F0</em>.<em>\u0006F0\u0006F5\u0006F0</em>.<em>\u0006F0\u0006F6\u0006F0</em>.<em>\u0006F0\u0006F7\u0006F0</em>.<em>\u0006F0\u0006F8\u0006F0</em>.<em>\u0006F0\u0006F9\u0006F0</em> \u000628</string>
+    </test>
     <test label="U+06F0" rtl="True" stylename="ky">
       <string>\u000628 <em>\u0006F0\u0006F0\u0006F0</em>.<em>\u0006F0\u0006F1\u0006F0</em>.<em>\u0006F0\u0006F2\u0006F0</em>.<em>\u0006F0\u0006F3\u0006F0</em>.<em>\u0006F0\u0006F4\u0006F0</em>.<em>\u0006F0\u0006F5\u0006F0</em>.<em>\u0006F0\u0006F6\u0006F0</em>.<em>\u0006F0\u0006F7\u0006F0</em>.<em>\u0006F0\u0006F8\u0006F0</em>.<em>\u0006F0\u0006F9\u0006F0</em> \u000628</string>
     </test>
@@ -151,6 +155,9 @@
       <string>\u000628 <em>\u0006F1\u0006F0\u0006F1</em>.<em>\u0006F1\u0006F1\u0006F1</em>.<em>\u0006F1\u0006F2\u0006F1</em>.<em>\u0006F1\u0006F3\u0006F1</em>.<em>\u0006F1\u0006F4\u0006F1</em>.<em>\u0006F1\u0006F5\u0006F1</em>.<em>\u0006F1\u0006F6\u0006F1</em>.<em>\u0006F1\u0006F7\u0006F1</em>.<em>\u0006F1\u0006F8\u0006F1</em>.<em>\u0006F1\u0006F9\u0006F1</em> \u000628</string>
     </test>
     <test label="U+06F1" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F1\u0006F0\u0006F1</em>.<em>\u0006F1\u0006F1\u0006F1</em>.<em>\u0006F1\u0006F2\u0006F1</em>.<em>\u0006F1\u0006F3\u0006F1</em>.<em>\u0006F1\u0006F4\u0006F1</em>.<em>\u0006F1\u0006F5\u0006F1</em>.<em>\u0006F1\u0006F6\u0006F1</em>.<em>\u0006F1\u0006F7\u0006F1</em>.<em>\u0006F1\u0006F8\u0006F1</em>.<em>\u0006F1\u0006F9\u0006F1</em> \u000628</string>
+    </test>
+    <test label="U+06F1" rtl="True" stylename="ks">
       <string>\u000628 <em>\u0006F1\u0006F0\u0006F1</em>.<em>\u0006F1\u0006F1\u0006F1</em>.<em>\u0006F1\u0006F2\u0006F1</em>.<em>\u0006F1\u0006F3\u0006F1</em>.<em>\u0006F1\u0006F4\u0006F1</em>.<em>\u0006F1\u0006F5\u0006F1</em>.<em>\u0006F1\u0006F6\u0006F1</em>.<em>\u0006F1\u0006F7\u0006F1</em>.<em>\u0006F1\u0006F8\u0006F1</em>.<em>\u0006F1\u0006F9\u0006F1</em> \u000628</string>
     </test>
     <test label="U+06F1" rtl="True" stylename="ky">
@@ -179,6 +186,9 @@
     <test label="U+06F2" rtl="True" stylename="rhg">
       <string>\u000628 <em>\u0006F2\u0006F0\u0006F2</em>.<em>\u0006F2\u0006F1\u0006F2</em>.<em>\u0006F2\u0006F2\u0006F2</em>.<em>\u0006F2\u0006F3\u0006F2</em>.<em>\u0006F2\u0006F4\u0006F2</em>.<em>\u0006F2\u0006F5\u0006F2</em>.<em>\u0006F2\u0006F6\u0006F2</em>.<em>\u0006F2\u0006F7\u0006F2</em>.<em>\u0006F2\u0006F8\u0006F2</em>.<em>\u0006F2\u0006F9\u0006F2</em> \u000628</string>
     </test>
+    <test label="U+06F2" rtl="True" stylename="ks">
+      <string>\u000628 <em>\u0006F2\u0006F0\u0006F2</em>.<em>\u0006F2\u0006F1\u0006F2</em>.<em>\u0006F2\u0006F2\u0006F2</em>.<em>\u0006F2\u0006F3\u0006F2</em>.<em>\u0006F2\u0006F4\u0006F2</em>.<em>\u0006F2\u0006F5\u0006F2</em>.<em>\u0006F2\u0006F6\u0006F2</em>.<em>\u0006F2\u0006F7\u0006F2</em>.<em>\u0006F2\u0006F8\u0006F2</em>.<em>\u0006F2\u0006F9\u0006F2</em> \u000628</string>
+    </test>
     <test label="U+06F2" rtl="True" stylename="ky">
       <string>\u000628 <em>\u0006F2\u0006F0\u0006F2</em>.<em>\u0006F2\u0006F1\u0006F2</em>.<em>\u0006F2\u0006F2\u0006F2</em>.<em>\u0006F2\u0006F3\u0006F2</em>.<em>\u0006F2\u0006F4\u0006F2</em>.<em>\u0006F2\u0006F5\u0006F2</em>.<em>\u0006F2\u0006F6\u0006F2</em>.<em>\u0006F2\u0006F7\u0006F2</em>.<em>\u0006F2\u0006F8\u0006F2</em>.<em>\u0006F2\u0006F9\u0006F2</em> \u000628</string>
     </test>
@@ -203,6 +213,9 @@
       <string>\u000628 <em>\u0006F3\u0006F0\u0006F3</em>.<em>\u0006F3\u0006F1\u0006F3</em>.<em>\u0006F3\u0006F2\u0006F3</em>.<em>\u0006F3\u0006F3\u0006F3</em>.<em>\u0006F3\u0006F4\u0006F3</em>.<em>\u0006F3\u0006F5\u0006F3</em>.<em>\u0006F3\u0006F6\u0006F3</em>.<em>\u0006F3\u0006F7\u0006F3</em>.<em>\u0006F3\u0006F8\u0006F3</em>.<em>\u0006F3\u0006F9\u0006F3</em> \u000628</string>
     </test>
     <test label="U+06F3" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F3\u0006F0\u0006F3</em>.<em>\u0006F3\u0006F1\u0006F3</em>.<em>\u0006F3\u0006F2\u0006F3</em>.<em>\u0006F3\u0006F3\u0006F3</em>.<em>\u0006F3\u0006F4\u0006F3</em>.<em>\u0006F3\u0006F5\u0006F3</em>.<em>\u0006F3\u0006F6\u0006F3</em>.<em>\u0006F3\u0006F7\u0006F3</em>.<em>\u0006F3\u0006F8\u0006F3</em>.<em>\u0006F3\u0006F9\u0006F3</em> \u000628</string>
+    </test>
+    <test label="U+06F3" rtl="True" stylename="ks">
       <string>\u000628 <em>\u0006F3\u0006F0\u0006F3</em>.<em>\u0006F3\u0006F1\u0006F3</em>.<em>\u0006F3\u0006F2\u0006F3</em>.<em>\u0006F3\u0006F3\u0006F3</em>.<em>\u0006F3\u0006F4\u0006F3</em>.<em>\u0006F3\u0006F5\u0006F3</em>.<em>\u0006F3\u0006F6\u0006F3</em>.<em>\u0006F3\u0006F7\u0006F3</em>.<em>\u0006F3\u0006F8\u0006F3</em>.<em>\u0006F3\u0006F9\u0006F3</em> \u000628</string>
     </test>
     <test label="U+06F3" rtl="True" stylename="ky">
@@ -231,6 +244,9 @@
     <test label="U+06F4" rtl="True" stylename="rhg">
       <string>\u000628 <em>\u0006F4\u0006F0\u0006F4</em>.<em>\u0006F4\u0006F1\u0006F4</em>.<em>\u0006F4\u0006F2\u0006F4</em>.<em>\u0006F4\u0006F3\u0006F4</em>.<em>\u0006F4\u0006F4\u0006F4</em>.<em>\u0006F4\u0006F5\u0006F4</em>.<em>\u0006F4\u0006F6\u0006F4</em>.<em>\u0006F4\u0006F7\u0006F4</em>.<em>\u0006F4\u0006F8\u0006F4</em>.<em>\u0006F4\u0006F9\u0006F4</em> \u000628</string>
     </test>
+    <test label="U+06F4" rtl="True" stylename="ks">
+      <string>\u000628 <em>\u0006F4\u0006F0\u0006F4</em>.<em>\u0006F4\u0006F1\u0006F4</em>.<em>\u0006F4\u0006F2\u0006F4</em>.<em>\u0006F4\u0006F3\u0006F4</em>.<em>\u0006F4\u0006F4\u0006F4</em>.<em>\u0006F4\u0006F5\u0006F4</em>.<em>\u0006F4\u0006F6\u0006F4</em>.<em>\u0006F4\u0006F7\u0006F4</em>.<em>\u0006F4\u0006F8\u0006F4</em>.<em>\u0006F4\u0006F9\u0006F4</em> \u000628</string>
+    </test>
     <test label="U+06F4" rtl="True" stylename="ky">
       <string>\u000628 <em>\u0006F4\u0006F0\u0006F4</em>.<em>\u0006F4\u0006F1\u0006F4</em>.<em>\u0006F4\u0006F2\u0006F4</em>.<em>\u0006F4\u0006F3\u0006F4</em>.<em>\u0006F4\u0006F4\u0006F4</em>.<em>\u0006F4\u0006F5\u0006F4</em>.<em>\u0006F4\u0006F6\u0006F4</em>.<em>\u0006F4\u0006F7\u0006F4</em>.<em>\u0006F4\u0006F8\u0006F4</em>.<em>\u0006F4\u0006F9\u0006F4</em> \u000628</string>
     </test>
@@ -255,6 +271,9 @@
       <string>\u000628 <em>\u0006F5\u0006F0\u0006F5</em>.<em>\u0006F5\u0006F1\u0006F5</em>.<em>\u0006F5\u0006F2\u0006F5</em>.<em>\u0006F5\u0006F3\u0006F5</em>.<em>\u0006F5\u0006F4\u0006F5</em>.<em>\u0006F5\u0006F5\u0006F5</em>.<em>\u0006F5\u0006F6\u0006F5</em>.<em>\u0006F5\u0006F7\u0006F5</em>.<em>\u0006F5\u0006F8\u0006F5</em>.<em>\u0006F5\u0006F9\u0006F5</em> \u000628</string>
     </test>
     <test label="U+06F5" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F5\u0006F0\u0006F5</em>.<em>\u0006F5\u0006F1\u0006F5</em>.<em>\u0006F5\u0006F2\u0006F5</em>.<em>\u0006F5\u0006F3\u0006F5</em>.<em>\u0006F5\u0006F4\u0006F5</em>.<em>\u0006F5\u0006F5\u0006F5</em>.<em>\u0006F5\u0006F6\u0006F5</em>.<em>\u0006F5\u0006F7\u0006F5</em>.<em>\u0006F5\u0006F8\u0006F5</em>.<em>\u0006F5\u0006F9\u0006F5</em> \u000628</string>
+    </test>
+    <test label="U+06F5" rtl="True" stylename="ks">
       <string>\u000628 <em>\u0006F5\u0006F0\u0006F5</em>.<em>\u0006F5\u0006F1\u0006F5</em>.<em>\u0006F5\u0006F2\u0006F5</em>.<em>\u0006F5\u0006F3\u0006F5</em>.<em>\u0006F5\u0006F4\u0006F5</em>.<em>\u0006F5\u0006F5\u0006F5</em>.<em>\u0006F5\u0006F6\u0006F5</em>.<em>\u0006F5\u0006F7\u0006F5</em>.<em>\u0006F5\u0006F8\u0006F5</em>.<em>\u0006F5\u0006F9\u0006F5</em> \u000628</string>
     </test>
     <test label="U+06F5" rtl="True" stylename="ky">
@@ -283,6 +302,9 @@
     <test label="U+06F6" rtl="True" stylename="rhg">
       <string>\u000628 <em>\u0006F6\u0006F0\u0006F6</em>.<em>\u0006F6\u0006F1\u0006F6</em>.<em>\u0006F6\u0006F2\u0006F6</em>.<em>\u0006F6\u0006F3\u0006F6</em>.<em>\u0006F6\u0006F4\u0006F6</em>.<em>\u0006F6\u0006F5\u0006F6</em>.<em>\u0006F6\u0006F6\u0006F6</em>.<em>\u0006F6\u0006F7\u0006F6</em>.<em>\u0006F6\u0006F8\u0006F6</em>.<em>\u0006F6\u0006F9\u0006F6</em> \u000628</string>
     </test>
+    <test label="U+06F6" rtl="True" stylename="ks">
+      <string>\u000628 <em>\u0006F6\u0006F0\u0006F6</em>.<em>\u0006F6\u0006F1\u0006F6</em>.<em>\u0006F6\u0006F2\u0006F6</em>.<em>\u0006F6\u0006F3\u0006F6</em>.<em>\u0006F6\u0006F4\u0006F6</em>.<em>\u0006F6\u0006F5\u0006F6</em>.<em>\u0006F6\u0006F6\u0006F6</em>.<em>\u0006F6\u0006F7\u0006F6</em>.<em>\u0006F6\u0006F8\u0006F6</em>.<em>\u0006F6\u0006F9\u0006F6</em> \u000628</string>
+    </test>
     <test label="U+06F6" rtl="True" stylename="ky">
       <string>\u000628 <em>\u0006F6\u0006F0\u0006F6</em>.<em>\u0006F6\u0006F1\u0006F6</em>.<em>\u0006F6\u0006F2\u0006F6</em>.<em>\u0006F6\u0006F3\u0006F6</em>.<em>\u0006F6\u0006F4\u0006F6</em>.<em>\u0006F6\u0006F5\u0006F6</em>.<em>\u0006F6\u0006F6\u0006F6</em>.<em>\u0006F6\u0006F7\u0006F6</em>.<em>\u0006F6\u0006F8\u0006F6</em>.<em>\u0006F6\u0006F9\u0006F6</em> \u000628</string>
     </test>
@@ -307,6 +329,9 @@
       <string>\u000628 <em>\u0006F7\u0006F0\u0006F7</em>.<em>\u0006F7\u0006F1\u0006F7</em>.<em>\u0006F7\u0006F2\u0006F7</em>.<em>\u0006F7\u0006F3\u0006F7</em>.<em>\u0006F7\u0006F4\u0006F7</em>.<em>\u0006F7\u0006F5\u0006F7</em>.<em>\u0006F7\u0006F6\u0006F7</em>.<em>\u0006F7\u0006F7\u0006F7</em>.<em>\u0006F7\u0006F8\u0006F7</em>.<em>\u0006F7\u0006F9\u0006F7</em> \u000628</string>
     </test>
     <test label="U+06F7" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F7\u0006F0\u0006F7</em>.<em>\u0006F7\u0006F1\u0006F7</em>.<em>\u0006F7\u0006F2\u0006F7</em>.<em>\u0006F7\u0006F3\u0006F7</em>.<em>\u0006F7\u0006F4\u0006F7</em>.<em>\u0006F7\u0006F5\u0006F7</em>.<em>\u0006F7\u0006F6\u0006F7</em>.<em>\u0006F7\u0006F7\u0006F7</em>.<em>\u0006F7\u0006F8\u0006F7</em>.<em>\u0006F7\u0006F9\u0006F7</em> \u000628</string>
+    </test>
+    <test label="U+06F7" rtl="True" stylename="ks">
       <string>\u000628 <em>\u0006F7\u0006F0\u0006F7</em>.<em>\u0006F7\u0006F1\u0006F7</em>.<em>\u0006F7\u0006F2\u0006F7</em>.<em>\u0006F7\u0006F3\u0006F7</em>.<em>\u0006F7\u0006F4\u0006F7</em>.<em>\u0006F7\u0006F5\u0006F7</em>.<em>\u0006F7\u0006F6\u0006F7</em>.<em>\u0006F7\u0006F7\u0006F7</em>.<em>\u0006F7\u0006F8\u0006F7</em>.<em>\u0006F7\u0006F9\u0006F7</em> \u000628</string>
     </test>
     <test label="U+06F7" rtl="True" stylename="ky">
@@ -335,6 +360,9 @@
     <test label="U+06F8" rtl="True" stylename="rhg">
       <string>\u000628 <em>\u0006F8\u0006F0\u0006F8</em>.<em>\u0006F8\u0006F1\u0006F8</em>.<em>\u0006F8\u0006F2\u0006F8</em>.<em>\u0006F8\u0006F3\u0006F8</em>.<em>\u0006F8\u0006F4\u0006F8</em>.<em>\u0006F8\u0006F5\u0006F8</em>.<em>\u0006F8\u0006F6\u0006F8</em>.<em>\u0006F8\u0006F7\u0006F8</em>.<em>\u0006F8\u0006F8\u0006F8</em>.<em>\u0006F8\u0006F9\u0006F8</em> \u000628</string>
     </test>
+    <test label="U+06F8" rtl="True" stylename="ks">
+      <string>\u000628 <em>\u0006F8\u0006F0\u0006F8</em>.<em>\u0006F8\u0006F1\u0006F8</em>.<em>\u0006F8\u0006F2\u0006F8</em>.<em>\u0006F8\u0006F3\u0006F8</em>.<em>\u0006F8\u0006F4\u0006F8</em>.<em>\u0006F8\u0006F5\u0006F8</em>.<em>\u0006F8\u0006F6\u0006F8</em>.<em>\u0006F8\u0006F7\u0006F8</em>.<em>\u0006F8\u0006F8\u0006F8</em>.<em>\u0006F8\u0006F9\u0006F8</em> \u000628</string>
+    </test>
     <test label="U+06F8" rtl="True" stylename="ky">
       <string>\u000628 <em>\u0006F8\u0006F0\u0006F8</em>.<em>\u0006F8\u0006F1\u0006F8</em>.<em>\u0006F8\u0006F2\u0006F8</em>.<em>\u0006F8\u0006F3\u0006F8</em>.<em>\u0006F8\u0006F4\u0006F8</em>.<em>\u0006F8\u0006F5\u0006F8</em>.<em>\u0006F8\u0006F6\u0006F8</em>.<em>\u0006F8\u0006F7\u0006F8</em>.<em>\u0006F8\u0006F8\u0006F8</em>.<em>\u0006F8\u0006F9\u0006F8</em> \u000628</string>
     </test>
@@ -359,6 +387,9 @@
       <string>\u000628 <em>\u0006F9\u0006F0\u0006F9</em>.<em>\u0006F9\u0006F1\u0006F9</em>.<em>\u0006F9\u0006F2\u0006F9</em>.<em>\u0006F9\u0006F3\u0006F9</em>.<em>\u0006F9\u0006F4\u0006F9</em>.<em>\u0006F9\u0006F5\u0006F9</em>.<em>\u0006F9\u0006F6\u0006F9</em>.<em>\u0006F9\u0006F7\u0006F9</em>.<em>\u0006F9\u0006F8\u0006F9</em>.<em>\u0006F9\u0006F9\u0006F9</em> \u000628</string>
     </test>
     <test label="U+06F9" rtl="True" stylename="rhg">
+      <string>\u000628 <em>\u0006F9\u0006F0\u0006F9</em>.<em>\u0006F9\u0006F1\u0006F9</em>.<em>\u0006F9\u0006F2\u0006F9</em>.<em>\u0006F9\u0006F3\u0006F9</em>.<em>\u0006F9\u0006F4\u0006F9</em>.<em>\u0006F9\u0006F5\u0006F9</em>.<em>\u0006F9\u0006F6\u0006F9</em>.<em>\u0006F9\u0006F7\u0006F9</em>.<em>\u0006F9\u0006F8\u0006F9</em>.<em>\u0006F9\u0006F9\u0006F9</em> \u000628</string>
+    </test>
+    <test label="U+06F9" rtl="True" stylename="ks">
       <string>\u000628 <em>\u0006F9\u0006F0\u0006F9</em>.<em>\u0006F9\u0006F1\u0006F9</em>.<em>\u0006F9\u0006F2\u0006F9</em>.<em>\u0006F9\u0006F3\u0006F9</em>.<em>\u0006F9\u0006F4\u0006F9</em>.<em>\u0006F9\u0006F5\u0006F9</em>.<em>\u0006F9\u0006F6\u0006F9</em>.<em>\u0006F9\u0006F7\u0006F9</em>.<em>\u0006F9\u0006F8\u0006F9</em>.<em>\u0006F9\u0006F9\u0006F9</em> \u000628</string>
     </test>
     <test label="U+06F9" rtl="True" stylename="ky">
