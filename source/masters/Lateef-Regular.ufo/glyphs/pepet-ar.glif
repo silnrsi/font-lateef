@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pepet-ar" format="2">
+  <unicode hex="0897"/>
+  <anchor x="0" y="1094" name="_diaA"/>
+  <anchor x="0" y="1356" name="diaA"/>
+  <outline>
+    <component base="_madda" xOffset="22" yOffset="1181"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>
