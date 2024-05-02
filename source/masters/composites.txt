@@ -968,3 +968,16 @@ qafDotbelowNodotsabove-ar.init = fehDotless-ar.init + _dot1@below
 # alefLefthamzaattached-ar = alef-ar + highhamza-ar@attLeftMid[with=_above] | 0882
 # alefLefthamzaattached-ar.fina = alef-ar.fina + highhamza-ar@attLeftMid[with=_above]
 # --- END --- ABS-2845
+
+# --- START --- ABS-3067
+kafTwodotsverticalbelow-ar = kaf-ar + _dot2v@below | 10EC4
+kafTwodotsverticalbelow-ar.fina = kaf-ar.fina + _dot2v@below
+kafTwodotsverticalbelow-ar.medi = kaf-ar.medi + _dot2v@below
+kafTwodotsverticalbelow-ar.init = kaf-ar.init + _dot2v@below
+tahTwodotsverticalbelow-ar = tah-ar + _dot2v@below | 10EC3
+tahTwodotsverticalbelow-ar.fina = tah-ar.fina + _dot2v@below
+tahTwodotsverticalbelow-ar.medi = tah-ar.medi + _dot2v@below
+tahTwodotsverticalbelow-ar.init = tah-ar.init + _dot2v@below
+dalTwodotsverticalbelow-ar = dal-ar + _dot2v@below | 10EC2
+dalTwodotsverticalbelow-ar.fina = dal-ar.fina + _dot2v@below
+# --- END --- ABS-3067

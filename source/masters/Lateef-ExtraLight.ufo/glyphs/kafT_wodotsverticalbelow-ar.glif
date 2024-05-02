@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kafTwodotsverticalbelow-ar" format="2">
+  <advance width="960"/>
+  <unicode hex="10EC4"/>
+  <anchor x="242" y="773" name="alefUnused"/>
+  <anchor x="521" y="1174" name="diaA"/>
+  <anchor x="300" y="-202" name="diaB"/>
+  <outline>
+    <component base="_kaf_s" xOffset="294" yOffset="413"/>
+    <component base="_kaf_left"/>
+    <component base="lam-ar.init" xOffset="626"/>
+    <component base="_baseline_70" xOffset="517"/>
+    <component base="_dot1" xOffset="729" yOffset="-429"/>
+    <component base="_dot1" xOffset="729" yOffset="-255"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>
