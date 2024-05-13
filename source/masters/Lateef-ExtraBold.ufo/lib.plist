@@ -1779,7 +1779,17 @@
     <string>bismillah-ar</string>
     <string>salaamuhuAlaynaa-ar</string>
     <string>alayhiAsSalaam-ar</string>
+    <string>alayhimAsSalaam-ar</string>
+    <string>alayhaaAsSalaam-ar</string>
+    <string>rahimahuAllaah-ar</string>
+    <string>radiAllaahuAnh-ar</string>
     <string>radiAllaahuAnhaa-ar</string>
+    <string>radiAllaahuAnhum-ar</string>
+    <string>radiAllaahuAnhumaa-ar</string>
+    <string>radiAllaahuAnhunna-ar</string>
+    <string>alayhimaaAsSalaam-ar</string>
+    <string>subhaanahuWaTaaalaa-ar</string>
+    <string>azzaWaJall-ar</string>
     <string>dammaturnedbelow-ar</string>
     <string>fathaCurly-ar</string>
     <string>dammaCurly-ar</string>
@@ -3662,7 +3672,17 @@
     <string>bismillah-ar</string>
     <string>salaamuhuAlaynaa-ar</string>
     <string>alayhiAsSalaam-ar</string>
+    <string>alayhimAsSalaam-ar</string>
+    <string>alayhaaAsSalaam-ar</string>
+    <string>rahimahuAllaah-ar</string>
+    <string>radiAllaahuAnh-ar</string>
     <string>radiAllaahuAnhaa-ar</string>
+    <string>radiAllaahuAnhum-ar</string>
+    <string>radiAllaahuAnhumaa-ar</string>
+    <string>radiAllaahuAnhunna-ar</string>
+    <string>alayhimaaAsSalaam-ar</string>
+    <string>subhaanahuWaTaaalaa-ar</string>
+    <string>azzaWaJall-ar</string>
     <string>dammaturnedbelow-ar</string>
     <string>fathaCurly-ar</string>
     <string>dammaCurly-ar</string>
@@ -4039,10 +4059,16 @@
     <string>uni075F.medi</string>
     <key>ainabove-ar</key>
     <string>uni08D6</string>
+    <key>alayhaaAsSalaam-ar</key>
+    <string>uniFD4D</string>
     <key>alayheAssallamcomb-ar</key>
     <string>uni0611</string>
     <key>alayhiAsSalaam-ar</key>
     <string>uniFD47</string>
+    <key>alayhimAsSalaam-ar</key>
+    <string>uniFD48</string>
+    <key>alayhimaaAsSalaam-ar</key>
+    <string>uniFD49</string>
     <key>alef-ar</key>
     <string>uni0627</string>
     <key>alef-ar.allah</key>
@@ -4201,6 +4227,8 @@
     <string>uni066D</string>
     <key>aththalathaabove-ar</key>
     <string>uni08DA</string>
+    <key>azzaWaJall-ar</key>
+    <string>uniFDFF</string>
     <key>beeh-ar</key>
     <string>uni067B</string>
     <key>beeh-ar.fina</key>
@@ -5863,8 +5891,18 @@
     <string>uni08DE</string>
     <key>question-ar</key>
     <string>uni061F</string>
+    <key>radiAllaahuAnh-ar</key>
+    <string>uniFD41</string>
     <key>radiAllaahuAnhaa-ar</key>
     <string>uniFD42</string>
+    <key>radiAllaahuAnhum-ar</key>
+    <string>uniFD43</string>
+    <key>radiAllaahuAnhumaa-ar</key>
+    <string>uniFD44</string>
+    <key>radiAllaahuAnhunna-ar</key>
+    <string>uniFD45</string>
+    <key>rahimahuAllaah-ar</key>
+    <string>uniFD40</string>
     <key>ray-ar</key>
     <string>uni0608</string>
     <key>reh-ar</key>
@@ -6205,6 +6243,8 @@
     <string>uni2006</string>
     <key>softhyphen</key>
     <string>uni00AD</string>
+    <key>subhaanahuWaTaaalaa-ar</key>
+    <string>uniFDFE</string>
     <key>sukun-ar</key>
     <string>uni0652</string>
     <key>sukun-ar.downOpen</key>
