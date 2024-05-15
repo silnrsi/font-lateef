@@ -158,9 +158,7 @@
     <string>
 /allahlong-ar/jallajalalouhou-ar/bismillah-ar/salaamuhuAlaynaa-ar/alayhiAsSalaam-ar/radiAllaahuAnhaa-ar 
 /lam-ar/space/hah-ar.init/space/lam_alef-ar.fina/lam-ar.fina</string>
-    <string>/space/space/rahimahuAllaah-ar</string>
-    <string>/alayhimAsSalaam-ar/alayhaaAsSalaam-ar/rahimahuAllaah-ar/radiAllaahuAnh-ar/radiAllaahuAnhaa-ar/radiAllaahuAnhum-ar/radiAllaahuAnhumaa-ar/radiAllaahuAnhunna-ar/alayhimaaAsSalaam-ar/subhaanahuWaTaaalaa-ar/azzaWaJall-ar</string>
-    <string>/radiAllaahuAnh-ar</string>
+    <string>/radiAllaahuAnh-ar/space/radiAllaahuAnhum-ar/ain-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>
