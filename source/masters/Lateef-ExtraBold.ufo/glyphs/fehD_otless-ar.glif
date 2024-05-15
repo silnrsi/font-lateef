@@ -36,10 +36,4 @@
       <point x="1170" y="512" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CP</string>
-    </dict>
-  </lib>
 </glyph>

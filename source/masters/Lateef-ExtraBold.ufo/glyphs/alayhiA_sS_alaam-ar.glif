@@ -131,10 +131,4 @@
       <point x="205" y="17"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCCCCCCCCCCPPPP</string>
-    </dict>
-  </lib>
 </glyph>

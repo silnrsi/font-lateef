@@ -45,10 +45,4 @@
       <point x="-35" y="-233"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CP</string>
-    </dict>
-  </lib>
 </glyph>

@@ -8,6 +8,7 @@
   <outline>
     <component base="shadda_alef-ar" xOffset="672" yOffset="-220"/>
     <component base="alef-ar" xOffset="1187"/>
+    <component base="fatha-ar" xOffset="1383" yOffset="-1322"/>
     <contour>
       <point x="561" y="0" type="curve" smooth="yes"/>
       <point x="668" y="0"/>
@@ -73,8 +74,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCPP</string>
       <key>com.schriftgestaltung.annotations</key>
       <array>
         <dict>

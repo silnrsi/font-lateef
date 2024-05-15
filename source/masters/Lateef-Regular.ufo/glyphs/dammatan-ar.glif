@@ -19,10 +19,4 @@
       <point x="-102" y="1111"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CP</string>
-    </dict>
-  </lib>
 </glyph>
