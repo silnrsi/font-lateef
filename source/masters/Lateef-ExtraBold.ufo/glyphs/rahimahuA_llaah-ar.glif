@@ -142,6 +142,8 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCCCCPPPPPP</string>
       <key>public.markColor</key>
       <string>0.97,1,0,1</string>
     </dict>

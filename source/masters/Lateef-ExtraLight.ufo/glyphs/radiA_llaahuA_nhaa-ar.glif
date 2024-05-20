@@ -77,7 +77,7 @@
       <point x="669" y="561" type="curve" smooth="yes"/>
       <point x="592" y="561"/>
       <point x="574" y="596"/>
-      <point x="574" y="653" type="curve" smooth="yes"/>
+      <point x="574" y="653" type="curve"/>
       <point x="574" y="665"/>
       <point x="575" y="679"/>
       <point x="576" y="693" type="curve"/>
@@ -197,4 +197,10 @@
       <point x="971" y="295" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCCCCCCCCCPPPPP</string>
+    </dict>
+  </lib>
 </glyph>
