@@ -2065,8 +2065,8 @@
     <string>_subtendingA.2</string>
     <string>_subtendingA.3</string>
     <string>_subtendingA.4</string>
-    <string>jdotless</string>
-    <string>strokeshortcomb.case</string>
+    <string>_jdotless</string>
+    <string>_strokeshortcomb.case</string>
   </array>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
@@ -3958,8 +3958,8 @@
     <string>_subtendingA.2</string>
     <string>_subtendingA.3</string>
     <string>_subtendingA.4</string>
-    <string>jdotless</string>
-    <string>strokeshortcomb.case</string>
+    <string>_jdotless</string>
+    <string>_strokeshortcomb.case</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
@@ -4001,6 +4001,10 @@
     <string>uniFE07</string>
     <key>VS9</key>
     <string>uniFE08</string>
+    <key>_jdotless</key>
+    <string>jdotless</string>
+    <key>_strokeshortcomb.case</key>
+    <string>strokeshortcomb.case</string>
     <key>activateformshaping-ar</key>
     <string>uni206D</string>
     <key>ae-ar</key>

@@ -7,6 +7,6 @@ Eth
 </note>
   <outline>
     <component base="D"/>
-    <component base="strokeshortcomb.case" xOffset="-101" yOffset="-179"/>
+    <component base="_strokeshortcomb.case" xOffset="-101" yOffset="-179"/>
   </outline>
 </glyph>

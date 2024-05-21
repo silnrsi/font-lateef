@@ -352,6 +352,8 @@
   <string>_hungarumlaut.glif</string>
   <key>_invSmallV</key>
   <string>_invS_mallV_.glif</string>
+  <key>_jdotless</key>
+  <string>_jdotless.glif</string>
   <key>_kaf_left</key>
   <string>_kaf_left.glif</string>
   <key>_kaf_s</key>
@@ -436,6 +438,8 @@
   <string>_smallv.cal.glif</string>
   <key>_strokeHead</key>
   <string>_strokeH_ead.glif</string>
+  <key>_strokeshortcomb.case</key>
+  <string>_strokeshortcomb.case.glif</string>
   <key>_subtendingA.1</key>
   <string>_subtendingA_.1.glif</string>
   <key>_subtendingA.2</key>
@@ -1664,8 +1668,6 @@
   <string>j.glif</string>
   <key>jallajalalouhou-ar</key>
   <string>jallajalalouhou-ar.glif</string>
-  <key>jdotless</key>
-  <string>jdotless.glif</string>
   <key>jeem-ar</key>
   <string>jeem-ar.glif</string>
   <key>jeem-ar.fina</key>
@@ -3112,8 +3114,6 @@
   <string>space.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
-  <key>strokeshortcomb.case</key>
-  <string>strokeshortcomb.case.glif</string>
   <key>subhaanahuWaTaaalaa-ar</key>
   <string>subhaanahuW_aT_aaalaa-ar.glif</string>
   <key>sukun-ar</key>
