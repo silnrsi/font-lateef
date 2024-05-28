@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefoverlay-ar" format="2">
   <unicode hex="10EFC"/>
-  <anchor x="319" y="206" name="_through"/>
+  <anchor x="289" y="541" name="_through"/>
   <outline>
-    <component base="_gafBar"/>
+    <component base="alef-ar" xScale="0.49793" xyScale="-0.41781" yxScale="0.41781" yScale="0.49793" xOffset="-20" yOffset="340"/>
   </outline>
   <lib>
     <dict>
