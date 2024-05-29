@@ -2190,6 +2190,8 @@
   <string>macron.glif</string>
   <key>madda-ar</key>
   <string>madda-ar.glif</string>
+  <key>madda-ar.small_UNUSED</key>
+  <string>madda-ar.small_U_N_U_S_E_D_.glif</string>
   <key>maddadoubled-ar</key>
   <string>maddadoubled-ar.glif</string>
   <key>maddalong-ar</key>
