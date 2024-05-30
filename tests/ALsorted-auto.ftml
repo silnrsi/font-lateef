@@ -11,6 +11,7 @@
     <fontsrc label="ExBld">url(../results/Lateef-ExtraBold.ttf)</fontsrc>
     <styles>
       <style feats="'cv44' 1" name="cv44_1"/>
+      <style feats="'cv44' 2" name="cv44_2"/>
       <style feats="'cv48' 1" name="cv48_1"/>
       <style feats="'cv48' 2" name="cv48_2"/>
       <style feats="'cv48' 3" name="cv48_3"/>
@@ -19,6 +20,7 @@
       <style feats="'cv49' 3" name="cv49_3"/>
       <style feats="'cv51' 1" name="cv51_1"/>
       <style feats="'cv54' 1" name="cv54_1"/>
+      <style feats="'cv54' 2" name="cv54_2"/>
       <style feats="'cv84' 1" name="cv84_1"/>
       <style lang="ks" name="ks"/>
       <style lang="ku" name="ku"/>
@@ -306,6 +308,10 @@
       <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
     </test>
     <test label="U+0626" stylename="cv54_1">
+      <comment>yehHamzaabove-ar</comment>
+      <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
+    </test>
+    <test label="U+0626" stylename="cv54_2">
       <comment>yehHamzaabove-ar</comment>
       <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
     </test>
@@ -641,7 +647,7 @@
       <comment>fehAfrican-ar</comment>
       <string>\u0008BB \u0008BB\u00200D \u00200D\u0008BB\u00200D \u00200D\u0008BB \u0008BB\u0008BB\u0008BB </string>
     </test>
-    <test background="#ffe0e0" label="U+10EC2">
+    <test background="#ffc8a0" label="U+10EC2">
       <comment>dalTwodotsverticalbelow-ar</comment>
       <string>\u010EC2 \u00200D\u010EC2 </string>
     </test>
@@ -737,7 +743,7 @@
       <comment>kehehElongatedhamzaabove-ar</comment>
       <string>\u0008C8 \u0008C8\u00200D \u00200D\u0008C8\u00200D \u00200D\u0008C8 \u0008C8\u0008C8\u0008C8 </string>
     </test>
-    <test background="#ffe0e0" label="U+10EC4">
+    <test background="#ffc8a0" label="U+10EC4">
       <comment>kafTwodotsverticalbelow-ar</comment>
       <string>\u010EC4 \u010EC4\u00200D \u00200D\u010EC4\u00200D \u00200D\u010EC4 \u010EC4\u010EC4\u010EC4 </string>
     </test>
@@ -989,6 +995,10 @@
       <comment>meem-ar</comment>
       <string>\u000645 \u000645\u00200D \u00200D\u000645\u00200D \u00200D\u000645 \u000645\u000645\u000645 </string>
     </test>
+    <test label="U+0645" stylename="cv44_2">
+      <comment>meem-ar</comment>
+      <string>\u000645 \u000645\u00200D \u00200D\u000645\u00200D \u00200D\u000645 \u000645\u000645\u000645 </string>
+    </test>
     <test label="U+0645" stylename="sd">
       <comment>meem-ar</comment>
       <string>\u000645 \u000645\u00200D \u00200D\u000645\u00200D \u00200D\u000645 \u000645\u000645\u000645 </string>
@@ -1022,6 +1032,10 @@
       <string>\u000765 \u000765\u00200D \u00200D\u000765\u00200D \u00200D\u000765 \u000765\u000765\u000765 </string>
     </test>
     <test label="U+0765" stylename="cv44_1">
+      <comment>meemDotabove-ar</comment>
+      <string>\u000765 \u000765\u00200D \u00200D\u000765\u00200D \u00200D\u000765 \u000765\u000765\u000765 </string>
+    </test>
+    <test label="U+0765" stylename="cv44_2">
       <comment>meemDotabove-ar</comment>
       <string>\u000765 \u000765\u00200D \u00200D\u000765\u00200D \u00200D\u000765 \u000765\u000765\u000765 </string>
     </test>
@@ -1061,6 +1075,10 @@
       <comment>meemDotbelow-ar</comment>
       <string>\u000766 \u000766\u00200D \u00200D\u000766\u00200D \u00200D\u000766 \u000766\u000766\u000766 </string>
     </test>
+    <test label="U+0766" stylename="cv44_2">
+      <comment>meemDotbelow-ar</comment>
+      <string>\u000766 \u000766\u00200D \u00200D\u000766\u00200D \u00200D\u000766 \u000766\u000766\u000766 </string>
+    </test>
     <test label="U+0766" stylename="sd">
       <comment>meemDotbelow-ar</comment>
       <string>\u000766 \u000766\u00200D \u00200D\u000766\u00200D \u00200D\u000766 \u000766\u000766\u000766 </string>
@@ -1094,6 +1112,10 @@
       <string>\u0008A7 \u0008A7\u00200D \u00200D\u0008A7\u00200D \u00200D\u0008A7 \u0008A7\u0008A7\u0008A7 </string>
     </test>
     <test label="U+08A7" stylename="cv44_1">
+      <comment>meemThreedotsabove-ar</comment>
+      <string>\u0008A7 \u0008A7\u00200D \u00200D\u0008A7\u00200D \u00200D\u0008A7 \u0008A7\u0008A7\u0008A7 </string>
+    </test>
+    <test label="U+08A7" stylename="cv44_2">
       <comment>meemThreedotsabove-ar</comment>
       <string>\u0008A7 \u0008A7\u00200D \u00200D\u0008A7\u00200D \u00200D\u0008A7 \u0008A7\u0008A7\u0008A7 </string>
     </test>
@@ -1325,7 +1347,7 @@
       <comment>wawDotcenter-ar</comment>
       <string>\u0008AB \u00200D\u0008AB </string>
     </test>
-    <test background="#ffe0e0" label="U+10EC3">
+    <test background="#ffc8a0" label="U+10EC3">
       <comment>tahTwodotsverticalbelow-ar</comment>
       <string>\u010EC3 \u010EC3\u00200D \u00200D\u010EC3\u00200D \u00200D\u010EC3 \u010EC3\u010EC3\u010EC3 </string>
     </test>
