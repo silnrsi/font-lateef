@@ -4,12 +4,12 @@
   <unicode hex="FD42"/>
   <outline>
     <component base="_damma.cal" xOffset="361" yOffset="1175"/>
-    <component base="_fatha-kasra.cal" xOffset="706" yOffset="616"/>
+    <component base="_fatha-kasra.cal" xOffset="736" yOffset="586"/>
     <component base="_fatha-kasra.cal" xOffset="222" yOffset="873"/>
     <component base="_fatha-kasra.cal" xOffset="1011" yOffset="-365"/>
     <component base="_allah.cal" xOffset="491" yOffset="884"/>
     <component base="_dot2h.cal" xOffset="657" yOffset="-458"/>
-    <component base="_dot1.cal" xOffset="933" yOffset="575"/>
+    <component base="_dot1.cal" xOffset="933" yOffset="565"/>
     <component base="_dot1.cal" xOffset="1727" yOffset="525"/>
     <component base="reh-ar" xScale="0.65" yScale="0.65" xOffset="1219" yOffset="-71"/>
     <component base="_tah_bowl" xScale="0.65" yScale="0.65" xOffset="1463" yOffset="259"/>

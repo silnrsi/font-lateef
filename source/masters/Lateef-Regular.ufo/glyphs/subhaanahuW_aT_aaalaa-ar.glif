@@ -6,19 +6,19 @@
     <component base="_comma.cal" xOffset="334" yOffset="-396"/>
     <component base="_damma.cal" xOffset="23" yOffset="316"/>
     <component base="alefabove-ar" xScale="0.6" yScale="0.5" xOffset="822" yOffset="-429"/>
-    <component base="_dot1" xScale="0.6" yScale="0.6" xOffset="794" yOffset="357"/>
     <component base="_comma.cal" xOffset="1538" yOffset="-396"/>
     <component base="waw-ar" xScale="0.6" yScale="0.7" xOffset="1361" yOffset="634"/>
-    <component base="_dot1" xScale="0.6" yScale="0.6" xOffset="1369" yOffset="91"/>
     <component base="alefabove-ar" xScale="0.6" yScale="0.75" xOffset="757" yOffset="561"/>
     <component base="_sukun.cal" xScale="0.8" yScale="0.8" xOffset="1306" yOffset="385"/>
-    <component base="_dot2h" xScale="0.6" yScale="0.6" xOffset="1271" yOffset="926"/>
     <component base="_damma.cal" xOffset="1677" yOffset="279"/>
     <component base="_smallv.cal" xOffset="758" yOffset="1136"/>
     <component base="_fatha-kasra.cal" xOffset="1450" yOffset="722"/>
     <component base="_comma.cal" xOffset="1370" yOffset="933"/>
     <component base="_strokeHead" xScale="0.6" yScale="0.6" xOffset="1021" yOffset="1580"/>
     <component base="_fatha-kasra.cal" xOffset="1270" yOffset="1200"/>
+    <component base="_dot1.cal" xOffset="691" yOffset="90"/>
+    <component base="_dot1.cal" xOffset="1371" yOffset="-180"/>
+    <component base="_dot2h.cal" xOffset="1111" yOffset="682"/>
     <contour>
       <point x="905" y="-239" type="curve" smooth="yes"/>
       <point x="1105" y="-239"/>

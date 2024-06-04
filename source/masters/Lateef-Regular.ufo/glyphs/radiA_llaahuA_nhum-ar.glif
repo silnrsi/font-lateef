@@ -3,14 +3,14 @@
   <advance width="2196"/>
   <unicode hex="FD43"/>
   <outline>
-    <component base="_damma.cal" xOffset="310" yOffset="685"/>
-    <component base="_dot2h" xScale="0.6" yScale="0.6" xOffset="1242" yOffset="-202"/>
-    <component base="_dot1" xScale="0.6" yScale="0.6" xOffset="1268" yOffset="701"/>
+    <component base="_damma.cal" xOffset="280" yOffset="675"/>
     <component base="_fatha-kasra.cal" xOffset="1078" yOffset="556"/>
     <component base="_fatha-kasra.cal" xOffset="1503" yOffset="-351"/>
     <component base="_damma.cal" xOffset="511" yOffset="1091"/>
-    <component base="_dot1" xScale="0.6" yScale="0.6" xOffset="1696" yOffset="1025"/>
     <component base="_allah.cal" xOffset="609" yOffset="851"/>
+    <component base="_dot1.cal" xOffset="1583" yOffset="780"/>
+    <component base="_dot1.cal" xOffset="1133" yOffset="440"/>
+    <component base="_dot2h.cal" xOffset="1043" yOffset="-486"/>
     <contour>
       <point x="759" y="-147" type="curve" smooth="yes"/>
       <point x="1082" y="-147"/>
@@ -136,7 +136,7 @@
       <point x="1505" y="1172"/>
     </contour>
     <contour>
-      <point x="1000" y="501" type="curve" smooth="yes"/>
+      <point x="1030" y="501" type="curve" smooth="yes"/>
       <point x="923" y="501"/>
       <point x="905" y="536"/>
       <point x="905" y="593" type="curve" smooth="yes"/>
@@ -172,7 +172,7 @@
       <point x="1400" y="659" type="curve"/>
       <point x="1391" y="661" type="line"/>
       <point x="1369" y="541"/>
-      <point x="1116" y="501"/>
+      <point x="1146" y="501"/>
     </contour>
     <contour>
       <point x="192" y="474" type="curve" smooth="yes"/>

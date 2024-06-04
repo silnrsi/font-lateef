@@ -9,9 +9,9 @@
     <component base="_fatha-kasra.cal" xOffset="902" yOffset="468"/>
     <component base="_fatha-kasra.cal" xOffset="533" yOffset="-90"/>
     <component base="_fatha-kasra.cal" xOffset="1643" yOffset="-216"/>
-    <component base="_dot2h" xScale="0.6" yScale="0.6" xOffset="1231" yOffset="-140"/>
-    <component base="_dot1" xScale="0.6" yScale="0.6" xOffset="1763" yOffset="674"/>
-    <component base="_dot1" xScale="0.6" yScale="0.6" xOffset="786" yOffset="718"/>
+    <component base="_dot2h.cal" xOffset="1096" yOffset="-390"/>
+    <component base="_dot1.cal" xOffset="1637" yOffset="430"/>
+    <component base="_dot1.cal" xOffset="681" yOffset="476"/>
     <contour>
       <point x="709" y="-107" type="curve" smooth="yes"/>
       <point x="1002" y="-107"/>
@@ -67,12 +67,18 @@
       <point x="1167" y="64"/>
       <point x="951" y="1"/>
       <point x="747" y="1" type="curve" smooth="yes"/>
-      <point x="348" y="1"/>
-      <point x="100" y="75"/>
-      <point x="204" y="419" type="curve"/>
-      <point x="195" y="422" type="line"/>
-      <point x="64" y="107"/>
-      <point x="217" y="-107"/>
+      <point x="413" y="1"/>
+      <point x="217" y="53"/>
+      <point x="217" y="272" type="curve" smooth="yes"/>
+      <point x="217" y="314"/>
+      <point x="227" y="363"/>
+      <point x="244" y="419" type="curve"/>
+      <point x="235" y="422" type="line"/>
+      <point x="203" y="346"/>
+      <point x="185" y="276"/>
+      <point x="185" y="213" type="curve" smooth="yes"/>
+      <point x="185" y="16"/>
+      <point x="336" y="-107"/>
     </contour>
     <contour>
       <point x="1632" y="883" type="curve"/>
