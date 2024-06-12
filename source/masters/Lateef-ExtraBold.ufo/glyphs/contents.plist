@@ -558,6 +558,8 @@
   <string>alayheA_ssallamcomb-ar.glif</string>
   <key>alayhiAsSalaam-ar</key>
   <string>alayhiA_sS_alaam-ar.glif</string>
+  <key>alayhiAsSalaatuWaSalaam-ar</key>
+  <string>alayhiA_sS_alaatuW_aS_alaam-ar.glif</string>
   <key>alayhimAsSalaam-ar</key>
   <string>alayhimA_sS_alaam-ar.glif</string>
   <key>alayhimaaAsSalaam-ar</key>
@@ -986,6 +988,8 @@
   <string>dammaD_ot-ar.glif</string>
   <key>dammainverted-ar</key>
   <string>dammainverted-ar.glif</string>
+  <key>dammainverted-ar.filled</key>
+  <string>dammainverted-ar.filled.glif</string>
   <key>dammainverted-ar.open</key>
   <string>dammainverted-ar.open.glif</string>
   <key>dammareversed-ar</key>
@@ -2682,6 +2686,8 @@
   <string>qasrbelow-ar.glif</string>
   <key>qifabove-ar</key>
   <string>qifabove-ar.glif</string>
+  <key>quddisaSirrah-ar</key>
+  <string>quddisaS_irrah-ar.glif</string>
   <key>question</key>
   <string>question.glif</string>
   <key>question-ar</key>
@@ -2910,6 +2916,8 @@
   <string>sallallaahuA_layhiW_aA_alih-ar.glif</string>
   <key>sallallahouAlayheWassallamcomb-ar</key>
   <string>sallallahouA_layheW_assallamcomb-ar.glif</string>
+  <key>sallallahuAlayhiWaAaliheeWaSallam-ar</key>
+  <string>sallallahuA_layhiW_aA_aliheeW_aS_allam-ar.glif</string>
   <key>samvat-ar</key>
   <string>samvat-ar.glif</string>
   <key>samvat-ar.2</key>

@@ -1542,6 +1542,7 @@
     <string>noonghunnaabove-ar</string>
     <string>dammainverted-ar</string>
     <string>dammainverted-ar.open</string>
+    <string>dammainverted-ar.filled</string>
     <string>fathaHorizont-ar</string>
     <string>vabove-ar</string>
     <string>vinvertedabove-ar</string>
@@ -1791,9 +1792,15 @@
     <string>radiAllaahuAnhum-ar</string>
     <string>radiAllaahuAnhumaa-ar</string>
     <string>radiAllaahuAnhunna-ar</string>
+    <string>sallallaahuAlayhiWaAalih-ar</string>
     <string>alayhimaaAsSalaam-ar</string>
+    <string>alayhiAsSalaatuWaSalaam-ar</string>
+    <string>quddisaSirrah-ar</string>
+    <string>sallallahuAlayhiWaAaliheeWaSallam-ar</string>
     <string>subhaanahuWaTaaalaa-ar</string>
     <string>azzaWaJall-ar</string>
+    <string>tabaarakaWaTaaalaa-ar</string>
+    <string>rahimahumAllaah-ar</string>
     <string>dammaturnedbelow-ar</string>
     <string>fathaCurly-ar</string>
     <string>dammaCurly-ar</string>
@@ -3435,6 +3442,7 @@
     <string>noonghunnaabove-ar</string>
     <string>dammainverted-ar</string>
     <string>dammainverted-ar.open</string>
+    <string>dammainverted-ar.filled</string>
     <string>fathaHorizont-ar</string>
     <string>vabove-ar</string>
     <string>vinvertedabove-ar</string>
@@ -3684,9 +3692,15 @@
     <string>radiAllaahuAnhum-ar</string>
     <string>radiAllaahuAnhumaa-ar</string>
     <string>radiAllaahuAnhunna-ar</string>
+    <string>sallallaahuAlayhiWaAalih-ar</string>
     <string>alayhimaaAsSalaam-ar</string>
+    <string>alayhiAsSalaatuWaSalaam-ar</string>
+    <string>quddisaSirrah-ar</string>
+    <string>sallallahuAlayhiWaAaliheeWaSallam-ar</string>
     <string>subhaanahuWaTaaalaa-ar</string>
     <string>azzaWaJall-ar</string>
+    <string>tabaarakaWaTaaalaa-ar</string>
+    <string>rahimahumAllaah-ar</string>
     <string>dammaturnedbelow-ar</string>
     <string>fathaCurly-ar</string>
     <string>dammaCurly-ar</string>
@@ -4069,6 +4083,8 @@
     <string>uni0611</string>
     <key>alayhiAsSalaam-ar</key>
     <string>uniFD47</string>
+    <key>alayhiAsSalaatuWaSalaam-ar</key>
+    <string>uniFD4A</string>
     <key>alayhimAsSalaam-ar</key>
     <string>uniFD48</string>
     <key>alayhimaaAsSalaam-ar</key>
@@ -4429,6 +4445,8 @@
     <string>uni08FE</string>
     <key>dammainverted-ar</key>
     <string>uni0657</string>
+    <key>dammainverted-ar.filled</key>
+    <string>uni0657.filled</string>
     <key>dammainverted-ar.open</key>
     <string>uni0657.open</string>
     <key>dammareversed-ar</key>
@@ -5893,6 +5911,8 @@
     <string>u10EFE</string>
     <key>qifabove-ar</key>
     <string>uni08DE</string>
+    <key>quddisaSirrah-ar</key>
+    <string>uniFD4B</string>
     <key>question-ar</key>
     <string>uni061F</string>
     <key>radiAllaahuAnh-ar</key>
@@ -5907,6 +5927,8 @@
     <string>uniFD45</string>
     <key>rahimahuAllaah-ar</key>
     <string>uniFD40</string>
+    <key>rahimahumAllaah-ar</key>
+    <string>uniFD4F</string>
     <key>ray-ar</key>
     <string>uni0608</string>
     <key>reh-ar</key>
@@ -6063,8 +6085,12 @@
     <string>u10EFD</string>
     <key>salaamuhuAlaynaa-ar</key>
     <string>uniFDCF</string>
+    <key>sallallaahuAlayhiWaAalih-ar</key>
+    <string>uniFD46</string>
     <key>sallallahouAlayheWassallamcomb-ar</key>
     <string>uni0610</string>
+    <key>sallallahuAlayhiWaAaliheeWaSallam-ar</key>
+    <string>uniFD4C</string>
     <key>samvat-ar</key>
     <string>uni0604</string>
     <key>samvat-ar.2</key>
@@ -6261,6 +6287,8 @@
     <string>uni06E0</string>
     <key>sukunround-ar</key>
     <string>uni06DF</string>
+    <key>tabaarakaWaTaaalaa-ar</key>
+    <string>uniFD4E</string>
     <key>tah-ar</key>
     <string>uni0637</string>
     <key>tah-ar.fina</key>

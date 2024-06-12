@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dammainverted-ar" format="2">
-  <unicode hex="0657"/>
+<glyph name="dammainverted-ar.filled" format="2">
   <anchor x="0" y="964" name="_diaA"/>
   <anchor x="0" y="1427" name="diaA"/>
   <outline>
-    <component base="dammainverted-ar.filled"/>
+    <component base="damma-ar.filled" xScale="-1" yScale="-1" yOffset="2455"/>
   </outline>
 </glyph>
