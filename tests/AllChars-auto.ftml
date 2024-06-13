@@ -2398,7 +2398,7 @@
     </test>
     <test background="#f0fff0" label="U+FD43">
       <comment>radiAllaahuAnhum-ar</comment>
-      <string>\u00FD43 \u00FD44 \u00FD45</string>
+      <string>\u00FD43 \u00FD44 \u00FD45 \u00FD46</string>
     </test>
     <test label="U+FD47">
       <comment>alayhiAsSalaam-ar</comment>
@@ -2406,11 +2406,15 @@
     </test>
     <test background="#f0fff0" label="U+FD48">
       <comment>alayhimAsSalaam-ar</comment>
-      <string>\u00FD48 \u00FD49</string>
+      <string>\u00FD48 \u00FD49 \u00FD4A \u00FD4B \u00FD4C \u00FD4D</string>
     </test>
-    <test background="#f0fff0" label="U+FD4D">
-      <comment>alayhaaAsSalaam-ar</comment>
-      <string>\u00FD4D</string>
+    <test background="#ffe0e0" label="U+FD4E">
+      <comment>tabaarakaWaTaaalaa-ar</comment>
+      <string>\u00FD4E</string>
+    </test>
+    <test background="#f0fff0" label="U+FD4F">
+      <comment>rahimahumAllaah-ar</comment>
+      <string>\u00FD4F</string>
     </test>
     <test label="U+FDCF">
       <comment>salaamuhuAlaynaa-ar</comment>
