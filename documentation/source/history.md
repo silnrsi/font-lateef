@@ -1,6 +1,6 @@
 ---
 title: Lateef - Version History
-fontversion: 4.200
+fontversion: 4.300
 ---
 
 ### 2023-08-28 (SIL WSTech team) Lateef version 4.200

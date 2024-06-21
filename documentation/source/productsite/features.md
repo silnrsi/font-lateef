@@ -15,19 +15,18 @@ This page uses web fonts (WOFF) to demonstrate font features and should display 
 
 <span class='affects'>Affects: U+062F, U+0630, U+0688..U+068F, U+0690, U+06EE, U+0759, U+075A, U+08AE, U+0645, U+0765, U+0766, U+08A7, U+06BE, U+0626, U+060C, U+061B, U+06F4, U+06F5, U+06F6, U+06F7, U+0650, U+064F, U+064C, U+0657</span>
 
-Unfortunately, the UI needed to access the language-specific behavior is not yet present in many applications. LibreOffice and Microsoft Word 2016 support language-specific behavior for Kurdish, Sindhi and Urdu (but not Kyrgyz or Rohingya). Some Harfbuzz-based apps, e.g., XeTeX, can access language-specific behavior.
+Unfortunately, the UI needed to access the language-specific behavior is not yet present in many applications. LibreOffice and Microsoft Word 2016 support language-specific behavior for Kurdish, Sindhi and Urdu (but not Kyrgyz or Rohingya). Some Harfbuzz-based apps, e.g., XeTeX, can access language-specific behavior. In the past, it was not always possible to override language-specific behavior in cases where the language-specific variants were undesirable but, as of version 4.300, the font now supports this possibility.
 
-<!-- ky and wo do not work for pdf. Must use kir and wol for proper display in pdf. However, for proper display in html must use ky and wo! -->
+#### Kashmiri, Kurdish (Northern), Rohingya, Sindhi, Urdu
 
-#### Kurdish (Northern), Rohingya, Sindhi, Urdu
-
-Language | Meem | Heh Doachashmee (06BE) | 4 | 6 | 7 | 0650/064E | 064C | Feature Setting
-:-- | ---: | ----: | -: | -: | -: | --: | --: | :---
-default | <span dir="rtl" class='lateef-R normal'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' >&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal'>&#x06F4;</span> |<span dir="rtl" class='lateef-R normal'>&#x06F6;</span> | <span dir="rtl" class='lateef-R normal'>&#x06F7;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x064C;</span> |
-Kurdish</br>(Northern) | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='ku' style="color:red">&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0628;&#x064C;</span> |  `lang='ku'`
-Rohingya | <span dir="rtl" class='lateef-R normal' lang='rhg'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x06F4;</span> | <span dir="rtl" class='lateef-R small' lang='rhg' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x0628;&#x064C;</span>| `lang='rhg'`
-Sindhi | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x0628;&#x064C;</span> | `lang='sd'`
-Urdu | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x0628;&#x064C;</span> | `lang='ur'`
+Language | Meem | Heh Doachashmee (06BE) | 4 | 6 | 7 | 0650/064E | 064C | 0652 | Feature Setting
+:-- | ---: | ----: | -: | -: | -: | --: | --: | --: | :---
+default | <span dir="rtl" class='lateef-R normal'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' >&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal'>&#x06F4;</span> |<span dir="rtl" class='lateef-R normal'>&#x06F6;</span> | <span dir="rtl" class='lateef-R normal'>&#x06F7;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x064C;</span> | <span dir="rtl" class='lateef-R normal'>&#x0628;&#x0652;</span> |
+Kashmiri | <span dir="rtl" class='lateef-R normal' lang='ks'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='ks'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='ks' style="color:red">&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='ks' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='ks' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='ks' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='ks'>&#x0628;&#x064C;</span> | <span dir="rtl" class='lateef-R normal' lang='ks' style="color:red">&#x0628;&#x0652;</span> | `lang='ur'`
+Kurdish</br>(Northern) | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='ku' style="color:red">&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0628;&#x064C;</span> | <span dir="rtl" class='lateef-R normal' lang='ku'>&#x0628;&#x0652;</span> |  `lang='ku'`
+Rohingya | <span dir="rtl" class='lateef-R normal' lang='rhg'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x06F4;</span> | <span dir="rtl" class='lateef-R small' lang='rhg' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg' style="color:red">&#x0628;&#x064C;</span> | <span dir="rtl" class='lateef-R normal' lang='rhg'>&#x0628;&#x0652;</span> | `lang='rhg'`
+Sindhi | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='sd' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x0628;&#x064C;</span> | <span dir="rtl" class='lateef-R normal' lang='sd'>&#x0628;&#x0652;</span> | `lang='sd'`
+Urdu | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x06F4;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x06F6;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x06F7;</span> | <span dir="rtl" class='lateef-R normal' lang='ur' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x0628;&#x064C;</span> | <span dir="rtl" class='lateef-R normal' lang='ur'>&#x0628;&#x0652;</span> | `lang='ur'`
 
 #### Kyrgyz and Wolof
 
@@ -50,6 +49,7 @@ Feature | Sample | Feature setting
 :------------- | ---------------: | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'> م ممم ݥ ݥݥݥ ݦ ݦݦݦ ࢧ ࢧࢧࢧ </span> | `cv44=0`
 Sindhi-style | <span dir="rtl" class='lateef-cv44-1-R normal'> م ممم ݥ ݥݥݥ ݦ ݦݦݦ ࢧ ࢧࢧࢧ </span>| `cv44=1`
+Long-tail | <span dir="rtl" class='lateef-cv44-2-R normal'> م ممم ݥ ݥݥݥ ݦ ݦݦݦ ࢧ ࢧࢧࢧ </span>| `cv44=2`
 
 #### Heh 
 
@@ -70,6 +70,7 @@ Feature | Sample | Feature setting
 :------------- | ------: | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=0`
 Knotted | <span dir="rtl" class='lateef-cv49-1-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=1`
+Bowtie | <span dir="rtl" class='lateef-cv49-2-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=2`
 Kurdish-style | <span dir="rtl" class='lateef-cv49-3-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=3`
 
 #### Kyrgyz OE 
@@ -89,6 +90,7 @@ Feature | Sample | Feature setting
 :------------- | ---------------: | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>ئ ‍ئ</span> | `cv54=0`
 Right hamza| <span dir="rtl" class='lateef-cv54-1-R normal'>ئ ‍ئ</span>| `cv54=1`
+Mid hamza| <span dir="rtl" class='lateef-cv54-2-R normal'>ئ ‍ئ</span>| `cv54=2`
 
 #### Shadda+kasra placement 
 
@@ -109,6 +111,7 @@ Feature | Sample | Feature setting
 Default | <span dir="rtl" class='lateef-R normal'> بُ ◌ُ</span> | `cv70=0`
 Filled | <span dir="rtl" class='lateef-cv70-1-R normal'>بُ ◌ُ</span>| `cv70=1`
 Short | <span dir="rtl" class='lateef-cv70-2-R normal'>بُ ◌ُ</span>| `cv70=2`
+Crossed | <span dir="rtl" class='lateef-cv70-3-R normal'>بُ ◌ُ</span>| `cv70=3`
 
 #### Dammatan 
 
@@ -118,6 +121,7 @@ Feature | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>بٌ ◌ٌ</span> | `cv72=0`
 Six-nine | <span dir="rtl" class='lateef-cv72-1-R normal'>بٌ ◌ٌ</span>| `cv72=1`
+Two-nine | <span dir="rtl" class='lateef-cv72-2-R normal'>بٌ ◌ٌ</span>| `cv72=2`
 
 #### Inverted Damma 
 
@@ -149,6 +153,7 @@ Feature | Sample | Feature setting
 Closed | <span dir="rtl" class='lateef-R normal'>بْ ◌ْ</span> | `cv78=0`
 Open down | <span dir="rtl" class='lateef-cv78-1-R normal'>بْ ◌ْ</span>| `cv78=1`
 Open left | <span dir="rtl" class='lateef-cv78-2-R normal'>بْ ◌ْ</span>| `cv78=2`
+Closed | <span dir="rtl" class='lateef-cv78-3-R normal'>بْ ◌ْ</span>| `cv78=3`
 
 #### End of ayah 
 
@@ -183,14 +188,15 @@ The DISPUTED END OF AYAH (U+08E2) is also now available in the font. It works in
 Feature | Sample | Feature setting
 :------------- | :--------------- | :------------- 
 Standard | <span dir="rtl" class='lateef-R normal'>&#x06F4;&#x06F6;&#x06F7;</span> | `cv82=0`
-Kurdish-style | <span dir="rtl" class='lateef-cv82-3-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=3`
-Rohingya-style | <span dir="rtl" class='lateef-cv82-4-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=4`
 Sindhi-style | <span dir="rtl" class='lateef-cv82-1-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=1`
 Urdu-style | <span dir="rtl" class='lateef-cv82-2-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=2`
+Kurdish-style | <span dir="rtl" class='lateef-cv82-3-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=3`
+Rohingya-style | <span dir="rtl" class='lateef-cv82-4-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=4`
+Default | <span dir="rtl" class='lateef-cv82-5-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=5`
 
 #### Comma 
 
-<span class='affects'>Affects: U+060C, U+061B</span>
+<span class='affects'>Affects: U+060C, U+061B (This feature is not recommended for use. The Unicode Standard recommends the use of <span dir="rtl" class='lateef-R normal'>&#x2e41;</span> U+2E41 and <span dir="rtl" class='lateef-R normal'>&#x204f;</span> U+204F instead.)</span>
 
 Feature | Sample |  Feature setting
 :------------- | :--------------- | :------------- 
@@ -242,30 +248,37 @@ _This feature is only available in TypeTuner Web._
 
 
 [font id='lateef-cv44-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv44 1']
+[font id='lateef-cv44-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv44 2']
 [font id='lateef-cv48-3' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv48 3']
 [font id='lateef-cv48-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv48 1']
 [font id='lateef-cv48-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv48 2']
 [font id='lateef-cv49-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv49 1']
+[font id='lateef-cv49-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv49 2']
 [font id='lateef-cv49-3' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv49 3']
 [font id='lateef-cv51-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv51 1']
 [font id='lateef-cv54-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv54 1']
+[font id='lateef-cv54-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv54 2']
 [font id='lateef-cv62-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv62 1']
 [font id='lateef-cv62-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv62 2']
 [font id='lateef-cv70-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv70 1']
 [font id='lateef-cv70-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv70 2']
+[font id='lateef-cv70-3' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv70 3']
 [font id='lateef-cv72-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv72 1']
+[font id='lateef-cv72-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv72 2']
 [font id='lateef-cv74-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv74 1']
 [font id='lateef-cv74-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv74 2']
 [font id='lateef-cv76-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv76 1']
 [font id='lateef-cv76-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv76 2']
 [font id='lateef-cv78-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv78 1']
 [font id='lateef-cv78-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv78 2']
+[font id='lateef-cv78-3' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv78 3']
 [font id='lateef-cv80-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv80 1']
 [font id='lateef-cv80-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv80 2']
-[font id='lateef-cv82-3' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv82 3']
-[font id='lateef-cv82-4' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv82 4']
 [font id='lateef-cv82-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv82 1']
 [font id='lateef-cv82-2' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv82 2']
+[font id='lateef-cv82-3' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv82 3']
+[font id='lateef-cv82-4' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv82 4']
+[font id='lateef-cv82-5' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv82 5']
 [font id='lateef-cv84-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv84 1']
 [font id='lateef-cv85-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='cv85 1']
 [font id='lateef-pnum-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' rtl=1 feats='pnum 1']

@@ -1,17 +1,14 @@
 ---
 title: Lateef - Announcement
-fontversion: 4.200
+fontversion: 4.300
 ---
 
 ## Changes
 
-This release includes the addition of two characters. No other changes were made to the font.
 
 #### New
 
 - Added:
-    - FDFA ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM
-    - FDFB ARABIC LIGATURE JALLAJALALOUHOU
 
 #### Known issues
 - Shaping for the newly added characters may not yet occur in applications.
