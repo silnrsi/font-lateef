@@ -226,7 +226,7 @@
 		</value>
 	</feature>
 
-	<!-- cv76: different between Sch/Harmattan and Lateef -->    <!-- TODO: Review differences -->
+	<!-- cv76 -->
 	<feature name="Superscript Alef" value="Default" tag="Sal">
 		<value name="Default" tag="Def">
 			<cmd name="null" args="null"/>
