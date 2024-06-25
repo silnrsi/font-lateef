@@ -1375,9 +1375,10 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass [_alef-ar.fina_wide alef-ar alef-ar.fina] <anchor 381 1056> @attTopRight;
 
 # AP: alef
-@alef = [_lam-ar.init.preAlef _lamBar-ar.init.preAlef _lamDotabove-ar.init.preAlef _lamDoublebar-ar.init.preAlef _lamTahabove-ar.init.preAlef _lamThreedotsabove-ar.init.preAlef _lamThreedotsbelow-ar.init.preAlef _lamVabove-ar.init.preAlef _lam-ar.medi.preAlef _lamBar-ar.medi.preAlef _lamDotabove-ar.medi.preAlef _lamDoublebar-ar.medi.preAlef _lamTahabove-ar.medi.preAlef _lamThreedotsabove-ar.medi.preAlef _lamThreedotsbelow-ar.medi.preAlef _lamVabove-ar.medi.preAlef lam-ar lam-ar.fina lamDoublebar-ar.fina lam-ar.init lam-ar.medi lamDoublebar-ar.init lamDoublebar-ar.medi lam-ar.init.allah1 lamBar-ar.init lamBar-ar.medi lamDotabove-ar.medi lamTahabove-ar.init lamTahabove-ar.medi lamThreedotsabove-ar.medi lamThreedotsbelow-ar.init lamThreedotsbelow-ar.medi lamVabove-ar.medi lam-ar.medi.allah1 lam-ar.medi.allah2 lamBar-ar lamThreedotsbelow-ar lamBar-ar.fina lamThreedotsbelow-ar.fina lamDotabove-ar lamDotabove-ar.fina lamVabove-ar.fina lamDotabove-ar.init lamVabove-ar.init lamDoublebar-ar lamTahabove-ar lamTahabove-ar.fina lamThreedotsabove-ar lamThreedotsabove-ar.fina lamThreedotsabove-ar.init lamVabove-ar];
+@alef = [_lam-ar.init.preAlef _lamBar-ar.init.preAlef _lamDotabove-ar.init.preAlef _lamDoublebar-ar.init.preAlef _lamTahabove-ar.init.preAlef _lamThreedotsabove-ar.init.preAlef _lamThreedotsbelow-ar.init.preAlef _lamVabove-ar.init.preAlef _lam-ar.medi.preAlef _lamBar-ar.medi.preAlef _lamDotabove-ar.medi.preAlef _lamDoublebar-ar.medi.preAlef _lamTahabove-ar.medi.preAlef _lamThreedotsabove-ar.medi.preAlef _lamThreedotsbelow-ar.medi.preAlef _lamVabove-ar.medi.preAlef kashida-ar lam-ar lam-ar.fina lamDoublebar-ar.fina lam-ar.init lam-ar.medi lamDoublebar-ar.init lamDoublebar-ar.medi lam-ar.init.allah1 lamBar-ar.init lamBar-ar.medi lamDotabove-ar.medi lamTahabove-ar.init lamTahabove-ar.medi lamThreedotsabove-ar.medi lamThreedotsbelow-ar.init lamThreedotsbelow-ar.medi lamVabove-ar.medi lam-ar.medi.allah1 lam-ar.medi.allah2 lamBar-ar lamThreedotsbelow-ar lamBar-ar.fina lamThreedotsbelow-ar.fina lamDotabove-ar lamDotabove-ar.fina lamVabove-ar.fina lamDotabove-ar.init lamVabove-ar.init lamDoublebar-ar lamTahabove-ar lamTahabove-ar.fina lamThreedotsabove-ar lamThreedotsabove-ar.fina lamThreedotsabove-ar.init lamVabove-ar nbspace space];
 # baseClass [_lam-ar.init.preAlef _lamBar-ar.init.preAlef _lamDotabove-ar.init.preAlef _lamDoublebar-ar.init.preAlef _lamTahabove-ar.init.preAlef _lamThreedotsabove-ar.init.preAlef _lamThreedotsbelow-ar.init.preAlef _lamVabove-ar.init.preAlef] <anchor -13 814> @alef;
 # baseClass [_lam-ar.medi.preAlef _lamBar-ar.medi.preAlef _lamDotabove-ar.medi.preAlef _lamDoublebar-ar.medi.preAlef _lamTahabove-ar.medi.preAlef _lamThreedotsabove-ar.medi.preAlef _lamThreedotsbelow-ar.medi.preAlef _lamVabove-ar.medi.preAlef] <anchor 1 802> @alef;
+# baseClass kashida-ar <anchor 114 540> @alef;
 # baseClass lam-ar <anchor 308 737> @alef;
 # baseClass [lam-ar.fina lamDoublebar-ar.fina] <anchor 313 705> @alef;
 # baseClass [lam-ar.init lam-ar.medi lamDoublebar-ar.init lamDoublebar-ar.medi] <anchor 0 800> @alef;
@@ -1396,6 +1397,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass lamThreedotsabove-ar.fina <anchor 254 688> @alef;
 # baseClass lamThreedotsabove-ar.init <anchor 0 499> @alef;
 # baseClass lamVabove-ar <anchor 293 672> @alef;
+# baseClass [nbspace space] <anchor 211 360> @alef;
 
 # AP: _ogonek
 markClass _ogonek <anchor 491 0> @_ogonek;
@@ -4490,6 +4492,7 @@ lookup AlefToBase {
     lookupflag 0;
     pos base [_lam-ar.init.preAlef _lamBar-ar.init.preAlef _lamDotabove-ar.init.preAlef _lamDoublebar-ar.init.preAlef _lamTahabove-ar.init.preAlef _lamThreedotsabove-ar.init.preAlef _lamThreedotsbelow-ar.init.preAlef _lamVabove-ar.init.preAlef] <anchor -13 814> mark @_alef;
     pos base [_lam-ar.medi.preAlef _lamBar-ar.medi.preAlef _lamDotabove-ar.medi.preAlef _lamDoublebar-ar.medi.preAlef _lamTahabove-ar.medi.preAlef _lamThreedotsabove-ar.medi.preAlef _lamThreedotsbelow-ar.medi.preAlef _lamVabove-ar.medi.preAlef] <anchor 1 802> mark @_alef;
+    pos base kashida-ar <anchor 114 540> mark @_alef;
     pos base lam-ar <anchor 308 737> mark @_alef;
     pos base [lam-ar.fina lamDoublebar-ar.fina] <anchor 313 705> mark @_alef;
     pos base [lam-ar.init lam-ar.medi lamDoublebar-ar.init lamDoublebar-ar.medi] <anchor 0 800> mark @_alef;
@@ -4508,6 +4511,7 @@ lookup AlefToBase {
     pos base lamThreedotsabove-ar.fina <anchor 254 688> mark @_alef;
     pos base lamThreedotsabove-ar.init <anchor 0 499> mark @_alef;
     pos base lamVabove-ar <anchor 293 672> mark @_alef;
+    pos base [nbspace space] <anchor 211 360> mark @_alef;
 } AlefToBase;
 
 lookup MarkToLig {

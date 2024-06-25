@@ -2,6 +2,7 @@
 <glyph name="space" format="2">
   <advance width="310"/>
   <unicode hex="0020"/>
+  <anchor x="211" y="360" name="alef"/>
   <anchor x="211" y="1060" name="diaA"/>
   <anchor x="211" y="-49" name="diaB"/>
   <outline/>
