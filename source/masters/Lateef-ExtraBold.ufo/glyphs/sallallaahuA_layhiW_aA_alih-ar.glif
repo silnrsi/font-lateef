@@ -6,13 +6,12 @@
     <component base="alef-ar" xScale="0.6" yScale="0.75" xOffset="1218" yOffset="-692"/>
     <component base="_madda" xScale="0.6" yScale="0.6" xOffset="1302" yOffset="175"/>
     <component base="_strokeHead" xScale="0.6" yScale="0.6" xOffset="892" yOffset="3"/>
-    <component base="_dot2h" xScale="0.6" yScale="0.6" xOffset="637" yOffset="129"/>
     <component base="alef-ar" xScale="0.6" yScale="0.6" xOffset="1382" yOffset="940"/>
     <component base="_allah.cal" xOffset="546" yOffset="703"/>
     <component base="_sukun.cal" xOffset="533" yOffset="379"/>
     <component base="_shadda.cal" xOffset="1618" yOffset="830"/>
     <component base="_fatha-kasra.cal" xOffset="1669" yOffset="-347"/>
-    <component base="_fatha-kasra.cal" xOffset="139" yOffset="-175"/>
+    <component base="_fatha-kasra.cal" xOffset="119" yOffset="-175"/>
     <component base="_fatha-kasra.cal" xOffset="2094" yOffset="384"/>
     <component base="_fatha-kasra.cal" xOffset="444" yOffset="-1102"/>
     <component base="_fatha-kasra.cal" xOffset="825" yOffset="-1102"/>
@@ -24,6 +23,7 @@
     <component base="_comma.cal" xOffset="2048" yOffset="-518"/>
     <component base="_comma.cal" xOffset="1435" yOffset="-690"/>
     <component base="_smallv.cal" xOffset="1958" yOffset="-1017"/>
+    <component base="_dot2h.cal" xOffset="481" yOffset="-126"/>
     <contour>
       <point x="1964" y="-396" type="curve"/>
       <point x="1936" y="-459" type="line"/>

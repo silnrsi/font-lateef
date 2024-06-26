@@ -6,7 +6,6 @@
     <component base="alef-ar" xScale="0.6" yScale="0.65" xOffset="1149" yOffset="-665"/>
     <component base="_madda" xScale="0.6" yScale="0.6" xOffset="1244" yOffset="122"/>
     <component base="_strokeHead" xScale="0.6" yScale="0.6" xOffset="848" yOffset="-36"/>
-    <component base="_dot2h" xScale="0.6" yScale="0.6" xOffset="617" yOffset="127"/>
     <component base="alef-ar" xScale="0.6" yScale="0.6" xOffset="1363" yOffset="939"/>
     <component base="_allah.cal" xOffset="532" yOffset="701"/>
     <component base="_sukun.cal" xOffset="508" yOffset="368"/>
@@ -24,6 +23,7 @@
     <component base="_comma.cal" xOffset="2019" yOffset="-523"/>
     <component base="_comma.cal" xOffset="1415" yOffset="-684"/>
     <component base="_smallv.cal" xOffset="1929" yOffset="-1007"/>
+    <component base="_dot2h.cal" xOffset="471" yOffset="-106"/>
     <contour>
       <point x="1940" y="-381" type="curve"/>
       <point x="1912" y="-421" type="line"/>
