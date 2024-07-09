@@ -4,7 +4,7 @@
   <anchor x="0" y="952" name="_diaA"/>
   <anchor x="0" y="1365" name="diaA"/>
   <outline>
-    <component base="yeh-ar.noDots" xScale="0.45" yScale="0.45" xOffset="-225" yOffset="1094"/>
+    <component base="alefMaksura-ar" xScale="0.45" yScale="0.45" xOffset="-225" yOffset="1094"/>
   </outline>
   <lib>
     <dict>

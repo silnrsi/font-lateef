@@ -6,7 +6,7 @@
   <anchor x="459" y="1108" name="diaA"/>
   <anchor x="334" y="-777" name="diaB"/>
   <outline>
-    <component base="yeh-ar.noDots"/>
+    <component base="alefMaksura-ar"/>
     <component base="_hamza" xOffset="472" yOffset="866"/>
     <component base="_dot2h" xOffset="316" yOffset="-540"/>
   </outline>

@@ -8,6 +8,6 @@
   <anchor x="299" y="-575" name="diaB"/>
   <outline>
     <component base="_tail" xOffset="32" yOffset="-162"/>
-    <component base="yeh-ar.noDots.fina"/>
+    <component base="alefMaksura-ar.fina"/>
   </outline>
 </glyph>
