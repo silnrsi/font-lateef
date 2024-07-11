@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefMaksura-ar.fina" format="2">
   <advance width="1042"/>
+  <anchor x="562" y="236" name="above"/>
   <anchor x="381" y="329" name="alefUnused"/>
+  <anchor x="437" y="-590" name="below"/>
   <anchor x="471" y="510" name="diaA"/>
   <anchor x="277" y="-575" name="diaB"/>
   <outline>

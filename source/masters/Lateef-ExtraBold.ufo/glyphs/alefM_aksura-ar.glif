@@ -2,7 +2,9 @@
 <glyph name="alefMaksura-ar" format="2">
   <advance width="1095"/>
   <unicode hex="0649"/>
+  <anchor x="498" y="654" name="above"/>
   <anchor x="355" y="539" name="alefUnused"/>
+  <anchor x="358" y="-419" name="below"/>
   <anchor x="478" y="700" name="diaA"/>
   <anchor x="200" y="-462" name="diaB"/>
   <outline>
