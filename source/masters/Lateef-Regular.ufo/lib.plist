@@ -161,6 +161,7 @@
     <string>/alayhimaaAsSalaam-ar/sallallaahuAlayhiWaAalih-ar/rahimahuAllaah-ar/rahimahumAllaah-ar</string>
     <string>/radiAllaahuAnh-ar/radiAllaahuAnhaa-ar/space/space/space/radiAllaahuAnhum-ar/space/space/space/space/radiAllaahuAnhumaa-ar/space/space/space/radiAllaahuAnhunna-ar</string>
     <string>/sallallahuAlayhiWaAaliheeWaSallam-ar</string>
+    <string>/alefoverlay-ar/space/space/space/lam-ar/lam-ar.fina/lam-ar.medi/lam-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>

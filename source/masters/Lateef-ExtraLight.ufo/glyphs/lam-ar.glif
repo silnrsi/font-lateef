@@ -7,6 +7,7 @@
   <anchor x="521" y="-212" name="below"/>
   <anchor x="341" y="1171" name="diaA"/>
   <anchor x="221" y="-402" name="diaB"/>
+  <anchor x="586" y="480" name="diaO"/>
   <anchor x="564" y="502" name="through"/>
   <outline>
     <component base="_strokeHead" xOffset="304" yOffset="779"/>

@@ -6,6 +6,7 @@
   <anchor x="553" y="-374" name="below"/>
   <anchor x="426" y="1173" name="diaA"/>
   <anchor x="193" y="-502" name="diaB"/>
+  <anchor x="570" y="640" name="diaO"/>
   <anchor x="556" y="586" name="through"/>
   <outline>
     <contour>
