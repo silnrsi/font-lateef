@@ -21,7 +21,7 @@ prevver="4.2"
 commonParams=( \
 	--prevfont "$prevfont"  \
 	-s "url(../$prevfont)|$prevver"  \
-	--ap '_?dia[AB]$'  \
+	--ap '_?dia[ABO]$'  \
 	--xsl ../tools/ftml.xsl  \
 	--scale 250  \
 	-i source/glyph_data.csv  \
