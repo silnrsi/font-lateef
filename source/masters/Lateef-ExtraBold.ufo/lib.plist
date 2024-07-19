@@ -6827,5 +6827,13 @@
     <key>zerowidthspace</key>
     <string>uni200B</string>
   </dict>
+  <key>public.skipExportGlyphs</key>
+  <array>
+    <string>madda-ar.small_UNUSED</string>
+    <string>nonmarkingreturn</string>
+    <string>period.test</string>
+    <string>tab</string>
+    <string>heh-ar.fina.knottedFlat</string>
+  </array>
 </dict>
 </plist>
