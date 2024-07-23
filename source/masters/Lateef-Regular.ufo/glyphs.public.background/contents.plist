@@ -204,6 +204,10 @@
   <string>dammaC_urly-ar.glif</string>
   <key>dammaDot-ar</key>
   <string>dammaD_ot-ar.glif</string>
+  <key>damma_meem-ar</key>
+  <string>damma_meem-ar.glif</string>
+  <key>damma_meem-ar.short</key>
+  <string>damma_meem-ar.short.glif</string>
   <key>dammainverted-ar</key>
   <string>dammainverted-ar.glif</string>
   <key>dammainverted-ar.open</key>
@@ -260,6 +264,8 @@
   <string>fathaH_orizont-ar.glif</string>
   <key>fathaRing-ar</key>
   <string>fathaR_ing-ar.glif</string>
+  <key>fatha_meem-ar</key>
+  <string>fatha_meem-ar.glif</string>
   <key>fathatan-ar</key>
   <string>fathatan-ar.glif</string>
   <key>fathatwodots-ar</key>
@@ -422,6 +428,8 @@
   <string>kasra-ar.lowered.glif</string>
   <key>kasraDotbelow-ar</key>
   <string>kasraD_otbelow-ar.glif</string>
+  <key>kasra_meem-ar</key>
+  <string>kasra_meem-ar.glif</string>
   <key>kasratan-ar</key>
   <string>kasratan-ar.glif</string>
   <key>kasratan-ar.lowered</key>

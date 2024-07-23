@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kasra_meem-ar" format="2">
+  <anchor x="222" y="-214" name="_diaB"/>
+  <anchor x="222" y="-691" name="diaB"/>
+  <outline>
+    <component base="fatha-ar" xOffset="277" yOffset="-1682"/>
+    <component base="_meem" xOffset="129" yOffset="-1690"/>
+  </outline>
+</glyph>
