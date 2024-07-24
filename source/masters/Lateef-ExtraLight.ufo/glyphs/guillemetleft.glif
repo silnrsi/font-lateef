@@ -6,14 +6,14 @@
   <outline>
     <component base="guilsinglleft" xOffset="135"/>
     <contour>
-      <point x="195" y="8" type="curve"/>
-      <point x="235" y="38" type="line"/>
-      <point x="70" y="204"/>
-      <point x="73" y="431"/>
-      <point x="238" y="597" type="curve"/>
-      <point x="198" y="628" type="line"/>
-      <point x="17" y="437"/>
-      <point x="12" y="198"/>
+      <point x="205" y="-71" type="curve"/>
+      <point x="266" y="-32" type="line"/>
+      <point x="55" y="179"/>
+      <point x="49" y="471"/>
+      <point x="259" y="682" type="curve"/>
+      <point x="216" y="717" type="line"/>
+      <point x="-15" y="473"/>
+      <point x="-29" y="172"/>
     </contour>
   </outline>
   <lib>
