@@ -4,17 +4,6 @@
   <anchor x="225" y="1497" name="diaA"/>
   <outline>
     <component base="_meem" xOffset="129"/>
-    <contour>
-      <point x="118" y="1043" type="line"/>
-      <point x="422" y="1195" type="line"/>
-      <point x="451" y="1281" type="line"/>
-      <point x="149" y="1129" type="line"/>
-    </contour>
+    <component base="fatha-ar" xOffset="282"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CP</string>
-    </dict>
-  </lib>
 </glyph>
