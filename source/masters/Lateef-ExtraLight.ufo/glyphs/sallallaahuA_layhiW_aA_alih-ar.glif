@@ -3,8 +3,7 @@
   <advance width="2660"/>
   <unicode hex="FD46"/>
   <outline>
-    <component base="alef-ar" xScale="0.6" yScale="0.65" xOffset="1127" yOffset="-660"/>
-    <component base="_madda" xScale="0.6" yScale="0.6" xOffset="1203" yOffset="99"/>
+    <component base="alef-ar" xScale="0.6" yScale="0.75" xOffset="1127" yOffset="-660"/>
     <component base="_strokeHead" xScale="0.6" yScale="0.6" xOffset="795" yOffset="-46"/>
     <component base="alef-ar" xScale="0.6" yScale="0.6" xOffset="1350" yOffset="849"/>
     <component base="_allah.cal" xOffset="500" yOffset="679"/>
@@ -13,7 +12,6 @@
     <component base="_fatha-kasra.cal" xOffset="1664" yOffset="-346"/>
     <component base="_fatha-kasra.cal" xOffset="128" yOffset="-136"/>
     <component base="_fatha-kasra.cal" xOffset="2083" yOffset="376"/>
-    <component base="_fatha-kasra.cal" xOffset="441" yOffset="-1080"/>
     <component base="_fatha-kasra.cal" xOffset="757" yOffset="-1063"/>
     <component base="_fatha-kasra.cal" xOffset="1588" yOffset="1022"/>
     <component base="_damma.cal" xOffset="381" yOffset="916"/>
@@ -24,6 +22,7 @@
     <component base="_comma.cal" xOffset="1409" yOffset="-680"/>
     <component base="_smallv.cal" xOffset="1892" yOffset="-1007"/>
     <component base="_dot2h.cal" xOffset="461" yOffset="-56"/>
+    <component base="aleflow-ar" xScale="0.6" yScale="0.6" xOffset="680" yOffset="-651"/>
     <contour>
       <point x="1912" y="-404" type="curve"/>
       <point x="1883" y="-420" type="line"/>
@@ -300,9 +299,9 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCCCCCCCCCCCCCCCCCCCCPPPPPPPP</string>
+      <string>CCCCCCCCCCCCCCCCCCCCPPPPPPPP</string>
       <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

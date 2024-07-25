@@ -3,16 +3,16 @@
   <advance width="2435"/>
   <unicode hex="FDFB"/>
   <outline>
-    <component base="_damma.cal" xOffset="75" yOffset="355"/>
+    <component base="_damma.cal" xOffset="75" yOffset="365"/>
     <component base="_fatha-kasra.cal" xOffset="1575" yOffset="840"/>
     <component base="_fatha-kasra.cal" xOffset="774" yOffset="1199"/>
-    <component base="_fatha-kasra.cal" xOffset="262" yOffset="697"/>
     <component base="_fatha-kasra.cal" xScale="1.85848" xyScale="0.39503" yxScale="-0.19336" yScale="0.90968" xOffset="1246" yOffset="845"/>
     <component base="_shadda.cal" xOffset="758" yOffset="1002"/>
     <component base="_dot1.cal" xOffset="1700" yOffset="-83"/>
     <component base="_dot1.cal" xOffset="1452" yOffset="-212"/>
     <component base="_alef-ar.fina.postLamIni" xScale="0.6108" xyScale="0.22231" yxScale="-0.22231" yScale="0.6108" xOffset="561" yOffset="275"/>
     <component base="_strokeHead" xScale="0.65" yScale="0.65" xOffset="538" yOffset="974"/>
+    <component base="_damma.cal" xOffset="241" yOffset="717"/>
     <contour>
       <point x="1410" y="351" type="curve" smooth="yes"/>
       <point x="1682" y="351"/>

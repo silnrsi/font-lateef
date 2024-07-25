@@ -3,11 +3,11 @@
   <advance width="1935"/>
   <unicode hex="FD40"/>
   <outline>
-    <component base="_damma.cal" xOffset="112" yOffset="111"/>
     <component base="_fatha-kasra.cal" xOffset="479" yOffset="-193"/>
     <component base="_fatha-kasra.cal" xOffset="1046" yOffset="-497"/>
     <component base="_allah.cal" xOffset="463" yOffset="156"/>
     <component base="_fatha-kasra.cal" xOffset="1457" yOffset="84"/>
+    <component base="_damma.cal" xOffset="112" yOffset="111"/>
     <contour>
       <point x="971" y="-167" type="curve" smooth="yes"/>
       <point x="1117" y="-167"/>
@@ -145,7 +145,7 @@
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>CCCCCPPPPPP</string>
       <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

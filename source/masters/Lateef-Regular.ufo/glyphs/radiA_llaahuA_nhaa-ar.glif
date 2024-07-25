@@ -4,15 +4,16 @@
   <unicode hex="FD42"/>
   <outline>
     <component base="_damma.cal" xOffset="361" yOffset="1175"/>
-    <component base="_fatha-kasra.cal" xOffset="736" yOffset="586"/>
     <component base="_fatha-kasra.cal" xOffset="222" yOffset="873"/>
-    <component base="_fatha-kasra.cal" xOffset="1011" yOffset="-365"/>
+    <component base="_fatha-kasra.cal" xOffset="1231" yOffset="-345"/>
     <component base="_allah.cal" xOffset="491" yOffset="884"/>
     <component base="_dot2h.cal" xOffset="657" yOffset="-458"/>
-    <component base="_dot1.cal" xOffset="933" yOffset="565"/>
+    <component base="_dot1.cal" xOffset="811" yOffset="475"/>
     <component base="_dot1.cal" xOffset="1727" yOffset="525"/>
-    <component base="reh-ar" xScale="0.65" yScale="0.65" xOffset="1219" yOffset="-71"/>
+    <component base="reh-ar" xScale="0.65" yScale="0.65" xOffset="1439" yOffset="-51"/>
     <component base="_tah_bowl" xScale="0.65" yScale="0.65" xOffset="1463" yOffset="259"/>
+    <component base="_sukun.cal" xScale="0.9" yScale="0.9" xOffset="720" yOffset="640"/>
+    <component base="_smallv.cal" xScale="0.9" yScale="0.9" xOffset="424" yOffset="-50"/>
     <contour>
       <point x="1361" y="1801" type="line"/>
       <point x="1364" y="1650"/>
@@ -200,7 +201,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCCCCCCCCCPPPPP</string>
+      <string>CCCCCCCCCCCPPPPP</string>
     </dict>
   </lib>
 </glyph>

@@ -5,35 +5,36 @@
   <outline>
     <component base="_salem.cal" xOffset="145" yOffset="350"/>
     <component base="_comma.cal" xOffset="735" yOffset="629"/>
-    <component base="_comma.cal" xOffset="559" yOffset="-37"/>
     <component base="_damma.cal" xOffset="683" yOffset="1301"/>
     <component base="_fatha-kasra.cal" xOffset="1046" yOffset="909"/>
-    <component base="_fatha-kasra.cal" xOffset="1928" yOffset="307"/>
+    <component base="_fatha-kasra.cal" xOffset="602" yOffset="2"/>
     <component base="_shadda.cal" xOffset="1061" yOffset="721"/>
     <component base="_sukun.cal" xOffset="1098" yOffset="19"/>
     <component base="meem-ar.sindhi" xScale="0.65" yScale="0.65" xOffset="731" yOffset="1301"/>
-    <component base="_dot2h.cal" xOffset="1170" yOffset="-329"/>
+    <component base="_dot2h.cal" xOffset="1190" yOffset="-349"/>
     <component base="_comma.cal" xOffset="187" yOffset="348"/>
+    <component base="_fatha-kasra.cal" xScale="0.77" yScale="0.9" xOffset="1612" yOffset="783"/>
+    <component base="_fatha-kasra.cal" xOffset="1928" yOffset="307"/>
     <contour>
-      <point x="1851" y="1301" type="line"/>
-      <point x="1854" y="1150"/>
-      <point x="1867" y="956"/>
-      <point x="1867" y="821" type="curve" smooth="yes"/>
-      <point x="1867" y="745"/>
-      <point x="1865" y="647"/>
-      <point x="1861" y="587" type="curve"/>
-      <point x="1876" y="590"/>
-      <point x="1894" y="604"/>
-      <point x="1897" y="626" type="curve" smooth="yes"/>
-      <point x="1909" y="710"/>
-      <point x="1917" y="840"/>
-      <point x="1917" y="897" type="curve" smooth="yes"/>
-      <point x="1917" y="1046"/>
-      <point x="1912" y="1203"/>
-      <point x="1912" y="1320" type="curve" smooth="yes"/>
-      <point x="1912" y="1346"/>
-      <point x="1912" y="1360"/>
-      <point x="1913" y="1381" type="curve"/>
+      <point x="1891" y="1291" type="line"/>
+      <point x="1894" y="1140"/>
+      <point x="1907" y="986"/>
+      <point x="1907" y="851" type="curve" smooth="yes"/>
+      <point x="1907" y="775"/>
+      <point x="1905" y="677"/>
+      <point x="1901" y="617" type="curve"/>
+      <point x="1916" y="620"/>
+      <point x="1934" y="634"/>
+      <point x="1937" y="656" type="curve" smooth="yes"/>
+      <point x="1949" y="740"/>
+      <point x="1957" y="870"/>
+      <point x="1957" y="927" type="curve" smooth="yes"/>
+      <point x="1957" y="1076"/>
+      <point x="1952" y="1193"/>
+      <point x="1952" y="1310" type="curve" smooth="yes"/>
+      <point x="1952" y="1336"/>
+      <point x="1952" y="1350"/>
+      <point x="1953" y="1371" type="curve"/>
     </contour>
     <contour>
       <point x="2086" y="160" type="curve"/>
@@ -167,9 +168,9 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCCCCCCCCCCPPPPP</string>
+      <string>CCCCCCCCCCCCPPPPP</string>
       <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

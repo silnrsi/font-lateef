@@ -26,7 +26,8 @@
     <component base="_shadda.cal" xScale="0.7" yScale="0.7" xOffset="741" yOffset="400"/>
     <component base="_comma.cal" xOffset="2167" yOffset="1289"/>
     <component base="_comma.cal" xOffset="2477" yOffset="488"/>
-    <component base="_comma.cal" xOffset="187" yOffset="258"/>
+    <component base="_comma.cal" xOffset="207" yOffset="298"/>
+    <component base="_sukun.cal" xScale="0.8" yScale="0.85" xOffset="1540" yOffset="410"/>
     <contour>
       <point x="2168" y="-409" type="curve" smooth="yes"/>
       <point x="2234" y="-409"/>
@@ -239,16 +240,16 @@
       <point x="326" y="109"/>
     </contour>
     <contour>
-      <point x="1613" y="929" type="curve" smooth="yes"/>
-      <point x="1563" y="929" type="line" smooth="yes"/>
-      <point x="1426" y="929"/>
-      <point x="1362" y="820"/>
-      <point x="1362" y="754" type="curve" smooth="yes"/>
-      <point x="1362" y="662"/>
-      <point x="1534" y="693"/>
-      <point x="1534" y="662" type="curve" smooth="yes"/>
-      <point x="1534" y="636"/>
-      <point x="1417" y="377"/>
+      <point x="1573" y="929" type="curve" smooth="yes"/>
+      <point x="1523" y="929" type="line" smooth="yes"/>
+      <point x="1386" y="929"/>
+      <point x="1322" y="820"/>
+      <point x="1322" y="754" type="curve" smooth="yes"/>
+      <point x="1322" y="662"/>
+      <point x="1494" y="693"/>
+      <point x="1494" y="662" type="curve" smooth="yes"/>
+      <point x="1494" y="636"/>
+      <point x="1377" y="377"/>
       <point x="962" y="377" type="curve" smooth="yes"/>
       <point x="694" y="377"/>
       <point x="544" y="435"/>
@@ -257,17 +258,17 @@
       <point x="508" y="467"/>
       <point x="563" y="269"/>
       <point x="955" y="269" type="curve" smooth="yes"/>
-      <point x="1468" y="269"/>
-      <point x="1566" y="574"/>
-      <point x="1566" y="689" type="curve" smooth="yes"/>
-      <point x="1566" y="765"/>
-      <point x="1389" y="740"/>
-      <point x="1389" y="783" type="curve" smooth="yes"/>
-      <point x="1389" y="791"/>
-      <point x="1402" y="821"/>
-      <point x="1474" y="821" type="curve" smooth="yes"/>
-      <point x="1593" y="821" type="line" smooth="yes"/>
-      <point x="1684" y="821"/>
+      <point x="1428" y="269"/>
+      <point x="1526" y="574"/>
+      <point x="1526" y="689" type="curve" smooth="yes"/>
+      <point x="1526" y="765"/>
+      <point x="1349" y="740"/>
+      <point x="1349" y="783" type="curve" smooth="yes"/>
+      <point x="1349" y="791"/>
+      <point x="1362" y="821"/>
+      <point x="1434" y="821" type="curve" smooth="yes"/>
+      <point x="1553" y="821" type="line" smooth="yes"/>
+      <point x="1644" y="821"/>
       <point x="1735" y="929"/>
       <point x="1744" y="1014" type="curve"/>
       <point x="1741" y="1013" type="line"/>
@@ -298,15 +299,15 @@
       <point x="1709" y="1113"/>
       <point x="1709" y="1089" type="curve" smooth="yes"/>
       <point x="1709" y="1025"/>
-      <point x="1677" y="929"/>
+      <point x="1637" y="929"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCCCCCCCCCCCCCCCCCCCCCCCPPPPPPP</string>
+      <string>CCCCCCCCCCCCCCCCCCCCCCCCCPPPPPPP</string>
       <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

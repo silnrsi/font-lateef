@@ -6,7 +6,6 @@
     <component base="_salem.cal" xOffset="262" yOffset="350"/>
     <component base="_comma.cal" xOffset="852" yOffset="629"/>
     <component base="_comma.cal" xOffset="254" yOffset="318"/>
-    <component base="_damma.cal" xOffset="800" yOffset="1301"/>
     <component base="_fatha-kasra.cal" xOffset="1163" yOffset="909"/>
     <component base="_fatha-kasra.cal" xOffset="561" yOffset="-522"/>
     <component base="_fatha-kasra.cal" xOffset="2095" yOffset="427"/>
@@ -201,9 +200,9 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCCCCCCCCCCPPPPPP</string>
+      <string>CCCCCCCCCCPPPPPP</string>
       <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sallallahuAlayhiWaAaliheeWaSallam-ar" format="2">
-  <advance width="3049"/>
+  <advance width="3059"/>
   <unicode hex="FD4C"/>
   <outline>
     <component base="waw-ar" xScale="0.6" yScale="0.6" xOffset="2463" yOffset="-496"/>
@@ -27,6 +27,7 @@
     <component base="_comma.cal" xOffset="2258" yOffset="1385"/>
     <component base="_comma.cal" xOffset="2615" yOffset="614"/>
     <component base="_comma.cal" xOffset="214" yOffset="319"/>
+    <component base="_sukun.cal" xScale="0.8" yScale="0.85" xOffset="1630" yOffset="410"/>
     <contour>
       <point x="2261" y="-420" type="curve" smooth="yes"/>
       <point x="2323" y="-420"/>
@@ -240,15 +241,15 @@
     </contour>
     <contour>
       <point x="1668" y="1009" type="curve" smooth="yes"/>
-      <point x="1618" y="1009" type="line" smooth="yes"/>
-      <point x="1482" y="1009"/>
-      <point x="1417" y="860"/>
-      <point x="1417" y="794" type="curve" smooth="yes"/>
-      <point x="1417" y="669"/>
-      <point x="1602" y="667"/>
-      <point x="1602" y="630" type="curve" smooth="yes"/>
-      <point x="1602" y="604"/>
-      <point x="1391" y="406"/>
+      <point x="1598" y="1009" type="line" smooth="yes"/>
+      <point x="1462" y="1009"/>
+      <point x="1397" y="860"/>
+      <point x="1397" y="794" type="curve" smooth="yes"/>
+      <point x="1397" y="669"/>
+      <point x="1582" y="667"/>
+      <point x="1582" y="630" type="curve" smooth="yes"/>
+      <point x="1582" y="604"/>
+      <point x="1371" y="406"/>
       <point x="987" y="406" type="curve" smooth="yes"/>
       <point x="782" y="406"/>
       <point x="575" y="431"/>
@@ -257,17 +258,17 @@
       <point x="502" y="405"/>
       <point x="717" y="256"/>
       <point x="950" y="256" type="curve" smooth="yes"/>
-      <point x="1441" y="256"/>
-      <point x="1633" y="537"/>
-      <point x="1633" y="669" type="curve" smooth="yes"/>
-      <point x="1633" y="767"/>
-      <point x="1444" y="781"/>
-      <point x="1444" y="823" type="curve" smooth="yes"/>
-      <point x="1444" y="831"/>
-      <point x="1458" y="841"/>
-      <point x="1529" y="841" type="curve" smooth="yes"/>
-      <point x="1638" y="841" type="line" smooth="yes"/>
-      <point x="1735" y="841"/>
+      <point x="1421" y="256"/>
+      <point x="1613" y="537"/>
+      <point x="1613" y="669" type="curve" smooth="yes"/>
+      <point x="1613" y="767"/>
+      <point x="1424" y="781"/>
+      <point x="1424" y="823" type="curve" smooth="yes"/>
+      <point x="1424" y="831"/>
+      <point x="1438" y="841"/>
+      <point x="1509" y="841" type="curve" smooth="yes"/>
+      <point x="1618" y="841" type="line" smooth="yes"/>
+      <point x="1715" y="841"/>
       <point x="1799" y="980"/>
       <point x="1799" y="1094" type="curve"/>
       <point x="1782" y="1093" type="line"/>
@@ -304,9 +305,9 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCCCCCCCCCCCCCCCCCCCCCCCPPPPPPP</string>
+      <string>CCCCCCCCCCCCCCCCCCCCCCCCCPPPPPPP</string>
       <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>
