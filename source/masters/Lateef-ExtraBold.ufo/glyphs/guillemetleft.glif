@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guillemetleft" format="2">
-  <advance width="514"/>
+  <advance width="664"/>
   <unicode hex="00AB"/>
-  <guideline x="241" y="-82" angle="127.0885"/>
+  <guideline x="291" y="-82" angle="127.0885"/>
   <outline>
-    <component base="guilsinglleft" xOffset="194" yOffset="-22"/>
+    <component base="guilsinglleft" xOffset="244" yOffset="-22"/>
     <contour>
-      <point x="191" y="-127" type="curve"/>
-      <point x="306" y="-39" type="line"/>
-      <point x="89" y="179"/>
-      <point x="93" y="477"/>
-      <point x="310" y="695" type="curve"/>
-      <point x="241" y="746" type="line"/>
-      <point x="4" y="496"/>
-      <point x="-50" y="123"/>
+      <point x="241" y="-127" type="curve"/>
+      <point x="356" y="-39" type="line"/>
+      <point x="139" y="179"/>
+      <point x="143" y="477"/>
+      <point x="360" y="695" type="curve"/>
+      <point x="291" y="746" type="line"/>
+      <point x="54" y="496"/>
+      <point x="0" y="123"/>
     </contour>
   </outline>
   <lib>
