@@ -44,7 +44,7 @@ For detailed documentation see the contents of the 'documentation' folder.
 ---------
 (This should list both major and minor changes, most recent first.)
 
-### 2024-xx-xx (SIL WSTech team) Lateef version 4.xxx
+### 2024-xx-xx (SIL WSTech team) Lateef version 4.300
 
 #### New
 
@@ -54,9 +54,13 @@ For detailed documentation see the contents of the 'documentation' folder.
   - FD41 ARABIC LIGATURE RADI ALLAAHU ANH
   - FD43 ARABIC LIGATURE RADI ALLAAHU ANHUM
   - FD44 ARABIC LIGATURE RADI ALLAAHU ANHUMAA
+  - FD46 ARABIC LIGATURE SALLALLAAHU ALAYHI WA-AALIH
   - FD45 ARABIC LIGATURE RADI ALLAAHU ANHUNNA
   - FD48 ARABIC LIGATURE ALAYHIM AS-SALAAM
   - FD49 ARABIC LIGATURE ALAYHIMAA AS-SALAAM
+  - FD4A ARABIC LIGATURE ALAYHI AS-SALAATU WAS-SALAAM
+  - FD4B ARABIC LIGATURE QUDDISA SIRRAH
+  - FD4F ARABIC LIGATURE RAHIMAHUM ALLAAH
   - FD4D ARABIC LIGATURE ALAYHAA AS-SALAAM
   - FDFE ARABIC LIGATURE SUBHAANAHU WA TAAALAA
   - FDFF ARABIC LIGATURE AZZA WA JALL
@@ -65,6 +69,12 @@ For detailed documentation see the contents of the 'documentation' folder.
   - 10EC4 ARABIC LETTER KAF WITH TWO DOTS VERTICALLY BELOW
   - 10EFC ARABIC COMBINING ALEF OVERLAY
   - Added support for Kashmiri language
+  - Added facility to override default language behavior through feature selection
+  - Added support for cv76 (dagger alef) on space, nbspace, and tatweel
+
+#### Improved
+- Enlarged Arabic-style guillemet quotes
+- Enhanced positioning of U+06E2 ARABIC SMALL HIGH MEEM ISOLATED FORM next to adjacent vowel marks
 
 ### 2023-08-28 (SIL WSTech team) Lateef version 4.200
 
