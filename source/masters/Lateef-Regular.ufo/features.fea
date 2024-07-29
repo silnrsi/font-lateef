@@ -3268,7 +3268,11 @@ feature liga {
     # Must execute after language-specific CALTs and cv62
     lookup DaggerAlefFixup;
     # Must execute after language-specific CALTs and cv76
-    
+            lookup YehBarreeToWideAlways;
+        # Must execute after language-specific CALTs and cv48
+        lookup YehBarreeToWideWithMarks;
+        # Must execute after language-specific CALTs and cv48
+
     lookup SignWithDigits;
     lookup LamAlefLigatures;
     # Must execute after all mark ligatures (including cv62)
