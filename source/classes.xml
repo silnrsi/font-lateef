@@ -850,4 +850,44 @@ of the license along with this Font Software. If this is not the case, go to
         rehTwodotsverticalabove-ar.fina rehHamzaabove-ar.fina rehVinvertedabove-ar.fina rehStroke-ar.fina rehLoop-ar.fina zainVinvertedabove-ar.fina
     </class>
 
+    <!-- YehBarree substitution -->
+
+    <!-- The next two classes provide context for when the final-form yehbarree glyphs should
+         use the .wide alternate in order to prevent its tail from hitting a preceding glyph -->
+
+    <!-- case 1: Always, i.e., whenever a yehbarree follows one of these (with or without any marks): -->
+    <class name="YehBarreeContextAlways">
+      peh-ar.init peh-ar.medi pehV-ar.init pehV-ar.medi beheh-ar.init beheh-ar.medi
+      behThreedotsupbelow-ar.init behThreedotsupbelow-ar.medi behTwodotsbelowDotabove-ar.init behTwodotsbelowDotabove-ar.medi
+      behVbelow-ar.init behVbelow-ar.medi pehMeemabove-ar.init behMeemabove-ar.medi
+      behThreedotshorizontalbelow-ar.init behThreedotshorizontalbelow-ar.medi
+      kehehThreedotsbelow-ar.init kehehThreedotsbelow-ar.medi kehehThreedotsupbelow-ar.init kehehThreedotsupbelow-ar.medi
+      kafThreedotsbelow-ar.init kafThreedotsbelow-ar.medi gafThreedotsbelow-ar.init gafThreedotsbelow-ar.medi
+      lamThreedotsbelow-ar.init lamThreedotsbelow-ar.medi noonThreedotsabove-ar.init noonThreedotsabove-ar.medi
+      noonTwodotsbelow-ar.init noonTowdotsbelow-ar.medi yeh-ar.init yeh-ar.medi yehVabove-ar.init yehVabove-ar.medi
+      yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowHamzaabove-ar.medi
+      yehTwodotsbelowDotabove-ar.init yehTwodotsbelowDotabove-ar.medi yehVinverted-farsi.init yehVinverted-farsi.medi
+      yeh-farsi.init yeh-farsi.medi yehTwodotsabove-farsi.init yehTwodotsabove-farsi.medi
+      yehThreedotsabove-farsi.init yehThreedotsabove-farsi.medi yehTwoabove-farsi.init yehTwoabove-farsi.medi
+      yehThreeabove-farsi.init yehThreeabove-farsi.medi yehFourbelow-farsi.init yehFourbelow-farsi.medi
+      yehKashmiri-ar.init yehKashmiri-ar.medi yehThreedotsbelow-ar.init yehThreedotsbelow-ar.medi
+      yehTwodotsbelowNoonabove-ar.init yehTwodotsbelowNoonabove-ar.medi yehbarreeTwoabove-ar.init yehbarreeTwoabove-ar.medi
+      yehbarreeThreeabove-ar.init yehbarreeThreeabove-ar.medi
+    </class>
+    <!-- OK? behVbelow-ar  yehFourbelow-farsi  yehKashmiri-ar -->
+
+    <class name="YehBarreeContextMarkBelow">
+      @YehBarreeContextAlways
+      teh-ar.init teh-ar.medi tehThreedotsdown-ar.init tehThreedotsdown-ar.medi
+      tehVabove-ar.init tehVabove-ar.medi theh-ar.init theh-ar.medi tteh-ar.init tteh-ar.medi
+      ttehVabove-ar.init ttehVabove-ar.medi tteheh-ar.init tteheh-ar.medi teheh-ar.init teheh-ar.medi
+      behVabove-ar.init behVabove-ar.medi tehTehabove-ar.init tehTehabove-ar.medi noon-ar.init noon-ar.medi
+      rnoon-ar.init rnoon-ar.medi noonghunna-ar.init noonghunna-ar.medi
+      noonThreedotsabove-ar.init noonThreedotsabove-ar.medi noonTahabove-ar.init noonTahabove-ar.medi
+      noonVabove-ar.init noonVabove.medi noonVinvertedabove-ar.init noonVinvertedabove-ar.medi
+      lam-ar.init lam-ar.medi lamVabove-ar.init lamVabove-ar.medi lamDotabove-ar.init lamDotabove-ar.medi
+      lamThreedotsabove-ar.init lamThreedotsabove-ar.medi lamTahabove-ar.init lamTahabove-ar.medi
+      lamBar-ar.init lamBar-ar.medi
+    </class>
+
 </classes>

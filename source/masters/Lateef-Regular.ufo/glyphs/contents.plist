@@ -3688,14 +3688,20 @@
   <string>yehbarree-ar.glif</string>
   <key>yehbarree-ar.fina</key>
   <string>yehbarree-ar.fina.glif</string>
+  <key>yehbarree-ar.fina.wide</key>
+  <string>yehbarree-ar.fina.wide.glif</string>
   <key>yehbarreeHamzaabove-ar</key>
   <string>yehbarreeH_amzaabove-ar.glif</string>
   <key>yehbarreeHamzaabove-ar.fina</key>
   <string>yehbarreeH_amzaabove-ar.fina.glif</string>
+  <key>yehbarreeHamzaabove-ar.fina.wide</key>
+  <string>yehbarreeH_amzaabove-ar.fina.wide.glif</string>
   <key>yehbarreeThreeabove-ar</key>
   <string>yehbarreeT_hreeabove-ar.glif</string>
   <key>yehbarreeThreeabove-ar.fina</key>
   <string>yehbarreeT_hreeabove-ar.fina.glif</string>
+  <key>yehbarreeThreeabove-ar.fina.wide</key>
+  <string>yehbarreeT_hreeabove-ar.fina.wide.glif</string>
   <key>yehbarreeThreeabove-ar.init</key>
   <string>yehbarreeT_hreeabove-ar.init.glif</string>
   <key>yehbarreeThreeabove-ar.medi</key>
@@ -3704,6 +3710,8 @@
   <string>yehbarreeT_woabove-ar.glif</string>
   <key>yehbarreeTwoabove-ar.fina</key>
   <string>yehbarreeT_woabove-ar.fina.glif</string>
+  <key>yehbarreeTwoabove-ar.fina.wide</key>
+  <string>yehbarreeT_woabove-ar.fina.wide.glif</string>
   <key>yehbarreeTwoabove-ar.init</key>
   <string>yehbarreeT_woabove-ar.init.glif</string>
   <key>yehbarreeTwoabove-ar.medi</key>

@@ -6,12 +6,12 @@
     <component base="alef-ar" xScale="0.6" yScale="0.7" xOffset="2227" yOffset="41"/>
     <component base="_strokeHead" xScale="0.6" yScale="0.6" xOffset="1996" yOffset="358"/>
     <component base="sad-ar.init" xScale="0.6" yScale="0.6" xOffset="1174" yOffset="-189"/>
-    <component base="_alef-ar.fina.postLamMed" xScale="0.81329" xyScale="0.25357" yxScale="-0.17777" yScale="0.84568" xOffset="523" yOffset="-249"/>
+    <component base="_alef-ar.fina.postLamMed" xScale="0.85755" xyScale="0.25357" yxScale="-0.17984" yScale="0.80142" xOffset="523" yOffset="-249"/>
     <component base="alef-ar" xScale="0.6" yScale="0.6" xOffset="2093" yOffset="697"/>
     <component base="heh-ar" xScale="0.6" yScale="0.6" xOffset="203" yOffset="-195"/>
     <component base="waw-ar" xScale="0.6" yScale="0.6" xOffset="2074" yOffset="991"/>
     <component base="_strokeHead" xScale="0.6" yScale="0.6" xOffset="1813" yOffset="925"/>
-    <component base="_alef-ar.fina.postLamMed" xScale="0.68305" xyScale="0.25357" yxScale="-0.24392" yScale="0.91788" xOffset="524" yOffset="240"/>
+    <component base="_alef-ar.fina.postLamMed" xScale="0.74485" xyScale="0.25357" yxScale="-0.20175" yScale="0.85608" xOffset="524" yOffset="240"/>
     <component base="meem-ar.sindhi" xScale="0.6" yScale="0.6" xOffset="1291" yOffset="1089"/>
     <component base="_dot2h.cal" xOffset="1463" yOffset="-927"/>
     <component base="_dot2h.cal" xOffset="162" yOffset="108"/>

@@ -1,5 +1,5 @@
 #**********************************
-# This file is part of Lateef font family (https://software.sil.org/lateef/) 
+# This file is part of Lateef font family (https://software.sil.org/lateef/)
 # and is Copyright (c) 2001-2024 SIL International (https://www.sil.org/),
 # with Reserved Font Names "Lateef" and "SIL".
 #
@@ -17,17 +17,13 @@
 #********
 # Yehbarree substitutions to prevent collisions -- must be after lang-specific CALTs and cv48
 
-#### TODO Will we use this?
-# Regardless, these are needed for compatibility with Harmattan.
-
 lookup YehBarreeToWideAlways {
-##   lookupflag IgnoreMarks ;
-##     sub @YehBarreeContextAlways                            @cno_wide' by @c_wide ;
+   lookupflag IgnoreMarks ;
+     sub @YehBarreeContextAlways                            @cno_wide' by @c_wide ;
 } YehBarreeToWideAlways ;
- 
-lookup YehBarreeToWideWithMarks {
-##   lookupflag UseMarkFilteringSet @MarksBelow;
-##     sub @YehBarreeContextMarkBelow @MarksBelow             @cno_wide' by @c_wide ;
-##     sub @YehBarreeContextMarkBelow @MarksBelow @MarksBelow @cno_wide' by @c_wide ;
-} YehBarreeToWideWithMarks ;
 
+lookup YehBarreeToWideWithMarks {
+   lookupflag UseMarkFilteringSet @MarksBelow;
+     sub @YehBarreeContextMarkBelow @MarksBelow             @cno_wide' by @c_wide ;
+     sub @YehBarreeContextMarkBelow @MarksBelow @MarksBelow @cno_wide' by @c_wide ;
+} YehBarreeToWideWithMarks ;
