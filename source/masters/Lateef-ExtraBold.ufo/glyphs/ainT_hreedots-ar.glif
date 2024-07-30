@@ -2,7 +2,7 @@
 <glyph name="ainThreedots-ar" format="2">
   <advance width="782"/>
   <unicode hex="06A0"/>
-  <anchor x="184" y="1243" name="diaA"/>
+  <anchor x="175" y="1275" name="diaA"/>
   <anchor x="273" y="-830" name="diaB"/>
   <outline>
     <component base="ain-ar"/>

@@ -265,10 +265,10 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass [ain-ar.fina ainThreedotsbelow-ar.fina] <anchor 406 701> @diaA;
 # baseClass [ain-ar.init ainThreedotsbelow-ar.init] <anchor 397 930> @diaA;
 # baseClass [ain-ar.medi ainThreedotsbelow-ar.medi] <anchor 363 740> @diaA;
-# baseClass ainThreedots-ar <anchor 184 1243> @diaA;
-# baseClass ainThreedots-ar.fina <anchor 304 1154> @diaA;
+# baseClass ainThreedots-ar <anchor 175 1275> @diaA;
+# baseClass ainThreedots-ar.fina <anchor 286 1207> @diaA;
 # baseClass ainThreedots-ar.init <anchor 316 1416> @diaA;
-# baseClass ainThreedots-ar.medi <anchor 313 1133> @diaA;
+# baseClass ainThreedots-ar.medi <anchor 295 1264> @diaA;
 # baseClass ainThreedotsdownabove-ar <anchor 188 1292> @diaA;
 # baseClass ainThreedotsdownabove-ar.fina <anchor 295 1231> @diaA;
 # baseClass ainThreedotsdownabove-ar.init <anchor 323 1474> @diaA;
@@ -3570,10 +3570,10 @@ lookup MarkToBase {
     pos base [ain-ar.fina ainThreedotsbelow-ar.fina] <anchor 406 701> mark @_diaA;
     pos base [ain-ar.init ainThreedotsbelow-ar.init] <anchor 397 930> mark @_diaA;
     pos base [ain-ar.medi ainThreedotsbelow-ar.medi] <anchor 363 740> mark @_diaA;
-    pos base ainThreedots-ar <anchor 184 1243> mark @_diaA;
-    pos base ainThreedots-ar.fina <anchor 304 1154> mark @_diaA;
+    pos base ainThreedots-ar <anchor 175 1275> mark @_diaA;
+    pos base ainThreedots-ar.fina <anchor 286 1207> mark @_diaA;
     pos base ainThreedots-ar.init <anchor 316 1416> mark @_diaA;
-    pos base ainThreedots-ar.medi <anchor 313 1133> mark @_diaA;
+    pos base ainThreedots-ar.medi <anchor 295 1264> mark @_diaA;
     pos base ainThreedotsdownabove-ar <anchor 188 1292> mark @_diaA;
     pos base ainThreedotsdownabove-ar.fina <anchor 295 1231> mark @_diaA;
     pos base ainThreedotsdownabove-ar.init <anchor 323 1474> mark @_diaA;
