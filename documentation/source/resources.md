@@ -10,13 +10,14 @@ Arabic script is a complex and difficult script, and this complexity is compound
 ## Requirements
 
 These fonts are supported by all major operating systems (macOS, Windows, Linux-based, iOS, and Android), however the extent of that support depends on the individual OS and application.
+
 ## Installation
 
 Install the fonts by decompressing the .zip archive and installing the fonts using the standard font installation process for .ttf (TrueType/OpenType) fonts for your platform. For additional tips see the help page on [Font installation](https://software.sil.org/fonts/installation).
 
 ## Keyboarding and character set support
 
-The Arabic script font packages do not include any keyboarding helps or utilities. If you cannot use the built-in keyboards of the operating system, you will need to install the appropriate keyboard and input method for the characters of the language you wish to use. If you want to enter characters that are not supported by any system keyboard, the [Keyman program](http://keyman.com/) can be helpful on Windows, macOS, Linux, Android and iOS systems. Also available for Windows is [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=102134). For other platforms, [XKB](http://www.x.org/wiki/XKB/) or [Ukelele](https://software.sil.org/ukelele/) can be helpful.
+The Arabic script font packages do not include any keyboarding helps or utilities. If you cannot use the built-in keyboards of the operating system, you will need to install the appropriate keyboard and input method for the characters of the language you wish to use. If you want to enter characters that are not supported by any system keyboard, the [Keyman program](http://keyman.com/) can be helpful on Windows, macOS, Linux, Android and iOS systems. Also available for Windows is [MSKLC](https://www.microsoft.com/en-us/download/details.aspx?id=102134). For other platforms, [XKB](https://www.x.org/wiki/XKB/) or [Ukelele](https://software.sil.org/ukelele/) can be helpful.
 
 If you want to enter characters that are not supported by any system keyboard, and to access the full Unicode range, we suggest you use gucharmap, kcharselect on Ubuntu or similar software. Another method of entering some symbols is provided by a few applications such as Adobe InDesign. They can display a glyph palette that shows all the glyphs (symbols) in a font and allow you to enter them by clicking on the glyph you want.
 

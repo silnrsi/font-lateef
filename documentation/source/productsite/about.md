@@ -1,7 +1,7 @@
 
 ## About this project
 
-Lateef is named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and poet. It is intended to be an appropriate style for use in Sindhi and other languages of the South Asian region. This release has been extended to cover the Unicode Arabic repertoire through Unicode 15.0.
+Lateef is named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and poet. It is intended to be an appropriate style for use in Sindhi and other languages of the South Asian region. This release has been extended to cover the Unicode Arabic repertoire through Unicode 16.0.
 
 For more information on the visual characteristics of the font see [Design](design).
 

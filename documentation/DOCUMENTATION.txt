@@ -23,9 +23,6 @@ the standard 2-letter codes used in html. Therefore, when generating pdf for
 features.md we temporarily replace the lang attributes with values that will 
 generate correct rendering (see `makedocs`).
 
-For two files, allah.pdf and sample.pdf, there are other problems when creating pdf 
-files, so we open the corresponding .html file in a browser and create the pdf manually. 
-
 There is also an issue with the product site generation of the tag for tnum and pnum 
 in features.md document. These tags need adding:
 [font id='lateefL-pnum-1' face='Lateef-Regular' bold='Lateef-Bold' size='160%' ltr=1 feats='pnum 1']
