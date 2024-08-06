@@ -190,7 +190,6 @@
 @cno_urdu = [four-persian seven-persian six-persian];
 @c_wide = [yehbarree-ar.fina.wide yehbarreeHamzaabove-ar.fina.wide yehbarreeThreeabove-ar.fina.wide yehbarreeTwoabove-ar.fina.wide];
 @cno_wide = [yehbarree-ar.fina yehbarreeHamzaabove-ar.fina yehbarreeThreeabove-ar.fina yehbarreeTwoabove-ar.fina];
-@dia2B = [];
 @public.kern1.four-ar = [four-ar four-persian.roh];
 @public.kern1.one-ar = [five-persian one-ar];
 @public.kern1.seven-ar = [seven-ar seven-persian];
@@ -4651,7 +4650,10 @@ lookup MarkToLig {
 # Scheherazade only: use the dia2B AP when you have two diacritics below a lam-alef.
 lookup _mark2_to_base {
     lookupflag 0;
-    
+            
+
+    # Class are not expanded recursively, so enumerate them. :-(
+    #   pos ligature @lam_alefHamzabelow-ar  @diaB_1 mark @_diaB  ligComponent @dia2B mark @_diaB;
 } _mark2_to_base;
 
 lookup LamAlefMark2Adjust {
@@ -5063,6 +5065,7 @@ feature mark {
     #        lookup AlefMark2BelowAfterLam;  -- obsolete, Har & Lateef
     # Force other languages to include Arabic script lookups
     language KIR;
+    language KSH;
     language KUR;
     language RHG;
     language SND;
