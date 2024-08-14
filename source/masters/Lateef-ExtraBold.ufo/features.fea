@@ -1492,7 +1492,7 @@ markClass wawbelow-ar <anchor 0 -295> @_diaB;
 markClass wordmaddabelow-ar <anchor 0 -115> @_diaB;
 
 # AP: _diaO
-markClass alefoverlay-ar <anchor 264 540> @_diaO;
+markClass alefoverlay-ar <anchor 274 550> @_diaO;
 
 # AP: L
 @L = [colontriangularmod];
@@ -1563,7 +1563,7 @@ markClass alefoverlay-ar <anchor 264 540> @_diaO;
 @diaO = [lam-ar lam-ar.fina lam-ar.init lam-ar.medi];
 # baseClass lam-ar <anchor 585 460> @diaO;
 # baseClass lam-ar.fina <anchor 558 640> @diaO;
-# baseClass lam-ar.init <anchor 255 550> @diaO;
+# baseClass lam-ar.init <anchor 255 565> @diaO;
 # baseClass lam-ar.medi <anchor 195 660> @diaO;
 
 # AP: temp_diaA_alefO
@@ -4525,7 +4525,7 @@ lookup MarkToBase {
     pos base yehthin-ar.medi <anchor 200 -370> mark @_diaB;
     pos base lam-ar <anchor 585 460> mark @_diaO;
     pos base lam-ar.fina <anchor 558 640> mark @_diaO;
-    pos base lam-ar.init <anchor 255 550> mark @_diaO;
+    pos base lam-ar.init <anchor 255 565> mark @_diaO;
     pos base lam-ar.medi <anchor 195 660> mark @_diaO;
 } MarkToBase;
 

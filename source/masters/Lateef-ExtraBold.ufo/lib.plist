@@ -159,12 +159,7 @@
     <string>/alayhimaaAsSalaam-ar/sallallaahuAlayhiWaAalih-ar/rahimahuAllaah-ar/rahimahumAllaah-ar</string>
     <string>/radiAllaahuAnh-ar/radiAllaahuAnhaa-ar/space/space/space/radiAllaahuAnhum-ar/space/space/space/space/radiAllaahuAnhumaa-ar/space/space/space/radiAllaahuAnhunna-ar</string>
     <string>/reh-ar.fina/ghain-ar.init/space/guilsinglleft/meem-ar.fina/lam-ar.init/beh-ar/guilsinglright/space/peh-ar.fina/jeem-ar.medi/lam-ar.init/space «/jeem-ar.fina/seen-ar.init/space/noon-ar »/space/guillemetleft.latn abc/guillemetright.latn</string>
-    <string>/yehbarree-ar.fina/noonThreedotsabove-ar.medi</string>
-    <string>/yehbarreeTwoabove-ar.fina</string>
-    <string>/yeh-ar.init/space/behThreedotshorizontalbelow-ar.init/space/yehbarree-ar.fina/behThreedotshorizontalbelow-ar.init</string>
-    <string>/yehbarree-ar.fina.wide</string>
-    <string>/yehbarree-ar.fina.wide/yehbarreeHamzaabove-ar.fina.wide/yehbarreeTwoabove-ar.fina.wide/yehbarreeThreeabove-ar.fina.wide</string>
-    <string>/yehbarree-ar.fina/hah-ar.medi</string>
+    <string>/alefoverlay-ar/space/space/lam-ar/lam-ar.fina/lam-ar.medi/lam-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>
