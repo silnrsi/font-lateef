@@ -401,15 +401,6 @@ of the license along with this Font Software. If this is not the case, go to
         wawHamzaabove-ar yehHamzaabove-ar hehHamzaabove-ar hehgoalHamzaabove-ar wawHamzaabove-ar.fina yehHamzaabove-ar.fina hehHamzaabove-ar.fina hehgoalHamzaabove-ar.fina yehHamzaabove-ar.medi hehgoalHamzaabove-ar.medi yehHamzaabove-ar.init hehgoalHamzaabove-ar.init
     </class>
 
-    <!-- UTR53 algorithm -->
-    <class name="MaddaPlain">
-    	madda-ar
-    </class>
-
-    <class name="MaddaInsert">
-      madda-ar
-    </class>
-
     <!--
     ===============================
     classes needed for subtending marks
