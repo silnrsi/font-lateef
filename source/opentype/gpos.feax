@@ -264,8 +264,8 @@ feature kern {  # Kerning
         lookup SubtendingMarks;
         lookup KernPairs;       # Lateef
 
-# Scheherazade lookups:
-do let f = info("familyName");
+	# Scheherazade lookups:
+	do let f = info("familyName");
    if f.find("Scheherazade New") != -1 and opt("nokern") != "yes"; {
    # start of kerning positioning
         lookup RehWawKerning1;  # a separate lookup to handle chains
