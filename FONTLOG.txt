@@ -78,6 +78,8 @@ For detailed documentation see the contents of the 'documentation' folder.
 - Enlarged Arabic-style guillemet quotes
 - Enhanced positioning of U+06E2 ARABIC SMALL HIGH MEEM ISOLATED FORM next to adjacent vowel marks
 - Improved positioning of final YEH BARREE characters when preceeded by a character with two or three nukat below
+- Improved alef+mark positioning to reduce collisions
+- Improved madda reordering to comply with UAX #53
 
 ### 2023-08-28 (SIL WSTech team) Lateef version 4.200
 

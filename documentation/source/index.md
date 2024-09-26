@@ -7,12 +7,13 @@ Thank you for your interest in the Lateef font. Lateef includes full support for
 
 This documentation is a set of HTML pages that can be viewed in any modern web browser. PDF versions of these pages are also provided. This content, plus download links and a contact form, are available from the [Lateef site](https://software.sil.org/lateef/).
 
-- [About](about.md) &mdash; Information about this project and SIL International
+- [About](about.md) &mdash; Information about this project and SIL Global
 - [Resources](resources.md) &mdash; Help with installation and use
 - [FAQ](faq.md) &mdash; Common questions and answers
 - [Design](design.md) &mdash; History and background of the design
 - [Character set support](charset.md) &mdash; Details of Unicode characters that are supported
 - [Type Sample](sample.md) &mdash; Type sample demonstrating all the characters in this font
+- [Honorific ligatures](honorifics.md) — Description of honorific ligature usage 
 - [Font features](features.md) &mdash; Using smart font features
 - [Rendering the Allah ligature](allah.md) &mdash; Special rules for rendering the Allah ligature
 - [Support](support.md) &mdash; How to get additional support
