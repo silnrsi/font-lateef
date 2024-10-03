@@ -1614,7 +1614,7 @@ markClass alefoverlay-ar <anchor 293 540> @_diaO;
 # baseClass [lamBar_alefWavyhamzabelow-ar.fina lamDotabove_alefWavyhamzabelow-ar.fina lamDoublebar_alefWavyhamzabelow-ar.fina lamTahabove_alefWavyhamzabelow-ar.fina lamThreedotsabove_alefWavyhamzabelow-ar.fina lamThreedotsbelow_alefWavyhamzabelow-ar.fina lamVabove_alefWavyhamzabelow-ar.fina lam_alefWavyhamzabelow-ar.fina] <anchor 356 -719> @diaB_2;
 #**********************************
 # This file is part of Lateef font family (https://software.sil.org/lateef/) 
-# and is Copyright (c) 2001-2024 SIL International (https://www.sil.org/),
+# and is Copyright (c) 2001-2024 SIL Global (https://www.sil.org/),
 # with Reserved Font Names "Lateef" and "SIL".
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -1625,7 +1625,7 @@ markClass alefoverlay-ar <anchor 293 540> @_diaO;
 #**********************************
 #**********************************
 #
-# Copyright (c) 1994-2024 SIL International  (https://www.sil.org)
+# Copyright (c) 1994-2024 SIL Global (https://www.sil.org)
 # Released under the MIT License (https://opensource.org/licenses/MIT)
 #
 #**********************************
@@ -2643,7 +2643,7 @@ lookup SignWithDigits {
 # Must be after lang-specific CALTs and cv48.
 #**********************************
 # This file is part of Lateef font family (https://software.sil.org/lateef/)
-# and is Copyright (c) 2001-2024 SIL International (https://www.sil.org/),
+# and is Copyright (c) 2001-2024 SIL Global (https://www.sil.org/),
 # with Reserved Font Names "Lateef" and "SIL".
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -3300,7 +3300,7 @@ feature liga {
     # end of do - Lateef
     #**********************************
     #
-    # Copyright (c) 1994-2024 SIL International  (https://www.sil.org)
+    # Copyright (c) 1994-2024 SIL Global (https://www.sil.org)
     # Released under the MIT License (https://opensource.org/licenses/MIT)
     #
     #**********************************
@@ -3311,7 +3311,7 @@ feature liga {
     # Collision-avoidance-based kerning
     #**********************************
     # This file is part of Lateef font family (https://software.sil.org/lateef/) 
-    # and is Copyright (c) 2001-2024 SIL International (https://www.sil.org/),
+    # and is Copyright (c) 2001-2024 SIL Global (https://www.sil.org/),
     # with Reserved Font Names "Lateef" and "SIL".
     #
     # This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -4998,7 +4998,7 @@ lookup SubtendingMarks {
 
 #**********************************
 # This file is part of Lateef font family (https://software.sil.org/lateef/) 
-# and is Copyright (c) 2001-2024 SIL International (https://www.sil.org/),
+# and is Copyright (c) 2001-2024 SIL Global (https://www.sil.org/),
 # with Reserved Font Names "Lateef" and "SIL".
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1.

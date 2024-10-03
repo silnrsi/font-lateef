@@ -7,7 +7,7 @@ fonts and any derivative works.
 
 These files are part of the Lateef font family 
 (https://software.sil.org/lateef/) and are 
-Copyright (c) 2001-2024 SIL International (https://www.sil.org/),
+Copyright (c) 2001-2024 SIL Global (https://www.sil.org/),
 with Reserved Font Names "Lateef" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License,

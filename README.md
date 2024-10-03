@@ -1,6 +1,6 @@
 # Lateef [![Build Status](https://build.palaso.org/app/rest/builds/buildType:Fonts_Lateef/statusIcon)](https://build.palaso.org/viewType.html?buildTypeId=Fonts_Lateef&guest=1)  
 
-Lateef is an extended Arabic script font designed by SIL International for modern Unicode-based systems.
+Lateef is an extended Arabic script font designed by SIL Global for modern Unicode-based systems.
 
 Named after Shah Abdul Lateef Bhitai, the famous Sindhi mystic and poet, this font is intended to be an appropriate style for use in Sindhi and other languages of the southern Asia.
 

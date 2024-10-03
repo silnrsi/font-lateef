@@ -44,7 +44,7 @@ For detailed documentation see the contents of the 'documentation' folder.
 
 The OFL prohibits the use of Reserved Font Names "Lateef" and "SIL" in
 the name of any font that is derived from the Original Version of 
-Lateef. However, SIL International (the Copyright Holder) grants 
+Lateef. However, SIL Global (the Copyright Holder) grants 
 through this separate written agreement the right to use the Reserved Font
 Names in any Modified Version of this font created by using TypeTuner as 
 long as the feature information contained in the Original Version is used, 
@@ -462,9 +462,9 @@ E: fonts@sil.org
 W: https://software.sil.org/wstech/
 D: SIL designer
 
-The Lateef project is maintained by SIL International.
+The Lateef project is maintained by SIL Global.
 
 For more information please visit the Lateef font page on 
-SIL International's website: https://software.sil.org/lateef/
+SIL Global's website: https://software.sil.org/lateef/
 
 

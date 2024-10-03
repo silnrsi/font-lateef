@@ -18,7 +18,7 @@ A number of glyph variations are accessible through font features
 available. 
 
 Lateef is released under the SIL Open Font License.
-Lateef is a trademark of SIL International.
+Lateef is a trademark of SIL Global.
 	
 See the OFL and OFL-FAQ for details of the SIL Open Font License.
 See the FONTLOG for information on this and previous releases.
@@ -93,7 +93,7 @@ OpenType.
 
 CONTACT
 ========
-For more information please visit the Lateef page on SIL International's
+For more information please visit the Lateef page on SIL Global's
 Computers and Writing systems website: https://software.sil.org/lateef
 
 Support through the website: https://software.sil.org/lateef/support

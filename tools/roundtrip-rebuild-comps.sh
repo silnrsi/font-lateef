@@ -1,6 +1,6 @@
 #!/bin/bash
-# Copyright (c) 2020-2022 SIL International  (https://www.sil.org)
-# Released under the MIT License (http://opensource.org/licenses/
+# Copyright (c) 2020-2024 SIL Global (https://www.sil.org)
+# Released under the MIT License (https://opensource.org/licenses/
 
 # Round-trip from Glyphs to UFO, rebuild composites, and convert from UFO back to Glyphs
 # 2020-11-04 pm

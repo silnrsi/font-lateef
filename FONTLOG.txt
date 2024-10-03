@@ -473,7 +473,7 @@ E: fonts@sil.org
 W: https://software.sil.org/wstech/
 D: SIL designer
 
-The Lateef project is maintained by SIL International.
+The Lateef project is maintained by SIL Global.
 
 For more information please visit the Lateef font page on 
-SIL International's website: https://software.sil.org/lateef/
+SIL Global's website: https://software.sil.org/lateef/
