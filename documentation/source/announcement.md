@@ -3,7 +3,7 @@ title: Lateef - Announcement
 fontversion: 4.300
 ---
 
-## Changes
+### Changes
 
 #### New
 
@@ -31,16 +31,19 @@ fontversion: 4.300
   - 10EFC ARABIC COMBINING ALEF OVERLAY
   - Added support for Kashmiri language
   - Added facility to override default language behavior through feature selection
-  - Added support for cv76 (dagger alef) on space, nbspace, and tatweel
+  - Added support for cv76 (dagger alef) on spacing characters and tatweel
 
 #### Improved
+
 - Enlarged Arabic-style guillemet quotes
 - Enhanced positioning of U+06E2 ARABIC SMALL HIGH MEEM ISOLATED FORM next to adjacent vowel marks
 - Improved positioning of final YEH BARREE characters when preceeded by a character with two or three nukat below
 - Improved alef+mark positioning to reduce collisions
 - Improved madda reordering to comply with UAX #53
+- Documentation enhancements
 
 #### Known issues
+
 - Shaping for the newly added characters may not yet occur in applications.
 - Medial and final high hamza characters may have collisions (these likely do not occur).
 - Lam + high hamza alef ligature does not form as it likely does not occur.
