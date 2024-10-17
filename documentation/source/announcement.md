@@ -3,7 +3,11 @@ title: Lateef - Announcement
 fontversion: 4.300
 ---
 
+We are very pleased to announce a new release of Lateef, a font intended to be an appropriate style for use in Sindhi and other languages of the South Asian region.
+
 ### Changes
+
+This release includes the following changes for this version:
 
 #### New
 
@@ -29,9 +33,9 @@ fontversion: 4.300
   - 10EC3 ARABIC LETTER TAH WITH TWO DOTS VERTICALLY BELOW
   - 10EC4 ARABIC LETTER KAF WITH TWO DOTS VERTICALLY BELOW
   - 10EFC ARABIC COMBINING ALEF OVERLAY
-  - Added support for Kashmiri language
-  - Added facility to override default language behavior through feature selection
-  - Added support for cv76 (dagger alef) on spacing characters and tatweel
+- Added support for Kashmiri language
+- Added facility to override default language behavior through feature selection
+- Added support for cv76 (dagger alef) on spacing characters and tatweel
 
 #### Improved
 
@@ -49,4 +53,6 @@ fontversion: 4.300
 - Lam + high hamza alef ligature does not form as it likely does not occur.
 - In Word: kerning of Arabic proportional digits is incorrect. This is a bug in Word.
 - In InDesign: some behaviors, such as the _lam-alef_ ligature, raised _kasra_ with _shadda_, and subtending marks, will not function correctly unless **Ligatures** is turned on in the **Characters** panel.
+
+Both desktop and web fonts are provided in a single, all-platforms package on the [Download page](https://software.sil.org/lateef/download).
 

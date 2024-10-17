@@ -13,6 +13,8 @@ ALAYHIMAA AS-SALAAM | FD49 | <span class='lateef-R normal'>﵉ </span>  | Peace 
 ALAYHAA AS-SALAAM | FD4D | <span class='lateef-R normal'>﵍ </span>  | Peace be upon her.</br>(Used after the name of a woman who was the mother of a prophet.)
 ALAYHI AS-SALAATU WAS-SALAAM | FD4A | <span class='lateef-R normal'>﵊ </span> | Blessings and Peace be upon him.</br>(A lesser used honorific used after a prophet's or an Archangel's name.)
 
+ 
+
 Unicode Name</br>ARABIC LIGATURE... (for companions) | USV | Glyph | Meaning
 :------------- | :--- | :--- | :------------- 
 RADI ALLAAHU ANH | FD41 | <span class='lateef-R normal'>﵁ </span>  | May God be pleased with him.</br>(Used for companions of the prophet.)
@@ -21,10 +23,13 @@ RADI ALLAAHU ANHUM | FD43 | <span class='lateef-R normal'>﵃ </span> | May God 
 RADI ALLAAHU ANHUMAA | FD44 | <span class='lateef-R normal'>﵄ </span> | May God be pleased with them (both).</br>(Used for companions of the prophet.)
 RADI ALLAAHU ANHUNNA | FD45 | <span class='lateef-R normal'>﵅ </span>  | May God be pleased with them (feminine).</br>(Used for companions of the prophet.)
 
+
+
 Unicode Name</br>ARABIC LIGATURE... (for saints) | USV | Glyph | Meaning
 :------------- | :--- | :--- | :------------- 
 RAHIMAHU ALLAAH | FD40 | <span class='lateef-R normal'>﵀</span>  | May God have mercy upon him.</br>(Used for companions of the prophet or other widely recognized scholars. Can be for any believer who has passed away.)
 RAHIMAHUM ALLAAH | FD4F | <span class='lateef-R normal'>﵏ </span>  | God have mercy upon them (masculine).</br>(Used for widely recognized scholars. Also used for ordinary believers.)
+
 
 
 Unicode Name</br>ARABIC LIGATURE... | USV | Glyph | Meaning

@@ -1,5 +1,5 @@
 
-### 2024-xx-xx (SIL WSTech team) Lateef version 4.300
+### 2024-10-21 (SIL WSTech team) Lateef version 4.300
 
 #### New
 
@@ -25,16 +25,18 @@
   - 10EC3 ARABIC LETTER TAH WITH TWO DOTS VERTICALLY BELOW
   - 10EC4 ARABIC LETTER KAF WITH TWO DOTS VERTICALLY BELOW
   - 10EFC ARABIC COMBINING ALEF OVERLAY
-  - Added support for Kashmiri language
-  - Added facility to override default language behavior through feature selection
-  - Added support for cv76 (dagger alef) on space, nbspace, and tatweel
+- Added support for Kashmiri language
+- Added facility to override default language behavior through feature selection
+- Added support for cv76 (dagger alef) on spacing characters and tatweel
 
 #### Improved
+
 - Enlarged Arabic-style guillemet quotes
 - Enhanced positioning of U+06E2 ARABIC SMALL HIGH MEEM ISOLATED FORM next to adjacent vowel marks
 - Improved positioning of final YEH BARREE characters when preceeded by a character with two or three nukat below
 - Improved alef+mark positioning to reduce collisions
 - Improved madda reordering to comply with UAX #53
+- Documentation enhancements
 
 ### 2023-08-28 (SIL WSTech team) Lateef version 4.200
 

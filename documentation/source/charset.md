@@ -12,7 +12,7 @@ The Lateef font contains complete coverage of all the characters defined in Unic
 The following character ranges are supported by this font:
 
 Unicode block | Lateef support
-------------- | ---------------
+:------------- | :---------------
 Arabic 	| ✓
 Arabic Supplement | ✓
 Arabic Extended-A | ✓ 

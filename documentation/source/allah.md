@@ -20,7 +20,7 @@ Starting with v2.000, Lateef provides the special rendering for sequences of Ara
 To disable the special ligature, insert a zero-width joiner character (200D) somewhere in the sequence.
 
 Characters | → | Glyph | Comment
----------- | - | ----  | -------
+:---------- | :- | :----  | :-------
 <span class='lateefL-R normal'>&#x202d;&#x0627; + &#x0644; + &#x0644; + &#x0647;</span> | → | <span dir="rtl" class='lateef-R normal'> الله	</span> | Ligature is formed (U+0647)
 <span class='lateefL-R normal'>&#x202d;&#x0627; + &#x0644; + &#x0644; + &#x06c1;</span> | → | <span dir="rtl" class='lateef-R normal'>اللہ	</span> | Ligature is formed (U+06C1)
 <span class='lateefL-R normal'>&#x202d;&#x0671; + &#x0644; + &#x0644; + &#x0651; + &#x0647;</span> | → | <span dir="rtl" class='lateef-R normal'> ٱللّه </span> | Ligature is formed
