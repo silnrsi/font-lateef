@@ -32,7 +32,7 @@ The Lateef project can be built from source using [smith](https://github.com/sil
 This project implements two additional `smith build` options that are useful during development:
 
 - `--regOnly` -- build only the Regular weight instead of all weights
-- `--norename` -- do not rename glyphs in the output font files. 
+- `--norename` -- keep the working names for glyphs rather than change them to production names
 
 ### Adding characters
 
