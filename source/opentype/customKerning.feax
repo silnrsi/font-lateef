@@ -21,85 +21,85 @@
 @AlefDigitAbove = [alefTwoabove-ar alefThreeabove-ar alefTwoabove-ar.fina alefThreeabove-ar.fina];
 
 lookup AlefMarksAbove {
-	# general rules
-		lookupflag UseMarkFilteringSet @MarksAbove;
-		
-		# madda + wasla
-		
-		pos @AlefPlain' <150 0 150 0> @MaddaPlain             alefWasla-ar;
-		pos @AlefPlain' <150 0 150 0> @MaddaPlain @MarksAbove alefWasla-ar;
-		
-		pos @AlefWasla' <140 0 140 0> @AlefAll @MaddaPlain;
-		
-		pos @LamAlefWaslaLig' <180 0 180 0>             @AlefIso             @MaddaPlain;
-		pos @LamAlefWaslaLig' <180 0 180 0>             @AlefIso @MarksAbove @MaddaPlain;
-		pos @LamAlefWaslaLig' <180 0 180 0> @MarksAbove @AlefIso             @MaddaPlain;
-		pos @LamAlefWaslaLig' <180 0 180 0> @MarksAbove @AlefIso @MarksAbove @MaddaPlain;
-		
-		# madda - wider, needs more space than hamza, fatha, etc below
-		
-		pos @AlefPlain' <120 0 120 0>             @MaddaPlain @AlefLamIsoInit @MarksAbove;
-		pos @AlefPlain' <120 0 120 0> @MarksAbove @MaddaPlain @AlefLamIsoInit @MarksAbove;
-		
-		pos @AlefPlain' <121 0 121 0>             @MaddaPlain @AlefLamWUpperComposed;
-		pos @AlefPlain' <121 0 121 0> @MarksAbove @MaddaPlain @AlefLamWUpperComposed;
+  # general rules
+    lookupflag UseMarkFilteringSet @MarksAbove;
+    
+    # madda + wasla
+    
+    pos @AlefPlain' <150 0 150 0> @MaddaPlain             alefWasla-ar;
+    pos @AlefPlain' <150 0 150 0> @MaddaPlain @MarksAbove alefWasla-ar;
+    
+    pos @AlefWasla' <140 0 140 0> @AlefAll @MaddaPlain;
+    
+    pos @LamAlefWaslaLig' <180 0 180 0>             @AlefIso             @MaddaPlain;
+    pos @LamAlefWaslaLig' <180 0 180 0>             @AlefIso @MarksAbove @MaddaPlain;
+    pos @LamAlefWaslaLig' <180 0 180 0> @MarksAbove @AlefIso             @MaddaPlain;
+    pos @LamAlefWaslaLig' <180 0 180 0> @MarksAbove @AlefIso @MarksAbove @MaddaPlain;
+    
+    # madda - wider, needs more space than hamza, fatha, etc below
+    
+    pos @AlefPlain' <120 0 120 0>             @MaddaPlain @AlefLamIsoInit @MarksAbove;
+    pos @AlefPlain' <120 0 120 0> @MarksAbove @MaddaPlain @AlefLamIsoInit @MarksAbove;
+    
+    pos @AlefPlain' <121 0 121 0>             @MaddaPlain @AlefLamWUpperComposed;
+    pos @AlefPlain' <121 0 121 0> @MarksAbove @MaddaPlain @AlefLamWUpperComposed;
 
 ifinfo(styleName, "Light|Regular|Medium") {
-		# madda + madda needs a little more:
-		pos @AllLamAlefLig' <275 0 275 0>             @MaddaPlain @AlefLamBehWUpper @MaddaPlain;
-		pos @AllLamAlefLig' <275 0 275 0> @MarksAbove @MaddaPlain @AlefLamBehWUpper @MaddaPlain;
+    # madda + madda needs a little more:
+    pos @AllLamAlefLig' <275 0 275 0>             @MaddaPlain @AlefLamBehWUpper @MaddaPlain;
+    pos @AllLamAlefLig' <275 0 275 0> @MarksAbove @MaddaPlain @AlefLamBehWUpper @MaddaPlain;
 
-		pos @AllLamAlefLig' <240 0 240 0>             @MaddaPlain @AlefLamBehWUpper @MarksAbove;
-		pos @AllLamAlefLig' <240 0 240 0> @MarksAbove @MaddaPlain @AlefLamBehWUpper @MarksAbove;
-			
-		pos @AllLamAlefLig' <241 0 241 0>             @MaddaPlain @AlefLamWUpperComposed;
-		pos @AllLamAlefLig' <241 0 241 0> @MarksAbove @MaddaPlain @AlefLamWUpperComposed;
+    pos @AllLamAlefLig' <240 0 240 0>             @MaddaPlain @AlefLamBehWUpper @MarksAbove;
+    pos @AllLamAlefLig' <240 0 240 0> @MarksAbove @MaddaPlain @AlefLamBehWUpper @MarksAbove;
+      
+    pos @AllLamAlefLig' <241 0 241 0>             @MaddaPlain @AlefLamWUpperComposed;
+    pos @AllLamAlefLig' <241 0 241 0> @MarksAbove @MaddaPlain @AlefLamWUpperComposed;
 }
 ifinfo(styleName, "Bold") {
-		# madda + madda needs a little more:
-		pos @AllLamAlefLig' <300 0 300 0>             @MaddaPlain @AlefLamBehWUpper @MaddaPlain;
-		pos @AllLamAlefLig' <300 0 300 0> @MarksAbove @MaddaPlain @AlefLamBehWUpper @MaddaPlain;
+    # madda + madda needs a little more:
+    pos @AllLamAlefLig' <300 0 300 0>             @MaddaPlain @AlefLamBehWUpper @MaddaPlain;
+    pos @AllLamAlefLig' <300 0 300 0> @MarksAbove @MaddaPlain @AlefLamBehWUpper @MaddaPlain;
 
-		pos @AllLamAlefLig' <315 0 315 0>             @MaddaPlain @AlefLamBehWUpper @MarksAbove;
-		pos @AllLamAlefLig' <315 0 315 0> @MarksAbove @MaddaPlain @AlefLamBehWUpper @MarksAbove;
-			
-		pos @AllLamAlefLig' <316 0 316 0>             @MaddaPlain @AlefLamWUpperComposed;
-		pos @AllLamAlefLig' <316 0 316 0> @MarksAbove @MaddaPlain @AlefLamWUpperComposed;
+    pos @AllLamAlefLig' <315 0 315 0>             @MaddaPlain @AlefLamBehWUpper @MarksAbove;
+    pos @AllLamAlefLig' <315 0 315 0> @MarksAbove @MaddaPlain @AlefLamBehWUpper @MarksAbove;
+      
+    pos @AllLamAlefLig' <316 0 316 0>             @MaddaPlain @AlefLamWUpperComposed;
+    pos @AllLamAlefLig' <316 0 316 0> @MarksAbove @MaddaPlain @AlefLamWUpperComposed;
 }
 
-		# wasla - composed and needs more space
-		
-		pos @AlefWasla' <100 0 100 0>             @AlefLamIsoInit @MarksAbove;
-		pos @AlefWasla' <100 0 100 0> @MarksAbove @AlefLamIsoInit @MarksAbove;
-		
-		pos @AlefWasla' <101 0 101 0>             @AlefLamWUpperComposed;
-		pos @AlefWasla' <101 0 101 0> @MarksAbove @AlefLamWUpperComposed;
-		
-		pos @LamAlefWaslaLig' <110 0 110 0>             @AlefLamBehWUpper @MarksAbove;
-		pos @LamAlefWaslaLig' <110 0 110 0> @MarksAbove @AlefLamBehWUpper @MarksAbove;
-		
-		pos @LamAlefWaslaLig' <111 0 111 0>             @AlefLamWUpperComposed;
-		pos @LamAlefWaslaLig' <111 0 111 0> @MarksAbove @AlefLamWUpperComposed;		
+    # wasla - composed and needs more space
+    
+    pos @AlefWasla' <100 0 100 0>             @AlefLamIsoInit @MarksAbove;
+    pos @AlefWasla' <100 0 100 0> @MarksAbove @AlefLamIsoInit @MarksAbove;
+    
+    pos @AlefWasla' <101 0 101 0>             @AlefLamWUpperComposed;
+    pos @AlefWasla' <101 0 101 0> @MarksAbove @AlefLamWUpperComposed;
+    
+    pos @LamAlefWaslaLig' <110 0 110 0>             @AlefLamBehWUpper @MarksAbove;
+    pos @LamAlefWaslaLig' <110 0 110 0> @MarksAbove @AlefLamBehWUpper @MarksAbove;
+    
+    pos @LamAlefWaslaLig' <111 0 111 0>             @AlefLamWUpperComposed;
+    pos @LamAlefWaslaLig' <111 0 111 0> @MarksAbove @AlefLamWUpperComposed;		
 
-		# other marks - Lateef doesn't need much
-		
-		pos @AlefDigitAbove' <175 0 175 0>             @AlefLamIsoInit @MarksAbove;
-		pos @AlefDigitAbove' <175 0 175 0> @MarksAbove @AlefLamIsoInit @MarksAbove;
-				
-		pos @AlefAll' <30 0 30 0> @MarksAbove             @AlefLamIsoInit @MarksAbove;
-		pos @AlefAll' <30 0 30 0> @MarksAbove @MarksAbove @AlefLamIsoInit @MarksAbove;
-		
-		pos @AlefAll' <30 0 30 0> @MarksAbove             @AlefLamWUpperComposed;
-		pos @AlefAll' <30 0 30 0> @MarksAbove @MarksAbove @AlefLamWUpperComposed;
-		
-		pos @AllLamAlefLig' <55 0 55 0> @MarksAbove             @AlefLamBehWUpper @MarksAbove;
-		pos @AllLamAlefLig' <55 0 55 0> @MarksAbove @MarksAbove @AlefLamBehWUpper @MarksAbove;
-		
-		pos @AllLamAlefLig' <56 0 56 0> @MarksAbove             @AlefLamWUpperComposed;
-		pos @AllLamAlefLig' <56 0 56 0> @MarksAbove @MarksAbove @AlefLamWUpperComposed;
-		
-		pos @AlefWUpperComposed' <54 0 54 0>             @AlefLamWUpperComposed;
-		pos @AlefWUpperComposed' <54 0 54 0> @MarksAbove @AlefLamWUpperComposed;
+    # other marks - Lateef doesn't need much
+    
+    pos @AlefDigitAbove' <175 0 175 0>             @AlefLamIsoInit @MarksAbove;
+    pos @AlefDigitAbove' <175 0 175 0> @MarksAbove @AlefLamIsoInit @MarksAbove;
+        
+    pos @AlefAll' <30 0 30 0> @MarksAbove             @AlefLamIsoInit @MarksAbove;
+    pos @AlefAll' <30 0 30 0> @MarksAbove @MarksAbove @AlefLamIsoInit @MarksAbove;
+    
+    pos @AlefAll' <30 0 30 0> @MarksAbove             @AlefLamWUpperComposed;
+    pos @AlefAll' <30 0 30 0> @MarksAbove @MarksAbove @AlefLamWUpperComposed;
+    
+    pos @AllLamAlefLig' <55 0 55 0> @MarksAbove             @AlefLamBehWUpper @MarksAbove;
+    pos @AllLamAlefLig' <55 0 55 0> @MarksAbove @MarksAbove @AlefLamBehWUpper @MarksAbove;
+    
+    pos @AllLamAlefLig' <56 0 56 0> @MarksAbove             @AlefLamWUpperComposed;
+    pos @AllLamAlefLig' <56 0 56 0> @MarksAbove @MarksAbove @AlefLamWUpperComposed;
+    
+    pos @AlefWUpperComposed' <54 0 54 0>             @AlefLamWUpperComposed;
+    pos @AlefWUpperComposed' <54 0 54 0> @MarksAbove @AlefLamWUpperComposed;
 
 } AlefMarksAbove;
 
@@ -242,3 +242,15 @@ lookup OldStyleKerning {
     pos [ @RehWawTighten @RehWawTightenMore ]' <-50 0 -50 0> @MarksBelow @MarksBelow [ @RehKernOtherMBwide ] ;
     
 } OldStyleKerning;
+
+lookup KernPairs {
+  lookupflag IgnoreMarks;
+    kernpairs;
+} KernPairs;
+
+
+feature kern {
+    lookup KernPairs;
+    lookup AlefMarksAbove;
+    lookup OldStyleKerning;
+} kern;

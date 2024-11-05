@@ -10,7 +10,17 @@
 # details including an FAQ.
 #**********************************
 
-# This file performs the mark shifting that is needed, e.g., for collision avoidance.
-# It must go after mark attachment.
+# Any project-specific mark attachment lookups go here
 
-# Right now there is none.
+# Increase vertical separation between maddah and fatha for sequences like:
+# alefMaddah + lam-initial + fatha (for all initial lam-like glyphs that have 
+# no nukta above) [ABS-2762]
+
+lookup RaiseMadda {
+  lookupflag 0;
+    pos [alef-ar alef-ar.fina] madda-ar' <0 -40 0 0 >  [lam-ar.init lamThreedotsbelow-ar.init lamBar-ar.init lamDoublebar-ar.init]' fatha-ar' <0 100 0 0>;
+} RaiseMadda ;
+
+feature mark {
+    lookup RaiseMadda ;
+} mark;
