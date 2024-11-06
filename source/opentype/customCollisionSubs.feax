@@ -10,12 +10,42 @@
 # details including an FAQ.
 #**********************************
 
-# Custom substitutions need to handle collsion avoidance, such a kashida insertion.
+# Project-specific substitutions needed, e.g. to handle collisions.
+
+
+#--- Proportional Figures: pnum feature ---
+
+lookup ProportionalFigures {
+  lookupflag IgnoreMarks ;
+    sub @cno_pnum by @c_pnum ;
+} ProportionalFigures ;
+
+
+feature pnum {  # Proportional figures
+    # default for arabic, select for latin:
+    lookup ProportionalFigures ;       # must execute after SignWithDigits
+} pnum ;
+
+
+# --- Tabular Figures: tnum feature ---
+
+lookup TabularFigures {
+  lookupflag IgnoreMarks ;
+    sub @cno_tnum by @c_tnum ;
+} TabularFigures ;
+
+
+feature tnum {  # Tabular figures
+    # default for latin, select for arabic:
+    lookup TabularFigures ;            # must execute after SignWithDigits
+} tnum ;
+
 
 #--- liga feature ---
 
 #********
 # Yehbarree substitutions to prevent collisions -- must be after lang-specific CALTs and cv48
+# (For more notes about this see liga feature code in gpos.feax )
 
 lookup YehBarreeToWideAlways {
    lookupflag IgnoreMarks ;
@@ -27,3 +57,10 @@ lookup YehBarreeToWideWithMarks {
      sub @YehBarreeContextMarkBelow @MarksBelow             @cno_wide' by @c_wide ;
      sub @YehBarreeContextMarkBelow @MarksBelow @MarksBelow @cno_wide' by @c_wide ;
 } YehBarreeToWideWithMarks ;
+
+
+feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cvXX
+    # Same for latin & arabic:
+        lookup YehBarreeToWideAlways;    # Must execute after language-specific CALTs and cv48
+        lookup YehBarreeToWideWithMarks; # Must execute after language-specific CALTs and cv48
+} liga ;

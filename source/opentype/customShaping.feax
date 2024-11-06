@@ -59,3 +59,8 @@
 ##   sub @cno_shrtail' lookup _shrtail @MarksAny @MarksAny @NarrowIni @MarksAbove @MarksAbove @MarksBelow ;
 ## } ShortTailRehWaw ;
 
+## feature calt {  # Contextual Alternates
+##     # Same for latin & arabic:
+##       lookup ShortTailRehWaw;   short-tail reh/waw variants disabled for now
+## } calt ;
+
