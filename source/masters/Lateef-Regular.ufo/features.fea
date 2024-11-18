@@ -2624,22 +2624,7 @@ lookup SignWithDigits {
     sub @DigitsAny' lookup _signDigits_ToSmall [disputedendofayah-ar]';
 } SignWithDigits;
 
-# Lateef only
-    # Proportional Figures: pnum
-    lookup ProportionalFigures {
-        lookupflag IgnoreMarks;
-        sub @cno_pnum by @c_pnum;
-    } ProportionalFigures;
-
-    # Tabular Figures: tnum
-    lookup TabularFigures {
-        lookupflag IgnoreMarks;
-        sub @cno_tnum by @c_tnum;
-    } TabularFigures;
-
-
-# Lateef
-# Must be after lang-specific CALTs and cv48.
+# Must be after lang-specific CALTs and cvXX.
 #**********************************
 # This file is part of Lateef font family (https://software.sil.org/lateef/)
 # and is Copyright (c) 2001-2024 SIL Global (https://www.sil.org/),
@@ -2651,10 +2636,37 @@ lookup SignWithDigits {
 # If this is not the case, go to (https://openfontlicense.org/) for all the
 # details including an FAQ.
 #**********************************
-# Custom substitutions need to handle collsion avoidance, such a kashida insertion.
+# Project-specific substitutions needed, e.g. to handle collisions.
+#--- Proportional Figures: pnum feature ---
+lookup ProportionalFigures {
+    lookupflag IgnoreMarks;
+    sub @cno_pnum by @c_pnum;
+} ProportionalFigures;
+
+feature pnum {
+    # Proportional figures
+    # default for arabic, select for latin:
+    lookup ProportionalFigures;
+    # must execute after SignWithDigits
+} pnum;
+
+# --- Tabular Figures: tnum feature ---
+lookup TabularFigures {
+    lookupflag IgnoreMarks;
+    sub @cno_tnum by @c_tnum;
+} TabularFigures;
+
+feature tnum {
+    # Tabular figures
+    # default for latin, select for arabic:
+    lookup TabularFigures;
+    # must execute after SignWithDigits
+} tnum;
+
 #--- liga feature ---
 #********
 # Yehbarree substitutions to prevent collisions -- must be after lang-specific CALTs and cv48
+# (For more notes about this see liga feature code in gpos.feax )
 lookup YehBarreeToWideAlways {
     lookupflag IgnoreMarks;
     sub @YehBarreeContextAlways @cno_wide' by @c_wide;
@@ -2666,6 +2678,14 @@ lookup YehBarreeToWideWithMarks {
     sub @YehBarreeContextMarkBelow @MarksBelow @MarksBelow @cno_wide' by @c_wide;
 } YehBarreeToWideWithMarks;
 
+feature liga {
+    # Ligatures  -- we use this because liga is done in the same pass as cvXX
+    # Same for latin & arabic:
+    lookup YehBarreeToWideAlways;
+    # Must execute after language-specific CALTs and cv48
+    lookup YehBarreeToWideWithMarks;
+    # Must execute after language-specific CALTs and cv48
+} liga;
 
 #**********************************
 #  GSUB FEATURES
@@ -2705,7 +2725,6 @@ feature ccmp {
     # Urdu
     language WLF;
     # Wolof
-    script latn;
 } ccmp;
 
 # feature locl (not used; see calt)
@@ -2786,14 +2805,6 @@ feature calt {
             lookup DaggerAlefToLarge;
 
     script arab;
-    # Sch only:
-            
-
-    # start of kerning substitutions
-    # end of kerning substitutions
-    
-            ## lookup ShortTailRehWaw;   short-tail reh/waw variants disabled for now
-
     # Force other languages to include Arabic script default rules plus some others:
     language KIR;
     # Kyrgyz
@@ -3266,22 +3277,15 @@ feature cv85 {
 # When rendered with Uniscribe or Word, cv62 is never executed [as of this writing, at any rate].
 # But we still need the ShaddaKasraLigatures lookup to fire. Presently Microsoft doesn't
 # fire clig, so liga must be the one to use!
-# Similarly, the yehbarree contextual substitution must execute after cv48, so they are
-# included in liga (with the lookups ordered after cv48)
 # Finally, the LamAlefLigatures must execute after we've ligated mark combinations, including shadda-kasra,
 # or otherwise Word gets confused and ligates shadda-kasra in a sequence such as lam-shadda-alef-kasra.
 feature liga {
-    # Ligatures  -- we use this because liga is done in the same pass as cv62
+    # Ligatures  -- we use this because liga is done in the same pass as cvXX
     # Same for latin & arabic:
     lookup ShaddaKasraLigatures;
     # Must execute after language-specific CALTs and cv62
     lookup DaggerAlefFixup;
     # Must execute after language-specific CALTs and cv76
-            lookup YehBarreeToWideAlways;
-        # Must execute after language-specific CALTs and cv48
-        lookup YehBarreeToWideWithMarks;
-        # Must execute after language-specific CALTs and cv48
-
     lookup SignWithDigits;
     lookup LamAlefLigatures;
     # Must execute after all mark ligatures (including cv62)
@@ -3289,58 +3293,41 @@ feature liga {
     # Must execute after lam-alef lig
 } liga;
 
-# Lateef only:
-    # Tabular figures
-    # default for latin, select for arabic:
-    # must execute after SignWithDigits
-    # Proportional figures
-    # default for arabic, select for latin:
-    # must execute after SignWithDigits
-    # end of do - Lateef
-    #**********************************
-    #
-    # Copyright (c) 1994-2024 SIL Global  (https://www.sil.org)
-    # Released under the MIT License (https://opensource.org/licenses/MIT)
-    #
-    #**********************************
-    # Three features are implemented: kern, mark, and mkmk. 
-    #
-    # As best we understand it, all shapers now work per the OT spec in regard to GPOS lookup order of 
-    # execution, namely that lookups for all enabled features are executed in one pass in lookup order.
-    #
-    # Note that prior to around September 2024, HarfBuzz executed mark attachment in a separate
-    # pass after all base adjustments, but this caused compatibility issues with CoreText and Uniscribe
-    # (see https://github.com/harfbuzz/harfbuzz/issues/4596)
-    # To make sure the newer Harfbuzz doesn't cause problems we now put all base-positioning lookups 
-    # (kern and, if we had it, curs) before any mark positioning lookups (mark, mkmk).
-    #**********************************
-    # GPOS (Positioning) lookups
-    #**********************************
-    #********************
-    # Base positioning (kerning) 
-    #**********************************
-    # This file is part of Lateef font family (https://software.sil.org/lateef/) 
-    # and is Copyright (c) 2001-2024 SIL Global (https://www.sil.org/),
-    # with Reserved Font Names "Lateef" and "SIL".
-    #
-    # This Font Software is licensed under the SIL Open Font License, Version 1.1.
-    #
-    # You should have received a copy of the license along with this Font Software.
-    # If this is not the case, go to (https://openfontlicense.org/) for all the
-    # details including an FAQ.
-    #**********************************
-    # Kerning of reh-like and waw-like, derived from LateefGR
-    # Whole lines begining with "#gr" are lines of code from LateefGR
-    # Fea code ending with "#gr" are derived from the preceeding graphite rule(s)
-        feature tnum {
-        lookup TabularFigures;
-    } tnum;
-
-        feature pnum {
-        lookup ProportionalFigures;
-    } pnum;
-
-
+#**********************************
+#
+# Copyright (c) 1994-2024 SIL Global  (https://www.sil.org)
+# Released under the MIT License (https://opensource.org/licenses/MIT)
+#
+#**********************************
+# Three features are implemented: kern, mark, and mkmk. 
+#
+# As best we understand it, all shapers now work per the OT spec in regard to GPOS lookup order of 
+# execution, namely that lookups for all enabled features are executed in one pass in lookup order.
+#
+# Note that prior to around September 2024, HarfBuzz executed mark attachment in a separate
+# pass after all base adjustments, but this caused compatibility issues with CoreText and Uniscribe
+# (see https://github.com/harfbuzz/harfbuzz/issues/4596)
+# To make sure the newer Harfbuzz doesn't cause problems we now put all base-positioning lookups 
+# (kern and, if we had it, curs) before any mark positioning lookups (mark, mkmk).
+#**********************************
+# GPOS (Positioning) lookups
+#**********************************
+#********************
+# Base positioning (kerning) 
+#**********************************
+# This file is part of Lateef font family (https://software.sil.org/lateef/) 
+# and is Copyright (c) 2001-2024 SIL Global (https://www.sil.org/),
+# with Reserved Font Names "Lateef" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (https://openfontlicense.org/) for all the
+# details including an FAQ.
+#**********************************
+# Kerning of reh-like and waw-like, derived from LateefGR
+# Whole lines begining with "#gr" are lines of code from LateefGR
+# Fea code ending with "#gr" are derived from the preceeding graphite rule(s)
 @AlefLamIsoInit = [@AlefIso @LamLikeIsolInit];
 @AlefLamBehWUpper = [@AlefIso @LamLikeIsolInit @BehLikeWAboveInit];
 @AlefDigitAbove = [alefTwoabove-ar alefThreeabove-ar alefTwoabove-ar.fina alefThreeabove-ar.fina];
@@ -3563,6 +3550,79 @@ lookup OldStyleKerning {
     pos [@RehWawTighten @RehWawTightenMore]' <-50 0 -50 0> @MarksBelow @MarksBelow [@RehKernOtherMBwide];
 } OldStyleKerning;
 
+lookup KernPairs {
+    lookupflag IgnoreMarks;
+    pos five-ar -50 six-persian;
+    pos six-persian -40 five-ar;
+    pos six-persian -80 five-persian;
+    enum pos eight-ar -190 @public.kern2.seven-ar;
+    enum pos eight-ar -170 @public.kern2.six-ar;
+    enum pos four-persian -180 @public.kern2.eight-ar;
+    enum pos four-persian.urdu -300 @public.kern2.eight-ar;
+    enum pos one-ar 0 @public.kern2.one-ar;
+    enum pos one-ar -20 @public.kern2.seven-ar;
+    enum pos one-ar -40 @public.kern2.six-ar;
+    pos five-ar -40 @public.kern2.eight-ar;
+    pos five-ar -50 @public.kern2.one-ar;
+    pos five-ar -60 @public.kern2.seven-ar;
+    pos five-ar -100 @public.kern2.six-ar;
+    pos six-persian -170 @public.kern2.eight-ar;
+    pos six-persian -60 @public.kern2.zero-ar;
+    pos @public.kern1.four-ar -40 four-persian.urdu;
+    pos @public.kern1.seven-ar -100 five-ar;
+    pos @public.kern1.seven-ar -100 five-persian;
+    pos @public.kern1.seven-ar -90 six-persian;
+    pos @public.kern1.seven-persian.urdu -30 five-ar;
+    pos @public.kern1.seven-persian.urdu -40 four-persian.urdu;
+    pos @public.kern1.six-ar -20 four-persian.urdu;
+    pos @public.kern1.three-ar -110 five-ar;
+    pos @public.kern1.three-ar -120 five-persian;
+    pos @public.kern1.three-ar -100 six-persian;
+    pos @public.kern1.two-ar -110 five-ar;
+    pos @public.kern1.two-ar -130 five-persian;
+    pos @public.kern1.two-ar -70 six-persian;
+    pos @public.kern1.zero-ar -70 six-persian;
+    pos @public.kern1.four-ar -90 @public.kern2.nine-ar;
+    pos @public.kern1.four-ar -100 @public.kern2.one-ar;
+    pos @public.kern1.four-ar -100 @public.kern2.seven-ar;
+    pos @public.kern1.four-ar -90 @public.kern2.six-ar;
+    pos @public.kern1.four-ar -110 @public.kern2.zero-ar;
+    pos @public.kern1.one-ar 0 @public.kern2.nine-ar;
+    pos @public.kern1.one-ar -30 @public.kern2.one-ar;
+    pos @public.kern1.one-ar -60 @public.kern2.seven-ar;
+    pos @public.kern1.one-ar -60 @public.kern2.six-ar;
+    pos @public.kern1.seven-ar -200 @public.kern2.eight-ar;
+    pos @public.kern1.seven-ar -20 @public.kern2.four-ar;
+    pos @public.kern1.seven-ar -120 @public.kern2.zero-ar;
+    pos @public.kern1.seven-persian.urdu -50 @public.kern2.four-ar;
+    pos @public.kern1.seven-persian.urdu -120 @public.kern2.nine-ar;
+    pos @public.kern1.seven-persian.urdu -130 @public.kern2.one-ar;
+    pos @public.kern1.seven-persian.urdu -140 @public.kern2.seven-ar;
+    pos @public.kern1.seven-persian.urdu -200 @public.kern2.six-ar;
+    pos @public.kern1.seven-persian.urdu -120 @public.kern2.zero-ar;
+    pos @public.kern1.six-ar -100 @public.kern2.nine-ar;
+    pos @public.kern1.six-ar -100 @public.kern2.one-ar;
+    pos @public.kern1.six-ar -80 @public.kern2.seven-ar;
+    pos @public.kern1.six-ar -60 @public.kern2.six-ar;
+    pos @public.kern1.six-ar -50 @public.kern2.zero-ar;
+    pos @public.kern1.three-ar -200 @public.kern2.eight-ar;
+    pos @public.kern1.three-ar -70 @public.kern2.four-ar;
+    pos @public.kern1.three-ar -160 @public.kern2.zero-ar;
+    pos @public.kern1.two-ar -160 @public.kern2.eight-ar;
+    pos @public.kern1.two-ar -40 @public.kern2.four-ar;
+    pos @public.kern1.two-ar -130 @public.kern2.zero-ar;
+    pos @public.kern1.zero-ar -100 @public.kern2.eight-ar;
+    pos @public.kern1.zero-ar -70 @public.kern2.one-ar;
+    pos @public.kern1.zero-ar -120 @public.kern2.seven-ar;
+    pos @public.kern1.zero-ar -170 @public.kern2.six-ar;
+} KernPairs;
+
+feature kern {
+    lookup KernPairs;
+    lookup AlefMarksAbove;
+    lookup OldStyleKerning;
+} kern;
+
 #********************
 # Subtending mark positioning
 # Would love to be able to do subtending marks as either cursive connection or mark attachment
@@ -3681,77 +3741,8 @@ lookup SubtendingMarks {
 
 } SubtendingMarks;
 
-# Lateef only; others have an empty lookup
-lookup KernPairs {
-    lookupflag IgnoreMarks;
-            pos five-ar -50 six-persian;
-        pos six-persian -40 five-ar;
-        pos six-persian -80 five-persian;
-        enum pos eight-ar -190 @public.kern2.seven-ar;
-        enum pos eight-ar -170 @public.kern2.six-ar;
-        enum pos four-persian -180 @public.kern2.eight-ar;
-        enum pos four-persian.urdu -300 @public.kern2.eight-ar;
-        enum pos one-ar 0 @public.kern2.one-ar;
-        enum pos one-ar -20 @public.kern2.seven-ar;
-        enum pos one-ar -40 @public.kern2.six-ar;
-        pos five-ar -40 @public.kern2.eight-ar;
-        pos five-ar -50 @public.kern2.one-ar;
-        pos five-ar -60 @public.kern2.seven-ar;
-        pos five-ar -100 @public.kern2.six-ar;
-        pos six-persian -170 @public.kern2.eight-ar;
-        pos six-persian -60 @public.kern2.zero-ar;
-        pos @public.kern1.four-ar -40 four-persian.urdu;
-        pos @public.kern1.seven-ar -100 five-ar;
-        pos @public.kern1.seven-ar -100 five-persian;
-        pos @public.kern1.seven-ar -90 six-persian;
-        pos @public.kern1.seven-persian.urdu -30 five-ar;
-        pos @public.kern1.seven-persian.urdu -40 four-persian.urdu;
-        pos @public.kern1.six-ar -20 four-persian.urdu;
-        pos @public.kern1.three-ar -110 five-ar;
-        pos @public.kern1.three-ar -120 five-persian;
-        pos @public.kern1.three-ar -100 six-persian;
-        pos @public.kern1.two-ar -110 five-ar;
-        pos @public.kern1.two-ar -130 five-persian;
-        pos @public.kern1.two-ar -70 six-persian;
-        pos @public.kern1.zero-ar -70 six-persian;
-        pos @public.kern1.four-ar -90 @public.kern2.nine-ar;
-        pos @public.kern1.four-ar -100 @public.kern2.one-ar;
-        pos @public.kern1.four-ar -100 @public.kern2.seven-ar;
-        pos @public.kern1.four-ar -90 @public.kern2.six-ar;
-        pos @public.kern1.four-ar -110 @public.kern2.zero-ar;
-        pos @public.kern1.one-ar 0 @public.kern2.nine-ar;
-        pos @public.kern1.one-ar -30 @public.kern2.one-ar;
-        pos @public.kern1.one-ar -60 @public.kern2.seven-ar;
-        pos @public.kern1.one-ar -60 @public.kern2.six-ar;
-        pos @public.kern1.seven-ar -200 @public.kern2.eight-ar;
-        pos @public.kern1.seven-ar -20 @public.kern2.four-ar;
-        pos @public.kern1.seven-ar -120 @public.kern2.zero-ar;
-        pos @public.kern1.seven-persian.urdu -50 @public.kern2.four-ar;
-        pos @public.kern1.seven-persian.urdu -120 @public.kern2.nine-ar;
-        pos @public.kern1.seven-persian.urdu -130 @public.kern2.one-ar;
-        pos @public.kern1.seven-persian.urdu -140 @public.kern2.seven-ar;
-        pos @public.kern1.seven-persian.urdu -200 @public.kern2.six-ar;
-        pos @public.kern1.seven-persian.urdu -120 @public.kern2.zero-ar;
-        pos @public.kern1.six-ar -100 @public.kern2.nine-ar;
-        pos @public.kern1.six-ar -100 @public.kern2.one-ar;
-        pos @public.kern1.six-ar -80 @public.kern2.seven-ar;
-        pos @public.kern1.six-ar -60 @public.kern2.six-ar;
-        pos @public.kern1.six-ar -50 @public.kern2.zero-ar;
-        pos @public.kern1.three-ar -200 @public.kern2.eight-ar;
-        pos @public.kern1.three-ar -70 @public.kern2.four-ar;
-        pos @public.kern1.three-ar -160 @public.kern2.zero-ar;
-        pos @public.kern1.two-ar -160 @public.kern2.eight-ar;
-        pos @public.kern1.two-ar -40 @public.kern2.four-ar;
-        pos @public.kern1.two-ar -130 @public.kern2.zero-ar;
-        pos @public.kern1.zero-ar -100 @public.kern2.eight-ar;
-        pos @public.kern1.zero-ar -70 @public.kern2.one-ar;
-        pos @public.kern1.zero-ar -120 @public.kern2.seven-ar;
-        pos @public.kern1.zero-ar -170 @public.kern2.six-ar;
-
-} KernPairs;
-
 #********************
-# Mark positioning
+# Mark-to-base positioning
 lookup MarkToBase {
     lookupflag 0;
     pos base [absAutoKashida kashida-ar kashidaTwobelow-ar] <anchor 114 700> mark @_diaA;
@@ -4903,19 +4894,30 @@ lookup MarkToLig {
     #             ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
 } MarkToLig;
 
-# Scheherazade only: use the dia2B AP when you have two diacritics below a lam-alef.
-lookup _mark2_to_base {
+#---  mark attach (cont'd)  ---
+#**********************************
+# This file is part of Lateef font family (https://software.sil.org/lateef/) 
+# and is Copyright (c) 2001-2024 SIL Global (https://www.sil.org/),
+# with Reserved Font Names "Lateef" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (https://openfontlicense.org/) for all the
+# details including an FAQ.
+#**********************************
+# Any project-specific mark attachment lookups go here
+# Increase vertical separation between maddah and fatha for sequences like:
+# alefMaddah + lam-initial + fatha (for all initial lam-like glyphs that have 
+# no nukta above) [ABS-2762]
+lookup RaiseMadda {
     lookupflag 0;
-            
+    pos [alef-ar alef-ar.fina] madda-ar' <0 -40 0 0> [lam-ar.init lamThreedotsbelow-ar.init lamBar-ar.init lamDoublebar-ar.init]' fatha-ar' <0 100 0 0>;
+} RaiseMadda;
 
-    # Class are not expanded recursively, so enumerate them. :-(
-    #   pos ligature @lam_alefHamzabelow-ar  @diaB_1 mark @_diaB  ligComponent @dia2B mark @_diaB;
-} _mark2_to_base;
-
-lookup LamAlefMark2Adjust {
-    lookupflag UseMarkFilteringSet @MarksBelow;
-    
-} LamAlefMark2Adjust;
+feature mark {
+    lookup RaiseMadda;
+} mark;
 
 #********************
 # Mark-to-mark attachment
@@ -5073,16 +5075,6 @@ lookup MarkToMarkBelow {
 #     #pos lamThreedotsbelow-ar.medi.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
 # } AlefMark2BelowAfterLam;
 #}    # end do - Harmattan
-# Lateef only; others have an empty lookup
-# Increase vertical separation between maddah and fatha for sequences like:
-# alefMaddah + lam-initial + fatha (for all initial lam-like glyphs that have 
-# no nukta above) [ABS-2762]
-lookup RaiseMadda {
-    lookupflag 0;
-            pos [alef-ar alef-ar.fina] madda-ar' <0 -40 0 0> [lam-ar.init lamThreedotsbelow-ar.init lamBar-ar.init lamDoublebar-ar.init]' fatha-ar' <0 100 0 0>;
-
-} RaiseMadda;
-
 #---  mark positioning (cont'd)  ---
 #**********************************
 # This file is part of Lateef font family (https://software.sil.org/lateef/) 
@@ -5095,7 +5087,8 @@ lookup RaiseMadda {
 # If this is not the case, go to (https://openfontlicense.org/) for all the
 # details including an FAQ.
 #**********************************
-# Any shifting that needs to happen (eg, for collision avoidance) goes in here.
+# This file performs the mark shifting that is needed, e.g., for collision avoidance.
+# It must go after mark attachment.
 # Right now there is none.
 #**********************************
 #  GPOS FEATURES
@@ -5104,27 +5097,6 @@ feature kern {
     # Kerning
     # Same behavior for latin & arabic:
     lookup SubtendingMarks;
-    lookup KernPairs;
-    # Lateef
-    # Scheherazade lookups:
-            
-
-    # start of kerning positioning
-    # a separate lookup to handle chains
-    # after mark attachment:
-    # SchNew and not nokern
-    # Lateef lookups:
-            # Lateef
-        # Harmattan:
-        lookup AlefMarksAbove;
-        lookup OldStyleKerning;
-
-            
-
-    # Arabic
-    # Graphite-based kerning
-    # Force other languages to include Arabic script lookups:
-    # Harmattan
 } kern;
 
 feature mark {
@@ -5132,13 +5104,9 @@ feature mark {
     # Same for latin & arabic:
     lookup MarkToBase;
     lookup AlefToBase;
-    lookup RaiseMadda;
-    # Lateef
     script arab;
     lookup MarkToLig;
-    lookup LamAlefMark2Adjust;
-    # empty except in Sch
-    #        lookup AlefMark2BelowAfterLam;  -- obsolete, Har & Lateef
+    #      lookup AlefMark2BelowAfterLam;  -- obsolete, Har & Lateef
     # Force other languages to include Arabic script lookups
     language KIR;
     language KSH;
