@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_ring" format="2">
+  <anchor x="0" y="-278" name="_above"/>
+  <anchor x="0" y="289" name="_below"/>
   <anchor x="-2" y="181" name="_ring"/>
   <outline>
     <contour>

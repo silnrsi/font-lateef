@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonbelow-ar" format="2">
+  <advance width="500"/>
+  <unicode hex="10EFB"/>
+  <anchor x="0" y="-147" name="_diaB"/>
+  <anchor x="5" y="-830" name="diaB"/>
+  <outline>
+    <component base="_noon" xOffset="26" yOffset="-1722"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.832,0.6,1,1</string>
+    </dict>
+  </lib>
+</glyph>

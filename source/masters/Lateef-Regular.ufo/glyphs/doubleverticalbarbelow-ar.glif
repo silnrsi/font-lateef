@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="doubleverticalbarbelow-ar" format="2">
+  <unicode hex="10EFA"/>
+  <anchor x="0" y="0" name="_diaB"/>
+  <anchor x="0" y="-423" name="diaB"/>
+  <outline>
+    <component base="_vline" xOffset="110" yOffset="-234"/>
+    <component base="_vline" xOffset="-105" yOffset="-234"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.832,0.6,1,1</string>
+    </dict>
+  </lib>
+</glyph>
