@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright (c) 2020-2024 SIL Global (https://www.sil.org)
+# Copyright (c) 2020-2025 SIL Global (https://www.sil.org)
 # Released under the MIT License (https://opensource.org/licenses/
 
 # Run from source/masters directory containing UFOs.
