@@ -37,6 +37,8 @@ if '--norename' not in opts:
 if '--autohint' in opts:
     # Note: in some fonts ttfautohint-generated hints don't maintain stroke thickness at joins; test thoroughly
     cmds.append(cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}'))
+else:
+    cmds.append(cmd('gftools fix-nonhinting --no-backup -q ${DEP} ${TGT}'))
 
 designspace('source/lateef.designspace',
     instanceparams='-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
