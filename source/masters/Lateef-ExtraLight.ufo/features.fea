@@ -2462,6 +2462,17 @@ lookup DecimalSepAlternate {
     sub @cno_slash by @c_slash;
 } DecimalSepAlternate;
 
+lookup GuillemetAlternate {
+    # cv88
+    lookupflag IgnoreMarks;
+    # NB: This is written so as to allow language-specific behavior to be overridden
+    # 0=default              1=Angled            2=Rounded
+    sub guillemetleft from [guillemetleft.latn guillemetleft];
+    sub guillemetright from [guillemetright.latn guillemetright];
+    sub guilsinglleft from [guilsinglleft.latn guilsinglleft];
+    sub guilsinglright from [guilsinglright.latn guilsinglright];
+} GuillemetAlternate;
+
 #---  liga feature  ---
 # Shadda+kasra handling - see notes with liga feature
 lookup ShaddaKasraLigatures {
@@ -2878,7 +2889,7 @@ feature salt {
     
 
 # English US
-# English US
+# English US &#x0628;&#x062F; &#x062F; &#x0628;&#x0630; &#x0630;
 ### ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; };
 # Force other languages to include Arabic script lookups:
 # end do - Sch or Har
@@ -2886,7 +2897,7 @@ feature salt {
 
 # Character Variant 20
 # English US
-# English US
+# "&#x0628;&#x0635; &#x0635; &#x0628;&#x0636; &#x0636;";  # English US
 ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
 # Arabic
 # Force other languages to include Arabic script lookups:
@@ -3447,6 +3458,38 @@ feature cv85 {
     # Same for latin & arabic:
     lookup DecimalSepAlternate;
 } cv85;
+
+feature cv88 {
+    # Character Variant 88
+        cvParameters {
+                FeatUILabelNameID {
+            name "Guillemet";
+        };
+
+                FeatUITooltipTextNameID {
+            name "Angled for Guillemet";
+            # English US (Rounded is default for Arabic)
+        };
+
+                SampleTextNameID {
+            name "«‹›»";
+            # English US x00AB x2039  x203A x00BB;
+        };
+
+        ### ParamUILabelNameID { name 3 1 0x0409 "Rounded"        ; };
+                ParamUILabelNameID {
+            name "Angled";
+        };
+
+                ParamUILabelNameID {
+            name "Default";
+        };
+
+    };
+
+    # Same for latin & arabic:
+    lookup GuillemetAlternate;
+} cv88;
 
 # In order for the cv62 lookup to function, we need to execute the ShaddaKasraLigatures in the
 # same or later pass as cv62 itself, and it has to execute whether or not cv62 feature is requested,
