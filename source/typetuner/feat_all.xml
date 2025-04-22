@@ -27,6 +27,9 @@
 		<value name="Kyrgyz" tag="Kyr">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KyrgyzCALT}"/>
 		</value>
+		<value name="Malay" tag="Mly">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {MalayCALT}"/>
+		</value>
 		<value name="Rohingya" tag="Rhg">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {RohingyaCALT}"/>
 		</value>
