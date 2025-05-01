@@ -2,16 +2,31 @@
 <?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
 <ftml version="1.0">
   <head>
-	  <fontscale>300</fontscale>
-	  <fontsrc>local(Scheherazade)</fontsrc>
-	  <fontsrc>local(Lateef)</fontsrc>
-    <fontsrc label="Lateef-OT">url(../results/Lateef-Regular.ttf)</fontsrc>
-	  <title>Latin Punctuation</title>
+	  <fontscale>200</fontscale>
+	  <fontsrc label="4.3">url(../references/v4.300/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="ref">url(../references/Lateef-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv88' 1" name="cv88_1"/>
+      <style feats="'cv88' 2" name="cv88_2"/>
+    </styles>
+    <title>Latin Punctuation</title>
+    <widths string="14em"/>
   </head>
   <testgroup label="main"> 
-    <test label="latn-ltr"><string><em>(</em>A bb<em>:</em> <em>“</em>Cc <em>‘</em>ddd<em>’!</em><em>”</em> ff ggg<em>*</em> hh.<em>)</em></string></test>
-    <test label="latn-rtl" rtl="True"><string><em>(</em>A bb<em>:</em> <em>“</em>Cc <em>‘</em>ddd<em>’!</em><em>”</em> ff ggg<em>*</em> hh.<em>)</em></string></test>
-    <test label="arab-ltr"><string><em>(</em>ا بب<em>:</em> <em>”</em>شش <em>’</em>ددد<em>‘!</em><em>“</em> فف گگگ<em>*</em> هه.<em>)</em></string></test>
-    <test label="arab-rtl" rtl="True"><string><em>(</em>ا بب<em>:</em> <em>”</em>شش <em>’</em>ددد<em>‘!</em><em>“</em> فف گگگ<em>*</em> هه.<em>)</em></string></test>
+    <test label="latn-ltr"                              ><string><em>(</em>A bb<em>:</em> <em>« “</em>Cc <em>‹ ‘</em>ddd<em>’ ›!</em><em>” »</em> ff <em>‟ ‛ ‚ „</em> ggg<em>*</em> hh.<em>)</em></string></test>
+    <test label="latn-rtl"                    rtl="True"><string><em>(</em>A bb<em>:</em> <em>« “</em>Cc <em>‹ ‘</em>ddd<em>’ ›!</em><em>” »</em> ff <em>‟ ‛ ‚ „</em> ggg<em>*</em> hh.<em>)</em></string></test>
+    <test label="arab-ltr"                              ><string><em>(</em>ا بب<em>:</em> <em>« ”</em>شش <em>‹ ’</em>ددد<em>‘ ›</em><em>“ »</em> فف  <em>‟ ‛ ‚ „</em> گگگ<em>*</em> هه.<em>)</em></string></test>
+    <test label="arab-rtl"                    rtl="True"><string><em>(</em>ا بب<em>:</em> <em>« ”</em>شش <em>‹ ’</em>ددد<em>‘ ›</em><em>“ »</em> فف  <em>‟ ‛ ‚ „</em> گگگ<em>*</em> هه.<em>)</em></string></test>
+    <test label="cv88=1 Angled"/>
+    <test label="latn-ltr" stylename="cv88_1"           ><string><em>(</em>A bb<em>:</em> <em>« “</em>Cc <em>‹ ‘</em>ddd<em>’ ›!</em><em>” »</em> ff <em>‟ ‛ ‚ „</em> ggg<em>*</em> hh.<em>)</em></string></test>
+    <test label="latn-rtl" stylename="cv88_1" rtl="True"><string><em>(</em>A bb<em>:</em> <em>« “</em>Cc <em>‹ ‘</em>ddd<em>’ ›!</em><em>” »</em> ff <em>‟ ‛ ‚ „</em> ggg<em>*</em> hh.<em>)</em></string></test>
+    <test label="arab-ltr" stylename="cv88_1"           ><string><em>(</em>ا بب<em>:</em> <em>« ”</em>شش <em>‹ ’</em>ددد<em>‘ ›</em><em>“ »</em> فف  <em>‟ ‛ ‚ „</em> گگگ<em>*</em> هه.<em>)</em></string></test>
+    <test label="arab-rtl" stylename="cv88_1" rtl="True"><string><em>(</em>ا بب<em>:</em> <em>« ”</em>شش <em>‹ ’</em>ددد<em>‘ ›</em><em>“ »</em> فف  <em>‟ ‛ ‚ „</em> گگگ<em>*</em> هه.<em>)</em></string></test>
+    <test label="cv88=2 Rounded"/>
+    <test label="latn-ltr" stylename="cv88_2"           ><string><em>(</em>A bb<em>:</em> <em>« “</em>Cc <em>‹ ‘</em>ddd<em>’ ›!</em><em>” »</em> ff <em>‟ ‛ ‚ „</em> ggg<em>*</em> hh.<em>)</em></string></test>
+    <test label="latn-rtl" stylename="cv88_2" rtl="True"><string><em>(</em>A bb<em>:</em> <em>« “</em>Cc <em>‹ ‘</em>ddd<em>’ ›!</em><em>” »</em> ff <em>‟ ‛ ‚ „</em> ggg<em>*</em> hh.<em>)</em></string></test>
+    <test label="arab-ltr" stylename="cv88_2"           ><string><em>(</em>ا بب<em>:</em> <em>« ”</em>شش <em>‹ ’</em>ددد<em>‘ ›</em><em>“ »</em> فف  <em>‟ ‛ ‚ „</em> گگگ<em>*</em> هه.<em>)</em></string></test>
+    <test label="arab-rtl" stylename="cv88_2" rtl="True"><string><em>(</em>ا بب<em>:</em> <em>« ”</em>شش <em>‹ ’</em>ددد<em>‘ ›</em><em>“ »</em> فف  <em>‟ ‛ ‚ „</em> گگگ<em>*</em> هه.<em>)</em></string></test>
   </testgroup>
 </ftml>
