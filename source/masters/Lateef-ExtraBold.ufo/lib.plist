@@ -144,7 +144,7 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3260</string>
+  <string>3414</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -159,13 +159,12 @@
     <string>/alayhimaaAsSalaam-ar/sallallaahuAlayhiWaAalih-ar/rahimahuAllaah-ar/rahimahumAllaah-ar</string>
     <string>/radiAllaahuAnh-ar/radiAllaahuAnhaa-ar/space/space/space/radiAllaahuAnhum-ar/space/space/space/space/radiAllaahuAnhumaa-ar/space/space/space/radiAllaahuAnhunna-ar</string>
     <string>/reh-ar.fina/ghain-ar.init/space/guilsinglleft/meem-ar.fina/lam-ar.init/beh-ar/guilsinglright/space/peh-ar.fina/jeem-ar.medi/lam-ar.init/space «/jeem-ar.fina/seen-ar.init/space/noon-ar »/space/guillemetleft.latn abc/guillemetright.latn</string>
-    <string>/yehbarree-ar.fina/noonThreedotsabove-ar.medi</string>
+    <string>/noon-ar/noonthin-ar/noon-ar.fina/noonthin-ar.fina/noon-ar.medi/noonthin-ar.medi/noon-ar.init/noonthin-ar.init/tah-ar/biblicalendofverse-ar/kaf-ar/space</string>
     <string>/yehbarreeTwoabove-ar.fina</string>
     <string>/yeh-ar.init/space/behThreedotshorizontalbelow-ar.init/space/yehbarree-ar.fina/behThreedotshorizontalbelow-ar.init</string>
     <string>/yehbarree-ar.fina.wide</string>
     <string>/yehbarree-ar.fina.wide/yehbarreeHamzaabove-ar.fina.wide/yehbarreeTwoabove-ar.fina.wide/yehbarreeThreeabove-ar.fina.wide</string>
     <string>/yehbarree-ar.fina/hah-ar.medi</string>
-    <string>/alayhiAsSalaatuWaSalaam-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>
@@ -173,8 +172,6 @@
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
-  <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
-  <string>SIL Global: Lateef Light: 2021</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
