@@ -9,13 +9,15 @@
     <title>Direction Test</title>
     <widths string="30%"/>
   </head>
-  <testgroup>
+  <testgroup label="Arabic">
     <test label="b-l-m  RTL" rtl="True">
       <string>\u0628\u0644\u0645</string>
     </test>
     <test label="b-l-m  LTR">
       <string>\u0628\u0644\u0645</string>
     </test>
+  </testgroup>
+  <testgroup label="Latin">
     <test label="Abc  RTL" rtl="True">
       <string>Abc</string>
     </test>
