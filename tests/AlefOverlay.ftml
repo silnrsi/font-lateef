@@ -3,7 +3,6 @@
 <ftml version="1.0">
   <head>
     <fontscale>200</fontscale>
-    <fontscale>250</fontscale>
     <fontsrc label="ref">url(../references/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ExLt">url(../results/Lateef-ExtraLight.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Lateef-Regular.ttf)</fontsrc>
