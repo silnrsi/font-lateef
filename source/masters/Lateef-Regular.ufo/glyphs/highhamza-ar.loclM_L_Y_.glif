@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="highhamza-ar.loclMLY" format="2">
   <advance width="582"/>
-  <anchor x="304" y="579" name="_above"/>
-  <anchor x="289" y="1201" name="_below"/>
+  <anchor x="289" y="1201" name="diaA"/>
+  <anchor x="304" y="579" name="diaB"/>
   <outline>
     <component base="_hamza" xScale="1.447" yScale="1.447" xOffset="332" yOffset="848"/>
   </outline>
