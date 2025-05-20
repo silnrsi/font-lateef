@@ -439,6 +439,10 @@
       <comment>ttehVabove-ar</comment>
       <string>\u000631\u0008C0\u00200D \u00200D\u000631\u0008C0\u00200D \u000631\u0008C0 \u00200D\u000631\u0008C0</string>
     </test>
+    <test label="U+0620">
+      <comment>yehKashmiri-ar</comment>
+      <string>\u000631\u000620\u00200D \u00200D\u000631\u000620\u00200D \u000631\u000620 \u00200D\u000631\u000620</string>
+    </test>
     <test label="U+0626">
       <comment>yehHamzaabove-ar</comment>
       <string>\u000631\u000626\u00200D \u00200D\u000631\u000626\u00200D \u000631\u000626 \u00200D\u000631\u000626</string>
@@ -503,6 +507,10 @@
       <comment>yehFourbelow-farsi</comment>
       <string>\u000631\u000777\u00200D \u00200D\u000631\u000777\u00200D \u000631\u000777 \u00200D\u000631\u000777</string>
     </test>
+    <test label="U+0886">
+      <comment>yehthin-ar</comment>
+      <string>\u000631\u000886\u00200D \u00200D\u000631\u000886\u00200D \u000631\u000886 \u00200D\u000631\u000886</string>
+    </test>
     <test label="U+08A8">
       <comment>yehTwodotsbelowHamzaabove-ar</comment>
       <string>\u000631\u0008A8\u00200D \u00200D\u000631\u0008A8\u00200D \u000631\u0008A8 \u00200D\u000631\u0008A8</string>
@@ -514,6 +522,10 @@
     <test label="U+08BA">
       <comment>yehTwodotsbelowNoonabove-ar</comment>
       <string>\u000631\u0008BA\u00200D \u00200D\u000631\u0008BA\u00200D \u000631\u0008BA \u00200D\u000631\u0008BA</string>
+    </test>
+    <test background="#ffc8a0" label="U+10EC7">
+      <comment>yehFourbelow-ar</comment>
+      <string>\u000631\u010EC7\u00200D \u00200D\u000631\u010EC7\u00200D \u000631\u010EC7 \u00200D\u000631\u010EC7</string>
     </test>
     <test label="U+0646">
       <comment>noon-ar</comment>
@@ -558,6 +570,10 @@
     <test label="U+08BD">
       <comment>noonAfrican-ar</comment>
       <string>\u000631\u0008BD\u00200D \u00200D\u000631\u0008BD\u00200D \u000631\u0008BD \u00200D\u000631\u0008BD</string>
+    </test>
+    <test background="#ffc8a0" label="U+10EC6">
+      <comment>noonthin-ar</comment>
+      <string>\u000631\u010EC6\u00200D \u00200D\u000631\u010EC6\u00200D \u000631\u010EC6 \u00200D\u000631\u010EC6</string>
     </test>
     <test label="U+06BD">
       <comment>noonThreedotsabove-ar</comment>
@@ -1299,14 +1315,6 @@
       <comment>wawStraight-ar</comment>
       <string>\u000631\u0008B1 \u00200D\u000631\u0008B1</string>
     </test>
-    <test label="U+0620">
-      <comment>yehKashmiri-ar</comment>
-      <string>\u000631\u000620\u00200D \u00200D\u000631\u000620\u00200D \u000631\u000620 \u00200D\u000631\u000620</string>
-    </test>
-    <test label="U+0886">
-      <comment>yehthin-ar</comment>
-      <string>\u000631\u000886\u00200D \u00200D\u000631\u000886\u00200D \u000631\u000886 \u00200D\u000631\u000886</string>
-    </test>
     <test label="U+088E">
       <comment>verticaltail-ar</comment>
       <string>\u000631\u00088E \u00200D\u000631\u00088E</string>
@@ -1314,14 +1322,6 @@
     <test label="U+FD3E">
       <comment>parenleft-ar</comment>
       <string>\u000631\u00FD3E \u00200D\u000631\u00FD3E</string>
-    </test>
-    <test background="#ffc8a0" label="U+10EC6">
-      <comment>noonthin-ar</comment>
-      <string>\u000631\u010EC6\u00200D \u00200D\u000631\u010EC6\u00200D \u000631\u010EC6 \u00200D\u000631\u010EC6</string>
-    </test>
-    <test background="#ffc8a0" label="U+10EC7">
-      <comment>yehFourbelow-ar</comment>
-      <string>\u000631\u010EC7\u00200D \u00200D\u000631\u010EC7\u00200D \u000631\u010EC7 \u00200D\u000631\u010EC7</string>
     </test>
   </testgroup>
   <testgroup label="Waw + all the others">
@@ -1585,6 +1585,10 @@
       <comment>ttehVabove-ar</comment>
       <string>\u000648\u0008C0\u00200D \u00200D\u000648\u0008C0\u00200D \u000648\u0008C0 \u00200D\u000648\u0008C0</string>
     </test>
+    <test label="U+0620">
+      <comment>yehKashmiri-ar</comment>
+      <string>\u000648\u000620\u00200D \u00200D\u000648\u000620\u00200D \u000648\u000620 \u00200D\u000648\u000620</string>
+    </test>
     <test label="U+0626">
       <comment>yehHamzaabove-ar</comment>
       <string>\u000648\u000626\u00200D \u00200D\u000648\u000626\u00200D \u000648\u000626 \u00200D\u000648\u000626</string>
@@ -1649,6 +1653,10 @@
       <comment>yehFourbelow-farsi</comment>
       <string>\u000648\u000777\u00200D \u00200D\u000648\u000777\u00200D \u000648\u000777 \u00200D\u000648\u000777</string>
     </test>
+    <test label="U+0886">
+      <comment>yehthin-ar</comment>
+      <string>\u000648\u000886\u00200D \u00200D\u000648\u000886\u00200D \u000648\u000886 \u00200D\u000648\u000886</string>
+    </test>
     <test label="U+08A8">
       <comment>yehTwodotsbelowHamzaabove-ar</comment>
       <string>\u000648\u0008A8\u00200D \u00200D\u000648\u0008A8\u00200D \u000648\u0008A8 \u00200D\u000648\u0008A8</string>
@@ -1660,6 +1668,10 @@
     <test label="U+08BA">
       <comment>yehTwodotsbelowNoonabove-ar</comment>
       <string>\u000648\u0008BA\u00200D \u00200D\u000648\u0008BA\u00200D \u000648\u0008BA \u00200D\u000648\u0008BA</string>
+    </test>
+    <test background="#ffc8a0" label="U+10EC7">
+      <comment>yehFourbelow-ar</comment>
+      <string>\u000648\u010EC7\u00200D \u00200D\u000648\u010EC7\u00200D \u000648\u010EC7 \u00200D\u000648\u010EC7</string>
     </test>
     <test label="U+0646">
       <comment>noon-ar</comment>
@@ -1704,6 +1716,10 @@
     <test label="U+08BD">
       <comment>noonAfrican-ar</comment>
       <string>\u000648\u0008BD\u00200D \u00200D\u000648\u0008BD\u00200D \u000648\u0008BD \u00200D\u000648\u0008BD</string>
+    </test>
+    <test background="#ffc8a0" label="U+10EC6">
+      <comment>noonthin-ar</comment>
+      <string>\u000648\u010EC6\u00200D \u00200D\u000648\u010EC6\u00200D \u000648\u010EC6 \u00200D\u000648\u010EC6</string>
     </test>
     <test label="U+06BD">
       <comment>noonThreedotsabove-ar</comment>
@@ -2445,14 +2461,6 @@
       <comment>wawStraight-ar</comment>
       <string>\u000648\u0008B1 \u00200D\u000648\u0008B1</string>
     </test>
-    <test label="U+0620">
-      <comment>yehKashmiri-ar</comment>
-      <string>\u000648\u000620\u00200D \u00200D\u000648\u000620\u00200D \u000648\u000620 \u00200D\u000648\u000620</string>
-    </test>
-    <test label="U+0886">
-      <comment>yehthin-ar</comment>
-      <string>\u000648\u000886\u00200D \u00200D\u000648\u000886\u00200D \u000648\u000886 \u00200D\u000648\u000886</string>
-    </test>
     <test label="U+088E">
       <comment>verticaltail-ar</comment>
       <string>\u000648\u00088E \u00200D\u000648\u00088E</string>
@@ -2460,14 +2468,6 @@
     <test label="U+FD3E">
       <comment>parenleft-ar</comment>
       <string>\u000648\u00FD3E \u00200D\u000648\u00FD3E</string>
-    </test>
-    <test background="#ffc8a0" label="U+10EC6">
-      <comment>noonthin-ar</comment>
-      <string>\u000648\u010EC6\u00200D \u00200D\u000648\u010EC6\u00200D \u000648\u010EC6 \u00200D\u000648\u010EC6</string>
-    </test>
-    <test background="#ffc8a0" label="U+10EC7">
-      <comment>yehFourbelow-ar</comment>
-      <string>\u000648\u010EC7\u00200D \u00200D\u000648\u010EC7\u00200D \u000648\u010EC7 \u00200D\u000648\u010EC7</string>
     </test>
   </testgroup>
 </ftml>
