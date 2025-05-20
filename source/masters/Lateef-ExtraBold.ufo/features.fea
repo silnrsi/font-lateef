@@ -103,7 +103,7 @@
 @ShaddaLigatures = [shadda_fathatan-ar shadda_dammatan-ar shadda_fatha-ar shadda_damma-ar shadda_alef-ar];
 @ShaddaMarks = [fathatan-ar dammatan-ar fatha-ar damma-ar alefabove-ar];
 @ShaddaLigatureParts = [@ShaddaMarks kasratan-ar kasra-ar shadda-ar graphemejoinercomb];
-@TakesLargeDaggerAlef = [alefMaksura-ar alefMaksura-ar.fina dad-ar dad-ar.fina dadDotbelow-ar dadDotbelow-ar.fina e-ar e-ar.fina emquad emspace enquad enspace figurespace figurespace.tnum fourperemspace hairspace highhamzaYeh-ar highhamzaYeh-ar.fina kashida-ar narrownbspace nbspace punctuationspace sad-ar sad-ar.fina sadThreedots-ar sadThreedots-ar.fina sadThreedotsbelow-ar sadThreedotsbelow-ar.fina sadTwodotsbelow-ar sadTwodotsbelow-ar.fina seen-ar seen-ar.fina seenDotbelowDotabove-ar seenDotbelowDotabove-ar.fina seenFourabove-ar seenFourabove-ar.fina seenFourdotsabove-ar seenFourdotsabove-ar.fina seenTahTwodotshorizontalabove-ar seenTahTwodotshorizontalabove-ar.fina seenThreedotsbelow-ar seenThreedotsbelow-ar.fina seenTwodotsverticalabove-ar seenTwodotsverticalabove-ar.fina seenVinvertedabove-ar seenVinvertedabove-ar.fina sheen-ar sheen-ar.fina sheenDotbelow-ar sheenDotbelow-ar.fina sheenThreedotsbelow-ar sheenThreedotsbelow-ar.fina sixperemspace space thinspace threeperemspace yeh-ar yeh-ar.fina yeh-farsi yeh-farsi.fina yehFourbelow-farsi yehFourbelow-farsi.fina yehHamzaabove-ar yehHamzaabove-ar.fina yehTail-ar yehTail-ar.fina yehThreeabove-farsi yehThreeabove-farsi.fina yehThreedotsabove-farsi yehThreedotsabove-farsi.fina yehThreedotsbelow-ar yehThreedotsbelow-ar.fina yehTwoabove-farsi yehTwoabove-farsi.fina yehTwodotsabove-farsi yehTwodotsabove-farsi.fina yehTwodotsbelowDotabove-ar yehTwodotsbelowDotabove-ar.fina yehTwodotsbelowHamzaabove-ar yehTwodotsbelowHamzaabove-ar.fina yehTwodotsbelowNoonabove-ar yehTwodotsbelowNoonabove-ar.fina yehVabove-ar yehVabove-ar.fina yehVinverted-farsi yehVinverted-farsi.fina];
+@TakesLargeDaggerAlef = [alefMaksura-ar alefMaksura-ar.fina dad-ar dad-ar.fina dadDotbelow-ar dadDotbelow-ar.fina e-ar e-ar.fina emquad emspace enquad enspace figurespace figurespace.tnum fourperemspace hairspace highhamzaYeh-ar highhamzaYeh-ar.fina kashida-ar narrownbspace nbspace punctuationspace sad-ar sad-ar.fina sadThreedots-ar sadThreedots-ar.fina sadThreedotsbelow-ar sadThreedotsbelow-ar.fina sadTwodotsbelow-ar sadTwodotsbelow-ar.fina seen-ar seen-ar.fina seenDotbelowDotabove-ar seenDotbelowDotabove-ar.fina seenFourabove-ar seenFourabove-ar.fina seenFourdotsabove-ar seenFourdotsabove-ar.fina seenTahTwodotshorizontalabove-ar seenTahTwodotshorizontalabove-ar.fina seenThreedotsbelow-ar seenThreedotsbelow-ar.fina seenTwodotsverticalabove-ar seenTwodotsverticalabove-ar.fina seenVinvertedabove-ar seenVinvertedabove-ar.fina sheen-ar sheen-ar.fina sheenDotbelow-ar sheenDotbelow-ar.fina sheenThreedotsbelow-ar sheenThreedotsbelow-ar.fina sixperemspace space thinspace threeperemspace yeh-ar yeh-ar.fina yeh-farsi yeh-farsi.fina yehFourbelow-ar yehFourbelow-ar.fina yehFourbelow-farsi yehFourbelow-farsi.fina yehHamzaabove-ar yehHamzaabove-ar.fina yehTail-ar yehTail-ar.fina yehThreeabove-farsi yehThreeabove-farsi.fina yehThreedotsabove-farsi yehThreedotsabove-farsi.fina yehThreedotsbelow-ar yehThreedotsbelow-ar.fina yehTwoabove-farsi yehTwoabove-farsi.fina yehTwodotsabove-farsi yehTwodotsabove-farsi.fina yehTwodotsbelowDotabove-ar yehTwodotsbelowDotabove-ar.fina yehTwodotsbelowHamzaabove-ar yehTwodotsbelowHamzaabove-ar.fina yehTwodotsbelowNoonabove-ar yehTwodotsbelowNoonabove-ar.fina yehVabove-ar yehVabove-ar.fina yehVinverted-farsi yehVinverted-farsi.fina];
 @TakesMediumDigits = [number-ar number-ar.2 number-ar.3 year-ar year-ar.2 year-ar.3 year-ar.4 footnotemarker-ar footnotemarker-ar.2 pagenumber-ar pagenumber-ar.2 pagenumber-ar.3 pagenumber-ar.4 samvat-ar samvat-ar.2 samvat-ar.3 samvat-ar.4 numbermark-ar numbermark-ar.2 numbermark-ar.3 numbermark-ar.4 endofayah-ar endofayah-ar.2 endofayah-ar.alt endofayah-ar.alt.2 endofayah-ar.altB endofayah-ar.altB.2];
 @TakesSmallDigits = [endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3];
 @UTR53_220MCM = [hamzabelow-ar largerounddotbelow-ar seenbelow-ar wawbelow-ar];
@@ -330,7 +330,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass [alefWasla-ar.fina alefWasla-ar.fina.allah] <anchor 227 1571> @diaA;
 # baseClass alefWavyhamzaabove-ar <anchor 195 1570> @diaA;
 # baseClass alefWavyhamzaabove-ar.fina <anchor 227 1587> @diaA;
-# baseClass aleflow-ar <anchor 0 50> @diaA;
+# baseClass aleflow-ar <anchor 97 50> @diaA;
 # baseClass [beeh-ar beh-ar behThreedotshorizontalbelow-ar behThreedotsupbelow-ar behVinvertedbelow-ar beheh-ar peh-ar] <anchor 612 700> @diaA;
 # baseClass [beeh-ar.fina beh-ar.fina behThreedotshorizontalbelow-ar.fina behThreedotsupbelow-ar.fina behVinvertedbelow-ar.fina beheh-ar.fina peh-ar.fina] <anchor 544 701> @diaA;
 # baseClass [behDotless-ar behDotless-ar.fina behVbelow-ar behVbelow-ar.fina] <anchor 600 700> @diaA;
@@ -1021,7 +1021,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass alefTwoabove-ar.fina <anchor 310 -200> @diaB;
 # baseClass alefWavyhamzabelow-ar <anchor 143 -498> @diaB;
 # baseClass alefWavyhamzabelow-ar.fina <anchor 223 -506> @diaB;
-# baseClass aleflow-ar <anchor 0 -500> @diaB;
+# baseClass aleflow-ar <anchor 97 -500> @diaB;
 # baseClass beeh-ar <anchor 204 -308> @diaB;
 # baseClass beeh-ar.fina <anchor 176 -368> @diaB;
 # baseClass [beeh-ar.init peh-ar.init pehMeemabove-ar.init] <anchor 158 -624> @diaB;
@@ -1915,12 +1915,14 @@ lookup SmallMadda {
 } SmallMadda;
 
 # Replace Arabic punctuation glyphs with Latin ones:
-# Has no effect in Harmattan:
 lookup LatinPunctuation {
     lookupflag 0;
     sub @cno_latn by @c_latn;
 } LatinPunctuation;
 
+# HB PAUSE
+#---  isol feature  ---
+# We don't use this as all chars are encoded with their isolate glyph
 # HB PAUSE
 #---  fina feature  ---
 lookup ltrFina {
@@ -2315,8 +2317,8 @@ lookup HehDoAlternates {
     sub hehDoachashmee-ar.fina.knottedHigh from [hehDoachashmee-ar.fina.knottedHigh hehDoachashmee-ar.fina hehDoachashmee-ar.fina.knottedHigh];
 } HehDoAlternates;
 
+# Kyrgyz OE Alternates: cv51
 lookup KyrgyzOeAlternates {
-    # cv51
     lookupflag 0;
     sub @cno_bar by @c_bar;
 } KyrgyzOeAlternates;
@@ -2347,7 +2349,6 @@ lookup YehHamzaAlternates {
 # Sch or Har
 # Kasra alternates: cv62
 lookup KasraAlternates {
-    # cv62
     lookupflag 0;
     # NB: This is written so it doesn't matter which shadda-kasra behavior is default
     #     and so as to allow language-specific behavior to be overridden.
@@ -2533,20 +2534,17 @@ lookup CommaAlternates {
 
 # Decimal separator alternates: cv85
 lookup DecimalSepAlternate {
-    # cv85
     lookupflag IgnoreMarks;
     sub @cno_slash by @c_slash;
 } DecimalSepAlternate;
 
+# Angled Guillemet: cv88
 lookup GuillemetAlternate {
-    # cv88
     lookupflag IgnoreMarks;
-    # NB: This is written so as to allow language-specific behavior to be overridden
-    # 0=default              1=Angled            2=Rounded
-    sub guillemetleft from [guillemetleft.latn guillemetleft];
-    sub guillemetright from [guillemetright.latn guillemetright];
-    sub guilsinglleft from [guilsinglleft.latn guilsinglleft];
-    sub guilsinglright from [guilsinglright.latn guilsinglright];
+    sub guillemetleft by guillemetleft.latn;
+    sub guillemetright by guillemetright.latn;
+    sub guilsinglleft by guilsinglleft.latn;
+    sub guilsinglright by guilsinglright.latn;
 } GuillemetAlternate;
 
 #---  liga feature  ---
@@ -3557,7 +3555,7 @@ feature cv88 {
         };
 
                 FeatUITooltipTextNameID {
-            name "Angled for Guillemet";
+            name "Angled Guillemet";
             # English US (Rounded is default for Arabic)
         };
 
@@ -3569,10 +3567,6 @@ feature cv88 {
         ### ParamUILabelNameID { name 3 1 0x0409 "Rounded"        ; };
                 ParamUILabelNameID {
             name "Angled";
-        };
-
-                ParamUILabelNameID {
-            name "Default";
         };
 
     };
@@ -4120,7 +4114,7 @@ lookup MarkToBase {
     pos base [alefWasla-ar.fina alefWasla-ar.fina.allah] <anchor 227 1571> mark @_diaA;
     pos base alefWavyhamzaabove-ar <anchor 195 1570> mark @_diaA;
     pos base alefWavyhamzaabove-ar.fina <anchor 227 1587> mark @_diaA;
-    pos base aleflow-ar <anchor 0 50> mark @_diaA;
+    pos base aleflow-ar <anchor 97 50> mark @_diaA;
     pos base [beeh-ar beh-ar behThreedotshorizontalbelow-ar behThreedotsupbelow-ar behVinvertedbelow-ar beheh-ar peh-ar] <anchor 612 700> mark @_diaA;
     pos base [beeh-ar.fina beh-ar.fina behThreedotshorizontalbelow-ar.fina behThreedotsupbelow-ar.fina behVinvertedbelow-ar.fina beheh-ar.fina peh-ar.fina] <anchor 544 701> mark @_diaA;
     pos base [behDotless-ar behDotless-ar.fina behVbelow-ar behVbelow-ar.fina] <anchor 600 700> mark @_diaA;
@@ -4717,7 +4711,7 @@ lookup MarkToBase {
     pos base alefTwoabove-ar.fina <anchor 310 -200> mark @_diaB;
     pos base alefWavyhamzabelow-ar <anchor 143 -498> mark @_diaB;
     pos base alefWavyhamzabelow-ar.fina <anchor 223 -506> mark @_diaB;
-    pos base aleflow-ar <anchor 0 -500> mark @_diaB;
+    pos base aleflow-ar <anchor 97 -500> mark @_diaB;
     pos base beeh-ar <anchor 204 -308> mark @_diaB;
     pos base beeh-ar.fina <anchor 176 -368> mark @_diaB;
     pos base [beeh-ar.init peh-ar.init pehMeemabove-ar.init] <anchor 158 -624> mark @_diaB;

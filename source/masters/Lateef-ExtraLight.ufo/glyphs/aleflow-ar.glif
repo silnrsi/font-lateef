@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aleflow-ar" format="2">
+  <advance width="162"/>
   <unicode hex="08AD"/>
-  <anchor x="0" y="50" name="diaA"/>
-  <anchor x="0" y="-500" name="diaB"/>
+  <anchor x="76" y="50" name="diaA"/>
+  <anchor x="76" y="-500" name="diaB"/>
   <outline>
     <contour>
-      <point x="-61" y="-143" type="line"/>
-      <point x="11" y="-230"/>
-      <point x="26" y="-333"/>
-      <point x="23" y="-434" type="curve"/>
-      <point x="49" y="-434" type="line"/>
-      <point x="72" y="-306"/>
-      <point x="40" y="-134"/>
-      <point x="-41" y="-48" type="curve"/>
+      <point x="15" y="-143" type="line"/>
+      <point x="87" y="-230"/>
+      <point x="102" y="-333"/>
+      <point x="99" y="-434" type="curve"/>
+      <point x="125" y="-434" type="line"/>
+      <point x="148" y="-306"/>
+      <point x="116" y="-134"/>
+      <point x="35" y="-48" type="curve"/>
     </contour>
   </outline>
 </glyph>
