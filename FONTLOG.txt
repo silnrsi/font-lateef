@@ -60,6 +60,11 @@ For detailed documentation see the contents of the 'documentation' folder.
 - Added cv88 (Guillemet) to provide a choice for angled guillemot characters in Arabic script
 - Added Malay Jawi language support
 
+#### Known issues
+- Shaping for the newly added characters may not yet occur in applications.
+- Medial and final high hamza characters may have collisions (these likely do not occur).
+- Lam + high hamza alef ligature does not form as it likely does not occur.
+
 ### 2024-10-21 (SIL WSTech team) Lateef version 4.300
 
 #### New
