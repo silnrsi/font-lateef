@@ -2,7 +2,6 @@
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
-    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 15.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
     <fontsrc label="4.2">url(../references/v4.200/Lateef-Regular.ttf)</fontsrc>
     <fontsrc label="ref">url(../references/Lateef-Regular.ttf)</fontsrc>
@@ -11,18 +10,18 @@
   </head>
   <testgroup label="Arabic">
     <test label="b-l-m  RTL" rtl="True">
-      <string>\u0628\u0644\u0645</string>
+      <string>(\u0628\u0644\u0645]</string>
     </test>
     <test label="b-l-m  LTR">
-      <string>\u0628\u0644\u0645</string>
+      <string>(\u0628\u0644\u0645]</string>
     </test>
   </testgroup>
   <testgroup label="Latin">
     <test label="Abc  RTL" rtl="True">
-      <string>Abc</string>
+      <string>(Abc]</string>
     </test>
     <test label="Abc  LTR">
-      <string>Abc</string>
+      <string>(Abc]</string>
     </test>
   </testgroup>
 </ftml>
