@@ -159,14 +159,11 @@
 </string>
     <string>/alayhiAsSalaam-ar/alayhimAsSalaam-ar/space/alayhimaaAsSalaam-ar</string>
     <string>/alayhimaaAsSalaam-ar/sallallaahuAlayhiWaAalih-ar/rahimahuAllaah-ar/rahimahumAllaah-ar</string>
-    <string>/radiAllaahuAnh-ar/radiAllaahuAnhaa-ar/space/space/space/radiAllaahuAnhum-ar/space/space/space/space/radiAllaahuAnhumaa-ar/space/space/space/radiAllaahuAnhunna-ar</string>
+    <string>/subhaanahuWaTaaalaa-ar/azzaWaJall-ar/rahmatuAllaahiAlayh-ar/rahmatuAllaahiAlayhaa-ar/rahmatuAllaahiAlayhim-ar/rahmatuAllaahiAlayhimaa-ar 
+/allahlong-ar/rahimahuAllaah-ar/alayhimAsSalaam-ar/tehMarbutagoal-ar.fina/alayhaaAsSalaam-ar/alayhimaaAsSalaam-ar 
+/hehDoachashmee-ar.fina/space/dammatanCurly-ar</string>
     <string>/reh-ar.fina/ghain-ar.init/space/guilsinglleft/meem-ar.fina/lam-ar.init/beh-ar/guilsinglright/space/peh-ar.fina/jeem-ar.medi/lam-ar.init/space «/jeem-ar.fina/seen-ar.init/space/noon-ar »/space/guillemetleft.latn abc/guillemetright.latn</string>
     <string>/noon-ar/noonthin-ar/noon-ar.fina/noonthin-ar.fina/noon-ar.medi/noonthin-ar.medi/noon-ar.init/noonthin-ar.init/tah-ar/biblicalendofverse-ar/kaf-ar/space/aleflow-ar</string>
-    <string>/yehbarreeTwoabove-ar.fina</string>
-    <string>/yeh-ar.init/space/behThreedotshorizontalbelow-ar.init/space/yehbarree-ar.fina/behThreedotshorizontalbelow-ar.init</string>
-    <string>/yehbarree-ar.fina.wide</string>
-    <string>/yehbarree-ar.fina.wide/yehbarreeHamzaabove-ar.fina.wide/yehbarreeTwoabove-ar.fina.wide/yehbarreeThreeabove-ar.fina.wide</string>
-    <string>/yehbarree-ar.fina/hah-ar.medi</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>
