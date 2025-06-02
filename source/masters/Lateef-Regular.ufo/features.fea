@@ -449,8 +449,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass hahTwodotsverticalabove-ar.init <anchor 243 1191> @diaA;
 # baseClass hahTwodotsverticalabove-ar.medi <anchor 340 1146> @diaA;
 # baseClass hamza-ar <anchor 294 632> @diaA;
-# baseClass heh-ar.fina <anchor 332 858> @diaA;
-# baseClass heh-ar.fina.allah <anchor 171 858> @diaA;
+# baseClass [heh-ar.fina heh-ar.fina.allah] <anchor 175 690> @diaA;
 # baseClass heh-ar.fina.hooked <anchor 411 520> @diaA;
 # baseClass [heh-ar.fina.knottedHigh hehDoachashmee-ar.fina.knottedHigh] <anchor 356 780> @diaA;
 # baseClass [heh-ar.init hehDoachashmee-ar.init] <anchor 250 824> @diaA;
@@ -468,7 +467,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass hehVinvertedabove-ar.init <anchor 215 1199> @diaA;
 # baseClass hehVinvertedabove-ar.medi <anchor 298 1126> @diaA;
 # baseClass hehgoal-ar.fina <anchor 369 700> @diaA;
-# baseClass hehgoal-ar.fina.allah <anchor 370 700> @diaA;
+# baseClass hehgoal-ar.fina.allah <anchor 320 473> @diaA;
 # baseClass hehgoalHamzaabove-ar.fina <anchor 402 855> @diaA;
 # baseClass hehgoalHamzaabove-ar.init <anchor 149 1033> @diaA;
 # baseClass hehgoalHamzaabove-ar.medi <anchor 429 1020> @diaA;
@@ -4170,8 +4169,7 @@ lookup MarkToBase {
     pos base hahTwodotsverticalabove-ar.init <anchor 243 1191> mark @_diaA;
     pos base hahTwodotsverticalabove-ar.medi <anchor 340 1146> mark @_diaA;
     pos base hamza-ar <anchor 294 632> mark @_diaA;
-    pos base heh-ar.fina <anchor 332 858> mark @_diaA;
-    pos base heh-ar.fina.allah <anchor 171 858> mark @_diaA;
+    pos base [heh-ar.fina heh-ar.fina.allah] <anchor 175 690> mark @_diaA;
     pos base heh-ar.fina.hooked <anchor 411 520> mark @_diaA;
     pos base [heh-ar.fina.knottedHigh hehDoachashmee-ar.fina.knottedHigh] <anchor 356 780> mark @_diaA;
     pos base [heh-ar.init hehDoachashmee-ar.init] <anchor 250 824> mark @_diaA;
@@ -4189,7 +4187,7 @@ lookup MarkToBase {
     pos base hehVinvertedabove-ar.init <anchor 215 1199> mark @_diaA;
     pos base hehVinvertedabove-ar.medi <anchor 298 1126> mark @_diaA;
     pos base hehgoal-ar.fina <anchor 369 700> mark @_diaA;
-    pos base hehgoal-ar.fina.allah <anchor 370 700> mark @_diaA;
+    pos base hehgoal-ar.fina.allah <anchor 320 473> mark @_diaA;
     pos base hehgoalHamzaabove-ar.fina <anchor 402 855> mark @_diaA;
     pos base hehgoalHamzaabove-ar.init <anchor 149 1033> mark @_diaA;
     pos base hehgoalHamzaabove-ar.medi <anchor 429 1020> mark @_diaA;

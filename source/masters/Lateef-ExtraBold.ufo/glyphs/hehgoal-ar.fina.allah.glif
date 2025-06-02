@@ -4,7 +4,7 @@
   <anchor x="428" y="490" name="above"/>
   <anchor x="214" y="543" name="alefUnused"/>
   <anchor x="419" y="-100" name="below"/>
-  <anchor x="369" y="700" name="diaA"/>
+  <anchor x="320" y="533" name="diaA"/>
   <anchor x="203" y="-251" name="diaB"/>
   <outline>
     <component base="hehgoal-ar.fina"/>

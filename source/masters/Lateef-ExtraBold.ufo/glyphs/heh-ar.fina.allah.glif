@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heh-ar.fina.allah" format="2">
   <advance width="631"/>
-  <anchor x="406" y="798" name="above"/>
   <anchor x="134" y="744" name="alefUnused"/>
-  <anchor x="406" y="-50" name="below"/>
-  <anchor x="321" y="858" name="diaA"/>
+  <anchor x="180" y="690" name="diaA"/>
   <anchor x="191" y="-202" name="diaB"/>
   <outline>
     <contour>
