@@ -1,9 +1,9 @@
 \begin[class=fontproof]{document}
 \setTestFont[]
-\script[src=packages/unichar]
-\script[src=packages/frametricks]
-\script[src=packages/linespacing]
-\script[src=packages/specimen]
+\use[module=packages.unichar]
+\use[module=packages.frametricks]
+\use[module=packages.linespacing]
+\use[module=packages.specimen]
 \set[parameter=current.parindent,value=0]
 \set[parameter=document.parindent,value=0]
 \set[parameter=linespacing.method,value=fixed]
