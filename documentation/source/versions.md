@@ -1,6 +1,6 @@
 ---
 title: Lateef - Versions and Changes
-fontversion: 4.300
+fontversion: 4.400
 ---
 
 ## Announcement list
@@ -15,7 +15,7 @@ The latest version of these fonts are always available from the [Lateef download
 
 This font package is also available in the [SIL software repository for Ubuntu](http://packages.sil.org/). Users can subscribe to this software repository and get current versions and updates automatically.
 
-Lateef is also available through the [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi) service, which allows you to choose among the smart font features and download a font with those features preset. This enables them to work in many applications that do not make use of OpenType Character Variants.
+Lateef is also available through the [TypeTuner Web](https://typetunerweb.languagetechnology.org/ttw/fonts2go.cgi) service, which allows you to choose among the smart font features and download a font with those features preset. This enables them to work in many applications that do not make use of OpenType Character Variants.
 
 ## Previous versions
 

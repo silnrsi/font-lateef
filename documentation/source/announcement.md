@@ -1,6 +1,6 @@
 ---
 title: Lateef - Announcement
-fontversion: 4.300
+fontversion: 4.400
 ---
 
 We are very pleased to announce a new release of Lateef, a font intended to be an appropriate style for use in Sindhi and other languages of the South Asian region.
