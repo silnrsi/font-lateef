@@ -37,7 +37,7 @@ In the mean time there are two workarounds to consider:
 - We have added a special Typetuner feature that can be used create a version of the Lateef fonts in which the digit kerning is _disabled_. When using those fonts in Microsoft Word the resulting digit spacing will be much nicer than Tabular, but not quite as good as it would be if the application's kerning worked correctly.
 
 To obtain Lateef fonts with digit kerning disabled:
-- Go to [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi)
+- Go to [TypeTuner Web](https://typetunerweb.languagetechnology.org/ttw/fonts2go.cgi)
 - Select the Lateef font and click "Select Features"
 - Find the feature named "Disable digit kerning (see FAQ)" and set it to "True"
 - If desired, fill in the "Font name suffix" field
@@ -48,7 +48,7 @@ To obtain Lateef fonts with digit kerning disabled:
 
 The most obvious difference is that **Lateef** only provides OpenType support and **LateefGR** only provides Graphite support. For a complete list of the differences between **Lateef** version 1.001 and **LateefGR**, you can read the [Release announcements](https://software.sil.org/lateef/news/). 
 
-The most recent version of **Lateef** is an OpenType font that includes all the kerning support that was included in **LateefGR** (and more). It also includes many more characters than were in **LateefGR** and **Lateef** version 1.001. 
+The most recent version of **Lateef** (beginning with version 2.000) is an OpenType font that includes all the kerning support that was included in **LateefGR** (and more). It also includes many more characters than were in **LateefGR** and **Lateef** version 1.001. 
 
 ### *What characters are included with this release?*
 
