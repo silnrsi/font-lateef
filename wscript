@@ -41,13 +41,11 @@ else:
     cmds.append(cmd('gftools fix-nonhinting --no-backup -q ${DEP} ${TGT}'))
 
 designspace('source/lateef.designspace',
-    instanceparams='-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
     instances = ['Lateef Regular'] if '--regOnly' in opts else None,
     params = '-c ^_',
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     classes = 'source/classes.xml',
     version = VERSION,  # Needed to ensure dev information on version string
-    # ap = generated + '${DS:FILENAME_BASE}.xml',
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
         mapfile = generated + '${DS:FILENAME_BASE}.map',
         master = 'source/opentype/main.feax',
