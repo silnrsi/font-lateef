@@ -5286,6 +5286,7 @@ lookup MarkToLig {
         ligComponent <anchor 319 1299> mark @_diaA <anchor 499 -312> mark @_diaB;
     pos ligature lamDoublebar_alefThreeabove-ar.fina <anchor 930 1123> mark @_diaA <anchor 964 -251> mark @_diaB
         ligComponent <anchor 319 1299> mark @_diaA <anchor 499 -312> mark @_diaB;
+    
     #   pos ligature lam_alefHamzabelow-ar  @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
     #             ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
 } MarkToLig;
