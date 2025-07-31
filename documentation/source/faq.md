@@ -18,17 +18,17 @@ Many questions can be answered by consulting the following FAQ pages. Here are a
     - *If I use the font on a web page do I have to include an acknowledgement?*
     - The full OFL-FAQ.txt is also included in the font package.
 
-A generic FAQ for all of our Arabic scripts fonts can be found here: [Arabic Fonts - FAQ](https://software.sil.org/arabicfonts/support/faq/). FAQ's specific to Lateef are found below.
+A generic FAQ for all of our Arabic scripts fonts can be found here: [Arabic Fonts - FAQ](https://software.sil.org/arabicfonts/support/faq/). FAQ’s specific to Lateef are found below.
 
 ### Problems with Bold weights
 
 #### *Why does my application not show the Bold weight in font menus and dialogs?*
 
-Some applications will list all the weights but leave out Bold. To access the Bold you need to choose Regular and turn on Bold using the application's UI controls such as a "B" button.
+Some applications will list all the weights but leave out Bold. To access the Bold you need to choose Regular and turn on Bold using the application’s UI controls such as a “B” button.
 
 #### *Why do I sometimes get a fake Bold?*
 
-If you choose a weight other than Regular (such as ExtraLight), then use application controls to turn on Bold, some applications will make a "fake" Bold rather than use one of the real ones in the font (Medium, SemiBold, Bold, ExtraBold). This is because only Regular has an associated Bold counterpart. This is a technical limitation with some apps and OSes. If you are using some other weight than Regular for text and want to make a word or phrase stand out you will need to select the text and apply one of the heavier weights manually. 
+If you choose a weight other than Regular (such as ExtraLight), then use application controls to turn on Bold, some applications will make a “fake” Bold rather than use one of the real ones in the font (Medium, SemiBold, Bold, ExtraBold). This is because only Regular has an associated Bold counterpart. This is a technical limitation with some apps and OSes. If you are using some other weight than Regular for text and want to make a word or phrase stand out you will need to select the text and apply one of the heavier weights manually. 
 
 ### *I understand there is kerning for the Arabic proportional digits. However, it is not working.*
 
@@ -38,21 +38,21 @@ If you see incorrect digit kerning in applications other than Microsoft Word, pl
 
 In the mean time there are two workarounds to consider:
 - Switch to Tabular digits (in the **Advanced** Font dialog)
-- We have added a special Typetuner feature that can be used create a version of the Lateef fonts in which the digit kerning is _disabled_. When using those fonts in Microsoft Word the resulting digit spacing will be much nicer than Tabular, but not quite as good as it would be if the application's kerning worked correctly.
+- We have added a special Typetuner feature that can be used to create a version of the Lateef fonts in which the digit kerning is _disabled_. When using those fonts in Microsoft Word the resulting digit spacing will be much nicer than Tabular, but not quite as good as it would be if the application’s kerning worked correctly.
 
 To obtain Lateef fonts with digit kerning disabled:
 - Go to [TypeTuner Web](https://typetunerweb.languagetechnology.org/ttw/fonts2go.cgi)
-- Select the Lateef font and click "Select Features"
-- Find the feature named "Disable digit kerning (see FAQ)" and set it to "True"
-- If desired, fill in the "Font name suffix" field
-- Click "Get tuned font" to download a package of Lateef fonts with the digit kerning disabled for use in Microsoft Word.
+- Select the Lateef font and click “Select Features”
+- Find the feature named “Disable digit kerning (see FAQ)” and set it to “True”
+- If desired, fill in the “Font name suffix” field
+- Click “Get tuned font” to download a package of Lateef fonts with the digit kerning disabled for use in Microsoft Word.
 - Unpack the resulting zip and install the fonts it contains.
 
 ### *What are the differences between the **Lateef** and **LateefGR** fonts?*
 
 The most obvious difference is that **Lateef** only provides OpenType support and **LateefGR** only provides Graphite support. For a complete list of the differences between **Lateef** version 1.001 and **LateefGR**, you can read the [Release announcements](https://software.sil.org/lateef/news/). 
 
-The most recent version of **Lateef** (beginning with version 2.000) is an OpenType font that includes all the kerning support that was included in **LateefGR** (and more). It also includes many more characters than were in **LateefGR** and **Lateef** version 1.001. 
+**Lateef** (starting with version 2.000) is an OpenType font that includes all the kerning support that was included in **LateefGR** (and more). It also includes many more characters than were in **LateefGR** and **Lateef** version 1.001. 
 
 ### *What characters are included with this release?*
 
@@ -67,7 +67,7 @@ It is impossible for us to add every glyph that every person desires, but we do 
 
 Lateef is designed in an appropriate style often used for Sindhi and other languages of southern Asia. This font is designed to work with the OpenType font technology. To take advantage of the advanced typographic capabilities of this font, you must be using applications that provide an adequate level of support for OpenType. These advanced capabilities provide access to the variant character forms used in some languages. See [Smart Font Features](features.md).
 
-### *What makes Lateef specifically "Sindhi-style"?*
+### *What makes Lateef specifically “Sindhi-style”?*
 
 * The lam-alef ligature is designed in a Sindhi-style: ![Lateef lam-alef ligature](../assets/images/LateefLamAlef.jpg){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/lateef/wp-content/uploads/sites/30/2018/10/LateefLamAlef.jpg -->
