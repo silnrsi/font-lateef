@@ -10,8 +10,8 @@
     <component base="_shadda.cal" xScale="0.9" yScale="0.9" xOffset="201" yOffset="585"/>
     <component base="_fatha-kasra.cal" xOffset="202" yOffset="702"/>
     <component base="_dot2h.cal" xOffset="1063" yOffset="-406"/>
-    <component base="_dot1.cal" xOffset="1085" yOffset="442"/>
     <component base="_dot1.cal" xOffset="1563" yOffset="766"/>
+    <component base="_dot1.cal" xOffset="1085" yOffset="442"/>
     <component base="_dot1.cal" xOffset="231" yOffset="337"/>
     <component base="_sukun.cal" xScale="0.9" yScale="0.9" xOffset="1023" yOffset="610"/>
     <component base="_smallv.cal" xScale="0.95" yScale="0.95" xOffset="552" yOffset="-105"/>
