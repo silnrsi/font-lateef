@@ -12,7 +12,7 @@ Lateef is named after Shah Abdul Lateef Bhitai, the famous Sindhi
 mystic and poet. It is intended to be an appropriate style for use 
 in Sindhi and other languages of the South Asian region.
 
-This release supports most of the Unicode 16.0 Arabic character 
+This release supports most of the Unicode 17.0 Arabic character 
 repertoire (excluding the Arabic Presentation Forms blocks, which are not 
 recommended for normal use). 
 
@@ -42,9 +42,10 @@ For detailed documentation see the contents of the 'documentation' folder.
 ---------
 (This should list both major and minor changes, most recent first.)
 
-### 2025-xx-xx (SIL WSTech team) Lateef version 4.400
+### 2025-08-11 (SIL WSTech team) Lateef version 4.400
 
 #### New
+
 - Added:
   - 088F ARABIC LETTER NOON WITH RING ABOVE
   - FBC6 ARABIC LIGATURE RAHMATU ALLAAHI ALAYHIM 
