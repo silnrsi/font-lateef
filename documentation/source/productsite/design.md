@@ -37,3 +37,7 @@ In certain types of literature, the name *Allah* and words related to this name 
 ## Font Features
 
 Alternate glyphs that are available through features are demonstrated in the [Features](features) document. 
+
+SIL Global is the creator of the Lateef fonts, and is the owner of all proprietary rights therein.
+
+*Lateef* is a trademark of SIL Global.

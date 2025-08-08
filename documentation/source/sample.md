@@ -113,11 +113,11 @@ Regular: <span class='lateefL-R normal'> ™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √
 
 #### Regular:
 
-<p dir="rtl"><span class='lateef-R normal'>&#xFBC6; &#x0628; &#xFBC7; &#x0628; &#xFD3E; &#x0628; &#xFD3F; &#x0628; &#xFD40; &#x0628; &#xFD41; &#x0628; &#xFD42; &#x0628; &#xFD43; &#x0628; &#xFD44; &#x0628; &#xFD45; &#x0628; &#xFD46; &#x0628; &#xFD47; &#x0628; &#xFD47; &#x0628; &#xFD48; &#x0628; &#xFD49; &#x0628; &#xFD4a; &#x0628; &#xFD4b; &#x0628; &#xFD4c; &#x0628; &#xFD4d; &#x0628; &#xFD4e; &#x0628; &#xFD4f; &#xFD90; &#x0628; &#xFD91; &#x0628; &#x0628; &#xFDCF; &#x0628; &#xFDF2; &#x0628; &#xFDFA; &#x0628; &#xFDFB; &#x0628; &#xFDFC; &#x0628; &#xFDFD; &#x0628; &#xFDFe;&#x0628; &#xFDFf;</span></p>
+<p dir="rtl"><span class='lateef-R normal'>&#xFBC6; &#x0628; &#xFBC7; &#x0628; &#xFD3E; &#x0628; &#xFD3F; &#x0628; &#xFD40; &#x0628; &#xFD41; &#x0628; &#xFD42; &#x0628; &#xFD43; &#x0628; &#xFD44; &#x0628; &#xFD45; &#x0628; &#xFD46; &#x0628; &#xFD47; &#x0628; &#xFD47; &#x0628; &#xFD48; &#x0628; &#xFD49; &#x0628; &#xFD4a; &#x0628; &#xFD4b; &#x0628; &#xFD4c; &#x0628; &#xFD4d; &#x0628; &#xFD4e; &#x0628; &#xFD4f; &#x0628; &#xFD90; &#x0628; &#xFD91; &#x0628; &#xFDCF; &#x0628; &#xFDF2; &#x0628; &#xFDFA; &#x0628; &#xFDFB; &#x0628; &#xFDFC; &#x0628; &#xFDFD; &#x0628; &#xFDFe;&#x0628; &#xFDFf;</span></p>
 
 #### Bold:
 
-<p dir="rtl"><span class='lateef-B normal'>&#xFBC6; &#x0628; &#xFBC7; &#x0628; &#xFD3E; &#x0628; &#xFD3F; &#x0628; &#xFD40; &#x0628; &#xFD41; &#x0628; &#xFD42; &#x0628; &#xFD43; &#x0628; &#xFD44; &#x0628; &#xFD45; &#x0628; &#xFD46; &#x0628; &#xFD47; &#x0628; &#xFD47; &#x0628; &#xFD48; &#x0628; &#xFD49; &#x0628; &#xFD4a; &#x0628; &#xFD4b; &#x0628; &#xFD4c; &#x0628; &#xFD4d; &#x0628; &#xFD4e; &#x0628; &#xFD4f; &#xFD90; &#x0628; &#xFD91; &#x0628; &#x0628; &#xFDCF; &#x0628; &#xFDF2; &#x0628; &#xFDFA; &#x0628; &#xFDFB; &#x0628; &#xFDFC; &#x0628; &#xFDFD; &#x0628; &#xFDFe;&#x0628; &#xFDFf;</span></p>
+<p dir="rtl"><span class='lateef-B normal'>&#xFBC6; &#x0628; &#xFBC7; &#x0628; &#xFD3E; &#x0628; &#xFD3F; &#x0628; &#xFD40; &#x0628; &#xFD41; &#x0628; &#xFD42; &#x0628; &#xFD43; &#x0628; &#xFD44; &#x0628; &#xFD45; &#x0628; &#xFD46; &#x0628; &#xFD47; &#x0628; &#xFD47; &#x0628; &#xFD48; &#x0628; &#xFD49; &#x0628; &#xFD4a; &#x0628; &#xFD4b; &#x0628; &#xFD4c; &#x0628; &#xFD4d; &#x0628; &#xFD4e; &#x0628; &#xFD4f; &#x0628; &#xFD90; &#x0628; &#xFD91; &#x0628; &#xFDCF; &#x0628; &#xFDF2; &#x0628; &#xFDFA; &#x0628; &#xFDFB; &#x0628; &#xFDFC; &#x0628; &#xFDFD; &#x0628; &#xFDFe;&#x0628; &#xFDFf;</span></p>
 
 
 ### Arabic Extended-C:
