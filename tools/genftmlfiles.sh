@@ -15,8 +15,8 @@ then
 	exit 2
 fi
 
-prevfont="references/v4.300/Lateef-Regular.ttf"
-prevver="4.3"
+prevfont="references/v4.400/Lateef-Regular.ttf"
+prevver="4.4"
 
 commonParams=( \
 	--prevfont "$prevfont"  \
