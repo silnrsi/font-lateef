@@ -51,6 +51,6 @@ AZZA WA JALL | FDFF | <span class='lateef-R normal'>﷿ </span> | The Glorified/
 
 
 <!-- PRODUCT SITE ONLY
-[font id='lateef' face='lateef-Regular' bold='lateef-Bold' size='200%' rtl=1]
-[font id='lateefL' face='lateef-Regular' bold='lateef-Bold' size='200%']
+[font id='lateef' face='lateef-Regular' bold='lateef-Bold' size='150%' rtl=1]
+[font id='lateefL' face='lateef-Regular' bold='lateef-Bold' size='150%' ltr=1]
 -->
