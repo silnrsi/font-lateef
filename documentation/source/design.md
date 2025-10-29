@@ -3,7 +3,7 @@ title: Lateef - Design
 fontversion: 4.400
 ---
 
-Lateef provides a &#x201c;simplified&#x201d; rendering of Arabic script, using basic connecting glyphs but not including a wide variety of additional ligatures or contextual alternates (only the required lam-alef ligatures). This simplified style is often preferred for clarity, especially in non-Arabic languages.
+Lateef provides a &#x201c;simplified&#x201d; rendering of Arabic script, using basic connecting glyphs but not including a wide variety of additional ligatures or contextual alternates (only the required lam-alef ligatures). This simplified style is often preferred for clarity, especially in non-Arabic languages. The Latin letters are a subset of the [Crimson Pro](https://github.com/Fonthausen/CrimsonPro) font.
 
 Seven weights for this typeface family are included:
 
