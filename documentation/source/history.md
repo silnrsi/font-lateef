@@ -326,7 +326,7 @@ fontversion: 4.400
 - Implemented new rules for [Rendering the Allah ligature](allah.md)
 - Implemented support for [UNICODE ARABIC MARK RENDERING (UTR #53)](https://unicode.org/reports/tr53)
 - Changed design of all Latin glyphs to use Crimson Pro
-- Updated Latin script repertoire to support [Recommended characters for Non-Roman fonts](https://scriptsource.org/entry/gg5wm9hhd3)
+- Updated Latin script repertoire to support [Recommended characters for Non-Roman fonts](https://github.com/silnrsi/pysilfont/blob/master/src/silfont/data/required_chars.csv)
 
 #### Improved
 
