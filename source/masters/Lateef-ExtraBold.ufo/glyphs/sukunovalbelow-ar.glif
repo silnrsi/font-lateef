@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sukunovalbelow-ar" format="2">
+  <unicode hex="10EF0"/>
+  <anchor x="150" y="1039" name="_diaA"/>
+  <anchor x="150" y="1421" name="diaA"/>
+  <outline>
+    <component base="zero.small" xScale="0.5" yScale="0.5766" xOffset="-10" yOffset="965"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>
