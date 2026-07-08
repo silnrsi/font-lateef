@@ -1,15 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wawring-ar.fina" format="2">
   <advance width="729"/>
+  <anchor x="495" y="505" name="above"/>
   <anchor x="187" y="666" name="alefUnused"/>
+  <anchor x="466" y="-352" name="below"/>
+  <anchor x="241" y="-67" name="center"/>
   <anchor x="401" y="688" name="diaA"/>
   <anchor x="180" y="-520" name="diaB"/>
+  <anchor x="290" y="-20" name="ring"/>
+  <anchor x="489" y="-125" name="through"/>
   <outline>
-    <component base="waw-ar.fina"/>
-    <component base="_ring" xOffset="292" yOffset="-171"/>
+    <component base="_ring" xOffset="137" yOffset="-210"/>
+    <contour>
+      <point x="45" y="-267" type="curve"/>
+      <point x="39" y="-298" type="line"/>
+      <point x="67" y="-340"/>
+      <point x="204" y="-390"/>
+      <point x="257" y="-390" type="curve" smooth="yes"/>
+      <point x="378" y="-390"/>
+      <point x="635" y="-245"/>
+      <point x="635" y="54" type="curve" smooth="yes"/>
+      <point x="635" y="232"/>
+      <point x="597" y="465"/>
+      <point x="495" y="465" type="curve" smooth="yes"/>
+      <point x="390" y="465"/>
+      <point x="360" y="240"/>
+      <point x="360" y="170" type="curve" smooth="yes"/>
+      <point x="360" y="76"/>
+      <point x="433" y="0"/>
+      <point x="517" y="0" type="curve" smooth="yes"/>
+      <point x="729" y="0" type="line" smooth="yes"/>
+      <point x="763" y="0"/>
+      <point x="779" y="43"/>
+      <point x="779" y="90" type="curve" smooth="yes"/>
+      <point x="779" y="137"/>
+      <point x="763" y="180"/>
+      <point x="729" y="180" type="curve" smooth="yes"/>
+      <point x="513" y="180" type="line" smooth="yes"/>
+      <point x="448" y="180"/>
+      <point x="415" y="211"/>
+      <point x="415" y="223" type="curve" smooth="yes"/>
+      <point x="415" y="250"/>
+      <point x="454" y="285"/>
+      <point x="481" y="285" type="curve" smooth="yes"/>
+      <point x="515" y="285"/>
+      <point x="587" y="203"/>
+      <point x="587" y="64" type="curve" smooth="yes"/>
+      <point x="587" y="-148"/>
+      <point x="275" y="-269"/>
+      <point x="71" y="-269" type="curve" smooth="yes"/>
+      <point x="62" y="-269"/>
+      <point x="54" y="-268"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>public.markColor</key>
       <string>0.75,0.75,0.75,1</string>
     </dict>
