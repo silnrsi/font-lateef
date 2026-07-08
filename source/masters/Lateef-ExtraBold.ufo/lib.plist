@@ -144,25 +144,13 @@
     </dict>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>3414</string>
+  <string>3436</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Extra</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
-    <string>/space/space/arrubabove-ar/space/space/space/space/aththalathaabove-ar/space/space/space/assajdaabove-ar/space/space/space/space/space/space/annisfabove-ar/space/space/space/saktaabove-ar/space/space/space/space/space/qifabove-ar/space/space/space/space/space/imaalabelow-ar/space/space/space/space/tasheel-ar</string>
-    <string>/hahVinvertedbelow-ar/hahVinvertedbelow-ar.fina/hahVinvertedbelow-ar.medi/hahVinvertedbelow-ar.init</string>
-    <string>/seenTahTwodotshorizontalabove-ar/seenTahTwodotshorizontalabove-ar.fina/seenTahTwodotshorizontalabove-ar.medi/seenTahTwodotshorizontalabove-ar.init</string>
-    <string>
-/allahlong-ar/jallajalalouhou-ar/bismillah-ar/salaamuhuAlaynaa-ar/alayhiAsSalaam-ar/radiAllaahuAnhaa-ar 
-</string>
-    <string>/alayhiAsSalaam-ar/alayhimAsSalaam-ar/space/alayhimaaAsSalaam-ar</string>
-    <string>/alayhimaaAsSalaam-ar/sallallaahuAlayhiWaAalih-ar/rahimahuAllaah-ar/rahimahumAllaah-ar</string>
-    <string>/subhaanahuWaTaaalaa-ar/azzaWaJall-ar/rahmatuAllaahiAlayh-ar/rahmatuAllaahiAlayhaa-ar/rahmatuAllaahiAlayhim-ar/rahmatuAllaahiAlayhimaa-ar 
-/allahlong-ar/rahimahuAllaah-ar/alayhimAsSalaam-ar/tehMarbutagoal-ar.fina/alayhaaAsSalaam-ar/alayhimaaAsSalaam-ar 
-/hehDoachashmee-ar.fina/space/dammatanCurly-ar</string>
-    <string>/reh-ar.fina/ghain-ar.init/space/guilsinglleft/meem-ar.fina/lam-ar.init/beh-ar/guilsinglright/space/peh-ar.fina/jeem-ar.medi/lam-ar.init/space «/jeem-ar.fina/seen-ar.init/space/noon-ar »/space/guillemetleft.latn abc/guillemetright.latn</string>
-    <string>/noon-ar/noonthin-ar/noon-ar.fina/noonthin-ar.fina/noon-ar.medi/noonthin-ar.medi/noon-ar.init/noonthin-ar.init/tah-ar/biblicalendofverse-ar/kaf-ar/space/aleflow-ar</string>
-    <string>/hehDoachashmee-ar.fina</string>
+    <string>$43/rufiyaa £¥/euro 95/riyalSaudi/rufiyaa/uaeDirham/hamza-ar/omaniRial 1234
+567890$%¢£¤/euro/six.pnum</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>

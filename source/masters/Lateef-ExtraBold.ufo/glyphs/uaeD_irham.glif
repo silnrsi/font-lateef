@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uaeDirham" format="2">
-  <advance width="1135"/>
+  <advance width="1473"/>
   <unicode hex="20C3"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="D" xOffset="128"/>
+    <contour>
+      <point x="100" y="684" type="line"/>
+      <point x="100" y="596"/>
+      <point x="132" y="547"/>
+      <point x="220" y="547" type="curve"/>
+      <point x="1373" y="547" type="line"/>
+      <point x="1373" y="623"/>
+      <point x="1341" y="684"/>
+      <point x="1253" y="684" type="curve"/>
+    </contour>
+    <contour>
+      <point x="100" y="410" type="line"/>
+      <point x="100" y="322"/>
+      <point x="132" y="273"/>
+      <point x="220" y="273" type="curve"/>
+      <point x="1373" y="273" type="line"/>
+      <point x="1373" y="349"/>
+      <point x="1341" y="410"/>
+      <point x="1253" y="410" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CPP</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
     </dict>

@@ -1,9 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="riyalSaudi" format="2">
-  <advance width="1135"/>
+  <advance width="1074"/>
   <unicode hex="20C1"/>
   <outline>
-    <component base=".notdef"/>
+    <contour>
+      <point x="100" y="52" type="curve"/>
+      <point x="169" y="67"/>
+      <point x="359" y="107"/>
+      <point x="384" y="112" type="curve" smooth="yes"/>
+      <point x="419" y="118"/>
+      <point x="431" y="131"/>
+      <point x="450" y="157" type="curve" smooth="yes"/>
+      <point x="463" y="177"/>
+      <point x="475" y="195"/>
+      <point x="492" y="221" type="curve" smooth="yes"/>
+      <point x="502" y="237"/>
+      <point x="507" y="248"/>
+      <point x="507" y="271" type="curve" smooth="yes"/>
+      <point x="507" y="956" type="line"/>
+      <point x="474" y="938"/>
+      <point x="432" y="903"/>
+      <point x="413" y="878" type="curve"/>
+      <point x="413" y="216" type="line"/>
+      <point x="129" y="156" type="line"/>
+      <point x="112" y="125"/>
+      <point x="102" y="82"/>
+    </contour>
+    <contour>
+      <point x="611" y="-22" type="curve"/>
+      <point x="945" y="50" type="line"/>
+      <point x="961" y="80"/>
+      <point x="971" y="124"/>
+      <point x="974" y="154" type="curve"/>
+      <point x="640" y="82" type="line"/>
+      <point x="624" y="51"/>
+      <point x="615" y="13"/>
+    </contour>
+    <contour>
+      <point x="151" y="300" type="curve"/>
+      <point x="945" y="467" type="line"/>
+      <point x="961" y="498"/>
+      <point x="971" y="541"/>
+      <point x="974" y="571" type="curve"/>
+      <point x="179" y="404" type="line"/>
+      <point x="163" y="373"/>
+      <point x="153" y="330"/>
+    </contour>
+    <contour>
+      <point x="616" y="188" type="line"/>
+      <point x="945" y="258" type="line"/>
+      <point x="961" y="289"/>
+      <point x="971" y="332"/>
+      <point x="974" y="362" type="curve"/>
+      <point x="710" y="306" type="line"/>
+      <point x="710" y="904" type="line"/>
+      <point x="678" y="886"/>
+      <point x="635" y="851"/>
+      <point x="616" y="825" type="curve"/>
+    </contour>
   </outline>
   <lib>
     <dict>
