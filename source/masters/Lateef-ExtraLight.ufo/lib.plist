@@ -153,7 +153,8 @@
   <array>
     <string>$43/rufiyaa £¥/euro 95/riyalSaudi/rufiyaa/uaeDirham/hamza-ar/omaniRial 1234
 567890$%¢£¤/euro/six.pnum</string>
-    <string>/waw-ar.fina/wawring-ar.fina/kirghizoe-ar.fina/dal-ar/wawring-ar/dal-ar/kirghizoe-ar/waw-ar/dal-ar</string>
+    <string>/shadda_kasra-ar/space/space/hamza_kasra-ar 
+/fathasmallbaseline-ar/space/sukunovalbelow-ar/space/space/squarebelow-ar/space/space/squarefilledbelow-ar/lam-ar/northeastArrowheadabove-ar/space/space/northeastArrowheadbelow-ar/space/space/southwestArrowheadbelow-ar/space/dotlessheadofkhahbaseline-ar/space/space/space/hehabove-ar/space/noonFathaabove-ar/space/space/noonFathabelow-ar/space/space/noonDammaabove-ar/space/noonDammabelow-ar/space/space/space/wordkabbirabove-ar/space/space/space/largecircleabove-ar/space/space/sukun-ar/space/smallcircleabove-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>

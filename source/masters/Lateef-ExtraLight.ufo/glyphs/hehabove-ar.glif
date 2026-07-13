@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehabove-ar" format="2">
-  <advance width="1135"/>
   <unicode hex="10EF7"/>
+  <anchor x="395" y="939" name="_diaA"/>
+  <anchor x="344" y="1343" name="diaA"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="heh-ar.knotted" xScale="0.5" yScale="0.5" xOffset="167" yOffset="940"/>
   </outline>
   <lib>
     <dict>

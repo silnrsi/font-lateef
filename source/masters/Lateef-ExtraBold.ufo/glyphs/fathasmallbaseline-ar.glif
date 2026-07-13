@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fathasmallbaseline-ar" format="2">
+  <advance width="270"/>
   <unicode hex="10EC9"/>
-  <anchor x="0" y="1308" name="_diaA"/>
-  <anchor x="0" y="1500" name="diaA"/>
+  <anchor x="135" y="128" name="_diaB"/>
+  <anchor x="136" y="-27" name="diaB"/>
   <outline>
-    <component base="fatha-ar" xScale="0.66" yScale="0.66" xOffset="-111" yOffset="637"/>
+    <component base="fatha-ar" xScale="0.66" yScale="0.66" xOffset="23" yOffset="-706"/>
   </outline>
   <lib>
     <dict>

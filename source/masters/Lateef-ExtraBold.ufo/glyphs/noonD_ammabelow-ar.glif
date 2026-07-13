@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonDammabelow-ar" format="2">
   <unicode hex="10EF6"/>
-  <anchor x="-1" y="-102" name="_diaB"/>
+  <anchor x="-1" y="187" name="_diaB"/>
   <anchor x="-1" y="-811" name="diaB"/>
   <outline>
-    <component base="_noon" yOffset="-1700"/>
+    <component base="noonDammaabove-ar" yOffset="-1716"/>
   </outline>
   <lib>
     <dict>
