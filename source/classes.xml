@@ -476,10 +476,11 @@ of the license along with this Font Software. If this is not the case, go to
         endofayah-ar endofayah-ar.2
         endofayah-ar.alt endofayah-ar.alt.2
         endofayah-ar.altB endofayah-ar.altB.2
+        endofayah-ar.altC endofayah-ar.altC.2
     </class>
 
     <class name="TakesSmallDigits">
-        endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3
+        endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3 endofayah-ar.altC.3
     </class>
 
     <!--
@@ -519,7 +520,7 @@ of the license along with this Font Software. If this is not the case, go to
 
     <!-- cv80 End of Ayah -->
 
-    <!-- *NEXT 3 CLASSES MUST MATCH* -->
+    <!-- *NEXT 4 CLASSES MUST MATCH* -->
 
     <class name="Ayah">
         endofayah-ar      endofayah-ar.2      endofayah-ar.3
@@ -533,8 +534,12 @@ of the license along with this Font Software. If this is not the case, go to
         endofayah-ar.altB endofayah-ar.altB.2 endofayah-ar.altB.3
     </class>
 
+    <class name="AyahStar">
+        endofayah-ar.altC  endofayah-ar.altC.2  endofayah-ar.altC.3
+    </class>
+
     <class name="AyahAny">
-        @Ayah @AyahCircle @AyahSquare
+        @Ayah @AyahCircle @AyahSquare @AyahStar
     </class>
 
     <!-- cv82 Eastern Digits -->
