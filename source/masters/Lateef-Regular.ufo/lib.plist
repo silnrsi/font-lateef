@@ -155,6 +155,7 @@
 567890$%¢£¤/euro/six.pnum</string>
     <string>/shadda_kasra-ar/space/space/hamza_kasra-ar 
 /fathasmallbaseline-ar/space/sukunovalbelow-ar/space/space/squarebelow-ar/space/space/squarefilledbelow-ar/lam-ar/northeastArrowheadabove-ar/space/space/northeastArrowheadbelow-ar/space/space/southwestArrowheadbelow-ar/space/dotlessheadofkhahbaseline-ar/space/space/space/hehabove-ar/space/noonFathaabove-ar/space/space/noonFathabelow-ar/space/space/noonDammaabove-ar/space/noonDammabelow-ar/space/space/space/wordkabbirabove-ar/space/space/space/largecircleabove-ar/space/space/sukun-ar/space/smallcircleabove-ar</string>
+    <string>/endofayah-ar/endofayah-ar.2/endofayah-ar.3/endofayah-ar.altB/endofayah-ar.alt 8/endofayah-ar.altC/endofayah-ar.altC.2/endofayah-ar.altC.3</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
   <integer>2500</integer>

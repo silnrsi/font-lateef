@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endofayah-ar.altC.3" format="2">
-  <advance width="1135"/>
+  <advance width="1844"/>
+  <anchor x="220" y="160" name="digitR"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="endofayah-ar.altC"/>
   </outline>
   <lib>
     <dict>

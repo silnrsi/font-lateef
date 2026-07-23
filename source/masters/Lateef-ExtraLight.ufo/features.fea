@@ -20,7 +20,8 @@
 @Ayah = [endofayah-ar endofayah-ar.2 endofayah-ar.3];
 @AyahCircle = [endofayah-ar.alt endofayah-ar.alt.2 endofayah-ar.alt.3];
 @AyahSquare = [endofayah-ar.altB endofayah-ar.altB.2 endofayah-ar.altB.3];
-@AyahAny = [@Ayah @AyahCircle @AyahSquare];
+@AyahStar = [endofayah-ar.altC endofayah-ar.altC.2 endofayah-ar.altC.3];
+@AyahAny = [@Ayah @AyahCircle @AyahSquare @AyahStar];
 @BehLikeWAboveInit = [noon-ar.init teh-ar.init theh-ar.init tehThreedotsdown-ar.init tehVabove-ar.init tteh-ar.init ttehVabove-ar.init tteheh-ar.init teheh-ar.init tehThreedotsupbelow-ar.init behVabove-ar.init behhamzaabove-ar.init tehTehabove-ar.init behMeemabove-ar.init pehMeemabove-ar.init];
 @Damma = [damma-ar shadda_damma-ar hamza_damma-ar damma_meem-ar];
 @DammaInverted = [dammainverted-ar];
@@ -104,8 +105,8 @@
 @ShaddaMarks = [fathatan-ar dammatan-ar fatha-ar damma-ar alefabove-ar];
 @ShaddaLigatureParts = [@ShaddaMarks kasratan-ar kasra-ar shadda-ar graphemejoinercomb];
 @TakesLargeDaggerAlef = [alefMaksura-ar alefMaksura-ar.fina dad-ar dad-ar.fina dadDotbelow-ar dadDotbelow-ar.fina e-ar e-ar.fina emquad emspace enquad enspace figurespace figurespace.tnum fourperemspace hairspace highhamzaYeh-ar highhamzaYeh-ar.fina kashida-ar narrownbspace nbspace punctuationspace sad-ar sad-ar.fina sadThreedots-ar sadThreedots-ar.fina sadThreedotsbelow-ar sadThreedotsbelow-ar.fina sadTwodotsbelow-ar sadTwodotsbelow-ar.fina seen-ar seen-ar.fina seenDotbelowDotabove-ar seenDotbelowDotabove-ar.fina seenFourabove-ar seenFourabove-ar.fina seenFourdotsabove-ar seenFourdotsabove-ar.fina seenTahTwodotshorizontalabove-ar seenTahTwodotshorizontalabove-ar.fina seenThreedotsbelow-ar seenThreedotsbelow-ar.fina seenTwodotsverticalabove-ar seenTwodotsverticalabove-ar.fina seenVinvertedabove-ar seenVinvertedabove-ar.fina sheen-ar sheen-ar.fina sheenDotbelow-ar sheenDotbelow-ar.fina sheenThreedotsbelow-ar sheenThreedotsbelow-ar.fina sixperemspace space thinspace threeperemspace yeh-ar yeh-ar.fina yeh-farsi yeh-farsi.fina yehFourbelow-ar yehFourbelow-ar.fina yehFourbelow-farsi yehFourbelow-farsi.fina yehHamzaabove-ar yehHamzaabove-ar.fina yehTail-ar yehTail-ar.fina yehThreeabove-farsi yehThreeabove-farsi.fina yehThreedotsabove-farsi yehThreedotsabove-farsi.fina yehThreedotsbelow-ar yehThreedotsbelow-ar.fina yehTwoabove-farsi yehTwoabove-farsi.fina yehTwodotsabove-farsi yehTwodotsabove-farsi.fina yehTwodotsbelowDotabove-ar yehTwodotsbelowDotabove-ar.fina yehTwodotsbelowHamzaabove-ar yehTwodotsbelowHamzaabove-ar.fina yehTwodotsbelowNoonabove-ar yehTwodotsbelowNoonabove-ar.fina yehVabove-ar yehVabove-ar.fina yehVinverted-farsi yehVinverted-farsi.fina];
-@TakesMediumDigits = [number-ar number-ar.2 number-ar.3 year-ar year-ar.2 year-ar.3 year-ar.4 footnotemarker-ar footnotemarker-ar.2 pagenumber-ar pagenumber-ar.2 pagenumber-ar.3 pagenumber-ar.4 samvat-ar samvat-ar.2 samvat-ar.3 samvat-ar.4 numbermark-ar numbermark-ar.2 numbermark-ar.3 numbermark-ar.4 endofayah-ar endofayah-ar.2 endofayah-ar.alt endofayah-ar.alt.2 endofayah-ar.altB endofayah-ar.altB.2];
-@TakesSmallDigits = [endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3];
+@TakesMediumDigits = [number-ar number-ar.2 number-ar.3 year-ar year-ar.2 year-ar.3 year-ar.4 footnotemarker-ar footnotemarker-ar.2 pagenumber-ar pagenumber-ar.2 pagenumber-ar.3 pagenumber-ar.4 samvat-ar samvat-ar.2 samvat-ar.3 samvat-ar.4 numbermark-ar numbermark-ar.2 numbermark-ar.3 numbermark-ar.4 endofayah-ar endofayah-ar.2 endofayah-ar.alt endofayah-ar.alt.2 endofayah-ar.altB endofayah-ar.altB.2 endofayah-ar.altC endofayah-ar.altC.2];
+@TakesSmallDigits = [endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3 endofayah-ar.altC.3];
 @UTR53_220MCM = [hamzabelow-ar largerounddotbelow-ar seenbelow-ar wawbelow-ar];
 @UTR53_220other = [alefbelow-ar dammaturnedbelow-ar dotvowelbelow-ar doubleverticalbarbelow-ar imaalabelow-ar ishmaambelow-ar kasraCurly-ar kasraDotbelow-ar kasratanCurly-ar largecirclebelow-ar largerounddotinsidecirclebelow-ar leftarrowheadbelow-ar meembelow-ar noonbelow-ar qasrbelow-ar rhombusStopbelow-ar rightarrowheadbelow-ar saktabelow-ar sukunbelow-ar tasheel-ar toneloopbelow-ar toneonedotbelow-ar tonetwodotsbelow-ar wavyhamzabelow-ar wordmaddabelow-ar];
 @UTR53_230MCM = [hamzaabove-ar highwaw-ar largerounddotabove-ar noonabove-ar noonghunnaabove-ar seenabove-ar yehabove-ar yehabove-farsi yehbarreeTwobelowabove-ar zahabove-ar];
@@ -1498,15 +1499,15 @@ markClass alefoverlay-ar <anchor 293 540> @_diaO;
 # baseClass colontriangularmod <anchor 223 1091> @U;
 
 # AP: digitR
-@digitR = [disputedendofayah-ar disputedendofayah-ar.2 disputedendofayah-ar.3 eight-ar.medium eight-persian.medium eight.medium five-ar.medium five-persian.medium five.medium four-ar.medium four-persian.medium four-persian.roh.medium four-persian.urdu.medium four.medium nine-ar.medium nine-persian.medium nine.medium one-ar.medium one-persian.medium one.medium seven-ar.medium seven-persian.medium seven-persian.urdu.medium seven.medium six-ar.medium six-persian.medium six-persian.urdu.medium six.medium three-ar.medium three-persian.medium three.medium two-ar.medium two-persian.medium two.medium zero-ar.medium zero-persian.medium zero.medium eight-ar.small eight-persian.small eight.small five-ar.small five-persian.small five.small four-ar.small four-persian.roh.small four-persian.small four-persian.urdu.small four.small nine-ar.small nine-persian.small nine.small one-ar.small one-persian.small one.small seven-ar.small seven-persian.small seven-persian.urdu.small seven.small six-ar.small six-persian.small six-persian.urdu.small six.small three-ar.small three-persian.small three.small two-ar.small two-persian.small two.small zero-ar.small zero-persian.small zero.small endofayah-ar endofayah-ar.alt endofayah-ar.altB endofayah-ar.2 endofayah-ar.alt.2 endofayah-ar.altB.2 endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3 footnotemarker-ar footnotemarker-ar.2 number-ar number-ar.2 numbermark-ar pagenumber-ar.2 piastremarkabove-ar piastremarkabove-ar.2 poundmarkabove-ar.2 number-ar.3 numbermark-ar.2 numbermark-ar.3 numbermark-ar.4 pagenumber-ar pagenumber-ar.3 pagenumber-ar.4 piastremarkabove-ar.3 piastremarkabove-ar.4 poundmarkabove-ar poundmarkabove-ar.3 poundmarkabove-ar.4 samvat-ar samvat-ar.2 samvat-ar.3 samvat-ar.4 year-ar year-ar.2 year-ar.3 year-ar.4];
+@digitR = [disputedendofayah-ar disputedendofayah-ar.2 disputedendofayah-ar.3 eight-ar.medium eight-persian.medium eight.medium five-ar.medium five-persian.medium five.medium four-ar.medium four-persian.medium four-persian.roh.medium four-persian.urdu.medium four.medium nine-ar.medium nine-persian.medium nine.medium one-ar.medium one-persian.medium one.medium seven-ar.medium seven-persian.medium seven-persian.urdu.medium seven.medium six-ar.medium six-persian.medium six-persian.urdu.medium six.medium three-ar.medium three-persian.medium three.medium two-ar.medium two-persian.medium two.medium zero-ar.medium zero-persian.medium zero.medium eight-ar.small eight-persian.small eight.small five-ar.small five-persian.small five.small four-ar.small four-persian.roh.small four-persian.small four-persian.urdu.small four.small nine-ar.small nine-persian.small nine.small one-ar.small one-persian.small one.small seven-ar.small seven-persian.small seven-persian.urdu.small seven.small six-ar.small six-persian.small six-persian.urdu.small six.small three-ar.small three-persian.small three.small two-ar.small two-persian.small two.small zero-ar.small zero-persian.small zero.small endofayah-ar endofayah-ar.alt endofayah-ar.altB endofayah-ar.altC endofayah-ar.2 endofayah-ar.alt.2 endofayah-ar.altB.2 endofayah-ar.altC.2 endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3 endofayah-ar.altC.3 footnotemarker-ar footnotemarker-ar.2 number-ar number-ar.2 numbermark-ar pagenumber-ar.2 piastremarkabove-ar piastremarkabove-ar.2 poundmarkabove-ar.2 number-ar.3 numbermark-ar.2 numbermark-ar.3 numbermark-ar.4 pagenumber-ar pagenumber-ar.3 pagenumber-ar.4 piastremarkabove-ar.3 piastremarkabove-ar.4 poundmarkabove-ar poundmarkabove-ar.3 poundmarkabove-ar.4 samvat-ar samvat-ar.2 samvat-ar.3 samvat-ar.4 year-ar year-ar.2 year-ar.3 year-ar.4];
 # baseClass disputedendofayah-ar <anchor 415 0> @digitR;
 # baseClass disputedendofayah-ar.2 <anchor 533 0> @digitR;
 # baseClass disputedendofayah-ar.3 <anchor 605 0> @digitR;
 # baseClass [eight-ar.medium eight-persian.medium eight.medium five-ar.medium five-persian.medium five.medium four-ar.medium four-persian.medium four-persian.roh.medium four-persian.urdu.medium four.medium nine-ar.medium nine-persian.medium nine.medium one-ar.medium one-persian.medium one.medium seven-ar.medium seven-persian.medium seven-persian.urdu.medium seven.medium six-ar.medium six-persian.medium six-persian.urdu.medium six.medium three-ar.medium three-persian.medium three.medium two-ar.medium two-persian.medium two.medium zero-ar.medium zero-persian.medium zero.medium] <anchor 660 0> @digitR;
 # baseClass [eight-ar.small eight-persian.small eight.small five-ar.small five-persian.small five.small four-ar.small four-persian.roh.small four-persian.small four-persian.urdu.small four.small nine-ar.small nine-persian.small nine.small one-ar.small one-persian.small one.small seven-ar.small seven-persian.small seven-persian.urdu.small seven.small six-ar.small six-persian.small six-persian.urdu.small six.small three-ar.small three-persian.small three.small two-ar.small two-persian.small two.small zero-ar.small zero-persian.small zero.small] <anchor 470 0> @digitR;
-# baseClass [endofayah-ar endofayah-ar.alt endofayah-ar.altB] <anchor 592 50> @digitR;
-# baseClass [endofayah-ar.2 endofayah-ar.alt.2 endofayah-ar.altB.2] <anchor 262 50> @digitR;
-# baseClass [endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3] <anchor 220 160> @digitR;
+# baseClass [endofayah-ar endofayah-ar.alt endofayah-ar.altB endofayah-ar.altC] <anchor 592 50> @digitR;
+# baseClass [endofayah-ar.2 endofayah-ar.alt.2 endofayah-ar.altB.2 endofayah-ar.altC.2] <anchor 262 50> @digitR;
+# baseClass [endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3 endofayah-ar.altC.3] <anchor 220 160> @digitR;
 # baseClass footnotemarker-ar <anchor 550 0> @digitR;
 # baseClass footnotemarker-ar.2 <anchor 570 0> @digitR;
 # baseClass number-ar <anchor 369 0> @digitR;
@@ -2456,9 +2457,9 @@ lookup SukunAlternates {
 # End of Ayah alternates: cv80
 lookup AyahAlternates {
     lookupflag 0;
-    sub endofayah-ar from [endofayah-ar.alt endofayah-ar.altB];
-    sub endofayah-ar.2 from [endofayah-ar.alt.2 endofayah-ar.altB.2];
-    sub endofayah-ar.3 from [endofayah-ar.alt.3 endofayah-ar.altB.3];
+    sub endofayah-ar from [endofayah-ar.alt endofayah-ar.altB endofayah-ar.altC];
+    sub endofayah-ar.2 from [endofayah-ar.alt.2 endofayah-ar.altB.2 endofayah-ar.altC.2];
+    sub endofayah-ar.3 from [endofayah-ar.alt.3 endofayah-ar.altB.3 endofayah-ar.altC.3];
 } AyahAlternates;
 
 
@@ -3425,6 +3426,10 @@ feature cv80 {
             name "Simplified B";
         };
 
+                ParamUILabelNameID {
+            name "Star";
+        };
+
     };
 
     # Same for latin & arabic:
@@ -3992,8 +3997,8 @@ lookup SubtendingMarks {
         pos @DigitsAnyMedium' <-922 50 -660 0> @DigitsAnyMedium' <-1582 50 -660 0> endofayah-ar.alt.2;
         pos endofayah-ar.altB.2 @DigitsAnyMedium' <-1582 50 -660 0> @DigitsAnyMedium' <-922 50 -660 0>;
         pos @DigitsAnyMedium' <-922 50 -660 0> @DigitsAnyMedium' <-1582 50 -660 0> endofayah-ar.altB.2;
-        pos endofayah-ar.altC.2 @DigitsAnyMedium' <-1135 0 -660 0> @DigitsAnyMedium' <-475 0 -660 0>;
-        pos @DigitsAnyMedium' <-475 0 -660 0> @DigitsAnyMedium' <-1135 0 -660 0> endofayah-ar.altC.2;
+        pos endofayah-ar.altC.2 @DigitsAnyMedium' <-1582 50 -660 0> @DigitsAnyMedium' <-922 50 -660 0>;
+        pos @DigitsAnyMedium' <-922 50 -660 0> @DigitsAnyMedium' <-1582 50 -660 0> endofayah-ar.altC.2;
         pos footnotemarker-ar.2 @DigitsAnyMedium' <-1592 0 -660 0> @DigitsAnyMedium' <-932 0 -660 0>;
         pos @DigitsAnyMedium' <-932 0 -660 0> @DigitsAnyMedium' <-1592 0 -660 0> footnotemarker-ar.2;
         pos number-ar.2 @DigitsAnyMedium' <-1798 0 -660 0> @DigitsAnyMedium' <-1138 0 -660 0>;
@@ -4023,8 +4028,8 @@ lookup SubtendingMarks {
         pos @DigitsAnyMedium' <-1252 50 -660 0> endofayah-ar.alt;
         pos endofayah-ar.altB @DigitsAnyMedium' <-1252 50 -660 0>;
         pos @DigitsAnyMedium' <-1252 50 -660 0> endofayah-ar.altB;
-        pos endofayah-ar.altC @DigitsAnyMedium' <-1135 0 -660 0>;
-        pos @DigitsAnyMedium' <-1135 0 -660 0> endofayah-ar.altC;
+        pos endofayah-ar.altC @DigitsAnyMedium' <-1252 50 -660 0>;
+        pos @DigitsAnyMedium' <-1252 50 -660 0> endofayah-ar.altC;
         pos footnotemarker-ar @DigitsAnyMedium' <-900 0 -660 0>;
         pos @DigitsAnyMedium' <-900 0 -660 0> footnotemarker-ar;
         pos number-ar @DigitsAnyMedium' <-1086 0 -660 0>;
