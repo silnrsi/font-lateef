@@ -2,7 +2,7 @@
 <glyph name="fathasmallbaseline-ar" format="2">
   <advance width="250"/>
   <unicode hex="10EC9"/>
-  <anchor x="125" y="128" name="_diaB"/>
+  <anchor x="125" y="128" name="diaA"/>
   <anchor x="126" y="-27" name="diaB"/>
   <outline>
     <component base="fatha-ar" xScale="0.66" yScale="0.66" xOffset="13" yOffset="-706"/>
