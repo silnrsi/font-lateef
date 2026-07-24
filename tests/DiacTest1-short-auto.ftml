@@ -5282,6 +5282,36 @@ U+0670" stylename="cv76_2">
       <comment>yehSmallTwobelow-ar alefabove-ar</comment>
       <string>\u010EC5\u000670</string>
     </test>
+    <test background="#ffc8a0" label="U+10EC9
+U+064E">
+      <comment>fathasmallbaseline-ar fatha-ar</comment>
+      <string>\u010EC9\u00064E \u010EC9\u000650 \u010EC9\u000654 \u010EC9\u000670</string>
+    </test>
+    <test background="#ffc8a0" label="U+10EC9
+U+0670" stylename="cv76_1">
+      <comment>fathasmallbaseline-ar alefabove-ar</comment>
+      <string>\u010EC9\u000670</string>
+    </test>
+    <test background="#ffc8a0" label="U+10EC9
+U+0670" stylename="cv76_2">
+      <comment>fathasmallbaseline-ar alefabove-ar</comment>
+      <string>\u010EC9\u000670</string>
+    </test>
+    <test background="#ffc8a0" label="U+10ECA
+U+064E">
+      <comment>dotlessheadofkhahbaseline-ar fatha-ar</comment>
+      <string>\u010ECA\u00064E \u010ECA\u000650 \u010ECA\u000654 \u010ECA\u000670</string>
+    </test>
+    <test background="#ffc8a0" label="U+10ECA
+U+0670" stylename="cv76_1">
+      <comment>dotlessheadofkhahbaseline-ar alefabove-ar</comment>
+      <string>\u010ECA\u000670</string>
+    </test>
+    <test background="#ffc8a0" label="U+10ECA
+U+0670" stylename="cv76_2">
+      <comment>dotlessheadofkhahbaseline-ar alefabove-ar</comment>
+      <string>\u010ECA\u000670</string>
+    </test>
   </testgroup>
   <testgroup label="All Arabic diacritics on representative bases">
     <test label="U+0627
