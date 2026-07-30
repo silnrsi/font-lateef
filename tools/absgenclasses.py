@@ -195,13 +195,6 @@ def doit(args):
             if gname not in args.ifont:
                 ufomissing.add(gname)
 
-    def addToLigatureClasses(gname, uids, basename, ext, encoded):
-        # At this point the only case we're interested in is lam-alef isolates (for kerning purposes)
-        if len(uids) == 2 and get_ucd(uid,'jg') == 'Lam' and get_ucd(uid[1], 'jg') == 'Alef' and ext is None:
-            # Got a lam-alef of some sort...
-            # For now, save the USVs organized around the lam uid:
-            lamAlefs.setdefault(uid[0], []).append(uid[1])
-
     def makeLines(glist, padding=0):
         """break list of glyphnames into lines for output"""
         lines = []
