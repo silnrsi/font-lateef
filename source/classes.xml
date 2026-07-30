@@ -618,21 +618,18 @@ of the license along with this Font Software. If this is not the case, go to
 
     <!-- These groups of classes must match. They are mainly bogus classes that make FEAX compilation work. -->
 
-    <class name="Maddah">      madda-ar</class>
+    <class name="Maddah">      madda-ar</class>    <!-- Used in lookups SmallMadda and MaddaAlternate -->
     <class name="Maddah.small">madda-ar</class>
 
-    <class name="HonLigCall"> </class>
+    <class name="HonLigCall"> </class>             <!-- used in lookup HonLigAlternates -->
     <class name="HonLigSmpl"> </class>
 
-    <class name="cno_loclWLF">dal-ar</class>
+    <class name="cno_loclWLF">dal-ar</class>        <!-- used in lookup WolofCALT -->
     <class name="c_loclWLF">  dal-ar</class>
 
-    <class name="AlefRareNoLig">      </class>
+    <class name="AlefRareNoLig">      </class>      <!-- used in lookup LamAlefLigatures -->
     <class name="LamAlefRareLig">     </class>
-    <class name="LamAlefRareLigFina"> </class>
-
-    <class name="LamAlefHamzaaboveLig"> </class>
-    <class name="LamAlefHamzabelowLig"> </class>
+    <class name="LamAlefRareLigFina"> </class>      
 
     <!--
     ===============================
