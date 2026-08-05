@@ -4,6 +4,7 @@
   <unicode hex="25CC"/>
   <anchor x="512" y="1060" name="diaA"/>
   <anchor x="512" y="-49" name="diaB"/>
+  <anchor x="512" y="512" name="diaO"/>
   <outline>
     <contour>
       <point x="836" y="803" type="curve"/>
