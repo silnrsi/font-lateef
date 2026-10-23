@@ -1405,6 +1405,12 @@
     <string>yeh-ar.fina</string>
     <string>yeh-ar.medi</string>
     <string>yeh-ar.init</string>
+    <string>yeh-ar.noDots</string>
+    <string>yeh-ar.noDots.fina</string>
+    <string>yeh-ar.noDots.medi</string>
+    <string>yeh-ar.noDots.init</string>
+    <string>yeh-ar.noDots.loclKIR</string>
+    <string>yeh-ar.noDots.fina.loclKIR</string>
     <string>yehthin-ar</string>
     <string>yehthin-ar.fina</string>
     <string>yehthin-ar.medi</string>
@@ -1522,19 +1528,19 @@
     <string>alefbelow-ar</string>
     <string>alefoverlay-ar</string>
     <string>hamzaabove-ar</string>
+    <string>hamzaabove-ar.kasLow</string>
     <string>hamzabelow-ar</string>
     <string>fathatan-ar</string>
     <string>dammatan-ar</string>
     <string>dammatan-ar.sixNine</string>
     <string>kasratan-ar</string>
-    <string>kasratan-ar.lowered</string>
     <string>fatha-ar</string>
     <string>damma-ar</string>
     <string>damma-ar.filled</string>
     <string>damma-ar.short</string>
     <string>kasra-ar</string>
-    <string>kasra-ar.lowered</string>
     <string>shadda-ar</string>
+    <string>shadda-ar.kasLow</string>
     <string>sukun-ar</string>
     <string>sukun-ar.downOpen</string>
     <string>sukun-ar.leftOpen</string>
@@ -1805,33 +1811,33 @@
     <string>lam-ar.medi.allah2</string>
     <string>heh-ar.fina.allah</string>
     <string>hehgoal-ar.fina.allah</string>
-    <string>allahlong-ar</string>
-    <string>jallajalalouhou-ar</string>
     <string>rial</string>
     <string>bismillah-ar</string>
-    <string>salaamuhuAlaynaa-ar</string>
-    <string>alayhiAsSalaam-ar</string>
-    <string>alayhimAsSalaam-ar</string>
-    <string>alayhaaAsSalaam-ar</string>
-    <string>rahimahuAllaah-ar</string>
-    <string>rahimahumAllaah-ar</string>
+    <string>radiAllaahuAnhaa-ar</string>
+    <string>radiAllaahuAnhumaa-ar</string>
+    <string>radiAllaahuAnhum-ar</string>
+    <string>radiAllaahuAnhunna-ar</string>
+    <string>radiAllaahuAnh-ar</string>
     <string>rahmatuAllaahiAlayh-ar</string>
     <string>rahmatuAllaahiAlayhaa-ar</string>
-    <string>rahmatuAllaahiAlayhim-ar</string>
     <string>rahmatuAllaahiAlayhimaa-ar</string>
-    <string>radiAllaahuAnh-ar</string>
-    <string>radiAllaahuAnhaa-ar</string>
-    <string>radiAllaahuAnhum-ar</string>
-    <string>radiAllaahuAnhumaa-ar</string>
-    <string>radiAllaahuAnhunna-ar</string>
-    <string>sallallaahuAlayhiWaAalih-ar</string>
-    <string>alayhimaaAsSalaam-ar</string>
-    <string>alayhiAsSalaatuWaSalaam-ar</string>
+    <string>rahmatuAllaahiAlayhim-ar</string>
+    <string>rahimahuAllaah-ar</string>
+    <string>rahimahumAllaah-ar</string>
     <string>quddisaSirrah-ar</string>
-    <string>sallallahuAlayhiWaAaliheeWaSallam-ar</string>
-    <string>subhaanahuWaTaaalaa-ar</string>
     <string>azzaWaJall-ar</string>
+    <string>jallajalalouhou-ar</string>
     <string>tabaarakaWaTaaalaa-ar</string>
+    <string>allahlong-ar</string>
+    <string>sallallahuAlayhiWaAaliheeWaSallam-ar</string>
+    <string>sallallaahuAlayhiWaAalih-ar</string>
+    <string>alayhiAsSalaatuWaSalaam-ar</string>
+    <string>alayhiAsSalaam-ar</string>
+    <string>alayhaaAsSalaam-ar</string>
+    <string>alayhimaaAsSalaam-ar</string>
+    <string>alayhimAsSalaam-ar</string>
+    <string>salaamuhuAlaynaa-ar</string>
+    <string>subhaanahuWaTaaalaa-ar</string>
     <string>dammaturnedbelow-ar</string>
     <string>fathaCurly-ar</string>
     <string>dammaCurly-ar</string>
@@ -1871,6 +1877,7 @@
     <string>hamza_damma-ar.filled</string>
     <string>hamza_damma-ar.short</string>
     <string>hamza_kasra-ar</string>
+    <string>hamza_kasratan-ar</string>
     <string>shadda_alef-ar</string>
     <string>shadda_fathatan-ar</string>
     <string>shadda_dammatan-ar</string>
@@ -3352,6 +3359,12 @@
     <string>yeh-ar.fina</string>
     <string>yeh-ar.medi</string>
     <string>yeh-ar.init</string>
+    <string>yeh-ar.noDots</string>
+    <string>yeh-ar.noDots.fina</string>
+    <string>yeh-ar.noDots.medi</string>
+    <string>yeh-ar.noDots.init</string>
+    <string>yeh-ar.noDots.loclKIR</string>
+    <string>yeh-ar.noDots.fina.loclKIR</string>
     <string>yehthin-ar</string>
     <string>yehthin-ar.fina</string>
     <string>yehthin-ar.medi</string>
@@ -3469,19 +3482,19 @@
     <string>alefbelow-ar</string>
     <string>alefoverlay-ar</string>
     <string>hamzaabove-ar</string>
+    <string>hamzaabove-ar.kasLow</string>
     <string>hamzabelow-ar</string>
     <string>fathatan-ar</string>
     <string>dammatan-ar</string>
     <string>dammatan-ar.sixNine</string>
     <string>kasratan-ar</string>
-    <string>kasratan-ar.lowered</string>
     <string>fatha-ar</string>
     <string>damma-ar</string>
     <string>damma-ar.filled</string>
     <string>damma-ar.short</string>
     <string>kasra-ar</string>
-    <string>kasra-ar.lowered</string>
     <string>shadda-ar</string>
+    <string>shadda-ar.kasLow</string>
     <string>sukun-ar</string>
     <string>sukun-ar.downOpen</string>
     <string>sukun-ar.leftOpen</string>
@@ -3752,33 +3765,33 @@
     <string>lam-ar.medi.allah2</string>
     <string>heh-ar.fina.allah</string>
     <string>hehgoal-ar.fina.allah</string>
-    <string>allahlong-ar</string>
-    <string>jallajalalouhou-ar</string>
     <string>rial</string>
     <string>bismillah-ar</string>
-    <string>salaamuhuAlaynaa-ar</string>
-    <string>alayhiAsSalaam-ar</string>
-    <string>alayhimAsSalaam-ar</string>
-    <string>alayhaaAsSalaam-ar</string>
-    <string>rahimahuAllaah-ar</string>
-    <string>rahimahumAllaah-ar</string>
+    <string>radiAllaahuAnhaa-ar</string>
+    <string>radiAllaahuAnhumaa-ar</string>
+    <string>radiAllaahuAnhum-ar</string>
+    <string>radiAllaahuAnhunna-ar</string>
+    <string>radiAllaahuAnh-ar</string>
     <string>rahmatuAllaahiAlayh-ar</string>
     <string>rahmatuAllaahiAlayhaa-ar</string>
-    <string>rahmatuAllaahiAlayhim-ar</string>
     <string>rahmatuAllaahiAlayhimaa-ar</string>
-    <string>radiAllaahuAnh-ar</string>
-    <string>radiAllaahuAnhaa-ar</string>
-    <string>radiAllaahuAnhum-ar</string>
-    <string>radiAllaahuAnhumaa-ar</string>
-    <string>radiAllaahuAnhunna-ar</string>
-    <string>sallallaahuAlayhiWaAalih-ar</string>
-    <string>alayhimaaAsSalaam-ar</string>
-    <string>alayhiAsSalaatuWaSalaam-ar</string>
+    <string>rahmatuAllaahiAlayhim-ar</string>
+    <string>rahimahuAllaah-ar</string>
+    <string>rahimahumAllaah-ar</string>
     <string>quddisaSirrah-ar</string>
-    <string>sallallahuAlayhiWaAaliheeWaSallam-ar</string>
-    <string>subhaanahuWaTaaalaa-ar</string>
     <string>azzaWaJall-ar</string>
+    <string>jallajalalouhou-ar</string>
     <string>tabaarakaWaTaaalaa-ar</string>
+    <string>allahlong-ar</string>
+    <string>sallallahuAlayhiWaAaliheeWaSallam-ar</string>
+    <string>sallallaahuAlayhiWaAalih-ar</string>
+    <string>alayhiAsSalaatuWaSalaam-ar</string>
+    <string>alayhiAsSalaam-ar</string>
+    <string>alayhaaAsSalaam-ar</string>
+    <string>alayhimaaAsSalaam-ar</string>
+    <string>alayhimAsSalaam-ar</string>
+    <string>salaamuhuAlaynaa-ar</string>
+    <string>subhaanahuWaTaaalaa-ar</string>
     <string>dammaturnedbelow-ar</string>
     <string>fathaCurly-ar</string>
     <string>dammaCurly-ar</string>
@@ -3818,6 +3831,7 @@
     <string>hamza_damma-ar.filled</string>
     <string>hamza_damma-ar.short</string>
     <string>hamza_kasra-ar</string>
+    <string>hamza_kasratan-ar</string>
     <string>shadda_alef-ar</string>
     <string>shadda_fathatan-ar</string>
     <string>shadda_dammatan-ar</string>
@@ -5021,8 +5035,12 @@
     <string>uni0654064E</string>
     <key>hamza_kasra-ar</key>
     <string>uni06540650</string>
+    <key>hamza_kasratan-ar</key>
+    <string>uni0654064D</string>
     <key>hamzaabove-ar</key>
     <string>uni0654</string>
+    <key>hamzaabove-ar.kasLow</key>
+    <string>uni0654.kasLow</string>
     <key>hamzabelow-ar</key>
     <string>uni0655</string>
     <key>heh-ar</key>
@@ -5245,8 +5263,6 @@
     <string>uni0884</string>
     <key>kasra-ar</key>
     <string>uni0650</string>
-    <key>kasra-ar.lowered</key>
-    <string>uni0650.lowered</string>
     <key>kasraCurly-ar</key>
     <string>uni08E6</string>
     <key>kasraDotbelow-ar</key>
@@ -5257,8 +5273,6 @@
     <string>uni061A</string>
     <key>kasratan-ar</key>
     <string>uni064D</string>
-    <key>kasratan-ar.lowered</key>
-    <string>uni064D.lowered</string>
     <key>kasratanCurly-ar</key>
     <string>uni08E9</string>
     <key>keheh-ar</key>
@@ -6367,6 +6381,8 @@
     <string>uni06F7.urdu.tnum</string>
     <key>shadda-ar</key>
     <string>uni0651</string>
+    <key>shadda-ar.kasLow</key>
+    <string>uni0651.kasLow</string>
     <key>shadda_alef-ar</key>
     <string>uni06510670</string>
     <key>shadda_damma-ar</key>
@@ -6811,6 +6827,18 @@
     <string>uni064A.init</string>
     <key>yeh-ar.medi</key>
     <string>uni064A.medi</string>
+    <key>yeh-ar.noDots</key>
+    <string>uni064A.noDots</string>
+    <key>yeh-ar.noDots.fina</key>
+    <string>uni064A.noDots.fina</string>
+    <key>yeh-ar.noDots.fina.loclKIR</key>
+    <string>uni064A.noDots.fina.loclKIR</string>
+    <key>yeh-ar.noDots.init</key>
+    <string>uni064A.noDots.init</string>
+    <key>yeh-ar.noDots.loclKIR</key>
+    <string>uni064A.noDots.loclKIR</string>
+    <key>yeh-ar.noDots.medi</key>
+    <string>uni064A.noDots.medi</string>
     <key>yeh-farsi</key>
     <string>uni06CC</string>
     <key>yeh-farsi.fina</key>
