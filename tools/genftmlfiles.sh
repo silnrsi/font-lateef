@@ -38,6 +38,8 @@ tools/absgenftml.py -q -t 'AL Sorted (auto)'                     source/masters/
 tools/absgenftml.py -q -t 'DiacTest1 (auto)'                     source/masters/Lateef-Regular.ufo  tests/DiacTest1-auto.ftml       -l logs/DiacTest1.log        "${commonParams[@]}" -s 'url(../results/Lateef-ExtraLight.ttf)|ExLt' -s 'url(../results/Lateef-Regular.ttf)|Reg' -s 'url(../results/Lateef-ExtraBold.ttf)|ExBld' & 
 tools/absgenftml.py -q -t 'DiacTest1 Short (auto)'               source/masters/Lateef-Regular.ufo  tests/DiacTest1-short-auto.ftml -l logs/DiacTest1-short.log  "${commonParams[@]}" -s 'url(../results/Lateef-ExtraLight.ttf)|ExLt' -s 'url(../results/Lateef-Regular.ttf)|Reg' -s 'url(../results/Lateef-ExtraBold.ttf)|ExBld' &
 tools/absgenftml.py -q -t 'Subtending Marks (auto)'              source/masters/Lateef-Regular.ufo  tests/SubtendingMarks-auto.ftml -l logs/Subtending.log       "${commonParams[@]}" -s 'url(../results/Lateef-ExtraLight.ttf)|ExLt' -s 'url(../results/Lateef-Regular.ttf)|Reg' -s 'url(../results/Lateef-ExtraBold.ttf)|ExBld' &
+wait
+
 tools/absgenftml.py -q -t 'DaggerAlef (auto)'                    source/masters/Lateef-Regular.ufo  tests/DaggerAlef-auto.ftml      -l logs/DaggerAlef.log       "${commonParams[@]}" -s 'url(../results/Lateef-ExtraLight.ttf)|ExLt' -s 'url(../results/Lateef-Regular.ttf)|Reg' -s 'url(../results/Lateef-ExtraBold.ttf)|ExBld' &
 tools/absgenftml.py -q -t 'Yehbarree (auto)'                     source/masters/Lateef-Regular.ufo  tests/Yehbarree-auto.ftml       -l logs/Yehbarree.log        "${commonParams[@]}" -s 'url(../results/Lateef-ExtraLight.ttf)|ExLt' -s 'url(../results/Lateef-Regular.ttf)|Reg' -s 'url(../results/Lateef-ExtraBold.ttf)|ExBld' &
 tools/absgenftml.py -q -t 'Kerning (auto)'                       source/masters/Lateef-Regular.ufo  tests/Kern-auto.ftml            -l logs/Kerning.log          "${commonParams[@]}" -s 'url(../results/Lateef-ExtraLight.ttf)|ExLt' -s 'url(../results/Lateef-Regular.ttf)|Reg' -s 'url(../results/Lateef-ExtraBold.ttf)|ExBld' &
@@ -45,4 +47,5 @@ tools/absgenftml.py -q -t 'Kerning digits (auto)'                source/masters/
                               sed -i -e "s/&lt;/</g" -e "s/&gt;/>/g"                                tests/KernDigits-auto.ftml &
 tools/absgenftml.py -q -t 'Feature-Language Interactions (auto)' source/masters/Lateef-Regular.ufo  tests/FeatLang-auto.ftml        -l tests/logs/FeatLang.log   "${commonParams[@]}"                                                 -s 'url(../results/Lateef-Regular.ttf)|Reg'                                                 &
 wait
+
 echo done.
