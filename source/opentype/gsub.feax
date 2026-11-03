@@ -1901,7 +1901,7 @@ feature cv90 {  # Character Variant 90
 feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cvXX
     # Same for latin & arabic:
         lookup ShaddaKasraLigatures;     # Must execute after language-specific CALTs and cv62
-        lookup _HamzaKasraLigatures;      # Must execute after cv63
+        lookup HamzaKasraLigatures;      # Must execute after cv63
         lookup ComposeLowHamzaAbove;     # Must execute after HamzaKasraLigatures
         lookup DaggerAlefFixup;          # Must execute after language-specific CALTs and cv76
         lookup SignWithDigits;
